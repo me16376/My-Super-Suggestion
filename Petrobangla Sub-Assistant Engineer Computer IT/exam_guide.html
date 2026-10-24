@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<title>বুয়েট (BUET) পরীক্ষা পদ্ধতি, আপডেটেড মানবণ্টন ও পূর্ণাঙ্গ গাইড - উপ-সহকারী প্রকৌশলী (কম্পিউটার/আইটি) | পেট্রোবাংলা</title>
+<style>
+  @page {
+    size: A4;
+    margin: 8mm 12mm 8mm 12mm;
+  }
+  * {
+    box-sizing: border-box;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  body {
+    font-family: 'Nirmala UI', 'Kalpurush', 'SolaimanLipi', 'Segoe UI', Arial, sans-serif;
+    color: #1e293b;
+    background-color: #ffffff;
+    line-height: 1.36;
+    font-size: 10.6px;
+    margin: 0;
+    padding: 0;
+  }
+  .header-card {
+    background: linear-gradient(135deg, #0f172a 0%, #065f46 50%, #047857 100%);
+    color: #ffffff;
+    padding: 8px 14px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+    text-align: center;
+  }
+  .header-card h1 {
+    font-size: 15px;
+    margin: 0 0 2px 0;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  .header-card h2 {
+    font-size: 11.2px;
+    margin: 0 0 3px 0;
+    font-weight: 600;
+    color: #a7f3d0;
+  }
+  .badge-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+  .badge {
+    background: rgba(255, 255, 255, 0.18);
+    padding: 1.5px 7px;
+    border-radius: 10px;
+    font-size: 9.2px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+  }
+  .badge-highlight {
+    background: #f59e0b;
+    color: #0f172a;
+    font-weight: 700;
+    border-color: #fbbf24;
+  }
+  .section-title {
+    font-size: 11.2px;
+    font-weight: 700;
+    color: #0f172a;
+    border-left: 3.5px solid #059669;
+    padding-left: 5px;
+    margin: 5px 0 4px 0;
+    display: flex;
+    align-items: center;
+  }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+    margin-bottom: 5px;
+  }
+  .info-box {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    padding: 5px 8px;
+    font-size: 9.8px;
+  }
+  .info-box strong {
+    color: #047857;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
+  th, td {
+    border: 1px solid #cbd5e1;
+    padding: 3.5px 6px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  th {
+    background-color: #064e3b;
+    color: #ffffff;
+    font-weight: 600;
+  }
+  tr:nth-child(even) {
+    background-color: #f8fafc;
+  }
+  .alert-box {
+    background-color: #ecfdf5;
+    border-left: 3px solid #059669;
+    padding: 4px 7px;
+    border-radius: 0 4px 4px 0;
+    margin: 4px 0;
+    font-size: 9.8px;
+  }
+  .step-card {
+    border: 1px solid #e2e8f0;
+    border-radius: 5px;
+    padding: 5px 8px;
+    background: #ffffff;
+    margin-bottom: 5px;
+    page-break-inside: avoid;
+  }
+  .step-header {
+    font-weight: 700;
+    font-size: 10.8px;
+    color: #047857;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+    border-bottom: 1px dashed #cbd5e1;
+    padding-bottom: 2px;
+  }
+  .tag {
+    background: #d1fae5;
+    color: #065f46;
+    font-size: 8.8px;
+    padding: 1px 5px;
+    border-radius: 6px;
+    font-weight: 600;
+  }
+  .page-break {
+    page-break-before: always;
+  }
+  ul {
+    margin: 1.5px 0 2px 13px;
+    padding: 0;
+  }
+  li {
+    margin-bottom: 1px;
+  }
+  .footer-note {
+    text-align: center;
+    font-size: 8.8px;
+    color: #64748b;
+    margin-top: 4px;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 2.5px;
+  }
+  .no-print {
+    display: block;
+  }
+  @media print {
+    .no-print {
+      display: none !important;
+    }
+  }
+  .guide-top-bar {
+    background: #0f172a;
+    padding: 10px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #059669;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .guide-back-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #059669;
+    padding: 6px 14px;
+    border-radius: 6px;
+    transition: all 0.2s;
+  }
+  .guide-back-link:hover {
+    background: #047857;
+  }
+  .guide-actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .guide-action-btn {
+    background: #1e293b;
+    border: 1px solid #475569;
+    color: #e2e8f0;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.2s;
+  }
+  .guide-action-btn:hover {
+    background: #334155;
+    color: #ffffff;
+    border-color: #64748b;
+  }
+</style>
+</head>
+<body>
+
+<div class="no-print guide-top-bar">
+  <a href="../index.html" class="guide-back-link">
+    ← কেন্দ্রীয় মাস্টার ড্যাশবোর্ডে যান (Master Portal)
+  </a>
+  <div class="guide-actions">
+    <button class="guide-action-btn" onclick="window.print()">
+      🖨️ সিলেবাস গাইড প্রিন্ট / PDF সংরক্ষণ
+    </button>
+    <a href="Petrobangla_ad_2026_Circular.pdf" target="_blank" class="guide-action-btn">
+      📥 অফিশিয়াল সার্কুলার PDF
+    </a>
+  </div>
+</div>
+
+<!-- ================= PAGE 1: ওভারভিউ, কোম্পানিভিত্তিক পদবণ্টন ও বুয়েট পরীক্ষা পদ্ধতি ================= -->
+<div class="header-card">
+  <h1>বাংলাদেশ তেল, গ্যাস ও খনিজসম্পদ কর্পোরেশন (পেট্রোবাংলা)</h1>
+  <h2>উপ-সহকারী প্রকৌশলী (কম্পিউটার/আইটি) [১০ম গ্রেড] — বুয়েট (BUET) নিয়োগ পরীক্ষা পদ্ধতি, আপডেটেড মানবণ্টন ও মাস্টার গাইড</h2>
+  <div class="badge-container">
+    <span class="badge">মন্ত্রণালয়: বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয়</span>
+    <span class="badge">স্মারক: ২৮.০২.০০০০.০১০.১১.২৬.০০২৭.২৬.৪৫৩</span>
+    <span class="badge badge-highlight">পরীক্ষা গ্রহণকারী প্রতিষ্ঠান: বুয়েট (BUET - BRTC)</span>
+    <span class="badge">বিজ্ঞপ্তি ক্রমিক: ১৭.৪ (কম্পিউটার/আইটি)</span>
+    <span class="badge">গ্রেড: ১০ম (বেতন স্কেল: ১৬,০০০ – ৩৮,৬৪০/-)</span>
+    <span class="badge">মোট পদসংখ্যা: ০৮ টি (তিতাস গ্যাস ০৬ + বাখরাবাদ গ্যাস ০২)</span>
+  </div>
+</div>
+
+<div class="section-title">১. পদের মৌলিক বিবরণ, কোম্পানিভিত্তিক শূন্য পদ ও শিক্ষাগত যোগ্যতা</div>
+<div class="grid-2">
+  <div class="info-box">
+    <strong>কোম্পানিভিত্তিক শূন্য পদের বিবরণ (ক্রমিক ১৭.৪):</strong><br>
+    • <strong>তিতাস গ্যাস ট্রান্সমিশন অ্যান্ড ডিস্ট্রিবিউশন পিএলসি (TGTDPLC):</strong> ০৬ টি পদ<br>
+    • <strong>বাখরাবাদ গ্যাস ডিস্ট্রিবিউশন কোম্পানি লিমিটেড (BGDCL):</strong> ০২ টি পদ<br>
+    • <strong>সর্বমোট শূন্য পদ:</strong> <strong>০৮ টি পদ (১০ম গ্রেড)</strong><br>
+    • <strong>ডিসিপ্লিন:</strong> উপ-সহকারী প্রকৌশলী (কম্পিউটার টেকনোলজি)
+  </div>
+  <div class="info-box">
+    <strong>ন্যূনতম শিক্ষাগত যোগ্যতা ও বয়সসীমা:</strong><br>
+    • <strong>শিক্ষাগত যোগ্যতা:</strong> সরকার অনুমোদিত শিক্ষা প্রতিষ্ঠান হতে <strong>কম্পিউটার টেকনোলজি</strong>-তে ৪ (চার) বছর মেয়াদী ডিপ্লোমা-ইন-ইঞ্জিনিয়ারিং ডিগ্রি।<br>
+    • <strong>ফলাফল শর্ত:</strong> কোনো পরীক্ষায় ৩য় শ্রেণি/বিভাগ বা সমমানের সিজিপিএ গ্রহণযোগ্য নয়।<br>
+    • <strong>বয়সসীমা:</strong> ০১/০১/২০২৬ খ্রি. তারিখে অনূর্ধ্ব ৩২ (বত্রিশ) বছর।
+  </div>
+</div>
+
+<div class="alert-box">
+  <strong>আবেদনের গুরুত্বপূর্ণ তারিখ ও ফি:</strong> অনলাইন আবেদন (http://bogmc.teletalk.com.bd) শুরু ১৮ অক্টোবর ২০২৬ সকাল ১০:০০ টা থেকে এবং শেষ ১৭ নভেম্বর ২০২৬ বিকাল ০৫:০০ টা পর্যন্ত। পরীক্ষার ফি টেলিটকের মাধ্যমে মোট ২২৩/- টাকা।
+</div>
+
+<div class="section-title">২. বুয়েট (BUET) নিয়োগ পরীক্ষার কাঠামো ও আপডেটেড মানবণ্টন (১০০ নম্বর হাইব্রিড: MCQ + লিখিত)</div>
+
+<div class="step-card">
+  <div class="step-header">
+    <span>পরীক্ষার স্তর ১: বুয়েট হাইব্রিড পরীক্ষা (Non-Dept MCQ + Dept Written)</span>
+    <span class="tag">মোট নম্বর: ১০০ | সময়: ১ ঘণ্টা হতে ১ ঘণ্টা ৩০ মিনিট</span>
+  </div>
+  <p style="margin: 0 0 3px 0; font-size: 9.6px;">পেট্রোবাংলা এবং অধীনস্থ গ্যাস কোম্পানিসমূহের উপ-সহকারী প্রকৌশলী (১০ম গ্রেড) নিয়োগ পরীক্ষা <strong>বুয়েট (BUET - BRTC)</strong> কর্তৃক পরিচালিত হয়। বুয়েট এই পদের জন্য <strong>নন-ডিপার্টমেন্টাল ৬০ নম্বর (MCQ - ওএমআর শিট)</strong> এবং <strong>ডিপার্টমেন্টাল ৪০ নম্বর (লিখিত - খাতার পাতায় সমাধান)</strong> সমন্বিত হাইব্রিড পদ্ধতিতে পরীক্ষা নেয়:</p>
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 17%;">অংশ ও ফরম্যাট</th>
+        <th style="width: 26%;">বিষয় / ক্ষেত্র</th>
+        <th style="width: 12%;">নম্বর</th>
+        <th style="width: 45%;">প্রশ্নের ধরন, মানবণ্টন ও মূল ফোকাস বিষয়</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="4" style="font-weight: 700; background: #f8fafc;">
+          ১. নন-ডিপার্টমেন্টাল অংশ <br>
+          <span style="color: #047857; font-size: 9px;">[MCQ - ওএমআর শিট]</span><br>
+          <strong>(মোট ৬০ নম্বর)</strong>
+        </td>
+        <td><strong>সাধারণ গণিত ও মানসিক দক্ষতা</strong></td>
+        <td>১৫ – ২০ নম্বর</td>
+        <td>পাটিগণিত (শতকরা, লাভ-ক্ষতি, অনুপাত, কাজ-সময়, নল-চৌবাচ্চা), বীজগণিত, জ্যামিতি ও লজিক্যাল রিজনিং। <em>(বুয়েটের কাট-মার্ক নির্ধারণে গণিত অংশ সবচেয়ে বড় ফ্যাক্টর)</em>।</td>
+      </tr>
+      <tr>
+        <td><strong>ইংরেজি ভাষা ও ব্যাকরণ</strong></td>
+        <td>১৫ নম্বর</td>
+        <td>Parts of Speech, Appropriate Prepositions, Right Form of Verbs, Voice, Narration, Sentence Correction, Synonyms/Antonyms, Vocabulary।</td>
+      </tr>
+      <tr>
+        <td><strong>বাংলা ভাষা ও সাহিত্য</strong></td>
+        <td>১০ – ১৫ নম্বর</td>
+        <td>ব্যাকরণ (সন্ধি, সমাস, কারক, বাক্য শুদ্ধি, ণ-ত্ব/ষ-ত্ব, এককথায় প্রকাশ, বাগধারা) ও বাংলা সাহিত্যের প্রধান কবি-সাহিত্যিকদের কালজয়ী গ্রন্থ।</td>
+      </tr>
+      <tr>
+        <td><strong>সাধারণ জ্ঞান ও জ্বালানি খাত</strong></td>
+        <td>১০ – ১৫ নম্বর</td>
+        <td>বাংলাদেশ বিষয়াবলি, মুক্তিযুদ্ধ, সংবিধান, মেগাপ্রকল্প, আন্তর্জাতিক সাম্প্রতিক বিষয় এবং <strong>পেট্রোবাংলা, তিতাস গ্যাস ও জ্বালানি খাত বিশেষ</strong>।</td>
+      </tr>
+      <tr>
+        <td rowspan="4" style="font-weight: 700; background: #f0fdf4;">
+          ২. ডিপার্টমেন্টাল অংশ <br>
+          <span style="color: #065f46; font-size: 9px;">[লিখিত / Problem Solving]</span><br>
+          <strong>(মোট ৪০ নম্বর)</strong>
+        </td>
+        <td><strong>কম্পিউটার নেটওয়ার্কিং ও সাবনেটিং</strong></td>
+        <td>৮ – ১০ নম্বর</td>
+        <td>IPv4 Subnetting অংক (Subnet mask, Network ID, Broadcast ID, Usable IP Range নির্ণয়), OSI ও TCP/IP মডেল লেয়ারের কাজ, রাউটিং ও ক্যাবলিং কোডিং।</td>
+      </tr>
+      <tr>
+        <td><strong>ডাটাবেজ ও এসকিউএল (DBMS/SQL)</strong></td>
+        <td>৮ – ১০ নম্বর</td>
+        <td>জটিল SQL Query লেখা (INNER/LEFT JOIN, Group By, Having, Subqueries), Normalization (1NF, 2NF, 3NF টেবিল ডিকম্পোজিশন অংক), ER Diagram।</td>
+      </tr>
+      <tr>
+        <td><strong>প্রোগ্রামিং (C/C++) ও আউটপুট</strong></td>
+        <td>৮ – ১০ নম্বর</td>
+        <td>ছোট C প্রোগ্রাম লেখা, Output Tracing (পয়েন্টার, রিকার্শন, লুপের আউটপুট বের করা), ডাটা স্ট্রাকচার (স্ট্যাক, কিউ, লিংকড লিস্ট, সর্টিং অ্যালগরিদম)।</td>
+      </tr>
+      <tr>
+        <td><strong>ডিজিটাল লজিক ও ওএস শিডিউলিং</strong></td>
+        <td>৮ – ১০ নম্বর</td>
+        <td>Karnaugh Map (K-Map) সরলীকরণ, লজিক গেট সার্কিট, ৮০৮৬ মাইক্রোপ্রসেসর আর্কিটেকচার, CPU Scheduling ম্যাথ (Round Robin, FCFS Gantt Chart)।</td>
+      </tr>
+      <tr style="background: #e2e8f0; font-weight: 700;">
+        <td colspan="2" style="text-align: right;">সর্বমোট বুয়েট লিখিত নম্বর:</td>
+        <td>১০০ নম্বর</td>
+        <td>পাস ও কাটমার্ক: নন-ডিপার্টমেন্টে ভুল উত্তরের জন্য ০.২৫/০.৩০ নেগেটিভ মার্কিং থাকে।</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="step-card">
+  <div class="step-header">
+    <span>পরীক্ষার স্তর ২: মৌখিক পরীক্ষা (Viva-Voce) ও সনদ যাচাই</span>
+    <span class="tag">মোট নম্বর: ২০ / ২৫ নম্বর</span>
+  </div>
+  <p style="margin: 0 0 2px 0; font-size: 9.6px;">বুয়েট লিখিত পরীক্ষায় উত্তীর্ণ প্রার্থীদের মেধা ও কোটা অনুযায়ী সাধারণত ১:৩ বা ১:৫ অনুপাতে পেট্রোবাংলা ভাইভার জন্য ডাকে। ভাইভার মূল ফোকাস:</p>
+  <ul>
+    <li>ডিপ্লোমা কারিকুলামের মৌলিক কম্পিউটার প্রশ্ন (নেটওয়ার্কিং, লিনাক্স, ডাটাবেজ নরমালাইজেশন ও হার্ডওয়্যার ট্রাবলশুটিং)।</li>
+    <li>পেট্রোবাংলা এবং তিতাস গ্যাস / বাখরাবাদ গ্যাস কোম্পানির কার্যক্রম, গ্যাস বিতরণ নেটওয়ার্ক, প্রিপেইড মিটার ও SCADA সিস্টেম।</li>
+    <li>দৈনন্দিন আইটি অপারেশন, উইন্ডোজ/লিনাক্স সার্ভার ম্যানেজমেন্ট, ডাটাবেজ ব্যাকআপ ও ডিজাস্টার রিকভারি স্ট্র্যাটেজি।</li>
+  </ul>
+</div>
+
+<div class="footer-note">পৃষ্ঠা ১ / ৩ — বাংলাদেশ তেল, গ্যাস ও খনিজসম্পদ কর্পোরেশন (পেট্রোবাংলা) | উপ-সহকারী প্রকৌশলী (কম্পিউটার/আইটি) — বুয়েট প্যাটার্ন গাইড</div>
+
+<!-- ================= PAGE 2: ডিপার্টমেন্টাল লিখিত সিলেবাস (৪০ নম্বর) ও গ্যাস সেক্টর আইটি ================= -->
+<div class="page-break"></div>
+
+<div class="section-title">৩. ডিপার্টমেন্টাল লিখিত সিলেবাসের গভীর বিশ্লেষণ (৪০ নম্বর - বুয়েট স্ট্যান্ডার্ড লিখিত সমস্যা ও ম্যাথ)</div>
+
+<div class="grid-2">
+  <!-- মডিউল ১ -->
+  <div class="step-card">
+    <div class="step-header">
+      <span>মডিউল ১: নেটওয়ার্কিং, সাবনেটিং ম্যাথ ও সাইবার সিকিউরিটি</span>
+      <span class="tag">লিখিত ৮-১০ নম্বর</span>
+    </div>
+    <ul>
+      <li><strong>IP Addressing & Subnetting অংক:</strong> IPv4 ক্লাস, সাবনেট মাস্ক, CIDR নোটেশন (/24, /27, /28, /29, /30)। প্রদত্ত আইপি ও হোস্ট সংখ্যা হতে সাবনেট মাস্ক, নেটওয়ার্ক আইডি, ব্রডকাস্ট আইডি ও ভ্যালিড হোস্ট রেঞ্জ বের করার নির্ভুল গাণিতিক সমাধান।</li>
+      <li><strong>OSI & TCP/IP Model:</strong> ৭টি লেয়ারের কার্যাবলি, প্রতিটি লেয়ারের ডেটা ইউনিট (Bit, Frame, Packet, Segment) ও ব্যবহৃত প্রোটোকল (TCP, UDP, IP, ARP, ICMP, DHCP, DNS)।</li>
+      <li><strong>রাউটিং ও সুইচিং:</strong> রাউটার ও সুইচের পার্থক্য, VLAN কনফিগারেশন, NAT/PAT কনসেপ্ট, ডিফল্ট গেটওয়ে ও স্ট্যাটিক রাউটিং।</li>
+      <li><strong>ক্যাবলিং ও নেটওয়ার্ক ডিভাইস:</strong> UTP (Cat 6/6a), T568A ও T568B কালার কোডিং সিকোয়েন্স, স্ট্রেইট-থ্রু ও ক্রস-ওভার ক্যাবলিং, ফাইবার অপটিক বেসিকস।</li>
+      <li><strong>সাইবার সিকিউরিটি:</strong> ফায়ারওয়াল (Stateful/Packet Filter), SSL/TLS, VPN টানেলিং, DDoS প্রতিরোধ ও অ্যান্ডপয়েন্ট সিকিউরিটি।</li>
+    </ul>
+  </div>
+
+  <!-- মডিউল ২ -->
+  <div class="step-card">
+    <div class="step-header">
+      <span>মডিউল ২: ডাটাবেজ ম্যানেজমেন্ট সিস্টেম (DBMS), নরমালাইজেশন ও SQL</span>
+      <span class="tag">লিখিত ৮-১০ নম্বর</span>
+    </div>
+    <ul>
+      <li><strong>নরমালাইজেশন (Normalization) অংক:</strong> 1NF, 2NF, 3NF ও BCNF এর সংজ্ঞাসহ আন-নরমালাইজড টেবিল ডিকম্পোজিশন করে 3NF/BCNF এ রূপান্তরের স্টেপ-বাই-স্টেপ সমাধান। Insertion, Deletion ও Update anomaly ব্যাখ্যা।</li>
+      <li><strong>জটিল SQL Queries:</strong> DDL, DML, DCL কমান্ড; `SELECT`, `WHERE`, `GROUP BY`, `HAVING`, `ORDER BY`; টেবিল জয়েন (`INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`); Nested Subqueries ও Aggregate Functions (`COUNT`, `SUM`, `AVG`, `MAX`)।</li>
+      <li><strong>কী (Keys) ও রিলেশনশিপ:</strong> Primary Key, Foreign Key, Candidate Key, Composite Key; 1:1, 1:N ও M:N রিলেশনশিপ ও ER Diagram অঙ্কন।</li>
+      <li><strong>ACID প্রোপার্টিজ ও ট্রানজ্যাকশন:</strong> Atomicity, Consistency, Isolation, Durability ব্যাখ্যা ও ডাটাবেজ ব্যাকআপ (Full, Differential, Transaction Log)।</li>
+    </ul>
+  </div>
+</div>
+
+<div class="grid-2">
+  <!-- মডিউল ৩ -->
+  <div class="step-card">
+    <div class="step-header">
+      <span>মডিউল ৩: প্রোগ্রামিং (C / C++), Output Tracing ও ডাটা স্ট্রাকচার</span>
+      <span class="tag">লিখিত ৮-১০ নম্বর</span>
+    </div>
+    <ul>
+      <li><strong>C কোডিং ও অ্যালগরিদম:</strong> মৌলিক সি প্রোগ্রাম লেখা (প্রাইম নম্বর, ফ্যাক্টোরিয়াল, ফিবোনাচ্চি, প্যালিনড্রোম, অ্যারে ইনভার্সন ও স্ট্রিং ম্যানিপুলেশন)।</li>
+      <li><strong>Output Tracing (বুয়েট স্পেশাল):</strong> জটিল পয়েন্টার অপারেশন, প্রি/পোস্ট ইনক্রিমেন্ট (`++i`, `i++`), নেস্টেড লুপ এবং রিকার্সিভ ফাংশনের আউটপুট বের করা।</li>
+      <li><strong>ডাটা স্ট্রাকচার অপারেশন:</strong> স্ট্যাক (Push/Pop), কিউ (Enqueue/Dequeue), সিঙ্গলি লিংকড লিস্ট ইনসার্শন ও ডিলিশন সি কোড/অ্যালগরিদম।</li>
+      <li><strong>সর্টিং ও সার্চিং:</strong> Bubble Sort, Insertion Sort, Binary Search অ্যালগরিদম ও টাইম কমপ্লেক্সিটি বিশ্লেষণ ($O(n), O(n \log n), O(n^2)$)।</li>
+      <li><strong>OOP বেসিকস (C++):</strong> Class, Object, Encapsulation, Inheritance ও Polymorphism ধারণা।</li>
+    </ul>
+  </div>
+
+  <!-- মডিউল ৪ -->
+  <div class="step-card">
+    <div class="step-header">
+      <span>মডিউল ৪: ডিজিটাল লজিক (K-Map), মাইক্রোপ্রসেসর ও শিডিউলিং</span>
+      <span class="tag">লিখিত ৮-১০ নম্বর</span>
+    </div>
+    <ul>
+      <li><strong>K-Map সরলীকরণ:</strong> ৩ ও ৪ ভেরিয়েবলের Karnaugh Map (SOP / POS ফর্ম) ব্যবহার করে বুলিয়ান এক্সপ্রেশন সরলীকরণ এবং লজিক গেট সার্কিট অঙ্কন।</li>
+      <li><strong>কম্বিনেশনাল ও সিকোয়েনশিয়াল লজিক:</strong> Half Adder, Full Adder, Multiplexer (MUX 4:1 / 8:1), SR ও JK ফ্লিপ-ফ্লপ ট্রুথ টেবিল।</li>
+      <li><strong>৮০৮৬ মাইক্রোপ্রসেসর:</strong> BIU ও EU ইউনিট, রেজিস্টার গঠন (AX, BX, CX, DX, SI, DI, SP, BP), ফ্ল্যাগ রেজিস্টার ও মেমোরি সেগমেন্টেশন।</li>
+      <li><strong>CPU Scheduling ম্যাথ:</strong> FCFS, SJF ও Round Robin (RR) শিডিউলিংয়ের Gantt Chart অঙ্কন, গড় ওয়েটিং টাইম ও টার্নঅ্যারাউন্ড টাইম ক্যালকুলেশন।</li>
+      <li><strong>মেমোরি ও পেজিং:</strong> ক্যাশ মেমোরি ম্যাপিং, পেজ রিপ্লেসমেন্ট (FIFO, LRU) ম্যাথ ও পেজ ফল্ট নির্ণয়।</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section-title">৪. গ্যাস সেক্টর স্পেশালাইজড আইটি নলেজ (Gas Sector IT & Automation)</div>
+<div class="step-card" style="background: #f0fdf4; border-color: #a7f3d0;">
+  <div class="step-header">
+    <span style="color: #065f46;">তিতাস ও বাখরাবাদ গ্যাস বিতরণ নেটওয়ার্কে আইটির প্রয়োগ (High-Scoring Section)</span>
+    <span class="tag" style="background:#059669;color:#ffffff;">বুয়েট লিখিত ও ভাইভায় অগ্রাধিকার</span>
+  </div>
+  <div class="grid-2">
+    <div>
+      <strong>১. স্ক্যাডা (SCADA) সিস্টেম ও রিমোট মনিটরিং:</strong><br>
+      • Supervisory Control and Data Acquisition (SCADA) আর্কিটেকচার: RTU (Remote Terminal Unit), PLC (Programmable Logic Controller), MTU ও HMI।<br>
+      • গ্যাস পাইপলাইনে প্রেসার (Pressure), ফ্লো-রেট (Flow-rate) ও টেম্পারেচার রিয়েলটাইম মনিটরিং ও অ্যালার্মিং সিস্টেম।<br>
+      • গ্যাস ভালভ অটোমেশন ও জরুরি শাট-ডাউন (ESD) সিস্টেম সিগন্যালিং ও রিমোট ডেটা একুইজিশন।
+    </div>
+    <div>
+      <strong>২. জিআইএস (GIS) ম্যাপিং ও বিলিং আইটি অবকাঠামো:</strong><br>
+      • Geographic Information System (GIS) ভিত্তিক গ্যাস ট্রান্সমিশন ও ডিস্ট্রিবিউশন পাইপলাইন নেটওয়ার্ক ম্যাপিং।<br>
+      • স্মার্ট প্রিপেইড গ্যাস মিটারিং সিস্টেম (Smart Card & NFC) ও আইটি সার্ভার আর্কিটেকচার।<br>
+      • এন্টারপ্রাইজ রিসোর্স প্ল্যানিং (ERP), কাস্টমার সার্ভিস বিলিং সফটওয়্যার ও সেন্ট্রাল ডেটাসেন্টার ডিজাস্টার ব্যাকআপ।
+    </div>
+  </div>
+</div>
+
+<div class="footer-note">পৃষ্ঠা ২ / ৩ — বাংলাদেশ তেল, গ্যাস ও খনিজসম্পদ কর্পোরেশন (পেট্রোবাংলা) | উপ-সহকারী প্রকৌশলী (কম্পিউটার/আইটি) — ডিপার্টমেন্টাল লিখিত সিলেবাস</div>
+
+<!-- ================= PAGE 3: নন-টেকনিক্যাল (৬০ নম্বর MCQ), জ্বালানি খাত ও মাস্টার স্ট্র্যাটেজি ================= -->
+<div class="page-break"></div>
+
+<div class="section-title">৫. নন-টেকনিক্যাল সিলেবাস বিশ্লেষণ (মোট ৬০ নম্বর MCQ - ওএমআর শিট)</div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width: 18%;">বিষয় ও মান</th>
+      <th style="width: 32%;">বুয়েট পরীক্ষার কোর টপিকসমূহ</th>
+      <th style="width: 50%;">বিশেষ ফোকাস ও বুয়েট স্ট্যান্ডার্ড প্রস্তুতির দিকনির্দেশনা</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>সাধারণ গণিত ও মানসিক দক্ষতা <br>(১৫ – ২০ নম্বর)</strong></td>
+      <td>• পাটিগণিত: শতকরা, লাভ-ক্ষতি, অনুপাত-সমানুপাত, ঐকিক নিয়ম, কাজ ও সময়, নল ও চৌবাচ্চা, সুদকষা, দূরত্ব-গতিবেগ। <br>• বীজগণিত: উৎপাদক, লঘিষ্ঠ-গরিষ্ঠ, সূচক ও লগারিদম, ধারা ও সমীকরণ। <br>• জ্যামিতি ও মানসিক দক্ষতা: ত্রিভুজ, চতুর্ভুজ ও সংখ্যা-সিরিজ সমাধান।</td>
+      <td><strong>বুয়েট পরীক্ষার সবচেয়ে বড় টার্নিং পয়েন্ট:</strong> প্রকৌশল নিয়োগ পরীক্ষায় বুয়েট গণিত অংশ অত্যন্ত গুরুত্ব সহকারে তৈরি করে। নিয়মিত শর্টকাট টেকনিক ও বেসিক নিয়মে প্রতিদিন অন্তত ৩০টি অংক প্র্যাকটিস করতে হবে। গণিতে পূর্ণ নম্বর পাওয়া প্রার্থী অন্যদের চেয়ে ১৫-২০ মার্ক এগিয়ে থাকে।</td>
+    </tr>
+    <tr>
+      <td><strong>ইংরেজি ভাষা ও ব্যাকরণ <br>(১৫ নম্বর)</strong></td>
+      <td>• Grammar: Right Form of Verbs, Subject-Verb Agreement, Appropriate Prepositions, Voice Change, Narration, Modifiers, Sentence Correction। <br>• Vocabulary: Synonyms, Antonyms, Idioms & Phrases, Spelling, One Word Substitution, Analogy।</td>
+      <td>Prepositions, Right Form of Verbs ও Vocabulary থেকে বুয়েট সবচেয়ে বেশি প্রশ্ন করে। বিগত ১০ম থেকে ৪৬তম বিসিএস প্রিলিমিনারি প্রশ্ন এবং বিগত ৫ বছরের পিডিবির/বুয়েটের নন-ডিপার্টমেন্টাল প্রশ্ন ব্যাংক মুখস্থ রাখা আবশ্যক।</td>
+    </tr>
+    <tr>
+      <td><strong>বাংলা ভাষা ও সাহিত্য <br>(১০ – ১৫ নম্বর)</strong></td>
+      <td>• ব্যাকরণ: সন্ধি, সমাস নির্ণয়, কারক ও বিভক্তি, ণ-ত্ব ও ষ-ত্ব বিধান, বাক্য শুদ্ধিকরণ, এককথায় প্রকাশ, বাগধারা ও পারিভাষিক শব্দ। <br>• সাহিত্য: বাংলা সাহিত্যের প্রাচীন, মধ্য ও আধুনিক যুগের প্রধান কবি-সাহিত্যিকদের কালজয়ী সৃষ্টি।</td>
+      <td>বুয়েট পরীক্ষায় ব্যাকরণের নিয়মের ওপর বেশি প্রশ্ন থাকে (বিশেষ করে সমাস, সন্ধি ও বানান শুদ্ধি)। নবম-দশম শ্রেণির বাংলা ব্যাকরণ বই পুঙ্খানুপুঙ্খভাবে রিভিশন দেওয়া জরুরি।</td>
+    </tr>
+    <tr>
+      <td><strong>সাধারণ জ্ঞান ও জ্বালানি খাত <br>(১০ – ১৫ নম্বর)</strong></td>
+      <td>• বাংলাদেশ বিষয়াবলি: ভাষা আন্দোলন, মুক্তিযুদ্ধ, সংবিধান, জাতীয় সংসদ, সাম্প্রতিক মেগাপ্রকল্প। <br>• আন্তর্জাতিক বিষয়াবলি: জাতিসংঘ, বৈশ্বিক সংস্থা, মুদ্রা, জলবায়ু ও সাম্প্রতিক ঘটনাপ্রবাহ। <br>• <strong>জ্বালানি খাত বিশেষ:</strong> বাংলাদেশের গ্যাসক্ষেত্র, পেট্রোবাংলা ও তিতাস গ্যাস।</td>
+      <td><strong>পেট্রোবাংলা স্পেশাল হট টপিকস (Must Read):</strong><br>
+      - বাংলাদেশের মোট আবিষ্কৃত গ্যাসক্ষেত্র (২৯টি) ও বর্তমান উৎপাদনরত গ্যাসক্ষেত্রসমূহ।<br>
+      - তিতাস গ্যাস ফিল্ড (১৯৬২), বাখরাবাদ, রশিদপুর, কৈলাশটিলা, বিবিয়ানা ও ভোলা শাহবাজপুর ফিল্ড।<br>
+      - মহেশখালী ফ্লোটিং এলএনজি টার্মিনাল (FSRU) ও পাইপলাইনে গ্যাস ট্রান্সমিশন গ্রিড।<br>
+      - পেট্রোবাংলা ও অধীনস্থ ১৩টি কোম্পানি (বাপেক্স, তিতাস গ্যাস, বাখরাবাদ গ্যাস, বিজিডিসিএল ইত্যাদি)।</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="section-title">৬. বুয়েট পরীক্ষায় চূড়ান্ত সাফল্যের ৮টি গোল্ডেন স্ট্র্যাটেজি ও মাস্টার বুকলিস্ট</div>
+
+<div class="grid-2">
+  <div class="step-card">
+    <div class="step-header">
+      <span>🎯 পরীক্ষার হলের সেরা স্ট্র্যাটেজি (BUET Hall Management)</span>
+    </div>
+    <ul style="font-size: 9.6px;">
+      <li><strong>১. সময় ভাগ করে নেওয়া:</strong> ৬০ বা ৯০ মিনিটের পরীক্ষায় প্রথমে ৩০-৪০ মিনিটে ওএমআরে নন-ডিপার্টমেন্টাল MCQ শেষ করে বাকি সময় টেকনিক্যাল লিখিত সমস্যায় ব্যয় করা।</li>
+      <li><strong>২. সাবনেটিং ও K-Map ম্যাথ নির্ভুল সমাধান:</strong> লিখিত অংশে সাবনেটিং ও K-Map সরলীকরণে ফুল মার্কস নিশ্চিত করা সহজ, তাই এগুলো দিয়ে লিখিত শুরু করা।</li>
+      <li><strong>৩. কোডিং ও এসকিউএল স্পষ্টতা:</strong> C কোড ও SQL কুয়েরির সিনট্যাক্স পরিষ্কার রাখা; সেমিকোলন, টেবিল অ্যালাইয়াস ও জয়েন ক্লজ যেন ভুল না হয়।</li>
+      <li><strong>৪. সংক্ষিপ্ত ব্লক ডায়াগ্রাম:</strong> লিখিত পরীক্ষায় সংক্ষিপ্ত ব্লক ডায়াগ্রাম (যেমন: OSI লেয়ার, SCADA আর্কিটেকচার, CPU বাস ডায়াগ্রাম) আঁকলে পূর্ণ নম্বর পাওয়া যায়।</li>
+    </ul>
+  </div>
+
+  <div class="step-card">
+    <div class="step-header">
+      <span>📚 সেরা রেফারেন্স বুকলিস্ট (Recommended Books)</span>
+    </div>
+    <ul style="font-size: 9.6px;">
+      <li><strong>১. বুয়েট প্যাটার্ন টেকনিক্যাল গাইড:</strong> BUET Pattern CSE/IT Job Solution, পলিটেকনিক ডিপ্লোমা জব সল্যুশন ও পূর্ববর্তী বিদ্যুৎ/জ্বালানি খাতের প্রশ্নব্যাংক।</li>
+      <li><strong>২. বিটিইবি ডিপ্লোমা টেক্সটবুক:</strong> ডেটা কমিউনিকেশন ও নেটওয়ার্কিং, ডাটাবেজ ম্যানেজমেন্ট ও মাইক্রোপ্রসেসর (প্রবিধান ২০১৬/২০২২)।</li>
+      <li><strong>৩. নন-ডিপার্টমেন্টাল প্রিপারেশন:</strong> প্রফেসরস বিসিএস প্রিলিমিনারি প্রশ্নব্যাংক (১০ম-৪৬তম), এমপিথ্রি সাধারণ জ্ঞান ও খাইরুলস বেসিক ম্যাথ।</li>
+      <li><strong>৪. অফিশিয়াল পোর্টাল ও রিপোর্ট:</strong> পেট্রোবাংলা (www.petrobangla.org.bd) ও তিতাস গ্যাসের বার্ষিক প্রতিবেদন এবং জ্বালানি মন্ত্রণালয়ের সর্বশেষ তথ্যমালা।</li>
+    </ul>
+  </div>
+</div>
+
+<div class="alert-box success" style="margin-top: 5px;">
+  <strong>চূড়ান্ত পরামর্শ:</strong> উপ-সহকারী প্রকৌশলী (কম্পিউটার/আইটি) পদে মোট পদসংখ্যা ০৮টি (তিতাস গ্যাস ০৬ + বাখরাবাদ ০২)। বুয়েটের নিয়োগ পরীক্ষায় নন-ডিপার্টমেন্টের ৬০ নম্বর MCQ-তে ৫০+ এবং ডিপার্টমেন্টাল লিখিত ৪০ নম্বরে ৩০+ নিশ্চিত করতে পারলে আপনি শতভাগ ভাইভার জন্য নির্বাচিত হবেন।
+</div>
+
+<div class="footer-note">
+  পেট্রোবাংলা উপ-সহকারী প্রকৌশলী (কম্পিউটার/আইটি) বুয়েট আপডেটেড পরীক্ষা গাইড | সর্বস্বত্ব সংরক্ষিত — অক্টোবর ২০২৬
+</div>
+
+</body>
+</html>

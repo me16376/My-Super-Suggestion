@@ -1,0 +1,1111 @@
+[
+  {
+    "id": 3001,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English Writing & Grammar",
+    "question": "(A) Fill in the blanks with appropriate prepositions:\n  i. He is absorbed _____ his studies.\n  ii. The committee consists _____ five members.\n  iii. Do not boast _____ your wealth.\n(B) Translate the following into English:\n  ১. সততা সর্বোৎকৃষ্ট পন্থা।\n  ২. তিনি গতকাল এখানে এসেছেন।\n  ৩. বাংলাদেশ দিন দিন তথ্যপ্রযুক্তিতে এগিয়ে যাচ্ছে।",
+    "marks": 6,
+    "answer": "(A) Appropriate Prepositions:\n  i. He is absorbed in his studies. (absorbed in = গভীরভাবে নিমগ্ন)\n  ii. The committee consists of five members. (consist of = গঠিত হওয়া)\n  iii. Do not boast of / about your wealth. (boast of = অহংকার করা)\n\n(B) English Translation:\n  ১. Honesty is the best policy.\n  ২. He came here yesterday. (Past Indefinite Tense)\n  ৩. Bangladesh is progressing in information technology day by day.",
+    "points_to_remember": [
+      "Yesterday থাকলে বাক্য Past Indefinite হয় ('has come' হবে না)।",
+      "Consist of (গঠিত) বনাম Consist in (নিহিত থাকা)।"
+    ],
+    "tags": [
+      "english_grammar",
+      "translation"
+    ]
+  },
+  {
+    "id": 3002,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Official Drafting & Email",
+    "question": "Draft a formal email to the vendor's technical support manager reporting a hardware malfunction in the newly installed e-Passport Biometric Enrollment Stations and requesting an urgent on-site technician visit.",
+    "marks": 7,
+    "answer": "Model Official Email:\n\nTo: support.bangladesh@veridos-solutions.com\nCc: director.ict@dip.gov.bd\nSubject: Urgent: Hardware Malfunction in Biometric Enrollment Station (Office Code: DHO-02)\n\nDear Sir/Madam,\n\nI am writing to officially report an unexpected technical failure in two (02) of our newly installed e-Passport Biometric Enrollment Stations at the Divisional Passport and Visa Office, Agargaon, Dhaka.\n\nDuring the live enrollment procedure today, Station-03 experienced repeated optical lens calibration errors with the Fingerprint Scanner (Model: Suprema RealScan-G10), preventing the capture of four-finger slaps. Concurrently, Station-05 displayed an intermittent USB power surge warning, leading to system freezes during MRZ document scanning.\n\nSince this issue directly affects daily public passport processing, we kindly request you to depute a certified hardware engineer for an urgent on-site inspection by 10:00 AM tomorrow (24 October 2026) under the active Service Level Agreement (SLA).\n\nThank you for your prompt cooperation.\n\nSincerely,\n\nMd. Rafiqul Islam\nSub-Assistant Maintenance Engineer\nDepartment of Immigration and Passports\nAgargaon, Dhaka-1207\nContact: +880 17XXXXXXXX",
+    "points_to_remember": [
+      "Include clear subject line, precise hardware models, office codes, error descriptions, and clear call-to-action under SLA terms."
+    ],
+    "tags": [
+      "english_drafting",
+      "formal_email"
+    ]
+  },
+  {
+    "id": 3003,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Focus Writing & Essay",
+    "question": "Write a short analytical paragraph (around 120-150 words) on 'Cyber Security Challenges in Digital Public Infrastructure'.",
+    "marks": 7,
+    "answer": "Cyber Security Challenges in Digital Public Infrastructure:\n\nThe rapid transition of government operations towards digital governance—such as e-passports, National Identity (NID) databases, and digital tax filing—has significantly improved public convenience and administrative efficiency. However, this vast interconnected ecosystem has also become an attractive target for sophisticated cyber threats, including state-sponsored Advanced Persistent Threats (APTs), ransomware extortion, and insider data breaches. Protecting critical information infrastructure (CII) requires a multi-layered defense strategy: implementing zero-trust network architecture, robust end-to-end encryption standards, strict role-based access control (RBAC), and regular vulnerability assessment and penetration testing (VAPT). Furthermore, ensuring prompt security patching and fostering cybersecurity hygiene among government personnel are imperative to safeguard citizens' sensitive biometric and demographic records against emerging threats in the digital age.",
+    "points_to_remember": [
+      "Use technical vocabulary: Critical Information Infrastructure (CII), Zero-trust architecture, RBAC, VAPT, Ransomware."
+    ],
+    "tags": [
+      "focus_writing",
+      "essay"
+    ]
+  },
+  {
+    "id": 3004,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English Writing & Grammar",
+    "question": "(A) Transform the sentences as directed:\n  i. Though he is poor, he is honest. (Make it Compound)\n  ii. As soon as the bell rang, the students entered the classroom. (Make it Negative using 'No sooner had')\n(B) Translate into English:\n  ১. জ্ঞানই শক্তি।\n  ২. বহিরাগমন ও পাসপোর্ট অধিদপ্তর জনগণের সেবায় নিয়োজিত।\n  ৩. প্রযুক্তির অপব্যবহার রোধে আমাদের সচেতন হতে হবে।",
+    "marks": 7,
+    "answer": "(A) Transformation of Sentences:\n  i. Compound: He is poor, but he is honest.\n  ii. Negative: No sooner had the bell rung than the students entered the classroom.\n\n(B) English Translation:\n  ১. Knowledge is power.\n  ২. The Department of Immigration and Passports is dedicated to the service of the citizens.\n  ৩. We must be conscious/vigilant to prevent the misuse of technology.",
+    "points_to_remember": [
+      "'Though/Although' থাকলে Compound করার সময় 'but/yet' বসে।",
+      "'No sooner had + V3 ... than + Past Indefinite' বসে।"
+    ],
+    "tags": [
+      "transformation",
+      "translation",
+      "written"
+    ]
+  },
+  {
+    "id": 3005,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Official Drafting & Email",
+    "question": "Write a formal internal memo from the Sub-Assistant Maintenance Engineer to the Assistant Director (Admin) highlighting the urgent requirement for installing an Online UPS (10 KVA) in the passport server room to prevent database corruption during sudden power outages.",
+    "marks": 7,
+    "answer": "Formal Internal Memorandum:\n\nMEMORANDUM\n\nTo: Assistant Director (Administration)\nFrom: Sub-Assistant Maintenance Engineer\nDate: 23 October 2026\nSubject: Requisition for 10 KVA Online UPS for the Central Passport Server Room\n\n1. It is respectfully brought to your attention that the primary database servers and biometric matching units housed in our Server Room are currently operating on aged offline backup systems. \n\n2. Over the past week, frequent power grid fluctuations have caused momentary power drops. During switching delays, the core database server shut down abruptly, resulting in database lockouts and putting transactional records at risk of file corruption.\n\n3. To guarantee zero-millisecond transfer time, stable pure sine-wave voltage, and a minimum of 60 minutes emergency battery backup for 24/7 server stability, the procurement and installation of a 10 KVA True Online Double-Conversion UPS is critically required.\n\n4. Your kind approval and budgetary allocation for initiating the e-GP procurement process are earnestly solicited.\n\n(Signature)\nMd. Rafiqul Islam\nSub-Assistant Maintenance Engineer\nExtension: 204",
+    "points_to_remember": [
+      "State technical justification: 'True Online Double-Conversion UPS', 'zero transfer time', 'prevent database corruption'."
+    ],
+    "tags": [
+      "official_memo",
+      "english_drafting"
+    ]
+  },
+  {
+    "id": 3006,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English Writing & Grammar",
+    "question": "(A) Fill in the blanks with the correct form of verbs:\n  i. Neither of the two network routers _____ (work) properly right now.\n  ii. The Sub-Assistant Engineer along with his team members _____ (inspect) the main server room at this moment.\n  iii. It is high time the department _____ (upgrade) the legacy core firewalls.\n  iv. Had the technician alerted us earlier, we _____ (resolve) the database deadlock sooner.\n\n(B) Correct the grammatical errors in the following sentences:\n  i. He gave me many valuable advices regarding the interview.\n  ii. One of my colleague have completed the Linux server certification.\n  iii. Senior engineers prefer on-premise solutions than cloud storage.",
+    "marks": 8,
+    "answer": "(A) Right Form of Verbs:\n  i. Neither of the two network routers is working / works properly right now. ('Neither of' takes a singular verb).\n  ii. The Sub-Assistant Engineer along with his team members is inspecting the main server room at this moment. ('Along with', 'as well as', 'together with' connect subjects where the verb strictly agrees with the first subject: 'The Sub-Assistant Engineer' - singular).\n  iii. It is high time the department upgraded the legacy core firewalls. ('It is high time' followed by a subject requires Past Indefinite verb form V2: upgraded).\n  iv. Had the technician alerted us earlier, we would have resolved the database deadlock sooner. (Third conditional inversion: Had + Subject + V3 ... Subject + would have + V3).\n\n(B) Error Correction:\n  i. Incorrect: He gave me many valuable advices regarding the interview.\n     Correct: He gave me much valuable advice regarding the interview. (Or: 'many pieces of valuable advice' — 'Advice' is an uncountable noun).\n  ii. Incorrect: One of my colleague have completed the Linux server certification.\n     Correct: One of my colleagues has completed the Linux server certification. ('One of' is followed by a plural noun 'colleagues' and a singular verb 'has').\n  iii. Incorrect: Senior engineers prefer on-premise solutions than cloud storage.\n     Correct: Senior engineers prefer on-premise solutions to cloud storage. ('Prefer ... to' is the correct prepositional combination, not 'than').",
+    "points_to_remember": [
+      "'Neither of' + plural noun + singular verb.",
+      "'Prefer' takes preposition 'to', never 'than'.",
+      "'Advice', 'Information', 'Luggage', 'Furniture' are uncountable and do not take plural -s."
+    ],
+    "tags": [
+      "grammar_correction",
+      "right_form_of_verb",
+      "written"
+    ]
+  },
+  {
+    "id": 3007,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Précis & Summary Writing",
+    "question": "Read the following passage carefully and write a concise précis (summary) in about one-third of its original length. Suggest a suitable title:\n\n'In the contemporary globalized era, international travel and migration have expanded exponentially, placing unprecedented demands on border management agencies. Traditional manual identity inspection processes relying solely on paper documents are increasingly vulnerable to sophisticated forgery, impersonation, and fraudulent alterations. To counteract these vulnerabilities, modern sovereign nations have embraced automated biometric border control systems. The deployment of electronic Machine-Readable Passports (e-MRPs), integrated with contactless smart chips storing tamper-proof biometric identifiers, ensures non-repudiation and global interoperability under ICAO standards. Furthermore, automated border gates (e-Gates) utilize near-infrared optical cameras and live facial recognition algorithms to verify traveler identities within seconds. While these technological advancements drastically minimize human discretion, alleviate passenger congestion, and reinforce national security, their sustained efficacy hinges on continuous system maintenance, real-time synchronization with international watchlists (such as INTERPOL databases), and unyielding adherence to citizen data privacy regulations.'",
+    "marks": 8,
+    "answer": "Suggested Title: Biometric Automation in Modern Border Security\n\nPrécis:\nRising global travel demands have rendered traditional manual passport verification vulnerable to fraud and impersonation. Consequently, modern border control relies heavily on biometric e-Passports and automated e-Gates using facial recognition and smart chips to ensure secure, rapid, and tamper-proof verification under international standards. However, sustaining this enhanced security and efficiency requires uninterrupted hardware maintenance, real-time database synchronization, and stringent data privacy protection.",
+    "points_to_remember": [
+      "A précis must be written in the author's own words and in the third person.",
+      "Omit redundant examples, rhetorical flourishes, and technical repetitions.",
+      "The length must stay strictly around one-third of the original text (approximately 45-55 words)."
+    ],
+    "tags": [
+      "precis",
+      "summary_writing",
+      "written"
+    ]
+  },
+  {
+    "id": 3008,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Technical Incident Report",
+    "question": "As a Sub-Assistant Maintenance Engineer, write a formal 'Technical Incident & Downtime Report' addressed to the System Analyst regarding a major network outage at the Regional Technical School and College (TSC) / Polytechnic Institute caused by a broadcast storm/switching loop. Outline root cause, immediate recovery actions, and long-term preventive measures.",
+    "marks": 8,
+    "answer": "Model Technical Incident Report:\n\nTECHNICAL INCIDENT REPORT\n\nReference: DIP/RPO-DHK/INC-2026/089\nDate: 23 October 2026\nTo: System Analyst, ICT Division, Department of Immigration & Passports\nFrom: Sub-Assistant Maintenance Engineer, Regional Technical School and College (TSC) / Polytechnic Institute\nSubject: Incident Post-Mortem Report: 90-Minute Network Downtime at Enrollment LAN\n\n1. Executive Summary:\nOn 23 October 2026 at 10:15 AM, the local area network (LAN) serving all 14 biometric enrollment counters and the citizen queue display system experienced a total outage. Normal operations were fully restored by 11:45 AM (total downtime: 90 minutes).\n\n2. Incident Timeline & Symptoms:\n• 10:15 AM: Enrollment workstations reported disconnection from the local verification server; network latency spiked above 4,000 ms with 95% packet drop.\n• 10:30 AM: Physical inspection of the core distribution switch (Cisco Catalyst 2960X) revealed 100% CPU utilization and simultaneous flashing of all port activity LEDs (classic broadcast storm indicator).\n\n3. Root Cause Analysis:\nAn unauthorized patch cord was accidentally cross-connected between two access ports on Switch Rack-02 during routine desk rearrangement by floor support staff. Because Spanning Tree Protocol (STP) BPDU Guard was globally disabled on access-layer edge ports, an active Layer-2 loop formed instantly, generating overwhelming broadcast traffic.\n\n4. Immediate Remediation:\n• The redundant looping patch cable was identified and physically disconnected at 10:50 AM.\n• Switch CPU loads normalized within 3 minutes; all core IP services and DHCP leases were validated.\n• All 14 client workstations successfully resumed biometric enrollment and MRZ submissions by 11:45 AM.\n\n5. Corrective & Preventive Measures:\n• Globally enabled Rapid Spanning Tree Protocol (RSTP) with PortFast and BPDU Guard on all client-facing switch ports.\n• Physically locked unused RJ-45 wall ports using port blockers to prevent unauthorized interconnects.\n• Scheduled a technical refresher session on rack cabling protocols for support personnel.\n\nSubmitted by:\n(Signature)\nMd. Rafiqul Islam\nSub-Assistant Maintenance Engineer",
+    "points_to_remember": [
+      "Follow standard BPSC/technical incident report structure: Executive Summary, Timeline, Root Cause, Immediate Remediation, and Preventive Action.",
+      "Use authentic networking concepts: Switching loop, Broadcast storm, Cisco 2960X, RSTP, BPDU Guard."
+    ],
+    "tags": [
+      "incident_report",
+      "technical_writing",
+      "written"
+    ]
+  },
+  {
+    "id": 3009,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Professional Translation (Bangla to English)",
+    "question": "Translate the following official government paragraph into accurate, formal English:\n\n'নাগরিক সেবা সহজীকরণ এবং দুর্নীতিমুক্ত প্রশাসনিক ব্যবস্থা গড়ে তোলা বর্তমান সরকারের অন্যতম প্রধান অঙ্গীকার। ডিজিটাল গভর্নেন্স বাস্তবায়নের মাধ্যমে বহিরাগমন ও পাসপোর্ট অধিদপ্তর পাসপোর্ট প্রদান প্রক্রিয়ায় এক যুগান্তকারী স্বচ্ছতা নিয়ে এসেছে। পূর্বে যেখানে নাগরিকদের দিনের পর দিন লাইনে দাঁড়িয়ে ভোগান্তির শিকার হতে হতো, সেখানে বর্তমানে অনলাইনে আবেদন পূরণ, নির্দিষ্ট ফি পরিশোধ এবং বায়োমেট্রিক প্রদানের নির্দিষ্ট সময়সূচি গ্রহণ করা সম্ভব হচ্ছে। এই স্বয়ংক্রিয় সেবা ব্যবস্থা টেকসই রাখতে দক্ষ কারিগরি জনবলের ভূমিকা অত্যন্ত তাৎপর্যপূর্ণ।'",
+    "marks": 7,
+    "answer": "Formal English Translation:\n\n\"Simplifying citizen services and establishing a corruption-free administrative ecosystem are among the paramount commitments of the government. Through the realization of digital governance, the Department of Immigration and Passports has ushered in groundbreaking transparency into the passport issuance process. Whereas citizens formerly endured immense hardships standing in long queues day after day, they are currently capable of completing applications online, remitting scheduled fees, and booking specific time slots for biometric enrollment. To sustain this automated service framework, the role of skilled technical personnel is exceptionally crucial.\"",
+    "points_to_remember": [
+      "Use formal bureaucratic equivalents: নাগরিক সেবা সহজীকরণ (simplifying citizen services), যুগান্তকারী স্বচ্ছতা (groundbreaking transparency), স্বয়ংক্রিয় সেবা ব্যবস্থা (automated service framework).",
+      "Ensure grammatical coherence and maintain compound-complex sentence structure."
+    ],
+    "tags": [
+      "translation",
+      "bangla_to_english",
+      "written"
+    ]
+  },
+  {
+    "id": 3010,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Focus Writing & Essay",
+    "question": "Write a structured analytical essay (in about 200-250 words) on:\n'The Crucial Role of ICT in Modernizing Public Administration & National Security'.",
+    "marks": 10,
+    "answer": "The Crucial Role of ICT in Modernizing Public Administration & National Security:\n\nIntroduction:\nInformation and Communication Technology (ICT) has transitioned from an administrative support tool to the foundational backbone of contemporary public governance and national defense. In an interconnected digital era, a nation's sovereignty and citizen satisfaction depend heavily on the resilience, speed, and integrity of its technological infrastructure.\n\nAdministrative Transformation:\nICT has fundamentally re-engineered conventional bureaucracy into citizen-centric governance. Initiatives such as the national e-Government portal, Electronic Government Procurement (e-GP), and automated Land Record Management have eliminated intermediary exploitation, curbed fiscal leakages, and enhanced institutional accountability. Furthermore, real-time data analytics empower policy makers to allocate public resources with empirical precision.\n\nNational Security & Border Control:\nIn the realm of security, ICT acts as an unyielding defensive shield. Modern border integrity is governed by automated biometric verification, Machine Readable Travel Documents (MRTDs), and automated e-Gates, which instantly validate international travelers against global alert databases. Cloud-based command-and-control networks and secure inter-agency data sharing facilitate proactive counter-terrorism, criminal surveillance, and rapid crisis management.\n\nConclusion:\nTo harvest the optimum benefits of this digital paradigm, public authorities must prioritize robust cybersecurity defenses, continuous hardware maintenance, and comprehensive capacity building for technical officers. Ultimately, a fortified digital infrastructure safeguards public trust and cements national security.",
+    "points_to_remember": [
+      "Organize into cohesive thematic headers: Introduction, Administrative Transformation, National Security & Border Control, Conclusion.",
+      "Incorporate high-level terminology: empirical precision, citizen-centric governance, MRTDs, command-and-control networks."
+    ],
+    "tags": [
+      "essay",
+      "focus_writing",
+      "written"
+    ]
+  },
+  {
+    "id": 3011,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Appropriate Prepositions",
+    "question": "Fill in the blanks with appropriate prepositions:\n(a) He is thoroughly absorbed _______ his technical research.\n(b) The government agency must strictly adhere _______ the security protocol.\n(c) A civil servant should abstain _______ any conflict of interest.\n(d) The administrator is blind _______ the flaws of his subordinates.\n(e) The rural passport workstation is deficient _______ high-speed internet bandwidth.\n(f) He was accused of conniving _______ the illegal entry of travelers.",
+    "marks": 6,
+    "answer": "Answers with grammatical explanation:\n\n(a) absorbed **in** (নিবিষ্ট বা মগ্ন থাকা; 'absorbed in thought/work')\n(b) adhere **to** (দৃঢ়ভাবে লেগে থাকা বা নিয়ম মেনে চলা; 'adhere to rules/standards')\n(c) abstain **from** (বিরত থাকা; 'abstain from evil/malpractice')\n(d) blind **to** (দোষ দেখেও না দেখার ভান করা বা অন্ধ থাকা; 'blind to faults')\n(e) deficient **in** (কোনো কিছুর ঘাটতি থাকা; 'deficient in nutrients/bandwidth')\n(f) conniving **at** (দোষ দেখেও গোপন প্রশ্রয় দেওয়া; 'connive at a crime').",
+    "points_to_remember": [
+      "'Blind of an eye' (এক চোখে অন্ধ), কিন্তু 'Blind to faults' (দোষের প্রতি অন্ধ)।",
+      "'Abstain from', 'Refrain from', 'Prohibit from'—এগুলোর পর সর্বদা 'from' বসে।"
+    ],
+    "tags": [
+      "prepositions",
+      "english_grammar",
+      "written_english"
+    ]
+  },
+  {
+    "id": 3012,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Right Form of Verbs",
+    "question": "Complete the following sentences with the right form of verbs given in brackets:\n(a) You had better (consult) the network engineer before resetting the core router.\n(b) Walk fast lest you (miss) the government biometric training session.\n(c) No sooner had the technician (replace) the faulty SMPS than the server started functioning.\n(d) It is high time we (upgrade) the legacy firewall systems.\n(e) He talks as if he (know) all the root passwords of the data center.",
+    "marks": 5,
+    "answer": "Corrected Sentences:\n\n(a) You had better **consult** the network engineer before resetting the core router.\n*(Rule: 'Had better', 'would rather' are modal idioms followed by base form of verb V1 without 'to').*\n\n(b) Walk fast lest you **should miss** (or **might miss**) the government biometric training session.\n*(Rule: 'Lest' is followed by Subject + should/might + base form of verb).* \n\n(c) No sooner had the technician **replaced** the faulty SMPS than the server started functioning.\n*(Rule: 'No sooner had' takes Past Participle V3, and the clause after 'than' takes Past Indefinite V2).*\n\n(d) It is high time we **upgraded** the legacy firewall systems.\n*(Rule: 'It is time' / 'It is high time' followed by a subject requires Past Indefinite V2).*\n\n(e) He talks as if he **knew** all the root passwords of the data center.\n*(Rule: Present Indefinite + 'as if' / 'as though' takes Past Indefinite; for 'be' verb it takes 'were').*",
+    "points_to_remember": [
+      "'It is high time' + subject -> V2 (Past Indefinite).",
+      "'Lest' এর পরে কখনো 'not' বসে না, কারণ 'lest' নিজেই নেতিবাচক।"
+    ],
+    "tags": [
+      "right_form_of_verbs",
+      "english_grammar"
+    ]
+  },
+  {
+    "id": 3013,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Transformation of Sentences",
+    "question": "Transform the following sentences as directed without changing their original meaning:\n(a) As soon as the biometric scanner read the fingerprint, the e-gate opened. (Make it Negative using 'No sooner had')\n(b) In spite of working day and night, the technician could not restore the corrupted database. (Make it Compound)\n(c) The server is so overloaded that it cannot handle additional concurrent requests. (Make it Simple using 'too...to')\n(d) No other security protocol in our department is as robust as PKI. (Make it Superlative)\n(e) Who does not wish to serve the motherland? (Make it Assertive)",
+    "marks": 5,
+    "answer": "Transformation Solutions:\n\n(a) **Negative:** No sooner had the biometric scanner read the fingerprint than the e-gate opened.\n\n(b) **Compound:** The technician worked day and night, but he could not restore the corrupted database.\n\n(c) **Simple:** The server is too overloaded to handle additional concurrent requests.\n\n(d) **Superlative:** PKI is the most robust security protocol in our department.\n\n(e) **Assertive:** Everyone wishes to serve the motherland.",
+    "points_to_remember": [
+      "No sooner had + Sub + V3 ... than + Sub + V2.",
+      "Too + adj + to + V1 replaces so...that + negative clause."
+    ],
+    "tags": [
+      "transformation",
+      "english_grammar"
+    ]
+  },
+  {
+    "id": 3014,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Correction of Grammatical Errors",
+    "question": "Correct the following sentences by rectifying the grammatical errors:\n(a) One of the server administrator have resigned yesterday.\n(b) The sceneries of the hilly district charmed the tourists.\n(c) This optical scanner is superior than that older model.\n(d) Neither the software developer nor the database engineers was present at the incident review meeting.\n(e) He gave me many valuable advices regarding network security.",
+    "marks": 5,
+    "answer": "Corrected Sentences:\n\n(a) **Incorrect:** One of the server administrator have resigned yesterday.\n    **Correct:** One of the server **administrators resigned** yesterday.\n    *(Rule: 'One of the' takes a plural noun 'administrators', and the past time marker 'yesterday' requires past indefinite 'resigned').*\n\n(b) **Incorrect:** The sceneries of the hilly district charmed the tourists.\n    **Correct:** The **scenery** of the hilly district charmed the tourists.\n    *(Rule: 'Scenery' is an uncountable noun with no plural form).*\n\n(c) **Incorrect:** This optical scanner is superior than that older model.\n    **Correct:** This optical scanner is **superior to** that older model.\n    *(Rule: Latin comparatives—superior, inferior, senior, junior, prior—take 'to', never 'than').*\n\n(d) **Incorrect:** Neither the software developer nor the database engineers was present at the incident review meeting.\n    **Correct:** Neither the software developer nor the database engineers **were** present at the incident review meeting.\n    *(Rule: In 'neither...nor', the verb agrees with the closer subject; here 'engineers' is plural).*\n\n(e) **Incorrect:** He gave me many valuable advices regarding network security.\n    **Correct:** He gave me **much valuable advice** (or: **many pieces of valuable advice**) regarding network security.\n    *(Rule: 'Advice' is uncountable; it cannot take 'many' or plural 'advices').*",
+    "points_to_remember": [
+      "Uncountable nouns: Furniture, Information, Scenery, Advice, Luggage, Equipment.",
+      "Latin comparatives are always followed by preposition 'to'."
+    ],
+    "tags": [
+      "error_correction",
+      "english_written"
+    ]
+  },
+  {
+    "id": 3015,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Idioms & Phrases",
+    "question": "Write down the meaning and make meaningful sentences with the following idioms and phrases:\n(a) Achilles' heel\n(b) At a stone's throw\n(c) Bite the bullet\n(d) Burn the midnight oil\n(e) Through thick and thin\n(f) A blessing in disguise",
+    "marks": 6,
+    "answer": "Idioms and Sentence Construction:\n\n(a) **Achilles' heel** (A fatal weakness or vulnerable spot):\n*Lack of automated offsite backup proved to be the Achilles' heel of their IT infrastructure.*\n\n(b) **At a stone's throw** (Very close by / Short distance):\n*The regional passport office is situated at a stone's throw from the central bus terminal.*\n\n(c) **Bite the bullet** (To face a difficult or unpleasant situation with courage):\n*The ministry had to bite the bullet and replace the entire legacy server array to prevent cyber intrusions.*\n\n(d) **Burn the midnight oil** (To work or study late into the night):\n*Our maintenance team burned the midnight oil to configure the e-gate biometric systems before the inauguration.*\n\n(e) **Through thick and thin** (Under all circumstances, good or bad):\n*The dedicated engineers stood by the department through thick and thin during the national database migration.*\n\n(f) **A blessing in disguise** (An apparent misfortune that eventually has good results):\n*The temporary network outage was a blessing in disguise as it prompted the installation of redundant fiber optic links.*",
+    "points_to_remember": [
+      "Always write the precise meaning in parenthesis before making the sentence.",
+      "Sentences should be contextual and reflect mature grammatical structure."
+    ],
+    "tags": [
+      "idioms_phrases",
+      "vocabulary"
+    ]
+  },
+  {
+    "id": 3016,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Clause Analysis & Synthesis",
+    "question": "(a) Identify the underlined clauses and name their types:\n  (i) We know *that the encrypted biometric chip cannot be cloned*.\n  (ii) The engineer *who configured the core firewall* received an award.\n  (iii) *When the power failed*, the online UPS took over seamlessly.\n\n(b) Join the pairs of sentences into a single Complex sentence:\n  (i) The biometric enrollment device was malfunctioning. We immediately swapped it with a standby unit.\n  (ii) He is a certified network specialist. Everyone knows this fact.",
+    "marks": 5,
+    "answer": "Clause Analysis & Synthesis:\n\n(a) Clause Identification:\n(i) *that the encrypted biometric chip cannot be cloned* $\\rightarrow$ **Noun Clause** (Functions as the direct object of the transitive verb 'know').\n(ii) *who configured the core firewall* $\\rightarrow$ **Adjective / Relative Clause** (Modifies the noun antecedent 'The engineer').\n(iii) *When the power failed* $\\rightarrow$ **Adverbial Clause of Time** (Modifies the verb 'took over').\n\n(b) Sentence Joining (Synthesis into Complex Sentences):\n(i) **Complex:** As (or Since) the biometric enrollment device was malfunctioning, we immediately swapped it with a standby unit.\n(ii) **Complex:** Everyone knows that he is a certified network specialist.",
+    "points_to_remember": [
+      "Noun clause answers 'what' after the main verb.",
+      "Adjective clause begins with relative pronoun (who, which, that) following a noun."
+    ],
+    "tags": [
+      "clause_analysis",
+      "synthesis",
+      "grammar"
+    ]
+  },
+  {
+    "id": 3017,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Translation (Bengali to English)",
+    "question": "Translate the following passage into English:\n\"ডিজিটাল বাংলাদেশ বিনির্মাণের পর দেশ এখন স্মার্ট বাংলাদেশের লক্ষ্য বাস্তবায়নে এগিয়ে চলেছে। সরকারি সেবা জনগণের দোরগোড়ায় পৌঁছে দিতে তথ্যপ্রযুক্তি সবচেয়ে বড় হাতিয়ার হিসেবে কাজ করছে। পাসপোর্ট প্রাপ্তি, জন্মনিবন্ধন এবং জাতীয় পরিচয়পত্র সংশোধন এখন অনলাইনের মাধ্যমে ঘরে বসেই সম্পন্ন করা যায়। এই আধুনিক ডিজিটাইজেশন একদিকে যেমন সাধারণ মানুষের ভোগান্তি ও দালালদের দৌরাত্ম্য বন্ধ করেছে, অন্যদিকে জাতীয় রাজস্ব বৃদ্ধিতেও গুরুত্বপূর্ণ ভূমিকা রাখছে।\"",
+    "marks": 8,
+    "answer": "English Translation:\n\n\"Following the realization of Digital Bangladesh, the nation is now marching forward to achieve the vision of Smart Bangladesh. Information technology serves as the paramount instrument in delivering government services right to the doorsteps of the citizens. Obtaining passports, birth registrations, and correcting National Identity Cards (NID) can now be accomplished from home via online platforms. On the one hand, this modern digitization has eliminated public harassment and the extortion of intermediaries; on the other hand, it is playing a vital role in enhancing national revenue.\"",
+    "points_to_remember": [
+      "'জনগণের দোরগোড়ায় পৌঁছে দেওয়া' -> 'delivering right to the doorsteps of the citizens'.",
+      "'দালালদের দৌরাত্ম্য' -> 'extortion/influence of intermediaries/middlemen'."
+    ],
+    "tags": [
+      "translation",
+      "bengali_to_english",
+      "written_english"
+    ]
+  },
+  {
+    "id": 3018,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Reading Comprehension & Critical Analysis",
+    "question": "Read the following passage and answer the questions that follow:\n\n\"Biometric technology has transformed border security from subjective human inspection into an objective, automated science. By measuring unique physiological characteristics—such as facial contours, fingerprint minutiae, and iris patterns—systems verify identity with unprecedented mathematical accuracy. However, this profound technical power introduces profound ethical responsibilities. Unlike passwords, cryptographic keys, or credit card numbers, biometric credentials cannot be reissued or reset if compromised. Once an individual's biometric template is breached, that person's physical identity is permanently jeopardized across all associated platforms. Therefore, national databases housing biometric records must implement zero-trust network architectures, end-to-end hardware encryption, and immutable audit logs to protect citizen privacy against state-sponsored advanced persistent threats (APTs).\"\n\nQuestions:\n(a) Why is a biometric breach considered far more catastrophic than a password leak?\n(b) What physiological features are utilized for identity verification in modern border security?\n(c) How can national databases protect biometric records against advanced cyber threats?\n(d) Suggest a suitable title for the passage.",
+    "marks": 8,
+    "answer": "Answers to Comprehension Questions:\n\n(a) A biometric breach is far more catastrophic because passwords or cryptographic tokens can be easily changed or reissued if compromised, whereas biometric credentials (like fingerprints or iris patterns) are permanent physiological traits that can never be reset or altered once leaked.\n\n(b) Modern border security systems utilize facial contours, fingerprint minutiae, and iris patterns as unique physiological characteristics for objective identity verification.\n\n(c) National databases can safeguard biometric records by implementing zero-trust network architectures, end-to-end hardware encryption, and immutable audit logs against advanced persistent threats.\n\n(d) **Suitable Title:** *Biometric Border Security: Technological Precision and the Imperative of Privacy Protection* (or: *The Double-Edged Sword of National Biometric Databases*).",
+    "points_to_remember": [
+      "Answers must be written in complete, grammatically sound sentences without directly copying verbatim sentences where synthesis is possible."
+    ],
+    "tags": [
+      "reading_comprehension",
+      "english_written"
+    ]
+  },
+  {
+    "id": 3019,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Official Email Drafting",
+    "question": "Draft a formal official email to the Technical Account Manager of an international vendor (e.g., 'DERMALOG Identification Systems') reporting recurring optical fingerprint scanner driver crashes on Windows 11 client workstations and requesting an emergency patched firmware update and on-site engineer visit.",
+    "marks": 8,
+    "answer": "Formal Technical Email:\n\n**To:** support.contracts@dermalog.com\n**Cc:** director.ict@dip.gov.bd, maintenance.cell@dip.gov.bd\n**Subject:** URGENT: Recurring Driver Crash of Optical Fingerprint Scanners (Model: ZF1) on Windows 11 Workstations - DIP Bangladesh\n**Date:** October 23, 2026\n\nDear Mr. Henderson,\n\nI am writing on behalf of the Department of Immigration and Passports (DIP), Bangladesh, to draw your immediate attention to a critical technical issue currently affecting our e-passport enrollment workstations.\n\nFollowing the scheduled operating system upgrade to Windows 11 Enterprise (Build 23H2) across our Dhaka Divisional Passport Office, the optical fingerprint scanners (Model: DERMALOG ZF1, Firmware Rev: 3.4.1) have been experiencing intermittent driver crashes. Specifically, during multi-finger capture, the device driver fails with code `STATUS_DEVICE_POWER_FAILURE (0xC000009E)`, causing the enrollment application to freeze and necessitating repeated system reboots. This issue is causing substantial delays in public service delivery.\n\nIn accordance with Section 7.2 of our active Annual Maintenance Agreement (SLA ref: DIP-SLA-2025/08), we formally request the following urgent actions:\n1. Immediate provision of an updated, certified Windows 11 WHQL driver package and patched firmware.\n2. Deputation of a designated on-site field support engineer to our Agargaon headquarters within 24 hours to analyze the crash dumps and assist in firmware deployment.\n\nYour prompt technical intervention is crucial to restoring uninterrupted public service. We look forward to your immediate acknowledgment and deployment plan.\n\nSincerely,\n\n**Engr. Tanvir Ahmed**\nSub-Assistant Maintenance Engineer\nICT & Systems Maintenance Wing\nDepartment of Immigration and Passports (DIP)\nMinistry of Home Affairs, Dhaka, Bangladesh\nTel: +880-2-XXXXXXXX | Mobile: +880-17XXXXXXXX\nEmail: same.ict@dip.gov.bd",
+    "points_to_remember": [
+      "A technical official email must include exact model numbers, error codes, SLA contract clauses, and specific time-bound requests."
+    ],
+    "tags": [
+      "email_drafting",
+      "formal_writing",
+      "english_written"
+    ]
+  },
+  {
+    "id": 3020,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Technical Incident Report",
+    "question": "Draft a comprehensive 'Network Incident & Root Cause Analysis (RCA) Report' addressed to the Director (ICT) concerning an unexpected core distribution switch failure that caused a 45-minute outage at the central passport issuance division.",
+    "marks": 10,
+    "answer": "Network Incident Report:\n\n**DEPARTMENT OF IMMIGRATION & PASSPORTS**\n**ICT & INFRASTRUCTURE WING, HEADQUARTERS, DHAKA**\n\n**INCIDENT REPORT & ROOT CAUSE ANALYSIS (RCA)**\n\n**Incident Reference:** INC-2026-1023-NET-01\n**Date of Report:** October 23, 2026\n**To:** Director (ICT), Department of Immigration and Passports\n**From:** Sub-Assistant Maintenance Engineer, Network & Data Center Operations\n**Classification:** Severity-1 (High Impact)\n\n**1. Executive Summary:**\nOn October 23, 2026, at 10:15 AM, the Central Passport Personalization Division experienced an unexpected network outage lasting 45 minutes (10:15 AM to 11:00 AM). The outage temporarily halted passport printing and personalization queuing. Service was fully restored at 11:00 AM following emergency hardware bypass.\n\n**2. Incident Timeline:**\n• **10:15 AM:** Core Distribution Switch (Cisco Catalyst 9500) abruptly rebooted and entered a boot-loop.\n• **10:18 AM:** Monitoring system (Zabbix) raised high-priority alerts regarding unreachable subnets (VLAN 30 & VLAN 40).\n• **10:25 AM:** Maintenance engineers inspected the rack and observed redundant power supply failure (PSU-2 dead, PSU-1 overheating trip).\n• **10:35 AM:** Hot-standby switch was configured, and primary fiber uplinks were patched to the redundant switch.\n• **10:50 AM:** Spanning-tree protocol (RSTP) converged; database connectivity re-established.\n• **11:00 AM:** Full verification completed; all personalization lines resumed normal operation.\n\n**3. Root Cause Analysis (RCA):**\nThe primary root cause was an internal capacitor breakdown within Power Supply Unit 2 (PSU-2), which produced a power surge that tripped the thermal protection sensor of PSU-1. The automatic hardware failover failed because PSU-1 drew excessive thermal load due to dust accumulation in the secondary fan chassis.\n\n**4. Corrective and Preventive Actions (CAPA):**\n1. Replaced both faulty power supply modules with genuine OEM redundant units.\n2. Implemented active dual-bus UPS power feeds (Feed A from Online UPS-1, Feed B from Online UPS-2).\n3. Scheduled bi-weekly physical air-flow and temperature inspections across all core distribution racks.\n4. Configured SNMP trap alerting for switch fan RPM and PSU thermal fluctuations.\n\n**Submitted by:**\n*(Signature)*\nSub-Assistant Maintenance Engineer\nDepartment of Immigration and Passports",
+    "points_to_remember": [
+      "An Incident Report must have standard headings: Executive Summary, Timeline, Root Cause Analysis (RCA), and Corrective & Preventive Actions (CAPA)."
+    ],
+    "tags": [
+      "incident_report",
+      "technical_writing",
+      "networking"
+    ]
+  },
+  {
+    "id": 3021,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Formal Application Drafting",
+    "question": "Draft a formal official application to the Director General of the Department of Immigration & Passports requesting budget allocation and technical approval for procuring 10 units of Online UPS and redundant air conditioning systems for regional server rooms.",
+    "marks": 8,
+    "answer": "Formal Application:\n\nOctober 23, 2026\n\nTo\nThe Director General\nDepartment of Immigration and Passports\nAgargaon, Dhaka-1207.\n\n**Subject: Application for administrative and financial sanction to procure 10 units of Online UPS and precision air conditioning units for regional server rooms.**\n\nSir,\n\nI have the honor to submit that the regional passport offices at Chittagong, Sylhet, Rajshahi, and Khulna are handling an unprecedented volume of biometric passport enrollments and daily database sync operations. The server rooms at these vital regional hubs house critical rack servers, core switches, and biometric storage arrays that operate on a 24/7/365 basis.\n\nDuring recent technical performance audits, it was observed that frequent commercial power grid fluctuations and extreme summer ambient temperatures have caused repeated server thermal throttling and damaged several SMPS units. The existing offline backup units are inadequate to sustain server uptime during prolonged power cuts.\n\nTo safeguard these critical IT assets, prevent catastrophic hardware burnouts, and ensure uninterrupted citizen services, it is urgently imperative to install:\n1. 10 units of 6 KVA True Online Double-Conversion UPS (with 2-hour battery backup).\n2. Dual-redundant 2-ton inverter Precision Air Conditioning units with automatic temperature alternation controllers.\n\nA detailed technical specification sheet and an estimated budget of BDT 35,00,000 (Thirty-Five Lakh Taka only) have been prepared in compliance with the Public Procurement Rules (PPR-2008) and are attached herewith for your kind consideration.\n\nIn view of the above, I earnestly request your kind administrative approval and necessary financial allocation for the expeditious procurement and installation of the aforementioned equipment.\n\nYours obediently,\n\n*(Signature)*\n**(Engr. Md. Shakil Hossain)**\nSub-Assistant Maintenance Engineer\nCentral Maintenance & Electrical Division\nDepartment of Immigration and Passports, Dhaka.",
+    "points_to_remember": [
+      "Official applications to high-ranking government officials must maintain respectful, clear, and professional administrative language."
+    ],
+    "tags": [
+      "official_application",
+      "formal_writing",
+      "english_written"
+    ]
+  },
+  {
+    "id": 3022,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Précis Writing",
+    "question": "Write a précis of the following passage to approximately one-third of its original length and suggest an appropriate title:\n\n\"The widespread deployment of electronic government services has radically altered citizen expectations across the developing world. In the past, obtaining basic civic documents—such as birth certificates, trade licenses, land deeds, and passports—demanded physical travel, standing in agonizingly long queues, navigating opaque administrative layers, and frequently submitting to the corrupt demands of intermediaries. Today, online portals and centralized biometric repositories allow citizens to initiate applications from mobile devices, track processing statuses in real time, and make direct digital fee payments without bureaucratic friction. However, this transformation remains profoundly uneven. A substantial segment of the population, particularly rural elders, illiterate laborers, and marginalized communities, lacks access to broadband connectivity, digital literacy, and smartphone interfaces. If public administrations digitize procedures without establishing physical assisted-service touchpoints, e-governance risks alienating the very citizens who stand in greatest need of social inclusion and state protection.\"",
+    "marks": 8,
+    "answer": "Précis Solution:\n\n**Title: The Promise and Peril of Digital Public Services**\n\n**Précis:**\nElectronic governance has revolutionized public service delivery by eliminating cumbersome queues, bureaucratic delays, and intermediary exploitation through online applications, real-time tracking, and digital payments. Nevertheless, digital illiteracy and inadequate internet access among rural and disadvantaged populations create a severe digital divide. Unless governments provide accessible, assisted service centers alongside automation, digital transformation threatens to marginalize vulnerable citizens rather than empowering them.\n\n*(Word count: 64 words; Original passage: 172 words)*",
+    "points_to_remember": [
+      "Précis must be approximately one-third of original length (between 30% and 35%).",
+      "Avoid personal opinions; maintain objective third-person reporting style."
+    ],
+    "tags": [
+      "precis_writing",
+      "english_written"
+    ]
+  },
+  {
+    "id": 3023,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Focus Essay Writing",
+    "question": "Write a comprehensive analytical Focus Essay on:\n\"The Role of Cloud Computing and Data Sovereignty in Digital Governance\". (Include: Introduction, Benefits of Cloud for Public Sector, Concept of Data Sovereignty & National Security, Cybersecurity Implications, Bangladesh Perspective, Conclusion).",
+    "marks": 10,
+    "answer": "Focus Essay:\n\n**The Role of Cloud Computing and Data Sovereignty in Digital Governance**\n\n**1. Introduction:**\nIn an era defined by rapid technological acceleration, governments worldwide are migrating legacy administrative systems to modern cloud infrastructures. Cloud computing offers unprecedented scalability, cost efficiency, and real-time accessibility. However, as public institutions transition sensitive citizen information, tax registries, and biometric databases to virtualized platforms, the concept of 'Data Sovereignty' has emerged as an indispensable cornerstone of national security and digital sovereignty.\n\n**2. Transformative Benefits of Cloud Computing for the Public Sector:**\nTraditional on-premise government data centers face recurring hardware obsolescence, high capital expenditures, and rigid scaling limitations. Cloud computing resolves these bottlenecks by offering elastic computing power, high availability (99.99%), automated disaster recovery, and seamless inter-agency data interoperability. Cloud-hosted citizen portals allow millions of concurrent users to apply for e-passports, National Identity Cards, and utility services without system crashes during peak traffic hours.\n\n**3. The Crucial Concept of Data Sovereignty:**\nData sovereignty dictates that digital data is subject to the laws, legal frameworks, and jurisdictional authority of the nation where it is generated and collected. In an interconnected geopolitical environment, hosting national biometric or immigration records on foreign cloud servers exposes a sovereign state to foreign legal subpoenas (e.g., the US CLOUD Act), international espionage, and arbitrary service cutoffs during diplomatic disputes. Therefore, maintaining strict jurisdictional control over sovereign data is as critical as defending physical borders.\n\n**4. Cybersecurity Challenges and Defense In Depth:**\nWhile cloud providers offer robust physical security, shared-responsibility security models require government IT administrations to safeguard data encryption, access privileges, and API configurations. Major risks include multi-tenant data leaks, advanced persistent threats (APTs), and ransomware intrusions. To counter these vulnerabilities, digital governance frameworks must mandate zero-trust architecture, hardware-based key management (HSMs), and end-to-end data encryption both at rest and in transit.\n\n**5. The Bangladesh Perspective & Future Trajectory:**\nBangladesh has undertaken landmark initiatives, notably the establishment of the National Data Center (NDC) at Kaliakair, Gazipur—a Tier-IV certified facility ensuring sovereign government data hosting. As the country advances toward 'Smart Bangladesh 2041', government agencies like the Department of Immigration and Passports must leverage hybrid sovereign government clouds (G-Cloud). This guarantees that while modern microservices enjoy cloud agility, citizen biometrics and sovereign intelligence remain strictly on Bangladeshi soil.\n\n**6. Conclusion:**\nCloud computing is the indispensable engine powering modern, agile e-governance. However, technological convenience must never eclipse national independence. By harmonizing cloud innovation with uncompromising data sovereignty laws, Bangladesh can build a resilient, trustworthy, and impenetrable digital nation.",
+    "points_to_remember": [
+      "A Focus Essay should be structured with numbered or bold analytical headings.",
+      "Incorporate technical terms like Tier-IV, G-Cloud, Zero-Trust, and US CLOUD Act for superior marks."
+    ],
+    "tags": [
+      "focus_essay",
+      "cloud_computing",
+      "data_sovereignty"
+    ]
+  },
+  {
+    "id": 3024,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Focus Essay Writing",
+    "question": "Write an analytical Focus Essay on:\n\"Cybersecurity Challenges for Public Critical Information Infrastructures (CII) in Bangladesh\". (Include: Definition of CII, Specific Cyber Threats, Case Study of Immigration & National ID, Mitigation Strategies, Conclusion).",
+    "marks": 10,
+    "answer": "Focus Essay:\n\n**Cybersecurity Challenges for Public Critical Information Infrastructures (CII) in Bangladesh**\n\n**1. Introduction & Definition of CII:**\nCritical Information Infrastructure (CII) refers to computerized networks, software systems, and data repositories whose disruption, degradation, or destruction would inflict catastrophic consequences on national security, public health, economic stability, or state sovereignty. Under Bangladesh's Cyber Security Act, vital entities—including the Department of Immigration and Passports, the Election Commission NID system, Bangladesh Bank, power grid controllers (SCADA), and telecom backbones—are designated as protected CIIs.\n\n**2. Specific Cyber Threats Confronting Public CIIs:**\nModern public cyber infrastructures are relentless targets of diverse, highly organized threat actors:\n• **Ransomware & Malware Intrusions:** Sophisticated malware engineered to encrypt core databases and extort public institutions.\n• **State-Sponsored Advanced Persistent Threats (APTs):** Stealthy, well-funded foreign intelligence groups attempting long-term espionage in defense and immigration databases.\n• **Distributed Denial of Service (DDoS):** Massive volumetric traffic assaults aimed at crippling e-visa and online passport application portals.\n• **Insider Threats & Social Engineering:** Breaches facilitated by compromised administrative credentials, spear-phishing, or disgruntled employees.\n\n**3. Case Study: Immigration, Passport & National ID Systems:**\nThe Department of Immigration and Passports manages one of the largest biometric databases in South Asia, containing facial templates, fingerprints, and iris scans of over 30 million citizens. A compromise in this infrastructure would undermine visa-free travel privileges, facilitate identity cloning, and compromise international border checkpoints. The 2016 Bangladesh Bank cyber heist remains a sobering historical reminder of the high stakes involved in safeguarding CII assets.\n\n**4. Multi-Layered Mitigation Strategies:**\nSecuring public CIIs demands an aggressive, defense-in-depth posture:\n1. **Zero-Trust Network Architecture (ZTNA):** Enforcing micro-segmentation where no user or device is trusted by default, regardless of whether they connect from inside or outside the office perimeter.\n2. **Security Operations Center (SOC) & SIEM:** Continuous 24/7/365 monitoring using AI-driven Security Information and Event Management (SIEM) tools to detect anomalous traffic.\n3. **Air-Gapped Systems & HSMs:** Storing cryptographic root signing keys and core biometric archives in air-gapped hardware security modules disconnected from public internet nodes.\n4. **Workforce Capability Building:** Regular red-team/blue-team penetration testing and rigorous cyber hygiene training for technical personnel.\n\n**5. Conclusion:**\nSafeguarding Critical Information Infrastructures is not merely a technical support task; it is an existential imperative for sovereign statehood. Through proactive investments in cutting-edge defense technologies, robust regulatory compliance, and skilled engineering personnel, Bangladesh can build an unassailable cyber defense fortress.",
+    "points_to_remember": [
+      "Cite the 29 declared CII institutions in Bangladesh under the Cyber Security Act.",
+      "Distinguish between IT security and CII defense."
+    ],
+    "tags": [
+      "focus_essay",
+      "cyber_security",
+      "cii_infrastructure"
+    ]
+  },
+  {
+    "id": 3025,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Vocabulary & Contextual Usage",
+    "question": "Provide the precise meaning and a contextual sentence for each of the following words:\n(a) Ephemeral\n(b) Pragmatic\n(c) Resilient\n(d) Mitigate\n(e) Ubiquitous\n(f) Redundant",
+    "marks": 6,
+    "answer": "Vocabulary Analysis and Usage:\n\n(a) **Ephemeral** (Lasting for a very short time / Transitory):\n*Sentence:* The speed boost achieved by clearing the browser cache was ephemeral, as memory usage escalated again within minutes.\n\n(b) **Pragmatic** (Dealing with problems in a practical, realistic way):\n*Sentence:* The maintenance engineer took a pragmatic approach by installing an interim backup generator while awaiting the main power grid repairs.\n\n(c) **Resilient** (Able to withstand or recover quickly from difficult conditions):\n*Sentence:* The new microservices architecture is remarkably resilient, ensuring that a database failure in one regional office does not crash the central passport portal.\n\n(d) **Mitigate** (To make something bad less severe, serious, or painful):\n*Sentence:* Deploying hardware firewalls helped mitigate the risk of distributed denial-of-service (DDoS) attacks against the government server.\n\n(e) **Ubiquitous** (Present, appearing, or found everywhere):\n*Sentence:* Optical barcode and QR code scanners have become ubiquitous across all modern international airport departure gates.\n\n(f) **Redundant** (Exceeding what is strictly necessary; functioning as a duplicate for safety):\n*Sentence:* The data center was configured with redundant power supplies and twin fiber-optic uplinks to eliminate any single point of failure.",
+    "points_to_remember": [
+      "In technical and administrative writing, 'redundant' often has a positive meaning (safety backup / fault tolerance), rather than superfluous."
+    ],
+    "tags": [
+      "vocabulary",
+      "contextual_usage",
+      "english_written"
+    ]
+  },
+  {
+    "id": 3026,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English Grammar & Prepositions",
+    "question": "Fill in the blanks with appropriate prepositions:\n(a) We must abide _____ the official rules of the department.\n(b) The government adheres _____ the international ICAO 9303 standards.\n(c) The officer abstained _____ taking any hasty decision.\n(d) He connived _____ his subordinate's illegal activities.\n(e) The biometric system is deficient _____ adequate memory storage.\n(f) Candidates must be eligible _____ the 10th grade technical post.\n(g) Cyber attacks are hostile _____ national sovereignty.\n(h) Disobeying security protocols is tantamount _____ negligence of duty.",
+    "marks": 8,
+    "answer": "Appropriate Prepositions Solution:\n\n(a) We must abide **by** the official rules of the department. (abide by = মেনে চলা)\n(b) The government adheres **to** the international ICAO 9303 standards. (adhere to = দৃঢ়ভাবে লেগে থাকা/মান্য করা)\n(c) The officer abstained **from** taking any hasty decision. (abstain from = বিরত থাকা)\n(d) He connived **at** his subordinate's illegal activities. (connive at = জেনেও উপেক্ষা করা/মৌন সম্মতি দেওয়া)\n(e) The biometric system is deficient **in** adequate memory storage. (deficient in = ঘাটতি থাকা/অপূর্ণ)\n(f) Candidates must be eligible **for** the 10th grade technical post. (eligible for = উপযুক্ত/যোগ্য)\n(g) Cyber attacks are hostile **to** national sovereignty. (hostile to = প্রতিকূল/শত্রুভাবাপন্ন)\n(h) Disobeying security protocols is tantamount **to** negligence of duty. (tantamount to = সমতুল্য/একই সমার্থক)।",
+    "points_to_remember": [
+      "'Abide by', 'Adhere to', 'Tantamount to', and 'Connive at' are frequent questions in BPSC written exams."
+    ],
+    "tags": [
+      "preposition",
+      "english_grammar",
+      "bpsc_written"
+    ]
+  },
+  {
+    "id": 3027,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English Grammar & Right Form of Verbs",
+    "question": "Complete the sentences using the correct form of verbs given in parentheses:\n(a) If the maintenance engineer (arrive) on time, the server could have been restored earlier.\n(b) It is high time we (upgrade) the firmware of the core routers.\n(c) He talks as if he (know) everything about database architecture.\n(d) Run the automated backup script carefully lest the transaction logs (be) corrupted.\n(e) Had I known the IP conflict, I (prevent) the network outage.\n(f) The Director General insisted that the security audit (conduct) immediately.\n(g) I wish I (be) a certified ethical hacker.\n(h) Neither the system analyst nor the network engineers (be) present at the incident briefing.",
+    "marks": 8,
+    "answer": "Right Form of Verbs Solution:\n\n(a) If the maintenance engineer **had arrived** on time, the server could have been restored earlier.\n*Rule:* Third Conditional: If + Past Perfect, Subject + could/would/might + have + V3.\n\n(b) It is high time we **upgraded** the firmware of the core routers.\n*Rule:* 'It is high time / It is time' followed by a subject requires a Past Indefinite verb.\n\n(c) He talks as if he **knew** (or **were**) everything about database architecture.\n*Rule:* Present Tense + 'as if / as though' + Past Subjunctive (V2 or were).\n\n(d) Run the automated backup script carefully lest the transaction logs **should be** (or **might be**) corrupted.\n*Rule:* 'Lest' is followed by Subject + should/might + base form of verb.\n\n(e) Had I known the IP conflict, I **would have prevented** the network outage.\n*Rule:* Inverted Third Conditional: Had + Subject + V3 ..., Subject + would have + V3.\n\n(f) The Director General insisted that the security audit **be conducted** immediately.\n*Rule:* Mandative Subjunctive (insist that + Subject + base verb 'be' + V3 in passive).\n\n(g) I wish I **were** a certified ethical hacker.\n*Rule:* Unreal wish takes the subjunctive 'were'.\n\n(h) Neither the system analyst nor the network engineers **were** present at the incident briefing.\n*Rule:* In 'Neither...nor', the verb agrees with the closer subject ('engineers' is plural).",
+    "points_to_remember": [
+      "'It is high time' takes V2.",
+      "'Lest' requires 'should' + V1.",
+      "'Neither...nor' follows proximity rule."
+    ],
+    "tags": [
+      "verbs",
+      "subjunctive",
+      "conditionals",
+      "english_grammar"
+    ]
+  },
+  {
+    "id": 3028,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English Grammar & Error Correction",
+    "question": "Identify the grammatical errors in each of the following sentences and rewrite them correctly:\n(a) The server cannot cope up with the excessive user traffic.\n(b) One of the computer in the enrollment booth are damaged.\n(c) The technician returned back the faulty RAM to the vendor.\n(d) Neither of the two backup plans were successful.\n(e) He is senior than me in service seniority.\n(f) Although he worked hard, but he failed to configure the VLAN.",
+    "marks": 6,
+    "answer": "Sentence Error Correction Solution:\n\n(a) Incorrect: The server cannot cope up with the excessive user traffic.\n**Correct:** The server cannot **cope with** the excessive user traffic.\n*Reason:* 'Cope with' is the standard idiom; adding 'up' is an erroneous colloquialism.\n\n(b) Incorrect: One of the computer in the enrollment booth are damaged.\n**Correct:** One of the **computers** in the enrollment booth **is** damaged.\n*Reason:* 'One of the' must be followed by a plural noun ('computers') and a singular verb ('is').\n\n(c) Incorrect: The technician returned back the faulty RAM to the vendor.\n**Correct:** The technician **returned** the faulty RAM to the vendor.\n*Reason:* 'Return' inherently means to give or send back; 'returned back' is a redundancy.\n\n(d) Incorrect: Neither of the two backup plans were successful.\n**Correct:** Neither of the two backup plans **was** successful.\n*Reason:* 'Neither of' refers to one at a time and takes a singular verb ('was').\n\n(e) Incorrect: He is senior than me in service seniority.\n**Correct:** He is **senior to me** in service seniority.\n*Reason:* Latin comparatives ending in -ior (senior, junior, superior, inferior, prior) take the preposition 'to', never 'than'.\n\n(f) Incorrect: Although he worked hard, but he failed to configure the VLAN.\n**Correct:** **Although he worked hard, he failed** to configure the VLAN. (or: He worked hard, but he failed...)\n*Reason:* 'Although/Though' and 'but' cannot be used concurrently in the same sentence.",
+    "points_to_remember": [
+      "Never say 'cope up with'—always use 'cope with'.",
+      "Latin adjectives (senior, junior, superior) take 'to', not 'than'."
+    ],
+    "tags": [
+      "error_correction",
+      "redundancy",
+      "subject_verb_agreement"
+    ]
+  },
+  {
+    "id": 3029,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English Grammar & Transformation of Sentences",
+    "question": "Transform the following sentences as directed:\n(a) Dhaka is more crowded than any other city in Bangladesh. (Make it Superlative)\n(b) No other protocol in the suite is as reliable as TCP. (Make it Comparative)\n(c) Who does not want high-speed internet connectivity? (Make it Assertive)\n(d) Shut down the rogue server immediately. (Change the Voice into Passive)\n(e) Honey tastes sweet. (Change the Voice into Passive)\n(f) He admitted his fault. (Make it Complex)",
+    "marks": 6,
+    "answer": "Transformation of Sentences Solution:\n\n(a) Dhaka is more crowded than any other city in Bangladesh.\n$\\rightarrow$ **Superlative:** Dhaka is the most crowded city in Bangladesh.\n\n(b) No other protocol in the suite is as reliable as TCP.\n$\\rightarrow$ **Comparative:** TCP is more reliable than any other protocol in the suite.\n\n(c) Who does not want high-speed internet connectivity?\n$\\rightarrow$ **Assertive:** Everyone / Everybody wants high-speed internet connectivity.\n\n(d) Shut down the rogue server immediately.\n$\\rightarrow$ **Passive:** Let the rogue server be shut down immediately.\n\n(e) Honey tastes sweet. (Quasi-passive)\n$\\rightarrow$ **Passive:** Honey is sweet when it is tasted.\n\n(f) He admitted his fault.\n$\\rightarrow$ **Complex:** He admitted that he was at fault. (or: He admitted that he had made a fault).",
+    "points_to_remember": [
+      "Quasi-passive voice uses 'when it is tasted / felt'.",
+      "Imperative sentences in passive begin with 'Let + object + be + V3'."
+    ],
+    "tags": [
+      "transformation",
+      "voice_change",
+      "degrees_of_comparison"
+    ]
+  },
+  {
+    "id": 3030,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English Idioms & Phrases",
+    "question": "Construct meaningful sentences using the following idioms and phrases, illustrating their clear contextual meaning:\n(a) Bone of contention\n(b) Burn the midnight oil\n(c) At sixes and sevens\n(d) Through thick and thin\n(e) A blessing in disguise\n(f) Null and void\n(g) Kith and kin\n(h) Call it a day",
+    "marks": 8,
+    "answer": "Idioms and Contextual Usage Solution:\n\n(a) **Bone of contention** (A subject of dispute or argument):\n*Sentence:* The allocation of budget for server procurement became a major bone of contention between the finance department and the ICT cell.\n\n(b) **Burn the midnight oil** (To work or study late into the night):\n*Sentence:* The technical team had to burn the midnight oil to successfully migrate the e-Passport database before the morning office hours.\n\n(c) **At sixes and sevens** (In a state of total confusion or disarray):\n*Sentence:* When the centralized Active Directory domain server crashed, the administrative staff were all at sixes and sevens.\n\n(d) **Through thick and thin** (Under all circumstances, good or bad):\n*Sentence:* The senior system administrator supported his junior engineers through thick and thin during the high-pressure system launch.\n\n(e) **A blessing in disguise** (Something that seems bad at first, but turns out to be beneficial):\n*Sentence:* The minor network glitch proved to be a blessing in disguise as it exposed a critical firewall misconfiguration before a major cyber attack could occur.\n\n(f) **Null and void** (Having no legal force or validity):\n*Sentence:* Due to fraudulent biometric submissions, the applicant's previous passport was declared null and void by the immigration authorities.\n\n(g) **Kith and kin** (Friends, family, and relatives):\n*Sentence:* Thousands of expatriate workers rejoiced with their kith and kin after receiving their smart e-passports without delays.\n\n(h) **Call it a day** (To stop working for the rest of the day):\n*Sentence:* Having resolved the routing loop and verified all switch uplinks, the engineering team finally decided to call it a day.",
+    "points_to_remember": [
+      "Ensure contextual relevance in sentence construction to demonstrate comprehensive comprehension of the idiom."
+    ],
+    "tags": [
+      "idioms",
+      "phrases",
+      "vocabulary",
+      "english_written"
+    ]
+  },
+  {
+    "id": 3031,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English Grammar & Clause Analysis",
+    "question": "Identify the dependent clauses in the following sentences and state whether they are Noun Clauses, Adjective (Relative) Clauses, or Adverbial Clauses, with grammatical justification:\n(a) What the maintenance engineer reported was completely accurate.\n(b) The server which was installed in 2020 has reached its end-of-life.\n(c) The network will remain vulnerable unless you enable dynamic ARP inspection.\n(d) He asked whether the database backup had finished.\n(e) This is the data center where biometric records are safely encrypted.",
+    "marks": 5,
+    "answer": "Clause Analysis Solution:\n\n(a) \"**What the maintenance engineer reported** was completely accurate.\"\n$\\rightarrow$ **Noun Clause.**\n*Justification:* It functions as the grammatical Subject of the main verb 'was'.\n\n(b) \"The server **which was installed in 2020** has reached its end-of-life.\"\n$\\rightarrow$ **Adjective (Relative) Clause.**\n*Justification:* It modifies and qualifies the antecedent noun 'server'.\n\n(c) \"The network will remain vulnerable **unless you enable dynamic ARP inspection**.\"\n$\\rightarrow$ **Adverbial Clause of Condition.**\n*Justification:* It modifies the main verb phrase 'will remain' by establishing the condition.\n\n(d) \"He asked **whether the database backup had finished**.\"\n$\\rightarrow$ **Noun Clause.**\n*Justification:* It acts as the Direct Object of the transitive verb 'asked'.\n\n(e) \"This is the data center **where biometric records are safely encrypted**.\"\n$\\rightarrow$ **Adjective (Relative) Clause.**\n*Justification:* Introduced by the relative adverb 'where', it modifies the noun 'data center'.",
+    "points_to_remember": [
+      "Noun clauses can act as Subject, Object, or Complement of a sentence.",
+      "Adjective clauses always modify a preceding noun (antecedent)."
+    ],
+    "tags": [
+      "clause_analysis",
+      "noun_clause",
+      "adverbial_clause",
+      "english_grammar"
+    ]
+  },
+  {
+    "id": 3032,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English Grammar & Narration",
+    "question": "Change the following sentences from Direct to Indirect Speech:\n(a) The System Analyst said to the engineer, \"Have you patched the kernel vulnerability today?\"\n(b) The Director said, \"Do not tamper with the biometric scanner seals under any circumstance.\"\n(c) The user said, \"Alas! All my unsaved passport application data is lost!\"\n(d) The technician said, \"Let us replace the malfunctioning SMPS before testing the display.\"\n(e) The instructor said, \"Light travels faster than sound in a vacuum.\"",
+    "marks": 5,
+    "answer": "Direct to Indirect Speech Solution:\n\n(a) Direct: The System Analyst said to the engineer, \"Have you patched the kernel vulnerability today?\"\n$\\rightarrow$ **Indirect:** The System Analyst asked the engineer if (or whether) he had patched the kernel vulnerability that day.\n\n(b) Direct: The Director said, \"Do not tamper with the biometric scanner seals under any circumstance.\"\n$\\rightarrow$ **Indirect:** The Director forbade them to tamper with the biometric scanner seals under any circumstance. (or: The Director ordered not to tamper with...)\n\n(c) Direct: The user said, \"Alas! All my unsaved passport application data is lost!\"\n$\\rightarrow$ **Indirect:** The user exclaimed with sorrow that all his unsaved passport application data was lost.\n\n(d) Direct: The technician said, \"Let us replace the malfunctioning SMPS before testing the display.\"\n$\\rightarrow$ **Indirect:** The technician proposed (or suggested) that they should replace the malfunctioning SMPS before testing the display.\n\n(e) Direct: The instructor said, \"Light travels faster than sound in a vacuum.\"\n$\\rightarrow$ **Indirect:** The instructor said that light travels faster than sound in a vacuum. *(Universal truth tense remains unchanged)*.",
+    "points_to_remember": [
+      "Universal truths or scientific facts do not change tense in indirect speech.",
+      "'Today' transforms into 'that day'.",
+      "'Let us' changes into 'suggested/proposed that they should'."
+    ],
+    "tags": [
+      "narration",
+      "indirect_speech",
+      "english_grammar"
+    ]
+  },
+  {
+    "id": 3033,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Bangla to English Translation",
+    "question": "Translate the following passage into lucid and professional English:\n\"বাংলাদেশ সরকার ডিজিটাল সেবা প্রসারের মাধ্যমে নাগরিকদের জীবনমান সহজ ও গতিশীল করার লক্ষ্যে নিরবচ্ছিন্নভাবে কাজ করে যাচ্ছে। ই-পাসপোর্ট এবং বিমানবন্দরগুলোতে আধুনিক ই-গেট স্থাপনের ফলে সাধারণ মানুষ অত্যন্ত স্বাচ্ছন্দ্যে আন্তর্জাতিক ভ্রমণ সম্পন্ন করতে পারছে। এতে কেবল দালালদের দৌরাত্ম্যই দূর হয়নি, বরং আন্তর্জাতিক পরিমণ্ডলে বাংলাদেশের পাসপোর্টের ভাবমূর্তি বহুলাংশে উজ্জ্বল হয়েছে। জাতীয় প্রযুক্তিগত অগ্রগতি সমুন্নত রাখতে দক্ষ প্রকৌশলীদের ভূমিকা অপরিসীম।\"",
+    "marks": 8,
+    "answer": "Professional English Translation:\n\n\"The Government of Bangladesh is relentlessly working to streamline and elevate the living standards of its citizens through the widespread expansion of digital public services. Following the introduction of biometric e-passports and the installation of state-of-the-art automated e-Gates at international airports, citizens can now undertake international travel with remarkable ease and comfort. This transformation has not only eradicated the menace of unscrupulous middlemen, but has also substantially elevated the prestige and credibility of the Bangladeshi passport in the international arena. In upholding such sovereign technological milestones, the contribution of skilled maintenance engineers is truly indispensable.\"",
+    "points_to_remember": [
+      "'Streamline and elevate' translates 'সহজ ও গতিশীল করা'।",
+      "'State-of-the-art automated e-Gates' for 'আধুনিক ই-গেট'।",
+      "'Menace of unscrupulous middlemen' for 'দালালদের দৌরাত্ম্য'।",
+      "'Indispensable' for 'অপরিসীম/অপরিহার্য'।."
+    ],
+    "tags": [
+      "translation",
+      "bangla_to_english",
+      "written_english"
+    ]
+  },
+  {
+    "id": 3034,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Bangla to English Translation",
+    "question": "Translate the following analytical paragraph into professional English:\n\"বৈশ্বিক উষ্ণায়ন ও জলবায়ু পরিবর্তনের ক্ষতিকর প্রভাব মোকাবিলায় বাংলাদেশ বিশ্বের অন্যতম অগ্রগামী দেশ হিসেবে পরিচিত। শতবর্ষী 'বদ্বীপ পরিকল্পনা ২১০০' প্রণয়ন এবং নিজস্ব অর্থায়নে ক্লাইমেট ট্রাস্ট ফান্ড গঠনের মাধ্যমে বাংলাদেশ পরিবেশগত সুরক্ষায় টেকসই দৃষ্টান্ত স্থাপন করেছে। তবে আন্তর্জাতিক আর্থিক প্রতিশ্রুতি এবং নবায়নযোগ্য জ্বালানির প্রযুক্তির অবাধ হস্তান্তর ছাড়া এই মহৎ উদ্যোগ টেকসই করা অত্যন্ত কঠিন।\"",
+    "marks": 7,
+    "answer": "Professional English Translation:\n\n\"Bangladesh is widely recognized as one of the forefront nations in combatting the adverse impacts of global warming and climate change. Through the formulation of the century-long 'Bangladesh Delta Plan 2100' and the establishment of a self-financed Climate Change Trust Fund, the country has set a sustainable paradigm in environmental stewardship. Nevertheless, sustaining these monumental endeavors remains exceptionally challenging without the timely fulfillment of international climate finance pledges and the unhindered transfer of renewable green technology.\"",
+    "points_to_remember": [
+      "'Adverse impacts' for ক্ষতিকর প্রভাব।",
+      "'Environmental stewardship' for পরিবেশগত সুরক্ষা।",
+      "'Pledges' for আর্থিক প্রতিশ্রুতি।"
+    ],
+    "tags": [
+      "translation",
+      "bangla_to_english",
+      "climate_change"
+    ]
+  },
+  {
+    "id": 3035,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English to Bangla Translation",
+    "question": "Translate the following passage into expressive and lucid Bengali:\n\"Zero Trust is not merely a piece of cybersecurity software, but an overarching strategic philosophy that eliminates implicit trust from enterprise networks. Traditional security architectures operated on the flawed assumption that everything inside an organization's local area network could be trusted. In contrast, Zero Trust mandates continuous cryptographic authentication, dynamic privilege authorization, and comprehensive session inspection, thereby preventing lateral threat proliferation even when a perimeter workstation is compromised.\"",
+    "marks": 8,
+    "answer": "বাংলায় প্রাঞ্জল ভাবানুবাদ:\n\n\"জিরো ট্রাস্ট নিছক কোনো সাইবার নিরাপত্তা সফটওয়্যার নয়, বরং এটি একটি সর্বাত্মক ও সমন্বিত কৌশলগত দর্শন যা করপোরেট নেটওয়ার্ক থেকে অন্ধ ও অন্তর্নিহিত বিশ্বাসের ধারণাকে সম্পূর্ণ নির্মূল করে। সনাতন নিরাপত্তা ব্যবস্থাগুলো এই ত্রুটিপূর্ণ ধারণার ওপর প্রতিষ্ঠিত ছিল যে সংস্থার নিজস্ব লোকাল এরিয়া নেটওয়ার্কের (ল্যান) ভেতরের সবকিছুই বিশ্বস্ত ও নিরাপদ। এর বিপরীতে, জিরো ট্রাস্ট প্রতিটি ধাপে সার্বক্ষণিক ক্রিপ্টোগ্রাফিক যাচাইকরণ, গতিশীল সুবিধা অনুমোদন এবং প্রতিটি সেশনের পুঙ্খানুপুঙ্খ পর্যবেক্ষণকে বাধ্যতামূলক করে; যার ফলে নেটওয়ার্কের কোনো সীমানার কম্পিউটার হ্যাকড হলেও আক্রমণকারীর পক্ষে ভেতরের অন্যান্য সার্ভারে ছড়িয়ে পড়া (ল্যাটারাল বিস্তার) সম্পূর্ণরূপে প্রতিহত করা সম্ভব হয়।\"",
+    "points_to_remember": [
+      "'Overarching strategic philosophy' -> সর্বাত্মক ও সমন্বিত কৌশলগত দর্শন।",
+      "'Implicit trust' -> অন্ধ বা অন্তর্নিহিত বিশ্বাস।",
+      "'Lateral threat proliferation' -> ল্যাটারাল বিস্তার বা পার্শ্ববর্তী সার্ভারে ছড়িয়ে পড়া।"
+    ],
+    "tags": [
+      "translation",
+      "english_to_bangla",
+      "zero_trust"
+    ]
+  },
+  {
+    "id": 3036,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Official Drafting & Formal Letter",
+    "question": "As a Sub-Assistant Maintenance Engineer at the Divisional Passport and Visa Office, draft an official requisition letter to the Central Store Officer requesting the supply of critical consumable hardware items and replacement parts (Thermal Receipt Paper Rolls, RFID Passport Validation Tags, CMOS Batteries, and Cat-6 RJ-45 Connectors).",
+    "marks": 8,
+    "answer": "Model Official Requisition Letter:\n\nGovernment of the People's Republic of Bangladesh\nDepartment of Immigration and Passports\nDivisional Passport and Visa Office, Agargaon, Dhaka.\n\nMemo No: 44.01.2600.004.05.019.26-302\nDate: 23 October 2026\n\nTo:\nThe Central Store Officer\nDepartment of Immigration and Passports\nCentral Warehouse, Agargaon, Dhaka-1207.\n\nSubject: Official Requisition for Consumable IT Hardware and Maintenance Supplies for Q4.\n\nDear Sir,\n\nI have the honor to state that the current inventory of critical IT consumables and diagnostic hardware at our Divisional Enrollment and Biometric Data Center is nearing exhaustion due to a high volume of citizen applications processed daily. To ensure uninterrupted service delivery and preempt hardware downtime, the following supplies are urgently required for the upcoming quarter:\n\n| Item No. | Description of Supplies | Specification / Model | Required Quantity |\n| :---: | :--- | :--- | :---: |\n| 1 | Thermal Receipt Paper Rolls | 80mm x 80mm, High-density Grade | 500 Rolls |\n| 2 | RFID Validation Test Tags | 13.56 MHz ISO 14443 Type A/B | 200 Units |\n| 3 | Lithium Button Cell CMOS Batteries | CR2032 3V (Energizer/Panasonic) | 50 Pieces |\n| 4 | Modular RJ-45 Connectors & Boots | Cat-6 UTP Gold-Plated 8P8C | 300 Pieces |\n| 5 | Anti-Static Optical Cleaning Wipes | 99% Isopropyl Lint-Free | 20 Packs |\n\n2. It is therefore respectfully requested that you arrange the necessary allocation and issuance of the aforementioned items from the central store at your earliest convenience.\n\nYours faithfully,\n\n(Signature)\n(Md. Asif Mahmud)\nSub-Assistant Maintenance Engineer\nDivisional Passport and Visa Office, Dhaka\nPhone: +880 2-XXXXXXXX\nEmail: same.dhaka@dip.gov.bd\n\nCopy forwarded for kind information to:\n1. Deputy Director, Divisional Passport and Visa Office, Dhaka.\n2. System Analyst, ICT Cell, Department of Immigration and Passports, Dhaka.\n3. Office Guard File.",
+    "points_to_remember": [
+      "Include a formatted tabular item list with precise technical specifications and quantities.",
+      "Follow standard government memo layout with distribution list."
+    ],
+    "tags": [
+      "official_letter",
+      "requisition",
+      "english_drafting"
+    ]
+  },
+  {
+    "id": 3037,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Official Drafting & Memorandum",
+    "question": "Draft an official administrative memorandum from the ICT Division to all regional passport offices instructing mandatory enforcement of Two-Factor Authentication (2FA) and a Strict Clean Desk Policy on all biometric enrollment terminals.",
+    "marks": 7,
+    "answer": "Model Administrative Memorandum:\n\nDEPARTMENT OF IMMIGRATION AND PASSPORTS\nICT & INFORMATION SECURITY CELL\nHeadquarters, E-7 Agargaon, Dhaka-1207\n\nMEMORANDUM\n\nRef No: 44.01.0000.701.12.008.26-112\nDate: 23 October 2026\n\nTO: All Assistant Directors, Maintenance Engineers & Data Entry Supervisors\n    Regional Passport Offices (All)\n\nSUBJECT: MANDATORY ENFORCEMENT OF TWO-FACTOR AUTHENTICATION (2FA) AND STRICT CLEAN DESK POLICY FOR ALL BIOMETRIC ENROLLMENT TERMINALS\n\n1. Recent national vulnerability assessments indicate that credential theft and unauthorized terminal access represent the highest threat vectors targeting citizen identity databases. To fortify our Critical Information Infrastructure against illicit intrusion, the following security directives are hereby promulgated for immediate and strict compliance:\n\n   (a) **Mandatory 2FA Enforcement:** Effective from 01 November 2026, no operator shall access the e-Passport Central Portal using single-factor static passwords. Access will strictly require user credentials paired with a hardware FIDO2 Security Token or mobile-based authenticator OTP.\n   (b) **Clean Desk and Clear Screen Policy:** All enrollment desks must remain clear of physical applicant files, handwritten passport numbers, or removable media (USB drives) when unattended. Workstations must be configured to lock automatically after two (02) minutes of inactivity.\n   (c) **Prohibition of Unauthorized Hardware:** Under no circumstances shall personal smartphones, external webcams, or unauthorized Wi-Fi dongles be connected to the government network switch or PC USB ports.\n\n2. Regional Sub-Assistant Maintenance Engineers are instructed to conduct bi-weekly audit sweeps and log terminal compliance. Any breach of this directive will trigger disciplinary action under the Government Servants (Conduct) Rules.\n\nBy Order of the Director General,\n\n(Signature)\n(Engr. Tanvir Ahmed)\nDirector (Systems & ICT)\nDepartment of Immigration and Passports, Dhaka.",
+    "points_to_remember": [
+      "Numbered instructions provide clarity and authority in administrative memos.",
+      "Specify compliance deadlines and consequences of non-compliance."
+    ],
+    "tags": [
+      "official_memo",
+      "cybersecurity_policy",
+      "english_drafting"
+    ]
+  },
+  {
+    "id": 3038,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Technical Root Cause Analysis (RCA) Report",
+    "question": "Draft an executive Technical Incident & Root Cause Analysis (RCA) Report concerning a 45-minute total network outage at a Regional Technical School and College (TSC) / Polytechnic Institute caused by a physical switching loop and Spanning Tree Protocol (STP) misconfiguration.",
+    "marks": 9,
+    "answer": "Executive Technical Incident & Root Cause Analysis (RCA) Report:\n\n**DOCUMENT CLASSIFICATION:** INTERNAL RESTRICTED  \n**INCIDENT TRACKING ID:** INC-2026-1023-NET  \n**AFFECTED FACILITY:** Regional Technical School and College (TSC) / Polytechnic Institute, Sylhet  \n**DATE OF INCIDENT:** 23 October 2026 | **DURATION:** 45 Minutes (10:15 AM – 11:00 AM)  \n\n**1. EXECUTIVE SUMMARY:**  \nAt 10:15 AM, the local area network serving twenty-two (22) biometric enrollment counters and eight (8) delivery stations experienced a total connectivity failure. Applicants could not be enrolled, and e-Gate verification timed out. Full service was restored at 11:00 AM following the isolation of a loop and configuration of Rapid Spanning Tree Protocol (RSTP).\n\n**2. TIMELINE OF EVENTS:**  \n• **10:15 AM:** Core Switch CPU utilization surged to 100%; inter-VLAN ping latency spiked from 1ms to over 3500ms, followed by 98% packet loss.  \n• **10:25 AM:** Maintenance Engineer diagnosed a broadcast radiation storm (over 120,000 broadcast packets/sec) saturating all trunk ports.  \n• **10:40 AM:** Physical inspection identified that an unmanaged 8-port desktop switch in the training room had both ends of a patch cable inadvertently plugged into two adjacent wall ports connected to Access Switch-02.  \n• **10:45 AM:** Loop cable physically disconnected; broadcast storm ceased immediately.  \n• **10:55 AM:** Spanning Tree BPDU Guard and Loop Guard enabled globally across all access ports.  \n• **11:00 AM:** Full system operational verification confirmed; incident resolved.\n\n**3. ROOT CAUSE:**  \n1. **Human Error:** An operator mistakenly connected both ends of an Ethernet patch cable into two live data jacks, forming a physical bridging loop.  \n2. **Configuration Gap:** Access Switch-02 had 'BPDU Guard' disabled on edge ports. Consequently, when loop frames circulated, the switch failed to automatically err-disable the rogue port, precipitating an uncontained Layer-2 broadcast storm.\n\n**4. PREVENTIVE ACTIONS & RECOMMENDATIONS:**  \n• Enable `spanning-tree portfast bpduguard default` on all edge ports across all switches nationwide.  \n• Enforce strict physical port locking on unallocated wall sockets.  \n• Deploy automated SNMP trap alerts to notify the NOC when switch CPU exceeds 80%.\n\n**SUBMITTED BY:**  \n(Md. Shakil Hossain)  \nSub-Assistant Maintenance Engineer  \nRegional Technical School and College (TSC) / Polytechnic Institute, Sylhet.",
+    "points_to_remember": [
+      "Technical incident reports require Executive Summary, Timeline, Root Cause, and Action Items.",
+      "Incorporate precise networking terms (broadcast storm, BPDU guard, trunk ports, err-disable)."
+    ],
+    "tags": [
+      "rca_report",
+      "incident_report",
+      "networking",
+      "technical_writing"
+    ]
+  },
+  {
+    "id": 3039,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Official Drafting & Contractual Notice",
+    "question": "Draft an official 'Cure Notice / Penalty Warning Letter' from the Department of Immigration and Passports to the authorized Annual Maintenance Contract (AMC) vendor for repeated failure to replace degraded UPS battery banks within the agreed SLA timeframe.",
+    "marks": 8,
+    "answer": "Model Contractual Cure Notice:\n\nGOVERNMENT OF THE PEOPLE'S REPUBLIC OF BANGLADESH\nDEPARTMENT OF IMMIGRATION AND PASSPORTS\nOFFICE OF THE SYSTEM ANALYST\nE-7 Agargaon, Dhaka-1207\n\nRef: 44.01.0000.301.08.004.26-789\nDate: 23 October 2026\n\nTo:\nThe Managing Director\nElectroTech Power Solutions Ltd.\nHouse-14, Road-07, Banani, Dhaka-1213.\n\nSUBJECT: FORMAL CURE NOTICE: PERSISTENT DELAY IN REPLACING FAULTY 10 KVA ONLINE UPS BATTERY BANKS UNDER AMC CONTRACT NO: DIP/AMC-UPS/2025-26\n\nDear Sir,\n\nThis serves as a formal written notice regarding your repeated breach of performance commitments under the active Annual Maintenance Contract (Contract Ref: DIP/AMC-UPS/2025-26, dated 15 January 2026).\n\n2. As per Clause 8.2 (Service Level Agreement) of the said contract, your technical personnel are contractually obligated to rectify or replace defective UPS battery cells within twenty-four (24) hours of ticket issuance. However, Ticket #UPS-DH-402 (issued on 12 October 2026) and Ticket #UPS-CTG-409 (issued on 16 October 2026) regarding swollen and degraded 12V 100Ah VRLA battery strings remain unaddressed despite three formal reminders.\n\n3. This prolonged negligence has deprived our production passport servers of clean redundant power, exposing national immigration databases to severe risks of catastrophic power surges and unbudgeted downtime.\n\n4. You are hereby called upon to **cure this default within forty-eight (48) hours** of receipt of this notice by delivering and commissioning genuine replacement battery modules. Failure to comply will compel this Department to invoke Clause 14.1, imposing liquidated damages at 0.5% per week of the contract value and initiating forfeiture of your Performance Guarantee Security, alongside prospective blacklisting from future public tenders.\n\nPlease treat this notice as extremely urgent.\n\nYours faithfully,\n\n(Signature)\n(Engr. Kazi Mahfuzur Rahman)\nSystem Analyst & Head of Maintenance\nDepartment of Immigration and Passports\nEmail: sysanalyst@dip.gov.bd",
+    "points_to_remember": [
+      "A legal/contractual cure notice must cite specific contract clauses, dates, ticket IDs, and exact legal remedies/penalties."
+    ],
+    "tags": [
+      "official_letter",
+      "contractual_notice",
+      "sla_warning",
+      "english_drafting"
+    ]
+  },
+  {
+    "id": 3040,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Précis Writing",
+    "question": "Write a précis of the following passage in about one-third of its length and suggest a suitable title:\n\n\"The integration of Artificial Intelligence into public sector administration and immigration border control offers tremendous opportunities to streamline operations, enhance document fraud detection, and eliminate long queues at international airports. Machine learning algorithms can analyze passport security features, facial landmarks, and behavioral biometrics in fractions of a second, far outpacing the capacity of human border guards. However, this profound technological leap forward is accompanied by substantial ethical and societal hazards. If trained on skewed or unrepresentative demographic datasets, facial recognition models can exhibit dangerous algorithmic bias, leading to disproportionate false rejections of specific ethnic minorities. Furthermore, the ubiquitous harvesting and long-term retention of private biometric information in centralized databases expose citizens to perpetual state surveillance and severe risks of catastrophic cyber breaches. Therefore, deploying artificial intelligence in sovereign public spheres must be strictly balanced with transparent algorithmic governance, independent oversight committees, robust privacy laws, and unconditional human-in-the-loop validation mechanisms to protect fundamental civil liberties.\"",
+    "marks": 8,
+    "answer": "Précis Solution:\n\n**Title: Balancing AI Innovation and Civil Liberties in Public Governance**\n\n**Précis:**\nWhile artificial intelligence significantly enhances border control and fraud detection by accelerating biometric verification beyond human speed, it introduces severe ethical risks. Flawed algorithmic datasets can cause discriminatory racial bias, while centralized biometric storage threatens personal privacy and invites catastrophic cyber theft. Consequently, public AI deployment mandates transparent governance, independent audit oversight, and human verification to protect democratic freedoms.\n\n*(Word count: 62 words; Original text: 168 words)*",
+    "points_to_remember": [
+      "Précis must capture the core paradox (benefits vs. risks) in approximately 30-35% of the original text.",
+      "A concise and relevant title is mandatory."
+    ],
+    "tags": [
+      "precis_writing",
+      "summary",
+      "ai_ethics",
+      "english_written"
+    ]
+  },
+  {
+    "id": 3041,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Reading Comprehension & Analysis",
+    "question": "Read the following passage and answer the questions that follow in complete analytical sentences:\n\n\"Network Function Virtualization (NFV) and Software-Defined Networking (SDN) represent a paradigm shift in modern data center architecture. Traditional enterprise networks rely heavily on proprietary, dedicated hardware appliances such as physical firewalls, load balancers, and edge routers. This hardware-centric model incurs exorbitant capital expenditures, demands complex manual recabling, and creates rigid architectural vendor lock-ins. Conversely, SDN decouples the network control plane—which makes routing and forwarding decisions—from the data plane that forwards physical network packets. By centralizing network intelligence into software controllers, SDN empowers network administrators to dynamically orchestrate traffic flows, automate bandwidth allocation, and provision virtual network slices through programmatic APIs. Complementary to SDN, NFV abstracts essential network functions from specialized hardware and executes them as virtual machines or lightweight microservice containers on commodity x86 servers. Together, these complementary technologies foster hyper-resilient, scalable, and cost-effective digital infrastructures, which are indispensable for managing the immense data flows of modern e-governance.\"\n\n**Questions:**\n(a) What are the principal drawbacks of traditional hardware-centric network infrastructures?\n(b) How does Software-Defined Networking (SDN) achieve architectural agility?\n(c) In what way does NFV complement SDN in an enterprise data center?\n(d) Give synonyms for: 'Exorbitant' and 'Decouples'.",
+    "marks": 8,
+    "answer": "Comprehension Answers:\n\n(a) The primary drawbacks of traditional hardware-centric networks include exorbitant capital expenditures, the requirement of cumbersome manual physical recabling, and rigid dependency on proprietary vendor hardware (vendor lock-in).\n\n(b) SDN achieves architectural agility by decoupling the intelligent control plane from the packet-forwarding data plane. By centralizing network logic into a software controller, administrators can dynamically orchestrate traffic flows, automate bandwidth provisioning, and enforce policies programmatically via APIs without reconfiguring physical devices.\n\n(c) While SDN centralizes the logic and flow control of the network, NFV complements it by replacing proprietary hardware appliances (like physical firewalls and routers) with virtualized software instances running on standardized, commodity x86 server hardware, thereby slashing hardware costs and boosting scalability.\n\n(d) **Synonyms:**\n• **Exorbitant:** Extravagant, excessive, prohibitive, disproportionate.\n• **Decouples:** Separates, disassociates, disconnects, detaches.",
+    "points_to_remember": [
+      "Formulate answers in your own words rather than lifting verbatim sentences from the text.",
+      "Clear distinction between SDN (Control vs Data plane) and NFV (Hardware to Software abstraction)."
+    ],
+    "tags": [
+      "comprehension",
+      "sdn",
+      "nfv",
+      "english_written"
+    ]
+  },
+  {
+    "id": 3042,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Focus Essay Writing",
+    "question": "Write a comprehensive analytical Focus Essay on:\n\"Digital Public Infrastructure (DPI) as the Catalyst for Bangladesh's Socio-Economic Transformation\". (Include: Conceptual Foundation of DPI, The Three Core Pillars: Digital Identity, Real-Time Payments, and Data Exchange, Economic Impact and Financial Inclusion, Overcoming Implementation Bottlenecks, Conclusion).",
+    "marks": 10,
+    "answer": "Focus Essay:\n\n**Digital Public Infrastructure (DPI) as the Catalyst for Bangladesh's Socio-Economic Transformation**\n\n**1. Introduction & Conceptual Framework:**\nDigital Public Infrastructure (DPI) represents the digital equivalent of roads, bridges, and electric grids in the modern information society. Rather than constructing fragmented, siloed IT applications for individual ministries, DPI provides open, interoperable, and reusable digital building blocks upon which both the public and private sectors can innovate. Globally recognized as the bedrock of digital empowerment, DPI is propelling Bangladesh toward an inclusive, high-income knowledge economy by 2041.\n\n**2. The Three Core Pillars of DPI:**\nAn effective DPI architecture rests upon three interconnected foundational layers:\n1. **Verifiable Digital Identity:** The foundational layer providing every citizen with a legally recognized, unique digital persona. Bangladesh's smart National Identity (NID) and biometric e-Passport systems under the Department of Immigration and Passports ensure tamper-proof authentication across government and financial portals.\n2. **Fast & Interoperable Digital Payment Systems:** Systems such as the National Payment Switch Bangladesh (NPSB), Mobile Financial Services (bKash, Nagad), and the Interoperable Digital Transaction Platform (Binimoy) have democratized commerce, enabling unbanked citizens to transfer funds, pay utility bills, and receive social safety-net allowances instantly.\n3. **Consent-Based Data Exchange:** Secure API platforms (such as the National e-Service Bus) allowing inter-agency data sharing—such as validating academic credentials, land ownership records, and tax clearances—eliminating repetitive paperwork.\n\n**3. Economic Impact and Financial Inclusion:**\nThe proliferation of DPI has unlocked unprecedented socio-economic dividends. Direct Benefit Transfers (DBT) during economic crises eliminated leakage and corruption, delivering aid directly to impoverished families. Furthermore, rural entrepreneurs, freelance software developers, and women-led micro-enterprises now participate seamlessly in global digital commerce, contributing significantly to foreign exchange reserves.\n\n**4. Key Challenges & Remedial Strategies:**\nDespite monumental strides, significant bottlenecks persist:\n• **The Digital Literacy Divide:** A large segment of marginal and elderly populations struggles to navigate automated self-service portals, necessitating grassroots digital service kiosks.\n• **Cybersecurity & Data Privacy:** Centralizing national identity records attracts adversarial cyber syndicates. Strict enforcement of data protection laws and zero-trust security postures are paramount.\n• **Regulatory Interoperability:** Ensuring legacy banking platforms and emerging fintech startups cooperate without predatory monopolistic barriers.\n\n**5. Conclusion:**\nDigital Public Infrastructure is not merely a modern convenience; it is an equalizer of human opportunity. By fortifying its digital identity infrastructure, expanding interoperable payments, and guaranteeing unwavering cybersecurity, Bangladesh can transform DPI into an unyielding engine of sovereign prosperity and social equity.",
+    "points_to_remember": [
+      "Highlight the three global pillars of DPI: Identity, Payments, Data Exchange.",
+      "Link directly to national systems (NID, e-Passport, NPSB, Binimoy)."
+    ],
+    "tags": [
+      "focus_essay",
+      "dpi",
+      "digital_governance",
+      "english_written"
+    ]
+  },
+  {
+    "id": 3043,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Focus Essay Writing",
+    "question": "Write an analytical Focus Essay on:\n\"Artificial Intelligence in Public Service Delivery: Opportunities, Ethics, and Governance in Bangladesh\". (Include: Introduction, Practical AI Applications in e-Governance, Ethical Dilemmas & Algorithmic Transparency, Human-Centric AI Governance Framework, Conclusion).",
+    "marks": 10,
+    "answer": "Focus Essay:\n\n**Artificial Intelligence in Public Service Delivery: Opportunities, Ethics, and Governance in Bangladesh**\n\n**1. Introduction:**\nArtificial Intelligence (AI) has emerged as the definitive general-purpose technology of the Fourth Industrial Revolution. In public administration, where traditional bureaucracies are frequently constrained by paperwork, processing delays, and manpower shortages, AI offers the transformative capability to process unstructured citizen inquiries, optimize resource distribution, and automate document scrutiny with unparalleled precision.\n\n**2. Practical Applications in Bangladesh's Public Administration:**\n• **Automated Border Control & Immigration:** Machine learning vision models power international airport e-Gates, performing facial landmark analysis and anti-spoofing verification against e-passport chip data in under twenty seconds.\n• **Natural Language Citizen Assistance:** AI chatbots deployed on government portals provide 24/7 localized guidance for passport tracking, national identity corrections, and land record queries.\n• **Predictive Disaster Management:** Analyzing satellite telemetry from Bangabandhu Satellite-1 enables authorities to predict flash floods and agricultural drought patterns days in advance, saving millions in emergency relief expenditures.\n\n**3. Ethical Quandaries and Algorithmic Vulnerabilities:**\nThe integration of algorithmic governance introduces profound ethical challenges:\n• **Algorithmic Discrimination:** AI systems trained on historical datasets may inadvertently perpetuate socioeconomic or gender biases in public recruitment and welfare distribution.\n• **The 'Black Box' Problem:** Deep neural networks often arrive at critical decisions through convoluted mathematical weights that lack human interpretability, undermining the constitutional right to administrative justification.\n• **Data Exploitation and Mass Surveillance:** Excessive tracking of citizen movements and biometric trails poses existential threats to individual privacy and democratic freedoms.\n\n**4. Constructing a Robust AI Governance Framework:**\nTo harness AI beneficially, Bangladesh must implement a human-centric regulatory paradigm:\n1. **Statutory Algorithmic Audits:** Mandating independent third-party audits of government AI algorithms to eliminate bias and verify accuracy before live deployment.\n2. **Human-in-the-Loop Safeguards:** Ensuring automated systems serve as assistive decision-support tools, with final adjudications on citizen rights reserved strictly for accountable human officers.\n3. **National AI Ethics Council:** Establishing an interdisciplinary oversight body comprising computer scientists, legal jurists, and human rights advocates to oversee sovereign AI implementations.\n\n**5. Conclusion:**\nArtificial intelligence possesses the power to democratize and humanize bureaucratic governance. However, technological capability must always be subservient to human dignity. By embedding transparency, ethical stewardship, and strict oversight into its AI architecture, Bangladesh can craft a smarter, fairer, and more compassionate public service for all citizens.",
+    "points_to_remember": [
+      "Address the 'Black Box' dilemma and 'Human-in-the-Loop' safeguards.",
+      "Reference the National AI Strategy of Bangladesh."
+    ],
+    "tags": [
+      "focus_essay",
+      "ai_in_governance",
+      "ethics",
+      "public_service"
+    ]
+  },
+  {
+    "id": 3044,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Focus Essay Writing",
+    "question": "Write an analytical Focus Essay on:\n\"Climate-Induced Migration and Border Security: A Contemporary Geopolitical Challenge\". (Include: Introduction, The Dynamics of Climate Displacement, Cross-Border Security & Human Rights Implications, Technological Interventions in Border Management, Conclusion).",
+    "marks": 10,
+    "answer": "Focus Essay:\n\n**Climate-Induced Migration and Border Security: A Contemporary Geopolitical Challenge**\n\n**1. Introduction:**\nClimate change is no longer solely an ecological catastrophe; it is an urgent driver of human displacement and a complex geopolitical security challenge. As rising sea levels, salinization, and prolonged droughts render vast regions uninhabitable, millions of vulnerable people are forced to abandon ancestral lands, precipitating unprecedented internal and cross-border demographic shifts.\n\n**2. The Dynamics of Climate Displacement:**\nIn low-lying riverine deltas like Bangladesh, coastal erosion and super-cyclones displace hundreds of thousands annually from coastal districts like Satkhira and Bhola into already overcrowded urban megacities. Globally, the United Nations estimates that over two hundred million people could be permanently displaced by climate shocks by 2050. When internal coping capacities are exhausted, desperate populations inevitably seek refuge across international borders.\n\n**3. Border Security vs. Humanitarian Rights:**\nTraditional border security paradigms view irregular migration predominantly through a punitive, law-enforcement lens—deploying physical fences, militarized patrols, and deportation protocols. However, climate refugees fit into an ambiguous legal vacuum: international refugee treaties (such as the 1951 Refugee Convention) strictly define refugees around political, racial, or religious persecution, offering zero statutory protections to those fleeing environmental devastation. This discord breeds exploitation, human trafficking, and regional geopolitical tensions.\n\n**4. Technological and Diplomatic Solutions in Border Management:**\nModern sovereign border management must transition from blunt militarization to intelligent, humanitarian border governance:\n• **Integrated Biometric Verification:** Biometric e-passports and Automated Border Control (ABC) gates ensure that legitimate humanitarian corridors can be managed with ironclad security, separating vulnerable migrants from organized criminal syndicates.\n• **Satellite Predictive Surveillance:** Utilizing remote sensing to monitor vulnerable coastal zones and early-warning environmental stress indicators, enabling pre-emptive humanitarian intervention.\n• **Global Climate Justice & Legal Recognition:** Developed nations, who bear historical responsibility for greenhouse emissions, must fund loss-and-damage adaptation and establish multilateral legal frameworks granting asylum and rehabilitation to climate-displaced populations.\n\n**5. Conclusion:**\nClimate displacement cannot be halted by barbed-wire barriers. True security lies in addressing the root ecological causes while instituting humane, technologically advanced, and legally codified border architectures. Managing climate migration with both firm security and profound empathy is the defining moral and geopolitical test of our century.",
+    "points_to_remember": [
+      "Critically analyze the gap in the 1951 UN Refugee Convention regarding climate displacement.",
+      "Balance national security concerns with humanitarian human rights."
+    ],
+    "tags": [
+      "focus_essay",
+      "climate_migration",
+      "border_security",
+      "geopolitics"
+    ]
+  },
+  {
+    "id": 3045,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Pairs of Confusing Words",
+    "question": "Distinguish between the following pairs of words by writing clear, grammatically sound contextual sentences:\n(a) Complement vs Compliment\n(b) Principal vs Principle\n(c) Stationary vs Stationery\n(d) Affect vs Effect\n(e) Illicit vs Elicit\n(f) Eminent vs Imminent",
+    "marks": 6,
+    "answer": "Pairs of Confusing Words Solution:\n\n(a) **Complement** vs **Compliment**:\n• **Complement** (To complete or enhance something):\n*Sentence:* The software-defined firewall acts as an essential complement to the physical hardware perimeter.\n• **Compliment** (An expression of praise or admiration):\n*Sentence:* The Director General paid a rich compliment to the maintenance team for restoring server operations without delay.\n\n(b) **Principal** vs **Principle**:\n• **Principal** (Head of an institution / Primary / Main sum):\n*Sentence:* High latency was the principal cause behind the failure of remote database synchronization.\n• **Principle** (A fundamental truth, rule, or doctrine):\n*Sentence:* Zero-trust security operates on the uncompromising principle of continuous verification.\n\n(c) **Stationary** vs **Stationery**:\n• **Stationary** (Not moving / Fixed in one place):\n*Sentence:* The network radar detected a stationary device connected to the switch port for over twelve hours.\n• **Stationery** (Writing materials like paper, envelopes, pens):\n*Sentence:* The administrative assistant submitted an official requisition for office stationery and thermal printer ribbons.\n\n(d) **Affect** vs **Effect**:\n• **Affect** (Verb: To influence or alter something):\n*Sentence:* Severe power fluctuations can adversely affect the sensitive optical sensors of biometric scanners.\n• **Effect** (Noun: The result or consequence of an action):\n*Sentence:* The new load-balancing algorithm had an immediate positive effect on website response times.\n\n(e) **Illicit** vs **Elicit**:\n• **Illicit** (Illegal / Forbidden by law or rules):\n*Sentence:* The forensic investigator intercepted an illicit transmission of citizen records across an unencrypted port.\n• **Elicit** (To evoke, draw out, or obtain information):\n*Sentence:* The technician's diagnostic questions were designed to elicit specific error codes from the user.\n\n(f) **Eminent** vs **Imminent**:\n• **Eminent** (Famous, distinguished, and respected):\n*Sentence:* An eminent computer science professor was invited to conduct the specialized cybersecurity training.\n• **Imminent** (About to happen very soon / Impending):\n*Sentence:* Hearing the high-pitch warning siren from the UPS, the engineers realized that an automatic shutdown was imminent.",
+    "points_to_remember": [
+      "Station**e**ry with an 'e' = **E**nvelopes / pap**e**r.",
+      "Affect is typically a verb, while Effect is typically a noun."
+    ],
+    "tags": [
+      "confusing_words",
+      "vocabulary",
+      "english_grammar"
+    ]
+  },
+  {
+    "id": 3046,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "One-Word Substitution",
+    "question": "Provide the precise single-word substitute for each of the following descriptions:\n(a) A person who speaks or knows many languages.\n(b) That which cannot be corrected or reformed.\n(c) One who is all-knowing and has infinite knowledge.\n(d) One who sacrifices his own interests for the welfare of others.\n(e) A universal remedy or cure for all diseases and difficulties.\n(f) Occurring, awarded, or published after a person's death.\n(g) A person who believes in or advocates the overthrow of government authority.\n(h) A person who hates or distrusts humankind.",
+    "marks": 8,
+    "answer": "One-Word Substitution Solution:\n\n(a) A person who speaks or knows many languages = **Polyglot** (or Linguist)\n(b) That which cannot be corrected or reformed = **Incorrigible**\n(c) One who is all-knowing and has infinite knowledge = **Omniscient**\n(d) One who sacrifices his own interests for the welfare of others = **Altruist**\n(e) A universal remedy or cure for all diseases and difficulties = **Panacea**\n(f) Occurring, awarded, or published after a person's death = **Posthumous**\n(g) A person who believes in or advocates the overthrow of government authority = **Anarchist**\n(h) A person who hates or distrusts humankind = **Misanthrope** (or Misanthropist)।",
+    "points_to_remember": [
+      "'Incorrigible', 'Panacea', and 'Omniscient' are very common in PSC written examinations."
+    ],
+    "tags": [
+      "one_word_substitution",
+      "vocabulary",
+      "english_written"
+    ]
+  },
+  {
+    "id": 3047,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Word Formation & Parts of Speech Conversion",
+    "question": "Convert the following words into the specified parts of speech and write one meaningful sentence with the newly formed word:\n(a) Maintain (into Noun)\n(b) Secure (into Noun)\n(c) Resilient (into Noun)\n(d) Execute (into Noun)\n(e) Pure (into Verb)\n(f) Clear (into Verb)",
+    "marks": 6,
+    "answer": "Word Formation & Usage Solution:\n\n(a) **Maintain** $\\rightarrow$ Noun: **Maintenance**\n*Sentence:* Routine preventive maintenance of biometric kiosks minimizes sudden hardware breakdowns during peak hours.\n\n(b) **Secure** $\\rightarrow$ Noun: **Security**\n*Sentence:* Multi-factor authentication provides an indispensable layer of security for public database systems.\n\n(c) **Resilient** $\\rightarrow$ Noun: **Resilience**\n*Sentence:* The remarkable resilience of the Tier-IV data center ensured zero data loss despite a localized power grid failure.\n\n(d) **Execute** $\\rightarrow$ Noun: **Execution**\n*Sentence:* The precise execution of the disaster recovery failover plan completed within twenty-five seconds.\n\n(e) **Pure** $\\rightarrow$ Verb: **Purify**\n*Sentence:* Air scrubbers are installed inside the server hall to continuously purify the air of airborne dust particulates.\n\n(f) **Clear** $\\rightarrow$ Verb: **Clarify**\n*Sentence:* The circular was issued to clarify the revised technical specifications for digital signature cards.",
+    "points_to_remember": [
+      "Pay attention to spelling shifts: Maintain $\\rightarrow$ Maint**e**nance (not maintainance)."
+    ],
+    "tags": [
+      "word_formation",
+      "parts_of_speech",
+      "english_grammar"
+    ]
+  },
+  {
+    "id": 3048,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Official Drafting & Inaugural Speech",
+    "question": "Draft a formal Welcome and Technical Overview Speech (around 150-180 words) to be delivered by the Lead Maintenance Engineer at the inaugural ceremony of the newly installed 'e-Passport Rapid Self-Service Delivery Kiosks' at Hazrat Shahjalal International Airport.",
+    "marks": 8,
+    "answer": "Model Inaugural Speech:\n\n\"Honorable Chief Guest, Distinguished Officers, and Respected Guests,\n\nA very warm welcome to this momentous inauguration ceremony celebrating the operational launch of our state-of-the-art e-Passport Rapid Self-Service Delivery Kiosks at Hazrat Shahjalal International Airport.\n\nToday marks a revolutionary leap forward in citizen service automation. These newly commissioned kiosks are equipped with high-speed optical barcode readers, multi-spectrum polycarbonate document verifiers, and sub-second dual-camera facial matching engines. When an applicant approaches the terminal, the machine verifies their digital token, cross-references biometric parameters against the central immigration database, and dispenses the physical smart e-passport in under forty-five seconds—without requiring human desk intervention.\n\nEngineered with an impenetrable zero-trust architecture, automated audit logging, and dual uninterruptible power units, these kiosks guarantee 99.9% uptime and bulletproof data integrity. This achievement stands as a shining testament to our engineering dedication toward realizing the vision of 'Smart Bangladesh 2041'.\n\nThank you all for being part of this inspiring technological milestone!\"",
+    "points_to_remember": [
+      "A formal speech requires a dignified salutation, technical substance, and an uplifting conclusion."
+    ],
+    "tags": [
+      "inaugural_speech",
+      "public_speaking",
+      "english_drafting"
+    ]
+  },
+  {
+    "id": 3049,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Sentence Synthesis & Combining",
+    "question": "Combine each set of simple sentences into a single well-structured sentence as directed:\n(a) The server had overheated. It triggered an automated shutdown alarm. (Combine using a Participial Phrase)\n(b) The engineer configured the firewall rules. He then verified the port status on the core switch. (Combine into a Simple Sentence using 'Having + V3')\n(c) The e-Passport chip contains encrypted biometric data. It is validated via Public Key Directory (PKD). (Combine into a Complex Sentence with a Relative Clause)\n(d) The power went off. The backup diesel generator started automatically. (Combine using 'As soon as' or 'No sooner had')",
+    "marks": 6,
+    "answer": "Sentence Synthesis Solution:\n\n(a) Combine using a Participial Phrase:\n$\\rightarrow$ **Having overheated, the server triggered an automated shutdown alarm.** (or: Overheating rapidly, the server triggered...)\n\n(b) Combine into a Simple Sentence using 'Having + V3':\n$\\rightarrow$ **Having configured the firewall rules, the engineer verified the port status on the core switch.**\n\n(c) Combine into a Complex Sentence with a Relative Clause:\n$\\rightarrow$ **The e-Passport chip contains encrypted biometric data which is validated via Public Key Directory (PKD).**\n\n(d) Combine using 'No sooner had':\n$\\rightarrow$ **No sooner had the power gone off than the backup diesel generator started automatically.**",
+    "points_to_remember": [
+      "Perfect participle: 'Having + V3' clearly indicates one action preceding another.",
+      "'No sooner had + past participle ... than + past indefinite'."
+    ],
+    "tags": [
+      "sentence_synthesis",
+      "combining_sentences",
+      "grammar"
+    ]
+  },
+  {
+    "id": 3050,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "High-Frequency Vocabulary & Contextual Mastery",
+    "question": "For each of the following advanced vocabulary words, provide: (1) its precise grammatical definition, (2) an exact antonym, and (3) an exemplary sentence in an IT or administrative context:\n(a) Alacrity\n(b) Cacophony\n(c) Paradigm\n(d) Quintessential\n(e) Fastidious\n(f) Obsolete",
+    "marks": 6,
+    "answer": "High-Frequency Vocabulary Analysis:\n\n(a) **Alacrity** (Noun):\n• Definition: Brisk, cheerful readiness and promptness in response.\n• Antonym: Reluctance / Hesitation / Sluggishness.\n• *Sentence:* The on-call engineering team responded with remarkable alacrity to resolve the critical server database deadlock.\n\n(b) **Cacophony** (Noun):\n• Definition: A harsh, discordant, and jarring mixture of sounds.\n• Antonym: Harmony / Euphony / Symphony.\n• *Sentence:* Amidst the cacophony of screeching UPS warning alarms in the server room, the senior technician methodically identified the tripping circuit breaker.\n\n(c) **Paradigm** (Noun):\n• Definition: A typical example, model, or conceptual framework of something.\n• Antonym: Anomaly / Deviation.\n• *Sentence:* The migration from monolithic codebases to microservices represents a profound paradigm shift in modern software development.\n\n(d) **Quintessential** (Adjective):\n• Definition: Representing the most perfect or typical embodiment of a quality or class.\n• Antonym: Substandard / Mediocre / Atypical.\n• *Sentence:* The Tier-IV National Data Center stands as the quintessential model of high-availability public infrastructure.\n\n(e) **Fastidious** (Adjective):\n• Definition: Very attentive to and concerned about accuracy, detail, and cleanliness.\n• Antonym: Careless / Sloppy / Negligent.\n• *Sentence:* The database administrator is fastidious about maintaining transaction log integrity and verifying backup checksums daily.\n\n(f) **Obsolete** (Adjective):\n• Definition: No longer produced or used; completely out of date.\n• Antonym: Contemporary / Modern / State-of-the-art.\n• *Sentence:* Traditional legacy passbooks have become entirely obsolete following the nationwide adoption of polycarbonate biometric e-passports.",
+    "points_to_remember": [
+      "Using precise grammatical categories and sophisticated contextual sentences demonstrates linguistic mastery in written tests."
+    ],
+    "tags": [
+      "vocabulary",
+      "gre_words",
+      "english_written"
+    ]
+  },
+  {
+    "id": 3051,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English Grammar & Phrasal Verbs",
+    "question": "Construct professional sentences using the following phrasal verbs, illustrating their precise contextual meaning:\n(a) Call for\n(b) Call off\n(c) Look into\n(d) Put up with\n(e) Bring about\n(f) Carry out\n(g) Turn down\n(h) Set up",
+    "marks": 8,
+    "answer": "Phrasal Verbs Solution:\n\n(a) **Call for** (To demand, require, or necessitate):\n*Sentence:* The sudden server breach calls for an immediate forensic audit of all firewall access logs.\n\n(b) **Call off** (To cancel an event or operation):\n*Sentence:* Due to severe power grid instability, the director decided to call off the scheduled weekend database migration.\n\n(c) **Look into** (To investigate or examine facts):\n*Sentence:* A three-member technical committee was formed to look into the recurring hardware failure of the biometric enrollment scanners.\n\n(d) **Put up with** (To tolerate or endure an unpleasant situation):\n*Sentence:* The passport delivery department can no longer put up with frequent software crashes during peak service hours.\n\n(e) **Bring about** (To cause something to happen):\n*Sentence:* The introduction of automated e-Gates brought about a monumental reduction in airport immigration processing times.\n\n(f) **Carry out** (To execute or perform a task or order):\n*Sentence:* The maintenance engineer must carry out routine diagnostic inspections on all online UPS battery banks.\n\n(g) **Turn down** (To reject or refuse an offer, request, or application):\n*Sentence:* The procurement committee had to turn down the vendor's bid because it failed to comply with the mandatory ICAO Doc 9303 specifications.\n\n(h) **Set up** (To establish, configure, or assemble):\n*Sentence:* The ICT team worked overnight to set up an interim disaster recovery data repository in Kaliakair.",
+    "points_to_remember": [
+      "'Call for' = demand; 'Look into' = investigate; 'Put up with' = tolerate.",
+      "Ensure formal and administrative contexts in sentence creation."
+    ],
+    "tags": [
+      "phrasal_verbs",
+      "english_grammar",
+      "vocabulary"
+    ]
+  },
+  {
+    "id": 3052,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English Grammar & Inversion",
+    "question": "Rewrite the following sentences by using Negative Inversion for stylistic emphasis:\n(a) The maintenance team has rarely seen such an intricate network loop.\n(b) The server crashed no sooner than the automated backup initiated.\n(c) The administrator seldom logged into the database without multi-factor authentication.\n(d) We realized that the optical cable was severed only then.\n(e) He not only configured the primary firewall, but he also fortified the DMZ subnets.\n(f) The system will never accept fraudulent biometric submissions under any circumstance.",
+    "marks": 6,
+    "answer": "Negative Inversion Solution:\n\n(a) The maintenance team has rarely seen such an intricate network loop.\n$\\rightarrow$ **Inversion:** **Rarely has the maintenance team seen** such an intricate network loop.\n\n(b) The server crashed no sooner than the automated backup initiated.\n$\\rightarrow$ **Inversion:** **No sooner had the automated backup initiated than** the server crashed.\n\n(c) The administrator seldom logged into the database without multi-factor authentication.\n$\\rightarrow$ **Inversion:** **Seldom did the administrator log** into the database without multi-factor authentication.\n\n(d) We realized that the optical cable was severed only then.\n$\\rightarrow$ **Inversion:** **Only then did we realize** that the optical cable was severed.\n\n(e) He not only configured the primary firewall, but he also fortified the DMZ subnets.\n$\\rightarrow$ **Inversion:** **Not only did he configure** the primary firewall, but he also fortified the DMZ subnets.\n\n(f) The system will never accept fraudulent biometric submissions under any circumstance.\n$\\rightarrow$ **Inversion:** **Under no circumstance will the system accept** fraudulent biometric submissions.",
+    "points_to_remember": [
+      "In negative inversion: Negative word + Auxiliary verb + Subject + Main verb.",
+      "Demonstrating inversion in competitive exams scores top grammatical marks."
+    ],
+    "tags": [
+      "inversion",
+      "stylistic_grammar",
+      "english_written"
+    ]
+  },
+  {
+    "id": 3053,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English Grammar & Error Identification",
+    "question": "Correct the structural and grammatical errors in each of the following sentences:\n(a) Having analyzed the log files, the hardware error was resolved by the technician.\n(b) The database administrator is responsible for monitoring traffic, patching vulnerabilities, and to maintain backups.\n(c) Every applicant must submit their biometric records at counter four.\n(d) The system crashed because the power failed, however the UPS failed to switch over.\n(e) More faster processors are required to handle millions of daily e-Passport queries.\n(f) He insisted on me attending the emergency network briefing.",
+    "marks": 6,
+    "answer": "Error Correction Solution:\n\n(a) Incorrect (Dangling Modifier): Having analyzed the log files, the hardware error was resolved by the technician.\n**Correct:** **Having analyzed the log files, the technician resolved** the hardware error.\n*Reason:* The participial phrase must modify the actual subject performing the action ('the technician', not 'the hardware error').\n\n(b) Incorrect (Faulty Parallelism): ...monitoring traffic, patching vulnerabilities, and to maintain backups.\n**Correct:** The database administrator is responsible for monitoring traffic, patching vulnerabilities, and **maintaining** backups.\n*Reason:* Parallel grammatical structures require consistent gerund forms (-ing).\n\n(c) Incorrect (Pronoun Agreement): Every applicant must submit their biometric records...\n**Correct:** Every applicant must submit **his or her** biometric records at counter four. (or: **All applicants must submit their** biometric records...)\n*Reason:* 'Every applicant' is a singular distributive subject.\n\n(d) Incorrect (Run-on / Comma Splice): ...because the power failed, however the UPS...\n**Correct:** The system crashed because the power failed; **however, the UPS** failed to switch over. (or: ...failed. However, the UPS...)\n*Reason:* Conjunctive adverbs ('however') must be preceded by a semicolon or period.\n\n(e) Incorrect (Double Comparative): More faster processors...\n**Correct:** **Faster processors** (or: Significantly faster processors) are required...\n*Reason:* 'Faster' is already comparative; using 'more' is a double comparative error.\n\n(f) Incorrect (Gerund Object): He insisted on me attending...\n**Correct:** He insisted on **my attending** the emergency network briefing.\n*Reason:* A gerund ('attending') requires a possessive adjective ('my') before it.",
+    "points_to_remember": [
+      "Dangling modifiers occur when the introductory participial phrase lacks a logical subject.",
+      "Gerunds are preceded by possessive pronouns (my, his, her, their)."
+    ],
+    "tags": [
+      "error_correction",
+      "parallelism",
+      "dangling_modifier",
+      "grammar"
+    ]
+  },
+  {
+    "id": 3054,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English Grammar & Sentence Transformation",
+    "question": "Transform the following sentences as directed:\n(a) Only the authorized system administrator can reset the root password. (Make it Negative)\n(b) As soon as the lightning struck the transformer, the core switch shut down. (Make it Negative using 'Hardly had...when')\n(c) May you succeed in the BPSC Non-Cadre examination. (Identify the Sentence Type)\n(d) How beautiful the national data center looks at night! (Make it Assertive)\n(e) We know that the Department of Immigration and Passports provides smart services. (Change the Voice into Passive)\n(f) He worked hard so that he could configure the server correctly. (Make it Simple)",
+    "marks": 6,
+    "answer": "Sentence Transformation Solution:\n\n(a) Only the authorized system administrator can reset the root password.\n$\\rightarrow$ **Negative:** **None but** the authorized system administrator can reset the root password.\n\n(b) As soon as the lightning struck the transformer, the core switch shut down.\n$\\rightarrow$ **Negative:** **Hardly had the lightning struck the transformer when** the core switch shut down.\n\n(c) \"May you succeed in the BPSC Non-Cadre examination.\"\n$\\rightarrow$ **Sentence Type:** **Optative Sentence** (expresses a prayer, wish, or benediction).\n\n(d) How beautiful the national data center looks at night!\n$\\rightarrow$ **Assertive:** **The national data center looks very beautiful at night.**\n\n(e) We know that the Department of Immigration and Passports provides smart services.\n$\\rightarrow$ **Passive:** **It is known to us that smart services are provided by the Department of Immigration and Passports.**\n\n(f) He worked hard so that he could configure the server correctly.\n$\\rightarrow$ **Simple:** **He worked hard to configure the server correctly.** (or: ...in order to configure the server correctly).",
+    "points_to_remember": [
+      "'Only' with persons becomes 'None but'.",
+      "'Hardly had + V3 ... when + V2'.",
+      "Optative sentences express wishes and prayers."
+    ],
+    "tags": [
+      "transformation",
+      "negative_sentences",
+      "voice_change"
+    ]
+  },
+  {
+    "id": 3055,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Official Incident Report & Security Investigation",
+    "question": "Draft an official Security Incident Investigation Report to the Director General concerning an unauthorized physical access attempt at the Central Server Room after regular office hours, utilizing CCTV footage analysis and electronic badge door access logs.",
+    "marks": 9,
+    "answer": "Official Security Incident Investigation Report:\n\n**CONFIDENTIAL & RESTRICTED**  \n**INCIDENT REPORT REF:** DIP/SEC-INV/2026-10-88  \n**DATE:** 23 October 2026  \n\n**TO:**  \nThe Director General  \nDepartment of Immigration and Passports  \nE-7 Agargaon, Dhaka-1207.  \n\n**SUBJECT: INVESTIGATION REPORT ON UNAUTHORIZED PHYSICAL ACCESS ATTEMPT AT CENTRAL SERVER ROOM (ZONE-A)**  \n\n**1. INCIDENT OVERVIEW:**  \nOn the night of 22 October 2026 at 21:42 hours, an unauthorized entry attempt was recorded at the biometric magnetic access door of Central Server Room (Zone-A). The automated security controller triggered a silent alarm to the Security Operations Center (SOC). Immediate intervention by the on-duty maintenance engineer and security guards prevented any physical breach.\n\n**2. FORENSIC & LOG FINDINGS:**  \n• **Electronic Badge Access Log:** At 21:42:15, a deactivated RFID proximity badge (Card ID #DIP-CL-0412, formerly issued to a contractual cleaning supervisor whose tenure expired on 30 September 2026) was swiped three times consecutively at the biometric door reader. The access controller recorded 'Access Denied: Invalid Credential'.  \n• **High-Definition CCTV Footage Analysis:** Optical surveillance camera (CAM-SR-02) captured an unidentified individual wearing a maintenance jumpsuit attempting to forcefully manipulate the door latch handle following badge rejection. Upon the sounding of the perimeter buzzer, the suspect fled toward the basement staircase exit.  \n• **Hardware & Data Verification:** A thorough physical audit confirmed all server racks, SAN storage arrays, and cryptographic HSM modules remained locked and untampered. Network telemetry confirmed zero internal data exfiltration.\n\n**3. CORRECTIVE ACTIONS & RECOMMENDATIONS:**  \n1. **Immediate Credential Invalidation:** Conduct a comprehensive Active Directory and physical access card database audit to purge all expired vendor and contractual credentials.  \n2. **Two-Factor Door Interlock:** Upgrade Server Room access from single-factor RFID cards to multi-factor authentication requiring biometric fingerprint verification alongside the smart card.  \n3. **Legal Redress:** Forward CCTV footage and timestamp logs to law enforcement agencies for suspect tracing and formal prosecution under the Cyber Security Act.\n\n**INVESTIGATING OFFICER:**  \n(Signature)  \n(Engr. Md. Ashraful Alam)  \nSub-Assistant Maintenance Engineer (Security & Infrastructure)  \nDepartment of Immigration and Passports.",
+    "points_to_remember": [
+      "Include precise timestamps, badge IDs, CCTV camera codes, and concrete security recommendations."
+    ],
+    "tags": [
+      "security_report",
+      "incident_investigation",
+      "official_drafting",
+      "cctv_audit"
+    ]
+  },
+  {
+    "id": 3056,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Official Drafting & Legal Tender Notice",
+    "question": "Draft an official 'Tender Disqualification and Blacklisting Show-Cause Notice' from the Department of Immigration and Passports to a vendor for supplying counterfeit NVMe Solid State Drives (SSDs) under a public e-GP procurement contract.",
+    "marks": 8,
+    "answer": "Official Tender Disqualification & Show-Cause Notice:\n\nGOVERNMENT OF THE PEOPLE'S REPUBLIC OF BANGLADESH\nDEPARTMENT OF IMMIGRATION AND PASSPORTS\nOFFICE OF THE SUPERINTENDING ENGINEER & HEAD OF PROCUREMENT\nE-7 Agargaon, Dhaka-1207\n\nMemo No: 44.01.0000.405.14.022.26-615\nDate: 23 October 2026\n\nTo:\nThe Managing Director\nNexTech Solutions & Distribution Ltd.\nLevel-5, BCS Computer City, Agargaon, Dhaka.\n\nSUBJECT: SHOW-CAUSE NOTICE: SUPPLY OF COUNTERFEIT NVMe SOLID STATE DRIVES UNDER E-GP TENDER ID: 948215 AND PROPOSED BLACKLISTING\n\nDear Sir,\n\nYou are hereby notified that under Public e-GP Tender ID: 948215 (Package: Supply of High-Speed Enterprise Storage Drives for e-Passport Database Kiosks), your firm delivered one hundred (100) units of purported 'Samsung PM9A3 Enterprise 3.84TB NVMe SSDs' on 18 October 2026.\n\n2. During the mandatory pre-commissioning testing conducted by our Technical Evaluation and Inspection Committee, the following fraudulent discrepancies were uncovered:\n   (a) The storage drives failed SMART diagnostic integrity checks, displaying fake controller firmware and counterfeit serial labels.\n   (b) Benchmark throughput revealed sequential read speeds of barely 450 MB/s instead of the mandatory PCIe Gen4 specification of 6,500 MB/s.\n   (c) Formal manufacturer serial validation confirmed that the supplied drives are unauthorized counterfeit consumer modules relabeled as enterprise hardware.\n\n3. Supplying counterfeit hardware for a Critical Information Infrastructure constitutes fraudulent practice and a grave breach of Rule 127 of the Public Procurement Rules (PPR-2008).\n\n4. You are hereby directed to show cause in writing within **seven (07) calendar days** from the receipt of this notice as to why your firm should not be disqualified, your Performance Security (BDT 1,200,000/-) forfeited, and your business entity permanently blacklisted from participating in all future public procurement across Bangladesh.\n\nYours faithfully,\n\n(Signature)\n(Engr. Farid Uddin Ahmed)\nSuperintending Engineer & Chairman, Technical Inspection Committee\nDepartment of Immigration and Passports\nEmail: se.procure@dip.gov.bd",
+    "points_to_remember": [
+      "Cite relevant procurement laws (Rule 127 of PPR-2008) and technical forensic evidence (SMART logs, throughput deficits)."
+    ],
+    "tags": [
+      "show_cause_notice",
+      "blacklisting",
+      "procurement",
+      "english_drafting"
+    ]
+  },
+  {
+    "id": 3057,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Bangla to English Translation",
+    "question": "Translate the following passage into professional, sophisticated English:\n\"বিগত এক দশকে বাংলাদেশের অর্থনীতিতে তথ্যপ্রযুক্তি খাতের অভাবনীয় বিস্তার ঘটেছে। একসময় যা ছিল কেবল স্বপ্ন, আজ তা কোটি নাগরিকের হাতের মুঠোয় দৃশ্যমান বাস্তবতা। জাতীয় পরিচয়পত্র, ই-পাসপোর্ট, জমির ডিজিটাল খতিয়ান এবং মোবাইল ব্যাংকিংয়ের মাধ্যমে তৃণমূল পর্যায়ে সরকারি সেবার বিকেন্দ্রীকরণ সম্পন্ন হয়েছে। এই ডিজিটাল রূপান্তর কেবল কর্মসংস্থান ও বৈদেশিক মুদ্রা আয়ের নতুন দিগন্তই উন্মোচন করেনি, বরং বৈশ্বিক প্রযুক্তি মানচিত্রে বাংলাদেশকে একটি আত্মমর্যাদাশীল ও সম্ভাবনাময় প্রযুক্তি হাব হিসেবে প্রতিষ্ঠিত করেছে।\"",
+    "marks": 8,
+    "answer": "Professional English Translation:\n\n\"Over the past decade, Bangladesh's economy has witnessed an extraordinary expansion across the information technology sector. What was once a distant aspiration has today evolved into a tangible reality within the grasp of millions of citizens. Through the deployment of smart National Identity cards, biometric e-passports, digitized land records, and mobile financial services, the decentralization of public services has reached the grassroots level. This digital transformation has not only unlocked dynamic frontiers for youth employment and foreign remittance earnings, but has also firmly established Bangladesh as a dignified, high-potential technology hub on the global innovation landscape.\"",
+    "points_to_remember": [
+      "'Witnessed an extraordinary expansion' translates 'অভাবনীয় বিস্তার ঘটেছে'।",
+      "'Tangible reality within the grasp' for 'হাতের মুঠোয় দৃশ্যমান বাস্তবতা'।",
+      "'Decentralization of public services' for 'সরকারি সেবার বিকেন্দ্রীকরণ'।",
+      "'Grassroots level' for 'তৃণমূল পর্যায়ে'।"
+    ],
+    "tags": [
+      "translation",
+      "bangla_to_english",
+      "written_english"
+    ]
+  },
+  {
+    "id": 3058,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English to Bangla Translation",
+    "question": "Translate the following analytical text into natural, expressive Bengali:\n\"Sustainable green computing has transitioned from an environmental luxury to an urgent economic necessity for enterprise data centers. Modern cloud facilities consume staggering amounts of electrical power, primarily driven by compute clusters and continuous refrigeration chillers. By adopting hot-aisle containment, high-efficiency liquid immersion cooling, and transitioning to on-site solar photovoltaic energy, public institutions can drastically reduce their Power Usage Effectiveness (PUE) metrics while safeguarding sovereign digital records against escalating utility costs.\"",
+    "marks": 8,
+    "answer": "বাংলায় প্রাঞ্জল ভাবানুবাদ:\n\n\"পরিবেশবান্ধব টেকসই গ্রিন কম্পিউটিং আজ নিছক কোনো বিলাসী পরিবেশবাদী ধারণা নয়, বরং করপোরেট ডেটাসেন্টারগুলোর জন্য এক অত্যন্ত জরুরি অর্থনৈতিক প্রয়োজনীয়তায় রূপ নিয়েছে। আধুনিক ক্লাউড অবকাঠামোগুলো বিপুল পরিমাণ বিদ্যুৎ শক্তি গ্রাস করে, যার প্রধান কারণ হাই-পারফরম্যান্স সার্ভার ক্লাস্টার চালানো এবং নিরবচ্ছিন্ন চিলার দিয়ে সেগুলো ঠান্ডা রাখা। সার্ভার রুমে হট-আইল কনটেইনমেন্ট পদ্ধতি চালু, অত্যন্ত দক্ষ তরল নিমজ্জন কুলিং (Liquid Immersion Cooling) গ্রহণ এবং অন-সাইট সৌর প্যানেল ব্যবহারের মাধ্যমে সরকারি প্রতিষ্ঠানগুলো তাদের পাওয়ার ইউসেজ ইফেক্টিভনেস (PUE) সূচক উল্লেখযোগ্যভাবে কমিয়ে আনতে পারে; যার ফলে বিদ্যুৎ খরচের ক্রমাগত বৃদ্ধির ধাক্কা সামলে জাতীয় ডিজিটাল তথ্যভাণ্ডারকে নিরাপদে রাখা সম্ভব হবে।\"",
+    "points_to_remember": [
+      "'Hot-aisle containment' -> উষ্ণ-বাতাস নির্গমন রোধ পদ্ধতি।",
+      "'Liquid immersion cooling' -> তরল নিমজ্জন কুলিং প্রযুক্তি।",
+      "'PUE (Power Usage Effectiveness)' -> ডেটাসেন্টারের বিদ্যুৎ ব্যবহারের দক্ষতা পরিমাপক।"
+    ],
+    "tags": [
+      "translation",
+      "english_to_bangla",
+      "green_computing"
+    ]
+  },
+  {
+    "id": 3059,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Précis Writing",
+    "question": "Write a précis of the following passage in about one-third of its length and assign an appropriate title:\n\n\"The modern global economy is fundamentally reliant on semiconductor microchips, the tiny silicon wafers that power everything from household appliances and smartphones to advanced fighter aircraft and national biometric passport readers. However, the semiconductor supply chain represents one of the most fragile and highly concentrated industrial ecosystems in human history. The production of the most advanced microprocessors (sub-3 nanometer architecture) is concentrated predominantly in a single geographic hotspot—Taiwan—relying on ultra-precise extreme ultraviolet (EUV) photolithography machinery manufactured exclusively by a single Dutch company, ASML. Any military conflict in the Taiwan Strait, natural calamity, or diplomatic embargo could instantly paralyze global automotive assembly, halt server manufacturing, and trigger an unprecedented technological depression. Recognizing this existential vulnerability, global economic powers are currently investing hundreds of billions of dollars into sovereign semiconductor manufacturing initiatives, aiming to re-shore silicon fabrication and safeguard their technological independence against future geopolitical shocks.\"",
+    "marks": 8,
+    "answer": "Précis Solution:\n\n**Title: The Fragility and Geopolitics of the Global Semiconductor Supply Chain**\n\n**Précis:**\nMicrochips are the vital foundation of modern industry, powering consumer devices and defense technologies alike. However, extreme manufacturing concentration—primarily in Taiwan and dependent on exclusive Dutch lithography—makes the global semiconductor supply chain dangerously fragile. Geopolitical conflicts or disasters could trigger catastrophic worldwide technological collapse, prompting global superpowers to invest billions in domestic silicon fabrication to secure sovereign resilience.\n\n*(Word count: 61 words; Original passage: 164 words)*",
+    "points_to_remember": [
+      "Preserve the central argument: the global dependency and acute geographic concentration of microchip production.",
+      "Title should encapsulate both technology and geopolitics."
+    ],
+    "tags": [
+      "precis_writing",
+      "semiconductors",
+      "supply_chain",
+      "english_written"
+    ]
+  },
+  {
+    "id": 3060,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Reading Comprehension & Technical Analysis",
+    "question": "Read the following technical passage and answer the questions in concise, analytical sentences:\n\n\"In decentralized public registries, balancing biometric identity validation with citizen privacy has long posed a cryptographic paradox. Traditional authentication models require citizens to share their raw biometric credentials—such as high-resolution fingerprints or facial templates—with remote database servers, leaving private records susceptible to interception and insider exfiltration. Zero-Knowledge Proofs (ZKP), particularly Non-Interactive Zero-Knowledge Arguments of Knowledge (zk-SNARKs), offer a revolutionary cryptographic resolution to this dilemma. A zero-knowledge proof enables a 'Prover' to mathematically demonstrate to a 'Verifier' that a specific statement is true, without disclosing any underlying confidential information whatsoever. In modern e-Passport and border management architectures, a traveler can prove to an automated e-Gate that they possess a valid, government-certified passport and are over eighteen years old, without revealing their identity card number, exact date of birth, or raw biometric hashes. By decoupling proof of authenticity from the exposure of raw personal data, ZKP establishes an impenetrable paradigm for privacy-preserving digital citizenship.\"\n\n**Questions:**\n(a) What fundamental vulnerability exists in traditional biometric authentication models?\n(b) Explain the core mathematical principle of a Zero-Knowledge Proof (ZKP).\n(c) How can an automated e-Gate utilize ZKP to verify an applicant's travel eligibility while protecting their privacy?\n(d) Provide an antonym for 'Susceptible' and a synonym for 'Decoupling'.",
+    "marks": 8,
+    "answer": "Comprehension Answers:\n\n(a) Traditional models require users to transmit raw biometric records (such as fingerprints or facial images) across remote servers, leaving sensitive personal data vulnerable to network interception, server compromise, and insider theft.\n\n(b) The core mathematical principle of a Zero-Knowledge Proof (ZKP) allows a prover to prove to a verifier that a statement is mathematically true without disclosing any of the underlying confidential data itself.\n\n(c) An e-Gate using ZKP can confirm that a traveler possesses an authentic government passport and satisfies specific age thresholds (e.g., over 18) through cryptographic proof, without requiring the passenger to reveal their raw date of birth, passport number, or biometric templates.\n\n(d) **Vocabulary:**\n• **Antonym of 'Susceptible':** Immune, resistant, invulnerable, protected.\n• **Synonym of 'Decoupling':** Disconnecting, separating, dissociating, detaching.",
+    "points_to_remember": [
+      "Zero-Knowledge Proofs allow proving truth without exposing secrets.",
+      "Answer in complete, grammatically sound prose."
+    ],
+    "tags": [
+      "comprehension",
+      "zkp",
+      "cryptography",
+      "biometrics",
+      "english_written"
+    ]
+  },
+  {
+    "id": 3061,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Focus Essay Writing",
+    "question": "Write a comprehensive Focus Essay on:\n\"Green Computing and Sustainable IT Architecture in Public Sector Administration\". (Include: Introduction, The Carbon Footprint of Government Data Centers, Core Pillars of Green Computing: Hardware, Software & Infrastructure, Economic and Environmental Dividends, Roadmap for Bangladesh, Conclusion).",
+    "marks": 10,
+    "answer": "Focus Essay:\n\n**Green Computing and Sustainable IT Architecture in Public Sector Administration**\n\n**1. Introduction:**\nAs governments worldwide accelerate digital governance to streamline public services, the exponential expansion of server farms, network backbones, and end-user hardware has introduced a critical environmental consequence: a soaring carbon and electronic waste footprint. 'Green Computing'—the practice of environmentally sustainable computing—has transitioned from an idealistic concept into an indispensable operational mandate for responsible public administration.\n\n**2. The Carbon Footprint of Public Data Centers:**\nPublic institutions host massive compute infrastructures to power electronic identity (NID), biometric passport issuance, and digital revenue collections. Traditional server facilities consume colossal amounts of electricity, with up to 40% of energy expended solely on cooling systems rather than computation. Furthermore, premature hardware retirements generate toxic e-waste containing lead, cadmium, and mercury, which contaminate groundwater ecosystems.\n\n**3. Core Pillars of Green Computing Architecture:**\nTransforming public IT into an eco-friendly engine requires interventions across three dimensions:\n1. **Hardware Efficiency:** Procuring Energy Star certified low-power processors, adopting solid-state storage (SSDs) which consume 70% less power than mechanical drives, and utilizing modular servers engineered for component-level upgrades rather than total chassis disposal.\n2. **Infrastructure Optimization:** Transitioning data centers to modern cooling architectures—such as hot-aisle containment and evaporative liquid cooling—alongside powering data centers through dedicated on-site solar arrays.\n3. **Software Virtualization:** Consolidating hundreds of underutilized physical servers into agile virtual machines and lightweight Docker containers, boosting average hardware utilization from 15% to over 80%.\n\n**4. Economic and Environmental Dividends:**\nGreen computing yields tangible economic benefits. Slashing power usage directly reduces public expenditure on electricity subsidies, freeing budget for citizen welfare. Environmentally, lowering carbon intensity aligns with national commitments under the Paris Climate Agreement and the Delta Plan 2100.\n\n**5. Roadmap for Bangladesh & Conclusion:**\nFor Bangladesh, building a sustainable 'Smart Bangladesh 2041' necessitates mandating green IT procurement guidelines across all government departments. Establishing certified e-waste recycling plants and designing Tier-IV data centers with sub-1.2 Power Usage Effectiveness (PUE) metrics will ensure that technological progress does not come at the expense of our ecological future. Green computing proves that technological excellence and environmental stewardship can harmoniously co-exist.",
+    "points_to_remember": [
+      "Detail the three pillars: Hardware, Infrastructure, and Software virtualization.",
+      "Reference Power Usage Effectiveness (PUE) and Energy Star standards."
+    ],
+    "tags": [
+      "focus_essay",
+      "green_computing",
+      "sustainability",
+      "data_center"
+    ]
+  },
+  {
+    "id": 3062,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Focus Essay Writing",
+    "question": "Write an analytical Focus Essay on:\n\"Public-Private Partnerships (PPP) in Modernizing Bangladesh's ICT Infrastructure\". (Include: Introduction, Rationale for PPP in Public Technology, Case Studies: e-Passport & Hi-Tech Parks, Risk Allocation & Governance Challenges, Policy Recommendations, Conclusion).",
+    "marks": 10,
+    "answer": "Focus Essay:\n\n**Public-Private Partnerships (PPP) in Modernizing Bangladesh's ICT Infrastructure**\n\n**1. Introduction:**\nThe modernization of national digital infrastructure demands massive capital investments, cutting-edge technical expertise, and rapid innovation cycles. Traditional government procurement models are frequently impeded by rigid bureaucratic delays and budgetary constraints. To overcome these limitations, Public-Private Partnerships (PPP) have emerged as a powerful governance mechanism to mobilize private capital and global technology expertise for public welfare.\n\n**2. Rationale for PPP in Public Technology:**\nUnlike static physical infrastructures (like bridges or highways), digital technologies evolve with breakneck velocity. Partnering with specialized private tech enterprises enables governments to:\n• Share technical and financial risks across the system lifecycle.\n• Procure state-of-the-art technological architectures without exorbitant upfront public treasury outlays.\n• Ensure continuous maintenance, software patching, and professional service level agreements (SLAs).\n\n**3. Case Studies: e-Passport System and National Hi-Tech Parks:**\n• **e-Passport Implementation:** Bangladesh's landmark transition to polycarbonate biometric e-passports was achieved through a successful government-to-government (G2G) partnership with Veridos GmbH (Germany). This partnership enabled the Department of Immigration and Passports to deploy state-of-the-art personalization centers and airport e-Gates with world-class German security technology, establishing national pride.\n• **High-Tech Parks:** The development of Kaliakair High-Tech City through private concessionaires has attracted international hardware manufacturers and software exporters, catalyzing high-skilled youth employment.\n\n**4. Risk Allocation and Governance Pitfalls:**\nWhile PPPs offer immense benefits, they present distinctive governance hazards:\n• **Vendor Lock-In:** Reliance on proprietary private software can leave public departments captive to escalating licensing fees.\n• **Data Privacy & Sovereignty Risks:** Partnering with international vendors necessitates strict legal firewalls to prevent private commercial access to sovereign biometric records.\n• **Opaque Concession Agreements:** Flawed financial modeling can lead to unanticipated public liabilities if projected citizen service volumes are not achieved.\n\n**5. Policy Recommendations & Conclusion:**\nTo optimize PPP outcomes, Bangladesh must enforce transparent competitive bidding under the PPP Authority, mandate open-source interoperability standards to avoid vendor capture, and maintain an uncompromising legal boundary protecting citizen data sovereignty. Structured prudently, Public-Private Partnerships provide the dynamic financial and technological bridge required to propel Bangladesh into the ranks of developed digital nations by 2041.",
+    "points_to_remember": [
+      "Highlight the Veridos e-Passport partnership as a prime practical case study.",
+      "Address vendor lock-in and data sovereignty risks."
+    ],
+    "tags": [
+      "focus_essay",
+      "ppp",
+      "ict_infrastructure",
+      "epassport",
+      "governance"
+    ]
+  },
+  {
+    "id": 3063,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Focus Essay Writing",
+    "question": "Write an analytical Focus Essay on:\n\"Bridging the Rural-Urban Digital Divide: Equitable Access to Citizen Services in Bangladesh\". (Include: Introduction, Manifestations of the Digital Divide, Infrastructure Interventions: Info-Sarker & Union Digital Centers, Socio-Economic Empowerment of Marginalized Groups, Persistent Hurdles, Conclusion).",
+    "marks": 10,
+    "answer": "Focus Essay:\n\n**Bridging the Rural-Urban Digital Divide: Equitable Access to Citizen Services in Bangladesh**\n\n**1. Introduction:**\nDigital transformation is truly democratic only when its dividends reach the most vulnerable, remote, and disenfranchised segments of society. While urban centers enjoy high-speed fiber broadband and automated kiosks, rural communities frequently struggle with connectivity gaps, digital illiteracy, and economic disparity. Bridging this 'Digital Divide' is the defining moral and developmental imperative for Bangladesh's inclusive progress.\n\n**2. Manifestations of the Digital Divide:**\nThe digital divide operates across multiple interconnected tiers:\n• **The Physical Connectivity Gap:** Rural and char areas endure unstable electricity grids and reliance on patchy 3G/4G cellular connections.\n• **The Affordability Barrier:** The cost of modern smartphones, laptop computers, and data packages remains disproportionately high for marginal farming and wage-earning households.\n• **The Cognitive Literacy Divide:** Navigating complex online government portals and identity verification forms presents a formidable barrier for illiterate and elderly rural citizens.\n\n**3. Infrastructural Interventions: Info-Sarker & Union Digital Centers:**\nBangladesh has implemented world-renowned initiatives to democratize access:\n• **Info-Sarker Project (Phase I - III):** Extended high-speed optical fiber backbones down to over 4,500 Union Parishads across the country, connecting rural schools, health complexes, and local administrative offices.\n• **Union Digital Centers (UDCs):** Staffed by local male and female micro-entrepreneurs, UDCs function as localized service hubs where rural villagers can apply for passports, birth registrations, electricity bills, and overseas job permits without traveling to distant district headquarters.\n\n**4. Socio-Economic Empowerment of Marginalized Communities:**\nEquitable digital access has generated profound social dividends. Rural women have established cottage industry e-commerce businesses via social media platforms, while marginal farmers utilize mobile apps to check fair wholesale crop prices, bypassing predatory middlemen. Furthermore, rural students access high-quality academic lectures through digital classrooms.\n\n**5. Remaining Bottlenecks & Conclusion:**\nTo completely close the divide, the state must subsidize rural broadband infrastructure, incentivize affordable domestic smartphone assembly, and integrate foundational digital literacy into primary school curricula. True national development is not measured by the technological luxury of the metropolitan elite, but by the dignity, empowerment, and opportunity delivered to the humblest citizen at the furthest periphery.",
+    "points_to_remember": [
+      "Highlight the role of Union Digital Centers (UDCs) and the Info-Sarker project.",
+      "Distinguish between connectivity, affordability, and digital literacy gaps."
+    ],
+    "tags": [
+      "focus_essay",
+      "digital_divide",
+      "udc",
+      "inclusive_governance"
+    ]
+  },
+  {
+    "id": 3064,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English Idioms & Phrases",
+    "question": "Construct meaningful, grammatically sound professional sentences illustrating the contextual application of the following idioms:\n(a) Touch and go\n(b) Back to the drawing board\n(c) Cut corners\n(d) Bite the bullet\n(e) Hit the nail on the head\n(f) A dime a dozen",
+    "marks": 6,
+    "answer": "Idioms and Practical Usage Solution:\n\n(a) **Touch and go** (Precarious, uncertain, or risky):\n*Sentence:* It was touch and go whether the failing primary database could be restored before the immigration counters opened at dawn.\n\n(b) **Back to the drawing board** (To start planning something anew after an initial plan fails):\n*Sentence:* When the initial routing configuration precipitated a massive packet loop, the network engineering team had to go back to the drawing board.\n\n(c) **Cut corners** (To do something poorly or cheaply to save time or money):\n*Sentence:* Procurement officers must never cut corners when purchasing mission-critical server power supplies and fire suppression systems.\n\n(d) **Bite the bullet** (To face a painful or difficult situation with courage and determination):\n*Sentence:* The administration had to bite the bullet and shut down the legacy server for a full twelve hours to execute the mandatory database overhaul.\n\n(e) **Hit the nail on the head** (To state or describe a situation exactly right):\n*Sentence:* The maintenance engineer hit the nail on the head when he diagnosed the server reboot issue as a faulty RAM parity mismatch.\n\n(f) **A dime a dozen** (Very common and having little special value):\n*Sentence:* In the modern job market, basic computer literacy is a dime a dozen; candidates must master specialized skills like cybersecurity and Linux administration to excel.",
+    "points_to_remember": [
+      "Idiomatic accuracy enhances written essay and comprehension scores."
+    ],
+    "tags": [
+      "idioms",
+      "phrases",
+      "vocabulary",
+      "english_grammar"
+    ]
+  },
+  {
+    "id": 3065,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "High-Impact Vocabulary & Analytical Usage",
+    "question": "For each of the following advanced vocabulary words, provide: (1) its precise definition, (2) an exact antonym, and (3) an administrative or technical sentence:\n(a) Tenacious\n(b) Impeccable\n(c) Superfluous\n(d) Vulnerable\n(e) Exemplary\n(f) Dichotomy",
+    "marks": 6,
+    "answer": "High-Impact Vocabulary Analysis:\n\n(a) **Tenacious** (Adjective):\n• Definition: Tending to keep a firm hold of something; persistent and determined.\n• Antonym: Irresolute / Weak / Yielding.\n• *Sentence:* The forensic engineer's tenacious investigation eventually pinpointed the stealthy backdoor script buried deep within the application logs.\n\n(b) **Impeccable** (Adjective):\n• Definition: In accordance with the highest standards; faultless and spotless.\n• Antonym: Flawed / Defective / Blemished.\n• *Sentence:* The data center maintained an impeccable track record of 99.999% uptime throughout the entire fiscal year.\n\n(c) **Superfluous** (Adjective):\n• Definition: Unnecessary, especially through being more than enough; redundant.\n• Antonym: Essential / Indispensable / Necessary.\n• *Sentence:* Upgrading the network switch firmware rendered several legacy diagnostic scripts completely superfluous.\n\n(d) **Vulnerable** (Adjective):\n• Definition: Susceptible to physical or emotional attack or damage.\n• Antonym: Invulnerable / Resilient / Immune.\n• *Sentence:* Unpatched operating systems leave critical passport enrollment workstations vulnerable to automated ransomware worms.\n\n(e) **Exemplary** (Adjective):\n• Definition: Serving as a desirable model; representing the best of its kind.\n• Antonym: Reprehensible / Substandard / Deplorable.\n• *Sentence:* The Sub-Assistant Maintenance Engineer received an official commendation for his exemplary leadership during the data center power crisis.\n\n(f) **Dichotomy** (Noun):\n• Definition: A division or contrast between two things that are represented as being entirely opposed or different.\n• Antonym: Harmony / Unity / Uniformity.\n• *Sentence:* Modern border security must bridge the dichotomy between impenetrable national defense and smooth, expedited passenger transit.",
+    "points_to_remember": [
+      "Precise definitions and relevant technical sentences show deep vocabulary mastery."
+    ],
+    "tags": [
+      "vocabulary",
+      "advanced_words",
+      "english_written"
+    ]
+  }
+]

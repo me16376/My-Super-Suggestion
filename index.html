@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BPSC ও সরকারি চাকরি নিয়োগ প্রস্তুতি — মাস্টার অ্যাপ্লিকেশন হাব</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --primary-light: #eff6ff;
+      --accent: #0284c7;
+      --accent-hover: #0369a1;
+      --bg-main: #0f172a;
+      --bg-card: #1e293b;
+      --bg-card-hover: #24344d;
+      --card-border: #334155;
+      --card-border-hover: #38bdf8;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --success: #10b981;
+      --success-bg: rgba(16, 185, 129, 0.15);
+      --success-border: rgba(16, 185, 129, 0.4);
+      --warning: #f59e0b;
+      --warning-bg: rgba(245, 158, 11, 0.15);
+      --warning-border: rgba(245, 158, 11, 0.4);
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Hind Siliguri', 'Inter', sans-serif;
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-image: 
+        radial-gradient(circle at 15% 10%, rgba(37, 99, 235, 0.12) 0%, transparent 40%),
+        radial-gradient(circle at 85% 85%, rgba(2, 132, 199, 0.1) 0%, transparent 40%);
+      background-attachment: fixed;
+    }
+
+    .container {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 32px 20px 60px 20px;
+      width: 100%;
+      flex: 1;
+    }
+
+    /* Top Header */
+    header {
+      margin-bottom: 36px;
+      text-align: center;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(37, 99, 235, 0.2);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      color: #38bdf8;
+      padding: 6px 18px;
+      border-radius: 9999px;
+      font-size: 13.5px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      backdrop-filter: blur(8px);
+    }
+
+    h1 {
+      font-family: 'Outfit', 'Hind Siliguri', sans-serif;
+      font-size: 34px;
+      font-weight: 800;
+      color: #ffffff;
+      letter-spacing: -0.5px;
+      margin-bottom: 10px;
+      line-height: 1.25;
+    }
+
+    h1 span {
+      background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      color: var(--text-muted);
+      max-width: 720px;
+      margin: 0 auto 28px auto;
+    }
+
+    /* Stats Banner */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-bottom: 36px;
+    }
+
+    .stat-card {
+      background: var(--bg-card);
+      border: 1px solid var(--card-border);
+      padding: 20px;
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      transition: var(--transition);
+    }
+
+    .stat-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(56, 189, 248, 0.4);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    }
+
+    .stat-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      flex-shrink: 0;
+    }
+
+    .stat-icon.blue { background: rgba(37, 99, 235, 0.2); color: #60a5fa; }
+    .stat-icon.green { background: rgba(16, 185, 129, 0.2); color: #34d399; }
+    .stat-icon.purple { background: rgba(139, 92, 246, 0.2); color: #a78bfa; }
+    .stat-icon.amber { background: rgba(245, 158, 11, 0.2); color: #fbbf24; }
+
+    .stat-content h3 {
+      font-size: 26px;
+      font-weight: 800;
+      color: #ffffff;
+      font-family: 'Inter', sans-serif;
+      line-height: 1.1;
+    }
+
+    .stat-content p {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      margin-top: 3px;
+    }
+
+    /* Controls Bar: Search & Filter */
+    .controls-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 28px;
+      background: var(--bg-card);
+      padding: 14px 20px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--card-border);
+    }
+
+    .search-box {
+      flex: 1;
+      min-width: 260px;
+      position: relative;
+    }
+
+    .search-box svg {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-dim);
+    }
+
+    .search-box input {
+      width: 100%;
+      background: rgba(15, 23, 42, 0.7);
+      border: 1px solid var(--card-border);
+      padding: 10px 14px 10px 42px;
+      border-radius: var(--radius-sm);
+      color: #ffffff;
+      font-family: inherit;
+      font-size: 14px;
+      outline: none;
+      transition: var(--transition);
+    }
+
+    .search-box input:focus {
+      border-color: #38bdf8;
+      background: rgba(15, 23, 42, 0.9);
+      box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2);
+    }
+
+    .filter-pills {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid var(--card-border);
+      color: var(--text-muted);
+      padding: 7px 16px;
+      border-radius: 9999px;
+      font-size: 13.5px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .filter-btn:hover {
+      color: #ffffff;
+      border-color: var(--text-muted);
+    }
+
+    .filter-btn.active {
+      background: #2563eb;
+      color: #ffffff;
+      border-color: #3b82f6;
+      box-shadow: 0 2px 8px rgba(37, 99, 235, 0.35);
+    }
+
+    /* Applications Grid */
+    .apps-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 24px;
+    }
+
+    .job-card {
+      background: var(--bg-card);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-lg);
+      padding: 26px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      transition: var(--transition);
+      overflow: hidden;
+    }
+
+    .job-card:hover {
+      border-color: var(--card-border-hover);
+      transform: translateY(-4px);
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+      background: var(--bg-card-hover);
+    }
+
+    .job-card.ready::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #10b981, #0284c7);
+    }
+
+    .job-card.pipeline::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #f59e0b, #6366f1);
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 14px;
+      gap: 12px;
+    }
+
+    .dept-badge {
+      font-size: 12.5px;
+      font-weight: 600;
+      color: #38bdf8;
+      background: rgba(56, 189, 248, 0.12);
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid rgba(56, 189, 248, 0.25);
+    }
+
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+
+    .status-badge.ready {
+      background: var(--success-bg);
+      color: #34d399;
+      border: 1px solid var(--success-border);
+    }
+
+    .status-badge.pipeline {
+      background: var(--warning-bg);
+      color: #fbbf24;
+      border: 1px solid var(--warning-border);
+    }
+
+    .job-title {
+      font-size: 20px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 6px;
+      line-height: 1.35;
+    }
+
+    .ministry-title {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .meta-pills {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 18px;
+    }
+
+    .meta-tag {
+      background: rgba(15, 23, 42, 0.5);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 3px 9px;
+      border-radius: 6px;
+      font-size: 12px;
+      color: #cbd5e1;
+    }
+
+    .card-highlights {
+      background: rgba(15, 23, 42, 0.5);
+      border-radius: var(--radius-sm);
+      padding: 14px;
+      margin-bottom: 22px;
+      font-size: 13.5px;
+      color: #cbd5e1;
+      line-height: 1.6;
+      flex: 1;
+    }
+
+    .card-highlights ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .card-highlights li {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 6px;
+    }
+
+    .card-highlights li:last-child {
+      margin-bottom: 0;
+    }
+
+    .card-highlights li::before {
+      content: '✔';
+      position: absolute;
+      left: 0;
+      color: #38bdf8;
+      font-weight: bold;
+    }
+
+    .card-highlights.pipeline li::before {
+      content: '⏳';
+    }
+
+    .card-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: auto;
+    }
+
+    .btn-primary-action {
+      background: linear-gradient(135deg, #2563eb 0%, #0284c7 100%);
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 14.5px;
+      font-weight: 700;
+      padding: 12px 18px;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: var(--transition);
+      box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
+    }
+
+    .btn-primary-action:hover {
+      background: linear-gradient(135deg, #1d4ed8 0%, #0369a1 100%);
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(37, 99, 235, 0.45);
+    }
+
+    .secondary-links {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .btn-secondary-link {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--card-border);
+      color: #cbd5e1;
+      text-decoration: none;
+      font-size: 12.5px;
+      font-weight: 600;
+      padding: 8px 10px;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: var(--transition);
+      text-align: center;
+    }
+
+    .btn-secondary-link:hover {
+      background: rgba(255, 255, 255, 0.12);
+      color: #ffffff;
+      border-color: rgba(56, 189, 248, 0.4);
+    }
+
+    /* Add New Circular Card */
+    .add-new-card {
+      background: rgba(30, 41, 59, 0.4);
+      border: 2px dashed rgba(255, 255, 255, 0.15);
+      border-radius: var(--radius-lg);
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      transition: var(--transition);
+      cursor: pointer;
+    }
+
+    .add-new-card:hover {
+      background: rgba(30, 41, 59, 0.7);
+      border-color: #38bdf8;
+      transform: translateY(-3px);
+    }
+
+    .add-icon {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      color: #38bdf8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      margin-bottom: 16px;
+      transition: var(--transition);
+    }
+
+    .add-new-card:hover .add-icon {
+      transform: scale(1.1);
+      background: rgba(56, 189, 248, 0.2);
+    }
+
+    .add-new-card h3 {
+      font-size: 18px;
+      color: #ffffff;
+      margin-bottom: 8px;
+    }
+
+    .add-new-card p {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      max-width: 260px;
+      margin-bottom: 16px;
+    }
+
+    .btn-add-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      color: #38bdf8;
+      background: rgba(56, 189, 248, 0.1);
+      padding: 6px 14px;
+      border-radius: 9999px;
+      border: 1px solid rgba(56, 189, 248, 0.3);
+    }
+
+    /* Architecture Documentation Banner */
+    .docs-banner {
+      margin-top: 50px;
+      background: linear-gradient(135deg, rgba(30, 41, 59, 0.9) 0%, rgba(15, 23, 42, 0.95) 100%);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-md);
+      padding: 24px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .docs-info {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .docs-icon {
+      font-size: 32px;
+    }
+
+    .docs-text h4 {
+      font-size: 17px;
+      color: #ffffff;
+      margin-bottom: 4px;
+    }
+
+    .docs-text p {
+      font-size: 13.5px;
+      color: var(--text-muted);
+    }
+
+    .btn-docs {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: var(--radius-sm);
+      font-size: 13.5px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: var(--transition);
+      white-space: nowrap;
+    }
+
+    .btn-docs:hover {
+      background: rgba(255, 255, 255, 0.2);
+      border-color: #38bdf8;
+      transform: translateY(-1px);
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--card-border);
+      padding: 24px 20px;
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-dim);
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 26px; }
+      .controls-bar { flex-direction: column; align-items: stretch; }
+      .secondary-links { grid-template-columns: 1fr; }
+      .docs-banner { flex-direction: column; text-align: center; }
+      .docs-info { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- Top Hero Header -->
+    <header>
+      <div class="hero-badge">
+        <span>🇧🇩 BPSC & Non-Cadre Career Preparation Hub</span>
+      </div>
+      <h1>সরকারি চাকরির নিয়োগ প্রস্তুতি <span>মাস্টার পোর্টাল</span></h1>
+      <p class="subtitle">
+        আপনার আবেদনকৃত সকল সরকারি ও বিপিএসসি নিয়োগ পরীক্ষার আলাদা আলাদা পূর্ণাঙ্গ সাজেশন মডিউল, প্রশ্নব্যাংক ও লাইভ মডেল টেস্টের কেন্দ্রীয় ড্যাশবোর্ড।
+      </p>
+
+      <!-- Key Metrics Banner -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon blue">📁</div>
+          <div class="stat-content">
+            <h3 id="stat-total-apps">৪ টি</h3>
+            <p>আবেদনকৃত চাকরি / সার্কুলার</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon green">✅</div>
+          <div class="stat-content">
+            <h3>৩ টি রেডি</h3>
+            <p>সম্পূর্ণ সুপার সাজেশন পোর্টাল</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon purple">📚</div>
+          <div class="stat-content">
+            <h3>২৭,৫৮৭ টি</h3>
+            <p>প্রস্তুতকৃত প্রশ্ন ও মডেল উত্তর</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon amber">🎯</div>
+          <div class="stat-content">
+            <h3>৮১ টি পদ</h3>
+            <p>জুনিয়র ইন্সট্রাক্টর (টিএসসি)</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Search & Filter Controls -->
+    <div class="controls-bar">
+      <div class="search-box">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input type="text" id="searchInput" placeholder="পদের নাম, মন্ত্রণালয় বা গ্রেড দিয়ে খুঁজুন (Search)..." oninput="filterJobs()">
+      </div>
+      <div class="filter-pills">
+        <button class="filter-btn active" data-filter="all" onclick="setFilter('all', this)">সকল সার্কুলার (All)</button>
+        <button class="filter-btn" data-filter="ready" onclick="setFilter('ready', this)">✅ প্রস্তুত মডিউল</button>
+        <button class="filter-btn" data-filter="pipeline" onclick="setFilter('pipeline', this)">🔄 পাইপলাইন (Upcoming)</button>
+      </div>
+    </div>
+
+    <!-- Job Applications Grid -->
+    <div class="apps-grid" id="appsGrid">
+
+      <!-- 1. Sub-Assistant Maintenance Engineer -->
+      <div class="job-card ready" data-status="ready" data-keywords="সাব-অ্যাসিস্ট্যান্ট মেইনটেন্যান্স ইঞ্জিনিয়ার sub-assistant maintenance engineer পাসপোর্ট bpsc ১০ম গ্রেড স্বরাষ্ট্র মন্ত্রণালয়">
+        <div class="card-top">
+          <span class="dept-badge">বহিরাগমন ও পাসপোর্ট অধিদপ্তর</span>
+          <span class="status-badge ready">● প্রস্তুত (১০০%)</span>
+        </div>
+        
+        <h2 class="job-title">সাব-অ্যাসিস্ট্যান্ট মেইনটেন্যান্স ইঞ্জিনিয়ার</h2>
+        <div class="ministry-title">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          স্বরাষ্ট্র মন্ত্রণালয় | বাংলাদেশ সরকারি কর্ম কমিশন (BPSC)
+        </div>
+
+        <div class="meta-pills">
+          <span class="meta-tag">গ্রেড: ১০ম (১৬,০০০ - ৩৮,৬৪০/-)</span>
+          <span class="meta-tag">ইউনিট: ০৬ | ক্রমিক: ৮৯</span>
+          <span class="meta-tag">প্রিলি ১০০ + লিখিত ২০০</span>
+        </div>
+
+        <div class="card-highlights">
+          <ul>
+            <li><strong>৬,৫৯০টি কোর MCQ</strong> (টেকনিক্যাল ২,৮৫৫ + বাংলা ১,১৯৫ + ইংরেজি ১,৩৪৫ + জিকে ১,১৯৫)</li>
+            <li><strong>৩৭৫টি লিখিত মডেল প্রশ্ন</strong> (ম্যাথ, আর্কিটেকচার, কোড ও ডায়াগ্রামসহ)</li>
+            <li><strong>৬০ মিনিটের রিয়েল মডেল টেস্ট ইঞ্জিন</strong> (-০.৫০ নেগেটিভ মার্কিং)</li>
+            <li>ই-গেট, বায়োমেট্রিক, ICAO 9303 ও পাসপোর্ট হার্ডওয়্যার মডিউল</li>
+            <li>ডার্ক মোড, বুকমার্ক, সার্চ ফিল্টার ও অফিশিয়াল প্রিন্ট শিট</li>
+          </ul>
+        </div>
+
+        <div class="card-actions">
+          <a href="Sub-Assistant Maintenance Engineer Super Suggestion/sub_assistant_maintenance_engineer_super_suggestion.html" class="btn-primary-action">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            সুপার সাজেশন পোর্টাল ওপেন করুন (Open Portal)
+          </a>
+
+          <div class="secondary-links">
+            <a href="Sub-Assistant Maintenance Engineer Super Suggestion/exam_guide.html" target="_blank" class="btn-secondary-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+              পরীক্ষা পদ্ধতি ও গাইড
+            </a>
+            <a href="PROGRESS.md" target="_blank" class="btn-secondary-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+              প্রগ্রেস ট্র্যাকার (MD)
+            </a>
+            <a href="Sub-Assistant Maintenance Engineer Super Suggestion/Sub_Assistant_Maintenance_Engineer_Exam_Syllabus_Guide.pdf" target="_blank" class="btn-secondary-link" style="grid-column: span 2;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              অফিশিয়াল সিলেবাস PDF
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 2. Junior Instructor [Tech/Computer] (TSC) -->
+      <div class="job-card ready" data-status="ready" data-keywords="জুনিয়র ইন্সট্রাক্টর টেক কম্পিউটার junior instructor tech computer tsc কারিগরি মাদ্রাসা শিক্ষা শিক্ষা মন্ত্রণালয় bpsc ১০ম গ্রেড ক্রমিক ১২৫">
+        <div class="card-top">
+          <span class="dept-badge" style="color: #38bdf8; background: rgba(56, 189, 248, 0.12); border-color: rgba(56, 189, 248, 0.25);">কারিগরি শিক্ষা বিভাগ (TSC)</span>
+          <span class="status-badge ready">● প্রস্তুত (১০০%)</span>
+        </div>
+        
+        <h2 class="job-title">জুনিয়র ইন্সট্রাক্টর [টেক/ কম্পিউটার]</h2>
+        <div class="ministry-title">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          শিক্ষা মন্ত্রণালয় | টেকনিক্যাল স্কুল ও কলেজসমূহ (TSC)
+        </div>
+
+        <div class="meta-pills">
+          <span class="meta-tag">গ্রেড: ১০ম (১৬,০০০ - ৩৮,৬৪০/-)</span>
+          <span class="meta-tag">বিজ্ঞপ্তি ক্রমিক: ১২৫ | ইউনিট-০৯</span>
+          <span class="meta-tag" style="background: rgba(16, 185, 129, 0.15); color: #34d399; font-weight:700;">৮১টি শূন্য পদ</span>
+        </div>
+
+        <div class="card-highlights">
+          <ul>
+            <li><strong>১২,৬০০টি প্রিলিমিনারি MCQ</strong> (টেকনিক্যাল ৫,০০০ + বাংলা ২,৬০০ + ইংরেজি ২,৪০০ + জিকে ২,৬০০)</li>
+            <li><strong>৩৭২টি লিখিত মডেল প্রশ্ন</strong> (ম্যাথ, কে-ম্যাপ, সি/পাইথন কোড, সার্কিট ও ল্যাব পেডাগজি)</li>
+            <li><strong>৬০ মিনিটের রিয়েল মডেল টেস্ট ইঞ্জিন</strong> (-০.৫০ নেগেটিভ মার্কিং ও বিস্তারিত রিভিউ)</li>
+            <li>৮০৮৫/৮০৮৬, সাবনেটিং, লিনাক্স, এসকিউএল, ESD প্রটেকশন ও কারিগরি ল্যাব মেথডোলজি</li>
+            <li>ডার্ক মোড, বুকমার্ক, সার্চ ফিল্টার ও অফিশিয়াল প্রিন্ট-রেডি সিলেবাস গাইড</li>
+          </ul>
+        </div>
+
+        <div class="card-actions">
+          <a href="Junior Instructor Tech Computer Super Suggestion/junior_instructor_computer_super_suggestion.html" class="btn-primary-action" style="background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            সুপার সাজেশন পোর্টাল ওপেন করুন (Open Portal)
+          </a>
+
+          <div class="secondary-links">
+            <a href="Junior Instructor Tech Computer Super Suggestion/exam_guide.html" target="_blank" class="btn-secondary-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+              পরীক্ষা পদ্ধতি ও গাইড
+            </a>
+            <a href="PROGRESS.md" target="_blank" class="btn-secondary-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+              প্রগ্রেস ট্র্যাকার (MD)
+            </a>
+            <a href="Junior Instructor Tech Computer Super Suggestion/Junior_Instructor_Computer_Exam_Syllabus_Guide.pdf" target="_blank" class="btn-secondary-link" style="grid-column: span 2;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              সিলেবাস PDF গাইড
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Petrobangla Sub-Assistant Engineer (Computer/IT) -->
+      <div class="job-card ready" data-status="ready" data-keywords="পেট্রোবাংলা petrobangla উপ-সহকারী প্রকৌশলী computer it তিতাস গ্যাস বাখরাবাদ গ্যাস ১০ম গ্রেড ক্রমিক ১৭.৪">
+        <div class="card-top">
+          <span class="dept-badge" style="color: #34d399; background: rgba(16, 185, 129, 0.12); border-color: rgba(16, 185, 129, 0.25);">পেট্রোবাংলা (জ্বালানি বিভাগ)</span>
+          <span class="status-badge ready">● সুপার সাজেশন প্রস্তুত (১০০%)</span>
+        </div>
+        
+        <h2 class="job-title">উপ-সহকারী প্রকৌশলী (কম্পিউটার / আইটি)</h2>
+        <div class="ministry-title">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয় | পেট্রোবাংলা
+        </div>
+
+        <div class="meta-pills">
+          <span class="meta-tag">গ্রেড: ১০ম (১৬,০০০ - ৩৮,৬৪০/-)</span>
+          <span class="meta-tag">বিজ্ঞপ্তি ক্রমিক: ১৭.৪ | মোট: ০৮টি পদ</span>
+          <span class="meta-tag" style="background: rgba(16, 185, 129, 0.15); color: #34d399; font-weight:700;">তিতাস ০৬ + বাখরাবাদ ০২</span>
+        </div>
+
+        <div class="card-highlights">
+          <ul>
+            <li><strong>বুয়েট (BUET - BRTC) হাইব্রিড প্যাটার্ন:</strong> ১০০ নম্বর (নন-ডিপার্টমেন্ট ৬০ MCQ + ডিপার্টমেন্ট ৪০ লিখিত)</li>
+            <li><strong>মোট প্রশ্নব্যাংক (৭,৬৫০টি প্রশ্ন - ১০০% কমন মেগা প্যাক):</strong> টেকনিক্যাল MCQ (২,৫০০), গণিত (১,০০০), ইংরেজি (১,৫০০), বাংলা (১,৫০০), জিকে (১,০০০) ও ডিপার্টমেন্টাল লিখিত (১৫০)</li>
+            <li><strong>ডিপার্টমেন্টাল লিখিত (১৫০টি মাস্টার সমস্যা):</strong> সাবনেটিং (৪০), DBMS/SQL (৩০), C ও DSA (৩৫), DLD ও OS (২৫), গ্যাস IT ও SCADA (২০)</li>
+            <li><strong>টেকনিক্যাল MCQ (২,৫০০টি BUET স্ট্যান্ডার্ড):</strong> নেটওয়ার্কিং, ডাটাবেজ, C প্রোগ্রামিং, মাইক্রোপ্রসেসর ৮০৮৬, লিনাক্স, পাইপলাইন স্কাডা ও আইটি</li>
+            <li><strong>বুয়েট লাইভ মডেল টেস্ট:</strong> ৬০ মিনিট লাইভ টাইমার ও -০.২৫ নেগেটিভ মার্কিং সহ রিয়েল ওএমআর ইঞ্জিন</li>
+          </ul>
+        </div>
+
+        <div class="card-actions">
+          <a href="Petrobangla Sub-Assistant Engineer Computer IT/petrobangla_sub_assistant_engineer_super_suggestion.html" class="btn-primary-action" style="background: linear-gradient(135deg, #059669 0%, #047857 100%);">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            সুপার সাজেশন পোর্টাল ওপেন করুন (Open Portal)
+          </a>
+
+          <div class="secondary-links">
+            <a href="Petrobangla Sub-Assistant Engineer Computer IT/exam_guide.html" target="_blank" class="btn-secondary-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+              পরীক্ষা পদ্ধতি ও গাইড
+            </a>
+            <a href="PROGRESS.md" target="_blank" class="btn-secondary-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+              প্রগ্রেস ট্র্যাকার (MD)
+            </a>
+            <a href="Petrobangla Sub-Assistant Engineer Computer IT/Petrobangla_Sub_Assistant_Engineer_Computer_IT_Exam_Guide.pdf" target="_blank" class="btn-secondary-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              সিলেবাস PDF গাইড
+            </a>
+            <a href="Petrobangla Sub-Assistant Engineer Computer IT/Petrobangla_ad_2026_Circular.pdf" target="_blank" class="btn-secondary-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+              মূল সার্কুলার PDF
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. Sub-Registrar -->
+      <div class="job-card pipeline" data-status="pipeline" data-keywords="সাব-রেজিস্টার sub-registrar নিবন্ধন অধিদপ্তর আইন ও বিচার বিভাগ bpsc ১০ম গ্রেড">
+        <div class="card-top">
+          <span class="dept-badge" style="color: #fbbf24; background: rgba(245, 158, 11, 0.12); border-color: rgba(245, 158, 11, 0.25);">নিবন্ধন অধিদপ্তর</span>
+          <span class="status-badge pipeline">● পাইপলাইন (Upcoming)</span>
+        </div>
+        
+        <h2 class="job-title">সাব-রেজিস্টার (Sub-Registrar)</h2>
+        <div class="ministry-title">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          আইন ও বিচার বিভাগ | আইন, বিচার ও সংসদ বিষয়ক মন্ত্রণালয়
+        </div>
+
+        <div class="meta-pills">
+          <span class="meta-tag">গ্রেড: ১০ম</span>
+          <span class="meta-tag">কমিশন: BPSC নন-ক্যাডার</span>
+          <span class="meta-tag">প্রিলি + লিখিত পরীক্ষা</span>
+        </div>
+
+        <div class="card-highlights pipeline">
+          <ul>
+            <li>সার্কুলার ফাইল ডিরেক্টরিতে তালিকাভুক্ত করা হয়েছে</li>
+            <li>বিপিএসসি নন-ক্যাডার সাধারণ বিষয়াবলি (বাংলা, ইংরেজি, গণিত ও জিকে)</li>
+            <li>নিবন্ধন আইন (Registration Act), স্ট্যাম্প আইন ও সম্পত্তি হস্তান্তর আইন রূপরেখা</li>
+            <li>পরবর্তী ধাপে এই পদের জন্য ডেডিকেটেড সুপার সাজেশন মডিউল জেনারেট করা হবে</li>
+          </ul>
+        </div>
+
+        <div class="card-actions">
+          <a href="Sub_Registrar_Circular.pdf" target="_blank" class="btn-primary-action" style="background: linear-gradient(135deg, #d97706 0%, #b45309 100%);">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            মূল সার্কুলার PDF দেখুন
+          </a>
+
+          <button onclick="alert('সাব-রেজিস্টার পদের জন্য নতুন পূর্ণাঙ্গ সুপার সাজেশন মডিউল ও ডেটাসেট তৈরি করতে চাইলে চ্যাটে নির্দেশনা দিন: \'সাব-রেজিস্টার পদের সুপার সাজেশন মডিউল তৈরি করো\'।')" class="btn-secondary-link" style="width: 100%; padding: 10px; cursor: pointer;">
+            ⚡ এই পদের জন্য নতুন সুপার সাজেশন শুরু করুন
+          </button>
+        </div>
+      </div>
+
+      <!-- 3. Add New Circular Card -->
+      <div class="add-new-card" onclick="alert('নতুন কোনো চাকরির সার্কুলার বা আবেদন যোগ করতে চান?\n\n১. সার্কুলারের PDF ফাইলটি এই ফোল্ডারে পেস্ট করুন।\n২. চ্যাটে শুধু লিখুন: \'আমি অমুক পদে আবেদন করেছি, এটার জন্যও সুপার সাজেশন মডিউল বানাও\'।\n৩. স্বয়ংক্রিয়ভাবে পৃথক ফোল্ডার ও পূর্ণাঙ্গ ওয়েব অ্যাপ তৈরি হয়ে যাবে!')">
+        <div class="add-icon">＋</div>
+        <h3>নতুন সার্কুলার যুক্ত করুন</h3>
+        <p>নতুন কোনো পদে আবেদন করলে সার্কুলার PDF ফাইল এখানে দিয়ে নতুন সুপার সাজেশন মডিউল শুরু করুন।</p>
+        <span class="btn-add-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          Add New Job Circular
+        </span>
+      </div>
+
+    </div>
+
+    <!-- Architecture & System Guide Banner -->
+    <div class="docs-banner">
+      <div class="docs-info">
+        <div class="docs-icon">📖</div>
+        <div class="docs-text">
+          <h4>সিস্টেম আর্কিটেকচার ও প্রজেক্ট গাইড (Project Guide)</h4>
+          <p>এই প্রজেক্টের ফোল্ডার স্ট্রাকচার, অফলাইন আর্কিটেকচার এবং কীভাবে নতুন সার্কুলার মডিউল যুক্ত করতে হয় তার বিস্তারিত ব্যাখ্যা।</p>
+        </div>
+      </div>
+      <a href="README.md" target="_blank" class="btn-docs">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+        README / আর্কিটেকচার গাইড পড়ুন
+      </a>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>বিপিএসসি ও সরকারি চাকরি নিয়োগ প্রস্তুতি মাস্টার পোর্টাল | তৈরি করা হয়েছে স্বয়ংক্রিয় মডিউলার আর্কিটেকচারে | সর্বশেষ আপডেট: অক্টোবর ২০২৬</p>
+  </footer>
+
+  <script>
+    let currentFilter = 'all';
+
+    function setFilter(filter, btn) {
+      currentFilter = filter;
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      filterJobs();
+    }
+
+    function filterJobs() {
+      const query = (document.getElementById('searchInput').value || '').toLowerCase().trim();
+      const cards = document.querySelectorAll('.job-card');
+      let visibleCount = 0;
+
+      cards.forEach(card => {
+        const status = card.getAttribute('data-status');
+        const keywords = card.getAttribute('data-keywords') || '';
+        const title = card.querySelector('.job-title').textContent.toLowerCase();
+        const ministry = card.querySelector('.ministry-title').textContent.toLowerCase();
+        
+        const matchesFilter = (currentFilter === 'all') || (status === currentFilter);
+        const matchesQuery = !query || title.includes(query) || ministry.includes(query) || keywords.includes(query);
+
+        if (matchesFilter && matchesQuery) {
+          card.style.display = 'flex';
+          visibleCount++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+  </script>
+</body>
+</html>
