@@ -1,0 +1,17 @@
+[
+  {
+    "id": 3018,
+    "subject": "ইংরেজি",
+    "topic": "Reading Comprehension & Critical Analysis",
+    "question": "Read the following passage and answer the questions that follow:\n\n\"Biometric technology has transformed border security from subjective human inspection into an objective, automated science. By measuring unique physiological characteristics—such as facial contours, fingerprint minutiae, and iris patterns—systems verify identity with unprecedented mathematical accuracy. However, this profound technical power introduces profound ethical responsibilities. Unlike passwords, cryptographic keys, or credit card numbers, biometric credentials cannot be reissued or reset if compromised. Once an individual's biometric template is breached, that person's physical identity is permanently jeopardized across all associated platforms. Therefore, national databases housing biometric records must implement zero-trust network architectures, end-to-end hardware encryption, and immutable audit logs to protect citizen privacy against state-sponsored advanced persistent threats (APTs).\"\n\nQuestions:\n(a) Why is a biometric breach considered far more catastrophic than a password leak?\n(b) What physiological features are utilized for identity verification in modern border security?\n(c) How can national databases protect biometric records against advanced cyber threats?\n(d) Suggest a suitable title for the passage.",
+    "marks": 8,
+    "answer": "Answers to Comprehension Questions:\n\n(a) A biometric breach is far more catastrophic because passwords or cryptographic tokens can be easily changed or reissued if compromised, whereas biometric credentials (like fingerprints or iris patterns) are permanent physiological traits that can never be reset or altered once leaked.\n\n(b) Modern border security systems utilize facial contours, fingerprint minutiae, and iris patterns as unique physiological characteristics for objective identity verification.\n\n(c) National databases can safeguard biometric records by implementing zero-trust network architectures, end-to-end hardware encryption, and immutable audit logs against advanced persistent threats.\n\n(d) **Suitable Title:** *Biometric Border Security: Technological Precision and the Imperative of Privacy Protection* (or: *The Double-Edged Sword of National Biometric Databases*).",
+    "points_to_remember": [
+      "Answers must be written in complete, grammatically sound sentences without directly copying verbatim sentences where synthesis is possible."
+    ],
+    "tags": [
+      "reading_comprehension",
+      "english_written"
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 3031,
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Clause Analysis",
+    "question": "Identify the dependent clauses in the following sentences and state whether they are Noun Clauses, Adjective (Relative) Clauses, or Adverbial Clauses, with grammatical justification:\n(a) What the maintenance engineer reported was completely accurate.\n(b) The server which was installed in 2020 has reached its end-of-life.\n(c) The network will remain vulnerable unless you enable dynamic ARP inspection.\n(d) He asked whether the database backup had finished.\n(e) This is the data center where biometric records are safely encrypted.",
+    "marks": 5,
+    "answer": "Clause Analysis Solution:\n\n(a) \"**What the maintenance engineer reported** was completely accurate.\"\n$\\rightarrow$ **Noun Clause.**\n*Justification:* It functions as the grammatical Subject of the main verb 'was'.\n\n(b) \"The server **which was installed in 2020** has reached its end-of-life.\"\n$\\rightarrow$ **Adjective (Relative) Clause.**\n*Justification:* It modifies and qualifies the antecedent noun 'server'.\n\n(c) \"The network will remain vulnerable **unless you enable dynamic ARP inspection**.\"\n$\\rightarrow$ **Adverbial Clause of Condition.**\n*Justification:* It modifies the main verb phrase 'will remain' by establishing the condition.\n\n(d) \"He asked **whether the database backup had finished**.\"\n$\\rightarrow$ **Noun Clause.**\n*Justification:* It acts as the Direct Object of the transitive verb 'asked'.\n\n(e) \"This is the data center **where biometric records are safely encrypted**.\"\n$\\rightarrow$ **Adjective (Relative) Clause.**\n*Justification:* Introduced by the relative adverb 'where', it modifies the noun 'data center'.",
+    "points_to_remember": [
+      "Noun clauses can act as Subject, Object, or Complement of a sentence.",
+      "Adjective clauses always modify a preceding noun (antecedent)."
+    ],
+    "tags": [
+      "clause_analysis",
+      "noun_clause",
+      "adverbial_clause",
+      "english_grammar"
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1090,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Storage Architecture & RAID Calculations",
+    "question": "রেইড স্টোরেজ গাণিতিক বিশ্লেষণ (RAID Storage Calculations):\nএকটি ডেটাসেন্টার স্টোরেজ পুলে প্রতিটি ২ TB ক্ষমতাসম্পন্ন মোট ৬টি আইডেন্টিক্যাল এন্টারপ্রাইজ হার্ডডিস্ক ($N = 6, C = 2\\text{ TB}$) সংযুক্ত আছে।\n(ক) নিচের প্রতিটি কনফিগারেশনের জন্য ব্যবহারযোগ্য মোট স্টোরেজ ক্ষমতা (Usable Storage Capacity) গাণিতিকভাবে নির্ণয় করুন:\n১. RAID 0\n২. RAID 1 (Mirrored)\n৩. RAID 5 (Distributed Parity)\n৪. RAID 6 (Dual Distributed Parity)\n৫. RAID 10 (1+0 Striped Mirrors)\n(খ) প্রতিটি রেইড লেভেলের ফল্ট টলারেন্স (Fault Tolerance - সর্বোচ্চ কতটি ডিস্ক ফেইল করলে ডাটা হারাবে না) লিখুন।\n(গ) RAID 5 এবং RAID 6-এর রাইট পেনাল্টি (Write Penalty / IOPS Penalty) কত এবং কেন?",
+    "marks": 9,
+    "answer": "রেইড (RAID) স্টোরেজ গাণিতিক বিশ্লেষণ:\nমোট ডিস্ক সংখ্যা $N = 6$, প্রতি ডিস্কের ক্ষমতা $C = 2\\text{ TB}$। মোট ফিজিক্যাল ক্ষমতা = $6 \\times 2 = 12\\text{ TB}$।\n\n১. বিভিন্ন রেইড লেভেলের ব্যবহারযোগ্য ক্ষমতা ও ফল্ট টলারেন্স:\n\n• ১. RAID 0 (Striping):\n- সূত্র: $\\text{Capacity} = N \\times C = 6 \\times 2 = 12\\text{ TB}$ (১০০% ক্ষমতা)\n- ফল্ট টলারেন্স: **০টি ডিস্ক**। যেকোনো ১টি ডিস্ক নষ্ট হলেই সম্পূর্ণ ডাটা ধ্বংস হয়ে যাবে।\n\n• ২. RAID 1 (Full 6-way Mirroring):\n- সূত্র: $\\text{Capacity} = 1 \\times C = 2\\text{ TB}$\n- ফল্ট টলারেন্স: **৫টি ডিস্ক** ফেইল করলেও ১টি ডিস্ক থেকে ডাটা উদ্ধার সম্ভব।\n\n• ৩. RAID 5 (Distributed Parity):\n- সূত্র: $\\text{Capacity} = (N - 1) \\times C = (6 - 1) \\times 2 = 5 \\times 2 = 10\\text{ TB}$ (৮৩.৩% দক্ষতা)\n- ফল্ট টলারেন্স: **যেকোনো ১টি ডিস্ক** ফেইল করলে ডাটা নিরাপদে থাকবে (প্যারিটি দিয়ে রিবিল্ড হবে)।\n\n• ৪. RAID 6 (Dual Distributed Parity):\n- সূত্র: $\\text{Capacity} = (N - 2) \\times C = (6 - 2) \\times 2 = 4 \\times 2 = 8\\text{ TB}$ (৬৬.৬% দক্ষতা)\n- ফল্ট টলারেন্স: **যেকোনো ২টি ডিস্ক** একসাথে নষ্ট হলেও ডাটা অক্ষত থাকবে।\n\n• ৫. RAID 10 (Striping of Mirrors - RAID 1+0):\n- সূত্র: $\\text{Capacity} = (N / 2) \\times C = (6 / 2) \\times 2 = 3 \\times 2 = 6\\text{ TB}$ (৫০% দক্ষতা)\n- ফল্ট টলারেন্স: প্রতি মিরর পেয়ার থেকে ১টি করে **সর্বোচ্চ ৩টি ডিস্ক** নষ্ট হলেও ডাটা টিকে থাকবে (তবে একই পেয়ারের দুটি নষ্ট হওয়া যাবে না)।\n\n২. সামারি ছক:\n| RAID Level | Usable Capacity | Storage Efficiency | Fault Tolerance |\n| :---: | :---: | :---: | :---: |\n| RAID 0 | 12 TB | 100% | 0 Disks |\n| RAID 1 | 2 TB | 16.6% | 5 Disks |\n| RAID 5 | 10 TB | 83.3% | 1 Disk |\n| RAID 6 | 8 TB | 66.6% | 2 Disks |\n| RAID 10 | 6 TB | 50% | 1 to 3 Disks |\n\n৩. Write Penalty / IOPS Penalty বিশ্লেষণ:\n• RAID 5 Write Penalty = **4 IOPS**:\nRAID 5-এ প্রতি ১টি সিঙ্গেল রাইট রিকোয়েস্ট সম্পাদন করতে ডিস্কে মোট ৪টি I/O অপারেশন করতে হয়:\n১. Read Old Data\n২. Read Old Parity\n৩. Write New Data\n৪. Write New Parity\nসূত্র: $\\text{New Parity} = (\\text{Old Data} \\oplus \\text{New Data}) \\oplus \\text{Old Parity}$\n\n• RAID 6 Write Penalty = **6 IOPS**:\nযেহেতু এতে দুটি ভিন্ন প্যারিটি ($P$ এবং $Q$) ক্যালকুলেট ও সংরক্ষণ করতে হয়, তাই মোট ৩টি রিড ও ৩টি রাইটসহ মোট ৬টি I/O অপারেশন করতে হয়। ফলে হাই-রাইট ইনটেনসিভ ডাটাবেজে RAID 10 অগ্রাধিকার পায়।",
+    "points_to_remember": [
+      "RAID 5-এ ১ ডিস্ক সমতুল্য ক্ষমতা প্যারিটিতে যায়; RAID 6-এ ২ ডিস্ক সমতুল্য ক্ষমতা প্যারিটিতে যায়।",
+      "মিশন ক্রিটিক্যাল ডাটাবেজের জন্য RAID 10 সেরা কারণ এর রাইট পেনাল্টি মাত্র ২।"
+    ],
+    "tags": [
+      "storage",
+      "raid",
+      "iops",
+      "raid_math",
+      "hardware"
+    ]
+  }
+]

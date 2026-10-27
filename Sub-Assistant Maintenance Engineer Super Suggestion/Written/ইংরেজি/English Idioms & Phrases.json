@@ -1,0 +1,36 @@
+[
+  {
+    "id": 3030,
+    "subject": "ইংরেজি",
+    "topic": "English Idioms & Phrases",
+    "question": "Construct meaningful sentences using the following idioms and phrases, illustrating their clear contextual meaning:\n(a) Bone of contention\n(b) Burn the midnight oil\n(c) At sixes and sevens\n(d) Through thick and thin\n(e) A blessing in disguise\n(f) Null and void\n(g) Kith and kin\n(h) Call it a day",
+    "marks": 8,
+    "answer": "Idioms and Contextual Usage Solution:\n\n(a) **Bone of contention** (A subject of dispute or argument):\n*Sentence:* The allocation of budget for server procurement became a major bone of contention between the finance department and the ICT cell.\n\n(b) **Burn the midnight oil** (To work or study late into the night):\n*Sentence:* The technical team had to burn the midnight oil to successfully migrate the e-Passport database before the morning office hours.\n\n(c) **At sixes and sevens** (In a state of total confusion or disarray):\n*Sentence:* When the centralized Active Directory domain server crashed, the administrative staff were all at sixes and sevens.\n\n(d) **Through thick and thin** (Under all circumstances, good or bad):\n*Sentence:* The senior system administrator supported his junior engineers through thick and thin during the high-pressure system launch.\n\n(e) **A blessing in disguise** (Something that seems bad at first, but turns out to be beneficial):\n*Sentence:* The minor network glitch proved to be a blessing in disguise as it exposed a critical firewall misconfiguration before a major cyber attack could occur.\n\n(f) **Null and void** (Having no legal force or validity):\n*Sentence:* Due to fraudulent biometric submissions, the applicant's previous passport was declared null and void by the immigration authorities.\n\n(g) **Kith and kin** (Friends, family, and relatives):\n*Sentence:* Thousands of expatriate workers rejoiced with their kith and kin after receiving their smart e-passports without delays.\n\n(h) **Call it a day** (To stop working for the rest of the day):\n*Sentence:* Having resolved the routing loop and verified all switch uplinks, the engineering team finally decided to call it a day.",
+    "points_to_remember": [
+      "Ensure contextual relevance in sentence construction to demonstrate comprehensive comprehension of the idiom."
+    ],
+    "tags": [
+      "idioms",
+      "phrases",
+      "vocabulary",
+      "english_written"
+    ]
+  },
+  {
+    "id": 3064,
+    "subject": "ইংরেজি",
+    "topic": "English Idioms & Phrases",
+    "question": "Construct meaningful, grammatically sound professional sentences illustrating the contextual application of the following idioms:\n(a) Touch and go\n(b) Back to the drawing board\n(c) Cut corners\n(d) Bite the bullet\n(e) Hit the nail on the head\n(f) A dime a dozen",
+    "marks": 6,
+    "answer": "Idioms and Practical Usage Solution:\n\n(a) **Touch and go** (Precarious, uncertain, or risky):\n*Sentence:* It was touch and go whether the failing primary database could be restored before the immigration counters opened at dawn.\n\n(b) **Back to the drawing board** (To start planning something anew after an initial plan fails):\n*Sentence:* When the initial routing configuration precipitated a massive packet loop, the network engineering team had to go back to the drawing board.\n\n(c) **Cut corners** (To do something poorly or cheaply to save time or money):\n*Sentence:* Procurement officers must never cut corners when purchasing mission-critical server power supplies and fire suppression systems.\n\n(d) **Bite the bullet** (To face a painful or difficult situation with courage and determination):\n*Sentence:* The administration had to bite the bullet and shut down the legacy server for a full twelve hours to execute the mandatory database overhaul.\n\n(e) **Hit the nail on the head** (To state or describe a situation exactly right):\n*Sentence:* The maintenance engineer hit the nail on the head when he diagnosed the server reboot issue as a faulty RAM parity mismatch.\n\n(f) **A dime a dozen** (Very common and having little special value):\n*Sentence:* In the modern job market, basic computer literacy is a dime a dozen; candidates must master specialized skills like cybersecurity and Linux administration to excel.",
+    "points_to_remember": [
+      "Idiomatic accuracy enhances written essay and comprehension scores."
+    ],
+    "tags": [
+      "idioms",
+      "phrases",
+      "vocabulary",
+      "english_grammar"
+    ]
+  }
+]

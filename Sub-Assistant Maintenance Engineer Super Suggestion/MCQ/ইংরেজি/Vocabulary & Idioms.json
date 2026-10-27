@@ -1,0 +1,227 @@
+[
+  {
+    "id": 7008,
+    "subject": "ইংরেজি",
+    "topic": "Vocabulary & Idioms",
+    "question": "What is the meaning of the idiom 'A white elephant'?",
+    "options": [
+      "A) A rare and precious animal",
+      "B) A very costly or burdensome possession with little utility",
+      "C) A harmless person",
+      "D) A memorable event"
+    ],
+    "answer": 1,
+    "explanation": "'A white elephant' বাগধারাটির অর্থ অত্যন্ত ব্যয়বহুল অথচ কাজের ক্ষেত্রে অকেজো বা অলাভজনক কোনো সম্পত্তি/বস্তু।",
+    "tags": [
+      "idioms",
+      "bcs_repeated"
+    ]
+  },
+  {
+    "id": 7009,
+    "subject": "ইংরেজি",
+    "topic": "Vocabulary & Idioms",
+    "question": "What is the antonym of the word 'Ubiquitous'?",
+    "options": [
+      "A) Omnipresent",
+      "B) Pervasive",
+      "C) Rare",
+      "D) Universal"
+    ],
+    "answer": 2,
+    "explanation": "'Ubiquitous' শব্দের অর্থ যা সর্বত্র বিদ্যমান বা সর্বব্যাপী। এর বিপরীত শব্দ (Antonym) হলো 'Rare' (বিরল বা যা সহজে পাওয়া যায় না)।",
+    "tags": [
+      "vocabulary"
+    ]
+  },
+  {
+    "id": 7010,
+    "subject": "ইংরেজি",
+    "topic": "Vocabulary & Idioms",
+    "question": "What is the synonym of 'Resilient'?",
+    "options": [
+      "A) Fragile",
+      "B) Elastic / Adaptable",
+      "C) Rigid",
+      "D) Vulnerable"
+    ],
+    "answer": 1,
+    "explanation": "'Resilient' অর্থ স্থিতিস্থাপক, প্রতিকূলতা জয় করে দ্রুত ঘুরে দাঁড়াতে সক্ষম এমন (Adaptable/Flexible/Elastic)।",
+    "tags": [
+      "vocabulary"
+    ]
+  },
+  {
+    "id": 7011,
+    "subject": "ইংরেজি",
+    "topic": "Vocabulary & Idioms",
+    "question": "A person who knows and speaks many languages is called a _____.",
+    "options": [
+      "A) Linguist",
+      "B) Polyglot",
+      "C) Philologist",
+      "D) Grammarian"
+    ],
+    "answer": 1,
+    "explanation": "এককথায় প্রকাশ (One-word substitution): বহুভাষাবিদ বা যিনি বহু ভাষা জানেন ও বলতে পারেন তাকে 'Polyglot' বলে। Linguist হলো ভাষার বৈজ্ঞানিক গবেষক।",
+    "tags": [
+      "one_word_substitution"
+    ]
+  },
+  {
+    "id": 7012,
+    "subject": "ইংরেজি",
+    "topic": "Vocabulary & Idioms",
+    "question": "Which of the following spellings is correct?",
+    "options": [
+      "A) Bureaucracy",
+      "B) Beuracracy",
+      "C) Bureacracy",
+      "D) Bureaucrasy"
+    ],
+    "answer": 0,
+    "explanation": "আমলাতন্ত্রের সঠিক ইংরেজি বানান 'Bureaucracy' (B-U-R-E-A-U-C-R-A-C-Y)।",
+    "tags": [
+      "spelling",
+      "bcs_repeated"
+    ]
+  },
+  {
+    "id": 7013,
+    "subject": "ইংরেজি",
+    "topic": "Vocabulary & Idioms",
+    "question": "What is the meaning of the idiom 'Call it a day'?",
+    "options": [
+      "A) To start a fresh journey",
+      "B) To stop working on something for the day",
+      "C) To celebrate an achievement",
+      "D) To delay an assignment"
+    ],
+    "answer": 1,
+    "explanation": "'Call it a day' অর্থ সেদিনের মতো কোনো কাজ শেষ বা স্থগিত ঘোষণা করা (to stop working on something)。",
+    "tags": [
+      "idioms"
+    ]
+  },
+  {
+    "id": 7014,
+    "subject": "ইংরেজি",
+    "topic": "Vocabulary & Idioms",
+    "question": "The synonym of 'Ephemeral' is _____.",
+    "options": [
+      "A) Eternal",
+      "B) Transient / Short-lived",
+      "C) Permanent",
+      "D) Enduring"
+    ],
+    "answer": 1,
+    "explanation": "'Ephemeral' অর্থ ক্ষণস্থায়ী বা স্বল্পস্থায়ী (Transient, Short-lived, Fleeting)। এর বিপরীত শব্দ হলো Eternal বা Permanent।",
+    "tags": [
+      "vocabulary"
+    ]
+  },
+  {
+    "id": 7015,
+    "subject": "ইংরেজি",
+    "topic": "Vocabulary & Idioms",
+    "question": "What is the meaning of the phrase 'At a loss'?",
+    "options": [
+      "A) Financial deficit",
+      "B) Perplexed / Puzzled",
+      "C) Damaged beyond repair",
+      "D) Feeling energetic"
+    ],
+    "answer": 1,
+    "explanation": "'At a loss' বাগধারার অর্থ কিংকর্তব্যবিমূঢ় বা হতবুদ্ধি হওয়া (Perplexed, bewildered or puzzled)।",
+    "tags": [
+      "idioms"
+    ]
+  },
+  {
+    "id": 7021,
+    "subject": "ইংরেজি",
+    "topic": "Vocabulary & Idioms",
+    "question": "What is the synonym of the word 'Mitigate'?",
+    "options": [
+      "A) Aggravate",
+      "B) Alleviate / Lessen",
+      "C) Intensify",
+      "D) Prolong"
+    ],
+    "answer": 1,
+    "explanation": "'Mitigate' অর্থ উপশম করা বা তীব্রতা হ্রাস করা (Alleviate, reduce, lessen)। এর বিপরীত শব্দ (Antonym) হলো Aggravate বা Intensify।",
+    "tags": [
+      "vocabulary"
+    ]
+  },
+  {
+    "id": 7022,
+    "subject": "ইংরেজি",
+    "topic": "Vocabulary & Idioms",
+    "question": "What is the antonym of the word 'Candid'?",
+    "options": [
+      "A) Frank",
+      "B) Deceitful / Secretive",
+      "C) Honest",
+      "D) Outspoken"
+    ],
+    "answer": 1,
+    "explanation": "'Candid' অর্থ স্পষ্টভাষী, অকপট বা খোলামেলা (Frank, honest)। এর বিপরীত শব্দ হলো Deceitful (ছলনাময়) বা Secretive।",
+    "tags": [
+      "vocabulary"
+    ]
+  },
+  {
+    "id": 7023,
+    "subject": "ইংরেজি",
+    "topic": "Vocabulary & Idioms",
+    "question": "Choose the correct spelling:",
+    "options": [
+      "A) Maintainance",
+      "B) Maintenance",
+      "C) Maintenence",
+      "D) Maintanence"
+    ],
+    "answer": 1,
+    "explanation": "'Maintenance' শব্দের সঠিক বানান M-A-I-N-T-E-N-A-N-C-E (মনে রাখা: Maintain কিন্তু Maintenance)। সাব-অ্যাসিস্ট্যান্ট মেইনটেন্যান্স ইঞ্জিনিয়ার পরীক্ষার জন্য এটি অত্যন্ত প্রাসঙ্গিক ও কমন প্রশ্ন।",
+    "tags": [
+      "spelling",
+      "most_important"
+    ]
+  },
+  {
+    "id": 7024,
+    "subject": "ইংরেজি",
+    "topic": "Vocabulary & Idioms",
+    "question": "What does the idiom 'Burn the midnight oil' mean?",
+    "options": [
+      "A) To waste electricity",
+      "B) To work or study late into the night",
+      "C) To create chaos",
+      "D) To feel disappointed"
+    ],
+    "answer": 1,
+    "explanation": "'Burn the midnight oil' অর্থ গভীর রাত পর্যন্ত জেগে কঠোর পড়াশোনা বা কাজ করা।",
+    "tags": [
+      "idioms"
+    ]
+  },
+  {
+    "id": 7025,
+    "subject": "ইংরেজি",
+    "topic": "Vocabulary & Idioms",
+    "question": "A remedy or cure for all diseases is called a _____.",
+    "options": [
+      "A) Panacea",
+      "B) Antidote",
+      "C) Antibiotic",
+      "D) Placebo"
+    ],
+    "answer": 0,
+    "explanation": "এককথায় প্রকাশ: সকল রোগের মহৌষধ বা সর্বরোগহর ঔষধকে 'Panacea' বলা হয়। Antidote হলো বিষের প্রতিষেধক।",
+    "tags": [
+      "one_word_substitution",
+      "bcs_repeated"
+    ]
+  }
+]

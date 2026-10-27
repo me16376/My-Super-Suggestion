@@ -1,0 +1,2092 @@
+[
+  {
+    "id": 8236,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He died ___ cholera.",
+    "options": [
+      "A) for",
+      "B) by",
+      "C) of",
+      "D) from"
+    ],
+    "answer": 2,
+    "explanation": "রোগে মারা গেলে 'die of' ব্যবহৃত হয়। সুতরাং 'He died of cholera' সঠিক।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8237,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The soldier died ___ his country.",
+    "options": [
+      "A) for",
+      "B) from",
+      "C) of",
+      "D) by"
+    ],
+    "answer": 0,
+    "explanation": "দেশের জন্য আত্মত্যাগ বা কোনো মহৎ উদ্দেশ্যে মারা গেলে 'die for' ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8238,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He died ___ overeating.",
+    "options": [
+      "A) for",
+      "B) of",
+      "C) by",
+      "D) from"
+    ],
+    "answer": 3,
+    "explanation": "অতিরিক্ত খাওয়া, পরিশ্রম বা অন্য কোনো পরোক্ষ কারণে মারা গেলে 'die from' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8239,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The passenger died ___ an accident.",
+    "options": [
+      "A) for",
+      "B) by",
+      "C) of",
+      "D) from"
+    ],
+    "answer": 1,
+    "explanation": "দুর্ঘটনায় বা অপঘাতে মারা গেলে সাধারণত 'die by' (বা in an accident) ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8240,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He died ___ poison.",
+    "options": [
+      "A) by",
+      "B) for",
+      "C) of",
+      "D) from"
+    ],
+    "answer": 0,
+    "explanation": "বিষপানে বা আত্মহত্যাজনিত কারণে মারা গেলে 'die by poison' ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8241,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "She died ___ poverty and starvation.",
+    "options": [
+      "A) by",
+      "B) of",
+      "C) for",
+      "D) from"
+    ],
+    "answer": 3,
+    "explanation": "অনাহার বা দারিদ্রে মারা গেলে 'die from' (বা of starvation) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8242,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The brave man died ___ harness.",
+    "options": [
+      "A) on",
+      "B) at",
+      "C) in",
+      "D) by"
+    ],
+    "answer": 2,
+    "explanation": "'Die in harness' একটি ইডিয়ম, যার অর্থ কর্মরত অবস্থায় মৃত্যুবরণ করা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8243,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He is good ___ English.",
+    "options": [
+      "A) with",
+      "B) at",
+      "C) in",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "কোনো বিষয়ে দক্ষ বোঝাতে 'good at' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8244,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He is weak ___ Mathematics.",
+    "options": [
+      "A) for",
+      "B) on",
+      "C) at",
+      "D) in"
+    ],
+    "answer": 3,
+    "explanation": "কোনো বিষয়ে কাঁচা বা দুর্বল বোঝাতে 'weak in' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8245,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The boy is clever ___ painting.",
+    "options": [
+      "A) with",
+      "B) at",
+      "C) in",
+      "D) on"
+    ],
+    "answer": 1,
+    "explanation": "কোনো বিষয়ে পারদর্শী বোঝাতে 'clever at' ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8246,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He is senior ___ me by two years.",
+    "options": [
+      "A) to",
+      "B) of",
+      "C) than",
+      "D) from"
+    ],
+    "answer": 0,
+    "explanation": "Senior, junior, superior, inferior, prior ইত্যাদির পর তুলনার ক্ষেত্রে 'to' বসে, 'than' নয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8247,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "I am junior ___ all my colleagues.",
+    "options": [
+      "A) than",
+      "B) from",
+      "C) to",
+      "D) with"
+    ],
+    "answer": 2,
+    "explanation": "Junior-এর পরে সর্বদা preposition হিসেবে 'to' ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8248,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "This brand is superior ___ that one.",
+    "options": [
+      "A) to",
+      "B) from",
+      "C) over",
+      "D) than"
+    ],
+    "answer": 0,
+    "explanation": "Superior-এর পরে comparative ডিগ্রির ক্ষেত্রে 'to' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8249,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The quality of this cloth is inferior ___ that.",
+    "options": [
+      "A) with",
+      "B) from",
+      "C) to",
+      "D) than"
+    ],
+    "answer": 2,
+    "explanation": "Inferior-এর পরে 'to' ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8250,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "Prior ___ that, he had worked in a bank.",
+    "options": [
+      "A) from",
+      "B) to",
+      "C) than",
+      "D) before"
+    ],
+    "answer": 1,
+    "explanation": "Prior শব্দের পর উপযুক্ত preposition হিসেবে 'to' বসে (prior to = পূর্বে)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8251,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "I prefer tea ___ coffee.",
+    "options": [
+      "A) from",
+      "B) than",
+      "C) over",
+      "D) to"
+    ],
+    "answer": 3,
+    "explanation": "পছন্দের ক্ষেত্রে দুইটির মধ্যে তুলনা করতে 'prefer ... to ...' ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8252,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He preferred death ___ dishonour.",
+    "options": [
+      "A) to",
+      "B) over",
+      "C) than",
+      "D) from"
+    ],
+    "answer": 0,
+    "explanation": "Prefer-এর পর 'to' বসে। 'He preferred death to dishonour' অর্থ সে অপমানের চেয়ে মৃত্যুকে প্রাধান্য দিল।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8253,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "You must abide ___ the rules of the institution.",
+    "options": [
+      "A) with",
+      "B) to",
+      "C) in",
+      "D) by"
+    ],
+    "answer": 3,
+    "explanation": "'Abide by' অর্থ মেনে চলা। নিয়মানুবর্তিতা বোঝাতে abide by বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8254,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He is absorbed ___ deep thought.",
+    "options": [
+      "A) with",
+      "B) at",
+      "C) in",
+      "D) on"
+    ],
+    "answer": 2,
+    "explanation": "'Absorbed in' অর্থ মগ্ন বা নিমগ্ন থাকা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8255,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "Please abstain ___ evil company.",
+    "options": [
+      "A) with",
+      "B) from",
+      "C) in",
+      "D) to"
+    ],
+    "answer": 1,
+    "explanation": "'Abstain from' অর্থ কোনো কিছু থেকে বিরত থাকা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8256,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "We should refrain ___ smoking in public places.",
+    "options": [
+      "A) to",
+      "B) by",
+      "C) with",
+      "D) from"
+    ],
+    "answer": 3,
+    "explanation": "'Refrain from' অর্থ বিরত থাকা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8257,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He is accustomed ___ working hard.",
+    "options": [
+      "A) with",
+      "B) in",
+      "C) to",
+      "D) at"
+    ],
+    "answer": 2,
+    "explanation": "'Accustomed to' অর্থ অভ্যস্ত হওয়া।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8258,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "You should adhere ___ your principles.",
+    "options": [
+      "A) with",
+      "B) to",
+      "C) in",
+      "D) on"
+    ],
+    "answer": 1,
+    "explanation": "'Adhere to' অর্থ দৃঢ়ভাবে লেগে থাকা বা নীতিতে অবিচল থাকা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8259,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "His house is adjacent ___ the school.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) near",
+      "D) at"
+    ],
+    "answer": 0,
+    "explanation": "'Adjacent to' অর্থ সংলগ্ন বা নিকটে অবস্থিত।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8260,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The old man is afflicted ___ arthritis.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) by",
+      "D) of"
+    ],
+    "answer": 1,
+    "explanation": "'Afflicted with' অর্থ যন্ত্রণাদায়ক ব্যাধি বা কষ্টে পীড়িত হওয়া।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8261,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "Children are often afraid ___ ghosts.",
+    "options": [
+      "A) with",
+      "B) to",
+      "C) from",
+      "D) of"
+    ],
+    "answer": 3,
+    "explanation": "'Afraid of' অর্থ ভীত হওয়া।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8262,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The hunter aimed ___ the bird.",
+    "options": [
+      "A) on",
+      "B) to",
+      "C) at",
+      "D) with"
+    ],
+    "answer": 2,
+    "explanation": "'Aim at' অর্থ কোনো লক্ষ্যবস্তুর দিকে তাক করা বা নিশানা করা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8263,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The teacher was angry ___ the students.",
+    "options": [
+      "A) with",
+      "B) at",
+      "C) to",
+      "D) for"
+    ],
+    "answer": 0,
+    "explanation": "কোনো ব্যক্তির ওপর রাগান্বিত হলে 'angry with' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8264,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He was angry ___ my improper behavior.",
+    "options": [
+      "A) with",
+      "B) at",
+      "C) for",
+      "D) to"
+    ],
+    "answer": 1,
+    "explanation": "কারো আচরণ বা কোনো বিষয়ের ওপর রাগ প্রকাশ করতে 'angry at' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8265,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "Parents are anxious ___ their children's safety.",
+    "options": [
+      "A) at",
+      "B) for",
+      "C) about",
+      "D) with"
+    ],
+    "answer": 2,
+    "explanation": "উদ্বিগ্ন অর্থে 'anxious about' ব্যবহৃত হয় (কোনো কিছুর ব্যাকুল আকাঙ্ক্ষা বোঝাতে anxious for বসে)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8266,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "You must apologize ___ your teacher ___ your misconduct.",
+    "options": [
+      "A) at, to",
+      "B) for, to",
+      "C) with, for",
+      "D) to, for"
+    ],
+    "answer": 3,
+    "explanation": "কারো নিকট ক্ষমা প্রার্থনা করতে 'apologize to (someone)' এবং কোনো অপরাধের জন্য হলে 'for (something)' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8267,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "I have no appetite ___ food today.",
+    "options": [
+      "A) for",
+      "B) with",
+      "C) in",
+      "D) to"
+    ],
+    "answer": 0,
+    "explanation": "'Appetite for' অর্থ ক্ষুধার উদ্রেক বা তীব্র রুচি থাকা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8268,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He applied ___ the Principal ___ a leave.",
+    "options": [
+      "A) to, for",
+      "B) for, to",
+      "C) in, for",
+      "D) with, for"
+    ],
+    "answer": 0,
+    "explanation": "কারো কাছে আবেদন করতে 'apply to' এবং কোনো পদের জন্য বা ছুটির জন্য 'apply for' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8269,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The minister was apprised ___ the situation.",
+    "options": [
+      "A) about",
+      "B) of",
+      "C) to",
+      "D) with"
+    ],
+    "answer": 1,
+    "explanation": "'Apprise of' অর্থ অবহিত করা বা জ্ঞাত করা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8270,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "His remarks are not appropriate ___ the occasion.",
+    "options": [
+      "A) with",
+      "B) for",
+      "C) at",
+      "D) to"
+    ],
+    "answer": 3,
+    "explanation": "'Appropriate to' (বা for) অর্থ প্রাসঙ্গিক বা উপযুক্ত।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8271,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "My father does not approve ___ my proposal.",
+    "options": [
+      "A) with",
+      "B) to",
+      "C) of",
+      "D) for"
+    ],
+    "answer": 2,
+    "explanation": "'Approve of' অর্থ অনুমোদন বা সম্মতি প্রদান করা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8272,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "Do not argue ___ your elders.",
+    "options": [
+      "A) with",
+      "B) at",
+      "C) against",
+      "D) to"
+    ],
+    "answer": 0,
+    "explanation": "কারো সাথে তর্ক করা বোঝাতে 'argue with' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8273,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He felt ashamed ___ his rude conduct.",
+    "options": [
+      "A) at",
+      "B) with",
+      "C) for",
+      "D) of"
+    ],
+    "answer": 3,
+    "explanation": "'Ashamed of' অর্থ লজ্জিত হওয়া।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8274,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The poor boy asked ___ help.",
+    "options": [
+      "A) after",
+      "B) with",
+      "C) for",
+      "D) to"
+    ],
+    "answer": 2,
+    "explanation": "'Ask for' অর্থ চাওয়া বা প্রার্থনা করা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8275,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "A student should aspire ___ greatness.",
+    "options": [
+      "A) after",
+      "B) to",
+      "C) for",
+      "D) at"
+    ],
+    "answer": 1,
+    "explanation": "'Aspire to' (বা after) অর্থ উচ্চাকাঙ্ক্ষা পোষণ করা বা মহৎ কিছু কামনা করা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8276,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The doctor assured me ___ his recovery.",
+    "options": [
+      "A) for",
+      "B) with",
+      "C) of",
+      "D) about"
+    ],
+    "answer": 2,
+    "explanation": "'Assure of' অর্থ আশ্বস্ত করা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8277,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "We were astonished ___ his unexpected failure.",
+    "options": [
+      "A) at",
+      "B) by",
+      "C) for",
+      "D) with"
+    ],
+    "answer": 0,
+    "explanation": "'Astonished at' অর্থ কোনো ঘটনায় বিস্মিত বা হতবাক হওয়া।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8278,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "You must attend ___ your teacher's lecture.",
+    "options": [
+      "A) with",
+      "B) upon",
+      "C) at",
+      "D) to"
+    ],
+    "answer": 3,
+    "explanation": "মনোযোগ দেওয়ার ক্ষেত্রে 'attend to' বসে (সেবা করার ক্ষেত্রে attend upon/on বসে)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8279,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The nurse attended ___ the sick patient.",
+    "options": [
+      "A) with",
+      "B) upon",
+      "C) to",
+      "D) at"
+    ],
+    "answer": 1,
+    "explanation": "রোগীর সেবা-শুশ্রূষা করা বোঝাতে 'attend upon' বা 'attend on' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8280,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "You should avail yourself ___ this golden opportunity.",
+    "options": [
+      "A) in",
+      "B) to",
+      "C) with",
+      "D) of"
+    ],
+    "answer": 3,
+    "explanation": "'Avail (oneself) of' অর্থ সুযোগ গ্রহণ করা বা সদ্ব্যবহার করা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8281,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He is averse ___ hard physical labor.",
+    "options": [
+      "A) with",
+      "B) at",
+      "C) to",
+      "D) from"
+    ],
+    "answer": 2,
+    "explanation": "'Averse to' অর্থ বিমুখ বা অনিচ্ছুক।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8282,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "One should be fully aware ___ one's rights.",
+    "options": [
+      "A) about",
+      "B) of",
+      "C) with",
+      "D) to"
+    ],
+    "answer": 1,
+    "explanation": "'Aware of' অর্থ সচেতন বা অবগত।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8283,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The dog barked ___ the stranger.",
+    "options": [
+      "A) at",
+      "B) on",
+      "C) with",
+      "D) to"
+    ],
+    "answer": 0,
+    "explanation": "'Bark at' অর্থ ঘেউ ঘেউ করা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8284,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "I do not believe ___ his honesty.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) on",
+      "D) in"
+    ],
+    "answer": 3,
+    "explanation": "কোনো কিছুতে আস্থা বা বিশ্বাস স্থাপন করতে 'believe in' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8285,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "This beautiful house belongs ___ my grandfather.",
+    "options": [
+      "A) to",
+      "B) for",
+      "C) with",
+      "D) in"
+    ],
+    "answer": 0,
+    "explanation": "'Belong to' অর্থ কারো মালিকানাধীন বা অধিকারভুক্ত হওয়া।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8286,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He is bent ___ ruining his own career.",
+    "options": [
+      "A) to",
+      "B) on",
+      "C) with",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "'Bent on' অর্থ কোনো কিছু করতে অনড় বা সংকল্পবদ্ধ থাকা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8287,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The tragedy left him bereft ___ all hope.",
+    "options": [
+      "A) by",
+      "B) from",
+      "C) of",
+      "D) with"
+    ],
+    "answer": 2,
+    "explanation": "'Bereft of' অর্থ বঞ্চিত বা নিঃস্ব হওয়া।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8288,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The king bestowed great honors ___ the brave soldier.",
+    "options": [
+      "A) with",
+      "B) to",
+      "C) for",
+      "D) on"
+    ],
+    "answer": 3,
+    "explanation": "কাউকে সম্মান বা খেতাব প্রদান করা বোঝাতে 'bestow on' (বা upon) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8289,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "Beware ___ pickpockets in crowded areas.",
+    "options": [
+      "A) to",
+      "B) of",
+      "C) with",
+      "D) from"
+    ],
+    "answer": 1,
+    "explanation": "'Beware of' অর্থ সতর্ক বা সাবধান হওয়া।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8290,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "A father should not be blind ___ his son's faults.",
+    "options": [
+      "A) to",
+      "B) in",
+      "C) with",
+      "D) of"
+    ],
+    "answer": 0,
+    "explanation": "দোষ দেখেও না দেখার ভান করা বা অন্ধ স্নেহ প্রকাশে 'blind to' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8291,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The unfortunate beggar is blind ___ one eye.",
+    "options": [
+      "A) from",
+      "B) to",
+      "C) of",
+      "D) with"
+    ],
+    "answer": 2,
+    "explanation": "চোখে সত্যি সত্যি দেখতে না পেলে 'blind of/in an eye' ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8292,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "Do not boast ___ your wealth and power.",
+    "options": [
+      "A) for",
+      "B) with",
+      "C) about",
+      "D) of"
+    ],
+    "answer": 3,
+    "explanation": "'Boast of' অর্থ অহংকার বা দম্ভ করা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8293,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The ship is bound ___ London.",
+    "options": [
+      "A) for",
+      "B) towards",
+      "C) at",
+      "D) to"
+    ],
+    "answer": 0,
+    "explanation": "কোনো গন্তব্যে যাত্রার উদ্দেশ্যে রওনা হলে 'bound for' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8294,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "Hearing the sad news, the girl burst ___ tears.",
+    "options": [
+      "A) with",
+      "B) into",
+      "C) in",
+      "D) out"
+    ],
+    "answer": 1,
+    "explanation": "কান্নায় ভেঙে পড়া বোঝাতে 'burst into tears' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8295,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "Everyone burst ___ laughing at his witty joke.",
+    "options": [
+      "A) in",
+      "B) with",
+      "C) out",
+      "D) into"
+    ],
+    "answer": 2,
+    "explanation": "অট্টহাসিতে ফেটে পড়া বোঝাতে 'burst out laughing' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8296,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The emergency situation calls ___ immediate action.",
+    "options": [
+      "A) on",
+      "B) at",
+      "C) for",
+      "D) in"
+    ],
+    "answer": 2,
+    "explanation": "'Call for' অর্থ দাবি করা বা প্রয়োজন হওয়া (demand)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8297,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The Prime Minister called ___ the President yesterday.",
+    "options": [
+      "A) at",
+      "B) on",
+      "C) in",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "কোনো ব্যক্তির সাথে সাক্ষাৎ করা বোঝাতে 'call on' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8298,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He promised to call ___ my office this afternoon.",
+    "options": [
+      "A) at",
+      "B) on",
+      "C) in",
+      "D) to"
+    ],
+    "answer": 0,
+    "explanation": "কোনো স্থানে গিয়ে দেখা করা বোঝাতে 'call at' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8299,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He is capable ___ solving the most complex puzzles.",
+    "options": [
+      "A) for",
+      "B) with",
+      "C) to",
+      "D) of"
+    ],
+    "answer": 3,
+    "explanation": "'Capable of' অর্থ কোনো কিছু করতে সক্ষম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8300,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "We should be careful ___ our health.",
+    "options": [
+      "A) about",
+      "B) of",
+      "C) with",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "'Careful of' বা 'careful about' অর্থ যত্নশীল বা সতর্ক।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8301,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He is confident ___ his eventual victory.",
+    "options": [
+      "A) about",
+      "B) in",
+      "C) of",
+      "D) for"
+    ],
+    "answer": 2,
+    "explanation": "'Confident of' অর্থ নিশ্চিত বা আস্থাশীল।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8302,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "His story coincides ___ the police report.",
+    "options": [
+      "A) with",
+      "B) at",
+      "C) to",
+      "D) for"
+    ],
+    "answer": 0,
+    "explanation": "'Coincide with' অর্থ হুবহু মিলে যাওয়া বা একমত হওয়া।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8303,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "Shakespeare is often compared ___ Kalidasa.",
+    "options": [
+      "A) at",
+      "B) with",
+      "C) from",
+      "D) to"
+    ],
+    "answer": 3,
+    "explanation": "ভিন্ন জাতীয় দুটি জিনিসের সাথে রূপক তুলনা করতে 'compare to' এবং সমজাতীয় ব্যক্তির সাথে তুলনা করতে 'compare with' প্রচলিত।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8304,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The company compensated the workers ___ their loss.",
+    "options": [
+      "A) with",
+      "B) of",
+      "C) to",
+      "D) for"
+    ],
+    "answer": 3,
+    "explanation": "'Compensate for' অর্থ ক্ষতিপূরণ দেওয়া।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8305,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "Water is composed ___ hydrogen and oxygen.",
+    "options": [
+      "A) with",
+      "B) from",
+      "C) of",
+      "D) by"
+    ],
+    "answer": 2,
+    "explanation": "'Composed of' অর্থ কোনো কিছু দ্বারা গঠিত হওয়া।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8306,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "You must comply ___ the official orders.",
+    "options": [
+      "A) with",
+      "B) for",
+      "C) to",
+      "D) in"
+    ],
+    "answer": 0,
+    "explanation": "'Comply with' অর্থ আদেশ বা অনুরোধ মেনে চলা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8307,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "I concur ___ you on this important matter.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) in",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "ব্যক্তির সাথে একমত হওয়া বোঝাতে 'concur with' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8308,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The convicted criminal was condemned ___ death.",
+    "options": [
+      "A) with",
+      "B) by",
+      "C) to",
+      "D) for"
+    ],
+    "answer": 2,
+    "explanation": "'Condemned to' অর্থ দণ্ডে দণ্ডিত হওয়া (condemned to death)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8309,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "I have full reason to confide ___ his integrity.",
+    "options": [
+      "A) with",
+      "B) to",
+      "C) on",
+      "D) in"
+    ],
+    "answer": 3,
+    "explanation": "'Confide in' অর্থ কারো ওপর সম্পূর্ণ বিশ্বাস বা আস্থা রাখা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8310,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "All citizens must conform ___ the traffic regulations.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) for",
+      "D) by"
+    ],
+    "answer": 0,
+    "explanation": "'Conform to' অর্থ নিয়ম বা বিধিমালার সাথে সঙ্গতি রক্ষা করা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8311,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "We congratulated him ___ his outstanding success.",
+    "options": [
+      "A) with",
+      "B) on",
+      "C) at",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "কারো সাফল্যে অভিনন্দন জানাতে 'congratulate on' ব্যবহৃত হয়, 'for' নয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8312,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "A good citizen is conscious ___ his moral duties.",
+    "options": [
+      "A) with",
+      "B) about",
+      "C) of",
+      "D) to"
+    ],
+    "answer": 2,
+    "explanation": "'Conscious of' অর্থ সচেতন বা সজাগ।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8313,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "Happiness consists ___ contentment of the mind.",
+    "options": [
+      "A) with",
+      "B) of",
+      "C) at",
+      "D) in"
+    ],
+    "answer": 3,
+    "explanation": "কোনো কিছুতে নিহিত থাকা অর্থে 'consist in' বসে (সুখ আত্মতুষ্টির মধ্যে নিহিত)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8314,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The committee consists ___ seven eminent members.",
+    "options": [
+      "A) of",
+      "B) by",
+      "C) with",
+      "D) in"
+    ],
+    "answer": 0,
+    "explanation": "কোনো কিছু নিয়ে গঠিত হওয়া অর্থে 'consist of' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8315,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "His action was contrary ___ his official statement.",
+    "options": [
+      "A) from",
+      "B) to",
+      "C) with",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "'Contrary to' অর্থ বিপরীত বা প্রতিকূল।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8316,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "Rich people should contribute ___ relief funds.",
+    "options": [
+      "A) for",
+      "B) with",
+      "C) in",
+      "D) to"
+    ],
+    "answer": 3,
+    "explanation": "'Contribute to' অর্থ কোনো তহবিলে চাঁদা বা অবদান রাখা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8317,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He has no control ___ his fiery temper.",
+    "options": [
+      "A) with",
+      "B) over",
+      "C) on",
+      "D) at"
+    ],
+    "answer": 1,
+    "explanation": "কোনো কিছুর ওপর নিয়ন্ত্রণ বোঝাতে 'control over' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8318,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The lawyer is thoroughly conversant ___ the law.",
+    "options": [
+      "A) with",
+      "B) in",
+      "C) about",
+      "D) to"
+    ],
+    "answer": 0,
+    "explanation": "'Conversant with' অর্থ কোনো বিষয়ে সম্যক অবগত বা অভিজ্ঞ।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8319,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The jury convicted him ___ the heinous murder.",
+    "options": [
+      "A) with",
+      "B) in",
+      "C) of",
+      "D) for"
+    ],
+    "answer": 2,
+    "explanation": "'Convict of' অর্থ কোনো অপরাধে দোষী সাব্যস্ত করা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8320,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "It is difficult to cope ___ the rising inflation.",
+    "options": [
+      "A) against",
+      "B) to",
+      "C) up with",
+      "D) with"
+    ],
+    "answer": 3,
+    "explanation": "পরিস্থিতির সাথে মানিয়ে নেওয়া বোঝাতে 'cope with' সঠিক ('cope up with' ব্যাকরণগতভাবে ভুল)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8321,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "There is no easy cure ___ this fatal disease.",
+    "options": [
+      "A) of",
+      "B) to",
+      "C) for",
+      "D) from"
+    ],
+    "answer": 2,
+    "explanation": "রোগের প্রতিষেধক বা প্রতিকার অর্থে noun হিসেবে 'cure for' বসে (কিন্তু verb হিসেবে cured of বসে)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8322,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The doctor cured him ___ the terrible fever.",
+    "options": [
+      "A) with",
+      "B) of",
+      "C) from",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "রোগমুক্ত হওয়া অর্থে verb 'cure of' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8323,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He deals ___ rice and wheat in the market.",
+    "options": [
+      "A) in",
+      "B) with",
+      "C) for",
+      "D) to"
+    ],
+    "answer": 0,
+    "explanation": "ব্যবসা করা অর্থে 'deal in' বসে (deal in rice/textiles)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8324,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He knows how to deal ___ rude customers.",
+    "options": [
+      "A) in",
+      "B) for",
+      "C) to",
+      "D) with"
+    ],
+    "answer": 3,
+    "explanation": "কারো সাথে আচরণ করা বা কোনো সমস্যা সমাধান করা অর্থে 'deal with' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8325,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He dedicated his life ___ the service of humanity.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) for",
+      "D) in"
+    ],
+    "answer": 0,
+    "explanation": "'Dedicate to' অর্থ কোনো মহৎ কাজে উৎসর্গ করা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8326,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "His diet is deficient ___ essential vitamins.",
+    "options": [
+      "A) of",
+      "B) from",
+      "C) in",
+      "D) with"
+    ],
+    "answer": 2,
+    "explanation": "'Deficient in' অর্থ কোনো উপাদানের ঘাটতি থাকা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8327,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The poet takes great delight ___ nature's beauty.",
+    "options": [
+      "A) at",
+      "B) in",
+      "C) with",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "'Delight in' অর্থ কোনো কিছুতে আনন্দ উপভোগ করা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8328,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "Success depends ___ hard and consistent work.",
+    "options": [
+      "A) to",
+      "B) at",
+      "C) with",
+      "D) on"
+    ],
+    "answer": 3,
+    "explanation": "'Depend on' (বা upon) অর্থ নির্ভর করা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8329,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The tyrant deprived the citizens ___ their rights.",
+    "options": [
+      "A) with",
+      "B) from",
+      "C) of",
+      "D) to"
+    ],
+    "answer": 2,
+    "explanation": "'Deprive of' অর্থ বঞ্চিত করা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8330,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He has a strong desire ___ fame and recognition.",
+    "options": [
+      "A) for",
+      "B) in",
+      "C) to",
+      "D) of"
+    ],
+    "answer": 0,
+    "explanation": "'Desire for' অর্থ কোনো কিছুর তীব্র কামনা (noun হিসেবে desire for বসে)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8331,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The defeated army despaired ___ winning the war.",
+    "options": [
+      "A) for",
+      "B) of",
+      "C) with",
+      "D) from"
+    ],
+    "answer": 1,
+    "explanation": "'Despair of' অর্থ কোনো আশা ত্যাগ করা বা নিরাশ হওয়া।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8332,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "His speech was totally devoid ___ truth.",
+    "options": [
+      "A) to",
+      "B) from",
+      "C) with",
+      "D) of"
+    ],
+    "answer": 3,
+    "explanation": "'Devoid of' অর্থ বর্জিত বা শূন্য।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8333,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "The student devoted four hours daily ___ studies.",
+    "options": [
+      "A) for",
+      "B) in",
+      "C) to",
+      "D) with"
+    ],
+    "answer": 2,
+    "explanation": "'Devote to' অর্থ সময় বা শক্তি নিয়োজিত করা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8334,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "I beg to differ ___ you on this controversial topic.",
+    "options": [
+      "A) from",
+      "B) with",
+      "C) to",
+      "D) against"
+    ],
+    "answer": 1,
+    "explanation": "কারো সাথে মতের অমিল হওয়া বোঝাতে 'differ with' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8335,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "This modern model differs greatly ___ the old one.",
+    "options": [
+      "A) from",
+      "B) to",
+      "C) with",
+      "D) by"
+    ],
+    "answer": 0,
+    "explanation": "কোনো বস্তুর সাথে গুণের ভিন্নতা বোঝাতে 'differ from' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8336,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "Only graduates are eligible ___ this administrative post.",
+    "options": [
+      "A) to",
+      "B) in",
+      "C) with",
+      "D) for"
+    ],
+    "answer": 3,
+    "explanation": "'Eligible for' অর্থ কোনো পদের জন্য উপযুক্ত বা যোগ্য।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8337,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "She is engaged ___ an engineer.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) for",
+      "D) by"
+    ],
+    "answer": 0,
+    "explanation": "বাগদান সম্পন্ন হওয়া বোঝাতে 'engaged to' বসে (কাজে মগ্ন থাকলে engaged in বসে)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8338,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He is currently engaged ___ writing a new novel.",
+    "options": [
+      "A) with",
+      "B) in",
+      "C) at",
+      "D) to"
+    ],
+    "answer": 1,
+    "explanation": "কোনো কাজে ব্যস্ত বা নিযুক্ত থাকা বোঝাতে 'engaged in' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8339,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "He was envious ___ his neighbor's prosperity.",
+    "options": [
+      "A) at",
+      "B) with",
+      "C) of",
+      "D) to"
+    ],
+    "answer": 2,
+    "explanation": "'Envious of' অর্থ ঈর্ষান্বিত হওয়া।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8340,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "Water is essential ___ human life.",
+    "options": [
+      "A) to",
+      "B) for",
+      "C) with",
+      "D) of"
+    ],
+    "answer": 0,
+    "explanation": "'Essential to' (বা for) অর্থ অত্যাবশ্যক বা অপরিহার্য।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8341,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "She excels ___ classical Indian music.",
+    "options": [
+      "A) with",
+      "B) for",
+      "C) at",
+      "D) in"
+    ],
+    "answer": 3,
+    "explanation": "কোনো শিল্প বা বিদ্যায় অসাধারণ নৈপুণ্য প্রদর্শন বোঝাতে 'excel in' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8342,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "Charitable institutions are exempt ___ taxation.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) from",
+      "D) of"
+    ],
+    "answer": 2,
+    "explanation": "'Exempt from' অর্থ অব্যাহতিপ্রাপ্ত বা রেহাই পাওয়া।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8343,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "His face is familiar ___ me.",
+    "options": [
+      "A) with",
+      "B) to",
+      "C) of",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "কারো কাছে পরিচিত বোঝাতে 'familiar to' বসে (কারো সাথে পরিচয় বোঝাতে familiar with বসে)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8344,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "I am quite familiar ___ the rules of this game.",
+    "options": [
+      "A) with",
+      "B) for",
+      "C) at",
+      "D) to"
+    ],
+    "answer": 0,
+    "explanation": "কোনো বিষয় সম্যক জানা বোঝাতে 'familiar with' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8345,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Prepositions)",
+    "question": "Cancer proved fatal ___ his grandfather.",
+    "options": [
+      "A) of",
+      "B) to",
+      "C) for",
+      "D) with"
+    ],
+    "answer": 1,
+    "explanation": "'Fatal to' অর্থ প্রাণঘাতী বা মারাত্মক ক্ষতিকর।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  }
+]

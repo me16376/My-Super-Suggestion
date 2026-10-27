@@ -1,0 +1,2092 @@
+[
+  {
+    "id": 7906,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which of the following sentences avoids redundancy?",
+    "options": [
+      "A) He returned back to his village after twenty years.",
+      "B) He returned to his village after twenty years.",
+      "C) He retreated back to his village after twenty years.",
+      "D) He reverted back to his village after twenty years."
+    ],
+    "answer": 1,
+    "explanation": "'Return' শব্দের মধ্যেই 'back' অর্থ নিহিত রয়েছে; তাই 'return back' ব্যবহার করা একটি মারাত্মক Redundancy বা বাহুল্য দোষ।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7907,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the sentence free from redundant expression:",
+    "options": [
+      "A) Please repeat again what you said.",
+      "B) Please repeat it back what you said.",
+      "C) Please repeat what you said.",
+      "D) Please reiterate again what you said."
+    ],
+    "answer": 2,
+    "explanation": "'Repeat' বা 'Reiterate'-এর পর 'again' ব্যবহার করা বাহুল্য দোষ।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7908,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence correctly uses the idiom for coping with a situation?",
+    "options": [
+      "A) He can easily cope with any difficult circumstance.",
+      "B) He can cope up to any circumstance.",
+      "C) He can easily cope up with any difficult circumstance.",
+      "D) He can easily cope with up any circumstance."
+    ],
+    "answer": 0,
+    "explanation": "সঠিক প্রমিত প্রবাদ হলো 'cope with' (মানিয়ে চলা); 'cope up with' ব্যবহার করা ভুল।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7909,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the sentence that is free from unnecessary words:",
+    "options": [
+      "A) The reason for his fail is because of not studying.",
+      "B) The reason why he failed is because he did not study.",
+      "C) The reason he failed is because that he did not study.",
+      "D) The reason he failed is that he did not study."
+    ],
+    "answer": 3,
+    "explanation": "'The reason... is that' প্রমিত গঠন; 'The reason... is because' ব্যবহার করা বাহুল্য দোষ।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7910,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence correctly expresses the thought without redundancy?",
+    "options": [
+      "A) This is a biography of his own life novel.",
+      "B) This is an autobiographical story of his life.",
+      "C) This is his own personal autobiography.",
+      "D) This is an autobiographical novel."
+    ],
+    "answer": 3,
+    "explanation": "'Autobiography' মানেই নিজের জীবনচরিত; এর সাথে 'own personal' বা 'of his life' যোগ করা বাহুল্য।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7911,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the sentence with correct word choice:",
+    "options": [
+      "A) He discussed about the problem thoroughly.",
+      "B) He discussed the problem thoroughly.",
+      "C) He discussed regarding the problem.",
+      "D) He discussed on the problem thoroughly."
+    ],
+    "answer": 1,
+    "explanation": "'Discuss' একটি Transitive Verb; এর পর সরাসরি Object বসে, কোনো 'about' বা 'on' বসে না।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7912,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is grammatically correct?",
+    "options": [
+      "A) She ordered a cup of tea.",
+      "B) She ordered to a cup of tea.",
+      "C) She ordered for a cup of tea.",
+      "D) She ordered of a cup of tea."
+    ],
+    "answer": 0,
+    "explanation": "'Order' Transitive Verb হওয়ায় খাবার বা পানীয় চাওয়ার ক্ষেত্রে সরাসরি Object বসে ('ordered for' ভুল)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7913,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "A) He described about the scenic beauty of the valley.",
+      "B) He described regarding the scenic beauty.",
+      "C) He described the scenic beauty of the valley.",
+      "D) He made description about the valley."
+    ],
+    "answer": 2,
+    "explanation": "'Describe'-এর পর সরাসরি Object বসে, 'about' বসে না।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7914,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which of the following sentences is free from errors?",
+    "options": [
+      "A) He signed on the legal contract yesterday.",
+      "B) He signed the legal contract yesterday.",
+      "C) He made sign upon the contract.",
+      "D) He put sign on the contract."
+    ],
+    "answer": 1,
+    "explanation": "'Sign' Transitive Verb হওয়ায় এর পর সরাসরি Object বসে ('signed on' ভুল)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7915,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the correct sentence:",
+    "options": [
+      "A) He resigned from off his post.",
+      "B) He resigned his post as secretary.",
+      "C) He resigned out of his post.",
+      "D) He resigned from his post as secretary."
+    ],
+    "answer": 3,
+    "explanation": "পদ ত্যাগ করা বোঝাতে 'resigned from his post' প্রমিত।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7916,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is correct regarding entering a place?",
+    "options": [
+      "A) He entered into the examination hall quietly.",
+      "B) He entered inside the examination hall quietly.",
+      "C) He entered the examination hall quietly.",
+      "D) He entered to the examination hall quietly."
+    ],
+    "answer": 2,
+    "explanation": "কোনো কক্ষে বা স্থানে প্রবেশের ক্ষেত্রে 'enter'-এর পর 'into' বসে না (তবে 'enter into an agreement/discussion' চুক্তি বা আলোচনায় হতে পারে)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7917,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the sentence without redundancy:",
+    "options": [
+      "A) Both students were rewarded for honesty.",
+      "B) The two both students were rewarded.",
+      "C) Both of the two students were rewarded for honesty.",
+      "D) Both the two students were rewarded for honesty."
+    ],
+    "answer": 0,
+    "explanation": "'Both' শব্দের মধ্যেই 'two' অর্থ রয়েছে; তাই 'Both of the two' বা 'Both the two' বাহুল্য দোষ।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7918,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence correctly avoids double negatives?",
+    "options": [
+      "A) He could hardly not speak after the race.",
+      "B) He couldn't scarcely speak after the race.",
+      "C) He could hardly speak after the race.",
+      "D) He could not hardly speak after the race."
+    ],
+    "answer": 2,
+    "explanation": "'Hardly', 'scarcely' নিজেই নেতিবাচক; এদের সাথে পুনরায় 'not' ব্যবহার করলে Double Negative ভুল হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7919,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the sentence free from double comparative:",
+    "options": [
+      "A) He is much more wiser than his brother.",
+      "B) He is more intelligent than his brother.",
+      "C) He is more cleverer than his brother.",
+      "D) He is more taller than his brother."
+    ],
+    "answer": 1,
+    "explanation": "একই সাথে 'more' এবং '-er' যুক্ত কম্পারেটিভ রূপ (যেমন: more cleverer) ব্যবহার করা ব্যাকরণগত অপরাধ।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7920,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which of the following sentences is correct?",
+    "options": [
+      "A) She resembled her mother in looks.",
+      "B) She resembled to her mother in looks.",
+      "C) She resembled with her mother in looks.",
+      "D) She resembled like her mother in looks."
+    ],
+    "answer": 0,
+    "explanation": "'Resemble' Transitive Verb; এর পর সরাসরি Object বসে ('resembled to/with' ভুল)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7921,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "A) The climate of Bangladesh is hotter than Nepal.",
+      "B) The climate of Bangladesh is hotter from Nepal.",
+      "C) The climate of Bangladesh is more hot than Nepal.",
+      "D) The climate of Bangladesh is hotter than that of Nepal."
+    ],
+    "answer": 3,
+    "explanation": "তুলনা করতে হবে আবহাওয়ার সাথে আবহাওয়ার; তাই 'than Nepal' না হয়ে 'than that of Nepal' হবে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7922,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is grammatically correct?",
+    "options": [
+      "A) The population of Tokyo is larger from London.",
+      "B) The population of Tokyo is greater than that of London.",
+      "C) The population of Tokyo is greater than those of London.",
+      "D) The population of Tokyo is greater than London."
+    ],
+    "answer": 1,
+    "explanation": "'Population' সিঙ্গুলার হওয়ায় 'that of London' সঠিক ('those of' প্লুরালে বসে)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7923,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the correct sentence regarding time and clocks:",
+    "options": [
+      "A) It is ten o'clock in my watch.",
+      "B) It is ten o'clock on my watch.",
+      "C) It is ten o'clock at my watch.",
+      "D) It is ten o'clock by my watch."
+    ],
+    "answer": 3,
+    "explanation": "ঘড়ির সময় প্রকাশের প্রমিত Preposition হলো 'by' (by my watch)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7924,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the sentence with correct idiom for death:",
+    "options": [
+      "A) The patriot died for his country.",
+      "B) The patriot died to his country.",
+      "C) The patriot died of his country.",
+      "D) The patriot died from his country."
+    ],
+    "answer": 0,
+    "explanation": "দেশের বা মহৎ কারণে জীবন দিলে 'died for' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7925,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is free from grammatical errors?",
+    "options": [
+      "A) I told him the true fact.",
+      "B) I told him the real fact.",
+      "C) I told him the fact.",
+      "D) I told him the actual fact."
+    ],
+    "answer": 2,
+    "explanation": "'Fact' মানেই বাস্তব ও সত্য তথ্য; তাই 'true fact' বা 'actual fact' বাহুল্য দোষ, শুধু 'the fact' সবচেয়ে শুদ্ধ।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7926,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the grammatically pure sentence:",
+    "options": [
+      "A) He made a blunder.",
+      "B) He committed a big blunder.",
+      "C) He made a huge blunder mistake.",
+      "D) He did a grave blunder."
+    ],
+    "answer": 0,
+    "explanation": "'Blunder' মানেই মারাত্মক ভুল; তাই 'big blunder' বা 'blunder mistake' বাহুল্য দোষ।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7927,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which of the following is correct?",
+    "options": [
+      "A) He reached at the station on time.",
+      "B) He reached in the station on time.",
+      "C) He reached to the station on time.",
+      "D) He reached the station on time."
+    ],
+    "answer": 3,
+    "explanation": "'Reach' Transitive Verb হওয়ায় এর পর সরাসরি গন্তব্য Noun বসে (কোনো 'to/at' বসে না)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7928,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the correct sentence:",
+    "options": [
+      "A) He accompanied along me to museum.",
+      "B) He accompanied me to the museum.",
+      "C) He accompanied by me to the museum.",
+      "D) He accompanied with me to the museum."
+    ],
+    "answer": 1,
+    "explanation": "'Accompany' Transitive Verb; তাই Active Voice-এ 'accompanied with me' ভুল, সরাসরি 'accompanied me' বসবে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7929,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is correct?",
+    "options": [
+      "A) I asked him lending me fifty taka.",
+      "B) I requested him for borrow fifty taka.",
+      "C) I asked him to lend me fifty taka.",
+      "D) I asked him to borrow me fifty taka."
+    ],
+    "answer": 2,
+    "explanation": "ধার দেওয়া অর্থে 'lend' এবং ধার নেওয়া অর্থে 'borrow' বসে। কাউকে ধার দিতে অনুরোধ করতে 'lend me' হবে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7930,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the sentence free from composition errors:",
+    "options": [
+      "A) She has great proficiency on English.",
+      "B) She is very proficient in English.",
+      "C) She is very proficient with English.",
+      "D) She is very proficient at English."
+    ],
+    "answer": 1,
+    "explanation": "ভাষাজ্ঞানে দক্ষ বোঝাতে 'proficient in' সঠিক Collocation।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7931,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence correctly avoids redundancy?",
+    "options": [
+      "A) We agreed unanimously to the proposal.",
+      "B) We unanimously in one voice agreed.",
+      "C) All of us unanimously agreed.",
+      "D) We all unanimously agreed to the proposal."
+    ],
+    "answer": 0,
+    "explanation": "'Unanimously' মানেই সর্বসম্মতভাবে বা সকলে মিলে; এর সাথে 'all' যোগ করা বাহুল্য দোষ।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7932,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the sentence that is free from error:",
+    "options": [
+      "A) He gave me an advice.",
+      "B) He gave me many advices.",
+      "C) He gave me some advice.",
+      "D) He gave me few advice."
+    ],
+    "answer": 2,
+    "explanation": "'Advice' Uncountable Noun; এর বহুবচন 'advices' হয় না এবং এর পূর্বে সরাসরি 'an' বসে না।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7933,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is grammatically correct?",
+    "options": [
+      "A) The sceneries of the valley are charming.",
+      "B) The sceneries of the valley is charming.",
+      "C) The scenery of the valleys are charming.",
+      "D) The scenery of the valley is charming."
+    ],
+    "answer": 3,
+    "explanation": "'Scenery' Uncountable Noun; এর Plural 'sceneries' হয় না এবং Verb সর্বদা Singular ('is') হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7934,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "A) He has many pieces of furniture in his room.",
+      "B) He has many furnitures in his room.",
+      "C) He has several furnitures in his room.",
+      "D) He has a lot of furnitures in his room."
+    ],
+    "answer": 0,
+    "explanation": "'Furniture' Uncountable Noun; এর সাথে 's' যুক্ত হয় না, বহুবচনে 'pieces of furniture' লিখতে হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7935,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is correct?",
+    "options": [
+      "A) He has written many poetries from childhood.",
+      "B) He has read all the poetries.",
+      "C) He writes poetries regularly.",
+      "D) He has written poetry from his childhood."
+    ],
+    "answer": 3,
+    "explanation": "'Poetry' Uncountable Noun; কবিতা সমষ্টি অর্থে 'poetry' বসে, এর বহুবচন 'poetries' হয় না (একক কবিতা হলে 'poems')।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7936,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the sentence free from grammatical error:",
+    "options": [
+      "A) He provided me food and shelter.",
+      "B) He provided me with food and shelter.",
+      "C) He provided to me food and shelter.",
+      "D) He provided with me food."
+    ],
+    "answer": 1,
+    "explanation": "'Provide someone with something' প্রমিত Prepositional গঠন।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7937,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence correctly uses the word 'comprise'?",
+    "options": [
+      "A) The committee is comprising of ten members.",
+      "B) The committee comprises of ten members.",
+      "C) The committee comprises ten members.",
+      "D) The committee is comprised with ten members."
+    ],
+    "answer": 2,
+    "explanation": "Active Voice-এ 'Comprise'-এর পর 'of' বসে না (The committee comprises ten members)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7938,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "A) This pond water is fit to drinking.",
+      "B) The water of this pond is fit for drinking.",
+      "C) The water is potable for drinking.",
+      "D) The water of this pond is drinking worthy."
+    ],
+    "answer": 1,
+    "explanation": "'fit for drinking' বা 'potable' প্রমিত প্রকাশ।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7939,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is correct?",
+    "options": [
+      "A) He gave me a hundred-taka note.",
+      "B) He gave me hundred taka note.",
+      "C) He gave me a hundred-takas note.",
+      "D) He gave me a hundred-taka notes."
+    ],
+    "answer": 0,
+    "explanation": "Compound Adjective হিসেবে ব্যবহৃত Hyphenated Noun সর্বদা Singular থাকে ('hundred-taka note')।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7940,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the correct sentence:",
+    "options": [
+      "A) It is a six-lanes highway.",
+      "B) It is six lanes highway.",
+      "C) It is a six-lane highway.",
+      "D) It is a highway of six-lanes."
+    ],
+    "answer": 2,
+    "explanation": "Noun-এর পূর্বে Adjective হিসেবে বসলে 'six-lane' Singular থাকে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7941,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is free from grammatical mistakes?",
+    "options": [
+      "A) He bought three dozens of eggs.",
+      "B) He bought three dozens eggs.",
+      "C) He bought three dozen of egg.",
+      "D) He bought three dozen eggs."
+    ],
+    "answer": 3,
+    "explanation": "নির্দিষ্ট সংখ্যার পর 'dozen', 'score', 'hundred', 'thousand'-এর সাথে 's' বা 'of' বসে না ('three dozen eggs')।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7942,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "A) Thousand of people attended the rally.",
+      "B) Thousands of people attended the rally.",
+      "C) Thousand people attended the rally.",
+      "D) Thousands people attended the rally."
+    ],
+    "answer": 1,
+    "explanation": "অনির্দিষ্ট বিপুল সংখ্যা প্রকাশে 'Thousands of + plural noun' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7943,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence correctly uses the term 'cousin'?",
+    "options": [
+      "A) She is my cousin sister.",
+      "B) He is my cousin brother.",
+      "C) She is my cousin.",
+      "D) She is my female cousin."
+    ],
+    "answer": 2,
+    "explanation": "ইংরেজিতে 'cousin brother' বা 'cousin sister' অপপ্রয়োগ; কেবল 'cousin' প্রমিত।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7944,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the correct sentence:",
+    "options": [
+      "A) He told me a lie.",
+      "B) He spoke me a lie.",
+      "C) He talked me a lie.",
+      "D) He said me a lie."
+    ],
+    "answer": 0,
+    "explanation": "মিথ্যা বলার ক্ষেত্রে 'tell a lie' এবং সত্য বলার ক্ষেত্রে 'speak the truth' নির্ধারিত Collocation।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7945,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is grammatically correct?",
+    "options": [
+      "A) My health is bad today unwell.",
+      "B) I feel myself unwell today.",
+      "C) I am feeling myself bad.",
+      "D) I am feeling unwell today."
+    ],
+    "answer": 3,
+    "explanation": "'I am feeling unwell' স্বাভাবিক ও প্রমিত প্রকাশ।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7946,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the sentence free from a dangling modifier:",
+    "options": [
+      "A) Walking in the garden, his leg was bitten.",
+      "B) Walking in the garden, a bite occurred.",
+      "C) Walking in the garden, a snake bit him.",
+      "D) Walking in the garden, he was bitten by a snake."
+    ],
+    "answer": 3,
+    "explanation": "বাগানে হাঁটার কর্তা 'he', তাই Participle phrase-এর ঠিক পরেই সাবজেক্ট হিসেবে 'he' বসিয়ে প্যাসিভ করা হলে ড্যাংলিং এরর দূর হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7947,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence avoids a dangling participle?",
+    "options": [
+      "A) Having finished his homework, the playground called him.",
+      "B) Having finished his homework, it was time to play.",
+      "C) Having finished his homework, the boy went out to play.",
+      "D) Having finished his homework, TV was watched."
+    ],
+    "answer": 2,
+    "explanation": "হোমওয়ার্ক শেষ করার কর্তা 'the boy', তাই ক্লজের শুরুতে সাবজেক্ট 'the boy' থাকতে হবে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7948,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the sentence with correct modifier placement:",
+    "options": [
+      "A) While driving down the highway, she saw a herd of deer.",
+      "B) While driving down the highway, a herd of deer crossed.",
+      "C) herd of deer was seen driving down highway.",
+      "D) Driving down the highway, deer were seen by her."
+    ],
+    "answer": 0,
+    "explanation": "গাড়ি চালানোর কর্তা মানুষ (she), হরিণ নয়; তাই 'she' সাবজেক্ট হিসেবে থাকা অপরিহার্য।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7949,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is free from a misplaced modifier?",
+    "options": [
+      "A) He served the cake to the children on paper plates.",
+      "B) He served the cake on paper plates to the children.",
+      "C) On paper plates he served children with cake.",
+      "D) To the children on paper plates he served cake."
+    ],
+    "answer": 1,
+    "explanation": "'on paper plates' কথাটি 'the cake'-এর সাথে সম্পর্কিত, 'the children'-এর সাথে নয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7950,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the sentence with correct parallel structure:",
+    "options": [
+      "A) She enjoys singing, dance, and to play guitar.",
+      "B) She enjoys to sing, dancing, and playing guitar.",
+      "C) She enjoys singing, dancing, and playing the guitar.",
+      "D) She enjoys singing, dancing, and to play guitar."
+    ],
+    "answer": 2,
+    "explanation": "সবকটি ক্রিয়াবাচক উপাদান সমান্তরাল Gerund আকারে (singing, dancing, playing) থাকতে হবে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7951,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which of the following sentences exhibits faulty parallelism?",
+    "options": [
+      "A) He enjoys swimming and playing tennis.",
+      "B) He likes to swim, to jog, and to play tennis.",
+      "C) He likes swimming, jogging, and playing tennis.",
+      "D) He likes to swim, jogging, and playing tennis."
+    ],
+    "answer": 3,
+    "explanation": "'to swim' (Infinitive) এর সাথে 'jogging, playing' (Gerund) মেলানো Faulty Parallelism।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7952,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the sentence with proper parallelism:",
+    "options": [
+      "A) The teacher demanded that students be punctual, attentive, and respectful.",
+      "B) The teacher demanded that students be punctual, attentive, and show respect.",
+      "C) The teacher demanded punctuality, attentive, and respectful.",
+      "D) The teacher demanded students be punctual, pay attention, and respectful."
+    ],
+    "answer": 0,
+    "explanation": "তিনটি পদই সমান্তরাল Adjective (punctual, attentive, respectful)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7953,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence correctly uses parallel structure with correlative conjunctions?",
+    "options": [
+      "A) Not only he is interested in music but also in art.",
+      "B) He is interested not only in music but also in art.",
+      "C) He is not only interested in music but also in art.",
+      "D) He is interested not only in music but also art."
+    ],
+    "answer": 1,
+    "explanation": "'not only'-এর পর 'in music' (prepositional phrase) এবং 'but also'-এর পর 'in art' সমান্তরাল রয়েছে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7954,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the sentence free from dangling infinitive:",
+    "options": [
+      "A) To succeed in the exam, one must work hard.",
+      "B) To succeed in the exam, hard work is necessary.",
+      "C) To succeed in the exam, diligence must be had.",
+      "D) To succeed in the exam, time must be given."
+    ],
+    "answer": 0,
+    "explanation": "পরীক্ষায় উত্তীর্ণ হওয়ার কর্তা একজন মানুষ ('one'), 'hard work' নয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7955,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence avoids a squinting modifier?",
+    "options": [
+      "A) Frequently exercising improves your health regularly.",
+      "B) Exercising regularly improves your physical health.",
+      "C) Regular exercise improves your physical health.",
+      "D) Exercising improves your physical health regularly."
+    ],
+    "answer": 2,
+    "explanation": "'Regular exercise' স্পষ্ট ও দ্ব্যর্থহীন গঠন প্রকাশ করে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7956,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the sentence that correctly places the adverb 'almost':",
+    "options": [
+      "A) He missed the morning train almost.",
+      "B) He almost missed the morning train.",
+      "C) Almost he missed the morning train.",
+      "D) He missed almost the morning train."
+    ],
+    "answer": 1,
+    "explanation": "'Almost' ভার্ব 'missed'-কে মডিফাই করায় তার ঠিক পূর্বে বসবে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7957,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence correctly places the word 'only'?",
+    "options": [
+      "A) She invited her close relatives only to wedding.",
+      "B) She only invited her close relatives to the wedding.",
+      "C) Only she invited her close relatives to wedding.",
+      "D) She invited only her close relatives to the wedding."
+    ],
+    "answer": 3,
+    "explanation": "'Only' নির্দিষ্টভাবে 'her close relatives'-কে সীমিত করায় তার ঠিক পূর্বে বসবে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7958,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the sentence with correct comparative parallelism:",
+    "options": [
+      "A) Writing an essay is more difficult than math.",
+      "B) Writing an essay is more difficult than to solve math.",
+      "C) Writing an essay is more difficult than solving a math problem.",
+      "D) To write an essay is more difficult than solving math."
+    ],
+    "answer": 2,
+    "explanation": "উভয় পাশেই Gerund Phrase ('Writing an essay' এবং 'solving a math problem') সমান্তরাল।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7959,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is grammatically correct?",
+    "options": [
+      "A) Neither the teacher nor the students were satisfied with the decision.",
+      "B) Neither the teacher or the students were satisfied.",
+      "C) Neither the teacher nor the student were satisfied.",
+      "D) Neither the teacher nor the students was satisfied with the decision."
+    ],
+    "answer": 0,
+    "explanation": "'Neither... nor' যুক্ত বাক্যে Verb তার নিকটবর্তী সাবজেক্ট (students - plural) অনুযায়ী 'were' গ্রহণ করে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7960,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the sentence with correct subject-verb agreement:",
+    "options": [
+      "A) The jury has reached their verdict unanimously.",
+      "B) The jury has reached its verdict unanimously.",
+      "C) The jury were reached its verdict.",
+      "D) The jury have reached its verdict unanimously."
+    ],
+    "answer": 1,
+    "explanation": "ঐক্যবদ্ধ রায়ের ক্ষেত্রে Collective Noun 'Jury' Singular Verb 'has' এবং Pronoun 'its' গ্রহণ করে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7961,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence correctly handles Noun of Multitude?",
+    "options": [
+      "A) The jury has divided in their opinions.",
+      "B) The jury was divided in its opinions.",
+      "C) The jury was divided in their opinions.",
+      "D) The jury were divided in their opinions."
+    ],
+    "answer": 3,
+    "explanation": "মতভিন্নতার ক্ষেত্রে Collective Noun Plural Verb 'were' এবং Plural Pronoun 'their' গ্রহণ করে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7962,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the grammatically correct sentence:",
+    "options": [
+      "A) More than one person was involved in the conspiracy.",
+      "B) More than one persons was involved in conspiracy.",
+      "C) More than one person were involved in the conspiracy.",
+      "D) More than one persons were involved in conspiracy."
+    ],
+    "answer": 0,
+    "explanation": "'More than one + singular noun' এর পর Verb সর্বদা Singular ('was') হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7963,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is correct?",
+    "options": [
+      "A) More persons than one was involved in the crime.",
+      "B) More persons than one has involved.",
+      "C) More persons than one were involved in the crime.",
+      "D) More person than one were involved in crime."
+    ],
+    "answer": 2,
+    "explanation": "'More + plural noun + than one'-এর পর Verb Plural ('were') হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7964,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "A) Many a students has failed in English.",
+      "B) Many a students have failed in English.",
+      "C) Many a student have failed in English.",
+      "D) Many a student has failed in English."
+    ],
+    "answer": 3,
+    "explanation": "'Many a + singular noun'-এর পর Singular Verb ('has failed') বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7965,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is free from grammatical errors?",
+    "options": [
+      "A) number of applicants has submitted their forms.",
+      "B) number of applicants have submitted their forms.",
+      "C) The number of applicants have submitted their forms.",
+      "D) number of applicant have submitted forms."
+    ],
+    "answer": 1,
+    "explanation": "'A number of + plural noun'-এর পর Plural Verb ('have submitted') এবং 'their' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7966,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the correct sentence with 'The number of':",
+    "options": [
+      "A) The number of road accidents has decreased this year.",
+      "B) The number of road accident has decreased.",
+      "C) The number of accidents are decreased this year.",
+      "D) The number of road accidents have decreased this year."
+    ],
+    "answer": 0,
+    "explanation": "'The number of + plural noun'-এর পর Singular Verb ('has decreased') বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7967,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence has correct pronoun agreement?",
+    "options": [
+      "A) Each of the boy brought his own lunch.",
+      "B) Each of the boys brought his own lunch.",
+      "C) Each of the boys brought one's own lunch.",
+      "D) Each of the boys brought their own lunch."
+    ],
+    "answer": 1,
+    "explanation": "'Each of the + plural noun'-এর ক্ষেত্রে Singular Possessive 'his' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7968,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the sentence free from pronoun reference ambiguity:",
+    "options": [
+      "A) The car hit wall and it broke totally.",
+      "B) When the car crashed into the wall, it was severely damaged.",
+      "C) When the car hit the wall, they broke.",
+      "D) When the car crashed into the wall, the car was severely damaged."
+    ],
+    "answer": 3,
+    "explanation": "'it' ব্যবহার করলে গাড়ি না দেয়াল কোনটি ক্ষতিগ্রস্ত হয়েছিল তা অস্পষ্ট থাকে; তাই নির্দিষ্ট বিশেষ্য 'the car' উল্লেখ করা স্পষ্ট।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7969,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is correct regarding pronoun cases?",
+    "options": [
+      "A) Between you and myself, there are no secrets.",
+      "B) Between you and I, there should be no secret.",
+      "C) Between you and me, there should be no secret.",
+      "D) Between he and I, there are no secrets."
+    ],
+    "answer": 2,
+    "explanation": "Preposition 'between'-এর পর Pronoun-এর Objective Case ('you and me') বসে ('you and I' ভুল)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7970,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "A) It was himself who helped me in distress.",
+      "B) It was him who helped me in my distress.",
+      "C) It was he who helped me in my distress.",
+      "D) It was his who helped me in distress."
+    ],
+    "answer": 2,
+    "explanation": "'It is/was'-এর পর Subjective Pronoun ('he') বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7971,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is grammatically correct?",
+    "options": [
+      "A) Who did you say that called yesterday?",
+      "B) Who did you say called yesterday?",
+      "C) Whom did you say called yesterday?",
+      "D) Whom you said called yesterday?"
+    ],
+    "answer": 1,
+    "explanation": "'called' ক্রিয়ার সাবজেক্ট হিসেবে 'Who' বসবে (did you say হলো parenthetical clause)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7972,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the correct sentence:",
+    "options": [
+      "A) I am taller to him.",
+      "B) I am taller than him.",
+      "C) I am taller then he.",
+      "D) I am taller than he."
+    ],
+    "answer": 3,
+    "explanation": "প্রমিত আনুষ্ঠানিক ব্যাকরণে তুলনামূলক 'than'-এর পর Subjective Pronoun 'he' (than he is) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7973,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which of the following sentences is free from errors?",
+    "options": [
+      "A) He is one of those men who never compromise on principles.",
+      "B) He is one of those men who never compromises on principles.",
+      "C) He is one of those men who compromises.",
+      "D) He is one of those man who never compromises."
+    ],
+    "answer": 0,
+    "explanation": "Relative Pronoun 'who'-এর Antecedent 'men' (Plural Noun); তাই Verb Plural ('compromise') হবে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7974,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "A) This is the only one of his novels that is worth reading.",
+      "B) This is the only of his novels which are worth reading.",
+      "C) This is only one of his novel that is worth reading.",
+      "D) This is the only one of his novels that are worth reading."
+    ],
+    "answer": 0,
+    "explanation": "'the only one of'-এর ক্ষেত্রে প্রকৃত সাবজেক্ট 'the only one' হওয়ায় Singular Verb ('is') বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7975,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence correctly avoids a comma splice?",
+    "options": [
+      "A) The weather was awful, because we decided to stay home.",
+      "B) The weather was awful, therefore we stayed at home.",
+      "C) The weather was awful, we decided to stay at home.",
+      "D) The weather was awful, so we decided to stay at home."
+    ],
+    "answer": 3,
+    "explanation": "দুটি স্বাধীন ক্লজকে যুক্ত করতে কমার সাথে Coordinating Conjunction 'so' বসেছে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7976,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the sentence without a run-on error:",
+    "options": [
+      "A) He worked hard all day, however he did not feel exhausted.",
+      "B) He worked hard all day; however, he did not feel exhausted.",
+      "C) He worked hard all day however he did not feel exhausted.",
+      "D) He worked hard all day he did not feel exhausted."
+    ],
+    "answer": 1,
+    "explanation": "Conjunctive Adverb 'however'-এর পূর্বে সেমিকোলন এবং পরে কমা বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7977,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is correct regarding subjunctive mood?",
+    "options": [
+      "A) The manager insisted that the worker was reinstated.",
+      "B) The manager insisted the worker to be reinstated.",
+      "C) The manager insisted that the worker be reinstated.",
+      "D) The manager insisted that the worker is reinstated."
+    ],
+    "answer": 2,
+    "explanation": "'Insisted that'-এর পর Subjunctive Passive হিসেবে 'be + V3' (be reinstated) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7978,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "A) It is imperative that everyone attend the briefing.",
+      "B) It is imperative that everyone attends the briefing.",
+      "C) It is imperative that everyone attended the briefing.",
+      "D) It is imperative that everyone will attend briefing."
+    ],
+    "answer": 0,
+    "explanation": "'It is imperative that'-এর পর Subjunctive Base Form 'attend' বসে (s/es যুক্ত হয় না)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7979,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence uses the correct sequence of tenses?",
+    "options": [
+      "A) He said that sun is rising in the east.",
+      "B) He said that the sun rose in the east.",
+      "C) He said that the sun had risen in the east.",
+      "D) He said that the sun rises in the east."
+    ],
+    "answer": 3,
+    "explanation": "চিরন্তন সত্য পরোক্ষ উক্তিতেও Present Indefinite Tense ('rises') থাকে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7980,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the correct sentence:",
+    "options": [
+      "A) He ran fast lest he misses the train.",
+      "B) He ran fast lest he should not miss the train.",
+      "C) He ran fast lest he should miss the train.",
+      "D) He ran fast lest he would miss the train."
+    ],
+    "answer": 2,
+    "explanation": "'Lest'-এর সাথে 'should + base verb' বসে এবং নতুন করে 'not' বসে না।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7981,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is grammatically correct?",
+    "options": [
+      "A) Unless you do not speak the truth, you will be punished.",
+      "B) Unless you speak the truth, you will be punished.",
+      "C) Unless you will speak truth, you will be punished.",
+      "D) Unless you speak truth, you will not be punished."
+    ],
+    "answer": 1,
+    "explanation": "'Unless' ক্লজে নেতিবাচক শব্দ 'not' বসে না।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7982,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "A) No sooner had we arrived when the ceremony started.",
+      "B) No sooner had we arrived than the ceremony started.",
+      "C) No sooner did we arrived than the ceremony started.",
+      "D) No sooner had we arrived then the ceremony started."
+    ],
+    "answer": 1,
+    "explanation": "'No sooner had... than' কাঠামোতে 'than' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7983,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is free from grammatical mistakes?",
+    "options": [
+      "A) Scarcely the bell had rung when students entered.",
+      "B) Scarcely did the bell rung when students entered.",
+      "C) Scarcely had the bell rung when the students entered.",
+      "D) Scarcely had the bell rung than the students entered."
+    ],
+    "answer": 2,
+    "explanation": "'Scarcely had... when' সঠিক সমন্বয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7984,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the correct sentence:",
+    "options": [
+      "A) He preferred coffee over tea.",
+      "B) He preferred coffee more than tea.",
+      "C) He preferred coffee than tea.",
+      "D) He preferred coffee to tea."
+    ],
+    "answer": 3,
+    "explanation": "'Prefer'-এর পর তুলনামূলক অপশনে Preposition 'to' বসে ('than' ভুল)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7985,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is grammatically correct?",
+    "options": [
+      "A) She is senior to me by two years.",
+      "B) She is senior more than me.",
+      "C) She is senior than me by two years.",
+      "D) She is senior from me by two years."
+    ],
+    "answer": 0,
+    "explanation": "ল্যাটিন কম্পারেটিভ (Senior, Junior, Superior, Inferior, Prior)-এর পর 'than' না বসে 'to' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7986,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence correctly uses 'prevent'?",
+    "options": [
+      "A) He prevented me from going there.",
+      "B) He prevented me to go there.",
+      "C) He prevented that I should not go.",
+      "D) He prevented me against going there."
+    ],
+    "answer": 0,
+    "explanation": "'Prevent someone from doing something' প্রমিত নিয়ম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7987,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the correct sentence:",
+    "options": [
+      "A) He prohibited me to smoke.",
+      "B) He prohibited me for smoking.",
+      "C) He prohibited me from smoking.",
+      "D) He prohibited me against smoking."
+    ],
+    "answer": 2,
+    "explanation": "'Prohibit someone from doing something' সঠিক Prepositional Collocation।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7988,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the sentence with correct preposition:",
+    "options": [
+      "A) He died from malaria.",
+      "B) He died by malaria.",
+      "C) He died with malaria.",
+      "D) He died of malaria."
+    ],
+    "answer": 3,
+    "explanation": "রোগে মৃত্যুর ক্ষেত্রে 'died of' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7989,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is correct regarding overeating?",
+    "options": [
+      "A) He died with overeating.",
+      "B) He died from overeating.",
+      "C) He died by overeating.",
+      "D) He died of overeating."
+    ],
+    "answer": 1,
+    "explanation": "অতিরিক্ত কাজ বা ভোজনের কারণে মৃত্যু ঘটলে 'died from' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7990,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the correct sentence:",
+    "options": [
+      "A) The soldier died by his motherland.",
+      "B) The soldier died for his motherland.",
+      "C) The soldier died to his motherland.",
+      "D) The soldier died of his motherland."
+    ],
+    "answer": 1,
+    "explanation": "দেশের জন্য আত্মত্যাগে 'died for' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7991,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "A) He is addicted to gambling.",
+      "B) He is addicted for gambling.",
+      "C) He is addicted in gambling.",
+      "D) He is addicted with gambling."
+    ],
+    "answer": 0,
+    "explanation": "মাদক বা জুয়ার মতো খারাপ অভ্যাসে আসক্ত বোঝাতে 'addicted to + gerund' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7992,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence correctly uses 'devoted'?",
+    "options": [
+      "A) He is devoted for his work.",
+      "B) He is devoted with his work.",
+      "C) He is devoted to his work.",
+      "D) He is devoted in his work."
+    ],
+    "answer": 2,
+    "explanation": "সৎ কাজে আত্মনিয়োগ বা ভক্তিতে 'devoted to' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7993,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the correct sentence:",
+    "options": [
+      "A) He insisted to go there.",
+      "B) He insisted in going there.",
+      "C) He insisted for going there.",
+      "D) He insisted on going there."
+    ],
+    "answer": 3,
+    "explanation": "'Insist'-এর পর Preposition 'on + gerund' বসে ('insist to go' ভুল)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7994,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is grammatically correct?",
+    "options": [
+      "A) She persisted with her foolish course.",
+      "B) She persisted to her foolish course.",
+      "C) She persisted on her foolish course.",
+      "D) She persisted in her foolish course."
+    ],
+    "answer": 3,
+    "explanation": "'Persist'-এর পর Preposition 'in' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7995,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "A) He congratulated me on my brilliant success.",
+      "B) He congratulated to me on success.",
+      "C) He congratulated me for my brilliant success.",
+      "D) He congratulated me with my success."
+    ],
+    "answer": 0,
+    "explanation": "'Congratulate someone on something' সঠিক ('congratulate for' ভুল)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7996,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is correct?",
+    "options": [
+      "A) I felicitated him with his victory.",
+      "B) I felicitated him on his victory.",
+      "C) I felicitated him for his victory.",
+      "D) I felicitated to him on victory."
+    ],
+    "answer": 1,
+    "explanation": "'Felicitate'-এর সাথে Preposition 'on' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7997,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the correct sentence:",
+    "options": [
+      "A) He was blind with the right eye.",
+      "B) He was blind of the right eye.",
+      "C) He was blind in the right eye.",
+      "D) He was blind to the right eye."
+    ],
+    "answer": 2,
+    "explanation": "শারীরিকভাবে এক চোখে অন্ধ বোঝাতে 'blind in (or of) an eye' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7998,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence correctly expresses moral blindness?",
+    "options": [
+      "A) He is blind to his son's faults.",
+      "B) He is blind of his son's faults.",
+      "C) He is blind with his son's faults.",
+      "D) He is blind in his son's faults."
+    ],
+    "answer": 0,
+    "explanation": "দোষ দেখেও না দেখার ভান বা মানসিক অন্ধত্ব বোঝাতে 'blind to' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7999,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "A) He is good with mathematics.",
+      "B) He is good at mathematics.",
+      "C) He is good in mathematics.",
+      "D) He is good for mathematics."
+    ],
+    "answer": 1,
+    "explanation": "কোনো নির্দিষ্ট বিদ্যায় পারদর্শী বোঝাতে 'good at' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8000,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is correct?",
+    "options": [
+      "A) He is weak at English.",
+      "B) He is weak with English.",
+      "C) He is weak in English.",
+      "D) He is weak of English."
+    ],
+    "answer": 2,
+    "explanation": "কোনো বিষয়ে দুর্বলতা প্রকাশে 'weak in' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8001,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the correct sentence:",
+    "options": [
+      "A) I differ from you on this issue.",
+      "B) I differ against you on this issue.",
+      "C) I differ to you on this issue.",
+      "D) I differ with you on this issue."
+    ],
+    "answer": 3,
+    "explanation": "ব্যক্তির সাথে মতের অমিল বোঝাতে 'differ with someone' এবং বস্তুর ভিন্নতায় 'differ from' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8002,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is grammatically correct?",
+    "options": [
+      "A) This edition differs from the earlier one.",
+      "B) This edition differs with the earlier one.",
+      "C) This edition differs against earlier one.",
+      "D) This edition differs to the earlier one."
+    ],
+    "answer": 0,
+    "explanation": "বস্তুগত ভিন্নতায় 'differ from' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8003,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "A) He agreed to me on the proposal.",
+      "B) He agreed against me on proposal.",
+      "C) He agreed with me on the proposal.",
+      "D) He agreed for me on the proposal."
+    ],
+    "answer": 2,
+    "explanation": "ব্যক্তির সাথে একমত হলে 'agree with someone' এবং প্রস্তাবে সম্মত হলে 'agree to a proposal' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8004,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence correctly uses 'agree to'?",
+    "options": [
+      "A) He agreed on my proposal.",
+      "B) He agreed with my proposal.",
+      "C) He agreed for my proposal.",
+      "D) He agreed to my proposal."
+    ],
+    "answer": 3,
+    "explanation": "কোনো প্রস্তাবে সম্মতি প্রকাশে 'agree to a proposal' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8005,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the correct sentence:",
+    "options": [
+      "A) He aimed his gun for the target.",
+      "B) He aimed his gun at the target.",
+      "C) He aimed his gun on the target.",
+      "D) He aimed his gun to the target."
+    ],
+    "answer": 1,
+    "explanation": "'Aim at' সঠিক Prepositional Collocation।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8006,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is correct?",
+    "options": [
+      "A) He was acquitted of all charges.",
+      "B) He was acquitted with all charges.",
+      "C) He was acquitted from all charges.",
+      "D) He was acquitted for all charges."
+    ],
+    "answer": 0,
+    "explanation": "অভিযোগ থেকে খালাস পাওয়া অর্থে 'acquitted of' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8007,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "A) He was accused for theft.",
+      "B) He was accused with theft.",
+      "C) He was accused of theft.",
+      "D) He was accused from theft."
+    ],
+    "answer": 2,
+    "explanation": "অভিযুক্ত হওয়া অর্থে 'accused of' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8008,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is grammatically correct?",
+    "options": [
+      "A) He was charged for murder.",
+      "B) He was charged with murder.",
+      "C) He was charged of murder.",
+      "D) He was charged against murder."
+    ],
+    "answer": 1,
+    "explanation": "আইনি অভিযোগ গঠন প্রকাশে 'charged with' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8009,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the correct sentence:",
+    "options": [
+      "A) He is capable with doing this task.",
+      "B) He is capable for doing this task.",
+      "C) He is capable to do this difficult task.",
+      "D) He is capable of doing this difficult task."
+    ],
+    "answer": 3,
+    "explanation": "'Capable of + gerund' প্রমিত নিয়ম ('capable to do' ভুল)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8010,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is correct?",
+    "options": [
+      "A) He has the ability to do the work.",
+      "B) He has the ability for doing work.",
+      "C) He has the ability of doing the work.",
+      "D) He has ability in doing work."
+    ],
+    "answer": 0,
+    "explanation": "Noun 'ability'-র পর Infinitive 'to do' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8011,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "A) He apologized with the teacher for misconduct.",
+      "B) He apologized to teacher on misconduct.",
+      "C) He apologized the teacher for misconduct.",
+      "D) He apologized to the teacher for his misconduct."
+    ],
+    "answer": 3,
+    "explanation": "'Apologize to someone for something' প্রমিত কাঠামো।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8012,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is correct?",
+    "options": [
+      "A) He parted of his mother with tears.",
+      "B) He parted from his mother with tears in his eyes.",
+      "C) He parted away his mother with tears.",
+      "D) He parted with his mother with tears."
+    ],
+    "answer": 1,
+    "explanation": "ব্যক্তির কাছ থেকে বিদায় নেওয়া অর্থে 'part from' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8013,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Identify the correct sentence:",
+    "options": [
+      "A) He parted of all his ancestral property.",
+      "B) He parted out of his property.",
+      "C) He parted with all his ancestral property.",
+      "D) He parted from all his ancestral property."
+    ],
+    "answer": 2,
+    "explanation": "সম্পত্তি বা বস্তু হাতছাড়া করা অর্থে 'part with' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8014,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Which sentence is grammatically correct?",
+    "options": [
+      "A) She is married by a wealthy merchant.",
+      "B) She is married for a wealthy merchant.",
+      "C) She is married to a wealthy merchant.",
+      "D) She is married with a wealthy merchant."
+    ],
+    "answer": 2,
+    "explanation": "Passive Voice-এ বৈবাহিক বন্ধনে 'married to' বসে ('married with' ভুল)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8015,
+    "subject": "ইংরেজি",
+    "topic": "English (Errors in Composition)",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "A) He died by peace.",
+      "B) He died of peace.",
+      "C) He died with peace.",
+      "D) He died in peace."
+    ],
+    "answer": 3,
+    "explanation": "শান্তিতে মৃত্যুবরণ বোঝাতে 'died in peace' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  }
+]

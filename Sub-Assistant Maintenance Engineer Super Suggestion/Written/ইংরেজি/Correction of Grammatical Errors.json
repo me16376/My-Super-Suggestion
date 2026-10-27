@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3014,
+    "subject": "ইংরেজি",
+    "topic": "Correction of Grammatical Errors",
+    "question": "Correct the following sentences by rectifying the grammatical errors:\n(a) One of the server administrator have resigned yesterday.\n(b) The sceneries of the hilly district charmed the tourists.\n(c) This optical scanner is superior than that older model.\n(d) Neither the software developer nor the database engineers was present at the incident review meeting.\n(e) He gave me many valuable advices regarding network security.",
+    "marks": 5,
+    "answer": "Corrected Sentences:\n\n(a) **Incorrect:** One of the server administrator have resigned yesterday.\n    **Correct:** One of the server **administrators resigned** yesterday.\n    *(Rule: 'One of the' takes a plural noun 'administrators', and the past time marker 'yesterday' requires past indefinite 'resigned').*\n\n(b) **Incorrect:** The sceneries of the hilly district charmed the tourists.\n    **Correct:** The **scenery** of the hilly district charmed the tourists.\n    *(Rule: 'Scenery' is an uncountable noun with no plural form).*\n\n(c) **Incorrect:** This optical scanner is superior than that older model.\n    **Correct:** This optical scanner is **superior to** that older model.\n    *(Rule: Latin comparatives—superior, inferior, senior, junior, prior—take 'to', never 'than').*\n\n(d) **Incorrect:** Neither the software developer nor the database engineers was present at the incident review meeting.\n    **Correct:** Neither the software developer nor the database engineers **were** present at the incident review meeting.\n    *(Rule: In 'neither...nor', the verb agrees with the closer subject; here 'engineers' is plural).*\n\n(e) **Incorrect:** He gave me many valuable advices regarding network security.\n    **Correct:** He gave me **much valuable advice** (or: **many pieces of valuable advice**) regarding network security.\n    *(Rule: 'Advice' is uncountable; it cannot take 'many' or plural 'advices').*",
+    "points_to_remember": [
+      "Uncountable nouns: Furniture, Information, Scenery, Advice, Luggage, Equipment.",
+      "Latin comparatives are always followed by preposition 'to'."
+    ],
+    "tags": [
+      "error_correction",
+      "english_written"
+    ]
+  }
+]

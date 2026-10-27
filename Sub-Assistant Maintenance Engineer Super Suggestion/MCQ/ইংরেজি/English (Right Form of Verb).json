@@ -1,0 +1,2092 @@
+[
+  {
+    "id": 7356,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Neither the teacher nor the students — present in the seminar yesterday.",
+    "options": [
+      "A) was",
+      "B) were",
+      "C) have been",
+      "D) are"
+    ],
+    "answer": 1,
+    "explanation": "'Neither... nor' দ্বারা দুটি ভিন্ন বচনের সাবজেক্ট যুক্ত হলে Verb সর্বদা তার নিকটবর্তী সাবজেক্ট (students - plural) অনুসারে বসে; আর 'yesterday' থাকায় Past Plural 'were' বসবে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7357,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "The quality of these mangoes — admirable.",
+    "options": [
+      "A) are",
+      "B) have been",
+      "C) were",
+      "D) is"
+    ],
+    "answer": 3,
+    "explanation": "Prepositional phrase 'of these mangoes'-এর পূর্বের মূল Headword 'quality' (Singular Noun) অনুযায়ী Verb Singular 'is' হবে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7358,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Ten miles — a long distance to walk.",
+    "options": [
+      "A) are",
+      "B) have been",
+      "C) is",
+      "D) were"
+    ],
+    "answer": 2,
+    "explanation": "দূরত্ব, অর্থ, সময় বা পরিমাপের একক দেখতে Plural হলেও সামগ্রিক একক হিসেবে Singular Verb গ্রহণ করে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7359,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Bread and butter — his favorite breakfast.",
+    "options": [
+      "A) is",
+      "B) are",
+      "C) were",
+      "D) have been"
+    ],
+    "answer": 0,
+    "explanation": "দুটি Noun 'and' দ্বারা যুক্ত হয়ে যদি একটি একক ভাব বা খাবার প্রকাশ করে, তবে Verb Singular ('is') হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7360,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "The chairman, along with his committee members, — attending the meeting.",
+    "options": [
+      "A) are",
+      "B) have been",
+      "C) is",
+      "D) were"
+    ],
+    "answer": 2,
+    "explanation": "'Along with', 'as well as', 'together with', 'accompanied by' ইত্যাদি থাকলে প্রথম সাবজেক্ট ('The chairman' - singular) অনুসারে Verb বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7361,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Each of the boys — given a certificate.",
+    "options": [
+      "A) have been",
+      "B) are",
+      "C) were",
+      "D) was"
+    ],
+    "answer": 3,
+    "explanation": "'Each', 'Every', 'Either', 'Neither'-এর পর Plural Noun থাকলেও Verb সর্বদা Singular ('was') হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7362,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "More than one candidate — selected for the interview.",
+    "options": [
+      "A) were",
+      "B) was",
+      "C) are",
+      "D) have been"
+    ],
+    "answer": 1,
+    "explanation": "'More than one'-এর পর Singular Noun এবং Singular Verb ('was') বসে (কিন্তু 'More candidates than one were' হয়)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7363,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "The Arabian Nights — still a popular book.",
+    "options": [
+      "A) is",
+      "B) are",
+      "C) were",
+      "D) have been"
+    ],
+    "answer": 0,
+    "explanation": "বই, নাটক বা পত্রিকার নাম দেখতে Plural হলেও তা একটি একক গ্রন্থ নির্দেশ করায় Singular Verb ('is') বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7364,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Two-thirds of the work — completed successfully.",
+    "options": [
+      "A) have been",
+      "B) has been",
+      "C) are",
+      "D) were"
+    ],
+    "answer": 1,
+    "explanation": "ভগ্নাংশ বা শতাংশের পর Uncountable Noun ('work') থাকলে Verb Singular ('has been') হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7365,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Two-thirds of the students — present today.",
+    "options": [
+      "A) has been",
+      "B) was",
+      "C) is",
+      "D) are"
+    ],
+    "answer": 3,
+    "explanation": "ভগ্নাংশ বা শতাংশের পর Plural Countable Noun ('students') থাকলে Verb Plural ('are') হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7366,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Physics — a challenging subject for many students.",
+    "options": [
+      "A) are",
+      "B) have been",
+      "C) is",
+      "D) were"
+    ],
+    "answer": 2,
+    "explanation": "বিষয়ের নাম (Physics, Mathematics, Economics, Politics) দেখতে Plural হলেও Verb Singular ('is') হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7367,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Neither of the sisters — married yet.",
+    "options": [
+      "A) is",
+      "B) have been",
+      "C) are",
+      "D) were"
+    ],
+    "answer": 0,
+    "explanation": "'Neither of'-এর পর Plural Noun থাকলেও ব্যাকরণগতভাবে Verb Singular ('is') হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7368,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "The jury — divided in their opinions.",
+    "options": [
+      "A) were",
+      "B) has been",
+      "C) is",
+      "D) was"
+    ],
+    "answer": 0,
+    "explanation": "Collective Noun (Jury, Committee, Team) যখন সদস্যদের মধ্যে মতবিরোধ বা ভিন্নতা প্রকাশ করে (Noun of Multitude), তখন Verb Plural ('were') হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7369,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "The committee — submitted its report unanimously.",
+    "options": [
+      "A) were",
+      "B) have",
+      "C) has",
+      "D) are"
+    ],
+    "answer": 2,
+    "explanation": "Collective Noun একক সত্ত্বা হিসেবে ঐক্যবদ্ধভাবে কাজ করলে Verb Singular ('has') এবং Pronoun 'its' হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7370,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "One of the students — absent from class today.",
+    "options": [
+      "A) are",
+      "B) have been",
+      "C) were",
+      "D) is"
+    ],
+    "answer": 3,
+    "explanation": "'One of the + plural noun'-এর পর Verb সর্বদা Singular ('is') হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7371,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "He as well as his brothers — active in sports.",
+    "options": [
+      "A) have been",
+      "B) is",
+      "C) are",
+      "D) were"
+    ],
+    "answer": 1,
+    "explanation": "'As well as' যুক্ত বাক্যে প্রথম সাবজেক্ট 'He' অনুসারে Verb Singular 'is' হবে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7372,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Fifty thousand dollars — a huge sum of money.",
+    "options": [
+      "A) have been",
+      "B) were",
+      "C) is",
+      "D) are"
+    ],
+    "answer": 2,
+    "explanation": "নির্দিষ্ট পরিমাণ অর্থ সামগ্রিক পরিমাণ নির্দেশ করায় Singular Verb ('is') গ্রহণ করে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7373,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Slow and steady — the race.",
+    "options": [
+      "A) won",
+      "B) wins",
+      "C) win",
+      "D) winning"
+    ],
+    "answer": 1,
+    "explanation": "'Slow and steady' একটি একক ধারণা প্রকাশ করায় চিরন্তন সত্য হিসেবে Singular Verb 'wins' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7374,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Not only the principal but also the teachers — present at the function.",
+    "options": [
+      "A) were",
+      "B) has been",
+      "C) was",
+      "D) is"
+    ],
+    "answer": 0,
+    "explanation": "'Not only... but also' যুক্ত বাক্যে Verb তার নিকটবর্তী সাবজেক্ট ('the teachers' - plural) অনুযায়ী বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7375,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "The headmaster and secretary — present in the meeting.",
+    "options": [
+      "A) are",
+      "B) were",
+      "C) have been",
+      "D) was"
+    ],
+    "answer": 3,
+    "explanation": "উভয় পদের পূর্বে একটিমাত্র Article 'The' থাকলে তা একই ব্যক্তিকে বোঝায়, ফলে Verb Singular ('was') হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7376,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "The headmaster and the secretary — present in the meeting.",
+    "options": [
+      "A) has been",
+      "B) is",
+      "C) was",
+      "D) were"
+    ],
+    "answer": 3,
+    "explanation": "উভয় পদের পূর্বেই আলাদাভাবে Article 'The' থাকায় দুজন ভিন্ন ব্যক্তিকে নির্দেশ করে, তাই Verb Plural ('were') হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7377,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Gulliver's Travels — written by Jonathan Swift.",
+    "options": [
+      "A) have been",
+      "B) are",
+      "C) was",
+      "D) were"
+    ],
+    "answer": 2,
+    "explanation": "একটি একক গ্রন্থের নাম হওয়ায় এর সাথে Singular Verb 'was' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7378,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "A number of students — present in the seminar.",
+    "options": [
+      "A) were",
+      "B) was",
+      "C) has been",
+      "D) is"
+    ],
+    "answer": 0,
+    "explanation": "'A number of + plural noun'-এর পর Plural Verb ('were') বসে; কিন্তু 'The number of'-এর পর Singular Verb বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7379,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "The number of applicants — increasing day by day.",
+    "options": [
+      "A) are",
+      "B) is",
+      "C) were",
+      "D) have been"
+    ],
+    "answer": 1,
+    "explanation": "'The number of + plural noun'-এর ক্ষেত্রে সামগ্রিক সংখ্যা নির্দিষ্ট থাকায় Singular Verb ('is') বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7380,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Many a man — drowned in the sea.",
+    "options": [
+      "A) were",
+      "B) was",
+      "C) are",
+      "D) have been"
+    ],
+    "answer": 1,
+    "explanation": "'Many a + singular noun'-এর পর সর্বদা Singular Verb ('was') বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7381,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "A lot of milk — spilt on the floor.",
+    "options": [
+      "A) have been",
+      "B) were",
+      "C) are",
+      "D) was"
+    ],
+    "answer": 3,
+    "explanation": "Uncountable Noun 'milk'-এর পূর্বে 'A lot of' থাকলেও Verb Singular ('was') হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7382,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "No news — good news.",
+    "options": [
+      "A) is",
+      "B) were",
+      "C) are",
+      "D) have been"
+    ],
+    "answer": 0,
+    "explanation": "'News', 'Information', 'Advice' আনকাউন্টেবল ও সিঙ্গুলার হওয়ায় এর পর Singular Verb ('is') বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7383,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Either you or he — to blame for the mistake.",
+    "options": [
+      "A) am",
+      "B) were",
+      "C) is",
+      "D) are"
+    ],
+    "answer": 2,
+    "explanation": "'Either... or' দ্বারা যুক্ত ভিন্ন Person-এর সাবজেক্টের ক্ষেত্রে নিকটবর্তী সাবজেক্ট 'he' অনুসারে Verb 'is' হবে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7384,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "The poet and novelist — dead.",
+    "options": [
+      "A) are",
+      "B) were",
+      "C) is",
+      "D) have been"
+    ],
+    "answer": 2,
+    "explanation": "একটি মাত্র 'The' থাকায় একই ব্যক্তি কবি ও ঔপন্যাসিক ছিলেন, তাই Verb Singular ('is')।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7385,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Every man, woman, and child — given shelter.",
+    "options": [
+      "A) are",
+      "B) was",
+      "C) have been",
+      "D) were"
+    ],
+    "answer": 1,
+    "explanation": "একাধিক Noun 'and' দ্বারা যুক্ত থাকলেও পূর্বে 'Every' থাকলে Verb সর্বদা Singular ('was') হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7386,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Ill news — fast.",
+    "options": [
+      "A) run",
+      "B) ran",
+      "C) running",
+      "D) runs"
+    ],
+    "answer": 3,
+    "explanation": "'News' সিঙ্গুলার আনকাউন্টেবল নাউন হওয়ায় প্রবাদে Singular Verb 'runs' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7387,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "The cattle — grazing in the meadow.",
+    "options": [
+      "A) are",
+      "B) was",
+      "C) is",
+      "D) has been"
+    ],
+    "answer": 0,
+    "explanation": "'Cattle', 'Poultry', 'People', 'Gentry', 'Peasantry' দেখতে সিঙ্গুলার হলেও মূলত Plural Noun, তাই Plural Verb 'are' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7388,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "The police — investigating the murder case.",
+    "options": [
+      "A) are",
+      "B) has been",
+      "C) was",
+      "D) is"
+    ],
+    "answer": 0,
+    "explanation": "'Police' একটি Plural Noun, তাই এর পর Plural Verb 'are' বা 'were' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7389,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "The virtuous — blessed.",
+    "options": [
+      "A) was",
+      "B) are",
+      "C) has been",
+      "D) is"
+    ],
+    "answer": 1,
+    "explanation": "Adjective-এর পূর্বে 'The' বসলে তা সমগ্র শ্রেণিকে প্রকাশ করে Plural Common Noun হয়, তাই Plural Verb 'are' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7390,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "My scissors — sharp enough to cut the cloth.",
+    "options": [
+      "A) was",
+      "B) has been",
+      "C) are",
+      "D) is"
+    ],
+    "answer": 2,
+    "explanation": "দ্ব্যঙ্গবিশিষ্ট যন্ত্র বা পোশাক (Scissors, Trousers, Spectacles, Pliers) সর্বদা Plural Verb ('are') গ্রহণ করে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7391,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "I — him just now.",
+    "options": [
+      "A) see",
+      "B) saw",
+      "C) had seen",
+      "D) have seen"
+    ],
+    "answer": 3,
+    "explanation": "'Just', 'just now', 'already', 'recently', 'lately', 'yet' ইত্যাদি থাকলে বাক্যটি সাধারণত Present Perfect Tense হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7392,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "He — here yesterday.",
+    "options": [
+      "A) has come",
+      "B) came",
+      "C) comes",
+      "D) had come"
+    ],
+    "answer": 1,
+    "explanation": "'Yesterday', 'ago', 'long ago', 'last night', 'in 1971' ইত্যাদি অতীতের নির্দিষ্ট সময় নির্দেশক থাকলে Past Indefinite Tense (came) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7393,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "It — raining since morning.",
+    "options": [
+      "A) is",
+      "B) had been",
+      "C) was",
+      "D) has been"
+    ],
+    "answer": 3,
+    "explanation": "'Since' বা 'for' এর সাথে সময়ের উল্লেখ থাকলে কাজ পূর্বে শুরু হয়ে এখনও চলমান বোঝাতে Present Perfect Continuous Tense বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7394,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "The train — before we reached the station.",
+    "options": [
+      "A) had left",
+      "B) leaves",
+      "C) has left",
+      "D) left"
+    ],
+    "answer": 0,
+    "explanation": "'Before'-এর পূর্বের ক্লজটি Past Perfect (had left) এবং পরের ক্লজটি Past Simple (reached) হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7395,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "We arrived at the cinema hall after the movie —",
+    "options": [
+      "A) started",
+      "B) has started",
+      "C) had started",
+      "D) starts"
+    ],
+    "answer": 2,
+    "explanation": "'After'-এর পরের কাজটি অপেক্ষাকৃত পূর্বে সম্পন্ন হওয়ায় তা Past Perfect (had started) হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7396,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "As soon as the thief saw the police, he — away.",
+    "options": [
+      "A) ran",
+      "B) runs",
+      "C) had run",
+      "D) run"
+    ],
+    "answer": 0,
+    "explanation": "'As soon as' যুক্ত বাক্যে উভয় ক্লজই সাধারণত একই টেন্সে অর্থাৎ Past Indefinite (saw... ran) হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7397,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "No sooner had he reached the college than the bell —",
+    "options": [
+      "A) ring",
+      "B) had rung",
+      "C) rung",
+      "D) rang"
+    ],
+    "answer": 3,
+    "explanation": "'No sooner had + S + V3... than' এর পরের ক্লজটি সর্বদা Past Indefinite Tense (rang) হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7398,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Scarcely had the teacher entered the classroom when the students — up.",
+    "options": [
+      "A) standing",
+      "B) stood",
+      "C) stand",
+      "D) had stood"
+    ],
+    "answer": 1,
+    "explanation": "'Scarcely had... when' কাঠামোর দ্বিতীয় অংশে Past Indefinite Tense (stood) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7399,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Hardly had I arrived at the bus stop when the bus —",
+    "options": [
+      "A) had left",
+      "B) leave",
+      "C) left",
+      "D) has left"
+    ],
+    "answer": 2,
+    "explanation": "'Hardly had... when'-এর পরের ক্লজটিতে Past Indefinite (left) ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7400,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "He talks as if he — everything.",
+    "options": [
+      "A) knows",
+      "B) has known",
+      "C) had known",
+      "D) knew"
+    ],
+    "answer": 3,
+    "explanation": "'As if' বা 'As though'-এর পূর্বে Present Indefinite থাকলে পরের অংশে Past Indefinite (Unreal Past: knew / were) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7401,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "He talked as if he — everything.",
+    "options": [
+      "A) knows",
+      "B) knew",
+      "C) had known",
+      "D) has known"
+    ],
+    "answer": 2,
+    "explanation": "'As if'-এর পূর্বে Past Indefinite থাকলে পরের অংশে Past Perfect Tense (had known) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7402,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "It is high time we — our bad habits.",
+    "options": [
+      "A) changed",
+      "B) had changed",
+      "C) change",
+      "D) should change"
+    ],
+    "answer": 0,
+    "explanation": "'It is time' বা 'It is high time'-এর পর Subject থাকলে Verb-এর Past Indefinite Form (changed) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7403,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "It is time — the work.",
+    "options": [
+      "A) started",
+      "B) to start",
+      "C) starting",
+      "D) start"
+    ],
+    "answer": 1,
+    "explanation": "'It is time'-এর পর কোনো Subject না থাকলে সরাসরি 'to + verb' (Infinitive: to start) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7404,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "I fancy I — a pale ghost.",
+    "options": [
+      "A) turned",
+      "B) am turning",
+      "C) turn",
+      "D) have turned"
+    ],
+    "answer": 0,
+    "explanation": "'I wish' বা 'I fancy'-এর পর অবাস্তব কল্পনা প্রকাশে Past Indefinite Tense বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7405,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "I wish I — a king.",
+    "options": [
+      "A) was",
+      "B) were",
+      "C) have been",
+      "D) am"
+    ],
+    "answer": 1,
+    "explanation": "অসম্ভব বা কাল্পনিক ইচ্ছা প্রকাশে Subject যাই হোক না কেন Subjunctive 'were' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7406,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "He — in Dhaka for five years before he moved to Khulna.",
+    "options": [
+      "A) was living",
+      "B) has been living",
+      "C) lived",
+      "D) had been living"
+    ],
+    "answer": 3,
+    "explanation": "অতীতে কোনো নির্দিষ্ট ঘটনার পূর্বে দীর্ঘ সময় ধরে কাজ চলছিল বোঝাতে Past Perfect Continuous Tense বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7407,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Wait here until I — back.",
+    "options": [
+      "A) will come",
+      "B) shall come",
+      "C) come",
+      "D) came"
+    ],
+    "answer": 2,
+    "explanation": "'Until', 'till', 'as long as' সময়বাচক শর্ত প্রকাশ করায় এর সাথে Future Tense না বসে Present Indefinite (come) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7408,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "The sun — in the east.",
+    "options": [
+      "A) has risen",
+      "B) is rising",
+      "C) rose",
+      "D) rises"
+    ],
+    "answer": 3,
+    "explanation": "চিরন্তন সত্য বা বৈজ্ঞানিক সত্য বোঝাতে সর্বদা Present Indefinite Tense (rises) ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7409,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Water — at 100 degrees Celsius.",
+    "options": [
+      "A) will boil",
+      "B) boiled",
+      "C) boils",
+      "D) is boiling"
+    ],
+    "answer": 2,
+    "explanation": "বৈজ্ঞানিক চিরন্তন সত্য বিধায় Present Indefinite Tense (boils) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7410,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "At this moment, she — an essay on global warming.",
+    "options": [
+      "A) has written",
+      "B) is writing",
+      "C) writes",
+      "D) wrote"
+    ],
+    "answer": 1,
+    "explanation": "'At present', 'at this moment', 'now', 'nowadays' থাকলে কাজটি চলমান হওয়ায় Present Continuous Tense বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7411,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "He always — to school on foot.",
+    "options": [
+      "A) goes",
+      "B) is going",
+      "C) went",
+      "D) go"
+    ],
+    "answer": 0,
+    "explanation": "'Always', 'regularly', 'daily', 'often', 'sometimes' অভ্যাসগত কাজের ক্ষেত্রে Present Indefinite Tense গ্রহণ করে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7412,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "I did not know that the earth — round the sun.",
+    "options": [
+      "A) is moving",
+      "B) moved",
+      "C) moves",
+      "D) was moving"
+    ],
+    "answer": 2,
+    "explanation": "প্রধান ক্লজ Past Tense-এ থাকলেও Subordinate Clause যদি চিরন্তন সত্য প্রকাশ করে, তবে তা অপরিবর্তিত থেকে Present Indefinite (moves) হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7413,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "He said that honesty — the best policy.",
+    "options": [
+      "A) is",
+      "B) had been",
+      "C) was",
+      "D) were"
+    ],
+    "answer": 0,
+    "explanation": "প্রবাদ বা শাশ্বত সত্য বাক্য পরোক্ষ উক্তিতেও সর্বদা Present Tense ('is') থাকে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7414,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "By the end of next month, I — this project.",
+    "options": [
+      "A) have completed",
+      "B) completed",
+      "C) shall complete",
+      "D) shall have completed"
+    ],
+    "answer": 3,
+    "explanation": "ভবিষ্যতের কোনো নির্দিষ্ট সময়ের মধ্যে কাজ শেষ হয়ে থাকবে বোঝাতে 'By + future time' থাকলে Future Perfect Tense বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7415,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "When I reached his house, he — a book.",
+    "options": [
+      "A) has read",
+      "B) was reading",
+      "C) reads",
+      "D) read"
+    ],
+    "answer": 1,
+    "explanation": "অতীতে একটি কাজের সময় অন্য একটি কাজ চলছিল বোঝাতে 'When' ক্লজের পর Past Continuous Tense বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7416,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "While — in the garden, a snake bit him.",
+    "options": [
+      "A) walk",
+      "B) walked",
+      "C) he was walking",
+      "D) walking"
+    ],
+    "answer": 3,
+    "explanation": "'While'-এর পর সরাসরি Verb আসলে তার সাথে ing যুক্ত হয় (Gerund/Participle: walking); তবে Subject থাকলে Past Continuous হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7417,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "While he — in the garden, a snake bit him.",
+    "options": [
+      "A) was walking",
+      "B) walks",
+      "C) walked",
+      "D) is walking"
+    ],
+    "answer": 0,
+    "explanation": "'While'-এর পর Subject ('he') থাকলে Past Continuous Tense (was walking) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7418,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "The patient — before the doctor came.",
+    "options": [
+      "A) has died",
+      "B) had died",
+      "C) dies",
+      "D) died"
+    ],
+    "answer": 1,
+    "explanation": "'Before'-এর পূর্বের ক্লজে Past Perfect Tense (had died) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7419,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Five years have passed since I — him.",
+    "options": [
+      "A) had met",
+      "B) meet",
+      "C) met",
+      "D) have met"
+    ],
+    "answer": 2,
+    "explanation": "'Since'-এর প্রথম অংশ Present Indefinite বা Present Perfect হলে দ্বিতীয় অংশ Past Indefinite Tense (met) হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7420,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Five years had passed since I — him.",
+    "options": [
+      "A) meet",
+      "B) met",
+      "C) have met",
+      "D) had met"
+    ],
+    "answer": 3,
+    "explanation": "'Since'-এর প্রথম অংশ Past Indefinite বা Past Perfect হলে দ্বিতীয় অংশ Past Perfect Tense (had met) হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7421,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "I will call you when he —",
+    "options": [
+      "A) shall arrive",
+      "B) will arrive",
+      "C) arrives",
+      "D) arrived"
+    ],
+    "answer": 2,
+    "explanation": "ভবিষ্যতবাচক শর্তযুক্ত বাক্যে 'when/if' যুক্ত ক্লজটিতে Future না হয়ে Present Indefinite (arrives) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7422,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "He looked as though he — a ghost.",
+    "options": [
+      "A) has seen",
+      "B) had seen",
+      "C) sees",
+      "D) saw"
+    ],
+    "answer": 1,
+    "explanation": "'Looked' (Past Tense) থাকায় 'as though'-এর পর Past Perfect Tense (had seen) বসবে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7423,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "It is ten years since his father —",
+    "options": [
+      "A) died",
+      "B) has died",
+      "C) had died",
+      "D) dies"
+    ],
+    "answer": 0,
+    "explanation": "'It is ten years since...' এর পর Past Indefinite Tense (died) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7424,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "He confessed that he — the money.",
+    "options": [
+      "A) has stolen",
+      "B) had stolen",
+      "C) stole",
+      "D) steals"
+    ],
+    "answer": 1,
+    "explanation": "স্বীকার করার (confessed) পূর্বেই চুরি করার ঘটনাটি ঘটেছিল, তাই Past Perfect (had stolen) হবে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7425,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "By this time tomorrow, they — home.",
+    "options": [
+      "A) will reach",
+      "B) reach",
+      "C) reached",
+      "D) will have reached"
+    ],
+    "answer": 3,
+    "explanation": "'By this time tomorrow' ভবিষ্যতের সমাপ্তি নির্দেশ করায় Future Perfect Tense (will have reached) হবে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7426,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "I look forward to — from you soon.",
+    "options": [
+      "A) heard",
+      "B) hear",
+      "C) hearing",
+      "D) be heard"
+    ],
+    "answer": 2,
+    "explanation": "'Look forward to'-এর 'to' হলো Preposition; তাই এর পর Verb আসলে তার সাথে ing যুক্ত হয় (Gerund: hearing)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7427,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "He went to the library with a view to — books.",
+    "options": [
+      "A) reading",
+      "B) reads",
+      "C) have read",
+      "D) read"
+    ],
+    "answer": 0,
+    "explanation": "'With a view to'-এর পর সর্বদা Gerund (verb+ing: reading) ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7428,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Would you mind — me a glass of water?",
+    "options": [
+      "A) give",
+      "B) gave",
+      "C) to give",
+      "D) giving"
+    ],
+    "answer": 3,
+    "explanation": "'Would you mind'-এর পর বিনীত অনুরোধে সর্বদা Gerund (verb+ing: giving) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7429,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "He is accustomed to — up early in the morning.",
+    "options": [
+      "A) woke",
+      "B) waking",
+      "C) woken",
+      "D) wake"
+    ],
+    "answer": 1,
+    "explanation": "'Be accustomed to' বা 'Be used to'-এর পর অভ্যাসগত কাজে Gerund (waking) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7430,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "I cannot help — at his foolish behavior.",
+    "options": [
+      "A) laughing",
+      "B) laughed",
+      "C) laugh",
+      "D) to laugh"
+    ],
+    "answer": 0,
+    "explanation": "'Cannot help' বা 'could not help'-এর পর সর্বদা Verb+ing (laughing) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7431,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "I cannot but — at his foolish behavior.",
+    "options": [
+      "A) laughed",
+      "B) to laugh",
+      "C) laugh",
+      "D) laughing"
+    ],
+    "answer": 2,
+    "explanation": "'Cannot but' বা 'could not but'-এর পর সর্বদা Bare Infinitive (base verb: laugh) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7432,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "He is looking forward to — the new project.",
+    "options": [
+      "A) starting",
+      "B) start",
+      "C) starts",
+      "D) started"
+    ],
+    "answer": 0,
+    "explanation": "'Look forward to' এর পর সর্বদাই Gerund (starting) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7433,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "He prevented me from — there.",
+    "options": [
+      "A) gone",
+      "B) going",
+      "C) to go",
+      "D) go"
+    ],
+    "answer": 1,
+    "explanation": "Preposition 'from'-এর পর Verb আসলে তার সাথে ing যুক্ত হয়ে Gerund (going) গঠিত হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7434,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "She insisted on my — the meeting.",
+    "options": [
+      "A) attend",
+      "B) attended",
+      "C) attending",
+      "D) to attend"
+    ],
+    "answer": 2,
+    "explanation": "Preposition 'on' এবং Possessive 'my'-এর পর Gerund (attending) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7435,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "He stopped — when the teacher entered.",
+    "options": [
+      "A) talk",
+      "B) to talk",
+      "C) talked",
+      "D) talking"
+    ],
+    "answer": 3,
+    "explanation": "কোনো চলমান কাজ পুরোপুরি বন্ধ করা বোঝাতে 'Stop'-এর পর Gerund (talking) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7436,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "On the way home, he stopped — a newspaper.",
+    "options": [
+      "A) bought",
+      "B) to buy",
+      "C) buy",
+      "D) buying"
+    ],
+    "answer": 1,
+    "explanation": "অন্য কোনো উদ্দেশ্যে ক্ষণিকের জন্য থামা বোঝাতে 'Stop'-এর পর Infinitive (to buy) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7437,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "She avoids — unnecessary risks.",
+    "options": [
+      "A) took",
+      "B) to take",
+      "C) taking",
+      "D) take"
+    ],
+    "answer": 2,
+    "explanation": "'Avoid', 'enjoy', 'mind', 'finish', 'postpone', 'suggest'-এর পর সর্বদা Gerund (taking) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7438,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "He decided — abroad for higher education.",
+    "options": [
+      "A) to go",
+      "B) go",
+      "C) going",
+      "D) went"
+    ],
+    "answer": 0,
+    "explanation": "'Decide', 'agree', 'hope', 'plan', 'promise', 'refuse'-এর পর Infinitive (to go) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7439,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "You had better — there immediately.",
+    "options": [
+      "A) to go",
+      "B) went",
+      "C) going",
+      "D) go"
+    ],
+    "answer": 3,
+    "explanation": "'Had better', 'had rather', 'would rather', 'would sooner'-এর পর Bare Infinitive (go) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7440,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "I would rather starve than —",
+    "options": [
+      "A) to beg",
+      "B) begged",
+      "C) beg",
+      "D) begging"
+    ],
+    "answer": 2,
+    "explanation": "'Would rather... than'-এর উভয় পাশে Bare Infinitive (starve... beg) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7441,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "You need not — any tension.",
+    "options": [
+      "A) take",
+      "B) to take",
+      "C) took",
+      "D) taking"
+    ],
+    "answer": 0,
+    "explanation": "Modal Auxiliary হিসেবে 'need not'-এর পর Bare Infinitive (take) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7442,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "He dare not — the truth.",
+    "options": [
+      "A) speaking",
+      "B) to speak",
+      "C) spoke",
+      "D) speak"
+    ],
+    "answer": 3,
+    "explanation": "Modal হিসেবে 'dare not'-এর পর Bare Infinitive (speak) ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7443,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "I heard him — a melodious song.",
+    "options": [
+      "A) sang",
+      "B) singing",
+      "C) sung",
+      "D) to sing"
+    ],
+    "answer": 1,
+    "explanation": "Perception verb 'hear'-এর পর চলমান গান গাওয়া বোঝাতে Present Participle (singing) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7444,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "I saw the boy — in the pond.",
+    "options": [
+      "A) to swim",
+      "B) swam",
+      "C) swimming",
+      "D) swims"
+    ],
+    "answer": 2,
+    "explanation": "সরাসরি কোনো চলমান কর্ম প্রত্যক্ষ করার ক্ষেত্রে Object-এর পর Present Participle (swimming) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7445,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "He was seen — the house secretly.",
+    "options": [
+      "A) leave",
+      "B) to leave",
+      "C) leaving",
+      "D) left"
+    ],
+    "answer": 1,
+    "explanation": "Active-এ Bare Infinitive হলেও Passive Voice-এ 'see', 'make', 'hear'-এর পর Full Infinitive (to leave) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7446,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "The teacher made the students — the assignment.",
+    "options": [
+      "A) to rewrite",
+      "B) rewriting",
+      "C) rewrote",
+      "D) rewrite"
+    ],
+    "answer": 3,
+    "explanation": "Causative Verb 'Make'-এর পর ব্যক্তিবাচক অবজেক্ট থাকলে Active Voice-এ Bare Infinitive (rewrite) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7447,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "The students were made — the assignment.",
+    "options": [
+      "A) to rewrite",
+      "B) rewrite",
+      "C) rewriting",
+      "D) rewrote"
+    ],
+    "answer": 0,
+    "explanation": "Causative 'Make' যখন Passive Voice-এ রূপান্তরিত হয়, তখন Bare Infinitive না বসে 'to + verb' (to rewrite) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7448,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "I had my car — yesterday.",
+    "options": [
+      "A) repairing",
+      "B) to repair",
+      "C) repair",
+      "D) repaired"
+    ],
+    "answer": 3,
+    "explanation": "Causative Verb 'Have'-এর পর বস্তুবাচক অবজেক্ট ('my car') থাকলে Past Participle (repaired) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7449,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "He got the work — by his assistant.",
+    "options": [
+      "A) doing",
+      "B) done",
+      "C) do",
+      "D) to do"
+    ],
+    "answer": 1,
+    "explanation": "Causative 'Get'-এর পর বস্তুবাচক অবজেক্ট ('the work') থাকলে Past Participle (done) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7450,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "He got his assistant — the work.",
+    "options": [
+      "A) doing",
+      "B) done",
+      "C) to do",
+      "D) do"
+    ],
+    "answer": 2,
+    "explanation": "Causative 'Get'-এর পর ব্যক্তিবাচক অবজেক্ট ('his assistant') থাকলে 'to + verb' (Infinitive: to do) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7451,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "She let him — the room.",
+    "options": [
+      "A) enter",
+      "B) entering",
+      "C) to enter",
+      "D) entered"
+    ],
+    "answer": 0,
+    "explanation": "Causative 'Let'-এর পর সর্বদাই Bare Infinitive (enter) বসে (Active ও Passive উভয় ক্ষেত্রে)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7452,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Help me — this heavy box.",
+    "options": [
+      "A) lifted",
+      "B) to lifting",
+      "C) lift",
+      "D) lifting"
+    ],
+    "answer": 2,
+    "explanation": "Causative 'Help'-এর পর Bare Infinitive (lift) বা Full Infinitive (to lift) উভয়ই প্রমিত।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7453,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "The house needs — immediately.",
+    "options": [
+      "A) to paint",
+      "B) painting",
+      "C) paint",
+      "D) painted"
+    ],
+    "answer": 1,
+    "explanation": "'Need', 'want', 'require'-এর পর প্যাসিভ অর্থে সরাসরি Gerund (painting) বা 'to be painted' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7454,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "His shirt needs —",
+    "options": [
+      "A) washed",
+      "B) wash",
+      "C) to wash",
+      "D) washing"
+    ],
+    "answer": 3,
+    "explanation": "প্যাসিভ অর্থে 'needs washing' অথবা 'needs to be washed' প্রযোজ্য।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7455,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "He is worthy of — praise.",
+    "options": [
+      "A) receiving",
+      "B) to receive",
+      "C) received",
+      "D) receive"
+    ],
+    "answer": 0,
+    "explanation": "Preposition 'of'-এর পর Verb আসলে Gerund (receiving) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7456,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "I am fond of — classical music.",
+    "options": [
+      "A) listened to",
+      "B) listening to",
+      "C) to listen",
+      "D) listen to"
+    ],
+    "answer": 1,
+    "explanation": "'Fond of'-এর পর Gerund 'listening to' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7457,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "He was accused of — the purse.",
+    "options": [
+      "A) stealing",
+      "B) steal",
+      "C) stolen",
+      "D) to steal"
+    ],
+    "answer": 0,
+    "explanation": "'Accused of'-এর পর Prepositionাল Gerund 'stealing' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7458,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "She is capable of — the difficult task.",
+    "options": [
+      "A) accomplished",
+      "B) to accomplish",
+      "C) accomplish",
+      "D) accomplishing"
+    ],
+    "answer": 3,
+    "explanation": "'Capable of'-এর পর Verb+ing (accomplishing) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7459,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "He devoted his life to — the poor.",
+    "options": [
+      "A) help",
+      "B) be helping",
+      "C) helping",
+      "D) helped"
+    ],
+    "answer": 2,
+    "explanation": "'Devote... to'-এর 'to' হলো Preposition, তাই এর পর Gerund (helping) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7460,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "Do you mind — the door?",
+    "options": [
+      "A) opening",
+      "B) opened",
+      "C) to open",
+      "D) open"
+    ],
+    "answer": 0,
+    "explanation": "'Do you mind' বা 'Would you mind'-এর পর সর্বদা Gerund (opening) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7461,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "The doctor recommended that the patient — immediate rest.",
+    "options": [
+      "A) takes",
+      "B) should be taken",
+      "C) took",
+      "D) take"
+    ],
+    "answer": 3,
+    "explanation": "Subjunctive Mood-এর নিয়মানুযায়ী recommend, suggest, insist, demand + that + Subject-এর পর Verb-এর Base Form (take) বসে (s/es বা tense পরিবর্তন হয় না)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7462,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "The committee proposed that a new chairman — appointed.",
+    "options": [
+      "A) was",
+      "B) should",
+      "C) be",
+      "D) is"
+    ],
+    "answer": 2,
+    "explanation": "প্যাসিভ সাবজাংক্টিভ গঠনে 'that + subject + be + V3' (be appointed) বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7463,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "He demanded that he — given a fair trial.",
+    "options": [
+      "A) were",
+      "B) be",
+      "C) was",
+      "D) is"
+    ],
+    "answer": 1,
+    "explanation": "'Demand that'-এর পর প্যাসিভ সাবজাংক্টিভ হওয়ায় 'be given' হবে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7464,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "It is essential that everyone — present at the meeting.",
+    "options": [
+      "A) are",
+      "B) be",
+      "C) was",
+      "D) is"
+    ],
+    "answer": 1,
+    "explanation": "'It is essential/vital/important that'-এর পর Subjunctive Base Form 'be' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7465,
+    "subject": "ইংরেজি",
+    "topic": "English (Right Form of Verb)",
+    "question": "The judge ordered that the prisoner — released.",
+    "options": [
+      "A) was",
+      "B) is",
+      "C) should be to",
+      "D) be"
+    ],
+    "answer": 3,
+    "explanation": "'Ordered that'-এর পর প্যাসিভ সাবজাংক্টিভ অনুসারে 'be released' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  }
+]

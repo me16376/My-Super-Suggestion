@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3025,
+    "subject": "ইংরেজি",
+    "topic": "Vocabulary & Contextual Usage",
+    "question": "Provide the precise meaning and a contextual sentence for each of the following words:\n(a) Ephemeral\n(b) Pragmatic\n(c) Resilient\n(d) Mitigate\n(e) Ubiquitous\n(f) Redundant",
+    "marks": 6,
+    "answer": "Vocabulary Analysis and Usage:\n\n(a) **Ephemeral** (Lasting for a very short time / Transitory):\n*Sentence:* The speed boost achieved by clearing the browser cache was ephemeral, as memory usage escalated again within minutes.\n\n(b) **Pragmatic** (Dealing with problems in a practical, realistic way):\n*Sentence:* The maintenance engineer took a pragmatic approach by installing an interim backup generator while awaiting the main power grid repairs.\n\n(c) **Resilient** (Able to withstand or recover quickly from difficult conditions):\n*Sentence:* The new microservices architecture is remarkably resilient, ensuring that a database failure in one regional office does not crash the central passport portal.\n\n(d) **Mitigate** (To make something bad less severe, serious, or painful):\n*Sentence:* Deploying hardware firewalls helped mitigate the risk of distributed denial-of-service (DDoS) attacks against the government server.\n\n(e) **Ubiquitous** (Present, appearing, or found everywhere):\n*Sentence:* Optical barcode and QR code scanners have become ubiquitous across all modern international airport departure gates.\n\n(f) **Redundant** (Exceeding what is strictly necessary; functioning as a duplicate for safety):\n*Sentence:* The data center was configured with redundant power supplies and twin fiber-optic uplinks to eliminate any single point of failure.",
+    "points_to_remember": [
+      "In technical and administrative writing, 'redundant' often has a positive meaning (safety backup / fault tolerance), rather than superfluous."
+    ],
+    "tags": [
+      "vocabulary",
+      "contextual_usage",
+      "english_written"
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 3002,
+    "subject": "ইংরেজি",
+    "topic": "Official Drafting & Email",
+    "question": "Draft a formal email to the vendor's technical support manager reporting a hardware malfunction in the newly installed e-Passport Biometric Enrollment Stations and requesting an urgent on-site technician visit.",
+    "marks": 7,
+    "answer": "Model Official Email:\n\nTo: support.bangladesh@veridos-solutions.com\nCc: director.ict@dip.gov.bd\nSubject: Urgent: Hardware Malfunction in Biometric Enrollment Station (Office Code: DHO-02)\n\nDear Sir/Madam,\n\nI am writing to officially report an unexpected technical failure in two (02) of our newly installed e-Passport Biometric Enrollment Stations at the Divisional Passport and Visa Office, Agargaon, Dhaka.\n\nDuring the live enrollment procedure today, Station-03 experienced repeated optical lens calibration errors with the Fingerprint Scanner (Model: Suprema RealScan-G10), preventing the capture of four-finger slaps. Concurrently, Station-05 displayed an intermittent USB power surge warning, leading to system freezes during MRZ document scanning.\n\nSince this issue directly affects daily public passport processing, we kindly request you to depute a certified hardware engineer for an urgent on-site inspection by 10:00 AM tomorrow (24 October 2026) under the active Service Level Agreement (SLA).\n\nThank you for your prompt cooperation.\n\nSincerely,\n\nMd. Rafiqul Islam\nSub-Assistant Maintenance Engineer\nDepartment of Immigration and Passports\nAgargaon, Dhaka-1207\nContact: +880 17XXXXXXXX",
+    "points_to_remember": [
+      "Include clear subject line, precise hardware models, office codes, error descriptions, and clear call-to-action under SLA terms."
+    ],
+    "tags": [
+      "english_drafting",
+      "formal_email"
+    ]
+  },
+  {
+    "id": 3005,
+    "subject": "ইংরেজি",
+    "topic": "Official Drafting & Email",
+    "question": "Write a formal internal memo from the Sub-Assistant Maintenance Engineer to the Assistant Director (Admin) highlighting the urgent requirement for installing an Online UPS (10 KVA) in the passport server room to prevent database corruption during sudden power outages.",
+    "marks": 7,
+    "answer": "Formal Internal Memorandum:\n\nMEMORANDUM\n\nTo: Assistant Director (Administration)\nFrom: Sub-Assistant Maintenance Engineer\nDate: 23 October 2026\nSubject: Requisition for 10 KVA Online UPS for the Central Passport Server Room\n\n1. It is respectfully brought to your attention that the primary database servers and biometric matching units housed in our Server Room are currently operating on aged offline backup systems. \n\n2. Over the past week, frequent power grid fluctuations have caused momentary power drops. During switching delays, the core database server shut down abruptly, resulting in database lockouts and putting transactional records at risk of file corruption.\n\n3. To guarantee zero-millisecond transfer time, stable pure sine-wave voltage, and a minimum of 60 minutes emergency battery backup for 24/7 server stability, the procurement and installation of a 10 KVA True Online Double-Conversion UPS is critically required.\n\n4. Your kind approval and budgetary allocation for initiating the e-GP procurement process are earnestly solicited.\n\n(Signature)\nMd. Rafiqul Islam\nSub-Assistant Maintenance Engineer\nExtension: 204",
+    "points_to_remember": [
+      "State technical justification: 'True Online Double-Conversion UPS', 'zero transfer time', 'prevent database corruption'."
+    ],
+    "tags": [
+      "official_memo",
+      "english_drafting"
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3047,
+    "subject": "ইংরেজি",
+    "topic": "Word Formation & Parts of Speech Conversion",
+    "question": "Convert the following words into the specified parts of speech and write one meaningful sentence with the newly formed word:\n(a) Maintain (into Noun)\n(b) Secure (into Noun)\n(c) Resilient (into Noun)\n(d) Execute (into Noun)\n(e) Pure (into Verb)\n(f) Clear (into Verb)",
+    "marks": 6,
+    "answer": "Word Formation & Usage Solution:\n\n(a) **Maintain** $\\rightarrow$ Noun: **Maintenance**\n*Sentence:* Routine preventive maintenance of biometric kiosks minimizes sudden hardware breakdowns during peak hours.\n\n(b) **Secure** $\\rightarrow$ Noun: **Security**\n*Sentence:* Multi-factor authentication provides an indispensable layer of security for public database systems.\n\n(c) **Resilient** $\\rightarrow$ Noun: **Resilience**\n*Sentence:* The remarkable resilience of the Tier-IV data center ensured zero data loss despite a localized power grid failure.\n\n(d) **Execute** $\\rightarrow$ Noun: **Execution**\n*Sentence:* The precise execution of the disaster recovery failover plan completed within twenty-five seconds.\n\n(e) **Pure** $\\rightarrow$ Verb: **Purify**\n*Sentence:* Air scrubbers are installed inside the server hall to continuously purify the air of airborne dust particulates.\n\n(f) **Clear** $\\rightarrow$ Verb: **Clarify**\n*Sentence:* The circular was issued to clarify the revised technical specifications for digital signature cards.",
+    "points_to_remember": [
+      "Pay attention to spelling shifts: Maintain $\\rightarrow$ Maint**e**nance (not maintainance)."
+    ],
+    "tags": [
+      "word_formation",
+      "parts_of_speech",
+      "english_grammar"
+    ]
+  }
+]

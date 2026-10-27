@@ -1,0 +1,35 @@
+[
+  {
+    "id": 3008,
+    "subject": "ইংরেজি",
+    "topic": "Technical Incident Report",
+    "question": "As a Sub-Assistant Maintenance Engineer, write a formal 'Technical Incident & Downtime Report' addressed to the System Analyst regarding a major network outage at the Regional Passport Office caused by a broadcast storm/switching loop. Outline root cause, immediate recovery actions, and long-term preventive measures.",
+    "marks": 8,
+    "answer": "Model Technical Incident Report:\n\nTECHNICAL INCIDENT REPORT\n\nReference: DIP/RPO-DHK/INC-2026/089\nDate: 23 October 2026\nTo: System Analyst, ICT Division, Department of Immigration & Passports\nFrom: Sub-Assistant Maintenance Engineer, Regional Passport Office\nSubject: Incident Post-Mortem Report: 90-Minute Network Downtime at Enrollment LAN\n\n1. Executive Summary:\nOn 23 October 2026 at 10:15 AM, the local area network (LAN) serving all 14 biometric enrollment counters and the citizen queue display system experienced a total outage. Normal operations were fully restored by 11:45 AM (total downtime: 90 minutes).\n\n2. Incident Timeline & Symptoms:\n• 10:15 AM: Enrollment workstations reported disconnection from the local verification server; network latency spiked above 4,000 ms with 95% packet drop.\n• 10:30 AM: Physical inspection of the core distribution switch (Cisco Catalyst 2960X) revealed 100% CPU utilization and simultaneous flashing of all port activity LEDs (classic broadcast storm indicator).\n\n3. Root Cause Analysis:\nAn unauthorized patch cord was accidentally cross-connected between two access ports on Switch Rack-02 during routine desk rearrangement by floor support staff. Because Spanning Tree Protocol (STP) BPDU Guard was globally disabled on access-layer edge ports, an active Layer-2 loop formed instantly, generating overwhelming broadcast traffic.\n\n4. Immediate Remediation:\n• The redundant looping patch cable was identified and physically disconnected at 10:50 AM.\n• Switch CPU loads normalized within 3 minutes; all core IP services and DHCP leases were validated.\n• All 14 client workstations successfully resumed biometric enrollment and MRZ submissions by 11:45 AM.\n\n5. Corrective & Preventive Measures:\n• Globally enabled Rapid Spanning Tree Protocol (RSTP) with PortFast and BPDU Guard on all client-facing switch ports.\n• Physically locked unused RJ-45 wall ports using port blockers to prevent unauthorized interconnects.\n• Scheduled a technical refresher session on rack cabling protocols for support personnel.\n\nSubmitted by:\n(Signature)\nMd. Rafiqul Islam\nSub-Assistant Maintenance Engineer",
+    "points_to_remember": [
+      "Follow standard BPSC/technical incident report structure: Executive Summary, Timeline, Root Cause, Immediate Remediation, and Preventive Action.",
+      "Use authentic networking concepts: Switching loop, Broadcast storm, Cisco 2960X, RSTP, BPDU Guard."
+    ],
+    "tags": [
+      "incident_report",
+      "technical_writing",
+      "written"
+    ]
+  },
+  {
+    "id": 3020,
+    "subject": "ইংরেজি",
+    "topic": "Technical Incident Report",
+    "question": "Draft a comprehensive 'Network Incident & Root Cause Analysis (RCA) Report' addressed to the Director (ICT) concerning an unexpected core distribution switch failure that caused a 45-minute outage at the central passport issuance division.",
+    "marks": 10,
+    "answer": "Network Incident Report:\n\n**DEPARTMENT OF IMMIGRATION & PASSPORTS**\n**ICT & INFRASTRUCTURE WING, HEADQUARTERS, DHAKA**\n\n**INCIDENT REPORT & ROOT CAUSE ANALYSIS (RCA)**\n\n**Incident Reference:** INC-2026-1023-NET-01\n**Date of Report:** October 23, 2026\n**To:** Director (ICT), Department of Immigration and Passports\n**From:** Sub-Assistant Maintenance Engineer, Network & Data Center Operations\n**Classification:** Severity-1 (High Impact)\n\n**1. Executive Summary:**\nOn October 23, 2026, at 10:15 AM, the Central Passport Personalization Division experienced an unexpected network outage lasting 45 minutes (10:15 AM to 11:00 AM). The outage temporarily halted passport printing and personalization queuing. Service was fully restored at 11:00 AM following emergency hardware bypass.\n\n**2. Incident Timeline:**\n• **10:15 AM:** Core Distribution Switch (Cisco Catalyst 9500) abruptly rebooted and entered a boot-loop.\n• **10:18 AM:** Monitoring system (Zabbix) raised high-priority alerts regarding unreachable subnets (VLAN 30 & VLAN 40).\n• **10:25 AM:** Maintenance engineers inspected the rack and observed redundant power supply failure (PSU-2 dead, PSU-1 overheating trip).\n• **10:35 AM:** Hot-standby switch was configured, and primary fiber uplinks were patched to the redundant switch.\n• **10:50 AM:** Spanning-tree protocol (RSTP) converged; database connectivity re-established.\n• **11:00 AM:** Full verification completed; all personalization lines resumed normal operation.\n\n**3. Root Cause Analysis (RCA):**\nThe primary root cause was an internal capacitor breakdown within Power Supply Unit 2 (PSU-2), which produced a power surge that tripped the thermal protection sensor of PSU-1. The automatic hardware failover failed because PSU-1 drew excessive thermal load due to dust accumulation in the secondary fan chassis.\n\n**4. Corrective and Preventive Actions (CAPA):**\n1. Replaced both faulty power supply modules with genuine OEM redundant units.\n2. Implemented active dual-bus UPS power feeds (Feed A from Online UPS-1, Feed B from Online UPS-2).\n3. Scheduled bi-weekly physical air-flow and temperature inspections across all core distribution racks.\n4. Configured SNMP trap alerting for switch fan RPM and PSU thermal fluctuations.\n\n**Submitted by:**\n*(Signature)*\nSub-Assistant Maintenance Engineer\nDepartment of Immigration and Passports",
+    "points_to_remember": [
+      "An Incident Report must have standard headings: Executive Summary, Timeline, Root Cause Analysis (RCA), and Corrective & Preventive Actions (CAPA)."
+    ],
+    "tags": [
+      "incident_report",
+      "technical_writing",
+      "networking"
+    ]
+  }
+]

@@ -1,0 +1,2092 @@
+[
+  {
+    "id": 7246,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb form of the noun 'Friend'?",
+    "options": [
+      "A) Friendify",
+      "B) Befriend",
+      "C) Friendly",
+      "D) Friendliness"
+    ],
+    "answer": 1,
+    "explanation": "'Friend' (বন্ধু) নাউনটির ভার্ব রূপ হলো 'Befriend' (কারও সাথে বন্ধুত্ব স্থাপন করা বা বন্ধুসুলভ আচরণ করা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7247,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the adjective of the noun 'Courage'?",
+    "options": [
+      "A) Courageous",
+      "B) Encouragement",
+      "C) Encourage",
+      "D) Courageously"
+    ],
+    "answer": 0,
+    "explanation": "'Courage' (সাহস) নাউনটির Adjective হলো 'Courageous' (সাহসী)। 'Encourage' হলো Verb এবং 'Courageously' হলো Adverb।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7248,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb of the word 'Danger'?",
+    "options": [
+      "A) Dangerous",
+      "B) Endangering",
+      "C) Dangerously",
+      "D) Endanger"
+    ],
+    "answer": 3,
+    "explanation": "'Danger' (বিপদ)-এর পূর্বে প্রিফিক্স 'en-' যুক্ত হয়ে গঠিত Verb রূপ হলো 'Endanger' (বিপন্ন বা বিপদে ফেলা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7249,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The adjective of the word 'Circle' is —",
+    "options": [
+      "A) Circulate",
+      "B) Circulation",
+      "C) Circular",
+      "D) Circlet"
+    ],
+    "answer": 2,
+    "explanation": "'Circle' (বৃত্ত) নাউনটির Adjective রূপ হলো 'Circular' (বৃত্তাকার)। 'Circulate' হলো Verb।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7250,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb form of the noun 'Beauty'?",
+    "options": [
+      "A) Beautiful",
+      "B) Beautifully",
+      "C) Beauteous",
+      "D) Beautify"
+    ],
+    "answer": 3,
+    "explanation": "'Beauty' (সৌন্দর্য)-এর শেষে '-ify' সাফিক্স যুক্ত হয়ে Verb হয় 'Beautify' (সুন্দর বা সুশোভিত করা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7251,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the adverb of the word 'Heart'?",
+    "options": [
+      "A) Heartily",
+      "B) Heartful",
+      "C) Hearten",
+      "D) Hearty"
+    ],
+    "answer": 0,
+    "explanation": "'Heart' (হৃদয়)-এর Adjective হলো 'Hearty' এবং তার Adverb রূপ হলো 'Heartily' (আন্তরিকভাবে)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7252,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb form of 'Peace'?",
+    "options": [
+      "A) Peacen",
+      "B) Pacify",
+      "C) Peaceful",
+      "D) Peacefully"
+    ],
+    "answer": 1,
+    "explanation": "'Peace' (শান্তি) শব্দের সাথে সম্পর্কিত Verb হলো 'Pacify' (শান্ত করা বা প্রশমিত করা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7253,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The adjective of the noun 'Mother' is —",
+    "options": [
+      "A) Mothership",
+      "B) Motherhood",
+      "C) Motherly",
+      "D) Mothering"
+    ],
+    "answer": 2,
+    "explanation": "Noun-এর সাথে '-ly' যুক্ত হয়ে Adjective গঠিত হয়; তাই 'Mother' নাউনের Adjective হলো 'Motherly' (মাতৃসুলভ)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7254,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb form of 'Power'?",
+    "options": [
+      "A) Empower",
+      "B) Powerful",
+      "C) Powerfully",
+      "D) Powerize"
+    ],
+    "answer": 0,
+    "explanation": "'Power' (ক্ষমতা)-এর পূর্বে 'em-' উপসর্গ যুক্ত হয়ে Verb রূপ হয় 'Empower' (ক্ষমতায়ন করা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7255,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the adjective form of 'Author'?",
+    "options": [
+      "A) Authorially",
+      "B) Authorize",
+      "C) Authority",
+      "D) Authoritative"
+    ],
+    "answer": 3,
+    "explanation": "'Author' বা 'Authority'-এর প্রামাণিক বা প্রামাণ্য প্রকাশক Adjective রূপ হলো 'Authoritative'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7256,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The verb form of 'Blood' is —",
+    "options": [
+      "A) Bloodify",
+      "B) Bleed",
+      "C) Bleeding",
+      "D) Bloody"
+    ],
+    "answer": 1,
+    "explanation": "'Blood' (রক্ত) নাউনটির অভ্যন্তরীণ স্বরধ্বনি পরিবর্তনে গঠিত Verb রূপ হলো 'Bleed' (রক্তক্ষরণ হওয়া)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7257,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the adjective of the noun 'Sun'?",
+    "options": [
+      "A) Solar",
+      "B) Sunlight",
+      "C) Sunny",
+      "D) Sunburst"
+    ],
+    "answer": 2,
+    "explanation": "'Sun' (সূর্য)-এর সাধারণ বর্ণনামূলক Adjective রূপ হলো 'Sunny' (রোদেলা) এবং বৈজ্ঞানিক রূপ 'Solar'। এখানে 'Sunny' প্রযোজ্য।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7258,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb form of 'Food'?",
+    "options": [
+      "A) Fooding",
+      "B) Feed",
+      "C) Fodder",
+      "D) Foodify"
+    ],
+    "answer": 1,
+    "explanation": "'Food' (খাদ্য) নাউনটির Verb রূপ হলো 'Feed' (খাওয়ানো বা আহার করানো)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7259,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The adjective form of 'Brother' is —",
+    "options": [
+      "A) Brotherhood",
+      "B) Brethren",
+      "C) Brotherly",
+      "D) Brotherliness"
+    ],
+    "answer": 2,
+    "explanation": "Noun + ly = Adjective নিয়মানুযায়ী 'Brother'-এর Adjective রূপ হলো 'Brotherly' (ভ্রাতৃসুলভ)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7260,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb of 'Terror'?",
+    "options": [
+      "A) Terrify",
+      "B) Terrific",
+      "C) Terrorism",
+      "D) Terrible"
+    ],
+    "answer": 0,
+    "explanation": "'Terror' (আতঙ্ক)-এর Verb হলো 'Terrify' (ভীত বা আতঙ্কিত করা)। 'Terrible' হলো Adjective।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7261,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the adjective of 'Mind'?",
+    "options": [
+      "A) Mindless",
+      "B) Remind",
+      "C) Mindfully",
+      "D) Mindful"
+    ],
+    "answer": 3,
+    "explanation": "'Mind' (মন/ধ্যান)-এর সাথে '-ful' যুক্ত হয়ে ইতিবাচক Adjective রূপ হয় 'Mindful' (মনোযোগী বা সচেতন)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7262,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb form of 'Class'?",
+    "options": [
+      "A) Classy",
+      "B) Classical",
+      "C) Classmate",
+      "D) Classify"
+    ],
+    "answer": 3,
+    "explanation": "'Class' (শ্রেণি) নাউনটির সাথে '-ify' সাফিক্স যুক্ত হয়ে Verb হয় 'Classify' (শ্রেণিবদ্ধ করা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7263,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The adjective of the noun 'Gold' is —",
+    "options": [
+      "A) Goldly",
+      "B) Gilded",
+      "C) Golden",
+      "D) Goldy"
+    ],
+    "answer": 2,
+    "explanation": "'Gold' (স্বর্ণ) নাউনের সাথে '-en' সাফিক্স যুক্ত হয়ে তৈরি হওয়া Adjective হলো 'Golden' (সোনালী)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7264,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb of 'Custom'?",
+    "options": [
+      "A) Customer",
+      "B) Accustom",
+      "C) Customary",
+      "D) Customly"
+    ],
+    "answer": 1,
+    "explanation": "'Custom' (প্রথা বা অভ্যাস)-এর Verb রূপ হলো 'Accustom' (অভ্যস্ত করানো)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7265,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the adjective form of 'Origin'?",
+    "options": [
+      "A) Original",
+      "B) Originative",
+      "C) Originally",
+      "D) Originate"
+    ],
+    "answer": 0,
+    "explanation": "'Origin' (উৎপত্তি)-এর সাথে '-al' সাফিক্স যুক্ত হয়ে Adjective হয় 'Original' (মৌলিক বা আদি)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7266,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The verb form of 'Prison' is —",
+    "options": [
+      "A) Prisoning",
+      "B) Prisonize",
+      "C) Imprison",
+      "D) Prisoner"
+    ],
+    "answer": 2,
+    "explanation": "'Prison' (কারাগার)-এর পূর্বে 'im-' প্রিফিক্স বসে Verb গঠিত হয় 'Imprison' (কারারুদ্ধ করা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7267,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the adjective of 'Child' meaning innocent and pure?",
+    "options": [
+      "A) Childhood",
+      "B) Childlike",
+      "C) Childish",
+      "D) Childless"
+    ],
+    "answer": 1,
+    "explanation": "শিশুসুলভ নিষ্পাপ বা ইতিবাচক অর্থে 'Childlike' এবং শিশুতোষ বা নির্বোধ অর্থে 'Childish' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7268,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb form of 'Glory'?",
+    "options": [
+      "A) Glorying",
+      "B) Gloriously",
+      "C) Glorious",
+      "D) Glorify"
+    ],
+    "answer": 3,
+    "explanation": "'Glory' (মহিমা/গৌরব)-এর Verb রূপ হলো 'Glorify' (মহিমান্বিত বা গুণকীর্তন করা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7269,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The adjective of 'People' is —",
+    "options": [
+      "A) Populous",
+      "B) Popular",
+      "C) Population",
+      "D) Populate"
+    ],
+    "answer": 0,
+    "explanation": "'People' বা জনবসতিপূর্ণ বোঝাতে সম্পর্কিত Adjective হলো 'Populous' (ঘনবসতিপূর্ণ)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7270,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb form of 'Body'?",
+    "options": [
+      "A) Embody",
+      "B) Bodily",
+      "C) Bodiless",
+      "D) Bodyguard"
+    ],
+    "answer": 0,
+    "explanation": "'Body' (শরীর/দেহ)-এর পূর্বে 'em-' যুক্ত হয়ে গঠিত Verb হলো 'Embody' (বাস্তবরূপ দেওয়া বা মূর্ত করা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7271,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The adjective form of 'Tide' is —",
+    "options": [
+      "A) Tideless",
+      "B) Tidy",
+      "C) Tidal",
+      "D) Tidally"
+    ],
+    "answer": 2,
+    "explanation": "'Tide' (জোয়ার-ভাটা)-এর সাথে '-al' সাফিক্স যুক্ত হয়ে Adjective রূপ হয় 'Tidal' (জোয়ার সংক্রান্ত, যেমন: Tidal bore)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7272,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb of 'Shame'?",
+    "options": [
+      "A) Shameful",
+      "B) Shameless",
+      "C) Shamely",
+      "D) Ashame / Shame"
+    ],
+    "answer": 3,
+    "explanation": "'Shame' নিজেই Verb হিসেবে ব্যবহৃত হতে পারে এবং এর সাথে সম্পর্কিত ক্রিয়া হলো 'Ashame / Shame'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7273,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the adjective of 'Wood'?",
+    "options": [
+      "A) Wooded",
+      "B) Wooden",
+      "C) Woody",
+      "D) Woodland"
+    ],
+    "answer": 1,
+    "explanation": "কাঠ নির্মিত কোনো বস্তুকে নির্দেশ করতে 'Wood'-এর Adjective রূপ হলো 'Wooden' (কাষ্ঠনির্মিত)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7274,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb form of 'Force'?",
+    "options": [
+      "A) Forceful",
+      "B) Enforce",
+      "C) Forcible",
+      "D) Forcefully"
+    ],
+    "answer": 1,
+    "explanation": "আইন কার্যকর করা বা বলবৎ করার ক্ষেত্রে 'Force'-এর Verb রূপ হলো 'Enforce'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7275,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The adjective form of 'Hero' is —",
+    "options": [
+      "A) Heroic",
+      "B) Heroically",
+      "C) Heroine",
+      "D) Heroism"
+    ],
+    "answer": 0,
+    "explanation": "'Hero' (বীর)-এর সাথে '-ic' সাফিক্স যুক্ত হয়ে Adjective রূপ হয় 'Heroic' (বীরত্বপূর্ণ)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7276,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb form of 'Camp'?",
+    "options": [
+      "A) Camping",
+      "B) Campfire",
+      "C) Encamp",
+      "D) Camper"
+    ],
+    "answer": 2,
+    "explanation": "সেনাবাহিনী বা দলের ছাউনি ফেলা বোঝাতে 'Camp'-এর Verb রূপ হলো 'Encamp'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7277,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The adjective of the word 'Air' is —",
+    "options": [
+      "A) Airing",
+      "B) Airlift",
+      "C) Aerial",
+      "D) Airy"
+    ],
+    "answer": 3,
+    "explanation": "খোলামেলা ও বাতাসযুক্ত বোঝাতে 'Air'-এর Adjective রূপ হলো 'Airy' (বাতাসবহুল)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7278,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb form of 'Sure'?",
+    "options": [
+      "A) Surely",
+      "B) Ensure",
+      "C) Assure",
+      "D) Surety"
+    ],
+    "answer": 1,
+    "explanation": "'Sure' শব্দটির শুরুতে 'en-' যুক্ত হয়ে গঠিত মূল Verb হলো 'Ensure' (নিশ্চিত করা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7279,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the adjective form of 'Gas'?",
+    "options": [
+      "A) Gaseous",
+      "B) Gasoline",
+      "C) Gassify",
+      "D) Gassy"
+    ],
+    "answer": 0,
+    "explanation": "'Gas' (গ্যাস)-এর বৈজ্ঞানিক Adjective রূপ হলো 'Gaseous' (গ্যাসীয় বা বাষ্পীয়)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7280,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The verb form of 'Song' is —",
+    "options": [
+      "A) Songster",
+      "B) Singing",
+      "C) Sing",
+      "D) Songful"
+    ],
+    "answer": 2,
+    "explanation": "'Song' (গান) নাউনটির অভ্যন্তরীণ স্বরধ্বনি পরিবর্তনে মূল Verb রূপটি হলো 'Sing' (গান গাওয়া)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7281,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun form of the verb 'See'?",
+    "options": [
+      "A) Scene",
+      "B) Seer",
+      "C) Seeing",
+      "D) Sight"
+    ],
+    "answer": 3,
+    "explanation": "'See' (দেখা) ভার্বটির মূল বিমূর্ত Noun রূপ হলো 'Sight' (দৃষ্টি বা দৃষ্টিশক্তি)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7282,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun of 'Succeed'?",
+    "options": [
+      "A) Successful",
+      "B) Success",
+      "C) Succession",
+      "D) Successfully"
+    ],
+    "answer": 1,
+    "explanation": "'Succeed' (সফল হওয়া) ভার্বটির Noun রূপ হলো 'Success' (সাফল্য)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7283,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The noun form of 'Fly' is —",
+    "options": [
+      "A) Flight",
+      "B) Flying",
+      "C) Flyer",
+      "D) Flew"
+    ],
+    "answer": 0,
+    "explanation": "'Fly' (উড়া) ভার্বটির প্রধান Noun রূপ হলো 'Flight' (উড্ডয়ন বা উড়াল)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7284,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun of 'Decide'?",
+    "options": [
+      "A) Decisively",
+      "B) Decidedness",
+      "C) Decisive",
+      "D) Decision"
+    ],
+    "answer": 3,
+    "explanation": "'Decide' (সিদ্ধান্ত নেওয়া) ভার্বটির সাথে '-ion' যুক্ত হয়ে Noun হয় 'Decision' (সিদ্ধান্ত)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7285,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The adjective form of the verb 'Destroy' is —",
+    "options": [
+      "A) Destructively",
+      "B) Destroyer",
+      "C) Destructive",
+      "D) Destruction"
+    ],
+    "answer": 2,
+    "explanation": "'Destroy' (ধ্বংস করা)-এর Adjective রূপ হলো 'Destructive' (ধ্বংসাত্মক)। Noun হলো 'Destruction'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7286,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun form of 'Know'?",
+    "options": [
+      "A) Knowledgeable",
+      "B) Knowing",
+      "C) Knowledgeably",
+      "D) Knowledge"
+    ],
+    "answer": 3,
+    "explanation": "'Know' (জানা) ভার্বটির Noun রূপ হলো 'Knowledge' (জ্ঞান)। 'Knowledgeable' হলো Adjective।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7287,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun form of 'Choose'?",
+    "options": [
+      "A) Chosen",
+      "B) Choice",
+      "C) Choosy",
+      "D) Choosing"
+    ],
+    "answer": 1,
+    "explanation": "'Choose' (পছন্দ করা/বেছে নেওয়া) ভার্বটির Noun রূপ হলো 'Choice' (পছন্দ)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7288,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The noun of 'Lose' is —",
+    "options": [
+      "A) Losing",
+      "B) Loser",
+      "C) Loss",
+      "D) Loose"
+    ],
+    "answer": 2,
+    "explanation": "'Lose' (হারানো বা ক্ষতি হওয়া) ভার্বটির সঠিক Noun রূপ হলো 'Loss' (ক্ষতি বা লোকসান)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7289,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun form of 'Justify'?",
+    "options": [
+      "A) Justification",
+      "B) Justice",
+      "C) Just",
+      "D) Justly"
+    ],
+    "answer": 0,
+    "explanation": "'Justify' (ন্যায্যতা প্রমাণ করা) ভার্বটির Noun রূপ হলো 'Justification' (সমর্থন বা যৌক্তিকতা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7290,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun of 'Pacify'?",
+    "options": [
+      "A) Peacefulness",
+      "B) Pacifist",
+      "C) Peace",
+      "D) Pacification"
+    ],
+    "answer": 3,
+    "explanation": "'Pacify' ক্রিয়াটির সরাসরি নিষ্পন্ন Noun রূপ হলো 'Pacification' (শান্তিকরণ বা প্রশমন)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7291,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The adjective form of 'Believe' is —",
+    "options": [
+      "A) Believable",
+      "B) Believably",
+      "C) Believer",
+      "D) Belief"
+    ],
+    "answer": 0,
+    "explanation": "'Believe' (বিশ্বাস করা)-এর সাথে '-able' যুক্ত হয়ে Adjective হয় 'Believable' (বিশ্বাসযোগ্য)। Noun হলো 'Belief'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7292,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun form of 'Advise'?",
+    "options": [
+      "A) Advisory",
+      "B) Advisability",
+      "C) Advice",
+      "D) Adviser"
+    ],
+    "answer": 2,
+    "explanation": "'Advise' হলো Verb (উপদেশ দেওয়া) এবং 'Advice' হলো Noun (উপদেশ)। বানানের পার্থক্য লক্ষণীয় (s vs c)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7293,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun form of 'Practise'?",
+    "options": [
+      "A) Practical",
+      "B) Practice",
+      "C) Practitioner",
+      "D) Practicable"
+    ],
+    "answer": 1,
+    "explanation": "ব্রিটিশ ইংরেজিতে 'Practise' হলো Verb এবং 'Practice' হলো Noun (চর্চা/অনুশীলন)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7294,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The noun form of 'Breathe' is —",
+    "options": [
+      "A) Breathed",
+      "B) Breath",
+      "C) Breathing",
+      "D) Breathless"
+    ],
+    "answer": 1,
+    "explanation": "'Breathe' (শ্বাস নেওয়া) হলো Verb এবং এর Noun রূপ হলো 'Breath' (শ্বাস/নিঃশ্বাস)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7295,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun of 'Deviate'?",
+    "options": [
+      "A) Devious",
+      "B) Deviated",
+      "C) Deviator",
+      "D) Deviation"
+    ],
+    "answer": 3,
+    "explanation": "'Deviate' (বিচ্যুত হওয়া) ভার্বের সাথে '-tion' যুক্ত হয়ে গঠিত Noun হলো 'Deviation' (বিচ্যুতি)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7296,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun form of 'Admit'?",
+    "options": [
+      "A) Admittance",
+      "B) Admitted",
+      "C) Admission",
+      "D) Admissible"
+    ],
+    "answer": 2,
+    "explanation": "'Admit' (ভর্তি হওয়া/স্বীকার করা)-এর বহুল প্রচলিত Noun রূপ হলো 'Admission' (ভর্তি/স্বীকৃতি)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7297,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The adjective form of 'Admire' is —",
+    "options": [
+      "A) Admirable",
+      "B) Admirer",
+      "C) Admirably",
+      "D) Admiration"
+    ],
+    "answer": 0,
+    "explanation": "'Admire' (প্রশংসা করা)-এর সাথে '-able' যুক্ত হয়ে গঠিত Adjective হলো 'Admirable' (প্রশংসনীয়)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7298,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun of 'Conclude'?",
+    "options": [
+      "A) Conclusive",
+      "B) Conclusion",
+      "C) Conclusively",
+      "D) Concluding"
+    ],
+    "answer": 1,
+    "explanation": "'Conclude' (উপসংহারে আসা) ভার্বটির Noun রূপ হলো 'Conclusion' (উপসংহার বা সিদ্ধান্ত)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7299,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The noun form of 'Defend' is —",
+    "options": [
+      "A) Defendant",
+      "B) Defended",
+      "C) Defensive",
+      "D) Defence / Defense"
+    ],
+    "answer": 3,
+    "explanation": "'Defend' (রক্ষা করা) ভার্বটির মূল Noun রূপ হলো 'Defence' (ব্রিটিশ) বা 'Defense' (আমেরিকান)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7300,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the adjective of 'Obey'?",
+    "options": [
+      "A) Obedience",
+      "B) Obeying",
+      "C) Obedient",
+      "D) Obediently"
+    ],
+    "answer": 2,
+    "explanation": "'Obey' (মান্য করা)-এর Adjective রূপ হলো 'Obedient' (বাধ্যগত)। Noun হলো 'Obedience'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7301,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun form of 'Produce'?",
+    "options": [
+      "A) Production",
+      "B) Producer",
+      "C) Productive",
+      "D) Product"
+    ],
+    "answer": 0,
+    "explanation": "'Produce' (উৎপাদন করা) ক্রিয়ার সার্বিক উৎপাদন প্রক্রিয়া নির্দেশক Noun রূপ হলো 'Production'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7302,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The noun form of 'Depart' is —",
+    "options": [
+      "A) Department",
+      "B) Departure",
+      "C) Departed",
+      "D) Departing"
+    ],
+    "answer": 1,
+    "explanation": "'Depart' (প্রস্থান করা) ভার্বটির সাথে '-ure' সাফিক্স যুক্ত হয়ে Noun হয় 'Departure' (প্রস্থান)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7303,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the adjective of 'Perceive'?",
+    "options": [
+      "A) Perceptible",
+      "B) Perception",
+      "C) Perceptive",
+      "D) Perceptibly"
+    ],
+    "answer": 0,
+    "explanation": "যা ইন্দ্রিয়গোচর বা অনুভবযোগ্য তাকে নির্দেশ করতে Adjective রূপ হলো 'Perceptible'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7304,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun form of 'Resign'?",
+    "options": [
+      "A) Resigning",
+      "B) Resigned",
+      "C) Resignation",
+      "D) Resignee"
+    ],
+    "answer": 2,
+    "explanation": "'Resign' (পদত্যাগ করা) ভার্বটির Noun রূপ হলো 'Resignation' (পদত্যাগপত্র বা পদত্যাগ)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7305,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The noun form of 'Compel' is —",
+    "options": [
+      "A) Compelling",
+      "B) Compulsively",
+      "C) Compulsory",
+      "D) Compulsion"
+    ],
+    "answer": 3,
+    "explanation": "'Compel' (বাধ্য করা)-এর Noun রূপ হলো 'Compulsion' (বাধ্যবাধকতা) এবং Adjective হলো 'Compulsory'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7306,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the adjective form of 'Continue'?",
+    "options": [
+      "A) Continuous",
+      "B) Continuation",
+      "C) Continuity",
+      "D) Continuously"
+    ],
+    "answer": 0,
+    "explanation": "'Continue' (চলিয়ে যাওয়া)-এর অবিচ্ছিন্নতা প্রকাশক Adjective রূপ হলো 'Continuous' বা 'Continual'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7307,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun of 'Approve'?",
+    "options": [
+      "A) Approving",
+      "B) Approved",
+      "C) Approbation",
+      "D) Approval"
+    ],
+    "answer": 3,
+    "explanation": "'Approve' (অনুমোদন করা)-এর সাথে '-al' যুক্ত হয়ে গঠিত Noun হলো 'Approval' (অনুমোদন)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7308,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The noun form of 'Bury' is —",
+    "options": [
+      "A) Buried",
+      "B) Burial",
+      "C) Buryer",
+      "D) Burying"
+    ],
+    "answer": 1,
+    "explanation": "'Bury' (দাফন করা বা সমাহিত করা) ভার্বটির Noun রূপ হলো 'Burial' (দাফনকার্য)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7309,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun form of 'Survive'?",
+    "options": [
+      "A) Survivor",
+      "B) Surviving",
+      "C) Survival",
+      "D) Survivity"
+    ],
+    "answer": 2,
+    "explanation": "'Survive' (টিকে থাকা বা বেঁচে থাকা) ভার্বের Noun রূপ হলো 'Survival' (টিকে থাকা/অস্তিত্ব রক্ষা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7310,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the adjective of 'Attract'?",
+    "options": [
+      "A) Attraction",
+      "B) Attractor",
+      "C) Attractively",
+      "D) Attractive"
+    ],
+    "answer": 3,
+    "explanation": "'Attract' (আকর্ষণ করা)-এর সাথে '-ive' সাফিক্স যুক্ত হয়ে Adjective গঠিত হয় 'Attractive' (আকর্ষণীয়)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7311,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The noun of 'Grieve' is —",
+    "options": [
+      "A) Grievance",
+      "B) Grief",
+      "C) Grieving",
+      "D) Grievous"
+    ],
+    "answer": 1,
+    "explanation": "'Grieve' (শোক করা বা দুঃখ পাওয়া)-এর মূল Noun রূপ হলো 'Grief' (গভীর শোক বা বেদনা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7312,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun form of 'Describe'?",
+    "options": [
+      "A) Descriptive",
+      "B) Describer",
+      "C) Description",
+      "D) Described"
+    ],
+    "answer": 2,
+    "explanation": "'Describe' (বর্ণনা করা) ভার্বটির Noun রূপ হলো 'Description' (বর্ণনা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7313,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the adjective form of 'Create'?",
+    "options": [
+      "A) Creative",
+      "B) Creatively",
+      "C) Creation",
+      "D) Creativity"
+    ],
+    "answer": 0,
+    "explanation": "'Create' (সৃষ্টি করা)-এর সাথে '-ive' যুক্ত হয়ে Adjective রূপ হয় 'Creative' (সৃজনশীল)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7314,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The noun form of 'Refuse' is —",
+    "options": [
+      "A) Refusing",
+      "B) Refusal",
+      "C) Refusation",
+      "D) Refused"
+    ],
+    "answer": 1,
+    "explanation": "'Refuse' (প্রত্যাখ্যান করা) ভার্বটির সাথে '-al' সাফিক্স যুক্ত হয়ে Noun হয় 'Refusal' (প্রত্যাখ্যান)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7315,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun of 'Examine'?",
+    "options": [
+      "A) Examination",
+      "B) Examinee",
+      "C) Examiner",
+      "D) Examining"
+    ],
+    "answer": 0,
+    "explanation": "'Examine' (পরীক্ষা করা) ভার্বটির Noun রূপ হলো 'Examination' (পরীক্ষা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7316,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun form of the adjective 'Able'?",
+    "options": [
+      "A) Ably",
+      "B) Ableness",
+      "C) Ability",
+      "D) Enable"
+    ],
+    "answer": 2,
+    "explanation": "'Able' (সক্ষম) Adjective-এর Noun রূপ হলো 'Ability' (সক্ষমতা) এবং Verb রূপ হলো 'Enable'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7317,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun of the adjective 'Poor'?",
+    "options": [
+      "A) Poorness",
+      "B) Impoverish",
+      "C) Poorly",
+      "D) Poverty"
+    ],
+    "answer": 3,
+    "explanation": "'Poor' (দরিদ্র) Adjective-টির অনিয়মিত Noun রূপ হলো 'Poverty' (দারিদ্র্য)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7318,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb form of 'Deep'?",
+    "options": [
+      "A) Depth",
+      "B) Deepness",
+      "C) Deeply",
+      "D) Deepen"
+    ],
+    "answer": 3,
+    "explanation": "'Deep' (গভীর)-এর সাথে '-en' সাফিক্স যুক্ত হয়ে Verb হয় 'Deepen' (গভীরতর করা)। Noun হলো 'Depth'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7319,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The noun form of 'Wide' is —",
+    "options": [
+      "A) Width",
+      "B) Widen",
+      "C) Wideness",
+      "D) Widely"
+    ],
+    "answer": 0,
+    "explanation": "'Wide' (প্রশস্ত)-এর Noun রূপ হলো 'Width' (প্রস্থ) এবং Verb রূপ হলো 'Widen' (প্রশস্ত করা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7320,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb of 'Strong'?",
+    "options": [
+      "A) Strengthening",
+      "B) Strongly",
+      "C) Strengthen",
+      "D) Strength"
+    ],
+    "answer": 2,
+    "explanation": "'Strong' (শক্তিশালী)-এর Noun হলো 'Strength' এবং তার সাথে '-en' যুক্ত হয়ে Verb হয় 'Strengthen' (শক্তিশালী করা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7321,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The noun form of 'Long' is —",
+    "options": [
+      "A) Longing",
+      "B) Length",
+      "C) Longness",
+      "D) Lengthen"
+    ],
+    "answer": 1,
+    "explanation": "'Long' (দীর্ঘ) Adjective-টির Noun রূপ হলো 'Length' (দৈর্ঘ্য) এবং Verb হলো 'Lengthen' (দীর্ঘায়িত করা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7322,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun form of 'High'?",
+    "options": [
+      "A) Highness",
+      "B) Height",
+      "C) Heighten",
+      "D) Highly"
+    ],
+    "answer": 1,
+    "explanation": "'High' (উচ্চ) Adjective-টির Noun রূপ হলো 'Height' (উচ্চতা) এবং Verb হলো 'Heighten' (বৃদ্ধি করা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7323,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb form of 'False'?",
+    "options": [
+      "A) Falseness",
+      "B) Falsehood",
+      "C) Falsify",
+      "D) Falsely"
+    ],
+    "answer": 2,
+    "explanation": "'False' (মিথ্যা)-এর সাথে '-ify' যুক্ত হয়ে Verb রূপ হয় 'Falsify' (মিথ্যা বা জাল প্রমাণ করা)। Noun হলো 'Falsehood'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7324,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb of 'Pure'?",
+    "options": [
+      "A) Purify",
+      "B) Purification",
+      "C) Purely",
+      "D) Purity"
+    ],
+    "answer": 0,
+    "explanation": "'Pure' (বিশুদ্ধ)-এর Verb রূপ হলো 'Purify' (বিশুদ্ধ করা) এবং Noun রূপ হলো 'Purity'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7325,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The noun form of 'Brave' is —",
+    "options": [
+      "A) Embrave",
+      "B) Braveness",
+      "C) Bravely",
+      "D) Bravery"
+    ],
+    "answer": 3,
+    "explanation": "'Brave' (সাহসী)-এর সাথে '-ry' যুক্ত হয়ে Noun রূপ হয় 'Bravery' (বীরত্ব/সাহসিকতা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7326,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb form of 'Short'?",
+    "options": [
+      "A) Shortage",
+      "B) Shortness",
+      "C) Shorten",
+      "D) Shortly"
+    ],
+    "answer": 2,
+    "explanation": "'Short' (সংক্ষিপ্ত)-এর সাথে '-en' সাফিক্স যুক্ত হয়ে Verb হয় 'Shorten' (সংক্ষিপ্ত বা খাটো করা)। Noun হলো 'Shortage'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7327,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun form of 'True'?",
+    "options": [
+      "A) Truly",
+      "B) Truthfulness",
+      "C) Truthful",
+      "D) Truth"
+    ],
+    "answer": 3,
+    "explanation": "'True' (সত্য) Adjective-টির Noun রূপ হলো 'Truth' (সত্যতা)। 'Truly' হলো Adverb।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7328,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The verb form of 'Glad' is —",
+    "options": [
+      "A) Gladden",
+      "B) Gladness",
+      "C) Gladiator",
+      "D) Gladly"
+    ],
+    "answer": 0,
+    "explanation": "'Glad' (আনন্দিত)-এর সাথে '-en' সাফিক্স যুক্ত হয়ে Verb গঠিত হয় 'Gladden' (আনন্দিত করা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7329,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb form of 'Little' meaning to disparage?",
+    "options": [
+      "A) Lesser",
+      "B) Belittle",
+      "C) Littleness",
+      "D) Less"
+    ],
+    "answer": 1,
+    "explanation": "কাউকে তুচ্ছ বা খাটো করে দেখা বোঝাতে 'Little'-এর পূর্বে 'be-' প্রিফিক্স যুক্ত হয়ে Verb হয় 'Belittle'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7330,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun form of 'Bitter'?",
+    "options": [
+      "A) Bitting",
+      "B) Bitterness",
+      "C) Embitter",
+      "D) Bitterly"
+    ],
+    "answer": 1,
+    "explanation": "'Bitter' (তিক্ত)-এর Noun রূপ হলো 'Bitterness' (তিক্ততা) এবং Verb হলো 'Embitter' (তিক্ত করা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7331,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The noun form of 'Hot' is —",
+    "options": [
+      "A) Hotness",
+      "B) Hotly",
+      "C) Heat",
+      "D) Heater"
+    ],
+    "answer": 2,
+    "explanation": "'Hot' (উত্তপ্ত) Adjective-টির মূল Noun রূপ হলো 'Heat' (তাপ বা উত্তাপ)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7332,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb form of 'Large'?",
+    "options": [
+      "A) Largeness",
+      "B) Largely",
+      "C) Largen",
+      "D) Enlarge"
+    ],
+    "answer": 3,
+    "explanation": "'Large' (বড়)-এর শুরুতে 'en-' যুক্ত হয়ে গঠিত Verb রূপ হলো 'Enlarge' (আকারে বড় বা পরিবর্ধিত করা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7333,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun form of 'Wise'?",
+    "options": [
+      "A) Wisdom",
+      "B) Wish",
+      "C) Wisely",
+      "D) Wiseness"
+    ],
+    "answer": 0,
+    "explanation": "'Wise' (জ্ঞানী) Adjective-টির সাথে '-dom' সাফিক্স যুক্ত হয়ে Noun হয় 'Wisdom' (প্রজ্ঞা বা জ্ঞান)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7334,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The noun form of 'Free' is —",
+    "options": [
+      "A) Freely",
+      "B) Freedom",
+      "C) Freeness",
+      "D) Befriend"
+    ],
+    "answer": 1,
+    "explanation": "'Free' (মুক্ত/স্বাধীন)-এর সাথে '-dom' সাফিক্স যুক্ত হয়ে Noun রূপ হয় 'Freedom' (স্বাধীনতা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7335,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb form of 'Rich'?",
+    "options": [
+      "A) Richly",
+      "B) Richness",
+      "C) Enrich",
+      "D) Enrichment"
+    ],
+    "answer": 2,
+    "explanation": "'Rich' (সমৃদ্ধ)-এর পূর্বে 'en-' উপসর্গ যুক্ত হয়ে গঠিত Verb হলো 'Enrich' (সমৃদ্ধ করা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7336,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun form of 'Proud'?",
+    "options": [
+      "A) Pride",
+      "B) Proudness",
+      "C) Proudly",
+      "D) Prouder"
+    ],
+    "answer": 0,
+    "explanation": "'Proud' (গর্বিত) Adjective-টির অনিয়মিত Noun রূপ হলো 'Pride' (গর্ব বা অহংকার)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7337,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The verb form of 'Broad' is —",
+    "options": [
+      "A) Breadth",
+      "B) Broadly",
+      "C) Broadness",
+      "D) Broaden"
+    ],
+    "answer": 3,
+    "explanation": "'Broad' (প্রশস্ত)-এর Verb রূপ হলো 'Broaden' (প্রশস্ত করা) এবং Noun রূপ হলো 'Breadth' (প্রস্থ)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7338,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the noun form of 'Just'?",
+    "options": [
+      "A) Justice",
+      "B) Justly",
+      "C) Justify",
+      "D) Justness"
+    ],
+    "answer": 0,
+    "explanation": "'Just' (ন্যায়বান/সঠিক)-এর Noun রূপ হলো 'Justice' (ন্যায়বিচার)। Verb হলো 'Justify'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7339,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The noun form of 'Cruel' is —",
+    "options": [
+      "A) Cruelism",
+      "B) Cruelness",
+      "C) Cruelly",
+      "D) Cruelty"
+    ],
+    "answer": 3,
+    "explanation": "'Cruel' (নিষ্ঠুর) Adjective-এর সাথে '-ty' যুক্ত হয়ে Noun রূপ হয় 'Cruelty' (নিষ্ঠুরতা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7340,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb form of 'Noble'?",
+    "options": [
+      "A) Nobleness",
+      "B) Ennoble",
+      "C) Nobly",
+      "D) Nobility"
+    ],
+    "answer": 1,
+    "explanation": "'Noble' (মহৎ)-এর পূর্বে 'en-' প্রিফিক্স বসে গঠিত Verb রূপ হলো 'Ennoble' (মহৎ বা মর্যাদাবান করা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7341,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The noun form of 'Curious' is —",
+    "options": [
+      "A) Cure",
+      "B) Curiousness",
+      "C) Curiosity",
+      "D) Curiously"
+    ],
+    "answer": 2,
+    "explanation": "'Curious' (কৌতূহলী) Adjective-এর Noun রূপ হলো 'Curiosity' (কৌতূহল)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7342,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb of 'Soft'?",
+    "options": [
+      "A) Softness",
+      "B) Softify",
+      "C) Softly",
+      "D) Soften"
+    ],
+    "answer": 3,
+    "explanation": "'Soft' (নরম)-এর সাথে '-en' সাফিক্স যুক্ত হয়ে Verb হয় 'Soften' (নরম বা প্রশমিত করা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7343,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The noun form of 'Silent' is —",
+    "options": [
+      "A) Silentness",
+      "B) Silence",
+      "C) Silently",
+      "D) Silencer"
+    ],
+    "answer": 1,
+    "explanation": "'Silent' (নীরব) Adjective-এর Noun রূপ হলো 'Silence' (নীরবতা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7344,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb form of 'Black'?",
+    "options": [
+      "A) Blackness",
+      "B) Blackish",
+      "C) Blacken",
+      "D) Blackly"
+    ],
+    "answer": 2,
+    "explanation": "'Black' (কালো)-এর সাথে '-en' যুক্ত হয়ে Verb রূপ হয় 'Blacken' (কালো করা বা কলঙ্কিত করা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7345,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The noun form of 'Anxious' is —",
+    "options": [
+      "A) Anxiety",
+      "B) Anxiousness",
+      "C) Anxiousity",
+      "D) Anxiously"
+    ],
+    "answer": 0,
+    "explanation": "'Anxious' (উদ্বিগ্ন) Adjective-এর Noun রূপ হলো 'Anxiety' (উদ্বেগ বা উৎকণ্ঠা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7346,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb form of 'Bright'?",
+    "options": [
+      "A) Brighten",
+      "B) Brightly",
+      "C) Brightful",
+      "D) Brightness"
+    ],
+    "answer": 0,
+    "explanation": "'Bright' (উজ্জ্বল)-এর সাথে '-en' যুক্ত হয়ে Verb রূপ হয় 'Brighten' (উজ্জ্বল করা বা প্রফুল্ল করা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7347,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The noun form of 'Young' is —",
+    "options": [
+      "A) Youngness",
+      "B) Youngling",
+      "C) Youngster",
+      "D) Youth"
+    ],
+    "answer": 3,
+    "explanation": "'Young' (তরুণ/যুবক) Adjective-টির Noun রূপ হলো 'Youth' (যৌবন বা তরুণ বয়স)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7348,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb form of 'Quick'?",
+    "options": [
+      "A) Quickness",
+      "B) Quicken",
+      "C) Quicker",
+      "D) Quickly"
+    ],
+    "answer": 1,
+    "explanation": "'Quick' (দ্রুত)-এর সাথে '-en' যুক্ত হয়ে Verb রূপ হয় 'Quicken' (ত্বরান্বিত করা বা দ্রুত করা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7349,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The noun form of 'Humble' is —",
+    "options": [
+      "A) Humbleness",
+      "B) Humiliate",
+      "C) Humility",
+      "D) Humbly"
+    ],
+    "answer": 2,
+    "explanation": "'Humble' (নম্র/বিনয়ী) Adjective-এর Noun রূপ হলো 'Humility' (নম্রতা)। 'Humiliate' অর্থ অপমান করা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7350,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "What is the verb form of 'Sweet'?",
+    "options": [
+      "A) Sweetish",
+      "B) Sweetly",
+      "C) Sweetness",
+      "D) Sweeten"
+    ],
+    "answer": 3,
+    "explanation": "'Sweet' (মিষ্টি)-এর সাথে '-en' যুক্ত হয়ে Verb রূপ হয় 'Sweeten' (মিষ্টি করা)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7351,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "Which of the following suffixes typically forms an Abstract Noun?",
+    "options": [
+      "A) -ify",
+      "B) -hood",
+      "C) -ize",
+      "D) -en"
+    ],
+    "answer": 1,
+    "explanation": "'-hood' সাফিক্স (যেমন: Childhood, Brotherhood, Manhood) যুক্ত হয়ে Abstract Noun গঠিত হয়। '-ify', '-ize', '-en' হলো Verb গঠনকারী সাফিক্স।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7352,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "Which suffix is used to convert an adjective into a verb?",
+    "options": [
+      "A) -en",
+      "B) -ness",
+      "C) -tion",
+      "D) -ment"
+    ],
+    "answer": 0,
+    "explanation": "Adjective-এর সাথে '-en' যুক্ত করে Verb গঠন করা হয় (যেমন: Deep -> Deepen, Short -> Shorten, Dark -> Darken)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7353,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "The prefix 'mis-' in 'Misfortune' conveys the meaning of —",
+    "options": [
+      "A) Again",
+      "B) Before",
+      "C) Wrong or bad",
+      "D) Opposite to"
+    ],
+    "answer": 2,
+    "explanation": "'mis-' উপসর্গটি মূলত ভুল, ত্রুটিপূর্ণ বা খারাপ (bad / ill / wrong) অর্থ প্রকাশে ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7354,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "Which of the following words is a Noun formed with the suffix '-ship'?",
+    "options": [
+      "A) Worship",
+      "B) Flagship",
+      "C) Steamship",
+      "D) Hardship"
+    ],
+    "answer": 3,
+    "explanation": "'Hardship' (দুর্ভোগ) শব্দটি 'Hard' থেকে '-ship' সাফিক্স সহযোগে গঠিত একটি Abstract Noun।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 7355,
+    "subject": "ইংরেজি",
+    "topic": "English (Change of Parts of Speech)",
+    "question": "Which suffix converts a verb into an adjective expressing capability?",
+    "options": [
+      "A) -tion",
+      "B) -able",
+      "C) -ness",
+      "D) -ment"
+    ],
+    "answer": 1,
+    "explanation": "Verb-এর সাথে '-able' বা '-ible' যুক্ত হয়ে সামর্থ্য বা যোগ্যতা প্রকাশকারী Adjective গঠিত হয় (যেমন: Washable, Readable)।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  }
+]

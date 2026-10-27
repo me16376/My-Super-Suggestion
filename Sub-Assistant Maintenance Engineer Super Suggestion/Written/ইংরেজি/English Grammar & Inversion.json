@@ -1,0 +1,19 @@
+[
+  {
+    "id": 3052,
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Inversion",
+    "question": "Rewrite the following sentences by using Negative Inversion for stylistic emphasis:\n(a) The maintenance team has rarely seen such an intricate network loop.\n(b) The server crashed no sooner than the automated backup initiated.\n(c) The administrator seldom logged into the database without multi-factor authentication.\n(d) We realized that the optical cable was severed only then.\n(e) He not only configured the primary firewall, but he also fortified the DMZ subnets.\n(f) The system will never accept fraudulent biometric submissions under any circumstance.",
+    "marks": 6,
+    "answer": "Negative Inversion Solution:\n\n(a) The maintenance team has rarely seen such an intricate network loop.\n$\\rightarrow$ **Inversion:** **Rarely has the maintenance team seen** such an intricate network loop.\n\n(b) The server crashed no sooner than the automated backup initiated.\n$\\rightarrow$ **Inversion:** **No sooner had the automated backup initiated than** the server crashed.\n\n(c) The administrator seldom logged into the database without multi-factor authentication.\n$\\rightarrow$ **Inversion:** **Seldom did the administrator log** into the database without multi-factor authentication.\n\n(d) We realized that the optical cable was severed only then.\n$\\rightarrow$ **Inversion:** **Only then did we realize** that the optical cable was severed.\n\n(e) He not only configured the primary firewall, but he also fortified the DMZ subnets.\n$\\rightarrow$ **Inversion:** **Not only did he configure** the primary firewall, but he also fortified the DMZ subnets.\n\n(f) The system will never accept fraudulent biometric submissions under any circumstance.\n$\\rightarrow$ **Inversion:** **Under no circumstance will the system accept** fraudulent biometric submissions.",
+    "points_to_remember": [
+      "In negative inversion: Negative word + Auxiliary verb + Subject + Main verb.",
+      "Demonstrating inversion in competitive exams scores top grammatical marks."
+    ],
+    "tags": [
+      "inversion",
+      "stylistic_grammar",
+      "english_written"
+    ]
+  }
+]

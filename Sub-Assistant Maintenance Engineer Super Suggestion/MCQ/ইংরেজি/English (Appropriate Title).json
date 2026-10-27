@@ -1,0 +1,2092 @@
+[
+  {
+    "id": 8016,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "Which of the following is the most essential quality of an appropriate title?",
+    "options": [
+      "A) It should accurately reflect the central theme of the passage.",
+      "B) It must be as long and descriptive as possible.",
+      "C) It should contain several complex idioms.",
+      "D) It must end with a full stop."
+    ],
+    "answer": 0,
+    "explanation": "একটি উপযুক্ত শিরোনামের (Appropriate Title) প্রধান গুণ হলো এটি অনুচ্ছেদ বা রচনার মূল প্রতিপাদ্যকে (central theme) সংক্ষেপে এবং যথার্থভাবে প্রতিফলিত করে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8017,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "In English title capitalization (Title Case), which words are conventionally written in lowercase?",
+    "options": [
+      "A) Main verbs and helping verbs",
+      "B) Nouns and pronouns",
+      "C) Adjectives and adverbs",
+      "D) Short prepositions, conjunctions, and articles (unless they are the first word)"
+    ],
+    "answer": 3,
+    "explanation": "Title Case-এ Noun, Pronoun, Verb, Adjective বড় হাতের হয়; কিন্তু ছোট Preposition (in, on, of), Coordinating Conjunction (and, but) এবং Article (a, an, the) ছোট হাতের থাকে যদি না তারা শিরোনামের প্রথম শব্দ হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8018,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "Which of the following titles exhibits correct Title Case capitalization?",
+    "options": [
+      "A) THE IMPACT OF ARTIFICIAL INTELLIGENCE ON MODERN SOCIETY",
+      "B) The Impact Of Artificial Intelligence On Modern Society",
+      "C) The Impact of Artificial Intelligence on Modern Society",
+      "D) The impact of artificial intelligence on modern society"
+    ],
+    "answer": 2,
+    "explanation": "এখানে Noun (Impact, Intelligence, Society), Adjective (Artificial, Modern) বড় হাতের এবং Preposition (of, on) ছোট হাতের অক্ষরে থাকায় প্রমিত Title Case বজায় রয়েছে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8019,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "Should a standard title or headline end with a full stop (.)?",
+    "options": [
+      "A) Only if it is a single word.",
+      "B) No, standard titles do not end with a full stop.",
+      "C) Yes, every title must end with a period.",
+      "D) Only if it is written in bold letters."
+    ],
+    "answer": 1,
+    "explanation": "শিরোনাম কোনো পূর্ণাঙ্গ বাক্য নয়; এটি একটি নাম বা ফ্রেজ হওয়ায় এর শেষে দাঁড়ি বা Full stop বসে না।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8020,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "What is the primary role of a title in a précis or summary writing?",
+    "options": [
+      "A) To express the central core of the text in a concise phrase",
+      "B) To summarize every single detail",
+      "C) To introduce unrelated creative ideas",
+      "D) To praise the author of the original text"
+    ],
+    "answer": 0,
+    "explanation": "Précis বা সংক্ষেপ লিখনীর শিরোনামের কাজ হলো সমগ্র টেক্সটের নির্যাসকে একটি আকর্ষণীয় ও সংহত শব্দগুচ্ছের মাধ্যমে তুলে ধরা।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8021,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A title that mentions only a minor detail of a passage is criticized for being —",
+    "options": [
+      "A) Too broad",
+      "B) Accurately balanced",
+      "C) Too narrow",
+      "D) Hyperbolic"
+    ],
+    "answer": 2,
+    "explanation": "কোনো শিরোনাম যদি রচনার মূল ভাবকে বাদ দিয়ে একটি অপ্রধান বা গৌণ অংশকে নির্দেশ করে, তবে তাকে 'Too narrow' বা অতিসংকীর্ণ শিরোনাম বলা হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8022,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A title that is so generalized that it could apply to any topic in the field is criticized for being —",
+    "options": [
+      "A) Precise",
+      "B) Too broad",
+      "C) Too narrow",
+      "D) Subjective"
+    ],
+    "answer": 1,
+    "explanation": "অতিরিক্ত সাধারণ বা বিস্তৃত শিরোনাম যা মূল আলোচনার নির্দিষ্ট সীমাকে ধারণ করে না, তাকে 'Too broad' বলা হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8023,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "Which grammatical form is most frequently and effectively used for titles?",
+    "options": [
+      "A) An exclamatory interjection",
+      "B) passive interrogative clause",
+      "C) lengthy complex sentence",
+      "D) concise noun phrase or gerund phrase"
+    ],
+    "answer": 3,
+    "explanation": "শিরোনাম হিসেবে সাধারণত সংহত Noun Phrase (যেমন: 'The Role of Women in Development') বা Gerund Phrase ('Preserving Natural Forests') সবচেয়ে বেশি ব্যবহৃত ও প্রমিত।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8024,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "In a title, when should an article like 'The' or 'A' be capitalized?",
+    "options": [
+      "A) Never, articles are always lowercase",
+      "B) Only when it appears at the end",
+      "C) Whenever it refers to a proper noun",
+      "D) When it is the very first word of the title"
+    ],
+    "answer": 3,
+    "explanation": "শিরোনামের প্রথম শব্দ যেকোনো পার্টস অব স্পিচ (এমনকি article বা preposition) হলেও তার প্রথম অক্ষরটি অবশ্যই Capital letter হবে।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8025,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "Which of the following titles correctly capitalizes a hyphenated compound?",
+    "options": [
+      "A) SELF-RELIANCE In Times Of Crisis",
+      "B) Self-reliance in Times of Crisis",
+      "C) Self-Reliance in Times of Crisis",
+      "D) Self-reliance in times of Crisis"
+    ],
+    "answer": 2,
+    "explanation": "Hyphenated Compound-এর উভয় অংশই যদি মূল শব্দ হয়, তবে Title Case-এ উভয় অংশের প্রথম অক্ষর বড় হাতের হয় ('Self-Reliance')।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8026,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "When a title contains a subtitle separated by a colon (:), how should the subtitle begin?",
+    "options": [
+      "A) The first word of the subtitle must always be capitalized.",
+      "B) The subtitle must be written in italics only.",
+      "C) The first word of the subtitle must be lowercase.",
+      "D) The subtitle cannot contain nouns."
+    ],
+    "answer": 0,
+    "explanation": "কোলন (:) এর পর সাবটাইটেল শুরু হলে তার প্রথম শব্দটি অবশ্যই Capital letter দিয়ে শুরু হতে হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8027,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "Which punctuation mark is acceptable in a title to show contrast or explanation?",
+    "options": [
+      "A) An ellipsis (...) at start",
+      "B) colon (:) or dash (—)",
+      "C) semicolon at the end (;)",
+      "D) full stop (.)"
+    ],
+    "answer": 1,
+    "explanation": "শিরোনাম ও তার ব্যাখ্যার মধ্যে সম্পর্ক বা বৈপরীত্য দেখাতে কোলন (:) বা ড্যাশ (—) বহুল ব্যবহৃত ও মানসম্মত।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8028,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage discusses the historical causes, economic effects, and remedies for inflation. Which title is most appropriate?",
+    "options": [
+      "A) Prices Are Rising Fast Everywhere",
+      "B) Inflation: Causes, Effects, and Remedies",
+      "C) How to Prevent Inflation in One Day",
+      "D) Money and Banking in Bangladesh"
+    ],
+    "answer": 1,
+    "explanation": "অনুচ্ছেদে উল্লিখিত তিনটি মূল দিক (কারণ, প্রভাব ও প্রতিকার) ধারণ করায় 'Inflation: Causes, Effects, and Remedies' সবচেয়ে ভারসাম্যপূর্ণ ও উপযুক্ত শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8029,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text discusses how trees absorb carbon dioxide, prevent soil erosion, and sustain wildlife. What is the best title?",
+    "options": [
+      "A) Carbon Dioxide in Atmosphere",
+      "B) Planting Flowers in Gardens",
+      "C) The Ecological Importance of Trees",
+      "D) The Timber Industry in Asia"
+    ],
+    "answer": 2,
+    "explanation": "গাছের সার্বিক পরিবেশগত গুরুত্ব তুলে ধরায় 'The Ecological Importance of Trees' যথার্থ শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8030,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A paragraph highlights how regular exercise improves heart health, mental alertness, and longevity. The best title is —",
+    "options": [
+      "A) The Structure of the Human Heart",
+      "B) How to Win an Olympic Marathon",
+      "C) Doctors and Hospital Visits",
+      "D) Benefits of Regular Physical Exercise"
+    ],
+    "answer": 3,
+    "explanation": "ব্যায়ামের বহুমুখী উপকারিতার ওপর আলোকপাত করায় 'Benefits of Regular Physical Exercise' উপযুক্ত।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8031,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage focuses on the life struggles and scientific inventions of Thomas Alva Edison. What is the most fitting title?",
+    "options": [
+      "A) Thomas Edison: The Genius of Inventions",
+      "B) American Scientists of Yesterday",
+      "C) The Story of the Electric Bulb Only",
+      "D) How to Study Science at Home"
+    ],
+    "answer": 0,
+    "explanation": "এডিসনের সামগ্রিক জীবন ও আবিষ্কারকে ধারণ করে 'Thomas Edison: The Genius of Inventions' শ্রেষ্ঠ শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8032,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A fable tells the story of a tortoise defeating an overconfident hare in a race. What is the classic appropriate title?",
+    "options": [
+      "A) The Hare and the Tortoise",
+      "B) The Failure of Long Sleep",
+      "C) Fast Running Animal in Forest",
+      "D) Animals Competing in Olympics"
+    ],
+    "answer": 0,
+    "explanation": "ঈশপের এই কালজয়ী গল্পের প্রতিষ্ঠিত ও প্রমিত শিরোনাম হলো 'The Hare and the Tortoise' (উপশিরোনাম: 'Slow and Steady Wins the Race')।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8033,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A story depicts a thirsty crow dropping pebbles into a pitcher to raise the water level. The best title is —",
+    "options": [
+      "A) Summer Heat in the Forest",
+      "B) Pebbles in Ancient Pitchers",
+      "C) The Thirsty Crow and Its Ingenuity",
+      "D) Water Scarcity Across the Globe"
+    ],
+    "answer": 2,
+    "explanation": "কাকের তৃষ্ণা ও তার উপস্থিত বুদ্ধির ওপর ভিত্তি করে 'The Thirsty Crow and Its Ingenuity' যথার্থ শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8034,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "An essay discusses how digital technologies, online platforms, and remote work are shaping the 21st century. The ideal title is —",
+    "options": [
+      "A) How to Send an Email Quickly",
+      "B) The Digital Revolution and the Future of Work",
+      "C) The Silicon Valley Market",
+      "D) Buying Computers Online"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল বিপ্লব ও ভবিষ্যৎ কর্মসংস্থানের সামগ্রিক চিত্র তুলে ধরায় এই শিরোনামটি উপযুক্ত।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8035,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage focuses on the supreme sacrifices of the freedom fighters in 1971 to liberate Bangladesh. The most appropriate title is —",
+    "options": [
+      "A) The Pakistani Military Regime",
+      "B) Bengali Language Movement Only",
+      "C) History of Wars Around the World",
+      "D) The Liberation War of 1971: The Saga of Supreme Sacrifice"
+    ],
+    "answer": 3,
+    "explanation": "১৯৭১ সালের মুক্তিযুদ্ধের আত্মত্যাগ ও গৌরবগাথাকে প্রকাশ করতে এই শিরোনামটি যথাযথ।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8036,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A paragraph emphasizes how reading books broadens the mind, enriches vocabulary, and provides moral guidance. The best title is —",
+    "options": [
+      "A) The Pleasures and Rewards of Reading",
+      "B) Visiting the National Library",
+      "C) Buying Novels in Bookstalls",
+      "D) How to Print Hardcover Books"
+    ],
+    "answer": 0,
+    "explanation": "বই পড়ার আনন্দ ও সুফল নিয়ে রচিত অনুচ্ছেদের নিখুঁত শিরোনাম হলো 'The Pleasures and Rewards of Reading'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8037,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text discusses the causes of river erosion in Bangladesh and its impact on displaced rural families. The best title is —",
+    "options": [
+      "A) Fishing in the Padma River",
+      "B) The Water Transport System of Bangladesh",
+      "C) River Erosion in Bangladesh: Impact and Human Suffering",
+      "D) Building Concrete Embankments Only"
+    ],
+    "answer": 2,
+    "explanation": "নদীভাঙন ও মানুষের দুর্দশাকে ধারণ করা শিরোনামটি সবচেয়ে নিখুঁত।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8038,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage illustrates how honesty builds character, earns public trust, and leads to true peace of mind. The most fitting title is —",
+    "options": [
+      "A) Dealing with Dishonest People",
+      "B) How to Earn Wealth Quickly",
+      "C) The Legal System and Court Trials",
+      "D) Honesty: The Foundation of Moral Character"
+    ],
+    "answer": 3,
+    "explanation": "সততার চারিত্রিক ও আত্মিক ভিত্তি প্রকাশে এই শিরোনামটি সবচেয়ে উপযোগী।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8039,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "An article analyzes the threat of melting glaciers, rising sea levels, and changing rainfall patterns globally. The best title is —",
+    "options": [
+      "A) The Carbon Footprint of Automobiles",
+      "B) Global Warming and Climate Change: A Threat to Humanity",
+      "C) Why It Rains in Summer",
+      "D) The Cold Winter of the Arctic"
+    ],
+    "answer": 1,
+    "explanation": "জলবায়ু পরিবর্তনের বৈশ্বিক হুমকি নির্দেশকারী পূর্ণাঙ্গ শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8040,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A story tells of a shepherd boy who repeatedly cried 'Wolf!' falsely and was finally eaten when a real wolf arrived. The classic title is —",
+    "options": [
+      "A) The Shepherd Boy and the Wolf",
+      "B) How to Guard Domestic Sheep",
+      "C) Shepherds in Ancient Greece",
+      "D) Wild Animals in European Mountains"
+    ],
+    "answer": 0,
+    "explanation": "রাখাল ও বাঘের চিরায়ত গল্পের যথাযথ শিরোনাম হলো 'The Shepherd Boy and the Wolf' (বা 'The False Alarm')।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8041,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text explores how female education leads to lower infant mortality, higher family income, and national prosperity. The best title is —",
+    "options": [
+      "A) Teachers in Modern Colleges",
+      "B) The Role of Mothers in Cooking",
+      "C) Primary Schools in Rural Areas",
+      "D) Female Education: A Catalyst for National Development"
+    ],
+    "answer": 3,
+    "explanation": "নারী শিক্ষার রূপান্তরমূলক ভূমিকা নির্দেশ করায় এই শিরোনামটি সবচেয়ে শক্তিশালী।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8042,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage evaluates the advantages and disadvantages of mobile phones among adolescents. The most balanced title is —",
+    "options": [
+      "A) Smartphones Are Ruining the Youth",
+      "B) Best Mobile Apps for Students",
+      "C) Smartphones and Adolescents: Pros and Cons",
+      "D) The History of Alexander Graham Bell"
+    ],
+    "answer": 2,
+    "explanation": "সুবিধা ও অসুবিধা উভয়ের নিরপেক্ষ মূল্যায়নে 'Pros and Cons' যুক্ত শিরোনামটি সর্বোত্তম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8043,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage discusses the biography of Begum Rokeya and her pioneering contribution to Muslim women's education. The best title is —",
+    "options": [
+      "A) Sultana's Dream and Other Stories",
+      "B) Begum Rokeya: The Pioneer of Women's Renaissance in Bengal",
+      "C) Muslim Women in the 19th Century",
+      "D) Schools in Rangpur and Kolkata"
+    ],
+    "answer": 1,
+    "explanation": "বেগম রোকেয়ার সামগ্রিক অবদান ও ঐতিহাসিক মর্যাদা তুলে ধরা শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8044,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A paragraph details the nutritional value, culinary uses, and medicinal benefits of honey. The most appropriate title is —",
+    "options": [
+      "A) How Insects Collect Nectar",
+      "B) Sweet Food Items for Children",
+      "C) Bee Farming in the Sundarbans",
+      "D) The Nutritional and Medicinal Marvels of Honey"
+    ],
+    "answer": 3,
+    "explanation": "মধুর পুষ্টি ও ভেষজ গুণাবলি নির্দেশক যথার্থ শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8045,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage discusses how excessive reliance on social media leads to depression, loneliness, and shorter attention spans. The best title is —",
+    "options": [
+      "A) How to Gain Followers on Facebook",
+      "B) The Psychological Toll of Social Media Addiction",
+      "C) Computers and Internet Infrastructure",
+      "D) The Success Story of Mark Zuckerberg"
+    ],
+    "answer": 1,
+    "explanation": "সামাজিক যোগাযোগ মাধ্যমের মানসিক কুফল তুলে ধরা সুনির্দিষ্ট শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8046,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text describes the architectural splendor, historical significance, and preservation of the Sixty Dome Mosque. The best title is —",
+    "options": [
+      "A) Mosques Around the Muslim World",
+      "B) Ancient Cities of Bagerhat District",
+      "C) The Sixty Dome Mosque: A Masterpiece of Medieval Architecture",
+      "D) Khan Jahan Ali as a General"
+    ],
+    "answer": 2,
+    "explanation": "ষাট গম্বুজ মসজিদের স্থাপত্য ও ঐতিহ্যের প্রতিফলনকারী নিখুঁত শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8047,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text describes how patience and perseverance helped Abraham Lincoln overcome multiple political defeats before becoming president. The best title is —",
+    "options": [
+      "A) Perseverance in the Face of Failure: The Story of Lincoln",
+      "B) How to Win US Presidential Elections",
+      "C) Lincoln's Childhood in Kentucky",
+      "D) The American Civil War Overview"
+    ],
+    "answer": 0,
+    "explanation": "অধ্যবসায় ও ব্যর্থতা পেরিয়ে সাফল্যের মূল ভাব প্রকাশ করায় এই শিরোনামটি যথাযথ।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8048,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A paragraph discusses the causes of plastic pollution in oceans and its deadly effect on marine species. The best title is —",
+    "options": [
+      "A) Plastic Pollution: A Crisis for Marine Life",
+      "B) Deep Sea Creatures and Fishes",
+      "C) Recycling Factories in Cities",
+      "D) Manufacturing Plastic Bags"
+    ],
+    "answer": 0,
+    "explanation": "সামুদ্রিক প্রাণীর ওপর প্লাস্টিক দূষণের প্রভাব কেন্দ্রিক যথার্থ শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8049,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage focuses on why time management is vital for competitive examination candidates. The most appropriate title is —",
+    "options": [
+      "A) The Importance of Good Handwriting",
+      "B) Questions in Preliminary Exams",
+      "C) How to Buy a Fast Wristwatch",
+      "D) The Art of Time Management for Exam Success"
+    ],
+    "answer": 3,
+    "explanation": "পরীক্ষায় সাফল্যের জন্য সময় ব্যবস্থাপনার গুরুত্ব প্রকাশে এই শিরোনামটি সবচেয়ে সংগতিপূর্ণ।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8050,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text narrates the invention of printing press by Johannes Gutenberg and how it democratized knowledge. The best title is —",
+    "options": [
+      "A) The Life of European Goldsmiths",
+      "B) Gutenberg and the Printing Revolution",
+      "C) Reading Books in Medieval Europe",
+      "D) Paper Mills in Ancient Times"
+    ],
+    "answer": 1,
+    "explanation": "মুদ্রণ বিপ্লব ও গুটেনবার্গের ঐতিহাসিক অবদানকে নির্দেশকারী যথার্থ শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8051,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A paragraph discusses the danger of deforestation in the Amazon Basin and its consequences for planetary oxygen. The best title is —",
+    "options": [
+      "A) Tropical Timber Export Regulations",
+      "B) The Amazon River and Its Fish Species",
+      "C) Deforestation in the Amazon: Threats to Global Ecology",
+      "D) Indigenous Tribes in South America"
+    ],
+    "answer": 2,
+    "explanation": "অ্যামাজনের বন উজাড়ের পরিবেশগত হুমকির কেন্দ্রিক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8052,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A story describes two friends encountering a bear in a forest; one climbed a tree leaving the other behind. The classic title is —",
+    "options": [
+      "A) Dangerous Wild Animal in Woods",
+      "B) Hunting Adventures in Winter",
+      "C) The Two Friends and the Bear",
+      "D) How to Climb Tall Trees Quickly"
+    ],
+    "answer": 2,
+    "explanation": "বিপদে বন্ধুর আসল পরিচয়মূলক গল্পের প্রমিত শিরোনাম হলো 'The Two Friends and the Bear'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8053,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text discusses how solar and wind energy can replace fossil fuels and combat environmental degradation. The best title is —",
+    "options": [
+      "A) The History of Coal Mines",
+      "B) Renewable Energy: The Key to a Sustainable Future",
+      "C) Oil Refineries in the Middle East",
+      "D) Electric Fans and Solar Panels"
+    ],
+    "answer": 1,
+    "explanation": "নবায়নযোগ্য জ্বালানির গুরুত্ব নির্দেশক আধুনিক ও প্রমিত শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8054,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A paragraph illustrates how patriotism inspires citizens to work selflessly for their motherland's welfare. The best title is —",
+    "options": [
+      "A) National Anthem and Flag Rules",
+      "B) Living in Foreign Countries",
+      "C) Military Defense Budgets",
+      "D) Patriotism: The Spirit of Selfless Devotion"
+    ],
+    "answer": 3,
+    "explanation": "দেশপ্রেমের নিঃস্বার্থ আদর্শ প্রকাশে এই শিরোনামটি সর্বাধিক উপযুক্ত।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8055,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage highlights the importance of clean drinking water and sanitation in curbing waterborne diseases. The best title is —",
+    "options": [
+      "A) Clean Water and Sanitation: Pillars of Public Health",
+      "B) Digging Tube Wells in Villages",
+      "C) Cholera and Typhoid Bacteria",
+      "D) The Municipal Water Supply Department"
+    ],
+    "answer": 0,
+    "explanation": "জনস্বাস্থ্যে বিশুদ্ধ পানির ভূমিকা কেন্দ্রিক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8056,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage depicts the bravery and architectural legacy of the Mughal Emperor Babur. The best title is —",
+    "options": [
+      "A) Babur: The Architect of the Mughal Empire",
+      "B) The First Battle of Panipat Only",
+      "C) Mughal Gardens in Kabul",
+      "D) Ancient Swords of Central Asia"
+    ],
+    "answer": 0,
+    "explanation": "বাবরের সামগ্রিক ঐতিহাসিক ভূমিকার প্রতিফলনকারী শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8057,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text analyzes the cultural significance and celebratory rituals of Pohela Boishakh. The most fitting title is —",
+    "options": [
+      "A) Calendar Systems of Ancient India",
+      "B) Buying Traditional Sarees in Dhaka",
+      "C) Pohela Boishakh: The Celebration of Bengali Cultural Heritage",
+      "D) Eating Panta Ilish in Summer"
+    ],
+    "answer": 2,
+    "explanation": "পহেলা বৈশাখের সার্বজনীন সাংস্কৃতিক গুরুত্ব প্রকাশে এটি উপযুক্ত।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8058,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage describes Kazi Nazrul Islam's rebel poetry, anti-colonial stance, and universal humanism. The best title is —",
+    "options": [
+      "A) Musical Compositions of Bengal",
+      "B) Kazi Nazrul Islam: The Rebel Poet of Humanity",
+      "C) The Life of Soldiers in Karachi",
+      "D) Poems Published in Bijli Magazine"
+    ],
+    "answer": 1,
+    "explanation": "নজরুলের বিদ্রোহী সত্ত্বা ও মানবতার জয়গানকে নির্দেশকারী শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8059,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text reviews the historic 7th March Speech of Bangabandhu Sheikh Mujibur Rahman as recognized by UNESCO. The best title is —",
+    "options": [
+      "A) Speeches of World Leaders",
+      "B) The Pakistani Military Generals",
+      "C) Race Course Ground in Dhaka",
+      "D) The 7th March Speech: A Historic Blueprint for Freedom"
+    ],
+    "answer": 3,
+    "explanation": "৭ মার্চের ভাষণের বিশ্বঐতিহাসিক মর্যাদা ও স্বাধীনতার দিকনির্দেশনামূলক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8060,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A paragraph details the traditional handloom industry of Jamdani and its UNESCO Intangible Heritage status. The best title is —",
+    "options": [
+      "A) Weaving Workshops in Narayanganj",
+      "B) Exporting Handlooms to Europe",
+      "C) Cotton Cultivation along the Shitalakshya",
+      "D) Jamdani Saree: The Glory of Bengali Weaving Craft"
+    ],
+    "answer": 3,
+    "explanation": "জামদানির ঐতিহ্য ও বয়নশিল্পের গৌরব প্রকাশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8061,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage discusses the excavation and Buddhist archaeological relics of Paharpur. The best title is —",
+    "options": [
+      "A) Somapura Mahavihara: The Archaeological Gem of Paharpur",
+      "B) Ancient Bricks in Naogaon District",
+      "C) Buddhism in Ancient Tibet",
+      "D) Tourism Destinations in Rajshahi"
+    ],
+    "answer": 0,
+    "explanation": "পাহাড়পুরের প্রত্নতাত্ত্বিক ও স্থাপত্য গুরুত্ব তুলে ধরা শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8062,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text focuses on the life and non-violent philosophy of Mahatma Gandhi. The best title is —",
+    "options": [
+      "A) Spinning Cotton with the Charkha",
+      "B) Mahatma Gandhi and the Philosophy of Non-Violence",
+      "C) British Colonial Law Courts",
+      "D) The Salt March of 1930 Only"
+    ],
+    "answer": 1,
+    "explanation": "গান্ধিজির অহিংস দর্শনের ওপর আলোকপাতকারী প্রমিত শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8063,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A paragraph outlines Nelson Mandela's 27-year imprisonment and fight against apartheid in South Africa. The best title is —",
+    "options": [
+      "A) The African National Congress History",
+      "B) Elections in South Africa in 1994",
+      "C) Nelson Mandela: The Triumph Over Apartheid",
+      "D) Robben Island Prison Conditions"
+    ],
+    "answer": 2,
+    "explanation": "বর্ণবাদের বিরুদ্ধে ম্যান্ডেলার বিজয়গাথা নির্দেশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8064,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage describes the voyages of Christopher Columbus and their impact on global trade and colonization. The best title is —",
+    "options": [
+      "A) The Spanish Royal Navy in 1492",
+      "B) Columbus and the Age of Global Exploration",
+      "C) Sailing Across the Atlantic Ocean",
+      "D) Native Tribes of the Caribbean"
+    ],
+    "answer": 1,
+    "explanation": "কলম্বাসের সমুদ্রাভিযান ও বৈশ্বিক আবিষ্কারের যুগের প্রতিফলন।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8065,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text discusses the origin, evolution, and global popularity of Cricket. The best title is —",
+    "options": [
+      "A) How to Bowl a Fast Delivery",
+      "B) The Lord's Cricket Ground in London",
+      "C) Cricket: The Evolution of a Global Sport",
+      "D) Rules of the LBW Decision"
+    ],
+    "answer": 2,
+    "explanation": "ক্রিকেটের ঐতিহাসিক বিবর্তন ও বৈশ্বিক বিস্তার প্রকাশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8066,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text discusses how artificial intelligence is transforming diagnosis and surgery in modern medicine. The best title is —",
+    "options": [
+      "A) Artificial Intelligence: Revolutionizing Modern Healthcare",
+      "B) Surgical Robots Made in Germany",
+      "C) Computers in Doctor's Chambers",
+      "D) Hospital Administration Systems"
+    ],
+    "answer": 0,
+    "explanation": "চিকিৎসাক্ষেত্রে কৃত্রিম বুদ্ধিমত্তার বিপ্লব নির্দেশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8067,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A paragraph discusses the role of bees in plant pollination and the danger of their extinction. The best title is —",
+    "options": [
+      "A) Sweet Honey Production in Farms",
+      "B) How Honeybees Make Honeycombs",
+      "C) Insects Living in Forest Colonies",
+      "D) Bees and Pollination: Essential Guardians of Food Security"
+    ],
+    "answer": 3,
+    "explanation": "পরাগায়ন ও খাদ্য নিরাপত্তায় মৌমাছির অপরিহার্য ভূমিকা নির্দেশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8068,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage explains the causes and catastrophic consequences of tsunamis in coastal regions. The best title is —",
+    "options": [
+      "A) Building Warning Sirens on Beaches",
+      "B) Fishing Boats Destroyed by Sea Storms",
+      "C) Tsunamis: The Deadly Fury of Ocean Waves",
+      "D) Earthquakes in the Pacific Ring of Fire"
+    ],
+    "answer": 2,
+    "explanation": "সুনামির ভয়াবহতা কেন্দ্রিক যথার্থ শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8069,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text discusses the benefits of space exploration and how satellite technology aids weather forecasting. The best title is —",
+    "options": [
+      "A) Astronauts Wearing Space Suits",
+      "B) Space Exploration and Satellite Technology for Human Welfare",
+      "C) Rockets Launched from Cape Canaveral",
+      "D) The Moon Landing of Apollo 11"
+    ],
+    "answer": 1,
+    "explanation": "মহাকাশ ও স্যাটেলাইট প্রযুক্তির মানবকল্যাণমূলক ব্যবহার নির্দেশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8070,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A paragraph illustrates how cybersecurity protects financial systems and personal privacy against hackers. The best title is —",
+    "options": [
+      "A) Computer Viruses and Trojan Horses",
+      "B) How to Create a Hard Password",
+      "C) Online Banking Applications",
+      "D) Cybersecurity: Safeguarding the Digital World"
+    ],
+    "answer": 3,
+    "explanation": "সাইবার নিরাপত্তার সামগ্রিক প্রয়োজনীয়তা নির্দেশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8071,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage explores the ecological significance of the Sundarbans mangrove forest and Royal Bengal Tigers. The best title is —",
+    "options": [
+      "A) The Sundarbans: The World's Largest Mangrove Ecosystem",
+      "B) Collecting Honey in the Mangroves",
+      "C) The Rivers of Khulna Division",
+      "D) Hunting Tigers in Bagerhat"
+    ],
+    "answer": 0,
+    "explanation": "সুন্দরবনের ম্যানগ্রোভ প্রতিবেশের অনন্য গুরুত্ব প্রকাশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8072,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text evaluates how biotechnology and genetically modified crops help feed a growing world population. The best title is —",
+    "options": [
+      "A) Chemical Fertilizers and Pesticides",
+      "B) Testing Seeds in Laboratory Tubes",
+      "C) Wheat Production in North America",
+      "D) Biotechnology in Agriculture: Feeding the Future World"
+    ],
+    "answer": 3,
+    "explanation": "কৃষি বায়োটেকনোলজির বৈশ্বিক খাদ্য সমাধান নির্দেশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8073,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A paragraph discusses the ozone layer, its depletion by CFCs, and international recovery treaties like the Montreal Protocol. The best title is —",
+    "options": [
+      "A) Air Conditioning Refrigerants",
+      "B) The Ozone Layer: Depletion and Global Recovery Efforts",
+      "C) Ultraviolet Radiation from the Sun",
+      "D) Environmental Treaties Signed in Canada"
+    ],
+    "answer": 1,
+    "explanation": "ওজোন স্তরের ক্ষয় ও বৈশ্বিক পুনরুদ্ধার উদ্যোগ কেন্দ্রিক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8074,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage describes how 3D printing is altering industrial manufacturing and prosthetic limb production. The best title is —",
+    "options": [
+      "A) Making Artificial Fingers and Hands",
+      "B) Computers Connected to Printers",
+      "C) 3D Printing: Reshaping Modern Manufacturing",
+      "D) Using Plastic Spools in Workshops"
+    ],
+    "answer": 2,
+    "explanation": "ত্রিমাত্রিক মুদ্রণের রূপান্তরমূলক প্রভাব নির্দেশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8075,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text highlights how electric vehicles reduce urban smog and greenhouse gas emissions. The best title is —",
+    "options": [
+      "A) Electric Vehicles: Paving the Way for Clean Urban Transport",
+      "B) Petrol and Diesel Price Fluctuations",
+      "C) Lithium-Ion Batteries in Motor Cars",
+      "D) Charging Stations on City Highways"
+    ],
+    "answer": 0,
+    "explanation": "পরিচ্ছন্ন নগর পরিবহনে বৈদ্যুতিক যানবাহনের ভূমিকা নির্দেশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8076,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage explores how discipline in student life lays the foundation for lifelong success and character. The best title is —",
+    "options": [
+      "A) The Value of Discipline in Student Life",
+      "B) Passing Examinations with Good Grades",
+      "C) Obeying Strict College Teachers",
+      "D) School Uniforms and Morning Assemblies"
+    ],
+    "answer": 0,
+    "explanation": "ছাত্রজীবনে শৃঙ্খলার মৌলিক মূল্যবোধ প্রকাশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8077,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A paragraph discusses how corruption erodes the rule of law, drains public resources, and breeds poverty. The best title is —",
+    "options": [
+      "A) Dishonest People in Business",
+      "B) The Anti-Corruption Commission Duties",
+      "C) Corruption: The Scourge of Economic Development",
+      "D) Bribes Paid in Government Offices"
+    ],
+    "answer": 2,
+    "explanation": "দুর্নীতির সামগ্রিক সামাজিক ও অর্থনৈতিক অভিশাপ নির্দেশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8078,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text highlights the therapeutic and emotional power of music to alleviate stress and bring harmony. The best title is —",
+    "options": [
+      "A) Singing Classical Songs in Morning",
+      "B) The Healing Power and Universal Language of Music",
+      "C) Concerts in City Auditoriums",
+      "D) Playing the Piano and Guitar"
+    ],
+    "answer": 1,
+    "explanation": "সঙ্গীতের উপশমকারী শক্তি ও সার্বজনীন আবেদন প্রকাশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8079,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage describes how empathy and compassion strengthen community bonds and reduce loneliness. The best title is —",
+    "options": [
+      "A) Donating Alms to Street Beggars",
+      "B) Psychological Counseling Clinics",
+      "C) Visiting Old Age Homes on Weekends",
+      "D) Empathy: The Keystone of Social Harmony"
+    ],
+    "answer": 3,
+    "explanation": "সহমর্মিতার সামাজিক তাৎপর্য নির্দেশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8080,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A paragraph discusses the dangers of childhood obesity caused by fast food and sedentary lifestyle. The best title is —",
+    "options": [
+      "A) Eating Burgers in Fast Food Joints",
+      "B) Weight Scales in School Clinics",
+      "C) Playing Video Games Indoors",
+      "D) Childhood Obesity: Causes, Risks, and Prevention"
+    ],
+    "answer": 3,
+    "explanation": "শিশুস্থূলতার কারণ ও প্রতিরোধের সুনির্দিষ্ট শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8081,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text examines how globalization fosters international trade but threatens indigenous cultural traditions. The best title is —",
+    "options": [
+      "A) Importing Goods from China and America",
+      "B) Globalization: Opportunities and Cultural Challenges",
+      "C) Multinational Corporations in Asia",
+      "D) Watching Foreign TV Channels"
+    ],
+    "answer": 1,
+    "explanation": "বিশ্বায়নের সুবিধা ও সাংস্কৃতিক চ্যালেঞ্জের ভারসাম্যপূর্ণ শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8082,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage illustrates the profound bond between parents and children and the ethical duty of caring for elderly parents. The best title is —",
+    "options": [
+      "A) Filial Duty and the Dignity of Elderly Care",
+      "B) Family Dinners on Holidays",
+      "C) Parents Paying College Tuition Fees",
+      "D) Nursing Homes in Western Countries"
+    ],
+    "answer": 0,
+    "explanation": "পিতামাতার প্রতি সন্তানের কর্তব্য ও প্রবীণ সেবার মর্যাদা প্রকাশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8083,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A paragraph highlights how noise pollution in megacities impairs hearing, elevates blood pressure, and causes insomnia. The best title is —",
+    "options": [
+      "A) Hearing Aids Sold in Pharmacies",
+      "B) Blowing Hydraulic Horns in Traffic",
+      "C) Noise Pollution: The Silent Menace of Modern Cities",
+      "D) Loudspeakers Used in Public Rallies"
+    ],
+    "answer": 2,
+    "explanation": "শব্দদূষণের মারাত্মক অদৃশ্য ক্ষতি নির্দেশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8084,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text discusses how community volunteering builds self-esteem in youths and helps marginalized populations. The best title is —",
+    "options": [
+      "A) Distributing Warm Blankets in Winter",
+      "B) Cleaning Neighborhood Roads",
+      "C) The Transformative Power of Community Volunteerism",
+      "D) Working for Non-Profit Organizations"
+    ],
+    "answer": 2,
+    "explanation": "স্বেচ্ছাসেবার রূপান্তরমূলক ভূমিকা নির্দেশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8085,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage explores the philosophical concept of happiness and how contentment triumphs over materialistic greed. The best title is —",
+    "options": [
+      "A) True Happiness: Rooted in Contentment, Not Wealth",
+      "B) Buying Expensive Luxury Houses",
+      "C) Earning Billions in Stock Markets",
+      "D) Smiling Faces in Family Photographs"
+    ],
+    "answer": 0,
+    "explanation": "প্রকৃত সুখের দার্শনিক তাৎপর্য প্রকাশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8086,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A fable tells of a greedy dog that dropped its bone into the river trying to grab the reflection's bone. The classic title is —",
+    "options": [
+      "A) Walking Across a Wooden Bridge",
+      "B) The Dog and Its Shadow",
+      "C) Meat Bone Bought from Butcher",
+      "D) Clear Water in Forest Streams"
+    ],
+    "answer": 1,
+    "explanation": "অতি লোভে ক্ষতির এই চিরায়ত গল্পের শিরোনাম হলো 'The Dog and Its Shadow' (নীতিবাক্য: 'Grasp all, lose all')।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8087,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A story tells of a fox flattering a crow to make it sing and drop the cheese from its beak. The classic title is —",
+    "options": [
+      "A) Piece of Cheese on Tree Branch",
+      "B) Flattery in Ancient Greek Fables",
+      "C) Singing Birds in Morning Woods",
+      "D) The Fox and the Crow"
+    ],
+    "answer": 3,
+    "explanation": "তোষামোদের ফাঁদে পড়া নিয়ে ঈশপের গল্পের প্রমিত শিরোনাম হলো 'The Fox and the Crow'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8088,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A fable recounts a tiny mouse rescuing a mighty lion from a hunter's net by chewing through the ropes. The classic title is —",
+    "options": [
+      "A) The Roar of a Trapped Beast",
+      "B) The Lion and the Mouse",
+      "C) Hunter's Rope Trap in Jungle",
+      "D) Small Rodents Chewing Ropes"
+    ],
+    "answer": 1,
+    "explanation": "ক্ষুদ্র জীবেরও বড় উপকার করার ক্ষমতাসূচক গল্পের প্রমিত শিরোনাম 'The Lion and the Mouse'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8089,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A story describes a farmer who killed the goose that laid golden eggs in order to get all gold at once. The classic title is —",
+    "options": [
+      "A) Domestic Birds on Farm Land",
+      "B) Selling Gold in City Markets",
+      "C) The Goose That Laid the Golden Eggs",
+      "D) Greedy Farmer in Village"
+    ],
+    "answer": 2,
+    "explanation": "লোভের করুণ পরিণতির প্রমিত শিরোনাম হলো 'The Goose That Laid the Golden Eggs'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8090,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A fable depicts a fox unable to reach grapes hanging high and walking away claiming they were sour. The classic title is —",
+    "options": [
+      "A) Jumping High in Countryside",
+      "B) Wild Foxes in Autumn",
+      "C) Sweet Purple Fruit in Vineyard",
+      "D) The Fox and the Grapes"
+    ],
+    "answer": 3,
+    "explanation": "না পাওয়ার অক্ষমতা ঢাকতে দোষারোপ করার গল্পের প্রমিত শিরোনাম 'The Fox and the Grapes'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8091,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A story tells of an old man giving a bundle of sticks to his quarreling sons to teach them the strength of unity. The classic title is —",
+    "options": [
+      "A) Unity Is Strength",
+      "B) Breaking Dry Wooden Sticks",
+      "C) An Old Farmer on Deathbed",
+      "D) Quarreling Brothers in Village"
+    ],
+    "answer": 0,
+    "explanation": "ঐক্যের শক্তি বিষয়ক এই নীতিকাহিনির সর্বোত্তম শিরোনাম 'Unity Is Strength'।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8092,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "An editorial examines the economic importance and challenges of the Ready-Made Garments (RMG) sector in Bangladesh. The best title is —",
+    "options": [
+      "A) Workers Demanding Minimum Wage",
+      "B) Bangladesh's RMG Sector: Engine of Growth and Future Challenges",
+      "C) Exporting T-Shirts to Europe",
+      "D) Sewing Shirts in Dhaka Factories"
+    ],
+    "answer": 1,
+    "explanation": "পোশাক শিল্পের সামগ্রিক অর্থনৈতিক অবস্থান ও ভবিষ্যৎ চ্যালেঞ্জের প্রতিফলনকারী শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8093,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage analyzes the role of the microcredit model in alleviating rural poverty and empowering rural women. The best title is —",
+    "options": [
+      "A) Small Banking Branches in Villages",
+      "B) Weekly Installments Paid by Farmers",
+      "C) Microcredit: Empowering Rural Women and Fighting Poverty",
+      "D) Buying Sewing Machines with Loans"
+    ],
+    "answer": 2,
+    "explanation": "ক্ষুদ্রঋণের রূপান্তরমূলক ভূমিকা নির্দেশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8094,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text reviews the conservation efforts to protect the Sundarbans mangrove tiger habitat from poaching and climate change. The best title is —",
+    "options": [
+      "A) Forest Guards with Rifles",
+      "B) Tigers Roaming in Forest Canals",
+      "C) Wild Animals of South Asia",
+      "D) Saving the Royal Bengal Tiger: Conservation and Challenges"
+    ],
+    "answer": 3,
+    "explanation": "রয়্যাল বেঙ্গল টাইগার সংরক্ষণ ও চ্যালেঞ্জ কেন্দ্রিক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8095,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage details the nutritional benefits, farming methods, and economic potential of mushroom cultivation in Bangladesh. The best title is —",
+    "options": [
+      "A) Mushroom Cultivation: A Nutritious and Lucrative Enterprise",
+      "B) Agricultural Subsidies for Youth",
+      "C) Growing Fungi in Dark Rooms",
+      "D) Cooking Mushroom Soup in Hotels"
+    ],
+    "answer": 0,
+    "explanation": "মাশরুম চাষের বহুমুখী সম্ভাবনা প্রকাশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8096,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text discusses the vital role of wetlands (haors and beels) in flood control, biodiversity, and inland fishery. The best title is —",
+    "options": [
+      "A) Boats Traveling in Deep Waters",
+      "B) Fishing with Nets in Sylhet Haors",
+      "C) The Ecological and Economic Value of Bangladesh's Wetlands",
+      "D) Migratory Birds in Winter Months"
+    ],
+    "answer": 2,
+    "explanation": "হাওর ও জলাভূমির পরিবেশগত ও অর্থনৈতিক গুরুত্ব প্রকাশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8097,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage describes how the construction of the Padma Multipurpose Bridge revolutionized connectivity with southwestern Bangladesh. The best title is —",
+    "options": [
+      "A) The Padma Bridge: A Milestone in Regional Connectivity and Economic Growth",
+      "B) Laying Pillars in Deep Water",
+      "C) Crossing the Padma River by Ferry",
+      "D) Road Transport to Khulna and Barishal"
+    ],
+    "answer": 0,
+    "explanation": "পদ্মা সেতুর ঐতিহাসিক ও অর্থনৈতিক তাৎপর্য নির্দেশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8098,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "An essay analyzes the impact of air pollution on lung health in densely populated Asian cities. The best title is —",
+    "options": [
+      "A) Smoggy Skies in Winter Mornings",
+      "B) Urban Air Pollution: A Growing Public Health Emergency",
+      "C) Wearing Masks on City Streets",
+      "D) Exhaust Smoke from Old Buses"
+    ],
+    "answer": 1,
+    "explanation": "বায়ুদূষণের স্বাস্থ্যগত জরুরি অবস্থা নির্দেশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8099,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A paragraph highlights how the preservation of mother tongues preserves unique cultural wisdom and human diversity. The best title is —",
+    "options": [
+      "A) Dictionaries Published by Academies",
+      "B) Speaking English in International Forums",
+      "C) Learning Grammar Rules in Class",
+      "D) Preserving Linguistic Diversity: The Shield of Cultural Wisdom"
+    ],
+    "answer": 3,
+    "explanation": "ভাষাগত বৈচিত্র্য রক্ষার দার্শনিক ও সাংস্কৃতিক তাৎপর্য নির্দেশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8100,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage examines how proper waste recycling can reduce landfill accumulation and generate biogas energy. The best title is —",
+    "options": [
+      "A) Waste Management and Recycling: Turning Garbage into Resource",
+      "B) Compost Fertilizer for Kitchen Gardens",
+      "C) Garbage Trucks in City Corporations",
+      "D) Plastic Bottles in Street Drains"
+    ],
+    "answer": 0,
+    "explanation": "বর্জ্য ব্যবস্থাপনা ও পুনর্ব্যবহারের অর্থনৈতিক ও পরিবেশগত দিক প্রকাশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8101,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text discusses the life and humanistic contributions of Mother Teresa among the destitute in Kolkata. The best title is —",
+    "options": [
+      "A) Nuns Working in Slums of Kolkata",
+      "B) Mother Teresa: The Apostle of Compassion and Service",
+      "C) The Nobel Peace Prize Ceremony of 1979",
+      "D) Hospitals for Leprosy Patients"
+    ],
+    "answer": 1,
+    "explanation": "মাদার তেরেসার আত্মত্যাগী সেবার মর্যাদা প্রকাশকারী শ্রেষ্ঠ শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8102,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A paragraph explores the significance of cyber etiquette and polite behavior in digital communications. The best title is —",
+    "options": [
+      "A) Writing Comments on Social Media",
+      "B) Sending Emails to Friends",
+      "C) Netiquette: The Golden Rules of Online Behavior",
+      "D) Browsing the Internet Safely"
+    ],
+    "answer": 2,
+    "explanation": "অনলাইন শিষ্টাচার নির্দেশক সংহত ও মানসম্মত শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8103,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage explores the ecological wonders of coral reefs and how ocean warming causes coral bleaching. The best title is —",
+    "options": [
+      "A) Colorful Fish Swimming in Sea",
+      "B) Scuba Diving in Saint Martin's Island",
+      "C) Marine Tourism Regulations",
+      "D) Coral Reefs: Underwater Rainforests Under Siege"
+    ],
+    "answer": 3,
+    "explanation": "প্রবাল প্রাচীরের মহিমা ও বিপন্নতার রূপক ও সার্থক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8104,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text analyzes how artificial lighting at night disrupts bird migration and nocturnal wildlife. The best title is —",
+    "options": [
+      "A) Watching Stars with Telescopes",
+      "B) Migratory Birds Flying in Darkness",
+      "C) Light Pollution: Disrupting Nature's Nocturnal Rhythm",
+      "D) Electric Streetlights in Cities"
+    ],
+    "answer": 2,
+    "explanation": "আলোক দূষণের প্রাকৃতিক ক্ষতি কেন্দ্রিক সুনির্দিষ্ট শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8105,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage outlines how sportsmanship teaches participants to respect opponents and accept defeat with grace. The best title is —",
+    "options": [
+      "A) Referees Giving Red and Yellow Cards",
+      "B) Sportsmanship: The True Spirit of the Game",
+      "C) Scoring Goals in Football Matches",
+      "D) Winning Trophies in Tournaments"
+    ],
+    "answer": 1,
+    "explanation": "খেলোয়াড়োচিত মনোভাবের প্রকৃত মর্ম প্রকাশকারী শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8106,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage discusses the life of Stephen Hawking, his battle with ALS, and his cosmological theories on black holes. What is the most fitting title?",
+    "options": [
+      "A) The Physics of Black Holes in Space",
+      "B) Living with Motor Neuron Disease",
+      "C) Cambridge University and Its Scholars",
+      "D) Stephen Hawking: Triumphant Mind Against Physical Limits"
+    ],
+    "answer": 3,
+    "explanation": "হকিংয়ের জীবনের শারীরিক প্রতিবন্ধকতা জয় ও মহাজাগতিক প্রতিভাকে ধারণ করা উপযুক্ত শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8107,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text analyzes how deforestation and habitat loss are forcing wild elephants into human settlements in Chittagong. The best title is —",
+    "options": [
+      "A) Human-Elephant Conflict: Causes, Crisis, and Coexistence",
+      "B) Building Fences Along Agricultural Lands",
+      "C) Wild Elephants in the Forests of Cox's Bazar",
+      "D) Elephant Sanctuaries of South Asia"
+    ],
+    "answer": 0,
+    "explanation": "মানুষ ও হাতির সংঘাত, তার কারণ ও সমাধানের ওপর জোর দেওয়া শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8108,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A paragraph details the health risks of excessive sugar intake, including diabetes, tooth decay, and heart ailments. The best title is —",
+    "options": [
+      "A) Visiting Dentists for Dental Care",
+      "B) How Insulin Controls Blood Glucose",
+      "C) Sweet Confectionery and Chocolates",
+      "D) The Bitter Truth About Excessive Sugar Consumption"
+    ],
+    "answer": 3,
+    "explanation": "অতিরিক্ত চিনি গ্রহণের স্বাস্থ্যগত কুফল তুলে ধরা আকর্ষণীয় ও যথাযথ শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8109,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage explores the life of Marie Curie, her pioneering research on radioactivity, and her two Nobel Prizes. The best title is —",
+    "options": [
+      "A) Marie Curie: The Trailblazing Pioneer of Radioactivity",
+      "B) Women Who Won Nobel Prizes in Physics",
+      "C) Discovering Radium and Polonium in Paris",
+      "D) The Sorbonne University Chemistry Laboratory"
+    ],
+    "answer": 0,
+    "explanation": "মাদাম কুরির যুগান্তকারী বৈজ্ঞানিক গবেষণার মর্যাদা নির্দেশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8110,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text examines how solar home systems brought electricity, education, and micro-enterprises to off-grid rural villages in Bangladesh. The best title is —",
+    "options": [
+      "A) Buying Solar Panels in Village Bazaars",
+      "B) Government Power Generation Stations",
+      "C) Solar Energy: Lighting Up Rural Bangladesh",
+      "D) Installing Batteries in Mud Houses"
+    ],
+    "answer": 2,
+    "explanation": "সৌরবিদ্যুতের মাধ্যমে গ্রামীণ জীবনের রূপান্তর প্রকাশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8111,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "An essay analyzes the psychological causes and remedies for student procrastination before examinations. The best title is —",
+    "options": [
+      "A) Studying One Night Before the Finals",
+      "B) Overcoming Procrastination: The Key to Academic Excellence",
+      "C) Timetables for College Examinations",
+      "D) Why Students Watch Television Late"
+    ],
+    "answer": 1,
+    "explanation": "দীর্ঘসূত্রতা পরিহার ও প্রাতিষ্ঠানিক উৎকর্ষ কেন্দ্রিক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8112,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage highlights how regular meditation reduces cortisol, enhances emotional resilience, and sharpens focus. The best title is —",
+    "options": [
+      "A) Meditation: The Science of Mental Peace and Focus",
+      "B) How to Breathe Deeply in Morning",
+      "C) Ancient Spiritual Practices in India",
+      "D) Sitting Silently in a Quiet Room"
+    ],
+    "answer": 0,
+    "explanation": "ধ্যানের মানসিক ও বৈজ্ঞানিক উপযোগিতা নির্দেশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8113,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A paragraph discusses the role of mangrove roots in trapping sediments and protecting coastlines from storm surges. The best title is —",
+    "options": [
+      "A) Embankments Built Along Coastal Roads",
+      "B) Pneumatophores in Saline Mud",
+      "C) Mangroves: Nature's Bio-Shield Against Cyclones",
+      "D) Mud Crabs and Fish in Mangroves"
+    ],
+    "answer": 2,
+    "explanation": "প্রাকৃতিক সুরক্ষা প্রাচীর হিসেবে ম্যানগ্রোভের ভূমিকা নির্দেশক রূপক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8114,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text describes how Johannes Kepler formulated the three laws of planetary motion, revolutionizing astronomy. The best title is —",
+    "options": [
+      "A) Astronomers Living in Medieval Prague",
+      "B) Looking at the Night Sky with Lenses",
+      "C) The Orbit of Mars Around the Sun",
+      "D) Kepler's Laws and the Geometry of the Heavens"
+    ],
+    "answer": 3,
+    "explanation": "কেপলারের গ্রহীয় গতিসূত্র ও আধুনিক জ্যোতির্বিজ্ঞানের সূচনা নির্দেশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8115,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage recounts the legendary bravery and strategic military defense of Pritilata Waddedar during the Chittagong Armoury Raid. The best title is —",
+    "options": [
+      "A) The Pahartali European Club Incident",
+      "B) Pritilata Waddedar: The Heroic Flame of Anti-Colonial Struggle",
+      "C) Women in Colonial Police Records",
+      "D) Revolutionaries of Chittagong District"
+    ],
+    "answer": 1,
+    "explanation": "প্রীতিলতা ওয়াদ্দেদারের বিপ্লবী আত্মত্যাগের মহিমা প্রকাশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8116,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A paragraph discusses how water hyacinth, often considered an aquatic weed, can be utilized for organic compost and floating agriculture. The best title is —",
+    "options": [
+      "A) Cleaning Weed from Flowing Canals",
+      "B) Purple Flowers Blooming in Village Ponds",
+      "C) Water Hyacinth: From Nuisance to Agricultural Resource",
+      "D) Floating Seedbeds in Gopalganj"
+    ],
+    "answer": 2,
+    "explanation": "কচুরিপানার ক্ষতিকর রূপ থেকে সম্পদে রূপান্তরের চিত্র প্রকাশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8117,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text explores how sleep deprivation affects cognitive performance, memory consolidation, and immunity. The best title is —",
+    "options": [
+      "A) Dreams and Rapid Eye Movement",
+      "B) The Imperative of Sleep for Cognitive and Physical Health",
+      "C) Sleeping Eight Hours Every Night",
+      "D) Taking Sleeping Pills Safely"
+    ],
+    "answer": 1,
+    "explanation": "পর্যাপ্ত ঘুমের শারীরিক ও মানসিক প্রয়োজনীয়তা নির্দেশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8118,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage focuses on the life and monumental achievements of Isaac Newton in mathematics and universal gravitation. The best title is —",
+    "options": [
+      "A) Calculus and Mathematical Notations",
+      "B) An Apple Falling from an Orchard Tree",
+      "C) The Royal Society of London",
+      "D) Sir Isaac Newton: The Architect of Classical Physics"
+    ],
+    "answer": 3,
+    "explanation": "নিউটনের চিরায়ত পদার্থবিজ্ঞানের প্রতিষ্ঠাতার মর্যাদা নির্দেশক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8119,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text analyzes the challenges faced by children with Autism Spectrum Disorder and the importance of inclusive schooling. The best title is —",
+    "options": [
+      "A) Embracing Neurodiversity: Inclusive Education for Autistic Children",
+      "B) Speech Delay and Social Anxiety",
+      "C) Behavioral Therapy Centers for Children",
+      "D) Special Schools in Metropolitan Cities"
+    ],
+    "answer": 0,
+    "explanation": "অটিজম সচেতনতা ও অন্তর্ভুক্তিমূলক শিক্ষার প্রমিত শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8120,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A paragraph details how fast-moving fashion trends (fast fashion) create massive textile waste and pollute water bodies with synthetic dyes. The best title is —",
+    "options": [
+      "A) Cotton Mills and Synthetic Fabrics",
+      "B) The Environmental Cost of Fast Fashion",
+      "C) Recycling Old Cotton T-Shirts",
+      "D) Buying Clothes in Shopping Malls"
+    ],
+    "answer": 1,
+    "explanation": "ফাস্ট ফ্যাশনের পরিবেশগত ক্ষতিকর প্রভাব কেন্দ্রিক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8121,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage narrates how Florence Nightingale transformed military nursing and modern hospital sanitation during the Crimean War. The best title is —",
+    "options": [
+      "A) Florence Nightingale: The Lady with the Lamp and Modern Nursing",
+      "B) Carrying Lamps in Dark Military Wards",
+      "C) Military Hospitals in the Crimean Peninsula",
+      "D) Nursing Schools in Victorian London"
+    ],
+    "answer": 0,
+    "explanation": "ফ্লোরেন্স নাইটিঙ্গেলের ঐতিহাসিক নার্সিং বিপ্লবের শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8122,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text explains the biological process of photosynthesis and how chloroplasts convert sunlight into chemical energy. The best title is —",
+    "options": [
+      "A) Sunlight Falling on Forest Canopies",
+      "B) Green Chlorophyll Inside Plant Leaves",
+      "C) Oxygen Bubbles in Water Plants",
+      "D) Photosynthesis: The Engine of Terrestrial Life"
+    ],
+    "answer": 3,
+    "explanation": "সালোকসংশ্লেষণের সার্বিক জৈবিক গুরুত্ব নির্দেশক রূপক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8123,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A paragraph discusses the economic and social empowerment brought about by rural road electrification and all-weather bridges. The best title is —",
+    "options": [
+      "A) Local Government Engineering Department",
+      "B) Paved Bridges Across Small Canals",
+      "C) Rural Infrastructure: Bridging the Divide to Prosperity",
+      "D) Laying Asphalt on Village Roads"
+    ],
+    "answer": 2,
+    "explanation": "গ্রামীণ অবকাঠামো ও জাতীয় উন্নয়নের সংযোগমূলক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8124,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A passage illustrates the profound artistic vision and Bengal famine sketches of Zainul Abedin. The best title is —",
+    "options": [
+      "A) Sketches of the 1943 Bengal Famine Only",
+      "B) Zainul Abedin: The Great Painter of Human Agony and Resilience",
+      "C) Art Institutes Established in Dhaka",
+      "D) Drawing with Chinese Ink and Brush"
+    ],
+    "answer": 1,
+    "explanation": "শিল্পাচার্য জয়নুল আবেদিনের মানবিক শিল্পচেতনার যথার্থ শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  },
+  {
+    "id": 8125,
+    "subject": "ইংরেজি",
+    "topic": "English (Appropriate Title)",
+    "question": "A text describes the historical importance of the Magna Carta (1215) in limiting royal power and establishing constitutional rights. The best title is —",
+    "options": [
+      "A) British Monarchy in the Thirteenth Century",
+      "B) Feudal Barons in Medieval England",
+      "C) King John Signing Parchment at Runnymede",
+      "D) The Magna Carta: The Cornerstone of Constitutional Liberty"
+    ],
+    "answer": 3,
+    "explanation": "ম্যাগনা কার্টার সাংবিধানিক তাৎপর্য নির্দেশক ঐতিহাসিক শিরোনাম।",
+    "tags": [
+      "english",
+      "grammar",
+      "bcs_bpsc"
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": 3022,
+    "subject": "ইংরেজি",
+    "topic": "Précis Writing",
+    "question": "Write a précis of the following passage to approximately one-third of its original length and suggest an appropriate title:\n\n\"The widespread deployment of electronic government services has radically altered citizen expectations across the developing world. In the past, obtaining basic civic documents—such as birth certificates, trade licenses, land deeds, and passports—demanded physical travel, standing in agonizingly long queues, navigating opaque administrative layers, and frequently submitting to the corrupt demands of intermediaries. Today, online portals and centralized biometric repositories allow citizens to initiate applications from mobile devices, track processing statuses in real time, and make direct digital fee payments without bureaucratic friction. However, this transformation remains profoundly uneven. A substantial segment of the population, particularly rural elders, illiterate laborers, and marginalized communities, lacks access to broadband connectivity, digital literacy, and smartphone interfaces. If public administrations digitize procedures without establishing physical assisted-service touchpoints, e-governance risks alienating the very citizens who stand in greatest need of social inclusion and state protection.\"",
+    "marks": 8,
+    "answer": "Précis Solution:\n\n**Title: The Promise and Peril of Digital Public Services**\n\n**Précis:**\nElectronic governance has revolutionized public service delivery by eliminating cumbersome queues, bureaucratic delays, and intermediary exploitation through online applications, real-time tracking, and digital payments. Nevertheless, digital illiteracy and inadequate internet access among rural and disadvantaged populations create a severe digital divide. Unless governments provide accessible, assisted service centers alongside automation, digital transformation threatens to marginalize vulnerable citizens rather than empowering them.\n\n*(Word count: 64 words; Original passage: 172 words)*",
+    "points_to_remember": [
+      "Précis must be approximately one-third of original length (between 30% and 35%).",
+      "Avoid personal opinions; maintain objective third-person reporting style."
+    ],
+    "tags": [
+      "precis_writing",
+      "english_written"
+    ]
+  },
+  {
+    "id": 3040,
+    "subject": "ইংরেজি",
+    "topic": "Précis Writing",
+    "question": "Write a précis of the following passage in about one-third of its length and suggest a suitable title:\n\n\"The integration of Artificial Intelligence into public sector administration and immigration border control offers tremendous opportunities to streamline operations, enhance document fraud detection, and eliminate long queues at international airports. Machine learning algorithms can analyze passport security features, facial landmarks, and behavioral biometrics in fractions of a second, far outpacing the capacity of human border guards. However, this profound technological leap forward is accompanied by substantial ethical and societal hazards. If trained on skewed or unrepresentative demographic datasets, facial recognition models can exhibit dangerous algorithmic bias, leading to disproportionate false rejections of specific ethnic minorities. Furthermore, the ubiquitous harvesting and long-term retention of private biometric information in centralized databases expose citizens to perpetual state surveillance and severe risks of catastrophic cyber breaches. Therefore, deploying artificial intelligence in sovereign public spheres must be strictly balanced with transparent algorithmic governance, independent oversight committees, robust privacy laws, and unconditional human-in-the-loop validation mechanisms to protect fundamental civil liberties.\"",
+    "marks": 8,
+    "answer": "Précis Solution:\n\n**Title: Balancing AI Innovation and Civil Liberties in Public Governance**\n\n**Précis:**\nWhile artificial intelligence significantly enhances border control and fraud detection by accelerating biometric verification beyond human speed, it introduces severe ethical risks. Flawed algorithmic datasets can cause discriminatory racial bias, while centralized biometric storage threatens personal privacy and invites catastrophic cyber theft. Consequently, public AI deployment mandates transparent governance, independent audit oversight, and human verification to protect democratic freedoms.\n\n*(Word count: 62 words; Original text: 168 words)*",
+    "points_to_remember": [
+      "Précis must capture the core paradox (benefits vs. risks) in approximately 30-35% of the original text.",
+      "A concise and relevant title is mandatory."
+    ],
+    "tags": [
+      "precis_writing",
+      "summary",
+      "ai_ethics",
+      "english_written"
+    ]
+  },
+  {
+    "id": 3059,
+    "subject": "ইংরেজি",
+    "topic": "Précis Writing",
+    "question": "Write a précis of the following passage in about one-third of its length and assign an appropriate title:\n\n\"The modern global economy is fundamentally reliant on semiconductor microchips, the tiny silicon wafers that power everything from household appliances and smartphones to advanced fighter aircraft and national biometric passport readers. However, the semiconductor supply chain represents one of the most fragile and highly concentrated industrial ecosystems in human history. The production of the most advanced microprocessors (sub-3 nanometer architecture) is concentrated predominantly in a single geographic hotspot—Taiwan—relying on ultra-precise extreme ultraviolet (EUV) photolithography machinery manufactured exclusively by a single Dutch company, ASML. Any military conflict in the Taiwan Strait, natural calamity, or diplomatic embargo could instantly paralyze global automotive assembly, halt server manufacturing, and trigger an unprecedented technological depression. Recognizing this existential vulnerability, global economic powers are currently investing hundreds of billions of dollars into sovereign semiconductor manufacturing initiatives, aiming to re-shore silicon fabrication and safeguard their technological independence against future geopolitical shocks.\"",
+    "marks": 8,
+    "answer": "Précis Solution:\n\n**Title: The Fragility and Geopolitics of the Global Semiconductor Supply Chain**\n\n**Précis:**\nMicrochips are the vital foundation of modern industry, powering consumer devices and defense technologies alike. However, extreme manufacturing concentration—primarily in Taiwan and dependent on exclusive Dutch lithography—makes the global semiconductor supply chain dangerously fragile. Geopolitical conflicts or disasters could trigger catastrophic worldwide technological collapse, prompting global superpowers to invest billions in domestic silicon fabrication to secure sovereign resilience.\n\n*(Word count: 61 words; Original passage: 164 words)*",
+    "points_to_remember": [
+      "Preserve the central argument: the global dependency and acute geographic concentration of microchip production.",
+      "Title should encapsulate both technology and geopolitics."
+    ],
+    "tags": [
+      "precis_writing",
+      "semiconductors",
+      "supply_chain",
+      "english_written"
+    ]
+  }
+]

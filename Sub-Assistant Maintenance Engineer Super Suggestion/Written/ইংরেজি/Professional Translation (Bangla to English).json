@@ -1,0 +1,19 @@
+[
+  {
+    "id": 3009,
+    "subject": "ইংরেজি",
+    "topic": "Professional Translation (Bangla to English)",
+    "question": "Translate the following official government paragraph into accurate, formal English:\n\n'নাগরিক সেবা সহজীকরণ এবং দুর্নীতিমুক্ত প্রশাসনিক ব্যবস্থা গড়ে তোলা বর্তমান সরকারের অন্যতম প্রধান অঙ্গীকার। ডিজিটাল গভর্নেন্স বাস্তবায়নের মাধ্যমে বহিরাগমন ও পাসপোর্ট অধিদপ্তর পাসপোর্ট প্রদান প্রক্রিয়ায় এক যুগান্তকারী স্বচ্ছতা নিয়ে এসেছে। পূর্বে যেখানে নাগরিকদের দিনের পর দিন লাইনে দাঁড়িয়ে ভোগান্তির শিকার হতে হতো, সেখানে বর্তমানে অনলাইনে আবেদন পূরণ, নির্দিষ্ট ফি পরিশোধ এবং বায়োমেট্রিক প্রদানের নির্দিষ্ট সময়সূচি গ্রহণ করা সম্ভব হচ্ছে। এই স্বয়ংক্রিয় সেবা ব্যবস্থা টেকসই রাখতে দক্ষ কারিগরি জনবলের ভূমিকা অত্যন্ত তাৎপর্যপূর্ণ।'",
+    "marks": 7,
+    "answer": "Formal English Translation:\n\n\"Simplifying citizen services and establishing a corruption-free administrative ecosystem are among the paramount commitments of the government. Through the realization of digital governance, the Department of Immigration and Passports has ushered in groundbreaking transparency into the passport issuance process. Whereas citizens formerly endured immense hardships standing in long queues day after day, they are currently capable of completing applications online, remitting scheduled fees, and booking specific time slots for biometric enrollment. To sustain this automated service framework, the role of skilled technical personnel is exceptionally crucial.\"",
+    "points_to_remember": [
+      "Use formal bureaucratic equivalents: নাগরিক সেবা সহজীকরণ (simplifying citizen services), যুগান্তকারী স্বচ্ছতা (groundbreaking transparency), স্বয়ংক্রিয় সেবা ব্যবস্থা (automated service framework).",
+      "Ensure grammatical coherence and maintain compound-complex sentence structure."
+    ],
+    "tags": [
+      "translation",
+      "bangla_to_english",
+      "written"
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 3054,
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Sentence Transformation",
+    "question": "Transform the following sentences as directed:\n(a) Only the authorized system administrator can reset the root password. (Make it Negative)\n(b) As soon as the lightning struck the transformer, the core switch shut down. (Make it Negative using 'Hardly had...when')\n(c) May you succeed in the BPSC Non-Cadre examination. (Identify the Sentence Type)\n(d) How beautiful the national data center looks at night! (Make it Assertive)\n(e) We know that the Department of Immigration and Passports provides smart services. (Change the Voice into Passive)\n(f) He worked hard so that he could configure the server correctly. (Make it Simple)",
+    "marks": 6,
+    "answer": "Sentence Transformation Solution:\n\n(a) Only the authorized system administrator can reset the root password.\n$\\rightarrow$ **Negative:** **None but** the authorized system administrator can reset the root password.\n\n(b) As soon as the lightning struck the transformer, the core switch shut down.\n$\\rightarrow$ **Negative:** **Hardly had the lightning struck the transformer when** the core switch shut down.\n\n(c) \"May you succeed in the BPSC Non-Cadre examination.\"\n$\\rightarrow$ **Sentence Type:** **Optative Sentence** (expresses a prayer, wish, or benediction).\n\n(d) How beautiful the national data center looks at night!\n$\\rightarrow$ **Assertive:** **The national data center looks very beautiful at night.**\n\n(e) We know that the Department of Immigration and Passports provides smart services.\n$\\rightarrow$ **Passive:** **It is known to us that smart services are provided by the Department of Immigration and Passports.**\n\n(f) He worked hard so that he could configure the server correctly.\n$\\rightarrow$ **Simple:** **He worked hard to configure the server correctly.** (or: ...in order to configure the server correctly).",
+    "points_to_remember": [
+      "'Only' with persons becomes 'None but'.",
+      "'Hardly had + V3 ... when + V2'.",
+      "Optative sentences express wishes and prayers."
+    ],
+    "tags": [
+      "transformation",
+      "negative_sentences",
+      "voice_change"
+    ]
+  }
+]

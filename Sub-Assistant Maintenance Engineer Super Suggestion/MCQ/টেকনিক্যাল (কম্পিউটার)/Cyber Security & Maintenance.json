@@ -1,0 +1,3802 @@
+[
+  {
+    "id": 3656,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3657,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3658,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3659,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3660,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3661,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3662,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3663,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3664,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3665,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3666,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3667,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3668,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3669,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3670,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3671,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3672,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3673,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3674,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3675,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3676,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3677,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3678,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3679,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3680,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3681,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3682,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3683,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3684,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3685,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3686,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3687,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3688,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3689,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3690,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3691,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3692,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3693,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3694,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3695,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3696,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3697,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3698,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3699,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3700,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3701,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3702,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3703,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3704,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3705,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3706,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3707,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3708,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3709,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3710,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3711,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3712,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3713,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3714,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3715,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3716,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3717,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3718,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3719,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3720,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3721,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3722,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3723,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3724,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3725,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3726,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3727,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3728,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3729,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3730,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3731,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3732,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3733,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3734,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3735,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3736,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3737,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3738,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3739,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3740,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3741,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3742,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3743,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3744,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3745,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3746,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3747,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3748,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3749,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3750,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3751,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3752,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3753,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3754,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3755,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3756,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3757,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3758,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3759,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3760,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3761,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3762,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3763,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3764,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3765,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3766,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3767,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3768,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3769,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3770,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3771,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3772,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3773,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3774,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3775,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3776,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3777,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3778,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3779,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3780,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3781,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3782,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3783,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3784,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3785,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3786,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3787,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3788,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3789,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3790,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3791,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3792,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3793,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3794,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3795,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3796,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3797,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3798,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3799,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3800,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3801,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3802,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3803,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3804,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3805,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3806,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3807,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3808,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3809,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3810,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3811,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3812,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3813,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3814,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3815,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3816,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3817,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3818,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3819,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3820,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3821,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3822,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3823,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3824,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3825,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3826,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3827,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3828,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3829,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3830,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3831,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3832,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3833,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3834,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3835,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3836,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3837,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3838,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3839,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3840,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3841,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3842,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3843,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3844,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3845,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3846,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3847,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3848,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3849,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3850,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3851,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3852,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3853,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3854,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  },
+  {
+    "id": 3855,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "technical",
+      "security",
+      "cyber_attacks"
+    ]
+  }
+]

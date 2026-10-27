@@ -1,0 +1,217 @@
+[
+  {
+    "id": 7001,
+    "subject": "ইংরেজি",
+    "topic": "English Grammar",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "A) Neither of the two boys have done the work.",
+      "B) Neither of the two boys has done the work.",
+      "C) Neither of the two boys are doing the work.",
+      "D) Neither of the two boys were present."
+    ],
+    "answer": 1,
+    "explanation": "'Neither of', 'Either of', 'Each of'-এর পর Plural noun বসলেও verb সর্বদা Singular হয়। তাই 'has done' সঠিক।",
+    "tags": [
+      "english_grammar",
+      "subject_verb_agreement"
+    ]
+  },
+  {
+    "id": 7002,
+    "subject": "ইংরেজি",
+    "topic": "English Grammar",
+    "question": "He is senior _____ me by two years.",
+    "options": [
+      "A) than",
+      "B) to",
+      "C) from",
+      "D) with"
+    ],
+    "answer": 1,
+    "explanation": "Latin Comparative Adjective যেমন: Senior, Junior, Prior, Superior, Inferior ইত্যাদির পরে comparative 'than' না বসে সর্বদা 'to' প্রিপজিশন বসে।",
+    "tags": [
+      "preposition",
+      "bpsc_frequent"
+    ]
+  },
+  {
+    "id": 7003,
+    "subject": "ইংরেজি",
+    "topic": "English Grammar",
+    "question": "Identify the passive form: 'Who taught you French?'",
+    "options": [
+      "A) By whom French was taught to you?",
+      "B) By whom were you taught French?",
+      "C) French was taught to you by whom?",
+      "D) By whom you were taught French?"
+    ],
+    "answer": 1,
+    "explanation": "Past Indefinite Interrogative-এর ক্ষেত্রে গঠন: By whom + auxiliary verb (were) + subject (you) + V3 (taught) + object (French)?",
+    "tags": [
+      "voice_change",
+      "english_grammar"
+    ]
+  },
+  {
+    "id": 7004,
+    "subject": "ইংরেজি",
+    "topic": "English Grammar",
+    "question": "If I had known his address, I _____ him.",
+    "options": [
+      "A) will visit",
+      "B) would visit",
+      "C) would have visited",
+      "D) had visited"
+    ],
+    "answer": 2,
+    "explanation": "3rd Conditional এর নিয়ম: If + Past Perfect Tense হলে অপর অংশে Subject + would have / could have + V3 বসে।",
+    "tags": [
+      "conditional",
+      "english_grammar"
+    ]
+  },
+  {
+    "id": 7005,
+    "subject": "ইংরেজি",
+    "topic": "English Grammar",
+    "question": "The principal along with the teachers _____ attended the meeting.",
+    "options": [
+      "A) have",
+      "B) has",
+      "C) are",
+      "D) were"
+    ],
+    "answer": 1,
+    "explanation": "দুটি Noun যখন 'along with', 'as well as', 'together with', 'with' দ্বারা যুক্ত হয়, তখন ১ম Noun (এখানে The principal) অনুযায়ী Verb নির্ধারিত হয়। তাই Singular verb 'has' বসবে।",
+    "tags": [
+      "subject_verb_agreement",
+      "bcs_frequent"
+    ]
+  },
+  {
+    "id": 7006,
+    "subject": "ইংরেজি",
+    "topic": "English Grammar",
+    "question": "Hardly had the train arrived at the station _____ the passengers rushed in.",
+    "options": [
+      "A) than",
+      "B) when",
+      "C) then",
+      "D) after"
+    ],
+    "answer": 1,
+    "explanation": "'Hardly had... when' এবং 'Scarcely had... when' জোড়ায় ব্যবহৃত হয়। 'No sooner had... than' বসে।",
+    "tags": [
+      "conjunction",
+      "bcs_repeated"
+    ]
+  },
+  {
+    "id": 7007,
+    "subject": "ইংরেজি",
+    "topic": "English Grammar",
+    "question": "You should abide _____ the rules and regulations of the organization.",
+    "options": [
+      "A) to",
+      "B) by",
+      "C) with",
+      "D) in"
+    ],
+    "answer": 1,
+    "explanation": "'Abide by' একটি Appropriate Preposition, যার অর্থ মেনে চলা (to conform to / comply with rules)।",
+    "tags": [
+      "preposition"
+    ]
+  },
+  {
+    "id": 7016,
+    "subject": "ইংরেজি",
+    "topic": "English Grammar",
+    "question": "I look forward to _____ from you soon.",
+    "options": [
+      "A) hear",
+      "B) hearing",
+      "C) heard",
+      "D) be heard"
+    ],
+    "answer": 1,
+    "explanation": "'Look forward to', 'with a view to', 'accustomed to', 'be used to', 'confess to'-এর পর verb আসলে তার সাথে 'ing' যুক্ত হয় (Gerund)। তাই 'hearing' সঠিক।",
+    "tags": [
+      "gerund",
+      "bcs_repeated"
+    ]
+  },
+  {
+    "id": 7017,
+    "subject": "ইংরেজি",
+    "topic": "English Grammar",
+    "question": "Which of the following sentences has a correct use of conditional clause?",
+    "options": [
+      "A) If it will rain, we will postpone the match.",
+      "B) If it rains, we will postpone the match.",
+      "C) If it rained, we will postpone the match.",
+      "D) If it had rained, we would postpone the match."
+    ],
+    "answer": 1,
+    "explanation": "First Conditional-এর নিয়ম: If + Present Indefinite Tense, Future Indefinite Tense (Subject + will/shall + V1)। 'If' ক্লজে কখনো 'will' বা 'would' বসে না।",
+    "tags": [
+      "conditional",
+      "english_grammar"
+    ]
+  },
+  {
+    "id": 7018,
+    "subject": "ইংরেজি",
+    "topic": "English Grammar",
+    "question": "The government is trying to comply _____ international security protocols.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) by",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "'Comply with' একটি বহুল ব্যবহৃত Appropriate Preposition, যার অর্থ মেনে চলা বা সম্মত হওয়া (to obey a formal rule or agreement)। অনুরূপ: Abide by, Adhere to।",
+    "tags": [
+      "preposition",
+      "bpsc_frequent"
+    ]
+  },
+  {
+    "id": 7019,
+    "subject": "ইংরেজি",
+    "topic": "English Grammar",
+    "question": "Identify the correct indirect speech: He said, 'I have completed the task.'",
+    "options": [
+      "A) He said that he has completed the task.",
+      "B) He said that he had completed the task.",
+      "C) He said that he completed the task.",
+      "D) He told that he would complete the task."
+    ],
+    "answer": 1,
+    "explanation": "Reporting verb যদি Past Tense (said) হয়, তবে Reported Speech-এর Present Perfect Tense পরিবর্তিত হয়ে Past Perfect Tense (had completed) হয়।",
+    "tags": [
+      "narration",
+      "english_grammar"
+    ]
+  },
+  {
+    "id": 7020,
+    "subject": "ইংরেজি",
+    "topic": "English Grammar",
+    "question": "Choose the correctly punctuated and structured sentence:",
+    "options": [
+      "A) One of my friends are a database administrator.",
+      "B) One of my friends is a database administrator.",
+      "C) One of my friend is a database administrator.",
+      "D) One of my friends were a database administrator."
+    ],
+    "answer": 1,
+    "explanation": "'One of + Plural Noun (friends) + Singular Verb (is)' বসে। তাই 'One of my friends is...' ব্যাকরণগতভাবে সঠিক।",
+    "tags": [
+      "subject_verb_agreement",
+      "bcs_frequent"
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "id": 3060,
+    "subject": "ইংরেজি",
+    "topic": "Reading Comprehension & Technical Analysis",
+    "question": "Read the following technical passage and answer the questions in concise, analytical sentences:\n\n\"In decentralized public registries, balancing biometric identity validation with citizen privacy has long posed a cryptographic paradox. Traditional authentication models require citizens to share their raw biometric credentials—such as high-resolution fingerprints or facial templates—with remote database servers, leaving private records susceptible to interception and insider exfiltration. Zero-Knowledge Proofs (ZKP), particularly Non-Interactive Zero-Knowledge Arguments of Knowledge (zk-SNARKs), offer a revolutionary cryptographic resolution to this dilemma. A zero-knowledge proof enables a 'Prover' to mathematically demonstrate to a 'Verifier' that a specific statement is true, without disclosing any underlying confidential information whatsoever. In modern e-Passport and border management architectures, a traveler can prove to an automated e-Gate that they possess a valid, government-certified passport and are over eighteen years old, without revealing their identity card number, exact date of birth, or raw biometric hashes. By decoupling proof of authenticity from the exposure of raw personal data, ZKP establishes an impenetrable paradigm for privacy-preserving digital citizenship.\"\n\n**Questions:**\n(a) What fundamental vulnerability exists in traditional biometric authentication models?\n(b) Explain the core mathematical principle of a Zero-Knowledge Proof (ZKP).\n(c) How can an automated e-Gate utilize ZKP to verify an applicant's travel eligibility while protecting their privacy?\n(d) Provide an antonym for 'Susceptible' and a synonym for 'Decoupling'.",
+    "marks": 8,
+    "answer": "Comprehension Answers:\n\n(a) Traditional models require users to transmit raw biometric records (such as fingerprints or facial images) across remote servers, leaving sensitive personal data vulnerable to network interception, server compromise, and insider theft.\n\n(b) The core mathematical principle of a Zero-Knowledge Proof (ZKP) allows a prover to prove to a verifier that a statement is mathematically true without disclosing any of the underlying confidential data itself.\n\n(c) An e-Gate using ZKP can confirm that a traveler possesses an authentic government passport and satisfies specific age thresholds (e.g., over 18) through cryptographic proof, without requiring the passenger to reveal their raw date of birth, passport number, or biometric templates.\n\n(d) **Vocabulary:**\n• **Antonym of 'Susceptible':** Immune, resistant, invulnerable, protected.\n• **Synonym of 'Decoupling':** Disconnecting, separating, dissociating, detaching.",
+    "points_to_remember": [
+      "Zero-Knowledge Proofs allow proving truth without exposing secrets.",
+      "Answer in complete, grammatically sound prose."
+    ],
+    "tags": [
+      "comprehension",
+      "zkp",
+      "cryptography",
+      "biometrics",
+      "english_written"
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": 3049,
+    "subject": "ইংরেজি",
+    "topic": "Sentence Synthesis & Combining",
+    "question": "Combine each set of simple sentences into a single well-structured sentence as directed:\n(a) The server had overheated. It triggered an automated shutdown alarm. (Combine using a Participial Phrase)\n(b) The engineer configured the firewall rules. He then verified the port status on the core switch. (Combine into a Simple Sentence using 'Having + V3')\n(c) The e-Passport chip contains encrypted biometric data. It is validated via Public Key Directory (PKD). (Combine into a Complex Sentence with a Relative Clause)\n(d) The power went off. The backup diesel generator started automatically. (Combine using 'As soon as' or 'No sooner had')",
+    "marks": 6,
+    "answer": "Sentence Synthesis Solution:\n\n(a) Combine using a Participial Phrase:\n$\\rightarrow$ **Having overheated, the server triggered an automated shutdown alarm.** (or: Overheating rapidly, the server triggered...)\n\n(b) Combine into a Simple Sentence using 'Having + V3':\n$\\rightarrow$ **Having configured the firewall rules, the engineer verified the port status on the core switch.**\n\n(c) Combine into a Complex Sentence with a Relative Clause:\n$\\rightarrow$ **The e-Passport chip contains encrypted biometric data which is validated via Public Key Directory (PKD).**\n\n(d) Combine using 'No sooner had':\n$\\rightarrow$ **No sooner had the power gone off than the backup diesel generator started automatically.**",
+    "points_to_remember": [
+      "Perfect participle: 'Having + V3' clearly indicates one action preceding another.",
+      "'No sooner had + past participle ... than + past indefinite'."
+    ],
+    "tags": [
+      "sentence_synthesis",
+      "combining_sentences",
+      "grammar"
+    ]
+  }
+]

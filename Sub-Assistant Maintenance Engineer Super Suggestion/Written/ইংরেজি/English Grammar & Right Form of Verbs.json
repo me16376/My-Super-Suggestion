@@ -1,0 +1,21 @@
+[
+  {
+    "id": 3027,
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Right Form of Verbs",
+    "question": "Complete the sentences using the correct form of verbs given in parentheses:\n(a) If the maintenance engineer (arrive) on time, the server could have been restored earlier.\n(b) It is high time we (upgrade) the firmware of the core routers.\n(c) He talks as if he (know) everything about database architecture.\n(d) Run the automated backup script carefully lest the transaction logs (be) corrupted.\n(e) Had I known the IP conflict, I (prevent) the network outage.\n(f) The Director General insisted that the security audit (conduct) immediately.\n(g) I wish I (be) a certified ethical hacker.\n(h) Neither the system analyst nor the network engineers (be) present at the incident briefing.",
+    "marks": 8,
+    "answer": "Right Form of Verbs Solution:\n\n(a) If the maintenance engineer **had arrived** on time, the server could have been restored earlier.\n*Rule:* Third Conditional: If + Past Perfect, Subject + could/would/might + have + V3.\n\n(b) It is high time we **upgraded** the firmware of the core routers.\n*Rule:* 'It is high time / It is time' followed by a subject requires a Past Indefinite verb.\n\n(c) He talks as if he **knew** (or **were**) everything about database architecture.\n*Rule:* Present Tense + 'as if / as though' + Past Subjunctive (V2 or were).\n\n(d) Run the automated backup script carefully lest the transaction logs **should be** (or **might be**) corrupted.\n*Rule:* 'Lest' is followed by Subject + should/might + base form of verb.\n\n(e) Had I known the IP conflict, I **would have prevented** the network outage.\n*Rule:* Inverted Third Conditional: Had + Subject + V3 ..., Subject + would have + V3.\n\n(f) The Director General insisted that the security audit **be conducted** immediately.\n*Rule:* Mandative Subjunctive (insist that + Subject + base verb 'be' + V3 in passive).\n\n(g) I wish I **were** a certified ethical hacker.\n*Rule:* Unreal wish takes the subjunctive 'were'.\n\n(h) Neither the system analyst nor the network engineers **were** present at the incident briefing.\n*Rule:* In 'Neither...nor', the verb agrees with the closer subject ('engineers' is plural).",
+    "points_to_remember": [
+      "'It is high time' takes V2.",
+      "'Lest' requires 'should' + V1.",
+      "'Neither...nor' follows proximity rule."
+    ],
+    "tags": [
+      "verbs",
+      "subjunctive",
+      "conditionals",
+      "english_grammar"
+    ]
+  }
+]

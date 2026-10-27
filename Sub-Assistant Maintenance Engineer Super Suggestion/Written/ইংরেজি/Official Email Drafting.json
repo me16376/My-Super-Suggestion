@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3019,
+    "subject": "ইংরেজি",
+    "topic": "Official Email Drafting",
+    "question": "Draft a formal official email to the Technical Account Manager of an international vendor (e.g., 'DERMALOG Identification Systems') reporting recurring optical fingerprint scanner driver crashes on Windows 11 client workstations and requesting an emergency patched firmware update and on-site engineer visit.",
+    "marks": 8,
+    "answer": "Formal Technical Email:\n\n**To:** support.contracts@dermalog.com\n**Cc:** director.ict@dip.gov.bd, maintenance.cell@dip.gov.bd\n**Subject:** URGENT: Recurring Driver Crash of Optical Fingerprint Scanners (Model: ZF1) on Windows 11 Workstations - DIP Bangladesh\n**Date:** October 23, 2026\n\nDear Mr. Henderson,\n\nI am writing on behalf of the Department of Immigration and Passports (DIP), Bangladesh, to draw your immediate attention to a critical technical issue currently affecting our e-passport enrollment workstations.\n\nFollowing the scheduled operating system upgrade to Windows 11 Enterprise (Build 23H2) across our Dhaka Divisional Passport Office, the optical fingerprint scanners (Model: DERMALOG ZF1, Firmware Rev: 3.4.1) have been experiencing intermittent driver crashes. Specifically, during multi-finger capture, the device driver fails with code `STATUS_DEVICE_POWER_FAILURE (0xC000009E)`, causing the enrollment application to freeze and necessitating repeated system reboots. This issue is causing substantial delays in public service delivery.\n\nIn accordance with Section 7.2 of our active Annual Maintenance Agreement (SLA ref: DIP-SLA-2025/08), we formally request the following urgent actions:\n1. Immediate provision of an updated, certified Windows 11 WHQL driver package and patched firmware.\n2. Deputation of a designated on-site field support engineer to our Agargaon headquarters within 24 hours to analyze the crash dumps and assist in firmware deployment.\n\nYour prompt technical intervention is crucial to restoring uninterrupted public service. We look forward to your immediate acknowledgment and deployment plan.\n\nSincerely,\n\n**Engr. Tanvir Ahmed**\nSub-Assistant Maintenance Engineer\nICT & Systems Maintenance Wing\nDepartment of Immigration and Passports (DIP)\nMinistry of Home Affairs, Dhaka, Bangladesh\nTel: +880-2-XXXXXXXX | Mobile: +880-17XXXXXXXX\nEmail: same.ict@dip.gov.bd",
+    "points_to_remember": [
+      "A technical official email must include exact model numbers, error codes, SLA contract clauses, and specific time-bound requests."
+    ],
+    "tags": [
+      "email_drafting",
+      "formal_writing",
+      "english_written"
+    ]
+  }
+]

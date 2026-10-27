@@ -1,0 +1,19 @@
+[
+  {
+    "id": 3028,
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Error Correction",
+    "question": "Identify the grammatical errors in each of the following sentences and rewrite them correctly:\n(a) The server cannot cope up with the excessive user traffic.\n(b) One of the computer in the enrollment booth are damaged.\n(c) The technician returned back the faulty RAM to the vendor.\n(d) Neither of the two backup plans were successful.\n(e) He is senior than me in service seniority.\n(f) Although he worked hard, but he failed to configure the VLAN.",
+    "marks": 6,
+    "answer": "Sentence Error Correction Solution:\n\n(a) Incorrect: The server cannot cope up with the excessive user traffic.\n**Correct:** The server cannot **cope with** the excessive user traffic.\n*Reason:* 'Cope with' is the standard idiom; adding 'up' is an erroneous colloquialism.\n\n(b) Incorrect: One of the computer in the enrollment booth are damaged.\n**Correct:** One of the **computers** in the enrollment booth **is** damaged.\n*Reason:* 'One of the' must be followed by a plural noun ('computers') and a singular verb ('is').\n\n(c) Incorrect: The technician returned back the faulty RAM to the vendor.\n**Correct:** The technician **returned** the faulty RAM to the vendor.\n*Reason:* 'Return' inherently means to give or send back; 'returned back' is a redundancy.\n\n(d) Incorrect: Neither of the two backup plans were successful.\n**Correct:** Neither of the two backup plans **was** successful.\n*Reason:* 'Neither of' refers to one at a time and takes a singular verb ('was').\n\n(e) Incorrect: He is senior than me in service seniority.\n**Correct:** He is **senior to me** in service seniority.\n*Reason:* Latin comparatives ending in -ior (senior, junior, superior, inferior, prior) take the preposition 'to', never 'than'.\n\n(f) Incorrect: Although he worked hard, but he failed to configure the VLAN.\n**Correct:** **Although he worked hard, he failed** to configure the VLAN. (or: He worked hard, but he failed...)\n*Reason:* 'Although/Though' and 'but' cannot be used concurrently in the same sentence.",
+    "points_to_remember": [
+      "Never say 'cope up with'—always use 'cope with'.",
+      "Latin adjectives (senior, junior, superior) take 'to', not 'than'."
+    ],
+    "tags": [
+      "error_correction",
+      "redundancy",
+      "subject_verb_agreement"
+    ]
+  }
+]

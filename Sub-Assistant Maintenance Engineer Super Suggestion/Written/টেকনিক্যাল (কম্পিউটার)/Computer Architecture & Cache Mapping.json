@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1051,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Cache Mapping",
+    "question": "ক্যাশ মেমোরির ম্যাপিং মেথডসমূহ (Direct, Associative, Set-Associative) ব্যাখ্যা করুন।\nধরা যাক, একটি কম্পিউটারের প্রধান মেমোরির ফিজিক্যাল অ্যাড্রেস ৩২-বিট (32-bit)। ক্যাশ মেমোরির সাইজ ৩২ KB (Kilobytes) এবং ক্যাশ ব্লক সাইজ ৬৪ বাইট (64 bytes)।\n(ক) Direct Mapping পদ্ধতিতে Tag, Line/Index এবং Word/Byte Offset বিটের সংখ্যা কত?\n(খ) 4-Way Set Associative Mapping পদ্ধতিতে Tag, Set Index এবং Offset বিটের সংখ্যা হিসাব করে দেখান।",
+    "marks": 10,
+    "answer": "ক্যাশ মেমোরি ম্যাপিং গাণিতিক সমাধান:\n\nপ্রদত্ত উপাত্ত:\n• ফিজিক্যাল অ্যাড্রেস স্পেস = ৩২ বিট (মোট অ্যাড্রেসযোগ্য মেমোরি = $2^{32}$ বাইট = 4 GB)\n• ক্যাশ মেমোরি সাইজ = $32\\text{ KB} = 32 \\times 1024\\text{ বাইট} = 32,768\\text{ বাইট} = 2^{15}\\text{ বাইট}$\n• ব্লক সাইজ / লাইন সাইজ = $64\\text{ বাইট} = 2^6\\text{ বাইট}$\n\n১. অফসেট বিট (Word / Byte Offset):\nযেহেতু প্রতিটি ব্লকে ৬৪ বাইট থাকে, তাই বাইট অফসেট বিট ($w$) = $\\log_2(64) = 6\\text{ বিট}$।\n\n২. মোট ক্যাশ লাইনের সংখ্যা ($N$):\n$$N = \\frac{\\text{ক্যাশ মেমোরি সাইজ}}{\\text{ব্লক সাইজ}} = \\frac{32,768}{64} = 512\\text{ টি লাইন} = 2^9$$\n\n(ক) Direct Mapping পদ্ধতিতে বিট বণ্টন:\n• Line / Index বিট ($r$) = $\\log_2(N) = \\log_2(512) = 9\\text{ বিট}$।\n• Offset বিট ($w$) = $6\\text{ বিট}$।\n• Tag বিট ($s$) = $\\text{মোট অ্যাড্রেস বিট} - (\\text{Index বিট} + \\text{Offset বিট})$\n  $$\\text{Tag} = 32 - (9 + 6) = 32 - 15 = 17\\text{ বিট}$$\nঅ্যাড্রেস ফরম্যাট: [Tag: 17 বিট | Line Index: 9 বিট | Offset: 6 বিট] = ৩২ বিট।\n\n(খ) 4-Way Set Associative Mapping পদ্ধতিতে বিট বণ্টন:\n• সেটের সংখ্যা ($S$):\n  $$S = \\frac{\\text{মোট ক্যাশ লাইন}}{\\text{প্রতি সেটে লাইনের সংখ্যা (Ways)}} = \\frac{512}{4} = 128\\text{ টি সেট} = 2^7$$\n• Set Index বিট ($d$) = $\\log_2(128) = 7\\text{ বিট}$।\n• Offset বিট ($w$) = $6\\text{ বিট}$।\n• Tag বিট = $32 - (\\text{Set Index} + \\text{Offset})$\n  $$\\text{Tag} = 32 - (7 + 6) = 32 - 13 = 19\\text{ বিট}$$\nঅ্যাড্রেস ফরম্যাট: [Tag: 19 বিট | Set Index: 7 বিট | Offset: 6 বিট] = ৩২ বিট।",
+    "points_to_remember": [
+      "Direct Mapping-এ ১টি ব্লকের জন্য নির্ধারিত মাত্র ১টি ক্যাশ লাইন থাকে, ফলে কনফ্লিক্ট মিস বেশি হয়।",
+      "Set Associative Mapping-এ কনফ্লিক্ট মিস বহুলাংশে হ্রাস পায় এবং হার্ডওয়্যার জটিলতা নিয়ন্ত্রণে থাকে।"
+    ],
+    "tags": [
+      "cache_mapping",
+      "computer_architecture",
+      "written_math"
+    ]
+  }
+]

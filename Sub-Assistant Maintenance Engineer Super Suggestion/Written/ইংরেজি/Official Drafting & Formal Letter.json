@@ -1,0 +1,19 @@
+[
+  {
+    "id": 3036,
+    "subject": "ইংরেজি",
+    "topic": "Official Drafting & Formal Letter",
+    "question": "As a Sub-Assistant Maintenance Engineer at the Divisional Passport and Visa Office, draft an official requisition letter to the Central Store Officer requesting the supply of critical consumable hardware items and replacement parts (Thermal Receipt Paper Rolls, RFID Passport Validation Tags, CMOS Batteries, and Cat-6 RJ-45 Connectors).",
+    "marks": 8,
+    "answer": "Model Official Requisition Letter:\n\nGovernment of the People's Republic of Bangladesh\nDepartment of Immigration and Passports\nDivisional Passport and Visa Office, Agargaon, Dhaka.\n\nMemo No: 44.01.2600.004.05.019.26-302\nDate: 23 October 2026\n\nTo:\nThe Central Store Officer\nDepartment of Immigration and Passports\nCentral Warehouse, Agargaon, Dhaka-1207.\n\nSubject: Official Requisition for Consumable IT Hardware and Maintenance Supplies for Q4.\n\nDear Sir,\n\nI have the honor to state that the current inventory of critical IT consumables and diagnostic hardware at our Divisional Enrollment and Biometric Data Center is nearing exhaustion due to a high volume of citizen applications processed daily. To ensure uninterrupted service delivery and preempt hardware downtime, the following supplies are urgently required for the upcoming quarter:\n\n| Item No. | Description of Supplies | Specification / Model | Required Quantity |\n| :---: | :--- | :--- | :---: |\n| 1 | Thermal Receipt Paper Rolls | 80mm x 80mm, High-density Grade | 500 Rolls |\n| 2 | RFID Validation Test Tags | 13.56 MHz ISO 14443 Type A/B | 200 Units |\n| 3 | Lithium Button Cell CMOS Batteries | CR2032 3V (Energizer/Panasonic) | 50 Pieces |\n| 4 | Modular RJ-45 Connectors & Boots | Cat-6 UTP Gold-Plated 8P8C | 300 Pieces |\n| 5 | Anti-Static Optical Cleaning Wipes | 99% Isopropyl Lint-Free | 20 Packs |\n\n2. It is therefore respectfully requested that you arrange the necessary allocation and issuance of the aforementioned items from the central store at your earliest convenience.\n\nYours faithfully,\n\n(Signature)\n(Md. Asif Mahmud)\nSub-Assistant Maintenance Engineer\nDivisional Passport and Visa Office, Dhaka\nPhone: +880 2-XXXXXXXX\nEmail: same.dhaka@dip.gov.bd\n\nCopy forwarded for kind information to:\n1. Deputy Director, Divisional Passport and Visa Office, Dhaka.\n2. System Analyst, ICT Cell, Department of Immigration and Passports, Dhaka.\n3. Office Guard File.",
+    "points_to_remember": [
+      "Include a formatted tabular item list with precise technical specifications and quantities.",
+      "Follow standard government memo layout with distribution list."
+    ],
+    "tags": [
+      "official_letter",
+      "requisition",
+      "english_drafting"
+    ]
+  }
+]

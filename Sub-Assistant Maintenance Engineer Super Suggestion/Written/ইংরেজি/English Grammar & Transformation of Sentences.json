@@ -1,0 +1,19 @@
+[
+  {
+    "id": 3029,
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Transformation of Sentences",
+    "question": "Transform the following sentences as directed:\n(a) Dhaka is more crowded than any other city in Bangladesh. (Make it Superlative)\n(b) No other protocol in the suite is as reliable as TCP. (Make it Comparative)\n(c) Who does not want high-speed internet connectivity? (Make it Assertive)\n(d) Shut down the rogue server immediately. (Change the Voice into Passive)\n(e) Honey tastes sweet. (Change the Voice into Passive)\n(f) He admitted his fault. (Make it Complex)",
+    "marks": 6,
+    "answer": "Transformation of Sentences Solution:\n\n(a) Dhaka is more crowded than any other city in Bangladesh.\n$\\rightarrow$ **Superlative:** Dhaka is the most crowded city in Bangladesh.\n\n(b) No other protocol in the suite is as reliable as TCP.\n$\\rightarrow$ **Comparative:** TCP is more reliable than any other protocol in the suite.\n\n(c) Who does not want high-speed internet connectivity?\n$\\rightarrow$ **Assertive:** Everyone / Everybody wants high-speed internet connectivity.\n\n(d) Shut down the rogue server immediately.\n$\\rightarrow$ **Passive:** Let the rogue server be shut down immediately.\n\n(e) Honey tastes sweet. (Quasi-passive)\n$\\rightarrow$ **Passive:** Honey is sweet when it is tasted.\n\n(f) He admitted his fault.\n$\\rightarrow$ **Complex:** He admitted that he was at fault. (or: He admitted that he had made a fault).",
+    "points_to_remember": [
+      "Quasi-passive voice uses 'when it is tasted / felt'.",
+      "Imperative sentences in passive begin with 'Let + object + be + V3'."
+    ],
+    "tags": [
+      "transformation",
+      "voice_change",
+      "degrees_of_comparison"
+    ]
+  }
+]

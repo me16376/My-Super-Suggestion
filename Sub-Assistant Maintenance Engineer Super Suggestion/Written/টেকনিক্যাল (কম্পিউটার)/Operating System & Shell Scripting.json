@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1063,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating System & Shell Scripting",
+    "question": "লিনাক্স শেল স্ক্রিপ্টিং (Bash Scripting) ও অটোমেশন:\nপাসপোর্ট সার্ভারের লগ ফাইল ব্যবস্থাপনার জন্য একটি পূর্ণাঙ্গ Bash Shell Script লিখুন যা:\n(১) `/var/log/passport` ডিরেক্টরি থেকে সমস্ত `.log` ফাইলকে আজকের তারিখ সম্বলিত একটি সংকুচিত আর্কাইভ ফাইল (`passport_log_YYYYMMDD.tar.gz`) হিসেবে `/backup/logs/` ডিরেক্টরিতে সংরক্ষণ করবে।\n(২) ব্যাকআপ নেওয়ার পর মূল লগ ফাইলগুলোকে খালি (Truncate) করবে।\n(৩) ব্যাকআপ ফোল্ডারে ৩০ দিনের বেশি পুরনো কোনো আর্কাইভ থাকলে তা স্বয়ংক্রিয়ভাবে মুছে ফেলবে।\n(৪) স্ক্রিপ্টটি প্রতিদিন রাত ১২:০০ টায় স্বয়ংক্রিয়ভাবে চালানোর জন্য একটি Crontab এন্ট্রি লিখুন।",
+    "marks": 10,
+    "answer": "লগ ব্যাকআপ ও অটোমেশন ব্যাশ স্ক্রিপ্ট:\n\n১. সম্পূর্ণ ব্যাশ স্ক্রিপ্ট (`/usr/local/bin/backup_logs.sh`):\n```bash\n#!/bin/bash\n\n# ==========================================================\n# Passport Log Backup and Archival Script\n# ==========================================================\n\n# ডিরেক্টরি ও তারিখ ভ্যারিয়েবল নির্ধারণ\nLOG_DIR=\"/var/log/passport\"\nBACKUP_DIR=\"/backup/logs\"\nCURRENT_DATE=$(date +\"%Y%m%d\")\nARCHIVE_NAME=\"passport_log_${CURRENT_DATE}.tar.gz\"\n\n# ব্যাকআপ ডিরেক্টরি না থাকলে তৈরি করা\nif [ ! -d \"$BACKUP_DIR\" ]; then\n    mkdir -p \"$BACKUP_DIR\"\nfi\n\n# ১. .log ফাইলগুলোকে tar.gz আর্কাইভে কম্প্রেস করা\necho \"Starting log compression...\"\ntar -czf \"${BACKUP_DIR}/${ARCHIVE_NAME}\" -C \"$LOG_DIR\" $(ls \"$LOG_DIR\" | grep '\\.log$')\n\n# ব্যাকআপ সফল হলে মূল ফাইল ট্রাঙ্কেট করা\nif [ $? -eq 0 ]; then\n    echo \"Backup created successfully: ${BACKUP_DIR}/${ARCHIVE_NAME}\"\n    \n    # ২. মূল ফাইল ট্রাঙ্কেট করা (ডিলিট না করে শূন্য সাইজ করা যাতে অ্যাপ্লিকেশন লক না হয়)\n    for logfile in \"${LOG_DIR}\"/*.log; do\n        if [ -f \"$logfile\" ]; then\n            cat /dev/null > \"$logfile\"\n        fi\n    done\n    echo \"Original log files truncated.\"\nelse\n    echo \"Error: Backup creation failed!\" >&2\n    exit 1\nfi\n\n# ৩. ৩০ দিনের বেশি পুরনো ব্যাকআপ ফাইল স্বয়ংক্রিয়ভাবে মুছে ফেলা\necho \"Purging archives older than 30 days...\"\nfind \"$BACKUP_DIR\" -name \"passport_log_*.tar.gz\" -type f -mtime +30 -exec rm -f {} \\;\necho \"Purge complete. Script finished.\"\n```\n\n২. স্ক্রিপ্টটি এক্সিকিউটেবল করার পারমিশন:\n`sudo chmod +x /usr/local/bin/backup_logs.sh`\n\n৩. Crontab এন্ট্রি (প্রতিদিন রাত ১২:০০ টায়):\n`crontab -e` ওপেন করে নিচের লাইন যোগ করতে হবে:\n```text\n0 0 * * * /usr/local/bin/backup_logs.sh >> /var/log/log_backup_cron.log 2>&1\n```\n(ব্যাখ্যা: `0` মিনিট, `0` ঘণ্টা/রাত ১২টা, `*` যেকোনো দিন, `*` যেকোনো মাস, `*` সপ্তাহের যেকোনো দিন)।",
+    "points_to_remember": [
+      "চলমান সার্ভারে লগ ফাইল ডিলিট করার বদলে `cat /dev/null > file` করা নিরাপদ যাতে ফাইল হ্যান্ডেল ব্রোকেন না হয়।",
+      "`find -mtime +30 -exec rm -f {} \\;` হলো স্ট্যান্ডার্ড লিনাক্স ক্লিনআপ প্যাটার্ন।"
+    ],
+    "tags": [
+      "bash_scripting",
+      "crontab",
+      "linux_automation"
+    ]
+  }
+]

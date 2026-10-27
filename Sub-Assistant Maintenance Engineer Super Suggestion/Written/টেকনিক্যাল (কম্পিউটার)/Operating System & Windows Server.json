@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1049,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating System & Windows Server",
+    "question": "উইন্ডোজ সার্ভার ডোমেইন নেটওয়ার্কে Active Directory Group Policy Object (GPO) কী?\n(ক) পাসপোর্ট আঞ্চলিক অফিসের নিরাপত্তা রক্ষায় ক্লায়েন্ট পিসিসমূহে 'USB Mass Storage Block' এবং 'Account Lockout Policy' কার্যকর করার প্রশাসনিক ধাপগুলো লিখুন।\n(খ) একটি মাল্টি-ডোমেইন ফরেস্টে FSMO (Flexible Single Master Operations) এর ৫টি রোলের নাম ও দায়িত্ব সংক্ষেপে লিখুন।",
+    "marks": 10,
+    "answer": "অ্যাক্টিভ ডিরেক্টরি GPO ও FSMO রোলস:\n\n১. Group Policy Object (GPO):\nActive Directory ডোমেইন নেটওয়ার্কে সেন্ট্রালাইজডভাবে সমস্ত কম্পিউটার এবং ব্যবহারকারীদের অপারেটিং সিস্টেম সেটিংস, সিকিউরিটি পলিসি, সফটওয়্যার ইন্সটলেশন ও কনফিগারেশন রিমোটলি নিয়ন্ত্রণ করার হাতিয়ার হলো GPO।\n\n(ক) প্রশাসনিক কনফিগারেশন ধাপ:\n১. USB Storage Block Policy:\n   • সার্ভারে `gpmc.msc` ওপেন করে নির্দিষ্ট OU (যেমন: Passport_Counters)-এর ওপর রাইট ক্লিক করে 'Create a GPO in this domain and Link it here' নির্বাচন করা।\n   • পলিসি নেভিগেশন: `Computer Configuration` $\\rightarrow$ `Policies` $\\rightarrow$ `Administrative Templates` $\\rightarrow$ `System` $\\rightarrow$ `Removable Storage Access`।\n   • 'All Removable Storage classes: Deny all access' পলিসিটি Enable করা।\n   • ক্লায়েন্ট পিসিতে কমান্ড প্রম্পটে `gpupdate /force` দিয়ে তাৎক্ষণিক পলিসি পুশ করা। এর ফলে পেনড্রাইভের মাধ্যমে কোনো ডাটা চুরি বা ভাইরাস প্রবেশ সম্পূর্ণ বন্ধ হবে।\n\n২. Account Lockout Policy (ব্রুট-ফোর্স পাসওয়ার্ড অ্যাটাক প্রতিরোধ):\n   • নেভিগেশন: `Computer Configuration` $\\rightarrow$ `Windows Settings` $\\rightarrow$ `Security Settings` $\\rightarrow$ `Account Policies` $\\rightarrow$ `Account Lockout Policy`।\n   • 'Account lockout threshold': ৩ বা ৫ বার ভুল পাসওয়ার্ড দিলে অ্যাকাউন্ট লক হবে।\n   • 'Account lockout duration': ৩০ মিনিট পর আনলক হবে অথবা অ্যাডমিন আনলক করবে।\n\n(খ) ৫টি FSMO রোল ও দায়িত্ব:\n১. Schema Master (Forest-wide): সমগ্র ফরেস্টে ডিরেক্টরির অবজেক্ট ক্লাস ও অ্যাট্রিবিউট ডেফিনিশন আপডেট নিয়ন্ত্রণ করে।\n২. Domain Naming Master (Forest-wide): ফরেস্টে নতুন কোনো ডোমেইন যুক্ত বা অপসারণের বৈধতা নিশ্চিত করে।\n৩. RID (Relative ID) Master (Domain-wide): ডোমেইনের প্রতিটি নতুন অবজেক্ট তৈরির জন্য সিকিউরিটি আইডেন্টিফায়ারের (SID) একটি ইউনিক RID পুল বরাদ্দ করে।\n৪. PDC Emulator (Domain-wide): ডোমেইনের সময় সিঙ্ক্রোনাইজেশন (NTP), পাসওয়ার্ড পরিবর্তন তাৎক্ষণিক রেপ্লিকেশন এবং লিগ্যাসি ক্লায়েন্ট সাপোর্ট পরিচালনা করে।\n৫. Infrastructure Master (Domain-wide): অন্যান্য ডোমেইনের অবজেক্ট রেফারেন্স (GUID, SID) ক্রস-রেফারেন্স রেপ্লিকেট করে আপডেট রাখে।",
+    "points_to_remember": [
+      "ফরেস্টে Schema ও Domain Naming রোল থাকে কেবল ১টি, বাকি ৩টি রোল প্রতিটি ডোমেইনে আলাদা থাকে।",
+      "GPO প্রয়োগের ক্রম: Local -> Site -> Domain -> OU (LSDOU)।"
+    ],
+    "tags": [
+      "active_directory",
+      "gpo",
+      "windows_server",
+      "fsmo"
+    ]
+  }
+]
