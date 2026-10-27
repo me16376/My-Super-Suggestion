@@ -1,0 +1,170 @@
+[
+  {
+    "id": 11,
+    "subject": "কম্পিউটার ও ডাটা এন্ট্রি",
+    "topic": "এমএস ওয়ার্ড ও ডকুমেন্ট প্রসেসিং",
+    "question": "MS Word-এ কোনো টেক্সটকে জাস্টিফাই (Justify Alignment) করার শর্টকাট কোনটি?",
+    "options": [
+      "Ctrl + J",
+      "Ctrl + E",
+      "Ctrl + L",
+      "Ctrl + R"
+    ],
+    "answer": "Ctrl + J",
+    "explanation": "Ctrl + J প্যারাগ্রাফকে উভয় পাশে সমানভাবে জাস্টিফাই করে। Ctrl + E সেন্টার এবং Ctrl + L বামে অ্যালাইন করে।",
+    "tags": [
+      "Computer",
+      "MS Office",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 12,
+    "subject": "কম্পিউটার ও ডাটা এন্ট্রি",
+    "topic": "এমএস ওয়ার্ড ও ডকুমেন্ট প্রসেসিং",
+    "question": "MS Word ডকুমেন্টে Find & Replace ডায়ালগ ওপেন করার শর্টকাট কী?",
+    "options": [
+      "Ctrl + F",
+      "Ctrl + H",
+      "Ctrl + R",
+      "Ctrl + G"
+    ],
+    "answer": "Ctrl + H",
+    "explanation": "Ctrl + H সরাসরি Replace উইন্ডো আনে এবং Ctrl + F শুধুমাত্র Find উইন্ডো আনে।",
+    "tags": [
+      "Computer",
+      "MS Office",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 13,
+    "subject": "কম্পিউটার ও ডাটা এন্ট্রি",
+    "topic": "এমএস ওয়ার্ড ও ডকুমেন্ট প্রসেসিং",
+    "question": "এমএস ওয়ার্ডে ফন্ট সাইজ এক পয়েন্ট বড় করার কীবোর্ড শর্টকাট কোনটি?",
+    "options": [
+      "Ctrl + ]",
+      "Ctrl + Shift + >",
+      "Ctrl + [",
+      "উভয় ক ও খ"
+    ],
+    "answer": "উভয় ক ও খ",
+    "explanation": "Ctrl + ] এবং Ctrl + Shift + > উভয়ই ফন্ট সাইজ বড় করতে কার্যকর।",
+    "tags": [
+      "Computer",
+      "MS Office",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 14,
+    "subject": "কম্পিউটার ও ডাটা এন্ট্রি",
+    "topic": "এমএস ওয়ার্ড ও ডকুমেন্ট প্রসেসিং",
+    "question": "ডকুমেন্টে পৃষ্ঠার নিচে ফুটনোট (Footnote) ইনসার্ট করার শর্টকাট কোনটি?",
+    "options": [
+      "Alt + Ctrl + F",
+      "Alt + Ctrl + D",
+      "Ctrl + Shift + F",
+      "Alt + F"
+    ],
+    "answer": "Alt + Ctrl + F",
+    "explanation": "Alt + Ctrl + F কমান্ডে ফুটনোট এবং Alt + Ctrl + D দিয়ে এন্ডনোট যুক্ত হয়।",
+    "tags": [
+      "Computer",
+      "MS Office",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 15,
+    "subject": "কম্পিউটার ও ডাটা এন্ট্রি",
+    "topic": "এমএস ওয়ার্ড ও ডকুমেন্ট প্রসেসিং",
+    "question": "এমএস ওয়ার্ডে টেবিল তৈরি করার অপশন কোন ট্যাবে থাকে?",
+    "options": [
+      "Home",
+      "Insert",
+      "Page Layout",
+      "References"
+    ],
+    "answer": "Insert",
+    "explanation": "Insert ট্যাবের অধীনে Table, Picture, Shapes, Chart ইত্যাদি ইনসার্ট করার কমান্ড রয়েছে।",
+    "tags": [
+      "Computer",
+      "MS Office",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 16,
+    "subject": "কম্পিউটার ও ডাটা এন্ট্রি",
+    "topic": "এমএস ওয়ার্ড ও ডকুমেন্ট প্রসেসিং",
+    "question": "একই চিঠি বিভিন্ন ঠিকানায় দ্রুত প্রেরণের জন্য ওয়ার্ডের কোন ফিচারটি ব্যবহৃত হয়?",
+    "options": [
+      "AutoText",
+      "Mail Merge",
+      "Macro",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge",
+    "explanation": "Mail Merge এর মাধ্যমে একক মূল চিঠি বিভিন্ন ডেটাবেজ বা তালিকার সদস্যদের নামে স্বয়ংক্রিয়ভাবে তৈরি করা যায়।",
+    "tags": [
+      "Computer",
+      "MS Office",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 17,
+    "subject": "কম্পিউটার ও ডাটা এন্ট্রি",
+    "topic": "এমএস ওয়ার্ড ও ডকুমেন্ট প্রসেসিং",
+    "question": "MS Word-এ পেজ ব্রেক (Page Break) দেওয়ার কীবোর্ড শর্টকাট কোনটি?",
+    "options": [
+      "Shift + Enter",
+      "Ctrl + Enter",
+      "Alt + Enter",
+      "Ctrl + Shift + Enter"
+    ],
+    "answer": "Ctrl + Enter",
+    "explanation": "Ctrl + Enter চাপলে কার্সরের স্থান থেকে তাৎক্ষণিক নতুন পৃষ্ঠা শুরু হয়।",
+    "tags": [
+      "Computer",
+      "MS Office",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 18,
+    "subject": "কম্পিউটার ও ডাটা এন্ট্রি",
+    "topic": "এমএস ওয়ার্ড ও ডকুমেন্ট প্রসেসিং",
+    "question": "কোনো ডকুমেন্টের বানান ও ব্যাকরণ (Spelling & Grammar) পরীক্ষার ফাংশন কী কোনটি?",
+    "options": [
+      "F1",
+      "F5",
+      "F7",
+      "F12"
+    ],
+    "answer": "F7",
+    "explanation": "F7 চাপলে স্পেলিং ও গ্রামার চেকার ওপেন হয়। F12 দিয়ে Save As হয়।",
+    "tags": [
+      "Computer",
+      "MS Office",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  }
+]

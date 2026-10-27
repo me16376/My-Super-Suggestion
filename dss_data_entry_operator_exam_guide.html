@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>সমাজসেবা অধিদপ্তর (DSS) ডাটা এন্ট্রি অপারেটর — পূর্ণাঙ্গ লিখিত ও অ্যাপটিটিউড পরীক্ষা গাইড ও সিলেবাস</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+  @page {
+    size: A4;
+    margin: 8mm 10mm 8mm 10mm;
+  }
+  * {
+    box-sizing: border-box;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  body {
+    font-family: 'Hind Siliguri', 'Nirmala UI', 'Kalpurush', Arial, sans-serif;
+    color: #1e293b;
+    background-color: #f8fafc;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  .no-print { display: block; }
+  @media print { .no-print { display: none !important; } }
+  .guide-top-bar {
+    background: #0f172a;
+    padding: 10px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #0284c7;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .guide-back-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #0284c7;
+    padding: 6px 14px;
+    border-radius: 6px;
+    transition: all 0.2s;
+  }
+  .guide-back-link:hover { background: #0369a1; }
+  .guide-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+  .guide-action-btn {
+    background: #1e293b;
+    border: 1px solid #475569;
+    color: #e2e8f0;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.2s;
+  }
+  .guide-action-btn:hover { background: #334155; color: #ffffff; }
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto 30px auto;
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  }
+
+  .header-box {
+    text-align: center;
+    border-bottom: 3px double #0284c7;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+  }
+  .header-box h1 {
+    font-size: 24px;
+    margin: 0 0 4px 0;
+    color: #0f172a;
+    font-weight: 700;
+  }
+  .header-box h2 {
+    font-size: 18px;
+    margin: 0 0 6px 0;
+    color: #0369a1;
+    font-weight: 600;
+  }
+  .header-box p {
+    margin: 0;
+    font-size: 13px;
+    color: #64748b;
+  }
+
+  .meta-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .meta-card {
+    background: #f1f5f9;
+    border-left: 4px solid #0284c7;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+  .meta-label {
+    font-size: 11px;
+    color: #64748b;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .meta-val {
+    font-size: 14px;
+    color: #0f172a;
+    font-weight: 700;
+    margin-top: 2px;
+  }
+
+  .section-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0f172a;
+    border-left: 5px solid #0284c7;
+    padding-left: 10px;
+    margin: 20px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8fafc;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 0 6px 6px 0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    font-size: 13px;
+  }
+  th, td {
+    border: 1px solid #cbd5e1;
+    padding: 8px 12px;
+    text-align: left;
+  }
+  th {
+    background: #f1f5f9;
+    color: #0f172a;
+    font-weight: 700;
+  }
+  tr:nth-child(even) { background: #fafafa; }
+
+  .highlight-badge {
+    background: #e0f2fe;
+    color: #0369a1;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 11px;
+  }
+
+  .typing-box {
+    background: #ecfdf5;
+    border: 2px dashed #10b981;
+    border-radius: 8px;
+    padding: 14px;
+    margin: 15px 0;
+  }
+  .typing-box h4 {
+    margin: 0 0 6px 0;
+    color: #047857;
+    font-size: 15px;
+  }
+
+  .syllabus-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  .syllabus-card {
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 12px;
+    background: #ffffff;
+  }
+  .syllabus-card h4 {
+    margin: 0 0 8px 0;
+    color: #0284c7;
+    font-size: 14px;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 4px;
+  }
+  .syllabus-card ul {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 12.5px;
+    color: #334155;
+  }
+  .syllabus-card li { margin-bottom: 4px; }
+
+  .footer-note {
+    text-align: center;
+    border-top: 1px solid #cbd5e1;
+    padding-top: 15px;
+    margin-top: 25px;
+    font-size: 12px;
+    color: #64748b;
+  }
+</style>
+</head>
+<body>
+
+<div class="no-print guide-top-bar" style="max-width: 1100px; margin: 15px auto;">
+  <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+    <a href="index.html" class="guide-back-link" style="background: #2563eb;">
+      🏠 মাস্টার পোর্টাল (Hub)
+    </a>
+    <a href="dss_data_entry_operator_super_suggestion.html" class="guide-back-link">
+      ← সুপার সাজেশন পোর্টালে যান (Web Portal)
+    </a>
+  </div>
+  <div class="guide-actions">
+    <button class="guide-action-btn" onclick="window.print()">
+      🖨️ সিলেবাস গাইড প্রিন্ট / PDF সংরক্ষণ
+    </button>
+    <a href="DSS Data Entry Operator Super Suggestion/DSS_ad_2026_Circular.pdf" target="_blank" class="guide-action-btn">
+      📄 অফিশিয়াল সার্কুলার
+    </a>
+  </div>
+</div>
+
+<div class="container">
+  <div class="header-box">
+    <h1>গণপ্রজাতন্ত্রী বাংলাদেশ সরকার — সমাজসেবা অধিদপ্তর (DSS)</h1>
+    <h2>পদ: ডাটা এন্ট্রি অপারেটর (Data Entry Operator) — ১৬তম গ্রেড</h2>
+    <p>নিয়োগ পরীক্ষা সিলেবাস, মানবণ্টন, স্ট্যান্ডার্ড অ্যাপটিটিউড টেস্ট ও টাইপিং স্পিড নির্দেশিকা</p>
+  </div>
+
+  <div class="meta-grid">
+    <div class="meta-card">
+      <div class="meta-label">বিজ্ঞপ্তি ক্রমিক</div>
+      <div class="meta-val">১৬ (Circular No. 16)</div>
+    </div>
+    <div class="meta-card">
+      <div class="meta-label">মোট পদসংখ্যা</div>
+      <div class="meta-val">৩৫ টি (35 Posts)</div>
+    </div>
+    <div class="meta-card">
+      <div class="meta-label">বেতন স্কেল</div>
+      <div class="meta-val">৯,৩০০ - ২২,৪৯০/- (গ্রেড-১৬)</div>
+    </div>
+    <div class="meta-card">
+      <div class="meta-label">শিক্ষাগত যোগ্যতা</div>
+      <div class="meta-val">উচ্চ মাধ্যমিক সার্টিফিকেট (HSC) / সমমান</div>
+    </div>
+  </div>
+
+  <div class="typing-box">
+    <h4>⚠️ বাধ্যতামূলক টাইপিং ও অ্যাপটিটিউড শর্তাবলী (সরকারি সার্কুলার অনুযায়ী)</h4>
+    <p style="margin: 0; font-size: 13px; color: #065f46;">
+      ১. কম্পিউটার টাইপিংয়ে সর্বনিম্ন গতি: <strong>প্রতি মিনিটে বাংলায় ২০ শব্দ</strong> এবং <strong>ইংরেজিতে ২০ শব্দ</strong> থাকতে হবে।<br>
+      ২. <strong>স্ট্যান্ডার্ড অ্যাপটিটিউড টেস্ট (Standard Aptitude Test)</strong>-এ উত্তীর্ণ হতে হবে (কম্পিউটার অপারেটিং, এমএস ওয়ার্ড, এক্সেল, পাওয়ারপয়েন্ট, অ্যাক্সেস ও ইন্টারনেট ব্রাউজিং)।
+    </p>
+  </div>
+
+  <div class="section-title">১. প্রিলিমিনারি / লিখিত ওএমআর পরীক্ষার পূর্ণাঙ্গ মানবণ্টন (৭০ নম্বর)</div>
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 10%;">ক্রম</th>
+        <th style="width: 30%;">বিষয়</th>
+        <th style="width: 15%;">নম্বর</th>
+        <th style="width: 45%;">গুরুত্বপূর্ণ ফোকাস এরিয়া ও টপিক</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>০১</td>
+        <td><strong>বাংলা ভাষা ও সাহিত্য</strong></td>
+        <td><span class="highlight-badge">২০ নম্বর</span></td>
+        <td>বানান ও বাক্য শুদ্ধিকরণ, এককথায় প্রকাশ, সন্ধি, সমাস, কারক ও বিভক্তি, বাগধারা ও প্রবাদ-প্রবচন, দাপ্তরিক ও প্রশাসনিক পরিভাষা।</td>
+      </tr>
+      <tr>
+        <td>০২</td>
+        <td><strong>ইংরেজি (English Language)</strong></td>
+        <td><span class="highlight-badge">২০ নম্বর</span></td>
+        <td>Right Form of Verbs, Appropriate Prepositions, Sentence Correction, Spelling, Synonyms & Antonyms, Idioms & Phrases, Translation.</td>
+      </tr>
+      <tr>
+        <td>০৩</td>
+        <td><strong>সাধারণ গণিত</strong></td>
+        <td><span class="highlight-badge">১৫ নম্বর</span></td>
+        <td>ঐকিক নিয়ম, শতকরা, লাভ-ক্ষতি, অনুপাত-সমানুপাত, সুদকষা, ল.সা.গু ও গ.সা.গু, সাধারণ বীজগণিত ও মান নির্ণয়।</td>
+      </tr>
+      <tr>
+        <td>০৪</td>
+        <td><strong>কম্পিউটার ও ডাটা এন্ট্রি</strong></td>
+        <td><span class="highlight-badge">১৫ নম্বর</span></td>
+        <td>কম্পিউটার সংগঠন, MS Word, MS Excel ফর্মুলা (SUM, AVERAGE, IF, VLOOKUP), MS Access বেসিক, কীবোর্ড শর্টকাট, টাইপিং রুলস, ইন্টারনেট ও ডাটা ভ্যালিডেশন।</td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: right; font-weight: 700;">সর্বমোট নম্বর:</td>
+        <td style="font-weight: 700; color: #0284c7;">৭০ নম্বর</td>
+        <td><strong>সময়: ৬০ মিনিট | নেগেটিভ মার্কিং: প্রতিটি ভুলের জন্য ০.২৫ কাটা যাবে</strong></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="section-title">২. বিষয়ভিত্তিক বিস্তারিত সিলেবাস ও প্রশ্ন বিশ্লেষণ</div>
+  <div class="syllabus-grid">
+    <div class="syllabus-card">
+      <h4>💻 কম্পিউটার ও স্ট্যান্ডার্ড অ্যাপটিটিউড (১৫ নম্বর + প্র্যাকটিক্যাল)</h4>
+      <ul>
+        <li><strong>MS Excel:</strong> সেল রেফারেন্সিং ($A$1), ফর্মুলা (=SUM, =AVERAGE, =COUNTIF, =IF, =VLOOKUP), ফিল্টার, সর্টিং, কন্ডিশনাল ফরম্যাটিং।</li>
+        <li><strong>MS Word:</strong> পেজ সেটআপ (মার্জিন, অরিয়েন্টেশন, পেপার সাইজ A4/Legal), টেবিল ইনসার্ট ও ফরম্যাটিং, হেডার ও ফুটার, ফন্ট কনভার্সন (বিজয়/অভ্র)।</li>
+        <li><strong>MS Access:</strong> ডাটাবেজ টেবিল, ফিল্ড ডাটা টাইপ, প্রাইমারি কি (Primary Key), রিলেশনশিপ, সিম্পল কোয়েরি তৈরি।</li>
+        <li><strong>টাইপিং স্পিড:</strong> বাংলা ২০ শব্দ/মিনিট (বিজয় বা অভ্র), ইংরেজি ২০ শব্দ/মিনিট (ভুলের হার ৫% এর কম হতে হবে)।</li>
+        <li><strong>কীবোর্ড শর্টকাট:</strong> Ctrl+A, Ctrl+C, Ctrl+V, Ctrl+F, Ctrl+H, Ctrl+Z, Ctrl+Y, F12 (Save As), Alt+Tab, Win+D ইত্যাদি।</li>
+      </ul>
+    </div>
+    <div class="syllabus-card">
+      <h4>🇧🇩 বাংলা ভাষা ও সাহিত্য (২০ নম্বর)</h4>
+      <ul>
+        <li><strong>শুদ্ধিকরণ:</strong> বানান শুদ্ধি (মুমূর্ষু, অপরাহ্ন, সান্ত্বনা, উজ্জ্বল, প্রতিযোগিতা) ও বাক্য শুদ্ধি।</li>
+        <li><strong>শব্দ ও ব্যাকরণ:</strong> সন্ধি, সমাস (দ্বন্দ্ব, দ্বিগু, বহুব্রীহি), কারক ও বিভক্তি, ণ-ত্ব ও ষ-ত্ব বিধান।</li>
+        <li><strong>শব্দভাণ্ডার:</strong> এককথায় প্রকাশ, বাগধারা ও প্রবাদ-প্রবচন, বিপরীতার্থক শব্দ, সমার্থক শব্দ।</li>
+        <li><strong>দাপ্তরিক পরিভাষা:</strong> Noti, Summary, Approval, Quorum, Gazette, Embezzlement, Deputation, Agenda, Remittance।</li>
+      </ul>
+    </div>
+    <div class="syllabus-card">
+      <h4>🇬🇧 English Language & Grammar (২০ নম্বর)</h4>
+      <ul>
+        <li><strong>Grammar & Usage:</strong> Parts of Speech, Tense, Subject-Verb Agreement, Right Form of Verbs, Voice Change, Narration.</li>
+        <li><strong>Vocabulary & Spelling:</strong> Correct Spelling (Accommodate, Millennium, Lieutenant, Questionnaire), Synonyms, Antonyms.</li>
+        <li><strong>Prepositions & Idioms:</strong> Appropriate Prepositions (Abide by, Absorb in, Aware of), Idioms & Phrases (A piece of cake, In full swing).</li>
+        <li><strong>Official English:</strong> Drafting official emails, formal letter phrasing, notices, error correction in sentences.</li>
+      </ul>
+    </div>
+    <div class="syllabus-card">
+      <h4>📐 সাধারণ গণিত ও পাটিগণিত (১৫ নম্বর)</h4>
+      <ul>
+        <li><strong>পাটিগণিত:</strong> ঐকিক নিয়ম (কাজ ও সময়, নল ও চৌবাচ্চা), শতকরা, লাভ ও ক্ষতি, সরল ও যৌগিক মুনাফা।</li>
+        <li><strong>অনুপাত ও মিশ্রণ:</strong> অনুপাত-সমানুপাত, তামা-দস্তার অনুপাত, অংশীদারি কারবার।</li>
+        <li><strong>বীজগণিত:</strong> বীজগাণিতিক সূত্রাবলি ও মান নির্ণয় ((a+b)², (a-b)³), উৎপাদকে বিশ্লেষণ, সরল সমীকরণ।</li>
+        <li><strong>জ্যামিতি ও পরিমিতি:</strong> ত্রিভুজ, চতুর্ভুজ ও আয়তক্ষেত্রের ক্ষেত্রফল ও পরিসীমা নির্ণয়।</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-title">৩. স্ট্যান্ডার্ড অ্যাপটিটিউড টেস্টে সর্বোচ্চ নম্বর নিশ্চিতের কৌশল</div>
+  <table style="margin-bottom: 20px;">
+    <thead>
+      <tr>
+        <th style="width: 25%;">মডিউল</th>
+        <th style="width: 35%;">পরীক্ষায় যা করতে দেওয়া হয়</th>
+        <th style="width: 40%;">সতর্কতা ও সর্বোচ্চ স্কোরের টিপস</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>MS Excel প্র্যাকটিক্যাল</strong></td>
+        <td>একটি স্যালারি শীট বা বাজেট শীট তৈরি করে SUM, IF, AVERAGE ও ফিল্টার প্রয়োগ করা।</td>
+        <td>ম্যানুয়াল যোগ না করে সরাসরি এক্সেল ফর্মুলা লিখুন। টাকার ঘরে কারেন্সি বা ডেসিমাল ফরম্যাট ২ ডিজিট রাখুন।</td>
+      </tr>
+      <tr>
+        <td><strong>MS Word ফরম্যাটিং</strong></td>
+        <td>একটি সরকারি নোটিশ বা আবেদনপত্র টাইপ করে উপযুক্ত মার্জিন, ট্যাব, বুলেট ও টেবিল সাজানো।</td>
+        <td>Margin: Normal (Top 1", Bottom 1", Left 1", Right 1") দিন। স্পেসবার দিয়ে দূরত্ব না বাড়িয়ে Tab ও Alignment ব্যবহার করুন।</td>
+      </tr>
+      <tr>
+        <td><strong>টাইপিং স্পিড টেস্ট</strong></td>
+        <td>স্ক্রিন বা প্রিন্টেড কাগজ দেখে ৫ মিনিটে ১০০ শব্দ বাংলায় ও ১০০ শব্দ ইংরেজিতে নির্ভুল টাইপ।</td>
+        <td>দ্রুত টাইপের চেয়ে নির্ভুলতা (Accuracy) আগে নিশ্চিত করুন। ভুল বেশি হলে পেনাল্টি দিয়ে স্পিড কমে যায়।</td>
+      </tr>
+      <tr>
+        <td><strong>ডাটা ভ্যালিডেশন</strong></td>
+        <td>তালিকা দেখে ভুল ডাটা (১০ বা ১৩ ডিজিটের NID, ভুল মোবাইল নাম্বার, ভুল তারিখ ফরম্যাট) সংশোধন।</td>
+        <td>Excel Data Validation ব্যবহার শিখুন (Text Length = 10, Date within range)।</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="footer-note">
+    <strong>সমাজসেবা অধিদপ্তর (DSS) ডাটা এন্ট্রি অপারেটর নিয়োগ প্রস্তুতি প্যাক</strong><br>
+    ইন্টারঅ্যাক্টিভ ওএমআর মক টেস্ট এবং লাইভ টাইপিং স্পিড টেস্ট দিতে আমাদের সুপার সাজেশন ওয়েব পোর্টালে ভিজিট করুন।<br>
+    © ২০২৬ সর্বস্বত্ব সংরক্ষিত | গণপ্রজাতন্ত্রী বাংলাদেশ সরকার
+  </div>
+</div>
+
+</body>
+</html>

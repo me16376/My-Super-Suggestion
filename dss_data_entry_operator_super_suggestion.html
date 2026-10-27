@@ -1,0 +1,1786 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>সমাজসেবা অধিদপ্তর (DSS) ডাটা এন্ট্রি অপারেটর — সুপার সাজেশন ও মডেল টেস্ট পোর্টাল</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #0284c7;
+      --primary-dark: #0369a1;
+      --primary-light: #e0f2fe;
+      --accent: #10b981;
+      --accent-hover: #059669;
+      --accent-light: #ecfdf5;
+      --danger: #ef4444;
+      --danger-bg: #fef2f2;
+      --warning: #f59e0b;
+      --warning-bg: #fffbeb;
+      --info: #3b82f6;
+      --bg-body: #f8fafc;
+      --bg-card: #ffffff;
+      --bg-card-hover: #f1f5f9;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --text-dim: #94a3b8;
+      --border-color: #e2e8f0;
+      --border-highlight: #cbd5e1;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+      --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.08), 0 2px 4px -2px rgba(0,0,0,0.05);
+      --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -4px rgba(0,0,0,0.04);
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --radius-lg: 16px;
+      --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    [data-theme="dark"] {
+      --primary: #38bdf8;
+      --primary-dark: #0284c7;
+      --primary-light: rgba(56, 189, 248, 0.12);
+      --accent: #34d399;
+      --accent-hover: #10b981;
+      --accent-light: rgba(52, 211, 153, 0.12);
+      --danger: #f87171;
+      --danger-bg: rgba(239, 68, 68, 0.12);
+      --warning: #fbbf24;
+      --warning-bg: rgba(245, 158, 11, 0.12);
+      --bg-body: #0b1120;
+      --bg-card: #131c31;
+      --bg-card-hover: #1e293b;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --border-color: #1e293b;
+      --border-highlight: #334155;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
+      --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.4);
+      --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.5);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Hind Siliguri', sans-serif;
+      background-color: var(--bg-body);
+      color: var(--text-main);
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    header {
+      background: var(--bg-card);
+      border-bottom: 1px solid var(--border-color);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: var(--shadow-sm);
+      backdrop-filter: blur(8px);
+    }
+
+    .header-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 12px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .brand-section {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .brand-icon {
+      width: 44px;
+      height: 44px;
+      background: linear-gradient(135deg, #0284c7, #10b981);
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      color: #fff;
+      box-shadow: 0 4px 10px rgba(2, 132, 199, 0.3);
+    }
+
+    .brand-text h1 {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.25;
+      color: var(--text-main);
+    }
+
+    .brand-text p {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .brand-badge {
+      display: inline-block;
+      background: var(--primary-light);
+      color: var(--primary);
+      font-size: 11px;
+      font-weight: 600;
+      padding: 1px 8px;
+      border-radius: 20px;
+      margin-left: 6px;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .nav-btn {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      padding: 7px 14px;
+      border-radius: var(--radius-sm);
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    .nav-btn:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    .nav-btn.primary {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+    }
+
+    .nav-btn.primary:hover {
+      background: var(--primary-dark);
+    }
+
+    .theme-toggle {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: 1px solid var(--border-color);
+      background: var(--bg-card);
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: var(--transition);
+      font-size: 16px;
+    }
+
+    .theme-toggle:hover {
+      border-color: var(--primary);
+    }
+
+    /* TABS NAVIGATION */
+    .tabs-bar {
+      background: var(--bg-card);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .tabs-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      gap: 4px;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .tabs-inner::-webkit-scrollbar { display: none; }
+
+    .tab-btn {
+      padding: 12px 18px;
+      background: transparent;
+      border: none;
+      border-bottom: 3px solid transparent;
+      color: var(--text-muted);
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: var(--transition);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .tab-btn:hover {
+      color: var(--primary);
+      background: var(--bg-card-hover);
+    }
+
+    .tab-btn.active {
+      color: var(--primary);
+      border-bottom-color: var(--primary);
+    }
+
+    .tab-badge {
+      background: var(--border-color);
+      color: var(--text-muted);
+      padding: 2px 7px;
+      border-radius: 12px;
+      font-size: 11px;
+    }
+    .tab-btn.active .tab-badge {
+      background: var(--primary-light);
+      color: var(--primary);
+    }
+
+    /* MAIN CONTAINER */
+    main {
+      flex: 1;
+      max-width: 1280px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 24px 20px;
+    }
+
+    .tab-pane {
+      display: none;
+    }
+    .tab-pane.active {
+      display: block;
+      animation: fadeIn 0.25s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* STATS STRIP */
+    .stats-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .stat-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+    }
+
+    .stat-card:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--primary);
+    }
+
+    .stat-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+    }
+
+    .stat-info .stat-num {
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--text-main);
+      font-family: 'Outfit', sans-serif;
+      line-height: 1.1;
+    }
+
+    .stat-info .stat-label {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      margin-top: 3px;
+    }
+
+    /* FILTER BAR */
+    .filter-bar {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 16px;
+      margin-bottom: 20px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .search-box {
+      flex: 1;
+      min-width: 250px;
+      position: relative;
+    }
+
+    .search-box input {
+      width: 100%;
+      background: var(--bg-body);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      padding: 9px 12px 9px 36px;
+      font-size: 14px;
+      color: var(--text-main);
+      outline: none;
+      transition: var(--transition);
+    }
+
+    .search-box input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-dim);
+      font-size: 14px;
+    }
+
+    .pill-group {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .pill-btn {
+      background: var(--bg-body);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 12.5px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .pill-btn:hover {
+      background: var(--primary-light);
+      color: var(--primary);
+      border-color: var(--primary);
+    }
+
+    .pill-btn.active {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+    }
+
+    /* QUESTION CARD */
+    .question-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .q-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+    }
+
+    .q-card:hover {
+      box-shadow: var(--shadow-md);
+      border-color: var(--border-highlight);
+    }
+
+    .q-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 12px;
+      gap: 12px;
+    }
+
+    .q-badge-wrap {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .q-badge {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+    .badge-sub { background: var(--primary-light); color: var(--primary); }
+    .badge-top { background: var(--accent-light); color: var(--accent-hover); }
+
+    .btn-bookmark {
+      background: transparent;
+      border: none;
+      color: var(--text-dim);
+      font-size: 18px;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .btn-bookmark:hover, .btn-bookmark.active {
+      color: var(--warning);
+      transform: scale(1.15);
+    }
+
+    .q-title {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 16px;
+      line-height: 1.5;
+    }
+
+    .options-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .option-item {
+      background: var(--bg-body);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      padding: 10px 14px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: var(--transition);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      user-select: none;
+      color: var(--text-main);
+    }
+
+    .option-item:hover {
+      border-color: var(--primary);
+      background: var(--primary-light);
+    }
+
+    .option-item.correct {
+      background: var(--accent-light) !important;
+      border-color: var(--accent) !important;
+      color: var(--accent-hover) !important;
+      font-weight: 700;
+    }
+
+    .option-item.incorrect {
+      background: var(--danger-bg) !important;
+      border-color: var(--danger) !important;
+      color: var(--danger) !important;
+    }
+
+    .q-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 10px;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .btn-explain {
+      background: transparent;
+      border: 1px solid var(--border-color);
+      color: var(--primary);
+      padding: 4px 12px;
+      border-radius: var(--radius-sm);
+      font-size: 12.5px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .btn-explain:hover {
+      background: var(--primary-light);
+    }
+
+    .explanation-box {
+      display: none;
+      background: var(--bg-body);
+      border-left: 4px solid var(--primary);
+      padding: 12px 16px;
+      margin-top: 12px;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      font-size: 13.5px;
+      color: var(--text-main);
+      line-height: 1.5;
+    }
+
+    /* TYPING TEST ENGINE */
+    .typing-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      box-shadow: var(--shadow-md);
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .typing-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .typing-stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+
+    .typing-stat-box {
+      background: var(--bg-body);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 12px;
+      text-align: center;
+    }
+
+    .typing-stat-val {
+      font-size: 26px;
+      font-weight: 800;
+      font-family: 'Outfit', sans-serif;
+      color: var(--primary);
+    }
+
+    .typing-stat-lbl {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .typing-pass-badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .status-pass { background: var(--accent-light); color: var(--accent-hover); }
+    .status-fail { background: var(--warning-bg); color: var(--warning); }
+
+    .typing-prompt-box {
+      background: var(--bg-body);
+      border: 1px solid var(--border-highlight);
+      border-radius: var(--radius-md);
+      padding: 18px;
+      font-size: 16px;
+      line-height: 1.8;
+      min-height: 110px;
+      user-select: none;
+      letter-spacing: 0.3px;
+      margin-bottom: 16px;
+    }
+
+    .char-correct { color: #10b981; font-weight: 600; }
+    .char-wrong { background: #fee2e2; color: #dc2626; border-radius: 2px; text-decoration: underline; }
+    .char-current { background: #e0f2fe; border-bottom: 2px solid #0284c7; }
+
+    .typing-input-area {
+      width: 100%;
+      height: 110px;
+      background: var(--bg-card);
+      border: 2px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 14px;
+      font-size: 16px;
+      font-family: inherit;
+      color: var(--text-main);
+      outline: none;
+      resize: none;
+      transition: var(--transition);
+      line-height: 1.6;
+    }
+
+    .typing-input-area:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 4px rgba(2, 132, 199, 0.15);
+    }
+
+    .typing-actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 16px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    /* MOCK EXAM SECTION */
+    .mock-start-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 32px 24px;
+      text-align: center;
+      max-width: 720px;
+      margin: 20px auto;
+      box-shadow: var(--shadow-md);
+    }
+
+    .mock-start-card h2 {
+      font-size: 22px;
+      color: var(--text-main);
+      margin-bottom: 12px;
+    }
+
+    .mock-rules {
+      text-align: left;
+      background: var(--bg-body);
+      border-radius: var(--radius-md);
+      padding: 18px 24px;
+      margin: 20px 0;
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.7;
+    }
+
+    .exam-live-wrapper {
+      display: none;
+    }
+    .exam-live-wrapper.active {
+      display: block;
+    }
+
+    .exam-timer-bar {
+      position: sticky;
+      top: 65px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 10px 18px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 90;
+      box-shadow: var(--shadow-md);
+    }
+
+    .timer-display {
+      font-family: 'Fira Code', monospace;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--danger);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn-submit-exam {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      padding: 8px 18px;
+      border-radius: var(--radius-sm);
+      font-weight: 700;
+      font-size: 14px;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .btn-submit-exam:hover {
+      background: var(--accent-hover);
+    }
+
+    .mock-result-card {
+      display: none;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 30px;
+      text-align: center;
+      max-width: 700px;
+      margin: 20px auto;
+      box-shadow: var(--shadow-lg);
+    }
+    .mock-result-card.active {
+      display: block;
+    }
+
+    .score-circle {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #0284c7, #10b981);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px auto;
+      box-shadow: 0 6px 18px rgba(2, 132, 199, 0.35);
+    }
+    .score-circle .score-val {
+      font-size: 32px;
+      font-weight: 800;
+      font-family: 'Outfit', sans-serif;
+      line-height: 1;
+    }
+    .score-circle .score-sub {
+      font-size: 12px;
+      opacity: 0.9;
+    }
+
+    .result-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin: 24px 0;
+    }
+    .result-box {
+      background: var(--bg-body);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 12px 8px;
+    }
+    .result-box .num {
+      font-size: 20px;
+      font-weight: 700;
+      font-family: 'Outfit', sans-serif;
+    }
+    .result-box .lbl {
+      font-size: 11.5px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    /* APTITUDE TAB */
+    .aptitude-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: var(--shadow-sm);
+    }
+    .aptitude-card h3 {
+      font-size: 18px;
+      color: var(--primary);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .shortcut-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      font-size: 13.5px;
+    }
+    .shortcut-table th, .shortcut-table td {
+      border: 1px solid var(--border-color);
+      padding: 8px 12px;
+      text-align: left;
+    }
+    .shortcut-table th {
+      background: var(--bg-body);
+      color: var(--text-main);
+      font-weight: 700;
+    }
+    kbd {
+      background: var(--bg-body);
+      border: 1px solid var(--border-highlight);
+      border-radius: 4px;
+      padding: 2px 6px;
+      font-family: 'Fira Code', monospace;
+      font-size: 12px;
+      box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    }
+
+    /* WRITTEN TAB */
+    .written-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: var(--shadow-sm);
+    }
+    .written-card h3 {
+      font-size: 16.5px;
+      color: var(--text-main);
+      margin-bottom: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .written-ans-box {
+      background: var(--bg-body);
+      border-left: 4px solid var(--accent);
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      padding: 16px;
+      font-size: 14px;
+      color: var(--text-main);
+      line-height: 1.6;
+      white-space: pre-wrap;
+    }
+
+    footer {
+      background: var(--bg-card);
+      border-top: 1px solid var(--border-color);
+      padding: 20px;
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-inner">
+      <div class="brand-section">
+        <div class="brand-icon">⌨️</div>
+        <div class="brand-text">
+          <h1>
+            সমাজসেবা অধিদপ্তর (DSS) — ডাটা এন্ট্রি অপারেটর
+            <span class="brand-badge">১৬তম গ্রেড • ৩৫টি পদ</span>
+          </h1>
+          <p>সুপার সাজেশন, লাইভ টাইপিং স্পিড টেস্ট ও ৭০-নম্বর ওএমআর মডেল টেস্ট পোর্টাল</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <a href="index.html" class="nav-btn">
+          🏠 মাস্টার পোর্টাল
+        </a>
+        <a href="dss_data_entry_operator_exam_guide.html" target="_blank" class="nav-btn primary">
+          🖨️ প্রিন্ট সিলেবাস ও গাইড
+        </a>
+        <button class="theme-toggle" id="themeToggleBtn" onclick="toggleTheme()" title="থিম পরিবর্তন">
+          🌓
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- TABS BAR -->
+  <div class="tabs-bar">
+    <div class="tabs-inner">
+      <button class="tab-btn active" onclick="switchTab('tab-study')">
+        📚 বিষয়ভিত্তিক প্রশ্নব্যাংক <span class="tab-badge" id="studyBadge">৭৪</span>
+      </button>
+      <button class="tab-btn" onclick="switchTab('tab-mock')">
+        ⏱️ ৭০ মার্ক ওএমআর মডেল টেস্ট <span class="tab-badge">মক টেস্ট</span>
+      </button>
+      <button class="tab-btn" onclick="switchTab('tab-typing')">
+        ⌨️ লাইভ টাইপিং টেস্ট (২০ wpm) <span class="tab-badge" style="background:#ecfdf5;color:#059669;">বাধ্যতামূলক</span>
+      </button>
+      <button class="tab-btn" onclick="switchTab('tab-aptitude')">
+        💻 স্ট্যান্ডার্ড অ্যাপটিটিউড টেস্ট গাইড <span class="tab-badge">প্র্যাকটিক্যাল</span>
+      </button>
+      <button class="tab-btn" onclick="switchTab('tab-written')">
+        📝 লিখিত ও প্র্যাকটিক্যাল মডেল <span class="tab-badge">৭টি</span>
+      </button>
+      <button class="tab-btn" onclick="switchTab('tab-bookmark')">
+        📌 বুকমার্ককৃত প্রশ্ন <span class="tab-badge" id="bookmarkTabBadge">০</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+    <!-- TAB 1: STUDY & MCQ BANK -->
+    <div id="tab-study" class="tab-pane active">
+      <!-- STATS STRIP -->
+      <div class="stats-strip">
+        <div class="stat-card">
+          <div class="stat-icon" style="background: #e0f2fe; color: #0284c7;">🎯</div>
+          <div class="stat-info">
+            <div class="stat-num" id="statTotalMcq">৭৪</div>
+            <div class="stat-label">মোট সাজেস্টেড MCQ</div>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon" style="background: #ecfdf5; color: #10b981;">💻</div>
+          <div class="stat-info">
+            <div class="stat-num">২০ WPM</div>
+            <div class="stat-label">টাইপিং স্পিড রিকোয়ারমেন্ট</div>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon" style="background: #fef3c7; color: #d97706;">📝</div>
+          <div class="stat-info">
+            <div class="stat-num">৭০ মার্ক</div>
+            <div class="stat-label">প্রিলি/লিখিত পূর্ণমান</div>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon" style="background: #f3e8ff; color: #9333ea;">👥</div>
+          <div class="stat-info">
+            <div class="stat-num">৩৫ টি</div>
+            <div class="stat-label">বিজ্ঞপ্তি পদসংখ্যা (গ্রেড-১৬)</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FILTER BAR -->
+      <div class="filter-bar">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="searchInput" placeholder="প্রশ্ন, টপিক বা অপশন খুঁজুন..." oninput="filterQuestions()">
+        </div>
+        <div class="pill-group" id="subjectFilterPills">
+          <button class="pill-btn active" onclick="setSubjectFilter('all', this)">সব বিষয় (All)</button>
+          <button class="pill-btn" onclick="setSubjectFilter('কম্পিউটার ও ডাটা এন্ট্রি', this)">কম্পিউটার ও ডাটা এন্ট্রি</button>
+          <button class="pill-btn" onclick="setSubjectFilter('বাংলা', this)">বাংলা</button>
+          <button class="pill-btn" onclick="setSubjectFilter('ইংরেজি', this)">ইংরেজি</button>
+          <button class="pill-btn" onclick="setSubjectFilter('সাধারণ গণিত', this)">সাধারণ গণিত</button>
+          <button class="pill-btn" onclick="setSubjectFilter('সমাজসেবা ও সাধারণ জ্ঞান', this)">সাধারণ জ্ঞান</button>
+        </div>
+      </div>
+
+      <!-- QUESTIONS LIST -->
+      <div class="question-list" id="questionsContainer">
+        <!-- Injected by JavaScript -->
+      </div>
+    </div>
+
+    <!-- TAB 2: 70-MARK OMR MOCK TEST -->
+    <div id="tab-mock" class="tab-pane">
+      <div id="mockIntroCard" class="mock-start-card">
+        <h2>⏱️ সমাজসেবা অধিদপ্তর ডাটা এন্ট্রি অপারেটর পূর্ণাঙ্গ ওএমআর মডেল টেস্ট</h2>
+        <p style="color: var(--text-muted); font-size: 14.5px;">
+          অফিশিয়াল পরীক্ষার মানবণ্টন ও সময়ানুযায়ী ৭০ নম্বরের রিয়েল-টাইম প্র্যাকটিস টেস্ট
+        </p>
+
+        <div class="mock-rules">
+          <strong style="color: var(--text-main); display: block; margin-bottom: 6px;">📋 মডেল টেস্টের নিয়মাবলী:</strong>
+          • মোট প্রশ্ন: <strong>৭০টি</strong> (বাংলা ২০, ইংরেজি ২০, গণিত ১৫, কম্পিউটার ও ডাটা এন্ট্রি ১৫)<br>
+          • নির্ধারিত সময়: <strong>৬০ মিনিট</strong> (কাউন্টডাউন টাইমার চলমান থাকবে)<br>
+          • প্রতিটি সঠিক উত্তরের জন্য: <strong>+১ নম্বর</strong><br>
+          • প্রতিটি ভুল উত্তরের জন্য: <strong>-০.২৫ নম্বর</strong> (নেগেটিভ মার্কিং কার্যকর)<br>
+          • সময় শেষ হলে স্বয়ংক্রিয়ভাবে খাতা জমা হয়ে যাবে এবং পূর্ণাঙ্গ অ্যানালাইসিস স্ক্রিনে প্রদর্শিত হবে।
+        </div>
+
+        <button class="nav-btn primary" style="padding: 12px 32px; font-size: 16px; border-radius: 8px;" onclick="startMockExam()">
+          🚀 মডেল টেস্ট শুরু করুন
+        </button>
+      </div>
+
+      <!-- LIVE EXAM RUNNER -->
+      <div id="examLiveWrapper" class="exam-live-wrapper">
+        <div class="exam-timer-bar">
+          <div class="timer-display">
+            ⏱️ <span id="timerText">60:00</span>
+          </div>
+          <div style="font-size: 14px; font-weight: 600; color: var(--text-muted);">
+            উত্তর দিয়েছেন: <span id="examAnsweredCount" style="color: var(--primary); font-weight: 700;">০</span> / ৭০
+          </div>
+          <button class="btn-submit-exam" onclick="confirmSubmitExam()">
+            ✅ পরীক্ষা জমা দিন (Submit)
+          </button>
+        </div>
+
+        <div class="question-list" id="mockExamQuestionsContainer">
+          <!-- Live exam questions injected here -->
+        </div>
+      </div>
+
+      <!-- RESULT CARD -->
+      <div id="mockResultCard" class="mock-result-card">
+        <div class="score-circle">
+          <span class="score-val" id="finalScoreVal">0.00</span>
+          <span class="score-sub">পূর্ণমান: ৭০</span>
+        </div>
+        <h3 style="font-size: 20px; color: var(--text-main); margin-bottom: 6px;">মডেল টেস্টের ফলাফল বিবরণী</h3>
+        <p style="font-size: 13.5px; color: var(--text-muted);" id="mockPerformanceSummary">বিশ্লেষণ প্রস্তুত হচ্ছে...</p>
+
+        <div class="result-grid">
+          <div class="result-box">
+            <div class="num" style="color: #10b981;" id="resCorrect">০</div>
+            <div class="lbl">সঠিক উত্তর (+১)</div>
+          </div>
+          <div class="result-box">
+            <div class="num" style="color: #ef4444;" id="resIncorrect">০</div>
+            <div class="lbl">ভুল উত্তর (-০.২৫)</div>
+          </div>
+          <div class="result-box">
+            <div class="num" style="color: #94a3b8;" id="resUnattempted">০</div>
+            <div class="lbl">অনুত্তরিত (০)</div>
+          </div>
+          <div class="result-box">
+            <div class="num" style="color: #d97706;" id="resPenalty">-০.০০</div>
+            <div class="lbl">নেগেটিভ পেনাল্টি</div>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+          <button class="nav-btn primary" onclick="retakeExam()">
+            🔄 পুনরায় পরীক্ষা দিন
+          </button>
+          <button class="nav-btn" onclick="reviewExamAnswers()">
+            📝 উত্তরপত্র ও সমাধান রিভিউ করুন
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 3: LIVE TYPING SPEED TEST -->
+    <div id="tab-typing" class="tab-pane">
+      <div class="typing-container">
+        <div class="typing-header">
+          <div>
+            <h2 style="font-size: 20px; color: var(--text-main);">⌨️ কম্পিউটার টাইপিং স্পিড ও নির্ভুলতা টেস্ট</h2>
+            <p style="font-size: 13px; color: var(--text-muted);">
+              সরকারি সার্কুলার রিকোয়ারমেন্ট: <strong>ন্যূনতম ২০ wpm বাংলায় ও ২০ wpm ইংরেজিতে</strong>
+            </p>
+          </div>
+          <div style="display: flex; gap: 8px;">
+            <button class="pill-btn active" id="btnTypeBangla" onclick="setTypingLang('bangla')">🇧🇩 বাংলা টাইপিং</button>
+            <button class="pill-btn" id="btnTypeEnglish" onclick="setTypingLang('english')">🇬🇧 English Typing</button>
+          </div>
+        </div>
+
+        <div class="typing-stats">
+          <div class="typing-stat-box">
+            <div class="typing-stat-val" id="typeTimer">60s</div>
+            <div class="typing-stat-lbl">বাকি সময়</div>
+          </div>
+          <div class="typing-stat-box">
+            <div class="typing-stat-val" id="typeWpm">0</div>
+            <div class="typing-stat-lbl">গতি (WPM)</div>
+          </div>
+          <div class="typing-stat-box">
+            <div class="typing-stat-val" id="typeAccuracy">100%</div>
+            <div class="typing-stat-lbl">নির্ভুলতা (Accuracy)</div>
+          </div>
+          <div class="typing-stat-box">
+            <div class="typing-stat-val" id="typeCpm">0</div>
+            <div class="typing-stat-lbl">অক্ষর/মিনিট (CPM)</div>
+          </div>
+        </div>
+
+        <div style="margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center;">
+          <span style="font-size: 13px; font-weight: 600; color: var(--text-muted);">
+            নিচের প্যারাগ্রাফটি দেখে নিচের বক্সে হুবহু টাইপ করুন:
+          </span>
+          <span class="typing-pass-badge status-fail" id="typingStatusBadge">প্রস্তুত হোন (টার্গেট: ২০+ WPM)</span>
+        </div>
+
+        <div class="typing-prompt-box" id="typingPromptDisplay">
+          <!-- Text with highlighted chars -->
+        </div>
+
+        <textarea class="typing-input-area" id="typingInputField" placeholder="টাইপিং শুরু করতে এখানে ক্লিক করুন এবং টাইপ করা আরম্ভ করুন..." oninput="handleTypingInput()"></textarea>
+
+        <div class="typing-actions">
+          <div style="font-size: 13px; color: var(--text-muted);">
+            💡 টিপস: টাইপিং বক্সে প্রথম কি চাপার সাথে সাথেই টাইমার স্বয়ংক্রিয়ভাবে চালু হবে।
+          </div>
+          <button class="nav-btn primary" onclick="resetTypingTest()">
+            🔄 নতুন টেস্ট শুরু করুন (Reset)
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 4: APTITUDE TEST GUIDE -->
+    <div id="tab-aptitude" class="tab-pane">
+      <div class="aptitude-card">
+        <h3>📊 ১. এমএস এক্সেল (MS Excel) প্র্যাকটিক্যাল নির্দেশিকা ও জরুরি ফর্মুলা</h3>
+        <p style="font-size: 14px; color: var(--text-muted); margin-bottom: 14px;">
+          ডাটা এন্ট্রি অপারেটরদের জন্য স্প্রেডশিটে নির্ভুল হিসাব ও দ্রুত রিপোর্ট তৈরিতে নিচের ফর্মুলাগুলো মুখস্থ ও প্র্যাকটিস বাধ্যতামূলক:
+        </p>
+        <table class="shortcut-table">
+          <thead>
+            <tr>
+              <th style="width: 20%;">ফর্মুলা সিনট্যাক্স</th>
+              <th style="width: 40%;">কাজের বিবরণ ও ব্যবহার</th>
+              <th style="width: 40%;">বাস্তব উদাহরণ</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>=SUM(A1:A10)</code></td>
+              <td>নির্দিষ্ট সেল রেঞ্জের সব সংখ্যা স্বয়ংক্রিয়ভাবে যোগ করা।</td>
+              <td>১০ জন কর্মীর মূল বেতনের যোগফল: <code>=SUM(C2:C11)</code></td>
+            </tr>
+            <tr>
+              <td><code>=AVERAGE(B1:B20)</code></td>
+              <td>সংখ্যাগুলোর গাণিতিক গড় (Arithmetic Mean) নির্ণয়।</td>
+              <td>দৈনিক গড় আবেদন সংখ্যা: <code>=AVERAGE(D2:D31)</code></td>
+            </tr>
+            <tr>
+              <td><code>=COUNTIF(range, criteria)</code></td>
+              <td>শর্ত অনুযায়ী নির্দিষ্ট ডাটা সেলে কতবার আছে গণনা করা।</td>
+              <td>ঢাকা জেলার আবেদনকারী গণনা: <code>=COUNTIF(E2:E100, "ঢাকা")</code></td>
+            </tr>
+            <tr>
+              <td><code>=IF(logical_test, val_true, val_false)</code></td>
+              <td>লজিক্যাল শর্ত সাপেক্ষে ফলাফল নির্ধারণ।</td>
+              <td>টাইপিং পাস নির্ণয়: <code>=IF(B2>=20, "Pass", "Fail")</code></td>
+            </tr>
+            <tr>
+              <td><code>=VLOOKUP(val, table, col, [range])</code></td>
+              <td>ডাটা টেবিল থেকে নির্দিষ্ট আইডির বিপরীতে তথ্য খুঁজে বের করা।</td>
+              <td>NID দিয়ে নাম খোঁজা: <code>=VLOOKUP(A2, Sheet2!A:C, 2, FALSE)</code></td>
+            </tr>
+            <tr>
+              <td><code>=TRIM(text)</code></td>
+              <td>শব্দের মাঝে অপ্রয়োজনীয় বাড়তি স্পেস স্বয়ংক্রিয়ভাবে মুছে ফেলা।</td>
+              <td>ডাটা ক্লিনিং: <code>=TRIM(A2)</code></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="aptitude-card">
+        <h3>⌨️ ২. ডাটা এন্ট্রি অপারেটরদের অতি প্রয়োজনীয় কীবোর্ড শর্টকাট তালিকা</h3>
+        <table class="shortcut-table">
+          <thead>
+            <tr>
+              <th style="width: 30%;">শর্টকাট কী</th>
+              <th style="width: 70%;">কার্যকারিতা (Windows / Word / Excel)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><kbd>Ctrl</kbd> + <kbd>C</kbd> / <kbd>Ctrl</kbd> + <kbd>V</kbd></td>
+              <td>নির্বাচিত টেক্সট বা সেল কপি (Copy) এবং পেস্ট (Paste) করা।</td>
+            </tr>
+            <tr>
+              <td><kbd>Ctrl</kbd> + <kbd>Z</kbd> / <kbd>Ctrl</kbd> + <kbd>Y</kbd></td>
+              <td>পূর্বের কাজ বাতিল (Undo) এবং পুনরায় ফিরিয়ে আনা (Redo)।</td>
+            </tr>
+            <tr>
+              <td><kbd>Ctrl</kbd> + <kbd>F</kbd> / <kbd>Ctrl</kbd> + <kbd>H</kbd></td>
+              <td>নির্দিষ্ট শব্দ বা ডাটা খোঁজা (Find) এবং প্রতিস্থাপন (Replace) করা।</td>
+            </tr>
+            <tr>
+              <td><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>V</kbd></td>
+              <td>বিজয় কীবোর্ড মোড পরিবর্তন (ইংরেজি ও বিজয়ের মধ্যে সুইচিং)।</td>
+            </tr>
+            <tr>
+              <td><kbd>F12</kbd></td>
+              <td>এমএস ওয়ার্ড ও এক্সেলে সরাসরি Save As ডায়ালগ বক্স ওপেন করা।</td>
+            </tr>
+            <tr>
+              <td><kbd>Alt</kbd> + <kbd>=</kbd></td>
+              <td>এমএস এক্সেলে কার্সরের ওপরের বা বামের সেলের অটো-সাম (AutoSum) প্রয়োগ।</td>
+            </tr>
+            <tr>
+              <td><kbd>Ctrl</kbd> + <kbd>;</kbd></td>
+              <td>এমএস এক্সেলে বর্তমান সিস্টেম তারিখ (Current Date) ইনসার্ট করা।</td>
+            </tr>
+            <tr>
+              <td><kbd>Shift</kbd> + <kbd>F3</kbd></td>
+              <td>এমএস ওয়ার্ডে নির্বাচিত টেক্সটের কেস পরিবর্তন (UPPERCASE, lowercase, Title Case)।</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="aptitude-card">
+        <h3>🛡️ ৩. ডাটা ভ্যালিডেশন ও টাইপিং নির্ভুলতা চেকলিস্ট</h3>
+        <div style="font-size: 14px; color: var(--text-main); line-height: 1.7;">
+          ১. <strong>জাতীয় পরিচয়পত্র (NID) ভেরিফিকেশন:</strong> স্মার্ট কার্ড সবসময় ১০ ডিজিটের এবং পুরাতন এনআইডি ১৩ বা ১৭ ডিজিটের হতে হবে। ১৩ ডিজিটের ক্ষেত্রে জন্মসাল ৪ ডিজিট যোগ করে ১৭ ডিজিট নিশ্চিত করতে হবে।<br>
+          ২. <strong>মোবাইল নাম্বার যাচাই:</strong> বাংলাদেশি মোবাইল নাম্বার সবসময় ১১ ডিজিটের এবং <code>013</code>, <code>014</code>, <code>015</code>, <code>016</code>, <code>017</code>, <code>018</code>, <code>019</code> দিয়ে শুরু হতে হবে।<br>
+          ৩. <strong>তারিখ ফরম্যাট:</strong> দাপ্তরিক ডাটা এন্ট্রিতে স্ট্যান্ডার্ড ফরম্যাট <code>DD/MM/YYYY</code> বা <code>YYYY-MM-DD</code> কঠোরভাবে অনুসরণ করতে হবে।<br>
+          ৪. <strong>যুক্তাক্ষর টাইপিং কৌশল:</strong> বিজয়ে যুক্তাক্ষরের ক্ষেত্রে প্রথম বর্ণ + <kbd>G</kbd> + দ্বিতীয় বর্ণ (যেমন: ক্ষ = k + g + N; জ্ঞ = j + g + I)।
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 5: WRITTEN PREPARATION -->
+    <div id="tab-written" class="tab-pane">
+      <div style="margin-bottom: 20px;">
+        <h2 style="font-size: 20px; color: var(--text-main);">📝 লিখিত ও প্র্যাকটিক্যাল মডেল প্রশ্ন ও আদর্শ সমাধান</h2>
+        <p style="font-size: 13.5px; color: var(--text-muted);">
+          দাপ্তরিক পত্র, অফিশিয়াল ইমেইল, পাটিগণিত এবং এক্সেল প্র্যাকটিক্যাল লিখিত পরীক্ষার পূর্ণাঙ্গ গাইড
+        </p>
+      </div>
+
+      <div class="question-list" id="writtenQuestionsContainer">
+        <!-- Injected by JavaScript -->
+      </div>
+    </div>
+
+    <!-- TAB 6: BOOKMARKS -->
+    <div id="tab-bookmark" class="tab-pane">
+      <div style="margin-bottom: 20px;">
+        <h2 style="font-size: 20px; color: var(--text-main);">📌 সংরক্ষিত প্রশ্নসমূহ (Bookmarks)</h2>
+        <p style="font-size: 13.5px; color: var(--text-muted);">
+          আপনার রিভিশনের সুবিধার জন্য স্টার মার্ক দেওয়া গুরুত্বপূর্ণ প্রশ্নগুলোর তালিকা
+        </p>
+      </div>
+      <div class="question-list" id="bookmarkedQuestionsContainer">
+        <!-- Injected by JavaScript -->
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>
+      সমাজসেবা অধিদপ্তর (DSS) ডাটা এন্ট্রি অপারেটর (গ্রেড-১৬) সুপার সাজেশন ও মডেল টেস্ট পোর্টাল<br>
+      © ২০২৬ সর্বস্বত্ব সংরক্ষিত | নিয়োগ প্রস্তুতি রিসোর্স
+    </p>
+  </footer>
+
+  <!-- JAVASCRIPT LOGIC -->
+  <script>
+    // Embedded Data Fallback
+    const EMBEDDED_MCQ = [{"id":1,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"এমএস এক্সেল ও স্প্রেডশিট ফর্মুলা","question":"MS Excel-এ কোনো রেঞ্জের সংখ্যাগুলোর যোগফল বের করার জন্য কোন ফাংশনটি ব্যবহৃত হয়?","options":["=TOTAL()","=SUM()","=ADD()","=SUMMATION()"],"answer":"=SUM()","explanation":"এক্সেলে কোনো সেল রেঞ্জের যোগফলের সাধারণ সিনট্যাক্স হলো =SUM(number1, [number2], ...)।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":2,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"এমএস এক্সেল ও স্প্রেডশিট ফর্মুলা","question":"Excel-এ শর্তসাপেক্ষে কোনো ডাটা যোগ করার সঠিক ফাংশন কোনটি?","options":["=IFSUM()","=SUMIF()","=CONDITIONALSUM()","=SUMCONDITION()"],"answer":"=SUMIF()","explanation":"=SUMIF(range, criteria, [sum_range]) নির্দিষ্ট শর্ত পূরণকারী সেলসমূহের মান যোগ করে।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":3,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"এমএস এক্সেল ও স্প্রেডশিট ফর্মুলা","question":"Excel-এ উল্লম্বভাবে (Vertically) কোনো ডাটা টেবিল থেকে নির্দিষ্ট মান খুঁজতে কোনটি ব্যবহৃত হয়?","options":["HLOOKUP","VLOOKUP","INDEX-MATCH","FIND"],"answer":"VLOOKUP","explanation":"VLOOKUP ফাংশনের পূর্ণরূপ হলো Vertical Lookup, যা টেবিলের প্রথম কলামে নির্দিষ্ট মান খুঁজে একই সারির অন্য কলামের মান প্রদর্শন করে।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":4,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"এমএস এক্সেল ও স্প্রেডশিট ফর্মুলা","question":"MS Excel-এ নির্দিষ্ট শর্ত পূরণকারী ঘরের সংখ্যা গণনা করার সূত্র কোনটি?","options":["=COUNT()","=COUNTIF()","=COUNTA()","=NUMIF()"],"answer":"=COUNTIF()","explanation":"=COUNTIF(range, criteria) নির্দিষ্ট শর্ত সাপেক্ষে ঘরের সংখ্যা গণনা করে, যেখানে COUNT শুধুমাত্র সংখ্যাযুক্ত ঘর গুনে।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":5,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"এমএস এক্সেল ও স্প্রেডশিট ফর্মুলা","question":"Excel ওয়ার্কশিটে কোনো নির্দিষ্ট সেলের অ্যাবসোলিউট রেফারেন্স (Absolute Reference) তৈরিতে কোন প্রতীক ব্যবহৃত হয়?","options":["#","%","$","&"],"answer":"$","explanation":"রো এবং কলামের আগে $ চিহ্ন দিয়ে (যেমন: $A$1) রেফারেন্স লক বা অ্যাবসোলিউট করা হয়।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":6,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"এমএস এক্সেল ও স্প্রেডশিট ফর্মুলা","question":"Excel ফাইলে নতুন রো বা কলাম যোগ করার কীবোর্ড শর্টকাট কোনটি?","options":["Ctrl + Shift + +","Ctrl + Alt + +","Alt + Shift + I","Ctrl + N"],"answer":"Ctrl + Shift + +","explanation":"সেল বা রো সিলেক্ট থাকা অবস্থায় Ctrl + Shift + + চাপলে ইনসার্ট ডায়ালগ বক্স আসে।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":7,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"এমএস এক্সেল ও স্প্রেডশিট ফর্মুলা","question":"Excel-এ একাধিক টেক্সট স্ট্রিং একত্রিত করার ফাংশন কোনটি?","options":["=MERGE()","=CONCATENATE()","=JOIN()","=COMBINE()"],"answer":"=CONCATENATE()","explanation":"=CONCATENATE(text1, text2) বা নতুন ভার্সনে =CONCAT() টেক্সট স্ট্রিং যুক্ত করে।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":8,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"এমএস এক্সেল ও স্প্রেডশিট ফর্মুলা","question":"MS Excel-এ আজকের বর্তমান তারিখ দেখানোর ফাংশন কোনটি?","options":["=CURRENT()","=TODAY()","=NOW()","=DATE()"],"answer":"=TODAY()","explanation":"=TODAY() ফাংশন বর্তমান তারিখ রিটার্ন করে, আর =NOW() বর্তমান তারিখ ও সময় উভয়ই প্রদর্শন করে।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":9,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"এমএস এক্সেল ও স্প্রেডশিট ফর্মুলা","question":"Excel ফাইলে কোনো সেলে ভুল ডাটা টাইপ বন্ধ করার ফিচারের নাম কী?","options":["Data Filtering","Data Validation","Conditional Formatting","Data Sorting"],"answer":"Data Validation","explanation":"Data Validation ফিচারের মাধ্যমে সেলে গ্রহণযোগ্য ডাটার ধরন (যেমন: পূর্ণসংখ্যা, নির্দিষ্ট দৈর্ঘ্য, ড্রপডাউন লিস্ট) সীমাবদ্ধ করা যায়।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":10,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"এমএস এক্সেল ও স্প্রেডশিট ফর্মুলা","question":"Excel-এ কোনো সেলের সর্বোচ্চ মান বের করতে কোন ফাংশন ব্যবহৃত হয়?","options":["=TOP()","=MAX()","=HIGH()","=PEAK()"],"answer":"=MAX()","explanation":"=MAX(range) ফাংশন নির্বাচিত রেঞ্জের সর্বোচ্চ সাংখ্যিক মান প্রদর্শন করে।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":11,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"এমএস ওয়ার্ড ও ডকুমেন্ট প্রসেসিং","question":"MS Word-এ কোনো টেক্সটকে জাস্টিফাই (Justify Alignment) করার শর্টকাট কোনটি?","options":["Ctrl + J","Ctrl + E","Ctrl + L","Ctrl + R"],"answer":"Ctrl + J","explanation":"Ctrl + J প্যারাগ্রাফকে উভয় পাশে সমানভাবে জাস্টিফাই করে। Ctrl + E সেন্টার এবং Ctrl + L বামে অ্যালাইন করে।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":12,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"এমএস ওয়ার্ড ও ডকুমেন্ট প্রসেসিং","question":"MS Word ডকুমেন্টে Find & Replace ডায়ালগ ওপেন করার শর্টকাট কী?","options":["Ctrl + F","Ctrl + H","Ctrl + R","Ctrl + G"],"answer":"Ctrl + H","explanation":"Ctrl + H সরাসরি Replace উইন্ডো আনে এবং Ctrl + F শুধুমাত্র Find উইন্ডো আনে।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":13,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"এমএস ওয়ার্ড ও ডকুমেন্ট প্রসেসিং","question":"এমএস ওয়ার্ডে ফন্ট সাইজ এক পয়েন্ট বড় করার কীবোর্ড শর্টকাট কোনটি?","options":["Ctrl + ]","Ctrl + Shift + >","Ctrl + [","উভয় ক ও খ"],"answer":"উভয় ক ও খ","explanation":"Ctrl + ] এবং Ctrl + Shift + > উভয়ই ফন্ট সাইজ বড় করতে কার্যকর।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":14,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"এমএস ওয়ার্ড ও ডকুমেন্ট প্রসেসিং","question":"ডকুমেন্টে পৃষ্ঠার নিচে ফুটনোট (Footnote) ইনসার্ট করার শর্টকাট কোনটি?","options":["Alt + Ctrl + F","Alt + Ctrl + D","Ctrl + Shift + F","Alt + F"],"answer":"Alt + Ctrl + F","explanation":"Alt + Ctrl + F কমান্ডে ফুটনোট এবং Alt + Ctrl + D দিয়ে এন্ডনোট যুক্ত হয়।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":15,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"এমএস ওয়ার্ড ও ডকুমেন্ট প্রসেসিং","question":"এমএস ওয়ার্ডে টেবিল তৈরি করার অপশন কোন ট্যাবে থাকে?","options":["Home","Insert","Page Layout","References"],"answer":"Insert","explanation":"Insert ট্যাবের অধীনে Table, Picture, Shapes, Chart ইত্যাদি ইনসার্ট করার কমান্ড রয়েছে।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":16,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"এমএস ওয়ার্ড ও ডকুমেন্ট প্রসেসিং","question":"একই চিঠি বিভিন্ন ঠিকানায় দ্রুত প্রেরণের জন্য ওয়ার্ডের কোন ফিচারটি ব্যবহৃত হয়?","options":["AutoText","Mail Merge","Macro","Track Changes"],"answer":"Mail Merge","explanation":"Mail Merge এর মাধ্যমে একক মূল চিঠি বিভিন্ন ডেটাবেজ বা তালিকার সদস্যদের নামে স্বয়ংক্রিয়ভাবে তৈরি করা যায়।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":17,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"এমএস ওয়ার্ড ও ডকুমেন্ট প্রসেসিং","question":"MS Word-এ পেজ ব্রেক (Page Break) দেওয়ার কীবোর্ড শর্টকাট কোনটি?","options":["Shift + Enter","Ctrl + Enter","Alt + Enter","Ctrl + Shift + Enter"],"answer":"Ctrl + Enter","explanation":"Ctrl + Enter চাপলে কার্সরের স্থান থেকে তাৎক্ষণিক নতুন পৃষ্ঠা শুরু হয়।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":18,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"এমএস ওয়ার্ড ও ডকুমেন্ট প্রসেসিং","question":"কোনো ডকুমেন্টের বানান ও ব্যাকরণ (Spelling & Grammar) পরীক্ষার ফাংশন কী কোনটি?","options":["F1","F5","F7","F12"],"answer":"F7","explanation":"F7 চাপলে স্পেলিং ও গ্রামার চেকার ওপেন হয়। F12 দিয়ে Save As হয়।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":19,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"কম্পিউটার টাইপিং ও ডাটা এন্ট্রি স্ট্যান্ডার্ডস","question":"সমাজসেবা অধিদপ্তরের ডাটা এন্ট্রি অপারেটর পদে প্রতি মিনিটে সর্বনিম্ন কত শব্দ টাইপ করতে হবে?","options":["বাংলা ১৫ ও ইংরেজি ২০","বাংলা ২০ ও ইংরেজি ২০","বাংলা ২৫ ও ইংরেজি ৩০","বাংলা ৩০ ও ইংরেজি ৩৫"],"answer":"বাংলা ২০ ও ইংরেজি ২০","explanation":"অফিশিয়াল সার্কুলার শর্তানুযায়ী বাংলা ও ইংরেজি উভয় ভাষায় প্রতি মিনিটে সর্বনিম্ন ২০ শব্দ টাইপিং গতি থাকা আবশ্যক।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":20,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"কম্পিউটার টাইপিং ও ডাটা এন্ট্রি স্ট্যান্ডার্ডস","question":"বাংলা টাইপিংয়ে বিজয় কীবোর্ডে ‘ক্ষ’ লেখার সঠিক কী সিকোয়েন্স কোনটি?","options":["k + g + k","k + G + N","k + G + shift + k","k + G + K"],"answer":"k + G + Shift + k","explanation":"বিজয় কীবোর্ডে ক (k) + হসন্ত (g) + মূর্ধন্য ষ (Shift + k) চাপলে ‘ক্ষ’ যুক্তাক্ষর গঠিত হয়।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":21,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"কম্পিউটার টাইপিং ও ডাটা এন্ট্রি স্ট্যান্ডার্ডস","question":"অভ্র কীবোর্ডে ফোনেটিক পদ্ধতিতে ‘জ্ঞান’ টাইপ করতে কী লিখতে হয়?","options":["ggan","jñan","j+g+g+an","z+g+an"],"answer":"jñan","explanation":"অভ্রতে ‘জ্ঞ’ এর জন্য j এবং Shift + n (ঞ) চেপে jñan লিখলে ‘জ্ঞান’ হয়।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":22,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"কম্পিউটার টাইপিং ও ডাটা এন্ট্রি স্ট্যান্ডার্ডস","question":"ডাটা এন্ট্রির ক্ষেত্রে \"Double Entry Verification\" পদ্ধতির মূল উদ্দেশ্য কী?","options":["দ্বিগুণ গতিতে টাইপ করা","ভুল ও টাইপো ত্রুটি শূন্যে নামানো","ডেটাবেজের আকার বড় করা","অপারেটরের বেতন বৃদ্ধি"],"answer":"ভুল ও টাইপো ত্রুটি শূন্যে নামানো","explanation":"দুজন ভিন্ন অপারেটর একই তথ্য ইনপুট দেন এবং সফটওয়্যার স্বয়ংক্রিয়ভাবে অমিল চিহ্নিত করে শতভাগ নির্ভুলতা নিশ্চিত করে।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":23,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"কম্পিউটার টাইপিং ও ডাটা এন্ট্রি স্ট্যান্ডার্ডস","question":"কীবোর্ডের হোম রো (Home Row)-তে বাম ও ডান হাতের তর্জনী কোন দুটি কী-এর উপর স্থাপন করতে হয়?","options":["A এবং L","S এবং K","F এবং J","D এবং H"],"answer":"F এবং J","explanation":"টাচ টাইপিংয়ের মূল ভিত্তি হলো F এবং J কী, যার উপর স্পর্শনির্ভর ছোট চিহ্ন (Bump) থাকে।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":24,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"কম্পিউটার টাইপিং ও ডাটা এন্ট্রি স্ট্যান্ডার্ডস","question":"উইন্ডোজে বাংলা ফন্ট ‘SutonnyMJ’ কোন ধরনের এনকোডিং ব্যবহার করে?","options":["Unicode","ANSI","ASCII-7","UTF-8"],"answer":"ANSI","explanation":"সুতোন্নিএমজে একটি এএনএসআই (ANSI) কাস্টম এনকোডেড ফন্ট, যা ইউনিকোড প্ল্যাটফর্মে কনভার্সন ছাড়া ভুল দেখায়।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":25,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"ডাটাবেজ ও এমএস অ্যাক্সেস বেসিকস","question":"একটি রিলেশনাল ডাটাবেজে প্রতিটি রেকর্ডকে স্বতন্ত্রভাবে শনাক্ত করতে কোনটি আবশ্যক?","options":["Foreign Key","Primary Key","Candidate Key","Composite Key"],"answer":"Primary Key","explanation":"Primary Key হলো এমন একটি ফিল্ড বা ফিল্ড সমষ্টি যা টেবিলের প্রতিটি রেকর্ডকে অদ্বিতীয়ভাবে শনাক্ত করে এবং নাল (Null) হতে পারে না।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":26,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"ডাটাবেজ ও এমএস অ্যাক্সেস বেসিকস","question":"MS Access ফাইলে ফাইল এক্সটেনশন কোনটি (আধুনিক সংস্করণসমূহে)?","options":[".mdb",".accdb",".dbf",".sql"],"answer":".accdb","explanation":"অ্যাক্সেস ২০০৭ হতে পরবর্তী সকল সংস্করণে ডিফল্ট ফাইল এক্সটেনশন হলো .accdb (পূর্বে ছিল .mdb)।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":27,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"ডাটাবেজ ও এমএস অ্যাক্সেস বেসিকস","question":"ডাটাবেজ টেবিলে একটি অনুভূমিক সারিকে (Row) কী বলা হয়?","options":["Field","Record / Tuple","Attribute","Domain"],"answer":"Record / Tuple","explanation":"ডাটাবেজ টেবিলের সারিকে রেকর্ড (Record) বা টাপল (Tuple) এবং কলামকে ফিল্ড (Field) বা অ্যাট্রিবিউট বলা হয়।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":28,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"ডাটাবেজ ও এমএস অ্যাক্সেস বেসিকস","question":"SQL এর পূর্ণরূপ কী?","options":["Structured Query Language","Simple Question Language","Standard Query Logic","Sequential Query List"],"answer":"Structured Query Language","explanation":"SQL হলো রিলেশনাল ডাটাবেজ পরিচালনার সার্বজনীন প্রমিত ভাষা।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":29,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"ডাটাবেজ ও এমএস অ্যাক্সেস বেসিকস","question":"ডাটাবেজে তথ্য প্রদর্শনের সুবিধাজনক ও প্রিন্ট-রেডি ফরম্যাটকে কী বলা হয়?","options":["Query","Form","Report","Table"],"answer":"Report","explanation":"অ্যাক্সেসে ডাটা এন্ট্রির জন্য Form, অনুসন্ধানের জন্য Query এবং চূড়ান্ত উপস্থাপনা/মুদ্রণের জন্য Report ব্যবহৃত হয়।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":30,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"কম্পিউটার হার্ডওয়্যার, নেটওয়ার্কিং ও ইন্টারনেট","question":"কম্পিউটারের প্রধান অস্থায়ী মেমোরি কোনটি?","options":["ROM","RAM","SSD","HDD"],"answer":"RAM","explanation":"Random Access Memory (RAM) হলো বিদ্যুৎ নির্ভর ভোলাটাইল বা অস্থায়ী মেমোরি।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":31,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"কম্পিউটার হার্ডওয়্যার, নেটওয়ার্কিং ও ইন্টারনেট","question":"ইন্টারনেটে ডাটা আদান-প্রদানে তথ্য এনক্রিপ্ট করার নিরাপদ প্রটোকল কোনটি?","options":["HTTP","HTTPS","FTP","SMTP"],"answer":"HTTPS","explanation":"Hypertext Transfer Protocol Secure (HTTPS) এসএসএল/টিএলএস এনক্রিপশন ব্যবহার করে তথ্যের নিরাপত্তা দেয়।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":32,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"কম্পিউটার হার্ডওয়্যার, নেটওয়ার্কিং ও ইন্টারনেট","question":"কম্পিউটার সিস্টেমের মেমোরি পরিমাপের সঠিক ঊর্ধ্বক্রম কোনটি?","options":["KB < MB < GB < TB","MB < KB < GB < TB","KB < GB < MB < TB","TB < GB < MB < KB"],"answer":"KB < MB < GB < TB","explanation":"১০২৪ বাইট = ১ KB, ১০২৪ KB = ১ MB, ১০২৪ MB = ১ GB, ১০২৪ GB = ১ TB।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":33,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"কম্পিউটার হার্ডওয়্যার, নেটওয়ার্কিং ও ইন্টারনেট","question":"কোনো নেটওয়ার্কে প্রতিটি কম্পিউটারের যে স্বতন্ত্র ডিজিটাল ঠিকানা থাকে তাকে কী বলে?","options":["MAC Address","IP Address","URL","DNS"],"answer":"IP Address","explanation":"Internet Protocol (IP) Address হলো নেটওয়ার্ক ডিভাইসকে শনাক্তকারী যৌক্তিক ঠিকানা।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":34,"subject":"কম্পিউটার ও ডাটা এন্ট্রি","topic":"কম্পিউটার হার্ডওয়্যার, নেটওয়ার্কিং ও ইন্টারনেট","question":"ফিশিং (Phishing) আক্রমণ বলতে কী বোঝায়?","options":["কম্পিউটার পানিতে ফেলা","নকল ওয়েবসাইটের মাধ্যমে পাসওয়ার্ড/তথ্য চুরি","হার্ডওয়্যার নষ্ট করা","ভাইরাস দিয়ে ফাইল ডিলিট করা"],"answer":"নকল ওয়েবসাইটের মাধ্যমে পাসওয়ার্ড/তথ্য চুরি","explanation":"বিশ্বাসযোগ্য প্রতিষ্ঠানের ছদ্মবেশে প্রতারণামূলক লিংক পাঠিয়ে গোপন তথ্য হাতিয়ে নেওয়াকে ফিশিং বলে।","tags":["Computer","MS Office","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":35,"subject":"বাংলা","topic":"বানান ও বাক্য শুদ্ধিকরণ","question":"নিচের কোন বানানটি শুদ্ধ?","options":["মুহুর্ত","মুহূর্ত","মুহুর্থ","মুহুত্ব"],"answer":"মুহূর্ত","explanation":"শুদ্ধ বানান হলো ম-হ্রস্ব উ, হ-দীর্ঘ ঊ, ত-রেফ = ‘মুহূর্ত’।","tags":["Bangla","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":36,"subject":"বাংলা","topic":"বানান ও বাক্য শুদ্ধিকরণ","question":"কোন বানানটি প্রমিত বাংলা বানানের নিয়মে সঠিক?","options":["পুরস্কার","পুরষ্কার","পুরস্কার্য","পুরসকার"],"answer":"পুরস্কার","explanation":"অ-কার বা আ-কারের পর বিসর্গ থাকলে দন্ত্য-স হয় (যেমন: পুরস্কার, নমস্কার)।","tags":["Bangla","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":37,"subject":"বাংলা","topic":"বানান ও বাক্য শুদ্ধিকরণ","question":"নিচের কোন বাক্যটি সম্পূর্ণ শুদ্ধ?","options":["সকল সদস্যগণ উপস্থিত ছিলেন।","তিনি সস্ত্রীক এসেছেন।","বিদ্বান মূর্খ অপেক্ষা শ্রেষ্ঠতর।","দারিদ্রতা আমাদের প্রধান শত্রু।"],"answer":"তিনি সস্ত্রীক এসেছেন।","explanation":"‘সস্ত্রীক’ অর্থ স্ত্রীসহ। ‘সকল সদস্যগণ’ বাহুল্য দোষে দুষ্ট, ‘দারিদ্র্য’ বা ‘দরিদ্রতা’ সঠিক রূপ।","tags":["Bangla","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":38,"subject":"বাংলা","topic":"বানান ও বাক্য শুদ্ধিকরণ","question":"‘মুমূর্ষু’ শব্দের সঠিক বানান কোনটি?","options":["মুমুর্যু","মুমূর্ষু","মুমুর্ষূ","মুমূর্ষূ"],"answer":"মুমূর্ষু","explanation":"হ্রস্ব উ + দীর্ঘ ঊ + হ্রস্ব উ = মু + মূ + র্ষু = মুমূর্ষু।","tags":["Bangla","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":39,"subject":"বাংলা","topic":"সন্ধি ও সমাস","question":"‘পরীক্ষা’ শব্দের সঠিক সন্ধি বিচ্ছেদ কোনটি?","options":["পরি + ঈক্ষা","পরী + ক্ষা","পর + ইক্ষা","পরি + ইক্ষা"],"answer":"পরি + ঈক্ষা","explanation":"পরি (হ্রস্ব ই) + ঈক্ষা (দীর্ঘ ঈ) = পরীক্ষা।","tags":["Bangla","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":40,"subject":"বাংলা","topic":"সন্ধি ও সমাস","question":"‘মহর্ষি’ শব্দের সঠিক সন্ধি বিচ্ছেদ কোনটি?","options":["মহা + ঋষি","মহ + ঋষি","মহা + ঋষিঃ","মহৎ + ঋষি"],"answer":"মহা + ঋষি","explanation":"আ + ঋ = অর্ (যেমন: মহা + ঋষি = মহর্ষি)।","tags":["Bangla","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":41,"subject":"বাংলা","topic":"সন্ধি ও সমাস","question":"‘সিংহপুরুষ’ কোন সমাসের উদাহরণ?","options":["উপমিত কর্মধারয়","উপমান কর্মধারয়","রূপক কর্মধারয়","মধ্যপদলোপী কর্মধারয়"],"answer":"উপমিত কর্মধারয়","explanation":"সাধারণ গুণের উল্লেখ না করে উপমেয় পদের সাথে উপমানের সমাস হলে তাকে উপমিত কর্মধারয় বলে (পুরুষ সিংহের ন্যায়)।","tags":["Bangla","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":42,"subject":"বাংলা","topic":"সন্ধি ও সমাস","question":"‘গায়ে-হলুদ’ কোন সমাস?","options":["বহুব্রীহি (অলুক)","দ্বন্দ্ব","তৎপুরুষ","কর্মধারয়"],"answer":"বহুব্রীহি (অলুক)","explanation":"গায়ে হলুদ দেওয়া হয় যে অনুষ্ঠানে = গায়ে-হলুদ (অলুক বহুব্রীহি সমাস)।","tags":["Bangla","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":43,"subject":"বাংলা","topic":"এককথায় প্রকাশ ও বাগধারা","question":"‘যা পূর্বে দেখা যায় নাই’—এককথায় কী হবে?","options":["অপূর্ব","অদৃষ্টপূর্ব","অশ্রুতপূর্ব","অনুপম"],"answer":"অদৃষ্টপূর্ব","explanation":"যা পূর্বে দেখা যায় নাই = অদৃষ্টপূর্ব। যা পূর্বে শোনা যায় নাই = অশ্রুতপূর্ব।","tags":["Bangla","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":44,"subject":"বাংলা","topic":"এককথায় প্রকাশ ও বাগধারা","question":"‘উপকারের অপকার করে যে’—তাকে কী বলে?","options":["কৃতঘ্ন","কৃতজ্ঞ","অকৃতজ্ঞ","অপকারী"],"answer":"কৃতঘ্ন","explanation":"উপকারের উপকার স্বীকার করে যে = কৃতজ্ঞ; উপকারীর অপকার করে যে = কৃতঘ্ন।","tags":["Bangla","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":45,"subject":"বাংলা","topic":"এককথায় প্রকাশ ও বাগধারা","question":"‘আকাশ কুসুম’ বাগধারাটির অর্থ কী?","options":["অসম্ভব কল্পনা","আকাশের ফুল","সৌভাগ্য","মূল্যহীন বস্তু"],"answer":"অসম্ভব কল্পনা","explanation":"আকাশ কুসুম অর্থ অসম্ভব অবাস্তব কল্পনা করা।","tags":["Bangla","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":46,"subject":"বাংলা","topic":"এককথায় প্রকাশ ও বাগধারা","question":"‘ডুমুরের ফুল’ বাগধারার যথার্থ অর্থ কী?","options":["অদৃশ্য ফুল","দুর্লভ বস্তু","সুন্দর ফুল","অনুপস্থিত ব্যক্তি"],"answer":"দুর্লভ বস্তু","explanation":"ডুমুরের ফুল সহজে দেখা যায় না, তাই এর অর্থ দুর্লভ বস্তু।","tags":["Bangla","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":47,"subject":"বাংলা","topic":"দাপ্তরিক ও প্রশাসনিক পরিভাষা","question":"‘Notification’ শব্দের সঠিক সরকারি পরিভাষা কোনটি?","options":["বিজ্ঞপ্তি","প্রজ্ঞাপন","নোটিশ","পরিপত্র"],"answer":"প্রজ্ঞাপন","explanation":"Notification = প্রজ্ঞাপন; Circular = পরিপত্র; Notice = নোটিশ; Advertisement = বিজ্ঞপ্তি।","tags":["Bangla","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":48,"subject":"বাংলা","topic":"দাপ্তরিক ও প্রশাসনিক পরিভাষা","question":"‘Quorum’ শব্দের বাংলা প্রশাসনিক পরিভাষা কী?","options":["উপস্থিতি","সদস্য কোরাম","গণপূর্তি","সভার ন্যূনতম সদস্য সংখ্যা"],"answer":"গণপূর্তি","explanation":"সভা পরিচালনার জন্য প্রয়োজনীয় ন্যূনতম সদস্য উপস্থিতিকে ‘গণপূর্তি’ (Quorum) বলে।","tags":["Bangla","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":49,"subject":"বাংলা","topic":"দাপ্তরিক ও প্রশাসনিক পরিভাষা","question":"সরকারি ফাইলে ‘Note Sheet’ এর পারিভাষিক অর্থ কী?","options":["চিঠি কাগজ","নথিপত্র","নোট পত্র / নথি উপস্থাপন পাতা","স্মারক লিপি"],"answer":"নোট পত্র / নথি উপস্থাপন পাতা","explanation":"সরকারি সিদ্ধান্তে কর্মকর্তা-কর্মচারীদের লিখিত মতামত উপস্থাপন পাতাকে নোট শিট বলা হয়।","tags":["Bangla","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":50,"subject":"ইংরেজি","topic":"Appropriate Prepositions","question":"He is proficient _____ English data entry.","options":["in","at","with","on"],"answer":"in","explanation":"Proficient in something (কোনো বিষয়ে দক্ষ)। Good at কিন্তু Proficient in হয়।","tags":["English","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":51,"subject":"ইংরেজি","topic":"Appropriate Prepositions","question":"The clerk complied _____ the official order.","options":["to","with","by","for"],"answer":"with","explanation":"Comply with অর্থ নিয়ম বা আদেশ মান্য করা।","tags":["English","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":52,"subject":"ইংরেজি","topic":"Appropriate Prepositions","question":"He is accused _____ stealing office documents.","options":["for","with","of","by"],"answer":"of","explanation":"Accuse of অর্থ অভিযুক্ত করা।","tags":["English","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":53,"subject":"ইংরেজি","topic":"Appropriate Prepositions","question":"The project is funded _____ the Department of Social Services.","options":["with","by","from","in"],"answer":"by","explanation":"Funded by an organization (কোনো সংস্থা কর্তৃক অর্থায়িত)।","tags":["English","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":54,"subject":"ইংরেজি","topic":"Right Form of Verbs & Tense","question":"Neither of the operators _____ present yesterday.","options":["were","was","are","have been"],"answer":"was","explanation":"Neither of + plural noun-এর পর verb সর্বদা singular হয়।","tags":["English","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":55,"subject":"ইংরেজি","topic":"Right Form of Verbs & Tense","question":"The data entry operator _____ the report before the officer arrived.","options":["submitted","has submitted","had submitted","was submitting"],"answer":"had submitted","explanation":"Past Perfect টেন্সে Before-এর পূর্ববর্তী ক্লজ had + V3 হয়।","tags":["English","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":56,"subject":"ইংরেজি","topic":"Right Form of Verbs & Tense","question":"It is high time we _____ the digital database.","options":["update","updated","have updated","will update"],"answer":"updated","explanation":"It is high time / It is time-এর পর past indefinite tense হয়।","tags":["English","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":57,"subject":"ইংরেজি","topic":"Spelling & Vocabulary","question":"Choose the correct spelling of the following word:","options":["Occurence","Occurrence","Ocurrence","Occurance"],"answer":"Occurrence","explanation":"সঠিক বানান O-c-c-u-r-r-e-n-c-e (Occurrence)।","tags":["English","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":58,"subject":"ইংরেজি","topic":"Spelling & Vocabulary","question":"Identify the correctly spelled word:","options":["Questionaire","Questionnaire","Questionair","Questionnare"],"answer":"Questionnaire","explanation":"সঠিক বানান Q-u-e-s-t-i-o-n-n-a-i-r-e (Questionnaire - প্রশ্নমালা)।","tags":["English","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":59,"subject":"ইংরেজি","topic":"Spelling & Vocabulary","question":"What is the synonym of the word \"Meticulous\"?","options":["Careless","Diligent / Thorough","Hasty","Vague"],"answer":"Diligent / Thorough","explanation":"Meticulous অর্থ অতি সতর্ক ও খুঁটিনাটি নির্ভুলকারী, যার সমার্থক Thorough বা Diligent।","tags":["English","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":60,"subject":"ইংরেজি","topic":"Translation & Idioms","question":"“তিনি ডাটা এন্ট্রিতে সিদ্ধহস্ত”—এর সঠিক ইংরেজি অনুবাদ কোনটি?","options":["He is skilled with data entry.","He is an adept at data entry.","He has a hand in data entry.","He knows data entry well."],"answer":"He is an adept at data entry.","explanation":"Adept at / Expert in অর্থ সিদ্ধহস্ত বা সুদক্ষ।","tags":["English","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":61,"subject":"ইংরেজি","topic":"Translation & Idioms","question":"What is the meaning of the idiom \"At a glance\"?","options":["Immediately after looking","Blindly","Slowly","Carefully"],"answer":"Immediately after looking","explanation":"At a glance অর্থ এক পলকে বা এক নজরেই।","tags":["English","Grammar","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":62,"subject":"সাধারণ গণিত","topic":"শতকরা ও লাভ-ক্ষতি","question":"একটি কীবোর্ড ৮০০ টাকায় ক্রয় করে ১,০০০ টাকায় বিক্রয় করলে শতকরা কত লাভ হবে?","options":["২০%","২৫%","১৫%","৩০%"],"answer":"২৫%","explanation":"লাভ = ১০০০ - ৮০০ = ২০০ টাকা। শতকরা লাভ = (২০০ / ৮০০) × ১০০ = ২৫%।","tags":["Math","Aptitude","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":63,"subject":"সাধারণ গণিত","topic":"শতকরা ও লাভ-ক্ষতি","question":"কোনো সংখ্যার ৬০% থেকে ৬০ বিয়োগ করলে বিয়োগফল ৬০ হয়। সংখ্যাটি কত?","options":["১০০","২০০","১২০","৩০০"],"answer":"২০০","explanation":"ধরি সংখ্যাটি x। ০.৬০x - ৬০ = ৬০ => ০.৬০x = ১২০ => x = ১২০ / ০.৬০ = ২০০।","tags":["Math","Aptitude","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":64,"subject":"সাধারণ গণিত","topic":"ঐকিক নিয়ম, কাজ ও সময়","question":"একজন ডাটা এন্ট্রি অপারেটর ১ ঘণ্টায় ১,২০০ শব্দ টাইপ করতে পারেন। ৫ মিনিটে তিনি কত শব্দ টাইপ করবেন?","options":["১০০ টি","১২০ টি","১৫০ টি","৮০ টি"],"answer":"১০০ টি","explanation":"৬০ মিনিটে টাইপ করেন ১২০০ শব্দ। অতএব ১ মিনিটে ২০ শব্দ, ৫ মিনিটে ২০ × ৫ = ১০০ শব্দ।","tags":["Math","Aptitude","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":65,"subject":"সাধারণ গণিত","topic":"ঐকিক নিয়ম, কাজ ও সময়","question":"১০ জন লোক একটি ডাটা এন্ট্রি কাজ ৬ দিনে সম্পন্ন করতে পারে। ৪ দিনে কাজটি সম্পন্ন করতে কতজন লোক লাগবে?","options":["১২ জন","১৫ জন","১৮ জন","২০ জন"],"answer":"১৫ জন","explanation":"লোকসংখ্যা ও দিনের সম্পর্ক ব্যস্তানুপাতিক: (১০ × ৬) / ৪ = ৬০ / ৪ = ১৫ জন।","tags":["Math","Aptitude","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":66,"subject":"সাধারণ গণিত","topic":"অনুপাত ও সাধারণ বীজগণিত","question":"দুটি সংখ্যার অনুপাত ৫ : ৭ এবং তাদের গসাগু ৪ হলে, ছোট সংখ্যাটি কত?","options":["১৫","২০","২৮","৩৫"],"answer":"২০","explanation":"সংখ্যা দুটি ৫x ও ৭x। গসাগু x = ৪। অতএব ছোট সংখ্যাটি = ৫ × ৪ = ২০।","tags":["Math","Aptitude","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":67,"subject":"সাধারণ গণিত","topic":"অনুপাত ও সাধারণ বীজগণিত","question":"যদি a + b = 7 এবং ab = 12 হয়, তবে a² + b² এর মান কত?","options":["২৫","৪৯","৩৭","১৩"],"answer":"২৫","explanation":"a² + b² = (a + b)² - 2ab = (৭)² - ২(১২) = ৪৯ - ২৪ = ২৫।","tags":["Math","Aptitude","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":68,"subject":"সমাজসেবা ও সাধারণ জ্ঞান","topic":"সমাজসেবা অধিদপ্তর ও সমাজকল্যাণ কর্মসূচি","question":"সমাজসেবা অধিদপ্তর (DSS) কোন মন্ত্রণালয়ের অধীনস্থ অধিদপ্তর?","options":["মহিলা ও শিশু বিষয়ক মন্ত্রণালয়","সমাজকল্যাণ মন্ত্রণালয়","স্থানীয় সরকার মন্ত্রণালয়","স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়"],"answer":"সমাজকল্যাণ মন্ত্রণালয়","explanation":"সমাজসেবা অধিদপ্তর গণপ্রজাতন্ত্রী বাংলাদেশ সরকারের সমাজকল্যাণ মন্ত্রণালয়ের আওতাধীন প্রধান সেবাধর্মী অধিদপ্তর।","tags":["GK","Social Services","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":69,"subject":"সমাজসেবা ও সাধারণ জ্ঞান","topic":"সমাজসেবা অধিদপ্তর ও সমাজকল্যাণ কর্মসূচি","question":"বাংলাদেশে জাতীয় সমাজসেবা দিবস কবে পালিত হয়?","options":["২ জানুয়ারি","৮ মার্চ","২৩ জুন","১০ ডিসেম্বর"],"answer":"২ জানুয়ারি","explanation":"প্রতি বছর ২ জানুয়ারি দেশব্যাপী জাতীয় সমাজসেবা দিবস উদযাপন করা হয়।","tags":["GK","Social Services","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":70,"subject":"সমাজসেবা ও সাধারণ জ্ঞান","topic":"সমাজসেবা অধিদপ্তর ও সমাজকল্যাণ কর্মসূচি","question":"সমাজসেবা অধিদপ্তরের ভাতা সরাসরি উপকারভোগীর অ্যাকাউন্টে পাঠাতে কোন পদ্ধতি ব্যবহৃত হয়?","options":["ক্যাশ অন ডেলিভারি","G2P (Government to Person)","ড্রাফট চেক","পোস্টাল অর্ডার"],"answer":"G2P (Government to Person)","explanation":"ডিজিটাল বাংলাদেশ বিনির্মাণে ভাতা শতভাগ স্বচ্ছতার সাথে ইলেকট্রনিক ফান্ড ট্রান্সফারের (G2P) মাধ্যমে বিতরণ করা হয়।","tags":["GK","Social Services","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":71,"subject":"সমাজসেবা ও সাধারণ জ্ঞান","topic":"সমাজসেবা অধিদপ্তর ও সমাজকল্যাণ কর্মসূচি","question":"সমাজসেবা অধিদপ্তরের প্রধান কার্যালয় ঢাকার কোথায় অবস্থিত?","options":["আগারগাঁও","সেগুনবাগিচা","সমাজসেবা ভবন, আগারগাঁও","মতিঝিল"],"answer":"সমাজসেবা ভবন, আগারগাঁও","explanation":"সমাজসেবা অধিদপ্তরের সদর দপ্তর ই-৮/বি-১, সমাজসেবা ভবন, আগারগাঁও, শেরেবাংলা নগর, ঢাকা-১২০৭ এ অবস্থিত।","tags":["GK","Social Services","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":72,"subject":"সমাজসেবা ও সাধারণ জ্ঞান","topic":"মুক্তিযুদ্ধ, সংবিধান ও স্মার্ট বাংলাদেশ","question":"বাংলাদেশের সংবিধানে নাগরিকদের সামাজিক নিরাপত্তার অধিকার কোন অনুচ্ছেদে নিশ্চিত করা হয়েছে?","options":["অনুচ্ছেদ ১৫ (ঘ)","অনুচ্ছেদ ১৭","অনুচ্ছেদ ২০","অনুচ্ছেদ ২৭"],"answer":"অনুচ্ছেদ ১৫ (ঘ)","explanation":"১৫ (ঘ) অনুচ্ছেদে সামাজিক নিরাপত্তা অর্থাৎ বেকারত্ব, ব্যাধি বা বার্ধক্যজনিত কারণে সরকারি সাহায্য লাভের অধিকার বর্ণিত।","tags":["GK","Social Services","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":73,"subject":"সমাজসেবা ও সাধারণ জ্ঞান","topic":"মুক্তিযুদ্ধ, সংবিধান ও স্মার্ট বাংলাদেশ","question":"মুজিবনগর সরকার আনুষ্ঠানিকভাবে কবে শপথ গ্রহণ করে?","options":["১০ এপ্রিল ১৯৭১","১৭ এপ্রিল ১৯৭১","২৬ মার্চ ১৯৭১","১৬ ডিসেম্বর ১৯৭১"],"answer":"১৭ এপ্রিল ১৯৭১","explanation":"মেহেরপুরের বৈদ্যনাথতলার (বর্তমান মুজিবনগর) আম্রকাননে ১৯৭১ সালের ১৭ এপ্রিল বাংলাদেশের প্রথম সরকার শপথ গ্রহণ করে।","tags":["GK","Social Services","DSS","Data Entry Operator","১৬তম গ্রেড"]},{"id":74,"subject":"সমাজসেবা ও সাধারণ জ্ঞান","topic":"মুক্তিযুদ্ধ, সংবিধান ও স্মার্ট বাংলাদেশ","question":"স্মার্ট বাংলাদেশ ২০৪১ এর ভিত্তি কয়টি স্তম্ভের ওপর প্রতিষ্ঠিত?","options":["৩টি","৪টি","৫টি","৭টি"],"answer":"৪টি","explanation":"চারটি মূল ভিত্তি: স্মার্ট সিটিজেন, স্মার্ট গভর্নমেন্ট, স্মার্ট ইকোনমি এবং স্মার্ট সোসাইটি।","tags":["GK","Social Services","DSS","Data Entry Operator","১৬তম গ্রেড"]}];
+    const EMBEDDED_WRITTEN = [{"id":2001,"subject":"কম্পিউটার ও স্ট্যান্ডার্ড অ্যাপটিটিউড","topic":"এমএস এক্সেল প্র্যাকটিক্যাল ফর্মুলা ও ডাটা এনালাইসিস","question":"MS Excel-এ VLOOKUP ফাংশনের সিনট্যাক্স লিখুন এবং এর প্রতিটি প্যারামিটারের কাজ উদাহরণসহ ব্যাখ্যা করুন।","marks":10,"answer":"### VLOOKUP সিনট্যাক্স ও ব্যবহারবিধি:\n```excel\n=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])\n```\n\n#### প্যারামিটারসমূহের বিস্তারিত বিবরণ:\n1. **lookup_value:** যে নির্দিষ্ট মানটি আপনি টেবিলের প্রথম কলামে খুঁজতে চান (যেমন: কোনো কর্মচারীর আইডি A2)।\n2. **table_array:** যে ডাটা টেবিল বা রেঞ্জে অনুসন্ধান চালানো হবে (যেমন: `$E$2:$H$100`)।\n3. **col_index_num:** ফলাফল হিসেবে যে কলামের মান প্রদর্শন করতে চান তার কলাম সংখ্যা (যেমন: ৩য় কলাম হলে `3`)।\n4. **range_lookup:** নিখুঁত (Exact) মিলের জন্য `FALSE` বা `0`, এবং আনুমানিক মিলের জন্য `TRUE` বা `1`।\n\n#### ব্যবহারিক উদাহরণ:\n```excel\n=VLOOKUP(101, A2:D50, 2, FALSE)\n```\n*ব্যাখ্যা:* A কলামে রোল ১০১ খুঁজে তার সংশ্লিষ্ট ২য় কলামে থাকা শিক্ষার্থীর নাম প্রদর্শন করবে।","points_to_remember":["টেবিলের প্রথম কলামে অবশ্যই lookup_value থাকতে হবে","অ্যাবসোলিউট সেল রেফারেন্স ($) ব্যবহার করা নিরাপদ","নিখুঁত মিলের জন্য সর্বদা FALSE বা 0 ব্যবহার করুন"],"tags":["DSS","Data Entry Written","Aptitude Test"]},{"id":2002,"subject":"কম্পিউটার ও স্ট্যান্ডার্ড অ্যাপটিটিউড","topic":"ডাটা ভ্যালিডেশন ও নির্ভুলতা নিশ্চিতকরণ কৌশল","question":"ডাটা এন্ট্রির ক্ষেত্রে ডুপ্লিকেট ডাটা রোধ এবং নির্দিষ্ট সীমার ভেতর ইনপুট নেওয়ার জন্য Excel-এর Data Validation কীভাবে কনফিগার করবেন?","marks":8,"answer":"### ডাটা ভ্যালিডেশন কনফিগারেশন ধাপসমূহ:\n\n#### ক. নির্দিষ্ট সীমার মধ্যে সংখ্যা ইনপুট (যেমন: বয়স ১৮ থেকে ৬০ বছর):\n1. যে সেলে শর্ত প্রযোজ্য তা নির্বাচন করুন।\n2. **Data Tab** -> **Data Validation** এ ক্লিক করুন।\n3. **Settings** ট্যাবে Allow থেকে **Whole number** সিলেক্ট করুন।\n4. Data ড্রপডাউনে **between** বেছে নিয়ে Minimum: 18 এবং Maximum: 60 দিন।\n5. **Error Alert** ট্যাবে সতর্কবার্তা লিখুন: \"বয়স ১৮ থেকে ৬০ এর মধ্যে হতে হবে\"।\n\n#### খ. ডুপ্লিকেট এন্ট্রি প্রতিরোধে কাস্টম ফর্মুলা:\n1. কলাম A সিলেক্ট করুন।\n2. Data Validation এ গিয়ে Allow অপশনে **Custom** সিলেক্ট করুন।\n3. ফর্মুলা বক্সে লিখুন:\n```excel\n=COUNTIF(A:A, A1)=1\n```\n*ফলাফল:* যদি কোনো ডেটা দ্বিতীয়বার ইনপুট দেওয়ার চেষ্টা করা হয়, এক্সেল তা স্বয়ংক্রিয়ভাবে ব্লক করে দেবে।","points_to_remember":["Data Validation ডাটা টাইপো প্রতিরোধ করে","COUNTIF কাস্টম ফর্মুলা ডুপ্লিকেট এন্ট্রি শতভাগ আটকায়"],"tags":["DSS","Data Entry Written","Aptitude Test"]},{"id":2003,"subject":"কম্পিউটার ও স্ট্যান্ডার্ড অ্যাপটিটিউড","topic":"কম্পিউটার টাইপিং স্পিড ও নির্ভুলতা টেকনিক (২০ wpm)","question":"বাংলা ও ইংরেজিতে প্রতি মিনিটে ২০ শব্দ টাইপিং গতি অর্জনের জন্য টাচ টাইপিংয়ের মূল নিয়ম ও কীবোর্ড ফিঙ্গার পজিশন বর্ণনা করুন।","marks":7,"answer":"### ২০ wpm টাইপিং গতি অর্জনের কার্যকরী ফ্রেমওয়ার্ক:\n\n1. **হোম রো (Home Row) পজিশনিং:**\n   - বাম হাত: `A` (কনিষ্ঠা), `S` (অনমিকা), `D` (মধ্যমা), `F` (তর্জনী)\n   - ডান হাত: `J` (তর্জনী), `K` (মধ্যমা), `L` (অনমিকা), `;` (কনিষ্ঠা)\n   - স্পেসবার: যেকোনো এক হাতের বৃদ্ধাঙ্গুলি দ্বারা পরিচালিত হবে।\n\n2. **কীবোর্ডের দিকে না তাকানো (Touch Typing):**\n   - F এবং J কী-এর উপর থাকা স্পর্সনোট (Raised Bar) দিয়ে হাত পজিশন নিশ্চিত করতে হবে।\n   - স্ক্রিনের দিকে তাকিয়ে টাইপ করার অভ্যাস গড়ে তুলতে হবে।\n\n3. **বাংলা যুক্তাক্ষর মাস্টারি (বিজয় ও অভ্র):**\n   - হসন্ত (`g`) দিয়ে দ্রুত যুক্তাক্ষর তৈরির প্র্যাকটিস:\n     - ক + ষ = ক্ষ (`k + g + Shift+k`)\n     - জ + ঞ = জ্ঞ (`j + g + Shift+n`)\n     - ব + দ + ধ = ব্ধ (`h + g + l + g + L`)\n\n4. **গতি বনাম নির্ভুলতা (Speed vs Accuracy):**\n   - শুরুতে ১০০% নির্ভুলতার (Accuracy) উপর জোর দিতে হবে, গতি স্বয়ংক্রিয়ভাবে বৃদ্ধি পেয়ে ২০-৩০ wpm ছাড়িয়ে যাবে।","points_to_remember":["হোম রো পজিশন মেনে টাইপিং বাধ্যতামূলক","ভুল কমানোই গতি বাড়ানোর মূল চাবিকাঠি"],"tags":["DSS","Data Entry Written","Aptitude Test"]},{"id":2004,"subject":"কম্পিউটার ও স্ট্যান্ডার্ড অ্যাপটিটিউড","topic":"জরুরি কীবোর্ড শর্টকাট তালিকা","question":"ডাটা এন্ট্রি অপারেটরদের জন্য অত্যন্ত প্রয়োজনীয় ১০টি দ্রুত কীবোর্ড শর্টকাট লিখুন।","marks":5,"answer":"| ক্রম | শর্টকাট কী | কার্যকারিতা |\n| :---: | :--- | :--- |\n| ১ | **Ctrl + C / Ctrl + V** | নির্বাচিত ডাটা কপি ও পেস্ট করা |\n| ২ | **Ctrl + Z / Ctrl + Y** | শেষ কমান্ড আনডু (Undo) ও রিডু (Redo) করা |\n| ৩ | **Ctrl + Arrow Keys** | ডাটা টেবিলের একেবারে শেষ বা শুরুতে দ্রুত জাম্প করা |\n| ৪ | **Shift + Spacebar** | এক্সেল শিটে সম্পূর্ণ রো (Row) নির্বাচন করা |\n| ৫ | **Ctrl + Spacebar** | এক্সেল শিটে সম্পূর্ণ কলাম (Column) নির্বাচন করা |\n| ৬ | **Ctrl + D** | উপরের সেলের মান নিচে স্বয়ংক্রিয়ভাবে ফিল করা (Fill Down) |\n| ৭ | **Ctrl + R** | বামের সেলের মান ডানে স্বয়ংক্রিয়ভাবে ফিল করা (Fill Right) |\n| ৮ | **Ctrl + ; (সেমিকোলন)** | এক্সেল সেলে বর্তমান তারিখ স্বয়ংক্রিয়ভাবে ইনসার্ট করা |\n| ৯ | **Ctrl + Shift + :** | এক্সেল সেলে বর্তমান সময় স্বয়ংক্রিয়ভাবে ইনসার্ট করা |\n| ১০ | **Alt + =** | সংলগ্ন ঘরের স্বয়ংক্রিয় যোগফল (AutoSum) সূত্র প্রয়োগ করা |","points_to_remember":["কীবোর্ড শর্টকাট ডাটা এন্ট্রি সময় ৩০% বাঁচায়"],"tags":["DSS","Data Entry Written","Aptitude Test"]},{"id":2005,"subject":"বাংলা লিখিত","topic":"দাপ্তরিক পত্র ও নথি উপস্থাপন","question":"উপজেলা সমাজসেবা কার্যালয়ে ডাটা এন্ট্রি কার্যক্রম সুষ্ঠুভাবে পরিচালনার জন্য প্রয়োজনীয় কম্পিউটার যন্ত্রাংশ বরাদ্দের আবেদন জানিয়ে উপপরিচালক বরাবর একটি দাপ্তরিক আবেদনপত্র লিখুন।","marks":10,"answer":"তারিখ: ২৭ অক্টোবর ২০২৬  \nবরাবর,  \nউপপরিচালক,  \nজেলা সমাজসেবা কার্যালয়, ঢাকা।  \n\n**বিষয়: উপজেলা সমাজসেবা কার্যালয়ে ডাটা এন্ট্রি কাজের জন্য আনুষঙ্গিক কম্পিউটার সামগ্রী বরাদ্দ প্রসঙ্গে।**  \n\nমহোদয়,  \nযথাবিহিত সম্মান প্রদর্শনপূর্বক বিনীত নিবেদন এই যে, অত্র উপজেলা সমাজসেবা কার্যালয়ে সরকারের অগ্রাধিকারমূলক কর্মসূচি বয়স্ক ভাতা, বিধবা ভাতা এবং প্রতিবন্ধী ভাতা সংক্রান্ত সামাজিক নিরাপত্তা বেষ্টনীর উপকারভোগীদের তথ্য ডিজিটাল প্ল্যাটফর্মে (G2P ডাটাবেজ) এন্ট্রি ও হালনাগাদকরণের কাজ পুরোদমে চলমান রয়েছে।  \n\nকিন্তু অত্যন্ত উদ্বেগের সাথে লক্ষ্য করা যাচ্ছে যে, ডাটা এন্ট্রি শাখায় ব্যবহৃত প্রিন্টারটি দীর্ঘদিন যাবত ত্রুটিপূর্ণ থাকায় জরুরি রিপোর্ট ও বেনিফিশিয়ারি লিস্ট মুদ্রণ ব্যাহত হচ্ছে। তদুপরি, বিদ্যুৎ বিভ্রাটের সময় নিরবচ্ছিন্নভাবে সার্ভার পরিচালনার জন্য কার্যকর কোনো ইউপিএস (UPS) নেই। ফলে মাঠপর্যায়ের ডাটা এন্ট্রি নির্ধারিত সময়সীমার মধ্যে সমাপ্ত করা দুরূহ হয়ে পড়েছে।  \n\nএমতাবস্থায়, জনস্বার্থে এবং সামাজিক নিরাপত্তা কর্মসূচির ডাটা এন্ট্রি কার্যক্রম নির্বিঘ্ন রাখার লক্ষ্যে একটি লেজার প্রিন্টার এবং দুটি উচ্চক্ষমতাসম্পন্ন অনলাইন ইউপিএস জরুরি ভিত্তিতে বরাদ্দ প্রদানে আপনার সদয় মর্জি কামনা করছি।  \n\nবিনীত,  \nডাটা এন্ট্রি অপারেটর  \nউপজেলা সমাজসেবা কার্যালয়, সাভার, ঢাকা।","points_to_remember":["দাপ্তরিক পত্রের প্রমিত সরকারি কাঠামো মেনে চলুন","স্পষ্ট যুক্তি ও সুনির্দিষ্ট চাহিদার উল্লেখ করুন"],"tags":["DSS","Data Entry Written","Aptitude Test"]},{"id":2006,"subject":"ইংরেজি লিখিত","topic":"Official Email Drafting","question":"Draft an official email to the System Analyst reporting a data synchronization error in the social safety net database.","marks":10,"answer":"**Subject:** Urgent: Resolution Required for G2P Database Synchronization Failure in Savar Upazila  \n\n**Dear Sir,**  \n\nI hope this email finds you well.  \n\nI am writing to formally report an unexpected data synchronization error encountered in the National Social Safety Net (G2P) database portal today during the entry of quarterly beneficiary payment records for Savar Upazila.  \n\nWhile uploading the batch file containing 250 validated records of the Disability Allowance program, the system generated an \"Error Code: 504 - Gateway Timeout & Database Lock\", and approximately 78 records failed to commit to the central server. To avoid duplicate disbursements, we have temporarily paused the batch entry process.  \n\nThe error log file and the pending CSV data sheets are attached herewith for your technical investigation. Kindly review the server sync protocol and guide us on safely resuming the data entry.  \n\nThank you for your prompt assistance.  \n\n**Sincerely,**  \nData Entry Operator  \nUpazila Social Services Office  \nSavar, Dhaka.  \nContact: +8801700-000000","points_to_remember":["Professional tone and subject line","Clear description of error code and impact","Attachment notice"],"tags":["DSS","Data Entry Written","Aptitude Test"]},{"id":2007,"subject":"গণিত লিখিত","topic":"পাটিগণিত লিখিত সমাধান","question":"একটি উপজেলা সমাজসেবা কার্যালয়ে ৩ জন ডাটা এন্ট্রি অপারেটর দৈনিক ৬ ঘণ্টা কাজ করে ৫ দিনে ৯,০০০ উপকারভোগীর ডাটা এন্ট্রি করতে পারেন। সমপরিমাণ দক্ষতাসম্পন্ন ৫ জন অপারেটর দৈনিক ৮ ঘণ্টা কাজ করে কত দিনে ২৪,০০০ উপকারভোগীর ডাটা এন্ট্রি করতে পারবেন?","marks":10,"answer":"### গাণিতিক সমাধান:\n\n**১ম ক্ষেত্রে:**\n- অপারেটর সংখ্যা ($M_1$) = ৩ জন\n- দৈনিক কাজের সময় ($H_1$) = ৬ ঘণ্টা\n- দিন সংখ্যা ($D_1$) = ৫ দিন\n- মোট কাজ বা এন্ট্রি সংখ্যা ($W_1$) = ৯,০০০ টি\n\n**২য় ক্ষেত্রে:**\n- অপারেটর সংখ্যা ($M_2$) = ৫ জন\n- দৈনিক কাজের সময় ($H_2$) = ৮ ঘণ্টা\n- দিন সংখ্যা ($D_2$) = ?\n- মোট কাজ বা এন্ট্রি সংখ্যা ($W_2$) = ২৪,০০০ টি\n\n**ঐকিক নিয়মের সর্বজনীন সূত্র:**\n$$\\frac{M_1 \\times D_1 \\times H_1}{W_1} = \\frac{M_2 \\times D_2 \\times H_2}{W_2}$$\n\nমান বসিয়ে পাই:\n$$\\frac{৩ \\times ৫ \\times ৬}{৯,০০০} = \\frac{৫ \\times D_2 \\times ৮}{২৪,০০০}$$\n\n$$\\frac{৯০}{৯,০০০} = \\frac{৪০ \\times D_2}{২৪,০০০}$$\n\n$$\\frac{১}{১০০} = \\frac{৪০ \\times D_2}{২৪,০০০}$$\n\n$$৪০ \\times D_2 \\times ১০০ = ২৪,০০০$$\n\n$$৪,০০০ \\times D_2 = ২৪,০০০$$\n\n$$D_2 = \\frac{২৪,০০০}{৪,০০০} = ৬ \\text{ দিন}$$\n\n**উত্তর:** ৫ জন অপারেটর দৈনিক ৮ ঘণ্টা কাজ করে **৬ দিনে** উক্ত কাজ সম্পন্ন করতে পারবেন।","points_to_remember":["MDH/W সূত্রের সঠিক প্রয়োগ","প্রতিটি ধাপ ও একক স্পষ্টভাবে উল্লেখ করুন"],"tags":["DSS","Data Entry Written","Aptitude Test"]}];
+
+    let allQuestions = EMBEDDED_MCQ;
+    let writtenList = EMBEDDED_WRITTEN;
+    let currentSubjectFilter = 'all';
+    let bookmarks = JSON.parse(localStorage.getItem('dss_deo_bookmarks') || '[]');
+
+    // Theme Management
+    function initTheme() {
+      const saved = localStorage.getItem('dss_deo_theme') || 'light';
+      document.documentElement.setAttribute('data-theme', saved);
+    }
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute('data-theme') || 'light';
+      const target = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', target);
+      localStorage.setItem('dss_deo_theme', target);
+    }
+    initTheme();
+
+    // Tab Management
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.tab-pane').forEach(pane => pane.classList.remove('active'));
+
+      const activeBtn = Array.from(document.querySelectorAll('.tab-btn')).find(b => b.getAttribute('onclick').includes(tabId));
+      if (activeBtn) activeBtn.classList.add('active');
+
+      const targetPane = document.getElementById(tabId);
+      if (targetPane) targetPane.classList.add('active');
+
+      if (tabId === 'tab-bookmark') {
+        renderBookmarks();
+      }
+    }
+
+    // Bookmark Toggle
+    function toggleBookmark(id) {
+      const idx = bookmarks.indexOf(id);
+      if (idx > -1) {
+        bookmarks.splice(idx, 1);
+      } else {
+        bookmarks.push(id);
+      }
+      localStorage.setItem('dss_deo_bookmarks', JSON.stringify(bookmarks));
+      updateBookmarkBadges();
+      renderStudyQuestions();
+      renderBookmarks();
+    }
+
+    function updateBookmarkBadges() {
+      const count = bookmarks.length;
+      const b1 = document.getElementById('bookmarkTabBadge');
+      if (b1) b1.innerText = count;
+    }
+
+    // Render Study Questions
+    function setSubjectFilter(subj, elem) {
+      currentSubjectFilter = subj;
+      document.querySelectorAll('#subjectFilterPills .pill-btn').forEach(b => b.classList.remove('active'));
+      elem.classList.add('active');
+      renderStudyQuestions();
+    }
+
+    function filterQuestions() {
+      renderStudyQuestions();
+    }
+
+    function renderStudyQuestions() {
+      const container = document.getElementById('questionsContainer');
+      const search = (document.getElementById('searchInput')?.value || '').trim().toLowerCase();
+
+      let list = allQuestions.filter(q => {
+        if (currentSubjectFilter !== 'all' && q.subject !== currentSubjectFilter) return false;
+        if (search) {
+          const matchQ = q.question.toLowerCase().includes(search);
+          const matchTopic = (q.topic || '').toLowerCase().includes(search);
+          const matchSubj = (q.subject || '').toLowerCase().includes(search);
+          const matchOpts = (q.options || []).some(o => o.toLowerCase().includes(search));
+          return matchQ || matchTopic || matchSubj || matchOpts;
+        }
+        return true;
+      });
+
+      if (list.length === 0) {
+        container.innerHTML = '<div style="text-align:center;padding:40px;color:var(--text-muted);background:var(--bg-card);border-radius:10px;">🔍 কোনো প্রশ্ন খুঁজে পাওয়া যায়নি। অনুসন্ধান পরিবর্তন করুন।</div>';
+        return;
+      }
+
+      container.innerHTML = list.map((q, idx) => {
+        const isBookmarked = bookmarks.includes(q.id);
+        return `
+          <div class="q-card" id="qcard_${q.id}">
+            <div class="q-header">
+              <div class="q-badge-wrap">
+                <span class="q-badge badge-sub">${q.subject}</span>
+                <span class="q-badge badge-top">${q.topic}</span>
+              </div>
+              <button class="btn-bookmark ${isBookmarked ? 'active' : ''}" onclick="toggleBookmark(${q.id})" title="বুকমার্ক করুন">
+                ${isBookmarked ? '★' : '☆'}
+              </button>
+            </div>
+            <div class="q-title">${idx + 1}. ${q.question}</div>
+            <div class="options-grid">
+              ${q.options.map((opt, oIdx) => `
+                <div class="option-item" onclick="checkOption(${q.id}, ${oIdx}, ${q.answer}, this)">
+                  <span style="font-weight:700;font-family:'Outfit',sans-serif;">${String.fromCharCode(65 + oIdx)}</span>
+                  <span>${opt.replace(/^[A-D]\)\s*/, '')}</span>
+                </div>
+              `).join('')}
+            </div>
+            <div class="q-footer">
+              <span style="font-size:12px;color:var(--text-muted);">প্রশ্ন আইডি: #${q.id}</span>
+              <button class="btn-explain" onclick="toggleExplanation('exp_${q.id}')">
+                💡 সঠিক উত্তর ও ব্যাখ্যা দেখুন
+              </button>
+            </div>
+            <div class="explanation-box" id="exp_${q.id}">
+              <strong>সঠিক উত্তর: ${String.fromCharCode(65 + q.answer)} (${q.options[q.answer]})</strong><br>
+              ${q.explanation || 'সঠিক উত্তর যাচাই করুন।'}
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function checkOption(qId, selectedIdx, correctIdx, elem) {
+      const card = elem.closest('.q-card');
+      const allOpts = card.querySelectorAll('.option-item');
+      allOpts.forEach(o => o.classList.remove('correct', 'incorrect'));
+
+      if (selectedIdx === correctIdx) {
+        elem.classList.add('correct');
+      } else {
+        elem.classList.add('incorrect');
+        if (allOpts[correctIdx]) allOpts[correctIdx].classList.add('correct');
+      }
+
+      const exp = card.querySelector('.explanation-box');
+      if (exp) exp.style.display = 'block';
+    }
+
+    function toggleExplanation(id) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.style.display = el.style.display === 'block' ? 'none' : 'block';
+    }
+
+    // Render Bookmarks
+    function renderBookmarks() {
+      const container = document.getElementById('bookmarkedQuestionsContainer');
+      const list = allQuestions.filter(q => bookmarks.includes(q.id));
+
+      if (list.length === 0) {
+        container.innerHTML = '<div style="text-align:center;padding:40px;color:var(--text-muted);background:var(--bg-card);border-radius:10px;">📌 আপনার এখনো কোনো প্রশ্ন বুকমার্ক করা নেই। পড়ার সময় স্টারে ক্লিক করে বুকমার্ক করুন।</div>';
+        return;
+      }
+
+      container.innerHTML = list.map((q, idx) => `
+        <div class="q-card">
+          <div class="q-header">
+            <div class="q-badge-wrap">
+              <span class="q-badge badge-sub">${q.subject}</span>
+              <span class="q-badge badge-top">${q.topic}</span>
+            </div>
+            <button class="btn-bookmark active" onclick="toggleBookmark(${q.id})">★</button>
+          </div>
+          <div class="q-title">${idx + 1}. ${q.question}</div>
+          <div class="options-grid">
+            ${q.options.map((opt, oIdx) => `
+              <div class="option-item ${oIdx === q.answer ? 'correct' : ''}">
+                <span style="font-weight:700;">${String.fromCharCode(65 + oIdx)}</span>
+                <span>${opt.replace(/^[A-D]\)\s*/, '')}</span>
+              </div>
+            `).join('')}
+          </div>
+          <div class="explanation-box" style="display:block;">
+            <strong>সঠিক উত্তর: ${String.fromCharCode(65 + q.answer)} (${q.options[q.answer]})</strong><br>
+            ${q.explanation || ''}
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // Render Written Questions
+    function renderWrittenQuestions() {
+      const container = document.getElementById('writtenQuestionsContainer');
+      container.innerHTML = writtenList.map((w, idx) => `
+        <div class="written-card">
+          <h3>
+            <span>${idx + 1}. ${w.question}</span>
+            <span class="q-badge badge-top">${w.subject}</span>
+          </h3>
+          <div style="font-size:12.5px;color:var(--text-muted);margin-bottom:10px;">
+            টপিক: <strong>${w.topic}</strong> | মান: <strong>${w.marks} নম্বর</strong>
+          </div>
+          <div class="written-ans-box">${w.solution}</div>
+        </div>
+      `).join('');
+    }
+
+    // ==========================================
+    // 70-MARK MOCK EXAM ENGINE
+    // ==========================================
+    let mockExamQuestions = [];
+    let userMockAnswers = {};
+    let mockTimerSeconds = 60 * 60;
+    let mockTimerInterval = null;
+
+    function startMockExam() {
+      // Pick 70 questions (or all if < 70)
+      const shuffled = [...allQuestions].sort(() => 0.5 - Math.random());
+      mockExamQuestions = shuffled.slice(0, 70);
+      userMockAnswers = {};
+      mockTimerSeconds = 60 * 60;
+
+      document.getElementById('mockIntroCard').style.display = 'none';
+      document.getElementById('mockResultCard').classList.remove('active');
+      document.getElementById('examLiveWrapper').classList.add('active');
+
+      renderMockQuestions();
+      startMockTimer();
+    }
+
+    function renderMockQuestions() {
+      const container = document.getElementById('mockExamQuestionsContainer');
+      container.innerHTML = mockExamQuestions.map((q, idx) => `
+        <div class="q-card" id="mock_q_${q.id}">
+          <div class="q-header">
+            <span class="q-badge badge-sub">${q.subject}</span>
+            <span style="font-size:12px;color:var(--text-muted);">প্রশ্ন ${idx + 1} / ${mockExamQuestions.length}</span>
+          </div>
+          <div class="q-title">${idx + 1}. ${q.question}</div>
+          <div class="options-grid">
+            ${q.options.map((opt, oIdx) => `
+              <div class="option-item" onclick="selectMockAnswer(${q.id}, ${oIdx}, this)">
+                <span style="font-weight:700;">${String.fromCharCode(65 + oIdx)}</span>
+                <span>${opt.replace(/^[A-D]\)\s*/, '')}</span>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `).join('');
+      updateExamAnsweredCount();
+    }
+
+    function selectMockAnswer(qId, oIdx, elem) {
+      userMockAnswers[qId] = oIdx;
+      const card = elem.closest('.q-card');
+      card.querySelectorAll('.option-item').forEach(o => {
+        o.style.background = 'var(--bg-body)';
+        o.style.borderColor = 'var(--border-color)';
+        o.style.color = 'var(--text-main)';
+      });
+      elem.style.background = 'var(--primary-light)';
+      elem.style.borderColor = 'var(--primary)';
+      elem.style.color = 'var(--primary)';
+      updateExamAnsweredCount();
+    }
+
+    function updateExamAnsweredCount() {
+      const answered = Object.keys(userMockAnswers).length;
+      document.getElementById('examAnsweredCount').innerText = answered;
+    }
+
+    function startMockTimer() {
+      clearInterval(mockTimerInterval);
+      mockTimerInterval = setInterval(() => {
+        mockTimerSeconds--;
+        const mins = Math.floor(mockTimerSeconds / 60);
+        const secs = mockTimerSeconds % 60;
+        document.getElementById('timerText').innerText = 
+          `${mins < 10 ? '0' : ''}${mins}:${secs < 10 ? '0' : ''}${secs}`;
+
+        if (mockTimerSeconds <= 0) {
+          clearInterval(mockTimerInterval);
+          alert('সময় সমাপ্ত হয়েছে! খাতা স্বয়ংক্রিয়ভাবে জমা নেওয়া হচ্ছে।');
+          evaluateMockExam();
+        }
+      }, 1000);
+    }
+
+    function confirmSubmitExam() {
+      const answered = Object.keys(userMockAnswers).length;
+      const total = mockExamQuestions.length;
+      if (confirm(`আপনি কি পরীক্ষা জমা দিতে চান?\nমোট উত্তর দিয়েছেন: ${answered} / ${total} টি`)) {
+        clearInterval(mockTimerInterval);
+        evaluateMockExam();
+      }
+    }
+
+    function evaluateMockExam() {
+      let correct = 0;
+      let incorrect = 0;
+      let unattempted = 0;
+
+      mockExamQuestions.forEach(q => {
+        const userAns = userMockAnswers[q.id];
+        if (userAns === undefined) {
+          unattempted++;
+        } else if (userAns === q.answer) {
+          correct++;
+        } else {
+          incorrect++;
+        }
+      });
+
+      const penalty = incorrect * 0.25;
+      const finalScore = Math.max(0, correct - penalty);
+
+      document.getElementById('examLiveWrapper').classList.remove('active');
+      document.getElementById('mockResultCard').classList.add('active');
+
+      document.getElementById('finalScoreVal').innerText = finalScore.toFixed(2);
+      document.getElementById('resCorrect').innerText = correct;
+      document.getElementById('resIncorrect').innerText = incorrect;
+      document.getElementById('resUnattempted').innerText = unattempted;
+      document.getElementById('resPenalty').innerText = `-${penalty.toFixed(2)}`;
+
+      const pct = (finalScore / mockExamQuestions.length) * 100;
+      let summary = '';
+      if (pct >= 70) {
+        summary = '🎉 চমৎকার প্রস্তুতি! আপনি প্রিলিমিনারিতে নিরাপদ জোনে রয়েছেন।';
+      } else if (pct >= 50) {
+        summary = '👍 ভালো চেষ্টা! তবে নেগেটিভ মার্কিং কমাতে আরেকটু যত্নবান হন।';
+      } else {
+        summary = '⚠️ আরো নিবিড় অনুশীলন প্রয়োজন। বিষয়ভিত্তিক প্রশ্নগুলো পুনরায় রিভিশন দিন।';
+      }
+      document.getElementById('mockPerformanceSummary').innerText = summary;
+    }
+
+    function retakeExam() {
+      startMockExam();
+    }
+
+    function reviewExamAnswers() {
+      document.getElementById('mockResultCard').classList.remove('active');
+      document.getElementById('examLiveWrapper').classList.add('active');
+
+      document.getElementById('timerText').innerText = '📝 রিভিউ মোড';
+      document.querySelector('.btn-submit-exam').style.display = 'none';
+
+      const container = document.getElementById('mockExamQuestionsContainer');
+      container.innerHTML = mockExamQuestions.map((q, idx) => {
+        const uAns = userMockAnswers[q.id];
+        const isCorrect = uAns === q.answer;
+        const isUnanswered = uAns === undefined;
+
+        return `
+          <div class="q-card" style="border-left: 4px solid ${isCorrect ? '#10b981' : isUnanswered ? '#94a3b8' : '#ef4444'};">
+            <div class="q-header">
+              <span class="q-badge badge-sub">${q.subject}</span>
+              <span style="font-weight:700;color:${isCorrect ? '#10b981' : isUnanswered ? '#94a3b8' : '#ef4444'};">
+                ${isCorrect ? '✔ সঠিক (+১)' : isUnanswered ? '⚪ অনুত্তরিত (০)' : '✖ ভুল (-০.২৫)'}
+              </span>
+            </div>
+            <div class="q-title">${idx + 1}. ${q.question}</div>
+            <div class="options-grid">
+              ${q.options.map((opt, oIdx) => {
+                let cls = '';
+                if (oIdx === q.answer) cls = 'correct';
+                else if (oIdx === uAns) cls = 'incorrect';
+                return `
+                  <div class="option-item ${cls}">
+                    <span style="font-weight:700;">${String.fromCharCode(65 + oIdx)}</span>
+                    <span>${opt.replace(/^[A-D]\)\s*/, '')}</span>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+            <div class="explanation-box" style="display:block;">
+              <strong>সঠিক উত্তর: ${String.fromCharCode(65 + q.answer)}</strong><br>
+              ${q.explanation || 'সঠিক উত্তর যাচাই করুন।'}
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // ==========================================
+    // INTERACTIVE TYPING SPEED TEST ENGINE
+    // ==========================================
+    const BANGLA_PASSAGE = "সমাজসেবা অধিদপ্তর গণপ্রজাতন্ত্রী বাংলাদেশ সরকারের সমাজকল্যাণ মন্ত্রণালয়ের আওতাধীন একটি প্রধান সেবাধর্মী প্রতিষ্ঠান। দেশের সুবিধাবঞ্চিত, অনগ্রসর, প্রতিবন্ধী ও বয়োবৃদ্ধ নাগরিকদের কল্যাণ সাধন ও সামাজিক সুরক্ষা বেষ্টনী নিশ্চিত করাই এ অধিদপ্তরের মূল লক্ষ্য। ডাটা এন্ট্রি অপারেটরের দায়িত্ব হলো সরকারি ডাটাবেজে সঠিক তথ্য নির্ভুলভাবে সংরক্ষণ ও হালনাগাদ করা।";
+    const ENGLISH_PASSAGE = "The Department of Social Services under the Ministry of Social Welfare works relentlessly to empower vulnerable and underprivileged citizens of Bangladesh. A Data Entry Operator plays a critical role in managing official records, maintaining database integrity, and processing citizen services accurately and efficiently.";
+
+    let currentTypingLang = 'bangla';
+    let typingTargetText = BANGLA_PASSAGE;
+    let typingTimer = 60;
+    let typingInterval = null;
+    let typingStarted = false;
+
+    function setTypingLang(lang) {
+      currentTypingLang = lang;
+      document.getElementById('btnTypeBangla').classList.toggle('active', lang === 'bangla');
+      document.getElementById('btnTypeEnglish').classList.toggle('active', lang === 'english');
+      typingTargetText = lang === 'bangla' ? BANGLA_PASSAGE : ENGLISH_PASSAGE;
+      resetTypingTest();
+    }
+
+    function resetTypingTest() {
+      clearInterval(typingInterval);
+      typingStarted = false;
+      typingTimer = 60;
+      document.getElementById('typeTimer').innerText = '60s';
+      document.getElementById('typeWpm').innerText = '0';
+      document.getElementById('typeAccuracy').innerText = '100%';
+      document.getElementById('typeCpm').innerText = '0';
+      document.getElementById('typingInputField').value = '';
+      document.getElementById('typingInputField').disabled = false;
+      document.getElementById('typingStatusBadge').className = 'typing-pass-badge status-fail';
+      document.getElementById('typingStatusBadge').innerText = 'প্রস্তুত হোন (টার্গেট: ২০+ WPM)';
+      renderTypingPrompt('');
+    }
+
+    function renderTypingPrompt(typed) {
+      const container = document.getElementById('typingPromptDisplay');
+      let html = '';
+      for (let i = 0; i < typingTargetText.length; i++) {
+        const targetChar = typingTargetText[i];
+        const typedChar = typed[i];
+
+        if (typedChar === undefined) {
+          if (i === typed.length) {
+            html += `<span class="char-current">${targetChar}</span>`;
+          } else {
+            html += targetChar;
+          }
+        } else if (typedChar === targetChar) {
+          html += `<span class="char-correct">${targetChar}</span>`;
+        } else {
+          html += `<span class="char-wrong">${targetChar}</span>`;
+        }
+      }
+      container.innerHTML = html;
+    }
+
+    function handleTypingInput() {
+      const input = document.getElementById('typingInputField').value;
+
+      if (!typingStarted && input.length > 0) {
+        typingStarted = true;
+        startTypingTimer();
+      }
+
+      renderTypingPrompt(input);
+      calculateTypingStats(input);
+    }
+
+    function startTypingTimer() {
+      typingInterval = setInterval(() => {
+        typingTimer--;
+        document.getElementById('typeTimer').innerText = `${typingTimer}s`;
+
+        const input = document.getElementById('typingInputField').value;
+        calculateTypingStats(input);
+
+        if (typingTimer <= 0) {
+          clearInterval(typingInterval);
+          document.getElementById('typingInputField').disabled = true;
+          finishTypingTest();
+        }
+      }, 1000);
+    }
+
+    function calculateTypingStats(typed) {
+      let correctChars = 0;
+      for (let i = 0; i < typed.length; i++) {
+        if (typed[i] === typingTargetText[i]) {
+          correctChars++;
+        }
+      }
+
+      const elapsedMinutes = (60 - typingTimer) / 60 || 0.01;
+      const words = correctChars / 5;
+      const wpm = Math.round(words / elapsedMinutes);
+      const cpm = Math.round(correctChars / elapsedMinutes);
+      const accuracy = typed.length > 0 ? Math.round((correctChars / typed.length) * 100) : 100;
+
+      document.getElementById('typeWpm').innerText = wpm;
+      document.getElementById('typeCpm').innerText = cpm;
+      document.getElementById('typeAccuracy').innerText = `${accuracy}%`;
+
+      const badge = document.getElementById('typingStatusBadge');
+      if (wpm >= 20) {
+        badge.className = 'typing-pass-badge status-pass';
+        badge.innerText = '✅ পাস কোটা অর্জিত (≥ ২০ WPM)';
+      } else {
+        badge.className = 'typing-pass-badge status-fail';
+        badge.innerText = `⚠️ আরো গতি বাড়ান (বর্তমান: ${wpm} WPM)`;
+      }
+    }
+
+    function finishTypingTest() {
+      const wpm = parseInt(document.getElementById('typeWpm').innerText, 10);
+      const acc = document.getElementById('typeAccuracy').innerText;
+      if (wpm >= 20) {
+        alert(`🎉 অভিনন্দন! আপনার টাইপিং গতি ${wpm} WPM এবং নির্ভুলতা ${acc}। আপনি সরকারি মানদণ্ড (২০ WPM) সফলভাবে অর্জন করেছেন!`);
+      } else {
+        alert(`⚠️ টেস্ট সমাপ্ত। আপনার গতি ${wpm} WPM। পাস করতে সর্বনিম্ন ২০ WPM প্রয়োজন। নিয়মিত প্র্যাকটিস করুন!`);
+      }
+    }
+
+    // Initialize Page
+    window.addEventListener('DOMContentLoaded', () => {
+      renderStudyQuestions();
+      renderWrittenQuestions();
+      updateBookmarkBadges();
+      resetTypingTest();
+    });
+  </script>
+</body>
+</html>

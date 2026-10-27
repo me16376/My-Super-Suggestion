@@ -1,0 +1,107 @@
+[
+  {
+    "id": 25,
+    "subject": "কম্পিউটার ও ডাটা এন্ট্রি",
+    "topic": "ডাটাবেজ ও এমএস অ্যাক্সেস বেসিকস",
+    "question": "একটি রিলেশনাল ডাটাবেজে প্রতিটি রেকর্ডকে স্বতন্ত্রভাবে শনাক্ত করতে কোনটি আবশ্যক?",
+    "options": [
+      "Foreign Key",
+      "Primary Key",
+      "Candidate Key",
+      "Composite Key"
+    ],
+    "answer": "Primary Key",
+    "explanation": "Primary Key হলো এমন একটি ফিল্ড বা ফিল্ড সমষ্টি যা টেবিলের প্রতিটি রেকর্ডকে অদ্বিতীয়ভাবে শনাক্ত করে এবং নাল (Null) হতে পারে না।",
+    "tags": [
+      "Computer",
+      "MS Office",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 26,
+    "subject": "কম্পিউটার ও ডাটা এন্ট্রি",
+    "topic": "ডাটাবেজ ও এমএস অ্যাক্সেস বেসিকস",
+    "question": "MS Access ফাইলে ফাইল এক্সটেনশন কোনটি (আধুনিক সংস্করণসমূহে)?",
+    "options": [
+      ".mdb",
+      ".accdb",
+      ".dbf",
+      ".sql"
+    ],
+    "answer": ".accdb",
+    "explanation": "অ্যাক্সেস ২০০৭ হতে পরবর্তী সকল সংস্করণে ডিফল্ট ফাইল এক্সটেনশন হলো .accdb (পূর্বে ছিল .mdb)।",
+    "tags": [
+      "Computer",
+      "MS Office",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 27,
+    "subject": "কম্পিউটার ও ডাটা এন্ট্রি",
+    "topic": "ডাটাবেজ ও এমএস অ্যাক্সেস বেসিকস",
+    "question": "ডাটাবেজ টেবিলে একটি অনুভূমিক সারিকে (Row) কী বলা হয়?",
+    "options": [
+      "Field",
+      "Record / Tuple",
+      "Attribute",
+      "Domain"
+    ],
+    "answer": "Record / Tuple",
+    "explanation": "ডাটাবেজ টেবিলের সারিকে রেকর্ড (Record) বা টাপল (Tuple) এবং কলামকে ফিল্ড (Field) বা অ্যাট্রিবিউট বলা হয়।",
+    "tags": [
+      "Computer",
+      "MS Office",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 28,
+    "subject": "কম্পিউটার ও ডাটা এন্ট্রি",
+    "topic": "ডাটাবেজ ও এমএস অ্যাক্সেস বেসিকস",
+    "question": "SQL এর পূর্ণরূপ কী?",
+    "options": [
+      "Structured Query Language",
+      "Simple Question Language",
+      "Standard Query Logic",
+      "Sequential Query List"
+    ],
+    "answer": "Structured Query Language",
+    "explanation": "SQL হলো রিলেশনাল ডাটাবেজ পরিচালনার সার্বজনীন প্রমিত ভাষা।",
+    "tags": [
+      "Computer",
+      "MS Office",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 29,
+    "subject": "কম্পিউটার ও ডাটা এন্ট্রি",
+    "topic": "ডাটাবেজ ও এমএস অ্যাক্সেস বেসিকস",
+    "question": "ডাটাবেজে তথ্য প্রদর্শনের সুবিধাজনক ও প্রিন্ট-রেডি ফরম্যাটকে কী বলা হয়?",
+    "options": [
+      "Query",
+      "Form",
+      "Report",
+      "Table"
+    ],
+    "answer": "Report",
+    "explanation": "অ্যাক্সেসে ডাটা এন্ট্রির জন্য Form, অনুসন্ধানের জন্য Query এবং চূড়ান্ত উপস্থাপনা/মুদ্রণের জন্য Report ব্যবহৃত হয়।",
+    "tags": [
+      "Computer",
+      "MS Office",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  }
+]

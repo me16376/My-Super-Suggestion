@@ -5,7 +5,8 @@ const exams = [
   'Sub-Assistant Maintenance Engineer Super Suggestion',
   'Junior Instructor Tech Computer Super Suggestion',
   'Petrobangla Sub-Assistant Engineer Computer IT',
-  'DSS Karigori Proshikhok Computer Super Suggestion'
+  'DSS Karigori Proshikhok Computer Super Suggestion',
+  'DSS Data Entry Operator Super Suggestion'
 ];
 
 console.log('=== GLOBAL AUDIT SUMMARY ACROSS ALL 4 EXAMS ===\n');

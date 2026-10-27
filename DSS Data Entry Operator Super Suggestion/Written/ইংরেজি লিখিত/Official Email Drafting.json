@@ -1,0 +1,20 @@
+[
+  {
+    "id": 2006,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Official Email Drafting",
+    "question": "Draft an official email to the System Analyst reporting a data synchronization error in the social safety net database.",
+    "marks": 10,
+    "answer": "**Subject:** Urgent: Resolution Required for G2P Database Synchronization Failure in Savar Upazila  \n\n**Dear Sir,**  \n\nI hope this email finds you well.  \n\nI am writing to formally report an unexpected data synchronization error encountered in the National Social Safety Net (G2P) database portal today during the entry of quarterly beneficiary payment records for Savar Upazila.  \n\nWhile uploading the batch file containing 250 validated records of the Disability Allowance program, the system generated an \"Error Code: 504 - Gateway Timeout & Database Lock\", and approximately 78 records failed to commit to the central server. To avoid duplicate disbursements, we have temporarily paused the batch entry process.  \n\nThe error log file and the pending CSV data sheets are attached herewith for your technical investigation. Kindly review the server sync protocol and guide us on safely resuming the data entry.  \n\nThank you for your prompt assistance.  \n\n**Sincerely,**  \nData Entry Operator  \nUpazila Social Services Office  \nSavar, Dhaka.  \nContact: +8801700-000000",
+    "points_to_remember": [
+      "Professional tone and subject line",
+      "Clear description of error code and impact",
+      "Attachment notice"
+    ],
+    "tags": [
+      "DSS",
+      "Data Entry Written",
+      "Aptitude Test"
+    ]
+  }
+]

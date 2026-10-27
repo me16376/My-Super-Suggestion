@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "subject": "কম্পিউটার ও ডাটা এন্ট্রি",
+    "topic": "এমএস এক্সেল ও স্প্রেডশিট ফর্মুলা",
+    "question": "MS Excel-এ কোনো রেঞ্জের সংখ্যাগুলোর যোগফল বের করার জন্য কোন ফাংশনটি ব্যবহৃত হয়?",
+    "options": [
+      "=TOTAL()",
+      "=SUM()",
+      "=ADD()",
+      "=SUMMATION()"
+    ],
+    "answer": "=SUM()",
+    "explanation": "এক্সেলে কোনো সেল রেঞ্জের যোগফলের সাধারণ সিনট্যাক্স হলো =SUM(number1, [number2], ...)।",
+    "tags": [
+      "Computer",
+      "MS Office",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 2,
+    "subject": "কম্পিউটার ও ডাটা এন্ট্রি",
+    "topic": "এমএস এক্সেল ও স্প্রেডশিট ফর্মুলা",
+    "question": "Excel-এ শর্তসাপেক্ষে কোনো ডাটা যোগ করার সঠিক ফাংশন কোনটি?",
+    "options": [
+      "=IFSUM()",
+      "=SUMIF()",
+      "=CONDITIONALSUM()",
+      "=SUMCONDITION()"
+    ],
+    "answer": "=SUMIF()",
+    "explanation": "=SUMIF(range, criteria, [sum_range]) নির্দিষ্ট শর্ত পূরণকারী সেলসমূহের মান যোগ করে।",
+    "tags": [
+      "Computer",
+      "MS Office",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 3,
+    "subject": "কম্পিউটার ও ডাটা এন্ট্রি",
+    "topic": "এমএস এক্সেল ও স্প্রেডশিট ফর্মুলা",
+    "question": "Excel-এ উল্লম্বভাবে (Vertically) কোনো ডাটা টেবিল থেকে নির্দিষ্ট মান খুঁজতে কোনটি ব্যবহৃত হয়?",
+    "options": [
+      "HLOOKUP",
+      "VLOOKUP",
+      "INDEX-MATCH",
+      "FIND"
+    ],
+    "answer": "VLOOKUP",
+    "explanation": "VLOOKUP ফাংশনের পূর্ণরূপ হলো Vertical Lookup, যা টেবিলের প্রথম কলামে নির্দিষ্ট মান খুঁজে একই সারির অন্য কলামের মান প্রদর্শন করে।",
+    "tags": [
+      "Computer",
+      "MS Office",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 4,
+    "subject": "কম্পিউটার ও ডাটা এন্ট্রি",
+    "topic": "এমএস এক্সেল ও স্প্রেডশিট ফর্মুলা",
+    "question": "MS Excel-এ নির্দিষ্ট শর্ত পূরণকারী ঘরের সংখ্যা গণনা করার সূত্র কোনটি?",
+    "options": [
+      "=COUNT()",
+      "=COUNTIF()",
+      "=COUNTA()",
+      "=NUMIF()"
+    ],
+    "answer": "=COUNTIF()",
+    "explanation": "=COUNTIF(range, criteria) নির্দিষ্ট শর্ত সাপেক্ষে ঘরের সংখ্যা গণনা করে, যেখানে COUNT শুধুমাত্র সংখ্যাযুক্ত ঘর গুনে।",
+    "tags": [
+      "Computer",
+      "MS Office",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 5,
+    "subject": "কম্পিউটার ও ডাটা এন্ট্রি",
+    "topic": "এমএস এক্সেল ও স্প্রেডশিট ফর্মুলা",
+    "question": "Excel ওয়ার্কশিটে কোনো নির্দিষ্ট সেলের অ্যাবসোলিউট রেফারেন্স (Absolute Reference) তৈরিতে কোন প্রতীক ব্যবহৃত হয়?",
+    "options": [
+      "#",
+      "%",
+      "$",
+      "&"
+    ],
+    "answer": "$",
+    "explanation": "রো এবং কলামের আগে $ চিহ্ন দিয়ে (যেমন: $A$1) রেফারেন্স লক বা অ্যাবসোলিউট করা হয়।",
+    "tags": [
+      "Computer",
+      "MS Office",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 6,
+    "subject": "কম্পিউটার ও ডাটা এন্ট্রি",
+    "topic": "এমএস এক্সেল ও স্প্রেডশিট ফর্মুলা",
+    "question": "Excel ফাইলে নতুন রো বা কলাম যোগ করার কীবোর্ড শর্টকাট কোনটি?",
+    "options": [
+      "Ctrl + Shift + +",
+      "Ctrl + Alt + +",
+      "Alt + Shift + I",
+      "Ctrl + N"
+    ],
+    "answer": "Ctrl + Shift + +",
+    "explanation": "সেল বা রো সিলেক্ট থাকা অবস্থায় Ctrl + Shift + + চাপলে ইনসার্ট ডায়ালগ বক্স আসে।",
+    "tags": [
+      "Computer",
+      "MS Office",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 7,
+    "subject": "কম্পিউটার ও ডাটা এন্ট্রি",
+    "topic": "এমএস এক্সেল ও স্প্রেডশিট ফর্মুলা",
+    "question": "Excel-এ একাধিক টেক্সট স্ট্রিং একত্রিত করার ফাংশন কোনটি?",
+    "options": [
+      "=MERGE()",
+      "=CONCATENATE()",
+      "=JOIN()",
+      "=COMBINE()"
+    ],
+    "answer": "=CONCATENATE()",
+    "explanation": "=CONCATENATE(text1, text2) বা নতুন ভার্সনে =CONCAT() টেক্সট স্ট্রিং যুক্ত করে।",
+    "tags": [
+      "Computer",
+      "MS Office",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 8,
+    "subject": "কম্পিউটার ও ডাটা এন্ট্রি",
+    "topic": "এমএস এক্সেল ও স্প্রেডশিট ফর্মুলা",
+    "question": "MS Excel-এ আজকের বর্তমান তারিখ দেখানোর ফাংশন কোনটি?",
+    "options": [
+      "=CURRENT()",
+      "=TODAY()",
+      "=NOW()",
+      "=DATE()"
+    ],
+    "answer": "=TODAY()",
+    "explanation": "=TODAY() ফাংশন বর্তমান তারিখ রিটার্ন করে, আর =NOW() বর্তমান তারিখ ও সময় উভয়ই প্রদর্শন করে।",
+    "tags": [
+      "Computer",
+      "MS Office",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 9,
+    "subject": "কম্পিউটার ও ডাটা এন্ট্রি",
+    "topic": "এমএস এক্সেল ও স্প্রেডশিট ফর্মুলা",
+    "question": "Excel ফাইলে কোনো সেলে ভুল ডাটা টাইপ বন্ধ করার ফিচারের নাম কী?",
+    "options": [
+      "Data Filtering",
+      "Data Validation",
+      "Conditional Formatting",
+      "Data Sorting"
+    ],
+    "answer": "Data Validation",
+    "explanation": "Data Validation ফিচারের মাধ্যমে সেলে গ্রহণযোগ্য ডাটার ধরন (যেমন: পূর্ণসংখ্যা, নির্দিষ্ট দৈর্ঘ্য, ড্রপডাউন লিস্ট) সীমাবদ্ধ করা যায়।",
+    "tags": [
+      "Computer",
+      "MS Office",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 10,
+    "subject": "কম্পিউটার ও ডাটা এন্ট্রি",
+    "topic": "এমএস এক্সেল ও স্প্রেডশিট ফর্মুলা",
+    "question": "Excel-এ কোনো সেলের সর্বোচ্চ মান বের করতে কোন ফাংশন ব্যবহৃত হয়?",
+    "options": [
+      "=TOP()",
+      "=MAX()",
+      "=HIGH()",
+      "=PEAK()"
+    ],
+    "answer": "=MAX()",
+    "explanation": "=MAX(range) ফাংশন নির্বাচিত রেঞ্জের সর্বোচ্চ সাংখ্যিক মান প্রদর্শন করে।",
+    "tags": [
+      "Computer",
+      "MS Office",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": 54,
+    "subject": "ইংরেজি",
+    "topic": "Right Form of Verbs & Tense",
+    "question": "Neither of the operators _____ present yesterday.",
+    "options": [
+      "were",
+      "was",
+      "are",
+      "have been"
+    ],
+    "answer": "was",
+    "explanation": "Neither of + plural noun-এর পর verb সর্বদা singular হয়।",
+    "tags": [
+      "English",
+      "Grammar",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 55,
+    "subject": "ইংরেজি",
+    "topic": "Right Form of Verbs & Tense",
+    "question": "The data entry operator _____ the report before the officer arrived.",
+    "options": [
+      "submitted",
+      "has submitted",
+      "had submitted",
+      "was submitting"
+    ],
+    "answer": "had submitted",
+    "explanation": "Past Perfect টেন্সে Before-এর পূর্ববর্তী ক্লজ had + V3 হয়।",
+    "tags": [
+      "English",
+      "Grammar",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 56,
+    "subject": "ইংরেজি",
+    "topic": "Right Form of Verbs & Tense",
+    "question": "It is high time we _____ the digital database.",
+    "options": [
+      "update",
+      "updated",
+      "have updated",
+      "will update"
+    ],
+    "answer": "updated",
+    "explanation": "It is high time / It is time-এর পর past indefinite tense হয়।",
+    "tags": [
+      "English",
+      "Grammar",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  }
+]

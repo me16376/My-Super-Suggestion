@@ -1,0 +1,65 @@
+[
+  {
+    "id": 57,
+    "subject": "ইংরেজি",
+    "topic": "Spelling & Vocabulary",
+    "question": "Choose the correct spelling of the following word:",
+    "options": [
+      "Occurence",
+      "Occurrence",
+      "Ocurrence",
+      "Occurance"
+    ],
+    "answer": "Occurrence",
+    "explanation": "সঠিক বানান O-c-c-u-r-r-e-n-c-e (Occurrence)।",
+    "tags": [
+      "English",
+      "Grammar",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 58,
+    "subject": "ইংরেজি",
+    "topic": "Spelling & Vocabulary",
+    "question": "Identify the correctly spelled word:",
+    "options": [
+      "Questionaire",
+      "Questionnaire",
+      "Questionair",
+      "Questionnare"
+    ],
+    "answer": "Questionnaire",
+    "explanation": "সঠিক বানান Q-u-e-s-t-i-o-n-n-a-i-r-e (Questionnaire - প্রশ্নমালা)।",
+    "tags": [
+      "English",
+      "Grammar",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 59,
+    "subject": "ইংরেজি",
+    "topic": "Spelling & Vocabulary",
+    "question": "What is the synonym of the word \"Meticulous\"?",
+    "options": [
+      "Careless",
+      "Diligent / Thorough",
+      "Hasty",
+      "Vague"
+    ],
+    "answer": "Diligent / Thorough",
+    "explanation": "Meticulous অর্থ অতি সতর্ক ও খুঁটিনাটি নির্ভুলকারী, যার সমার্থক Thorough বা Diligent।",
+    "tags": [
+      "English",
+      "Grammar",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  }
+]

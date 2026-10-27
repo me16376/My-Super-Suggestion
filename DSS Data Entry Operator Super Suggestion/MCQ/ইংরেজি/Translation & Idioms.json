@@ -1,0 +1,44 @@
+[
+  {
+    "id": 60,
+    "subject": "ইংরেজি",
+    "topic": "Translation & Idioms",
+    "question": "“তিনি ডাটা এন্ট্রিতে সিদ্ধহস্ত”—এর সঠিক ইংরেজি অনুবাদ কোনটি?",
+    "options": [
+      "He is skilled with data entry.",
+      "He is an adept at data entry.",
+      "He has a hand in data entry.",
+      "He knows data entry well."
+    ],
+    "answer": "He is an adept at data entry.",
+    "explanation": "Adept at / Expert in অর্থ সিদ্ধহস্ত বা সুদক্ষ।",
+    "tags": [
+      "English",
+      "Grammar",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 61,
+    "subject": "ইংরেজি",
+    "topic": "Translation & Idioms",
+    "question": "What is the meaning of the idiom \"At a glance\"?",
+    "options": [
+      "Immediately after looking",
+      "Blindly",
+      "Slowly",
+      "Carefully"
+    ],
+    "answer": "Immediately after looking",
+    "explanation": "At a glance অর্থ এক পলকে বা এক নজরেই।",
+    "tags": [
+      "English",
+      "Grammar",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  }
+]

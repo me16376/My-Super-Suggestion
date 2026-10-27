@@ -38,7 +38,9 @@ My Super Suggestion/                                    <-- রুট ডির�
 │   ├── petrobangla_sub_assistant_engineer_super_suggestion.html
 │   ├── petrobangla_sub_assistant_engineer_exam_guide.html
 │   ├── dss_karigori_proshikhok_computer_super_suggestion.html
-│   └── dss_karigori_proshikhok_computer_exam_guide.html
+│   ├── dss_karigori_proshikhok_computer_exam_guide.html
+│   ├── dss_data_entry_operator_super_suggestion.html
+│   └── dss_data_entry_operator_exam_guide.html
 │
 ├── [অফিশিয়াল সার্কুলার PDF ফাইলসমূহ (রুট লেভেলে)]:
 │   ├── BPSC ad_202506.pdf                              <-- বিপিএসসি জুনিয়র ইন্সট্রাক্টর
@@ -50,24 +52,32 @@ My Super Suggestion/                                    <-- রুট ডির�
 │   ├── Sub-Assistant Maintenance Engineer Super Suggestion/
 │   │   ├── preliminary_mcq.json                        <-- ৬,৫৯০টি প্রিলিমিনারি MCQ
 │   │   ├── written_questions.json                      <-- ৩৭৫টি লিখিত প্রশ্ন ও সমাধান
+│   │   ├── MCQ/ ও Written/                             <-- বিষয়ভিত্তিক ও টপিকভিত্তিক স্প্লিট JSON ফোল্ডার
 │   │   └── Sub_Assistant_Maintenance_Engineer_Exam_Syllabus_Guide.pdf
 │   │
 │   ├── Junior Instructor Tech Computer Super Suggestion/
 │   │   ├── preliminary_mcq.json                        <-- ১২,৬০০টি প্রিলিমিনারি MCQ
 │   │   ├── written_questions.json                      <-- ৩৭২টি লিখিত প্রশ্ন ও সমাধান
+│   │   ├── MCQ/ ও Written/                             <-- বিষয়ভিত্তিক ও টপিকভিত্তিক স্প্লিট JSON ফোল্ডার
 │   │   └── Junior_Instructor_Computer_Exam_Syllabus_Guide.pdf
 │   │
 │   ├── Petrobangla Sub-Assistant Engineer Computer IT/
 │   │   ├── preliminary_mcq.json                        <-- ৭,৫০০টি প্রিলিমিনারি MCQ
 │   │   ├── written_questions.json                      <-- ১৫০টি লিখিত সমস্যা ও সমাধান
+│   │   ├── MCQ/ ও Written/                             <-- বিষয়ভিত্তিক ও টপিকভিত্তিক স্প্লিট JSON ফোল্ডার
 │   │   └── Petrobangla_Sub_Assistant_Engineer_Computer_IT_Exam_Guide.pdf
 │   │
 │   ├── DSS Karigori Proshikhok Computer Super Suggestion/
 │   │   ├── preliminary_mcq.json                        <-- ১৩৩টি প্রিলিমিনারি MCQ
 │   │   ├── written_questions.json                      <-- ৩২টি লিখিত প্রশ্ন ও হ্যান্ডবুক
+│   │   ├── MCQ/ ও Written/                             <-- বিষয়ভিত্তিক ও টপিকভিত্তিক স্প্লিট JSON ফোল্ডার
 │   │   └── DSS_Karigori_Proshikhok_Computer_Exam_Guide.pdf
 │   │
 │   └── DSS Data Entry Operator Super Suggestion/
+│       ├── preliminary_mcq.json                        <-- ৭৪টি প্রিলিমিনারি MCQ
+│       ├── written_questions.json                      <-- ৭টি লিখিত ও অ্যাপটিটিউড সমাধান
+│       ├── MCQ/ ও Written/                             <-- বিষয়ভিত্তিক ও টপিকভিত্তিক স্প্লিট JSON ফোল্ডার
+│       ├── DSS_Data_Entry_Operator_Exam_Guide.pdf
 │       └── README.md
 │
 └── _dev_archive/                                       <-- ব্যাকআপ স্ক্রিপ্টসমূহ (Development Tools)

@@ -1,0 +1,86 @@
+[
+  {
+    "id": 50,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "question": "He is proficient _____ English data entry.",
+    "options": [
+      "in",
+      "at",
+      "with",
+      "on"
+    ],
+    "answer": "in",
+    "explanation": "Proficient in something (কোনো বিষয়ে দক্ষ)। Good at কিন্তু Proficient in হয়।",
+    "tags": [
+      "English",
+      "Grammar",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 51,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "question": "The clerk complied _____ the official order.",
+    "options": [
+      "to",
+      "with",
+      "by",
+      "for"
+    ],
+    "answer": "with",
+    "explanation": "Comply with অর্থ নিয়ম বা আদেশ মান্য করা।",
+    "tags": [
+      "English",
+      "Grammar",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 52,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "question": "He is accused _____ stealing office documents.",
+    "options": [
+      "for",
+      "with",
+      "of",
+      "by"
+    ],
+    "answer": "of",
+    "explanation": "Accuse of অর্থ অভিযুক্ত করা।",
+    "tags": [
+      "English",
+      "Grammar",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  },
+  {
+    "id": 53,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "question": "The project is funded _____ the Department of Social Services.",
+    "options": [
+      "with",
+      "by",
+      "from",
+      "in"
+    ],
+    "answer": "by",
+    "explanation": "Funded by an organization (কোনো সংস্থা কর্তৃক অর্থায়িত)।",
+    "tags": [
+      "English",
+      "Grammar",
+      "DSS",
+      "Data Entry Operator",
+      "১৬তম গ্রেড"
+    ]
+  }
+]
