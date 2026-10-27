@@ -43,7 +43,7 @@ DSS Data Entry Operator Super Suggestion/
 └── README.md                               <-- পদ পরিচিতি ও রূপরেখা
 ```
 
-> **নিয়ম দ্রষ্টব্য:** ব্যবহারকারীর নির্দেশনা অনুযায়ী সমস্ত ওয়েব অ্যাপ্লিকেশন HTML ফাইল রুট ডিরেক্টরিতে (`dss_data_entry_operator_super_suggestion.html` ও `dss_data_entry_operator_exam_guide.html`) স্থানান্তরিত রয়েছে এবং এই ফোল্ডারে শুধুমাত্র JSON ডেটাসেট ও অফিশিয়াল PDF ফাইল সংরক্ষিত।
+> **নিয়ম দ্রষ্টব্য:** ব্যবহারকারীর নির্দেশনা অনুযায়ী মূল ওয়েব পোর্টালটি সরাসরি রুট ডিরেক্টরিতে (`dss_data_entry_operator_super_suggestion.html`) রক্ষিত রয়েছে এবং এই ফোল্ডারে শুধুমাত্র JSON ডেটাসেট ও অফিশিয়াল সিলেবাস PDF ফাইল সংরক্ষিত। অফিশিয়াল PDF রেন্ডারিংয়ের ইন্টারমিডিয়েট HTML টেমপ্লেটটি `_dev_archive/exam_guide_html_templates/` ফোল্ডারে সুশৃঙ্খলভাবে সংরক্ষিত।
 
 ---
 

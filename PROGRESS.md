@@ -37,7 +37,7 @@
 ### খ. লিখিত পরীক্ষা অগ্রগতি (২০০ নম্বর)
 * **টেকনিক্যাল লিখিত (৮০ নম্বর):** **১৫০ টি প্রশ্ন** (টার্গেট ১০০ — ১৫০% সম্পন্ন) — সাবনেটিং ম্যাথ, ৮০৮৬ Min/Max Mode, K-Map, SRTF/Round Robin শিডিউলিং, B+ Tree, e-Gate ও বায়োমেট্রিক অ্যালগরিদম।
 * **নন-টেকনিক্যাল লিখিত (১২০ নম্বর):** **২২৫ টি প্রশ্ন** (বাংলা ৬০ + ইংরেজি ৬৫ + জিকে ১০০ — ১১২.৫% সম্পন্ন)।
-* **মডিউল ১ লিংক:** [সুপার সাজেশন ওয়েব পোর্টাল](file:///c:/Users/bdCalling/Downloads/Mosabber/My%20Super%20Suggestion/sub_assistant_maintenance_engineer_super_suggestion.html) | [সিলেবাস গাইড](file:///c:/Users/bdCalling/Downloads/Mosabber/My%20Super%20Suggestion/sub_assistant_maintenance_engineer_exam_guide.html)
+* **মডিউল ১ লিংক:** [সুপার সাজেশন ওয়েব পোর্টাল](file:///c:/Users/bdCalling/Downloads/Mosabber/My%20Super%20Suggestion/sub_assistant_maintenance_engineer_super_suggestion.html) | [সিলেবাস গাইড PDF](file:///c:/Users/bdCalling/Downloads/Mosabber/My%20Super%20Suggestion/Sub-Assistant%20Maintenance%20Engineer%20Super%20Suggestion/Sub_Assistant_Maintenance_Engineer_Exam_Syllabus_Guide.pdf)
 
 ---
 
@@ -56,7 +56,7 @@
 ### খ. লিখিত পরীক্ষা অগ্রগতি (২০০ নম্বর)
 * **টেকনিক্যাল লিখিত (৮০ নম্বর):** **১৪৭ টি প্রশ্ন** (টার্গেট ১০০ — ১৪৭% সম্পন্ন) — সাবনেটিং অংক, K-Map সরলীকরণ, ৮০৮৬ BIU-EU, লিংকড লিস্ট সি কোড, পেজ রিপ্লেসমেন্ট, এবং **কারিগরি ল্যাব ডিজাইন, ESD প্রটেকশন ও ৪-ধাপের ভোকেশনাল ডেমোনস্ট্রেশন মেথডোলজি**।
 * **নন-টেকনিক্যাল লিখিত (১২০ নম্বর):** **২২৫ টি প্রশ্ন** (বাংলা ৬০ + ইংরেজি ৬৫ + জিকে ১০০ — ১০০% সম্পন্ন)।
-* **মডিউল ২ লিংক:** [সুপার সাজেশন ওয়েব পোর্টাল](file:///c:/Users/bdCalling/Downloads/Mosabber/My%20Super%20Suggestion/junior_instructor_computer_super_suggestion.html) | [সিলেবাস গাইড](file:///c:/Users/bdCalling/Downloads/Mosabber/My%20Super%20Suggestion/junior_instructor_computer_exam_guide.html)
+* **মডিউল ২ লিংক:** [সুপার সাজেশন ওয়েব পোর্টাল](file:///c:/Users/bdCalling/Downloads/Mosabber/My%20Super%20Suggestion/junior_instructor_computer_super_suggestion.html) | [সিলেবাস গাইড PDF](file:///c:/Users/bdCalling/Downloads/Mosabber/My%20Super%20Suggestion/Junior%20Instructor%20Tech%20Computer%20Super%20Suggestion/Junior_Instructor_Computer_Exam_Syllabus_Guide.pdf)
 
 ---
 
@@ -64,7 +64,7 @@
 *দপ্তর: তিতাস গ্যাস ট্রান্সমিশন অ্যান্ড ডিস্ট্রিবিউশন পিএলসি (০৬) ও বাখরাবাদ গ্যাস ডিস্ট্রিবিউশন কোম্পানি লিমিটেড (০২)*  
 *মন্ত্রণালয়: বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয় | বিজ্ঞপ্তি ক্রমিক: ১৭.৪ | মোট পদ: ০৮টি*  
 *পরীক্ষা গ্রহণকারী প্রতিষ্ঠান:* **বুয়েট (BUET - BRTC)** | *পরীক্ষার ধরন:* **১০০ নম্বর হাইব্রিড (৬০ নন-ডিপার্টমেন্ট MCQ + ৪০ ডিপার্টমেন্ট লিখিত)**  
-*অফিশিয়াল রিসোর্স:* [petrobangla_sub_assistant_engineer_exam_guide.html](file:///c:/Users/bdCalling/Downloads/Mosabber/My%20Super%20Suggestion/petrobangla_sub_assistant_engineer_exam_guide.html) | [Petrobangla_Exam_Guide.pdf](file:///c:/Users/bdCalling/Downloads/Mosabber/My%20Super%20Suggestion/Petrobangla%20Sub-Assistant%20Engineer%20Computer%20IT/Petrobangla_Sub_Assistant_Engineer_Computer_IT_Exam_Guide.pdf)
+*অফিশিয়াল রিসোর্স:* [সুপার সাজেশন ওয়েব পোর্টাল](file:///c:/Users/bdCalling/Downloads/Mosabber/My%20Super%20Suggestion/petrobangla_sub_assistant_engineer_super_suggestion.html) | [সিলেবাস গাইড PDF](file:///c:/Users/bdCalling/Downloads/Mosabber/My%20Super%20Suggestion/Petrobangla%20Sub-Assistant%20Engineer%20Computer%20IT/Petrobangla_Sub_Assistant_Engineer_Computer_IT_Exam_Guide.pdf)
 
 ---
 
@@ -146,16 +146,10 @@ My Super Suggestion/                                <-- রুট ডিরে�
 ├── drivers/                                        <-- অফলাইন ফন্ট, আইকন ও KaTeX সমীকরণ এসেটস
 │
 ├── sub_assistant_maintenance_engineer_super_suggestion.html <-- মূল ওয়েব অ্যাপ্লিকেশন (পাসপোর্ট অধিদপ্তর)
-├── sub_assistant_maintenance_engineer_exam_guide.html        <-- অফিশিয়াল সিলেবাস ও গাইড
-│
 ├── junior_instructor_computer_super_suggestion.html          <-- মূল ওয়েব অ্যাপ্লিকেশন (টিএসসি জুনিয়র ইন্সট্রাক্টর)
-├── junior_instructor_computer_exam_guide.html                <-- অফিশিয়াল সিলেবাস ও গাইড
-│
 ├── petrobangla_sub_assistant_engineer_super_suggestion.html  <-- মূল সুপার সাজেশন ও ওএমআর মক টেস্ট (পেট্রোবাংলা)
-├── petrobangla_sub_assistant_engineer_exam_guide.html        <-- বুয়েট (BUET) আপডেটেড সিলেবাস ও গাইড
-│
 ├── dss_karigori_proshikhok_computer_super_suggestion.html    <-- মূল লিখিত সুপার সাজেশন (সমাজসেবা অধিদপ্তর)
-├── dss_karigori_proshikhok_computer_exam_guide.html          <-- অফিশিয়াল সিলেবাস ও গাইড (A4 Print Ready)
+├── dss_data_entry_operator_super_suggestion.html            <-- মূল ডাটা এন্ট্রি ও টাইপিং পোর্টাল (সমাজসেবা অধিদপ্তর)
 │
 ├── Sub-Assistant Maintenance Engineer Super Suggestion/      <-- (মডিউল ১: প্রশ্ন ডেটাসেট ও অফিশিয়াল গাইড PDF)
 │   ├── preliminary_mcq.json                        <-- ৬,৫৯০টি MCQ ডেটাসেট
@@ -188,7 +182,8 @@ My Super Suggestion/                                <-- রুট ডিরে�
 ├── advertisement-1780374169755.pdf                 <-- সমাজসেবা অধিদপ্তর মূল সার্কুলার ফাইল
 ├── petrobangla-1790774270-5822.pdf                 <-- পেট্রোবাংলা মূল সার্কুলার ফাইল
 ├── Sub_Registrar_Circular.pdf                      <-- সাব-রেজিস্টার সার্কুলার ফাইল
-└── _dev_archive/                                   <-- ডেভ টুলস ও বিল্ডার ব্যাকআপ স্ক্রিপ্ট
+└── _dev_archive/                                   <-- ডেভ টুলস, ব্যাকআপ স্ক্রিপ্ট ও PDF রেন্ডারিং HTML টেমপ্লেট
+    └── exam_guide_html_templates/                  <-- অফিশিয়াল সিলেবাস PDF তৈরির সোর্স HTML টেমপ্লেটসমূহ
 ```
 
 ---
@@ -199,13 +194,13 @@ My Super Suggestion/                                <-- রুট ডিরে�
 - [x] **পর্যায় ২:** সাব-অ্যাসিস্ট্যান্ট মেইনটেন্যান্স ইঞ্জিনিয়ার মডিউল (৬,৫৯০টি MCQ + ৩৭৫টি লিখিত প্রশ্ন + লাইভ মক টেস্ট) সম্পন্ন।
 - [x] **পর্যায় ৩:** জুনিয়র ইন্সট্রাক্টর [টেক/ কম্পিউটার] মডিউল (১২,৬০০টি MCQ + ৩৭২টি লিখিত প্রশ্ন + লাইভ মক টেস্ট) সম্পন্ন।
 - [x] **পর্যায় ৪:** সেন্ট্রাল একক প্রগ্রেস ফাইল (`PROGRESS.md`) রুট ডিরেক্টরিতে একত্রিত ও চূড়ান্তকরণ।
-- [x] **পর্যায় ৫:** পেট্রোবাংলা উপ-সহকারী প্রকৌশলী (কম্পিউটার/আইটি) পরীক্ষা পদ্ধতি ও সিলেবাস গাইড (HTML ও PDF) তৈরি সম্পন্ন।
+- [x] **পর্যায় ৫:** পেট্রোবাংলা উপ-সহকারী প্রকৌশলী (কম্পইউটার/আইটি) পরীক্ষা পদ্ধতি ও সিলেবাস গাইড (HTML ও PDF) তৈরি সম্পন্ন।
 - [x] **পর্যায় ৬:** পেট্রোবাংলা বুয়েট (BUET) আপডেটেড মানবণ্টন (৬০ নন-ডিপার্টমেন্ট MCQ + ৪০ ডিপার্টমেন্ট লিখিত) গাইড ও PDF রিভাইস সম্পন্ন।
 - [x] **পর্যায় ৭:** বুয়েট প্যাটার্ন উপযোগী স্মার্ট প্রশ্ন টার্গেট (**৭,৬৫০ টি মাস্টার প্রশ্ন**) প্রস্তুত ও সিঙ্ক সম্পন্ন।
 - [x] **পর্যায় ৮:** পেট্রোবাংলা ইন্টারঅ্যাক্টিভ সুপার সাজেশন ওয়েব পোর্টাল ও বুয়েট লাইভ মডেল টেস্ট ইঞ্জিন (৬০ মিনিট, -০.২৫ মার্কিং) সম্পন্ন।
 - [x] **পর্যায় ৯:** সমাজসেবা অধিদপ্তর (DSS) নতুন সার্কুলার (`advertisement-1780374169755.pdf`) থেকে ৪০ নং (ক) ও ১৬ নং পদের পৃথক দুটি ফোল্ডার তৈরি।
-- [x] **পর্যায় ১০ (ধাপ ১):** কারিগরি প্রশিক্ষক (উপজেলা) [ট্রেড: কম্পিউটার] (ক্রমিক ৪০ ক, ৩১টি পদ) এর জন্য পূর্ণাঙ্গ সুপার সাজেশন মডিউল, প্রিন্ট-রেডি পিওর অফিশিয়াল সিলেবাস গাইড (`dss_karigori_proshikhok_computer_exam_guide.html` ও `DSS_Karigori_Proshikhok_Computer_Exam_Guide.pdf` — শুধু সিলেবাস ও গাইড, কোনো প্রশ্ন ছাড়া), ৩২টি মেগা লিখিত মডিউল (১,৩২০+ প্রশ্ন ও সমাধান), ১৩৩টি প্রিলিমিনারি MCQ ও লাইভ মডেল টেস্ট ইঞ্জিন তৈরি সম্পন্ন।
-- [x] **পর্যায় ১১:** সকল HTML ফাইল রুট ডিরেক্টরিতে স্থানান্তর এবং ফোল্ডারগুলোতে শুধুমাত্র JSON প্রশ্ন ও সিলেবাস গাইড PDF সংরক্ষণ নিশ্চিতকরণ।
+- [x] **পর্যায় ১০ (ধাপ ১):** কারিগরি প্রশিক্ষক (উপজেলা) [ট্রেড: কম্পিউটার] (ক্রমিক ৪০ ক, ৩১টি পদ) এর জন্য পূর্ণাঙ্গ সুপার সাজেশন মডিউল, অফিশিয়াল সিলেবাস গাইড PDF (`DSS_Karigori_Proshikhok_Computer_Exam_Guide.pdf`), ৩২টি মেগা লিখিত মডিউল (১,৩২০+ প্রশ্ন ও সমাধান), ১৩৩টি প্রিলিমিনারি MCQ ও লাইভ মডেল টেস্ট ইঞ্জিন তৈরি সম্পন্ন।
+- [x] **পর্যায় ১১:** সকল সুপার সাজেশন ওয়েব অ্যাপ্লিকেশন HTML ফাইল রুট ডিরেক্টরিতে সংরক্ষণ, ফোল্ডারগুলোতে শুধুমাত্র JSON প্রশ্ন ও সিলেবাস গাইড PDF রাখা, এবং PDF রেন্ডারিং HTML টেমপ্লেটসমূহ `_dev_archive/exam_guide_html_templates/` ফোল্ডারে স্থানান্তর নিশ্চিতকরণ।
 - [x] **পর্যায় ১২ (ধাপ ২):** ডাটা এন্ট্রি অপারেটর (ক্রমিক ১৬, ৩৫টি পদ) এর জন্য স্ট্যান্ডার্ড প্রিলিমিনারি প্রশ্নব্যাংক (৭৪টি MCQ), লাইভ ইন্টারঅ্যাক্টিভ টাইপিং গতি (২০ wpm বাংলা ও ইংরেজি) টেস্ট ইঞ্জিন, স্ট্যান্ডার্ড অ্যাপটিটিউড টেস্ট নির্দেশিকা ও অফিশিয়াল সিলেবাস গাইড PDF প্রস্তুতকরণ সম্পন্ন।
 - [ ] **পর্যায় ১৩:** সাব-রেজিস্টার (Sub-Registrar) পদের সিলেবাস ম্যাপিং ও নতুন মডিউল প্রস্তুতকরণ (আসন্ন)।
 

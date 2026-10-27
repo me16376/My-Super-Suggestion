@@ -30,17 +30,12 @@ My Super Suggestion/                                    <-- রুট ডির�
 │   ├── katex.min.css                                   <-- গাণিতিক সমীকরণ রেন্ডারিং CSS
 │   └── katex.min.js                                    <-- গাণিতিক সমীকরণ রেন্ডারিং JS
 │
-├── [মূল সুপার সাজেশন ও এক্সাম গাইড HTML ফাইলসমূহ (রুট লেভেলে)]:
+├── [মূল সুপার সাজেশন ওয়েব পোর্টালসমূহ (রুট লেভেলে)]:
 │   ├── sub_assistant_maintenance_engineer_super_suggestion.html
-│   ├── sub_assistant_maintenance_engineer_exam_guide.html
 │   ├── junior_instructor_computer_super_suggestion.html
-│   ├── junior_instructor_computer_exam_guide.html
 │   ├── petrobangla_sub_assistant_engineer_super_suggestion.html
-│   ├── petrobangla_sub_assistant_engineer_exam_guide.html
 │   ├── dss_karigori_proshikhok_computer_super_suggestion.html
-│   ├── dss_karigori_proshikhok_computer_exam_guide.html
-│   ├── dss_data_entry_operator_super_suggestion.html
-│   └── dss_data_entry_operator_exam_guide.html
+│   └── dss_data_entry_operator_super_suggestion.html
 │
 ├── [অফিশিয়াল সার্কুলার PDF ফাইলসমূহ (রুট লেভেলে)]:
 │   ├── BPSC ad_202506.pdf                              <-- বিপিএসসি জুনিয়র ইন্সট্রাক্টর
@@ -80,7 +75,9 @@ My Super Suggestion/                                    <-- রুট ডির�
 │       ├── DSS_Data_Entry_Operator_Exam_Guide.pdf
 │       └── README.md
 │
-└── _dev_archive/                                       <-- ব্যাকআপ স্ক্রিপ্টসমূহ (Development Tools)
+└── _dev_archive/                                       <-- ব্যাকআপ স্ক্রিপ্ট ও অফিশিয়াল PDF রেন্ডারিং টেমপ্লেট
+    ├── exam_guide_html_templates/                      <-- অফিশিয়াল সিলেবাস PDF জেনারেট করার সোর্স HTML টেমপ্লেটসমূহ
+    └── scripts_*/                                      <-- ডেভ টুলস ও বিল্ডার স্ক্রিপ্ট
 ```
 
 ---
