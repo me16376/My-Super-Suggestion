@@ -1,0 +1,22 @@
+{
+  "name": "bpsc-gov-job-super-suggestions",
+  "version": "1.0.0",
+  "description": "BPSC & Bangladesh Government Job Recruitment Preparation Master Platform & Super Suggestion Portals",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "sync": "node scripts/sync_all.js",
+    "audit": "node scripts/audit_all.js"
+  },
+  "keywords": [
+    "bpsc",
+    "govt-jobs",
+    "super-suggestion",
+    "mcq",
+    "written-questions",
+    "bangladesh"
+  ],
+  "author": "BPSC Master Platform Team",
+  "license": "ISC"
+}

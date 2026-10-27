@@ -1,0 +1,113 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-10-27T06:31:22.895Z",
+  "totalModules": 5,
+  "grandTotalMCQ": 26897,
+  "grandTotalWritten": 936,
+  "grandTotalQuestions": 27833,
+  "jobs": [
+    {
+      "key": "maintenance",
+      "title": "সাব-অ্যাসিস্ট্যান্ট মেইনটেন্যান্স ইঞ্জিনিয়ার (১০ম গ্রেড)",
+      "department": "বহিরাগমন ও পাসপোর্ট অধিদপ্তর",
+      "folderName": "Sub-Assistant Maintenance Engineer Super Suggestion",
+      "htmlFile": "sub_assistant_maintenance_engineer_super_suggestion.html",
+      "syllabusPdf": "Sub-Assistant Maintenance Engineer Super Suggestion/Sub_Assistant_Maintenance_Engineer_Exam_Syllabus_Guide.pdf",
+      "circularPdf": "BPSC ad_202506.pdf",
+      "mcqCount": 6590,
+      "writtenCount": 375,
+      "totalQuestions": 6965,
+      "splitMcqFiles": 51,
+      "splitWrittenFiles": 282,
+      "subjects": {
+        "টেকনিক্যাল (কম্পিউটার)": 2855,
+        "বাংলা": 1195,
+        "ইংরেজি": 1345,
+        "সাধারণ জ্ঞান": 1195
+      }
+    },
+    {
+      "key": "junior_instructor",
+      "title": "জুনিয়র ইন্সট্রাক্টর [টেক/কম্পিউটার] (১০ম গ্রেড)",
+      "department": "কারিগরি শিক্ষা অধিদপ্তর (DTE)",
+      "folderName": "Junior Instructor Tech Computer Super Suggestion",
+      "htmlFile": "junior_instructor_computer_super_suggestion.html",
+      "syllabusPdf": "Junior Instructor Tech Computer Super Suggestion/Junior_Instructor_Computer_Exam_Syllabus_Guide.pdf",
+      "circularPdf": "BPSC ad_202506.pdf",
+      "mcqCount": 12600,
+      "writtenCount": 372,
+      "totalQuestions": 12972,
+      "splitMcqFiles": 196,
+      "splitWrittenFiles": 282,
+      "subjects": {
+        "টেকনিক্যাল (কম্পিউটার)": 5000,
+        "বাংলা": 2600,
+        "ইংরেজি": 2400,
+        "সাধারণ জ্ঞান": 2600
+      }
+    },
+    {
+      "key": "petrobangla",
+      "title": "উপ-সহকারী প্রকৌশলী (কম্পিউটার / আইটি - ১০ম গ্রেড)",
+      "department": "পেট্রোবাংলা (তিতাস গ্যাস ও বাখরাবাদ গ্যাস)",
+      "folderName": "Petrobangla Sub-Assistant Engineer Computer IT",
+      "htmlFile": "petrobangla_sub_assistant_engineer_super_suggestion.html",
+      "syllabusPdf": "Petrobangla Sub-Assistant Engineer Computer IT/Petrobangla_Sub_Assistant_Engineer_Computer_IT_Exam_Guide.pdf",
+      "circularPdf": "petrobangla-1790774270-5822.pdf",
+      "mcqCount": 7500,
+      "writtenCount": 150,
+      "totalQuestions": 7650,
+      "splitMcqFiles": 171,
+      "splitWrittenFiles": 21,
+      "subjects": {
+        "টেকনিক্যাল (কম্পিউটার)": 2500,
+        "সাধারণ গণিত ও মানসিক দক্ষতা": 1000,
+        "ইংরেজি": 1500,
+        "বাংলা": 1500,
+        "সাধারণ জ্ঞান ও জ্বালানি খাত": 1000
+      }
+    },
+    {
+      "key": "dss_karigori",
+      "title": "কারিগরি প্রশিক্ষক (কম্পিউটার - ১০ম গ্রেড)",
+      "department": "সমাজসেবা অধিদপ্তর (DSS)",
+      "folderName": "DSS Karigori Proshikhok Computer Super Suggestion",
+      "htmlFile": "dss_karigori_proshikhok_computer_super_suggestion.html",
+      "syllabusPdf": "DSS Karigori Proshikhok Computer Super Suggestion/DSS_Karigori_Proshikhok_Computer_Exam_Guide.pdf",
+      "circularPdf": "advertisement-1780374169755.pdf",
+      "mcqCount": 133,
+      "writtenCount": 32,
+      "totalQuestions": 165,
+      "splitMcqFiles": 72,
+      "splitWrittenFiles": 32,
+      "subjects": {
+        "কম্পিউটার ট্রেড (Trade ICT)": 50,
+        "বাংলা ভাষা ও সাহিত্য": 25,
+        "ইংরেজি ভাষা ও গ্রামার": 23,
+        "সাধারণ গণিত": 17,
+        "সাধারণ জ্ঞান ও সমাজসেবা": 18
+      }
+    },
+    {
+      "key": "dss_data_entry",
+      "title": "ডাটা এন্ট্রি অপারেটর (১৬তম গ্রেড)",
+      "department": "সমাজসেবা অধিদপ্তর (DSS)",
+      "folderName": "DSS Data Entry Operator Super Suggestion",
+      "htmlFile": "dss_data_entry_operator_super_suggestion.html",
+      "syllabusPdf": "DSS Data Entry Operator Super Suggestion/DSS_Data_Entry_Operator_Exam_Guide.pdf",
+      "circularPdf": "DSS Data Entry Operator Super Suggestion/DSS_ad_2026_Circular.pdf",
+      "mcqCount": 74,
+      "writtenCount": 7,
+      "totalQuestions": 81,
+      "splitMcqFiles": 18,
+      "splitWrittenFiles": 7,
+      "subjects": {
+        "কম্পিউটার ও ডাটা এন্ট্রি": 34,
+        "বাংলা": 15,
+        "ইংরেজি": 12,
+        "সাধারণ গণিত": 6,
+        "সমাজসেবা ও সাধারণ জ্ঞান": 7
+      }
+    }
+  ]
+}

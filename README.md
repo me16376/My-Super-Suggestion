@@ -113,19 +113,42 @@ My Super Suggestion/                                    <-- রুট ডির�
 
 ---
 
-## 💡 ৫. জরুরি স্ক্রিপ্ট কমান্ডসমূহ (Cheat Sheet)
+## 💡 ৫. Node.js কেন্দ্রীয় সার্ভার ও স্ক্রিপ্ট কমান্ডসমূহ (Node.js Server & Scripts)
 
-* **সকল প্রশ্ন ডেটাসেট সিঙ্ক ও অফলাইন বান্ডল জেনারেট:**
-  ```powershell
-  cd "Sub-Assistant Maintenance Engineer Super Suggestion"
-  node scripts/sync_data.js
-  ```
-* **প্রগ্রেস ফাইল আপডেট করা:**
-  ```powershell
-  cd "Sub-Assistant Maintenance Engineer Super Suggestion"
-  node scripts/update_progress.js
-  ```
+প্রজেক্টের রুট ডিরেক্টরিতে কেন্দ্রীয় Node.js প্যাকেজ ও জিরো-ডিপেন্ডেন্সি HTTP সার্ভার সংযুক্ত করা হয়েছে:
+
+```powershell
+# ১. কেন্দ্রীয় লোকাল সার্ভার চালু করা (Port 3000):
+npm start
+# অথবা:
+node server.js
+
+# ২. সকল ১,১৪২+ JSON ফাইলের ভ্যালিডেশন অডিট চালানো:
+npm run audit
+# অথবা:
+node scripts/audit_all.js
+
+# ৩. সকল ৫টি জবের ডেটাসেট সিঙ্ক ও অফলাইন data_bundle.js তৈরি:
+npm run sync
+# অথবা:
+node scripts/sync_all.js
+```
+
+---
+
+## 🌐 ৬. ইউনিফাইড মাস্টার হেডার ও ডুয়াল-মোড JSON কানেক্টিভিটি
+
+১. **কেন্দ্রীয় মাস্টার হেডার (`drivers/site-header.css` & `site-header.js`):**
+   - প্রতিটি HTML পৃষ্ঠায় (Master Hub সহ ৬টি পেইজ) সর্বজনীন প্রিমিয়াম গ্লাস-মর্ফিক হেডার যুক্ত।
+   - সকল ৫টি চাকরির পোর্টালে সরাসরি ড্রপডাউন সুইচার ও লাইভ স্ট্যাটাস ইন্ডিকেটর (`🟢 ডেটাসেট কানেক্টেড`)।
+   - সিলেবাস ও অফিশিয়াল সার্কুলার ড্রপডাউন এবং সরাসরি প্রগ্রেস ট্র্যাকার লিংক।
+   - ডার্ক/লাইট মোড সিঙ্ক (`localStorage`) এবং সম্পূর্ণ রেসপনসিভ মোবাইল মেনু।
+
+২. **ডুয়াল-মোড JSON কানেকশন আর্কিটেকচার:**
+   - **Offline Zero-CORS Mode (`file:///`):** ব্রাউজারে ডাবল ক্লিক করে কোনো সার্ভার ছাড়াই ওপেন করলে স্বয়ংক্রিয়ভাবে `data_bundle.js` থেকে সকল প্রশ্ন নির্ভুলভাবে লোড হয়। ব্রাউজারের কোনো CORS বা লোডিং এরর আসবে না।
+   - **Live HTTP Mode (`http://localhost:3000`):** `node server.js` চালু থাকলে স্বয়ংক্রিয়ভাবে রুট বা REST API (`/api/status`, `/api/jobs`, `/api/job/:key/mcq`, `/api/job/:key/written`) থেকে লাইভ JSON ডেটা সিঙ্ক হয়।
 
 ---
 
 *এই ফাইলটি দেখে যেকোনো সময় যে কোনো এআই বা ডেভেলপার পুরো রিপোজিটরির গঠন ও কাজের প্রণালী এক নজরে বুঝে নিতে পারবে।*
+
