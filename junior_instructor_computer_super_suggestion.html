@@ -636,51 +636,63 @@
     }
 
     .written-answer-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
       font-weight: 700;
       color: var(--primary);
-      margin-bottom: 8px;
-      font-size: 14px;
+      margin-bottom: 10px;
+      font-size: 14.5px;
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+      padding-bottom: 6px;
     }
 
     .written-answer-text {
       white-space: pre-wrap;
-      line-height: 1.7;
+      line-height: 1.75;
       font-family: inherit;
       color: inherit;
+      font-size: 14px;
     }
 
-    .key-points-box {
-      background: #fffbeb;
-      border: 1px dashed #fcd34d;
+    .written-explanation-box, .key-points-box {
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-left: 4px solid #16a34a;
       border-radius: var(--radius-sm);
       padding: 12px 16px;
-      margin-top: 14px;
+      margin-top: 16px;
       font-size: 13.5px;
-      color: #92400e;
+      color: #14532d;
       white-space: normal !important;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.03);
     }
 
-    .key-points-title {
+    .written-explanation-title, .key-points-title {
+      display: flex;
+      align-items: center;
+      gap: 7px;
       font-weight: 700;
-      margin-bottom: 6px;
+      margin-bottom: 8px;
       white-space: normal !important;
-      color: #b45309;
+      color: #15803d;
+      font-size: 13.5px;
     }
 
-    .key-points-box ul {
+    .written-explanation-list, .key-points-box ul {
       margin: 0 !important;
       padding-left: 20px !important;
       white-space: normal !important;
       list-style-type: disc;
     }
 
-    .key-points-box li {
-      margin-bottom: 4px !important;
-      line-height: 1.55 !important;
+    .written-explanation-list li, .key-points-box li {
+      margin-bottom: 5px !important;
+      line-height: 1.6 !important;
       white-space: normal !important;
     }
 
-    .key-points-box li:last-child {
+    .written-explanation-list li:last-child, .key-points-box li:last-child {
       margin-bottom: 0 !important;
     }
 
@@ -985,10 +997,22 @@
       color: #f1f5f9;
     }
 
+    body.dark-mode .written-answer-header {
+      border-bottom-color: rgba(255,255,255,0.08);
+      color: #38bdf8;
+    }
+
+    body.dark-mode .written-explanation-box,
     body.dark-mode .key-points-box {
-      background: #2a2012;
-      border-color: #78350f;
-      color: #fde68a;
+      background: rgba(20, 83, 45, 0.25);
+      border-color: rgba(74, 222, 128, 0.3);
+      border-left: 4px solid #22c55e;
+      color: #dcfce7;
+    }
+
+    body.dark-mode .written-explanation-title,
+    body.dark-mode .key-points-title {
+      color: #4ade80;
     }
 
     body.dark-mode .search-input,
@@ -1912,9 +1936,31 @@
     function renderWrittenCards(questions, container) {
       container.innerHTML = questions.map((q, idx) => {
         const bookmarked = isBookmarked(q.id);
-        const keyPointsHtml = q.points_to_remember && q.points_to_remember.length > 0
-          ? `<div class="key-points-box"><div class="key-points-title">💡 মূল পয়েন্টসমূহ (Key Points to Remember):</div><ul>${q.points_to_remember.map(pt => `<li>${escapeHtml(pt.trim())}</li>`).join('')}</ul></div>`
-          : '';
+        const explanationItems = [];
+        if (Array.isArray(q.points_to_remember) && q.points_to_remember.length > 0) {
+          explanationItems.push(...q.points_to_remember);
+        }
+        if (q.explanation && typeof q.explanation === 'string' && q.explanation.trim()) {
+          explanationItems.push(q.explanation.trim());
+        }
+        if (q.tips && typeof q.tips === 'string' && q.tips.trim()) {
+          explanationItems.push(q.tips.trim());
+        }
+        if (explanationItems.length === 0) {
+          explanationItems.push('উক্ত প্রশ্নের প্রতিটি টেকনিক্যাল ধাপ, সূত্র এবং পরিভাষা লিখিত পরীক্ষার খাতায় নির্ভুলভাবে উপস্থাপন করা আবশ্যক।');
+        }
+
+        const explanationHtml = `
+          <div class="written-explanation-box">
+            <div class="written-explanation-title">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+              <span>বিস্তারিত ব্যাখ্যা ও পরীক্ষকের গুরুত্বপূর্ণ নোট (Detailed Explanation):</span>
+            </div>
+            <ul class="written-explanation-list">
+              ${explanationItems.map(pt => `<li>${escapeHtml(pt.trim())}</li>`).join('')}
+            </ul>
+          </div>
+        `;
 
         return `
           <div class="question-card written-card" id="written-q-${q.id}">
@@ -1942,9 +1988,12 @@
             </button>
 
             <div class="written-answer-box" id="answer-box-${q.id}">
-              <div class="written-answer-header">মডেল উত্তর ও ব্যাখ্যা:</div>
+              <div class="written-answer-header">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                <span>মডেল লিখিত উত্তর (Model Written Answer):</span>
+              </div>
               <div class="written-answer-text">${escapeHtml(q.answer)}</div>
-              ${keyPointsHtml}
+              ${explanationHtml}
             </div>
           </div>
         `;
