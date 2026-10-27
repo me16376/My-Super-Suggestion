@@ -1,0 +1,21 @@
+[
+  {
+    "id": 40030,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "টাইপিং ও বাংলা সফটওয়্যার",
+    "question": "বিজয় কীবোর্ডে বাংলা লেখার জন্য ইংরেজি ও বাংলার মোড সুইচের শর্টকাট কী কোনটি?",
+    "options": [
+      "A) Ctrl + Shift",
+      "B) Ctrl + Alt + B",
+      "C) Alt + Shift",
+      "D) Ctrl + Space"
+    ],
+    "answer": 1,
+    "explanation": "বিজয় ৫০ বা বিজয় বায়ান্নোতে SutonnyMJ ফন্টে বাংলা লেখার জন্য Ctrl + Alt + B চাপতে হয়।",
+    "tags": [
+      "computer_trade",
+      "typing",
+      "bijoy"
+    ]
+  }
+]

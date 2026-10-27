@@ -1,0 +1,39 @@
+[
+  {
+    "id": 40024,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "সাইবার নিরাপত্তা",
+    "question": "নিচের কোনটি একটি ক্ষতিকারক ম্যালওয়্যার বা কম্পিউটার ভাইরাস নয়?",
+    "options": [
+      "A) Trojan Horse",
+      "B) Ransomware",
+      "C) Norton",
+      "D) Worm"
+    ],
+    "answer": 2,
+    "explanation": "Norton হলো একটি জনপ্রিয় বাণিজ্যিক অ্যান্টিভাইরাস সফটওয়্যার, যা ভাইরাস ধ্বংস ও প্রতিরোধ করে।",
+    "tags": [
+      "computer_trade",
+      "cybersecurity"
+    ]
+  },
+  {
+    "id": 40044,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "সাইবার নিরাপত্তা",
+    "question": "প্রতারণামূলক নকল ইমেইল বা ওয়েবসাইটের মাধ্যমে ব্যবহারকারীর পাসওয়ার্ড বা আর্থিক তথ্য চুরি করার প্রক্রিয়াকে কী বলে?",
+    "options": [
+      "A) Hacking",
+      "B) Phishing",
+      "C) Spoofing",
+      "D) Cracking"
+    ],
+    "answer": 1,
+    "explanation": "ফিশিং (Phishing) হলো আসল প্রতিষ্ঠানের মতো দেখতে ভুয়া ফাঁদ তৈরি করে ব্যবহারকারীর গোপন তথ্য হাতিয়ে নেওয়ার সোশ্যাল ইঞ্জিনিয়ারিং কৌশল।",
+    "tags": [
+      "computer_trade",
+      "cybersecurity",
+      "phishing"
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "id": 40020,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "মাইক্রোসফট পাওয়ারপয়েন্ট",
+    "question": "MS PowerPoint-এ স্লাইড শো শুরু করার কীবোর্ড শর্টকাট কী কোনটি?",
+    "options": [
+      "A) F2",
+      "B) F5",
+      "C) F7",
+      "D) Ctrl + S"
+    ],
+    "answer": 1,
+    "explanation": "F5 চাপলে প্রথম স্লাইড থেকে প্রেজেন্টেশন ফুল স্ক্রিনে রান হয়। বর্তমান স্লাইড থেকে চালু করতে Shift + F5 চাপতে হয়।",
+    "tags": [
+      "computer_trade",
+      "ms_powerpoint"
+    ]
+  },
+  {
+    "id": 40040,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "মাইক্রোসফট পাওয়ারপয়েন্ট",
+    "question": "MS PowerPoint-এ একটি নতুন খালি স্লাইড (New Slide) যুক্ত করার শর্টকাট কী কোনটি?",
+    "options": [
+      "A) Ctrl + N",
+      "B) Ctrl + M",
+      "C) Ctrl + S",
+      "D) Alt + S"
+    ],
+    "answer": 1,
+    "explanation": "Ctrl + M হলো পাওয়ারপয়েন্টে নতুন স্লাইড যোগ করার শর্টকাট। Ctrl + N হলো সম্পূর্ণ নতুন প্রেজেন্টেশন ফাইল খোলার শর্টকাট।",
+    "tags": [
+      "computer_trade",
+      "ms_powerpoint",
+      "shortcuts"
+    ]
+  }
+]

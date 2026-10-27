@@ -1,0 +1,40 @@
+[
+  {
+    "id": 20009,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Spelling",
+    "question": "Identify the correctly spelled word:",
+    "options": [
+      "A) Accomodation",
+      "B) Accommodation",
+      "C) Acomodation",
+      "D) Accomadation"
+    ],
+    "answer": 1,
+    "explanation": "সঠিক বানান হলো 'Accommodation' (ডাবল c এবং ডাবল m: A-c-c-o-m-m-o-d-a-t-i-o-n)।",
+    "tags": [
+      "english",
+      "vocabulary",
+      "spelling"
+    ]
+  },
+  {
+    "id": 20023,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Spelling",
+    "question": "Choose the correctly spelled word:",
+    "options": [
+      "A) Bureaucracy",
+      "B) Beuracracy",
+      "C) Bureacracy",
+      "D) Bureaucrasy"
+    ],
+    "answer": 0,
+    "explanation": "সঠিক বানান হলো 'Bureaucracy' (আমলাতন্ত্র): B-u-r-e-a-u-c-r-a-c-y।",
+    "tags": [
+      "english",
+      "vocabulary",
+      "spelling"
+    ]
+  }
+]

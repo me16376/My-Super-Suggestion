@@ -1,0 +1,112 @@
+[
+  {
+    "id": 40013,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "মাইক্রোসফট ওয়ার্ড (MS Word)",
+    "question": "MS Word-এ কোনো ডকুমেন্টের সমস্ত টেক্সট একবারে সিলেক্ট করার শর্টকাট কী?",
+    "options": [
+      "A) Ctrl + S",
+      "B) Ctrl + A",
+      "C) Ctrl + C",
+      "D) Ctrl + F"
+    ],
+    "answer": 1,
+    "explanation": "Ctrl + A হলো 'Select All' এর শর্টকাট কি।",
+    "tags": [
+      "computer_trade",
+      "ms_word"
+    ]
+  },
+  {
+    "id": 40014,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "মাইক্রোসফট ওয়ার্ড (MS Word)",
+    "question": "MS Word-এ লেখার ফন্ট সাইজ ১ পয়েন্ট করে বড় করার শর্টকাট কী কোনটি?",
+    "options": [
+      "A) Ctrl + ]",
+      "B) Ctrl + [",
+      "C) Ctrl + Shift + B",
+      "D) Alt + >"
+    ],
+    "answer": 0,
+    "explanation": "Ctrl + ] চাপলে ফন্ট সাইজ ১ পয়েন্ট বড় হয় এবং Ctrl + [ চাপলে ১ পয়েন্ট ছোট হয়।",
+    "tags": [
+      "computer_trade",
+      "ms_word"
+    ]
+  },
+  {
+    "id": 40015,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "মাইক্রোসফট ওয়ার্ড (MS Word)",
+    "question": "MS Word-এ প্যারাগ্রাফকে উভয় পাশে সমানভাবে সাজাতে (Justify Alignment) কোন শর্টকাট ব্যবহৃত হয়?",
+    "options": [
+      "A) Ctrl + L",
+      "B) Ctrl + R",
+      "C) Ctrl + E",
+      "D) Ctrl + J"
+    ],
+    "answer": 3,
+    "explanation": "Ctrl + J = Justify, Ctrl + E = Center, Ctrl + L = Left align, Ctrl + R = Right align.",
+    "tags": [
+      "computer_trade",
+      "ms_word"
+    ]
+  },
+  {
+    "id": 40016,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "মাইক্রোসফট ওয়ার্ড (MS Word)",
+    "question": "MS Word এ নতুন পেজ ইনসার্ট বা পেজ ব্রেক (Page Break) দেওয়ার শর্টকাট কী?",
+    "options": [
+      "A) Shift + Enter",
+      "B) Ctrl + Enter",
+      "C) Alt + Enter",
+      "D) Tab + Enter"
+    ],
+    "answer": 1,
+    "explanation": "Ctrl + Enter চাপলে কার্সারের বর্তমান অবস্থান থেকে নতুন পেজে জাম্প করে (Page Break)।",
+    "tags": [
+      "computer_trade",
+      "ms_word"
+    ]
+  },
+  {
+    "id": 40036,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "মাইক্রোসফট ওয়ার্ড (MS Word)",
+    "question": "MS Word-এ কোনো শব্দ খুঁজে বের করে অন্য শব্দ দিয়ে প্রতিস্থাপন (Find & Replace) করার শর্টকাট কী কোনটি?",
+    "options": [
+      "A) Ctrl + F",
+      "B) Ctrl + H",
+      "C) Ctrl + R",
+      "D) Ctrl + G"
+    ],
+    "answer": 1,
+    "explanation": "Ctrl + H চাপলে 'Find and Replace' উইন্ডো আসে। শুধু খোঁজার (Find) শর্টকাট হলো Ctrl + F।",
+    "tags": [
+      "computer_trade",
+      "ms_word",
+      "shortcuts"
+    ]
+  },
+  {
+    "id": 40037,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "মাইক্রোসফট ওয়ার্ড (MS Word)",
+    "question": "ডকুমেন্টে টেক্সটের নিচে আন্ডারলাইন (Underline) দেওয়ার কীবোর্ড শর্টকাট কোনটি?",
+    "options": [
+      "A) Ctrl + U",
+      "B) Ctrl + I",
+      "C) Ctrl + B",
+      "D) Ctrl + D"
+    ],
+    "answer": 0,
+    "explanation": "Ctrl + U = Underline, Ctrl + B = Bold, Ctrl + I = Italic.",
+    "tags": [
+      "computer_trade",
+      "ms_word",
+      "shortcuts"
+    ]
+  }
+]

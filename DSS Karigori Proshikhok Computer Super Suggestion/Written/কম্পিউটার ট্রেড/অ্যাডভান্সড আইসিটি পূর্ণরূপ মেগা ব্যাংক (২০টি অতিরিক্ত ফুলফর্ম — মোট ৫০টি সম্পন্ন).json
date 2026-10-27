@@ -1,0 +1,10 @@
+[
+  {
+    "id": 9405,
+    "subject": "কম্পিউটার ট্রেড",
+    "topic": "অ্যাডভান্সড আইসিটি পূর্ণরূপ মেগা ব্যাংক (২০টি অতিরিক্ত ফুলফর্ম — মোট ৫০টি সম্পন্ন)",
+    "question": "নিচের ২০টি গুরুত্বপূর্ণ তথ্যপ্রযুক্তি সংক্ষেপের পূর্ণরূপ খাতায় লিখুন:\n(১) FTP (২) DHCP (৩) VPN (৪) MAC (Address) (৫) IMEI (৬) SIM (৭) GSM (৮) GPS (৯) PDF (১০) VIRUS (১১) IPV4 (১২) IPV6 (১৩) SQL (১৪) SSD (১৫) SATA (১৬) VGA (১৭) DVI (১৮) SMPS (১৯) CRT (২০) GUI",
+    "answer": "১. FTP = File Transfer Protocol\n২. DHCP = Dynamic Host Configuration Protocol\n৩. VPN = Virtual Private Network\n৪. MAC = Media Access Control (Hardware Physical Address)\n৫. IMEI = International Mobile Equipment Identity\n৬. SIM = Subscriber Identity Module\n৭. GSM = Global System for Mobile Communications\n৮. GPS = Global Positioning System\n৯. PDF = Portable Document Format\n১০. VIRUS = Vital Information Resources Under Siege\n১১. IPv4 = Internet Protocol version 4 (32-bit)\n১২. IPv6 = Internet Protocol version 6 (128-bit)\n১৩. SQL = Structured Query Language\n১৪. SSD = Solid State Drive\n১৫. SATA = Serial Advanced Technology Attachment\n১৬. VGA = Video Graphics Array\n১৭. DVI = Digital Visual Interface\n১৮. SMPS = Switched-Mode Power Supply\n১৯. CRT = Cathode Ray Tube\n২০. GUI = Graphical User Interface",
+    "tips": "VIRUS = Vital Information Resources Under Siege এবং MAC = Media Access Control প্রায় প্রতি বছরই কোনো না কোনো মন্ত্রণালয়ে আসে।"
+  }
+]

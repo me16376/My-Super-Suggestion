@@ -1,0 +1,40 @@
+[
+  {
+    "id": 20006,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Voice Change",
+    "question": "Change into Passive: 'Who wrote this poem?'",
+    "options": [
+      "A) By whom was this poem written?",
+      "B) Who was this poem written by?",
+      "C) By whom this poem was written?",
+      "D) Whom had this poem written by?"
+    ],
+    "answer": 0,
+    "explanation": "Who থাকলে Passive এ By whom বসে + be verb (was) + object (this poem) + V3 (written)?",
+    "tags": [
+      "english",
+      "grammar",
+      "voice"
+    ]
+  },
+  {
+    "id": 20019,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Voice Change",
+    "question": "Change into Passive: 'Do not make a noise.'",
+    "options": [
+      "A) Let not a noise be made.",
+      "B) You are told not to make noise.",
+      "C) Let a noise not made.",
+      "D) A noise should not make."
+    ],
+    "answer": 0,
+    "explanation": "ইম্পারেটিভ নেগেটিভ বাক্যের প্যাসিভ রূপ: Let not + object + be + V3।",
+    "tags": [
+      "english",
+      "grammar",
+      "voice"
+    ]
+  }
+]

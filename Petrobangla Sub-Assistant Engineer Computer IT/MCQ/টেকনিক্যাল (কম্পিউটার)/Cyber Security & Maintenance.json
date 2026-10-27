@@ -1,0 +1,74 @@
+[
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ক্রিপ্টোগ্রাফিক অ্যালগরিদম RSA কোন ধরনের এনক্রিপশন সিস্টেম?",
+    "options": [
+      "A) Symmetric Block Cipher",
+      "B) Asymmetric / Public-Key Cryptography",
+      "C) Hash Function",
+      "D) Stream Cipher"
+    ],
+    "answer": 1,
+    "explanation": "RSA দুটি মৌলিক সংখ্যার গুণফলের গাণিতিক জটিলতার ওপর ভিত্তি করে পাবলিক কি ও প্রাইভেট কি দিয়ে কাজ করে।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2630
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "সাইবার নিরাপত্তায় 'Zero Trust' আর্কিটেকচারের মূল মূলনীতি কোনটি?",
+    "options": [
+      "A) কোনো পাসওয়ার্ড না রাখা",
+      "B) 'Never Trust, Always Verify' (নেটওয়ার্কের ভেতরে বা বাইরে কাউকেই ডিফল্টভাবে বিশ্বাস না করা)",
+      "C) সকলকে এডমিন পারমিশন দেওয়া",
+      "D) ফায়ারওয়্যাল বন্ধ রাখা"
+    ],
+    "answer": 1,
+    "explanation": "জিরো ট্রাস্ট মডেলে প্রতিষ্ঠানের অভ্যন্তরীণ প্রতিটি ব্যবহারকারী ও ডিভাইসের প্রতিটি রিকোয়েস্টে কঠোর অথেন্টিকেশন বাধ্যতামূলক।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2631
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডাটাবেজে ইনপুট ফিল্ডের মাধ্যমে ক্ষতিকর এসকিউএল কোড ইনজেক্ট করে অনুমতিহীন ডেটা হাতিয়ে নেওয়ার আক্রমণকে কী বলে?",
+    "options": [
+      "A) Cross-Site Scripting (XSS)",
+      "B) SQL Injection (SQLi)",
+      "C) Brute Force",
+      "D) Buffer Overflow"
+    ],
+    "answer": 1,
+    "explanation": "ইনপুট ভ্যালিডেশন ও প্যারামিটারাইজড কুয়েরি না থাকলে আক্রমণকারী ' OR '1'='1 জাতীয় কোড দিয়ে ডাটাবেজ বাইপাস করে।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2632
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Cyber Security & Maintenance",
+    "question": "ডিজিটাল সিগনেচার (Digital Signature) ডেটার কোন ৩টি মৌলিক নিরাপত্তা বৈশিষ্ট্য নিশ্চিত করে?",
+    "options": [
+      "A) Speed, Compression, Storage",
+      "B) Authentication, Integrity এবং Non-repudiation",
+      "C) Encryption, Decryption, Deletion",
+      "D) Power, Network, Cloud"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল স্বাক্ষর প্রমাণ করে প্রেরক আসল (Authentication), বার্তা বিকৃত হয়নি (Integrity), এবং প্রেরক বার্তা পাঠানোর কথা অস্বীকার করতে পারবে না (Non-repudiation)।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2633
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 40003,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "মেমরি ও স্টোরেজ",
+    "question": "নিচের কোনটি কম্পিউটারের প্রধান অস্থায়ী বা উদ্বায়ী (Volatile) মেমরি?",
+    "options": [
+      "A) ROM",
+      "B) Hard Disk",
+      "C) RAM",
+      "D) SSD"
+    ],
+    "answer": 2,
+    "explanation": "RAM (Random Access Memory) একটি ভোলাটাইল বা অস্থায়ী মেমরি। বিদ্যুৎ চলে গেলে এর সকল তথ্য মুছে যায়।",
+    "tags": [
+      "computer_trade",
+      "memory"
+    ]
+  },
+  {
+    "id": 40004,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "মেমরি ও স্টোরেজ",
+    "question": "কম্পিউটার স্টার্ট বা বুট (Booting) হওয়ার জন্য প্রয়োজনীয় BIOS কোন মেমরিতে স্থায়ীভাবে সংরক্ষিত থাকে?",
+    "options": [
+      "A) RAM",
+      "B) ROM",
+      "C) Cache Memory",
+      "D) Virtual Memory"
+    ],
+    "answer": 1,
+    "explanation": "ROM (Read Only Memory)-এ কম্পিউটার তৈরির সময় ফার্মওয়্যার বা BIOS (Basic Input Output System) স্থায়ীভাবে লিখে দেওয়া হয়।",
+    "tags": [
+      "computer_trade",
+      "memory",
+      "bios"
+    ]
+  },
+  {
+    "id": 40031,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "মেমরি ও স্টোরেজ",
+    "question": "কম্পিউটারের প্রসেসর এবং প্রধান মেমরি (RAM)-এর মধ্যে গতির ভারসাম্য রক্ষা করে কোন মেমরি?",
+    "options": [
+      "A) Virtual Memory",
+      "B) Cache Memory",
+      "C) Flash Memory",
+      "D) Secondary Memory"
+    ],
+    "answer": 1,
+    "explanation": "ক্যাশ মেমরি (Cache Memory) অত্যন্ত দ্রুতগতির একটি বাফার মেমরি, যা CPU এবং RAM-এর মধ্যকার গতির ব্যবধান দূর করে ঘন ঘন ব্যবহৃত ডেটা ধারণ করে।",
+    "tags": [
+      "computer_trade",
+      "memory",
+      "cache"
+    ]
+  }
+]

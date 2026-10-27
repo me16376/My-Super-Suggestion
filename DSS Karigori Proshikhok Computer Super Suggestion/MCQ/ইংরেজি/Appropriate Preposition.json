@@ -1,0 +1,78 @@
+[
+  {
+    "id": 20001,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Appropriate Preposition",
+    "question": "He is senior ______ me in service.",
+    "options": [
+      "A) than",
+      "B) from",
+      "C) to",
+      "D) of"
+    ],
+    "answer": 2,
+    "explanation": "Senior, junior, superior, inferior, prior ইত্যাদি ল্যাটিন তুলনামূলক শব্দের পর 'than' না বসে 'to' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "preposition"
+    ]
+  },
+  {
+    "id": 20002,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Appropriate Preposition",
+    "question": "The poor man died ______ cancer.",
+    "options": [
+      "A) from",
+      "B) of",
+      "C) by",
+      "D) with"
+    ],
+    "answer": 1,
+    "explanation": "কোনো রোগে মারা গেলে Preposition 'of' বসে (Die of disease)। অতিভোজন বা ক্ষত থেকে মারা গেলে 'from' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "preposition"
+    ]
+  },
+  {
+    "id": 20016,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Appropriate Preposition",
+    "question": "The teacher congratulated the student ______ his brilliant result.",
+    "options": [
+      "A) for",
+      "B) on",
+      "C) with",
+      "D) to"
+    ],
+    "answer": 1,
+    "explanation": "Congratulate somebody 'on' something (অভিনন্দন জানানো)। তাই 'on' বসবে।",
+    "tags": [
+      "english",
+      "grammar",
+      "preposition"
+    ]
+  },
+  {
+    "id": 20017,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Appropriate Preposition",
+    "question": "We should refrain ______ making malicious remarks.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) from",
+      "D) of"
+    ],
+    "answer": 2,
+    "explanation": "Refrain, abstain, prevent ইত্যাদির পর Preposition 'from' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "preposition"
+    ]
+  }
+]

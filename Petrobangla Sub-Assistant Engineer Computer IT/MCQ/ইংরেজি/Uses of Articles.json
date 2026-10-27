@@ -1,0 +1,1982 @@
+[
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He is — honest man whom everyone respects.",
+    "options": [
+      "A) no article",
+      "B) a",
+      "C) an",
+      "D) the"
+    ],
+    "answer": 2,
+    "explanation": "'Honest' শব্দের শুরুতে অনুচ্চারিত 'h' (silent h) থাকায় এবং স্বরধ্বনি (vowel sound 'o') দিয়ে উচ্চারিত হওয়ায় এর পূর্বে 'an' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5570
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He will return within — hour.",
+    "options": [
+      "A) the",
+      "B) a",
+      "C) no article",
+      "D) an"
+    ],
+    "answer": 3,
+    "explanation": "'Hour'-এর উচ্চারণ 'আওয়ার' (ভাওয়েল সাউন্ড) দিয়ে শুরু হওয়ায় এর পূর্বে 'an' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5571
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He is — heir to a vast ancestral estate.",
+    "options": [
+      "A) a",
+      "B) an",
+      "C) no article",
+      "D) the"
+    ],
+    "answer": 1,
+    "explanation": "'Heir' (উত্তরাধিকারী)-এর 'h' অনুচ্চারিত থাকে এবং উচ্চারণ 'এয়ার' হওয়ায় এর পূর্বে 'an' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5572
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "It was — honorable decision taken by the committee.",
+    "options": [
+      "A) an",
+      "B) the",
+      "C) no article",
+      "D) a"
+    ],
+    "answer": 0,
+    "explanation": "'Honorable'-এর প্রারম্ভিক উচ্চারণ ভাওয়েল সাউন্ড হওয়ায় এর পূর্বে 'an' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5573
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He is studying at — European university.",
+    "options": [
+      "A) an",
+      "B) the",
+      "C) a",
+      "D) no article"
+    ],
+    "answer": 2,
+    "explanation": "'European' শব্দের শুরুতে Vowel 'E' থাকলেও এর উচ্চারণ ব্যঞ্জনধ্বনি সদৃশ 'ইউ' (consonant sound /juː/) হওয়ায় এর পূর্বে 'a' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5574
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He is — university student.",
+    "options": [
+      "A) a",
+      "B) no article",
+      "C) an",
+      "D) the"
+    ],
+    "answer": 0,
+    "explanation": "'University'-এর উচ্চারণ 'ইউ' (/juː/) দিয়ে শুরু হওয়ায় এর পূর্বে Indefinite Article 'a' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5575
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "This is — unique opportunity to prove your skill.",
+    "options": [
+      "A) an",
+      "B) a",
+      "C) the",
+      "D) no article"
+    ],
+    "answer": 1,
+    "explanation": "'Unique'-এর প্রথম ধ্বনি 'ইউ' (/juː/) ব্যঞ্জনধ্বনির মতো উচ্চারিত হওয়ায় 'a unique opportunity' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5576
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "Iron is — useful metal.",
+    "options": [
+      "A) no article",
+      "B) an",
+      "C) the",
+      "D) a"
+    ],
+    "answer": 3,
+    "explanation": "'Useful'-এর উচ্চারণ 'ইউ' দিয়ে শুরু হওয়ায় এর পূর্বে 'a' বসে ('an useful' ভুল)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5577
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He gave me — one-taka note.",
+    "options": [
+      "A) a",
+      "B) an",
+      "C) the",
+      "D) no article"
+    ],
+    "answer": 0,
+    "explanation": "'One' বা 'One-eyed'-এর 'O' ভাওয়েল হলেও এর উচ্চারণ 'ওয়া' (/w/) ব্যঞ্জনধ্বনির মতো হওয়ায় এর পূর্বে 'a' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5578
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "I saw — one-eyed man begging on the street.",
+    "options": [
+      "A) no article",
+      "B) the",
+      "C) an",
+      "D) a"
+    ],
+    "answer": 3,
+    "explanation": "'One-eyed'-এর পূর্বে সর্বদা 'a' বসে (a one-eyed man)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5579
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "His father is — MP (Member of Parliament).",
+    "options": [
+      "A) no article",
+      "B) an",
+      "C) the",
+      "D) a"
+    ],
+    "answer": 1,
+    "explanation": "সংক্ষিপ্ত শব্দের প্রথম অক্ষর 'M' উচ্চারণে প্রথমে ভাওয়েল সাউন্ড 'এ' (/em/) আসায় এর পূর্বে 'an' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5580
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He is — MBBS doctor.",
+    "options": [
+      "A) no article",
+      "B) a",
+      "C) an",
+      "D) the"
+    ],
+    "answer": 2,
+    "explanation": "'MBBS'-এর 'M' উচ্চারণে স্বরধ্বনি (/em/) থাকায় এর পূর্বে 'an' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5581
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He completed his degree as — LLB graduate.",
+    "options": [
+      "A) an",
+      "B) the",
+      "C) a",
+      "D) no article"
+    ],
+    "answer": 0,
+    "explanation": "'L' উচ্চারণে প্রারম্ভিক স্বরধ্বনি 'এল' (/el/) আসায় এর পূর্বে 'an' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5582
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "She passed — MA in English from Dhaka University.",
+    "options": [
+      "A) no article",
+      "B) a",
+      "C) an",
+      "D) the"
+    ],
+    "answer": 2,
+    "explanation": "'MA'-এর 'M' ভাওয়েল সাউন্ড দিয়ে শুরু হওয়ায় 'an MA' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5583
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He is — SP (Superintendent of Police).",
+    "options": [
+      "A) the",
+      "B) no article",
+      "C) a",
+      "D) an"
+    ],
+    "answer": 3,
+    "explanation": "'S' উচ্চারণে প্রথমে 'এস' (/es/) স্বরধ্বনি আসায় এর পূর্বে 'an' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5584
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He sent — SOS message for immediate rescue.",
+    "options": [
+      "A) a",
+      "B) an",
+      "C) the",
+      "D) no article"
+    ],
+    "answer": 1,
+    "explanation": "'SOS'-এর 'S' ভাওয়েল সাউন্ড দিয়ে উচ্চারিত হওয়ায় 'an SOS' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5585
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He works in — NGO.",
+    "options": [
+      "A) no article",
+      "B) a",
+      "C) an",
+      "D) the"
+    ],
+    "answer": 2,
+    "explanation": "'N' উচ্চারণে 'এন' (/en/) স্বরধ্বনি আসায় এর পূর্বে 'an' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5586
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "His brother is — BA from a reputed college.",
+    "options": [
+      "A) no article",
+      "B) a",
+      "C) the",
+      "D) an"
+    ],
+    "answer": 1,
+    "explanation": "'B' উচ্চারণে প্রারম্ভিক ধ্বনি ব্যঞ্জনবর্ণ (/biː/) হওয়ায় এর পূর্বে 'a' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5587
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He is — BSc engineer.",
+    "options": [
+      "A) the",
+      "B) an",
+      "C) no article",
+      "D) a"
+    ],
+    "answer": 3,
+    "explanation": "'BSc'-এর 'B' কনসোনেন্ট সাউন্ড হওয়ায় 'a BSc' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5588
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "She is — honest and sincere teacher.",
+    "options": [
+      "A) an",
+      "B) the",
+      "C) no article",
+      "D) a"
+    ],
+    "answer": 0,
+    "explanation": "'Honest' ভাওয়েল সাউন্ড বিশিষ্ট Adjective হওয়ায় এর পূর্বে 'an' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5589
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He bought — umbrella on his way home.",
+    "options": [
+      "A) no article",
+      "B) an",
+      "C) the",
+      "D) a"
+    ],
+    "answer": 1,
+    "explanation": "'Umbrella'-র প্রারম্ভিক উচ্চারণ 'আ' (vowel sound /ʌ/) হওয়ায় এর পূর্বে 'an' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5590
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He holds — MA degree in History.",
+    "options": [
+      "A) an",
+      "B) no article",
+      "C) a",
+      "D) the"
+    ],
+    "answer": 0,
+    "explanation": "'MA'-এর পূর্বে 'an' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5591
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "She is — European tourist visiting the Sundarbans.",
+    "options": [
+      "A) an",
+      "B) no article",
+      "C) the",
+      "D) a"
+    ],
+    "answer": 3,
+    "explanation": "'European'-এর উচ্চারণ 'ইউ' হওয়ায় 'a European' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5592
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "There is — union of primary school teachers.",
+    "options": [
+      "A) an",
+      "B) no article",
+      "C) a",
+      "D) the"
+    ],
+    "answer": 2,
+    "explanation": "'Union'-এর উচ্চারণ 'ইউ' হওয়ায় এর পূর্বে 'a' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5593
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He bought — ewe from the village market.",
+    "options": [
+      "A) a",
+      "B) an",
+      "C) no article",
+      "D) the"
+    ],
+    "answer": 0,
+    "explanation": "'Ewe' (ভেড়ী)-এর উচ্চারণ 'ইউ' (/juː/) হওয়ায় এর পূর্বে 'a' বসে ('an ewe' ভুল)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5594
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "This is — utensil used in traditional cooking.",
+    "options": [
+      "A) no article",
+      "B) the",
+      "C) a",
+      "D) an"
+    ],
+    "answer": 2,
+    "explanation": "'Utensil'-এর উচ্চারণ 'ইউ' দিয়ে শুরু হওয়ায় এর পূর্বে 'a' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5595
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He is — uneducated person but very wise.",
+    "options": [
+      "A) a",
+      "B) an",
+      "C) no article",
+      "D) the"
+    ],
+    "answer": 1,
+    "explanation": "'Uneducated'-এর উচ্চারণ 'আ' (vowel sound) দিয়ে শুরু হওয়ায় এর পূর্বে 'an' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5596
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He gave me — urgent message from the director.",
+    "options": [
+      "A) a",
+      "B) the",
+      "C) no article",
+      "D) an"
+    ],
+    "answer": 3,
+    "explanation": "'Urgent'-এর প্রারম্ভিক উচ্চারণ ভাওয়েল সাউন্ড হওয়ায় 'an urgent message' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5597
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He lives in — one-story building.",
+    "options": [
+      "A) the",
+      "B) an",
+      "C) a",
+      "D) no article"
+    ],
+    "answer": 2,
+    "explanation": "'One-story'-র 'one' এর উচ্চারণ 'ওয়া' হওয়ায় এর পূর্বে 'a' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5598
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "What — beautiful scenery it is!",
+    "options": [
+      "A) no article",
+      "B) a",
+      "C) an",
+      "D) the"
+    ],
+    "answer": 0,
+    "explanation": "'Scenery' Uncountable Noun; তাই এর পূর্বে কোনো 'a' বা 'an' বসে না (কিন্তু 'What a beautiful flower it is' হতে পারে)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5599
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "What — pity that he failed!",
+    "options": [
+      "A) no article",
+      "B) the",
+      "C) an",
+      "D) a"
+    ],
+    "answer": 3,
+    "explanation": "'What a pity' একটি নির্ধারিত Exclamatory ইডিয়মেটিক প্রকাশ।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5600
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "What — shame that he deceived his friends!",
+    "options": [
+      "A) no article",
+      "B) a",
+      "C) the",
+      "D) an"
+    ],
+    "answer": 1,
+    "explanation": "'What a shame' প্রমিত বিস্ময়সূচক ফ্রেজ।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5601
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He has — thousand dollars in his account.",
+    "options": [
+      "A) a",
+      "B) the",
+      "C) no article",
+      "D) an"
+    ],
+    "answer": 0,
+    "explanation": "সংখ্যাবাচক একক হিসেবে 'a thousand', 'a hundred', 'a dozen', 'a million' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5602
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "Give me — dozen bananas.",
+    "options": [
+      "A) the",
+      "B) an",
+      "C) no article",
+      "D) a"
+    ],
+    "answer": 3,
+    "explanation": "এক ডজন বোঝাতে 'a dozen' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5603
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He thinks he is — Shakespeare.",
+    "options": [
+      "A) an",
+      "B) the",
+      "C) a",
+      "D) no article"
+    ],
+    "answer": 2,
+    "explanation": "Proper Noun যখন বিশিষ্ট গুণ প্রকাশক Common Noun হিসেবে ব্যবহৃত হয় ('Shakespeare-এর মতো প্রতিভাবান'), তখন তার পূর্বে 'a' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5604
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "A Daniel come to — judgment!",
+    "options": [
+      "A) an",
+      "B) no article",
+      "C) the",
+      "D) a"
+    ],
+    "answer": 1,
+    "explanation": "শেক্সপিয়রের বিখ্যাত উক্তিতে 'A Daniel come to judgment' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5605
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He bought — kilo of apples.",
+    "options": [
+      "A) no article",
+      "B) an",
+      "C) the",
+      "D) a"
+    ],
+    "answer": 3,
+    "explanation": "পরিমাপের একক বোঝাতে 'a kilo', 'a meter' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5606
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He runs sixty miles — hour.",
+    "options": [
+      "A) the",
+      "B) an",
+      "C) a",
+      "D) no article"
+    ],
+    "answer": 1,
+    "explanation": "প্রতি ঘণ্টায় (per hour অর্থে) 'an hour' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5607
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "Rice sells fifty taka — kilo.",
+    "options": [
+      "A) an",
+      "B) the",
+      "C) a",
+      "D) no article"
+    ],
+    "answer": 2,
+    "explanation": "প্রতি কেজিতে (per kilo অর্থে) 'a kilo' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5608
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He takes this medicine twice — day.",
+    "options": [
+      "A) a",
+      "B) the",
+      "C) an",
+      "D) no article"
+    ],
+    "answer": 0,
+    "explanation": "দৈনিক দুইবার (প্রতিদিন অর্থে) 'twice a day' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5609
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He is — Newton of our age.",
+    "options": [
+      "A) the",
+      "B) a",
+      "C) an",
+      "D) no article"
+    ],
+    "answer": 0,
+    "explanation": "নির্দিষ্ট করে কারও সাথে তুলনা বোঝাতে 'the + proper noun + of' (the Newton of our age) বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5610
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He went on — hunting trip in the woods.",
+    "options": [
+      "A) no article",
+      "B) the",
+      "C) a",
+      "D) an"
+    ],
+    "answer": 2,
+    "explanation": "'a hunting trip' অনির্দিষ্ট শিকার অভিযান।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5611
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He is in — hurry to catch the bus.",
+    "options": [
+      "A) the",
+      "B) a",
+      "C) an",
+      "D) no article"
+    ],
+    "answer": 1,
+    "explanation": "তাড়াহুড়োর ক্ষেত্রে প্রমিত ফ্রেজ হলো 'in a hurry'।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5612
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He told — lie to his parents.",
+    "options": [
+      "A) an",
+      "B) no article",
+      "C) the",
+      "D) a"
+    ],
+    "answer": 3,
+    "explanation": "মিথ্যা বলার ক্ষেত্রে Collocation হলো 'tell a lie'।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5613
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He made — noise in the classroom.",
+    "options": [
+      "A) the",
+      "B) a",
+      "C) an",
+      "D) no article"
+    ],
+    "answer": 1,
+    "explanation": "শোরগোল করা বোঝাতে প্রমিত ফ্রেজ হলো 'make a noise'।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5614
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He is in — bad temper today.",
+    "options": [
+      "A) a",
+      "B) the",
+      "C) an",
+      "D) no article"
+    ],
+    "answer": 0,
+    "explanation": "মেজাজ খারাপ থাকা প্রকাশে 'in a bad temper' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5615
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He has — headache and cannot attend class.",
+    "options": [
+      "A) no article",
+      "B) the",
+      "C) an",
+      "D) a"
+    ],
+    "answer": 3,
+    "explanation": "মাথাব্যথা বা শারীরিক সাধারণ ব্যথায় 'have a headache' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5616
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "I caught — cold during the rainy season.",
+    "options": [
+      "A) the",
+      "B) an",
+      "C) a",
+      "D) no article"
+    ],
+    "answer": 2,
+    "explanation": "ঠান্ডা লাগা বোঝাতে 'catch a cold' বা 'have a cold' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5617
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He took — fancy to the orphan boy.",
+    "options": [
+      "A) an",
+      "B) a",
+      "C) no article",
+      "D) the"
+    ],
+    "answer": 1,
+    "explanation": "কারও প্রতি অনুরাগ জন্মানো অর্থে 'take a fancy to' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5618
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He showed — great deal of courage.",
+    "options": [
+      "A) the",
+      "B) no article",
+      "C) a",
+      "D) an"
+    ],
+    "answer": 2,
+    "explanation": "বিপুল পরিমাণ প্রকাশে 'a great deal of' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5619
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— earth revolves around the sun.",
+    "options": [
+      "A) The",
+      "B) A",
+      "C) An",
+      "D) No article"
+    ],
+    "answer": 0,
+    "explanation": "মহাবিশ্বে একক ও অনন্য ভৌগোলিক বস্তুর (the earth, the sun, the moon, the sky) পূর্বে 'The' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5620
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— sun sets in the west.",
+    "options": [
+      "A) An",
+      "B) A",
+      "C) No article",
+      "D) The"
+    ],
+    "answer": 3,
+    "explanation": "সূর্যের পূর্বে Definite Article 'The' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5621
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "The Padma is — largest river in Bangladesh.",
+    "options": [
+      "A) an",
+      "B) the",
+      "C) a",
+      "D) no article"
+    ],
+    "answer": 1,
+    "explanation": "Superlative Degree (largest)-এর পূর্বে সর্বদা 'the' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5622
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— Himalayas lie to the north of India.",
+    "options": [
+      "A) An",
+      "B) No article",
+      "C) The",
+      "D) A"
+    ],
+    "answer": 2,
+    "explanation": "পর্বতমালা বা পর্বতশ্রেণির (the Himalayas, the Alps) নামের পূর্বে 'The' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5623
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "Mount Everest is — highest peak in the world.",
+    "options": [
+      "A) the",
+      "B) no article",
+      "C) a",
+      "D) an"
+    ],
+    "answer": 0,
+    "explanation": "একক পর্বতের চূড়া (Mount Everest)-এর পূর্বে কোনো Article বসে না; কিন্তু সুপারলেটিভ 'highest'-এর পূর্বে 'the' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5624
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— Pacific is the largest ocean in the world.",
+    "options": [
+      "A) A",
+      "B) An",
+      "C) No article",
+      "D) The"
+    ],
+    "answer": 3,
+    "explanation": "মহাসাগরের নামের পূর্বে (the Pacific, the Atlantic, the Indian Ocean) সর্বদা 'The' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5625
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— Quran is the holy book of Muslims.",
+    "options": [
+      "A) A",
+      "B) The",
+      "C) No article",
+      "D) An"
+    ],
+    "answer": 1,
+    "explanation": "পবিত্র ধর্মগ্রন্থের নামের পূর্বে (the Quran, the Bible, the Geeta) 'The' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5626
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He reads — Daily Star every morning.",
+    "options": [
+      "A) a",
+      "B) no article",
+      "C) an",
+      "D) the"
+    ],
+    "answer": 3,
+    "explanation": "সংবাদপত্রের নামের পূর্বে (the Daily Star, the Prothom Alo) 'The' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5627
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— Titanic sank in the Atlantic Ocean in 1912.",
+    "options": [
+      "A) The",
+      "B) A",
+      "C) An",
+      "D) No article"
+    ],
+    "answer": 0,
+    "explanation": "বিখ্যাত জাহাজ, ট্রেন বা বিমানের নামের পূর্বে 'The' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5628
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— USA is a leading economic power.",
+    "options": [
+      "A) An",
+      "B) A",
+      "C) The",
+      "D) No article"
+    ],
+    "answer": 2,
+    "explanation": "যুক্তরাষ্ট্রীয় বা বহুবচনবিশিষ্ট দেশের নামের পূর্বে (the USA, the UK, the Netherlands) 'The' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5629
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He lives in — United Kingdom.",
+    "options": [
+      "A) the",
+      "B) a",
+      "C) an",
+      "D) no article"
+    ],
+    "answer": 0,
+    "explanation": "যুক্তরাজ্য নির্দেশ করতে 'the United Kingdom' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5630
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He visited — Netherlands last summer.",
+    "options": [
+      "A) no article",
+      "B) the",
+      "C) an",
+      "D) a"
+    ],
+    "answer": 1,
+    "explanation": "'Netherlands' বহুবচনাত্মক ভৌগোলিক দেশ হওয়ায় এর পূর্বে 'the' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5631
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— rich are not always happy.",
+    "options": [
+      "A) No article",
+      "B) A",
+      "C) An",
+      "D) The"
+    ],
+    "answer": 3,
+    "explanation": "Adjective-এর পূর্বে 'The' বসলে তা সমগ্র শ্রেণিকে প্রকাশ করে Plural Common Noun হয় (The rich = ধনীরা)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5632
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— poor suffer most during natural calamities.",
+    "options": [
+      "A) An",
+      "B) No article",
+      "C) The",
+      "D) A"
+    ],
+    "answer": 2,
+    "explanation": "সমগ্র দরিদ্র জনগোষ্ঠীকে নির্দেশ করতে 'The poor' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5633
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— virtuous are blessed.",
+    "options": [
+      "A) A",
+      "B) An",
+      "C) No article",
+      "D) The"
+    ],
+    "answer": 3,
+    "explanation": "ধার্মিকদের সমগ্র শ্রেণিকে নির্দেশ করতে 'The virtuous' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5634
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— cow is a useful domestic animal.",
+    "options": [
+      "A) The",
+      "B) No article",
+      "C) An",
+      "D) A"
+    ],
+    "answer": 0,
+    "explanation": "একবচন Common Noun সমগ্র প্রজাতিকে প্রকাশ করলে তার পূর্বে 'The' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5635
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— dog is a faithful animal.",
+    "options": [
+      "A) An",
+      "B) The",
+      "C) A",
+      "D) No article"
+    ],
+    "answer": 1,
+    "explanation": "সমগ্র কুকুর জাতিকে প্রকাশ করতে 'The dog' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5636
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "The more you read, — more you learn.",
+    "options": [
+      "A) no article",
+      "B) an",
+      "C) the",
+      "D) a"
+    ],
+    "answer": 2,
+    "explanation": "আনুপাতিক সমান্তরাল বৃদ্ধি প্রকাশে উভয় পাশেই 'The + comparative' (The more... the more) বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5637
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "The higher you go, — colder it becomes.",
+    "options": [
+      "A) an",
+      "B) the",
+      "C) a",
+      "D) no article"
+    ],
+    "answer": 1,
+    "explanation": "'The higher... the colder' সমান্তরাল নিয়মানুযায়ী 'the' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5638
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He is — better of the two boys.",
+    "options": [
+      "A) the",
+      "B) an",
+      "C) no article",
+      "D) a"
+    ],
+    "answer": 0,
+    "explanation": "দুইয়ের মধ্যে নির্দিষ্ট একজনকে তুলনা করে বাছাই করার ক্ষেত্রে Comparative Degree-র পূর্বে 'the' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5639
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "She is — more talented of the two sisters.",
+    "options": [
+      "A) no article",
+      "B) a",
+      "C) the",
+      "D) an"
+    ],
+    "answer": 2,
+    "explanation": "দুইয়ের মধ্যে উৎকৃষ্ট বোঝাতে 'the more talented' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5640
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He was the first man to arrive, and she was — second.",
+    "options": [
+      "A) no article",
+      "B) a",
+      "C) an",
+      "D) the"
+    ],
+    "answer": 3,
+    "explanation": "ক্রমবাচক সংখ্যা (Ordinal numbers: first, second, third, last)-এর পূর্বে 'the' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5641
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He plays — violin very melodiously.",
+    "options": [
+      "A) an",
+      "B) no article",
+      "C) a",
+      "D) the"
+    ],
+    "answer": 3,
+    "explanation": "বাদ্যযন্ত্র বাজানো অর্থে বাদ্যযন্ত্রের নামের পূর্বে 'the' বসে (play the violin / the guitar)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5642
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He bought — guitar from the music store.",
+    "options": [
+      "A) no article",
+      "B) an",
+      "C) a",
+      "D) the"
+    ],
+    "answer": 2,
+    "explanation": "বাদ্যযন্ত্র সাধারণ দ্রব্য হিসেবে ক্রয় বা অধিকারের ক্ষেত্রে অনির্দিষ্ট Article 'a' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5643
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He was struck on — head by a falling branch.",
+    "options": [
+      "A) a",
+      "B) the",
+      "C) no article",
+      "D) an"
+    ],
+    "answer": 1,
+    "explanation": "দেহের নির্দিষ্ট অঙ্গের পূর্বে Possessive-এর বিকল্প হিসেবে 'the' বসে (on the head / by the hand)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5644
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "The police caught the thief by — collar.",
+    "options": [
+      "A) the",
+      "B) an",
+      "C) a",
+      "D) no article"
+    ],
+    "answer": 0,
+    "explanation": "নির্দিষ্ট অঙ্গে বা পোশাকে ধরা বোঝাতে 'by the collar' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5645
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— English are proud of their naval history.",
+    "options": [
+      "A) An",
+      "B) A",
+      "C) No article",
+      "D) The"
+    ],
+    "answer": 3,
+    "explanation": "ভাষার নামের পূর্বে 'The' বসলে তা সমগ্র জাতিকে নির্দেশ করে (The English = ইংরেজ জাতি)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5646
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He speaks — English fluently.",
+    "options": [
+      "A) no article",
+      "B) an",
+      "C) a",
+      "D) the"
+    ],
+    "answer": 0,
+    "explanation": "ভাষার নামের পূর্বে কোনো Article বসে না (English, Bengali, French)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5647
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— English language is spoken globally.",
+    "options": [
+      "A) An",
+      "B) The",
+      "C) A",
+      "D) No article"
+    ],
+    "answer": 1,
+    "explanation": "ভাষার নামের পর 'language' শব্দটি থাকলে তার পূর্বে 'The' বসে (The English language)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5648
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— Bengalis are known for their hospitality.",
+    "options": [
+      "A) A",
+      "B) An",
+      "C) The",
+      "D) No article"
+    ],
+    "answer": 2,
+    "explanation": "সমগ্র বাঙালি জাতিকে নির্দেশ করতে 'The Bengalis' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5649
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— water of this pond is crystal clear.",
+    "options": [
+      "A) A",
+      "B) No article",
+      "C) An",
+      "D) The"
+    ],
+    "answer": 3,
+    "explanation": "নির্দিষ্ট কোনো স্থানের পানি বা উপাদান নির্দেশ করায় Material Noun-এর পূর্বে 'The' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5650
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— gold of South Africa is world famous.",
+    "options": [
+      "A) An",
+      "B) A",
+      "C) The",
+      "D) No article"
+    ],
+    "answer": 2,
+    "explanation": "নির্দিষ্ট দেশের স্বর্ণ নির্দেশ করায় 'The gold of...' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5651
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— honesty of the boy impressed the headmaster.",
+    "options": [
+      "A) The",
+      "B) An",
+      "C) A",
+      "D) No article"
+    ],
+    "answer": 0,
+    "explanation": "নির্দিষ্ট কোনো ব্যক্তির সততা বোঝাতে Abstract Noun-এর পূর্বে 'The' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5652
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "Honesty is — best policy.",
+    "options": [
+      "A) no article",
+      "B) the",
+      "C) an",
+      "D) a"
+    ],
+    "answer": 1,
+    "explanation": "Superlative Degree 'best'-এর পূর্বে 'the' বসে (কিন্তু সাধারণ গুণবাচক 'Honesty'-র পূর্বে কোনো Article নেই)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5653
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— kindness of Mohsin is well known.",
+    "options": [
+      "A) No article",
+      "B) A",
+      "C) The",
+      "D) An"
+    ],
+    "answer": 2,
+    "explanation": "নির্দিষ্ট ব্যক্তির মহত্ত্ব নির্দেশ করায় 'The kindness of...' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5654
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "Alexander — Great conquered many nations.",
+    "options": [
+      "A) the",
+      "B) an",
+      "C) no article",
+      "D) a"
+    ],
+    "answer": 0,
+    "explanation": "ঐতিহাসিক ব্যক্তির উপাধির পূর্বে 'the' বসে (Alexander the Great, Akbar the Great)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5655
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He joined — army to serve his nation.",
+    "options": [
+      "A) an",
+      "B) no article",
+      "C) a",
+      "D) the"
+    ],
+    "answer": 3,
+    "explanation": "সামরিক বা জাতীয় পেশা/বাহিনীর নামের পূর্বে 'the' বসে (the army, the navy, the air force, the bar)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5656
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He was called to — bar as an advocate.",
+    "options": [
+      "A) a",
+      "B) the",
+      "C) no article",
+      "D) an"
+    ],
+    "answer": 1,
+    "explanation": "আইনজীবী পরিষদ নির্দেশ করতে 'the bar' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5657
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "The meeting will be held on — tenth of March.",
+    "options": [
+      "A) no article",
+      "B) an",
+      "C) a",
+      "D) the"
+    ],
+    "answer": 3,
+    "explanation": "মাসের নির্দিষ্ট তারিখের পূর্বে 'the' বসে (the tenth of March)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5658
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— Bay of Bengal lies to the south of Bangladesh.",
+    "options": [
+      "A) The",
+      "B) No article",
+      "C) A",
+      "D) An"
+    ],
+    "answer": 0,
+    "explanation": "উপসাগরের নামের পূর্বে 'The' বসে (The Bay of Bengal, The Persian Gulf)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5659
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— Suez Canal connects the Mediterranean with the Red Sea.",
+    "options": [
+      "A) A",
+      "B) An",
+      "C) The",
+      "D) No article"
+    ],
+    "answer": 2,
+    "explanation": "খালের নামের পূর্বে 'The' বসে (The Suez Canal, The Panama Canal)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5660
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— Andamans are a group of islands in the Indian Ocean.",
+    "options": [
+      "A) An",
+      "B) The",
+      "C) No article",
+      "D) A"
+    ],
+    "answer": 1,
+    "explanation": "দ্বীপপুঞ্জের নামের পূর্বে 'The' বসে (The Andamans, The West Indies)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5661
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "Sri Lanka is — island in the Indian Ocean.",
+    "options": [
+      "A) no article",
+      "B) an",
+      "C) the",
+      "D) a"
+    ],
+    "answer": 1,
+    "explanation": "একটি মাত্র একক দ্বীপের নামের পূর্বে 'The' বসে না (Sri Lanka is an island)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5662
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— Sahara is the largest hot desert in the world.",
+    "options": [
+      "A) A",
+      "B) No article",
+      "C) The",
+      "D) An"
+    ],
+    "answer": 2,
+    "explanation": "মরুভূমির নামের পূর্বে 'The' বসে (The Sahara, The Gobi, The Thar)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5663
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He traveled across — Gobi Desert.",
+    "options": [
+      "A) the",
+      "B) no article",
+      "C) an",
+      "D) a"
+    ],
+    "answer": 0,
+    "explanation": "মরুভূমির পূর্বে 'the' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5664
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— north is one of the four cardinal directions.",
+    "options": [
+      "A) No article",
+      "B) A",
+      "C) An",
+      "D) The"
+    ],
+    "answer": 3,
+    "explanation": "প্রধান চার দিকের নামের পূর্বে 'The' বসে (the north, the south, the east, the west)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5665
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "The sun rises in — east.",
+    "options": [
+      "A) the",
+      "B) a",
+      "C) an",
+      "D) no article"
+    ],
+    "answer": 0,
+    "explanation": "দিক নির্দেশ করতে Preposition-এর পর 'in the east' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5666
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He went to — south of France for his holidays.",
+    "options": [
+      "A) no article",
+      "B) the",
+      "C) a",
+      "D) an"
+    ],
+    "answer": 1,
+    "explanation": "নির্দিষ্ট অঞ্চলের ভৌগোলিক অংশ প্রকাশে 'the south of...' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5667
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— French defeated the coalition forces at Austerlitz.",
+    "options": [
+      "A) No article",
+      "B) A",
+      "C) An",
+      "D) The"
+    ],
+    "answer": 3,
+    "explanation": "ফরাসি জাতিকে নির্দেশ করতে 'The French' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5668
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He is studying — French literature.",
+    "options": [
+      "A) an",
+      "B) the",
+      "C) no article",
+      "D) a"
+    ],
+    "answer": 2,
+    "explanation": "ভাষার বা নির্দিষ্ট বিষয়ের নামের পূর্বে Article বসে না।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5669
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "This is — very book I was looking for.",
+    "options": [
+      "A) a",
+      "B) an",
+      "C) the",
+      "D) no article"
+    ],
+    "answer": 2,
+    "explanation": "'This is the very book' (ঠিক এই বইটিই) — জোর দেওয়ার জন্য 'the very' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5670
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He is — principal speaker of today's symposium.",
+    "options": [
+      "A) the",
+      "B) no article",
+      "C) a",
+      "D) an"
+    ],
+    "answer": 0,
+    "explanation": "প্রধান বক্তাকে নির্দিষ্ট করায় 'the principal speaker' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5671
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He lives on — fourth floor of the building.",
+    "options": [
+      "A) an",
+      "B) the",
+      "C) a",
+      "D) no article"
+    ],
+    "answer": 1,
+    "explanation": "অর্ডিনাল সংখ্যা 'fourth'-এর পূর্বে 'the' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5672
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "February is — second month of the year.",
+    "options": [
+      "A) a",
+      "B) an",
+      "C) no article",
+      "D) the"
+    ],
+    "answer": 3,
+    "explanation": "'the second month' ক্রমবাচক সংখ্যা।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5673
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "Nelson Mandela was — first black president of South Africa.",
+    "options": [
+      "A) no article",
+      "B) the",
+      "C) a",
+      "D) an"
+    ],
+    "answer": 1,
+    "explanation": "'the first black president' অর্ডিনাল নম্বরে 'the' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5674
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— Taj Mahal is an architectural marvel in India.",
+    "options": [
+      "A) No article",
+      "B) A",
+      "C) An",
+      "D) The"
+    ],
+    "answer": 3,
+    "explanation": "ঐতিহাসিক অনন্য স্মৃতিসৌধের নামের পূর্বে 'The' বসে (The Taj Mahal, The Pyramids)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5675
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He visited — Eiffel Tower in Paris.",
+    "options": [
+      "A) an",
+      "B) no article",
+      "C) the",
+      "D) a"
+    ],
+    "answer": 2,
+    "explanation": "বিখ্যাত স্মৃতিস্তম্ভের পূর্বে 'the' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5676
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— Statue of Liberty was a gift from France.",
+    "options": [
+      "A) The",
+      "B) An",
+      "C) No article",
+      "D) A"
+    ],
+    "answer": 0,
+    "explanation": "স্মৃতিস্তম্ভের পূর্বে 'The' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5677
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "He stayed at — Sheraton Hotel during the conference.",
+    "options": [
+      "A) a",
+      "B) the",
+      "C) no article",
+      "D) an"
+    ],
+    "answer": 1,
+    "explanation": "বিখ্যাত হোটেলের নামের পূর্বে 'the' বসে (The Sheraton, The Hilton)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5678
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "Uses of Articles",
+    "question": "— National Museum is situated at Shahbagh.",
+    "options": [
+      "A) The",
+      "B) A",
+      "C) No article",
+      "D) An"
+    ],
+    "answer": 0,
+    "explanation": "জাতীয় জাদুঘর বা পাবলিক প্রতিষ্ঠানের পূর্বে 'The' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5679
+  }
+]

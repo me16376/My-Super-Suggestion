@@ -1,0 +1,40 @@
+[
+  {
+    "id": 40001,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "কম্পিউটার ফান্ডামেন্টালস ও হার্ডওয়্যার",
+    "question": "কম্পিউটারের মস্তিষ্ক (Brain of Computer) বলা হয় কোন অংশকে?",
+    "options": [
+      "A) RAM",
+      "B) CPU",
+      "C) Hard Disk",
+      "D) Motherboard"
+    ],
+    "answer": 1,
+    "explanation": "CPU (Central Processing Unit) কম্পিউটারের সকল গাণিতিক ও যৌক্তিক সিদ্ধান্ত গ্রহণ করে, তাই একে কম্পিউটারের মস্তিষ্ক বলা হয়।",
+    "tags": [
+      "computer_trade",
+      "hardware",
+      "cpu"
+    ]
+  },
+  {
+    "id": 40002,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "কম্পিউটার ফান্ডামেন্টালস ও হার্ডওয়্যার",
+    "question": "CPU এর প্রধান তিনটি অংশ কী কী?",
+    "options": [
+      "A) ALU, CU এবং Register Unit",
+      "B) RAM, ROM এবং Hard Disk",
+      "C) Monitor, Keyboard এবং Mouse",
+      "D) Motherboard, SMPS এবং Fan"
+    ],
+    "answer": 0,
+    "explanation": "CPU মূলত তিনটি মূল অংশের সমন্বয়ে গঠিত: ALU (Arithmetic Logic Unit), CU (Control Unit) এবং মেমোরি রেজিস্টার।",
+    "tags": [
+      "computer_trade",
+      "hardware",
+      "cpu"
+    ]
+  }
+]

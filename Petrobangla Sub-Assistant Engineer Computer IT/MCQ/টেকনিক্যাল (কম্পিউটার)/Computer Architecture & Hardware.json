@@ -1,0 +1,2972 @@
+[
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "৮০৮৬ মাইক্রোপ্রসেসরে স্ট্যাক পয়েন্টার (Stack Pointer - SP) কার সাথে যুক্ত হয়ে ফিজিক্যাল অ্যাড্রেস তৈরি করে?",
+    "options": [
+      "A) Code Segment (CS)",
+      "B) Stack Segment (SS)",
+      "C) Data Segment (DS)",
+      "D) Extra Segment (ES)"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক অপারেশন (PUSH/POP)-এ ২০-বিট ফিজিক্যাল অ্যাড্রেস = (SS × 10H) + SP।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2439
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ইন্টেল ৮০৮৬ মাইক্রোপ্রসেসরে মোট কতটি হার্ডওয়্যার ইন্টারাপ্ট পিন রয়েছে?",
+    "options": [
+      "A) ৪টি",
+      "B) ২টি (INTR এবং NMI)",
+      "C) ৮টি",
+      "D) ১৬টি"
+    ],
+    "answer": 1,
+    "explanation": "৮০৮৬-তে দুটি বাহ্যিক হার্ডওয়্যার ইন্টারাপ্ট পিন রয়েছে: NMI (Non-Maskable Interrupt - পিন ১৭) এবং INTR (Interrupt Request - পিন ১৮)।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2440
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "৮০৮৬-তে 'NMI' (Non-Maskable Interrupt)-এর ইন্টারাপ্ট ভেক্টর টাইপ কত?",
+    "options": [
+      "A) Type 0",
+      "B) Type 2",
+      "C) Type 1",
+      "D) Type 3"
+    ],
+    "answer": 1,
+    "explanation": "ইন্টারাপ্ট টাইপ: Type 0 = Divide by Zero, Type 1 = Single Step, Type 2 = NMI, Type 3 = Breakpoint (INT 3)।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2441
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "কম্পিউটার মেমোরিতে 'Endianness'-এর ক্ষেত্রে Little-Endian আর্কিটেকচারে ডেটা কীভাবে সংরক্ষিত হয়?",
+    "options": [
+      "A) সর্বোচ্চ বাইট আগে জমা হয়",
+      "B) সর্বনিম্ন তাৎপর্যপূর্ণ বাইট (LSB) সর্বনিম্ন মেমোরি ঠিকানায় জমা হয়",
+      "C) র‍্যান্ডমভাবে জমা হয়",
+      "D) সব বাইট উল্টে যায়"
+    ],
+    "answer": 1,
+    "explanation": "Little-Endian (Intel x86)-এ Least Significant Byte (LSB) লোয়ার মেমোরি অ্যাড্রেসে বসে। Big-Endian-এ MSB আগে বসে।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2442
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "মাইক্রোপ্রসেসরে পাইপলাইনিংয়ের মূল সুবিধা কী?",
+    "options": [
+      "A) সিপিইউ ফ্যান বন্ধ রাখা",
+      "B) প্রতি একক সময়ে নির্দেশ কার্যকর করার হার (Instruction Throughput) বৃদ্ধি করা",
+      "C) র‍্যামের সাইজ বাড়ানো",
+      "D) ক্লক স্পিড কমানো"
+    ],
+    "answer": 1,
+    "explanation": "পাইপলাইনিং একটি ইন্সট্রাকশন শেষ হওয়ার আগেই পরবর্তী ইন্সট্রাকশনের ফেচিং শুরু করে থ্রুপুট বহুগুণ বাড়িয়ে দেয়।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2443
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "কোন বাস আর্কিটেকচার দ্বারা মাদারবোর্ডে হাই-স্পিড NVMe SSD এবং ডেডিকেটেড গ্রাফিক্স কার্ড সংযুক্ত করা হয়?",
+    "options": [
+      "A) SATA 1.0",
+      "B) PCIe (Peripheral Component Interconnect Express)",
+      "C) IDE / PATA",
+      "D) ISA Bus"
+    ],
+    "answer": 1,
+    "explanation": "PCIe আধুনিক মাদারবোর্ডের দ্রুততম সিরিয়াল বাস (যেমন PCIe 4.0 x4 ব্যান্ডউইথ প্রায় ৮ GB/s) যা NVMe ও GPU-র জন্য ব্যবহৃত হয়।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2444
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "কম্পিউটার মেমোরি হায়ারার্কিতে (Memory Hierarchy) সর্বোচ্চ গতি ও সর্বনিম্ন লেটেন্সি প্রদান করে কোনটি?",
+    "options": [
+      "A) L1 Cache",
+      "B) CPU Registers",
+      "C) RAM",
+      "D) NVMe SSD"
+    ],
+    "answer": 1,
+    "explanation": "স্পিড ক্রম: Registers (০.৫ ns) > L1 Cache (১ ns) > L2 Cache > L3 Cache > Main RAM (৫০ ns) > NVMe SSD (১০ μs) > HDD (১০ ms)।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2445
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "DDR4 র‍্যামের স্ট্যান্ডার্ড ভোল্টেজ কত?",
+    "options": [
+      "A) 1.5 Volts (DDR3)",
+      "B) 1.2 Volts",
+      "C) 1.1 Volts (DDR5)",
+      "D) 1.8 Volts (DDR2)"
+    ],
+    "answer": 1,
+    "explanation": "DDR4 র‍্যাম ১.২ ভোল্টে কাজ করে যা DDR3 (১.৫V)-এর তুলনায় কম শক্তি খরচ করে এবং উচ্চ ফ্রিকোয়েন্সি (2133-3200 MHz) দেয়।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2446
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "সিপিইউতে 'Accumulator' রেজিস্টারের প্রধান কাজ কী?",
+    "options": [
+      "A) পরবর্তী অ্যাড্রেস ধরে রাখা",
+      "B) গাণিতিক ও লজিক্যাল অপারেশনের অন্তর্বর্তীকালীন ফলাফল ধারণ করা",
+      "C) ইন্টারাপ্ট ব্লক করা",
+      "D) ডিসপ্লে নিয়ন্ত্রণ"
+    ],
+    "answer": 1,
+    "explanation": "Accumulator (৮০৮৬-তে AX) হলো প্রধান ওয়ার্কিং রেজিস্টার যাতে গাণিতিক অপারেশনের ফলাফল সরাসরি স্টোর হয়।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2447
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "কম্পিউটারের প্রধান মেমোরির (RAM) ক্ষেত্রে 'DRAM' চিপে বারবার রিফ্রেশ (Refresh) করতে হয় কেন?",
+    "options": [
+      "A) ট্রানজিস্টর ঠান্ডা রাখতে",
+      "B) ক্যাপাসিটরের চার্জ সময়ের সাথে সাথে লিক হয়ে ডেটা নষ্ট হয়ে যায় বলে",
+      "C) ভোল্টেজ বাড়াতে",
+      "D) গতি বাড়াতে"
+    ],
+    "answer": 1,
+    "explanation": "DRAM প্রতিটি মেমোরি সেল একটি ট্রানজিস্টর ও একটি ক্ষুদ্র ক্যাপাসিটর দিয়ে তৈরি। ক্যাপাসিটরের চার্জ ক্ষয়ে যাওয়ায় প্রতি কয়েক মিলিসেকেন্ডে রিফ্রেশ করতে হয়।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2448
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (1)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00000001",
+      "B) 00000010",
+      "C) 00000011",
+      "D) 11111111"
+    ],
+    "answer": 0,
+    "explanation": "1 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00000001।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2449
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00000001)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (1)₁₆",
+      "B) (6)₁₆",
+      "C) (1)₁₆",
+      "D) (1)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0000) = 0 এবং (0001) = 1 অর্থাৎ (1)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2450
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00000001)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11111110",
+      "B) 11111111",
+      "C) 00000001",
+      "D) 100000000"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11111110। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11111110 + 1 = 11111111।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2451
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (2)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00000010",
+      "B) 00000011",
+      "C) 00000100",
+      "D) 11111110"
+    ],
+    "answer": 0,
+    "explanation": "2 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00000010।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2452
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00000010)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (2)₁₆",
+      "B) (7)₁₆",
+      "C) (2)₁₆",
+      "D) (2)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0000) = 0 এবং (0010) = 2 অর্থাৎ (2)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2453
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00000010)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11111101",
+      "B) 11111110",
+      "C) 00000010",
+      "D) 11111111"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11111101। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11111101 + 1 = 11111110।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2454
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (3)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00000011",
+      "B) 00000100",
+      "C) 00000101",
+      "D) 11111111"
+    ],
+    "answer": 0,
+    "explanation": "3 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00000011।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2455
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00000011)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (3)₁₆",
+      "B) (8)₁₆",
+      "C) (3)₁₆",
+      "D) (3)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0000) = 0 এবং (0011) = 3 অর্থাৎ (3)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2456
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00000011)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11111100",
+      "B) 11111101",
+      "C) 00000011",
+      "D) 11111110"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11111100। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11111100 + 1 = 11111101।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2457
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (4)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00000100",
+      "B) 00000101",
+      "C) 00000110",
+      "D) 11111100"
+    ],
+    "answer": 0,
+    "explanation": "4 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00000100।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2458
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00000100)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (4)₁₆",
+      "B) (9)₁₆",
+      "C) (4)₁₆",
+      "D) (4)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0000) = 0 এবং (0100) = 4 অর্থাৎ (4)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2459
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00000100)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11111011",
+      "B) 11111100",
+      "C) 00000100",
+      "D) 11111101"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11111011। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11111011 + 1 = 11111100।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2460
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (5)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00000101",
+      "B) 00000110",
+      "C) 00000111",
+      "D) 11111101"
+    ],
+    "answer": 0,
+    "explanation": "5 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00000101।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2461
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00000101)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (5)₁₆",
+      "B) (A)₁₆",
+      "C) (5)₁₆",
+      "D) (5)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0000) = 0 এবং (0101) = 5 অর্থাৎ (5)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2462
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00000101)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11111010",
+      "B) 11111011",
+      "C) 00000101",
+      "D) 11111100"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11111010। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11111010 + 1 = 11111011।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2463
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (6)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00000110",
+      "B) 00000111",
+      "C) 00001000",
+      "D) 11111110"
+    ],
+    "answer": 0,
+    "explanation": "6 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00000110।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2464
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00000110)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (6)₁₆",
+      "B) (B)₁₆",
+      "C) (6)₁₆",
+      "D) (6)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0000) = 0 এবং (0110) = 6 অর্থাৎ (6)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2465
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00000110)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11111001",
+      "B) 11111010",
+      "C) 00000110",
+      "D) 11111011"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11111001। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11111001 + 1 = 11111010।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2466
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (7)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00000111",
+      "B) 00001000",
+      "C) 00001001",
+      "D) 11111111"
+    ],
+    "answer": 0,
+    "explanation": "7 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00000111।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2467
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00000111)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (7)₁₆",
+      "B) (C)₁₆",
+      "C) (7)₁₆",
+      "D) (7)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0000) = 0 এবং (0111) = 7 অর্থাৎ (7)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2468
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00000111)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11111000",
+      "B) 11111001",
+      "C) 00000111",
+      "D) 11111010"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11111000। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11111000 + 1 = 11111001।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2469
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (8)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00001000",
+      "B) 00001001",
+      "C) 00001010",
+      "D) 11111000"
+    ],
+    "answer": 0,
+    "explanation": "8 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00001000।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2470
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00001000)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (8)₁₆",
+      "B) (D)₁₆",
+      "C) (10)₁₆",
+      "D) (8)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0000) = 0 এবং (1000) = 8 অর্থাৎ (8)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2471
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00001000)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11110111",
+      "B) 11111000",
+      "C) 00001000",
+      "D) 11111001"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11110111। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11110111 + 1 = 11111000।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2472
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (9)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00001001",
+      "B) 00001010",
+      "C) 00001011",
+      "D) 11111001"
+    ],
+    "answer": 0,
+    "explanation": "9 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00001001।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2473
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00001001)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (9)₁₆",
+      "B) (E)₁₆",
+      "C) (11)₁₆",
+      "D) (9)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0000) = 0 এবং (1001) = 9 অর্থাৎ (9)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2474
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00001001)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11110110",
+      "B) 11110111",
+      "C) 00001001",
+      "D) 11111000"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11110110। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11110110 + 1 = 11110111।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2475
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (10)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00001010",
+      "B) 00001011",
+      "C) 00001100",
+      "D) 11111010"
+    ],
+    "answer": 0,
+    "explanation": "10 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00001010।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2476
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00001010)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (A)₁₆",
+      "B) (F)₁₆",
+      "C) (12)₁₆",
+      "D) (10)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0000) = 0 এবং (1010) = A অর্থাৎ (A)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2477
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00001010)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11110101",
+      "B) 11110110",
+      "C) 00001010",
+      "D) 11110111"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11110101। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11110101 + 1 = 11110110।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2478
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (11)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00001011",
+      "B) 00001100",
+      "C) 00001101",
+      "D) 11111011"
+    ],
+    "answer": 0,
+    "explanation": "11 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00001011।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2479
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00001011)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (B)₁₆",
+      "B) (10)₁₆",
+      "C) (13)₁₆",
+      "D) (11)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0000) = 0 এবং (1011) = B অর্থাৎ (B)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2480
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00001011)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11110100",
+      "B) 11110101",
+      "C) 00001011",
+      "D) 11110110"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11110100। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11110100 + 1 = 11110101।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2481
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (12)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00001100",
+      "B) 00001101",
+      "C) 00001110",
+      "D) 11111100"
+    ],
+    "answer": 0,
+    "explanation": "12 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00001100।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2482
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00001100)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (C)₁₆",
+      "B) (11)₁₆",
+      "C) (14)₁₆",
+      "D) (12)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0000) = 0 এবং (1100) = C অর্থাৎ (C)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2483
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00001100)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11110011",
+      "B) 11110100",
+      "C) 00001100",
+      "D) 11110101"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11110011। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11110011 + 1 = 11110100।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2484
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (13)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00001101",
+      "B) 00001110",
+      "C) 00001111",
+      "D) 11111101"
+    ],
+    "answer": 0,
+    "explanation": "13 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00001101।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2485
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00001101)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (D)₁₆",
+      "B) (12)₁₆",
+      "C) (15)₁₆",
+      "D) (13)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0000) = 0 এবং (1101) = D অর্থাৎ (D)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2486
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00001101)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11110010",
+      "B) 11110011",
+      "C) 00001101",
+      "D) 11110100"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11110010। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11110010 + 1 = 11110011।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2487
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (14)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00001110",
+      "B) 00001111",
+      "C) 00010000",
+      "D) 11111110"
+    ],
+    "answer": 0,
+    "explanation": "14 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00001110।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2488
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00001110)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (E)₁₆",
+      "B) (13)₁₆",
+      "C) (16)₁₆",
+      "D) (14)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0000) = 0 এবং (1110) = E অর্থাৎ (E)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2489
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00001110)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11110001",
+      "B) 11110010",
+      "C) 00001110",
+      "D) 11110011"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11110001। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11110001 + 1 = 11110010।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2490
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (15)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00001111",
+      "B) 00010000",
+      "C) 00010001",
+      "D) 11111111"
+    ],
+    "answer": 0,
+    "explanation": "15 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00001111।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2491
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00001111)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (F)₁₆",
+      "B) (14)₁₆",
+      "C) (17)₁₆",
+      "D) (15)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0000) = 0 এবং (1111) = F অর্থাৎ (F)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2492
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00001111)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11110000",
+      "B) 11110001",
+      "C) 00001111",
+      "D) 11110010"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11110000। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11110000 + 1 = 11110001।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2493
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (16)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00010000",
+      "B) 00010001",
+      "C) 00010010",
+      "D) 11110000"
+    ],
+    "answer": 0,
+    "explanation": "16 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00010000।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2494
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00010000)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (10)₁₆",
+      "B) (15)₁₆",
+      "C) (20)₁₆",
+      "D) (16)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0001) = 1 এবং (0000) = 0 অর্থাৎ (10)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2495
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00010000)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11101111",
+      "B) 11110000",
+      "C) 00010000",
+      "D) 11110001"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11101111। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11101111 + 1 = 11110000।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2496
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (17)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00010001",
+      "B) 00010010",
+      "C) 00010011",
+      "D) 11110001"
+    ],
+    "answer": 0,
+    "explanation": "17 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00010001।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2497
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00010001)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (11)₁₆",
+      "B) (16)₁₆",
+      "C) (21)₁₆",
+      "D) (17)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0001) = 1 এবং (0001) = 1 অর্থাৎ (11)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2498
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00010001)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11101110",
+      "B) 11101111",
+      "C) 00010001",
+      "D) 11110000"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11101110। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11101110 + 1 = 11101111।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2499
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (18)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00010010",
+      "B) 00010011",
+      "C) 00010100",
+      "D) 11110010"
+    ],
+    "answer": 0,
+    "explanation": "18 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00010010।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2500
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00010010)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (12)₁₆",
+      "B) (17)₁₆",
+      "C) (22)₁₆",
+      "D) (18)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0001) = 1 এবং (0010) = 2 অর্থাৎ (12)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2501
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00010010)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11101101",
+      "B) 11101110",
+      "C) 00010010",
+      "D) 11101111"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11101101। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11101101 + 1 = 11101110।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2502
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (19)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00010011",
+      "B) 00010100",
+      "C) 00010101",
+      "D) 11110011"
+    ],
+    "answer": 0,
+    "explanation": "19 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00010011।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2503
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00010011)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (13)₁₆",
+      "B) (18)₁₆",
+      "C) (23)₁₆",
+      "D) (19)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0001) = 1 এবং (0011) = 3 অর্থাৎ (13)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2504
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00010011)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11101100",
+      "B) 11101101",
+      "C) 00010011",
+      "D) 11101110"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11101100। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11101100 + 1 = 11101101।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2505
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (20)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00010100",
+      "B) 00010101",
+      "C) 00010110",
+      "D) 11110100"
+    ],
+    "answer": 0,
+    "explanation": "20 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00010100।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2506
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00010100)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (14)₁₆",
+      "B) (19)₁₆",
+      "C) (24)₁₆",
+      "D) (20)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0001) = 1 এবং (0100) = 4 অর্থাৎ (14)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2507
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00010100)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11101011",
+      "B) 11101100",
+      "C) 00010100",
+      "D) 11101101"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11101011। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11101011 + 1 = 11101100।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2508
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (21)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00010101",
+      "B) 00010110",
+      "C) 00010111",
+      "D) 11110101"
+    ],
+    "answer": 0,
+    "explanation": "21 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00010101।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2509
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00010101)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (15)₁₆",
+      "B) (1A)₁₆",
+      "C) (25)₁₆",
+      "D) (21)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0001) = 1 এবং (0101) = 5 অর্থাৎ (15)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2510
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00010101)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11101010",
+      "B) 11101011",
+      "C) 00010101",
+      "D) 11101100"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11101010। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11101010 + 1 = 11101011।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2511
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (22)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00010110",
+      "B) 00010111",
+      "C) 00011000",
+      "D) 11110110"
+    ],
+    "answer": 0,
+    "explanation": "22 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00010110।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2512
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00010110)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (16)₁₆",
+      "B) (1B)₁₆",
+      "C) (26)₁₆",
+      "D) (22)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0001) = 1 এবং (0110) = 6 অর্থাৎ (16)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2513
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00010110)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11101001",
+      "B) 11101010",
+      "C) 00010110",
+      "D) 11101011"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11101001। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11101001 + 1 = 11101010।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2514
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (23)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00010111",
+      "B) 00011000",
+      "C) 00011001",
+      "D) 11110111"
+    ],
+    "answer": 0,
+    "explanation": "23 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00010111।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2515
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00010111)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (17)₁₆",
+      "B) (1C)₁₆",
+      "C) (27)₁₆",
+      "D) (23)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0001) = 1 এবং (0111) = 7 অর্থাৎ (17)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2516
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00010111)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11101000",
+      "B) 11101001",
+      "C) 00010111",
+      "D) 11101010"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11101000। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11101000 + 1 = 11101001।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2517
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (24)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00011000",
+      "B) 00011001",
+      "C) 00011010",
+      "D) 11111000"
+    ],
+    "answer": 0,
+    "explanation": "24 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00011000।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2518
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00011000)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (18)₁₆",
+      "B) (1D)₁₆",
+      "C) (30)₁₆",
+      "D) (24)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0001) = 1 এবং (1000) = 8 অর্থাৎ (18)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2519
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00011000)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11100111",
+      "B) 11101000",
+      "C) 00011000",
+      "D) 11101001"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11100111। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11100111 + 1 = 11101000।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2520
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (25)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00011001",
+      "B) 00011010",
+      "C) 00011011",
+      "D) 11111001"
+    ],
+    "answer": 0,
+    "explanation": "25 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00011001।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2521
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00011001)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (19)₁₆",
+      "B) (1E)₁₆",
+      "C) (31)₁₆",
+      "D) (25)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0001) = 1 এবং (1001) = 9 অর্থাৎ (19)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2522
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00011001)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11100110",
+      "B) 11100111",
+      "C) 00011001",
+      "D) 11101000"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11100110। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11100110 + 1 = 11100111।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2523
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (26)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00011010",
+      "B) 00011011",
+      "C) 00011100",
+      "D) 11111010"
+    ],
+    "answer": 0,
+    "explanation": "26 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00011010।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2524
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00011010)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (1A)₁₆",
+      "B) (1F)₁₆",
+      "C) (32)₁₆",
+      "D) (26)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0001) = 1 এবং (1010) = A অর্থাৎ (1A)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2525
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00011010)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11100101",
+      "B) 11100110",
+      "C) 00011010",
+      "D) 11100111"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11100101। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11100101 + 1 = 11100110।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2526
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (27)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00011011",
+      "B) 00011100",
+      "C) 00011101",
+      "D) 11111011"
+    ],
+    "answer": 0,
+    "explanation": "27 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00011011।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2527
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00011011)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (1B)₁₆",
+      "B) (20)₁₆",
+      "C) (33)₁₆",
+      "D) (27)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0001) = 1 এবং (1011) = B অর্থাৎ (1B)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2528
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00011011)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11100100",
+      "B) 11100101",
+      "C) 00011011",
+      "D) 11100110"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11100100। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11100100 + 1 = 11100101।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2529
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (28)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00011100",
+      "B) 00011101",
+      "C) 00011110",
+      "D) 11111100"
+    ],
+    "answer": 0,
+    "explanation": "28 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00011100।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2530
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00011100)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (1C)₁₆",
+      "B) (21)₁₆",
+      "C) (34)₁₆",
+      "D) (28)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0001) = 1 এবং (1100) = C অর্থাৎ (1C)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2531
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00011100)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11100011",
+      "B) 11100100",
+      "C) 00011100",
+      "D) 11100101"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11100011। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11100011 + 1 = 11100100।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2532
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (29)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00011101",
+      "B) 00011110",
+      "C) 00011111",
+      "D) 11111101"
+    ],
+    "answer": 0,
+    "explanation": "29 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00011101।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2533
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00011101)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (1D)₁₆",
+      "B) (22)₁₆",
+      "C) (35)₁₆",
+      "D) (29)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0001) = 1 এবং (1101) = D অর্থাৎ (1D)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2534
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00011101)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11100010",
+      "B) 11100011",
+      "C) 00011101",
+      "D) 11100100"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11100010। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11100010 + 1 = 11100011।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2535
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (30)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00011110",
+      "B) 00011111",
+      "C) 00100000",
+      "D) 11111110"
+    ],
+    "answer": 0,
+    "explanation": "30 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00011110।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2536
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00011110)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (1E)₁₆",
+      "B) (23)₁₆",
+      "C) (36)₁₆",
+      "D) (30)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0001) = 1 এবং (1110) = E অর্থাৎ (1E)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2537
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00011110)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11100001",
+      "B) 11100010",
+      "C) 00011110",
+      "D) 11100011"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11100001। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11100001 + 1 = 11100010।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2538
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (31)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00011111",
+      "B) 00100000",
+      "C) 00100001",
+      "D) 11111111"
+    ],
+    "answer": 0,
+    "explanation": "31 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00011111।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2539
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00011111)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (1F)₁₆",
+      "B) (24)₁₆",
+      "C) (37)₁₆",
+      "D) (31)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0001) = 1 এবং (1111) = F অর্থাৎ (1F)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2540
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00011111)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11100000",
+      "B) 11100001",
+      "C) 00011111",
+      "D) 11100010"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11100000। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11100000 + 1 = 11100001।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2541
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (32)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00100000",
+      "B) 00100001",
+      "C) 00100010",
+      "D) 11100000"
+    ],
+    "answer": 0,
+    "explanation": "32 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00100000।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2542
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00100000)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (20)₁₆",
+      "B) (25)₁₆",
+      "C) (40)₁₆",
+      "D) (32)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0010) = 2 এবং (0000) = 0 অর্থাৎ (20)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2543
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00100000)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11011111",
+      "B) 11100000",
+      "C) 00100000",
+      "D) 11100001"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11011111। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11011111 + 1 = 11100000।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2544
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (33)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00100001",
+      "B) 00100010",
+      "C) 00100011",
+      "D) 11100001"
+    ],
+    "answer": 0,
+    "explanation": "33 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00100001।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2545
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00100001)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (21)₁₆",
+      "B) (26)₁₆",
+      "C) (41)₁₆",
+      "D) (33)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0010) = 2 এবং (0001) = 1 অর্থাৎ (21)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2546
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00100001)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11011110",
+      "B) 11011111",
+      "C) 00100001",
+      "D) 11100000"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11011110। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11011110 + 1 = 11011111।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2547
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (34)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00100010",
+      "B) 00100011",
+      "C) 00100100",
+      "D) 11100010"
+    ],
+    "answer": 0,
+    "explanation": "34 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00100010।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2548
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00100010)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (22)₁₆",
+      "B) (27)₁₆",
+      "C) (42)₁₆",
+      "D) (34)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0010) = 2 এবং (0010) = 2 অর্থাৎ (22)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2549
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00100010)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11011101",
+      "B) 11011110",
+      "C) 00100010",
+      "D) 11011111"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11011101। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11011101 + 1 = 11011110।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2550
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (35)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00100011",
+      "B) 00100100",
+      "C) 00100101",
+      "D) 11100011"
+    ],
+    "answer": 0,
+    "explanation": "35 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00100011।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2551
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00100011)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (23)₁₆",
+      "B) (28)₁₆",
+      "C) (43)₁₆",
+      "D) (35)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0010) = 2 এবং (0011) = 3 অর্থাৎ (23)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2552
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00100011)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11011100",
+      "B) 11011101",
+      "C) 00100011",
+      "D) 11011110"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11011100। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11011100 + 1 = 11011101।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2553
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (36)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00100100",
+      "B) 00100101",
+      "C) 00100110",
+      "D) 11100100"
+    ],
+    "answer": 0,
+    "explanation": "36 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00100100।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2554
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00100100)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (24)₁₆",
+      "B) (29)₁₆",
+      "C) (44)₁₆",
+      "D) (36)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0010) = 2 এবং (0100) = 4 অর্থাৎ (24)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2555
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00100100)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11011011",
+      "B) 11011100",
+      "C) 00100100",
+      "D) 11011101"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11011011। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11011011 + 1 = 11011100।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2556
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (37)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00100101",
+      "B) 00100110",
+      "C) 00100111",
+      "D) 11100101"
+    ],
+    "answer": 0,
+    "explanation": "37 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00100101।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2557
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00100101)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (25)₁₆",
+      "B) (2A)₁₆",
+      "C) (45)₁₆",
+      "D) (37)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0010) = 2 এবং (0101) = 5 অর্থাৎ (25)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2558
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00100101)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11011010",
+      "B) 11011011",
+      "C) 00100101",
+      "D) 11011100"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11011010। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11011010 + 1 = 11011011।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2559
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (38)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00100110",
+      "B) 00100111",
+      "C) 00101000",
+      "D) 11100110"
+    ],
+    "answer": 0,
+    "explanation": "38 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00100110।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2560
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00100110)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (26)₁₆",
+      "B) (2B)₁₆",
+      "C) (46)₁₆",
+      "D) (38)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0010) = 2 এবং (0110) = 6 অর্থাৎ (26)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2561
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00100110)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11011001",
+      "B) 11011010",
+      "C) 00100110",
+      "D) 11011011"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11011001। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11011001 + 1 = 11011010।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2562
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (39)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00100111",
+      "B) 00101000",
+      "C) 00101001",
+      "D) 11100111"
+    ],
+    "answer": 0,
+    "explanation": "39 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00100111।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2563
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00100111)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (27)₁₆",
+      "B) (2C)₁₆",
+      "C) (47)₁₆",
+      "D) (39)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0010) = 2 এবং (0111) = 7 অর্থাৎ (27)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2564
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00100111)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11011000",
+      "B) 11011001",
+      "C) 00100111",
+      "D) 11011010"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11011000। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11011000 + 1 = 11011001।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2565
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (40)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00101000",
+      "B) 00101001",
+      "C) 00101010",
+      "D) 11101000"
+    ],
+    "answer": 0,
+    "explanation": "40 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00101000।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2566
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00101000)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (28)₁₆",
+      "B) (2D)₁₆",
+      "C) (50)₁₆",
+      "D) (40)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0010) = 2 এবং (1000) = 8 অর্থাৎ (28)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2567
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00101000)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11010111",
+      "B) 11011000",
+      "C) 00101000",
+      "D) 11011001"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11010111। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11010111 + 1 = 11011000।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2568
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (41)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00101001",
+      "B) 00101010",
+      "C) 00101011",
+      "D) 11101001"
+    ],
+    "answer": 0,
+    "explanation": "41 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00101001।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2569
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00101001)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (29)₁₆",
+      "B) (2E)₁₆",
+      "C) (51)₁₆",
+      "D) (41)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0010) = 2 এবং (1001) = 9 অর্থাৎ (29)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2570
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00101001)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11010110",
+      "B) 11010111",
+      "C) 00101001",
+      "D) 11011000"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11010110। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11010110 + 1 = 11010111।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2571
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (42)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00101010",
+      "B) 00101011",
+      "C) 00101100",
+      "D) 11101010"
+    ],
+    "answer": 0,
+    "explanation": "42 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00101010।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2572
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00101010)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (2A)₁₆",
+      "B) (2F)₁₆",
+      "C) (52)₁₆",
+      "D) (42)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0010) = 2 এবং (1010) = A অর্থাৎ (2A)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2573
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00101010)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11010101",
+      "B) 11010110",
+      "C) 00101010",
+      "D) 11010111"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11010101। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11010101 + 1 = 11010110।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2574
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (43)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00101011",
+      "B) 00101100",
+      "C) 00101101",
+      "D) 11101011"
+    ],
+    "answer": 0,
+    "explanation": "43 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00101011।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2575
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00101011)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (2B)₁₆",
+      "B) (30)₁₆",
+      "C) (53)₁₆",
+      "D) (43)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0010) = 2 এবং (1011) = B অর্থাৎ (2B)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2576
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00101011)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11010100",
+      "B) 11010101",
+      "C) 00101011",
+      "D) 11010110"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11010100। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11010100 + 1 = 11010101।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2577
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (44)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00101100",
+      "B) 00101101",
+      "C) 00101110",
+      "D) 11101100"
+    ],
+    "answer": 0,
+    "explanation": "44 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00101100।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2578
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00101100)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (2C)₁₆",
+      "B) (31)₁₆",
+      "C) (54)₁₆",
+      "D) (44)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0010) = 2 এবং (1100) = C অর্থাৎ (2C)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2579
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00101100)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11010011",
+      "B) 11010100",
+      "C) 00101100",
+      "D) 11010101"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11010011। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11010011 + 1 = 11010100।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2580
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (45)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00101101",
+      "B) 00101110",
+      "C) 00101111",
+      "D) 11101101"
+    ],
+    "answer": 0,
+    "explanation": "45 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00101101।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2581
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00101101)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (2D)₁₆",
+      "B) (32)₁₆",
+      "C) (55)₁₆",
+      "D) (45)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0010) = 2 এবং (1101) = D অর্থাৎ (2D)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2582
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00101101)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11010010",
+      "B) 11010011",
+      "C) 00101101",
+      "D) 11010100"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11010010। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11010010 + 1 = 11010011।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2583
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (46)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00101110",
+      "B) 00101111",
+      "C) 00110000",
+      "D) 11101110"
+    ],
+    "answer": 0,
+    "explanation": "46 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00101110।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2584
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00101110)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (2E)₁₆",
+      "B) (33)₁₆",
+      "C) (56)₁₆",
+      "D) (46)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0010) = 2 এবং (1110) = E অর্থাৎ (2E)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2585
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00101110)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11010001",
+      "B) 11010010",
+      "C) 00101110",
+      "D) 11010011"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11010001। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11010001 + 1 = 11010010।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2586
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (47)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00101111",
+      "B) 00110000",
+      "C) 00110001",
+      "D) 11101111"
+    ],
+    "answer": 0,
+    "explanation": "47 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00101111।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2587
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00101111)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (2F)₁₆",
+      "B) (34)₁₆",
+      "C) (57)₁₆",
+      "D) (47)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0010) = 2 এবং (1111) = F অর্থাৎ (2F)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2588
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00101111)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11010000",
+      "B) 11010001",
+      "C) 00101111",
+      "D) 11010010"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11010000। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11010000 + 1 = 11010001।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2589
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (48)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00110000",
+      "B) 00110001",
+      "C) 00110010",
+      "D) 11110000"
+    ],
+    "answer": 0,
+    "explanation": "48 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00110000।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2590
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00110000)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (30)₁₆",
+      "B) (35)₁₆",
+      "C) (60)₁₆",
+      "D) (48)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0011) = 3 এবং (0000) = 0 অর্থাৎ (30)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2591
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00110000)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11001111",
+      "B) 11010000",
+      "C) 00110000",
+      "D) 11010001"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11001111। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11001111 + 1 = 11010000।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2592
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (49)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00110001",
+      "B) 00110010",
+      "C) 00110011",
+      "D) 11110001"
+    ],
+    "answer": 0,
+    "explanation": "49 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00110001।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2593
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00110001)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (31)₁₆",
+      "B) (36)₁₆",
+      "C) (61)₁₆",
+      "D) (49)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0011) = 3 এবং (0001) = 1 অর্থাৎ (31)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2594
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00110001)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11001110",
+      "B) 11001111",
+      "C) 00110001",
+      "D) 11010000"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11001110। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11001110 + 1 = 11001111।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2595
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডেসিমাল সংখ্যা (50)₁₀ এর ৮-বিট বাইনারি মান কত?",
+    "options": [
+      "A) 00110010",
+      "B) 00110011",
+      "C) 00110100",
+      "D) 11110010"
+    ],
+    "answer": 0,
+    "explanation": "50 কে ২ দিয়ে ক্রমাগত ভাগ করলে ভাগশেষগুলোর বিপরীত ক্রম হলো 00110010।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2596
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00110010)₂ এর সমতুল্য হেক্সাডেসিমাল মান কোনটি?",
+    "options": [
+      "A) (32)₁₆",
+      "B) (37)₁₆",
+      "C) (62)₁₆",
+      "D) (50)₁₆"
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ৪ বিট করে গ্রুপ করলে (0011) = 3 এবং (0010) = 2 অর্থাৎ (32)₁₆।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2597
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "বাইনারি সংখ্যা (00110010)₂ এর ২'র পরিপূরক (2's Complement) মান কত?",
+    "options": [
+      "A) 11001101",
+      "B) 11001110",
+      "C) 00110010",
+      "D) 11001111"
+    ],
+    "answer": 1,
+    "explanation": "১'র পরিপূরক হলো 11001101। এর সাথে ১ যোগ করলে ২'র পরিপূরক পাওয়া যায়: 11001101 + 1 = 11001110।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2598
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "কোন লজিক গেটের সকল ইনপুট '1' হলে আউটপুট '0' হয়, অন্যথায় আউটপুট '1' হয়?",
+    "options": [
+      "A) AND Gate",
+      "B) NAND Gate",
+      "C) NOR Gate",
+      "D) XOR Gate"
+    ],
+    "answer": 1,
+    "explanation": "NAND গেট হলো AND-এর বিপরীত। সকল ইনপুট 1 হলে AND দেয় 1, আর NAND দেয় 0।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2599
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "কোন লজিক গেটের ক্ষেত্রে বিজোড় সংখ্যক ইনপুট '1' থাকলে আউটপুট '1' হয়?",
+    "options": [
+      "A) XNOR Gate",
+      "B) XOR (Exclusive-OR) Gate",
+      "C) OR Gate",
+      "D) AND Gate"
+    ],
+    "answer": 1,
+    "explanation": "XOR গেট একটি অড-প্যারিটি ডিটেক্টর (Odd Parity Detector), অর্থাৎ ইনপুটে বিজোড় সংখ্যক ১ থাকলে আউটপুট ১ হয়।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2600
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "ডিজিটাল সার্কিটে ফ্লিপ-ফ্লপ (Flip-Flop) মূলত কত বিট মেমোরি সংরক্ষণ করতে পারে?",
+    "options": [
+      "A) ৪ বিট",
+      "B) ১ বিট (1 Bit)",
+      "C) ৮ বিট (১ বাইট)",
+      "D) ১৬ বিট"
+    ],
+    "answer": 1,
+    "explanation": "একটি ফ্লিপ-ফ্লপ হলো একটি মৌলিক বাই-স্টেবল মাল্টিভাইব্রেটর সার্কিট যা ঠিক ১ বিট বাইনারি তথ্য (০ বা ১) ধরে রাখতে পারে।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2601
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "SR ফ্লিপ-ফ্লপে কোন ইনপুট কম্বিনেশনটি নিষিদ্ধ বা অনির্ধারিত (Invalid / Forbidden)?",
+    "options": [
+      "A) S = 0, R = 0",
+      "B) S = 1 এবং R = 1",
+      "C) S = 1, R = 0",
+      "D) S = 0, R = 1"
+    ],
+    "answer": 1,
+    "explanation": "SR ফ্লিপ-ফ্লপে S=1 এবং R=1 দিলে উভয় আউটপুট Q ও Q' একই সাথে ০ হওয়ার চেষ্টা করে, যা সংজ্ঞাগতভাবে অসম্ভব ও ইনভ্যালিড।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2602
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Computer Architecture & Hardware",
+    "question": "মাস্টার-স্লেভ জেকে (Master-Slave JK) ফ্লিপ-ফ্লপ তৈরির মূল উদ্দেশ্য কী?",
+    "options": [
+      "A) গতি বাড়ানো",
+      "B) রেস-অ্যারাউন্ড কন্ডিশন (Race Around Condition) দূর করা",
+      "C) পাওয়ার কমানো",
+      "D) মেমোরি সাইজ বাড়ানো"
+    ],
+    "answer": 1,
+    "explanation": "ক্লক পালস দীর্ঘ হলে JK ফ্লিপ-ফ্লপে আউটপুট বারবার টগল করে অনির্দিষ্ট হয়ে যায়। দুটি ফ্লিপ-ফ্লপ মাস্টার ও স্লেভ হিসেবে যুক্ত করে এই সমস্যা সমাধান করা হয়।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2603
+  }
+]

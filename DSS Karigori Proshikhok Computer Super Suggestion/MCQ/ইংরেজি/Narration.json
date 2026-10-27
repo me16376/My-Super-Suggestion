@@ -1,0 +1,21 @@
+[
+  {
+    "id": 20020,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Narration",
+    "question": "Direct: He said to me, 'Are you reading the book?' Indirect:",
+    "options": [
+      "A) He asked me if I was reading the book.",
+      "B) He told me that was I reading the book.",
+      "C) He asked me whether am I reading the book.",
+      "D) He questioned me if you were reading the book."
+    ],
+    "answer": 0,
+    "explanation": "Interrogative বাক্যে reporting verb 'asked' হয়, লিঙ্কার 'if' বসে এবং tense প্রেজেন্ট কন্টিনিউয়াস থেকে পাস্ট কন্টিনিউয়াস (was reading) হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "narration"
+    ]
+  }
+]

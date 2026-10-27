@@ -1,0 +1,36 @@
+[
+  {
+    "id": 3883,
+    "subject": "সাধারণ গণিত ও মানসিক দক্ষতা",
+    "topic": "মানসিক দক্ষতা (কোডিং)",
+    "question": "যদি 'WATER' কে উল্টো করে 'RETAW' লেখা হয়, তবে 'RIVER' কে কী লেখা হবে?",
+    "options": [
+      "A) REVIR",
+      "B) REIVR",
+      "C) RIVRE",
+      "D) REVIRR"
+    ],
+    "answer": 0,
+    "explanation": "উল্টো দিক থেকে অক্ষর বিন্যাস: R-E-V-I-R = REVIR।",
+    "tags": [
+      "reverse_coding"
+    ]
+  },
+  {
+    "id": 3893,
+    "subject": "সাধারণ গণিত ও মানসিক দক্ষতা",
+    "topic": "মানসিক দক্ষতা (কোডিং)",
+    "question": "যদি 'A' = 1, 'B' = 2, 'Z' = 26 হয়, তবে 'MATH' এর সাংখ্যিক মান কত?",
+    "options": [
+      "A) ৪২",
+      "B) ৩৪",
+      "C) ৩৬",
+      "D) ৩৮"
+    ],
+    "answer": 0,
+    "explanation": "M(13) + A(1) + T(20) + H(8) = 13 + 1 + 20 + 8 = 42।",
+    "tags": [
+      "letter_sum"
+    ]
+  }
+]

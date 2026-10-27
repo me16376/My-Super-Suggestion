@@ -1,0 +1,21 @@
+[
+  {
+    "id": 40026,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "কম্পিউটার হার্ডওয়্যার ও পোর্ট",
+    "question": "HDMI এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) High-Definition Multimedia Interface",
+      "B) Hyper Data Medium Internet",
+      "C) High Display Machine Interface",
+      "D) Home Digital Media Instrument"
+    ],
+    "answer": 0,
+    "explanation": "HDMI = High-Definition Multimedia Interface, যা একই সাথে হাই ডেফিনিশন ভিডিও ও অডিও ডেটা ক্যাবল দিয়ে সরবরাহ করে।",
+    "tags": [
+      "computer_trade",
+      "hardware",
+      "hdmi"
+    ]
+  }
+]

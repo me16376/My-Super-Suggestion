@@ -1,0 +1,146 @@
+[
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems",
+    "question": "ডাটাবেজে Codd's Rules অনুযায়ী একটি রিলেশনাল ডাটাবেজ ম্যানেজমেন্ট সিস্টেম (RDBMS) হতে মোট কতটি নিয়ম পূরণ করতে হয়?",
+    "options": [
+      "A) ১০টি নিয়ম",
+      "B) ১২টি নিয়ম (Rule 0 থেকে Rule 12 সহ মোট ১৩টি)",
+      "C) ৮টি নিয়ম",
+      "D) ১৫টি নিয়ম"
+    ],
+    "answer": 1,
+    "explanation": "ই. এফ. কড ১৯৭০ সালে রিলেশনাল মডেলের শুদ্ধতা যাচাইয়ে ১২টি নিয়ম প্রস্তাব করেন।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2614
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems",
+    "question": "একটি টেবিলে একাধিক কলামের সমন্বয়ে গঠিত প্রাইমারি কি-কে কী বলা হয়?",
+    "options": [
+      "A) Foreign Key",
+      "B) Composite Primary Key",
+      "C) Candidate Key",
+      "D) Surrogate Key"
+    ],
+    "answer": 1,
+    "explanation": "যখন দুই বা ততোধিক ফিল্ড একত্র হয়ে একটি রেকর্ডকে অনন্যভাবে শনাক্ত করে, তখন তাকে Composite Key বলে।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2615
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems",
+    "question": "কোন ডাটাবেজ নরমাল ফর্মে মাল্টি-ভ্যালুড ডিপেনডেন্সি (Multivalued Dependency) দূর করা হয়?",
+    "options": [
+      "A) 3NF",
+      "B) 4NF (Fourth Normal Form)",
+      "C) BCNF",
+      "D) 5NF"
+    ],
+    "answer": 1,
+    "explanation": "৪র্থ স্বাভাবিক রূপ (4NF)-এ টেবিলকে BCNF হতে হয় এবং কোনো নন-ট্রিভিয়াল মাল্টিভ্যালুড ডিপেনডেন্সি থাকতে পারবে না।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2616
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems",
+    "question": "ডাটাবেজ টেবিল থেকে সকল রেকর্ড মুছে ফেলে কিন্তু টেবিলের কাঠামো অক্ষত রাখে এমন দ্রুতগতির DDL কমান্ড কোনটি?",
+    "options": [
+      "A) DROP TABLE",
+      "B) TRUNCATE TABLE",
+      "C) DELETE FROM",
+      "D) REMOVE TABLE"
+    ],
+    "answer": 1,
+    "explanation": "TRUNCATE একটি DDL কমান্ড যা লগ না রেখে সম্পূর্ণ টেবিল ডেটা ইনস্ট্যান্ট ডিলিট করে। DELETE হলো DML যা রো বাই রো ডিলিট করে ধীরগতিতে।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2617
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems",
+    "question": "এসকিউএল-এ স্ট্রিং বা টেক্সটের প্যাটার্ন ম্যাচিংয়ের জন্য কোন অপারেটরটি ব্যবহৃত হয়?",
+    "options": [
+      "A) MATCH",
+      "B) LIKE",
+      "C) EQUAL",
+      "D) CONTAINS"
+    ],
+    "answer": 1,
+    "explanation": "LIKE অপারেটরের সাথে ওয়াইল্ডকার্ড '%' (যেকোনো সংখ্যক ক্যারেক্টার) এবং '_' (একটি একক ক্যারেক্টার) দিয়ে প্যাটার্ন সার্চ করা হয়।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2618
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems",
+    "question": "ডাটাবেজে 'Foreign Key'-এর মূল উদ্দেশ্য কী?",
+    "options": [
+      "A) সার্চিং দ্রুত করা",
+      "B) রেফারেন্সিয়াল ইন্টিগ্রিটি (Referential Integrity) বজায় রাখা",
+      "C) টেবিল সাইজ কমানো",
+      "D) পাসওয়ার্ড এনক্রিপ্ট করা"
+    ],
+    "answer": 1,
+    "explanation": "ফরেন কি অন্য একটি টেবিলের প্রাইমারি কি-কে নির্দেশ করে দুটি টেবিলের মাঝে লজিক্যাল সম্পর্ক ও ডেটা সঙ্গতি বজায় রাখে।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2619
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems",
+    "question": "ডাটাবেজ ট্রানজেকশনে কোনো নির্দিষ্ট বিন্দু পর্যন্ত কাজ সেভ করে রাখার কমান্ড কোনটি যাতে প্রয়োজনে সেখানে রোলব্যাক করা যায়?",
+    "options": [
+      "A) CHECKPOINT",
+      "B) SAVEPOINT",
+      "C) COMMIT",
+      "D) ROLLBACK"
+    ],
+    "answer": 1,
+    "explanation": "SAVEPOINT কমান্ড ট্রানজেকশনের ভেতরে একটি চেকপয়েন্ট চিহ্নিত করে যাতে 'ROLLBACK TO SAVEPOINT' দিয়ে আংশিক রোলব্যাক করা সম্ভব হয়।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2620
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems",
+    "question": "এসকিউএল কোয়েরিতে ডুপ্লিকেট মান বাদ দিয়ে শুধুমাত্র ইউনিক রেকর্ড প্রদর্শনের কি-ওয়ার্ড কোনটি?",
+    "options": [
+      "A) UNIQUE",
+      "B) DISTINCT",
+      "C) DIFFERENT",
+      "D) SINGLE"
+    ],
+    "answer": 1,
+    "explanation": "SELECT DISTINCT কলাম_নাম দিলে ফলাফলে ডুপ্লিকেট রোগুলো ফিল্টার হয়ে শুধু ইউনিক মান প্রদর্শিত হয়।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2621
+  }
+]

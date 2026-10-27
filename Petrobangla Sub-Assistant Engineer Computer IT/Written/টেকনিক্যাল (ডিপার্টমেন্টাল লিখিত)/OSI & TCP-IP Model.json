@@ -1,0 +1,36 @@
+[
+  {
+    "id": 21,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "OSI & TCP/IP Model",
+    "question": "OSI মডেলের ৭টি স্তরের নাম ক্রমানুসারে লিখুন এবং প্রতিটি স্তরের PDU (Protocol Data Unit) ও মূল দায়িত্ব উল্লেখ করুন।",
+    "marks": 10,
+    "answer": "OSI (Open Systems Interconnection) ৭টি স্তর (নিচ থেকে উপরে):\n\n১. Physical Layer: PDU: Bits | ডেটাকে বৈদ্যুতিক, আলোক বা রেডিও সিগন্যালে রূপান্তর ও ফিজিক্যাল মিডিয়া দিয়ে প্রেরণ।\n২. Data Link Layer: PDU: Frame | MAC অ্যাড্রেসিং, ফ্রেম তৈরি, এরর ডিটেকশন (CRC) ও ফিজিক্যাল টপোলজি হ্যান্ডলিং।\n৩. Network Layer: PDU: Packet | লজিক্যাল আইপি অ্যাড্রেসিং ও বেস্ট পাথ রাউটিং (Routing)।\n৪. Transport Layer: PDU: Segment | এন্ড-টু-এন্ড ডেটা ট্রান্সফার, পোর্ট অ্যাড্রেসিং, ফ্লো কন্ট্রোল ও এরর রিকভারি।\n৫. Session Layer: PDU: Data | দুটি ডিভাইসের মধ্যে সেশন প্রতিষ্ঠা, পরিচালনা ও বন্ধ করা (RPC, NetBIOS)।\n৬. Presentation Layer: PDU: Data | ডেটা ফরম্যাটিং, এনকোডিং/ডিকোডিং, কম্প্রেশন ও এনক্রিপশন/ডিক্রিপশন (SSL/TLS, JPEG, ASCII)।\n৭. Application Layer: PDU: Data | ব্যবহারকারী ও অ্যাপ্লিকেশনের সরাসরি নেটওয়ার্ক ইন্টারফেস (HTTP, FTP, SMTP, DNS)।",
+    "points_to_remember": [
+      "PDU মনে রাখার কৌশল: Bits -> Frame -> Packet -> Segment -> Data."
+    ],
+    "tags": [
+      "buet_written",
+      "networking",
+      "osi_model",
+      "pdu"
+    ]
+  },
+  {
+    "id": 22,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "OSI & TCP/IP Model",
+    "question": "TCP-এর ৩-ওয়ে হ্যান্ডশেক (Three-Way Handshake) প্রক্রিয়াটি ডায়াগ্রাম ও ফ্ল্যাগসহ ব্যাখ্যা করুন। TCP এবং UDP-এর ৪টি প্রধান পার্থক্য লিখুন।",
+    "marks": 10,
+    "answer": "TCP 3-Way Handshake প্রক্রিয়া:\n১. Step 1 (SYN): ক্লায়েন্ট সার্ভারকে একটি SYN প্যাকেট পাঠায় এবং একটি র‍্যান্ডম ইনিশিয়াল সিকোয়েন্স নাম্বার (ISN) পাঠায় (Seq = X)।\n২. Step 2 (SYN-ACK): সার্ভার ক্লায়েন্টের অনুরোধ গ্রহণ করে নিজের সিকোয়েন্স নাম্বার (Seq = Y) এবং ক্লায়েন্টের সিকোয়েন্স নাম্বারের সাথে ১ যোগ করে একনলেজমেন্ট পাঠায় (Ack = X + 1)।\n৩. Step 3 (ACK): ক্লায়েন্ট সার্ভারের উত্তর পেয়ে ফাইনাল ACK পাঠায় (Seq = X + 1, Ack = Y + 1)। এর মাধ্যমে কানেকশন প্রতিষ্ঠিত হয়।\n\nTCP vs UDP পার্থক্য:\n১. সংযোগ: TCP সংযোগ-ভিত্তিক (Connection-oriented) | UDP সংযোগহীন (Connectionless)।\n২. নির্ভরযোগ্যতা: TCP নির্ভরযোগ্য, প্যাকেট হারালে রিট্রান্সমিশন করে | UDP অনির্ভরযোগ্য (Best-effort)।\n৩. হেডার সাইজ: TCP হেডার ২০ থেকে ৬০ বাইট | UDP হেডার ফিক্সড ৮ বাইট।\n৪. গতি ও ব্যবহার: TCP কিছুটা ধীর (Web, Email, File) | UDP অতি দ্রুত (VoIP, Video Streaming, DNS)।",
+    "points_to_remember": [
+      "TCP নিশ্চিত সংযোগের জন্য SYN, SYN-ACK, ACK ব্যবহার করে।"
+    ],
+    "tags": [
+      "buet_written",
+      "networking",
+      "tcp_handshake",
+      "tcp_vs_udp"
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "id": 20008,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Antonyms",
+    "question": "What is the antonym of the word 'Transparent'?",
+    "options": [
+      "A) Clear",
+      "B) Opaque",
+      "C) Bright",
+      "D) Fragile"
+    ],
+    "answer": 1,
+    "explanation": "'Transparent' অর্থ স্বচ্ছ বা স্পষ্ট। এর বিপরীত শব্দ হলো 'Opaque' যার অর্থ অস্বচ্ছ বা অস্পষ্ট।",
+    "tags": [
+      "english",
+      "vocabulary",
+      "antonym"
+    ]
+  }
+]

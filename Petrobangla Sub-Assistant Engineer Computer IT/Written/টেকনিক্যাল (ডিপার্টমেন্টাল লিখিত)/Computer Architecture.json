@@ -1,0 +1,20 @@
+[
+  {
+    "id": 95,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "Computer Architecture",
+    "question": "ক্যাশ মেমরি ম্যাপিং (Direct Mapping vs Set-Associative Mapping): ১৬ MB মেইন মেমরি, ৬৪ KB ক্যাশ মেমরি এবং প্রতি ব্লকের সাইজ ৩২ বাইট হলে Direct Mapping-এ Tag, Line/Index এবং Offset বিট সংখ্যা গাণিতিকভাবে নির্ণয় করো।",
+    "marks": 8,
+    "answer": "গাণিতিক সমাধান (Direct Mapping):\n\n১. মেইন মেমরি সাইজ = 16 MB = 2^4 * 2^20 = 2^24 bytes।\n   অতএব ফিজিক্যাল অ্যাড্রেস বাস = ২৪ বিট।\n\n২. ব্লক সাইজ = 32 bytes = 2^5 bytes।\n   অতএব ব্লক অফসেট (Offset / Word) বিট = ৫ বিট।\n\n৩. ক্যাশ মেমরি সাইজ = 64 KB = 2^6 * 2^10 = 2^16 bytes।\n   ক্যাশ লাইনের মোট সংখ্যা = ক্যাশ সাইজ / ব্লক সাইজ\n   = 2^16 / 2^5 = 2^11 = 2048 টি লাইন।\n   অতএব ক্যাশ লাইন / ইনডেক্স (Line / Index) বিট = ১১ বিট।\n\n৪. ট্যাগ বিট (Tag Bits) নির্ণয়:\n   Tag = ফিজিক্যাল অ্যাড্রেস বিট - (Line বিট + Offset বিট)\n   = 24 - (11 + 5)\n   = 24 - 16 = ৮ বিট।\n\nউত্তর:\n• Tag: ৮ বিট\n• Line (Index): ১১ বিট\n• Offset (Word): ৫ বিট\n(মোট: ৮ + ১১ + ৫ = ২৪ বিট)।",
+    "points_to_remember": [
+      "ডাইরেক্ট ম্যাপিংয়ে মেইন মেমরির অ্যাড্রেসকে Tag + Index + Offset এই ৩টি ভাগে ভাগ করা হয়।"
+    ],
+    "tags": [
+      "buet_written",
+      "architecture",
+      "cache_memory",
+      "direct_mapping",
+      "math"
+    ]
+  }
+]

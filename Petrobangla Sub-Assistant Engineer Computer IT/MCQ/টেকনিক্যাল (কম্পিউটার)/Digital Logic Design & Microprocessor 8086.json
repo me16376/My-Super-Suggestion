@@ -1,0 +1,4402 @@
+[
+  {
+    "id": 1701,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন লজিক গেট দুটিকে ইউনিভার্সাল গেট (Universal Gates) বলা হয়?",
+    "options": [
+      "A) AND ও OR",
+      "B) NAND ও NOR",
+      "C) XOR ও XNOR",
+      "D) NOT ও AND"
+    ],
+    "answer": 1,
+    "explanation": "NAND এবং NOR গেট দিয়ে যেকোনো বুলিয়ান ফাংশন ও অন্যান্য মৌলিক গেট তৈরি করা যায় বলে এদের ইউনিভার্সাল গেট বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1702,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৪-ভেরিয়েবল K-Map-এ মোট কতটি সেল (Cells) থাকে?",
+    "options": [
+      "A) 8",
+      "B) 16",
+      "C) 32",
+      "D) 64"
+    ],
+    "answer": 1,
+    "explanation": "n ভ্যারিয়েবলের K-Map-এ সেলের সংখ্যা 2^n। ৪টি ভ্যারিয়েবলের জন্য 2^4 = 16 টি সেল থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1703,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৩-টু-৮ লাইন ডিকোডারে (Decoder) কতটি ইনপুট এবং কতটি আউটপুট লাইন থাকে?",
+    "options": [
+      "A) ৩টি ইনপুট ও ৮টি আউটপুট",
+      "B) ৮টি ইনপুট ও ৩টি আউটপুট",
+      "C) ১টি ইনপুট ও ৮টি আউটপুট",
+      "D) ৮টি ইনপুট ও ১টি আউটপুট"
+    ],
+    "answer": 0,
+    "explanation": "ডিকোডারে n সংখ্যক ইনপুট লাইন থেকে সর্বোচ্চ 2^n সংখ্যক স্বতন্ত্র আউটপুট লাইন উৎপন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1704,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ (Intel 8086) মাইক্রোপ্রসেসরের ডেটা বাস এবং অ্যাড্রেস বাসের সাইজ যথাক্রমে কত বিট?",
+    "options": [
+      "A) ৮ বিট ও ১৬ বিট",
+      "B) ১৬ বিট ও ২০ বিট",
+      "C) ৩২ বিট ও ৬৪ বিট",
+      "D) ১৬ বিট ও ৩২ বিট"
+    ],
+    "answer": 1,
+    "explanation": "৮০৮৬ হলো ১৬-বিট মাইক্রোপ্রসেসর যার ডেটা বাস ১৬ বিট এবং অ্যাড্রেস বাস ২০ বিট (যা ১ মেগাবাইট মেমরি অ্যাড্রেস করতে পারে)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1705,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ মাইক্রোপ্রসেসরে সেগমেন্ট অ্যাড্রেস 2000H এবং অফসেট অ্যাড্রেস 1050H হলে ফিজিক্যাল অ্যাড্রেস কত?",
+    "options": [
+      "A) 3050H",
+      "B) 21050H",
+      "C) 20150H",
+      "D) 21500H"
+    ],
+    "answer": 1,
+    "explanation": "ফিজিক্যাল অ্যাড্রেস = (Segment Address × 10H) + Offset = 20000H + 1050H = 21050H।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1706,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "জেকে (J-K) ফ্লিপ-ফ্লপের রেস অ্যারাউন্ড কন্ডিশন (Race-Around Condition) কখন ঘটে?",
+    "options": [
+      "A) J = 0, K = 0",
+      "B) J = 0, K = 1",
+      "C) J = 1, K = 0",
+      "D) J = 1, K = 1"
+    ],
+    "answer": 3,
+    "explanation": "যখন J=1, K=1 থাকে এবং ক্লক পালস পিরিয়ড প্রোপাগেশন ডিলের চেয়ে বড় হয়, তখন আউটপুট ক্রমাগত টগল হতে থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1707,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "মাস্টার-স্লেভ জে-কে ফ্লিপ-ফ্লপ প্রধানত কী দূর করতে ব্যবহৃত হয়?",
+    "options": [
+      "A) ক্লক স্কিউ",
+      "B) রেস অ্যারাউন্ড কন্ডিশন",
+      "C) পাওয়ার কনজাম্পশন",
+      "D) গেট ডিলে"
+    ],
+    "answer": 1,
+    "explanation": "মাস্টার-স্লেভ ফ্লিপ-ফ্লপ ক্লকের পজিটিভ ও নেগেটিভ এজে আলাদা কাজ করে রেস অ্যারাউন্ড কন্ডিশন সম্পূর্ণ দূর করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1708,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "ডেসিমাল সংখ্যা (28)₁₀ এর ২'র পরিপূরক (2's Complement) ৮-বিট বাইনারি রূপ কোনটি?",
+    "options": [
+      "A) 00011100",
+      "B) 11100011",
+      "C) 11100100",
+      "D) 11110010"
+    ],
+    "answer": 2,
+    "explanation": "+28 = 00011100। ১'র পরিপূরক = 11100011। এর সাথে ১ যোগ করলে ২'র পরিপূরক = 11100100।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1709,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ফুল-অ্যাডার (Full Adder) সার্কিটে কতটি হাফ-অ্যাডার এবং কতটি OR গেট থাকে?",
+    "options": [
+      "A) ১টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "B) ২টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "C) ২টি হাফ-অ্যাডার ও ২টি OR গেট",
+      "D) ৩টি হাফ-অ্যাডার"
+    ],
+    "answer": 1,
+    "explanation": "একটি ফুল অ্যাডার ২টি হাফ অ্যাডার এবং ১টি OR গেট দিয়ে তৈরি করা যায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1710,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন মেমরিটি উদ্বায়ী (Volatile) মেমরি?",
+    "options": [
+      "A) ROM",
+      "B) Flash Memory",
+      "C) SRAM (Static RAM)",
+      "D) Hard Disk"
+    ],
+    "answer": 2,
+    "explanation": "SRAM এবং DRAM হলো ভলাটাইল মেমরি, যা বিদ্যুৎ প্রবাহ বন্ধ হলে তাদের ভেতরের ডেটা হারায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1711,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন লজিক গেট দুটিকে ইউনিভার্সাল গেট (Universal Gates) বলা হয়? [সেট #2]",
+    "options": [
+      "A) AND ও OR",
+      "B) NAND ও NOR",
+      "C) XOR ও XNOR",
+      "D) NOT ও AND"
+    ],
+    "answer": 1,
+    "explanation": "NAND এবং NOR গেট দিয়ে যেকোনো বুলিয়ান ফাংশন ও অন্যান্য মৌলিক গেট তৈরি করা যায় বলে এদের ইউনিভার্সাল গেট বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1712,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৪-ভেরিয়েবল K-Map-এ মোট কতটি সেল (Cells) থাকে? [সেট #2]",
+    "options": [
+      "A) 8",
+      "B) 16",
+      "C) 32",
+      "D) 64"
+    ],
+    "answer": 1,
+    "explanation": "n ভ্যারিয়েবলের K-Map-এ সেলের সংখ্যা 2^n। ৪টি ভ্যারিয়েবলের জন্য 2^4 = 16 টি সেল থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1713,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৩-টু-৮ লাইন ডিকোডারে (Decoder) কতটি ইনপুট এবং কতটি আউটপুট লাইন থাকে? [সেট #2]",
+    "options": [
+      "A) ৩টি ইনপুট ও ৮টি আউটপুট",
+      "B) ৮টি ইনপুট ও ৩টি আউটপুট",
+      "C) ১টি ইনপুট ও ৮টি আউটপুট",
+      "D) ৮টি ইনপুট ও ১টি আউটপুট"
+    ],
+    "answer": 0,
+    "explanation": "ডিকোডারে n সংখ্যক ইনপুট লাইন থেকে সর্বোচ্চ 2^n সংখ্যক স্বতন্ত্র আউটপুট লাইন উৎপন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1714,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ (Intel 8086) মাইক্রোপ্রসেসরের ডেটা বাস এবং অ্যাড্রেস বাসের সাইজ যথাক্রমে কত বিট? [সেট #2]",
+    "options": [
+      "A) ৮ বিট ও ১৬ বিট",
+      "B) ১৬ বিট ও ২০ বিট",
+      "C) ৩২ বিট ও ৬৪ বিট",
+      "D) ১৬ বিট ও ৩২ বিট"
+    ],
+    "answer": 1,
+    "explanation": "৮০৮৬ হলো ১৬-বিট মাইক্রোপ্রসেসর যার ডেটা বাস ১৬ বিট এবং অ্যাড্রেস বাস ২০ বিট (যা ১ মেগাবাইট মেমরি অ্যাড্রেস করতে পারে)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1715,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ মাইক্রোপ্রসেসরে সেগমেন্ট অ্যাড্রেস 2000H এবং অফসেট অ্যাড্রেস 1050H হলে ফিজিক্যাল অ্যাড্রেস কত? [সেট #2]",
+    "options": [
+      "A) 3050H",
+      "B) 21050H",
+      "C) 20150H",
+      "D) 21500H"
+    ],
+    "answer": 1,
+    "explanation": "ফিজিক্যাল অ্যাড্রেস = (Segment Address × 10H) + Offset = 20000H + 1050H = 21050H।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1716,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "জেকে (J-K) ফ্লিপ-ফ্লপের রেস অ্যারাউন্ড কন্ডিশন (Race-Around Condition) কখন ঘটে? [সেট #2]",
+    "options": [
+      "A) J = 0, K = 0",
+      "B) J = 0, K = 1",
+      "C) J = 1, K = 0",
+      "D) J = 1, K = 1"
+    ],
+    "answer": 3,
+    "explanation": "যখন J=1, K=1 থাকে এবং ক্লক পালস পিরিয়ড প্রোপাগেশন ডিলের চেয়ে বড় হয়, তখন আউটপুট ক্রমাগত টগল হতে থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1717,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "মাস্টার-স্লেভ জে-কে ফ্লিপ-ফ্লপ প্রধানত কী দূর করতে ব্যবহৃত হয়? [সেট #2]",
+    "options": [
+      "A) ক্লক স্কিউ",
+      "B) রেস অ্যারাউন্ড কন্ডিশন",
+      "C) পাওয়ার কনজাম্পশন",
+      "D) গেট ডিলে"
+    ],
+    "answer": 1,
+    "explanation": "মাস্টার-স্লেভ ফ্লিপ-ফ্লপ ক্লকের পজিটিভ ও নেগেটিভ এজে আলাদা কাজ করে রেস অ্যারাউন্ড কন্ডিশন সম্পূর্ণ দূর করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1718,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "ডেসিমাল সংখ্যা (28)₁₀ এর ২'র পরিপূরক (2's Complement) ৮-বিট বাইনারি রূপ কোনটি? [সেট #2]",
+    "options": [
+      "A) 00011100",
+      "B) 11100011",
+      "C) 11100100",
+      "D) 11110010"
+    ],
+    "answer": 2,
+    "explanation": "+28 = 00011100। ১'র পরিপূরক = 11100011। এর সাথে ১ যোগ করলে ২'র পরিপূরক = 11100100।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1719,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ফুল-অ্যাডার (Full Adder) সার্কিটে কতটি হাফ-অ্যাডার এবং কতটি OR গেট থাকে? [সেট #2]",
+    "options": [
+      "A) ১টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "B) ২টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "C) ২টি হাফ-অ্যাডার ও ২টি OR গেট",
+      "D) ৩টি হাফ-অ্যাডার"
+    ],
+    "answer": 1,
+    "explanation": "একটি ফুল অ্যাডার ২টি হাফ অ্যাডার এবং ১টি OR গেট দিয়ে তৈরি করা যায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1720,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন মেমরিটি উদ্বায়ী (Volatile) মেমরি? [সেট #2]",
+    "options": [
+      "A) ROM",
+      "B) Flash Memory",
+      "C) SRAM (Static RAM)",
+      "D) Hard Disk"
+    ],
+    "answer": 2,
+    "explanation": "SRAM এবং DRAM হলো ভলাটাইল মেমরি, যা বিদ্যুৎ প্রবাহ বন্ধ হলে তাদের ভেতরের ডেটা হারায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1721,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন লজিক গেট দুটিকে ইউনিভার্সাল গেট (Universal Gates) বলা হয়? [সেট #3]",
+    "options": [
+      "A) AND ও OR",
+      "B) NAND ও NOR",
+      "C) XOR ও XNOR",
+      "D) NOT ও AND"
+    ],
+    "answer": 1,
+    "explanation": "NAND এবং NOR গেট দিয়ে যেকোনো বুলিয়ান ফাংশন ও অন্যান্য মৌলিক গেট তৈরি করা যায় বলে এদের ইউনিভার্সাল গেট বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1722,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৪-ভেরিয়েবল K-Map-এ মোট কতটি সেল (Cells) থাকে? [সেট #3]",
+    "options": [
+      "A) 8",
+      "B) 16",
+      "C) 32",
+      "D) 64"
+    ],
+    "answer": 1,
+    "explanation": "n ভ্যারিয়েবলের K-Map-এ সেলের সংখ্যা 2^n। ৪টি ভ্যারিয়েবলের জন্য 2^4 = 16 টি সেল থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1723,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৩-টু-৮ লাইন ডিকোডারে (Decoder) কতটি ইনপুট এবং কতটি আউটপুট লাইন থাকে? [সেট #3]",
+    "options": [
+      "A) ৩টি ইনপুট ও ৮টি আউটপুট",
+      "B) ৮টি ইনপুট ও ৩টি আউটপুট",
+      "C) ১টি ইনপুট ও ৮টি আউটপুট",
+      "D) ৮টি ইনপুট ও ১টি আউটপুট"
+    ],
+    "answer": 0,
+    "explanation": "ডিকোডারে n সংখ্যক ইনপুট লাইন থেকে সর্বোচ্চ 2^n সংখ্যক স্বতন্ত্র আউটপুট লাইন উৎপন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1724,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ (Intel 8086) মাইক্রোপ্রসেসরের ডেটা বাস এবং অ্যাড্রেস বাসের সাইজ যথাক্রমে কত বিট? [সেট #3]",
+    "options": [
+      "A) ৮ বিট ও ১৬ বিট",
+      "B) ১৬ বিট ও ২০ বিট",
+      "C) ৩২ বিট ও ৬৪ বিট",
+      "D) ১৬ বিট ও ৩২ বিট"
+    ],
+    "answer": 1,
+    "explanation": "৮০৮৬ হলো ১৬-বিট মাইক্রোপ্রসেসর যার ডেটা বাস ১৬ বিট এবং অ্যাড্রেস বাস ২০ বিট (যা ১ মেগাবাইট মেমরি অ্যাড্রেস করতে পারে)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1725,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ মাইক্রোপ্রসেসরে সেগমেন্ট অ্যাড্রেস 2000H এবং অফসেট অ্যাড্রেস 1050H হলে ফিজিক্যাল অ্যাড্রেস কত? [সেট #3]",
+    "options": [
+      "A) 3050H",
+      "B) 21050H",
+      "C) 20150H",
+      "D) 21500H"
+    ],
+    "answer": 1,
+    "explanation": "ফিজিক্যাল অ্যাড্রেস = (Segment Address × 10H) + Offset = 20000H + 1050H = 21050H।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1726,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "জেকে (J-K) ফ্লিপ-ফ্লপের রেস অ্যারাউন্ড কন্ডিশন (Race-Around Condition) কখন ঘটে? [সেট #3]",
+    "options": [
+      "A) J = 0, K = 0",
+      "B) J = 0, K = 1",
+      "C) J = 1, K = 0",
+      "D) J = 1, K = 1"
+    ],
+    "answer": 3,
+    "explanation": "যখন J=1, K=1 থাকে এবং ক্লক পালস পিরিয়ড প্রোপাগেশন ডিলের চেয়ে বড় হয়, তখন আউটপুট ক্রমাগত টগল হতে থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1727,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "মাস্টার-স্লেভ জে-কে ফ্লিপ-ফ্লপ প্রধানত কী দূর করতে ব্যবহৃত হয়? [সেট #3]",
+    "options": [
+      "A) ক্লক স্কিউ",
+      "B) রেস অ্যারাউন্ড কন্ডিশন",
+      "C) পাওয়ার কনজাম্পশন",
+      "D) গেট ডিলে"
+    ],
+    "answer": 1,
+    "explanation": "মাস্টার-স্লেভ ফ্লিপ-ফ্লপ ক্লকের পজিটিভ ও নেগেটিভ এজে আলাদা কাজ করে রেস অ্যারাউন্ড কন্ডিশন সম্পূর্ণ দূর করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1728,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "ডেসিমাল সংখ্যা (28)₁₀ এর ২'র পরিপূরক (2's Complement) ৮-বিট বাইনারি রূপ কোনটি? [সেট #3]",
+    "options": [
+      "A) 00011100",
+      "B) 11100011",
+      "C) 11100100",
+      "D) 11110010"
+    ],
+    "answer": 2,
+    "explanation": "+28 = 00011100। ১'র পরিপূরক = 11100011। এর সাথে ১ যোগ করলে ২'র পরিপূরক = 11100100।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1729,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ফুল-অ্যাডার (Full Adder) সার্কিটে কতটি হাফ-অ্যাডার এবং কতটি OR গেট থাকে? [সেট #3]",
+    "options": [
+      "A) ১টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "B) ২টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "C) ২টি হাফ-অ্যাডার ও ২টি OR গেট",
+      "D) ৩টি হাফ-অ্যাডার"
+    ],
+    "answer": 1,
+    "explanation": "একটি ফুল অ্যাডার ২টি হাফ অ্যাডার এবং ১টি OR গেট দিয়ে তৈরি করা যায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1730,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন মেমরিটি উদ্বায়ী (Volatile) মেমরি? [সেট #3]",
+    "options": [
+      "A) ROM",
+      "B) Flash Memory",
+      "C) SRAM (Static RAM)",
+      "D) Hard Disk"
+    ],
+    "answer": 2,
+    "explanation": "SRAM এবং DRAM হলো ভলাটাইল মেমরি, যা বিদ্যুৎ প্রবাহ বন্ধ হলে তাদের ভেতরের ডেটা হারায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1731,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন লজিক গেট দুটিকে ইউনিভার্সাল গেট (Universal Gates) বলা হয়? [সেট #4]",
+    "options": [
+      "A) AND ও OR",
+      "B) NAND ও NOR",
+      "C) XOR ও XNOR",
+      "D) NOT ও AND"
+    ],
+    "answer": 1,
+    "explanation": "NAND এবং NOR গেট দিয়ে যেকোনো বুলিয়ান ফাংশন ও অন্যান্য মৌলিক গেট তৈরি করা যায় বলে এদের ইউনিভার্সাল গেট বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1732,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৪-ভেরিয়েবল K-Map-এ মোট কতটি সেল (Cells) থাকে? [সেট #4]",
+    "options": [
+      "A) 8",
+      "B) 16",
+      "C) 32",
+      "D) 64"
+    ],
+    "answer": 1,
+    "explanation": "n ভ্যারিয়েবলের K-Map-এ সেলের সংখ্যা 2^n। ৪টি ভ্যারিয়েবলের জন্য 2^4 = 16 টি সেল থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1733,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৩-টু-৮ লাইন ডিকোডারে (Decoder) কতটি ইনপুট এবং কতটি আউটপুট লাইন থাকে? [সেট #4]",
+    "options": [
+      "A) ৩টি ইনপুট ও ৮টি আউটপুট",
+      "B) ৮টি ইনপুট ও ৩টি আউটপুট",
+      "C) ১টি ইনপুট ও ৮টি আউটপুট",
+      "D) ৮টি ইনপুট ও ১টি আউটপুট"
+    ],
+    "answer": 0,
+    "explanation": "ডিকোডারে n সংখ্যক ইনপুট লাইন থেকে সর্বোচ্চ 2^n সংখ্যক স্বতন্ত্র আউটপুট লাইন উৎপন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1734,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ (Intel 8086) মাইক্রোপ্রসেসরের ডেটা বাস এবং অ্যাড্রেস বাসের সাইজ যথাক্রমে কত বিট? [সেট #4]",
+    "options": [
+      "A) ৮ বিট ও ১৬ বিট",
+      "B) ১৬ বিট ও ২০ বিট",
+      "C) ৩২ বিট ও ৬৪ বিট",
+      "D) ১৬ বিট ও ৩২ বিট"
+    ],
+    "answer": 1,
+    "explanation": "৮০৮৬ হলো ১৬-বিট মাইক্রোপ্রসেসর যার ডেটা বাস ১৬ বিট এবং অ্যাড্রেস বাস ২০ বিট (যা ১ মেগাবাইট মেমরি অ্যাড্রেস করতে পারে)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1735,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ মাইক্রোপ্রসেসরে সেগমেন্ট অ্যাড্রেস 2000H এবং অফসেট অ্যাড্রেস 1050H হলে ফিজিক্যাল অ্যাড্রেস কত? [সেট #4]",
+    "options": [
+      "A) 3050H",
+      "B) 21050H",
+      "C) 20150H",
+      "D) 21500H"
+    ],
+    "answer": 1,
+    "explanation": "ফিজিক্যাল অ্যাড্রেস = (Segment Address × 10H) + Offset = 20000H + 1050H = 21050H।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1736,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "জেকে (J-K) ফ্লিপ-ফ্লপের রেস অ্যারাউন্ড কন্ডিশন (Race-Around Condition) কখন ঘটে? [সেট #4]",
+    "options": [
+      "A) J = 0, K = 0",
+      "B) J = 0, K = 1",
+      "C) J = 1, K = 0",
+      "D) J = 1, K = 1"
+    ],
+    "answer": 3,
+    "explanation": "যখন J=1, K=1 থাকে এবং ক্লক পালস পিরিয়ড প্রোপাগেশন ডিলের চেয়ে বড় হয়, তখন আউটপুট ক্রমাগত টগল হতে থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1737,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "মাস্টার-স্লেভ জে-কে ফ্লিপ-ফ্লপ প্রধানত কী দূর করতে ব্যবহৃত হয়? [সেট #4]",
+    "options": [
+      "A) ক্লক স্কিউ",
+      "B) রেস অ্যারাউন্ড কন্ডিশন",
+      "C) পাওয়ার কনজাম্পশন",
+      "D) গেট ডিলে"
+    ],
+    "answer": 1,
+    "explanation": "মাস্টার-স্লেভ ফ্লিপ-ফ্লপ ক্লকের পজিটিভ ও নেগেটিভ এজে আলাদা কাজ করে রেস অ্যারাউন্ড কন্ডিশন সম্পূর্ণ দূর করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1738,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "ডেসিমাল সংখ্যা (28)₁₀ এর ২'র পরিপূরক (2's Complement) ৮-বিট বাইনারি রূপ কোনটি? [সেট #4]",
+    "options": [
+      "A) 00011100",
+      "B) 11100011",
+      "C) 11100100",
+      "D) 11110010"
+    ],
+    "answer": 2,
+    "explanation": "+28 = 00011100। ১'র পরিপূরক = 11100011। এর সাথে ১ যোগ করলে ২'র পরিপূরক = 11100100।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1739,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ফুল-অ্যাডার (Full Adder) সার্কিটে কতটি হাফ-অ্যাডার এবং কতটি OR গেট থাকে? [সেট #4]",
+    "options": [
+      "A) ১টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "B) ২টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "C) ২টি হাফ-অ্যাডার ও ২টি OR গেট",
+      "D) ৩টি হাফ-অ্যাডার"
+    ],
+    "answer": 1,
+    "explanation": "একটি ফুল অ্যাডার ২টি হাফ অ্যাডার এবং ১টি OR গেট দিয়ে তৈরি করা যায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1740,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন মেমরিটি উদ্বায়ী (Volatile) মেমরি? [সেট #4]",
+    "options": [
+      "A) ROM",
+      "B) Flash Memory",
+      "C) SRAM (Static RAM)",
+      "D) Hard Disk"
+    ],
+    "answer": 2,
+    "explanation": "SRAM এবং DRAM হলো ভলাটাইল মেমরি, যা বিদ্যুৎ প্রবাহ বন্ধ হলে তাদের ভেতরের ডেটা হারায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1741,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন লজিক গেট দুটিকে ইউনিভার্সাল গেট (Universal Gates) বলা হয়? [সেট #5]",
+    "options": [
+      "A) AND ও OR",
+      "B) NAND ও NOR",
+      "C) XOR ও XNOR",
+      "D) NOT ও AND"
+    ],
+    "answer": 1,
+    "explanation": "NAND এবং NOR গেট দিয়ে যেকোনো বুলিয়ান ফাংশন ও অন্যান্য মৌলিক গেট তৈরি করা যায় বলে এদের ইউনিভার্সাল গেট বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1742,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৪-ভেরিয়েবল K-Map-এ মোট কতটি সেল (Cells) থাকে? [সেট #5]",
+    "options": [
+      "A) 8",
+      "B) 16",
+      "C) 32",
+      "D) 64"
+    ],
+    "answer": 1,
+    "explanation": "n ভ্যারিয়েবলের K-Map-এ সেলের সংখ্যা 2^n। ৪টি ভ্যারিয়েবলের জন্য 2^4 = 16 টি সেল থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1743,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৩-টু-৮ লাইন ডিকোডারে (Decoder) কতটি ইনপুট এবং কতটি আউটপুট লাইন থাকে? [সেট #5]",
+    "options": [
+      "A) ৩টি ইনপুট ও ৮টি আউটপুট",
+      "B) ৮টি ইনপুট ও ৩টি আউটপুট",
+      "C) ১টি ইনপুট ও ৮টি আউটপুট",
+      "D) ৮টি ইনপুট ও ১টি আউটপুট"
+    ],
+    "answer": 0,
+    "explanation": "ডিকোডারে n সংখ্যক ইনপুট লাইন থেকে সর্বোচ্চ 2^n সংখ্যক স্বতন্ত্র আউটপুট লাইন উৎপন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1744,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ (Intel 8086) মাইক্রোপ্রসেসরের ডেটা বাস এবং অ্যাড্রেস বাসের সাইজ যথাক্রমে কত বিট? [সেট #5]",
+    "options": [
+      "A) ৮ বিট ও ১৬ বিট",
+      "B) ১৬ বিট ও ২০ বিট",
+      "C) ৩২ বিট ও ৬৪ বিট",
+      "D) ১৬ বিট ও ৩২ বিট"
+    ],
+    "answer": 1,
+    "explanation": "৮০৮৬ হলো ১৬-বিট মাইক্রোপ্রসেসর যার ডেটা বাস ১৬ বিট এবং অ্যাড্রেস বাস ২০ বিট (যা ১ মেগাবাইট মেমরি অ্যাড্রেস করতে পারে)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1745,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ মাইক্রোপ্রসেসরে সেগমেন্ট অ্যাড্রেস 2000H এবং অফসেট অ্যাড্রেস 1050H হলে ফিজিক্যাল অ্যাড্রেস কত? [সেট #5]",
+    "options": [
+      "A) 3050H",
+      "B) 21050H",
+      "C) 20150H",
+      "D) 21500H"
+    ],
+    "answer": 1,
+    "explanation": "ফিজিক্যাল অ্যাড্রেস = (Segment Address × 10H) + Offset = 20000H + 1050H = 21050H।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1746,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "জেকে (J-K) ফ্লিপ-ফ্লপের রেস অ্যারাউন্ড কন্ডিশন (Race-Around Condition) কখন ঘটে? [সেট #5]",
+    "options": [
+      "A) J = 0, K = 0",
+      "B) J = 0, K = 1",
+      "C) J = 1, K = 0",
+      "D) J = 1, K = 1"
+    ],
+    "answer": 3,
+    "explanation": "যখন J=1, K=1 থাকে এবং ক্লক পালস পিরিয়ড প্রোপাগেশন ডিলের চেয়ে বড় হয়, তখন আউটপুট ক্রমাগত টগল হতে থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1747,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "মাস্টার-স্লেভ জে-কে ফ্লিপ-ফ্লপ প্রধানত কী দূর করতে ব্যবহৃত হয়? [সেট #5]",
+    "options": [
+      "A) ক্লক স্কিউ",
+      "B) রেস অ্যারাউন্ড কন্ডিশন",
+      "C) পাওয়ার কনজাম্পশন",
+      "D) গেট ডিলে"
+    ],
+    "answer": 1,
+    "explanation": "মাস্টার-স্লেভ ফ্লিপ-ফ্লপ ক্লকের পজিটিভ ও নেগেটিভ এজে আলাদা কাজ করে রেস অ্যারাউন্ড কন্ডিশন সম্পূর্ণ দূর করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1748,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "ডেসিমাল সংখ্যা (28)₁₀ এর ২'র পরিপূরক (2's Complement) ৮-বিট বাইনারি রূপ কোনটি? [সেট #5]",
+    "options": [
+      "A) 00011100",
+      "B) 11100011",
+      "C) 11100100",
+      "D) 11110010"
+    ],
+    "answer": 2,
+    "explanation": "+28 = 00011100। ১'র পরিপূরক = 11100011। এর সাথে ১ যোগ করলে ২'র পরিপূরক = 11100100।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1749,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ফুল-অ্যাডার (Full Adder) সার্কিটে কতটি হাফ-অ্যাডার এবং কতটি OR গেট থাকে? [সেট #5]",
+    "options": [
+      "A) ১টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "B) ২টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "C) ২টি হাফ-অ্যাডার ও ২টি OR গেট",
+      "D) ৩টি হাফ-অ্যাডার"
+    ],
+    "answer": 1,
+    "explanation": "একটি ফুল অ্যাডার ২টি হাফ অ্যাডার এবং ১টি OR গেট দিয়ে তৈরি করা যায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1750,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন মেমরিটি উদ্বায়ী (Volatile) মেমরি? [সেট #5]",
+    "options": [
+      "A) ROM",
+      "B) Flash Memory",
+      "C) SRAM (Static RAM)",
+      "D) Hard Disk"
+    ],
+    "answer": 2,
+    "explanation": "SRAM এবং DRAM হলো ভলাটাইল মেমরি, যা বিদ্যুৎ প্রবাহ বন্ধ হলে তাদের ভেতরের ডেটা হারায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1751,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন লজিক গেট দুটিকে ইউনিভার্সাল গেট (Universal Gates) বলা হয়? [সেট #6]",
+    "options": [
+      "A) AND ও OR",
+      "B) NAND ও NOR",
+      "C) XOR ও XNOR",
+      "D) NOT ও AND"
+    ],
+    "answer": 1,
+    "explanation": "NAND এবং NOR গেট দিয়ে যেকোনো বুলিয়ান ফাংশন ও অন্যান্য মৌলিক গেট তৈরি করা যায় বলে এদের ইউনিভার্সাল গেট বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1752,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৪-ভেরিয়েবল K-Map-এ মোট কতটি সেল (Cells) থাকে? [সেট #6]",
+    "options": [
+      "A) 8",
+      "B) 16",
+      "C) 32",
+      "D) 64"
+    ],
+    "answer": 1,
+    "explanation": "n ভ্যারিয়েবলের K-Map-এ সেলের সংখ্যা 2^n। ৪টি ভ্যারিয়েবলের জন্য 2^4 = 16 টি সেল থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1753,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৩-টু-৮ লাইন ডিকোডারে (Decoder) কতটি ইনপুট এবং কতটি আউটপুট লাইন থাকে? [সেট #6]",
+    "options": [
+      "A) ৩টি ইনপুট ও ৮টি আউটপুট",
+      "B) ৮টি ইনপুট ও ৩টি আউটপুট",
+      "C) ১টি ইনপুট ও ৮টি আউটপুট",
+      "D) ৮টি ইনপুট ও ১টি আউটপুট"
+    ],
+    "answer": 0,
+    "explanation": "ডিকোডারে n সংখ্যক ইনপুট লাইন থেকে সর্বোচ্চ 2^n সংখ্যক স্বতন্ত্র আউটপুট লাইন উৎপন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1754,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ (Intel 8086) মাইক্রোপ্রসেসরের ডেটা বাস এবং অ্যাড্রেস বাসের সাইজ যথাক্রমে কত বিট? [সেট #6]",
+    "options": [
+      "A) ৮ বিট ও ১৬ বিট",
+      "B) ১৬ বিট ও ২০ বিট",
+      "C) ৩২ বিট ও ৬৪ বিট",
+      "D) ১৬ বিট ও ৩২ বিট"
+    ],
+    "answer": 1,
+    "explanation": "৮০৮৬ হলো ১৬-বিট মাইক্রোপ্রসেসর যার ডেটা বাস ১৬ বিট এবং অ্যাড্রেস বাস ২০ বিট (যা ১ মেগাবাইট মেমরি অ্যাড্রেস করতে পারে)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1755,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ মাইক্রোপ্রসেসরে সেগমেন্ট অ্যাড্রেস 2000H এবং অফসেট অ্যাড্রেস 1050H হলে ফিজিক্যাল অ্যাড্রেস কত? [সেট #6]",
+    "options": [
+      "A) 3050H",
+      "B) 21050H",
+      "C) 20150H",
+      "D) 21500H"
+    ],
+    "answer": 1,
+    "explanation": "ফিজিক্যাল অ্যাড্রেস = (Segment Address × 10H) + Offset = 20000H + 1050H = 21050H।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1756,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "জেকে (J-K) ফ্লিপ-ফ্লপের রেস অ্যারাউন্ড কন্ডিশন (Race-Around Condition) কখন ঘটে? [সেট #6]",
+    "options": [
+      "A) J = 0, K = 0",
+      "B) J = 0, K = 1",
+      "C) J = 1, K = 0",
+      "D) J = 1, K = 1"
+    ],
+    "answer": 3,
+    "explanation": "যখন J=1, K=1 থাকে এবং ক্লক পালস পিরিয়ড প্রোপাগেশন ডিলের চেয়ে বড় হয়, তখন আউটপুট ক্রমাগত টগল হতে থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1757,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "মাস্টার-স্লেভ জে-কে ফ্লিপ-ফ্লপ প্রধানত কী দূর করতে ব্যবহৃত হয়? [সেট #6]",
+    "options": [
+      "A) ক্লক স্কিউ",
+      "B) রেস অ্যারাউন্ড কন্ডিশন",
+      "C) পাওয়ার কনজাম্পশন",
+      "D) গেট ডিলে"
+    ],
+    "answer": 1,
+    "explanation": "মাস্টার-স্লেভ ফ্লিপ-ফ্লপ ক্লকের পজিটিভ ও নেগেটিভ এজে আলাদা কাজ করে রেস অ্যারাউন্ড কন্ডিশন সম্পূর্ণ দূর করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1758,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "ডেসিমাল সংখ্যা (28)₁₀ এর ২'র পরিপূরক (2's Complement) ৮-বিট বাইনারি রূপ কোনটি? [সেট #6]",
+    "options": [
+      "A) 00011100",
+      "B) 11100011",
+      "C) 11100100",
+      "D) 11110010"
+    ],
+    "answer": 2,
+    "explanation": "+28 = 00011100। ১'র পরিপূরক = 11100011। এর সাথে ১ যোগ করলে ২'র পরিপূরক = 11100100।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1759,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ফুল-অ্যাডার (Full Adder) সার্কিটে কতটি হাফ-অ্যাডার এবং কতটি OR গেট থাকে? [সেট #6]",
+    "options": [
+      "A) ১টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "B) ২টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "C) ২টি হাফ-অ্যাডার ও ২টি OR গেট",
+      "D) ৩টি হাফ-অ্যাডার"
+    ],
+    "answer": 1,
+    "explanation": "একটি ফুল অ্যাডার ২টি হাফ অ্যাডার এবং ১টি OR গেট দিয়ে তৈরি করা যায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1760,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন মেমরিটি উদ্বায়ী (Volatile) মেমরি? [সেট #6]",
+    "options": [
+      "A) ROM",
+      "B) Flash Memory",
+      "C) SRAM (Static RAM)",
+      "D) Hard Disk"
+    ],
+    "answer": 2,
+    "explanation": "SRAM এবং DRAM হলো ভলাটাইল মেমরি, যা বিদ্যুৎ প্রবাহ বন্ধ হলে তাদের ভেতরের ডেটা হারায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1761,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন লজিক গেট দুটিকে ইউনিভার্সাল গেট (Universal Gates) বলা হয়? [সেট #7]",
+    "options": [
+      "A) AND ও OR",
+      "B) NAND ও NOR",
+      "C) XOR ও XNOR",
+      "D) NOT ও AND"
+    ],
+    "answer": 1,
+    "explanation": "NAND এবং NOR গেট দিয়ে যেকোনো বুলিয়ান ফাংশন ও অন্যান্য মৌলিক গেট তৈরি করা যায় বলে এদের ইউনিভার্সাল গেট বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1762,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৪-ভেরিয়েবল K-Map-এ মোট কতটি সেল (Cells) থাকে? [সেট #7]",
+    "options": [
+      "A) 8",
+      "B) 16",
+      "C) 32",
+      "D) 64"
+    ],
+    "answer": 1,
+    "explanation": "n ভ্যারিয়েবলের K-Map-এ সেলের সংখ্যা 2^n। ৪টি ভ্যারিয়েবলের জন্য 2^4 = 16 টি সেল থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1763,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৩-টু-৮ লাইন ডিকোডারে (Decoder) কতটি ইনপুট এবং কতটি আউটপুট লাইন থাকে? [সেট #7]",
+    "options": [
+      "A) ৩টি ইনপুট ও ৮টি আউটপুট",
+      "B) ৮টি ইনপুট ও ৩টি আউটপুট",
+      "C) ১টি ইনপুট ও ৮টি আউটপুট",
+      "D) ৮টি ইনপুট ও ১টি আউটপুট"
+    ],
+    "answer": 0,
+    "explanation": "ডিকোডারে n সংখ্যক ইনপুট লাইন থেকে সর্বোচ্চ 2^n সংখ্যক স্বতন্ত্র আউটপুট লাইন উৎপন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1764,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ (Intel 8086) মাইক্রোপ্রসেসরের ডেটা বাস এবং অ্যাড্রেস বাসের সাইজ যথাক্রমে কত বিট? [সেট #7]",
+    "options": [
+      "A) ৮ বিট ও ১৬ বিট",
+      "B) ১৬ বিট ও ২০ বিট",
+      "C) ৩২ বিট ও ৬৪ বিট",
+      "D) ১৬ বিট ও ৩২ বিট"
+    ],
+    "answer": 1,
+    "explanation": "৮০৮৬ হলো ১৬-বিট মাইক্রোপ্রসেসর যার ডেটা বাস ১৬ বিট এবং অ্যাড্রেস বাস ২০ বিট (যা ১ মেগাবাইট মেমরি অ্যাড্রেস করতে পারে)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1765,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ মাইক্রোপ্রসেসরে সেগমেন্ট অ্যাড্রেস 2000H এবং অফসেট অ্যাড্রেস 1050H হলে ফিজিক্যাল অ্যাড্রেস কত? [সেট #7]",
+    "options": [
+      "A) 3050H",
+      "B) 21050H",
+      "C) 20150H",
+      "D) 21500H"
+    ],
+    "answer": 1,
+    "explanation": "ফিজিক্যাল অ্যাড্রেস = (Segment Address × 10H) + Offset = 20000H + 1050H = 21050H।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1766,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "জেকে (J-K) ফ্লিপ-ফ্লপের রেস অ্যারাউন্ড কন্ডিশন (Race-Around Condition) কখন ঘটে? [সেট #7]",
+    "options": [
+      "A) J = 0, K = 0",
+      "B) J = 0, K = 1",
+      "C) J = 1, K = 0",
+      "D) J = 1, K = 1"
+    ],
+    "answer": 3,
+    "explanation": "যখন J=1, K=1 থাকে এবং ক্লক পালস পিরিয়ড প্রোপাগেশন ডিলের চেয়ে বড় হয়, তখন আউটপুট ক্রমাগত টগল হতে থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1767,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "মাস্টার-স্লেভ জে-কে ফ্লিপ-ফ্লপ প্রধানত কী দূর করতে ব্যবহৃত হয়? [সেট #7]",
+    "options": [
+      "A) ক্লক স্কিউ",
+      "B) রেস অ্যারাউন্ড কন্ডিশন",
+      "C) পাওয়ার কনজাম্পশন",
+      "D) গেট ডিলে"
+    ],
+    "answer": 1,
+    "explanation": "মাস্টার-স্লেভ ফ্লিপ-ফ্লপ ক্লকের পজিটিভ ও নেগেটিভ এজে আলাদা কাজ করে রেস অ্যারাউন্ড কন্ডিশন সম্পূর্ণ দূর করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1768,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "ডেসিমাল সংখ্যা (28)₁₀ এর ২'র পরিপূরক (2's Complement) ৮-বিট বাইনারি রূপ কোনটি? [সেট #7]",
+    "options": [
+      "A) 00011100",
+      "B) 11100011",
+      "C) 11100100",
+      "D) 11110010"
+    ],
+    "answer": 2,
+    "explanation": "+28 = 00011100। ১'র পরিপূরক = 11100011। এর সাথে ১ যোগ করলে ২'র পরিপূরক = 11100100।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1769,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ফুল-অ্যাডার (Full Adder) সার্কিটে কতটি হাফ-অ্যাডার এবং কতটি OR গেট থাকে? [সেট #7]",
+    "options": [
+      "A) ১টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "B) ২টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "C) ২টি হাফ-অ্যাডার ও ২টি OR গেট",
+      "D) ৩টি হাফ-অ্যাডার"
+    ],
+    "answer": 1,
+    "explanation": "একটি ফুল অ্যাডার ২টি হাফ অ্যাডার এবং ১টি OR গেট দিয়ে তৈরি করা যায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1770,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন মেমরিটি উদ্বায়ী (Volatile) মেমরি? [সেট #7]",
+    "options": [
+      "A) ROM",
+      "B) Flash Memory",
+      "C) SRAM (Static RAM)",
+      "D) Hard Disk"
+    ],
+    "answer": 2,
+    "explanation": "SRAM এবং DRAM হলো ভলাটাইল মেমরি, যা বিদ্যুৎ প্রবাহ বন্ধ হলে তাদের ভেতরের ডেটা হারায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1771,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন লজিক গেট দুটিকে ইউনিভার্সাল গেট (Universal Gates) বলা হয়? [সেট #8]",
+    "options": [
+      "A) AND ও OR",
+      "B) NAND ও NOR",
+      "C) XOR ও XNOR",
+      "D) NOT ও AND"
+    ],
+    "answer": 1,
+    "explanation": "NAND এবং NOR গেট দিয়ে যেকোনো বুলিয়ান ফাংশন ও অন্যান্য মৌলিক গেট তৈরি করা যায় বলে এদের ইউনিভার্সাল গেট বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1772,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৪-ভেরিয়েবল K-Map-এ মোট কতটি সেল (Cells) থাকে? [সেট #8]",
+    "options": [
+      "A) 8",
+      "B) 16",
+      "C) 32",
+      "D) 64"
+    ],
+    "answer": 1,
+    "explanation": "n ভ্যারিয়েবলের K-Map-এ সেলের সংখ্যা 2^n। ৪টি ভ্যারিয়েবলের জন্য 2^4 = 16 টি সেল থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1773,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৩-টু-৮ লাইন ডিকোডারে (Decoder) কতটি ইনপুট এবং কতটি আউটপুট লাইন থাকে? [সেট #8]",
+    "options": [
+      "A) ৩টি ইনপুট ও ৮টি আউটপুট",
+      "B) ৮টি ইনপুট ও ৩টি আউটপুট",
+      "C) ১টি ইনপুট ও ৮টি আউটপুট",
+      "D) ৮টি ইনপুট ও ১টি আউটপুট"
+    ],
+    "answer": 0,
+    "explanation": "ডিকোডারে n সংখ্যক ইনপুট লাইন থেকে সর্বোচ্চ 2^n সংখ্যক স্বতন্ত্র আউটপুট লাইন উৎপন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1774,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ (Intel 8086) মাইক্রোপ্রসেসরের ডেটা বাস এবং অ্যাড্রেস বাসের সাইজ যথাক্রমে কত বিট? [সেট #8]",
+    "options": [
+      "A) ৮ বিট ও ১৬ বিট",
+      "B) ১৬ বিট ও ২০ বিট",
+      "C) ৩২ বিট ও ৬৪ বিট",
+      "D) ১৬ বিট ও ৩২ বিট"
+    ],
+    "answer": 1,
+    "explanation": "৮০৮৬ হলো ১৬-বিট মাইক্রোপ্রসেসর যার ডেটা বাস ১৬ বিট এবং অ্যাড্রেস বাস ২০ বিট (যা ১ মেগাবাইট মেমরি অ্যাড্রেস করতে পারে)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1775,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ মাইক্রোপ্রসেসরে সেগমেন্ট অ্যাড্রেস 2000H এবং অফসেট অ্যাড্রেস 1050H হলে ফিজিক্যাল অ্যাড্রেস কত? [সেট #8]",
+    "options": [
+      "A) 3050H",
+      "B) 21050H",
+      "C) 20150H",
+      "D) 21500H"
+    ],
+    "answer": 1,
+    "explanation": "ফিজিক্যাল অ্যাড্রেস = (Segment Address × 10H) + Offset = 20000H + 1050H = 21050H।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1776,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "জেকে (J-K) ফ্লিপ-ফ্লপের রেস অ্যারাউন্ড কন্ডিশন (Race-Around Condition) কখন ঘটে? [সেট #8]",
+    "options": [
+      "A) J = 0, K = 0",
+      "B) J = 0, K = 1",
+      "C) J = 1, K = 0",
+      "D) J = 1, K = 1"
+    ],
+    "answer": 3,
+    "explanation": "যখন J=1, K=1 থাকে এবং ক্লক পালস পিরিয়ড প্রোপাগেশন ডিলের চেয়ে বড় হয়, তখন আউটপুট ক্রমাগত টগল হতে থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1777,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "মাস্টার-স্লেভ জে-কে ফ্লিপ-ফ্লপ প্রধানত কী দূর করতে ব্যবহৃত হয়? [সেট #8]",
+    "options": [
+      "A) ক্লক স্কিউ",
+      "B) রেস অ্যারাউন্ড কন্ডিশন",
+      "C) পাওয়ার কনজাম্পশন",
+      "D) গেট ডিলে"
+    ],
+    "answer": 1,
+    "explanation": "মাস্টার-স্লেভ ফ্লিপ-ফ্লপ ক্লকের পজিটিভ ও নেগেটিভ এজে আলাদা কাজ করে রেস অ্যারাউন্ড কন্ডিশন সম্পূর্ণ দূর করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1778,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "ডেসিমাল সংখ্যা (28)₁₀ এর ২'র পরিপূরক (2's Complement) ৮-বিট বাইনারি রূপ কোনটি? [সেট #8]",
+    "options": [
+      "A) 00011100",
+      "B) 11100011",
+      "C) 11100100",
+      "D) 11110010"
+    ],
+    "answer": 2,
+    "explanation": "+28 = 00011100। ১'র পরিপূরক = 11100011। এর সাথে ১ যোগ করলে ২'র পরিপূরক = 11100100।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1779,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ফুল-অ্যাডার (Full Adder) সার্কিটে কতটি হাফ-অ্যাডার এবং কতটি OR গেট থাকে? [সেট #8]",
+    "options": [
+      "A) ১টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "B) ২টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "C) ২টি হাফ-অ্যাডার ও ২টি OR গেট",
+      "D) ৩টি হাফ-অ্যাডার"
+    ],
+    "answer": 1,
+    "explanation": "একটি ফুল অ্যাডার ২টি হাফ অ্যাডার এবং ১টি OR গেট দিয়ে তৈরি করা যায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1780,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন মেমরিটি উদ্বায়ী (Volatile) মেমরি? [সেট #8]",
+    "options": [
+      "A) ROM",
+      "B) Flash Memory",
+      "C) SRAM (Static RAM)",
+      "D) Hard Disk"
+    ],
+    "answer": 2,
+    "explanation": "SRAM এবং DRAM হলো ভলাটাইল মেমরি, যা বিদ্যুৎ প্রবাহ বন্ধ হলে তাদের ভেতরের ডেটা হারায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1781,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন লজিক গেট দুটিকে ইউনিভার্সাল গেট (Universal Gates) বলা হয়? [সেট #9]",
+    "options": [
+      "A) AND ও OR",
+      "B) NAND ও NOR",
+      "C) XOR ও XNOR",
+      "D) NOT ও AND"
+    ],
+    "answer": 1,
+    "explanation": "NAND এবং NOR গেট দিয়ে যেকোনো বুলিয়ান ফাংশন ও অন্যান্য মৌলিক গেট তৈরি করা যায় বলে এদের ইউনিভার্সাল গেট বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1782,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৪-ভেরিয়েবল K-Map-এ মোট কতটি সেল (Cells) থাকে? [সেট #9]",
+    "options": [
+      "A) 8",
+      "B) 16",
+      "C) 32",
+      "D) 64"
+    ],
+    "answer": 1,
+    "explanation": "n ভ্যারিয়েবলের K-Map-এ সেলের সংখ্যা 2^n। ৪টি ভ্যারিয়েবলের জন্য 2^4 = 16 টি সেল থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1783,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৩-টু-৮ লাইন ডিকোডারে (Decoder) কতটি ইনপুট এবং কতটি আউটপুট লাইন থাকে? [সেট #9]",
+    "options": [
+      "A) ৩টি ইনপুট ও ৮টি আউটপুট",
+      "B) ৮টি ইনপুট ও ৩টি আউটপুট",
+      "C) ১টি ইনপুট ও ৮টি আউটপুট",
+      "D) ৮টি ইনপুট ও ১টি আউটপুট"
+    ],
+    "answer": 0,
+    "explanation": "ডিকোডারে n সংখ্যক ইনপুট লাইন থেকে সর্বোচ্চ 2^n সংখ্যক স্বতন্ত্র আউটপুট লাইন উৎপন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1784,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ (Intel 8086) মাইক্রোপ্রসেসরের ডেটা বাস এবং অ্যাড্রেস বাসের সাইজ যথাক্রমে কত বিট? [সেট #9]",
+    "options": [
+      "A) ৮ বিট ও ১৬ বিট",
+      "B) ১৬ বিট ও ২০ বিট",
+      "C) ৩২ বিট ও ৬৪ বিট",
+      "D) ১৬ বিট ও ৩২ বিট"
+    ],
+    "answer": 1,
+    "explanation": "৮০৮৬ হলো ১৬-বিট মাইক্রোপ্রসেসর যার ডেটা বাস ১৬ বিট এবং অ্যাড্রেস বাস ২০ বিট (যা ১ মেগাবাইট মেমরি অ্যাড্রেস করতে পারে)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1785,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ মাইক্রোপ্রসেসরে সেগমেন্ট অ্যাড্রেস 2000H এবং অফসেট অ্যাড্রেস 1050H হলে ফিজিক্যাল অ্যাড্রেস কত? [সেট #9]",
+    "options": [
+      "A) 3050H",
+      "B) 21050H",
+      "C) 20150H",
+      "D) 21500H"
+    ],
+    "answer": 1,
+    "explanation": "ফিজিক্যাল অ্যাড্রেস = (Segment Address × 10H) + Offset = 20000H + 1050H = 21050H।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1786,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "জেকে (J-K) ফ্লিপ-ফ্লপের রেস অ্যারাউন্ড কন্ডিশন (Race-Around Condition) কখন ঘটে? [সেট #9]",
+    "options": [
+      "A) J = 0, K = 0",
+      "B) J = 0, K = 1",
+      "C) J = 1, K = 0",
+      "D) J = 1, K = 1"
+    ],
+    "answer": 3,
+    "explanation": "যখন J=1, K=1 থাকে এবং ক্লক পালস পিরিয়ড প্রোপাগেশন ডিলের চেয়ে বড় হয়, তখন আউটপুট ক্রমাগত টগল হতে থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1787,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "মাস্টার-স্লেভ জে-কে ফ্লিপ-ফ্লপ প্রধানত কী দূর করতে ব্যবহৃত হয়? [সেট #9]",
+    "options": [
+      "A) ক্লক স্কিউ",
+      "B) রেস অ্যারাউন্ড কন্ডিশন",
+      "C) পাওয়ার কনজাম্পশন",
+      "D) গেট ডিলে"
+    ],
+    "answer": 1,
+    "explanation": "মাস্টার-স্লেভ ফ্লিপ-ফ্লপ ক্লকের পজিটিভ ও নেগেটিভ এজে আলাদা কাজ করে রেস অ্যারাউন্ড কন্ডিশন সম্পূর্ণ দূর করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1788,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "ডেসিমাল সংখ্যা (28)₁₀ এর ২'র পরিপূরক (2's Complement) ৮-বিট বাইনারি রূপ কোনটি? [সেট #9]",
+    "options": [
+      "A) 00011100",
+      "B) 11100011",
+      "C) 11100100",
+      "D) 11110010"
+    ],
+    "answer": 2,
+    "explanation": "+28 = 00011100। ১'র পরিপূরক = 11100011। এর সাথে ১ যোগ করলে ২'র পরিপূরক = 11100100।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1789,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ফুল-অ্যাডার (Full Adder) সার্কিটে কতটি হাফ-অ্যাডার এবং কতটি OR গেট থাকে? [সেট #9]",
+    "options": [
+      "A) ১টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "B) ২টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "C) ২টি হাফ-অ্যাডার ও ২টি OR গেট",
+      "D) ৩টি হাফ-অ্যাডার"
+    ],
+    "answer": 1,
+    "explanation": "একটি ফুল অ্যাডার ২টি হাফ অ্যাডার এবং ১টি OR গেট দিয়ে তৈরি করা যায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1790,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন মেমরিটি উদ্বায়ী (Volatile) মেমরি? [সেট #9]",
+    "options": [
+      "A) ROM",
+      "B) Flash Memory",
+      "C) SRAM (Static RAM)",
+      "D) Hard Disk"
+    ],
+    "answer": 2,
+    "explanation": "SRAM এবং DRAM হলো ভলাটাইল মেমরি, যা বিদ্যুৎ প্রবাহ বন্ধ হলে তাদের ভেতরের ডেটা হারায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1791,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন লজিক গেট দুটিকে ইউনিভার্সাল গেট (Universal Gates) বলা হয়? [সেট #10]",
+    "options": [
+      "A) AND ও OR",
+      "B) NAND ও NOR",
+      "C) XOR ও XNOR",
+      "D) NOT ও AND"
+    ],
+    "answer": 1,
+    "explanation": "NAND এবং NOR গেট দিয়ে যেকোনো বুলিয়ান ফাংশন ও অন্যান্য মৌলিক গেট তৈরি করা যায় বলে এদের ইউনিভার্সাল গেট বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1792,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৪-ভেরিয়েবল K-Map-এ মোট কতটি সেল (Cells) থাকে? [সেট #10]",
+    "options": [
+      "A) 8",
+      "B) 16",
+      "C) 32",
+      "D) 64"
+    ],
+    "answer": 1,
+    "explanation": "n ভ্যারিয়েবলের K-Map-এ সেলের সংখ্যা 2^n। ৪টি ভ্যারিয়েবলের জন্য 2^4 = 16 টি সেল থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1793,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৩-টু-৮ লাইন ডিকোডারে (Decoder) কতটি ইনপুট এবং কতটি আউটপুট লাইন থাকে? [সেট #10]",
+    "options": [
+      "A) ৩টি ইনপুট ও ৮টি আউটপুট",
+      "B) ৮টি ইনপুট ও ৩টি আউটপুট",
+      "C) ১টি ইনপুট ও ৮টি আউটপুট",
+      "D) ৮টি ইনপুট ও ১টি আউটপুট"
+    ],
+    "answer": 0,
+    "explanation": "ডিকোডারে n সংখ্যক ইনপুট লাইন থেকে সর্বোচ্চ 2^n সংখ্যক স্বতন্ত্র আউটপুট লাইন উৎপন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1794,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ (Intel 8086) মাইক্রোপ্রসেসরের ডেটা বাস এবং অ্যাড্রেস বাসের সাইজ যথাক্রমে কত বিট? [সেট #10]",
+    "options": [
+      "A) ৮ বিট ও ১৬ বিট",
+      "B) ১৬ বিট ও ২০ বিট",
+      "C) ৩২ বিট ও ৬৪ বিট",
+      "D) ১৬ বিট ও ৩২ বিট"
+    ],
+    "answer": 1,
+    "explanation": "৮০৮৬ হলো ১৬-বিট মাইক্রোপ্রসেসর যার ডেটা বাস ১৬ বিট এবং অ্যাড্রেস বাস ২০ বিট (যা ১ মেগাবাইট মেমরি অ্যাড্রেস করতে পারে)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1795,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ মাইক্রোপ্রসেসরে সেগমেন্ট অ্যাড্রেস 2000H এবং অফসেট অ্যাড্রেস 1050H হলে ফিজিক্যাল অ্যাড্রেস কত? [সেট #10]",
+    "options": [
+      "A) 3050H",
+      "B) 21050H",
+      "C) 20150H",
+      "D) 21500H"
+    ],
+    "answer": 1,
+    "explanation": "ফিজিক্যাল অ্যাড্রেস = (Segment Address × 10H) + Offset = 20000H + 1050H = 21050H।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1796,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "জেকে (J-K) ফ্লিপ-ফ্লপের রেস অ্যারাউন্ড কন্ডিশন (Race-Around Condition) কখন ঘটে? [সেট #10]",
+    "options": [
+      "A) J = 0, K = 0",
+      "B) J = 0, K = 1",
+      "C) J = 1, K = 0",
+      "D) J = 1, K = 1"
+    ],
+    "answer": 3,
+    "explanation": "যখন J=1, K=1 থাকে এবং ক্লক পালস পিরিয়ড প্রোপাগেশন ডিলের চেয়ে বড় হয়, তখন আউটপুট ক্রমাগত টগল হতে থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1797,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "মাস্টার-স্লেভ জে-কে ফ্লিপ-ফ্লপ প্রধানত কী দূর করতে ব্যবহৃত হয়? [সেট #10]",
+    "options": [
+      "A) ক্লক স্কিউ",
+      "B) রেস অ্যারাউন্ড কন্ডিশন",
+      "C) পাওয়ার কনজাম্পশন",
+      "D) গেট ডিলে"
+    ],
+    "answer": 1,
+    "explanation": "মাস্টার-স্লেভ ফ্লিপ-ফ্লপ ক্লকের পজিটিভ ও নেগেটিভ এজে আলাদা কাজ করে রেস অ্যারাউন্ড কন্ডিশন সম্পূর্ণ দূর করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1798,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "ডেসিমাল সংখ্যা (28)₁₀ এর ২'র পরিপূরক (2's Complement) ৮-বিট বাইনারি রূপ কোনটি? [সেট #10]",
+    "options": [
+      "A) 00011100",
+      "B) 11100011",
+      "C) 11100100",
+      "D) 11110010"
+    ],
+    "answer": 2,
+    "explanation": "+28 = 00011100। ১'র পরিপূরক = 11100011। এর সাথে ১ যোগ করলে ২'র পরিপূরক = 11100100।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1799,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ফুল-অ্যাডার (Full Adder) সার্কিটে কতটি হাফ-অ্যাডার এবং কতটি OR গেট থাকে? [সেট #10]",
+    "options": [
+      "A) ১টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "B) ২টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "C) ২টি হাফ-অ্যাডার ও ২টি OR গেট",
+      "D) ৩টি হাফ-অ্যাডার"
+    ],
+    "answer": 1,
+    "explanation": "একটি ফুল অ্যাডার ২টি হাফ অ্যাডার এবং ১টি OR গেট দিয়ে তৈরি করা যায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1800,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন মেমরিটি উদ্বায়ী (Volatile) মেমরি? [সেট #10]",
+    "options": [
+      "A) ROM",
+      "B) Flash Memory",
+      "C) SRAM (Static RAM)",
+      "D) Hard Disk"
+    ],
+    "answer": 2,
+    "explanation": "SRAM এবং DRAM হলো ভলাটাইল মেমরি, যা বিদ্যুৎ প্রবাহ বন্ধ হলে তাদের ভেতরের ডেটা হারায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1801,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন লজিক গেট দুটিকে ইউনিভার্সাল গেট (Universal Gates) বলা হয়? [সেট #11]",
+    "options": [
+      "A) AND ও OR",
+      "B) NAND ও NOR",
+      "C) XOR ও XNOR",
+      "D) NOT ও AND"
+    ],
+    "answer": 1,
+    "explanation": "NAND এবং NOR গেট দিয়ে যেকোনো বুলিয়ান ফাংশন ও অন্যান্য মৌলিক গেট তৈরি করা যায় বলে এদের ইউনিভার্সাল গেট বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1802,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৪-ভেরিয়েবল K-Map-এ মোট কতটি সেল (Cells) থাকে? [সেট #11]",
+    "options": [
+      "A) 8",
+      "B) 16",
+      "C) 32",
+      "D) 64"
+    ],
+    "answer": 1,
+    "explanation": "n ভ্যারিয়েবলের K-Map-এ সেলের সংখ্যা 2^n। ৪টি ভ্যারিয়েবলের জন্য 2^4 = 16 টি সেল থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1803,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৩-টু-৮ লাইন ডিকোডারে (Decoder) কতটি ইনপুট এবং কতটি আউটপুট লাইন থাকে? [সেট #11]",
+    "options": [
+      "A) ৩টি ইনপুট ও ৮টি আউটপুট",
+      "B) ৮টি ইনপুট ও ৩টি আউটপুট",
+      "C) ১টি ইনপুট ও ৮টি আউটপুট",
+      "D) ৮টি ইনপুট ও ১টি আউটপুট"
+    ],
+    "answer": 0,
+    "explanation": "ডিকোডারে n সংখ্যক ইনপুট লাইন থেকে সর্বোচ্চ 2^n সংখ্যক স্বতন্ত্র আউটপুট লাইন উৎপন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1804,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ (Intel 8086) মাইক্রোপ্রসেসরের ডেটা বাস এবং অ্যাড্রেস বাসের সাইজ যথাক্রমে কত বিট? [সেট #11]",
+    "options": [
+      "A) ৮ বিট ও ১৬ বিট",
+      "B) ১৬ বিট ও ২০ বিট",
+      "C) ৩২ বিট ও ৬৪ বিট",
+      "D) ১৬ বিট ও ৩২ বিট"
+    ],
+    "answer": 1,
+    "explanation": "৮০৮৬ হলো ১৬-বিট মাইক্রোপ্রসেসর যার ডেটা বাস ১৬ বিট এবং অ্যাড্রেস বাস ২০ বিট (যা ১ মেগাবাইট মেমরি অ্যাড্রেস করতে পারে)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1805,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ মাইক্রোপ্রসেসরে সেগমেন্ট অ্যাড্রেস 2000H এবং অফসেট অ্যাড্রেস 1050H হলে ফিজিক্যাল অ্যাড্রেস কত? [সেট #11]",
+    "options": [
+      "A) 3050H",
+      "B) 21050H",
+      "C) 20150H",
+      "D) 21500H"
+    ],
+    "answer": 1,
+    "explanation": "ফিজিক্যাল অ্যাড্রেস = (Segment Address × 10H) + Offset = 20000H + 1050H = 21050H।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1806,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "জেকে (J-K) ফ্লিপ-ফ্লপের রেস অ্যারাউন্ড কন্ডিশন (Race-Around Condition) কখন ঘটে? [সেট #11]",
+    "options": [
+      "A) J = 0, K = 0",
+      "B) J = 0, K = 1",
+      "C) J = 1, K = 0",
+      "D) J = 1, K = 1"
+    ],
+    "answer": 3,
+    "explanation": "যখন J=1, K=1 থাকে এবং ক্লক পালস পিরিয়ড প্রোপাগেশন ডিলের চেয়ে বড় হয়, তখন আউটপুট ক্রমাগত টগল হতে থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1807,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "মাস্টার-স্লেভ জে-কে ফ্লিপ-ফ্লপ প্রধানত কী দূর করতে ব্যবহৃত হয়? [সেট #11]",
+    "options": [
+      "A) ক্লক স্কিউ",
+      "B) রেস অ্যারাউন্ড কন্ডিশন",
+      "C) পাওয়ার কনজাম্পশন",
+      "D) গেট ডিলে"
+    ],
+    "answer": 1,
+    "explanation": "মাস্টার-স্লেভ ফ্লিপ-ফ্লপ ক্লকের পজিটিভ ও নেগেটিভ এজে আলাদা কাজ করে রেস অ্যারাউন্ড কন্ডিশন সম্পূর্ণ দূর করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1808,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "ডেসিমাল সংখ্যা (28)₁₀ এর ২'র পরিপূরক (2's Complement) ৮-বিট বাইনারি রূপ কোনটি? [সেট #11]",
+    "options": [
+      "A) 00011100",
+      "B) 11100011",
+      "C) 11100100",
+      "D) 11110010"
+    ],
+    "answer": 2,
+    "explanation": "+28 = 00011100। ১'র পরিপূরক = 11100011। এর সাথে ১ যোগ করলে ২'র পরিপূরক = 11100100।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1809,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ফুল-অ্যাডার (Full Adder) সার্কিটে কতটি হাফ-অ্যাডার এবং কতটি OR গেট থাকে? [সেট #11]",
+    "options": [
+      "A) ১টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "B) ২টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "C) ২টি হাফ-অ্যাডার ও ২টি OR গেট",
+      "D) ৩টি হাফ-অ্যাডার"
+    ],
+    "answer": 1,
+    "explanation": "একটি ফুল অ্যাডার ২টি হাফ অ্যাডার এবং ১টি OR গেট দিয়ে তৈরি করা যায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1810,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন মেমরিটি উদ্বায়ী (Volatile) মেমরি? [সেট #11]",
+    "options": [
+      "A) ROM",
+      "B) Flash Memory",
+      "C) SRAM (Static RAM)",
+      "D) Hard Disk"
+    ],
+    "answer": 2,
+    "explanation": "SRAM এবং DRAM হলো ভলাটাইল মেমরি, যা বিদ্যুৎ প্রবাহ বন্ধ হলে তাদের ভেতরের ডেটা হারায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1811,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন লজিক গেট দুটিকে ইউনিভার্সাল গেট (Universal Gates) বলা হয়? [সেট #12]",
+    "options": [
+      "A) AND ও OR",
+      "B) NAND ও NOR",
+      "C) XOR ও XNOR",
+      "D) NOT ও AND"
+    ],
+    "answer": 1,
+    "explanation": "NAND এবং NOR গেট দিয়ে যেকোনো বুলিয়ান ফাংশন ও অন্যান্য মৌলিক গেট তৈরি করা যায় বলে এদের ইউনিভার্সাল গেট বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1812,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৪-ভেরিয়েবল K-Map-এ মোট কতটি সেল (Cells) থাকে? [সেট #12]",
+    "options": [
+      "A) 8",
+      "B) 16",
+      "C) 32",
+      "D) 64"
+    ],
+    "answer": 1,
+    "explanation": "n ভ্যারিয়েবলের K-Map-এ সেলের সংখ্যা 2^n। ৪টি ভ্যারিয়েবলের জন্য 2^4 = 16 টি সেল থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1813,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৩-টু-৮ লাইন ডিকোডারে (Decoder) কতটি ইনপুট এবং কতটি আউটপুট লাইন থাকে? [সেট #12]",
+    "options": [
+      "A) ৩টি ইনপুট ও ৮টি আউটপুট",
+      "B) ৮টি ইনপুট ও ৩টি আউটপুট",
+      "C) ১টি ইনপুট ও ৮টি আউটপুট",
+      "D) ৮টি ইনপুট ও ১টি আউটপুট"
+    ],
+    "answer": 0,
+    "explanation": "ডিকোডারে n সংখ্যক ইনপুট লাইন থেকে সর্বোচ্চ 2^n সংখ্যক স্বতন্ত্র আউটপুট লাইন উৎপন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1814,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ (Intel 8086) মাইক্রোপ্রসেসরের ডেটা বাস এবং অ্যাড্রেস বাসের সাইজ যথাক্রমে কত বিট? [সেট #12]",
+    "options": [
+      "A) ৮ বিট ও ১৬ বিট",
+      "B) ১৬ বিট ও ২০ বিট",
+      "C) ৩২ বিট ও ৬৪ বিট",
+      "D) ১৬ বিট ও ৩২ বিট"
+    ],
+    "answer": 1,
+    "explanation": "৮০৮৬ হলো ১৬-বিট মাইক্রোপ্রসেসর যার ডেটা বাস ১৬ বিট এবং অ্যাড্রেস বাস ২০ বিট (যা ১ মেগাবাইট মেমরি অ্যাড্রেস করতে পারে)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1815,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ মাইক্রোপ্রসেসরে সেগমেন্ট অ্যাড্রেস 2000H এবং অফসেট অ্যাড্রেস 1050H হলে ফিজিক্যাল অ্যাড্রেস কত? [সেট #12]",
+    "options": [
+      "A) 3050H",
+      "B) 21050H",
+      "C) 20150H",
+      "D) 21500H"
+    ],
+    "answer": 1,
+    "explanation": "ফিজিক্যাল অ্যাড্রেস = (Segment Address × 10H) + Offset = 20000H + 1050H = 21050H।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1816,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "জেকে (J-K) ফ্লিপ-ফ্লপের রেস অ্যারাউন্ড কন্ডিশন (Race-Around Condition) কখন ঘটে? [সেট #12]",
+    "options": [
+      "A) J = 0, K = 0",
+      "B) J = 0, K = 1",
+      "C) J = 1, K = 0",
+      "D) J = 1, K = 1"
+    ],
+    "answer": 3,
+    "explanation": "যখন J=1, K=1 থাকে এবং ক্লক পালস পিরিয়ড প্রোপাগেশন ডিলের চেয়ে বড় হয়, তখন আউটপুট ক্রমাগত টগল হতে থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1817,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "মাস্টার-স্লেভ জে-কে ফ্লিপ-ফ্লপ প্রধানত কী দূর করতে ব্যবহৃত হয়? [সেট #12]",
+    "options": [
+      "A) ক্লক স্কিউ",
+      "B) রেস অ্যারাউন্ড কন্ডিশন",
+      "C) পাওয়ার কনজাম্পশন",
+      "D) গেট ডিলে"
+    ],
+    "answer": 1,
+    "explanation": "মাস্টার-স্লেভ ফ্লিপ-ফ্লপ ক্লকের পজিটিভ ও নেগেটিভ এজে আলাদা কাজ করে রেস অ্যারাউন্ড কন্ডিশন সম্পূর্ণ দূর করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1818,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "ডেসিমাল সংখ্যা (28)₁₀ এর ২'র পরিপূরক (2's Complement) ৮-বিট বাইনারি রূপ কোনটি? [সেট #12]",
+    "options": [
+      "A) 00011100",
+      "B) 11100011",
+      "C) 11100100",
+      "D) 11110010"
+    ],
+    "answer": 2,
+    "explanation": "+28 = 00011100। ১'র পরিপূরক = 11100011। এর সাথে ১ যোগ করলে ২'র পরিপূরক = 11100100।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1819,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ফুল-অ্যাডার (Full Adder) সার্কিটে কতটি হাফ-অ্যাডার এবং কতটি OR গেট থাকে? [সেট #12]",
+    "options": [
+      "A) ১টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "B) ২টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "C) ২টি হাফ-অ্যাডার ও ২টি OR গেট",
+      "D) ৩টি হাফ-অ্যাডার"
+    ],
+    "answer": 1,
+    "explanation": "একটি ফুল অ্যাডার ২টি হাফ অ্যাডার এবং ১টি OR গেট দিয়ে তৈরি করা যায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1820,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন মেমরিটি উদ্বায়ী (Volatile) মেমরি? [সেট #12]",
+    "options": [
+      "A) ROM",
+      "B) Flash Memory",
+      "C) SRAM (Static RAM)",
+      "D) Hard Disk"
+    ],
+    "answer": 2,
+    "explanation": "SRAM এবং DRAM হলো ভলাটাইল মেমরি, যা বিদ্যুৎ প্রবাহ বন্ধ হলে তাদের ভেতরের ডেটা হারায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1821,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন লজিক গেট দুটিকে ইউনিভার্সাল গেট (Universal Gates) বলা হয়? [সেট #13]",
+    "options": [
+      "A) AND ও OR",
+      "B) NAND ও NOR",
+      "C) XOR ও XNOR",
+      "D) NOT ও AND"
+    ],
+    "answer": 1,
+    "explanation": "NAND এবং NOR গেট দিয়ে যেকোনো বুলিয়ান ফাংশন ও অন্যান্য মৌলিক গেট তৈরি করা যায় বলে এদের ইউনিভার্সাল গেট বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1822,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৪-ভেরিয়েবল K-Map-এ মোট কতটি সেল (Cells) থাকে? [সেট #13]",
+    "options": [
+      "A) 8",
+      "B) 16",
+      "C) 32",
+      "D) 64"
+    ],
+    "answer": 1,
+    "explanation": "n ভ্যারিয়েবলের K-Map-এ সেলের সংখ্যা 2^n। ৪টি ভ্যারিয়েবলের জন্য 2^4 = 16 টি সেল থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1823,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৩-টু-৮ লাইন ডিকোডারে (Decoder) কতটি ইনপুট এবং কতটি আউটপুট লাইন থাকে? [সেট #13]",
+    "options": [
+      "A) ৩টি ইনপুট ও ৮টি আউটপুট",
+      "B) ৮টি ইনপুট ও ৩টি আউটপুট",
+      "C) ১টি ইনপুট ও ৮টি আউটপুট",
+      "D) ৮টি ইনপুট ও ১টি আউটপুট"
+    ],
+    "answer": 0,
+    "explanation": "ডিকোডারে n সংখ্যক ইনপুট লাইন থেকে সর্বোচ্চ 2^n সংখ্যক স্বতন্ত্র আউটপুট লাইন উৎপন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1824,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ (Intel 8086) মাইক্রোপ্রসেসরের ডেটা বাস এবং অ্যাড্রেস বাসের সাইজ যথাক্রমে কত বিট? [সেট #13]",
+    "options": [
+      "A) ৮ বিট ও ১৬ বিট",
+      "B) ১৬ বিট ও ২০ বিট",
+      "C) ৩২ বিট ও ৬৪ বিট",
+      "D) ১৬ বিট ও ৩২ বিট"
+    ],
+    "answer": 1,
+    "explanation": "৮০৮৬ হলো ১৬-বিট মাইক্রোপ্রসেসর যার ডেটা বাস ১৬ বিট এবং অ্যাড্রেস বাস ২০ বিট (যা ১ মেগাবাইট মেমরি অ্যাড্রেস করতে পারে)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1825,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ মাইক্রোপ্রসেসরে সেগমেন্ট অ্যাড্রেস 2000H এবং অফসেট অ্যাড্রেস 1050H হলে ফিজিক্যাল অ্যাড্রেস কত? [সেট #13]",
+    "options": [
+      "A) 3050H",
+      "B) 21050H",
+      "C) 20150H",
+      "D) 21500H"
+    ],
+    "answer": 1,
+    "explanation": "ফিজিক্যাল অ্যাড্রেস = (Segment Address × 10H) + Offset = 20000H + 1050H = 21050H।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1826,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "জেকে (J-K) ফ্লিপ-ফ্লপের রেস অ্যারাউন্ড কন্ডিশন (Race-Around Condition) কখন ঘটে? [সেট #13]",
+    "options": [
+      "A) J = 0, K = 0",
+      "B) J = 0, K = 1",
+      "C) J = 1, K = 0",
+      "D) J = 1, K = 1"
+    ],
+    "answer": 3,
+    "explanation": "যখন J=1, K=1 থাকে এবং ক্লক পালস পিরিয়ড প্রোপাগেশন ডিলের চেয়ে বড় হয়, তখন আউটপুট ক্রমাগত টগল হতে থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1827,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "মাস্টার-স্লেভ জে-কে ফ্লিপ-ফ্লপ প্রধানত কী দূর করতে ব্যবহৃত হয়? [সেট #13]",
+    "options": [
+      "A) ক্লক স্কিউ",
+      "B) রেস অ্যারাউন্ড কন্ডিশন",
+      "C) পাওয়ার কনজাম্পশন",
+      "D) গেট ডিলে"
+    ],
+    "answer": 1,
+    "explanation": "মাস্টার-স্লেভ ফ্লিপ-ফ্লপ ক্লকের পজিটিভ ও নেগেটিভ এজে আলাদা কাজ করে রেস অ্যারাউন্ড কন্ডিশন সম্পূর্ণ দূর করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1828,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "ডেসিমাল সংখ্যা (28)₁₀ এর ২'র পরিপূরক (2's Complement) ৮-বিট বাইনারি রূপ কোনটি? [সেট #13]",
+    "options": [
+      "A) 00011100",
+      "B) 11100011",
+      "C) 11100100",
+      "D) 11110010"
+    ],
+    "answer": 2,
+    "explanation": "+28 = 00011100। ১'র পরিপূরক = 11100011। এর সাথে ১ যোগ করলে ২'র পরিপূরক = 11100100।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1829,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ফুল-অ্যাডার (Full Adder) সার্কিটে কতটি হাফ-অ্যাডার এবং কতটি OR গেট থাকে? [সেট #13]",
+    "options": [
+      "A) ১টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "B) ২টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "C) ২টি হাফ-অ্যাডার ও ২টি OR গেট",
+      "D) ৩টি হাফ-অ্যাডার"
+    ],
+    "answer": 1,
+    "explanation": "একটি ফুল অ্যাডার ২টি হাফ অ্যাডার এবং ১টি OR গেট দিয়ে তৈরি করা যায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1830,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন মেমরিটি উদ্বায়ী (Volatile) মেমরি? [সেট #13]",
+    "options": [
+      "A) ROM",
+      "B) Flash Memory",
+      "C) SRAM (Static RAM)",
+      "D) Hard Disk"
+    ],
+    "answer": 2,
+    "explanation": "SRAM এবং DRAM হলো ভলাটাইল মেমরি, যা বিদ্যুৎ প্রবাহ বন্ধ হলে তাদের ভেতরের ডেটা হারায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1831,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন লজিক গেট দুটিকে ইউনিভার্সাল গেট (Universal Gates) বলা হয়? [সেট #14]",
+    "options": [
+      "A) AND ও OR",
+      "B) NAND ও NOR",
+      "C) XOR ও XNOR",
+      "D) NOT ও AND"
+    ],
+    "answer": 1,
+    "explanation": "NAND এবং NOR গেট দিয়ে যেকোনো বুলিয়ান ফাংশন ও অন্যান্য মৌলিক গেট তৈরি করা যায় বলে এদের ইউনিভার্সাল গেট বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1832,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৪-ভেরিয়েবল K-Map-এ মোট কতটি সেল (Cells) থাকে? [সেট #14]",
+    "options": [
+      "A) 8",
+      "B) 16",
+      "C) 32",
+      "D) 64"
+    ],
+    "answer": 1,
+    "explanation": "n ভ্যারিয়েবলের K-Map-এ সেলের সংখ্যা 2^n। ৪টি ভ্যারিয়েবলের জন্য 2^4 = 16 টি সেল থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1833,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৩-টু-৮ লাইন ডিকোডারে (Decoder) কতটি ইনপুট এবং কতটি আউটপুট লাইন থাকে? [সেট #14]",
+    "options": [
+      "A) ৩টি ইনপুট ও ৮টি আউটপুট",
+      "B) ৮টি ইনপুট ও ৩টি আউটপুট",
+      "C) ১টি ইনপুট ও ৮টি আউটপুট",
+      "D) ৮টি ইনপুট ও ১টি আউটপুট"
+    ],
+    "answer": 0,
+    "explanation": "ডিকোডারে n সংখ্যক ইনপুট লাইন থেকে সর্বোচ্চ 2^n সংখ্যক স্বতন্ত্র আউটপুট লাইন উৎপন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1834,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ (Intel 8086) মাইক্রোপ্রসেসরের ডেটা বাস এবং অ্যাড্রেস বাসের সাইজ যথাক্রমে কত বিট? [সেট #14]",
+    "options": [
+      "A) ৮ বিট ও ১৬ বিট",
+      "B) ১৬ বিট ও ২০ বিট",
+      "C) ৩২ বিট ও ৬৪ বিট",
+      "D) ১৬ বিট ও ৩২ বিট"
+    ],
+    "answer": 1,
+    "explanation": "৮০৮৬ হলো ১৬-বিট মাইক্রোপ্রসেসর যার ডেটা বাস ১৬ বিট এবং অ্যাড্রেস বাস ২০ বিট (যা ১ মেগাবাইট মেমরি অ্যাড্রেস করতে পারে)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1835,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ মাইক্রোপ্রসেসরে সেগমেন্ট অ্যাড্রেস 2000H এবং অফসেট অ্যাড্রেস 1050H হলে ফিজিক্যাল অ্যাড্রেস কত? [সেট #14]",
+    "options": [
+      "A) 3050H",
+      "B) 21050H",
+      "C) 20150H",
+      "D) 21500H"
+    ],
+    "answer": 1,
+    "explanation": "ফিজিক্যাল অ্যাড্রেস = (Segment Address × 10H) + Offset = 20000H + 1050H = 21050H।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1836,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "জেকে (J-K) ফ্লিপ-ফ্লপের রেস অ্যারাউন্ড কন্ডিশন (Race-Around Condition) কখন ঘটে? [সেট #14]",
+    "options": [
+      "A) J = 0, K = 0",
+      "B) J = 0, K = 1",
+      "C) J = 1, K = 0",
+      "D) J = 1, K = 1"
+    ],
+    "answer": 3,
+    "explanation": "যখন J=1, K=1 থাকে এবং ক্লক পালস পিরিয়ড প্রোপাগেশন ডিলের চেয়ে বড় হয়, তখন আউটপুট ক্রমাগত টগল হতে থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1837,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "মাস্টার-স্লেভ জে-কে ফ্লিপ-ফ্লপ প্রধানত কী দূর করতে ব্যবহৃত হয়? [সেট #14]",
+    "options": [
+      "A) ক্লক স্কিউ",
+      "B) রেস অ্যারাউন্ড কন্ডিশন",
+      "C) পাওয়ার কনজাম্পশন",
+      "D) গেট ডিলে"
+    ],
+    "answer": 1,
+    "explanation": "মাস্টার-স্লেভ ফ্লিপ-ফ্লপ ক্লকের পজিটিভ ও নেগেটিভ এজে আলাদা কাজ করে রেস অ্যারাউন্ড কন্ডিশন সম্পূর্ণ দূর করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1838,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "ডেসিমাল সংখ্যা (28)₁₀ এর ২'র পরিপূরক (2's Complement) ৮-বিট বাইনারি রূপ কোনটি? [সেট #14]",
+    "options": [
+      "A) 00011100",
+      "B) 11100011",
+      "C) 11100100",
+      "D) 11110010"
+    ],
+    "answer": 2,
+    "explanation": "+28 = 00011100। ১'র পরিপূরক = 11100011। এর সাথে ১ যোগ করলে ২'র পরিপূরক = 11100100।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1839,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ফুল-অ্যাডার (Full Adder) সার্কিটে কতটি হাফ-অ্যাডার এবং কতটি OR গেট থাকে? [সেট #14]",
+    "options": [
+      "A) ১টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "B) ২টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "C) ২টি হাফ-অ্যাডার ও ২টি OR গেট",
+      "D) ৩টি হাফ-অ্যাডার"
+    ],
+    "answer": 1,
+    "explanation": "একটি ফুল অ্যাডার ২টি হাফ অ্যাডার এবং ১টি OR গেট দিয়ে তৈরি করা যায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1840,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন মেমরিটি উদ্বায়ী (Volatile) মেমরি? [সেট #14]",
+    "options": [
+      "A) ROM",
+      "B) Flash Memory",
+      "C) SRAM (Static RAM)",
+      "D) Hard Disk"
+    ],
+    "answer": 2,
+    "explanation": "SRAM এবং DRAM হলো ভলাটাইল মেমরি, যা বিদ্যুৎ প্রবাহ বন্ধ হলে তাদের ভেতরের ডেটা হারায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1841,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন লজিক গেট দুটিকে ইউনিভার্সাল গেট (Universal Gates) বলা হয়? [সেট #15]",
+    "options": [
+      "A) AND ও OR",
+      "B) NAND ও NOR",
+      "C) XOR ও XNOR",
+      "D) NOT ও AND"
+    ],
+    "answer": 1,
+    "explanation": "NAND এবং NOR গেট দিয়ে যেকোনো বুলিয়ান ফাংশন ও অন্যান্য মৌলিক গেট তৈরি করা যায় বলে এদের ইউনিভার্সাল গেট বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1842,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৪-ভেরিয়েবল K-Map-এ মোট কতটি সেল (Cells) থাকে? [সেট #15]",
+    "options": [
+      "A) 8",
+      "B) 16",
+      "C) 32",
+      "D) 64"
+    ],
+    "answer": 1,
+    "explanation": "n ভ্যারিয়েবলের K-Map-এ সেলের সংখ্যা 2^n। ৪টি ভ্যারিয়েবলের জন্য 2^4 = 16 টি সেল থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1843,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৩-টু-৮ লাইন ডিকোডারে (Decoder) কতটি ইনপুট এবং কতটি আউটপুট লাইন থাকে? [সেট #15]",
+    "options": [
+      "A) ৩টি ইনপুট ও ৮টি আউটপুট",
+      "B) ৮টি ইনপুট ও ৩টি আউটপুট",
+      "C) ১টি ইনপুট ও ৮টি আউটপুট",
+      "D) ৮টি ইনপুট ও ১টি আউটপুট"
+    ],
+    "answer": 0,
+    "explanation": "ডিকোডারে n সংখ্যক ইনপুট লাইন থেকে সর্বোচ্চ 2^n সংখ্যক স্বতন্ত্র আউটপুট লাইন উৎপন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1844,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ (Intel 8086) মাইক্রোপ্রসেসরের ডেটা বাস এবং অ্যাড্রেস বাসের সাইজ যথাক্রমে কত বিট? [সেট #15]",
+    "options": [
+      "A) ৮ বিট ও ১৬ বিট",
+      "B) ১৬ বিট ও ২০ বিট",
+      "C) ৩২ বিট ও ৬৪ বিট",
+      "D) ১৬ বিট ও ৩২ বিট"
+    ],
+    "answer": 1,
+    "explanation": "৮০৮৬ হলো ১৬-বিট মাইক্রোপ্রসেসর যার ডেটা বাস ১৬ বিট এবং অ্যাড্রেস বাস ২০ বিট (যা ১ মেগাবাইট মেমরি অ্যাড্রেস করতে পারে)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1845,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ মাইক্রোপ্রসেসরে সেগমেন্ট অ্যাড্রেস 2000H এবং অফসেট অ্যাড্রেস 1050H হলে ফিজিক্যাল অ্যাড্রেস কত? [সেট #15]",
+    "options": [
+      "A) 3050H",
+      "B) 21050H",
+      "C) 20150H",
+      "D) 21500H"
+    ],
+    "answer": 1,
+    "explanation": "ফিজিক্যাল অ্যাড্রেস = (Segment Address × 10H) + Offset = 20000H + 1050H = 21050H।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1846,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "জেকে (J-K) ফ্লিপ-ফ্লপের রেস অ্যারাউন্ড কন্ডিশন (Race-Around Condition) কখন ঘটে? [সেট #15]",
+    "options": [
+      "A) J = 0, K = 0",
+      "B) J = 0, K = 1",
+      "C) J = 1, K = 0",
+      "D) J = 1, K = 1"
+    ],
+    "answer": 3,
+    "explanation": "যখন J=1, K=1 থাকে এবং ক্লক পালস পিরিয়ড প্রোপাগেশন ডিলের চেয়ে বড় হয়, তখন আউটপুট ক্রমাগত টগল হতে থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1847,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "মাস্টার-স্লেভ জে-কে ফ্লিপ-ফ্লপ প্রধানত কী দূর করতে ব্যবহৃত হয়? [সেট #15]",
+    "options": [
+      "A) ক্লক স্কিউ",
+      "B) রেস অ্যারাউন্ড কন্ডিশন",
+      "C) পাওয়ার কনজাম্পশন",
+      "D) গেট ডিলে"
+    ],
+    "answer": 1,
+    "explanation": "মাস্টার-স্লেভ ফ্লিপ-ফ্লপ ক্লকের পজিটিভ ও নেগেটিভ এজে আলাদা কাজ করে রেস অ্যারাউন্ড কন্ডিশন সম্পূর্ণ দূর করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1848,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "ডেসিমাল সংখ্যা (28)₁₀ এর ২'র পরিপূরক (2's Complement) ৮-বিট বাইনারি রূপ কোনটি? [সেট #15]",
+    "options": [
+      "A) 00011100",
+      "B) 11100011",
+      "C) 11100100",
+      "D) 11110010"
+    ],
+    "answer": 2,
+    "explanation": "+28 = 00011100। ১'র পরিপূরক = 11100011। এর সাথে ১ যোগ করলে ২'র পরিপূরক = 11100100।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1849,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ফুল-অ্যাডার (Full Adder) সার্কিটে কতটি হাফ-অ্যাডার এবং কতটি OR গেট থাকে? [সেট #15]",
+    "options": [
+      "A) ১টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "B) ২টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "C) ২টি হাফ-অ্যাডার ও ২টি OR গেট",
+      "D) ৩টি হাফ-অ্যাডার"
+    ],
+    "answer": 1,
+    "explanation": "একটি ফুল অ্যাডার ২টি হাফ অ্যাডার এবং ১টি OR গেট দিয়ে তৈরি করা যায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1850,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন মেমরিটি উদ্বায়ী (Volatile) মেমরি? [সেট #15]",
+    "options": [
+      "A) ROM",
+      "B) Flash Memory",
+      "C) SRAM (Static RAM)",
+      "D) Hard Disk"
+    ],
+    "answer": 2,
+    "explanation": "SRAM এবং DRAM হলো ভলাটাইল মেমরি, যা বিদ্যুৎ প্রবাহ বন্ধ হলে তাদের ভেতরের ডেটা হারায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1851,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন লজিক গেট দুটিকে ইউনিভার্সাল গেট (Universal Gates) বলা হয়? [সেট #16]",
+    "options": [
+      "A) AND ও OR",
+      "B) NAND ও NOR",
+      "C) XOR ও XNOR",
+      "D) NOT ও AND"
+    ],
+    "answer": 1,
+    "explanation": "NAND এবং NOR গেট দিয়ে যেকোনো বুলিয়ান ফাংশন ও অন্যান্য মৌলিক গেট তৈরি করা যায় বলে এদের ইউনিভার্সাল গেট বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1852,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৪-ভেরিয়েবল K-Map-এ মোট কতটি সেল (Cells) থাকে? [সেট #16]",
+    "options": [
+      "A) 8",
+      "B) 16",
+      "C) 32",
+      "D) 64"
+    ],
+    "answer": 1,
+    "explanation": "n ভ্যারিয়েবলের K-Map-এ সেলের সংখ্যা 2^n। ৪টি ভ্যারিয়েবলের জন্য 2^4 = 16 টি সেল থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1853,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৩-টু-৮ লাইন ডিকোডারে (Decoder) কতটি ইনপুট এবং কতটি আউটপুট লাইন থাকে? [সেট #16]",
+    "options": [
+      "A) ৩টি ইনপুট ও ৮টি আউটপুট",
+      "B) ৮টি ইনপুট ও ৩টি আউটপুট",
+      "C) ১টি ইনপুট ও ৮টি আউটপুট",
+      "D) ৮টি ইনপুট ও ১টি আউটপুট"
+    ],
+    "answer": 0,
+    "explanation": "ডিকোডারে n সংখ্যক ইনপুট লাইন থেকে সর্বোচ্চ 2^n সংখ্যক স্বতন্ত্র আউটপুট লাইন উৎপন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1854,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ (Intel 8086) মাইক্রোপ্রসেসরের ডেটা বাস এবং অ্যাড্রেস বাসের সাইজ যথাক্রমে কত বিট? [সেট #16]",
+    "options": [
+      "A) ৮ বিট ও ১৬ বিট",
+      "B) ১৬ বিট ও ২০ বিট",
+      "C) ৩২ বিট ও ৬৪ বিট",
+      "D) ১৬ বিট ও ৩২ বিট"
+    ],
+    "answer": 1,
+    "explanation": "৮০৮৬ হলো ১৬-বিট মাইক্রোপ্রসেসর যার ডেটা বাস ১৬ বিট এবং অ্যাড্রেস বাস ২০ বিট (যা ১ মেগাবাইট মেমরি অ্যাড্রেস করতে পারে)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1855,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ মাইক্রোপ্রসেসরে সেগমেন্ট অ্যাড্রেস 2000H এবং অফসেট অ্যাড্রেস 1050H হলে ফিজিক্যাল অ্যাড্রেস কত? [সেট #16]",
+    "options": [
+      "A) 3050H",
+      "B) 21050H",
+      "C) 20150H",
+      "D) 21500H"
+    ],
+    "answer": 1,
+    "explanation": "ফিজিক্যাল অ্যাড্রেস = (Segment Address × 10H) + Offset = 20000H + 1050H = 21050H।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1856,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "জেকে (J-K) ফ্লিপ-ফ্লপের রেস অ্যারাউন্ড কন্ডিশন (Race-Around Condition) কখন ঘটে? [সেট #16]",
+    "options": [
+      "A) J = 0, K = 0",
+      "B) J = 0, K = 1",
+      "C) J = 1, K = 0",
+      "D) J = 1, K = 1"
+    ],
+    "answer": 3,
+    "explanation": "যখন J=1, K=1 থাকে এবং ক্লক পালস পিরিয়ড প্রোপাগেশন ডিলের চেয়ে বড় হয়, তখন আউটপুট ক্রমাগত টগল হতে থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1857,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "মাস্টার-স্লেভ জে-কে ফ্লিপ-ফ্লপ প্রধানত কী দূর করতে ব্যবহৃত হয়? [সেট #16]",
+    "options": [
+      "A) ক্লক স্কিউ",
+      "B) রেস অ্যারাউন্ড কন্ডিশন",
+      "C) পাওয়ার কনজাম্পশন",
+      "D) গেট ডিলে"
+    ],
+    "answer": 1,
+    "explanation": "মাস্টার-স্লেভ ফ্লিপ-ফ্লপ ক্লকের পজিটিভ ও নেগেটিভ এজে আলাদা কাজ করে রেস অ্যারাউন্ড কন্ডিশন সম্পূর্ণ দূর করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1858,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "ডেসিমাল সংখ্যা (28)₁₀ এর ২'র পরিপূরক (2's Complement) ৮-বিট বাইনারি রূপ কোনটি? [সেট #16]",
+    "options": [
+      "A) 00011100",
+      "B) 11100011",
+      "C) 11100100",
+      "D) 11110010"
+    ],
+    "answer": 2,
+    "explanation": "+28 = 00011100। ১'র পরিপূরক = 11100011। এর সাথে ১ যোগ করলে ২'র পরিপূরক = 11100100।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1859,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ফুল-অ্যাডার (Full Adder) সার্কিটে কতটি হাফ-অ্যাডার এবং কতটি OR গেট থাকে? [সেট #16]",
+    "options": [
+      "A) ১টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "B) ২টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "C) ২টি হাফ-অ্যাডার ও ২টি OR গেট",
+      "D) ৩টি হাফ-অ্যাডার"
+    ],
+    "answer": 1,
+    "explanation": "একটি ফুল অ্যাডার ২টি হাফ অ্যাডার এবং ১টি OR গেট দিয়ে তৈরি করা যায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1860,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন মেমরিটি উদ্বায়ী (Volatile) মেমরি? [সেট #16]",
+    "options": [
+      "A) ROM",
+      "B) Flash Memory",
+      "C) SRAM (Static RAM)",
+      "D) Hard Disk"
+    ],
+    "answer": 2,
+    "explanation": "SRAM এবং DRAM হলো ভলাটাইল মেমরি, যা বিদ্যুৎ প্রবাহ বন্ধ হলে তাদের ভেতরের ডেটা হারায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1861,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন লজিক গেট দুটিকে ইউনিভার্সাল গেট (Universal Gates) বলা হয়? [সেট #17]",
+    "options": [
+      "A) AND ও OR",
+      "B) NAND ও NOR",
+      "C) XOR ও XNOR",
+      "D) NOT ও AND"
+    ],
+    "answer": 1,
+    "explanation": "NAND এবং NOR গেট দিয়ে যেকোনো বুলিয়ান ফাংশন ও অন্যান্য মৌলিক গেট তৈরি করা যায় বলে এদের ইউনিভার্সাল গেট বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1862,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৪-ভেরিয়েবল K-Map-এ মোট কতটি সেল (Cells) থাকে? [সেট #17]",
+    "options": [
+      "A) 8",
+      "B) 16",
+      "C) 32",
+      "D) 64"
+    ],
+    "answer": 1,
+    "explanation": "n ভ্যারিয়েবলের K-Map-এ সেলের সংখ্যা 2^n। ৪টি ভ্যারিয়েবলের জন্য 2^4 = 16 টি সেল থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1863,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৩-টু-৮ লাইন ডিকোডারে (Decoder) কতটি ইনপুট এবং কতটি আউটপুট লাইন থাকে? [সেট #17]",
+    "options": [
+      "A) ৩টি ইনপুট ও ৮টি আউটপুট",
+      "B) ৮টি ইনপুট ও ৩টি আউটপুট",
+      "C) ১টি ইনপুট ও ৮টি আউটপুট",
+      "D) ৮টি ইনপুট ও ১টি আউটপুট"
+    ],
+    "answer": 0,
+    "explanation": "ডিকোডারে n সংখ্যক ইনপুট লাইন থেকে সর্বোচ্চ 2^n সংখ্যক স্বতন্ত্র আউটপুট লাইন উৎপন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1864,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ (Intel 8086) মাইক্রোপ্রসেসরের ডেটা বাস এবং অ্যাড্রেস বাসের সাইজ যথাক্রমে কত বিট? [সেট #17]",
+    "options": [
+      "A) ৮ বিট ও ১৬ বিট",
+      "B) ১৬ বিট ও ২০ বিট",
+      "C) ৩২ বিট ও ৬৪ বিট",
+      "D) ১৬ বিট ও ৩২ বিট"
+    ],
+    "answer": 1,
+    "explanation": "৮০৮৬ হলো ১৬-বিট মাইক্রোপ্রসেসর যার ডেটা বাস ১৬ বিট এবং অ্যাড্রেস বাস ২০ বিট (যা ১ মেগাবাইট মেমরি অ্যাড্রেস করতে পারে)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1865,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ মাইক্রোপ্রসেসরে সেগমেন্ট অ্যাড্রেস 2000H এবং অফসেট অ্যাড্রেস 1050H হলে ফিজিক্যাল অ্যাড্রেস কত? [সেট #17]",
+    "options": [
+      "A) 3050H",
+      "B) 21050H",
+      "C) 20150H",
+      "D) 21500H"
+    ],
+    "answer": 1,
+    "explanation": "ফিজিক্যাল অ্যাড্রেস = (Segment Address × 10H) + Offset = 20000H + 1050H = 21050H।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1866,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "জেকে (J-K) ফ্লিপ-ফ্লপের রেস অ্যারাউন্ড কন্ডিশন (Race-Around Condition) কখন ঘটে? [সেট #17]",
+    "options": [
+      "A) J = 0, K = 0",
+      "B) J = 0, K = 1",
+      "C) J = 1, K = 0",
+      "D) J = 1, K = 1"
+    ],
+    "answer": 3,
+    "explanation": "যখন J=1, K=1 থাকে এবং ক্লক পালস পিরিয়ড প্রোপাগেশন ডিলের চেয়ে বড় হয়, তখন আউটপুট ক্রমাগত টগল হতে থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1867,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "মাস্টার-স্লেভ জে-কে ফ্লিপ-ফ্লপ প্রধানত কী দূর করতে ব্যবহৃত হয়? [সেট #17]",
+    "options": [
+      "A) ক্লক স্কিউ",
+      "B) রেস অ্যারাউন্ড কন্ডিশন",
+      "C) পাওয়ার কনজাম্পশন",
+      "D) গেট ডিলে"
+    ],
+    "answer": 1,
+    "explanation": "মাস্টার-স্লেভ ফ্লিপ-ফ্লপ ক্লকের পজিটিভ ও নেগেটিভ এজে আলাদা কাজ করে রেস অ্যারাউন্ড কন্ডিশন সম্পূর্ণ দূর করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1868,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "ডেসিমাল সংখ্যা (28)₁₀ এর ২'র পরিপূরক (2's Complement) ৮-বিট বাইনারি রূপ কোনটি? [সেট #17]",
+    "options": [
+      "A) 00011100",
+      "B) 11100011",
+      "C) 11100100",
+      "D) 11110010"
+    ],
+    "answer": 2,
+    "explanation": "+28 = 00011100। ১'র পরিপূরক = 11100011। এর সাথে ১ যোগ করলে ২'র পরিপূরক = 11100100।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1869,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ফুল-অ্যাডার (Full Adder) সার্কিটে কতটি হাফ-অ্যাডার এবং কতটি OR গেট থাকে? [সেট #17]",
+    "options": [
+      "A) ১টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "B) ২টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "C) ২টি হাফ-অ্যাডার ও ২টি OR গেট",
+      "D) ৩টি হাফ-অ্যাডার"
+    ],
+    "answer": 1,
+    "explanation": "একটি ফুল অ্যাডার ২টি হাফ অ্যাডার এবং ১টি OR গেট দিয়ে তৈরি করা যায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1870,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন মেমরিটি উদ্বায়ী (Volatile) মেমরি? [সেট #17]",
+    "options": [
+      "A) ROM",
+      "B) Flash Memory",
+      "C) SRAM (Static RAM)",
+      "D) Hard Disk"
+    ],
+    "answer": 2,
+    "explanation": "SRAM এবং DRAM হলো ভলাটাইল মেমরি, যা বিদ্যুৎ প্রবাহ বন্ধ হলে তাদের ভেতরের ডেটা হারায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1871,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন লজিক গেট দুটিকে ইউনিভার্সাল গেট (Universal Gates) বলা হয়? [সেট #18]",
+    "options": [
+      "A) AND ও OR",
+      "B) NAND ও NOR",
+      "C) XOR ও XNOR",
+      "D) NOT ও AND"
+    ],
+    "answer": 1,
+    "explanation": "NAND এবং NOR গেট দিয়ে যেকোনো বুলিয়ান ফাংশন ও অন্যান্য মৌলিক গেট তৈরি করা যায় বলে এদের ইউনিভার্সাল গেট বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1872,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৪-ভেরিয়েবল K-Map-এ মোট কতটি সেল (Cells) থাকে? [সেট #18]",
+    "options": [
+      "A) 8",
+      "B) 16",
+      "C) 32",
+      "D) 64"
+    ],
+    "answer": 1,
+    "explanation": "n ভ্যারিয়েবলের K-Map-এ সেলের সংখ্যা 2^n। ৪টি ভ্যারিয়েবলের জন্য 2^4 = 16 টি সেল থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1873,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৩-টু-৮ লাইন ডিকোডারে (Decoder) কতটি ইনপুট এবং কতটি আউটপুট লাইন থাকে? [সেট #18]",
+    "options": [
+      "A) ৩টি ইনপুট ও ৮টি আউটপুট",
+      "B) ৮টি ইনপুট ও ৩টি আউটপুট",
+      "C) ১টি ইনপুট ও ৮টি আউটপুট",
+      "D) ৮টি ইনপুট ও ১টি আউটপুট"
+    ],
+    "answer": 0,
+    "explanation": "ডিকোডারে n সংখ্যক ইনপুট লাইন থেকে সর্বোচ্চ 2^n সংখ্যক স্বতন্ত্র আউটপুট লাইন উৎপন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1874,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ (Intel 8086) মাইক্রোপ্রসেসরের ডেটা বাস এবং অ্যাড্রেস বাসের সাইজ যথাক্রমে কত বিট? [সেট #18]",
+    "options": [
+      "A) ৮ বিট ও ১৬ বিট",
+      "B) ১৬ বিট ও ২০ বিট",
+      "C) ৩২ বিট ও ৬৪ বিট",
+      "D) ১৬ বিট ও ৩২ বিট"
+    ],
+    "answer": 1,
+    "explanation": "৮০৮৬ হলো ১৬-বিট মাইক্রোপ্রসেসর যার ডেটা বাস ১৬ বিট এবং অ্যাড্রেস বাস ২০ বিট (যা ১ মেগাবাইট মেমরি অ্যাড্রেস করতে পারে)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1875,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ মাইক্রোপ্রসেসরে সেগমেন্ট অ্যাড্রেস 2000H এবং অফসেট অ্যাড্রেস 1050H হলে ফিজিক্যাল অ্যাড্রেস কত? [সেট #18]",
+    "options": [
+      "A) 3050H",
+      "B) 21050H",
+      "C) 20150H",
+      "D) 21500H"
+    ],
+    "answer": 1,
+    "explanation": "ফিজিক্যাল অ্যাড্রেস = (Segment Address × 10H) + Offset = 20000H + 1050H = 21050H।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1876,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "জেকে (J-K) ফ্লিপ-ফ্লপের রেস অ্যারাউন্ড কন্ডিশন (Race-Around Condition) কখন ঘটে? [সেট #18]",
+    "options": [
+      "A) J = 0, K = 0",
+      "B) J = 0, K = 1",
+      "C) J = 1, K = 0",
+      "D) J = 1, K = 1"
+    ],
+    "answer": 3,
+    "explanation": "যখন J=1, K=1 থাকে এবং ক্লক পালস পিরিয়ড প্রোপাগেশন ডিলের চেয়ে বড় হয়, তখন আউটপুট ক্রমাগত টগল হতে থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1877,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "মাস্টার-স্লেভ জে-কে ফ্লিপ-ফ্লপ প্রধানত কী দূর করতে ব্যবহৃত হয়? [সেট #18]",
+    "options": [
+      "A) ক্লক স্কিউ",
+      "B) রেস অ্যারাউন্ড কন্ডিশন",
+      "C) পাওয়ার কনজাম্পশন",
+      "D) গেট ডিলে"
+    ],
+    "answer": 1,
+    "explanation": "মাস্টার-স্লেভ ফ্লিপ-ফ্লপ ক্লকের পজিটিভ ও নেগেটিভ এজে আলাদা কাজ করে রেস অ্যারাউন্ড কন্ডিশন সম্পূর্ণ দূর করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1878,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "ডেসিমাল সংখ্যা (28)₁₀ এর ২'র পরিপূরক (2's Complement) ৮-বিট বাইনারি রূপ কোনটি? [সেট #18]",
+    "options": [
+      "A) 00011100",
+      "B) 11100011",
+      "C) 11100100",
+      "D) 11110010"
+    ],
+    "answer": 2,
+    "explanation": "+28 = 00011100। ১'র পরিপূরক = 11100011। এর সাথে ১ যোগ করলে ২'র পরিপূরক = 11100100।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1879,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ফুল-অ্যাডার (Full Adder) সার্কিটে কতটি হাফ-অ্যাডার এবং কতটি OR গেট থাকে? [সেট #18]",
+    "options": [
+      "A) ১টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "B) ২টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "C) ২টি হাফ-অ্যাডার ও ২টি OR গেট",
+      "D) ৩টি হাফ-অ্যাডার"
+    ],
+    "answer": 1,
+    "explanation": "একটি ফুল অ্যাডার ২টি হাফ অ্যাডার এবং ১টি OR গেট দিয়ে তৈরি করা যায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1880,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন মেমরিটি উদ্বায়ী (Volatile) মেমরি? [সেট #18]",
+    "options": [
+      "A) ROM",
+      "B) Flash Memory",
+      "C) SRAM (Static RAM)",
+      "D) Hard Disk"
+    ],
+    "answer": 2,
+    "explanation": "SRAM এবং DRAM হলো ভলাটাইল মেমরি, যা বিদ্যুৎ প্রবাহ বন্ধ হলে তাদের ভেতরের ডেটা হারায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1881,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন লজিক গেট দুটিকে ইউনিভার্সাল গেট (Universal Gates) বলা হয়? [সেট #19]",
+    "options": [
+      "A) AND ও OR",
+      "B) NAND ও NOR",
+      "C) XOR ও XNOR",
+      "D) NOT ও AND"
+    ],
+    "answer": 1,
+    "explanation": "NAND এবং NOR গেট দিয়ে যেকোনো বুলিয়ান ফাংশন ও অন্যান্য মৌলিক গেট তৈরি করা যায় বলে এদের ইউনিভার্সাল গেট বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1882,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৪-ভেরিয়েবল K-Map-এ মোট কতটি সেল (Cells) থাকে? [সেট #19]",
+    "options": [
+      "A) 8",
+      "B) 16",
+      "C) 32",
+      "D) 64"
+    ],
+    "answer": 1,
+    "explanation": "n ভ্যারিয়েবলের K-Map-এ সেলের সংখ্যা 2^n। ৪টি ভ্যারিয়েবলের জন্য 2^4 = 16 টি সেল থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1883,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৩-টু-৮ লাইন ডিকোডারে (Decoder) কতটি ইনপুট এবং কতটি আউটপুট লাইন থাকে? [সেট #19]",
+    "options": [
+      "A) ৩টি ইনপুট ও ৮টি আউটপুট",
+      "B) ৮টি ইনপুট ও ৩টি আউটপুট",
+      "C) ১টি ইনপুট ও ৮টি আউটপুট",
+      "D) ৮টি ইনপুট ও ১টি আউটপুট"
+    ],
+    "answer": 0,
+    "explanation": "ডিকোডারে n সংখ্যক ইনপুট লাইন থেকে সর্বোচ্চ 2^n সংখ্যক স্বতন্ত্র আউটপুট লাইন উৎপন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1884,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ (Intel 8086) মাইক্রোপ্রসেসরের ডেটা বাস এবং অ্যাড্রেস বাসের সাইজ যথাক্রমে কত বিট? [সেট #19]",
+    "options": [
+      "A) ৮ বিট ও ১৬ বিট",
+      "B) ১৬ বিট ও ২০ বিট",
+      "C) ৩২ বিট ও ৬৪ বিট",
+      "D) ১৬ বিট ও ৩২ বিট"
+    ],
+    "answer": 1,
+    "explanation": "৮০৮৬ হলো ১৬-বিট মাইক্রোপ্রসেসর যার ডেটা বাস ১৬ বিট এবং অ্যাড্রেস বাস ২০ বিট (যা ১ মেগাবাইট মেমরি অ্যাড্রেস করতে পারে)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1885,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ মাইক্রোপ্রসেসরে সেগমেন্ট অ্যাড্রেস 2000H এবং অফসেট অ্যাড্রেস 1050H হলে ফিজিক্যাল অ্যাড্রেস কত? [সেট #19]",
+    "options": [
+      "A) 3050H",
+      "B) 21050H",
+      "C) 20150H",
+      "D) 21500H"
+    ],
+    "answer": 1,
+    "explanation": "ফিজিক্যাল অ্যাড্রেস = (Segment Address × 10H) + Offset = 20000H + 1050H = 21050H।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1886,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "জেকে (J-K) ফ্লিপ-ফ্লপের রেস অ্যারাউন্ড কন্ডিশন (Race-Around Condition) কখন ঘটে? [সেট #19]",
+    "options": [
+      "A) J = 0, K = 0",
+      "B) J = 0, K = 1",
+      "C) J = 1, K = 0",
+      "D) J = 1, K = 1"
+    ],
+    "answer": 3,
+    "explanation": "যখন J=1, K=1 থাকে এবং ক্লক পালস পিরিয়ড প্রোপাগেশন ডিলের চেয়ে বড় হয়, তখন আউটপুট ক্রমাগত টগল হতে থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1887,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "মাস্টার-স্লেভ জে-কে ফ্লিপ-ফ্লপ প্রধানত কী দূর করতে ব্যবহৃত হয়? [সেট #19]",
+    "options": [
+      "A) ক্লক স্কিউ",
+      "B) রেস অ্যারাউন্ড কন্ডিশন",
+      "C) পাওয়ার কনজাম্পশন",
+      "D) গেট ডিলে"
+    ],
+    "answer": 1,
+    "explanation": "মাস্টার-স্লেভ ফ্লিপ-ফ্লপ ক্লকের পজিটিভ ও নেগেটিভ এজে আলাদা কাজ করে রেস অ্যারাউন্ড কন্ডিশন সম্পূর্ণ দূর করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1888,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "ডেসিমাল সংখ্যা (28)₁₀ এর ২'র পরিপূরক (2's Complement) ৮-বিট বাইনারি রূপ কোনটি? [সেট #19]",
+    "options": [
+      "A) 00011100",
+      "B) 11100011",
+      "C) 11100100",
+      "D) 11110010"
+    ],
+    "answer": 2,
+    "explanation": "+28 = 00011100। ১'র পরিপূরক = 11100011। এর সাথে ১ যোগ করলে ২'র পরিপূরক = 11100100।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1889,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ফুল-অ্যাডার (Full Adder) সার্কিটে কতটি হাফ-অ্যাডার এবং কতটি OR গেট থাকে? [সেট #19]",
+    "options": [
+      "A) ১টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "B) ২টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "C) ২টি হাফ-অ্যাডার ও ২টি OR গেট",
+      "D) ৩টি হাফ-অ্যাডার"
+    ],
+    "answer": 1,
+    "explanation": "একটি ফুল অ্যাডার ২টি হাফ অ্যাডার এবং ১টি OR গেট দিয়ে তৈরি করা যায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1890,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন মেমরিটি উদ্বায়ী (Volatile) মেমরি? [সেট #19]",
+    "options": [
+      "A) ROM",
+      "B) Flash Memory",
+      "C) SRAM (Static RAM)",
+      "D) Hard Disk"
+    ],
+    "answer": 2,
+    "explanation": "SRAM এবং DRAM হলো ভলাটাইল মেমরি, যা বিদ্যুৎ প্রবাহ বন্ধ হলে তাদের ভেতরের ডেটা হারায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1891,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন লজিক গেট দুটিকে ইউনিভার্সাল গেট (Universal Gates) বলা হয়? [সেট #20]",
+    "options": [
+      "A) AND ও OR",
+      "B) NAND ও NOR",
+      "C) XOR ও XNOR",
+      "D) NOT ও AND"
+    ],
+    "answer": 1,
+    "explanation": "NAND এবং NOR গেট দিয়ে যেকোনো বুলিয়ান ফাংশন ও অন্যান্য মৌলিক গেট তৈরি করা যায় বলে এদের ইউনিভার্সাল গেট বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1892,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৪-ভেরিয়েবল K-Map-এ মোট কতটি সেল (Cells) থাকে? [সেট #20]",
+    "options": [
+      "A) 8",
+      "B) 16",
+      "C) 32",
+      "D) 64"
+    ],
+    "answer": 1,
+    "explanation": "n ভ্যারিয়েবলের K-Map-এ সেলের সংখ্যা 2^n। ৪টি ভ্যারিয়েবলের জন্য 2^4 = 16 টি সেল থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1893,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ৩-টু-৮ লাইন ডিকোডারে (Decoder) কতটি ইনপুট এবং কতটি আউটপুট লাইন থাকে? [সেট #20]",
+    "options": [
+      "A) ৩টি ইনপুট ও ৮টি আউটপুট",
+      "B) ৮টি ইনপুট ও ৩টি আউটপুট",
+      "C) ১টি ইনপুট ও ৮টি আউটপুট",
+      "D) ৮টি ইনপুট ও ১টি আউটপুট"
+    ],
+    "answer": 0,
+    "explanation": "ডিকোডারে n সংখ্যক ইনপুট লাইন থেকে সর্বোচ্চ 2^n সংখ্যক স্বতন্ত্র আউটপুট লাইন উৎপন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1894,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ (Intel 8086) মাইক্রোপ্রসেসরের ডেটা বাস এবং অ্যাড্রেস বাসের সাইজ যথাক্রমে কত বিট? [সেট #20]",
+    "options": [
+      "A) ৮ বিট ও ১৬ বিট",
+      "B) ১৬ বিট ও ২০ বিট",
+      "C) ৩২ বিট ও ৬৪ বিট",
+      "D) ১৬ বিট ও ৩২ বিট"
+    ],
+    "answer": 1,
+    "explanation": "৮০৮৬ হলো ১৬-বিট মাইক্রোপ্রসেসর যার ডেটা বাস ১৬ বিট এবং অ্যাড্রেস বাস ২০ বিট (যা ১ মেগাবাইট মেমরি অ্যাড্রেস করতে পারে)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1895,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "৮০৮৬ মাইক্রোপ্রসেসরে সেগমেন্ট অ্যাড্রেস 2000H এবং অফসেট অ্যাড্রেস 1050H হলে ফিজিক্যাল অ্যাড্রেস কত? [সেট #20]",
+    "options": [
+      "A) 3050H",
+      "B) 21050H",
+      "C) 20150H",
+      "D) 21500H"
+    ],
+    "answer": 1,
+    "explanation": "ফিজিক্যাল অ্যাড্রেস = (Segment Address × 10H) + Offset = 20000H + 1050H = 21050H।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1896,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "জেকে (J-K) ফ্লিপ-ফ্লপের রেস অ্যারাউন্ড কন্ডিশন (Race-Around Condition) কখন ঘটে? [সেট #20]",
+    "options": [
+      "A) J = 0, K = 0",
+      "B) J = 0, K = 1",
+      "C) J = 1, K = 0",
+      "D) J = 1, K = 1"
+    ],
+    "answer": 3,
+    "explanation": "যখন J=1, K=1 থাকে এবং ক্লক পালস পিরিয়ড প্রোপাগেশন ডিলের চেয়ে বড় হয়, তখন আউটপুট ক্রমাগত টগল হতে থাকে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1897,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "মাস্টার-স্লেভ জে-কে ফ্লিপ-ফ্লপ প্রধানত কী দূর করতে ব্যবহৃত হয়? [সেট #20]",
+    "options": [
+      "A) ক্লক স্কিউ",
+      "B) রেস অ্যারাউন্ড কন্ডিশন",
+      "C) পাওয়ার কনজাম্পশন",
+      "D) গেট ডিলে"
+    ],
+    "answer": 1,
+    "explanation": "মাস্টার-স্লেভ ফ্লিপ-ফ্লপ ক্লকের পজিটিভ ও নেগেটিভ এজে আলাদা কাজ করে রেস অ্যারাউন্ড কন্ডিশন সম্পূর্ণ দূর করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1898,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "ডেসিমাল সংখ্যা (28)₁₀ এর ২'র পরিপূরক (2's Complement) ৮-বিট বাইনারি রূপ কোনটি? [সেট #20]",
+    "options": [
+      "A) 00011100",
+      "B) 11100011",
+      "C) 11100100",
+      "D) 11110010"
+    ],
+    "answer": 2,
+    "explanation": "+28 = 00011100। ১'র পরিপূরক = 11100011। এর সাথে ১ যোগ করলে ২'র পরিপূরক = 11100100।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1899,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "একটি ফুল-অ্যাডার (Full Adder) সার্কিটে কতটি হাফ-অ্যাডার এবং কতটি OR গেট থাকে? [সেট #20]",
+    "options": [
+      "A) ১টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "B) ২টি হাফ-অ্যাডার ও ১টি OR গেট",
+      "C) ২টি হাফ-অ্যাডার ও ২টি OR গেট",
+      "D) ৩টি হাফ-অ্যাডার"
+    ],
+    "answer": 1,
+    "explanation": "একটি ফুল অ্যাডার ২টি হাফ অ্যাডার এবং ১টি OR গেট দিয়ে তৈরি করা যায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  },
+  {
+    "id": 1900,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Digital Logic Design & Microprocessor 8086",
+    "question": "নিচের কোন মেমরিটি উদ্বায়ী (Volatile) মেমরি? [সেট #20]",
+    "options": [
+      "A) ROM",
+      "B) Flash Memory",
+      "C) SRAM (Static RAM)",
+      "D) Hard Disk"
+    ],
+    "answer": 2,
+    "explanation": "SRAM এবং DRAM হলো ভলাটাইল মেমরি, যা বিদ্যুৎ প্রবাহ বন্ধ হলে তাদের ভেতরের ডেটা হারায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dld",
+      "microprocessor",
+      "8086",
+      "logic_gates"
+    ]
+  }
+]

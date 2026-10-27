@@ -1,0 +1,76 @@
+[
+  {
+    "id": 40007,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "ইনপুট ও আউটপুট ডিভাইস",
+    "question": "নিচের কোনটি একই সাথে ইনপুট এবং আউটপুট উভয় ডিভাইস হিসেবে কাজ করে?",
+    "options": [
+      "A) স্ক্যানার (Scanner)",
+      "B) টাচস্ক্রিন (Touchscreen)",
+      "C) প্লটার (Plotter)",
+      "D) প্রজেক্টর (Projector)"
+    ],
+    "answer": 1,
+    "explanation": "টাচস্ক্রিন স্পর্শের মাধ্যমে ইনপুট নেয় এবং পর্দায় ফলাফল প্রদর্শন করায় এটি ইনপুট ও আউটপুট উভয় ডিভাইস।",
+    "tags": [
+      "computer_trade",
+      "io_devices"
+    ]
+  },
+  {
+    "id": 40008,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "ইনপুট ও আউটপুট ডিভাইস",
+    "question": "OMR এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Optical Mark Reader",
+      "B) Optical Message Reader",
+      "C) Output Memory Register",
+      "D) Optical Main Resource"
+    ],
+    "answer": 0,
+    "explanation": "OMR = Optical Mark Reader (বা Recognition), যা সাধারণত নিয়োগ পরীক্ষার উত্তরপত্র মূল্যায়নে ব্যবহৃত হয়।",
+    "tags": [
+      "computer_trade",
+      "abbreviation",
+      "omr"
+    ]
+  },
+  {
+    "id": 40009,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "ইনপুট ও আউটপুট ডিভাইস",
+    "question": "প্রিন্টারের আউটপুট রেজ্যুলেশন পরিমাপের একক কোনটি?",
+    "options": [
+      "A) PPM",
+      "B) DPI",
+      "C) Hertz",
+      "D) Bits"
+    ],
+    "answer": 1,
+    "explanation": "প্রিন্টারের প্রিন্ট কোয়ালিটি বা রেজ্যুলেশন মাপা হয় DPI (Dots Per Inch) এককে। প্রিন্টারের গতি মাপা হয় PPM (Pages Per Minute) দিয়ে।",
+    "tags": [
+      "computer_trade",
+      "printer"
+    ]
+  },
+  {
+    "id": 40033,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "ইনপুট ও আউটপুট ডিভাইস",
+    "question": "বারকোড রিডারে কোন প্রযুক্তি ব্যবহার করে পণ্যের তথ্য স্ক্যান করা হয়?",
+    "options": [
+      "A) রেডিও ওয়েভ",
+      "B) লেজার বা অপটিক্যাল সেন্সর",
+      "C) ম্যাগনেটিক স্ট্রিপ",
+      "D) আল্ট্রাসাউন্ড"
+    ],
+    "answer": 1,
+    "explanation": "বারকোড রিডার লেজার লাইট বা অপটিক্যাল সেন্সরের মাধ্যমে কাল-সাদা লাইনের প্রতিফলন শনাক্ত করে পণ্যের কোড পাঠ করে।",
+    "tags": [
+      "computer_trade",
+      "barcode",
+      "hardware"
+    ]
+  }
+]

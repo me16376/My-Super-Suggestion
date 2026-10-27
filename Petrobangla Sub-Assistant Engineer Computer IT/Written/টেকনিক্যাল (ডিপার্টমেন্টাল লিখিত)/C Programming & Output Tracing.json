@@ -1,0 +1,406 @@
+[
+  {
+    "id": 51,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "নিচের C প্রোগ্রামটির আউটপুট কী হবে তা স্টেপ-বাই-স্টেপ ট্রেস (Trace) করে ব্যাখ্যা করো:\n```c\n#include <stdio.h>\nvoid fun(int *p, int *q) {\n    p = q;\n    *p = 20;\n}\nint main() {\n    int a = 10, b = 15;\n    fun(&a, &b);\n    printf(\"a = %d, b = %d\\n\", a, b);\n    return 0;\n}\n```",
+    "marks": 8,
+    "answer": "ট্রেসিং ও আউটপুট বিশ্লেষণ:\n\n১. `main()` ফাংশনে দুটি লোকাল ভ্যারিয়েবল `a = 10` এবং `b = 15` মেমরিতে তৈরি হয়।\n২. `fun(&a, &b)` কল করার সময় `p` পয়েন্টার পায় `a`-এর অ্যাড্রেস এবং `q` পয়েন্টার পায় `b`-এর অ্যাড্রেস।\n৩. `fun()`-এর ভেতরে প্রথম লাইন: `p = q;`\nএখানে `p` একটি লোকাল পয়েন্টার ভ্যারিয়েবল। `p = q` করায় `p` এখন `a`-এর পরিবর্তে `b`-কে পয়েন্ট করা শুরু করে। কিন্তু `main()` ফাংশনের পয়েন্টার বা মেমরিতে কোনো স্থায়ী পরিবর্তন হয়নি।\n৪. দ্বিতীয় লাইন: `*p = 20;`\nযেহেতু `p` এখন `b`-এর মেমরি লোকেশন নির্দেশ করছে, তাই `b`-এর মান 15 থেকে বদলে 20 হয়ে যায়। কিন্তু `a`-এর মান 10-ই অপরিবর্তিত থাকে!\n৫. `fun()` থেকে ফিরে আসার পর `main()` ফাংশনে প্রিন্ট হয়:\n\nআউটপুট:\n```text\na = 10, b = 20\n```",
+    "points_to_remember": [
+      "পয়েন্টার নিজে পাস-বাই-ভ্যালু (Pass-by-value) হিসেবে যায়; পয়েন্টারের ভেতরে সংরক্ষিত অ্যাড্রেস বদলালে কলার ফাংশনে তার প্রভাব পড়ে না, যদি না ডাবল পয়েন্টার (**p) ব্যবহৃত হয়।"
+    ],
+    "tags": [
+      "buet_written",
+      "programming",
+      "c_output_trace",
+      "pointers"
+    ]
+  },
+  {
+    "id": 52,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "নিচের C কোডটির আউটপুট কী হবে এবং কেন?\n```c\n#include <stdio.h>\nint main() {\n    int arr[] = {10, 20, 30, 40, 50};\n    int *ptr = arr;\n    printf(\"%d, \", *ptr++);\n    printf(\"%d, \", *++ptr);\n    printf(\"%d, \", ++*ptr);\n    printf(\"%d\\n\", (*ptr)++);\n    return 0;\n}\n```",
+    "marks": 8,
+    "answer": "অপারেটর প্রেসিডেন্স ও ট্রেসিং:\n\n১. `int *ptr = arr;` -> `ptr` পয়েন্ট করছে `arr[0]` (10)-কে।\n২. `printf(\"%d, \", *ptr++);`:\nএখানে পোস্ট-ফিক্স `++` এর অগ্রাধিকার বেশি হলেও এটি পরে কার্যকর হয়। ফলে বর্তমান মান `*ptr` অর্থাৎ `10` প্রিন্ট হয়। প্রিন্ট হওয়ার পর `ptr` এক ঘর এগিয়ে `arr[1]` (20)-কে পয়েন্ট করে।\n৩. `printf(\"%d, \", *++ptr);`:\nএখানে প্রি-ফিক্স `++ptr` আগে পয়েন্টারকে এক ঘর এগিয়ে `arr[2]` (30)-তে নিয়ে যায়, তারপর `*` দিয়ে মান ডি-রেফারেন্স করে `30` প্রিন্ট করে।\n৪. `printf(\"%d, \", ++*ptr);`:\nএখানে `*ptr` হলো 30। প্রি-ফিক্স `++` সরাসরি মানের ওপর কাজ করে (30 + 1 = 31)। ফলে `31` প্রিন্ট হয় এবং `arr[2]`-এর মান স্থায়ীভাবে 31 হয়ে যায়।\n৫. `printf(\"%d\\n\", (*ptr)++);`:\nপোস্ট-ফিক্স `++` মানকে পরে বাড়াবে। ফলে বর্তমান মান `31` প্রিন্ট হয় এবং প্রিন্ট হওয়ার পর `arr[2]` এর মান 32 হয়।\n\nচূড়ান্ত আউটপুট:\n```text\n10, 30, 31, 31\n```",
+    "points_to_remember": [
+      "`*ptr++` পয়েন্টারকে পরে বাড়ায় কিন্তু বর্তমান মান রিটার্ন করে।",
+      "`*++ptr` পয়েন্টারকে আগে বাড়িয়ে নতুন লোকেশনের মান রিটার্ন করে।",
+      "`++*ptr` মানের সাথে সরাসরি ১ যোগ করে দেয়।"
+    ],
+    "tags": [
+      "buet_written",
+      "programming",
+      "c_output_trace",
+      "pointer_arithmetic"
+    ]
+  },
+  {
+    "id": 53,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "নিচের রিকার্সিভ (Recursive) ফাংশনটির আউটপুট কত হবে? রিকার্শন ট্রি (Recursion Tree) এঁকে দেখাও:\n```c\n#include <stdio.h>\nvoid count(int n) {\n    if (n <= 0) return;\n    printf(\"%d \", n);\n    count(n - 1);\n    printf(\"%d \", n);\n}\nint main() {\n    count(3);\n    return 0;\n}\n```",
+    "marks": 8,
+    "answer": "রিকার্শন ট্রেস ও কল স্ট্যাক:\n\n১. `count(3)` কল:\n   - প্রিন্ট করে: `3 `\n   - কল করে: `count(2)`\n   - (স্থগিত থাকে: `printf(\"%d \", 3)`)\n\n২. `count(2)` কল:\n   - প্রিন্ট করে: `2 `\n   - কল করে: `count(1)`\n   - (স্থগিত থাকে: `printf(\"%d \", 2)`)\n\n৩. `count(1)` কল:\n   - প্রিন্ট করে: `1 `\n   - কল করে: `count(0)`\n   - (স্থগিত থাকে: `printf(\"%d \", 1)`)\n\n৪. `count(0)` কল:\n   - `n <= 0` সত্য, সাথে সাথে `return` করে।\n\n৫. ওয়াইন্ডিং ব্যাক (Unwinding Call Stack):\n   - `count(1)` এর বাকি অংশ চলে: প্রিন্ট করে `1 `\n   - `count(2)` এর বাকি অংশ চলে: প্রিন্ট করে `2 `\n   - `count(3)` এর বাকি অংশ চলে: প্রিন্ট করে `3 `\n\nআউটপুট:\n```text\n3 2 1 1 2 3 \n```",
+    "points_to_remember": [
+      "রিকার্সিভ কলের আগের স্টেটমেন্ট ফরওয়ার্ড অর্ডারে চলে, এবং রিকার্সিভ কলের পরের স্টেটমেন্ট স্ট্যাক আনওয়াইন্ডিংয়ের সময় রিভার্স অর্ডারে চলে।"
+    ],
+    "tags": [
+      "buet_written",
+      "programming",
+      "c_output_trace",
+      "recursion"
+    ]
+  },
+  {
+    "id": 54,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "নিচের প্রোগ্রামে `static` ভ্যারিয়েবলের ব্যবহার লক্ষ্য করে আউটপুট নির্ণয় করো:\n```c\n#include <stdio.h>\nvoid display() {\n    static int x = 5;\n    int y = 5;\n    x += 2;\n    y += 2;\n    printf(\"x = %d, y = %d\\n\", x, y);\n}\nint main() {\n    display();\n    display();\n    display();\n    return 0;\n}\n```",
+    "marks": 8,
+    "answer": "ট্রেসিং ও ব্যাখ্যা:\n১. `static int x = 5;` মেমরির ডেটা সেগমেন্টে একবারই ইনিশিয়ালাইজ হয় এবং প্রোগ্রাম শেষ না হওয়া পর্যন্ত এর মান সংরক্ষিত থাকে।\n২. `int y = 5;` একটি অটো/লোকাল ভ্যারিয়েবল যা স্ট্যাকে তৈরি হয় এবং ফাংশন শেষ হলে ধ্বংস হয়ে যায়।\n\n• ১ম কল `display()`:\n  `x` হয় 5 + 2 = 7 | `y` হয় 5 + 2 = 7\n  আউটপুট: `x = 7, y = 7`\n\n• ২য় কল `display()`:\n  `x` আগের 7 ধরে রাখে, 7 + 2 = 9 | `y` নতুন করে 5 হয়, 5 + 2 = 7\n  আউটপুট: `x = 9, y = 7`\n\n• ৩য় কল `display()`:\n  `x` আগের 9 ধরে রাখে, 9 + 2 = 11 | `y` নতুন করে 5 হয়, 5 + 2 = 7\n  আউটপুট: `x = 11, y = 7`\n\nচূড়ান্ত আউটপুট:\n```text\nx = 7, y = 7\nx = 9, y = 7\nx = 11, y = 7\n```",
+    "points_to_remember": [
+      "Static ভ্যারিয়েবল ফাংশন কলের মধ্যবর্তী সময়ে তার মান অক্ষুণ্ণ রাখে।"
+    ],
+    "tags": [
+      "buet_written",
+      "programming",
+      "c_output_trace",
+      "static_variable"
+    ]
+  },
+  {
+    "id": 55,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "নিচের বিটওয়াইজ (Bitwise) অপারেশনের আউটপুট কত হবে?\n```c\n#include <stdio.h>\nint main() {\n    int a = 12, b = 25;\n    printf(\"AND = %d\\n\", a & b);\n    printf(\"OR = %d\\n\", a | b);\n    printf(\"XOR = %d\\n\", a ^ b);\n    printf(\"Shift = %d\\n\", a << 2);\n    return 0;\n}\n```",
+    "marks": 8,
+    "answer": "বাইনারি হিসাব ও আউটপুট:\n• a = 12 = 0000 1100 (বাইনারি)\n• b = 25 = 0001 1001 (বাইনারি)\n\n১. `a & b` (Bitwise AND):\n  0000 1100\n& 0001 1001\n= 0000 1000 = দশমিক 8\n\n২. `a | b` (Bitwise OR):\n  0000 1100\n| 0001 1001\n= 0001 1101 = 16 + 8 + 4 + 1 = দশমিক 29\n\n৩. `a ^ b` (Bitwise XOR):\n  0000 1100\n^ 0001 1001\n= 0001 0101 = 16 + 4 + 1 = দশমিক 21\n\n৪. `a << 2` (Left Shift by 2):\n  12 * 2^2 = 12 * 4 = 48\n\nআউটপুট:\n```text\nAND = 8\nOR = 29\nXOR = 21\nShift = 48\n```",
+    "points_to_remember": [
+      "লেফট শিফট `a << k` মানে `a * 2^k` এবং রাইট শিফট `a >> k` মানে `a / 2^k`।"
+    ],
+    "tags": [
+      "buet_written",
+      "programming",
+      "c_output_trace",
+      "bitwise"
+    ]
+  },
+  {
+    "id": 56,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "স্ট্রাকচার মেমরি অ্যালাইনমেন্ট ও প্যাডিং (Structure Padding): নিচের কোডে `sizeof(struct Demo)` এর মান কত হবে এবং কেন?\n```c\n#include <stdio.h>\nstruct Demo {\n    char a;\n    int b;\n    char c;\n};\nint main() {\n    printf(\"Size: %lu\\n\", sizeof(struct Demo));\n    return 0;\n}\n```",
+    "marks": 8,
+    "answer": "মেমরি প্যাডিং বিশ্লেষণ:\n১. স্বাভাবিক যোগফল: `char a` (1 byte) + `int b` (4 bytes) + `char c` (1 byte) = 6 bytes।\n২. তবে ৩২-বিট/৬৪-বিট আর্কিটেকচারে সিপিইউ ৪-বাইট বা ৮-বাইটের ওয়ার্ড বাউন্ডারিতে মেমরি রিড করতে পছন্দ করে যাতে বাস সাইকেল দ্রুত হয়। এটিকে Structure Padding বলে।\n৩. মেমরি বিন্যাস:\n• `char a`: Offset 0 এ বসে (1 byte)।\n• `int b`: ৪-এর গুণিতক অ্যাড্রেস ছাড়া বসতে পারে না, তাই কম্পাইলার ৩ বাইটের প্যাডিং (Padding) যোগ করে Offset 4-এ `b`-কে বসায় (4 bytes)।\n• `char c`: Offset 8 এ বসে (1 byte)।\n• স্ট্রাকচারের বৃহত্তম মেম্বার হলো `int` (4 bytes)। ফলে পুরো স্ট্রাকচারের আকার অবশ্যই ৪-এর গুণিতক হতে হবে। তাই শেষে আরও ৩ বাইটের প্যাডিং যোগ হয়।\n\nমোট আকার = 1 + 3 (প্যাডিং) + 4 + 1 + 3 (প্যাডিং) = 12 বাইট।\n\nআউটপুট:\n```text\nSize: 12\n```",
+    "points_to_remember": [
+      "`#pragma pack(1)` ডিরেক্টিভ ব্যবহার করলে মেমরি প্যাডিং বন্ধ করা যায় এবং তখন আকার হতো ৬ বাইট।"
+    ],
+    "tags": [
+      "buet_written",
+      "programming",
+      "structure_padding",
+      "memory"
+    ]
+  },
+  {
+    "id": 61,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "ডাবল পয়েন্টার (Double Pointer `**ptr`): নিচের কোডটির আউটপুট কী হবে তা মেমরি ডায়াগ্রামসহ ব্যাখ্যা করো:\n```c\n#include <stdio.h>\nvoid change(int **ptr, int *target) {\n    *ptr = target;\n}\nint main() {\n    int x = 50, y = 100;\n    int *p = &x;\n    change(&p, &y);\n    printf(\"*p = %d, x = %d, y = %d\\n\", *p, x, y);\n    return 0;\n}\n```",
+    "marks": 8,
+    "answer": "মেমরি বিশ্লেষণ ও আউটপুট:\n১. `main()`-এ `x = 50`, `y = 100` এবং পয়েন্টার `p` পয়েন্ট করছে `&x`-কে।\n২. `change(&p, &y)` কল করার সময়:\n   - `ptr` ডাবল পয়েন্টার পায় `p`-এর নিজস্ব মেমরি অ্যাড্রেস (`&p`)।\n   - `target` পায় `y`-এর অ্যাড্রেস (`&y`)।\n৩. `change()` ফাংশনে `*ptr = target;` স্টেটমেন্টটি চলে:\n   - `*ptr` হলো `main()` ফাংশনের মূল পয়েন্টার ভ্যারিয়েবল `p`!\n   - ফলে `p`-এর ভেতরে থাকা ঠিকানা বদলে সরাসরি `y`-এর ঠিকানা (`&y`) হয়ে যায়।\n৪. ফাংশন শেষ হলে `main()`-এ `p` এখন `y`-কে পয়েন্ট করছে। কিন্তু `x` ও `y` ভ্যালু অপরিবর্তিত আছে।\n\nআউটপুট:\n```text\n*p = 100, x = 50, y = 100\n```",
+    "points_to_remember": [
+      "কলার ফাংশনের পয়েন্টারকে অন্য কোনো মেমরিতে স্থায়ীভাবে রি-ডিরেক্ট করতে হলে ডাবল পয়েন্টার (`**ptr`) দিয়ে কল-বাই-রেফারেন্স করতে হয়।"
+    ],
+    "tags": [
+      "buet_written",
+      "programming",
+      "c_output_trace",
+      "double_pointer"
+    ]
+  },
+  {
+    "id": 62,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "নিচের ২D অ্যারে ও পয়েন্টার অ্যারিথমেটিক কোডটির আউটপুট কী হবে?\n```c\n#include <stdio.h>\nint main() {\n    int a[3][3] = { {1, 2, 3}, {4, 5, 6}, {7, 8, 9} };\n    printf(\"%d, \", *(*(a + 1) + 2));\n    printf(\"%d, \", *(a[2] + 1));\n    printf(\"%d\\n\", *(*a + 4));\n    return 0;\n}\n```",
+    "marks": 8,
+    "answer": "পয়েন্টার ম্যাপিং ও ট্রেসিং:\n১. `*(*(a + 1) + 2)`:\n   - `(a + 1)` পয়েন্ট করে রো ১ (Row 1) অর্থাৎ `{4, 5, 6}` এর দিকে।\n   - `*(a + 1)` হলো রো ১-এর বেস অ্যাড্রেস `&a[1][0]`।\n   - `*(a + 1) + 2` হলো `&a[1][2]` (কলাম ২)।\n   - `*(*(a + 1) + 2)` মান হলো `a[1][2] = 6`।\n\n২. `*(a[2] + 1)`:\n   - `a[2]` হলো ৩য় রো `{7, 8, 9}` এর বেস অ্যাড্রেস `&a[2][0]`।\n   - `a[2] + 1` হলো `&a[2][1]`।\n   - মান ডি-রেফারেন্স করলে দাঁড়ায় `a[2][1] = 8`।\n\n৩. `*(*a + 4)`:\n   - `*a` হলো পুরো ২D অ্যারের ১ম উপাদানের অ্যাড্রেস `&a[0][0]`।\n   - মেমরিতে ২D অ্যারে রো-মেজর (Row-major) ক্রমানুসারে থাকে: 1, 2, 3, 4, 5, 6, 7, 8, 9।\n   - `&a[0][0] + 4` মানে ৪র্থ ইনডেক্স (`0+4 = 4` ইনডেক্স)।\n   - উপাদানের মান হলো `5` (যেহেতু 0-তে 1, 1-এ 2, 2-এ 3, 3-এ 4, 4-এ 5)।\n\nআউটপুট:\n```text\n6, 8, 5\n```",
+    "points_to_remember": [
+      "C ভাষায় ২D অ্যারে মেমরিতে লিনিয়ারভাবে রো-মেজর ক্রমে সাজানো থাকে।"
+    ],
+    "tags": [
+      "buet_written",
+      "programming",
+      "c_output_trace",
+      "2d_array"
+    ]
+  },
+  {
+    "id": 63,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "নিচের স্ট্রিং পয়েন্টার ম্যানিপুলেশন প্রোগ্রামটির আউটপুট কী হবে?\n```c\n#include <stdio.h>\nint main() {\n    char str[] = \"PETROBANGLA\";\n    char *p = str + 5;\n    while (*p != '\\0') {\n        putchar(*p);\n        p += 2;\n    }\n    return 0;\n}\n```",
+    "marks": 8,
+    "answer": "ট্রেসিং বিশ্লেষণ:\n১. `str[] = \"PETROBANGLA\"` এর ইনডেক্সসমূহ:\n   - 0: P, 1: E, 2: T, 3: R, 4: O, 5: B, 6: A, 7: N, 8: G, 9: L, 10: A, 11: '\\0'\n২. `char *p = str + 5;`:\n   - `p` শুরুতেই ইনডেক্স ৫ (`'B'`)-কে পয়েন্ট করে।\n৩. লুপ এক্সিকিউশন:\n   - লুপ ১: `*p` হলো `'B'`। প্রিন্ট করে `B`। তারপর `p += 2` হওয়ায় `p` যায় ইনডেক্স ৭-এ।\n   - লুপ ২: `*p` হলো `'N'`। প্রিন্ট করে `N`। তারপর `p += 2` হওয়ায় `p` যায় ইনডেক্স ৯-এ।\n   - লুপ ৩: `*p` হলো `'L'`। প্রিন্ট করে `L`। তারপর `p += 2` হওয়ায় `p` যায় ইনডেক্স ১১-এ (`'\\0'`)।\n   - লুপ ৪: `*p == '\\0'` সত্য, লুপ সমাপ্ত হয়।\n\nআউটপুট:\n```text\nBNL\n```",
+    "points_to_remember": [
+      "`str + k` স্ট্রিংয়ের k-তম ইনডেক্সের পয়েন্টার রিটার্ন করে।"
+    ],
+    "tags": [
+      "buet_written",
+      "programming",
+      "c_output_trace",
+      "strings"
+    ]
+  },
+  {
+    "id": 64,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "ম্যাক্রো এক্সপ্যানশন ট্র্যাপ (Macro Pitfall): নিচের কোডের আউটপুট কত হবে এবং কেন?\n```c\n#include <stdio.h>\n#define SQUARE(x) x * x\n#define CUBE(x) (x) * (x) * (x)\nint main() {\n    int a = SQUARE(3 + 2);\n    int b = CUBE(2 + 1);\n    printf(\"a = %d, b = %d\\n\", a, b);\n    return 0;\n}\n```",
+    "marks": 8,
+    "answer": "ম্যাক্রো প্রতিস্থাপন ও ট্রেসিং:\n১. সি প্রি-প্রসেসর কোনো গাণিতিক হিসাব করে না, কেবল টেক্সট প্রতিস্থাপন (Textual substitution) করে।\n২. `a = SQUARE(3 + 2);`:\n   - টেক্সট প্রতিস্থাপন: `a = 3 + 2 * 3 + 2;` (কোনো ব্র্যাকেট ছাড়া!)\n   - গুণনের অগ্রাধিকার বেশি হওয়ায়: `2 * 3 = 6`।\n   - যোগফল: `3 + 6 + 2 = 11`! (অনেকে ভুল করে (3+2)^2 = 25 ভাবে)।\n\n৩. `b = CUBE(2 + 1);`:\n   - টেক্সট প্রতিস্থাপন: `b = (2 + 1) * (2 + 1) * (2 + 1);`\n   - ব্র্যাকেট থাকায়: `3 * 3 * 3 = 27`।\n\nআউটপুট:\n```text\na = 11, b = 27\n```",
+    "points_to_remember": [
+      "ম্যাক্রো সংজ্ঞায়িত করার সময় প্যারামিটার ও পুরো এক্সপ্রেশন ব্র্যাকেটে আবদ্ধ না রাখলে অপারেটর প্রেসিডেন্সের কারণে অপ্রত্যাশিত ফলাফল আসে।"
+    ],
+    "tags": [
+      "buet_written",
+      "programming",
+      "macros",
+      "preprocessor"
+    ]
+  },
+  {
+    "id": 65,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "নিচের রিকার্সিভ ফাংশনটির আউটপুট কত হবে?\n```c\n#include <stdio.h>\nint f(int n) {\n    if (n <= 1) return 1;\n    if (n % 2 == 0) return f(n / 2) + 2;\n    return f(n - 1) * 2;\n}\nint main() {\n    printf(\"Result = %d\\n\", f(6));\n    return 0;\n}\n```",
+    "marks": 8,
+    "answer": "রিকার্শন ট্রেস:\n১. `f(6)`:\n   - 6 জোড় সংখ্যা (`n % 2 == 0` সত্য)\n   - রিটার্ন করবে: `f(3) + 2`\n\n২. `f(3)`:\n   - 3 বিজোড় সংখ্যা\n   - রিটার্ন করবে: `f(2) * 2`\n\n৩. `f(2)`:\n   - 2 জোড় সংখ্যা\n   - রিটার্ন করবে: `f(1) + 2`\n\n৪. `f(1)`:\n   - বেস কেস `n <= 1` সত্য, রিটার্ন করে `1`।\n\n৫. ওয়াইন্ডিং ব্যাক:\n   - `f(2) = 1 + 2 = 3`\n   - `f(3) = 3 * 2 = 6`\n   - `f(6) = 6 + 2 = 8`\n\nআউটপুট:\n```text\nResult = 8\n```",
+    "points_to_remember": [
+      "রিকার্সিভ ফাংশনের ট্রেসিং সর্বদা নিচের বেস কেস পর্যন্ত নেমে তারপর মান ফেরত দিয়ে উপরে উঠতে হয়।"
+    ],
+    "tags": [
+      "buet_written",
+      "programming",
+      "recursion",
+      "c_output_trace"
+    ]
+  },
+  {
+    "id": 66,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "ব্রায়ান কার্নিঘান অ্যালগরিদম (Brian Kernighan's Algorithm): একটি পূর্ণসংখ্যার বাইনারিতে কতটি '1' (Set Bit) আছে তা গণনা করার C ফাংশনটি লিখুন। `(n & (n - 1))` এক্সপ্রেশনটি কীভাবে কাজ করে?",
+    "marks": 8,
+    "answer": "অ্যালগরিদম ব্যাখ্যা ও C কোড:\n`(n & (n - 1))` অপারেশনটি যেকোনো সংখ্যার বাইনারি রূপের সর্বডানের '1' (Lowest set bit)-কে সরাসরি '0' করে দেয়।\nউদাহরণস্বরূপ: n = 12 (1100)\n1. n - 1 = 11 (1011)\n2. n & (n - 1) = 1100 & 1011 = 1000 (ডানপাশের ১ মুছে গেছে)।\n\nC ফাংশন:\n```c\nint countSetBits(int n) {\n    int count = 0;\n    while (n > 0) {\n        n = n & (n - 1); // প্রতি ধাপে একটি '1' মুছে যায়\n        count++;\n    }\n    return count;\n}\n```\nদক্ষতা (Complexity):\nলুপটি ৩২ বার না চলে শুধুমাত্র যতগুলো '1' বিট আছে ঠিক ততবার চলে (O(k) time, where k = number of set bits)। এটি সাধারণ বিট চেকিংয়ের চেয়ে বহুগুণ দ্রুত।",
+    "points_to_remember": [
+      "যদি `(n & (n - 1)) == 0` হয় এবং `n > 0` হয়, তবে সংখ্যাটি নিশ্চিতভাবেই ২-এর পাওয়ার (Power of 2)।"
+    ],
+    "tags": [
+      "buet_written",
+      "programming",
+      "bitwise",
+      "brian_kernighan"
+    ]
+  },
+  {
+    "id": 67,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "ড্যাংলিং পয়েন্টার (Dangling Pointer) এবং মেমরি লিক (Memory Leak) কী? নিচের দুর্বল কোডটিতে উভয় সমস্যা চিহ্নিত করে সঠিক সংস্করণ লিখুন:\n```c\nvoid test() {\n    int *ptr = (int *)malloc(sizeof(int) * 10);\n    free(ptr);\n    *ptr = 25; // সমস্যা ১\n}\n// সমস্যা ২: ফাংশন শেষে মেমরি নিয়ন্ত্রণ\n```",
+    "marks": 8,
+    "answer": "সংজ্ঞা:\n১. Dangling Pointer: মেমরি ডিলিট বা `free()` করার পর কোনো পয়েন্টার যদি আগের অবমুক্ত মেমরি অ্যাড্রেসকেই নির্দেশ করে থাকে, তবে তাকে ড্যাংলিং পয়েন্টার বলে। এটি ব্যবহার করলে প্রোগ্রাম ক্র্যাশ (Segmentation Fault) করে।\n২. Memory Leak: হিপ মেমরিতে ডায়নামিকভাবে অ্যালোকেটকৃত মেমরি কাজ শেষে `free()` না করে পয়েন্টার হারিয়ে ফেললে সেই মেমরি ব্লকটি লক হয়ে থাকে, যাকে মেমরি লিক বলে।\n\nত্রুটি বিশ্লেষণ ও সমাধান:\n• ত্রুটি: `free(ptr)` করার পরপরই `*ptr = 25` লেখা হয়েছে। মেমরি অবমুক্ত হওয়ার পর তাতে অ্যাক্সেস করা মারাত্মক ঝুঁকি।\n\nসঠিক কোড:\n```c\nvoid test() {\n    int *ptr = (int *)malloc(sizeof(int) * 10);\n    if (ptr == NULL) return; // মেমরি অ্যালোকেশন ব্যর্থতা চেক\n    \n    // মেমরি ব্যবহার\n    ptr[0] = 25;\n    \n    // কাজ শেষে নিরাপদ রিলিজ\n    free(ptr);\n    ptr = NULL; // পয়েন্টারকে নাল করে দিলে ড্যাংলিং প্রতিরোধ হয়!\n}\n```",
+    "points_to_remember": [
+      "`free(ptr)` করার পরপরই সর্বদা `ptr = NULL;` করে দেওয়া বেস্ট প্র্যাকটিস।"
+    ],
+    "tags": [
+      "buet_written",
+      "programming",
+      "memory_leak",
+      "dangling_pointer"
+    ]
+  },
+  {
+    "id": 68,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "নিচের কোডে `#pragma pack(1)` ব্যবহারের ফলে `sizeof(struct S1)` এবং `sizeof(struct S2)` এর মধ্যে কী পার্থক্য হবে?\n```c\n#include <stdio.h>\nstruct S1 {\n    char c;\n    double d;\n    int i;\n};\n#pragma pack(1)\nstruct S2 {\n    char c;\n    double d;\n    int i;\n};\n#pragma pack()\nint main() {\n    printf(\"%lu, %lu\\n\", sizeof(struct S1), sizeof(struct S2));\n    return 0;\n}\n```",
+    "marks": 8,
+    "answer": "মেমরি প্যাডিং বনাম প্যাকিং:\n\n১. `struct S1` (স্বাভাবিক অ্যালাইনমেন্ট - ৮ বাইট বাউন্ডারি):\n   - `char c`: ১ বাইট + ৭ বাইট প্যাডিং = ৮ বাইট (কারণ `double` ৮ বাইট বাউন্ডারিতে বসে)\n   - `double d`: ৮ বাইট\n   - `int i`: ৪ বাইট + ৪ বাইট প্যাডিং = ৮ বাইট (পুরো স্ট্রাকচারকে বৃহত্তম মেম্বার ৮-এর গুণিতক হতে হবে)\n   - মোট সাইজ = ৮ + ৮ + ৮ = ২৪ বাইট।\n\n২. `struct S2` (`#pragma pack(1)` সক্রিয়):\n   - কম্পাইলার কোনো প্যাডিং বাইট যোগ করতে পারে না (১-বাইট অ্যালাইনমেন্ট)।\n   - `char c` (1) + `double d` (8) + `int i` (4) = ১৩ বাইট।\n\nআউটপুট:\n```text\n24, 13\n```",
+    "points_to_remember": [
+      "`#pragma pack(1)` মেমরি সাশ্রয় করে কিন্তু সিপিইউ মেমরি অ্যাক্সেস স্পিড কিছুটা কমিয়ে দেয়।"
+    ],
+    "tags": [
+      "buet_written",
+      "programming",
+      "pragma_pack",
+      "structure_padding"
+    ]
+  },
+  {
+    "id": 69,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "ইউনিয়ন (Union) মেমরি শেয়ারিং: নিচের প্রোগ্রামের আউটপুট কত হবে এবং কেন?\n```c\n#include <stdio.h>\nunion Data {\n    int i;\n    char ch[2];\n};\nint main() {\n    union Data d;\n    d.i = 512;\n    printf(\"%d, %d\\n\", d.ch[0], d.ch[1]);\n    return 0;\n}\n```",
+    "marks": 8,
+    "answer": "লিটল-এন্ডিয়ান মেমরি ও ইউনিয়ন শেয়ারিং:\n১. ইউনিয়নে সমস্ত মেম্বার একই মেমরি লোকেশন শেয়ার করে। `union Data`-র আকার হলো বৃহত্তম মেম্বার `int` এর সমান (৪ বাইট)।\n২. `d.i = 512` এর ১৬-বিট হেক্সাডেসিমেল রূপ:\n   - 512 = 0x0200\n   - High Byte = 0x02 (দশমিকে 2)\n   - Low Byte = 0x00 (দশমিকে 0)\n৩. এক্স৮৬/এআরএম প্রসেসর লিটল-এন্ডিয়ান (Little-Endian) আর্কিটেকচার মেনে চলে, যেখানে নিম্ন অ্যাড্রেসে লো-বাইট এবং উচ্চ অ্যাড্রেসে হাই-বাইট বসে:\n   - `d.ch[0]` (নিম্ন অ্যাড্রেস) পায় 0x00 = 0\n   - `d.ch[1]` (উচ্চ অ্যাড্রেস) পায় 0x02 = 2\n\nআউটপুট:\n```text\n0, 2\n```",
+    "points_to_remember": [
+      "লিটল-এন্ডিয়ান মেমরিতে সর্বনিম্ন বাইট (LSB) আগে বসে।"
+    ],
+    "tags": [
+      "buet_written",
+      "programming",
+      "union",
+      "endianness"
+    ]
+  },
+  {
+    "id": 70,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "ফাংশন পয়েন্টার (Function Pointer): নিচের কোডটির আউটপুট কী হবে এবং C ভাষায় ফাংশন পয়েন্টারের ব্যবহারিক উপযোগিতা কী?\n```c\n#include <stdio.h>\nint add(int a, int b) { return a + b; }\nint mul(int a, int b) { return a * b; }\nint compute(int (*op)(int, int), int x, int y) {\n    return op(x, y);\n}\nint main() {\n    printf(\"%d, %d\\n\", compute(add, 4, 5), compute(mul, 4, 5));\n    return 0;\n}\n```",
+    "marks": 8,
+    "answer": "ট্রেসিং ও ব্যাখ্যা:\n১. `compute()` ফাংশন প্রথম আর্গুমেন্ট হিসেবে একটি ফাংশন পয়েন্টার `op` গ্রহণ করে।\n২. `compute(add, 4, 5)` কলে `op` নির্দেশ করে `add` ফাংশনকে। ফলে রিটার্ন করে `add(4, 5) = 9`।\n৩. `compute(mul, 4, 5)` কলে `op` নির্দেশ করে `mul` ফাংশনকে। ফলে রিটার্ন করে `mul(4, 5) = 20`।\n\nআউটপুট:\n```text\n9, 20\n```\nব্যবহারিক উপযোগিতা:\n১. কলব্যাক ফাংশন (Callback Functions) তৈরিতে (যেমন: C লাইব্রেরির `qsort()`-এ তুলনা ফাংশন পাঠানো)।\n২. অবজেক্ট ওরিয়েন্টেড ডিজাইন ও ইভেন্ট হ্যান্ডলার ড্রাইভার তৈরিতে।",
+    "points_to_remember": [
+      "`int (*ptr)(int, int)` হলো ফাংশন পয়েন্টার ডিক্লারেশন।"
+    ],
+    "tags": [
+      "buet_written",
+      "programming",
+      "function_pointers"
+    ]
+  },
+  {
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "সিঙ্গলি লিঙ্কড লিস্ট ইটারেটিভ পদ্ধতিতে রিভার্স করার পূর্ণাঙ্গ C ফাংশন লিখুন এবং টাইম ও স্পেস কমপ্লেক্সিটি কত?",
+    "marks": 10,
+    "answer": "C কোড সমাধান:\n```c\nstruct Node* reverseList(struct Node* head) {\n    struct Node *prev = NULL, *current = head, *next = NULL;\n    while (current != NULL) {\n        next = current->next;\n        current->next = prev;\n        prev = current;\n        current = next;\n    }\n    return prev;\n}\n```\nTime Complexity: O(n), Space Complexity: O(1)।",
+    "points_to_remember": [
+      "৩টি পয়েন্টার দিয়ে ইন-প্লেস রিভার্স সম্পন্ন হয়।"
+    ],
+    "tags": [
+      "buet_written",
+      "dsa",
+      "linked_list",
+      "c_code"
+    ],
+    "id": 129
+  },
+  {
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "নিচের C কোডের আউটপুট কী হবে:\n```c\n#include <stdio.h>\nstruct A { char c; int x; char d; };\n#pragma pack(1)\nstruct B { char c; int x; char d; };\nint main() {\n    printf(\"%zu, %zu\\n\", sizeof(struct A), sizeof(struct B));\n    return 0;\n}\n```",
+    "marks": 8,
+    "answer": "আউটপুট: `12, 6`\nব্যাখ্যা: `struct A`-তে মেমরি প্যাডিংয়ের কারণে 1 + 3(প্যাড) + 4 + 1 + 3(প্যাড) = 12 বাইট হয়। `#pragma pack(1)` থাকায় `struct B`-তে কোনো প্যাডিং ছাড়া 1 + 4 + 1 = 6 বাইট হয়।",
+    "points_to_remember": [
+      "`#pragma pack(1)` স্ট্রাকচার প্যাডিং বন্ধ করে দেয়।"
+    ],
+    "tags": [
+      "buet_written",
+      "programming",
+      "c_output_trace"
+    ],
+    "id": 130
+  },
+  {
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "BST (Binary Search Tree)-তে নতুন নোড ইনসার্ট করার রিকার্সিভ C ফাংশন লিখুন এবং টাইম কমপ্লেক্সিটি উল্লেখ করুন।",
+    "marks": 10,
+    "answer": "BST কোড:\n```c\nstruct Node* insert(struct Node* node, int key) {\n    if (node == NULL) return createNode(key);\n    if (key < node->key) node->left = insert(node->left, key);\n    else if (key > node->key) node->right = insert(node->right, key);\n    return node;\n}\n```\nTime Complexity: গড় O(log n), ওরস্ট கேস O(n)।",
+    "points_to_remember": [
+      "ইন-অর্ডার ট্রাভার্সাল BST উপাদানগুলোকে সর্টেড অর্ডারে দেয়।"
+    ],
+    "tags": [
+      "buet_written",
+      "dsa",
+      "bst",
+      "c_code"
+    ],
+    "id": 131
+  },
+  {
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "গ্রাফ ট্রাভার্সালে BFS এবং DFS এর মধ্যে ৪টি পার্থক্য এবং টাইম ও স্পেস কমপ্লেক্সিটি লিখুন।",
+    "marks": 8,
+    "answer": "BFS বনাম DFS:\n১. ডেটা স্ট্রাকচার: BFS কিউ (Queue); DFS স্ট্যাক (Stack / Recursion)।\n২. শর্টেস্ট পাথ: আনওয়েটেড গ্রাফে BFS শর্টেস্ট পাথ নিশ্চিত করে; DFS করে না।\n৩. কমপ্লেক্সিটি: Time Complexity উভয়ের O(V + E); Space Complexity O(V)।",
+    "points_to_remember": [
+      "BFS লেভেল অনুযায়ী আগায়, DFS গভীরে প্রবেশ করে।"
+    ],
+    "tags": [
+      "buet_written",
+      "dsa",
+      "graph",
+      "bfs_dfs"
+    ],
+    "id": 132
+  },
+  {
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "0/1 Knapsack সমস্যার ডায়নামিক প্রোগ্রামিং রিকারেন্স সমীকরণ ও টাইম কমপ্লেক্সিটি ব্যাখ্যা করুন।",
+    "marks": 10,
+    "answer": "DP সমাধান:\n$$DP[i][w] = \\max(DP[i-1][w], v_i + DP[i-1][w - w_i]) \\quad (\\text{if } w_i \\le w)$$\nTime Complexity: O(n × W)। Space Complexity: O(n × W) যা অপটিমাইজ করে O(W) করা যায়।",
+    "points_to_remember": [
+      "0/1 Knapsack গ্রিডি দিয়ে সমাধান করা যায় না।"
+    ],
+    "tags": [
+      "buet_written",
+      "dsa",
+      "dynamic_programming"
+    ],
+    "id": 133
+  },
+  {
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "KMP স্ট্রিং ম্যাচিং অ্যালগরিদমের কার্যপদ্ধতি ও LPS অ্যারের ভূমিকা ব্যাখ্যা করুন।",
+    "marks": 8,
+    "answer": "KMP সমাধান:\n১. KMP টেক্সটের পয়েন্টার পেছনে ব্যাকট্র্যাক করে না।\n২. প্রি-প্রসেসিংয়ের মাধ্যমে LPS (Longest Proper Prefix which is also Suffix) অ্যারে তৈরি করে।\n৩. মিসম্যাচ হলে LPS মান দেখে সরাসরি পরবর্তী সম্ভাব্য পজিশনে স্কিপ করে। Time Complexity: O(N + M)।",
+    "points_to_remember": [
+      "KMP ব্রুট-ফোর্সের চেয়ে অনেক দ্রুত O(N+M)।"
+    ],
+    "tags": [
+      "buet_written",
+      "dsa",
+      "kmp"
+    ],
+    "id": 134
+  },
+  {
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "সি ল্যাঙ্গুয়েজে ফাংশন পয়েন্টার (Function Pointer) কী? উদাহরণ সহ কলব্যাক মেকানিজম ব্যাখ্যা করুন।",
+    "marks": 8,
+    "answer": "ফাংশন পয়েন্টার কোড:\n```c\nint add(int a, int b) { return a + b; }\nvoid compute(int x, int y, int (*op)(int, int)) {\n    printf(\"Result: %d\\n\", op(x, y));\n}\nint main() {\n    int (*fptr)(int, int) = add;\n    compute(5, 4, fptr); // আউটপুট: 9\n    return 0;\n}\n```",
+    "points_to_remember": [
+      "ফাংশন পয়েন্টার দিয়ে ইভেন্ট হ্যান্ডলার ও প্লাগইন তৈরি হয়।"
+    ],
+    "tags": [
+      "buet_written",
+      "programming",
+      "function_pointers"
+    ],
+    "id": 135
+  },
+  {
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "C Programming & Output Tracing",
+    "question": "মেমরি লিক কী? malloc, calloc, realloc, free এবং মেমরি লিক প্রতিরোধের উপায় লিখুন।",
+    "marks": 8,
+    "answer": "মেমরি লিক সমাধান:\n১. হিপ মেমরি বরাদ্দ নেওয়ার পর `free()` না করে পয়েন্টার হারিয়ে ফেললে মেমরি লিক হয়।\n২. `malloc()` গারবেজ রাখে, `calloc()` ০ দিয়ে ইনিশিয়ালাইজ করে, `realloc()` সাইজ বাড়ায়/কমায়, `free()` রিলিজ করে।\n৩. প্রতিরোধের উপায়: প্রতি `malloc` এর পর `free` করা এবং `ptr = NULL` সেট করা; Valgrind দিয়ে চেক করা।",
+    "points_to_remember": [
+      "মেমরি ফ্রি করার পর পয়েন্টারকে NULL না করলে Dangling Pointer হয়।"
+    ],
+    "tags": [
+      "buet_written",
+      "programming",
+      "memory_leak"
+    ],
+    "id": 136
+  }
+]

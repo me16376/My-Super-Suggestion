@@ -1,0 +1,38 @@
+[
+  {
+    "id": 20014,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Translation",
+    "question": "'সে সাঁতার কাটতে জানে না' — এর সঠিক ইংরেজি অনুবাদ কোনটি?",
+    "options": [
+      "A) He does not know to swim.",
+      "B) He does not know how to swim.",
+      "C) He does not know swimming.",
+      "D) He cannot able to swim."
+    ],
+    "answer": 1,
+    "explanation": "কোনো কিছু করার পদ্ধতি বা দক্ষতা জানা বোঝাতে know + how to + verb এর বেস ফর্ম ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "translation"
+    ]
+  },
+  {
+    "id": 20015,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Translation",
+    "question": "'সকাল থেকে গুঁড়ি গুঁড়ি বৃষ্টি হচ্ছে' — এর সঠিক ইংরেজি রূপ কোনটি?",
+    "options": [
+      "A) It is raining heavily since morning.",
+      "B) It has been drizzling since morning.",
+      "C) It was drizzling from morning.",
+      "D) It is drizzling since morning."
+    ],
+    "answer": 1,
+    "explanation": "অতীত থেকে শুরু হয়ে বর্তমান পর্যন্ত কাজ চলা বোঝালে Present Perfect Continuous Tense হয় এবং গুঁড়ি গুঁড়ি বৃষ্টির ইংরেজি 'drizzle'।",
+    "tags": [
+      "english",
+      "translation"
+    ]
+  }
+]

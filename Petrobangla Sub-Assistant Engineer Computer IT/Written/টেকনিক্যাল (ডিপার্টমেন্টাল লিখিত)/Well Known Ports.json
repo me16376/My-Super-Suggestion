@@ -1,0 +1,18 @@
+[
+  {
+    "id": 26,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "Well Known Ports",
+    "question": "নিচের প্রোটোকলগুলোর ওয়েল-নোন পোর্ট নাম্বার (Well-known Port) এবং ব্যবহৃত ট্রান্সপোর্ট লেয়ার প্রোটোকল (TCP/UDP) লিখুন:\n(১) DNS (২) DHCP (৩) HTTP (৪) HTTPS (৫) SSH (৬) FTP (৭) SNMP (৮) NTP",
+    "marks": 8,
+    "answer": "পোর্ট তালিকা:\n১. DNS (Domain Name System): Port 53 (UDP প্রধানত, জোন ট্রান্সফারে TCP)\n২. DHCP (Dynamic Host Configuration): Port 67 (Server), Port 68 (Client) [UDP]\n৩. HTTP: Port 80 [TCP]\n৪. HTTPS: Port 443 [TCP]\n৫. SSH (Secure Shell): Port 22 [TCP]\n৬. FTP: Port 20 (Data), Port 21 (Control) [TCP]\n৭. SNMP (Simple Network Management): Port 161 (Agent), Port 162 (Trap) [UDP]\n৮. NTP (Network Time Protocol): Port 123 [UDP]",
+    "points_to_remember": [
+      "Well-known Port এর ব্যাপ্তি হলো 0 থেকে 1023 পর্যন্ত।"
+    ],
+    "tags": [
+      "buet_written",
+      "networking",
+      "ports"
+    ]
+  }
+]

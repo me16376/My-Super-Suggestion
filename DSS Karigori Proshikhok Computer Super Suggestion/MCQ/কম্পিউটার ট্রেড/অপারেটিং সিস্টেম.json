@@ -1,0 +1,40 @@
+[
+  {
+    "id": 40034,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "অপারেটিং সিস্টেম",
+    "question": "উইন্ডোজ অপারেটিং সিস্টেমে সরাসরি 'Run' কমান্ড ডায়ালগ বক্স ওপেন করার শর্টকাট কী কোনটি?",
+    "options": [
+      "A) Win + R",
+      "B) Win + E",
+      "C) Ctrl + R",
+      "D) Alt + R"
+    ],
+    "answer": 0,
+    "explanation": "উইন্ডোজ কি (Win) + R চাপলে 'Run' ডায়ালগ বক্স ওপেন হয়, যেখান থেকে cmd, excel, winword, calc ইত্যাদি কমান্ড দিয়ে সরাসরি ওপেন করা যায়।",
+    "tags": [
+      "computer_trade",
+      "windows",
+      "shortcuts"
+    ]
+  },
+  {
+    "id": 40035,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "অপারেটিং সিস্টেম",
+    "question": "উইন্ডোজ ফাইল এক্সপ্লোরার (File Explorer) ওপেন করার শর্টকাট কী কোনটি?",
+    "options": [
+      "A) Win + E",
+      "B) Win + F",
+      "C) Ctrl + E",
+      "D) Alt + E"
+    ],
+    "answer": 0,
+    "explanation": "উইন্ডোজ কি (Win) + E চাপলে সরাসরি ফাইল এক্সপ্লোরার (This PC) ওপেন হয়।",
+    "tags": [
+      "computer_trade",
+      "windows",
+      "shortcuts"
+    ]
+  }
+]

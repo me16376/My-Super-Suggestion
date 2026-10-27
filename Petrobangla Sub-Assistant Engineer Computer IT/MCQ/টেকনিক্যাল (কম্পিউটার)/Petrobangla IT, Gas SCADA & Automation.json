@@ -1,0 +1,112 @@
+[
+  {
+    "id": 2056,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Petrobangla IT, Gas SCADA & Automation",
+    "question": "SCADA এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Supervisory Control and Data Acquisition",
+      "B) System Control and Digital Automation",
+      "C) Sensor Control and Distribution Analytics",
+      "D) Substation Circuit Automation and Data Access"
+    ],
+    "answer": 0,
+    "explanation": "SCADA = Supervisory Control and Data Acquisition (সুপারভাইজরি কন্ট্রোল অ্যান্ড ডেটা অ্যাকুইজিশন)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "petrobangla",
+      "scada",
+      "gas_it",
+      "automation"
+    ]
+  },
+  {
+    "id": 2057,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Petrobangla IT, Gas SCADA & Automation",
+    "question": "গ্যাস ট্রান্সমিশন পাইপলাইনে ফিল্ড লেভেলের সেন্সর ও অ্যাকচুয়েটরের সাথে স্কাডা মাস্টারের সংযোগ ঘটায় কোন ইউনিট?",
+    "options": [
+      "A) RTU (Remote Terminal Unit)",
+      "B) Proxy Server",
+      "C) Switchboard",
+      "D) Load Balancer"
+    ],
+    "answer": 0,
+    "explanation": "RTU (Remote Terminal Unit) বা PLC ফিল্ডের অ্যানালগ সেন্সর ডেটা রিড করে ডিজিটাল সিগন্যালে সেন্ট্রাল স্কাডায় পাঠায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "petrobangla",
+      "scada",
+      "gas_it",
+      "automation"
+    ]
+  },
+  {
+    "id": 2058,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Petrobangla IT, Gas SCADA & Automation",
+    "question": "শিল্প কারখানায় অটোমেশন ও গ্যাস রেগুলেটিং স্টেশনে ব্যবহৃত Modbus প্রোটোকল প্রধানত কোন ট্রান্সমিশন মোডে কাজ করে?",
+    "options": [
+      "A) Modbus RTU (Serial RS-485) ও Modbus TCP/IP",
+      "B) Bluetooth Low Energy",
+      "C) Infrared",
+      "D) Zigbee"
+    ],
+    "answer": 0,
+    "explanation": "Modbus শিল্পক্ষেত্রে বহুল ব্যবহৃত হয় RS-485 সিরিয়াল বাসের মাধ্যমে (RTU) এবং ইথারনেটের মাধ্যমে (TCP/IP)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "petrobangla",
+      "scada",
+      "gas_it",
+      "automation"
+    ]
+  },
+  {
+    "id": 2059,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Petrobangla IT, Gas SCADA & Automation",
+    "question": "তিতাস ও বাখরাবাদ গ্যাসে ব্যবহৃত স্মার্ট প্রিপেইড গ্যাস মিটারে গ্রাহক কার্ড থেকে মিটারে ব্যালেন্স রিচার্জে কোন ওয়্যারলেস প্রযুক্তি ব্যবহৃত হয়?",
+    "options": [
+      "A) NFC (Near Field Communication - 13.56 MHz)",
+      "B) 5G Mobile Data",
+      "C) Satellite Uplink",
+      "D) Optical IrDA"
+    ],
+    "answer": 0,
+    "explanation": "স্মার্ট প্রিপেইড মিটারে ১৩.৫৬ মেগাহার্টজ ফ্রিকোয়েন্সির কন্টাক্টলেস NFC প্রযুক্তি ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "petrobangla",
+      "scada",
+      "gas_it",
+      "automation"
+    ]
+  },
+  {
+    "id": 2060,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Petrobangla IT, Gas SCADA & Automation",
+    "question": "গ্যাস পাইপলাইনের ভৌগোলিক নেটওয়ার্ক ম্যাপিং ও পাইপের অবস্থান সুনির্দিষ্টভাবে পর্যবেক্ষণে কোন সফটওয়্যার সিস্টেম ব্যবহৃত হয়?",
+    "options": [
+      "A) ERP",
+      "B) GIS (Geographic Information System)",
+      "C) CRM",
+      "D) SCADA Engine"
+    ],
+    "answer": 1,
+    "explanation": "GIS (Geographic Information System) দিয়ে গ্যাস পাইপলাইনের জিপিএস কোঅর্ডিনেট, ভালভ পয়েন্ট ও গ্রাহক লাইনের জিও-ম্যাপিং করা হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "petrobangla",
+      "scada",
+      "gas_it",
+      "automation"
+    ]
+  }
+]

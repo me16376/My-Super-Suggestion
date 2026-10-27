@@ -1,0 +1,40 @@
+[
+  {
+    "id": 20010,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Idioms & Phrases",
+    "question": "The idiom 'At a stretch' means:",
+    "options": [
+      "A) Slowly",
+      "B) Without break",
+      "C) Temporarily",
+      "D) Rarely"
+    ],
+    "answer": 1,
+    "explanation": "'At a stretch' ইডিয়ামটির অর্থ কোনো বিরতি ছাড়া একনাগাড়ে (Continuous বা Without break)।",
+    "tags": [
+      "english",
+      "vocabulary",
+      "idioms"
+    ]
+  },
+  {
+    "id": 20022,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Idioms & Phrases",
+    "question": "The phrase 'A white elephant' denotes:",
+    "options": [
+      "A) A very rare animal",
+      "B) A very costly but useless possession",
+      "C) An auspicious symbol",
+      "D) An unexpected fortune"
+    ],
+    "answer": 1,
+    "explanation": "'A white elephant' অর্থ অতি ব্যয়বহুল কিন্তু অকেজো বা কোনো কাজে লাগে না এমন সামগ্রী।",
+    "tags": [
+      "english",
+      "vocabulary",
+      "idioms"
+    ]
+  }
+]

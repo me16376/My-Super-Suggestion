@@ -1,0 +1,21 @@
+[
+  {
+    "id": 40050,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "ইন্টারনেট ও সার্চ",
+    "question": "নিচের কোনটি একটি ওয়েব ব্রাউজার নয়?",
+    "options": [
+      "A) Google Chrome",
+      "B) Mozilla Firefox",
+      "C) Google Search Engine",
+      "D) Microsoft Edge"
+    ],
+    "answer": 2,
+    "explanation": "Google মূলত একটি সার্চ ইঞ্জিন। Chrome, Firefox ও Edge হলো ওয়েব ব্রাউজার সফটওয়্যার।",
+    "tags": [
+      "computer_trade",
+      "internet",
+      "browser"
+    ]
+  }
+]

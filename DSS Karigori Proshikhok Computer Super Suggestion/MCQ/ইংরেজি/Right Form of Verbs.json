@@ -1,0 +1,40 @@
+[
+  {
+    "id": 20004,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Right Form of Verbs",
+    "question": "It is high time we ______ our bad habits.",
+    "options": [
+      "A) change",
+      "B) changed",
+      "C) had changed",
+      "D) have changed"
+    ],
+    "answer": 1,
+    "explanation": "'It is time' বা 'It is high time' এর পর সাবজেক্ট আসলে ভার্বের Past Indefinite Form (V2) ব্যবহৃত হয়, তাই 'changed' হবে।",
+    "tags": [
+      "english",
+      "grammar",
+      "verbs"
+    ]
+  },
+  {
+    "id": 20005,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Right Form of Verbs",
+    "question": "If I had known his email address, I ______ him the report.",
+    "options": [
+      "A) would send",
+      "B) will send",
+      "C) would have sent",
+      "D) sent"
+    ],
+    "answer": 2,
+    "explanation": "Third Conditional-এর নিয়মে If + Past Perfect হলে অপর ক্লজে Subject + would have + V3 বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "conditionals"
+    ]
+  }
+]

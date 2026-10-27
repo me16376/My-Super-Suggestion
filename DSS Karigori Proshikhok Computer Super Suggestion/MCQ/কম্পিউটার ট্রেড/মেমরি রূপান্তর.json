@@ -1,0 +1,38 @@
+[
+  {
+    "id": 40005,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "মেমরি রূপান্তর",
+    "question": "১ গিগাবাইট (1 GB) সমান কত মেগাবাইট (MB)?",
+    "options": [
+      "A) ১০০০ MB",
+      "B) ১০২৪ MB",
+      "C) ১০২৪ KB",
+      "D) ১০৪৮৫৭৬ MB"
+    ],
+    "answer": 1,
+    "explanation": "বাইনারি গণনায় ১ GB = ১০২৪ MB (Megabyte), এবং ১ MB = ১০২৪ KB।",
+    "tags": [
+      "computer_trade",
+      "memory_units"
+    ]
+  },
+  {
+    "id": 40006,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "মেমরি রূপান্তর",
+    "question": "১ নিবল (Nibble) সমান কত বিট?",
+    "options": [
+      "A) ২ বিট",
+      "B) ৪ বিট",
+      "C) ৮ বিট",
+      "D) ১৬ বিট"
+    ],
+    "answer": 1,
+    "explanation": "৪টি বাইনারি বিট নিয়ে ১টি নিবল (Nibble) গঠিত হয়। ৮টি বিট নিয়ে ১ বাইট (Byte) গঠিত হয়।",
+    "tags": [
+      "computer_trade",
+      "memory_units"
+    ]
+  }
+]

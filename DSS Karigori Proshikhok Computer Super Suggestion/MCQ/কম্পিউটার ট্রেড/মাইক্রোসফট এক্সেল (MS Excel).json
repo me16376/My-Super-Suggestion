@@ -1,0 +1,93 @@
+[
+  {
+    "id": 40017,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "মাইক্রোসফট এক্সেল (MS Excel)",
+    "question": "MS Excel-এ প্রতিটি ফর্মুলা শুরু করার জন্য কোন চিহ্নটি বাধ্যতামূলক?",
+    "options": [
+      "A) +",
+      "B) =",
+      "C) @",
+      "D) #"
+    ],
+    "answer": 1,
+    "explanation": "এক্সেলে যেকোনো গাণিতিক ফর্মুলা বা ফাংশন লেখার পূর্বে সমান (=) চিহ্ন দিয়ে শুরু করতে হয়।",
+    "tags": [
+      "computer_trade",
+      "ms_excel"
+    ]
+  },
+  {
+    "id": 40018,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "মাইক্রোসফট এক্সেল (MS Excel)",
+    "question": "MS Excel-এ A1 থেকে A10 পর্যন্ত সেলগুলোর যোগফল নির্ণয়ের সঠিক ফর্মুলা কোনটি?",
+    "options": [
+      "A) =SUM(A1:A10)",
+      "B) =ADD(A1-A10)",
+      "C) =TOTAL(A1..A10)",
+      "D) =SUM(A1+A10)"
+    ],
+    "answer": 0,
+    "explanation": "=SUM(A1:A10) ফর্মুলার মাধ্যমে একটি রেঞ্জের সমস্ত সংখ্যার সমষ্টি নির্ণয় করা হয়। কোলন (:) চিহ্ন রেঞ্জ নির্দেশ করে।",
+    "tags": [
+      "computer_trade",
+      "ms_excel"
+    ]
+  },
+  {
+    "id": 40019,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "মাইক্রোসফট এক্সেল (MS Excel)",
+    "question": "MS Excel এর ওয়ার্কশিটে কলাম এবং রো (Row) এর সংযোগস্থলকে কী বলা হয়?",
+    "options": [
+      "A) বক্স (Box)",
+      "B) সেল (Cell)",
+      "C) ব্লক (Block)",
+      "D) ফিল্ড (Field)"
+    ],
+    "answer": 1,
+    "explanation": "কলাম ও রো পরস্পর ছেদ করে যে চারকোনা ঘর তৈরি করে তাকে সেল (Cell) বলে। প্রতিটি সেলের একটি নির্দিষ্ট নাম থাকে (যেমন B5)।",
+    "tags": [
+      "computer_trade",
+      "ms_excel"
+    ]
+  },
+  {
+    "id": 40038,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "মাইক্রোসফট এক্সেল (MS Excel)",
+    "question": "MS Excel-এ অ্যাবসোলিউট সেল রেফারেন্সিং (Absolute Cell Reference) করতে কোন চিহ্নের ব্যবহার করা হয়?",
+    "options": [
+      "A) #",
+      "B) $",
+      "C) %",
+      "D) &"
+    ],
+    "answer": 1,
+    "explanation": "এক্সেলে কলাম বা রো ফিক্সড রাখতে ডলার ($) চিহ্ন ব্যবহার করা হয়, যেমন $A$1।",
+    "tags": [
+      "computer_trade",
+      "ms_excel",
+      "formulas"
+    ]
+  },
+  {
+    "id": 40039,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "মাইক্রোসফট এক্সেল (MS Excel)",
+    "question": "MS Excel-এ একাধিক সেলকে একত্রিত করে একটি বড় সেলে রূপান্তর করার কমান্ড কোনটি?",
+    "options": [
+      "A) Wrap Text",
+      "B) Merge & Center",
+      "C) AutoSum",
+      "D) Split Cell"
+    ],
+    "answer": 1,
+    "explanation": "'Merge & Center' কমান্ডের মাধ্যমে নির্বাচিত একাধিক সেলকে একটি সেলে রূপান্তর করে টেক্সট মাঝখানে বিন্যস্ত করা হয়।",
+    "tags": [
+      "computer_trade",
+      "ms_excel"
+    ]
+  }
+]

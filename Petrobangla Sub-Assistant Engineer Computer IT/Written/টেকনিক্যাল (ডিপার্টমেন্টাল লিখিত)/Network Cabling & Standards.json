@@ -1,0 +1,37 @@
+[
+  {
+    "id": 23,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "Network Cabling & Standards",
+    "question": "RJ-45 কানেক্টরের T568A এবং T568B ওয়্যারিং কালার কোড ক্রম লিখুন। Straight-through এবং Crossover ক্যাবলের ব্যবহার পার্থক্য উল্লেখ করুন।",
+    "marks": 10,
+    "answer": "RJ-45 ওয়্যারিং কালার কোড (পিন ১ থেকে ৮):\n\n[T568A কালার কোড]:\n১. White-Green | ২. Green | ৩. White-Orange | ৪. Blue | ৫. White-Blue | ৬. Orange | ৭. White-Brown | ৮. Brown\n\n[T568B কালার কোড]:\n১. White-Orange | ২. Orange | ৩. White-Green | ৪. Blue | ৫. White-Blue | ৬. Green | ৭. White-Brown | ৮. Brown\n\nStraight-through vs Crossover ক্যাবল:\n• Straight-through: উভয় প্রান্তে একই স্ট্যান্ডার্ড (উভয়ে T568B)। ভিন্নধর্মী ডিভাইস যুক্ত করতে ব্যবহৃত হয় (যেমন: PC to Switch, Switch to Router)।\n• Crossover: এক প্রান্তে T568A এবং অন্য প্রান্তে T568B (পিন ১-৩ এবং ২-৬ অদলবদল)। সমজাতীয় ডিভাইস সরাসরি যুক্ত করতে ব্যবহৃত হয় (যেমন: PC to PC, Switch to Switch, Router to PC)।",
+    "points_to_remember": [
+      "আধুনিক ডিভাইসে Auto-MDIX থাকায় যেকোনো ক্যাবল স্বয়ংক্রিয়ভাবে ডিটেক্ট করতে পারে।"
+    ],
+    "tags": [
+      "buet_written",
+      "networking",
+      "cabling",
+      "t568a",
+      "t568b"
+    ]
+  },
+  {
+    "id": 29,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "Network Cabling & Standards",
+    "question": "ফাইবার অপটিক ক্যাবল (Single-mode vs Multi-mode) এর সুবিধা ও কারিগরি পার্থক্য লিখুন। গ্যাস পাইপলাইনের পাশে কোন ধরণের ক্যাবল কেন ব্যবহার করা হয়?",
+    "marks": 8,
+    "answer": "Single-mode vs Multi-mode ফাইবার:\n১. কোরের ব্যাস: Single-mode এ ৮-১০ মাইক্রন (অত্যন্ত সরু) | Multi-mode এ ৫০-৬২.৫ মাইক্রন।\n২. আলোর উৎস: Single-mode এ লেজার (Laser) রশ্মি | Multi-mode এ LED আলো।\n৩. দূরপাল্লা: Single-mode ৪০-১০০ কিমি+ পর্যন্ত সিগন্যাল নিতে পারে | Multi-mode সাধারণত ৩০০-৫০০ মিটারের ভেতর সীমাবদ্ধ।\n৪. মূল্য: Single-mode ট্রান্সসিভার ও ক্যাবল তুলনামূলক ব্যয়বহুল।\n\nগ্যাস পাইপলাইনে ব্যবহার:\nগ্যাস ট্রান্সমিশন পাইপলাইনের সাথে শত শত কিলোমিটার জুড়ে Single-mode Optical Fiber Cable (OFC) মাটির নিচে আর্মার্ড প্রোটেকশন দিয়ে স্থাপন করা হয়। এতে কোনো ইলেকট্রোম্যাগনেটিক ইন্টারফেরেন্স (EMI) থাকে না এবং দূরবর্তী গ্যাস ফিল্ড থেকে তিতাস হেড অফিসে রিয়েলটাইম SCADA ডেটা কোনো রিপিটার ছাড়াই পৌঁছায়।",
+    "points_to_remember": [
+      "দূরপাল্লার গ্যাস পাইপলাইন SCADA কমিউনিকেশনের জন্য Single-mode ফাইবার একমাত্র আদর্শ।"
+    ],
+    "tags": [
+      "buet_written",
+      "networking",
+      "fiber_optics",
+      "scada"
+    ]
+  }
+]

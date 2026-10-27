@@ -1,0 +1,21 @@
+[
+  {
+    "id": 40027,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "কম্পিউটার ট্রাবলশুটিং",
+    "question": "কম্পিউটার হঠাৎ হ্যাং হয়ে গেলে টাস্ক ম্যানেজার (Task Manager) খোলার সবচেয়ে দ্রুত শর্টকাট কোনটি?",
+    "options": [
+      "A) Ctrl + Shift + Esc",
+      "B) Alt + F4",
+      "C) Ctrl + Alt + Delete",
+      "D) Win + Pause/Break"
+    ],
+    "answer": 0,
+    "explanation": "Ctrl + Shift + Esc চাপলে কোনো মধ্যবর্তী মেনু ছাড়াই সরাসরি উইন্ডোজ টাস্ক ম্যানেজার ওপেন হয়।",
+    "tags": [
+      "computer_trade",
+      "troubleshooting",
+      "windows"
+    ]
+  }
+]

@@ -1,0 +1,4106 @@
+[
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "A) Neither of the two boys have done the work.",
+      "B) Neither of the two boys has done the work.",
+      "C) Neither of the two boys are doing the work.",
+      "D) Neither of the two boys were present."
+    ],
+    "answer": 1,
+    "explanation": "'Neither of', 'Either of', 'Each of'-এর পর Plural noun বসলেও verb সর্বদা Singular হয়। তাই 'has done' সঠিক।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4501
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "If I had known his address, I _____ him.",
+    "options": [
+      "A) will visit",
+      "B) would visit",
+      "C) would have visited",
+      "D) had visited"
+    ],
+    "answer": 2,
+    "explanation": "3rd Conditional এর নিয়ম: If + Past Perfect Tense হলে অপর অংশে Subject + would have / could have + V3 বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4504
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "The principal along with the teachers _____ attended the meeting.",
+    "options": [
+      "A) have",
+      "B) has",
+      "C) are",
+      "D) were"
+    ],
+    "answer": 1,
+    "explanation": "দুটি Noun যখন 'along with', 'as well as', 'together with', 'with' দ্বারা যুক্ত হয়, তখন ১ম Noun (এখানে The principal) অনুযায়ী Verb নির্ধারিত হয়। তাই Singular verb 'has' বসবে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4505
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Hardly had the train arrived at the station _____ the passengers rushed in.",
+    "options": [
+      "A) than",
+      "B) when",
+      "C) then",
+      "D) after"
+    ],
+    "answer": 1,
+    "explanation": "'Hardly had... when' এবং 'Scarcely had... when' জোড়ায় ব্যবহৃত হয়। 'No sooner had... than' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4506
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "I look forward to _____ from you soon.",
+    "options": [
+      "A) hear",
+      "B) hearing",
+      "C) heard",
+      "D) be heard"
+    ],
+    "answer": 1,
+    "explanation": "'Look forward to', 'with a view to', 'accustomed to', 'be used to', 'confess to'-এর পর verb আসলে তার সাথে 'ing' যুক্ত হয় (Gerund)। তাই 'hearing' সঠিক।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4516
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Which of the following sentences has a correct use of conditional clause?",
+    "options": [
+      "A) If it will rain, we will postpone the match.",
+      "B) If it rains, we will postpone the match.",
+      "C) If it rained, we will postpone the match.",
+      "D) If it had rained, we would postpone the match."
+    ],
+    "answer": 1,
+    "explanation": "First Conditional-এর নিয়ম: If + Present Indefinite Tense, Future Indefinite Tense (Subject + will/shall + V1)। 'If' ক্লজে কখনো 'will' বা 'would' বসে না।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4517
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Identify the correct indirect speech: He said, 'I have completed the task.'",
+    "options": [
+      "A) He said that he has completed the task.",
+      "B) He said that he had completed the task.",
+      "C) He said that he completed the task.",
+      "D) He told that he would complete the task."
+    ],
+    "answer": 1,
+    "explanation": "Reporting verb যদি Past Tense (said) হয়, তবে Reported Speech-এর Present Perfect Tense পরিবর্তিত হয়ে Past Perfect Tense (had completed) হয়।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4519
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Choose the correctly punctuated and structured sentence:",
+    "options": [
+      "A) One of my friends are a database administrator.",
+      "B) One of my friends is a database administrator.",
+      "C) One of my friend is a database administrator.",
+      "D) One of my friends were a database administrator."
+    ],
+    "answer": 1,
+    "explanation": "'One of + Plural Noun (friends) + Singular Verb (is)' বসে। তাই 'One of my friends is...' ব্যাকরণগতভাবে সঠিক।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4520
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "There is — milk in the glass, barely enough for a cup of tea.",
+    "options": [
+      "A) few",
+      "B) little",
+      "C) little",
+      "D) few"
+    ],
+    "answer": 1,
+    "explanation": "Uncountable noun 'milk'-এর ক্ষেত্রে নেতিবাচক বা নেই বললেই চলে বোঝাতে 'little' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4966
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He has — friends in the city, so he often feels lonely.",
+    "options": [
+      "A) few",
+      "B) little",
+      "C) few",
+      "D) little"
+    ],
+    "answer": 2,
+    "explanation": "Countable noun 'friends'-এর ক্ষেত্রে বন্ধু নেই বললেই চলে এমন নেতিবাচক অর্থ প্রকাশে 'few' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4967
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Although the exam was tough, — students managed to secure high marks.",
+    "options": [
+      "A) few",
+      "B) little",
+      "C) little",
+      "D) few"
+    ],
+    "answer": 0,
+    "explanation": "কিছু সংখ্যক (ইতিবাচক অর্থ) বোঝাতে Countable Noun-এর পূর্বে 'a few' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4968
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Please give me — water to quench my thirst.",
+    "options": [
+      "A) little",
+      "B) few",
+      "C) few",
+      "D) little"
+    ],
+    "answer": 3,
+    "explanation": "অল্প পরিমাণ কিন্তু তৃষ্ণা মেটানোর মতো ইতিবাচক অর্থে Uncountable Noun-এর পূর্বে 'a little' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4969
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "— of the two sisters is suitable for the job.",
+    "options": [
+      "A) None",
+      "B) Any",
+      "C) Neither",
+      "D) All"
+    ],
+    "answer": 2,
+    "explanation": "দুইজনের মধ্যে কেউই নয় বোঝাতে 'Neither' বসে ('None' বসে তিন বা ততোধিক ক্ষেত্রে)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4970
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "There are five candidates, but — of them meets the criteria.",
+    "options": [
+      "A) each",
+      "B) either",
+      "C) neither",
+      "D) none"
+    ],
+    "answer": 3,
+    "explanation": "দুইয়ের অধিক (পাঁচজন) ব্যক্তির মধ্যে কেউই নয় বোঝাতে 'none' ব্যবহৃত হয়।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4971
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He drank — water remaining in the bottle.",
+    "options": [
+      "A) the little",
+      "B) little",
+      "C) few",
+      "D) little"
+    ],
+    "answer": 0,
+    "explanation": "অবশিষ্ট সামান্য যা ছিল তার সম্পূর্ণটুকু পান করা বোঝাতে 'the little' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4972
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He helped — friends he had.",
+    "options": [
+      "A) little",
+      "B) the few",
+      "C) few",
+      "D) few"
+    ],
+    "answer": 1,
+    "explanation": "তার যে কয়জন সামান্য বন্ধু ছিল তাদের সকলকেই বোঝাতে 'the few' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4973
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "I don't have — money left in my pocket.",
+    "options": [
+      "A) many",
+      "B) few",
+      "C) much",
+      "D) few"
+    ],
+    "answer": 2,
+    "explanation": "Negative বাক্যে Uncountable Noun 'money'-এর পরিমাণ বোঝাতে 'much' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4974
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "How — students are present in the class today?",
+    "options": [
+      "A) more",
+      "B) much",
+      "C) amount of",
+      "D) many"
+    ],
+    "answer": 3,
+    "explanation": "Countable Noun 'students'-এর সংখ্যা জানতে 'How many' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4975
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A great deal of — was wasted during the protest.",
+    "options": [
+      "A) minutes",
+      "B) time",
+      "C) hours",
+      "D) days"
+    ],
+    "answer": 1,
+    "explanation": "'A great deal of'-এর পর Uncountable Noun (time) বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4976
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A large number of — gathered in front of the gate.",
+    "options": [
+      "A) people",
+      "B) crowd",
+      "C) luggage",
+      "D) furniture"
+    ],
+    "answer": 0,
+    "explanation": "'A large number of'-এর পর Plural Countable Noun (people) বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4977
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "One should take care of — health.",
+    "options": [
+      "A) her",
+      "B) their",
+      "C) his",
+      "D) one's"
+    ],
+    "answer": 3,
+    "explanation": "Subject যদি অনির্দিষ্ট Pronoun 'One' হয়, তবে তার Possessive রূপ সর্বদা 'one's' হয়।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4978
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Everyone has — own point of view.",
+    "options": [
+      "A) their",
+      "B) one's",
+      "C) his",
+      "D) her"
+    ],
+    "answer": 2,
+    "explanation": "প্রথাগত প্রমিত ব্যাকরণে 'Everyone/Everybody'-এর Singular Possessive হিসেবে 'his' (বা modern usage-এ their) বসে; BCS/NTRCA-তে 'his' অগ্রাধিকার পায়।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4979
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "The two brothers helped — during the crisis.",
+    "options": [
+      "A) another",
+      "B) each other",
+      "C) one another",
+      "D) the other"
+    ],
+    "answer": 1,
+    "explanation": "দুজনের মধ্যে পারস্পরিক বোঝাতে 'each other' বসে (দুইয়ের অধিক হলে 'one another')।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4980
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "The three friends cooperated with — to complete the project.",
+    "options": [
+      "A) one another",
+      "B) each other",
+      "C) the other",
+      "D) themselves"
+    ],
+    "answer": 0,
+    "explanation": "তিনজন বা ততোধিক ব্যক্তির পারস্পরিক আদান-প্রদানে 'one another' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4981
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He bought two shirts; one is blue, and — is white.",
+    "options": [
+      "A) another",
+      "B) others",
+      "C) other",
+      "D) the other"
+    ],
+    "answer": 3,
+    "explanation": "দুটির মধ্যে একটির পর অপর নির্দিষ্টটি বোঝাতে 'the other' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4982
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Could you please give me — cup of coffee?",
+    "options": [
+      "A) others",
+      "B) the other",
+      "C) another",
+      "D) other"
+    ],
+    "answer": 2,
+    "explanation": "একটি অনির্দিষ্ট অতিরিক্ত আইটেম বোঝাতে Singular Noun-এর পূর্বে 'another' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4983
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Some people like classical music, while — prefer pop.",
+    "options": [
+      "A) others",
+      "B) other",
+      "C) another",
+      "D) the other"
+    ],
+    "answer": 0,
+    "explanation": "'Some'-এর বিপরীতে অনির্দিষ্ট অন্যান্য ব্যক্তিদের নির্দেশ করতে 'others' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4984
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He spent — amount of money on his treatment.",
+    "options": [
+      "A) many",
+      "B) large",
+      "C) number of",
+      "D) few"
+    ],
+    "answer": 1,
+    "explanation": "Uncountable Noun 'money'-এর সাথে 'amount of'-এর পূর্বে 'a large' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4985
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "There is — traffic on the road today due to the strike.",
+    "options": [
+      "A) less",
+      "B) fewer",
+      "C) small",
+      "D) few"
+    ],
+    "answer": 0,
+    "explanation": "Uncountable Noun 'traffic'-এর পূর্বে তুলনামূলক কম বোঝাতে 'less' বসে ('fewer' বসে Countable-এর পূর্বে)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4986
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "There were — accidents this month than last month.",
+    "options": [
+      "A) lesser",
+      "B) fewer",
+      "C) little",
+      "D) less"
+    ],
+    "answer": 1,
+    "explanation": "Plural Countable Noun 'accidents'-এর পূর্বে তুলনামূলক কম সংখ্যা বোঝাতে 'fewer' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4987
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He has — patience than his brother.",
+    "options": [
+      "A) few",
+      "B) small",
+      "C) less",
+      "D) fewer"
+    ],
+    "answer": 2,
+    "explanation": "Uncountable Noun 'patience'-এর সাথে 'less' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4988
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "— of the applicants were qualified for the post.",
+    "options": [
+      "A) Much",
+      "B) Little",
+      "C) little",
+      "D) Many"
+    ],
+    "answer": 3,
+    "explanation": "Plural Countable Noun 'applicants'-এর পূর্বে 'Many' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4989
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "I have seen — movie three times already.",
+    "options": [
+      "A) these",
+      "B) several",
+      "C) those",
+      "D) this"
+    ],
+    "answer": 3,
+    "explanation": "Singular Noun 'movie'-এর পূর্বে নির্দেশক Demonstrative হিসেবে 'this' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4990
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "— apples in the basket are rotten.",
+    "options": [
+      "A) That",
+      "B) This",
+      "C) Those",
+      "D) Much"
+    ],
+    "answer": 2,
+    "explanation": "দূরের বা প্লুরাল নির্দেশ করতে Plural Noun 'apples'-এর পূর্বে 'Those' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4991
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He knows — about the matter, which is why he remains silent.",
+    "options": [
+      "A) nothing",
+      "B) everything",
+      "C) something",
+      "D) anything"
+    ],
+    "answer": 0,
+    "explanation": "চুপ থাকার যৌক্তিক কারণ হিসেবে সে এ ব্যাপারে কিছুই জানে না — 'nothing' প্রযোজ্য।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4992
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Is there — at home right now?",
+    "options": [
+      "A) none",
+      "B) anyone",
+      "C) no one",
+      "D) someone"
+    ],
+    "answer": 1,
+    "explanation": "Interrogative বাক্যে সাধারণত 'anyone' বা 'anybody' ব্যবহৃত হয়।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4993
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "I have — interesting to tell you.",
+    "options": [
+      "A) nowhere",
+      "B) anything",
+      "C) nothing",
+      "D) something"
+    ],
+    "answer": 3,
+    "explanation": "ইতিবাচক বাক্যে আকর্ষণীয় কোনো তথ্য জানাতে 'something' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4994
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Between Rahim and Karim, the — is more industrious.",
+    "options": [
+      "A) later",
+      "B) latter",
+      "C) last",
+      "D) latest"
+    ],
+    "answer": 1,
+    "explanation": "দুইজনের মধ্যে দ্বিতীয়জনকে নির্দেশ করতে 'the latter' বসে (প্রথমজন 'the former')।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4995
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Of the three brothers, Shofiq is the —",
+    "options": [
+      "A) last",
+      "B) latest",
+      "C) later",
+      "D) latter"
+    ],
+    "answer": 0,
+    "explanation": "তিনজন বা ততোধিক ব্যক্তির ক্ষেত্রে ক্রমানুসারে সর্বশেষে থাকা ব্যক্তিকে 'the last' বলা হয়।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4996
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He arrived — than expected.",
+    "options": [
+      "A) latter",
+      "B) last",
+      "C) later",
+      "D) latest"
+    ],
+    "answer": 2,
+    "explanation": "সময়ের দিক থেকে দেরিতে বোঝাতে 'late'-এর Comparative রূপ হলো 'later'।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4997
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "What is the — news of the election?",
+    "options": [
+      "A) late",
+      "B) last",
+      "C) latest",
+      "D) latter"
+    ],
+    "answer": 2,
+    "explanation": "সর্বশেষ বা সাম্প্রতিক তথ্য/সংবাদ বোঝাতে 'latest' ব্যবহৃত হয়।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4998
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "I read the — chapter of the novel last night.",
+    "options": [
+      "A) latter",
+      "B) last",
+      "C) latest",
+      "D) later"
+    ],
+    "answer": 1,
+    "explanation": "উপন্যাসের অন্তিম বা সমাপ্তি অধ্যায় বোঝাতে 'last chapter' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 4999
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He gave me — advice that proved very helpful.",
+    "options": [
+      "A) piece of",
+      "B) many",
+      "C) an",
+      "D) few"
+    ],
+    "answer": 0,
+    "explanation": "Uncountable Noun 'advice'-এর পূর্বে একটি উপদেশ বোঝাতে 'a piece of advice' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5000
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He worked hard — he might pass the examination.",
+    "options": [
+      "A) in order",
+      "B) because",
+      "C) lest",
+      "D) so that"
+    ],
+    "answer": 3,
+    "explanation": "উদ্দেশ্য প্রকাশে 'so that'-এর পর 'might/could' বসে (so that he might pass)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5001
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Walk fast — you should miss the train.",
+    "options": [
+      "A) so that",
+      "B) otherwise",
+      "C) lest",
+      "D) unless"
+    ],
+    "answer": 2,
+    "explanation": "নেতিবাচক উদ্দেশ্য এবং 'should' থাকায় কানেক্টর হিসেবে 'lest' বসবে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5002
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "— he was ill, he attended the important meeting.",
+    "options": [
+      "A) In spite of",
+      "B) Despite",
+      "C) Because",
+      "D) Although"
+    ],
+    "answer": 3,
+    "explanation": "ক্লজ 'he was ill'-এর পূর্বে বৈপরীত্য নির্দেশক Subordinating Conjunction 'Although' বা 'Though' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5003
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "— his poverty, he is honest and upright.",
+    "options": [
+      "A) Though",
+      "B) In spite of",
+      "C) Even though",
+      "D) Although"
+    ],
+    "answer": 1,
+    "explanation": "Noun phrase 'his poverty'-এর পূর্বে Prepositional phrase হিসেবে 'In spite of' বা 'Despite' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5004
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "— being tired, he completed the remaining tasks.",
+    "options": [
+      "A) Despite",
+      "B) Though",
+      "C) Because",
+      "D) Although"
+    ],
+    "answer": 0,
+    "explanation": "Gerund phrase 'being tired'-এর পূর্বে 'Despite' বসে ('Despite of' ভুল)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5005
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "You cannot succeed — you work diligently.",
+    "options": [
+      "A) provided",
+      "B) lest",
+      "C) if",
+      "D) unless"
+    ],
+    "answer": 3,
+    "explanation": "নেতিবাচক শর্ত (if not) প্রকাশে 'unless' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5006
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "I will go to the market — it does not rain.",
+    "options": [
+      "A) provided that",
+      "B) in case of",
+      "C) unless",
+      "D) lest"
+    ],
+    "answer": 0,
+    "explanation": "শর্ত প্রকাশ করতে 'provided that' বা 'providing that' (if অর্থে) ব্যবহৃত হয়।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5007
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He acts — he were the CEO of the company.",
+    "options": [
+      "A) since",
+      "B) as if",
+      "C) although",
+      "D) like"
+    ],
+    "answer": 1,
+    "explanation": "অবাস্তব তুলনা প্রকাশে এবং পরবর্তীতে Subjunctive 'were' থাকায় 'as if' বা 'as though' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5008
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Wait here — the rain stops.",
+    "options": [
+      "A) as long",
+      "B) unless",
+      "C) until",
+      "D) while"
+    ],
+    "answer": 2,
+    "explanation": "নির্দিষ্ট সময় পর্যন্ত অপেক্ষা করা বোঝাতে সময়বাচক কনজাংশন 'until' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5009
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He was penalized — he violated the traffic rules.",
+    "options": [
+      "A) lest",
+      "B) so",
+      "C) though",
+      "D) because"
+    ],
+    "answer": 3,
+    "explanation": "শাস্তি পাওয়ার কারণ ব্যাখ্যা করতে 'because' বা 'as/since' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5010
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He is — poor that he cannot buy medicine.",
+    "options": [
+      "A) too",
+      "B) very",
+      "C) so",
+      "D) as"
+    ],
+    "answer": 2,
+    "explanation": "'so... that' কাঠামোতে Adjective 'poor'-এর পূর্বে 'so' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5011
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He is — weak to walk properly.",
+    "options": [
+      "A) so",
+      "B) too",
+      "C) very",
+      "D) enough"
+    ],
+    "answer": 1,
+    "explanation": "'too... to' কাঠামোতে নেতিবাচক মাত্রাধিক্য প্রকাশে 'too' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5012
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "She is intelligent — to solve the puzzle.",
+    "options": [
+      "A) enough",
+      "B) so",
+      "C) very",
+      "D) too"
+    ],
+    "answer": 0,
+    "explanation": "Adjective-এর পরে বসে তার পর্যাপ্ততা নির্দেশ করতে 'enough' বসে (intelligent enough)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5013
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He has — money to buy a luxury car.",
+    "options": [
+      "A) so",
+      "B) enough",
+      "C) such",
+      "D) too"
+    ],
+    "answer": 1,
+    "explanation": "Noun-এর পূর্বে বসে পর্যাপ্ততা নির্দেশ করতে 'enough money' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5014
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He spoke in — a low voice that nobody could hear him.",
+    "options": [
+      "A) such",
+      "B) very",
+      "C) too",
+      "D) so"
+    ],
+    "answer": 0,
+    "explanation": "'such a/an + adjective + noun + that' নিয়মানুযায়ী 'such' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5015
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Scarcely had we stepped out — it began to pour.",
+    "options": [
+      "A) than",
+      "B) before",
+      "C) when",
+      "D) then"
+    ],
+    "answer": 2,
+    "explanation": "'Scarcely had' এবং 'Hardly had'-এর সাথে সর্বদা 'when' বা 'before' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5016
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "No sooner had the bell rung — the students rushed out.",
+    "options": [
+      "A) then",
+      "B) that",
+      "C) when",
+      "D) than"
+    ],
+    "answer": 3,
+    "explanation": "'No sooner had'-এর সাথে সর্বদা 'than' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5017
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He was not only an orator — a talented writer.",
+    "options": [
+      "A) too",
+      "B) but also",
+      "C) and also",
+      "D) as well"
+    ],
+    "answer": 1,
+    "explanation": "'Not only'-এর সাথে কোরিলেটিভ কনজাংশন হিসেবে 'but also' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5018
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Either you apologize, — I will lodge a complaint.",
+    "options": [
+      "A) or",
+      "B) and",
+      "C) nor",
+      "D) but"
+    ],
+    "answer": 0,
+    "explanation": "'Either'-এর সাথে 'or' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5019
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Neither the manager — his assistant was present.",
+    "options": [
+      "A) or",
+      "B) and",
+      "C) nor",
+      "D) but"
+    ],
+    "answer": 2,
+    "explanation": "'Neither'-এর সাথে 'nor' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5020
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He worked tirelessly; —, he failed to meet the deadline.",
+    "options": [
+      "A) furthermore",
+      "B) moreover",
+      "C) therefore",
+      "D) however"
+    ],
+    "answer": 3,
+    "explanation": "বিপরীতমুখী ফলাফল প্রকাশে সেমিকোলন ও কমার মাঝে Adverbial Conjunction 'however' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5021
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He is honest, — everyone respects him.",
+    "options": [
+      "A) because",
+      "B) lest",
+      "C) and therefore",
+      "D) so that"
+    ],
+    "answer": 2,
+    "explanation": "যৌক্তিক ফলাফল নির্দেশ করতে 'and therefore' বা 'so' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5022
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Take an umbrella — it rains.",
+    "options": [
+      "A) unless",
+      "B) lest",
+      "C) if",
+      "D) in case"
+    ],
+    "answer": 3,
+    "explanation": "পূর্বপ্রস্তুতি বা সতর্কতামূলক শর্ত প্রকাশ করতে 'in case' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5023
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "— you are here, we can start the discussion.",
+    "options": [
+      "A) Since",
+      "B) Although",
+      "C) Lest",
+      "D) Unless"
+    ],
+    "answer": 0,
+    "explanation": "যেহেতু বা বিদ্যমান কারণ বোঝাতে বাক্যের শুরুতে 'Since' বা 'As' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5024
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He is poor, — he is contented.",
+    "options": [
+      "A) so",
+      "B) yet",
+      "C) or",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "দারিদ্র্য সত্ত্বেও সন্তুষ্ট — বৈপরীত্যসূচক কোঅর্ডিনেটিং কনজাংশন 'yet' বা 'but' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5025
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Run fast — you will miss the opportunity.",
+    "options": [
+      "A) and",
+      "B) so",
+      "C) or",
+      "D) but"
+    ],
+    "answer": 2,
+    "explanation": "বিকল্প সতর্কতা নির্দেশ করতে 'or' বা 'otherwise' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5026
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Study attentively — you will pass.",
+    "options": [
+      "A) but",
+      "B) or",
+      "C) yet",
+      "D) and"
+    ],
+    "answer": 3,
+    "explanation": "শর্তের অনুকূল ইতিবাচক ফল প্রকাশে 'and' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5027
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He is both wise — humble.",
+    "options": [
+      "A) and",
+      "B) as well as",
+      "C) or",
+      "D) also"
+    ],
+    "answer": 0,
+    "explanation": "'Both'-এর সাথে সর্বদা 'and' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5028
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He treats me — I were a stranger.",
+    "options": [
+      "A) while",
+      "B) as though",
+      "C) since",
+      "D) like"
+    ],
+    "answer": 1,
+    "explanation": "অবাস্তব আচরণ প্রকাশে 'as though' বা 'as if' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5029
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "— the danger was great, the brave men did not retreat.",
+    "options": [
+      "A) Despite",
+      "B) Because",
+      "C) In spite",
+      "D) Though"
+    ],
+    "answer": 3,
+    "explanation": "ক্লজ যুক্ত করে বৈপরীত্য প্রকাশে 'Though' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5030
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He not only praised him — rewarded him.",
+    "options": [
+      "A) or",
+      "B) but also",
+      "C) together with",
+      "D) and"
+    ],
+    "answer": 1,
+    "explanation": "'Not only'-এর জুটি হিসেবে 'but also' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5031
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "She remained calm — the provocation was severe.",
+    "options": [
+      "A) even though",
+      "B) in spite",
+      "C) despite",
+      "D) because of"
+    ],
+    "answer": 0,
+    "explanation": "ক্লজের পূর্বে জোরদার বৈপরীত্য প্রকাশে 'even though' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5032
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He has no friends — his family.",
+    "options": [
+      "A) apart",
+      "B) besides",
+      "C) except",
+      "D) without"
+    ],
+    "answer": 2,
+    "explanation": "কাউকে বাদ দিয়ে বা ব্যতীত অর্থে 'except' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5033
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "— English, she speaks German fluently.",
+    "options": [
+      "A) Beside",
+      "B) Besides",
+      "C) Without",
+      "D) Except"
+    ],
+    "answer": 1,
+    "explanation": "ইংরেজি ছাড়াও অতিরিক্ত আরেকটি ভাষা বোঝাতে 'Besides' (অধিকন্তু/ছাড়াও) বসে ('Beside' অর্থ পাশে)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5034
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He sat — me silently in the library.",
+    "options": [
+      "A) besides",
+      "B) beyond",
+      "C) except",
+      "D) beside"
+    ],
+    "answer": 3,
+    "explanation": "কারও পাশে বসা বোঝাতে Preposition 'beside' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5035
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "You — see a doctor at once; your fever is very high.",
+    "options": [
+      "A) had better",
+      "B) used to",
+      "C) would rather",
+      "D) have to be"
+    ],
+    "answer": 0,
+    "explanation": "জরুরি উপদেশ বা সতর্কবার্তা প্রকাশ করতে 'had better + bare infinitive' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5036
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "I — starve than accept help from a dishonest person.",
+    "options": [
+      "A) had better",
+      "B) used to",
+      "C) would rather",
+      "D) prefer"
+    ],
+    "answer": 2,
+    "explanation": "'than'-এর সাথে তুলনা করে পছন্দের ক্ষেত্রে 'would rather... than' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5037
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He — play football in his youth, but now he doesn't.",
+    "options": [
+      "A) would rather",
+      "B) is used to",
+      "C) had better",
+      "D) used to"
+    ],
+    "answer": 3,
+    "explanation": "অতীতের নিয়মিত অভ্যাস যা বর্তমানে আর নেই বোঝাতে 'used to + base verb' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5038
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He is not — speaking in public.",
+    "options": [
+      "A) used",
+      "B) use to",
+      "C) used to",
+      "D) using to"
+    ],
+    "answer": 2,
+    "explanation": "'Be used to' (অভ্যস্ত) এর পর Gerund বসে; এখানে 'is not used to speaking'।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5039
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "You — to respect your teachers.",
+    "options": [
+      "A) ought",
+      "B) must",
+      "C) should",
+      "D) had better"
+    ],
+    "answer": 0,
+    "explanation": "'to'-যুক্ত মোডাল হিসেবে নৈতিক দায়িত্ব প্রকাশে 'ought to' বসে ('should' বা 'must'-এর পর 'to' বসে না)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5040
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "The light was on; he — have been working in the study.",
+    "options": [
+      "A) would",
+      "B) must",
+      "C) should",
+      "D) cannot"
+    ],
+    "answer": 1,
+    "explanation": "অতীতের যৌক্তিক নিশ্চিত অনুমান প্রকাশে 'must have + V3' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5041
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He — have left the office early, but I am not certain.",
+    "options": [
+      "A) will",
+      "B) must",
+      "C) should",
+      "D) might"
+    ],
+    "answer": 3,
+    "explanation": "অতীতের অনিশ্চিত সম্ভাবনা প্রকাশে 'might have + V3' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5042
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "You — have driven so fast on the wet road; it was dangerous.",
+    "options": [
+      "A) must not",
+      "B) could not",
+      "C) should not",
+      "D) might not"
+    ],
+    "answer": 2,
+    "explanation": "অতীতে কোনো কাজ করা অনুচিত ছিল বোঝাতে 'should not have + V3' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5043
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He — have committed the crime because he was abroad that day.",
+    "options": [
+      "A) cannot",
+      "B) must",
+      "C) should",
+      "D) might not"
+    ],
+    "answer": 0,
+    "explanation": "অতীতের যৌক্তিক অসম্ভবতা প্রকাশে 'cannot have + V3' বা 'could not have + V3' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5044
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "The train was delayed, so we — wait for an hour.",
+    "options": [
+      "A) ought to",
+      "B) had to",
+      "C) should",
+      "D) must"
+    ],
+    "answer": 1,
+    "explanation": "অতীতের কোনো বাধ্যবাধকতা বোঝাতে 'had to' বসে ('must'-এর অতীত রূপ হিসেবে)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5045
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "You — not worry about the results; you performed well.",
+    "options": [
+      "A) need",
+      "B) must",
+      "C) dare",
+      "D) ought"
+    ],
+    "answer": 0,
+    "explanation": "প্রয়োজন নেই অর্থে মোডাল নেতিবাচক প্রকাশ হলো 'need not'।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5046
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "How — you question my integrity?",
+    "options": [
+      "A) must",
+      "B) dare",
+      "C) should",
+      "D) need"
+    ],
+    "answer": 1,
+    "explanation": "সাহস বা ধৃষ্টতা প্রকাশে প্রশ্নবোধক বাক্যে 'dare' বসে (How dare you...)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5047
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "We — obey the laws of the country.",
+    "options": [
+      "A) might",
+      "B) may",
+      "C) must",
+      "D) would"
+    ],
+    "answer": 2,
+    "explanation": "বাধ্যতামূলক আইনি কর্তব্য প্রকাশে 'must' ব্যবহৃত হয়।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5048
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "May you — happiness in your married life!",
+    "options": [
+      "A) to find",
+      "B) finding",
+      "C) found",
+      "D) find"
+    ],
+    "answer": 3,
+    "explanation": "Modal 'May' দিয়ে শুরু হওয়া Optative বাক্যে Subject-এর পর Base Verb (find) বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5049
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He — have arrived by now; the flight landed an hour ago.",
+    "options": [
+      "A) could",
+      "B) would",
+      "C) should",
+      "D) must"
+    ],
+    "answer": 2,
+    "explanation": "স্বাভাবিক প্রত্যাশা বা অনুমান প্রকাশে 'should have + V3' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5050
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "I — like to express my gratitude to the committee.",
+    "options": [
+      "A) might",
+      "B) would",
+      "C) should",
+      "D) could"
+    ],
+    "answer": 1,
+    "explanation": "বিনীত ইচ্ছা প্রকাশে 'would like to' প্রমিত Collocation।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5051
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Could you — pass the salt, please?",
+    "options": [
+      "A) kindly",
+      "B) should",
+      "C) can",
+      "D) must"
+    ],
+    "answer": 0,
+    "explanation": "বিনীত অনুরোধে 'Could you kindly/please...' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5052
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "You — pay your taxes on time to avoid penalties.",
+    "options": [
+      "A) used to",
+      "B) must have",
+      "C) had to",
+      "D) have to"
+    ],
+    "answer": 3,
+    "explanation": "বাহ্যিক নিয়মের বাধ্যবাধকতা প্রকাশে 'have to' ব্যবহৃত হয়।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5053
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "She — rather read a book than watch television.",
+    "options": [
+      "A) had",
+      "B) would",
+      "C) could",
+      "D) should"
+    ],
+    "answer": 1,
+    "explanation": "'would rather... than' নিয়মানুযায়ী 'would' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5054
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "You had better — your umbrella, as it looks like rain.",
+    "options": [
+      "A) to take",
+      "B) taking",
+      "C) taken",
+      "D) take"
+    ],
+    "answer": 3,
+    "explanation": "'Had better'-এর পর Bare Infinitive (take) বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5055
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "We — to inform you that your application has been approved.",
+    "options": [
+      "A) pleasure",
+      "B) please",
+      "C) are pleased",
+      "D) pleasing"
+    ],
+    "answer": 2,
+    "explanation": "দাপ্তরিক আনুষ্ঠানিক পত্রে আনন্দ প্রকাশে 'are pleased to inform' প্রমিত।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5056
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He — not have forgotten the appointment; I reminded him twice.",
+    "options": [
+      "A) could",
+      "B) should",
+      "C) would",
+      "D) must"
+    ],
+    "answer": 0,
+    "explanation": "অসম্ভবতা প্রকাশে 'could not have + V3' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5057
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He is said — the country secretly.",
+    "options": [
+      "A) to have left",
+      "B) leaving",
+      "C) to leave",
+      "D) left"
+    ],
+    "answer": 0,
+    "explanation": "অতীতে ঘটে যাওয়া কাজের নিষ্ক্রিয় বর্ণনায় Perfect Infinitive 'to have + V3' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5058
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "The minister is — inaugurate the fair tomorrow.",
+    "options": [
+      "A) due",
+      "B) to",
+      "C) going",
+      "D) about"
+    ],
+    "answer": 1,
+    "explanation": "পূর্বনির্ধারিত আনুষ্ঠানিক ভবিষ্যৎ পরিকল্পনা প্রকাশে 'is to + verb' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5059
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "The match is about — start.",
+    "options": [
+      "A) in",
+      "B) for",
+      "C) at",
+      "D) to"
+    ],
+    "answer": 3,
+    "explanation": "আসন্ন ঘটনা নির্দেশ করতে 'be about to + verb' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5060
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He — not accept the bribe, no matter what happens.",
+    "options": [
+      "A) may",
+      "B) can",
+      "C) will",
+      "D) shall"
+    ],
+    "answer": 2,
+    "explanation": "দৃঢ় সংকল্প বা অস্বীকৃতি প্রকাশে 'will not' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5061
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "You — take permission before entering the principal's room.",
+    "options": [
+      "A) may",
+      "B) might",
+      "C) can",
+      "D) must"
+    ],
+    "answer": 3,
+    "explanation": "কঠোর বাধ্যবাধকতা বোঝাতে 'must' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5062
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "— I borrow your dictionary for a moment?",
+    "options": [
+      "A) Must",
+      "B) May",
+      "C) Will",
+      "D) Shall"
+    ],
+    "answer": 1,
+    "explanation": "বিনীতভাবে আনুষ্ঠানিক অনুমতি চাইতে 'May I...' ব্যবহৃত হয়।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5063
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He — swim across the river when he was young.",
+    "options": [
+      "A) could",
+      "B) might",
+      "C) would",
+      "D) can"
+    ],
+    "answer": 0,
+    "explanation": "অতীতের সাধারণ শারীরিক সক্ষমতা প্রকাশে 'could' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5064
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "She — speak four languages fluently.",
+    "options": [
+      "A) may",
+      "B) shall",
+      "C) can",
+      "D) must"
+    ],
+    "answer": 2,
+    "explanation": "বর্তমান সক্ষমতা প্রকাশ করতে 'can' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5065
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "You — have told me the truth earlier; it would have saved time.",
+    "options": [
+      "A) may",
+      "B) must",
+      "C) ought to",
+      "D) can"
+    ],
+    "answer": 2,
+    "explanation": "অতীতে নৈতিক কর্তব্য পালনের ব্যর্থতা প্রকাশে 'ought to have + V3' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5066
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "I — never forget your timely help.",
+    "options": [
+      "A) should",
+      "B) shall",
+      "C) must to",
+      "D) ought"
+    ],
+    "answer": 1,
+    "explanation": "ভবিষ্যতের প্রতিজ্ঞা বা কৃতজ্ঞতা প্রকাশে 'I shall never forget' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5067
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "You — not smoke in the hospital premises.",
+    "options": [
+      "A) must",
+      "B) dare",
+      "C) ought",
+      "D) need"
+    ],
+    "answer": 0,
+    "explanation": "আইনি বা প্রাতিষ্ঠানিক কঠোর নিষেধাজ্ঞা প্রকাশে 'must not' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5068
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "The weather — improve by tomorrow afternoon.",
+    "options": [
+      "A) must",
+      "B) should to",
+      "C) ought",
+      "D) may"
+    ],
+    "answer": 3,
+    "explanation": "ভবিষ্যতের সাধারণ সম্ভাব্যতা নির্দেশ করতে 'may' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5069
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "If you request him, he — agree to help.",
+    "options": [
+      "A) might",
+      "B) must have",
+      "C) ought",
+      "D) should have"
+    ],
+    "answer": 0,
+    "explanation": "শর্তসাপেক্ষ দূরবর্তী সম্ভাবনা প্রকাশে 'might' ব্যবহৃত হয়।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5070
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "The heavy storm had a devastating — on the coastal areas.",
+    "options": [
+      "A) affect",
+      "B) effect",
+      "C) effective",
+      "D) affecting"
+    ],
+    "answer": 1,
+    "explanation": "Noun হিসেবে ফলাফল বা প্রভাব বোঝাতে 'effect' বসে ('affect' হলো Verb)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5071
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Smoking will seriously — your health.",
+    "options": [
+      "A) effective",
+      "B) affection",
+      "C) affect",
+      "D) effect"
+    ],
+    "answer": 2,
+    "explanation": "ক্ষতিকর প্রভাব ফেলা অর্থে Verb হিসেবে 'affect' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5072
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "He gave me a valuable — that changed my perspective.",
+    "options": [
+      "A) council",
+      "B) cancel",
+      "C) consul",
+      "D) counsel"
+    ],
+    "answer": 3,
+    "explanation": "উপদেশ বা পরামর্শ অর্থে Noun হলো 'counsel' ('council' হলো পরিষদ বা সভা)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5073
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "The city — passed the new municipal budget.",
+    "options": [
+      "A) counsel",
+      "B) counselor",
+      "C) council",
+      "D) consul"
+    ],
+    "answer": 2,
+    "explanation": "পৌরসভা বা স্থানীয় প্রশাসনিক পরিষদ বোঝাতে 'council' বসে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5074
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "The teacher praised the student for his polite —",
+    "options": [
+      "A) compliant",
+      "B) complacency",
+      "C) complement",
+      "D) compliment"
+    ],
+    "answer": 3,
+    "explanation": "প্রশংসা বা স্তুতি প্রকাশে 'compliment' বসে ('complement' অর্থ পরিপূরক)।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5075
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Which of the following is the most essential quality of an appropriate title?",
+    "options": [
+      "A) It should accurately reflect the central theme of the passage.",
+      "B) It must be as long and descriptive as possible.",
+      "C) It should contain several complex idioms.",
+      "D) It must end with a full stop."
+    ],
+    "answer": 0,
+    "explanation": "একটি উপযুক্ত শিরোনামের (Appropriate Title) প্রধান গুণ হলো এটি অনুচ্ছেদ বা রচনার মূল প্রতিপাদ্যকে (central theme) সংক্ষেপে এবং যথার্থভাবে প্রতিফলিত করে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5460
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "In English title capitalization (Title Case), which words are conventionally written in lowercase?",
+    "options": [
+      "A) Main verbs and helping verbs",
+      "B) Nouns and pronouns",
+      "C) Adjectives and adverbs",
+      "D) Short prepositions, conjunctions, and articles (unless they are the first word)"
+    ],
+    "answer": 3,
+    "explanation": "Title Case-এ Noun, Pronoun, Verb, Adjective বড় হাতের হয়; কিন্তু ছোট Preposition (in, on, of), Coordinating Conjunction (and, but) এবং Article (a, an, the) ছোট হাতের থাকে যদি না তারা শিরোনামের প্রথম শব্দ হয়।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5461
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Which of the following titles exhibits correct Title Case capitalization?",
+    "options": [
+      "A) THE IMPACT OF ARTIFICIAL INTELLIGENCE ON MODERN SOCIETY",
+      "B) The Impact Of Artificial Intelligence On Modern Society",
+      "C) The Impact of Artificial Intelligence on Modern Society",
+      "D) The impact of artificial intelligence on modern society"
+    ],
+    "answer": 2,
+    "explanation": "এখানে Noun (Impact, Intelligence, Society), Adjective (Artificial, Modern) বড় হাতের এবং Preposition (of, on) ছোট হাতের অক্ষরে থাকায় প্রমিত Title Case বজায় রয়েছে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5462
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Should a standard title or headline end with a full stop (.)?",
+    "options": [
+      "A) Only if it is a single word.",
+      "B) No, standard titles do not end with a full stop.",
+      "C) Yes, every title must end with a period.",
+      "D) Only if it is written in bold letters."
+    ],
+    "answer": 1,
+    "explanation": "শিরোনাম কোনো পূর্ণাঙ্গ বাক্য নয়; এটি একটি নাম বা ফ্রেজ হওয়ায় এর শেষে দাঁড়ি বা Full stop বসে না।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5463
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "What is the primary role of a title in a précis or summary writing?",
+    "options": [
+      "A) To express the central core of the text in a concise phrase",
+      "B) To summarize every single detail",
+      "C) To introduce unrelated creative ideas",
+      "D) To praise the author of the original text"
+    ],
+    "answer": 0,
+    "explanation": "Précis বা সংক্ষেপ লিখনীর শিরোনামের কাজ হলো সমগ্র টেক্সটের নির্যাসকে একটি আকর্ষণীয় ও সংহত শব্দগুচ্ছের মাধ্যমে তুলে ধরা।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5464
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A title that mentions only a minor detail of a passage is criticized for being —",
+    "options": [
+      "A) Too broad",
+      "B) Accurately balanced",
+      "C) Too narrow",
+      "D) Hyperbolic"
+    ],
+    "answer": 2,
+    "explanation": "কোনো শিরোনাম যদি রচনার মূল ভাবকে বাদ দিয়ে একটি অপ্রধান বা গৌণ অংশকে নির্দেশ করে, তবে তাকে 'Too narrow' বা অতিসংকীর্ণ শিরোনাম বলা হয়।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5465
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A title that is so generalized that it could apply to any topic in the field is criticized for being —",
+    "options": [
+      "A) Precise",
+      "B) Too broad",
+      "C) Too narrow",
+      "D) Subjective"
+    ],
+    "answer": 1,
+    "explanation": "অতিরিক্ত সাধারণ বা বিস্তৃত শিরোনাম যা মূল আলোচনার নির্দিষ্ট সীমাকে ধারণ করে না, তাকে 'Too broad' বলা হয়।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5466
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Which grammatical form is most frequently and effectively used for titles?",
+    "options": [
+      "A) An exclamatory interjection",
+      "B) passive interrogative clause",
+      "C) lengthy complex sentence",
+      "D) concise noun phrase or gerund phrase"
+    ],
+    "answer": 3,
+    "explanation": "শিরোনাম হিসেবে সাধারণত সংহত Noun Phrase (যেমন: 'The Role of Women in Development') বা Gerund Phrase ('Preserving Natural Forests') সবচেয়ে বেশি ব্যবহৃত ও প্রমিত।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5467
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "In a title, when should an article like 'The' or 'A' be capitalized?",
+    "options": [
+      "A) Never, articles are always lowercase",
+      "B) Only when it appears at the end",
+      "C) Whenever it refers to a proper noun",
+      "D) When it is the very first word of the title"
+    ],
+    "answer": 3,
+    "explanation": "শিরোনামের প্রথম শব্দ যেকোনো পার্টস অব স্পিচ (এমনকি article বা preposition) হলেও তার প্রথম অক্ষরটি অবশ্যই Capital letter হবে।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5468
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Which of the following titles correctly capitalizes a hyphenated compound?",
+    "options": [
+      "A) SELF-RELIANCE In Times Of Crisis",
+      "B) Self-reliance in Times of Crisis",
+      "C) Self-Reliance in Times of Crisis",
+      "D) Self-reliance in times of Crisis"
+    ],
+    "answer": 2,
+    "explanation": "Hyphenated Compound-এর উভয় অংশই যদি মূল শব্দ হয়, তবে Title Case-এ উভয় অংশের প্রথম অক্ষর বড় হাতের হয় ('Self-Reliance')।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5469
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "When a title contains a subtitle separated by a colon (:), how should the subtitle begin?",
+    "options": [
+      "A) The first word of the subtitle must always be capitalized.",
+      "B) The subtitle must be written in italics only.",
+      "C) The first word of the subtitle must be lowercase.",
+      "D) The subtitle cannot contain nouns."
+    ],
+    "answer": 0,
+    "explanation": "কোলন (:) এর পর সাবটাইটেল শুরু হলে তার প্রথম শব্দটি অবশ্যই Capital letter দিয়ে শুরু হতে হয়।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5470
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "Which punctuation mark is acceptable in a title to show contrast or explanation?",
+    "options": [
+      "A) An ellipsis (...) at start",
+      "B) colon (:) or dash (—)",
+      "C) semicolon at the end (;)",
+      "D) full stop (.)"
+    ],
+    "answer": 1,
+    "explanation": "শিরোনাম ও তার ব্যাখ্যার মধ্যে সম্পর্ক বা বৈপরীত্য দেখাতে কোলন (:) বা ড্যাশ (—) বহুল ব্যবহৃত ও মানসম্মত।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5471
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage discusses the historical causes, economic effects, and remedies for inflation. Which title is most appropriate?",
+    "options": [
+      "A) Prices Are Rising Fast Everywhere",
+      "B) Inflation: Causes, Effects, and Remedies",
+      "C) How to Prevent Inflation in One Day",
+      "D) Money and Banking in Bangladesh"
+    ],
+    "answer": 1,
+    "explanation": "অনুচ্ছেদে উল্লিখিত তিনটি মূল দিক (কারণ, প্রভাব ও প্রতিকার) ধারণ করায় 'Inflation: Causes, Effects, and Remedies' সবচেয়ে ভারসাম্যপূর্ণ ও উপযুক্ত শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5472
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text discusses how trees absorb carbon dioxide, prevent soil erosion, and sustain wildlife. What is the best title?",
+    "options": [
+      "A) Carbon Dioxide in Atmosphere",
+      "B) Planting Flowers in Gardens",
+      "C) The Ecological Importance of Trees",
+      "D) The Timber Industry in Asia"
+    ],
+    "answer": 2,
+    "explanation": "গাছের সার্বিক পরিবেশগত গুরুত্ব তুলে ধরায় 'The Ecological Importance of Trees' যথার্থ শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5473
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A paragraph highlights how regular exercise improves heart health, mental alertness, and longevity. The best title is —",
+    "options": [
+      "A) The Structure of the Human Heart",
+      "B) How to Win an Olympic Marathon",
+      "C) Doctors and Hospital Visits",
+      "D) Benefits of Regular Physical Exercise"
+    ],
+    "answer": 3,
+    "explanation": "ব্যায়ামের বহুমুখী উপকারিতার ওপর আলোকপাত করায় 'Benefits of Regular Physical Exercise' উপযুক্ত।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5474
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage focuses on the life struggles and scientific inventions of Thomas Alva Edison. What is the most fitting title?",
+    "options": [
+      "A) Thomas Edison: The Genius of Inventions",
+      "B) American Scientists of Yesterday",
+      "C) The Story of the Electric Bulb Only",
+      "D) How to Study Science at Home"
+    ],
+    "answer": 0,
+    "explanation": "এডিসনের সামগ্রিক জীবন ও আবিষ্কারকে ধারণ করে 'Thomas Edison: The Genius of Inventions' শ্রেষ্ঠ শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5475
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A fable tells the story of a tortoise defeating an overconfident hare in a race. What is the classic appropriate title?",
+    "options": [
+      "A) The Hare and the Tortoise",
+      "B) The Failure of Long Sleep",
+      "C) Fast Running Animal in Forest",
+      "D) Animals Competing in Olympics"
+    ],
+    "answer": 0,
+    "explanation": "ঈশপের এই কালজয়ী গল্পের প্রতিষ্ঠিত ও প্রমিত শিরোনাম হলো 'The Hare and the Tortoise' (উপশিরোনাম: 'Slow and Steady Wins the Race')।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5476
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A story depicts a thirsty crow dropping pebbles into a pitcher to raise the water level. The best title is —",
+    "options": [
+      "A) Summer Heat in the Forest",
+      "B) Pebbles in Ancient Pitchers",
+      "C) The Thirsty Crow and Its Ingenuity",
+      "D) Water Scarcity Across the Globe"
+    ],
+    "answer": 2,
+    "explanation": "কাকের তৃষ্ণা ও তার উপস্থিত বুদ্ধির ওপর ভিত্তি করে 'The Thirsty Crow and Its Ingenuity' যথার্থ শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5477
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "An essay discusses how digital technologies, online platforms, and remote work are shaping the 21st century. The ideal title is —",
+    "options": [
+      "A) How to Send an Email Quickly",
+      "B) The Digital Revolution and the Future of Work",
+      "C) The Silicon Valley Market",
+      "D) Buying Computers Online"
+    ],
+    "answer": 1,
+    "explanation": "ডিজিটাল বিপ্লব ও ভবিষ্যৎ কর্মসংস্থানের সামগ্রিক চিত্র তুলে ধরায় এই শিরোনামটি উপযুক্ত।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5478
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage focuses on the supreme sacrifices of the freedom fighters in 1971 to liberate Bangladesh. The most appropriate title is —",
+    "options": [
+      "A) The Pakistani Military Regime",
+      "B) Bengali Language Movement Only",
+      "C) History of Wars Around the World",
+      "D) The Liberation War of 1971: The Saga of Supreme Sacrifice"
+    ],
+    "answer": 3,
+    "explanation": "১৯৭১ সালের মুক্তিযুদ্ধের আত্মত্যাগ ও গৌরবগাথাকে প্রকাশ করতে এই শিরোনামটি যথাযথ।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5479
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A paragraph emphasizes how reading books broadens the mind, enriches vocabulary, and provides moral guidance. The best title is —",
+    "options": [
+      "A) The Pleasures and Rewards of Reading",
+      "B) Visiting the National Library",
+      "C) Buying Novels in Bookstalls",
+      "D) How to Print Hardcover Books"
+    ],
+    "answer": 0,
+    "explanation": "বই পড়ার আনন্দ ও সুফল নিয়ে রচিত অনুচ্ছেদের নিখুঁত শিরোনাম হলো 'The Pleasures and Rewards of Reading'।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5480
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text discusses the causes of river erosion in Bangladesh and its impact on displaced rural families. The best title is —",
+    "options": [
+      "A) Fishing in the Padma River",
+      "B) The Water Transport System of Bangladesh",
+      "C) River Erosion in Bangladesh: Impact and Human Suffering",
+      "D) Building Concrete Embankments Only"
+    ],
+    "answer": 2,
+    "explanation": "নদীভাঙন ও মানুষের দুর্দশাকে ধারণ করা শিরোনামটি সবচেয়ে নিখুঁত।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5481
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage illustrates how honesty builds character, earns public trust, and leads to true peace of mind. The most fitting title is —",
+    "options": [
+      "A) Dealing with Dishonest People",
+      "B) How to Earn Wealth Quickly",
+      "C) The Legal System and Court Trials",
+      "D) Honesty: The Foundation of Moral Character"
+    ],
+    "answer": 3,
+    "explanation": "সততার চারিত্রিক ও আত্মিক ভিত্তি প্রকাশে এই শিরোনামটি সবচেয়ে উপযোগী।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5482
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "An article analyzes the threat of melting glaciers, rising sea levels, and changing rainfall patterns globally. The best title is —",
+    "options": [
+      "A) The Carbon Footprint of Automobiles",
+      "B) Global Warming and Climate Change: A Threat to Humanity",
+      "C) Why It Rains in Summer",
+      "D) The Cold Winter of the Arctic"
+    ],
+    "answer": 1,
+    "explanation": "জলবায়ু পরিবর্তনের বৈশ্বিক হুমকি নির্দেশকারী পূর্ণাঙ্গ শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5483
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A story tells of a shepherd boy who repeatedly cried 'Wolf!' falsely and was finally eaten when a real wolf arrived. The classic title is —",
+    "options": [
+      "A) The Shepherd Boy and the Wolf",
+      "B) How to Guard Domestic Sheep",
+      "C) Shepherds in Ancient Greece",
+      "D) Wild Animals in European Mountains"
+    ],
+    "answer": 0,
+    "explanation": "রাখাল ও বাঘের চিরায়ত গল্পের যথাযথ শিরোনাম হলো 'The Shepherd Boy and the Wolf' (বা 'The False Alarm')।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5484
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text explores how female education leads to lower infant mortality, higher family income, and national prosperity. The best title is —",
+    "options": [
+      "A) Teachers in Modern Colleges",
+      "B) The Role of Mothers in Cooking",
+      "C) Primary Schools in Rural Areas",
+      "D) Female Education: A Catalyst for National Development"
+    ],
+    "answer": 3,
+    "explanation": "নারী শিক্ষার রূপান্তরমূলক ভূমিকা নির্দেশ করায় এই শিরোনামটি সবচেয়ে শক্তিশালী।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5485
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage evaluates the advantages and disadvantages of mobile phones among adolescents. The most balanced title is —",
+    "options": [
+      "A) Smartphones Are Ruining the Youth",
+      "B) Best Mobile Apps for Students",
+      "C) Smartphones and Adolescents: Pros and Cons",
+      "D) The History of Alexander Graham Bell"
+    ],
+    "answer": 2,
+    "explanation": "সুবিধা ও অসুবিধা উভয়ের নিরপেক্ষ মূল্যায়নে 'Pros and Cons' যুক্ত শিরোনামটি সর্বোত্তম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5486
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage discusses the biography of Begum Rokeya and her pioneering contribution to Muslim women's education. The best title is —",
+    "options": [
+      "A) Sultana's Dream and Other Stories",
+      "B) Begum Rokeya: The Pioneer of Women's Renaissance in Bengal",
+      "C) Muslim Women in the 19th Century",
+      "D) Schools in Rangpur and Kolkata"
+    ],
+    "answer": 1,
+    "explanation": "বেগম রোকেয়ার সামগ্রিক অবদান ও ঐতিহাসিক মর্যাদা তুলে ধরা শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5487
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A paragraph details the nutritional value, culinary uses, and medicinal benefits of honey. The most appropriate title is —",
+    "options": [
+      "A) How Insects Collect Nectar",
+      "B) Sweet Food Items for Children",
+      "C) Bee Farming in the Sundarbans",
+      "D) The Nutritional and Medicinal Marvels of Honey"
+    ],
+    "answer": 3,
+    "explanation": "মধুর পুষ্টি ও ভেষজ গুণাবলি নির্দেশক যথার্থ শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5488
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage discusses how excessive reliance on social media leads to depression, loneliness, and shorter attention spans. The best title is —",
+    "options": [
+      "A) How to Gain Followers on Facebook",
+      "B) The Psychological Toll of Social Media Addiction",
+      "C) Computers and Internet Infrastructure",
+      "D) The Success Story of Mark Zuckerberg"
+    ],
+    "answer": 1,
+    "explanation": "সামাজিক যোগাযোগ মাধ্যমের মানসিক কুফল তুলে ধরা সুনির্দিষ্ট শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5489
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text describes the architectural splendor, historical significance, and preservation of the Sixty Dome Mosque. The best title is —",
+    "options": [
+      "A) Mosques Around the Muslim World",
+      "B) Ancient Cities of Bagerhat District",
+      "C) The Sixty Dome Mosque: A Masterpiece of Medieval Architecture",
+      "D) Khan Jahan Ali as a General"
+    ],
+    "answer": 2,
+    "explanation": "ষাট গম্বুজ মসজিদের স্থাপত্য ও ঐতিহ্যের প্রতিফলনকারী নিখুঁত শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5490
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text describes how patience and perseverance helped Abraham Lincoln overcome multiple political defeats before becoming president. The best title is —",
+    "options": [
+      "A) Perseverance in the Face of Failure: The Story of Lincoln",
+      "B) How to Win US Presidential Elections",
+      "C) Lincoln's Childhood in Kentucky",
+      "D) The American Civil War Overview"
+    ],
+    "answer": 0,
+    "explanation": "অধ্যবসায় ও ব্যর্থতা পেরিয়ে সাফল্যের মূল ভাব প্রকাশ করায় এই শিরোনামটি যথাযথ।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5491
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A paragraph discusses the causes of plastic pollution in oceans and its deadly effect on marine species. The best title is —",
+    "options": [
+      "A) Plastic Pollution: A Crisis for Marine Life",
+      "B) Deep Sea Creatures and Fishes",
+      "C) Recycling Factories in Cities",
+      "D) Manufacturing Plastic Bags"
+    ],
+    "answer": 0,
+    "explanation": "সামুদ্রিক প্রাণীর ওপর প্লাস্টিক দূষণের প্রভাব কেন্দ্রিক যথার্থ শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5492
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage focuses on why time management is vital for competitive examination candidates. The most appropriate title is —",
+    "options": [
+      "A) The Importance of Good Handwriting",
+      "B) Questions in Preliminary Exams",
+      "C) How to Buy a Fast Wristwatch",
+      "D) The Art of Time Management for Exam Success"
+    ],
+    "answer": 3,
+    "explanation": "পরীক্ষায় সাফল্যের জন্য সময় ব্যবস্থাপনার গুরুত্ব প্রকাশে এই শিরোনামটি সবচেয়ে সংগতিপূর্ণ।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5493
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text narrates the invention of printing press by Johannes Gutenberg and how it democratized knowledge. The best title is —",
+    "options": [
+      "A) The Life of European Goldsmiths",
+      "B) Gutenberg and the Printing Revolution",
+      "C) Reading Books in Medieval Europe",
+      "D) Paper Mills in Ancient Times"
+    ],
+    "answer": 1,
+    "explanation": "মুদ্রণ বিপ্লব ও গুটেনবার্গের ঐতিহাসিক অবদানকে নির্দেশকারী যথার্থ শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5494
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A paragraph discusses the danger of deforestation in the Amazon Basin and its consequences for planetary oxygen. The best title is —",
+    "options": [
+      "A) Tropical Timber Export Regulations",
+      "B) The Amazon River and Its Fish Species",
+      "C) Deforestation in the Amazon: Threats to Global Ecology",
+      "D) Indigenous Tribes in South America"
+    ],
+    "answer": 2,
+    "explanation": "অ্যামাজনের বন উজাড়ের পরিবেশগত হুমকির কেন্দ্রিক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5495
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A story describes two friends encountering a bear in a forest; one climbed a tree leaving the other behind. The classic title is —",
+    "options": [
+      "A) Dangerous Wild Animal in Woods",
+      "B) Hunting Adventures in Winter",
+      "C) The Two Friends and the Bear",
+      "D) How to Climb Tall Trees Quickly"
+    ],
+    "answer": 2,
+    "explanation": "বিপদে বন্ধুর আসল পরিচয়মূলক গল্পের প্রমিত শিরোনাম হলো 'The Two Friends and the Bear'।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5496
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text discusses how solar and wind energy can replace fossil fuels and combat environmental degradation. The best title is —",
+    "options": [
+      "A) The History of Coal Mines",
+      "B) Renewable Energy: The Key to a Sustainable Future",
+      "C) Oil Refineries in the Middle East",
+      "D) Electric Fans and Solar Panels"
+    ],
+    "answer": 1,
+    "explanation": "নবায়নযোগ্য জ্বালানির গুরুত্ব নির্দেশক আধুনিক ও প্রমিত শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5497
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A paragraph illustrates how patriotism inspires citizens to work selflessly for their motherland's welfare. The best title is —",
+    "options": [
+      "A) National Anthem and Flag Rules",
+      "B) Living in Foreign Countries",
+      "C) Military Defense Budgets",
+      "D) Patriotism: The Spirit of Selfless Devotion"
+    ],
+    "answer": 3,
+    "explanation": "দেশপ্রেমের নিঃস্বার্থ আদর্শ প্রকাশে এই শিরোনামটি সর্বাধিক উপযুক্ত।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5498
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage highlights the importance of clean drinking water and sanitation in curbing waterborne diseases. The best title is —",
+    "options": [
+      "A) Clean Water and Sanitation: Pillars of Public Health",
+      "B) Digging Tube Wells in Villages",
+      "C) Cholera and Typhoid Bacteria",
+      "D) The Municipal Water Supply Department"
+    ],
+    "answer": 0,
+    "explanation": "জনস্বাস্থ্যে বিশুদ্ধ পানির ভূমিকা কেন্দ্রিক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5499
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage depicts the bravery and architectural legacy of the Mughal Emperor Babur. The best title is —",
+    "options": [
+      "A) Babur: The Architect of the Mughal Empire",
+      "B) The First Battle of Panipat Only",
+      "C) Mughal Gardens in Kabul",
+      "D) Ancient Swords of Central Asia"
+    ],
+    "answer": 0,
+    "explanation": "বাবরের সামগ্রিক ঐতিহাসিক ভূমিকার প্রতিফলনকারী শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5500
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text analyzes the cultural significance and celebratory rituals of Pohela Boishakh. The most fitting title is —",
+    "options": [
+      "A) Calendar Systems of Ancient India",
+      "B) Buying Traditional Sarees in Dhaka",
+      "C) Pohela Boishakh: The Celebration of Bengali Cultural Heritage",
+      "D) Eating Panta Ilish in Summer"
+    ],
+    "answer": 2,
+    "explanation": "পহেলা বৈশাখের সার্বজনীন সাংস্কৃতিক গুরুত্ব প্রকাশে এটি উপযুক্ত।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5501
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage describes Kazi Nazrul Islam's rebel poetry, anti-colonial stance, and universal humanism. The best title is —",
+    "options": [
+      "A) Musical Compositions of Bengal",
+      "B) Kazi Nazrul Islam: The Rebel Poet of Humanity",
+      "C) The Life of Soldiers in Karachi",
+      "D) Poems Published in Bijli Magazine"
+    ],
+    "answer": 1,
+    "explanation": "নজরুলের বিদ্রোহী সত্ত্বা ও মানবতার জয়গানকে নির্দেশকারী শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5502
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text reviews the historic 7th March Speech of Bangabandhu Sheikh Mujibur Rahman as recognized by UNESCO. The best title is —",
+    "options": [
+      "A) Speeches of World Leaders",
+      "B) The Pakistani Military Generals",
+      "C) Race Course Ground in Dhaka",
+      "D) The 7th March Speech: A Historic Blueprint for Freedom"
+    ],
+    "answer": 3,
+    "explanation": "৭ মার্চের ভাষণের বিশ্বঐতিহাসিক মর্যাদা ও স্বাধীনতার দিকনির্দেশনামূলক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5503
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A paragraph details the traditional handloom industry of Jamdani and its UNESCO Intangible Heritage status. The best title is —",
+    "options": [
+      "A) Weaving Workshops in Narayanganj",
+      "B) Exporting Handlooms to Europe",
+      "C) Cotton Cultivation along the Shitalakshya",
+      "D) Jamdani Saree: The Glory of Bengali Weaving Craft"
+    ],
+    "answer": 3,
+    "explanation": "জামদানির ঐতিহ্য ও বয়নশিল্পের গৌরব প্রকাশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5504
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage discusses the excavation and Buddhist archaeological relics of Paharpur. The best title is —",
+    "options": [
+      "A) Somapura Mahavihara: The Archaeological Gem of Paharpur",
+      "B) Ancient Bricks in Naogaon District",
+      "C) Buddhism in Ancient Tibet",
+      "D) Tourism Destinations in Rajshahi"
+    ],
+    "answer": 0,
+    "explanation": "পাহাড়পুরের প্রত্নতাত্ত্বিক ও স্থাপত্য গুরুত্ব তুলে ধরা শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5505
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text focuses on the life and non-violent philosophy of Mahatma Gandhi. The best title is —",
+    "options": [
+      "A) Spinning Cotton with the Charkha",
+      "B) Mahatma Gandhi and the Philosophy of Non-Violence",
+      "C) British Colonial Law Courts",
+      "D) The Salt March of 1930 Only"
+    ],
+    "answer": 1,
+    "explanation": "গান্ধিজির অহিংস দর্শনের ওপর আলোকপাতকারী প্রমিত শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5506
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A paragraph outlines Nelson Mandela's 27-year imprisonment and fight against apartheid in South Africa. The best title is —",
+    "options": [
+      "A) The African National Congress History",
+      "B) Elections in South Africa in 1994",
+      "C) Nelson Mandela: The Triumph Over Apartheid",
+      "D) Robben Island Prison Conditions"
+    ],
+    "answer": 2,
+    "explanation": "বর্ণবাদের বিরুদ্ধে ম্যান্ডেলার বিজয়গাথা নির্দেশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5507
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage describes the voyages of Christopher Columbus and their impact on global trade and colonization. The best title is —",
+    "options": [
+      "A) The Spanish Royal Navy in 1492",
+      "B) Columbus and the Age of Global Exploration",
+      "C) Sailing Across the Atlantic Ocean",
+      "D) Native Tribes of the Caribbean"
+    ],
+    "answer": 1,
+    "explanation": "কলম্বাসের সমুদ্রাভিযান ও বৈশ্বিক আবিষ্কারের যুগের প্রতিফলন।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5508
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text discusses the origin, evolution, and global popularity of Cricket. The best title is —",
+    "options": [
+      "A) How to Bowl a Fast Delivery",
+      "B) The Lord's Cricket Ground in London",
+      "C) Cricket: The Evolution of a Global Sport",
+      "D) Rules of the LBW Decision"
+    ],
+    "answer": 2,
+    "explanation": "ক্রিকেটের ঐতিহাসিক বিবর্তন ও বৈশ্বিক বিস্তার প্রকাশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5509
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text discusses how artificial intelligence is transforming diagnosis and surgery in modern medicine. The best title is —",
+    "options": [
+      "A) Artificial Intelligence: Revolutionizing Modern Healthcare",
+      "B) Surgical Robots Made in Germany",
+      "C) Computers in Doctor's Chambers",
+      "D) Hospital Administration Systems"
+    ],
+    "answer": 0,
+    "explanation": "চিকিৎসাক্ষেত্রে কৃত্রিম বুদ্ধিমত্তার বিপ্লব নির্দেশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5510
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A paragraph discusses the role of bees in plant pollination and the danger of their extinction. The best title is —",
+    "options": [
+      "A) Sweet Honey Production in Farms",
+      "B) How Honeybees Make Honeycombs",
+      "C) Insects Living in Forest Colonies",
+      "D) Bees and Pollination: Essential Guardians of Food Security"
+    ],
+    "answer": 3,
+    "explanation": "পরাগায়ন ও খাদ্য নিরাপত্তায় মৌমাছির অপরিহার্য ভূমিকা নির্দেশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5511
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage explains the causes and catastrophic consequences of tsunamis in coastal regions. The best title is —",
+    "options": [
+      "A) Building Warning Sirens on Beaches",
+      "B) Fishing Boats Destroyed by Sea Storms",
+      "C) Tsunamis: The Deadly Fury of Ocean Waves",
+      "D) Earthquakes in the Pacific Ring of Fire"
+    ],
+    "answer": 2,
+    "explanation": "সুনামির ভয়াবহতা কেন্দ্রিক যথার্থ শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5512
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text discusses the benefits of space exploration and how satellite technology aids weather forecasting. The best title is —",
+    "options": [
+      "A) Astronauts Wearing Space Suits",
+      "B) Space Exploration and Satellite Technology for Human Welfare",
+      "C) Rockets Launched from Cape Canaveral",
+      "D) The Moon Landing of Apollo 11"
+    ],
+    "answer": 1,
+    "explanation": "মহাকাশ ও স্যাটেলাইট প্রযুক্তির মানবকল্যাণমূলক ব্যবহার নির্দেশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5513
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A paragraph illustrates how cybersecurity protects financial systems and personal privacy against hackers. The best title is —",
+    "options": [
+      "A) Computer Viruses and Trojan Horses",
+      "B) How to Create a Hard Password",
+      "C) Online Banking Applications",
+      "D) Cybersecurity: Safeguarding the Digital World"
+    ],
+    "answer": 3,
+    "explanation": "সাইবার নিরাপত্তার সামগ্রিক প্রয়োজনীয়তা নির্দেশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5514
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage explores the ecological significance of the Sundarbans mangrove forest and Royal Bengal Tigers. The best title is —",
+    "options": [
+      "A) The Sundarbans: The World's Largest Mangrove Ecosystem",
+      "B) Collecting Honey in the Mangroves",
+      "C) The Rivers of Khulna Division",
+      "D) Hunting Tigers in Bagerhat"
+    ],
+    "answer": 0,
+    "explanation": "সুন্দরবনের ম্যানগ্রোভ প্রতিবেশের অনন্য গুরুত্ব প্রকাশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5515
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text evaluates how biotechnology and genetically modified crops help feed a growing world population. The best title is —",
+    "options": [
+      "A) Chemical Fertilizers and Pesticides",
+      "B) Testing Seeds in Laboratory Tubes",
+      "C) Wheat Production in North America",
+      "D) Biotechnology in Agriculture: Feeding the Future World"
+    ],
+    "answer": 3,
+    "explanation": "কৃষি বায়োটেকনোলজির বৈশ্বিক খাদ্য সমাধান নির্দেশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5516
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A paragraph discusses the ozone layer, its depletion by CFCs, and international recovery treaties like the Montreal Protocol. The best title is —",
+    "options": [
+      "A) Air Conditioning Refrigerants",
+      "B) The Ozone Layer: Depletion and Global Recovery Efforts",
+      "C) Ultraviolet Radiation from the Sun",
+      "D) Environmental Treaties Signed in Canada"
+    ],
+    "answer": 1,
+    "explanation": "ওজোন স্তরের ক্ষয় ও বৈশ্বিক পুনরুদ্ধার উদ্যোগ কেন্দ্রিক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5517
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage describes how 3D printing is altering industrial manufacturing and prosthetic limb production. The best title is —",
+    "options": [
+      "A) Making Artificial Fingers and Hands",
+      "B) Computers Connected to Printers",
+      "C) 3D Printing: Reshaping Modern Manufacturing",
+      "D) Using Plastic Spools in Workshops"
+    ],
+    "answer": 2,
+    "explanation": "ত্রিমাত্রিক মুদ্রণের রূপান্তরমূলক প্রভাব নির্দেশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5518
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text highlights how electric vehicles reduce urban smog and greenhouse gas emissions. The best title is —",
+    "options": [
+      "A) Electric Vehicles: Paving the Way for Clean Urban Transport",
+      "B) Petrol and Diesel Price Fluctuations",
+      "C) Lithium-Ion Batteries in Motor Cars",
+      "D) Charging Stations on City Highways"
+    ],
+    "answer": 0,
+    "explanation": "পরিচ্ছন্ন নগর পরিবহনে বৈদ্যুতিক যানবাহনের ভূমিকা নির্দেশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5519
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage explores how discipline in student life lays the foundation for lifelong success and character. The best title is —",
+    "options": [
+      "A) The Value of Discipline in Student Life",
+      "B) Passing Examinations with Good Grades",
+      "C) Obeying Strict College Teachers",
+      "D) School Uniforms and Morning Assemblies"
+    ],
+    "answer": 0,
+    "explanation": "ছাত্রজীবনে শৃঙ্খলার মৌলিক মূল্যবোধ প্রকাশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5520
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A paragraph discusses how corruption erodes the rule of law, drains public resources, and breeds poverty. The best title is —",
+    "options": [
+      "A) Dishonest People in Business",
+      "B) The Anti-Corruption Commission Duties",
+      "C) Corruption: The Scourge of Economic Development",
+      "D) Bribes Paid in Government Offices"
+    ],
+    "answer": 2,
+    "explanation": "দুর্নীতির সামগ্রিক সামাজিক ও অর্থনৈতিক অভিশাপ নির্দেশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5521
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text highlights the therapeutic and emotional power of music to alleviate stress and bring harmony. The best title is —",
+    "options": [
+      "A) Singing Classical Songs in Morning",
+      "B) The Healing Power and Universal Language of Music",
+      "C) Concerts in City Auditoriums",
+      "D) Playing the Piano and Guitar"
+    ],
+    "answer": 1,
+    "explanation": "সঙ্গীতের উপশমকারী শক্তি ও সার্বজনীন আবেদন প্রকাশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5522
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage describes how empathy and compassion strengthen community bonds and reduce loneliness. The best title is —",
+    "options": [
+      "A) Donating Alms to Street Beggars",
+      "B) Psychological Counseling Clinics",
+      "C) Visiting Old Age Homes on Weekends",
+      "D) Empathy: The Keystone of Social Harmony"
+    ],
+    "answer": 3,
+    "explanation": "সহমর্মিতার সামাজিক তাৎপর্য নির্দেশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5523
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A paragraph discusses the dangers of childhood obesity caused by fast food and sedentary lifestyle. The best title is —",
+    "options": [
+      "A) Eating Burgers in Fast Food Joints",
+      "B) Weight Scales in School Clinics",
+      "C) Playing Video Games Indoors",
+      "D) Childhood Obesity: Causes, Risks, and Prevention"
+    ],
+    "answer": 3,
+    "explanation": "শিশুস্থূলতার কারণ ও প্রতিরোধের সুনির্দিষ্ট শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5524
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text examines how globalization fosters international trade but threatens indigenous cultural traditions. The best title is —",
+    "options": [
+      "A) Importing Goods from China and America",
+      "B) Globalization: Opportunities and Cultural Challenges",
+      "C) Multinational Corporations in Asia",
+      "D) Watching Foreign TV Channels"
+    ],
+    "answer": 1,
+    "explanation": "বিশ্বায়নের সুবিধা ও সাংস্কৃতিক চ্যালেঞ্জের ভারসাম্যপূর্ণ শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5525
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage illustrates the profound bond between parents and children and the ethical duty of caring for elderly parents. The best title is —",
+    "options": [
+      "A) Filial Duty and the Dignity of Elderly Care",
+      "B) Family Dinners on Holidays",
+      "C) Parents Paying College Tuition Fees",
+      "D) Nursing Homes in Western Countries"
+    ],
+    "answer": 0,
+    "explanation": "পিতামাতার প্রতি সন্তানের কর্তব্য ও প্রবীণ সেবার মর্যাদা প্রকাশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5526
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A paragraph highlights how noise pollution in megacities impairs hearing, elevates blood pressure, and causes insomnia. The best title is —",
+    "options": [
+      "A) Hearing Aids Sold in Pharmacies",
+      "B) Blowing Hydraulic Horns in Traffic",
+      "C) Noise Pollution: The Silent Menace of Modern Cities",
+      "D) Loudspeakers Used in Public Rallies"
+    ],
+    "answer": 2,
+    "explanation": "শব্দদূষণের মারাত্মক অদৃশ্য ক্ষতি নির্দেশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5527
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text discusses how community volunteering builds self-esteem in youths and helps marginalized populations. The best title is —",
+    "options": [
+      "A) Distributing Warm Blankets in Winter",
+      "B) Cleaning Neighborhood Roads",
+      "C) The Transformative Power of Community Volunteerism",
+      "D) Working for Non-Profit Organizations"
+    ],
+    "answer": 2,
+    "explanation": "স্বেচ্ছাসেবার রূপান্তরমূলক ভূমিকা নির্দেশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5528
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage explores the philosophical concept of happiness and how contentment triumphs over materialistic greed. The best title is —",
+    "options": [
+      "A) True Happiness: Rooted in Contentment, Not Wealth",
+      "B) Buying Expensive Luxury Houses",
+      "C) Earning Billions in Stock Markets",
+      "D) Smiling Faces in Family Photographs"
+    ],
+    "answer": 0,
+    "explanation": "প্রকৃত সুখের দার্শনিক তাৎপর্য প্রকাশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5529
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A fable tells of a greedy dog that dropped its bone into the river trying to grab the reflection's bone. The classic title is —",
+    "options": [
+      "A) Walking Across a Wooden Bridge",
+      "B) The Dog and Its Shadow",
+      "C) Meat Bone Bought from Butcher",
+      "D) Clear Water in Forest Streams"
+    ],
+    "answer": 1,
+    "explanation": "অতি লোভে ক্ষতির এই চিরায়ত গল্পের শিরোনাম হলো 'The Dog and Its Shadow' (নীতিবাক্য: 'Grasp all, lose all')।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5530
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A story tells of a fox flattering a crow to make it sing and drop the cheese from its beak. The classic title is —",
+    "options": [
+      "A) Piece of Cheese on Tree Branch",
+      "B) Flattery in Ancient Greek Fables",
+      "C) Singing Birds in Morning Woods",
+      "D) The Fox and the Crow"
+    ],
+    "answer": 3,
+    "explanation": "তোষামোদের ফাঁদে পড়া নিয়ে ঈশপের গল্পের প্রমিত শিরোনাম হলো 'The Fox and the Crow'।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5531
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A fable recounts a tiny mouse rescuing a mighty lion from a hunter's net by chewing through the ropes. The classic title is —",
+    "options": [
+      "A) The Roar of a Trapped Beast",
+      "B) The Lion and the Mouse",
+      "C) Hunter's Rope Trap in Jungle",
+      "D) Small Rodents Chewing Ropes"
+    ],
+    "answer": 1,
+    "explanation": "ক্ষুদ্র জীবেরও বড় উপকার করার ক্ষমতাসূচক গল্পের প্রমিত শিরোনাম 'The Lion and the Mouse'।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5532
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A story describes a farmer who killed the goose that laid golden eggs in order to get all gold at once. The classic title is —",
+    "options": [
+      "A) Domestic Birds on Farm Land",
+      "B) Selling Gold in City Markets",
+      "C) The Goose That Laid the Golden Eggs",
+      "D) Greedy Farmer in Village"
+    ],
+    "answer": 2,
+    "explanation": "লোভের করুণ পরিণতির প্রমিত শিরোনাম হলো 'The Goose That Laid the Golden Eggs'।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5533
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A fable depicts a fox unable to reach grapes hanging high and walking away claiming they were sour. The classic title is —",
+    "options": [
+      "A) Jumping High in Countryside",
+      "B) Wild Foxes in Autumn",
+      "C) Sweet Purple Fruit in Vineyard",
+      "D) The Fox and the Grapes"
+    ],
+    "answer": 3,
+    "explanation": "না পাওয়ার অক্ষমতা ঢাকতে দোষারোপ করার গল্পের প্রমিত শিরোনাম 'The Fox and the Grapes'।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5534
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A story tells of an old man giving a bundle of sticks to his quarreling sons to teach them the strength of unity. The classic title is —",
+    "options": [
+      "A) Unity Is Strength",
+      "B) Breaking Dry Wooden Sticks",
+      "C) An Old Farmer on Deathbed",
+      "D) Quarreling Brothers in Village"
+    ],
+    "answer": 0,
+    "explanation": "ঐক্যের শক্তি বিষয়ক এই নীতিকাহিনির সর্বোত্তম শিরোনাম 'Unity Is Strength'।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5535
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "An editorial examines the economic importance and challenges of the Ready-Made Garments (RMG) sector in Bangladesh. The best title is —",
+    "options": [
+      "A) Workers Demanding Minimum Wage",
+      "B) Bangladesh's RMG Sector: Engine of Growth and Future Challenges",
+      "C) Exporting T-Shirts to Europe",
+      "D) Sewing Shirts in Dhaka Factories"
+    ],
+    "answer": 1,
+    "explanation": "পোশাক শিল্পের সামগ্রিক অর্থনৈতিক অবস্থান ও ভবিষ্যৎ চ্যালেঞ্জের প্রতিফলনকারী শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5536
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage analyzes the role of the microcredit model in alleviating rural poverty and empowering rural women. The best title is —",
+    "options": [
+      "A) Small Banking Branches in Villages",
+      "B) Weekly Installments Paid by Farmers",
+      "C) Microcredit: Empowering Rural Women and Fighting Poverty",
+      "D) Buying Sewing Machines with Loans"
+    ],
+    "answer": 2,
+    "explanation": "ক্ষুদ্রঋণের রূপান্তরমূলক ভূমিকা নির্দেশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5537
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text reviews the conservation efforts to protect the Sundarbans mangrove tiger habitat from poaching and climate change. The best title is —",
+    "options": [
+      "A) Forest Guards with Rifles",
+      "B) Tigers Roaming in Forest Canals",
+      "C) Wild Animals of South Asia",
+      "D) Saving the Royal Bengal Tiger: Conservation and Challenges"
+    ],
+    "answer": 3,
+    "explanation": "রয়্যাল বেঙ্গল টাইগার সংরক্ষণ ও চ্যালেঞ্জ কেন্দ্রিক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5538
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage details the nutritional benefits, farming methods, and economic potential of mushroom cultivation in Bangladesh. The best title is —",
+    "options": [
+      "A) Mushroom Cultivation: A Nutritious and Lucrative Enterprise",
+      "B) Agricultural Subsidies for Youth",
+      "C) Growing Fungi in Dark Rooms",
+      "D) Cooking Mushroom Soup in Hotels"
+    ],
+    "answer": 0,
+    "explanation": "মাশরুম চাষের বহুমুখী সম্ভাবনা প্রকাশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5539
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text discusses the vital role of wetlands (haors and beels) in flood control, biodiversity, and inland fishery. The best title is —",
+    "options": [
+      "A) Boats Traveling in Deep Waters",
+      "B) Fishing with Nets in Sylhet Haors",
+      "C) The Ecological and Economic Value of Bangladesh's Wetlands",
+      "D) Migratory Birds in Winter Months"
+    ],
+    "answer": 2,
+    "explanation": "হাওর ও জলাভূমির পরিবেশগত ও অর্থনৈতিক গুরুত্ব প্রকাশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5540
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage describes how the construction of the Padma Multipurpose Bridge revolutionized connectivity with southwestern Bangladesh. The best title is —",
+    "options": [
+      "A) The Padma Bridge: A Milestone in Regional Connectivity and Economic Growth",
+      "B) Laying Pillars in Deep Water",
+      "C) Crossing the Padma River by Ferry",
+      "D) Road Transport to Khulna and Barishal"
+    ],
+    "answer": 0,
+    "explanation": "পদ্মা সেতুর ঐতিহাসিক ও অর্থনৈতিক তাৎপর্য নির্দেশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5541
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "An essay analyzes the impact of air pollution on lung health in densely populated Asian cities. The best title is —",
+    "options": [
+      "A) Smoggy Skies in Winter Mornings",
+      "B) Urban Air Pollution: A Growing Public Health Emergency",
+      "C) Wearing Masks on City Streets",
+      "D) Exhaust Smoke from Old Buses"
+    ],
+    "answer": 1,
+    "explanation": "বায়ুদূষণের স্বাস্থ্যগত জরুরি অবস্থা নির্দেশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5542
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A paragraph highlights how the preservation of mother tongues preserves unique cultural wisdom and human diversity. The best title is —",
+    "options": [
+      "A) Dictionaries Published by Academies",
+      "B) Speaking English in International Forums",
+      "C) Learning Grammar Rules in Class",
+      "D) Preserving Linguistic Diversity: The Shield of Cultural Wisdom"
+    ],
+    "answer": 3,
+    "explanation": "ভাষাগত বৈচিত্র্য রক্ষার দার্শনিক ও সাংস্কৃতিক তাৎপর্য নির্দেশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5543
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage examines how proper waste recycling can reduce landfill accumulation and generate biogas energy. The best title is —",
+    "options": [
+      "A) Waste Management and Recycling: Turning Garbage into Resource",
+      "B) Compost Fertilizer for Kitchen Gardens",
+      "C) Garbage Trucks in City Corporations",
+      "D) Plastic Bottles in Street Drains"
+    ],
+    "answer": 0,
+    "explanation": "বর্জ্য ব্যবস্থাপনা ও পুনর্ব্যবহারের অর্থনৈতিক ও পরিবেশগত দিক প্রকাশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5544
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text discusses the life and humanistic contributions of Mother Teresa among the destitute in Kolkata. The best title is —",
+    "options": [
+      "A) Nuns Working in Slums of Kolkata",
+      "B) Mother Teresa: The Apostle of Compassion and Service",
+      "C) The Nobel Peace Prize Ceremony of 1979",
+      "D) Hospitals for Leprosy Patients"
+    ],
+    "answer": 1,
+    "explanation": "মাদার তেরেসার আত্মত্যাগী সেবার মর্যাদা প্রকাশকারী শ্রেষ্ঠ শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5545
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A paragraph explores the significance of cyber etiquette and polite behavior in digital communications. The best title is —",
+    "options": [
+      "A) Writing Comments on Social Media",
+      "B) Sending Emails to Friends",
+      "C) Netiquette: The Golden Rules of Online Behavior",
+      "D) Browsing the Internet Safely"
+    ],
+    "answer": 2,
+    "explanation": "অনলাইন শিষ্টাচার নির্দেশক সংহত ও মানসম্মত শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5546
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage explores the ecological wonders of coral reefs and how ocean warming causes coral bleaching. The best title is —",
+    "options": [
+      "A) Colorful Fish Swimming in Sea",
+      "B) Scuba Diving in Saint Martin's Island",
+      "C) Marine Tourism Regulations",
+      "D) Coral Reefs: Underwater Rainforests Under Siege"
+    ],
+    "answer": 3,
+    "explanation": "প্রবাল প্রাচীরের মহিমা ও বিপন্নতার রূপক ও সার্থক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5547
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text analyzes how artificial lighting at night disrupts bird migration and nocturnal wildlife. The best title is —",
+    "options": [
+      "A) Watching Stars with Telescopes",
+      "B) Migratory Birds Flying in Darkness",
+      "C) Light Pollution: Disrupting Nature's Nocturnal Rhythm",
+      "D) Electric Streetlights in Cities"
+    ],
+    "answer": 2,
+    "explanation": "আলোক দূষণের প্রাকৃতিক ক্ষতি কেন্দ্রিক সুনির্দিষ্ট শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5548
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage outlines how sportsmanship teaches participants to respect opponents and accept defeat with grace. The best title is —",
+    "options": [
+      "A) Referees Giving Red and Yellow Cards",
+      "B) Sportsmanship: The True Spirit of the Game",
+      "C) Scoring Goals in Football Matches",
+      "D) Winning Trophies in Tournaments"
+    ],
+    "answer": 1,
+    "explanation": "খেলোয়াড়োচিত মনোভাবের প্রকৃত মর্ম প্রকাশকারী শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5549
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage discusses the life of Stephen Hawking, his battle with ALS, and his cosmological theories on black holes. What is the most fitting title?",
+    "options": [
+      "A) The Physics of Black Holes in Space",
+      "B) Living with Motor Neuron Disease",
+      "C) Cambridge University and Its Scholars",
+      "D) Stephen Hawking: Triumphant Mind Against Physical Limits"
+    ],
+    "answer": 3,
+    "explanation": "হকিংয়ের জীবনের শারীরিক প্রতিবন্ধকতা জয় ও মহাজাগতিক প্রতিভাকে ধারণ করা উপযুক্ত শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5550
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text analyzes how deforestation and habitat loss are forcing wild elephants into human settlements in Chittagong. The best title is —",
+    "options": [
+      "A) Human-Elephant Conflict: Causes, Crisis, and Coexistence",
+      "B) Building Fences Along Agricultural Lands",
+      "C) Wild Elephants in the Forests of Cox's Bazar",
+      "D) Elephant Sanctuaries of South Asia"
+    ],
+    "answer": 0,
+    "explanation": "মানুষ ও হাতির সংঘাত, তার কারণ ও সমাধানের ওপর জোর দেওয়া শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5551
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A paragraph details the health risks of excessive sugar intake, including diabetes, tooth decay, and heart ailments. The best title is —",
+    "options": [
+      "A) Visiting Dentists for Dental Care",
+      "B) How Insulin Controls Blood Glucose",
+      "C) Sweet Confectionery and Chocolates",
+      "D) The Bitter Truth About Excessive Sugar Consumption"
+    ],
+    "answer": 3,
+    "explanation": "অতিরিক্ত চিনি গ্রহণের স্বাস্থ্যগত কুফল তুলে ধরা আকর্ষণীয় ও যথাযথ শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5552
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage explores the life of Marie Curie, her pioneering research on radioactivity, and her two Nobel Prizes. The best title is —",
+    "options": [
+      "A) Marie Curie: The Trailblazing Pioneer of Radioactivity",
+      "B) Women Who Won Nobel Prizes in Physics",
+      "C) Discovering Radium and Polonium in Paris",
+      "D) The Sorbonne University Chemistry Laboratory"
+    ],
+    "answer": 0,
+    "explanation": "মাদাম কুরির যুগান্তকারী বৈজ্ঞানিক গবেষণার মর্যাদা নির্দেশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5553
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text examines how solar home systems brought electricity, education, and micro-enterprises to off-grid rural villages in Bangladesh. The best title is —",
+    "options": [
+      "A) Buying Solar Panels in Village Bazaars",
+      "B) Government Power Generation Stations",
+      "C) Solar Energy: Lighting Up Rural Bangladesh",
+      "D) Installing Batteries in Mud Houses"
+    ],
+    "answer": 2,
+    "explanation": "সৌরবিদ্যুতের মাধ্যমে গ্রামীণ জীবনের রূপান্তর প্রকাশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5554
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "An essay analyzes the psychological causes and remedies for student procrastination before examinations. The best title is —",
+    "options": [
+      "A) Studying One Night Before the Finals",
+      "B) Overcoming Procrastination: The Key to Academic Excellence",
+      "C) Timetables for College Examinations",
+      "D) Why Students Watch Television Late"
+    ],
+    "answer": 1,
+    "explanation": "দীর্ঘসূত্রতা পরিহার ও প্রাতিষ্ঠানিক উৎকর্ষ কেন্দ্রিক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5555
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage highlights how regular meditation reduces cortisol, enhances emotional resilience, and sharpens focus. The best title is —",
+    "options": [
+      "A) Meditation: The Science of Mental Peace and Focus",
+      "B) How to Breathe Deeply in Morning",
+      "C) Ancient Spiritual Practices in India",
+      "D) Sitting Silently in a Quiet Room"
+    ],
+    "answer": 0,
+    "explanation": "ধ্যানের মানসিক ও বৈজ্ঞানিক উপযোগিতা নির্দেশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5556
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A paragraph discusses the role of mangrove roots in trapping sediments and protecting coastlines from storm surges. The best title is —",
+    "options": [
+      "A) Embankments Built Along Coastal Roads",
+      "B) Pneumatophores in Saline Mud",
+      "C) Mangroves: Nature's Bio-Shield Against Cyclones",
+      "D) Mud Crabs and Fish in Mangroves"
+    ],
+    "answer": 2,
+    "explanation": "প্রাকৃতিক সুরক্ষা প্রাচীর হিসেবে ম্যানগ্রোভের ভূমিকা নির্দেশক রূপক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5557
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text describes how Johannes Kepler formulated the three laws of planetary motion, revolutionizing astronomy. The best title is —",
+    "options": [
+      "A) Astronomers Living in Medieval Prague",
+      "B) Looking at the Night Sky with Lenses",
+      "C) The Orbit of Mars Around the Sun",
+      "D) Kepler's Laws and the Geometry of the Heavens"
+    ],
+    "answer": 3,
+    "explanation": "কেপলারের গ্রহীয় গতিসূত্র ও আধুনিক জ্যোতির্বিজ্ঞানের সূচনা নির্দেশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5558
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage recounts the legendary bravery and strategic military defense of Pritilata Waddedar during the Chittagong Armoury Raid. The best title is —",
+    "options": [
+      "A) The Pahartali European Club Incident",
+      "B) Pritilata Waddedar: The Heroic Flame of Anti-Colonial Struggle",
+      "C) Women in Colonial Police Records",
+      "D) Revolutionaries of Chittagong District"
+    ],
+    "answer": 1,
+    "explanation": "প্রীতিলতা ওয়াদ্দেদারের বিপ্লবী আত্মত্যাগের মহিমা প্রকাশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5559
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A paragraph discusses how water hyacinth, often considered an aquatic weed, can be utilized for organic compost and floating agriculture. The best title is —",
+    "options": [
+      "A) Cleaning Weed from Flowing Canals",
+      "B) Purple Flowers Blooming in Village Ponds",
+      "C) Water Hyacinth: From Nuisance to Agricultural Resource",
+      "D) Floating Seedbeds in Gopalganj"
+    ],
+    "answer": 2,
+    "explanation": "কচুরিপানার ক্ষতিকর রূপ থেকে সম্পদে রূপান্তরের চিত্র প্রকাশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5560
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text explores how sleep deprivation affects cognitive performance, memory consolidation, and immunity. The best title is —",
+    "options": [
+      "A) Dreams and Rapid Eye Movement",
+      "B) The Imperative of Sleep for Cognitive and Physical Health",
+      "C) Sleeping Eight Hours Every Night",
+      "D) Taking Sleeping Pills Safely"
+    ],
+    "answer": 1,
+    "explanation": "পর্যাপ্ত ঘুমের শারীরিক ও মানসিক প্রয়োজনীয়তা নির্দেশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5561
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage focuses on the life and monumental achievements of Isaac Newton in mathematics and universal gravitation. The best title is —",
+    "options": [
+      "A) Calculus and Mathematical Notations",
+      "B) An Apple Falling from an Orchard Tree",
+      "C) The Royal Society of London",
+      "D) Sir Isaac Newton: The Architect of Classical Physics"
+    ],
+    "answer": 3,
+    "explanation": "নিউটনের চিরায়ত পদার্থবিজ্ঞানের প্রতিষ্ঠাতার মর্যাদা নির্দেশক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5562
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text analyzes the challenges faced by children with Autism Spectrum Disorder and the importance of inclusive schooling. The best title is —",
+    "options": [
+      "A) Embracing Neurodiversity: Inclusive Education for Autistic Children",
+      "B) Speech Delay and Social Anxiety",
+      "C) Behavioral Therapy Centers for Children",
+      "D) Special Schools in Metropolitan Cities"
+    ],
+    "answer": 0,
+    "explanation": "অটিজম সচেতনতা ও অন্তর্ভুক্তিমূলক শিক্ষার প্রমিত শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5563
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A paragraph details how fast-moving fashion trends (fast fashion) create massive textile waste and pollute water bodies with synthetic dyes. The best title is —",
+    "options": [
+      "A) Cotton Mills and Synthetic Fabrics",
+      "B) The Environmental Cost of Fast Fashion",
+      "C) Recycling Old Cotton T-Shirts",
+      "D) Buying Clothes in Shopping Malls"
+    ],
+    "answer": 1,
+    "explanation": "ফাস্ট ফ্যাশনের পরিবেশগত ক্ষতিকর প্রভাব কেন্দ্রিক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5564
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage narrates how Florence Nightingale transformed military nursing and modern hospital sanitation during the Crimean War. The best title is —",
+    "options": [
+      "A) Florence Nightingale: The Lady with the Lamp and Modern Nursing",
+      "B) Carrying Lamps in Dark Military Wards",
+      "C) Military Hospitals in the Crimean Peninsula",
+      "D) Nursing Schools in Victorian London"
+    ],
+    "answer": 0,
+    "explanation": "ফ্লোরেন্স নাইটিঙ্গেলের ঐতিহাসিক নার্সিং বিপ্লবের শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5565
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text explains the biological process of photosynthesis and how chloroplasts convert sunlight into chemical energy. The best title is —",
+    "options": [
+      "A) Sunlight Falling on Forest Canopies",
+      "B) Green Chlorophyll Inside Plant Leaves",
+      "C) Oxygen Bubbles in Water Plants",
+      "D) Photosynthesis: The Engine of Terrestrial Life"
+    ],
+    "answer": 3,
+    "explanation": "সালোকসংশ্লেষণের সার্বিক জৈবিক গুরুত্ব নির্দেশক রূপক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5566
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A paragraph discusses the economic and social empowerment brought about by rural road electrification and all-weather bridges. The best title is —",
+    "options": [
+      "A) Local Government Engineering Department",
+      "B) Paved Bridges Across Small Canals",
+      "C) Rural Infrastructure: Bridging the Divide to Prosperity",
+      "D) Laying Asphalt on Village Roads"
+    ],
+    "answer": 2,
+    "explanation": "গ্রামীণ অবকাঠামো ও জাতীয় উন্নয়নের সংযোগমূলক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5567
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A passage illustrates the profound artistic vision and Bengal famine sketches of Zainul Abedin. The best title is —",
+    "options": [
+      "A) Sketches of the 1943 Bengal Famine Only",
+      "B) Zainul Abedin: The Great Painter of Human Agony and Resilience",
+      "C) Art Institutes Established in Dhaka",
+      "D) Drawing with Chinese Ink and Brush"
+    ],
+    "answer": 1,
+    "explanation": "শিল্পাচার্য জয়নুল আবেদিনের মানবিক শিল্পচেতনার যথার্থ শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5568
+  },
+  {
+    "subject": "ইংরেজি",
+    "topic": "English Grammar & Structure",
+    "question": "A text describes the historical importance of the Magna Carta (1215) in limiting royal power and establishing constitutional rights. The best title is —",
+    "options": [
+      "A) British Monarchy in the Thirteenth Century",
+      "B) Feudal Barons in Medieval England",
+      "C) King John Signing Parchment at Runnymede",
+      "D) The Magna Carta: The Cornerstone of Constitutional Liberty"
+    ],
+    "answer": 3,
+    "explanation": "ম্যাগনা কার্টার সাংবিধানিক তাৎপর্য নির্দেশক ঐতিহাসিক শিরোনাম।",
+    "tags": [
+      "buet_english",
+      "bpsc_bcs_common"
+    ],
+    "id": 5569
+  }
+]

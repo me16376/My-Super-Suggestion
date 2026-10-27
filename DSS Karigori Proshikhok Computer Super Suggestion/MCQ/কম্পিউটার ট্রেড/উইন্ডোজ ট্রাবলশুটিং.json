@@ -1,0 +1,21 @@
+[
+  {
+    "id": 40049,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "উইন্ডোজ ট্রাবলশুটিং",
+    "question": "উইন্ডোজে কোনো ডকুমেন্টের স্ক্রিনশট নেওয়ার জন্য বিল্ট-ইন টুল কোনটি?",
+    "options": [
+      "A) Paint",
+      "B) Snipping Tool",
+      "C) Notepad",
+      "D) Calculator"
+    ],
+    "answer": 1,
+    "explanation": "উইন্ডোজের 'Snipping Tool' (বা Win + Shift + S) দিয়ে স্ক্রিনের যেকোনো অংশের দ্রুত স্ক্রিনশট ও ক্রপ করা যায়।",
+    "tags": [
+      "computer_trade",
+      "windows",
+      "tools"
+    ]
+  }
+]

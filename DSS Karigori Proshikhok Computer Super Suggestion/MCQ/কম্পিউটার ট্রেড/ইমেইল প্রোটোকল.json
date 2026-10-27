@@ -1,0 +1,21 @@
+[
+  {
+    "id": 40043,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "ইমেইল প্রোটোকল",
+    "question": "ইমেইল প্রেরণের (Sending Mail) জন্য কোন প্রোটোকলটি ব্যবহৃত হয়?",
+    "options": [
+      "A) POP3",
+      "B) IMAP",
+      "C) SMTP",
+      "D) HTTP"
+    ],
+    "answer": 2,
+    "explanation": "SMTP = Simple Mail Transfer Protocol। ইমেইল সার্ভার থেকে অন্য সার্ভারে ইমেইল পাঠানোর কাজে এটি ব্যবহৃত হয়। রিসিভ করতে POP3 বা IMAP ব্যবহৃত হয়।",
+    "tags": [
+      "computer_trade",
+      "networking",
+      "smtp"
+    ]
+  }
+]

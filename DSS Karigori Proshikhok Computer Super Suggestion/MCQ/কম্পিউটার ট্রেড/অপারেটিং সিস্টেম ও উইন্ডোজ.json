@@ -1,0 +1,59 @@
+[
+  {
+    "id": 40010,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "অপারেটিং সিস্টেম ও উইন্ডোজ",
+    "question": "কম্পিউটারে বর্তমানে চলমান সমস্ত উইন্ডো মিনিমাইজ করে সরাসরি ডেস্কটপে যাওয়ার শর্টকাট কী কোনটি?",
+    "options": [
+      "A) Win + D",
+      "B) Win + E",
+      "C) Alt + F4",
+      "D) Ctrl + Esc"
+    ],
+    "answer": 0,
+    "explanation": "উইন্ডোজ কি (Windows Key) + D চাপলে সমস্ত ওপেন উইন্ডো মিনিমাইজ হয়ে সরাসরি ডেস্কটপ প্রদর্শিত হয়।",
+    "tags": [
+      "computer_trade",
+      "windows",
+      "shortcuts"
+    ]
+  },
+  {
+    "id": 40011,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "অপারেটিং সিস্টেম ও উইন্ডোজ",
+    "question": "উইন্ডোজ অপারেটিং সিস্টেমে ফাইল বা ফোল্ডার স্থায়ীভাবে (Recycle Bin-এ না পাঠিয়ে) ডিলিট করার শর্টকাট কী?",
+    "options": [
+      "A) Delete",
+      "B) Shift + Delete",
+      "C) Ctrl + Delete",
+      "D) Alt + Delete"
+    ],
+    "answer": 1,
+    "explanation": "Shift + Delete চাপলে ফাইলটি রিসাইকেল বিনে না গিয়ে কম্পিউটার থেকে পার্মানেন্টলি ডিলিট হয়।",
+    "tags": [
+      "computer_trade",
+      "windows",
+      "shortcuts"
+    ]
+  },
+  {
+    "id": 40012,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "অপারেটিং সিস্টেম ও উইন্ডোজ",
+    "question": "কোনো ফাইল বা ফোল্ডারের নাম পরিবর্তনের (Rename) ফাংশন কি কোনটি?",
+    "options": [
+      "A) F1",
+      "B) F2",
+      "C) F5",
+      "D) F12"
+    ],
+    "answer": 1,
+    "explanation": "F2 হলো রিনেম (Rename) করার শর্টকাট কি। F1 হলো হেল্প (Help) এবং F5 হলো রিফ্রেশ (Refresh)।",
+    "tags": [
+      "computer_trade",
+      "windows",
+      "shortcuts"
+    ]
+  }
+]

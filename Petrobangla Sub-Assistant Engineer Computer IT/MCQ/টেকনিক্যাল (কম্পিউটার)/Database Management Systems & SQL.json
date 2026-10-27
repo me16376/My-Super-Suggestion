@@ -1,0 +1,4202 @@
+[
+  {
+    "id": 1251,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে প্রতিটি অ্যাট্রিবিউটের মানকে অবিভাজ্য (Atomic) রাখার শর্ত কোন নরমাল ফর্মের?",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) BCNF"
+    ],
+    "answer": 0,
+    "explanation": "1NF (First Normal Form) শর্ত অনুযায়ী প্রতিটি কলামে অ্যাটমিক ভ্যালু থাকতে হবে এবং কোনো রিপিটিং গ্রুপ থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1252,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "2NF (Second Normal Form) অর্জনের মূল শর্ত কোনটি?",
+    "options": [
+      "A) 1NF হতে হবে এবং কোনো আংশিক নির্ভরতা (Partial Dependency) থাকা যাবে না",
+      "B) ট্রানজিটিভ নির্ভরতা দূর করতে হবে",
+      "C) মাল্টিভ্যালুড নির্ভরতা দূর করতে হবে",
+      "D) কোনো ফরেন কী থাকা যাবে না"
+    ],
+    "answer": 0,
+    "explanation": "2NF হতে হলে টেবিলকে 1NF হতে হবে এবং কোনো নন-প্রাইম অ্যাট্রিবিউট কম্পোজিট প্রাইমারি কী-র আংশিক অংশের ওপর নির্ভর করতে পারবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1253,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজিটিভ নির্ভরতা (Transitive Dependency: A -> B এবং B -> C) দূর করা কোন নরমাল ফর্মের মূল লক্ষ্য?",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) 4NF"
+    ],
+    "answer": 2,
+    "explanation": "3NF অর্জনের মূল শর্ত হলো টেবিলকে 2NF হতে হবে এবং কোনো ট্রানজিটিভ ডিপেনডেন্সি থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1254,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "Boyce-Codd Normal Form (BCNF)-এর কঠোরতম শর্তটি কী?",
+    "options": [
+      "A) টেবিলটিতে কমপক্ষে ৩টি কলাম থাকতে হবে",
+      "B) প্রতিটি কার্যকর ফাংশনাল ডিপেনডেন্সি X -> Y তে X-কে অবশ্যই সুপারকী (Super Key) হতে হবে",
+      "C) ডানপাশের অ্যাট্রিবিউট প্রাইম হতে হবে",
+      "D) কোনো নাল ভ্যালু রাখা যাবে না"
+    ],
+    "answer": 1,
+    "explanation": "BCNF-এ প্রতিটি নির্ধারক (Determinant) X কে আবশ্যিকভাবে একটি সুপারকী হতে হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1255,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ GROUP BY ক্লজের সাথে এগ্রিগেট ফাংশনের ওপর শর্ত আরোপ করতে কোন ক্লজ ব্যবহৃত হয়?",
+    "options": [
+      "A) WHERE",
+      "B) HAVING",
+      "C) ORDER BY",
+      "D) LIMIT"
+    ],
+    "answer": 1,
+    "explanation": "WHERE ক্লজ দিয়ে একক রো ফিল্টার করা হয়, আর HAVING ক্লজ দিয়ে গ্রুপভিত্তিক এগ্রিগেট তথ্যের ওপর শর্ত দেওয়া হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1256,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ কোনো টেবিল থেকে সমস্ত রেকর্ড দ্রুততম উপায়ে মুছে ফেলতে এবং রোলব্যাকের সুযোগ না রাখতে কোনটি ব্যবহৃত হয়?",
+    "options": [
+      "A) DELETE",
+      "B) DROP",
+      "C) TRUNCATE",
+      "D) REMOVE"
+    ],
+    "answer": 2,
+    "explanation": "TRUNCATE একটি DDL কমান্ড যা ট্রানজ্যাকশন লগ না রেখে টেবিল ডি-অ্যালোকেট করে সমস্ত রেকর্ড একসাথে মুছে দেয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1257,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL কমান্ড ক্যাটাগরিতে নিচের কোনটি DML (Data Manipulation Language) কমান্ড?",
+    "options": [
+      "A) CREATE",
+      "B) ALTER",
+      "C) UPDATE",
+      "D) GRANT"
+    ],
+    "answer": 2,
+    "explanation": "SELECT, INSERT, UPDATE, DELETE হলো DML কমান্ড।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1258,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল এলজেব্রায় সিলেকশন (Selection) অপারেশনের গাণিতিক প্রতীক কোনটি?",
+    "options": [
+      "A) Π (Pi)",
+      "B) σ (Sigma)",
+      "C) ⨝ (Bowtie)",
+      "D) ρ (Rho)"
+    ],
+    "answer": 1,
+    "explanation": "সিগমা (σ) দিয়ে নির্দিষ্ট শর্তে রো সিলেক্ট করা হয়, আর পাই (Π) দিয়ে প্রজেকশন বা কলাম সিলেক্ট করা হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1259,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে ফরেন কী (Foreign Key) কোন ইন্টিগ্রিটি বজায় রাখে?",
+    "options": [
+      "A) Entity Integrity",
+      "B) Referential Integrity",
+      "C) Domain Integrity",
+      "D) User-defined Integrity"
+    ],
+    "answer": 1,
+    "explanation": "ফরেন কী দুটি টেবিলের মাঝে রেফারেন্সিয়াল ইন্টিগ্রিটি (Referential Integrity) নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1260,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজ্যাকশনের ACID বৈশিষ্ট্যের মধ্যে 'I' দ্বারা কী বোঝায়?",
+    "options": [
+      "A) Integrity",
+      "B) Isolation",
+      "C) Iteration",
+      "D) Indexing"
+    ],
+    "answer": 1,
+    "explanation": "Isolation নিশ্চিত করে যে একাধিক ট্রানজ্যাকশন সমান্তরালে চললেও একে অন্যের অন্তর্বর্তী ফলাফল দেখতে পাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1261,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে প্রতিটি অ্যাট্রিবিউটের মানকে অবিভাজ্য (Atomic) রাখার শর্ত কোন নরমাল ফর্মের? [মডেল সেট #2]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) BCNF"
+    ],
+    "answer": 0,
+    "explanation": "1NF (First Normal Form) শর্ত অনুযায়ী প্রতিটি কলামে অ্যাটমিক ভ্যালু থাকতে হবে এবং কোনো রিপিটিং গ্রুপ থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1262,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "2NF (Second Normal Form) অর্জনের মূল শর্ত কোনটি? [মডেল সেট #2]",
+    "options": [
+      "A) 1NF হতে হবে এবং কোনো আংশিক নির্ভরতা (Partial Dependency) থাকা যাবে না",
+      "B) ট্রানজিটিভ নির্ভরতা দূর করতে হবে",
+      "C) মাল্টিভ্যালুড নির্ভরতা দূর করতে হবে",
+      "D) কোনো ফরেন কী থাকা যাবে না"
+    ],
+    "answer": 0,
+    "explanation": "2NF হতে হলে টেবিলকে 1NF হতে হবে এবং কোনো নন-প্রাইম অ্যাট্রিবিউট কম্পোজিট প্রাইমারি কী-র আংশিক অংশের ওপর নির্ভর করতে পারবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1263,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজিটিভ নির্ভরতা (Transitive Dependency: A -> B এবং B -> C) দূর করা কোন নরমাল ফর্মের মূল লক্ষ্য? [মডেল সেট #2]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) 4NF"
+    ],
+    "answer": 2,
+    "explanation": "3NF অর্জনের মূল শর্ত হলো টেবিলকে 2NF হতে হবে এবং কোনো ট্রানজিটিভ ডিপেনডেন্সি থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1264,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "Boyce-Codd Normal Form (BCNF)-এর কঠোরতম শর্তটি কী? [মডেল সেট #2]",
+    "options": [
+      "A) টেবিলটিতে কমপক্ষে ৩টি কলাম থাকতে হবে",
+      "B) প্রতিটি কার্যকর ফাংশনাল ডিপেনডেন্সি X -> Y তে X-কে অবশ্যই সুপারকী (Super Key) হতে হবে",
+      "C) ডানপাশের অ্যাট্রিবিউট প্রাইম হতে হবে",
+      "D) কোনো নাল ভ্যালু রাখা যাবে না"
+    ],
+    "answer": 1,
+    "explanation": "BCNF-এ প্রতিটি নির্ধারক (Determinant) X কে আবশ্যিকভাবে একটি সুপারকী হতে হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1265,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ GROUP BY ক্লজের সাথে এগ্রিগেট ফাংশনের ওপর শর্ত আরোপ করতে কোন ক্লজ ব্যবহৃত হয়? [মডেল সেট #2]",
+    "options": [
+      "A) WHERE",
+      "B) HAVING",
+      "C) ORDER BY",
+      "D) LIMIT"
+    ],
+    "answer": 1,
+    "explanation": "WHERE ক্লজ দিয়ে একক রো ফিল্টার করা হয়, আর HAVING ক্লজ দিয়ে গ্রুপভিত্তিক এগ্রিগেট তথ্যের ওপর শর্ত দেওয়া হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1266,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ কোনো টেবিল থেকে সমস্ত রেকর্ড দ্রুততম উপায়ে মুছে ফেলতে এবং রোলব্যাকের সুযোগ না রাখতে কোনটি ব্যবহৃত হয়? [মডেল সেট #2]",
+    "options": [
+      "A) DELETE",
+      "B) DROP",
+      "C) TRUNCATE",
+      "D) REMOVE"
+    ],
+    "answer": 2,
+    "explanation": "TRUNCATE একটি DDL কমান্ড যা ট্রানজ্যাকশন লগ না রেখে টেবিল ডি-অ্যালোকেট করে সমস্ত রেকর্ড একসাথে মুছে দেয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1267,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL কমান্ড ক্যাটাগরিতে নিচের কোনটি DML (Data Manipulation Language) কমান্ড? [মডেল সেট #2]",
+    "options": [
+      "A) CREATE",
+      "B) ALTER",
+      "C) UPDATE",
+      "D) GRANT"
+    ],
+    "answer": 2,
+    "explanation": "SELECT, INSERT, UPDATE, DELETE হলো DML কমান্ড।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1268,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল এলজেব্রায় সিলেকশন (Selection) অপারেশনের গাণিতিক প্রতীক কোনটি? [মডেল সেট #2]",
+    "options": [
+      "A) Π (Pi)",
+      "B) σ (Sigma)",
+      "C) ⨝ (Bowtie)",
+      "D) ρ (Rho)"
+    ],
+    "answer": 1,
+    "explanation": "সিগমা (σ) দিয়ে নির্দিষ্ট শর্তে রো সিলেক্ট করা হয়, আর পাই (Π) দিয়ে প্রজেকশন বা কলাম সিলেক্ট করা হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1269,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে ফরেন কী (Foreign Key) কোন ইন্টিগ্রিটি বজায় রাখে? [মডেল সেট #2]",
+    "options": [
+      "A) Entity Integrity",
+      "B) Referential Integrity",
+      "C) Domain Integrity",
+      "D) User-defined Integrity"
+    ],
+    "answer": 1,
+    "explanation": "ফরেন কী দুটি টেবিলের মাঝে রেফারেন্সিয়াল ইন্টিগ্রিটি (Referential Integrity) নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1270,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজ্যাকশনের ACID বৈশিষ্ট্যের মধ্যে 'I' দ্বারা কী বোঝায়? [মডেল সেট #2]",
+    "options": [
+      "A) Integrity",
+      "B) Isolation",
+      "C) Iteration",
+      "D) Indexing"
+    ],
+    "answer": 1,
+    "explanation": "Isolation নিশ্চিত করে যে একাধিক ট্রানজ্যাকশন সমান্তরালে চললেও একে অন্যের অন্তর্বর্তী ফলাফল দেখতে পাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1271,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে প্রতিটি অ্যাট্রিবিউটের মানকে অবিভাজ্য (Atomic) রাখার শর্ত কোন নরমাল ফর্মের? [মডেল সেট #3]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) BCNF"
+    ],
+    "answer": 0,
+    "explanation": "1NF (First Normal Form) শর্ত অনুযায়ী প্রতিটি কলামে অ্যাটমিক ভ্যালু থাকতে হবে এবং কোনো রিপিটিং গ্রুপ থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1272,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "2NF (Second Normal Form) অর্জনের মূল শর্ত কোনটি? [মডেল সেট #3]",
+    "options": [
+      "A) 1NF হতে হবে এবং কোনো আংশিক নির্ভরতা (Partial Dependency) থাকা যাবে না",
+      "B) ট্রানজিটিভ নির্ভরতা দূর করতে হবে",
+      "C) মাল্টিভ্যালুড নির্ভরতা দূর করতে হবে",
+      "D) কোনো ফরেন কী থাকা যাবে না"
+    ],
+    "answer": 0,
+    "explanation": "2NF হতে হলে টেবিলকে 1NF হতে হবে এবং কোনো নন-প্রাইম অ্যাট্রিবিউট কম্পোজিট প্রাইমারি কী-র আংশিক অংশের ওপর নির্ভর করতে পারবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1273,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজিটিভ নির্ভরতা (Transitive Dependency: A -> B এবং B -> C) দূর করা কোন নরমাল ফর্মের মূল লক্ষ্য? [মডেল সেট #3]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) 4NF"
+    ],
+    "answer": 2,
+    "explanation": "3NF অর্জনের মূল শর্ত হলো টেবিলকে 2NF হতে হবে এবং কোনো ট্রানজিটিভ ডিপেনডেন্সি থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1274,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "Boyce-Codd Normal Form (BCNF)-এর কঠোরতম শর্তটি কী? [মডেল সেট #3]",
+    "options": [
+      "A) টেবিলটিতে কমপক্ষে ৩টি কলাম থাকতে হবে",
+      "B) প্রতিটি কার্যকর ফাংশনাল ডিপেনডেন্সি X -> Y তে X-কে অবশ্যই সুপারকী (Super Key) হতে হবে",
+      "C) ডানপাশের অ্যাট্রিবিউট প্রাইম হতে হবে",
+      "D) কোনো নাল ভ্যালু রাখা যাবে না"
+    ],
+    "answer": 1,
+    "explanation": "BCNF-এ প্রতিটি নির্ধারক (Determinant) X কে আবশ্যিকভাবে একটি সুপারকী হতে হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1275,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ GROUP BY ক্লজের সাথে এগ্রিগেট ফাংশনের ওপর শর্ত আরোপ করতে কোন ক্লজ ব্যবহৃত হয়? [মডেল সেট #3]",
+    "options": [
+      "A) WHERE",
+      "B) HAVING",
+      "C) ORDER BY",
+      "D) LIMIT"
+    ],
+    "answer": 1,
+    "explanation": "WHERE ক্লজ দিয়ে একক রো ফিল্টার করা হয়, আর HAVING ক্লজ দিয়ে গ্রুপভিত্তিক এগ্রিগেট তথ্যের ওপর শর্ত দেওয়া হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1276,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ কোনো টেবিল থেকে সমস্ত রেকর্ড দ্রুততম উপায়ে মুছে ফেলতে এবং রোলব্যাকের সুযোগ না রাখতে কোনটি ব্যবহৃত হয়? [মডেল সেট #3]",
+    "options": [
+      "A) DELETE",
+      "B) DROP",
+      "C) TRUNCATE",
+      "D) REMOVE"
+    ],
+    "answer": 2,
+    "explanation": "TRUNCATE একটি DDL কমান্ড যা ট্রানজ্যাকশন লগ না রেখে টেবিল ডি-অ্যালোকেট করে সমস্ত রেকর্ড একসাথে মুছে দেয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1277,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL কমান্ড ক্যাটাগরিতে নিচের কোনটি DML (Data Manipulation Language) কমান্ড? [মডেল সেট #3]",
+    "options": [
+      "A) CREATE",
+      "B) ALTER",
+      "C) UPDATE",
+      "D) GRANT"
+    ],
+    "answer": 2,
+    "explanation": "SELECT, INSERT, UPDATE, DELETE হলো DML কমান্ড।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1278,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল এলজেব্রায় সিলেকশন (Selection) অপারেশনের গাণিতিক প্রতীক কোনটি? [মডেল সেট #3]",
+    "options": [
+      "A) Π (Pi)",
+      "B) σ (Sigma)",
+      "C) ⨝ (Bowtie)",
+      "D) ρ (Rho)"
+    ],
+    "answer": 1,
+    "explanation": "সিগমা (σ) দিয়ে নির্দিষ্ট শর্তে রো সিলেক্ট করা হয়, আর পাই (Π) দিয়ে প্রজেকশন বা কলাম সিলেক্ট করা হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1279,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে ফরেন কী (Foreign Key) কোন ইন্টিগ্রিটি বজায় রাখে? [মডেল সেট #3]",
+    "options": [
+      "A) Entity Integrity",
+      "B) Referential Integrity",
+      "C) Domain Integrity",
+      "D) User-defined Integrity"
+    ],
+    "answer": 1,
+    "explanation": "ফরেন কী দুটি টেবিলের মাঝে রেফারেন্সিয়াল ইন্টিগ্রিটি (Referential Integrity) নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1280,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজ্যাকশনের ACID বৈশিষ্ট্যের মধ্যে 'I' দ্বারা কী বোঝায়? [মডেল সেট #3]",
+    "options": [
+      "A) Integrity",
+      "B) Isolation",
+      "C) Iteration",
+      "D) Indexing"
+    ],
+    "answer": 1,
+    "explanation": "Isolation নিশ্চিত করে যে একাধিক ট্রানজ্যাকশন সমান্তরালে চললেও একে অন্যের অন্তর্বর্তী ফলাফল দেখতে পাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1281,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে প্রতিটি অ্যাট্রিবিউটের মানকে অবিভাজ্য (Atomic) রাখার শর্ত কোন নরমাল ফর্মের? [মডেল সেট #4]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) BCNF"
+    ],
+    "answer": 0,
+    "explanation": "1NF (First Normal Form) শর্ত অনুযায়ী প্রতিটি কলামে অ্যাটমিক ভ্যালু থাকতে হবে এবং কোনো রিপিটিং গ্রুপ থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1282,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "2NF (Second Normal Form) অর্জনের মূল শর্ত কোনটি? [মডেল সেট #4]",
+    "options": [
+      "A) 1NF হতে হবে এবং কোনো আংশিক নির্ভরতা (Partial Dependency) থাকা যাবে না",
+      "B) ট্রানজিটিভ নির্ভরতা দূর করতে হবে",
+      "C) মাল্টিভ্যালুড নির্ভরতা দূর করতে হবে",
+      "D) কোনো ফরেন কী থাকা যাবে না"
+    ],
+    "answer": 0,
+    "explanation": "2NF হতে হলে টেবিলকে 1NF হতে হবে এবং কোনো নন-প্রাইম অ্যাট্রিবিউট কম্পোজিট প্রাইমারি কী-র আংশিক অংশের ওপর নির্ভর করতে পারবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1283,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজিটিভ নির্ভরতা (Transitive Dependency: A -> B এবং B -> C) দূর করা কোন নরমাল ফর্মের মূল লক্ষ্য? [মডেল সেট #4]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) 4NF"
+    ],
+    "answer": 2,
+    "explanation": "3NF অর্জনের মূল শর্ত হলো টেবিলকে 2NF হতে হবে এবং কোনো ট্রানজিটিভ ডিপেনডেন্সি থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1284,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "Boyce-Codd Normal Form (BCNF)-এর কঠোরতম শর্তটি কী? [মডেল সেট #4]",
+    "options": [
+      "A) টেবিলটিতে কমপক্ষে ৩টি কলাম থাকতে হবে",
+      "B) প্রতিটি কার্যকর ফাংশনাল ডিপেনডেন্সি X -> Y তে X-কে অবশ্যই সুপারকী (Super Key) হতে হবে",
+      "C) ডানপাশের অ্যাট্রিবিউট প্রাইম হতে হবে",
+      "D) কোনো নাল ভ্যালু রাখা যাবে না"
+    ],
+    "answer": 1,
+    "explanation": "BCNF-এ প্রতিটি নির্ধারক (Determinant) X কে আবশ্যিকভাবে একটি সুপারকী হতে হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1285,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ GROUP BY ক্লজের সাথে এগ্রিগেট ফাংশনের ওপর শর্ত আরোপ করতে কোন ক্লজ ব্যবহৃত হয়? [মডেল সেট #4]",
+    "options": [
+      "A) WHERE",
+      "B) HAVING",
+      "C) ORDER BY",
+      "D) LIMIT"
+    ],
+    "answer": 1,
+    "explanation": "WHERE ক্লজ দিয়ে একক রো ফিল্টার করা হয়, আর HAVING ক্লজ দিয়ে গ্রুপভিত্তিক এগ্রিগেট তথ্যের ওপর শর্ত দেওয়া হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1286,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ কোনো টেবিল থেকে সমস্ত রেকর্ড দ্রুততম উপায়ে মুছে ফেলতে এবং রোলব্যাকের সুযোগ না রাখতে কোনটি ব্যবহৃত হয়? [মডেল সেট #4]",
+    "options": [
+      "A) DELETE",
+      "B) DROP",
+      "C) TRUNCATE",
+      "D) REMOVE"
+    ],
+    "answer": 2,
+    "explanation": "TRUNCATE একটি DDL কমান্ড যা ট্রানজ্যাকশন লগ না রেখে টেবিল ডি-অ্যালোকেট করে সমস্ত রেকর্ড একসাথে মুছে দেয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1287,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL কমান্ড ক্যাটাগরিতে নিচের কোনটি DML (Data Manipulation Language) কমান্ড? [মডেল সেট #4]",
+    "options": [
+      "A) CREATE",
+      "B) ALTER",
+      "C) UPDATE",
+      "D) GRANT"
+    ],
+    "answer": 2,
+    "explanation": "SELECT, INSERT, UPDATE, DELETE হলো DML কমান্ড।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1288,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল এলজেব্রায় সিলেকশন (Selection) অপারেশনের গাণিতিক প্রতীক কোনটি? [মডেল সেট #4]",
+    "options": [
+      "A) Π (Pi)",
+      "B) σ (Sigma)",
+      "C) ⨝ (Bowtie)",
+      "D) ρ (Rho)"
+    ],
+    "answer": 1,
+    "explanation": "সিগমা (σ) দিয়ে নির্দিষ্ট শর্তে রো সিলেক্ট করা হয়, আর পাই (Π) দিয়ে প্রজেকশন বা কলাম সিলেক্ট করা হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1289,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে ফরেন কী (Foreign Key) কোন ইন্টিগ্রিটি বজায় রাখে? [মডেল সেট #4]",
+    "options": [
+      "A) Entity Integrity",
+      "B) Referential Integrity",
+      "C) Domain Integrity",
+      "D) User-defined Integrity"
+    ],
+    "answer": 1,
+    "explanation": "ফরেন কী দুটি টেবিলের মাঝে রেফারেন্সিয়াল ইন্টিগ্রিটি (Referential Integrity) নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1290,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজ্যাকশনের ACID বৈশিষ্ট্যের মধ্যে 'I' দ্বারা কী বোঝায়? [মডেল সেট #4]",
+    "options": [
+      "A) Integrity",
+      "B) Isolation",
+      "C) Iteration",
+      "D) Indexing"
+    ],
+    "answer": 1,
+    "explanation": "Isolation নিশ্চিত করে যে একাধিক ট্রানজ্যাকশন সমান্তরালে চললেও একে অন্যের অন্তর্বর্তী ফলাফল দেখতে পাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1291,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে প্রতিটি অ্যাট্রিবিউটের মানকে অবিভাজ্য (Atomic) রাখার শর্ত কোন নরমাল ফর্মের? [মডেল সেট #5]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) BCNF"
+    ],
+    "answer": 0,
+    "explanation": "1NF (First Normal Form) শর্ত অনুযায়ী প্রতিটি কলামে অ্যাটমিক ভ্যালু থাকতে হবে এবং কোনো রিপিটিং গ্রুপ থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1292,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "2NF (Second Normal Form) অর্জনের মূল শর্ত কোনটি? [মডেল সেট #5]",
+    "options": [
+      "A) 1NF হতে হবে এবং কোনো আংশিক নির্ভরতা (Partial Dependency) থাকা যাবে না",
+      "B) ট্রানজিটিভ নির্ভরতা দূর করতে হবে",
+      "C) মাল্টিভ্যালুড নির্ভরতা দূর করতে হবে",
+      "D) কোনো ফরেন কী থাকা যাবে না"
+    ],
+    "answer": 0,
+    "explanation": "2NF হতে হলে টেবিলকে 1NF হতে হবে এবং কোনো নন-প্রাইম অ্যাট্রিবিউট কম্পোজিট প্রাইমারি কী-র আংশিক অংশের ওপর নির্ভর করতে পারবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1293,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজিটিভ নির্ভরতা (Transitive Dependency: A -> B এবং B -> C) দূর করা কোন নরমাল ফর্মের মূল লক্ষ্য? [মডেল সেট #5]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) 4NF"
+    ],
+    "answer": 2,
+    "explanation": "3NF অর্জনের মূল শর্ত হলো টেবিলকে 2NF হতে হবে এবং কোনো ট্রানজিটিভ ডিপেনডেন্সি থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1294,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "Boyce-Codd Normal Form (BCNF)-এর কঠোরতম শর্তটি কী? [মডেল সেট #5]",
+    "options": [
+      "A) টেবিলটিতে কমপক্ষে ৩টি কলাম থাকতে হবে",
+      "B) প্রতিটি কার্যকর ফাংশনাল ডিপেনডেন্সি X -> Y তে X-কে অবশ্যই সুপারকী (Super Key) হতে হবে",
+      "C) ডানপাশের অ্যাট্রিবিউট প্রাইম হতে হবে",
+      "D) কোনো নাল ভ্যালু রাখা যাবে না"
+    ],
+    "answer": 1,
+    "explanation": "BCNF-এ প্রতিটি নির্ধারক (Determinant) X কে আবশ্যিকভাবে একটি সুপারকী হতে হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1295,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ GROUP BY ক্লজের সাথে এগ্রিগেট ফাংশনের ওপর শর্ত আরোপ করতে কোন ক্লজ ব্যবহৃত হয়? [মডেল সেট #5]",
+    "options": [
+      "A) WHERE",
+      "B) HAVING",
+      "C) ORDER BY",
+      "D) LIMIT"
+    ],
+    "answer": 1,
+    "explanation": "WHERE ক্লজ দিয়ে একক রো ফিল্টার করা হয়, আর HAVING ক্লজ দিয়ে গ্রুপভিত্তিক এগ্রিগেট তথ্যের ওপর শর্ত দেওয়া হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1296,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ কোনো টেবিল থেকে সমস্ত রেকর্ড দ্রুততম উপায়ে মুছে ফেলতে এবং রোলব্যাকের সুযোগ না রাখতে কোনটি ব্যবহৃত হয়? [মডেল সেট #5]",
+    "options": [
+      "A) DELETE",
+      "B) DROP",
+      "C) TRUNCATE",
+      "D) REMOVE"
+    ],
+    "answer": 2,
+    "explanation": "TRUNCATE একটি DDL কমান্ড যা ট্রানজ্যাকশন লগ না রেখে টেবিল ডি-অ্যালোকেট করে সমস্ত রেকর্ড একসাথে মুছে দেয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1297,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL কমান্ড ক্যাটাগরিতে নিচের কোনটি DML (Data Manipulation Language) কমান্ড? [মডেল সেট #5]",
+    "options": [
+      "A) CREATE",
+      "B) ALTER",
+      "C) UPDATE",
+      "D) GRANT"
+    ],
+    "answer": 2,
+    "explanation": "SELECT, INSERT, UPDATE, DELETE হলো DML কমান্ড।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1298,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল এলজেব্রায় সিলেকশন (Selection) অপারেশনের গাণিতিক প্রতীক কোনটি? [মডেল সেট #5]",
+    "options": [
+      "A) Π (Pi)",
+      "B) σ (Sigma)",
+      "C) ⨝ (Bowtie)",
+      "D) ρ (Rho)"
+    ],
+    "answer": 1,
+    "explanation": "সিগমা (σ) দিয়ে নির্দিষ্ট শর্তে রো সিলেক্ট করা হয়, আর পাই (Π) দিয়ে প্রজেকশন বা কলাম সিলেক্ট করা হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1299,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে ফরেন কী (Foreign Key) কোন ইন্টিগ্রিটি বজায় রাখে? [মডেল সেট #5]",
+    "options": [
+      "A) Entity Integrity",
+      "B) Referential Integrity",
+      "C) Domain Integrity",
+      "D) User-defined Integrity"
+    ],
+    "answer": 1,
+    "explanation": "ফরেন কী দুটি টেবিলের মাঝে রেফারেন্সিয়াল ইন্টিগ্রিটি (Referential Integrity) নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1300,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজ্যাকশনের ACID বৈশিষ্ট্যের মধ্যে 'I' দ্বারা কী বোঝায়? [মডেল সেট #5]",
+    "options": [
+      "A) Integrity",
+      "B) Isolation",
+      "C) Iteration",
+      "D) Indexing"
+    ],
+    "answer": 1,
+    "explanation": "Isolation নিশ্চিত করে যে একাধিক ট্রানজ্যাকশন সমান্তরালে চললেও একে অন্যের অন্তর্বর্তী ফলাফল দেখতে পাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1301,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে প্রতিটি অ্যাট্রিবিউটের মানকে অবিভাজ্য (Atomic) রাখার শর্ত কোন নরমাল ফর্মের? [মডেল সেট #6]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) BCNF"
+    ],
+    "answer": 0,
+    "explanation": "1NF (First Normal Form) শর্ত অনুযায়ী প্রতিটি কলামে অ্যাটমিক ভ্যালু থাকতে হবে এবং কোনো রিপিটিং গ্রুপ থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1302,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "2NF (Second Normal Form) অর্জনের মূল শর্ত কোনটি? [মডেল সেট #6]",
+    "options": [
+      "A) 1NF হতে হবে এবং কোনো আংশিক নির্ভরতা (Partial Dependency) থাকা যাবে না",
+      "B) ট্রানজিটিভ নির্ভরতা দূর করতে হবে",
+      "C) মাল্টিভ্যালুড নির্ভরতা দূর করতে হবে",
+      "D) কোনো ফরেন কী থাকা যাবে না"
+    ],
+    "answer": 0,
+    "explanation": "2NF হতে হলে টেবিলকে 1NF হতে হবে এবং কোনো নন-প্রাইম অ্যাট্রিবিউট কম্পোজিট প্রাইমারি কী-র আংশিক অংশের ওপর নির্ভর করতে পারবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1303,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজিটিভ নির্ভরতা (Transitive Dependency: A -> B এবং B -> C) দূর করা কোন নরমাল ফর্মের মূল লক্ষ্য? [মডেল সেট #6]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) 4NF"
+    ],
+    "answer": 2,
+    "explanation": "3NF অর্জনের মূল শর্ত হলো টেবিলকে 2NF হতে হবে এবং কোনো ট্রানজিটিভ ডিপেনডেন্সি থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1304,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "Boyce-Codd Normal Form (BCNF)-এর কঠোরতম শর্তটি কী? [মডেল সেট #6]",
+    "options": [
+      "A) টেবিলটিতে কমপক্ষে ৩টি কলাম থাকতে হবে",
+      "B) প্রতিটি কার্যকর ফাংশনাল ডিপেনডেন্সি X -> Y তে X-কে অবশ্যই সুপারকী (Super Key) হতে হবে",
+      "C) ডানপাশের অ্যাট্রিবিউট প্রাইম হতে হবে",
+      "D) কোনো নাল ভ্যালু রাখা যাবে না"
+    ],
+    "answer": 1,
+    "explanation": "BCNF-এ প্রতিটি নির্ধারক (Determinant) X কে আবশ্যিকভাবে একটি সুপারকী হতে হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1305,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ GROUP BY ক্লজের সাথে এগ্রিগেট ফাংশনের ওপর শর্ত আরোপ করতে কোন ক্লজ ব্যবহৃত হয়? [মডেল সেট #6]",
+    "options": [
+      "A) WHERE",
+      "B) HAVING",
+      "C) ORDER BY",
+      "D) LIMIT"
+    ],
+    "answer": 1,
+    "explanation": "WHERE ক্লজ দিয়ে একক রো ফিল্টার করা হয়, আর HAVING ক্লজ দিয়ে গ্রুপভিত্তিক এগ্রিগেট তথ্যের ওপর শর্ত দেওয়া হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1306,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ কোনো টেবিল থেকে সমস্ত রেকর্ড দ্রুততম উপায়ে মুছে ফেলতে এবং রোলব্যাকের সুযোগ না রাখতে কোনটি ব্যবহৃত হয়? [মডেল সেট #6]",
+    "options": [
+      "A) DELETE",
+      "B) DROP",
+      "C) TRUNCATE",
+      "D) REMOVE"
+    ],
+    "answer": 2,
+    "explanation": "TRUNCATE একটি DDL কমান্ড যা ট্রানজ্যাকশন লগ না রেখে টেবিল ডি-অ্যালোকেট করে সমস্ত রেকর্ড একসাথে মুছে দেয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1307,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL কমান্ড ক্যাটাগরিতে নিচের কোনটি DML (Data Manipulation Language) কমান্ড? [মডেল সেট #6]",
+    "options": [
+      "A) CREATE",
+      "B) ALTER",
+      "C) UPDATE",
+      "D) GRANT"
+    ],
+    "answer": 2,
+    "explanation": "SELECT, INSERT, UPDATE, DELETE হলো DML কমান্ড।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1308,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল এলজেব্রায় সিলেকশন (Selection) অপারেশনের গাণিতিক প্রতীক কোনটি? [মডেল সেট #6]",
+    "options": [
+      "A) Π (Pi)",
+      "B) σ (Sigma)",
+      "C) ⨝ (Bowtie)",
+      "D) ρ (Rho)"
+    ],
+    "answer": 1,
+    "explanation": "সিগমা (σ) দিয়ে নির্দিষ্ট শর্তে রো সিলেক্ট করা হয়, আর পাই (Π) দিয়ে প্রজেকশন বা কলাম সিলেক্ট করা হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1309,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে ফরেন কী (Foreign Key) কোন ইন্টিগ্রিটি বজায় রাখে? [মডেল সেট #6]",
+    "options": [
+      "A) Entity Integrity",
+      "B) Referential Integrity",
+      "C) Domain Integrity",
+      "D) User-defined Integrity"
+    ],
+    "answer": 1,
+    "explanation": "ফরেন কী দুটি টেবিলের মাঝে রেফারেন্সিয়াল ইন্টিগ্রিটি (Referential Integrity) নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1310,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজ্যাকশনের ACID বৈশিষ্ট্যের মধ্যে 'I' দ্বারা কী বোঝায়? [মডেল সেট #6]",
+    "options": [
+      "A) Integrity",
+      "B) Isolation",
+      "C) Iteration",
+      "D) Indexing"
+    ],
+    "answer": 1,
+    "explanation": "Isolation নিশ্চিত করে যে একাধিক ট্রানজ্যাকশন সমান্তরালে চললেও একে অন্যের অন্তর্বর্তী ফলাফল দেখতে পাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1311,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে প্রতিটি অ্যাট্রিবিউটের মানকে অবিভাজ্য (Atomic) রাখার শর্ত কোন নরমাল ফর্মের? [মডেল সেট #7]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) BCNF"
+    ],
+    "answer": 0,
+    "explanation": "1NF (First Normal Form) শর্ত অনুযায়ী প্রতিটি কলামে অ্যাটমিক ভ্যালু থাকতে হবে এবং কোনো রিপিটিং গ্রুপ থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1312,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "2NF (Second Normal Form) অর্জনের মূল শর্ত কোনটি? [মডেল সেট #7]",
+    "options": [
+      "A) 1NF হতে হবে এবং কোনো আংশিক নির্ভরতা (Partial Dependency) থাকা যাবে না",
+      "B) ট্রানজিটিভ নির্ভরতা দূর করতে হবে",
+      "C) মাল্টিভ্যালুড নির্ভরতা দূর করতে হবে",
+      "D) কোনো ফরেন কী থাকা যাবে না"
+    ],
+    "answer": 0,
+    "explanation": "2NF হতে হলে টেবিলকে 1NF হতে হবে এবং কোনো নন-প্রাইম অ্যাট্রিবিউট কম্পোজিট প্রাইমারি কী-র আংশিক অংশের ওপর নির্ভর করতে পারবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1313,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজিটিভ নির্ভরতা (Transitive Dependency: A -> B এবং B -> C) দূর করা কোন নরমাল ফর্মের মূল লক্ষ্য? [মডেল সেট #7]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) 4NF"
+    ],
+    "answer": 2,
+    "explanation": "3NF অর্জনের মূল শর্ত হলো টেবিলকে 2NF হতে হবে এবং কোনো ট্রানজিটিভ ডিপেনডেন্সি থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1314,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "Boyce-Codd Normal Form (BCNF)-এর কঠোরতম শর্তটি কী? [মডেল সেট #7]",
+    "options": [
+      "A) টেবিলটিতে কমপক্ষে ৩টি কলাম থাকতে হবে",
+      "B) প্রতিটি কার্যকর ফাংশনাল ডিপেনডেন্সি X -> Y তে X-কে অবশ্যই সুপারকী (Super Key) হতে হবে",
+      "C) ডানপাশের অ্যাট্রিবিউট প্রাইম হতে হবে",
+      "D) কোনো নাল ভ্যালু রাখা যাবে না"
+    ],
+    "answer": 1,
+    "explanation": "BCNF-এ প্রতিটি নির্ধারক (Determinant) X কে আবশ্যিকভাবে একটি সুপারকী হতে হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1315,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ GROUP BY ক্লজের সাথে এগ্রিগেট ফাংশনের ওপর শর্ত আরোপ করতে কোন ক্লজ ব্যবহৃত হয়? [মডেল সেট #7]",
+    "options": [
+      "A) WHERE",
+      "B) HAVING",
+      "C) ORDER BY",
+      "D) LIMIT"
+    ],
+    "answer": 1,
+    "explanation": "WHERE ক্লজ দিয়ে একক রো ফিল্টার করা হয়, আর HAVING ক্লজ দিয়ে গ্রুপভিত্তিক এগ্রিগেট তথ্যের ওপর শর্ত দেওয়া হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1316,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ কোনো টেবিল থেকে সমস্ত রেকর্ড দ্রুততম উপায়ে মুছে ফেলতে এবং রোলব্যাকের সুযোগ না রাখতে কোনটি ব্যবহৃত হয়? [মডেল সেট #7]",
+    "options": [
+      "A) DELETE",
+      "B) DROP",
+      "C) TRUNCATE",
+      "D) REMOVE"
+    ],
+    "answer": 2,
+    "explanation": "TRUNCATE একটি DDL কমান্ড যা ট্রানজ্যাকশন লগ না রেখে টেবিল ডি-অ্যালোকেট করে সমস্ত রেকর্ড একসাথে মুছে দেয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1317,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL কমান্ড ক্যাটাগরিতে নিচের কোনটি DML (Data Manipulation Language) কমান্ড? [মডেল সেট #7]",
+    "options": [
+      "A) CREATE",
+      "B) ALTER",
+      "C) UPDATE",
+      "D) GRANT"
+    ],
+    "answer": 2,
+    "explanation": "SELECT, INSERT, UPDATE, DELETE হলো DML কমান্ড।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1318,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল এলজেব্রায় সিলেকশন (Selection) অপারেশনের গাণিতিক প্রতীক কোনটি? [মডেল সেট #7]",
+    "options": [
+      "A) Π (Pi)",
+      "B) σ (Sigma)",
+      "C) ⨝ (Bowtie)",
+      "D) ρ (Rho)"
+    ],
+    "answer": 1,
+    "explanation": "সিগমা (σ) দিয়ে নির্দিষ্ট শর্তে রো সিলেক্ট করা হয়, আর পাই (Π) দিয়ে প্রজেকশন বা কলাম সিলেক্ট করা হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1319,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে ফরেন কী (Foreign Key) কোন ইন্টিগ্রিটি বজায় রাখে? [মডেল সেট #7]",
+    "options": [
+      "A) Entity Integrity",
+      "B) Referential Integrity",
+      "C) Domain Integrity",
+      "D) User-defined Integrity"
+    ],
+    "answer": 1,
+    "explanation": "ফরেন কী দুটি টেবিলের মাঝে রেফারেন্সিয়াল ইন্টিগ্রিটি (Referential Integrity) নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1320,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজ্যাকশনের ACID বৈশিষ্ট্যের মধ্যে 'I' দ্বারা কী বোঝায়? [মডেল সেট #7]",
+    "options": [
+      "A) Integrity",
+      "B) Isolation",
+      "C) Iteration",
+      "D) Indexing"
+    ],
+    "answer": 1,
+    "explanation": "Isolation নিশ্চিত করে যে একাধিক ট্রানজ্যাকশন সমান্তরালে চললেও একে অন্যের অন্তর্বর্তী ফলাফল দেখতে পাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1321,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে প্রতিটি অ্যাট্রিবিউটের মানকে অবিভাজ্য (Atomic) রাখার শর্ত কোন নরমাল ফর্মের? [মডেল সেট #8]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) BCNF"
+    ],
+    "answer": 0,
+    "explanation": "1NF (First Normal Form) শর্ত অনুযায়ী প্রতিটি কলামে অ্যাটমিক ভ্যালু থাকতে হবে এবং কোনো রিপিটিং গ্রুপ থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1322,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "2NF (Second Normal Form) অর্জনের মূল শর্ত কোনটি? [মডেল সেট #8]",
+    "options": [
+      "A) 1NF হতে হবে এবং কোনো আংশিক নির্ভরতা (Partial Dependency) থাকা যাবে না",
+      "B) ট্রানজিটিভ নির্ভরতা দূর করতে হবে",
+      "C) মাল্টিভ্যালুড নির্ভরতা দূর করতে হবে",
+      "D) কোনো ফরেন কী থাকা যাবে না"
+    ],
+    "answer": 0,
+    "explanation": "2NF হতে হলে টেবিলকে 1NF হতে হবে এবং কোনো নন-প্রাইম অ্যাট্রিবিউট কম্পোজিট প্রাইমারি কী-র আংশিক অংশের ওপর নির্ভর করতে পারবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1323,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজিটিভ নির্ভরতা (Transitive Dependency: A -> B এবং B -> C) দূর করা কোন নরমাল ফর্মের মূল লক্ষ্য? [মডেল সেট #8]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) 4NF"
+    ],
+    "answer": 2,
+    "explanation": "3NF অর্জনের মূল শর্ত হলো টেবিলকে 2NF হতে হবে এবং কোনো ট্রানজিটিভ ডিপেনডেন্সি থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1324,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "Boyce-Codd Normal Form (BCNF)-এর কঠোরতম শর্তটি কী? [মডেল সেট #8]",
+    "options": [
+      "A) টেবিলটিতে কমপক্ষে ৩টি কলাম থাকতে হবে",
+      "B) প্রতিটি কার্যকর ফাংশনাল ডিপেনডেন্সি X -> Y তে X-কে অবশ্যই সুপারকী (Super Key) হতে হবে",
+      "C) ডানপাশের অ্যাট্রিবিউট প্রাইম হতে হবে",
+      "D) কোনো নাল ভ্যালু রাখা যাবে না"
+    ],
+    "answer": 1,
+    "explanation": "BCNF-এ প্রতিটি নির্ধারক (Determinant) X কে আবশ্যিকভাবে একটি সুপারকী হতে হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1325,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ GROUP BY ক্লজের সাথে এগ্রিগেট ফাংশনের ওপর শর্ত আরোপ করতে কোন ক্লজ ব্যবহৃত হয়? [মডেল সেট #8]",
+    "options": [
+      "A) WHERE",
+      "B) HAVING",
+      "C) ORDER BY",
+      "D) LIMIT"
+    ],
+    "answer": 1,
+    "explanation": "WHERE ক্লজ দিয়ে একক রো ফিল্টার করা হয়, আর HAVING ক্লজ দিয়ে গ্রুপভিত্তিক এগ্রিগেট তথ্যের ওপর শর্ত দেওয়া হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1326,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ কোনো টেবিল থেকে সমস্ত রেকর্ড দ্রুততম উপায়ে মুছে ফেলতে এবং রোলব্যাকের সুযোগ না রাখতে কোনটি ব্যবহৃত হয়? [মডেল সেট #8]",
+    "options": [
+      "A) DELETE",
+      "B) DROP",
+      "C) TRUNCATE",
+      "D) REMOVE"
+    ],
+    "answer": 2,
+    "explanation": "TRUNCATE একটি DDL কমান্ড যা ট্রানজ্যাকশন লগ না রেখে টেবিল ডি-অ্যালোকেট করে সমস্ত রেকর্ড একসাথে মুছে দেয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1327,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL কমান্ড ক্যাটাগরিতে নিচের কোনটি DML (Data Manipulation Language) কমান্ড? [মডেল সেট #8]",
+    "options": [
+      "A) CREATE",
+      "B) ALTER",
+      "C) UPDATE",
+      "D) GRANT"
+    ],
+    "answer": 2,
+    "explanation": "SELECT, INSERT, UPDATE, DELETE হলো DML কমান্ড।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1328,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল এলজেব্রায় সিলেকশন (Selection) অপারেশনের গাণিতিক প্রতীক কোনটি? [মডেল সেট #8]",
+    "options": [
+      "A) Π (Pi)",
+      "B) σ (Sigma)",
+      "C) ⨝ (Bowtie)",
+      "D) ρ (Rho)"
+    ],
+    "answer": 1,
+    "explanation": "সিগমা (σ) দিয়ে নির্দিষ্ট শর্তে রো সিলেক্ট করা হয়, আর পাই (Π) দিয়ে প্রজেকশন বা কলাম সিলেক্ট করা হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1329,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে ফরেন কী (Foreign Key) কোন ইন্টিগ্রিটি বজায় রাখে? [মডেল সেট #8]",
+    "options": [
+      "A) Entity Integrity",
+      "B) Referential Integrity",
+      "C) Domain Integrity",
+      "D) User-defined Integrity"
+    ],
+    "answer": 1,
+    "explanation": "ফরেন কী দুটি টেবিলের মাঝে রেফারেন্সিয়াল ইন্টিগ্রিটি (Referential Integrity) নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1330,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজ্যাকশনের ACID বৈশিষ্ট্যের মধ্যে 'I' দ্বারা কী বোঝায়? [মডেল সেট #8]",
+    "options": [
+      "A) Integrity",
+      "B) Isolation",
+      "C) Iteration",
+      "D) Indexing"
+    ],
+    "answer": 1,
+    "explanation": "Isolation নিশ্চিত করে যে একাধিক ট্রানজ্যাকশন সমান্তরালে চললেও একে অন্যের অন্তর্বর্তী ফলাফল দেখতে পাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1331,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে প্রতিটি অ্যাট্রিবিউটের মানকে অবিভাজ্য (Atomic) রাখার শর্ত কোন নরমাল ফর্মের? [মডেল সেট #9]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) BCNF"
+    ],
+    "answer": 0,
+    "explanation": "1NF (First Normal Form) শর্ত অনুযায়ী প্রতিটি কলামে অ্যাটমিক ভ্যালু থাকতে হবে এবং কোনো রিপিটিং গ্রুপ থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1332,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "2NF (Second Normal Form) অর্জনের মূল শর্ত কোনটি? [মডেল সেট #9]",
+    "options": [
+      "A) 1NF হতে হবে এবং কোনো আংশিক নির্ভরতা (Partial Dependency) থাকা যাবে না",
+      "B) ট্রানজিটিভ নির্ভরতা দূর করতে হবে",
+      "C) মাল্টিভ্যালুড নির্ভরতা দূর করতে হবে",
+      "D) কোনো ফরেন কী থাকা যাবে না"
+    ],
+    "answer": 0,
+    "explanation": "2NF হতে হলে টেবিলকে 1NF হতে হবে এবং কোনো নন-প্রাইম অ্যাট্রিবিউট কম্পোজিট প্রাইমারি কী-র আংশিক অংশের ওপর নির্ভর করতে পারবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1333,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজিটিভ নির্ভরতা (Transitive Dependency: A -> B এবং B -> C) দূর করা কোন নরমাল ফর্মের মূল লক্ষ্য? [মডেল সেট #9]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) 4NF"
+    ],
+    "answer": 2,
+    "explanation": "3NF অর্জনের মূল শর্ত হলো টেবিলকে 2NF হতে হবে এবং কোনো ট্রানজিটিভ ডিপেনডেন্সি থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1334,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "Boyce-Codd Normal Form (BCNF)-এর কঠোরতম শর্তটি কী? [মডেল সেট #9]",
+    "options": [
+      "A) টেবিলটিতে কমপক্ষে ৩টি কলাম থাকতে হবে",
+      "B) প্রতিটি কার্যকর ফাংশনাল ডিপেনডেন্সি X -> Y তে X-কে অবশ্যই সুপারকী (Super Key) হতে হবে",
+      "C) ডানপাশের অ্যাট্রিবিউট প্রাইম হতে হবে",
+      "D) কোনো নাল ভ্যালু রাখা যাবে না"
+    ],
+    "answer": 1,
+    "explanation": "BCNF-এ প্রতিটি নির্ধারক (Determinant) X কে আবশ্যিকভাবে একটি সুপারকী হতে হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1335,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ GROUP BY ক্লজের সাথে এগ্রিগেট ফাংশনের ওপর শর্ত আরোপ করতে কোন ক্লজ ব্যবহৃত হয়? [মডেল সেট #9]",
+    "options": [
+      "A) WHERE",
+      "B) HAVING",
+      "C) ORDER BY",
+      "D) LIMIT"
+    ],
+    "answer": 1,
+    "explanation": "WHERE ক্লজ দিয়ে একক রো ফিল্টার করা হয়, আর HAVING ক্লজ দিয়ে গ্রুপভিত্তিক এগ্রিগেট তথ্যের ওপর শর্ত দেওয়া হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1336,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ কোনো টেবিল থেকে সমস্ত রেকর্ড দ্রুততম উপায়ে মুছে ফেলতে এবং রোলব্যাকের সুযোগ না রাখতে কোনটি ব্যবহৃত হয়? [মডেল সেট #9]",
+    "options": [
+      "A) DELETE",
+      "B) DROP",
+      "C) TRUNCATE",
+      "D) REMOVE"
+    ],
+    "answer": 2,
+    "explanation": "TRUNCATE একটি DDL কমান্ড যা ট্রানজ্যাকশন লগ না রেখে টেবিল ডি-অ্যালোকেট করে সমস্ত রেকর্ড একসাথে মুছে দেয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1337,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL কমান্ড ক্যাটাগরিতে নিচের কোনটি DML (Data Manipulation Language) কমান্ড? [মডেল সেট #9]",
+    "options": [
+      "A) CREATE",
+      "B) ALTER",
+      "C) UPDATE",
+      "D) GRANT"
+    ],
+    "answer": 2,
+    "explanation": "SELECT, INSERT, UPDATE, DELETE হলো DML কমান্ড।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1338,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল এলজেব্রায় সিলেকশন (Selection) অপারেশনের গাণিতিক প্রতীক কোনটি? [মডেল সেট #9]",
+    "options": [
+      "A) Π (Pi)",
+      "B) σ (Sigma)",
+      "C) ⨝ (Bowtie)",
+      "D) ρ (Rho)"
+    ],
+    "answer": 1,
+    "explanation": "সিগমা (σ) দিয়ে নির্দিষ্ট শর্তে রো সিলেক্ট করা হয়, আর পাই (Π) দিয়ে প্রজেকশন বা কলাম সিলেক্ট করা হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1339,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে ফরেন কী (Foreign Key) কোন ইন্টিগ্রিটি বজায় রাখে? [মডেল সেট #9]",
+    "options": [
+      "A) Entity Integrity",
+      "B) Referential Integrity",
+      "C) Domain Integrity",
+      "D) User-defined Integrity"
+    ],
+    "answer": 1,
+    "explanation": "ফরেন কী দুটি টেবিলের মাঝে রেফারেন্সিয়াল ইন্টিগ্রিটি (Referential Integrity) নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1340,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজ্যাকশনের ACID বৈশিষ্ট্যের মধ্যে 'I' দ্বারা কী বোঝায়? [মডেল সেট #9]",
+    "options": [
+      "A) Integrity",
+      "B) Isolation",
+      "C) Iteration",
+      "D) Indexing"
+    ],
+    "answer": 1,
+    "explanation": "Isolation নিশ্চিত করে যে একাধিক ট্রানজ্যাকশন সমান্তরালে চললেও একে অন্যের অন্তর্বর্তী ফলাফল দেখতে পাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1341,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে প্রতিটি অ্যাট্রিবিউটের মানকে অবিভাজ্য (Atomic) রাখার শর্ত কোন নরমাল ফর্মের? [মডেল সেট #10]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) BCNF"
+    ],
+    "answer": 0,
+    "explanation": "1NF (First Normal Form) শর্ত অনুযায়ী প্রতিটি কলামে অ্যাটমিক ভ্যালু থাকতে হবে এবং কোনো রিপিটিং গ্রুপ থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1342,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "2NF (Second Normal Form) অর্জনের মূল শর্ত কোনটি? [মডেল সেট #10]",
+    "options": [
+      "A) 1NF হতে হবে এবং কোনো আংশিক নির্ভরতা (Partial Dependency) থাকা যাবে না",
+      "B) ট্রানজিটিভ নির্ভরতা দূর করতে হবে",
+      "C) মাল্টিভ্যালুড নির্ভরতা দূর করতে হবে",
+      "D) কোনো ফরেন কী থাকা যাবে না"
+    ],
+    "answer": 0,
+    "explanation": "2NF হতে হলে টেবিলকে 1NF হতে হবে এবং কোনো নন-প্রাইম অ্যাট্রিবিউট কম্পোজিট প্রাইমারি কী-র আংশিক অংশের ওপর নির্ভর করতে পারবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1343,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজিটিভ নির্ভরতা (Transitive Dependency: A -> B এবং B -> C) দূর করা কোন নরমাল ফর্মের মূল লক্ষ্য? [মডেল সেট #10]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) 4NF"
+    ],
+    "answer": 2,
+    "explanation": "3NF অর্জনের মূল শর্ত হলো টেবিলকে 2NF হতে হবে এবং কোনো ট্রানজিটিভ ডিপেনডেন্সি থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1344,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "Boyce-Codd Normal Form (BCNF)-এর কঠোরতম শর্তটি কী? [মডেল সেট #10]",
+    "options": [
+      "A) টেবিলটিতে কমপক্ষে ৩টি কলাম থাকতে হবে",
+      "B) প্রতিটি কার্যকর ফাংশনাল ডিপেনডেন্সি X -> Y তে X-কে অবশ্যই সুপারকী (Super Key) হতে হবে",
+      "C) ডানপাশের অ্যাট্রিবিউট প্রাইম হতে হবে",
+      "D) কোনো নাল ভ্যালু রাখা যাবে না"
+    ],
+    "answer": 1,
+    "explanation": "BCNF-এ প্রতিটি নির্ধারক (Determinant) X কে আবশ্যিকভাবে একটি সুপারকী হতে হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1345,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ GROUP BY ক্লজের সাথে এগ্রিগেট ফাংশনের ওপর শর্ত আরোপ করতে কোন ক্লজ ব্যবহৃত হয়? [মডেল সেট #10]",
+    "options": [
+      "A) WHERE",
+      "B) HAVING",
+      "C) ORDER BY",
+      "D) LIMIT"
+    ],
+    "answer": 1,
+    "explanation": "WHERE ক্লজ দিয়ে একক রো ফিল্টার করা হয়, আর HAVING ক্লজ দিয়ে গ্রুপভিত্তিক এগ্রিগেট তথ্যের ওপর শর্ত দেওয়া হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1346,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ কোনো টেবিল থেকে সমস্ত রেকর্ড দ্রুততম উপায়ে মুছে ফেলতে এবং রোলব্যাকের সুযোগ না রাখতে কোনটি ব্যবহৃত হয়? [মডেল সেট #10]",
+    "options": [
+      "A) DELETE",
+      "B) DROP",
+      "C) TRUNCATE",
+      "D) REMOVE"
+    ],
+    "answer": 2,
+    "explanation": "TRUNCATE একটি DDL কমান্ড যা ট্রানজ্যাকশন লগ না রেখে টেবিল ডি-অ্যালোকেট করে সমস্ত রেকর্ড একসাথে মুছে দেয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1347,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL কমান্ড ক্যাটাগরিতে নিচের কোনটি DML (Data Manipulation Language) কমান্ড? [মডেল সেট #10]",
+    "options": [
+      "A) CREATE",
+      "B) ALTER",
+      "C) UPDATE",
+      "D) GRANT"
+    ],
+    "answer": 2,
+    "explanation": "SELECT, INSERT, UPDATE, DELETE হলো DML কমান্ড।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1348,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল এলজেব্রায় সিলেকশন (Selection) অপারেশনের গাণিতিক প্রতীক কোনটি? [মডেল সেট #10]",
+    "options": [
+      "A) Π (Pi)",
+      "B) σ (Sigma)",
+      "C) ⨝ (Bowtie)",
+      "D) ρ (Rho)"
+    ],
+    "answer": 1,
+    "explanation": "সিগমা (σ) দিয়ে নির্দিষ্ট শর্তে রো সিলেক্ট করা হয়, আর পাই (Π) দিয়ে প্রজেকশন বা কলাম সিলেক্ট করা হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1349,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে ফরেন কী (Foreign Key) কোন ইন্টিগ্রিটি বজায় রাখে? [মডেল সেট #10]",
+    "options": [
+      "A) Entity Integrity",
+      "B) Referential Integrity",
+      "C) Domain Integrity",
+      "D) User-defined Integrity"
+    ],
+    "answer": 1,
+    "explanation": "ফরেন কী দুটি টেবিলের মাঝে রেফারেন্সিয়াল ইন্টিগ্রিটি (Referential Integrity) নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1350,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজ্যাকশনের ACID বৈশিষ্ট্যের মধ্যে 'I' দ্বারা কী বোঝায়? [মডেল সেট #10]",
+    "options": [
+      "A) Integrity",
+      "B) Isolation",
+      "C) Iteration",
+      "D) Indexing"
+    ],
+    "answer": 1,
+    "explanation": "Isolation নিশ্চিত করে যে একাধিক ট্রানজ্যাকশন সমান্তরালে চললেও একে অন্যের অন্তর্বর্তী ফলাফল দেখতে পাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1351,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে প্রতিটি অ্যাট্রিবিউটের মানকে অবিভাজ্য (Atomic) রাখার শর্ত কোন নরমাল ফর্মের? [মডেল সেট #11]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) BCNF"
+    ],
+    "answer": 0,
+    "explanation": "1NF (First Normal Form) শর্ত অনুযায়ী প্রতিটি কলামে অ্যাটমিক ভ্যালু থাকতে হবে এবং কোনো রিপিটিং গ্রুপ থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1352,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "2NF (Second Normal Form) অর্জনের মূল শর্ত কোনটি? [মডেল সেট #11]",
+    "options": [
+      "A) 1NF হতে হবে এবং কোনো আংশিক নির্ভরতা (Partial Dependency) থাকা যাবে না",
+      "B) ট্রানজিটিভ নির্ভরতা দূর করতে হবে",
+      "C) মাল্টিভ্যালুড নির্ভরতা দূর করতে হবে",
+      "D) কোনো ফরেন কী থাকা যাবে না"
+    ],
+    "answer": 0,
+    "explanation": "2NF হতে হলে টেবিলকে 1NF হতে হবে এবং কোনো নন-প্রাইম অ্যাট্রিবিউট কম্পোজিট প্রাইমারি কী-র আংশিক অংশের ওপর নির্ভর করতে পারবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1353,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজিটিভ নির্ভরতা (Transitive Dependency: A -> B এবং B -> C) দূর করা কোন নরমাল ফর্মের মূল লক্ষ্য? [মডেল সেট #11]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) 4NF"
+    ],
+    "answer": 2,
+    "explanation": "3NF অর্জনের মূল শর্ত হলো টেবিলকে 2NF হতে হবে এবং কোনো ট্রানজিটিভ ডিপেনডেন্সি থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1354,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "Boyce-Codd Normal Form (BCNF)-এর কঠোরতম শর্তটি কী? [মডেল সেট #11]",
+    "options": [
+      "A) টেবিলটিতে কমপক্ষে ৩টি কলাম থাকতে হবে",
+      "B) প্রতিটি কার্যকর ফাংশনাল ডিপেনডেন্সি X -> Y তে X-কে অবশ্যই সুপারকী (Super Key) হতে হবে",
+      "C) ডানপাশের অ্যাট্রিবিউট প্রাইম হতে হবে",
+      "D) কোনো নাল ভ্যালু রাখা যাবে না"
+    ],
+    "answer": 1,
+    "explanation": "BCNF-এ প্রতিটি নির্ধারক (Determinant) X কে আবশ্যিকভাবে একটি সুপারকী হতে হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1355,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ GROUP BY ক্লজের সাথে এগ্রিগেট ফাংশনের ওপর শর্ত আরোপ করতে কোন ক্লজ ব্যবহৃত হয়? [মডেল সেট #11]",
+    "options": [
+      "A) WHERE",
+      "B) HAVING",
+      "C) ORDER BY",
+      "D) LIMIT"
+    ],
+    "answer": 1,
+    "explanation": "WHERE ক্লজ দিয়ে একক রো ফিল্টার করা হয়, আর HAVING ক্লজ দিয়ে গ্রুপভিত্তিক এগ্রিগেট তথ্যের ওপর শর্ত দেওয়া হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1356,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ কোনো টেবিল থেকে সমস্ত রেকর্ড দ্রুততম উপায়ে মুছে ফেলতে এবং রোলব্যাকের সুযোগ না রাখতে কোনটি ব্যবহৃত হয়? [মডেল সেট #11]",
+    "options": [
+      "A) DELETE",
+      "B) DROP",
+      "C) TRUNCATE",
+      "D) REMOVE"
+    ],
+    "answer": 2,
+    "explanation": "TRUNCATE একটি DDL কমান্ড যা ট্রানজ্যাকশন লগ না রেখে টেবিল ডি-অ্যালোকেট করে সমস্ত রেকর্ড একসাথে মুছে দেয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1357,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL কমান্ড ক্যাটাগরিতে নিচের কোনটি DML (Data Manipulation Language) কমান্ড? [মডেল সেট #11]",
+    "options": [
+      "A) CREATE",
+      "B) ALTER",
+      "C) UPDATE",
+      "D) GRANT"
+    ],
+    "answer": 2,
+    "explanation": "SELECT, INSERT, UPDATE, DELETE হলো DML কমান্ড।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1358,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল এলজেব্রায় সিলেকশন (Selection) অপারেশনের গাণিতিক প্রতীক কোনটি? [মডেল সেট #11]",
+    "options": [
+      "A) Π (Pi)",
+      "B) σ (Sigma)",
+      "C) ⨝ (Bowtie)",
+      "D) ρ (Rho)"
+    ],
+    "answer": 1,
+    "explanation": "সিগমা (σ) দিয়ে নির্দিষ্ট শর্তে রো সিলেক্ট করা হয়, আর পাই (Π) দিয়ে প্রজেকশন বা কলাম সিলেক্ট করা হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1359,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে ফরেন কী (Foreign Key) কোন ইন্টিগ্রিটি বজায় রাখে? [মডেল সেট #11]",
+    "options": [
+      "A) Entity Integrity",
+      "B) Referential Integrity",
+      "C) Domain Integrity",
+      "D) User-defined Integrity"
+    ],
+    "answer": 1,
+    "explanation": "ফরেন কী দুটি টেবিলের মাঝে রেফারেন্সিয়াল ইন্টিগ্রিটি (Referential Integrity) নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1360,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজ্যাকশনের ACID বৈশিষ্ট্যের মধ্যে 'I' দ্বারা কী বোঝায়? [মডেল সেট #11]",
+    "options": [
+      "A) Integrity",
+      "B) Isolation",
+      "C) Iteration",
+      "D) Indexing"
+    ],
+    "answer": 1,
+    "explanation": "Isolation নিশ্চিত করে যে একাধিক ট্রানজ্যাকশন সমান্তরালে চললেও একে অন্যের অন্তর্বর্তী ফলাফল দেখতে পাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1361,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে প্রতিটি অ্যাট্রিবিউটের মানকে অবিভাজ্য (Atomic) রাখার শর্ত কোন নরমাল ফর্মের? [মডেল সেট #12]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) BCNF"
+    ],
+    "answer": 0,
+    "explanation": "1NF (First Normal Form) শর্ত অনুযায়ী প্রতিটি কলামে অ্যাটমিক ভ্যালু থাকতে হবে এবং কোনো রিপিটিং গ্রুপ থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1362,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "2NF (Second Normal Form) অর্জনের মূল শর্ত কোনটি? [মডেল সেট #12]",
+    "options": [
+      "A) 1NF হতে হবে এবং কোনো আংশিক নির্ভরতা (Partial Dependency) থাকা যাবে না",
+      "B) ট্রানজিটিভ নির্ভরতা দূর করতে হবে",
+      "C) মাল্টিভ্যালুড নির্ভরতা দূর করতে হবে",
+      "D) কোনো ফরেন কী থাকা যাবে না"
+    ],
+    "answer": 0,
+    "explanation": "2NF হতে হলে টেবিলকে 1NF হতে হবে এবং কোনো নন-প্রাইম অ্যাট্রিবিউট কম্পোজিট প্রাইমারি কী-র আংশিক অংশের ওপর নির্ভর করতে পারবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1363,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজিটিভ নির্ভরতা (Transitive Dependency: A -> B এবং B -> C) দূর করা কোন নরমাল ফর্মের মূল লক্ষ্য? [মডেল সেট #12]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) 4NF"
+    ],
+    "answer": 2,
+    "explanation": "3NF অর্জনের মূল শর্ত হলো টেবিলকে 2NF হতে হবে এবং কোনো ট্রানজিটিভ ডিপেনডেন্সি থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1364,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "Boyce-Codd Normal Form (BCNF)-এর কঠোরতম শর্তটি কী? [মডেল সেট #12]",
+    "options": [
+      "A) টেবিলটিতে কমপক্ষে ৩টি কলাম থাকতে হবে",
+      "B) প্রতিটি কার্যকর ফাংশনাল ডিপেনডেন্সি X -> Y তে X-কে অবশ্যই সুপারকী (Super Key) হতে হবে",
+      "C) ডানপাশের অ্যাট্রিবিউট প্রাইম হতে হবে",
+      "D) কোনো নাল ভ্যালু রাখা যাবে না"
+    ],
+    "answer": 1,
+    "explanation": "BCNF-এ প্রতিটি নির্ধারক (Determinant) X কে আবশ্যিকভাবে একটি সুপারকী হতে হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1365,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ GROUP BY ক্লজের সাথে এগ্রিগেট ফাংশনের ওপর শর্ত আরোপ করতে কোন ক্লজ ব্যবহৃত হয়? [মডেল সেট #12]",
+    "options": [
+      "A) WHERE",
+      "B) HAVING",
+      "C) ORDER BY",
+      "D) LIMIT"
+    ],
+    "answer": 1,
+    "explanation": "WHERE ক্লজ দিয়ে একক রো ফিল্টার করা হয়, আর HAVING ক্লজ দিয়ে গ্রুপভিত্তিক এগ্রিগেট তথ্যের ওপর শর্ত দেওয়া হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1366,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ কোনো টেবিল থেকে সমস্ত রেকর্ড দ্রুততম উপায়ে মুছে ফেলতে এবং রোলব্যাকের সুযোগ না রাখতে কোনটি ব্যবহৃত হয়? [মডেল সেট #12]",
+    "options": [
+      "A) DELETE",
+      "B) DROP",
+      "C) TRUNCATE",
+      "D) REMOVE"
+    ],
+    "answer": 2,
+    "explanation": "TRUNCATE একটি DDL কমান্ড যা ট্রানজ্যাকশন লগ না রেখে টেবিল ডি-অ্যালোকেট করে সমস্ত রেকর্ড একসাথে মুছে দেয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1367,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL কমান্ড ক্যাটাগরিতে নিচের কোনটি DML (Data Manipulation Language) কমান্ড? [মডেল সেট #12]",
+    "options": [
+      "A) CREATE",
+      "B) ALTER",
+      "C) UPDATE",
+      "D) GRANT"
+    ],
+    "answer": 2,
+    "explanation": "SELECT, INSERT, UPDATE, DELETE হলো DML কমান্ড।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1368,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল এলজেব্রায় সিলেকশন (Selection) অপারেশনের গাণিতিক প্রতীক কোনটি? [মডেল সেট #12]",
+    "options": [
+      "A) Π (Pi)",
+      "B) σ (Sigma)",
+      "C) ⨝ (Bowtie)",
+      "D) ρ (Rho)"
+    ],
+    "answer": 1,
+    "explanation": "সিগমা (σ) দিয়ে নির্দিষ্ট শর্তে রো সিলেক্ট করা হয়, আর পাই (Π) দিয়ে প্রজেকশন বা কলাম সিলেক্ট করা হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1369,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে ফরেন কী (Foreign Key) কোন ইন্টিগ্রিটি বজায় রাখে? [মডেল সেট #12]",
+    "options": [
+      "A) Entity Integrity",
+      "B) Referential Integrity",
+      "C) Domain Integrity",
+      "D) User-defined Integrity"
+    ],
+    "answer": 1,
+    "explanation": "ফরেন কী দুটি টেবিলের মাঝে রেফারেন্সিয়াল ইন্টিগ্রিটি (Referential Integrity) নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1370,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজ্যাকশনের ACID বৈশিষ্ট্যের মধ্যে 'I' দ্বারা কী বোঝায়? [মডেল সেট #12]",
+    "options": [
+      "A) Integrity",
+      "B) Isolation",
+      "C) Iteration",
+      "D) Indexing"
+    ],
+    "answer": 1,
+    "explanation": "Isolation নিশ্চিত করে যে একাধিক ট্রানজ্যাকশন সমান্তরালে চললেও একে অন্যের অন্তর্বর্তী ফলাফল দেখতে পাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1371,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে প্রতিটি অ্যাট্রিবিউটের মানকে অবিভাজ্য (Atomic) রাখার শর্ত কোন নরমাল ফর্মের? [মডেল সেট #13]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) BCNF"
+    ],
+    "answer": 0,
+    "explanation": "1NF (First Normal Form) শর্ত অনুযায়ী প্রতিটি কলামে অ্যাটমিক ভ্যালু থাকতে হবে এবং কোনো রিপিটিং গ্রুপ থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1372,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "2NF (Second Normal Form) অর্জনের মূল শর্ত কোনটি? [মডেল সেট #13]",
+    "options": [
+      "A) 1NF হতে হবে এবং কোনো আংশিক নির্ভরতা (Partial Dependency) থাকা যাবে না",
+      "B) ট্রানজিটিভ নির্ভরতা দূর করতে হবে",
+      "C) মাল্টিভ্যালুড নির্ভরতা দূর করতে হবে",
+      "D) কোনো ফরেন কী থাকা যাবে না"
+    ],
+    "answer": 0,
+    "explanation": "2NF হতে হলে টেবিলকে 1NF হতে হবে এবং কোনো নন-প্রাইম অ্যাট্রিবিউট কম্পোজিট প্রাইমারি কী-র আংশিক অংশের ওপর নির্ভর করতে পারবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1373,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজিটিভ নির্ভরতা (Transitive Dependency: A -> B এবং B -> C) দূর করা কোন নরমাল ফর্মের মূল লক্ষ্য? [মডেল সেট #13]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) 4NF"
+    ],
+    "answer": 2,
+    "explanation": "3NF অর্জনের মূল শর্ত হলো টেবিলকে 2NF হতে হবে এবং কোনো ট্রানজিটিভ ডিপেনডেন্সি থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1374,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "Boyce-Codd Normal Form (BCNF)-এর কঠোরতম শর্তটি কী? [মডেল সেট #13]",
+    "options": [
+      "A) টেবিলটিতে কমপক্ষে ৩টি কলাম থাকতে হবে",
+      "B) প্রতিটি কার্যকর ফাংশনাল ডিপেনডেন্সি X -> Y তে X-কে অবশ্যই সুপারকী (Super Key) হতে হবে",
+      "C) ডানপাশের অ্যাট্রিবিউট প্রাইম হতে হবে",
+      "D) কোনো নাল ভ্যালু রাখা যাবে না"
+    ],
+    "answer": 1,
+    "explanation": "BCNF-এ প্রতিটি নির্ধারক (Determinant) X কে আবশ্যিকভাবে একটি সুপারকী হতে হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1375,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ GROUP BY ক্লজের সাথে এগ্রিগেট ফাংশনের ওপর শর্ত আরোপ করতে কোন ক্লজ ব্যবহৃত হয়? [মডেল সেট #13]",
+    "options": [
+      "A) WHERE",
+      "B) HAVING",
+      "C) ORDER BY",
+      "D) LIMIT"
+    ],
+    "answer": 1,
+    "explanation": "WHERE ক্লজ দিয়ে একক রো ফিল্টার করা হয়, আর HAVING ক্লজ দিয়ে গ্রুপভিত্তিক এগ্রিগেট তথ্যের ওপর শর্ত দেওয়া হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1376,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ কোনো টেবিল থেকে সমস্ত রেকর্ড দ্রুততম উপায়ে মুছে ফেলতে এবং রোলব্যাকের সুযোগ না রাখতে কোনটি ব্যবহৃত হয়? [মডেল সেট #13]",
+    "options": [
+      "A) DELETE",
+      "B) DROP",
+      "C) TRUNCATE",
+      "D) REMOVE"
+    ],
+    "answer": 2,
+    "explanation": "TRUNCATE একটি DDL কমান্ড যা ট্রানজ্যাকশন লগ না রেখে টেবিল ডি-অ্যালোকেট করে সমস্ত রেকর্ড একসাথে মুছে দেয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1377,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL কমান্ড ক্যাটাগরিতে নিচের কোনটি DML (Data Manipulation Language) কমান্ড? [মডেল সেট #13]",
+    "options": [
+      "A) CREATE",
+      "B) ALTER",
+      "C) UPDATE",
+      "D) GRANT"
+    ],
+    "answer": 2,
+    "explanation": "SELECT, INSERT, UPDATE, DELETE হলো DML কমান্ড।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1378,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল এলজেব্রায় সিলেকশন (Selection) অপারেশনের গাণিতিক প্রতীক কোনটি? [মডেল সেট #13]",
+    "options": [
+      "A) Π (Pi)",
+      "B) σ (Sigma)",
+      "C) ⨝ (Bowtie)",
+      "D) ρ (Rho)"
+    ],
+    "answer": 1,
+    "explanation": "সিগমা (σ) দিয়ে নির্দিষ্ট শর্তে রো সিলেক্ট করা হয়, আর পাই (Π) দিয়ে প্রজেকশন বা কলাম সিলেক্ট করা হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1379,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে ফরেন কী (Foreign Key) কোন ইন্টিগ্রিটি বজায় রাখে? [মডেল সেট #13]",
+    "options": [
+      "A) Entity Integrity",
+      "B) Referential Integrity",
+      "C) Domain Integrity",
+      "D) User-defined Integrity"
+    ],
+    "answer": 1,
+    "explanation": "ফরেন কী দুটি টেবিলের মাঝে রেফারেন্সিয়াল ইন্টিগ্রিটি (Referential Integrity) নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1380,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজ্যাকশনের ACID বৈশিষ্ট্যের মধ্যে 'I' দ্বারা কী বোঝায়? [মডেল সেট #13]",
+    "options": [
+      "A) Integrity",
+      "B) Isolation",
+      "C) Iteration",
+      "D) Indexing"
+    ],
+    "answer": 1,
+    "explanation": "Isolation নিশ্চিত করে যে একাধিক ট্রানজ্যাকশন সমান্তরালে চললেও একে অন্যের অন্তর্বর্তী ফলাফল দেখতে পাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1381,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে প্রতিটি অ্যাট্রিবিউটের মানকে অবিভাজ্য (Atomic) রাখার শর্ত কোন নরমাল ফর্মের? [মডেল সেট #14]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) BCNF"
+    ],
+    "answer": 0,
+    "explanation": "1NF (First Normal Form) শর্ত অনুযায়ী প্রতিটি কলামে অ্যাটমিক ভ্যালু থাকতে হবে এবং কোনো রিপিটিং গ্রুপ থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1382,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "2NF (Second Normal Form) অর্জনের মূল শর্ত কোনটি? [মডেল সেট #14]",
+    "options": [
+      "A) 1NF হতে হবে এবং কোনো আংশিক নির্ভরতা (Partial Dependency) থাকা যাবে না",
+      "B) ট্রানজিটিভ নির্ভরতা দূর করতে হবে",
+      "C) মাল্টিভ্যালুড নির্ভরতা দূর করতে হবে",
+      "D) কোনো ফরেন কী থাকা যাবে না"
+    ],
+    "answer": 0,
+    "explanation": "2NF হতে হলে টেবিলকে 1NF হতে হবে এবং কোনো নন-প্রাইম অ্যাট্রিবিউট কম্পোজিট প্রাইমারি কী-র আংশিক অংশের ওপর নির্ভর করতে পারবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1383,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজিটিভ নির্ভরতা (Transitive Dependency: A -> B এবং B -> C) দূর করা কোন নরমাল ফর্মের মূল লক্ষ্য? [মডেল সেট #14]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) 4NF"
+    ],
+    "answer": 2,
+    "explanation": "3NF অর্জনের মূল শর্ত হলো টেবিলকে 2NF হতে হবে এবং কোনো ট্রানজিটিভ ডিপেনডেন্সি থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1384,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "Boyce-Codd Normal Form (BCNF)-এর কঠোরতম শর্তটি কী? [মডেল সেট #14]",
+    "options": [
+      "A) টেবিলটিতে কমপক্ষে ৩টি কলাম থাকতে হবে",
+      "B) প্রতিটি কার্যকর ফাংশনাল ডিপেনডেন্সি X -> Y তে X-কে অবশ্যই সুপারকী (Super Key) হতে হবে",
+      "C) ডানপাশের অ্যাট্রিবিউট প্রাইম হতে হবে",
+      "D) কোনো নাল ভ্যালু রাখা যাবে না"
+    ],
+    "answer": 1,
+    "explanation": "BCNF-এ প্রতিটি নির্ধারক (Determinant) X কে আবশ্যিকভাবে একটি সুপারকী হতে হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1385,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ GROUP BY ক্লজের সাথে এগ্রিগেট ফাংশনের ওপর শর্ত আরোপ করতে কোন ক্লজ ব্যবহৃত হয়? [মডেল সেট #14]",
+    "options": [
+      "A) WHERE",
+      "B) HAVING",
+      "C) ORDER BY",
+      "D) LIMIT"
+    ],
+    "answer": 1,
+    "explanation": "WHERE ক্লজ দিয়ে একক রো ফিল্টার করা হয়, আর HAVING ক্লজ দিয়ে গ্রুপভিত্তিক এগ্রিগেট তথ্যের ওপর শর্ত দেওয়া হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1386,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ কোনো টেবিল থেকে সমস্ত রেকর্ড দ্রুততম উপায়ে মুছে ফেলতে এবং রোলব্যাকের সুযোগ না রাখতে কোনটি ব্যবহৃত হয়? [মডেল সেট #14]",
+    "options": [
+      "A) DELETE",
+      "B) DROP",
+      "C) TRUNCATE",
+      "D) REMOVE"
+    ],
+    "answer": 2,
+    "explanation": "TRUNCATE একটি DDL কমান্ড যা ট্রানজ্যাকশন লগ না রেখে টেবিল ডি-অ্যালোকেট করে সমস্ত রেকর্ড একসাথে মুছে দেয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1387,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL কমান্ড ক্যাটাগরিতে নিচের কোনটি DML (Data Manipulation Language) কমান্ড? [মডেল সেট #14]",
+    "options": [
+      "A) CREATE",
+      "B) ALTER",
+      "C) UPDATE",
+      "D) GRANT"
+    ],
+    "answer": 2,
+    "explanation": "SELECT, INSERT, UPDATE, DELETE হলো DML কমান্ড।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1388,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল এলজেব্রায় সিলেকশন (Selection) অপারেশনের গাণিতিক প্রতীক কোনটি? [মডেল সেট #14]",
+    "options": [
+      "A) Π (Pi)",
+      "B) σ (Sigma)",
+      "C) ⨝ (Bowtie)",
+      "D) ρ (Rho)"
+    ],
+    "answer": 1,
+    "explanation": "সিগমা (σ) দিয়ে নির্দিষ্ট শর্তে রো সিলেক্ট করা হয়, আর পাই (Π) দিয়ে প্রজেকশন বা কলাম সিলেক্ট করা হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1389,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে ফরেন কী (Foreign Key) কোন ইন্টিগ্রিটি বজায় রাখে? [মডেল সেট #14]",
+    "options": [
+      "A) Entity Integrity",
+      "B) Referential Integrity",
+      "C) Domain Integrity",
+      "D) User-defined Integrity"
+    ],
+    "answer": 1,
+    "explanation": "ফরেন কী দুটি টেবিলের মাঝে রেফারেন্সিয়াল ইন্টিগ্রিটি (Referential Integrity) নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1390,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজ্যাকশনের ACID বৈশিষ্ট্যের মধ্যে 'I' দ্বারা কী বোঝায়? [মডেল সেট #14]",
+    "options": [
+      "A) Integrity",
+      "B) Isolation",
+      "C) Iteration",
+      "D) Indexing"
+    ],
+    "answer": 1,
+    "explanation": "Isolation নিশ্চিত করে যে একাধিক ট্রানজ্যাকশন সমান্তরালে চললেও একে অন্যের অন্তর্বর্তী ফলাফল দেখতে পাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1391,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে প্রতিটি অ্যাট্রিবিউটের মানকে অবিভাজ্য (Atomic) রাখার শর্ত কোন নরমাল ফর্মের? [মডেল সেট #15]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) BCNF"
+    ],
+    "answer": 0,
+    "explanation": "1NF (First Normal Form) শর্ত অনুযায়ী প্রতিটি কলামে অ্যাটমিক ভ্যালু থাকতে হবে এবং কোনো রিপিটিং গ্রুপ থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1392,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "2NF (Second Normal Form) অর্জনের মূল শর্ত কোনটি? [মডেল সেট #15]",
+    "options": [
+      "A) 1NF হতে হবে এবং কোনো আংশিক নির্ভরতা (Partial Dependency) থাকা যাবে না",
+      "B) ট্রানজিটিভ নির্ভরতা দূর করতে হবে",
+      "C) মাল্টিভ্যালুড নির্ভরতা দূর করতে হবে",
+      "D) কোনো ফরেন কী থাকা যাবে না"
+    ],
+    "answer": 0,
+    "explanation": "2NF হতে হলে টেবিলকে 1NF হতে হবে এবং কোনো নন-প্রাইম অ্যাট্রিবিউট কম্পোজিট প্রাইমারি কী-র আংশিক অংশের ওপর নির্ভর করতে পারবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1393,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজিটিভ নির্ভরতা (Transitive Dependency: A -> B এবং B -> C) দূর করা কোন নরমাল ফর্মের মূল লক্ষ্য? [মডেল সেট #15]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) 4NF"
+    ],
+    "answer": 2,
+    "explanation": "3NF অর্জনের মূল শর্ত হলো টেবিলকে 2NF হতে হবে এবং কোনো ট্রানজিটিভ ডিপেনডেন্সি থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1394,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "Boyce-Codd Normal Form (BCNF)-এর কঠোরতম শর্তটি কী? [মডেল সেট #15]",
+    "options": [
+      "A) টেবিলটিতে কমপক্ষে ৩টি কলাম থাকতে হবে",
+      "B) প্রতিটি কার্যকর ফাংশনাল ডিপেনডেন্সি X -> Y তে X-কে অবশ্যই সুপারকী (Super Key) হতে হবে",
+      "C) ডানপাশের অ্যাট্রিবিউট প্রাইম হতে হবে",
+      "D) কোনো নাল ভ্যালু রাখা যাবে না"
+    ],
+    "answer": 1,
+    "explanation": "BCNF-এ প্রতিটি নির্ধারক (Determinant) X কে আবশ্যিকভাবে একটি সুপারকী হতে হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1395,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ GROUP BY ক্লজের সাথে এগ্রিগেট ফাংশনের ওপর শর্ত আরোপ করতে কোন ক্লজ ব্যবহৃত হয়? [মডেল সেট #15]",
+    "options": [
+      "A) WHERE",
+      "B) HAVING",
+      "C) ORDER BY",
+      "D) LIMIT"
+    ],
+    "answer": 1,
+    "explanation": "WHERE ক্লজ দিয়ে একক রো ফিল্টার করা হয়, আর HAVING ক্লজ দিয়ে গ্রুপভিত্তিক এগ্রিগেট তথ্যের ওপর শর্ত দেওয়া হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1396,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ কোনো টেবিল থেকে সমস্ত রেকর্ড দ্রুততম উপায়ে মুছে ফেলতে এবং রোলব্যাকের সুযোগ না রাখতে কোনটি ব্যবহৃত হয়? [মডেল সেট #15]",
+    "options": [
+      "A) DELETE",
+      "B) DROP",
+      "C) TRUNCATE",
+      "D) REMOVE"
+    ],
+    "answer": 2,
+    "explanation": "TRUNCATE একটি DDL কমান্ড যা ট্রানজ্যাকশন লগ না রেখে টেবিল ডি-অ্যালোকেট করে সমস্ত রেকর্ড একসাথে মুছে দেয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1397,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL কমান্ড ক্যাটাগরিতে নিচের কোনটি DML (Data Manipulation Language) কমান্ড? [মডেল সেট #15]",
+    "options": [
+      "A) CREATE",
+      "B) ALTER",
+      "C) UPDATE",
+      "D) GRANT"
+    ],
+    "answer": 2,
+    "explanation": "SELECT, INSERT, UPDATE, DELETE হলো DML কমান্ড।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1398,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল এলজেব্রায় সিলেকশন (Selection) অপারেশনের গাণিতিক প্রতীক কোনটি? [মডেল সেট #15]",
+    "options": [
+      "A) Π (Pi)",
+      "B) σ (Sigma)",
+      "C) ⨝ (Bowtie)",
+      "D) ρ (Rho)"
+    ],
+    "answer": 1,
+    "explanation": "সিগমা (σ) দিয়ে নির্দিষ্ট শর্তে রো সিলেক্ট করা হয়, আর পাই (Π) দিয়ে প্রজেকশন বা কলাম সিলেক্ট করা হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1399,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে ফরেন কী (Foreign Key) কোন ইন্টিগ্রিটি বজায় রাখে? [মডেল সেট #15]",
+    "options": [
+      "A) Entity Integrity",
+      "B) Referential Integrity",
+      "C) Domain Integrity",
+      "D) User-defined Integrity"
+    ],
+    "answer": 1,
+    "explanation": "ফরেন কী দুটি টেবিলের মাঝে রেফারেন্সিয়াল ইন্টিগ্রিটি (Referential Integrity) নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1400,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজ্যাকশনের ACID বৈশিষ্ট্যের মধ্যে 'I' দ্বারা কী বোঝায়? [মডেল সেট #15]",
+    "options": [
+      "A) Integrity",
+      "B) Isolation",
+      "C) Iteration",
+      "D) Indexing"
+    ],
+    "answer": 1,
+    "explanation": "Isolation নিশ্চিত করে যে একাধিক ট্রানজ্যাকশন সমান্তরালে চললেও একে অন্যের অন্তর্বর্তী ফলাফল দেখতে পাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1401,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে প্রতিটি অ্যাট্রিবিউটের মানকে অবিভাজ্য (Atomic) রাখার শর্ত কোন নরমাল ফর্মের? [মডেল সেট #16]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) BCNF"
+    ],
+    "answer": 0,
+    "explanation": "1NF (First Normal Form) শর্ত অনুযায়ী প্রতিটি কলামে অ্যাটমিক ভ্যালু থাকতে হবে এবং কোনো রিপিটিং গ্রুপ থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1402,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "2NF (Second Normal Form) অর্জনের মূল শর্ত কোনটি? [মডেল সেট #16]",
+    "options": [
+      "A) 1NF হতে হবে এবং কোনো আংশিক নির্ভরতা (Partial Dependency) থাকা যাবে না",
+      "B) ট্রানজিটিভ নির্ভরতা দূর করতে হবে",
+      "C) মাল্টিভ্যালুড নির্ভরতা দূর করতে হবে",
+      "D) কোনো ফরেন কী থাকা যাবে না"
+    ],
+    "answer": 0,
+    "explanation": "2NF হতে হলে টেবিলকে 1NF হতে হবে এবং কোনো নন-প্রাইম অ্যাট্রিবিউট কম্পোজিট প্রাইমারি কী-র আংশিক অংশের ওপর নির্ভর করতে পারবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1403,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজিটিভ নির্ভরতা (Transitive Dependency: A -> B এবং B -> C) দূর করা কোন নরমাল ফর্মের মূল লক্ষ্য? [মডেল সেট #16]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) 4NF"
+    ],
+    "answer": 2,
+    "explanation": "3NF অর্জনের মূল শর্ত হলো টেবিলকে 2NF হতে হবে এবং কোনো ট্রানজিটিভ ডিপেনডেন্সি থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1404,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "Boyce-Codd Normal Form (BCNF)-এর কঠোরতম শর্তটি কী? [মডেল সেট #16]",
+    "options": [
+      "A) টেবিলটিতে কমপক্ষে ৩টি কলাম থাকতে হবে",
+      "B) প্রতিটি কার্যকর ফাংশনাল ডিপেনডেন্সি X -> Y তে X-কে অবশ্যই সুপারকী (Super Key) হতে হবে",
+      "C) ডানপাশের অ্যাট্রিবিউট প্রাইম হতে হবে",
+      "D) কোনো নাল ভ্যালু রাখা যাবে না"
+    ],
+    "answer": 1,
+    "explanation": "BCNF-এ প্রতিটি নির্ধারক (Determinant) X কে আবশ্যিকভাবে একটি সুপারকী হতে হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1405,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ GROUP BY ক্লজের সাথে এগ্রিগেট ফাংশনের ওপর শর্ত আরোপ করতে কোন ক্লজ ব্যবহৃত হয়? [মডেল সেট #16]",
+    "options": [
+      "A) WHERE",
+      "B) HAVING",
+      "C) ORDER BY",
+      "D) LIMIT"
+    ],
+    "answer": 1,
+    "explanation": "WHERE ক্লজ দিয়ে একক রো ফিল্টার করা হয়, আর HAVING ক্লজ দিয়ে গ্রুপভিত্তিক এগ্রিগেট তথ্যের ওপর শর্ত দেওয়া হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1406,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ কোনো টেবিল থেকে সমস্ত রেকর্ড দ্রুততম উপায়ে মুছে ফেলতে এবং রোলব্যাকের সুযোগ না রাখতে কোনটি ব্যবহৃত হয়? [মডেল সেট #16]",
+    "options": [
+      "A) DELETE",
+      "B) DROP",
+      "C) TRUNCATE",
+      "D) REMOVE"
+    ],
+    "answer": 2,
+    "explanation": "TRUNCATE একটি DDL কমান্ড যা ট্রানজ্যাকশন লগ না রেখে টেবিল ডি-অ্যালোকেট করে সমস্ত রেকর্ড একসাথে মুছে দেয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1407,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL কমান্ড ক্যাটাগরিতে নিচের কোনটি DML (Data Manipulation Language) কমান্ড? [মডেল সেট #16]",
+    "options": [
+      "A) CREATE",
+      "B) ALTER",
+      "C) UPDATE",
+      "D) GRANT"
+    ],
+    "answer": 2,
+    "explanation": "SELECT, INSERT, UPDATE, DELETE হলো DML কমান্ড।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1408,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল এলজেব্রায় সিলেকশন (Selection) অপারেশনের গাণিতিক প্রতীক কোনটি? [মডেল সেট #16]",
+    "options": [
+      "A) Π (Pi)",
+      "B) σ (Sigma)",
+      "C) ⨝ (Bowtie)",
+      "D) ρ (Rho)"
+    ],
+    "answer": 1,
+    "explanation": "সিগমা (σ) দিয়ে নির্দিষ্ট শর্তে রো সিলেক্ট করা হয়, আর পাই (Π) দিয়ে প্রজেকশন বা কলাম সিলেক্ট করা হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1409,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে ফরেন কী (Foreign Key) কোন ইন্টিগ্রিটি বজায় রাখে? [মডেল সেট #16]",
+    "options": [
+      "A) Entity Integrity",
+      "B) Referential Integrity",
+      "C) Domain Integrity",
+      "D) User-defined Integrity"
+    ],
+    "answer": 1,
+    "explanation": "ফরেন কী দুটি টেবিলের মাঝে রেফারেন্সিয়াল ইন্টিগ্রিটি (Referential Integrity) নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1410,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজ্যাকশনের ACID বৈশিষ্ট্যের মধ্যে 'I' দ্বারা কী বোঝায়? [মডেল সেট #16]",
+    "options": [
+      "A) Integrity",
+      "B) Isolation",
+      "C) Iteration",
+      "D) Indexing"
+    ],
+    "answer": 1,
+    "explanation": "Isolation নিশ্চিত করে যে একাধিক ট্রানজ্যাকশন সমান্তরালে চললেও একে অন্যের অন্তর্বর্তী ফলাফল দেখতে পাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1411,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে প্রতিটি অ্যাট্রিবিউটের মানকে অবিভাজ্য (Atomic) রাখার শর্ত কোন নরমাল ফর্মের? [মডেল সেট #17]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) BCNF"
+    ],
+    "answer": 0,
+    "explanation": "1NF (First Normal Form) শর্ত অনুযায়ী প্রতিটি কলামে অ্যাটমিক ভ্যালু থাকতে হবে এবং কোনো রিপিটিং গ্রুপ থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1412,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "2NF (Second Normal Form) অর্জনের মূল শর্ত কোনটি? [মডেল সেট #17]",
+    "options": [
+      "A) 1NF হতে হবে এবং কোনো আংশিক নির্ভরতা (Partial Dependency) থাকা যাবে না",
+      "B) ট্রানজিটিভ নির্ভরতা দূর করতে হবে",
+      "C) মাল্টিভ্যালুড নির্ভরতা দূর করতে হবে",
+      "D) কোনো ফরেন কী থাকা যাবে না"
+    ],
+    "answer": 0,
+    "explanation": "2NF হতে হলে টেবিলকে 1NF হতে হবে এবং কোনো নন-প্রাইম অ্যাট্রিবিউট কম্পোজিট প্রাইমারি কী-র আংশিক অংশের ওপর নির্ভর করতে পারবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1413,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজিটিভ নির্ভরতা (Transitive Dependency: A -> B এবং B -> C) দূর করা কোন নরমাল ফর্মের মূল লক্ষ্য? [মডেল সেট #17]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) 4NF"
+    ],
+    "answer": 2,
+    "explanation": "3NF অর্জনের মূল শর্ত হলো টেবিলকে 2NF হতে হবে এবং কোনো ট্রানজিটিভ ডিপেনডেন্সি থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1414,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "Boyce-Codd Normal Form (BCNF)-এর কঠোরতম শর্তটি কী? [মডেল সেট #17]",
+    "options": [
+      "A) টেবিলটিতে কমপক্ষে ৩টি কলাম থাকতে হবে",
+      "B) প্রতিটি কার্যকর ফাংশনাল ডিপেনডেন্সি X -> Y তে X-কে অবশ্যই সুপারকী (Super Key) হতে হবে",
+      "C) ডানপাশের অ্যাট্রিবিউট প্রাইম হতে হবে",
+      "D) কোনো নাল ভ্যালু রাখা যাবে না"
+    ],
+    "answer": 1,
+    "explanation": "BCNF-এ প্রতিটি নির্ধারক (Determinant) X কে আবশ্যিকভাবে একটি সুপারকী হতে হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1415,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ GROUP BY ক্লজের সাথে এগ্রিগেট ফাংশনের ওপর শর্ত আরোপ করতে কোন ক্লজ ব্যবহৃত হয়? [মডেল সেট #17]",
+    "options": [
+      "A) WHERE",
+      "B) HAVING",
+      "C) ORDER BY",
+      "D) LIMIT"
+    ],
+    "answer": 1,
+    "explanation": "WHERE ক্লজ দিয়ে একক রো ফিল্টার করা হয়, আর HAVING ক্লজ দিয়ে গ্রুপভিত্তিক এগ্রিগেট তথ্যের ওপর শর্ত দেওয়া হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1416,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ কোনো টেবিল থেকে সমস্ত রেকর্ড দ্রুততম উপায়ে মুছে ফেলতে এবং রোলব্যাকের সুযোগ না রাখতে কোনটি ব্যবহৃত হয়? [মডেল সেট #17]",
+    "options": [
+      "A) DELETE",
+      "B) DROP",
+      "C) TRUNCATE",
+      "D) REMOVE"
+    ],
+    "answer": 2,
+    "explanation": "TRUNCATE একটি DDL কমান্ড যা ট্রানজ্যাকশন লগ না রেখে টেবিল ডি-অ্যালোকেট করে সমস্ত রেকর্ড একসাথে মুছে দেয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1417,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL কমান্ড ক্যাটাগরিতে নিচের কোনটি DML (Data Manipulation Language) কমান্ড? [মডেল সেট #17]",
+    "options": [
+      "A) CREATE",
+      "B) ALTER",
+      "C) UPDATE",
+      "D) GRANT"
+    ],
+    "answer": 2,
+    "explanation": "SELECT, INSERT, UPDATE, DELETE হলো DML কমান্ড।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1418,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল এলজেব্রায় সিলেকশন (Selection) অপারেশনের গাণিতিক প্রতীক কোনটি? [মডেল সেট #17]",
+    "options": [
+      "A) Π (Pi)",
+      "B) σ (Sigma)",
+      "C) ⨝ (Bowtie)",
+      "D) ρ (Rho)"
+    ],
+    "answer": 1,
+    "explanation": "সিগমা (σ) দিয়ে নির্দিষ্ট শর্তে রো সিলেক্ট করা হয়, আর পাই (Π) দিয়ে প্রজেকশন বা কলাম সিলেক্ট করা হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1419,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে ফরেন কী (Foreign Key) কোন ইন্টিগ্রিটি বজায় রাখে? [মডেল সেট #17]",
+    "options": [
+      "A) Entity Integrity",
+      "B) Referential Integrity",
+      "C) Domain Integrity",
+      "D) User-defined Integrity"
+    ],
+    "answer": 1,
+    "explanation": "ফরেন কী দুটি টেবিলের মাঝে রেফারেন্সিয়াল ইন্টিগ্রিটি (Referential Integrity) নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1420,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজ্যাকশনের ACID বৈশিষ্ট্যের মধ্যে 'I' দ্বারা কী বোঝায়? [মডেল সেট #17]",
+    "options": [
+      "A) Integrity",
+      "B) Isolation",
+      "C) Iteration",
+      "D) Indexing"
+    ],
+    "answer": 1,
+    "explanation": "Isolation নিশ্চিত করে যে একাধিক ট্রানজ্যাকশন সমান্তরালে চললেও একে অন্যের অন্তর্বর্তী ফলাফল দেখতে পাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1421,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে প্রতিটি অ্যাট্রিবিউটের মানকে অবিভাজ্য (Atomic) রাখার শর্ত কোন নরমাল ফর্মের? [মডেল সেট #18]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) BCNF"
+    ],
+    "answer": 0,
+    "explanation": "1NF (First Normal Form) শর্ত অনুযায়ী প্রতিটি কলামে অ্যাটমিক ভ্যালু থাকতে হবে এবং কোনো রিপিটিং গ্রুপ থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1422,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "2NF (Second Normal Form) অর্জনের মূল শর্ত কোনটি? [মডেল সেট #18]",
+    "options": [
+      "A) 1NF হতে হবে এবং কোনো আংশিক নির্ভরতা (Partial Dependency) থাকা যাবে না",
+      "B) ট্রানজিটিভ নির্ভরতা দূর করতে হবে",
+      "C) মাল্টিভ্যালুড নির্ভরতা দূর করতে হবে",
+      "D) কোনো ফরেন কী থাকা যাবে না"
+    ],
+    "answer": 0,
+    "explanation": "2NF হতে হলে টেবিলকে 1NF হতে হবে এবং কোনো নন-প্রাইম অ্যাট্রিবিউট কম্পোজিট প্রাইমারি কী-র আংশিক অংশের ওপর নির্ভর করতে পারবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1423,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজিটিভ নির্ভরতা (Transitive Dependency: A -> B এবং B -> C) দূর করা কোন নরমাল ফর্মের মূল লক্ষ্য? [মডেল সেট #18]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) 4NF"
+    ],
+    "answer": 2,
+    "explanation": "3NF অর্জনের মূল শর্ত হলো টেবিলকে 2NF হতে হবে এবং কোনো ট্রানজিটিভ ডিপেনডেন্সি থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1424,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "Boyce-Codd Normal Form (BCNF)-এর কঠোরতম শর্তটি কী? [মডেল সেট #18]",
+    "options": [
+      "A) টেবিলটিতে কমপক্ষে ৩টি কলাম থাকতে হবে",
+      "B) প্রতিটি কার্যকর ফাংশনাল ডিপেনডেন্সি X -> Y তে X-কে অবশ্যই সুপারকী (Super Key) হতে হবে",
+      "C) ডানপাশের অ্যাট্রিবিউট প্রাইম হতে হবে",
+      "D) কোনো নাল ভ্যালু রাখা যাবে না"
+    ],
+    "answer": 1,
+    "explanation": "BCNF-এ প্রতিটি নির্ধারক (Determinant) X কে আবশ্যিকভাবে একটি সুপারকী হতে হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1425,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ GROUP BY ক্লজের সাথে এগ্রিগেট ফাংশনের ওপর শর্ত আরোপ করতে কোন ক্লজ ব্যবহৃত হয়? [মডেল সেট #18]",
+    "options": [
+      "A) WHERE",
+      "B) HAVING",
+      "C) ORDER BY",
+      "D) LIMIT"
+    ],
+    "answer": 1,
+    "explanation": "WHERE ক্লজ দিয়ে একক রো ফিল্টার করা হয়, আর HAVING ক্লজ দিয়ে গ্রুপভিত্তিক এগ্রিগেট তথ্যের ওপর শর্ত দেওয়া হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1426,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ কোনো টেবিল থেকে সমস্ত রেকর্ড দ্রুততম উপায়ে মুছে ফেলতে এবং রোলব্যাকের সুযোগ না রাখতে কোনটি ব্যবহৃত হয়? [মডেল সেট #18]",
+    "options": [
+      "A) DELETE",
+      "B) DROP",
+      "C) TRUNCATE",
+      "D) REMOVE"
+    ],
+    "answer": 2,
+    "explanation": "TRUNCATE একটি DDL কমান্ড যা ট্রানজ্যাকশন লগ না রেখে টেবিল ডি-অ্যালোকেট করে সমস্ত রেকর্ড একসাথে মুছে দেয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1427,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL কমান্ড ক্যাটাগরিতে নিচের কোনটি DML (Data Manipulation Language) কমান্ড? [মডেল সেট #18]",
+    "options": [
+      "A) CREATE",
+      "B) ALTER",
+      "C) UPDATE",
+      "D) GRANT"
+    ],
+    "answer": 2,
+    "explanation": "SELECT, INSERT, UPDATE, DELETE হলো DML কমান্ড।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1428,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল এলজেব্রায় সিলেকশন (Selection) অপারেশনের গাণিতিক প্রতীক কোনটি? [মডেল সেট #18]",
+    "options": [
+      "A) Π (Pi)",
+      "B) σ (Sigma)",
+      "C) ⨝ (Bowtie)",
+      "D) ρ (Rho)"
+    ],
+    "answer": 1,
+    "explanation": "সিগমা (σ) দিয়ে নির্দিষ্ট শর্তে রো সিলেক্ট করা হয়, আর পাই (Π) দিয়ে প্রজেকশন বা কলাম সিলেক্ট করা হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1429,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে ফরেন কী (Foreign Key) কোন ইন্টিগ্রিটি বজায় রাখে? [মডেল সেট #18]",
+    "options": [
+      "A) Entity Integrity",
+      "B) Referential Integrity",
+      "C) Domain Integrity",
+      "D) User-defined Integrity"
+    ],
+    "answer": 1,
+    "explanation": "ফরেন কী দুটি টেবিলের মাঝে রেফারেন্সিয়াল ইন্টিগ্রিটি (Referential Integrity) নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1430,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজ্যাকশনের ACID বৈশিষ্ট্যের মধ্যে 'I' দ্বারা কী বোঝায়? [মডেল সেট #18]",
+    "options": [
+      "A) Integrity",
+      "B) Isolation",
+      "C) Iteration",
+      "D) Indexing"
+    ],
+    "answer": 1,
+    "explanation": "Isolation নিশ্চিত করে যে একাধিক ট্রানজ্যাকশন সমান্তরালে চললেও একে অন্যের অন্তর্বর্তী ফলাফল দেখতে পাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1431,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে প্রতিটি অ্যাট্রিবিউটের মানকে অবিভাজ্য (Atomic) রাখার শর্ত কোন নরমাল ফর্মের? [মডেল সেট #19]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) BCNF"
+    ],
+    "answer": 0,
+    "explanation": "1NF (First Normal Form) শর্ত অনুযায়ী প্রতিটি কলামে অ্যাটমিক ভ্যালু থাকতে হবে এবং কোনো রিপিটিং গ্রুপ থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1432,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "2NF (Second Normal Form) অর্জনের মূল শর্ত কোনটি? [মডেল সেট #19]",
+    "options": [
+      "A) 1NF হতে হবে এবং কোনো আংশিক নির্ভরতা (Partial Dependency) থাকা যাবে না",
+      "B) ট্রানজিটিভ নির্ভরতা দূর করতে হবে",
+      "C) মাল্টিভ্যালুড নির্ভরতা দূর করতে হবে",
+      "D) কোনো ফরেন কী থাকা যাবে না"
+    ],
+    "answer": 0,
+    "explanation": "2NF হতে হলে টেবিলকে 1NF হতে হবে এবং কোনো নন-প্রাইম অ্যাট্রিবিউট কম্পোজিট প্রাইমারি কী-র আংশিক অংশের ওপর নির্ভর করতে পারবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1433,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজিটিভ নির্ভরতা (Transitive Dependency: A -> B এবং B -> C) দূর করা কোন নরমাল ফর্মের মূল লক্ষ্য? [মডেল সেট #19]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) 4NF"
+    ],
+    "answer": 2,
+    "explanation": "3NF অর্জনের মূল শর্ত হলো টেবিলকে 2NF হতে হবে এবং কোনো ট্রানজিটিভ ডিপেনডেন্সি থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1434,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "Boyce-Codd Normal Form (BCNF)-এর কঠোরতম শর্তটি কী? [মডেল সেট #19]",
+    "options": [
+      "A) টেবিলটিতে কমপক্ষে ৩টি কলাম থাকতে হবে",
+      "B) প্রতিটি কার্যকর ফাংশনাল ডিপেনডেন্সি X -> Y তে X-কে অবশ্যই সুপারকী (Super Key) হতে হবে",
+      "C) ডানপাশের অ্যাট্রিবিউট প্রাইম হতে হবে",
+      "D) কোনো নাল ভ্যালু রাখা যাবে না"
+    ],
+    "answer": 1,
+    "explanation": "BCNF-এ প্রতিটি নির্ধারক (Determinant) X কে আবশ্যিকভাবে একটি সুপারকী হতে হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1435,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ GROUP BY ক্লজের সাথে এগ্রিগেট ফাংশনের ওপর শর্ত আরোপ করতে কোন ক্লজ ব্যবহৃত হয়? [মডেল সেট #19]",
+    "options": [
+      "A) WHERE",
+      "B) HAVING",
+      "C) ORDER BY",
+      "D) LIMIT"
+    ],
+    "answer": 1,
+    "explanation": "WHERE ক্লজ দিয়ে একক রো ফিল্টার করা হয়, আর HAVING ক্লজ দিয়ে গ্রুপভিত্তিক এগ্রিগেট তথ্যের ওপর শর্ত দেওয়া হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1436,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ কোনো টেবিল থেকে সমস্ত রেকর্ড দ্রুততম উপায়ে মুছে ফেলতে এবং রোলব্যাকের সুযোগ না রাখতে কোনটি ব্যবহৃত হয়? [মডেল সেট #19]",
+    "options": [
+      "A) DELETE",
+      "B) DROP",
+      "C) TRUNCATE",
+      "D) REMOVE"
+    ],
+    "answer": 2,
+    "explanation": "TRUNCATE একটি DDL কমান্ড যা ট্রানজ্যাকশন লগ না রেখে টেবিল ডি-অ্যালোকেট করে সমস্ত রেকর্ড একসাথে মুছে দেয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1437,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL কমান্ড ক্যাটাগরিতে নিচের কোনটি DML (Data Manipulation Language) কমান্ড? [মডেল সেট #19]",
+    "options": [
+      "A) CREATE",
+      "B) ALTER",
+      "C) UPDATE",
+      "D) GRANT"
+    ],
+    "answer": 2,
+    "explanation": "SELECT, INSERT, UPDATE, DELETE হলো DML কমান্ড।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1438,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল এলজেব্রায় সিলেকশন (Selection) অপারেশনের গাণিতিক প্রতীক কোনটি? [মডেল সেট #19]",
+    "options": [
+      "A) Π (Pi)",
+      "B) σ (Sigma)",
+      "C) ⨝ (Bowtie)",
+      "D) ρ (Rho)"
+    ],
+    "answer": 1,
+    "explanation": "সিগমা (σ) দিয়ে নির্দিষ্ট শর্তে রো সিলেক্ট করা হয়, আর পাই (Π) দিয়ে প্রজেকশন বা কলাম সিলেক্ট করা হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1439,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে ফরেন কী (Foreign Key) কোন ইন্টিগ্রিটি বজায় রাখে? [মডেল সেট #19]",
+    "options": [
+      "A) Entity Integrity",
+      "B) Referential Integrity",
+      "C) Domain Integrity",
+      "D) User-defined Integrity"
+    ],
+    "answer": 1,
+    "explanation": "ফরেন কী দুটি টেবিলের মাঝে রেফারেন্সিয়াল ইন্টিগ্রিটি (Referential Integrity) নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1440,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজ্যাকশনের ACID বৈশিষ্ট্যের মধ্যে 'I' দ্বারা কী বোঝায়? [মডেল সেট #19]",
+    "options": [
+      "A) Integrity",
+      "B) Isolation",
+      "C) Iteration",
+      "D) Indexing"
+    ],
+    "answer": 1,
+    "explanation": "Isolation নিশ্চিত করে যে একাধিক ট্রানজ্যাকশন সমান্তরালে চললেও একে অন্যের অন্তর্বর্তী ফলাফল দেখতে পাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1441,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে প্রতিটি অ্যাট্রিবিউটের মানকে অবিভাজ্য (Atomic) রাখার শর্ত কোন নরমাল ফর্মের? [মডেল সেট #20]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) BCNF"
+    ],
+    "answer": 0,
+    "explanation": "1NF (First Normal Form) শর্ত অনুযায়ী প্রতিটি কলামে অ্যাটমিক ভ্যালু থাকতে হবে এবং কোনো রিপিটিং গ্রুপ থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1442,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "2NF (Second Normal Form) অর্জনের মূল শর্ত কোনটি? [মডেল সেট #20]",
+    "options": [
+      "A) 1NF হতে হবে এবং কোনো আংশিক নির্ভরতা (Partial Dependency) থাকা যাবে না",
+      "B) ট্রানজিটিভ নির্ভরতা দূর করতে হবে",
+      "C) মাল্টিভ্যালুড নির্ভরতা দূর করতে হবে",
+      "D) কোনো ফরেন কী থাকা যাবে না"
+    ],
+    "answer": 0,
+    "explanation": "2NF হতে হলে টেবিলকে 1NF হতে হবে এবং কোনো নন-প্রাইম অ্যাট্রিবিউট কম্পোজিট প্রাইমারি কী-র আংশিক অংশের ওপর নির্ভর করতে পারবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1443,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজিটিভ নির্ভরতা (Transitive Dependency: A -> B এবং B -> C) দূর করা কোন নরমাল ফর্মের মূল লক্ষ্য? [মডেল সেট #20]",
+    "options": [
+      "A) 1NF",
+      "B) 2NF",
+      "C) 3NF",
+      "D) 4NF"
+    ],
+    "answer": 2,
+    "explanation": "3NF অর্জনের মূল শর্ত হলো টেবিলকে 2NF হতে হবে এবং কোনো ট্রানজিটিভ ডিপেনডেন্সি থাকা যাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1444,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "Boyce-Codd Normal Form (BCNF)-এর কঠোরতম শর্তটি কী? [মডেল সেট #20]",
+    "options": [
+      "A) টেবিলটিতে কমপক্ষে ৩টি কলাম থাকতে হবে",
+      "B) প্রতিটি কার্যকর ফাংশনাল ডিপেনডেন্সি X -> Y তে X-কে অবশ্যই সুপারকী (Super Key) হতে হবে",
+      "C) ডানপাশের অ্যাট্রিবিউট প্রাইম হতে হবে",
+      "D) কোনো নাল ভ্যালু রাখা যাবে না"
+    ],
+    "answer": 1,
+    "explanation": "BCNF-এ প্রতিটি নির্ধারক (Determinant) X কে আবশ্যিকভাবে একটি সুপারকী হতে হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1445,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ GROUP BY ক্লজের সাথে এগ্রিগেট ফাংশনের ওপর শর্ত আরোপ করতে কোন ক্লজ ব্যবহৃত হয়? [মডেল সেট #20]",
+    "options": [
+      "A) WHERE",
+      "B) HAVING",
+      "C) ORDER BY",
+      "D) LIMIT"
+    ],
+    "answer": 1,
+    "explanation": "WHERE ক্লজ দিয়ে একক রো ফিল্টার করা হয়, আর HAVING ক্লজ দিয়ে গ্রুপভিত্তিক এগ্রিগেট তথ্যের ওপর শর্ত দেওয়া হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1446,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL-এ কোনো টেবিল থেকে সমস্ত রেকর্ড দ্রুততম উপায়ে মুছে ফেলতে এবং রোলব্যাকের সুযোগ না রাখতে কোনটি ব্যবহৃত হয়? [মডেল সেট #20]",
+    "options": [
+      "A) DELETE",
+      "B) DROP",
+      "C) TRUNCATE",
+      "D) REMOVE"
+    ],
+    "answer": 2,
+    "explanation": "TRUNCATE একটি DDL কমান্ড যা ট্রানজ্যাকশন লগ না রেখে টেবিল ডি-অ্যালোকেট করে সমস্ত রেকর্ড একসাথে মুছে দেয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1447,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "SQL কমান্ড ক্যাটাগরিতে নিচের কোনটি DML (Data Manipulation Language) কমান্ড? [মডেল সেট #20]",
+    "options": [
+      "A) CREATE",
+      "B) ALTER",
+      "C) UPDATE",
+      "D) GRANT"
+    ],
+    "answer": 2,
+    "explanation": "SELECT, INSERT, UPDATE, DELETE হলো DML কমান্ড।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1448,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল এলজেব্রায় সিলেকশন (Selection) অপারেশনের গাণিতিক প্রতীক কোনটি? [মডেল সেট #20]",
+    "options": [
+      "A) Π (Pi)",
+      "B) σ (Sigma)",
+      "C) ⨝ (Bowtie)",
+      "D) ρ (Rho)"
+    ],
+    "answer": 1,
+    "explanation": "সিগমা (σ) দিয়ে নির্দিষ্ট শর্তে রো সিলেক্ট করা হয়, আর পাই (Π) দিয়ে প্রজেকশন বা কলাম সিলেক্ট করা হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1449,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "রিলেশনাল ডেটাবেজে ফরেন কী (Foreign Key) কোন ইন্টিগ্রিটি বজায় রাখে? [মডেল সেট #20]",
+    "options": [
+      "A) Entity Integrity",
+      "B) Referential Integrity",
+      "C) Domain Integrity",
+      "D) User-defined Integrity"
+    ],
+    "answer": 1,
+    "explanation": "ফরেন কী দুটি টেবিলের মাঝে রেফারেন্সিয়াল ইন্টিগ্রিটি (Referential Integrity) নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  },
+  {
+    "id": 1450,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems & SQL",
+    "question": "ট্রানজ্যাকশনের ACID বৈশিষ্ট্যের মধ্যে 'I' দ্বারা কী বোঝায়? [মডেল সেট #20]",
+    "options": [
+      "A) Integrity",
+      "B) Isolation",
+      "C) Iteration",
+      "D) Indexing"
+    ],
+    "answer": 1,
+    "explanation": "Isolation নিশ্চিত করে যে একাধিক ট্রানজ্যাকশন সমান্তরালে চললেও একে অন্যের অন্তর্বর্তী ফলাফল দেখতে পাবে না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "dbms",
+      "sql",
+      "normalization"
+    ]
+  }
+]

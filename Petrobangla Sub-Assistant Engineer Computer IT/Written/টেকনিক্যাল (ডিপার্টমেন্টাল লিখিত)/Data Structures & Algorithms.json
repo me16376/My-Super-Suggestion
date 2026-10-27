@@ -1,0 +1,155 @@
+[
+  {
+    "id": 57,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "Data Structures & Algorithms",
+    "question": "একটি একক লিংকড লিস্টের (Singly Linked List) প্রতিটি নোড রিভার্স (Reverse) করার জন্য C ফাংশনটি ৩টি পয়েন্টার (`prev`, `curr`, `next`) ব্যবহার করে লিখুন। টাইম ও স্পেস কমপ্লেক্সিটি উল্লেখ করুন।",
+    "marks": 10,
+    "answer": "লিংকড লিস্ট রিভার্স করার C কোড:\n```c\n#include <stdio.h>\n#include <stdlib.h>\n\nstruct Node {\n    int data;\n    struct Node* next;\n};\n\nstruct Node* reverseList(struct Node* head) {\n    struct Node *prev = NULL;\n    struct Node *curr = head;\n    struct Node *next = NULL;\n    \n    while (curr != NULL) {\n        next = curr->next; // পরবর্তী নোড সেভ করি\n        curr->next = prev; // পেছনের নোডে পয়েন্টার ঘুরিয়ে দিই\n        prev = curr;       // prev কে এক ধাপ সামনে নিই\n        curr = next;       // curr কে এক ধাপ সামনে নিই\n    }\n    return prev; // নতুন হেড\n}\n```\nকমপ্লেক্সিটি বিশ্লেষণ:\n• Time Complexity: O(n) — প্রতিটি নোড একবার করে ভিজিট করা হয়।\n• Space Complexity: O(1) — মাত্র ৩টি পয়েন্টার মেমরি ব্যবহার করায় এটি ইন-প্লেস অ্যালগরিদম।",
+    "points_to_remember": [
+      "লিংকড লিস্ট রিভার্স করার জন্য ৩টি পয়েন্টারের ক্রম: `next = curr->next`, `curr->next = prev`, `prev = curr`, `curr = next`।"
+    ],
+    "tags": [
+      "buet_written",
+      "algorithms",
+      "linked_list",
+      "reverse_linked_list"
+    ]
+  },
+  {
+    "id": 58,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "Data Structures & Algorithms",
+    "question": "ইনফিক্স (Infix) এক্সপ্রেশনকে পোস্টফিক্স (Postfix) এ রূপান্তর করো স্ট্যাক (Stack) ব্যবহার করে:\nএক্সপ্রেশন: `A + B * (C - D) / E`\nপ্রতিটি স্টেপের স্ট্যাকের অবস্থা ও আউটপুট ছক আকারে দেখাও।",
+    "marks": 10,
+    "answer": "ইনফিক্স থেকে পোস্টফিক্স রূপান্তর ছক:\n\n| টোকেন | স্ট্যাক (Stack) | পোস্টফিক্স আউটপুট |\n| :---: | :--- | :--- |\n| A | [খালি] | A |\n| + | + | A |\n| B | + | A B |\n| * | + * | A B |\n| ( | + * ( | A B |\n| C | + * ( | A B C |\n| - | + * ( - | A B C |\n| D | + * ( - | A B C D |\n| ) | + * ( ')' আসায় '(' পর্যন্ত পপ হবে ) | A B C D - |\n| / | + / (যেহেতু '*' ও '/' এর সমান অগ্রাধিকার, '*' পপ হবে) | A B C D - * |\n| E | + / | A B C D - * E |\n| End | খালি হবে | A B C D - * E / + |\n\nচূড়ান্ত পোস্টফিক্স এক্সপ্রেশন:\n`A B C D - * E / +`",
+    "points_to_remember": [
+      "প্যারেন্থেসিস '(' স্ট্যাকের ভেতরে সবচেয়ে কম অগ্রাধিকার পায়, কিন্তু বাইরে থাকার সময় সবচেয়ে বেশি অগ্রাধিকার পায়।"
+    ],
+    "tags": [
+      "buet_written",
+      "algorithms",
+      "stack",
+      "infix_to_postfix"
+    ]
+  },
+  {
+    "id": 59,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের C ইমপ্লিমেন্টেশন লিখুন। বাইনারি সার্চ কাজ করার পূর্বশর্ত কী? লিনিয়ার সার্চের তুলনায় এটি কেন বহুগুণ দ্রুত?",
+    "marks": 8,
+    "answer": "পূর্বশর্ত:\nঅ্যারে বা ডেটাসেটটিকে অবশ্যই পূর্বে সাজানো (Sorted in ascending/descending order) থাকতে হবে।\n\nC কোড:\n```c\nint binarySearch(int arr[], int n, int target) {\n    int low = 0, high = n - 1;\n    while (low <= high) {\n        int mid = low + (high - low) / 2;\n        if (arr[mid] == target) return mid;\n        if (arr[mid] < target) low = mid + 1;\n        else high = mid - 1;\n    }\n    return -1; // পাওয়া না গেলে\n}\n```\nলিনিয়ার সার্চের চেয়ে দ্রুত হওয়ার কারণ:\n• লিনিয়ার সার্চ প্রতি পদক্ষেপে মাত্র ১টি উপাদান বাদ দেয়, তাই এর জটিলতা O(n)। ১০ লক্ষ উপাদানের জন্য ১০ লক্ষ তুলনা লাগতে পারে।\n• বাইনারি সার্চ প্রতি পদক্ষেপে অনুসন্ধান পরিসর অর্ধেক (Divide and Conquer) করে ফেলে। ফলে এর জটিলতা O(log2 n)। ১০ লক্ষ উপাদানের ভেতর সর্বোচ্চ মাত্র ২০টি তুলনাতেই উপাদান খুঁজে পাওয়া সম্ভব!",
+    "points_to_remember": [
+      "`mid = low + (high - low) / 2` ব্যবহার করা ভালো কারণ এটি `(low + high)` এর ইন্টিজার ওভারফ্লো প্রতিরোধ করে।"
+    ],
+    "tags": [
+      "buet_written",
+      "algorithms",
+      "binary_search",
+      "divide_and_conquer"
+    ]
+  },
+  {
+    "id": 60,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) এবং মার্জ সর্ট (Merge Sort) এর মধ্যে ৪টি মূল পার্থক্য লিখুন। কুইক সর্টের Worst-case Time Complexity কখন ঘটে এবং কীভাবে তা পরিহার করা যায়?",
+    "marks": 8,
+    "answer": "পার্থক্য ছক:\n১. দর্শন: কুইক সর্ট পার্টিশনিং করে সাজায় | মার্জ সর্ট বিভক্ত করে জয়েন করার সময় সাজায়।\n২. মেমরি স্পেস: কুইক সর্ট ইন-প্লেস O(1) অতিরিক্ত মেমরি নেয় | মার্জ সর্ট O(n) অতিরিক্ত মেমরি নেয়।\n৩. স্ট্যাবিলিটি: কুইক সর্ট আনস্টেবল (Unstable) | মার্জ সর্ট স্টেবল (Stable)।\n৪. গড় জটিলতা: উভয়েরই গড় জটিলতা O(n log n)।\n\nকুইক সর্টের Worst-case ও পরিহারের উপায়:\n• কখন ঘটে: যখন অ্যারেটি আগে থেকেই সম্পূর্ণ সাজানো (Sorted) থাকে এবং প্রথম বা শেষ উপাদানকে পিভট (Pivot) নির্বাচন করা হয়, তখন পার্টিশন অত্যন্ত অসমান (1 এবং n-1) হয়। ফলে জটিলতা O(n^2) এ নেমে যায়।\n• পরিহারের উপায়: Randomized Pivot নির্বাচন করা অথবা 'Median-of-three' পিভট সিলেকশন পদ্ধতি ব্যবহার করা।",
+    "points_to_remember": [
+      "র‍্যান্ডম পিভট ব্যবহার করলে কুইক সর্টের O(n^2) ওর্স্ট-কেস কার্যত অসম্ভব হয়ে পড়ে।"
+    ],
+    "tags": [
+      "buet_written",
+      "algorithms",
+      "quick_sort",
+      "merge_sort"
+    ]
+  },
+  {
+    "id": 71,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "Data Structures & Algorithms",
+    "question": "লিংকড লিস্টে লুপ বা সাইকেল শনাক্তকরণ (Floyd's Cycle-Finding Algorithm / Tortoise and Hare): অ্যালগরিদমটি C কোডসহ ব্যাখ্যা করো। টাইম ও স্পেস কমপ্লেক্সিটি কত?",
+    "marks": 10,
+    "answer": "অ্যালগরিদম ব্যাখ্যা:\nদুটি পয়েন্টার নেওয়া হয়: স্লো পয়েন্টার (`slow`) প্রতি পদক্ষেপে ১ ধাপ এগোয় এবং ফাস্ট পয়েন্টার (`fast`) প্রতি পদক্ষেপে ২ ধাপ এগোয়। যদি লিস্টে কোনো লুপ থাকে, তবে ফাস্ট পয়েন্টার চক্রাকারে ঘুরে একসময় স্লো পয়েন্টারকে ধরে ফেলবে (`slow == fast`)। আর যদি কোনো লুপ না থাকে, তবে ফাস্ট পয়েন্টার সবার আগে `NULL`-এ পৌঁছে যাবে।\n\nC কোড:\n```c\nint detectCycle(struct Node* head) {\n    struct Node *slow = head, *fast = head;\n    while (fast != NULL && fast->next != NULL) {\n        slow = slow->next;         // ১ ধাপ\n        fast = fast->next->next;   // ২ ধাপ\n        if (slow == fast) return 1; // লুপ বিদ্যমান!\n    }\n    return 0; // কোনো লুপ নেই\n}\n```\nজটিলতা:\n• Time Complexity: O(n) — লুপের ভেতরে ফাস্ট পয়েন্টার দ্রুত স্লোকে অতিক্রম করে।\n• Space Complexity: O(1) — কোনো অতিরিক্ত মেমরি লাগে না।",
+    "points_to_remember": [
+      "ফ্লয়েডের কচ্ছপ ও খরগোশ অ্যালগরিদম O(1) অতিরিক্ত মেমরিতে লিংকড লিস্ট লুপ ডিটেকশনের বিশ্বসেরা সমাধান।"
+    ],
+    "tags": [
+      "buet_written",
+      "algorithms",
+      "floyds_cycle",
+      "linked_list"
+    ]
+  },
+  {
+    "id": 72,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "Data Structures & Algorithms",
+    "question": "দুটি স্ট্যাক (Stack 1 এবং Stack 2) ব্যবহার করে একটি কিউ (Queue) কীভাবে বাস্তবায়ন করা যায়? Enqueue এবং Dequeue অপারেশনের অ্যালগরিদম লিখুন।",
+    "marks": 8,
+    "answer": "২টি স্ট্যাক দিয়ে কিউ আর্কিটেকচার:\nস্ট্যাক হলো LIFO (Last-In-First-Out) কিন্তু কিউ হলো FIFO (First-In-First-Out)। দুটি স্ট্যাক ব্যবহার করে ক্রমানুসারে উপাদান উল্টে দিলেই FIFO আচরণ পাওয়া যায়।\n\nঅ্যালগরিদম:\n১. Enqueue(x) অপারেশন:\n   - সরাসরি উপাদান `x`-কে Stack 1 এ পুশ (Push) করি।\n   - জটিলতা: O(1)।\n\n২. Dequeue() অপারেশন:\n   - যদি Stack 2 খালি না থাকে, তবে Stack 2 থেকে সরাসরি পপ (Pop) করে মান রিটার্ন করি।\n   - যদি Stack 2 খালি থাকে, তবে Stack 1 এর সমস্ত উপাদান একে একে পপ করে Stack 2-তে পুশ করি। তারপর Stack 2 থেকে পপ করি।\n   - যদি উভয় স্ট্যাক খালি থাকে, তবে Queue Underflow।\n   - গড় অ্যামর্টাইজড জটিলতা: O(1)।",
+    "points_to_remember": [
+      "Stack 1 ইনপুটের জন্য এবং Stack 2 আউটপুটের জন্য ব্যবহৃত হয়।"
+    ],
+    "tags": [
+      "buet_written",
+      "algorithms",
+      "queue_using_stacks",
+      "data_structures"
+    ]
+  },
+  {
+    "id": 73,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "Data Structures & Algorithms",
+    "question": "নিচের উপাদানগুলো ক্রমানুসারে ইনসার্ট করে একটি Binary Search Tree (BST) তৈরি করো:\nইনপুট ক্রম: 50, 30, 70, 20, 40, 60, 80\n(ক) গঠিত BST-টি অঙ্কন করো।\n(খ) এর Inorder, Preorder এবং Postorder ট্রাভার্সাল লিখুন।",
+    "marks": 10,
+    "answer": "BST গঠন ও সমাধান:\n\n(ক) BST গঠন:\n• Root = 50\n• 30 < 50 => 50-এর বামে 30\n• 70 > 50 => 50-এর ডানে 70\n• 20 < 30 => 30-এর বামে 20\n• 40 > 30 => 30-এর ডানে 40\n• 60 < 70 => 70-এর বামে 60\n• 80 > 70 => 70-এর ডানে 80\n\nট্রি স্ট্রাকচার:\n        50\n       /  \\\n     30    70\n    /  \\  /  \\\n   20  40 60  80\n\n(খ) ট্রাভার্সাল:\n১. Inorder (Left, Root, Right): 20, 30, 40, 50, 60, 70, 80 (সর্বদা Ascending Order এ সাজানো থাকে!)\n২. Preorder (Root, Left, Right): 50, 30, 20, 40, 70, 60, 80\n৩. Postorder (Left, Right, Root): 20, 40, 30, 60, 80, 70, 50",
+    "points_to_remember": [
+      "যেকোনো Binary Search Tree (BST)-এর Inorder ট্রাভার্সাল সবসময় উপাদানগুলোকে ছোট থেকে বড় ক্রমে সাজিয়ে দেয়।"
+    ],
+    "tags": [
+      "buet_written",
+      "algorithms",
+      "bst",
+      "tree_traversal"
+    ]
+  },
+  {
+    "id": 74,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "Data Structures & Algorithms",
+    "question": "একটি গাণিতিক রাশিতে বন্ধনী সঠিক আছে কিনা (Balanced Parentheses Checker) তা স্ট্যাকের সাহায্যে যাচাই করার অ্যালগরিদম ব্যাখ্যা করো। `{[()()]}` এবং `[(])` এর জন্য স্ট্যাক ট্রেস দেখাও।",
+    "marks": 8,
+    "answer": "অ্যালগরিদম:\n১. এক্সপ্রেশনের প্রতিটি ক্যারেক্টার বাম থেকে ডানে স্ক্যান করি।\n২. ওপেনিং বন্ধনী `(`, `{`, `[` পেলে স্ট্যাকে পুশ করি।\n৩. ক্লোজিং বন্ধনী `)`, `}`, `]` পেলে স্ট্যাকের শীর্ষ থেকে উপাদান পপ করি এবং ম্যাচিং বন্ধনী কিনা যাচাই করি। ম্যাচ না করলে বা স্ট্যাক আগে থেকেই খালি থাকলে বন্ধনী ভারসাম্যহীন (Unbalanced)।\n৪. স্ক্যান শেষে স্ট্যাক সম্পূর্ণ খালি থাকলে এক্সপ্রেশনটি ব্যালেন্সড।\n\nট্রেস ১: `{[()()]}`\n- `{`, `[` স্ট্যাকে ঢুকে -> `(` ঢুকে -> `)` আসায় `(` পপ হয় -> `(` ঢুকে -> `)` আসায় `(` পপ হয় -> `]` আসায় `[` পপ হয় -> `}` আসায় `{` পপ হয়। শেষে স্ট্যাক খালি => ব্যালেন্সড (Valid)!\n\nট্রেস ২: `[(])`\n- `[`, `(` স্ট্যাকে ঢুকে -> `]` আসায় স্ট্যাকের শীর্ষে আছে `(` যা ম্যাচ করে না => ভারসাম্যহীন (Invalid)!",
+    "points_to_remember": [
+      "কম্পাইলার সিনট্যাক্স ভ্যালিডেশনের জন্য স্ট্যাক ভিত্তিক বন্ধনী চেকার ব্যবহার করে।"
+    ],
+    "tags": [
+      "buet_written",
+      "algorithms",
+      "stack",
+      "balanced_parentheses"
+    ]
+  },
+  {
+    "id": 75,
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "Data Structures & Algorithms",
+    "question": "সার্কুলার কিউ (Circular Queue) কী? লিনিয়ার কিউ-এর মেমরি অপচয় সমস্যা সার্কুলার কিউ কীভাবে মডিউলো `%` অ্যারিথমেটিক দিয়ে সমাধান করে? Full ও Empty শর্ত লিখুন।",
+    "marks": 8,
+    "answer": "সার্কুলার কিউ সংজ্ঞা:\nযে কিউ-তে অ্যারের শেষ ইনডেক্সের পর পুনরায় প্রথম ইনডেক্স সংযুক্ত করে একটি বৃত্তাকার রিংয়ের মতো পরিচালনা করা হয় তাকে সার্কুলার কিউ বলে।\n\nলিনিয়ার কিউ-এর সমস্যা ও সমাধান:\nলিনিয়ার কিউ-তে সামনের উপাদানগুলো Dequeue করে ফেললেও পেছনের `rear` একবার অ্যারের শেষ প্রান্তে পৌঁছালে সামনে খালি জায়গা থাকা সত্ত্বেও আর নতুন উপাদান ঢোকানো যায় না (Memory waste)।\nসার্কুলার কিউ-তে মডিউলো `%` অপারেটর ব্যবহার করে `rear = (rear + 1) % MAX_SIZE` করা হয়, ফলে `rear` শেষ ইনডেক্স থেকে ঘুরে স্বয়ংক্রিয়ভাবে ইনডেক্স 0-তে চলে আসে।\n\nশর্তসমূহ:\n১. Queue Empty শর্ত: `front == -1` (বা `front == rear` যদি এক ঘর খালি রাখার নিয়মে করা হয়)।\n২. Queue Full শর্ত: `(rear + 1) % MAX_SIZE == front`।\n৩. Enqueue: `rear = (rear + 1) % MAX_SIZE; arr[rear] = item;`\n৪. Dequeue: `item = arr[front]; front = (front + 1) % MAX_SIZE;`",
+    "points_to_remember": [
+      "মডিউলো `%` অপারেটর সার্কুলার কিউ-তে ইনডেক্স র‍্যাপ-অ্যারাউন্ড (Wrap around) নিশ্চিত করে।"
+    ],
+    "tags": [
+      "buet_written",
+      "algorithms",
+      "circular_queue",
+      "data_structures"
+    ]
+  }
+]

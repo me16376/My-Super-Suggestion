@@ -1,0 +1,21 @@
+[
+  {
+    "id": 40045,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "কম্পিউটার পোর্ট ও ক্যাবল",
+    "question": "LAN ক্যাবলের মাথায় কোন আরজে (RJ) কানেক্টরটি ব্যবহৃত হয়?",
+    "options": [
+      "A) RJ-11",
+      "B) RJ-45",
+      "C) RJ-12",
+      "D) USB-C"
+    ],
+    "answer": 1,
+    "explanation": "ইথারনেট বা LAN ক্যাবলে ৮ পিনের RJ-45 (Registered Jack-45) কানেক্টর ব্যবহৃত হয়। টেলিফোন লাইনে ৪ পিনের RJ-11 ব্যবহৃত হয়।",
+    "tags": [
+      "computer_trade",
+      "cabling",
+      "networking"
+    ]
+  }
+]

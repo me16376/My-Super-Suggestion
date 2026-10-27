@@ -1,0 +1,21 @@
+[
+  {
+    "id": 20012,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Articles",
+    "question": "He is ______ European gentleman.",
+    "options": [
+      "A) an",
+      "B) a",
+      "C) the",
+      "D) no article"
+    ],
+    "answer": 1,
+    "explanation": "European শব্দের শুরুতে ভাওয়েল 'E' থাকলেও এর উচ্চারণ 'ইউ' (You)-এর মতো হওয়ায় এর পূর্বে 'a' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "articles"
+    ]
+  }
+]

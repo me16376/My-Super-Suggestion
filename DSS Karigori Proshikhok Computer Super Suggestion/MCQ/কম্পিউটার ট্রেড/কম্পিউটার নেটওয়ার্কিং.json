@@ -1,0 +1,39 @@
+[
+  {
+    "id": 40041,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "কম্পিউটার নেটওয়ার্কিং",
+    "question": "একটি নির্দিষ্ট ভৌগোলিক এলাকায় যেমন একই রুম বা ভবনের কম্পিউটারগুলোর সংযোগকে কী নেটওয়ার্ক বলে?",
+    "options": [
+      "A) WAN",
+      "B) MAN",
+      "C) LAN",
+      "D) PAN"
+    ],
+    "answer": 2,
+    "explanation": "LAN = Local Area Network। সীমিত এলাকায় (একই অফিস, স্কুল বা ল্যাবরেটরিতে) এই নেটওয়ার্ক তৈরি করা হয়।",
+    "tags": [
+      "computer_trade",
+      "networking"
+    ]
+  },
+  {
+    "id": 40042,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "কম্পিউটার নেটওয়ার্কিং",
+    "question": "ইন্টারনেটে ডোমেন নামকে (যেমন www.google.com) আইপি অ্যাড্রেসে রূপান্তর করে কোনটি?",
+    "options": [
+      "A) DHCP",
+      "B) DNS",
+      "C) FTP",
+      "D) SMTP"
+    ],
+    "answer": 1,
+    "explanation": "DNS = Domain Name System। এটি মানুষের বোধগম্য ডোমেন নামকে কম্পিউটারের পাঠযোগ্য আইপি অ্যাড্রেসে ট্রান্সলেট করে।",
+    "tags": [
+      "computer_trade",
+      "networking",
+      "dns"
+    ]
+  }
+]

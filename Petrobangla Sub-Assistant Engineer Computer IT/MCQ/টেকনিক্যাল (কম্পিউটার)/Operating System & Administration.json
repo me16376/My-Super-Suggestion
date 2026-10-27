@@ -1,0 +1,182 @@
+[
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating System & Administration",
+    "question": "অপারেটিং সিস্টেমে 'PCB'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Program Control Board",
+      "B) Process Control Block",
+      "C) Primary Cache Block",
+      "D) Process Circuit Bus"
+    ],
+    "answer": 1,
+    "explanation": "PCB (Process Control Block) হলো একটি ডেটা স্ট্রাকচার যা প্রতিটি প্রসেসের স্টেট, পিসি, রেজিস্টার ও মেমোরি ইনফরমেশন সংরক্ষণ করে।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2604
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating System & Administration",
+    "question": "সিপিইউ যখন একটি প্রসেস থেকে অন্য প্রসেসে কাজ স্থানান্তর করে, সেই মধ্যবর্তী স্টেট সেভ ও রিস্টোর করার প্রক্রিয়াকে কী বলে?",
+    "options": [
+      "A) Paging",
+      "B) Context Switching",
+      "C) Spooling",
+      "D) Swapping"
+    ],
+    "answer": 1,
+    "explanation": "কনটেক্সট সুইচিং হলো ওএস কার্নেল কর্তৃক চলমান প্রসেসের স্টেট সংরক্ষণ করে নতুন প্রসেসের স্টেট সিপিইউতে লোড করার প্রক্রিয়া।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2605
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating System & Administration",
+    "question": "নিচের কোন সিপিইউ শিডিউলিং অ্যালগরিদমটি কনভয় ইফেক্ট (Convoy Effect) সমস্যায় ভোগে?",
+    "options": [
+      "A) Round Robin",
+      "B) FCFS (First-Come, First-Served)",
+      "C) SJF Preemptive",
+      "D) Priority"
+    ],
+    "answer": 1,
+    "explanation": "FCFS-এ একটি দীর্ঘ প্রসেস আগে সিপিইউ পেয়ে গেলে পেছনের ছোট প্রসেসগুলোকে দীর্ঘক্ষণ অপেক্ষা করতে হয়, একে Convoy Effect বলে।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2606
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating System & Administration",
+    "question": "ভার্চুয়াল মেমোরিতে 'TLB'-এর পূর্ণরূপ কোনটি এবং এর কাজ কী?",
+    "options": [
+      "A) Total Logical Bus",
+      "B) Translation Lookaside Buffer; ভার্চুয়াল থেকে ফিজিক্যাল পেজ অ্যাড্রেস রূপান্তর ক্যাশিং",
+      "C) Temporary Line Buffer",
+      "D) Terminal Level Bridge"
+    ],
+    "answer": 1,
+    "explanation": "TLB হলো হার্ডওয়্যার ক্যাশ মেমোরি যা পেজ টেবিলের ভার্চুয়াল-টু-ফিজিক্যাল অ্যাড্রেস ম্যাপিং দ্রুত সম্পাদন করে।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2607
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating System & Administration",
+    "question": "উইন্ডোজ সার্ভার ডোমেইনে Kerberos প্রোটোকল ডিফল্টভাবে কোন কাজের জন্য ব্যবহৃত হয়?",
+    "options": [
+      "A) ফাইল শেয়ারিং",
+      "B) নেটওয়ার্ক প্রমাণীকরণ (Network Authentication Protocol)",
+      "C) ইমেইল আদান-প্রদান",
+      "D) আইপি অ্যাসাইন"
+    ],
+    "answer": 1,
+    "explanation": "Active Directory ডোমেইন নেটওয়ার্কে টিকিট-ভিত্তিক নিরাপদ প্রমাণীকরণের (Mutual Authentication) জন্য কার্বেরস (Port 88) ব্যবহৃত হয়।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2608
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating System & Administration",
+    "question": "লিনাক্সে একটি ফাইলে নির্দিষ্ট শব্দ কতবার এসেছে তা গণনা করতে grep এর কোন ফ্ল্যাগ ব্যবহৃত হয়?",
+    "options": [
+      "A) grep -i",
+      "B) grep -c",
+      "C) grep -v",
+      "D) grep -l"
+    ],
+    "answer": 1,
+    "explanation": "grep -c (count) মোট কতটি লাইনে মিল পাওয়া গেছে তার সংখ্যা প্রদর্শন করে। -i হলো কেস-ইনসেনসিটিভ।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2609
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating System & Administration",
+    "question": "উইন্ডোজ সার্ভারে DHCP সার্ভারের ডেটাবেজ ব্যাকআপ ফাইল ডিফল্টভাবে কোন ডিরেক্টরিতে জমা থাকে?",
+    "options": [
+      "A) C:\\Program Files\\Dhcp",
+      "B) %SystemRoot%\\System32\\Dhcp\\backup",
+      "C) C:\\Users\\Dhcp",
+      "D) C:\\Windows\\Temp"
+    ],
+    "answer": 1,
+    "explanation": "উইন্ডোজ সার্ভারে DHCP স্কোপ ও লিজ ডাটাবেজ স্বয়ংক্রিয়ভাবে System32\\Dhcp\\backup ফোল্ডারে সংরক্ষিত হয়।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2610
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating System & Administration",
+    "question": "অপারেটিং সিস্টেমের কোন স্তর সরাসরি কম্পিউটারের ফিজিক্যাল হার্ডওয়্যার যন্ত্রাংশের সাথে যোগাযোগ রক্ষা করে?",
+    "options": [
+      "A) Shell",
+      "B) Kernel",
+      "C) GUI",
+      "D) Application Layer"
+    ],
+    "answer": 1,
+    "explanation": "কার্নেল (Kernel) হলো ওএস-এর কেন্দ্রীয় কোর যা মেমোরি, সিপিইউ ও হার্ডওয়্যার ড্রাইভারগুলোর সরাসরি তত্ত্বাবধান করে।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2611
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating System & Administration",
+    "question": "লিনাক্সে কোনো কমান্ডের বিস্তারিত ম্যানুয়াল পৃষ্ঠা পড়ার কমান্ড কোনটি?",
+    "options": [
+      "A) help <command>",
+      "B) man <command>",
+      "C) info <command>",
+      "D) doc <command>"
+    ],
+    "answer": 1,
+    "explanation": "'man' (Manual) কমান্ডের মাধ্যমে যেকোনো লিনাক্স কমান্ডের সিনট্যাক্স, প্যারামিটার ও অপশন বিস্তারিত দেখা যায়।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2612
+  },
+  {
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating System & Administration",
+    "question": "উইন্ডোজে লোকাল সিকিউরিটি পলিসি এডিটর ওপেন করার রান (Run) কমান্ড কোনটি?",
+    "options": [
+      "A) gpedit.msc",
+      "B) secpol.msc",
+      "C) services.msc",
+      "D) devmgmt.msc"
+    ],
+    "answer": 1,
+    "explanation": "secpol.msc দিয়ে Local Security Policy এবং gpedit.msc দিয়ে Group Policy Editor ওপেন করা হয়।",
+    "tags": [
+      "buet_technical",
+      "computer_science_common"
+    ],
+    "id": 2613
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": 2051,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Software Engineering & Cyber Security",
+    "question": "সফটওয়্যার ডেভেলপমেন্ট লাইফ সাইকেলে (SDLC) ওয়াটারফল মডেলের প্রধান সীমাবদ্ধতা কী?",
+    "options": [
+      "A) এতে কোনো ডকুমেন্টেশন থাকে না",
+      "B) পরবর্তী ধাপে যাওয়ার পর পূর্ববর্তী ধাপে ফিরে পরিবর্তন করা অত্যন্ত কঠিন ও ব্যয়বহুল",
+      "C) এটি ছোট প্রজেক্টে চলে না",
+      "D) টেস্ট করা যায় না"
+    ],
+    "answer": 1,
+    "explanation": "Waterfall মডেল একটি রৈখিক সিকোয়েন্সিয়াল মডেল, যাতে গ্রাহকের পরিবর্তিত রিকোয়ারমেন্ট মাঝে গ্রহণ করা অসম্ভব প্রায়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "software_engineering",
+      "agile",
+      "security",
+      "cryptography"
+    ]
+  },
+  {
+    "id": 2052,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Software Engineering & Cyber Security",
+    "question": "অ্যাজাইল (Agile) ফ্রেমওয়ার্কে ২ থেকে ৪ সপ্তাহের ক্ষুদ্র পুনরাবৃত্তিমূলক উন্নয়ন সাইকেলকে কী বলা হয়?",
+    "options": [
+      "A) Waterfall",
+      "B) Sprint",
+      "C) Milestone",
+      "D) Epic"
+    ],
+    "answer": 1,
+    "explanation": "Scrum/Agile-এ নির্দিষ্ট সময়সীমার মধ্যে কার্যকরী সফটওয়্যার রিলিজের চক্রকে Sprint বলা হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "software_engineering",
+      "agile",
+      "security",
+      "cryptography"
+    ]
+  },
+  {
+    "id": 2053,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Software Engineering & Cyber Security",
+    "question": "সফটওয়্যারের অভ্যন্তরীণ কোড স্ট্রাকচার না দেখে কেবল ইনপুট ও আউটপুট যাচাই করে কোন টেস্টিং করা হয়?",
+    "options": [
+      "A) White Box Testing",
+      "B) Black Box Testing",
+      "C) Unit Testing",
+      "D) Mutation Testing"
+    ],
+    "answer": 1,
+    "explanation": "Black Box Testing-এ টেস্টার সফটওয়্যারের ইন্টারনাল কোড জানে না, কেবল ফাংশনাল রিকোয়ারমেন্ট যাচাই করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "software_engineering",
+      "agile",
+      "security",
+      "cryptography"
+    ]
+  },
+  {
+    "id": 2054,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Software Engineering & Cyber Security",
+    "question": "সিমেট্রিক এনক্রিপশনে (Symmetric Encryption) ডেটা এনক্রিপ্ট ও ডিক্রিপ্ট করতে কতটি কী (Key) ব্যবহৃত হয়?",
+    "options": [
+      "A) মাত্র একটি সিক্রেট কী",
+      "B) দুটি আলাদা কী (পাবলিক ও প্রাইভেট)",
+      "C) তিনটি কী",
+      "D) কোনো কী লাগে না"
+    ],
+    "answer": 0,
+    "explanation": "Symmetric Encryption (যেমন AES, DES)-এ এনক্রিপশন ও ডিক্রিপশন উভয়ের জন্য একই সিঙ্গেল সিক্রেট কী ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "software_engineering",
+      "agile",
+      "security",
+      "cryptography"
+    ]
+  },
+  {
+    "id": 2055,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Software Engineering & Cyber Security",
+    "question": "অ্যাসিম্যাট্রিক এনক্রিপশন (Asymmetric Key Cryptography)-এর অন্যতম জনপ্রিয় উদাহরণ কোনটি?",
+    "options": [
+      "A) AES",
+      "B) DES",
+      "C) RSA",
+      "D) Blowfish"
+    ],
+    "answer": 2,
+    "explanation": "RSA হলো পাবলিক-প্রাইভেট কী পেয়ার ভিত্তিক বহুল ব্যবহৃত অ্যাসিম্যাট্রিক অ্যালগরিদম।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "software_engineering",
+      "agile",
+      "security",
+      "cryptography"
+    ]
+  }
+]

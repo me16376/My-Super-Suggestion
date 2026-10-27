@@ -1,0 +1,40 @@
+[
+  {
+    "id": 20007,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Synonyms",
+    "question": "What is the synonym of the word 'Competent'?",
+    "options": [
+      "A) Inefficient",
+      "B) Capable",
+      "C) Lazy",
+      "D) Weak"
+    ],
+    "answer": 1,
+    "explanation": "'Competent' অর্থ দক্ষ বা যোগ্য। এর সমার্থক শব্দ হলো 'Capable' বা 'Skilled'।",
+    "tags": [
+      "english",
+      "vocabulary",
+      "synonym"
+    ]
+  },
+  {
+    "id": 20021,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Synonyms",
+    "question": "What is the synonym of 'Frugal'?",
+    "options": [
+      "A) Economical",
+      "B) Extravagant",
+      "C) Careless",
+      "D) Generous"
+    ],
+    "answer": 0,
+    "explanation": "'Frugal' অর্থ মিতব্যয়ী বা হিসেবী। এর সমার্থক শব্দ হলো 'Economical' বা 'Thrifty'। অপচয়কারী হলো 'Extravagant'।",
+    "tags": [
+      "english",
+      "vocabulary",
+      "synonym"
+    ]
+  }
+]

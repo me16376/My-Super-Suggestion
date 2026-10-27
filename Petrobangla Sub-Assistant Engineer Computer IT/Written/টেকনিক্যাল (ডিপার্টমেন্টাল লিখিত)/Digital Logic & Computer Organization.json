@@ -1,0 +1,83 @@
+[
+  {
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "Digital Logic & Computer Organization",
+    "question": "K-Map ব্যবহার করে ফাংশনটি মিনিমাইজ করো (SOP): F(A, B, C, D) = Σm(0, 2, 5, 7, 8, 10, 13, 15)। লজিক গেট আঁকো।",
+    "marks": 10,
+    "answer": "K-Map সমাধান:\n১. চার কোণা সেল (0, 2, 8, 10) থেকে পাওয়া যায়: B'D' ।\n২. মাঝখানের কলাম সেল (5, 7, 13, 15) থেকে পাওয়া যায়: BD ।\nফলাফল: F = B'D' + BD = (B ⊙ D)  [XNOR গেট]।",
+    "points_to_remember": [
+      "চার কোণার সেলগুলো মিলে ৪-সেলের কোয়াড তৈরি করে।"
+    ],
+    "tags": [
+      "buet_written",
+      "dld",
+      "k_map"
+    ],
+    "id": 137
+  },
+  {
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "Digital Logic & Computer Organization",
+    "question": "Intel 8086 এর IVT আর্কিটেকচার ব্যাখ্যা করুন। NMI এবং INTR এর পার্থক্য কী?",
+    "marks": 8,
+    "answer": "৮০৮৬ IVT:\n১. মেমরির প্রথম ১ কিবি (00000H - 003FFH) ২৫৬টি ইন্টারাপ্ট ভেক্টরের জন্য সংরক্ষিত (প্রতিটি ৪ বাইট)।\n২. NMI (পিন ১৭) সফটওয়্যার দিয়ে মাস্ক করা যায় না (জরুরি পাওয়ার ফেইলিউর/প্যারিটি এরর)।\n৩. INTR (পিন ১৮) IF ফ্ল্যাগ দিয়ে মাস্ক করা যায় (সাধারণ আই/ও ডিভাইস)।",
+    "points_to_remember": [
+      "IVT-র মোট সাইজ ১ কিলোবাইট।"
+    ],
+    "tags": [
+      "buet_written",
+      "microprocessor",
+      "8086",
+      "ivt"
+    ],
+    "id": 139
+  },
+  {
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "Digital Logic & Computer Organization",
+    "question": "৮০৮৬ এর ৪টি অ্যাড্রেসিং মোড (Immediate, Direct, Register Indirect, Based-Indexed) উদাহরণ সহ লিখুন।",
+    "marks": 8,
+    "answer": "অ্যাড্রেসিং মোড:\n১. Immediate: `MOV AX, 1050H` (সরাসরি ডেটা)।\n২. Direct: `MOV AX, [5000H]` (মেমরির অফসেট)।\n৩. Register Indirect: `MOV AX, [BX]` (রেজিস্টারে সংরক্ষিত অফসেট)।\n৪. Based-Indexed: `MOV AX, [BX + SI + 10H]` (ম্যাট্রিক্স/অ্যারে এক্সেস)।",
+    "points_to_remember": [
+      "Based-Indexed মোড স্ট্রাকচার ও দ্বিমাত্রিক অ্যারেতে ব্যবহৃত হয়।"
+    ],
+    "tags": [
+      "buet_written",
+      "microprocessor",
+      "8086"
+    ],
+    "id": 140
+  },
+  {
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "Digital Logic & Computer Organization",
+    "question": "৪-ইনপুট প্রায়োরিটি এনকোডারের ট্রুথ টেবিল ও লজিক সমীকরণ তৈরি করুন।",
+    "marks": 8,
+    "answer": "সমীকরণ: Y1 = D3 + D2; Y0 = D3 + D2' D1; Valid Bit V = D3 + D2 + D1 + D0।\nএকাধিক ইনপুট ১ থাকলে সর্বোচ্চ প্রায়োরিটির কোড আউটপুটে আসে।",
+    "points_to_remember": [
+      "ইন্টারাপ্ট প্রায়োরিটি নির্ধারণে প্রায়োরিটি এনকোডার লাগে।"
+    ],
+    "tags": [
+      "buet_written",
+      "dld",
+      "priority_encoder"
+    ],
+    "id": 141
+  },
+  {
+    "subject": "টেকনিক্যাল (ডিপার্টমেন্টাল লিখিত)",
+    "topic": "Digital Logic & Computer Organization",
+    "question": "৪-বিট জনসন কাউন্টার ও রিং কাউন্টারের পার্থক্য লিখুন। ৪টি ফ্লিপ-ফ্লপ দিয়ে জনসন কাউন্টারে কতটি স্টেট পাওয়া যায়?",
+    "marks": 8,
+    "answer": "জনসন বনাম রিং কাউন্টার:\n• রিং কাউন্টারে n বিটে n স্টেট (৪ বিটে ৪টি স্টেট: 1000 -> 0100 -> 0010 -> 0001)।\n• জনসন কাউন্টারে n বিটে 2n স্টেট পাওয়া যায়। ৪টি ফ্লিপ-ফ্লপ দিয়ে মোট **৮টি স্টেট** উৎপন্ন হয়!",
+    "points_to_remember": [
+      "জনসন কাউন্টারে কম ফ্লিপ-ফ্লপে দ্বিগুণ স্টেট পাওয়া যায়।"
+    ],
+    "tags": [
+      "buet_written",
+      "dld",
+      "johnson_counter"
+    ],
+    "id": 142
+  }
+]

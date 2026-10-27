@@ -1,0 +1,3302 @@
+[
+  {
+    "id": 1901,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "অপারেটিং সিস্টেমে ডেডলক (Deadlock) সৃষ্টির জন্য নিচের কোন ৪টি শর্ত একই সাথে প্রযোজ্য হতে হয়?",
+    "options": [
+      "A) Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait",
+      "B) Aging, Starvation, Paging, Thrashing",
+      "C) Semaphore, Mutex, Monitor, Barrier",
+      "D) FCFS, SJF, Round Robin, Priority"
+    ],
+    "answer": 0,
+    "explanation": "Coffman এর ৪টি শর্ত: মিউচুয়াল এক্সক্লুশন, হোল্ড অ্যান্ড ওয়েট, নো প্রি-এমপশন এবং সার্কুলার ওয়েট একযোগে ঘটলেই কেবল ডেডলক ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1902,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ডেডলক এভয়ডেন্স (Deadlock Avoidance)-এর জন্য বহুল ব্যবহৃত ব্যাংকার্স অ্যালগরিদম (Banker's Algorithm) কোন ধারণার ওপর ভিত্তি করে কাজ করে?",
+    "options": [
+      "A) Mutual Exclusion",
+      "B) Safe State Analysis",
+      "C) Context Switch",
+      "D) Virtual Memory"
+    ],
+    "answer": 1,
+    "explanation": "ব্যাংকার্স অ্যালগরিদম প্রতিটি রিসোর্স বরাদ্দের আগে পরীক্ষা করে সিস্টেম সেফ স্টেটে (Safe State) থাকবে কি না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1903,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ভার্চুয়াল মেমরিতে পেজ ফল্ট (Page Fault) কখন ঘটে?",
+    "options": [
+      "A) যখন পেজটি মেমরিতে উপস্থিত থাকে",
+      "B) যখন কাঙ্ক্ষিত পেজটি র্যাম (RAM)-এ পাওয়া যায় না এবং ডিস্ক থেকে আনতে হয়",
+      "C) যখন ক্যাশ মেমরি সম্পূর্ণ খালি থাকে",
+      "D) যখন প্রসেস সমাপ্ত হয়"
+    ],
+    "answer": 1,
+    "explanation": "সিপিইউ যখন এমন কোনো মেমরি পেজ এক্সেস করতে চায় যা মেইন মেমরিতে লোড করা নেই, তখন পেজ ফল্ট ইন্টারাপ্ট ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1904,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "বেল্যাডির অ্যানোমালি (Belady's Anomaly) কোন পেজ রিপ্লেসমেন্ট অ্যালগরিদমে পরিলক্ষিত হয়?",
+    "options": [
+      "A) LRU (Least Recently Used)",
+      "B) Optimal Algorithm",
+      "C) FIFO (First In First Out)",
+      "D) LFU (Least Frequently Used)"
+    ],
+    "answer": 2,
+    "explanation": "FIFO অ্যালগরিদমে মেমরির ফ্রেম সংখ্যা বাড়ালেও পেজ ফল্টের সংখ্যা না কমে উল্টো বেড়ে যেতে পারে, একে Belady's Anomaly বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1905,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "সিপিইউ শিডিউলিংয়ে কনভয় ইফেক্ট (Convoy Effect) কোন অ্যালগরিদমের অন্যতম প্রধান ত্রুটি?",
+    "options": [
+      "A) Round Robin",
+      "B) Shortest Job First (SJF)",
+      "C) First-Come First-Served (FCFS)",
+      "D) Multi-level Feedback Queue"
+    ],
+    "answer": 2,
+    "explanation": "FCFS-এ একটি দীর্ঘ প্রসেস আগে এলে তার পেছনে অপেক্ষমাণ ছোট প্রসেসগুলোর গড় ওয়েটিং টাইম মারাত্মক বেড়ে যায়, একে Convoy Effect বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1906,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "লিনাক্স অপারেটিং সিস্টেমে ফাইল বা ডিরেক্টরির পারমিশন পরিবর্তন করতে কোন কমান্ডটি ব্যবহৃত হয়?",
+    "options": [
+      "A) chown",
+      "B) chmod",
+      "C) chgrp",
+      "D) touch"
+    ],
+    "answer": 1,
+    "explanation": "chmod (change mode) কমান্ড দিয়ে ফাইল বা ফোল্ডারের Read, Write ও Execute পারমিশন বদলানো হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1907,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "কম্পিউটার বুটিংয়ের সময় বায়োস (BIOS) প্রথমে মাদারবোর্ডের হার্ডওয়্যার ঠিক আছে কি না তা পরীক্ষা করে, এই প্রক্রিয়ার নাম কী?",
+    "options": [
+      "A) POST (Power-On Self-Test)",
+      "B) MBR Read",
+      "C) Kernel Init",
+      "D) Swap Setup"
+    ],
+    "answer": 0,
+    "explanation": "POST (Power-On Self-Test) কম্পিউটার চালুর সাথে সাথে সিপিইউ, র্যাম ও কীবোর্ড ইত্যাদি হার্ডওয়্যারের সুস্থতা যাচাই করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1908,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "থ্র্যাশিং (Thrashing) বলতে অপারেটিং সিস্টেমে কী বোঝায়?",
+    "options": [
+      "A) সিপিইউ ব্যবহারের হার ১০০% এ পৌঁছানো",
+      "B) সিস্টেম প্রসেস এক্সিকিউট করার চেয়ে পেজিং বা পেজ সোয়াপিংয়ে বেশি সময় নষ্ট করা",
+      "C) ডেডলক মুক্ত হওয়া",
+      "D) হার্ডডিস্ক সম্পূর্ণ পূর্ণ হয়ে যাওয়া"
+    ],
+    "answer": 1,
+    "explanation": "যখন ভার্চুয়াল মেমরির পেজ ইন এবং পেজ আউট অপারেশনে সিস্টেমের বেশিরভাগ সময় চলে যায় এবং সিপিইউ ইউটিলাইজেশন শূন্যের কাছাকাছি নেমে যায়, তাকে Thrashing বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1909,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "অপারেটিং সিস্টেমে ডেডলক (Deadlock) সৃষ্টির জন্য নিচের কোন ৪টি শর্ত একই সাথে প্রযোজ্য হতে হয়? [অভ্যাস সেট #2]",
+    "options": [
+      "A) Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait",
+      "B) Aging, Starvation, Paging, Thrashing",
+      "C) Semaphore, Mutex, Monitor, Barrier",
+      "D) FCFS, SJF, Round Robin, Priority"
+    ],
+    "answer": 0,
+    "explanation": "Coffman এর ৪টি শর্ত: মিউচুয়াল এক্সক্লুশন, হোল্ড অ্যান্ড ওয়েট, নো প্রি-এমপশন এবং সার্কুলার ওয়েট একযোগে ঘটলেই কেবল ডেডলক ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1910,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ডেডলক এভয়ডেন্স (Deadlock Avoidance)-এর জন্য বহুল ব্যবহৃত ব্যাংকার্স অ্যালগরিদম (Banker's Algorithm) কোন ধারণার ওপর ভিত্তি করে কাজ করে? [অভ্যাস সেট #2]",
+    "options": [
+      "A) Mutual Exclusion",
+      "B) Safe State Analysis",
+      "C) Context Switch",
+      "D) Virtual Memory"
+    ],
+    "answer": 1,
+    "explanation": "ব্যাংকার্স অ্যালগরিদম প্রতিটি রিসোর্স বরাদ্দের আগে পরীক্ষা করে সিস্টেম সেফ স্টেটে (Safe State) থাকবে কি না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1911,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ভার্চুয়াল মেমরিতে পেজ ফল্ট (Page Fault) কখন ঘটে? [অভ্যাস সেট #2]",
+    "options": [
+      "A) যখন পেজটি মেমরিতে উপস্থিত থাকে",
+      "B) যখন কাঙ্ক্ষিত পেজটি র্যাম (RAM)-এ পাওয়া যায় না এবং ডিস্ক থেকে আনতে হয়",
+      "C) যখন ক্যাশ মেমরি সম্পূর্ণ খালি থাকে",
+      "D) যখন প্রসেস সমাপ্ত হয়"
+    ],
+    "answer": 1,
+    "explanation": "সিপিইউ যখন এমন কোনো মেমরি পেজ এক্সেস করতে চায় যা মেইন মেমরিতে লোড করা নেই, তখন পেজ ফল্ট ইন্টারাপ্ট ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1912,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "বেল্যাডির অ্যানোমালি (Belady's Anomaly) কোন পেজ রিপ্লেসমেন্ট অ্যালগরিদমে পরিলক্ষিত হয়? [অভ্যাস সেট #2]",
+    "options": [
+      "A) LRU (Least Recently Used)",
+      "B) Optimal Algorithm",
+      "C) FIFO (First In First Out)",
+      "D) LFU (Least Frequently Used)"
+    ],
+    "answer": 2,
+    "explanation": "FIFO অ্যালগরিদমে মেমরির ফ্রেম সংখ্যা বাড়ালেও পেজ ফল্টের সংখ্যা না কমে উল্টো বেড়ে যেতে পারে, একে Belady's Anomaly বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1913,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "সিপিইউ শিডিউলিংয়ে কনভয় ইফেক্ট (Convoy Effect) কোন অ্যালগরিদমের অন্যতম প্রধান ত্রুটি? [অভ্যাস সেট #2]",
+    "options": [
+      "A) Round Robin",
+      "B) Shortest Job First (SJF)",
+      "C) First-Come First-Served (FCFS)",
+      "D) Multi-level Feedback Queue"
+    ],
+    "answer": 2,
+    "explanation": "FCFS-এ একটি দীর্ঘ প্রসেস আগে এলে তার পেছনে অপেক্ষমাণ ছোট প্রসেসগুলোর গড় ওয়েটিং টাইম মারাত্মক বেড়ে যায়, একে Convoy Effect বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1914,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "লিনাক্স অপারেটিং সিস্টেমে ফাইল বা ডিরেক্টরির পারমিশন পরিবর্তন করতে কোন কমান্ডটি ব্যবহৃত হয়? [অভ্যাস সেট #2]",
+    "options": [
+      "A) chown",
+      "B) chmod",
+      "C) chgrp",
+      "D) touch"
+    ],
+    "answer": 1,
+    "explanation": "chmod (change mode) কমান্ড দিয়ে ফাইল বা ফোল্ডারের Read, Write ও Execute পারমিশন বদলানো হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1915,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "কম্পিউটার বুটিংয়ের সময় বায়োস (BIOS) প্রথমে মাদারবোর্ডের হার্ডওয়্যার ঠিক আছে কি না তা পরীক্ষা করে, এই প্রক্রিয়ার নাম কী? [অভ্যাস সেট #2]",
+    "options": [
+      "A) POST (Power-On Self-Test)",
+      "B) MBR Read",
+      "C) Kernel Init",
+      "D) Swap Setup"
+    ],
+    "answer": 0,
+    "explanation": "POST (Power-On Self-Test) কম্পিউটার চালুর সাথে সাথে সিপিইউ, র্যাম ও কীবোর্ড ইত্যাদি হার্ডওয়্যারের সুস্থতা যাচাই করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1916,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "থ্র্যাশিং (Thrashing) বলতে অপারেটিং সিস্টেমে কী বোঝায়? [অভ্যাস সেট #2]",
+    "options": [
+      "A) সিপিইউ ব্যবহারের হার ১০০% এ পৌঁছানো",
+      "B) সিস্টেম প্রসেস এক্সিকিউট করার চেয়ে পেজিং বা পেজ সোয়াপিংয়ে বেশি সময় নষ্ট করা",
+      "C) ডেডলক মুক্ত হওয়া",
+      "D) হার্ডডিস্ক সম্পূর্ণ পূর্ণ হয়ে যাওয়া"
+    ],
+    "answer": 1,
+    "explanation": "যখন ভার্চুয়াল মেমরির পেজ ইন এবং পেজ আউট অপারেশনে সিস্টেমের বেশিরভাগ সময় চলে যায় এবং সিপিইউ ইউটিলাইজেশন শূন্যের কাছাকাছি নেমে যায়, তাকে Thrashing বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1917,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "অপারেটিং সিস্টেমে ডেডলক (Deadlock) সৃষ্টির জন্য নিচের কোন ৪টি শর্ত একই সাথে প্রযোজ্য হতে হয়? [অভ্যাস সেট #3]",
+    "options": [
+      "A) Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait",
+      "B) Aging, Starvation, Paging, Thrashing",
+      "C) Semaphore, Mutex, Monitor, Barrier",
+      "D) FCFS, SJF, Round Robin, Priority"
+    ],
+    "answer": 0,
+    "explanation": "Coffman এর ৪টি শর্ত: মিউচুয়াল এক্সক্লুশন, হোল্ড অ্যান্ড ওয়েট, নো প্রি-এমপশন এবং সার্কুলার ওয়েট একযোগে ঘটলেই কেবল ডেডলক ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1918,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ডেডলক এভয়ডেন্স (Deadlock Avoidance)-এর জন্য বহুল ব্যবহৃত ব্যাংকার্স অ্যালগরিদম (Banker's Algorithm) কোন ধারণার ওপর ভিত্তি করে কাজ করে? [অভ্যাস সেট #3]",
+    "options": [
+      "A) Mutual Exclusion",
+      "B) Safe State Analysis",
+      "C) Context Switch",
+      "D) Virtual Memory"
+    ],
+    "answer": 1,
+    "explanation": "ব্যাংকার্স অ্যালগরিদম প্রতিটি রিসোর্স বরাদ্দের আগে পরীক্ষা করে সিস্টেম সেফ স্টেটে (Safe State) থাকবে কি না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1919,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ভার্চুয়াল মেমরিতে পেজ ফল্ট (Page Fault) কখন ঘটে? [অভ্যাস সেট #3]",
+    "options": [
+      "A) যখন পেজটি মেমরিতে উপস্থিত থাকে",
+      "B) যখন কাঙ্ক্ষিত পেজটি র্যাম (RAM)-এ পাওয়া যায় না এবং ডিস্ক থেকে আনতে হয়",
+      "C) যখন ক্যাশ মেমরি সম্পূর্ণ খালি থাকে",
+      "D) যখন প্রসেস সমাপ্ত হয়"
+    ],
+    "answer": 1,
+    "explanation": "সিপিইউ যখন এমন কোনো মেমরি পেজ এক্সেস করতে চায় যা মেইন মেমরিতে লোড করা নেই, তখন পেজ ফল্ট ইন্টারাপ্ট ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1920,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "বেল্যাডির অ্যানোমালি (Belady's Anomaly) কোন পেজ রিপ্লেসমেন্ট অ্যালগরিদমে পরিলক্ষিত হয়? [অভ্যাস সেট #3]",
+    "options": [
+      "A) LRU (Least Recently Used)",
+      "B) Optimal Algorithm",
+      "C) FIFO (First In First Out)",
+      "D) LFU (Least Frequently Used)"
+    ],
+    "answer": 2,
+    "explanation": "FIFO অ্যালগরিদমে মেমরির ফ্রেম সংখ্যা বাড়ালেও পেজ ফল্টের সংখ্যা না কমে উল্টো বেড়ে যেতে পারে, একে Belady's Anomaly বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1921,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "সিপিইউ শিডিউলিংয়ে কনভয় ইফেক্ট (Convoy Effect) কোন অ্যালগরিদমের অন্যতম প্রধান ত্রুটি? [অভ্যাস সেট #3]",
+    "options": [
+      "A) Round Robin",
+      "B) Shortest Job First (SJF)",
+      "C) First-Come First-Served (FCFS)",
+      "D) Multi-level Feedback Queue"
+    ],
+    "answer": 2,
+    "explanation": "FCFS-এ একটি দীর্ঘ প্রসেস আগে এলে তার পেছনে অপেক্ষমাণ ছোট প্রসেসগুলোর গড় ওয়েটিং টাইম মারাত্মক বেড়ে যায়, একে Convoy Effect বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1922,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "লিনাক্স অপারেটিং সিস্টেমে ফাইল বা ডিরেক্টরির পারমিশন পরিবর্তন করতে কোন কমান্ডটি ব্যবহৃত হয়? [অভ্যাস সেট #3]",
+    "options": [
+      "A) chown",
+      "B) chmod",
+      "C) chgrp",
+      "D) touch"
+    ],
+    "answer": 1,
+    "explanation": "chmod (change mode) কমান্ড দিয়ে ফাইল বা ফোল্ডারের Read, Write ও Execute পারমিশন বদলানো হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1923,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "কম্পিউটার বুটিংয়ের সময় বায়োস (BIOS) প্রথমে মাদারবোর্ডের হার্ডওয়্যার ঠিক আছে কি না তা পরীক্ষা করে, এই প্রক্রিয়ার নাম কী? [অভ্যাস সেট #3]",
+    "options": [
+      "A) POST (Power-On Self-Test)",
+      "B) MBR Read",
+      "C) Kernel Init",
+      "D) Swap Setup"
+    ],
+    "answer": 0,
+    "explanation": "POST (Power-On Self-Test) কম্পিউটার চালুর সাথে সাথে সিপিইউ, র্যাম ও কীবোর্ড ইত্যাদি হার্ডওয়্যারের সুস্থতা যাচাই করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1924,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "থ্র্যাশিং (Thrashing) বলতে অপারেটিং সিস্টেমে কী বোঝায়? [অভ্যাস সেট #3]",
+    "options": [
+      "A) সিপিইউ ব্যবহারের হার ১০০% এ পৌঁছানো",
+      "B) সিস্টেম প্রসেস এক্সিকিউট করার চেয়ে পেজিং বা পেজ সোয়াপিংয়ে বেশি সময় নষ্ট করা",
+      "C) ডেডলক মুক্ত হওয়া",
+      "D) হার্ডডিস্ক সম্পূর্ণ পূর্ণ হয়ে যাওয়া"
+    ],
+    "answer": 1,
+    "explanation": "যখন ভার্চুয়াল মেমরির পেজ ইন এবং পেজ আউট অপারেশনে সিস্টেমের বেশিরভাগ সময় চলে যায় এবং সিপিইউ ইউটিলাইজেশন শূন্যের কাছাকাছি নেমে যায়, তাকে Thrashing বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1925,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "অপারেটিং সিস্টেমে ডেডলক (Deadlock) সৃষ্টির জন্য নিচের কোন ৪টি শর্ত একই সাথে প্রযোজ্য হতে হয়? [অভ্যাস সেট #4]",
+    "options": [
+      "A) Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait",
+      "B) Aging, Starvation, Paging, Thrashing",
+      "C) Semaphore, Mutex, Monitor, Barrier",
+      "D) FCFS, SJF, Round Robin, Priority"
+    ],
+    "answer": 0,
+    "explanation": "Coffman এর ৪টি শর্ত: মিউচুয়াল এক্সক্লুশন, হোল্ড অ্যান্ড ওয়েট, নো প্রি-এমপশন এবং সার্কুলার ওয়েট একযোগে ঘটলেই কেবল ডেডলক ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1926,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ডেডলক এভয়ডেন্স (Deadlock Avoidance)-এর জন্য বহুল ব্যবহৃত ব্যাংকার্স অ্যালগরিদম (Banker's Algorithm) কোন ধারণার ওপর ভিত্তি করে কাজ করে? [অভ্যাস সেট #4]",
+    "options": [
+      "A) Mutual Exclusion",
+      "B) Safe State Analysis",
+      "C) Context Switch",
+      "D) Virtual Memory"
+    ],
+    "answer": 1,
+    "explanation": "ব্যাংকার্স অ্যালগরিদম প্রতিটি রিসোর্স বরাদ্দের আগে পরীক্ষা করে সিস্টেম সেফ স্টেটে (Safe State) থাকবে কি না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1927,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ভার্চুয়াল মেমরিতে পেজ ফল্ট (Page Fault) কখন ঘটে? [অভ্যাস সেট #4]",
+    "options": [
+      "A) যখন পেজটি মেমরিতে উপস্থিত থাকে",
+      "B) যখন কাঙ্ক্ষিত পেজটি র্যাম (RAM)-এ পাওয়া যায় না এবং ডিস্ক থেকে আনতে হয়",
+      "C) যখন ক্যাশ মেমরি সম্পূর্ণ খালি থাকে",
+      "D) যখন প্রসেস সমাপ্ত হয়"
+    ],
+    "answer": 1,
+    "explanation": "সিপিইউ যখন এমন কোনো মেমরি পেজ এক্সেস করতে চায় যা মেইন মেমরিতে লোড করা নেই, তখন পেজ ফল্ট ইন্টারাপ্ট ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1928,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "বেল্যাডির অ্যানোমালি (Belady's Anomaly) কোন পেজ রিপ্লেসমেন্ট অ্যালগরিদমে পরিলক্ষিত হয়? [অভ্যাস সেট #4]",
+    "options": [
+      "A) LRU (Least Recently Used)",
+      "B) Optimal Algorithm",
+      "C) FIFO (First In First Out)",
+      "D) LFU (Least Frequently Used)"
+    ],
+    "answer": 2,
+    "explanation": "FIFO অ্যালগরিদমে মেমরির ফ্রেম সংখ্যা বাড়ালেও পেজ ফল্টের সংখ্যা না কমে উল্টো বেড়ে যেতে পারে, একে Belady's Anomaly বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1929,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "সিপিইউ শিডিউলিংয়ে কনভয় ইফেক্ট (Convoy Effect) কোন অ্যালগরিদমের অন্যতম প্রধান ত্রুটি? [অভ্যাস সেট #4]",
+    "options": [
+      "A) Round Robin",
+      "B) Shortest Job First (SJF)",
+      "C) First-Come First-Served (FCFS)",
+      "D) Multi-level Feedback Queue"
+    ],
+    "answer": 2,
+    "explanation": "FCFS-এ একটি দীর্ঘ প্রসেস আগে এলে তার পেছনে অপেক্ষমাণ ছোট প্রসেসগুলোর গড় ওয়েটিং টাইম মারাত্মক বেড়ে যায়, একে Convoy Effect বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1930,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "লিনাক্স অপারেটিং সিস্টেমে ফাইল বা ডিরেক্টরির পারমিশন পরিবর্তন করতে কোন কমান্ডটি ব্যবহৃত হয়? [অভ্যাস সেট #4]",
+    "options": [
+      "A) chown",
+      "B) chmod",
+      "C) chgrp",
+      "D) touch"
+    ],
+    "answer": 1,
+    "explanation": "chmod (change mode) কমান্ড দিয়ে ফাইল বা ফোল্ডারের Read, Write ও Execute পারমিশন বদলানো হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1931,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "কম্পিউটার বুটিংয়ের সময় বায়োস (BIOS) প্রথমে মাদারবোর্ডের হার্ডওয়্যার ঠিক আছে কি না তা পরীক্ষা করে, এই প্রক্রিয়ার নাম কী? [অভ্যাস সেট #4]",
+    "options": [
+      "A) POST (Power-On Self-Test)",
+      "B) MBR Read",
+      "C) Kernel Init",
+      "D) Swap Setup"
+    ],
+    "answer": 0,
+    "explanation": "POST (Power-On Self-Test) কম্পিউটার চালুর সাথে সাথে সিপিইউ, র্যাম ও কীবোর্ড ইত্যাদি হার্ডওয়্যারের সুস্থতা যাচাই করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1932,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "থ্র্যাশিং (Thrashing) বলতে অপারেটিং সিস্টেমে কী বোঝায়? [অভ্যাস সেট #4]",
+    "options": [
+      "A) সিপিইউ ব্যবহারের হার ১০০% এ পৌঁছানো",
+      "B) সিস্টেম প্রসেস এক্সিকিউট করার চেয়ে পেজিং বা পেজ সোয়াপিংয়ে বেশি সময় নষ্ট করা",
+      "C) ডেডলক মুক্ত হওয়া",
+      "D) হার্ডডিস্ক সম্পূর্ণ পূর্ণ হয়ে যাওয়া"
+    ],
+    "answer": 1,
+    "explanation": "যখন ভার্চুয়াল মেমরির পেজ ইন এবং পেজ আউট অপারেশনে সিস্টেমের বেশিরভাগ সময় চলে যায় এবং সিপিইউ ইউটিলাইজেশন শূন্যের কাছাকাছি নেমে যায়, তাকে Thrashing বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1933,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "অপারেটিং সিস্টেমে ডেডলক (Deadlock) সৃষ্টির জন্য নিচের কোন ৪টি শর্ত একই সাথে প্রযোজ্য হতে হয়? [অভ্যাস সেট #5]",
+    "options": [
+      "A) Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait",
+      "B) Aging, Starvation, Paging, Thrashing",
+      "C) Semaphore, Mutex, Monitor, Barrier",
+      "D) FCFS, SJF, Round Robin, Priority"
+    ],
+    "answer": 0,
+    "explanation": "Coffman এর ৪টি শর্ত: মিউচুয়াল এক্সক্লুশন, হোল্ড অ্যান্ড ওয়েট, নো প্রি-এমপশন এবং সার্কুলার ওয়েট একযোগে ঘটলেই কেবল ডেডলক ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1934,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ডেডলক এভয়ডেন্স (Deadlock Avoidance)-এর জন্য বহুল ব্যবহৃত ব্যাংকার্স অ্যালগরিদম (Banker's Algorithm) কোন ধারণার ওপর ভিত্তি করে কাজ করে? [অভ্যাস সেট #5]",
+    "options": [
+      "A) Mutual Exclusion",
+      "B) Safe State Analysis",
+      "C) Context Switch",
+      "D) Virtual Memory"
+    ],
+    "answer": 1,
+    "explanation": "ব্যাংকার্স অ্যালগরিদম প্রতিটি রিসোর্স বরাদ্দের আগে পরীক্ষা করে সিস্টেম সেফ স্টেটে (Safe State) থাকবে কি না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1935,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ভার্চুয়াল মেমরিতে পেজ ফল্ট (Page Fault) কখন ঘটে? [অভ্যাস সেট #5]",
+    "options": [
+      "A) যখন পেজটি মেমরিতে উপস্থিত থাকে",
+      "B) যখন কাঙ্ক্ষিত পেজটি র্যাম (RAM)-এ পাওয়া যায় না এবং ডিস্ক থেকে আনতে হয়",
+      "C) যখন ক্যাশ মেমরি সম্পূর্ণ খালি থাকে",
+      "D) যখন প্রসেস সমাপ্ত হয়"
+    ],
+    "answer": 1,
+    "explanation": "সিপিইউ যখন এমন কোনো মেমরি পেজ এক্সেস করতে চায় যা মেইন মেমরিতে লোড করা নেই, তখন পেজ ফল্ট ইন্টারাপ্ট ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1936,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "বেল্যাডির অ্যানোমালি (Belady's Anomaly) কোন পেজ রিপ্লেসমেন্ট অ্যালগরিদমে পরিলক্ষিত হয়? [অভ্যাস সেট #5]",
+    "options": [
+      "A) LRU (Least Recently Used)",
+      "B) Optimal Algorithm",
+      "C) FIFO (First In First Out)",
+      "D) LFU (Least Frequently Used)"
+    ],
+    "answer": 2,
+    "explanation": "FIFO অ্যালগরিদমে মেমরির ফ্রেম সংখ্যা বাড়ালেও পেজ ফল্টের সংখ্যা না কমে উল্টো বেড়ে যেতে পারে, একে Belady's Anomaly বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1937,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "সিপিইউ শিডিউলিংয়ে কনভয় ইফেক্ট (Convoy Effect) কোন অ্যালগরিদমের অন্যতম প্রধান ত্রুটি? [অভ্যাস সেট #5]",
+    "options": [
+      "A) Round Robin",
+      "B) Shortest Job First (SJF)",
+      "C) First-Come First-Served (FCFS)",
+      "D) Multi-level Feedback Queue"
+    ],
+    "answer": 2,
+    "explanation": "FCFS-এ একটি দীর্ঘ প্রসেস আগে এলে তার পেছনে অপেক্ষমাণ ছোট প্রসেসগুলোর গড় ওয়েটিং টাইম মারাত্মক বেড়ে যায়, একে Convoy Effect বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1938,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "লিনাক্স অপারেটিং সিস্টেমে ফাইল বা ডিরেক্টরির পারমিশন পরিবর্তন করতে কোন কমান্ডটি ব্যবহৃত হয়? [অভ্যাস সেট #5]",
+    "options": [
+      "A) chown",
+      "B) chmod",
+      "C) chgrp",
+      "D) touch"
+    ],
+    "answer": 1,
+    "explanation": "chmod (change mode) কমান্ড দিয়ে ফাইল বা ফোল্ডারের Read, Write ও Execute পারমিশন বদলানো হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1939,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "কম্পিউটার বুটিংয়ের সময় বায়োস (BIOS) প্রথমে মাদারবোর্ডের হার্ডওয়্যার ঠিক আছে কি না তা পরীক্ষা করে, এই প্রক্রিয়ার নাম কী? [অভ্যাস সেট #5]",
+    "options": [
+      "A) POST (Power-On Self-Test)",
+      "B) MBR Read",
+      "C) Kernel Init",
+      "D) Swap Setup"
+    ],
+    "answer": 0,
+    "explanation": "POST (Power-On Self-Test) কম্পিউটার চালুর সাথে সাথে সিপিইউ, র্যাম ও কীবোর্ড ইত্যাদি হার্ডওয়্যারের সুস্থতা যাচাই করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1940,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "থ্র্যাশিং (Thrashing) বলতে অপারেটিং সিস্টেমে কী বোঝায়? [অভ্যাস সেট #5]",
+    "options": [
+      "A) সিপিইউ ব্যবহারের হার ১০০% এ পৌঁছানো",
+      "B) সিস্টেম প্রসেস এক্সিকিউট করার চেয়ে পেজিং বা পেজ সোয়াপিংয়ে বেশি সময় নষ্ট করা",
+      "C) ডেডলক মুক্ত হওয়া",
+      "D) হার্ডডিস্ক সম্পূর্ণ পূর্ণ হয়ে যাওয়া"
+    ],
+    "answer": 1,
+    "explanation": "যখন ভার্চুয়াল মেমরির পেজ ইন এবং পেজ আউট অপারেশনে সিস্টেমের বেশিরভাগ সময় চলে যায় এবং সিপিইউ ইউটিলাইজেশন শূন্যের কাছাকাছি নেমে যায়, তাকে Thrashing বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1941,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "অপারেটিং সিস্টেমে ডেডলক (Deadlock) সৃষ্টির জন্য নিচের কোন ৪টি শর্ত একই সাথে প্রযোজ্য হতে হয়? [অভ্যাস সেট #6]",
+    "options": [
+      "A) Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait",
+      "B) Aging, Starvation, Paging, Thrashing",
+      "C) Semaphore, Mutex, Monitor, Barrier",
+      "D) FCFS, SJF, Round Robin, Priority"
+    ],
+    "answer": 0,
+    "explanation": "Coffman এর ৪টি শর্ত: মিউচুয়াল এক্সক্লুশন, হোল্ড অ্যান্ড ওয়েট, নো প্রি-এমপশন এবং সার্কুলার ওয়েট একযোগে ঘটলেই কেবল ডেডলক ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1942,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ডেডলক এভয়ডেন্স (Deadlock Avoidance)-এর জন্য বহুল ব্যবহৃত ব্যাংকার্স অ্যালগরিদম (Banker's Algorithm) কোন ধারণার ওপর ভিত্তি করে কাজ করে? [অভ্যাস সেট #6]",
+    "options": [
+      "A) Mutual Exclusion",
+      "B) Safe State Analysis",
+      "C) Context Switch",
+      "D) Virtual Memory"
+    ],
+    "answer": 1,
+    "explanation": "ব্যাংকার্স অ্যালগরিদম প্রতিটি রিসোর্স বরাদ্দের আগে পরীক্ষা করে সিস্টেম সেফ স্টেটে (Safe State) থাকবে কি না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1943,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ভার্চুয়াল মেমরিতে পেজ ফল্ট (Page Fault) কখন ঘটে? [অভ্যাস সেট #6]",
+    "options": [
+      "A) যখন পেজটি মেমরিতে উপস্থিত থাকে",
+      "B) যখন কাঙ্ক্ষিত পেজটি র্যাম (RAM)-এ পাওয়া যায় না এবং ডিস্ক থেকে আনতে হয়",
+      "C) যখন ক্যাশ মেমরি সম্পূর্ণ খালি থাকে",
+      "D) যখন প্রসেস সমাপ্ত হয়"
+    ],
+    "answer": 1,
+    "explanation": "সিপিইউ যখন এমন কোনো মেমরি পেজ এক্সেস করতে চায় যা মেইন মেমরিতে লোড করা নেই, তখন পেজ ফল্ট ইন্টারাপ্ট ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1944,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "বেল্যাডির অ্যানোমালি (Belady's Anomaly) কোন পেজ রিপ্লেসমেন্ট অ্যালগরিদমে পরিলক্ষিত হয়? [অভ্যাস সেট #6]",
+    "options": [
+      "A) LRU (Least Recently Used)",
+      "B) Optimal Algorithm",
+      "C) FIFO (First In First Out)",
+      "D) LFU (Least Frequently Used)"
+    ],
+    "answer": 2,
+    "explanation": "FIFO অ্যালগরিদমে মেমরির ফ্রেম সংখ্যা বাড়ালেও পেজ ফল্টের সংখ্যা না কমে উল্টো বেড়ে যেতে পারে, একে Belady's Anomaly বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1945,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "সিপিইউ শিডিউলিংয়ে কনভয় ইফেক্ট (Convoy Effect) কোন অ্যালগরিদমের অন্যতম প্রধান ত্রুটি? [অভ্যাস সেট #6]",
+    "options": [
+      "A) Round Robin",
+      "B) Shortest Job First (SJF)",
+      "C) First-Come First-Served (FCFS)",
+      "D) Multi-level Feedback Queue"
+    ],
+    "answer": 2,
+    "explanation": "FCFS-এ একটি দীর্ঘ প্রসেস আগে এলে তার পেছনে অপেক্ষমাণ ছোট প্রসেসগুলোর গড় ওয়েটিং টাইম মারাত্মক বেড়ে যায়, একে Convoy Effect বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1946,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "লিনাক্স অপারেটিং সিস্টেমে ফাইল বা ডিরেক্টরির পারমিশন পরিবর্তন করতে কোন কমান্ডটি ব্যবহৃত হয়? [অভ্যাস সেট #6]",
+    "options": [
+      "A) chown",
+      "B) chmod",
+      "C) chgrp",
+      "D) touch"
+    ],
+    "answer": 1,
+    "explanation": "chmod (change mode) কমান্ড দিয়ে ফাইল বা ফোল্ডারের Read, Write ও Execute পারমিশন বদলানো হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1947,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "কম্পিউটার বুটিংয়ের সময় বায়োস (BIOS) প্রথমে মাদারবোর্ডের হার্ডওয়্যার ঠিক আছে কি না তা পরীক্ষা করে, এই প্রক্রিয়ার নাম কী? [অভ্যাস সেট #6]",
+    "options": [
+      "A) POST (Power-On Self-Test)",
+      "B) MBR Read",
+      "C) Kernel Init",
+      "D) Swap Setup"
+    ],
+    "answer": 0,
+    "explanation": "POST (Power-On Self-Test) কম্পিউটার চালুর সাথে সাথে সিপিইউ, র্যাম ও কীবোর্ড ইত্যাদি হার্ডওয়্যারের সুস্থতা যাচাই করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1948,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "থ্র্যাশিং (Thrashing) বলতে অপারেটিং সিস্টেমে কী বোঝায়? [অভ্যাস সেট #6]",
+    "options": [
+      "A) সিপিইউ ব্যবহারের হার ১০০% এ পৌঁছানো",
+      "B) সিস্টেম প্রসেস এক্সিকিউট করার চেয়ে পেজিং বা পেজ সোয়াপিংয়ে বেশি সময় নষ্ট করা",
+      "C) ডেডলক মুক্ত হওয়া",
+      "D) হার্ডডিস্ক সম্পূর্ণ পূর্ণ হয়ে যাওয়া"
+    ],
+    "answer": 1,
+    "explanation": "যখন ভার্চুয়াল মেমরির পেজ ইন এবং পেজ আউট অপারেশনে সিস্টেমের বেশিরভাগ সময় চলে যায় এবং সিপিইউ ইউটিলাইজেশন শূন্যের কাছাকাছি নেমে যায়, তাকে Thrashing বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1949,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "অপারেটিং সিস্টেমে ডেডলক (Deadlock) সৃষ্টির জন্য নিচের কোন ৪টি শর্ত একই সাথে প্রযোজ্য হতে হয়? [অভ্যাস সেট #7]",
+    "options": [
+      "A) Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait",
+      "B) Aging, Starvation, Paging, Thrashing",
+      "C) Semaphore, Mutex, Monitor, Barrier",
+      "D) FCFS, SJF, Round Robin, Priority"
+    ],
+    "answer": 0,
+    "explanation": "Coffman এর ৪টি শর্ত: মিউচুয়াল এক্সক্লুশন, হোল্ড অ্যান্ড ওয়েট, নো প্রি-এমপশন এবং সার্কুলার ওয়েট একযোগে ঘটলেই কেবল ডেডলক ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1950,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ডেডলক এভয়ডেন্স (Deadlock Avoidance)-এর জন্য বহুল ব্যবহৃত ব্যাংকার্স অ্যালগরিদম (Banker's Algorithm) কোন ধারণার ওপর ভিত্তি করে কাজ করে? [অভ্যাস সেট #7]",
+    "options": [
+      "A) Mutual Exclusion",
+      "B) Safe State Analysis",
+      "C) Context Switch",
+      "D) Virtual Memory"
+    ],
+    "answer": 1,
+    "explanation": "ব্যাংকার্স অ্যালগরিদম প্রতিটি রিসোর্স বরাদ্দের আগে পরীক্ষা করে সিস্টেম সেফ স্টেটে (Safe State) থাকবে কি না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1951,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ভার্চুয়াল মেমরিতে পেজ ফল্ট (Page Fault) কখন ঘটে? [অভ্যাস সেট #7]",
+    "options": [
+      "A) যখন পেজটি মেমরিতে উপস্থিত থাকে",
+      "B) যখন কাঙ্ক্ষিত পেজটি র্যাম (RAM)-এ পাওয়া যায় না এবং ডিস্ক থেকে আনতে হয়",
+      "C) যখন ক্যাশ মেমরি সম্পূর্ণ খালি থাকে",
+      "D) যখন প্রসেস সমাপ্ত হয়"
+    ],
+    "answer": 1,
+    "explanation": "সিপিইউ যখন এমন কোনো মেমরি পেজ এক্সেস করতে চায় যা মেইন মেমরিতে লোড করা নেই, তখন পেজ ফল্ট ইন্টারাপ্ট ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1952,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "বেল্যাডির অ্যানোমালি (Belady's Anomaly) কোন পেজ রিপ্লেসমেন্ট অ্যালগরিদমে পরিলক্ষিত হয়? [অভ্যাস সেট #7]",
+    "options": [
+      "A) LRU (Least Recently Used)",
+      "B) Optimal Algorithm",
+      "C) FIFO (First In First Out)",
+      "D) LFU (Least Frequently Used)"
+    ],
+    "answer": 2,
+    "explanation": "FIFO অ্যালগরিদমে মেমরির ফ্রেম সংখ্যা বাড়ালেও পেজ ফল্টের সংখ্যা না কমে উল্টো বেড়ে যেতে পারে, একে Belady's Anomaly বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1953,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "সিপিইউ শিডিউলিংয়ে কনভয় ইফেক্ট (Convoy Effect) কোন অ্যালগরিদমের অন্যতম প্রধান ত্রুটি? [অভ্যাস সেট #7]",
+    "options": [
+      "A) Round Robin",
+      "B) Shortest Job First (SJF)",
+      "C) First-Come First-Served (FCFS)",
+      "D) Multi-level Feedback Queue"
+    ],
+    "answer": 2,
+    "explanation": "FCFS-এ একটি দীর্ঘ প্রসেস আগে এলে তার পেছনে অপেক্ষমাণ ছোট প্রসেসগুলোর গড় ওয়েটিং টাইম মারাত্মক বেড়ে যায়, একে Convoy Effect বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1954,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "লিনাক্স অপারেটিং সিস্টেমে ফাইল বা ডিরেক্টরির পারমিশন পরিবর্তন করতে কোন কমান্ডটি ব্যবহৃত হয়? [অভ্যাস সেট #7]",
+    "options": [
+      "A) chown",
+      "B) chmod",
+      "C) chgrp",
+      "D) touch"
+    ],
+    "answer": 1,
+    "explanation": "chmod (change mode) কমান্ড দিয়ে ফাইল বা ফোল্ডারের Read, Write ও Execute পারমিশন বদলানো হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1955,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "কম্পিউটার বুটিংয়ের সময় বায়োস (BIOS) প্রথমে মাদারবোর্ডের হার্ডওয়্যার ঠিক আছে কি না তা পরীক্ষা করে, এই প্রক্রিয়ার নাম কী? [অভ্যাস সেট #7]",
+    "options": [
+      "A) POST (Power-On Self-Test)",
+      "B) MBR Read",
+      "C) Kernel Init",
+      "D) Swap Setup"
+    ],
+    "answer": 0,
+    "explanation": "POST (Power-On Self-Test) কম্পিউটার চালুর সাথে সাথে সিপিইউ, র্যাম ও কীবোর্ড ইত্যাদি হার্ডওয়্যারের সুস্থতা যাচাই করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1956,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "থ্র্যাশিং (Thrashing) বলতে অপারেটিং সিস্টেমে কী বোঝায়? [অভ্যাস সেট #7]",
+    "options": [
+      "A) সিপিইউ ব্যবহারের হার ১০০% এ পৌঁছানো",
+      "B) সিস্টেম প্রসেস এক্সিকিউট করার চেয়ে পেজিং বা পেজ সোয়াপিংয়ে বেশি সময় নষ্ট করা",
+      "C) ডেডলক মুক্ত হওয়া",
+      "D) হার্ডডিস্ক সম্পূর্ণ পূর্ণ হয়ে যাওয়া"
+    ],
+    "answer": 1,
+    "explanation": "যখন ভার্চুয়াল মেমরির পেজ ইন এবং পেজ আউট অপারেশনে সিস্টেমের বেশিরভাগ সময় চলে যায় এবং সিপিইউ ইউটিলাইজেশন শূন্যের কাছাকাছি নেমে যায়, তাকে Thrashing বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1957,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "অপারেটিং সিস্টেমে ডেডলক (Deadlock) সৃষ্টির জন্য নিচের কোন ৪টি শর্ত একই সাথে প্রযোজ্য হতে হয়? [অভ্যাস সেট #8]",
+    "options": [
+      "A) Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait",
+      "B) Aging, Starvation, Paging, Thrashing",
+      "C) Semaphore, Mutex, Monitor, Barrier",
+      "D) FCFS, SJF, Round Robin, Priority"
+    ],
+    "answer": 0,
+    "explanation": "Coffman এর ৪টি শর্ত: মিউচুয়াল এক্সক্লুশন, হোল্ড অ্যান্ড ওয়েট, নো প্রি-এমপশন এবং সার্কুলার ওয়েট একযোগে ঘটলেই কেবল ডেডলক ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1958,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ডেডলক এভয়ডেন্স (Deadlock Avoidance)-এর জন্য বহুল ব্যবহৃত ব্যাংকার্স অ্যালগরিদম (Banker's Algorithm) কোন ধারণার ওপর ভিত্তি করে কাজ করে? [অভ্যাস সেট #8]",
+    "options": [
+      "A) Mutual Exclusion",
+      "B) Safe State Analysis",
+      "C) Context Switch",
+      "D) Virtual Memory"
+    ],
+    "answer": 1,
+    "explanation": "ব্যাংকার্স অ্যালগরিদম প্রতিটি রিসোর্স বরাদ্দের আগে পরীক্ষা করে সিস্টেম সেফ স্টেটে (Safe State) থাকবে কি না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1959,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ভার্চুয়াল মেমরিতে পেজ ফল্ট (Page Fault) কখন ঘটে? [অভ্যাস সেট #8]",
+    "options": [
+      "A) যখন পেজটি মেমরিতে উপস্থিত থাকে",
+      "B) যখন কাঙ্ক্ষিত পেজটি র্যাম (RAM)-এ পাওয়া যায় না এবং ডিস্ক থেকে আনতে হয়",
+      "C) যখন ক্যাশ মেমরি সম্পূর্ণ খালি থাকে",
+      "D) যখন প্রসেস সমাপ্ত হয়"
+    ],
+    "answer": 1,
+    "explanation": "সিপিইউ যখন এমন কোনো মেমরি পেজ এক্সেস করতে চায় যা মেইন মেমরিতে লোড করা নেই, তখন পেজ ফল্ট ইন্টারাপ্ট ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1960,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "বেল্যাডির অ্যানোমালি (Belady's Anomaly) কোন পেজ রিপ্লেসমেন্ট অ্যালগরিদমে পরিলক্ষিত হয়? [অভ্যাস সেট #8]",
+    "options": [
+      "A) LRU (Least Recently Used)",
+      "B) Optimal Algorithm",
+      "C) FIFO (First In First Out)",
+      "D) LFU (Least Frequently Used)"
+    ],
+    "answer": 2,
+    "explanation": "FIFO অ্যালগরিদমে মেমরির ফ্রেম সংখ্যা বাড়ালেও পেজ ফল্টের সংখ্যা না কমে উল্টো বেড়ে যেতে পারে, একে Belady's Anomaly বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1961,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "সিপিইউ শিডিউলিংয়ে কনভয় ইফেক্ট (Convoy Effect) কোন অ্যালগরিদমের অন্যতম প্রধান ত্রুটি? [অভ্যাস সেট #8]",
+    "options": [
+      "A) Round Robin",
+      "B) Shortest Job First (SJF)",
+      "C) First-Come First-Served (FCFS)",
+      "D) Multi-level Feedback Queue"
+    ],
+    "answer": 2,
+    "explanation": "FCFS-এ একটি দীর্ঘ প্রসেস আগে এলে তার পেছনে অপেক্ষমাণ ছোট প্রসেসগুলোর গড় ওয়েটিং টাইম মারাত্মক বেড়ে যায়, একে Convoy Effect বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1962,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "লিনাক্স অপারেটিং সিস্টেমে ফাইল বা ডিরেক্টরির পারমিশন পরিবর্তন করতে কোন কমান্ডটি ব্যবহৃত হয়? [অভ্যাস সেট #8]",
+    "options": [
+      "A) chown",
+      "B) chmod",
+      "C) chgrp",
+      "D) touch"
+    ],
+    "answer": 1,
+    "explanation": "chmod (change mode) কমান্ড দিয়ে ফাইল বা ফোল্ডারের Read, Write ও Execute পারমিশন বদলানো হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1963,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "কম্পিউটার বুটিংয়ের সময় বায়োস (BIOS) প্রথমে মাদারবোর্ডের হার্ডওয়্যার ঠিক আছে কি না তা পরীক্ষা করে, এই প্রক্রিয়ার নাম কী? [অভ্যাস সেট #8]",
+    "options": [
+      "A) POST (Power-On Self-Test)",
+      "B) MBR Read",
+      "C) Kernel Init",
+      "D) Swap Setup"
+    ],
+    "answer": 0,
+    "explanation": "POST (Power-On Self-Test) কম্পিউটার চালুর সাথে সাথে সিপিইউ, র্যাম ও কীবোর্ড ইত্যাদি হার্ডওয়্যারের সুস্থতা যাচাই করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1964,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "থ্র্যাশিং (Thrashing) বলতে অপারেটিং সিস্টেমে কী বোঝায়? [অভ্যাস সেট #8]",
+    "options": [
+      "A) সিপিইউ ব্যবহারের হার ১০০% এ পৌঁছানো",
+      "B) সিস্টেম প্রসেস এক্সিকিউট করার চেয়ে পেজিং বা পেজ সোয়াপিংয়ে বেশি সময় নষ্ট করা",
+      "C) ডেডলক মুক্ত হওয়া",
+      "D) হার্ডডিস্ক সম্পূর্ণ পূর্ণ হয়ে যাওয়া"
+    ],
+    "answer": 1,
+    "explanation": "যখন ভার্চুয়াল মেমরির পেজ ইন এবং পেজ আউট অপারেশনে সিস্টেমের বেশিরভাগ সময় চলে যায় এবং সিপিইউ ইউটিলাইজেশন শূন্যের কাছাকাছি নেমে যায়, তাকে Thrashing বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1965,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "অপারেটিং সিস্টেমে ডেডলক (Deadlock) সৃষ্টির জন্য নিচের কোন ৪টি শর্ত একই সাথে প্রযোজ্য হতে হয়? [অভ্যাস সেট #9]",
+    "options": [
+      "A) Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait",
+      "B) Aging, Starvation, Paging, Thrashing",
+      "C) Semaphore, Mutex, Monitor, Barrier",
+      "D) FCFS, SJF, Round Robin, Priority"
+    ],
+    "answer": 0,
+    "explanation": "Coffman এর ৪টি শর্ত: মিউচুয়াল এক্সক্লুশন, হোল্ড অ্যান্ড ওয়েট, নো প্রি-এমপশন এবং সার্কুলার ওয়েট একযোগে ঘটলেই কেবল ডেডলক ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1966,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ডেডলক এভয়ডেন্স (Deadlock Avoidance)-এর জন্য বহুল ব্যবহৃত ব্যাংকার্স অ্যালগরিদম (Banker's Algorithm) কোন ধারণার ওপর ভিত্তি করে কাজ করে? [অভ্যাস সেট #9]",
+    "options": [
+      "A) Mutual Exclusion",
+      "B) Safe State Analysis",
+      "C) Context Switch",
+      "D) Virtual Memory"
+    ],
+    "answer": 1,
+    "explanation": "ব্যাংকার্স অ্যালগরিদম প্রতিটি রিসোর্স বরাদ্দের আগে পরীক্ষা করে সিস্টেম সেফ স্টেটে (Safe State) থাকবে কি না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1967,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ভার্চুয়াল মেমরিতে পেজ ফল্ট (Page Fault) কখন ঘটে? [অভ্যাস সেট #9]",
+    "options": [
+      "A) যখন পেজটি মেমরিতে উপস্থিত থাকে",
+      "B) যখন কাঙ্ক্ষিত পেজটি র্যাম (RAM)-এ পাওয়া যায় না এবং ডিস্ক থেকে আনতে হয়",
+      "C) যখন ক্যাশ মেমরি সম্পূর্ণ খালি থাকে",
+      "D) যখন প্রসেস সমাপ্ত হয়"
+    ],
+    "answer": 1,
+    "explanation": "সিপিইউ যখন এমন কোনো মেমরি পেজ এক্সেস করতে চায় যা মেইন মেমরিতে লোড করা নেই, তখন পেজ ফল্ট ইন্টারাপ্ট ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1968,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "বেল্যাডির অ্যানোমালি (Belady's Anomaly) কোন পেজ রিপ্লেসমেন্ট অ্যালগরিদমে পরিলক্ষিত হয়? [অভ্যাস সেট #9]",
+    "options": [
+      "A) LRU (Least Recently Used)",
+      "B) Optimal Algorithm",
+      "C) FIFO (First In First Out)",
+      "D) LFU (Least Frequently Used)"
+    ],
+    "answer": 2,
+    "explanation": "FIFO অ্যালগরিদমে মেমরির ফ্রেম সংখ্যা বাড়ালেও পেজ ফল্টের সংখ্যা না কমে উল্টো বেড়ে যেতে পারে, একে Belady's Anomaly বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1969,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "সিপিইউ শিডিউলিংয়ে কনভয় ইফেক্ট (Convoy Effect) কোন অ্যালগরিদমের অন্যতম প্রধান ত্রুটি? [অভ্যাস সেট #9]",
+    "options": [
+      "A) Round Robin",
+      "B) Shortest Job First (SJF)",
+      "C) First-Come First-Served (FCFS)",
+      "D) Multi-level Feedback Queue"
+    ],
+    "answer": 2,
+    "explanation": "FCFS-এ একটি দীর্ঘ প্রসেস আগে এলে তার পেছনে অপেক্ষমাণ ছোট প্রসেসগুলোর গড় ওয়েটিং টাইম মারাত্মক বেড়ে যায়, একে Convoy Effect বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1970,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "লিনাক্স অপারেটিং সিস্টেমে ফাইল বা ডিরেক্টরির পারমিশন পরিবর্তন করতে কোন কমান্ডটি ব্যবহৃত হয়? [অভ্যাস সেট #9]",
+    "options": [
+      "A) chown",
+      "B) chmod",
+      "C) chgrp",
+      "D) touch"
+    ],
+    "answer": 1,
+    "explanation": "chmod (change mode) কমান্ড দিয়ে ফাইল বা ফোল্ডারের Read, Write ও Execute পারমিশন বদলানো হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1971,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "কম্পিউটার বুটিংয়ের সময় বায়োস (BIOS) প্রথমে মাদারবোর্ডের হার্ডওয়্যার ঠিক আছে কি না তা পরীক্ষা করে, এই প্রক্রিয়ার নাম কী? [অভ্যাস সেট #9]",
+    "options": [
+      "A) POST (Power-On Self-Test)",
+      "B) MBR Read",
+      "C) Kernel Init",
+      "D) Swap Setup"
+    ],
+    "answer": 0,
+    "explanation": "POST (Power-On Self-Test) কম্পিউটার চালুর সাথে সাথে সিপিইউ, র্যাম ও কীবোর্ড ইত্যাদি হার্ডওয়্যারের সুস্থতা যাচাই করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1972,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "থ্র্যাশিং (Thrashing) বলতে অপারেটিং সিস্টেমে কী বোঝায়? [অভ্যাস সেট #9]",
+    "options": [
+      "A) সিপিইউ ব্যবহারের হার ১০০% এ পৌঁছানো",
+      "B) সিস্টেম প্রসেস এক্সিকিউট করার চেয়ে পেজিং বা পেজ সোয়াপিংয়ে বেশি সময় নষ্ট করা",
+      "C) ডেডলক মুক্ত হওয়া",
+      "D) হার্ডডিস্ক সম্পূর্ণ পূর্ণ হয়ে যাওয়া"
+    ],
+    "answer": 1,
+    "explanation": "যখন ভার্চুয়াল মেমরির পেজ ইন এবং পেজ আউট অপারেশনে সিস্টেমের বেশিরভাগ সময় চলে যায় এবং সিপিইউ ইউটিলাইজেশন শূন্যের কাছাকাছি নেমে যায়, তাকে Thrashing বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1973,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "অপারেটিং সিস্টেমে ডেডলক (Deadlock) সৃষ্টির জন্য নিচের কোন ৪টি শর্ত একই সাথে প্রযোজ্য হতে হয়? [অভ্যাস সেট #10]",
+    "options": [
+      "A) Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait",
+      "B) Aging, Starvation, Paging, Thrashing",
+      "C) Semaphore, Mutex, Monitor, Barrier",
+      "D) FCFS, SJF, Round Robin, Priority"
+    ],
+    "answer": 0,
+    "explanation": "Coffman এর ৪টি শর্ত: মিউচুয়াল এক্সক্লুশন, হোল্ড অ্যান্ড ওয়েট, নো প্রি-এমপশন এবং সার্কুলার ওয়েট একযোগে ঘটলেই কেবল ডেডলক ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1974,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ডেডলক এভয়ডেন্স (Deadlock Avoidance)-এর জন্য বহুল ব্যবহৃত ব্যাংকার্স অ্যালগরিদম (Banker's Algorithm) কোন ধারণার ওপর ভিত্তি করে কাজ করে? [অভ্যাস সেট #10]",
+    "options": [
+      "A) Mutual Exclusion",
+      "B) Safe State Analysis",
+      "C) Context Switch",
+      "D) Virtual Memory"
+    ],
+    "answer": 1,
+    "explanation": "ব্যাংকার্স অ্যালগরিদম প্রতিটি রিসোর্স বরাদ্দের আগে পরীক্ষা করে সিস্টেম সেফ স্টেটে (Safe State) থাকবে কি না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1975,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ভার্চুয়াল মেমরিতে পেজ ফল্ট (Page Fault) কখন ঘটে? [অভ্যাস সেট #10]",
+    "options": [
+      "A) যখন পেজটি মেমরিতে উপস্থিত থাকে",
+      "B) যখন কাঙ্ক্ষিত পেজটি র্যাম (RAM)-এ পাওয়া যায় না এবং ডিস্ক থেকে আনতে হয়",
+      "C) যখন ক্যাশ মেমরি সম্পূর্ণ খালি থাকে",
+      "D) যখন প্রসেস সমাপ্ত হয়"
+    ],
+    "answer": 1,
+    "explanation": "সিপিইউ যখন এমন কোনো মেমরি পেজ এক্সেস করতে চায় যা মেইন মেমরিতে লোড করা নেই, তখন পেজ ফল্ট ইন্টারাপ্ট ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1976,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "বেল্যাডির অ্যানোমালি (Belady's Anomaly) কোন পেজ রিপ্লেসমেন্ট অ্যালগরিদমে পরিলক্ষিত হয়? [অভ্যাস সেট #10]",
+    "options": [
+      "A) LRU (Least Recently Used)",
+      "B) Optimal Algorithm",
+      "C) FIFO (First In First Out)",
+      "D) LFU (Least Frequently Used)"
+    ],
+    "answer": 2,
+    "explanation": "FIFO অ্যালগরিদমে মেমরির ফ্রেম সংখ্যা বাড়ালেও পেজ ফল্টের সংখ্যা না কমে উল্টো বেড়ে যেতে পারে, একে Belady's Anomaly বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1977,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "সিপিইউ শিডিউলিংয়ে কনভয় ইফেক্ট (Convoy Effect) কোন অ্যালগরিদমের অন্যতম প্রধান ত্রুটি? [অভ্যাস সেট #10]",
+    "options": [
+      "A) Round Robin",
+      "B) Shortest Job First (SJF)",
+      "C) First-Come First-Served (FCFS)",
+      "D) Multi-level Feedback Queue"
+    ],
+    "answer": 2,
+    "explanation": "FCFS-এ একটি দীর্ঘ প্রসেস আগে এলে তার পেছনে অপেক্ষমাণ ছোট প্রসেসগুলোর গড় ওয়েটিং টাইম মারাত্মক বেড়ে যায়, একে Convoy Effect বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1978,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "লিনাক্স অপারেটিং সিস্টেমে ফাইল বা ডিরেক্টরির পারমিশন পরিবর্তন করতে কোন কমান্ডটি ব্যবহৃত হয়? [অভ্যাস সেট #10]",
+    "options": [
+      "A) chown",
+      "B) chmod",
+      "C) chgrp",
+      "D) touch"
+    ],
+    "answer": 1,
+    "explanation": "chmod (change mode) কমান্ড দিয়ে ফাইল বা ফোল্ডারের Read, Write ও Execute পারমিশন বদলানো হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1979,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "কম্পিউটার বুটিংয়ের সময় বায়োস (BIOS) প্রথমে মাদারবোর্ডের হার্ডওয়্যার ঠিক আছে কি না তা পরীক্ষা করে, এই প্রক্রিয়ার নাম কী? [অভ্যাস সেট #10]",
+    "options": [
+      "A) POST (Power-On Self-Test)",
+      "B) MBR Read",
+      "C) Kernel Init",
+      "D) Swap Setup"
+    ],
+    "answer": 0,
+    "explanation": "POST (Power-On Self-Test) কম্পিউটার চালুর সাথে সাথে সিপিইউ, র্যাম ও কীবোর্ড ইত্যাদি হার্ডওয়্যারের সুস্থতা যাচাই করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1980,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "থ্র্যাশিং (Thrashing) বলতে অপারেটিং সিস্টেমে কী বোঝায়? [অভ্যাস সেট #10]",
+    "options": [
+      "A) সিপিইউ ব্যবহারের হার ১০০% এ পৌঁছানো",
+      "B) সিস্টেম প্রসেস এক্সিকিউট করার চেয়ে পেজিং বা পেজ সোয়াপিংয়ে বেশি সময় নষ্ট করা",
+      "C) ডেডলক মুক্ত হওয়া",
+      "D) হার্ডডিস্ক সম্পূর্ণ পূর্ণ হয়ে যাওয়া"
+    ],
+    "answer": 1,
+    "explanation": "যখন ভার্চুয়াল মেমরির পেজ ইন এবং পেজ আউট অপারেশনে সিস্টেমের বেশিরভাগ সময় চলে যায় এবং সিপিইউ ইউটিলাইজেশন শূন্যের কাছাকাছি নেমে যায়, তাকে Thrashing বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1981,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "অপারেটিং সিস্টেমে ডেডলক (Deadlock) সৃষ্টির জন্য নিচের কোন ৪টি শর্ত একই সাথে প্রযোজ্য হতে হয়? [অভ্যাস সেট #11]",
+    "options": [
+      "A) Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait",
+      "B) Aging, Starvation, Paging, Thrashing",
+      "C) Semaphore, Mutex, Monitor, Barrier",
+      "D) FCFS, SJF, Round Robin, Priority"
+    ],
+    "answer": 0,
+    "explanation": "Coffman এর ৪টি শর্ত: মিউচুয়াল এক্সক্লুশন, হোল্ড অ্যান্ড ওয়েট, নো প্রি-এমপশন এবং সার্কুলার ওয়েট একযোগে ঘটলেই কেবল ডেডলক ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1982,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ডেডলক এভয়ডেন্স (Deadlock Avoidance)-এর জন্য বহুল ব্যবহৃত ব্যাংকার্স অ্যালগরিদম (Banker's Algorithm) কোন ধারণার ওপর ভিত্তি করে কাজ করে? [অভ্যাস সেট #11]",
+    "options": [
+      "A) Mutual Exclusion",
+      "B) Safe State Analysis",
+      "C) Context Switch",
+      "D) Virtual Memory"
+    ],
+    "answer": 1,
+    "explanation": "ব্যাংকার্স অ্যালগরিদম প্রতিটি রিসোর্স বরাদ্দের আগে পরীক্ষা করে সিস্টেম সেফ স্টেটে (Safe State) থাকবে কি না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1983,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ভার্চুয়াল মেমরিতে পেজ ফল্ট (Page Fault) কখন ঘটে? [অভ্যাস সেট #11]",
+    "options": [
+      "A) যখন পেজটি মেমরিতে উপস্থিত থাকে",
+      "B) যখন কাঙ্ক্ষিত পেজটি র্যাম (RAM)-এ পাওয়া যায় না এবং ডিস্ক থেকে আনতে হয়",
+      "C) যখন ক্যাশ মেমরি সম্পূর্ণ খালি থাকে",
+      "D) যখন প্রসেস সমাপ্ত হয়"
+    ],
+    "answer": 1,
+    "explanation": "সিপিইউ যখন এমন কোনো মেমরি পেজ এক্সেস করতে চায় যা মেইন মেমরিতে লোড করা নেই, তখন পেজ ফল্ট ইন্টারাপ্ট ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1984,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "বেল্যাডির অ্যানোমালি (Belady's Anomaly) কোন পেজ রিপ্লেসমেন্ট অ্যালগরিদমে পরিলক্ষিত হয়? [অভ্যাস সেট #11]",
+    "options": [
+      "A) LRU (Least Recently Used)",
+      "B) Optimal Algorithm",
+      "C) FIFO (First In First Out)",
+      "D) LFU (Least Frequently Used)"
+    ],
+    "answer": 2,
+    "explanation": "FIFO অ্যালগরিদমে মেমরির ফ্রেম সংখ্যা বাড়ালেও পেজ ফল্টের সংখ্যা না কমে উল্টো বেড়ে যেতে পারে, একে Belady's Anomaly বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1985,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "সিপিইউ শিডিউলিংয়ে কনভয় ইফেক্ট (Convoy Effect) কোন অ্যালগরিদমের অন্যতম প্রধান ত্রুটি? [অভ্যাস সেট #11]",
+    "options": [
+      "A) Round Robin",
+      "B) Shortest Job First (SJF)",
+      "C) First-Come First-Served (FCFS)",
+      "D) Multi-level Feedback Queue"
+    ],
+    "answer": 2,
+    "explanation": "FCFS-এ একটি দীর্ঘ প্রসেস আগে এলে তার পেছনে অপেক্ষমাণ ছোট প্রসেসগুলোর গড় ওয়েটিং টাইম মারাত্মক বেড়ে যায়, একে Convoy Effect বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1986,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "লিনাক্স অপারেটিং সিস্টেমে ফাইল বা ডিরেক্টরির পারমিশন পরিবর্তন করতে কোন কমান্ডটি ব্যবহৃত হয়? [অভ্যাস সেট #11]",
+    "options": [
+      "A) chown",
+      "B) chmod",
+      "C) chgrp",
+      "D) touch"
+    ],
+    "answer": 1,
+    "explanation": "chmod (change mode) কমান্ড দিয়ে ফাইল বা ফোল্ডারের Read, Write ও Execute পারমিশন বদলানো হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1987,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "কম্পিউটার বুটিংয়ের সময় বায়োস (BIOS) প্রথমে মাদারবোর্ডের হার্ডওয়্যার ঠিক আছে কি না তা পরীক্ষা করে, এই প্রক্রিয়ার নাম কী? [অভ্যাস সেট #11]",
+    "options": [
+      "A) POST (Power-On Self-Test)",
+      "B) MBR Read",
+      "C) Kernel Init",
+      "D) Swap Setup"
+    ],
+    "answer": 0,
+    "explanation": "POST (Power-On Self-Test) কম্পিউটার চালুর সাথে সাথে সিপিইউ, র্যাম ও কীবোর্ড ইত্যাদি হার্ডওয়্যারের সুস্থতা যাচাই করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1988,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "থ্র্যাশিং (Thrashing) বলতে অপারেটিং সিস্টেমে কী বোঝায়? [অভ্যাস সেট #11]",
+    "options": [
+      "A) সিপিইউ ব্যবহারের হার ১০০% এ পৌঁছানো",
+      "B) সিস্টেম প্রসেস এক্সিকিউট করার চেয়ে পেজিং বা পেজ সোয়াপিংয়ে বেশি সময় নষ্ট করা",
+      "C) ডেডলক মুক্ত হওয়া",
+      "D) হার্ডডিস্ক সম্পূর্ণ পূর্ণ হয়ে যাওয়া"
+    ],
+    "answer": 1,
+    "explanation": "যখন ভার্চুয়াল মেমরির পেজ ইন এবং পেজ আউট অপারেশনে সিস্টেমের বেশিরভাগ সময় চলে যায় এবং সিপিইউ ইউটিলাইজেশন শূন্যের কাছাকাছি নেমে যায়, তাকে Thrashing বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1989,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "অপারেটিং সিস্টেমে ডেডলক (Deadlock) সৃষ্টির জন্য নিচের কোন ৪টি শর্ত একই সাথে প্রযোজ্য হতে হয়? [অভ্যাস সেট #12]",
+    "options": [
+      "A) Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait",
+      "B) Aging, Starvation, Paging, Thrashing",
+      "C) Semaphore, Mutex, Monitor, Barrier",
+      "D) FCFS, SJF, Round Robin, Priority"
+    ],
+    "answer": 0,
+    "explanation": "Coffman এর ৪টি শর্ত: মিউচুয়াল এক্সক্লুশন, হোল্ড অ্যান্ড ওয়েট, নো প্রি-এমপশন এবং সার্কুলার ওয়েট একযোগে ঘটলেই কেবল ডেডলক ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1990,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ডেডলক এভয়ডেন্স (Deadlock Avoidance)-এর জন্য বহুল ব্যবহৃত ব্যাংকার্স অ্যালগরিদম (Banker's Algorithm) কোন ধারণার ওপর ভিত্তি করে কাজ করে? [অভ্যাস সেট #12]",
+    "options": [
+      "A) Mutual Exclusion",
+      "B) Safe State Analysis",
+      "C) Context Switch",
+      "D) Virtual Memory"
+    ],
+    "answer": 1,
+    "explanation": "ব্যাংকার্স অ্যালগরিদম প্রতিটি রিসোর্স বরাদ্দের আগে পরীক্ষা করে সিস্টেম সেফ স্টেটে (Safe State) থাকবে কি না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1991,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ভার্চুয়াল মেমরিতে পেজ ফল্ট (Page Fault) কখন ঘটে? [অভ্যাস সেট #12]",
+    "options": [
+      "A) যখন পেজটি মেমরিতে উপস্থিত থাকে",
+      "B) যখন কাঙ্ক্ষিত পেজটি র্যাম (RAM)-এ পাওয়া যায় না এবং ডিস্ক থেকে আনতে হয়",
+      "C) যখন ক্যাশ মেমরি সম্পূর্ণ খালি থাকে",
+      "D) যখন প্রসেস সমাপ্ত হয়"
+    ],
+    "answer": 1,
+    "explanation": "সিপিইউ যখন এমন কোনো মেমরি পেজ এক্সেস করতে চায় যা মেইন মেমরিতে লোড করা নেই, তখন পেজ ফল্ট ইন্টারাপ্ট ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1992,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "বেল্যাডির অ্যানোমালি (Belady's Anomaly) কোন পেজ রিপ্লেসমেন্ট অ্যালগরিদমে পরিলক্ষিত হয়? [অভ্যাস সেট #12]",
+    "options": [
+      "A) LRU (Least Recently Used)",
+      "B) Optimal Algorithm",
+      "C) FIFO (First In First Out)",
+      "D) LFU (Least Frequently Used)"
+    ],
+    "answer": 2,
+    "explanation": "FIFO অ্যালগরিদমে মেমরির ফ্রেম সংখ্যা বাড়ালেও পেজ ফল্টের সংখ্যা না কমে উল্টো বেড়ে যেতে পারে, একে Belady's Anomaly বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1993,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "সিপিইউ শিডিউলিংয়ে কনভয় ইফেক্ট (Convoy Effect) কোন অ্যালগরিদমের অন্যতম প্রধান ত্রুটি? [অভ্যাস সেট #12]",
+    "options": [
+      "A) Round Robin",
+      "B) Shortest Job First (SJF)",
+      "C) First-Come First-Served (FCFS)",
+      "D) Multi-level Feedback Queue"
+    ],
+    "answer": 2,
+    "explanation": "FCFS-এ একটি দীর্ঘ প্রসেস আগে এলে তার পেছনে অপেক্ষমাণ ছোট প্রসেসগুলোর গড় ওয়েটিং টাইম মারাত্মক বেড়ে যায়, একে Convoy Effect বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1994,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "লিনাক্স অপারেটিং সিস্টেমে ফাইল বা ডিরেক্টরির পারমিশন পরিবর্তন করতে কোন কমান্ডটি ব্যবহৃত হয়? [অভ্যাস সেট #12]",
+    "options": [
+      "A) chown",
+      "B) chmod",
+      "C) chgrp",
+      "D) touch"
+    ],
+    "answer": 1,
+    "explanation": "chmod (change mode) কমান্ড দিয়ে ফাইল বা ফোল্ডারের Read, Write ও Execute পারমিশন বদলানো হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1995,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "কম্পিউটার বুটিংয়ের সময় বায়োস (BIOS) প্রথমে মাদারবোর্ডের হার্ডওয়্যার ঠিক আছে কি না তা পরীক্ষা করে, এই প্রক্রিয়ার নাম কী? [অভ্যাস সেট #12]",
+    "options": [
+      "A) POST (Power-On Self-Test)",
+      "B) MBR Read",
+      "C) Kernel Init",
+      "D) Swap Setup"
+    ],
+    "answer": 0,
+    "explanation": "POST (Power-On Self-Test) কম্পিউটার চালুর সাথে সাথে সিপিইউ, র্যাম ও কীবোর্ড ইত্যাদি হার্ডওয়্যারের সুস্থতা যাচাই করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1996,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "থ্র্যাশিং (Thrashing) বলতে অপারেটিং সিস্টেমে কী বোঝায়? [অভ্যাস সেট #12]",
+    "options": [
+      "A) সিপিইউ ব্যবহারের হার ১০০% এ পৌঁছানো",
+      "B) সিস্টেম প্রসেস এক্সিকিউট করার চেয়ে পেজিং বা পেজ সোয়াপিংয়ে বেশি সময় নষ্ট করা",
+      "C) ডেডলক মুক্ত হওয়া",
+      "D) হার্ডডিস্ক সম্পূর্ণ পূর্ণ হয়ে যাওয়া"
+    ],
+    "answer": 1,
+    "explanation": "যখন ভার্চুয়াল মেমরির পেজ ইন এবং পেজ আউট অপারেশনে সিস্টেমের বেশিরভাগ সময় চলে যায় এবং সিপিইউ ইউটিলাইজেশন শূন্যের কাছাকাছি নেমে যায়, তাকে Thrashing বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1997,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "অপারেটিং সিস্টেমে ডেডলক (Deadlock) সৃষ্টির জন্য নিচের কোন ৪টি শর্ত একই সাথে প্রযোজ্য হতে হয়? [অভ্যাস সেট #13]",
+    "options": [
+      "A) Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait",
+      "B) Aging, Starvation, Paging, Thrashing",
+      "C) Semaphore, Mutex, Monitor, Barrier",
+      "D) FCFS, SJF, Round Robin, Priority"
+    ],
+    "answer": 0,
+    "explanation": "Coffman এর ৪টি শর্ত: মিউচুয়াল এক্সক্লুশন, হোল্ড অ্যান্ড ওয়েট, নো প্রি-এমপশন এবং সার্কুলার ওয়েট একযোগে ঘটলেই কেবল ডেডলক ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1998,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ডেডলক এভয়ডেন্স (Deadlock Avoidance)-এর জন্য বহুল ব্যবহৃত ব্যাংকার্স অ্যালগরিদম (Banker's Algorithm) কোন ধারণার ওপর ভিত্তি করে কাজ করে? [অভ্যাস সেট #13]",
+    "options": [
+      "A) Mutual Exclusion",
+      "B) Safe State Analysis",
+      "C) Context Switch",
+      "D) Virtual Memory"
+    ],
+    "answer": 1,
+    "explanation": "ব্যাংকার্স অ্যালগরিদম প্রতিটি রিসোর্স বরাদ্দের আগে পরীক্ষা করে সিস্টেম সেফ স্টেটে (Safe State) থাকবে কি না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 1999,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ভার্চুয়াল মেমরিতে পেজ ফল্ট (Page Fault) কখন ঘটে? [অভ্যাস সেট #13]",
+    "options": [
+      "A) যখন পেজটি মেমরিতে উপস্থিত থাকে",
+      "B) যখন কাঙ্ক্ষিত পেজটি র্যাম (RAM)-এ পাওয়া যায় না এবং ডিস্ক থেকে আনতে হয়",
+      "C) যখন ক্যাশ মেমরি সম্পূর্ণ খালি থাকে",
+      "D) যখন প্রসেস সমাপ্ত হয়"
+    ],
+    "answer": 1,
+    "explanation": "সিপিইউ যখন এমন কোনো মেমরি পেজ এক্সেস করতে চায় যা মেইন মেমরিতে লোড করা নেই, তখন পেজ ফল্ট ইন্টারাপ্ট ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2000,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "বেল্যাডির অ্যানোমালি (Belady's Anomaly) কোন পেজ রিপ্লেসমেন্ট অ্যালগরিদমে পরিলক্ষিত হয়? [অভ্যাস সেট #13]",
+    "options": [
+      "A) LRU (Least Recently Used)",
+      "B) Optimal Algorithm",
+      "C) FIFO (First In First Out)",
+      "D) LFU (Least Frequently Used)"
+    ],
+    "answer": 2,
+    "explanation": "FIFO অ্যালগরিদমে মেমরির ফ্রেম সংখ্যা বাড়ালেও পেজ ফল্টের সংখ্যা না কমে উল্টো বেড়ে যেতে পারে, একে Belady's Anomaly বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2001,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "সিপিইউ শিডিউলিংয়ে কনভয় ইফেক্ট (Convoy Effect) কোন অ্যালগরিদমের অন্যতম প্রধান ত্রুটি? [অভ্যাস সেট #13]",
+    "options": [
+      "A) Round Robin",
+      "B) Shortest Job First (SJF)",
+      "C) First-Come First-Served (FCFS)",
+      "D) Multi-level Feedback Queue"
+    ],
+    "answer": 2,
+    "explanation": "FCFS-এ একটি দীর্ঘ প্রসেস আগে এলে তার পেছনে অপেক্ষমাণ ছোট প্রসেসগুলোর গড় ওয়েটিং টাইম মারাত্মক বেড়ে যায়, একে Convoy Effect বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2002,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "লিনাক্স অপারেটিং সিস্টেমে ফাইল বা ডিরেক্টরির পারমিশন পরিবর্তন করতে কোন কমান্ডটি ব্যবহৃত হয়? [অভ্যাস সেট #13]",
+    "options": [
+      "A) chown",
+      "B) chmod",
+      "C) chgrp",
+      "D) touch"
+    ],
+    "answer": 1,
+    "explanation": "chmod (change mode) কমান্ড দিয়ে ফাইল বা ফোল্ডারের Read, Write ও Execute পারমিশন বদলানো হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2003,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "কম্পিউটার বুটিংয়ের সময় বায়োস (BIOS) প্রথমে মাদারবোর্ডের হার্ডওয়্যার ঠিক আছে কি না তা পরীক্ষা করে, এই প্রক্রিয়ার নাম কী? [অভ্যাস সেট #13]",
+    "options": [
+      "A) POST (Power-On Self-Test)",
+      "B) MBR Read",
+      "C) Kernel Init",
+      "D) Swap Setup"
+    ],
+    "answer": 0,
+    "explanation": "POST (Power-On Self-Test) কম্পিউটার চালুর সাথে সাথে সিপিইউ, র্যাম ও কীবোর্ড ইত্যাদি হার্ডওয়্যারের সুস্থতা যাচাই করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2004,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "থ্র্যাশিং (Thrashing) বলতে অপারেটিং সিস্টেমে কী বোঝায়? [অভ্যাস সেট #13]",
+    "options": [
+      "A) সিপিইউ ব্যবহারের হার ১০০% এ পৌঁছানো",
+      "B) সিস্টেম প্রসেস এক্সিকিউট করার চেয়ে পেজিং বা পেজ সোয়াপিংয়ে বেশি সময় নষ্ট করা",
+      "C) ডেডলক মুক্ত হওয়া",
+      "D) হার্ডডিস্ক সম্পূর্ণ পূর্ণ হয়ে যাওয়া"
+    ],
+    "answer": 1,
+    "explanation": "যখন ভার্চুয়াল মেমরির পেজ ইন এবং পেজ আউট অপারেশনে সিস্টেমের বেশিরভাগ সময় চলে যায় এবং সিপিইউ ইউটিলাইজেশন শূন্যের কাছাকাছি নেমে যায়, তাকে Thrashing বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2005,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "অপারেটিং সিস্টেমে ডেডলক (Deadlock) সৃষ্টির জন্য নিচের কোন ৪টি শর্ত একই সাথে প্রযোজ্য হতে হয়? [অভ্যাস সেট #14]",
+    "options": [
+      "A) Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait",
+      "B) Aging, Starvation, Paging, Thrashing",
+      "C) Semaphore, Mutex, Monitor, Barrier",
+      "D) FCFS, SJF, Round Robin, Priority"
+    ],
+    "answer": 0,
+    "explanation": "Coffman এর ৪টি শর্ত: মিউচুয়াল এক্সক্লুশন, হোল্ড অ্যান্ড ওয়েট, নো প্রি-এমপশন এবং সার্কুলার ওয়েট একযোগে ঘটলেই কেবল ডেডলক ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2006,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ডেডলক এভয়ডেন্স (Deadlock Avoidance)-এর জন্য বহুল ব্যবহৃত ব্যাংকার্স অ্যালগরিদম (Banker's Algorithm) কোন ধারণার ওপর ভিত্তি করে কাজ করে? [অভ্যাস সেট #14]",
+    "options": [
+      "A) Mutual Exclusion",
+      "B) Safe State Analysis",
+      "C) Context Switch",
+      "D) Virtual Memory"
+    ],
+    "answer": 1,
+    "explanation": "ব্যাংকার্স অ্যালগরিদম প্রতিটি রিসোর্স বরাদ্দের আগে পরীক্ষা করে সিস্টেম সেফ স্টেটে (Safe State) থাকবে কি না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2007,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ভার্চুয়াল মেমরিতে পেজ ফল্ট (Page Fault) কখন ঘটে? [অভ্যাস সেট #14]",
+    "options": [
+      "A) যখন পেজটি মেমরিতে উপস্থিত থাকে",
+      "B) যখন কাঙ্ক্ষিত পেজটি র্যাম (RAM)-এ পাওয়া যায় না এবং ডিস্ক থেকে আনতে হয়",
+      "C) যখন ক্যাশ মেমরি সম্পূর্ণ খালি থাকে",
+      "D) যখন প্রসেস সমাপ্ত হয়"
+    ],
+    "answer": 1,
+    "explanation": "সিপিইউ যখন এমন কোনো মেমরি পেজ এক্সেস করতে চায় যা মেইন মেমরিতে লোড করা নেই, তখন পেজ ফল্ট ইন্টারাপ্ট ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2008,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "বেল্যাডির অ্যানোমালি (Belady's Anomaly) কোন পেজ রিপ্লেসমেন্ট অ্যালগরিদমে পরিলক্ষিত হয়? [অভ্যাস সেট #14]",
+    "options": [
+      "A) LRU (Least Recently Used)",
+      "B) Optimal Algorithm",
+      "C) FIFO (First In First Out)",
+      "D) LFU (Least Frequently Used)"
+    ],
+    "answer": 2,
+    "explanation": "FIFO অ্যালগরিদমে মেমরির ফ্রেম সংখ্যা বাড়ালেও পেজ ফল্টের সংখ্যা না কমে উল্টো বেড়ে যেতে পারে, একে Belady's Anomaly বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2009,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "সিপিইউ শিডিউলিংয়ে কনভয় ইফেক্ট (Convoy Effect) কোন অ্যালগরিদমের অন্যতম প্রধান ত্রুটি? [অভ্যাস সেট #14]",
+    "options": [
+      "A) Round Robin",
+      "B) Shortest Job First (SJF)",
+      "C) First-Come First-Served (FCFS)",
+      "D) Multi-level Feedback Queue"
+    ],
+    "answer": 2,
+    "explanation": "FCFS-এ একটি দীর্ঘ প্রসেস আগে এলে তার পেছনে অপেক্ষমাণ ছোট প্রসেসগুলোর গড় ওয়েটিং টাইম মারাত্মক বেড়ে যায়, একে Convoy Effect বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2010,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "লিনাক্স অপারেটিং সিস্টেমে ফাইল বা ডিরেক্টরির পারমিশন পরিবর্তন করতে কোন কমান্ডটি ব্যবহৃত হয়? [অভ্যাস সেট #14]",
+    "options": [
+      "A) chown",
+      "B) chmod",
+      "C) chgrp",
+      "D) touch"
+    ],
+    "answer": 1,
+    "explanation": "chmod (change mode) কমান্ড দিয়ে ফাইল বা ফোল্ডারের Read, Write ও Execute পারমিশন বদলানো হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2011,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "কম্পিউটার বুটিংয়ের সময় বায়োস (BIOS) প্রথমে মাদারবোর্ডের হার্ডওয়্যার ঠিক আছে কি না তা পরীক্ষা করে, এই প্রক্রিয়ার নাম কী? [অভ্যাস সেট #14]",
+    "options": [
+      "A) POST (Power-On Self-Test)",
+      "B) MBR Read",
+      "C) Kernel Init",
+      "D) Swap Setup"
+    ],
+    "answer": 0,
+    "explanation": "POST (Power-On Self-Test) কম্পিউটার চালুর সাথে সাথে সিপিইউ, র্যাম ও কীবোর্ড ইত্যাদি হার্ডওয়্যারের সুস্থতা যাচাই করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2012,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "থ্র্যাশিং (Thrashing) বলতে অপারেটিং সিস্টেমে কী বোঝায়? [অভ্যাস সেট #14]",
+    "options": [
+      "A) সিপিইউ ব্যবহারের হার ১০০% এ পৌঁছানো",
+      "B) সিস্টেম প্রসেস এক্সিকিউট করার চেয়ে পেজিং বা পেজ সোয়াপিংয়ে বেশি সময় নষ্ট করা",
+      "C) ডেডলক মুক্ত হওয়া",
+      "D) হার্ডডিস্ক সম্পূর্ণ পূর্ণ হয়ে যাওয়া"
+    ],
+    "answer": 1,
+    "explanation": "যখন ভার্চুয়াল মেমরির পেজ ইন এবং পেজ আউট অপারেশনে সিস্টেমের বেশিরভাগ সময় চলে যায় এবং সিপিইউ ইউটিলাইজেশন শূন্যের কাছাকাছি নেমে যায়, তাকে Thrashing বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2013,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "অপারেটিং সিস্টেমে ডেডলক (Deadlock) সৃষ্টির জন্য নিচের কোন ৪টি শর্ত একই সাথে প্রযোজ্য হতে হয়? [অভ্যাস সেট #15]",
+    "options": [
+      "A) Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait",
+      "B) Aging, Starvation, Paging, Thrashing",
+      "C) Semaphore, Mutex, Monitor, Barrier",
+      "D) FCFS, SJF, Round Robin, Priority"
+    ],
+    "answer": 0,
+    "explanation": "Coffman এর ৪টি শর্ত: মিউচুয়াল এক্সক্লুশন, হোল্ড অ্যান্ড ওয়েট, নো প্রি-এমপশন এবং সার্কুলার ওয়েট একযোগে ঘটলেই কেবল ডেডলক ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2014,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ডেডলক এভয়ডেন্স (Deadlock Avoidance)-এর জন্য বহুল ব্যবহৃত ব্যাংকার্স অ্যালগরিদম (Banker's Algorithm) কোন ধারণার ওপর ভিত্তি করে কাজ করে? [অভ্যাস সেট #15]",
+    "options": [
+      "A) Mutual Exclusion",
+      "B) Safe State Analysis",
+      "C) Context Switch",
+      "D) Virtual Memory"
+    ],
+    "answer": 1,
+    "explanation": "ব্যাংকার্স অ্যালগরিদম প্রতিটি রিসোর্স বরাদ্দের আগে পরীক্ষা করে সিস্টেম সেফ স্টেটে (Safe State) থাকবে কি না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2015,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ভার্চুয়াল মেমরিতে পেজ ফল্ট (Page Fault) কখন ঘটে? [অভ্যাস সেট #15]",
+    "options": [
+      "A) যখন পেজটি মেমরিতে উপস্থিত থাকে",
+      "B) যখন কাঙ্ক্ষিত পেজটি র্যাম (RAM)-এ পাওয়া যায় না এবং ডিস্ক থেকে আনতে হয়",
+      "C) যখন ক্যাশ মেমরি সম্পূর্ণ খালি থাকে",
+      "D) যখন প্রসেস সমাপ্ত হয়"
+    ],
+    "answer": 1,
+    "explanation": "সিপিইউ যখন এমন কোনো মেমরি পেজ এক্সেস করতে চায় যা মেইন মেমরিতে লোড করা নেই, তখন পেজ ফল্ট ইন্টারাপ্ট ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2016,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "বেল্যাডির অ্যানোমালি (Belady's Anomaly) কোন পেজ রিপ্লেসমেন্ট অ্যালগরিদমে পরিলক্ষিত হয়? [অভ্যাস সেট #15]",
+    "options": [
+      "A) LRU (Least Recently Used)",
+      "B) Optimal Algorithm",
+      "C) FIFO (First In First Out)",
+      "D) LFU (Least Frequently Used)"
+    ],
+    "answer": 2,
+    "explanation": "FIFO অ্যালগরিদমে মেমরির ফ্রেম সংখ্যা বাড়ালেও পেজ ফল্টের সংখ্যা না কমে উল্টো বেড়ে যেতে পারে, একে Belady's Anomaly বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2017,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "সিপিইউ শিডিউলিংয়ে কনভয় ইফেক্ট (Convoy Effect) কোন অ্যালগরিদমের অন্যতম প্রধান ত্রুটি? [অভ্যাস সেট #15]",
+    "options": [
+      "A) Round Robin",
+      "B) Shortest Job First (SJF)",
+      "C) First-Come First-Served (FCFS)",
+      "D) Multi-level Feedback Queue"
+    ],
+    "answer": 2,
+    "explanation": "FCFS-এ একটি দীর্ঘ প্রসেস আগে এলে তার পেছনে অপেক্ষমাণ ছোট প্রসেসগুলোর গড় ওয়েটিং টাইম মারাত্মক বেড়ে যায়, একে Convoy Effect বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2018,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "লিনাক্স অপারেটিং সিস্টেমে ফাইল বা ডিরেক্টরির পারমিশন পরিবর্তন করতে কোন কমান্ডটি ব্যবহৃত হয়? [অভ্যাস সেট #15]",
+    "options": [
+      "A) chown",
+      "B) chmod",
+      "C) chgrp",
+      "D) touch"
+    ],
+    "answer": 1,
+    "explanation": "chmod (change mode) কমান্ড দিয়ে ফাইল বা ফোল্ডারের Read, Write ও Execute পারমিশন বদলানো হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2019,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "কম্পিউটার বুটিংয়ের সময় বায়োস (BIOS) প্রথমে মাদারবোর্ডের হার্ডওয়্যার ঠিক আছে কি না তা পরীক্ষা করে, এই প্রক্রিয়ার নাম কী? [অভ্যাস সেট #15]",
+    "options": [
+      "A) POST (Power-On Self-Test)",
+      "B) MBR Read",
+      "C) Kernel Init",
+      "D) Swap Setup"
+    ],
+    "answer": 0,
+    "explanation": "POST (Power-On Self-Test) কম্পিউটার চালুর সাথে সাথে সিপিইউ, র্যাম ও কীবোর্ড ইত্যাদি হার্ডওয়্যারের সুস্থতা যাচাই করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2020,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "থ্র্যাশিং (Thrashing) বলতে অপারেটিং সিস্টেমে কী বোঝায়? [অভ্যাস সেট #15]",
+    "options": [
+      "A) সিপিইউ ব্যবহারের হার ১০০% এ পৌঁছানো",
+      "B) সিস্টেম প্রসেস এক্সিকিউট করার চেয়ে পেজিং বা পেজ সোয়াপিংয়ে বেশি সময় নষ্ট করা",
+      "C) ডেডলক মুক্ত হওয়া",
+      "D) হার্ডডিস্ক সম্পূর্ণ পূর্ণ হয়ে যাওয়া"
+    ],
+    "answer": 1,
+    "explanation": "যখন ভার্চুয়াল মেমরির পেজ ইন এবং পেজ আউট অপারেশনে সিস্টেমের বেশিরভাগ সময় চলে যায় এবং সিপিইউ ইউটিলাইজেশন শূন্যের কাছাকাছি নেমে যায়, তাকে Thrashing বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2021,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "অপারেটিং সিস্টেমে ডেডলক (Deadlock) সৃষ্টির জন্য নিচের কোন ৪টি শর্ত একই সাথে প্রযোজ্য হতে হয়? [অভ্যাস সেট #16]",
+    "options": [
+      "A) Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait",
+      "B) Aging, Starvation, Paging, Thrashing",
+      "C) Semaphore, Mutex, Monitor, Barrier",
+      "D) FCFS, SJF, Round Robin, Priority"
+    ],
+    "answer": 0,
+    "explanation": "Coffman এর ৪টি শর্ত: মিউচুয়াল এক্সক্লুশন, হোল্ড অ্যান্ড ওয়েট, নো প্রি-এমপশন এবং সার্কুলার ওয়েট একযোগে ঘটলেই কেবল ডেডলক ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2022,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ডেডলক এভয়ডেন্স (Deadlock Avoidance)-এর জন্য বহুল ব্যবহৃত ব্যাংকার্স অ্যালগরিদম (Banker's Algorithm) কোন ধারণার ওপর ভিত্তি করে কাজ করে? [অভ্যাস সেট #16]",
+    "options": [
+      "A) Mutual Exclusion",
+      "B) Safe State Analysis",
+      "C) Context Switch",
+      "D) Virtual Memory"
+    ],
+    "answer": 1,
+    "explanation": "ব্যাংকার্স অ্যালগরিদম প্রতিটি রিসোর্স বরাদ্দের আগে পরীক্ষা করে সিস্টেম সেফ স্টেটে (Safe State) থাকবে কি না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2023,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ভার্চুয়াল মেমরিতে পেজ ফল্ট (Page Fault) কখন ঘটে? [অভ্যাস সেট #16]",
+    "options": [
+      "A) যখন পেজটি মেমরিতে উপস্থিত থাকে",
+      "B) যখন কাঙ্ক্ষিত পেজটি র্যাম (RAM)-এ পাওয়া যায় না এবং ডিস্ক থেকে আনতে হয়",
+      "C) যখন ক্যাশ মেমরি সম্পূর্ণ খালি থাকে",
+      "D) যখন প্রসেস সমাপ্ত হয়"
+    ],
+    "answer": 1,
+    "explanation": "সিপিইউ যখন এমন কোনো মেমরি পেজ এক্সেস করতে চায় যা মেইন মেমরিতে লোড করা নেই, তখন পেজ ফল্ট ইন্টারাপ্ট ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2024,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "বেল্যাডির অ্যানোমালি (Belady's Anomaly) কোন পেজ রিপ্লেসমেন্ট অ্যালগরিদমে পরিলক্ষিত হয়? [অভ্যাস সেট #16]",
+    "options": [
+      "A) LRU (Least Recently Used)",
+      "B) Optimal Algorithm",
+      "C) FIFO (First In First Out)",
+      "D) LFU (Least Frequently Used)"
+    ],
+    "answer": 2,
+    "explanation": "FIFO অ্যালগরিদমে মেমরির ফ্রেম সংখ্যা বাড়ালেও পেজ ফল্টের সংখ্যা না কমে উল্টো বেড়ে যেতে পারে, একে Belady's Anomaly বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2025,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "সিপিইউ শিডিউলিংয়ে কনভয় ইফেক্ট (Convoy Effect) কোন অ্যালগরিদমের অন্যতম প্রধান ত্রুটি? [অভ্যাস সেট #16]",
+    "options": [
+      "A) Round Robin",
+      "B) Shortest Job First (SJF)",
+      "C) First-Come First-Served (FCFS)",
+      "D) Multi-level Feedback Queue"
+    ],
+    "answer": 2,
+    "explanation": "FCFS-এ একটি দীর্ঘ প্রসেস আগে এলে তার পেছনে অপেক্ষমাণ ছোট প্রসেসগুলোর গড় ওয়েটিং টাইম মারাত্মক বেড়ে যায়, একে Convoy Effect বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2026,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "লিনাক্স অপারেটিং সিস্টেমে ফাইল বা ডিরেক্টরির পারমিশন পরিবর্তন করতে কোন কমান্ডটি ব্যবহৃত হয়? [অভ্যাস সেট #16]",
+    "options": [
+      "A) chown",
+      "B) chmod",
+      "C) chgrp",
+      "D) touch"
+    ],
+    "answer": 1,
+    "explanation": "chmod (change mode) কমান্ড দিয়ে ফাইল বা ফোল্ডারের Read, Write ও Execute পারমিশন বদলানো হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2027,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "কম্পিউটার বুটিংয়ের সময় বায়োস (BIOS) প্রথমে মাদারবোর্ডের হার্ডওয়্যার ঠিক আছে কি না তা পরীক্ষা করে, এই প্রক্রিয়ার নাম কী? [অভ্যাস সেট #16]",
+    "options": [
+      "A) POST (Power-On Self-Test)",
+      "B) MBR Read",
+      "C) Kernel Init",
+      "D) Swap Setup"
+    ],
+    "answer": 0,
+    "explanation": "POST (Power-On Self-Test) কম্পিউটার চালুর সাথে সাথে সিপিইউ, র্যাম ও কীবোর্ড ইত্যাদি হার্ডওয়্যারের সুস্থতা যাচাই করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2028,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "থ্র্যাশিং (Thrashing) বলতে অপারেটিং সিস্টেমে কী বোঝায়? [অভ্যাস সেট #16]",
+    "options": [
+      "A) সিপিইউ ব্যবহারের হার ১০০% এ পৌঁছানো",
+      "B) সিস্টেম প্রসেস এক্সিকিউট করার চেয়ে পেজিং বা পেজ সোয়াপিংয়ে বেশি সময় নষ্ট করা",
+      "C) ডেডলক মুক্ত হওয়া",
+      "D) হার্ডডিস্ক সম্পূর্ণ পূর্ণ হয়ে যাওয়া"
+    ],
+    "answer": 1,
+    "explanation": "যখন ভার্চুয়াল মেমরির পেজ ইন এবং পেজ আউট অপারেশনে সিস্টেমের বেশিরভাগ সময় চলে যায় এবং সিপিইউ ইউটিলাইজেশন শূন্যের কাছাকাছি নেমে যায়, তাকে Thrashing বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2029,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "অপারেটিং সিস্টেমে ডেডলক (Deadlock) সৃষ্টির জন্য নিচের কোন ৪টি শর্ত একই সাথে প্রযোজ্য হতে হয়? [অভ্যাস সেট #17]",
+    "options": [
+      "A) Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait",
+      "B) Aging, Starvation, Paging, Thrashing",
+      "C) Semaphore, Mutex, Monitor, Barrier",
+      "D) FCFS, SJF, Round Robin, Priority"
+    ],
+    "answer": 0,
+    "explanation": "Coffman এর ৪টি শর্ত: মিউচুয়াল এক্সক্লুশন, হোল্ড অ্যান্ড ওয়েট, নো প্রি-এমপশন এবং সার্কুলার ওয়েট একযোগে ঘটলেই কেবল ডেডলক ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2030,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ডেডলক এভয়ডেন্স (Deadlock Avoidance)-এর জন্য বহুল ব্যবহৃত ব্যাংকার্স অ্যালগরিদম (Banker's Algorithm) কোন ধারণার ওপর ভিত্তি করে কাজ করে? [অভ্যাস সেট #17]",
+    "options": [
+      "A) Mutual Exclusion",
+      "B) Safe State Analysis",
+      "C) Context Switch",
+      "D) Virtual Memory"
+    ],
+    "answer": 1,
+    "explanation": "ব্যাংকার্স অ্যালগরিদম প্রতিটি রিসোর্স বরাদ্দের আগে পরীক্ষা করে সিস্টেম সেফ স্টেটে (Safe State) থাকবে কি না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2031,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ভার্চুয়াল মেমরিতে পেজ ফল্ট (Page Fault) কখন ঘটে? [অভ্যাস সেট #17]",
+    "options": [
+      "A) যখন পেজটি মেমরিতে উপস্থিত থাকে",
+      "B) যখন কাঙ্ক্ষিত পেজটি র্যাম (RAM)-এ পাওয়া যায় না এবং ডিস্ক থেকে আনতে হয়",
+      "C) যখন ক্যাশ মেমরি সম্পূর্ণ খালি থাকে",
+      "D) যখন প্রসেস সমাপ্ত হয়"
+    ],
+    "answer": 1,
+    "explanation": "সিপিইউ যখন এমন কোনো মেমরি পেজ এক্সেস করতে চায় যা মেইন মেমরিতে লোড করা নেই, তখন পেজ ফল্ট ইন্টারাপ্ট ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2032,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "বেল্যাডির অ্যানোমালি (Belady's Anomaly) কোন পেজ রিপ্লেসমেন্ট অ্যালগরিদমে পরিলক্ষিত হয়? [অভ্যাস সেট #17]",
+    "options": [
+      "A) LRU (Least Recently Used)",
+      "B) Optimal Algorithm",
+      "C) FIFO (First In First Out)",
+      "D) LFU (Least Frequently Used)"
+    ],
+    "answer": 2,
+    "explanation": "FIFO অ্যালগরিদমে মেমরির ফ্রেম সংখ্যা বাড়ালেও পেজ ফল্টের সংখ্যা না কমে উল্টো বেড়ে যেতে পারে, একে Belady's Anomaly বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2033,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "সিপিইউ শিডিউলিংয়ে কনভয় ইফেক্ট (Convoy Effect) কোন অ্যালগরিদমের অন্যতম প্রধান ত্রুটি? [অভ্যাস সেট #17]",
+    "options": [
+      "A) Round Robin",
+      "B) Shortest Job First (SJF)",
+      "C) First-Come First-Served (FCFS)",
+      "D) Multi-level Feedback Queue"
+    ],
+    "answer": 2,
+    "explanation": "FCFS-এ একটি দীর্ঘ প্রসেস আগে এলে তার পেছনে অপেক্ষমাণ ছোট প্রসেসগুলোর গড় ওয়েটিং টাইম মারাত্মক বেড়ে যায়, একে Convoy Effect বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2034,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "লিনাক্স অপারেটিং সিস্টেমে ফাইল বা ডিরেক্টরির পারমিশন পরিবর্তন করতে কোন কমান্ডটি ব্যবহৃত হয়? [অভ্যাস সেট #17]",
+    "options": [
+      "A) chown",
+      "B) chmod",
+      "C) chgrp",
+      "D) touch"
+    ],
+    "answer": 1,
+    "explanation": "chmod (change mode) কমান্ড দিয়ে ফাইল বা ফোল্ডারের Read, Write ও Execute পারমিশন বদলানো হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2035,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "কম্পিউটার বুটিংয়ের সময় বায়োস (BIOS) প্রথমে মাদারবোর্ডের হার্ডওয়্যার ঠিক আছে কি না তা পরীক্ষা করে, এই প্রক্রিয়ার নাম কী? [অভ্যাস সেট #17]",
+    "options": [
+      "A) POST (Power-On Self-Test)",
+      "B) MBR Read",
+      "C) Kernel Init",
+      "D) Swap Setup"
+    ],
+    "answer": 0,
+    "explanation": "POST (Power-On Self-Test) কম্পিউটার চালুর সাথে সাথে সিপিইউ, র্যাম ও কীবোর্ড ইত্যাদি হার্ডওয়্যারের সুস্থতা যাচাই করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2036,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "থ্র্যাশিং (Thrashing) বলতে অপারেটিং সিস্টেমে কী বোঝায়? [অভ্যাস সেট #17]",
+    "options": [
+      "A) সিপিইউ ব্যবহারের হার ১০০% এ পৌঁছানো",
+      "B) সিস্টেম প্রসেস এক্সিকিউট করার চেয়ে পেজিং বা পেজ সোয়াপিংয়ে বেশি সময় নষ্ট করা",
+      "C) ডেডলক মুক্ত হওয়া",
+      "D) হার্ডডিস্ক সম্পূর্ণ পূর্ণ হয়ে যাওয়া"
+    ],
+    "answer": 1,
+    "explanation": "যখন ভার্চুয়াল মেমরির পেজ ইন এবং পেজ আউট অপারেশনে সিস্টেমের বেশিরভাগ সময় চলে যায় এবং সিপিইউ ইউটিলাইজেশন শূন্যের কাছাকাছি নেমে যায়, তাকে Thrashing বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2037,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "অপারেটিং সিস্টেমে ডেডলক (Deadlock) সৃষ্টির জন্য নিচের কোন ৪টি শর্ত একই সাথে প্রযোজ্য হতে হয়? [অভ্যাস সেট #18]",
+    "options": [
+      "A) Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait",
+      "B) Aging, Starvation, Paging, Thrashing",
+      "C) Semaphore, Mutex, Monitor, Barrier",
+      "D) FCFS, SJF, Round Robin, Priority"
+    ],
+    "answer": 0,
+    "explanation": "Coffman এর ৪টি শর্ত: মিউচুয়াল এক্সক্লুশন, হোল্ড অ্যান্ড ওয়েট, নো প্রি-এমপশন এবং সার্কুলার ওয়েট একযোগে ঘটলেই কেবল ডেডলক ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2038,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ডেডলক এভয়ডেন্স (Deadlock Avoidance)-এর জন্য বহুল ব্যবহৃত ব্যাংকার্স অ্যালগরিদম (Banker's Algorithm) কোন ধারণার ওপর ভিত্তি করে কাজ করে? [অভ্যাস সেট #18]",
+    "options": [
+      "A) Mutual Exclusion",
+      "B) Safe State Analysis",
+      "C) Context Switch",
+      "D) Virtual Memory"
+    ],
+    "answer": 1,
+    "explanation": "ব্যাংকার্স অ্যালগরিদম প্রতিটি রিসোর্স বরাদ্দের আগে পরীক্ষা করে সিস্টেম সেফ স্টেটে (Safe State) থাকবে কি না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2039,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ভার্চুয়াল মেমরিতে পেজ ফল্ট (Page Fault) কখন ঘটে? [অভ্যাস সেট #18]",
+    "options": [
+      "A) যখন পেজটি মেমরিতে উপস্থিত থাকে",
+      "B) যখন কাঙ্ক্ষিত পেজটি র্যাম (RAM)-এ পাওয়া যায় না এবং ডিস্ক থেকে আনতে হয়",
+      "C) যখন ক্যাশ মেমরি সম্পূর্ণ খালি থাকে",
+      "D) যখন প্রসেস সমাপ্ত হয়"
+    ],
+    "answer": 1,
+    "explanation": "সিপিইউ যখন এমন কোনো মেমরি পেজ এক্সেস করতে চায় যা মেইন মেমরিতে লোড করা নেই, তখন পেজ ফল্ট ইন্টারাপ্ট ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2040,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "বেল্যাডির অ্যানোমালি (Belady's Anomaly) কোন পেজ রিপ্লেসমেন্ট অ্যালগরিদমে পরিলক্ষিত হয়? [অভ্যাস সেট #18]",
+    "options": [
+      "A) LRU (Least Recently Used)",
+      "B) Optimal Algorithm",
+      "C) FIFO (First In First Out)",
+      "D) LFU (Least Frequently Used)"
+    ],
+    "answer": 2,
+    "explanation": "FIFO অ্যালগরিদমে মেমরির ফ্রেম সংখ্যা বাড়ালেও পেজ ফল্টের সংখ্যা না কমে উল্টো বেড়ে যেতে পারে, একে Belady's Anomaly বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2041,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "সিপিইউ শিডিউলিংয়ে কনভয় ইফেক্ট (Convoy Effect) কোন অ্যালগরিদমের অন্যতম প্রধান ত্রুটি? [অভ্যাস সেট #18]",
+    "options": [
+      "A) Round Robin",
+      "B) Shortest Job First (SJF)",
+      "C) First-Come First-Served (FCFS)",
+      "D) Multi-level Feedback Queue"
+    ],
+    "answer": 2,
+    "explanation": "FCFS-এ একটি দীর্ঘ প্রসেস আগে এলে তার পেছনে অপেক্ষমাণ ছোট প্রসেসগুলোর গড় ওয়েটিং টাইম মারাত্মক বেড়ে যায়, একে Convoy Effect বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2042,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "লিনাক্স অপারেটিং সিস্টেমে ফাইল বা ডিরেক্টরির পারমিশন পরিবর্তন করতে কোন কমান্ডটি ব্যবহৃত হয়? [অভ্যাস সেট #18]",
+    "options": [
+      "A) chown",
+      "B) chmod",
+      "C) chgrp",
+      "D) touch"
+    ],
+    "answer": 1,
+    "explanation": "chmod (change mode) কমান্ড দিয়ে ফাইল বা ফোল্ডারের Read, Write ও Execute পারমিশন বদলানো হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2043,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "কম্পিউটার বুটিংয়ের সময় বায়োস (BIOS) প্রথমে মাদারবোর্ডের হার্ডওয়্যার ঠিক আছে কি না তা পরীক্ষা করে, এই প্রক্রিয়ার নাম কী? [অভ্যাস সেট #18]",
+    "options": [
+      "A) POST (Power-On Self-Test)",
+      "B) MBR Read",
+      "C) Kernel Init",
+      "D) Swap Setup"
+    ],
+    "answer": 0,
+    "explanation": "POST (Power-On Self-Test) কম্পিউটার চালুর সাথে সাথে সিপিইউ, র্যাম ও কীবোর্ড ইত্যাদি হার্ডওয়্যারের সুস্থতা যাচাই করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2044,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "থ্র্যাশিং (Thrashing) বলতে অপারেটিং সিস্টেমে কী বোঝায়? [অভ্যাস সেট #18]",
+    "options": [
+      "A) সিপিইউ ব্যবহারের হার ১০০% এ পৌঁছানো",
+      "B) সিস্টেম প্রসেস এক্সিকিউট করার চেয়ে পেজিং বা পেজ সোয়াপিংয়ে বেশি সময় নষ্ট করা",
+      "C) ডেডলক মুক্ত হওয়া",
+      "D) হার্ডডিস্ক সম্পূর্ণ পূর্ণ হয়ে যাওয়া"
+    ],
+    "answer": 1,
+    "explanation": "যখন ভার্চুয়াল মেমরির পেজ ইন এবং পেজ আউট অপারেশনে সিস্টেমের বেশিরভাগ সময় চলে যায় এবং সিপিইউ ইউটিলাইজেশন শূন্যের কাছাকাছি নেমে যায়, তাকে Thrashing বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2045,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "অপারেটিং সিস্টেমে ডেডলক (Deadlock) সৃষ্টির জন্য নিচের কোন ৪টি শর্ত একই সাথে প্রযোজ্য হতে হয়? [অভ্যাস সেট #19]",
+    "options": [
+      "A) Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait",
+      "B) Aging, Starvation, Paging, Thrashing",
+      "C) Semaphore, Mutex, Monitor, Barrier",
+      "D) FCFS, SJF, Round Robin, Priority"
+    ],
+    "answer": 0,
+    "explanation": "Coffman এর ৪টি শর্ত: মিউচুয়াল এক্সক্লুশন, হোল্ড অ্যান্ড ওয়েট, নো প্রি-এমপশন এবং সার্কুলার ওয়েট একযোগে ঘটলেই কেবল ডেডলক ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2046,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ডেডলক এভয়ডেন্স (Deadlock Avoidance)-এর জন্য বহুল ব্যবহৃত ব্যাংকার্স অ্যালগরিদম (Banker's Algorithm) কোন ধারণার ওপর ভিত্তি করে কাজ করে? [অভ্যাস সেট #19]",
+    "options": [
+      "A) Mutual Exclusion",
+      "B) Safe State Analysis",
+      "C) Context Switch",
+      "D) Virtual Memory"
+    ],
+    "answer": 1,
+    "explanation": "ব্যাংকার্স অ্যালগরিদম প্রতিটি রিসোর্স বরাদ্দের আগে পরীক্ষা করে সিস্টেম সেফ স্টেটে (Safe State) থাকবে কি না।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2047,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "ভার্চুয়াল মেমরিতে পেজ ফল্ট (Page Fault) কখন ঘটে? [অভ্যাস সেট #19]",
+    "options": [
+      "A) যখন পেজটি মেমরিতে উপস্থিত থাকে",
+      "B) যখন কাঙ্ক্ষিত পেজটি র্যাম (RAM)-এ পাওয়া যায় না এবং ডিস্ক থেকে আনতে হয়",
+      "C) যখন ক্যাশ মেমরি সম্পূর্ণ খালি থাকে",
+      "D) যখন প্রসেস সমাপ্ত হয়"
+    ],
+    "answer": 1,
+    "explanation": "সিপিইউ যখন এমন কোনো মেমরি পেজ এক্সেস করতে চায় যা মেইন মেমরিতে লোড করা নেই, তখন পেজ ফল্ট ইন্টারাপ্ট ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2048,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "বেল্যাডির অ্যানোমালি (Belady's Anomaly) কোন পেজ রিপ্লেসমেন্ট অ্যালগরিদমে পরিলক্ষিত হয়? [অভ্যাস সেট #19]",
+    "options": [
+      "A) LRU (Least Recently Used)",
+      "B) Optimal Algorithm",
+      "C) FIFO (First In First Out)",
+      "D) LFU (Least Frequently Used)"
+    ],
+    "answer": 2,
+    "explanation": "FIFO অ্যালগরিদমে মেমরির ফ্রেম সংখ্যা বাড়ালেও পেজ ফল্টের সংখ্যা না কমে উল্টো বেড়ে যেতে পারে, একে Belady's Anomaly বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2049,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "সিপিইউ শিডিউলিংয়ে কনভয় ইফেক্ট (Convoy Effect) কোন অ্যালগরিদমের অন্যতম প্রধান ত্রুটি? [অভ্যাস সেট #19]",
+    "options": [
+      "A) Round Robin",
+      "B) Shortest Job First (SJF)",
+      "C) First-Come First-Served (FCFS)",
+      "D) Multi-level Feedback Queue"
+    ],
+    "answer": 2,
+    "explanation": "FCFS-এ একটি দীর্ঘ প্রসেস আগে এলে তার পেছনে অপেক্ষমাণ ছোট প্রসেসগুলোর গড় ওয়েটিং টাইম মারাত্মক বেড়ে যায়, একে Convoy Effect বলে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  },
+  {
+    "id": 2050,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & Linux Architecture",
+    "question": "লিনাক্স অপারেটিং সিস্টেমে ফাইল বা ডিরেক্টরির পারমিশন পরিবর্তন করতে কোন কমান্ডটি ব্যবহৃত হয়? [অভ্যাস সেট #19]",
+    "options": [
+      "A) chown",
+      "B) chmod",
+      "C) chgrp",
+      "D) touch"
+    ],
+    "answer": 1,
+    "explanation": "chmod (change mode) কমান্ড দিয়ে ফাইল বা ফোল্ডারের Read, Write ও Execute পারমিশন বদলানো হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "os",
+      "scheduling",
+      "deadlock",
+      "linux"
+    ]
+  }
+]

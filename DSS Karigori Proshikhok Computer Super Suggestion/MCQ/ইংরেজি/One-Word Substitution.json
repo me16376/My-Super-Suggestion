@@ -1,0 +1,21 @@
+[
+  {
+    "id": 20011,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "One-Word Substitution",
+    "question": "A person who loves mankind is called:",
+    "options": [
+      "A) Philanthropist",
+      "B) Misanthrope",
+      "C) Optimist",
+      "D) Cannibal"
+    ],
+    "answer": 0,
+    "explanation": "মানবপ্রেমিককে বলা হয় 'Philanthropist'। মানববিদ্বেষীকে বলা হয় 'Misanthrope'।",
+    "tags": [
+      "english",
+      "vocabulary",
+      "one_word"
+    ]
+  }
+]

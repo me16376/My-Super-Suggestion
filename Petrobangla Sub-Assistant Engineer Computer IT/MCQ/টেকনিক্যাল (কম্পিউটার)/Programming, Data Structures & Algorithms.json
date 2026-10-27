@@ -1,0 +1,5502 @@
+[
+  {
+    "id": 1451,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী?",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1452,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)?",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1453,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে?",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1454,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়?",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1455,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত?",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1456,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত?",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1457,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে?",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1458,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1459,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে?",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1460,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি?",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1461,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #2]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1462,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #2]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1463,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #2]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1464,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #2]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1465,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #2]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1466,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #2]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1467,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #2]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1468,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #2]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1469,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #2]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1470,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #2]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1471,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #3]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1472,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #3]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1473,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #3]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1474,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #3]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1475,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #3]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1476,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #3]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1477,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #3]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1478,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #3]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1479,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #3]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1480,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #3]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1481,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #4]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1482,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #4]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1483,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #4]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1484,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #4]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1485,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #4]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1486,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #4]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1487,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #4]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1488,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #4]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1489,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #4]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1490,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #4]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1491,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #5]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1492,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #5]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1493,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #5]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1494,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #5]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1495,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #5]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1496,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #5]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1497,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #5]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1498,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #5]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1499,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #5]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1500,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #5]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1501,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #6]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1502,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #6]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1503,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #6]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1504,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #6]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1505,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #6]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1506,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #6]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1507,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #6]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1508,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #6]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1509,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #6]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1510,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #6]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1511,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #7]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1512,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #7]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1513,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #7]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1514,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #7]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1515,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #7]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1516,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #7]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1517,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #7]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1518,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #7]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1519,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #7]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1520,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #7]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1521,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #8]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1522,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #8]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1523,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #8]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1524,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #8]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1525,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #8]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1526,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #8]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1527,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #8]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1528,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #8]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1529,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #8]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1530,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #8]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1531,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #9]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1532,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #9]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1533,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #9]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1534,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #9]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1535,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #9]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1536,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #9]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1537,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #9]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1538,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #9]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1539,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #9]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1540,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #9]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1541,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #10]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1542,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #10]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1543,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #10]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1544,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #10]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1545,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #10]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1546,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #10]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1547,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #10]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1548,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #10]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1549,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #10]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1550,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #10]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1551,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #11]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1552,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #11]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1553,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #11]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1554,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #11]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1555,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #11]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1556,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #11]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1557,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #11]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1558,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #11]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1559,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #11]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1560,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #11]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1561,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #12]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1562,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #12]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1563,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #12]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1564,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #12]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1565,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #12]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1566,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #12]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1567,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #12]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1568,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #12]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1569,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #12]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1570,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #12]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1571,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #13]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1572,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #13]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1573,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #13]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1574,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #13]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1575,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #13]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1576,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #13]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1577,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #13]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1578,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #13]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1579,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #13]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1580,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #13]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1581,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #14]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1582,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #14]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1583,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #14]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1584,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #14]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1585,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #14]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1586,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #14]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1587,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #14]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1588,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #14]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1589,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #14]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1590,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #14]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1591,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #15]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1592,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #15]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1593,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #15]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1594,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #15]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1595,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #15]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1596,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #15]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1597,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #15]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1598,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #15]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1599,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #15]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1600,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #15]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1601,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #16]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1602,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #16]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1603,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #16]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1604,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #16]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1605,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #16]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1606,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #16]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1607,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #16]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1608,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #16]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1609,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #16]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1610,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #16]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1611,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #17]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1612,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #17]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1613,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #17]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1614,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #17]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1615,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #17]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1616,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #17]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1617,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #17]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1618,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #17]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1619,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #17]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1620,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #17]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1621,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #18]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1622,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #18]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1623,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #18]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1624,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #18]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1625,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #18]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1626,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #18]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1627,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #18]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1628,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #18]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1629,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #18]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1630,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #18]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1631,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #19]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1632,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #19]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1633,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #19]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1634,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #19]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1635,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #19]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1636,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #19]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1637,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #19]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1638,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #19]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1639,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #19]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1640,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #19]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1641,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #20]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1642,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #20]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1643,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #20]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1644,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #20]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1645,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #20]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1646,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #20]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1647,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #20]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1648,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #20]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1649,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #20]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1650,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #20]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1651,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #21]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1652,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #21]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1653,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #21]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1654,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #21]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1655,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #21]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1656,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #21]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1657,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #21]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1658,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #21]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1659,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #21]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1660,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #21]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1661,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #22]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1662,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #22]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1663,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #22]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1664,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #22]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1665,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #22]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1666,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #22]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1667,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #22]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1668,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #22]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1669,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #22]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1670,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #22]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1671,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #23]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1672,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #23]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1673,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #23]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1674,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #23]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1675,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #23]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1676,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #23]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1677,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #23]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1678,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #23]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1679,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #23]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1680,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #23]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1681,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #24]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1682,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #24]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1683,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #24]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1684,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #24]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1685,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #24]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1686,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #24]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1687,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #24]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1688,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #24]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1689,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #24]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1690,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #24]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1691,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "C ল্যাঙ্গুয়েজে `int *p;` একটি পয়েন্টার হলে `*p++` এবং `(*p)++` এর মাঝে পার্থক্য কী? [প্র্যাকটিস কোয়েশ্চেন #25]",
+    "options": [
+      "A) দুটি একই কাজ করে",
+      "B) `*p++` পয়েন্টারকে পরের ঠিকানায় সরায়, আর `(*p)++` পয়েন্টার নির্দেশিত মানকে ১ বাড়ায়",
+      "C) দুটিই সিনট্যাক্স এরর দেয়",
+      "D) `*p++` মান বাড়ায় এবং `(*p)++` অ্যাড্রেস বাড়ায়"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` পয়েন্টারের ঠিকানা এক ঘর এগিয়ে নেয়; `(*p)++` বর্তমান অ্যাড্রেসে সংরক্ষিত ভ্যালু ১ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1692,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সিঙ্গলি লিঙ্কড লিস্টের শেষে নতুন নোড ইনসার্ট করার টাইম কমপ্লেক্সিটি কত (টেইল পয়েন্টার না থাকলে)? [প্র্যাকটিস কোয়েশ্চেন #25]",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "টেইল পয়েন্টার না থাকলে হেড থেকে শেষ নোড পর্যন্ত遍历 করতে হয়, ফলে টাইম কমপ্লেক্সিটি O(n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1693,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "স্ট্যাক (Stack) কোন নীতিতে ডেটা ইনসার্ট ও ডিলিট করে? [প্র্যাকটিস কোয়েশ্চেন #25]",
+    "options": [
+      "A) FIFO (First In First Out)",
+      "B) LIFO (Last In First Out)",
+      "C) Random Access",
+      "D) Priority Based"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাক হলো LIFO (Last In First Out) ডেটা স্ট্রাকচার, যেখানে পুশ ও পপ একই প্রান্ত (Top) থেকে ঘটে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1694,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কিউ (Queue) ডেটা স্ট্রাকচারে ডেটা কোন প্রান্ত দিয়ে প্রবেশ করে এবং কোন প্রান্ত দিয়ে বের হয়? [প্র্যাকটিস কোয়েশ্চেন #25]",
+    "options": [
+      "A) Front দিয়ে প্রবেশ, Rear দিয়ে বের",
+      "B) Rear দিয়ে প্রবেশ, Front দিয়ে বের",
+      "C) Top দিয়ে উভয়ই ঘটে",
+      "D) যেকোনো প্রান্ত থেকে হতে পারে"
+    ],
+    "answer": 1,
+    "explanation": "কিউ হলো FIFO স্ট্রাকচার; এর Rear (পেছন) দিয়ে Enqueue এবং Front (সামনে) দিয়ে Dequeue সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1695,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "বাইনারি সার্চ (Binary Search) অ্যালগরিদমের ওয়ার্স্ট-কেস টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #25]",
+    "options": [
+      "A) O(1)",
+      "B) O(n)",
+      "C) O(log n)",
+      "D) O(n log n)"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি সার্চ প্রতি পদক্ষেপে সার্চ স্পেসকে অর্ধেকে নামিয়ে আনে, ফলে এর টাইম কমপ্লেক্সিটি O(log n)।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1696,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "কুইক সর্ট (Quick Sort) অ্যালগরিদমের ওরস্ট কেস (Worst Case) টাইম কমপ্লেক্সিটি কত? [প্র্যাকটিস কোয়েশ্চেন #25]",
+    "options": [
+      "A) O(n log n)",
+      "B) O(n)",
+      "C) O(n^2)",
+      "D) O(log n)"
+    ],
+    "answer": 2,
+    "explanation": "যদি অ্যারেটি ইতিমধ্যে সাজানো থাকে এবং পাইভট হিসেবে প্রথম বা শেষ উপাদান নেওয়া হয়, তবে কুইক সর্টের জটিলতা O(n^2) হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1697,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "মার্জ সর্ট (Merge Sort) অ্যালগরিদমের টাইম কমপ্লেক্সিটি সব ক্ষেত্রে (Best, Average, Worst) কত থাকে? [প্র্যাকটিস কোয়েশ্চেন #25]",
+    "options": [
+      "A) O(n^2)",
+      "B) O(n log n)",
+      "C) O(n)",
+      "D) O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "ডিভাইড অ্যান্ড কনকার নীতির মার্জ সর্ট সর্বদা নিখুঁতভাবে O(n log n) জটিলতায় কাজ করে।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1698,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "সি ল্যাঙ্গুয়েজে `static` ভ্যারিয়েবলের বৈশিষ্ট্য কোনটি? [প্র্যাকটিস কোয়েশ্চেন #25]",
+    "options": [
+      "A) এটি ফাংশন কল শেষ হলেই মুছে যায়",
+      "B) এটি মেমরির ডেটা সেগমেন্টে থাকে এবং প্রোগ্রাম চলাকালীন মান ধরে রাখে",
+      "C) এটি কেবল স্ট্যাক মেমরিতে অবস্থান করে",
+      "D) এর কোনো ডিফল্ট মান থাকে না"
+    ],
+    "answer": 1,
+    "explanation": "Static ভ্যারিয়েবল প্রোগ্রাম এক্সিকিউশন চলাকালীন তার পূর্বের মান অক্ষুণ্ণ রাখে এবং এর ডিফল্ট মান ০ হয়।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1699,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "একটি সম্পূর্ণ বাইনারি ট্রির উচ্চতা h হলে এতে সর্বোচ্চ কতটি নোড থাকতে পারে? [প্র্যাকটিস কোয়েশ্চেন #25]",
+    "options": [
+      "A) 2^h",
+      "B) 2^(h+1) - 1",
+      "C) 2h + 1",
+      "D) h^2"
+    ],
+    "answer": 1,
+    "explanation": "h উচ্চতার ফুল বাইনারি ট্রির সর্বোচ্চ নোড সংখ্যা হলো 2^(h+1) - 1।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  },
+  {
+    "id": 1700,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming, Data Structures & Algorithms",
+    "question": "ইনফিক্স এক্সপ্রেশন `(A + B) * C` এর পোস্টফিক্স (Postfix / RPN) রূপ কোনটি? [প্র্যাকটিস কোয়েশ্চেন #25]",
+    "options": [
+      "A) A B + C *",
+      "B) * + A B C",
+      "C) A B C + *",
+      "D) A B * C +"
+    ],
+    "answer": 0,
+    "explanation": "(A + B) এর পোস্টফিক্স হলো AB+। এর সাথে * C গুণ হলে দাঁড়ায় AB+ C *।",
+    "tags": [
+      "technical",
+      "buet_frequent",
+      "programming",
+      "c",
+      "dsa",
+      "complexity"
+    ]
+  }
+]

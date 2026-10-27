@@ -1,0 +1,21 @@
+[
+  {
+    "id": 50012,
+    "subject": "সাধারণ জ্ঞান ও সমাজসেবা",
+    "topic": "আন্তর্জাতিক বিষয়াবলি",
+    "question": "জলবায়ু পরিবর্তন সংক্রান্ত জাতিসংঘের ফ্রেমওয়ার্ক কনভেনশন কোনটি?",
+    "options": [
+      "A) UNFCCC",
+      "B) UNICEF",
+      "C) UNCTAD",
+      "D) UNHCR"
+    ],
+    "answer": 0,
+    "explanation": "UNFCCC = United Nations Framework Convention on Climate Change, যা জলবায়ু পরিবর্তন মোকাবিলায় বিশ্বব্যাপী কাজ করে (যেমন কপ সম্মেলন)।",
+    "tags": [
+      "gk",
+      "international",
+      "climate"
+    ]
+  }
+]

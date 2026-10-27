@@ -1,0 +1,21 @@
+[
+  {
+    "id": 40047,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "কম্পিউটার হার্ডওয়্যার",
+    "question": "কম্পিউটারে ব্যবহৃত SSD এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Solid State Drive",
+      "B) Simple Storage Device",
+      "C) System Soft Disk",
+      "D) Super Speed Drive"
+    ],
+    "answer": 0,
+    "explanation": "SSD = Solid State Drive। এটি ফ্ল্যাশ মেমরি ভিত্তিক হওয়ায় প্রচলিত মেকানিক্যাল HDD (Hard Disk Drive) এর চেয়ে অনেক দ্রুত ও টেকসই।",
+    "tags": [
+      "computer_trade",
+      "hardware",
+      "ssd"
+    ]
+  }
+]

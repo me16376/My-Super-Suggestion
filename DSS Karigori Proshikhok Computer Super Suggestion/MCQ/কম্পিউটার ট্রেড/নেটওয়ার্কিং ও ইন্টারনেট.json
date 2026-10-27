@@ -1,0 +1,58 @@
+[
+  {
+    "id": 40021,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "নেটওয়ার্কিং ও ইন্টারনেট",
+    "question": "IPv4 অ্যাড্রেসে মোট কত বিট থাকে?",
+    "options": [
+      "A) ১৬ বিট",
+      "B) ৩২ বিট",
+      "C) ৬৪ বিট",
+      "D) ১২৮ বিট"
+    ],
+    "answer": 1,
+    "explanation": "IPv4 অ্যাড্রেস ৩২ বিটের (৪টি অক্টেট বা ৪ বাইট)। আর IPv6 অ্যাড্রেস ১২৮ বিটের।",
+    "tags": [
+      "computer_trade",
+      "networking",
+      "ip"
+    ]
+  },
+  {
+    "id": 40022,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "নেটওয়ার্কিং ও ইন্টারনেট",
+    "question": "ইমেইল পাঠানোর ক্ষেত্রে গোপন প্রাপক রাখার জন্য কোন ফিল্ড ব্যবহার করা হয়?",
+    "options": [
+      "A) To",
+      "B) CC",
+      "C) BCC",
+      "D) Subject"
+    ],
+    "answer": 2,
+    "explanation": "BCC = Blind Carbon Copy। এই ফিল্ডে রাখা ইমেইল অ্যাড্রেস অন্য কোনো প্রাপক দেখতে পায় না।",
+    "tags": [
+      "computer_trade",
+      "email"
+    ]
+  },
+  {
+    "id": 40023,
+    "subject": "কম্পিউটার ট্রেড (Trade ICT)",
+    "topic": "নেটওয়ার্কিং ও ইন্টারনেট",
+    "question": "HTTP এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Hyper Text Transfer Protocol",
+      "B) High Technical Text Protocol",
+      "C) Hyperlink Text Testing Process",
+      "D) Home Tool Terminal Protocol"
+    ],
+    "answer": 0,
+    "explanation": "HTTP = Hyper Text Transfer Protocol। ইন্টারনেটে ওয়েবপেজ ব্রাউজারে ট্রান্সফারের জন্য এই প্রটোকল ব্যবহৃত হয়।",
+    "tags": [
+      "computer_trade",
+      "abbreviation",
+      "internet"
+    ]
+  }
+]

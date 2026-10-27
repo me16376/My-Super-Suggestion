@@ -1,0 +1,40 @@
+[
+  {
+    "id": 20003,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Subject-Verb Agreement",
+    "question": "Neither the teacher nor the students ______ present in the seminar yesterday.",
+    "options": [
+      "A) was",
+      "B) were",
+      "C) is",
+      "D) are"
+    ],
+    "answer": 1,
+    "explanation": "Neither...nor দ্বারা দুটি সাবজেক্ট যুক্ত হলে ভার্বটি কাছের সাবজেক্ট অনুযায়ী হয়। এখানে 'students' প্লুরাল এবং অতীতকালের হওয়ায় 'were' হবে।",
+    "tags": [
+      "english",
+      "grammar",
+      "subject_verb_agreement"
+    ]
+  },
+  {
+    "id": 20018,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Subject-Verb Agreement",
+    "question": "Bread and butter ______ his favourite breakfast.",
+    "options": [
+      "A) are",
+      "B) is",
+      "C) were",
+      "D) have been"
+    ],
+    "answer": 1,
+    "explanation": "Bread and butter যখন একত্রে একটি খাবার হিসেবে একক ধারণা প্রকাশ করে, তখন ভার্বটি Singular (is) হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "subject_verb_agreement"
+    ]
+  }
+]
