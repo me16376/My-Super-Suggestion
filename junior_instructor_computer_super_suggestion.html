@@ -1263,11 +1263,11 @@
       </div>
       
       <!-- MCQ Interactive Score Badge -->
-      <div id="prelim-stats" class="score-badge">
+      <div id="mcq-stats" class="score-badge">
         <span class="score-pill correct">সঠিক: <span id="correct-count">0</span></span>
         <span class="score-pill wrong">ভুল: <span id="wrong-count">0</span></span>
         <span class="score-pill score">স্কোর: <span id="net-score">0.00</span></span>
-        <button class="btn-reset" onclick="resetScore()">রিসেট</button>
+        <button class="btn-reset" onclick="resetMcqScore()">রিসেট</button>
       </div>
 
       <!-- Written Mode Action Bar -->
@@ -1279,8 +1279,13 @@
     </div>
 
     <!-- Questions Feed Container -->
-    <div id="questions-container" class="questions-container">
+    <div id="questions-list" class="questions-container">
       <!-- Injected via JavaScript -->
+    </div>
+
+    <!-- Dedicated Mock Exam Container -->
+    <div id="mock-exam-container" class="mock-container" style="display: none;">
+      <!-- Dynamically generated via JavaScript -->
     </div>
 
     <!-- Load More / Pagination -->
@@ -1288,7 +1293,7 @@
       <button class="btn-load-more" onclick="loadMoreQuestions()">
         আরও প্রশ্ন লোড করুন (Load More)
       </button>
-      <button class="btn-load-all" onclick="loadAllRemaining()">
+      <button class="btn-load-all" onclick="loadAllQuestions()">
         একসাথে সব প্রশ্ন দেখুন (View All)
       </button>
     </div>
@@ -1422,6 +1427,10 @@
       renderQuestions();
     }
 
+    function loadAllRemaining() {
+      loadAllQuestions();
+    }
+
     // Initialize Application with Dual-Mode Data Connection
     async function initApp() {
       initTheme();
@@ -1463,7 +1472,7 @@
     }
 
     function renderCorsNotice(folderName) {
-      const container = document.getElementById('questionsList');
+      const container = document.getElementById('questions-list') || document.getElementById('questions-container') || document.getElementById('questionsList');
       if (!container) return;
       container.innerHTML = `
         <div style="background:var(--card-bg);border:2px dashed var(--primary);border-radius:14px;padding:36px 24px;text-align:center;max-width:720px;margin:30px auto;box-shadow:var(--shadow-sm);">
@@ -1791,6 +1800,10 @@
       userAnswers = {};
       updateScoreStats();
       renderQuestions();
+    }
+
+    function resetScore() {
+      resetMcqScore();
     }
 
     // Render Written Cards

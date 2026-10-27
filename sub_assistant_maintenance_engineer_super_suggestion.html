@@ -1467,7 +1467,7 @@
     }
 
     function renderCorsNotice(folderName) {
-      const container = document.getElementById('questionsList');
+      const container = document.getElementById('questions-list') || document.getElementById('questions-container') || document.getElementById('questionsList');
       if (!container) return;
       container.innerHTML = `
         <div style="background:var(--card-bg);border:2px dashed var(--primary);border-radius:14px;padding:36px 24px;text-align:center;max-width:720px;margin:30px auto;box-shadow:var(--shadow-sm);">

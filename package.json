@@ -7,7 +7,10 @@
     "start": "node server.js",
     "dev": "node server.js",
     "sync": "node scripts/sync_all.js",
-    "audit": "node scripts/audit_all.js"
+    "audit": "node scripts/audit_all.js",
+    "py:server": "python server.py",
+    "py:sync": "python sync_and_validate.py",
+    "py:test": "node scripts/diagnose_python_server.js"
   },
   "keywords": [
     "bpsc",
