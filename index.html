@@ -14,23 +14,26 @@
       --primary-light: #eff6ff;
       --accent: #0284c7;
       --accent-hover: #0369a1;
-      --bg-main: #0f172a;
-      --bg-card: #1e293b;
-      --bg-card-hover: #24344d;
-      --card-border: #334155;
-      --card-border-hover: #38bdf8;
-      --text-main: #f8fafc;
-      --text-muted: #94a3b8;
-      --text-dim: #64748b;
+      --bg-main: #f8fafc;
+      --bg-card: #ffffff;
+      --bg-card-hover: #f8fafc;
+      --card-border: #e2e8f0;
+      --card-border-hover: #3b82f6;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --text-dim: #94a3b8;
       --success: #10b981;
-      --success-bg: rgba(16, 185, 129, 0.15);
-      --success-border: rgba(16, 185, 129, 0.4);
-      --warning: #f59e0b;
-      --warning-bg: rgba(245, 158, 11, 0.15);
-      --warning-border: rgba(245, 158, 11, 0.4);
+      --success-bg: #ecfdf5;
+      --success-border: #a7f3d0;
+      --warning: #d97706;
+      --warning-bg: #fffbeb;
+      --warning-border: #fde68a;
       --radius-sm: 8px;
       --radius-md: 14px;
       --radius-lg: 20px;
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 4px 12px rgba(15, 23, 42, 0.06);
+      --shadow-lg: 0 12px 28px -4px rgba(15, 23, 42, 0.08);
       --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
@@ -49,13 +52,13 @@
       display: flex;
       flex-direction: column;
       background-image: 
-        radial-gradient(circle at 15% 10%, rgba(37, 99, 235, 0.12) 0%, transparent 40%),
-        radial-gradient(circle at 85% 85%, rgba(2, 132, 199, 0.1) 0%, transparent 40%);
+        radial-gradient(circle at 15% 10%, rgba(37, 99, 235, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 85% 85%, rgba(2, 132, 199, 0.05) 0%, transparent 40%);
       background-attachment: fixed;
     }
 
     .container {
-      max-width: 1240px;
+      max-width: 1300px;
       margin: 0 auto;
       padding: 32px 20px 60px 20px;
       width: 100%;
@@ -64,17 +67,19 @@
 
     /* Top Header */
     header {
-      margin-bottom: 36px;
+      max-width: 1300px;
+      margin: 0 auto 36px auto;
       text-align: center;
+      width: 100%;
     }
 
     .hero-badge {
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      background: rgba(37, 99, 235, 0.2);
-      border: 1px solid rgba(56, 189, 248, 0.35);
-      color: #38bdf8;
+      background: rgba(37, 99, 235, 0.08);
+      border: 1px solid rgba(37, 99, 235, 0.25);
+      color: #2563eb;
       padding: 6px 18px;
       border-radius: 9999px;
       font-size: 13.5px;
@@ -87,14 +92,14 @@
       font-family: 'Outfit', 'Hind Siliguri', sans-serif;
       font-size: 34px;
       font-weight: 800;
-      color: #ffffff;
+      color: #0f172a;
       letter-spacing: -0.5px;
       margin-bottom: 10px;
       line-height: 1.25;
     }
 
     h1 span {
-      background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+      background: linear-gradient(135deg, #0284c7 0%, #2563eb 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -112,6 +117,10 @@
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
       gap: 16px;
       margin-bottom: 36px;
+      max-width: 1300px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .stat-card {
@@ -122,13 +131,14 @@
       display: flex;
       align-items: center;
       gap: 16px;
+      box-shadow: var(--shadow-sm);
       transition: var(--transition);
     }
 
     .stat-card:hover {
       transform: translateY(-2px);
-      border-color: rgba(56, 189, 248, 0.4);
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+      border-color: #93c5fd;
+      box-shadow: var(--shadow-md);
     }
 
     .stat-icon {
@@ -142,15 +152,15 @@
       flex-shrink: 0;
     }
 
-    .stat-icon.blue { background: rgba(37, 99, 235, 0.2); color: #60a5fa; }
-    .stat-icon.green { background: rgba(16, 185, 129, 0.2); color: #34d399; }
-    .stat-icon.purple { background: rgba(139, 92, 246, 0.2); color: #a78bfa; }
-    .stat-icon.amber { background: rgba(245, 158, 11, 0.2); color: #fbbf24; }
+    .stat-icon.blue { background: #eff6ff; color: #2563eb; }
+    .stat-icon.green { background: #ecfdf5; color: #059669; }
+    .stat-icon.purple { background: #f5f3ff; color: #7c3aed; }
+    .stat-icon.amber { background: #fffbeb; color: #d97706; }
 
     .stat-content h3 {
       font-size: 26px;
       font-weight: 800;
-      color: #ffffff;
+      color: #0f172a;
       font-family: 'Inter', sans-serif;
       line-height: 1.1;
     }
@@ -173,6 +183,11 @@
       padding: 14px 20px;
       border-radius: var(--radius-md);
       border: 1px solid var(--card-border);
+      box-shadow: var(--shadow-sm);
+      max-width: 1300px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .search-box {
@@ -191,11 +206,11 @@
 
     .search-box input {
       width: 100%;
-      background: rgba(15, 23, 42, 0.7);
+      background: #f8fafc;
       border: 1px solid var(--card-border);
       padding: 10px 14px 10px 42px;
       border-radius: var(--radius-sm);
-      color: #ffffff;
+      color: #0f172a;
       font-family: inherit;
       font-size: 14px;
       outline: none;
@@ -203,9 +218,9 @@
     }
 
     .search-box input:focus {
-      border-color: #38bdf8;
-      background: rgba(15, 23, 42, 0.9);
-      box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2);
+      border-color: #2563eb;
+      background: #ffffff;
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
     }
 
     .filter-pills {
@@ -215,7 +230,7 @@
     }
 
     .filter-btn {
-      background: rgba(15, 23, 42, 0.6);
+      background: #f1f5f9;
       border: 1px solid var(--card-border);
       color: var(--text-muted);
       padding: 7px 16px;
@@ -227,15 +242,16 @@
     }
 
     .filter-btn:hover {
-      color: #ffffff;
-      border-color: var(--text-muted);
+      color: #0f172a;
+      background: #e2e8f0;
+      border-color: #cbd5e1;
     }
 
     .filter-btn.active {
       background: #2563eb;
       color: #ffffff;
-      border-color: #3b82f6;
-      box-shadow: 0 2px 8px rgba(37, 99, 235, 0.35);
+      border-color: #2563eb;
+      box-shadow: 0 2px 8px rgba(37, 99, 235, 0.25);
     }
 
     /* Applications Grid */
@@ -243,6 +259,10 @@
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
       gap: 24px;
+      max-width: 1300px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .job-card {
@@ -255,13 +275,14 @@
       position: relative;
       transition: var(--transition);
       overflow: hidden;
+      box-shadow: var(--shadow-sm);
     }
 
     .job-card:hover {
-      border-color: var(--card-border-hover);
+      border-color: #93c5fd;
       transform: translateY(-4px);
-      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
-      background: var(--bg-card-hover);
+      box-shadow: var(--shadow-lg);
+      background: #ffffff;
     }
 
     .job-card.ready::before {
@@ -295,11 +316,11 @@
     .dept-badge {
       font-size: 12.5px;
       font-weight: 600;
-      color: #38bdf8;
-      background: rgba(56, 189, 248, 0.12);
+      color: #0284c7;
+      background: #eff6ff;
+      border: 1px solid #bae6fd;
       padding: 4px 10px;
       border-radius: 6px;
-      border: 1px solid rgba(56, 189, 248, 0.25);
     }
 
     .status-badge {
@@ -316,20 +337,20 @@
 
     .status-badge.ready {
       background: var(--success-bg);
-      color: #34d399;
+      color: #059669;
       border: 1px solid var(--success-border);
     }
 
     .status-badge.pipeline {
       background: var(--warning-bg);
-      color: #fbbf24;
+      color: #d97706;
       border: 1px solid var(--warning-border);
     }
 
     .job-title {
       font-size: 20px;
       font-weight: 700;
-      color: #ffffff;
+      color: #0f172a;
       margin-bottom: 6px;
       line-height: 1.35;
     }
@@ -351,21 +372,22 @@
     }
 
     .meta-tag {
-      background: rgba(15, 23, 42, 0.5);
-      border: 1px solid rgba(255, 255, 255, 0.1);
+      background: #f1f5f9;
+      border: 1px solid #e2e8f0;
       padding: 3px 9px;
       border-radius: 6px;
       font-size: 12px;
-      color: #cbd5e1;
+      color: #475569;
     }
 
     .card-highlights {
-      background: rgba(15, 23, 42, 0.5);
+      background: #f8fafc;
+      border: 1px solid #f1f5f9;
       border-radius: var(--radius-sm);
       padding: 14px;
       margin-bottom: 22px;
       font-size: 13.5px;
-      color: #cbd5e1;
+      color: #334155;
       line-height: 1.6;
       flex: 1;
     }
@@ -389,7 +411,7 @@
       content: '✔';
       position: absolute;
       left: 0;
-      color: #38bdf8;
+      color: #0284c7;
       font-weight: bold;
     }
 
@@ -417,13 +439,13 @@
       justify-content: center;
       gap: 8px;
       transition: var(--transition);
-      box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
+      box-shadow: 0 4px 14px rgba(37, 99, 235, 0.25);
     }
 
     .btn-primary-action:hover {
       background: linear-gradient(135deg, #1d4ed8 0%, #0369a1 100%);
       transform: translateY(-1px);
-      box-shadow: 0 6px 20px rgba(37, 99, 235, 0.45);
+      box-shadow: 0 6px 20px rgba(37, 99, 235, 0.35);
     }
 
     .secondary-links {
@@ -433,9 +455,9 @@
     }
 
     .btn-secondary-link {
-      background: rgba(255, 255, 255, 0.05);
+      background: #f8fafc;
       border: 1px solid var(--card-border);
-      color: #cbd5e1;
+      color: #334155;
       text-decoration: none;
       font-size: 12.5px;
       font-weight: 600;
@@ -450,15 +472,15 @@
     }
 
     .btn-secondary-link:hover {
-      background: rgba(255, 255, 255, 0.12);
-      color: #ffffff;
-      border-color: rgba(56, 189, 248, 0.4);
+      background: #eff6ff;
+      color: #1d4ed8;
+      border-color: #93c5fd;
     }
 
     /* Add New Circular Card */
     .add-new-card {
-      background: rgba(30, 41, 59, 0.4);
-      border: 2px dashed rgba(255, 255, 255, 0.15);
+      background: #ffffff;
+      border: 2px dashed #cbd5e1;
       border-radius: var(--radius-lg);
       padding: 30px;
       display: flex;
@@ -471,18 +493,19 @@
     }
 
     .add-new-card:hover {
-      background: rgba(30, 41, 59, 0.7);
-      border-color: #38bdf8;
+      background: #f8fafc;
+      border-color: #2563eb;
       transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
     }
 
     .add-icon {
       width: 56px;
       height: 56px;
       border-radius: 50%;
-      background: rgba(56, 189, 248, 0.1);
-      border: 1px solid rgba(56, 189, 248, 0.3);
-      color: #38bdf8;
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      color: #2563eb;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -493,12 +516,12 @@
 
     .add-new-card:hover .add-icon {
       transform: scale(1.1);
-      background: rgba(56, 189, 248, 0.2);
+      background: #dbeafe;
     }
 
     .add-new-card h3 {
       font-size: 18px;
-      color: #ffffff;
+      color: #0f172a;
       margin-bottom: 8px;
     }
 
@@ -515,18 +538,18 @@
       gap: 6px;
       font-size: 13px;
       font-weight: 700;
-      color: #38bdf8;
-      background: rgba(56, 189, 248, 0.1);
+      color: #2563eb;
+      background: #eff6ff;
       padding: 6px 14px;
       border-radius: 9999px;
-      border: 1px solid rgba(56, 189, 248, 0.3);
+      border: 1px solid #bfdbfe;
     }
 
     /* Architecture Documentation Banner */
     .docs-banner {
       margin-top: 50px;
-      background: linear-gradient(135deg, rgba(30, 41, 59, 0.9) 0%, rgba(15, 23, 42, 0.95) 100%);
-      border: 1px solid var(--card-border);
+      background: linear-gradient(135deg, #eff6ff 0%, #f0fdf4 100%);
+      border: 1px solid #bfdbfe;
       border-radius: var(--radius-md);
       padding: 24px 28px;
       display: flex;
@@ -534,6 +557,11 @@
       justify-content: space-between;
       gap: 20px;
       flex-wrap: wrap;
+      box-shadow: var(--shadow-sm);
+      max-width: 1300px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .docs-info {
@@ -548,19 +576,19 @@
 
     .docs-text h4 {
       font-size: 17px;
-      color: #ffffff;
+      color: #0f172a;
       margin-bottom: 4px;
     }
 
     .docs-text p {
       font-size: 13.5px;
-      color: var(--text-muted);
+      color: #475569;
     }
 
     .btn-docs {
-      background: rgba(255, 255, 255, 0.1);
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      color: #ffffff;
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      color: #1e293b;
       text-decoration: none;
       padding: 10px 18px;
       border-radius: var(--radius-sm);
@@ -571,21 +599,27 @@
       gap: 8px;
       transition: var(--transition);
       white-space: nowrap;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
     }
 
     .btn-docs:hover {
-      background: rgba(255, 255, 255, 0.2);
-      border-color: #38bdf8;
+      background: #2563eb;
+      border-color: #2563eb;
+      color: #ffffff;
       transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
     }
 
     /* Footer */
     footer {
+      max-width: 1300px;
+      margin: 0 auto;
+      width: 100%;
       border-top: 1px solid var(--card-border);
       padding: 24px 20px;
       text-align: center;
       font-size: 13px;
-      color: var(--text-dim);
+      color: var(--text-muted);
     }
 
     @media (max-width: 768px) {
@@ -616,29 +650,29 @@
         <div class="stat-card">
           <div class="stat-icon blue">📁</div>
           <div class="stat-content">
-            <h3 id="stat-total-apps">৪ টি</h3>
+            <h3 id="stat-total-apps">৬ টি</h3>
             <p>আবেদনকৃত চাকরি / সার্কুলার</p>
           </div>
         </div>
         <div class="stat-card">
           <div class="stat-icon green">✅</div>
           <div class="stat-content">
-            <h3>৩ টি রেডি</h3>
+            <h3>৪ টি রেডি</h3>
             <p>সম্পূর্ণ সুপার সাজেশন পোর্টাল</p>
           </div>
         </div>
         <div class="stat-card">
           <div class="stat-icon purple">📚</div>
           <div class="stat-content">
-            <h3>২৭,৫৮৭ টি</h3>
+            <h3>২৭,৭২৫ টি</h3>
             <p>প্রস্তুতকৃত প্রশ্ন ও মডেল উত্তর</p>
           </div>
         </div>
         <div class="stat-card">
           <div class="stat-icon amber">🎯</div>
           <div class="stat-content">
-            <h3>৮১ টি পদ</h3>
-            <p>জুনিয়র ইন্সট্রাক্টর (টিএসসি)</p>
+            <h3>৩১ টি পদ</h3>
+            <p>কারিগরি প্রশিক্ষক (DSS কম্পিউটার)</p>
           </div>
         </div>
       </div>
@@ -821,7 +855,104 @@
         </div>
       </div>
 
-      <!-- 4. Sub-Registrar -->
+      <!-- 4. DSS Karigori Proshikhok (Computer) -->
+      <div class="job-card ready" data-status="ready" data-keywords="সমাজসেবা অধিদপ্তর dss কারিগরি প্রশিক্ষক কম্পিউটার karigori proshikhok computer সমাজকল্যাণ ১৮তম গ্রেড ক্রমিক ৪০ ক">
+        <div class="card-top">
+          <span class="dept-badge" style="color: #38bdf8; background: rgba(2, 132, 199, 0.12); border-color: rgba(56, 189, 248, 0.25);">সমাজসেবা অধিদপ্তর (DSS)</span>
+          <span class="status-badge ready">● প্রস্তুত (১০০%)</span>
+        </div>
+        
+        <h2 class="job-title">কারিগরি প্রশিক্ষক (উপজেলা) [ট্রেড: কম্পিউটার]</h2>
+        <div class="ministry-title">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          সমাজকল্যাণ মন্ত্রণালয় | সমাজসেবা অধিদপ্তর
+        </div>
+
+        <div class="meta-pills">
+          <span class="meta-tag">গ্রেড: ১৮তম (৮,৮০০ - ২১,৩১০/-)</span>
+          <span class="meta-tag">বিজ্ঞপ্তি ক্রমিক: ৪০ (ক)</span>
+          <span class="meta-tag" style="background: rgba(16, 185, 129, 0.15); color: #34d399; font-weight:700;">৩১টি শূন্য পদ (স্থায়ী)</span>
+        </div>
+
+        <div class="card-highlights">
+          <ul>
+            <li><strong>১৩৩টি মাস্টার প্রিলিমিনারি MCQ:</strong> কম্পিউটার ট্রেড (৫০), বাংলা (২৫), ইংরেজি (২৩), গণিত (১৭) ও সমাজসেবা-জিকে (১৮)</li>
+            <li><strong>৭০ নম্বরের রিয়েল লাইভ মডেল টেস্ট ইঞ্জিন:</strong> ৬০ মিনিট লাইভ টাইমার ও -০.২৫ নেগেটিভ মার্কিং সহ ওএমআর টেস্ট</li>
+            <li><strong>লিখিত ও ব্যবহারিক হ্যান্ডবুক:</strong> ১০টি জরুরি শর্টকাট, এক্সেল ফর্মুলা, হার্ডওয়্যার ট্রাবলশুটিং ও ভাতা স্কিম</li>
+            <li><strong>প্রিন্ট-রেডি অফিসিয়াল সিলেবাস গাইড:</strong> এ৪ ফরমেটে অফিশিয়াল পরীক্ষা পদ্ধতি ও টিপস</li>
+            <li>জিরো-সিওআরএস অফলাইন প্রযুক্তি ও লোকাল স্টোরেজ বুকমার্ক (⭐) সিস্টেম</li>
+          </ul>
+        </div>
+
+        <div class="card-actions">
+          <a href="DSS Karigori Proshikhok Computer Super Suggestion/dss_karigori_proshikhok_computer_super_suggestion.html" class="btn-primary-action" style="background: linear-gradient(135deg, #0284c7 0%, #2563eb 100%);">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            সুপার সাজেশন পোর্টাল ওপেন করুন (Open Portal)
+          </a>
+
+          <div class="secondary-links">
+            <a href="DSS Karigori Proshikhok Computer Super Suggestion/exam_guide.html" target="_blank" class="btn-secondary-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+              পরীক্ষা পদ্ধতি ও গাইড
+            </a>
+            <a href="DSS Karigori Proshikhok Computer Super Suggestion/DSS_Karigori_Proshikhok_Computer_Exam_Guide.pdf" target="_blank" class="btn-secondary-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              সিলেবাস PDF গাইড
+            </a>
+            <a href="PROGRESS.md" target="_blank" class="btn-secondary-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+              প্রগ্রেস ট্র্যাকার (MD)
+            </a>
+            <a href="DSS Karigori Proshikhok Computer Super Suggestion/DSS_ad_2026_Circular.pdf" target="_blank" class="btn-secondary-link">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+              অফিশিয়াল সার্কুলার PDF
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5. DSS Data Entry Operator -->
+      <div class="job-card pipeline" data-status="pipeline" data-keywords="সমাজসেবা অধিদপ্তর dss ডাটা এন্ট্রি অপারেটর data entry operator ১৬তম গ্রেড ক্রমিক ১৬">
+        <div class="card-top">
+          <span class="dept-badge" style="color: #fbbf24; background: rgba(245, 158, 11, 0.12); border-color: rgba(245, 158, 11, 0.25);">সমাজসেবা অধিদপ্তর (DSS)</span>
+          <span class="status-badge pipeline">● ধাপ ২ পাইপলাইন (Upcoming)</span>
+        </div>
+        
+        <h2 class="job-title">ডাটা এন্ট্রি অপারেটর (Data Entry Operator)</h2>
+        <div class="ministry-title">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          সমাজকল্যাণ মন্ত্রণালয় | সমাজসেবা অধিদপ্তর
+        </div>
+
+        <div class="meta-pills">
+          <span class="meta-tag">গ্রেড: ১৬তম (৯,৩০০ - ২২,৪৯০/-)</span>
+          <span class="meta-tag">বিজ্ঞপ্তি ক্রমিক: ১৬</span>
+          <span class="meta-tag" style="background: rgba(245, 158, 11, 0.15); color: #fbbf24; font-weight:700;">৩৫টি শূন্য পদ (অস্থায়ী)</span>
+        </div>
+
+        <div class="card-highlights pipeline">
+          <ul>
+            <li>ফোল্ডার কাঠামো ও সার্কুলার ফাইল আর্কাইভে যুক্ত করা হয়েছে</li>
+            <li>শিক্ষাগত যোগ্যতা: এইচএসসি বা সমমান পাস</li>
+            <li>কম্পিউটার টাইপিং গতি: বাংলায় ২০ ও ইংরেজিতে ২০ শব্দ/মিনিট</li>
+            <li>Standard Aptitude Test (স্ট্যান্ডার্ড অ্যাপটিটিউড টেস্ট) প্রস্তুতি</li>
+            <li>ধাপ ১ (৪০ ক) সম্পন্ন, পরবর্তী ধাপে এর জন্য পূর্ণাঙ্গ ডেটাসেট তৈরি করা হবে</li>
+          </ul>
+        </div>
+
+        <div class="card-actions">
+          <a href="DSS Data Entry Operator Super Suggestion/DSS_ad_2026_Circular.pdf" target="_blank" class="btn-primary-action" style="background: linear-gradient(135deg, #d97706 0%, #b45309 100%);">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            মূল সার্কুলার PDF দেখুন (ক্রমিক ১৬)
+          </a>
+
+          <a href="DSS Data Entry Operator Super Suggestion/README.md" target="_blank" class="btn-secondary-link" style="width: 100%; padding: 10px; cursor: pointer;">
+            📋 ডাটা এন্ট্রি অপারেটর প্রস্তুতি রূপরেখা (README)
+          </a>
+        </div>
+      </div>
+
+      <!-- 6. Sub-Registrar -->
       <div class="job-card pipeline" data-status="pipeline" data-keywords="সাব-রেজিস্টার sub-registrar নিবন্ধন অধিদপ্তর আইন ও বিচার বিভাগ bpsc ১০ম গ্রেড">
         <div class="card-top">
           <span class="dept-badge" style="color: #fbbf24; background: rgba(245, 158, 11, 0.12); border-color: rgba(245, 158, 11, 0.25);">নিবন্ধন অধিদপ্তর</span>

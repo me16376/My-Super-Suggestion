@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>সমাজসেবা অধিদপ্তর (DSS) কারিগরি প্রশিক্ষক (কম্পিউটার) — পূর্ণাঙ্গ লিখিত পরীক্ষা গাইড ও সিলেবাস</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+  @page {
+    size: A4;
+    margin: 8mm 10mm 8mm 10mm;
+  }
+  * {
+    box-sizing: border-box;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  body {
+    font-family: 'Hind Siliguri', 'Nirmala UI', 'Kalpurush', Arial, sans-serif;
+    color: #1e293b;
+    background-color: #f8fafc;
+    line-height: 1.5;
+    font-size: 11px;
+    margin: 0;
+    padding: 15px;
+  }
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  }
+  .header-card {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #0369a1 100%);
+    color: #ffffff;
+    padding: 18px 20px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .gov-badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 3px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    letter-spacing: 0.5px;
+  }
+  .header-card h1 {
+    font-family: 'Outfit', 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+    margin: 4px 0 2px 0;
+    font-weight: 800;
+    color: #ffffff;
+    letter-spacing: -0.3px;
+  }
+  .header-card h2 {
+    font-size: 13.5px;
+    margin: 0 0 8px 0;
+    font-weight: 600;
+    color: #38bdf8;
+  }
+  .badge-container {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+  }
+  .badge {
+    background: rgba(255, 255, 255, 0.16);
+    padding: 2.5px 10px;
+    border-radius: 12px;
+    font-size: 10.5px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+  }
+  .badge-highlight {
+    background: #f59e0b;
+    color: #0f172a;
+    font-weight: 700;
+    border-color: #fbbf24;
+  }
+  .badge-written {
+    background: #10b981;
+    color: #ffffff;
+    font-weight: 700;
+    border-color: #34d399;
+  }
+  .section-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #0f172a;
+    border-left: 4px solid #0284c7;
+    padding-left: 8px;
+    margin: 16px 0 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .info-box {
+    background: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 11px;
+  }
+  .info-box strong {
+    color: #0369a1;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 12px;
+    font-size: 10.5px;
+  }
+  th, td {
+    border: 1px solid #cbd5e1;
+    padding: 6px 9px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  th {
+    background-color: #e2e8f0;
+    color: #0f172a;
+    font-weight: 700;
+  }
+  tr:nth-child(even) {
+    background-color: #f8fafc;
+  }
+  .topic-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+  }
+  .topic-title {
+    font-weight: 700;
+    color: #0284c7;
+    font-size: 11.5px;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .topic-list {
+    margin: 0;
+    padding-left: 18px;
+    color: #334155;
+    line-height: 1.5;
+  }
+  .alert-box {
+    background: #eff6ff;
+    border-left: 4px solid #2563eb;
+    padding: 8px 12px;
+    margin: 10px 0;
+    border-radius: 0 6px 6px 0;
+    font-size: 10.5px;
+  }
+  .alert-box strong {
+    color: #1d4ed8;
+  }
+
+
+  .print-btn-bar {
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  .btn-print {
+    background: #0284c7;
+    color: #ffffff;
+    border: none;
+    padding: 6px 14px;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .btn-print:hover {
+    background: #0369a1;
+  }
+  @media print {
+    body {
+      background: #ffffff;
+      padding: 0;
+    }
+    .container {
+      box-shadow: none;
+      padding: 0;
+      max-width: 100%;
+    }
+    .print-btn-bar {
+      display: none;
+    }
+    .page-break {
+      page-break-before: always;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  
+  <div class="print-btn-bar">
+    <a href="DSS_Karigori_Proshikhok_Computer_Exam_Guide.pdf" target="_blank" class="btn-print" style="background: #2563eb;">📥 ডাউনলোড লিখিত গাইড PDF</a>
+    <button class="btn-print" onclick="window.print()">🖨️ প্রিন্ট করুন (Save as PDF)</button>
+    <a href="dss_karigori_proshikhok_computer_super_suggestion.html" class="btn-print" style="background: #10b981;">🚀 সুপার সাজেশন অ্যাপ</a>
+  </div>
+
+  <!-- Header Banner -->
+  <div class="header-card">
+    <div class="gov-badge">গণপ্রজাতন্ত্রী বাংলাদেশ সরকার • সমাজকল্যাণ মন্ত্রণালয়</div>
+    <h1>সমাজসেবা অধিদপ্তর (Department of Social Services - DSS)</h1>
+    <h2>পদের নাম: কারিগরি প্রশিক্ষক (উপজেলা) — ট্রেড: কম্পিউটার [বিজ্ঞপ্তি ক্রমিক: ৪০ (ক)]</h2>
+    <div class="badge-container">
+      <span class="badge badge-written">পরীক্ষা পদ্ধতি: ৭০ নম্বরের লিখিত পরীক্ষা (Short Written)</span>
+      <span class="badge badge-highlight">পদ সংখ্যা: ৩১টি (কম্পিউটার ট্রেড)</span>
+      <span class="badge">গ্রেড: ১৮তম (৮,৮০০ - ২১,৩১০/-)</span>
+      <span class="badge">বিজ্ঞপ্তি স্মারক: ৪১.০১.০০০০.০০৯.১১.০০৩.২০২৪-৪৬৫</span>
+    </div>
+  </div>
+
+  <!-- 1. সার্কুলার সংক্ষেপ ও পদের মূল বিবরণ -->
+  <div class="section-title">১. অফিশিয়াল সার্কুলার তথ্য ও প্রার্থীর যোগ্যতা</div>
+  <div class="grid-2">
+    <div class="info-box">
+      <strong>মন্ত্রণালয় ও অধিদপ্তর:</strong> সমাজকল্যাণ মন্ত্রণালয়, সমাজসেবা অধিদপ্তর<br>
+      <strong>পদের নাম:</strong> কারিগরি প্রশিক্ষক (উপজেলা) [Karigori Proshikhok (Upazilla)]<br>
+      <strong>ট্রেড:</strong> কম্পিউটার (বিজ্ঞপ্তি ক্রমিক ৪০ এর 'ক')<br>
+      <strong>শূন্য পদের সংখ্যা:</strong> ৩১ টি (উপজেলা পর্যায়ের কারিগরি প্রশিক্ষণ কেন্দ্রসমূহে)<br>
+      <strong>বেতন স্কেল:</strong> জাতীয় বেতন স্কেল ২০১৫ অনুযায়ী ৮,৮০০ - ২১,৩১০/- (গ্রেড-১৮)
+    </div>
+    <div class="info-box">
+      <strong>শিক্ষাগত যোগ্যতা:</strong> কোনো স্বীকৃত বোর্ড হইতে অন্যূন দ্বিতীয় বিভাগে মাধ্যমিক স্কুল সার্টিফিকেট (SSC) বা সমমানের পরীক্ষায় উত্তীর্ণ।<br>
+      <strong>ট্রেড কোর্স / ডিপ্লোমা:</strong> সংশ্লিষ্ট ক্ষেত্রে (কম্পিউটার) ৬ মাসের ট্রেড কোর্স সনদ অথবা কারিগরি বোর্ডের <strong>৪ বছর মেয়াদী ডিপ্লোমা ইন ইঞ্জিনিয়ারিং (কম্পিউটার/আইসিটি)</strong> উচ্চতর যোগ্যতা হিসেবে গ্রহণযোগ্য।<br>
+      <strong>অগ্রাধিকার শর্ত:</strong> কম্পিউটার চালনায় বাস্তব পারদর্শী প্রার্থীগণ অগ্রাধিকার প্রাপ্ত হইবেন।
+    </div>
+  </div>
+
+  <!-- 2. পরীক্ষা পদ্ধতি ও মানবণ্টন -->
+  <div class="section-title">২. লিখিত পরীক্ষা পদ্ধতি ও মানবণ্টন বিশ্লেষণ (Written Exam Pattern)</div>
+  <div class="alert-box">
+    <strong>🎯 লিখিত পরীক্ষা কেন নিশ্চিত?:</strong> কারিগরি প্রশিক্ষক পদে সাধারণ পদের মতো লাখ লাখ আবেদনকারী থাকে না (কারণ SSC + ৬ মাসের ট্রেড কোর্স/ডিপ্লোমার শর্ত থাকে)। প্রার্থী সংখ্যা সীমিত থাকায় সমাজসেবা অধিদপ্তর সরাসরি <strong>খাতা-কলমে ৭০ নম্বরের সংক্ষিপ্ত লিখিত পরীক্ষা (Short Written Exam)</strong> গ্রহণ করবে।
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>পরীক্ষার ধাপ</th>
+        <th>বিষয় / ট্রেড</th>
+        <th>পূর্ণমান</th>
+        <th>লিখিত প্রশ্নের ধরন ও সময়</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="4"><strong>ধাপ ১: খাতা-কলমে লিখিত পরীক্ষা (Written Exam)</strong></td>
+        <td>বাংলা ভাষা ও সাহিত্য</td>
+        <td>২০ নম্বর</td>
+        <td rowspan="4">
+          • <strong>মোট সময়:</strong> ৬০ থেকে ৯০ মিনিট<br>
+          • <strong>বাংলা:</strong> অর্থসহ বাক্য রচনা (বাগধারা), সন্ধি বিচ্ছেদ, এককথায় প্রকাশ, কারক-বিভক্তি, বানান শুদ্ধি, আবেদনপত্র/অনুবাদ।<br>
+          • <strong>ইংরেজি:</strong> বাংলা থেকে ইংরেজি অনুবাদ (Translation), Preposition, Sentence making, Right forms of verbs, Short paragraph।<br>
+          • <strong>সাধারণ গণিত:</strong> লাভ-ক্ষতি, শতকরা, সুদকষা, ঐকিক নিয়ম এবং বীজগণিত মান নির্ণয় (খাতায় কষে সমাধান)।<br>
+          • <strong>কম্পিউটার ও সমাজসেবা জিকে:</strong> কীবোর্ড শর্টকাটের কাজ, পূর্ণরূপ, এক্সেল ফাংশন, হার্ডওয়্যার ট্রাবলশুটিং, সমাজসেবার ভাতা ও কার্যক্রম।
+        </td>
+      </tr>
+      <tr>
+        <td>ইংরেজি ভাষা ও ব্যাকরণ</td>
+        <td>২০ নম্বর</td>
+      </tr>
+      <tr>
+        <td>সাধারণ গণিত (পাটিগণিত ও বীজগণিত)</td>
+        <td>১৫ নম্বর</td>
+      </tr>
+      <tr>
+        <td>কম্পিউটার ট্রেড ও সমাজসেবা স্পেশাল জিকে</td>
+        <td>১৫ নম্বর</td>
+      </tr>
+      <tr>
+        <td><strong>ধাপ ২: ব্যবহারিক পরীক্ষা (Practical)</strong></td>
+        <td>কম্পিউটার টাইপিং ও অফিস অ্যাপ্লিকেশন</td>
+        <td>উত্তীর্ণ বাধ্যতামূলক</td>
+        <td>কম্পিউটার ল্যাবে বিজয় কীবোর্ডে বাংলা ও ইংরেজি টাইপিং এবং Word/Excel-এর প্র্যাকটিক্যাল কাজ।</td>
+      </tr>
+      <tr>
+        <td><strong>ধাপ ৩: মৌখিক পরীক্ষা (Viva-Voce)</strong></td>
+        <td>ব্যক্তিত্ব, সাধারণ জ্ঞান ও ট্রেড বিষয়ক জ্ঞান</td>
+        <td>২০ থেকে ৩০ নম্বর</td>
+        <td>মৌখিক পরীক্ষা ও মূল সনদপত্র যাচাই।</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 3. বিষয়ভিত্তিক পূর্ণাঙ্গ লিখিত সিলেবাস -->
+  <div class="section-title">৩. বিষয়ভিত্তিক পূর্ণাঙ্গ লিখিত সিলেবাস ও গুরুত্বপূর্ণ অধ্যায়</div>
+
+  <!-- Computer Trade -->
+  <div class="topic-card" style="border-left: 4px solid #0284c7;">
+    <div class="topic-title">💻 ক. কম্পিউটার ট্রেড ও প্র্যাকটিক্যাল আইসিটি (সবচেয়ে বেশি ফোকাসড অধ্যায় - ১৫/২০ নম্বর)</div>
+    <ul class="topic-list">
+      <li><strong>কীবোর্ড শর্টকাট মাস্টারলিস্ট:</strong> Ctrl+A, Ctrl+C, Ctrl+V, Ctrl+X, Ctrl+Z, Ctrl+Y, Ctrl+S, Ctrl+P, Ctrl+F, Ctrl+H, Win+D, Win+E, Win+R, Ctrl+Shift+Esc, Alt+F4 ইত্যাদির সুনির্দিষ্ট কাজ।</li>
+      <li><strong>কম্পিউটার পূর্ণরূপ (Full Forms):</strong> CPU, RAM, ROM, BIOS, OMR, OCR, SSD, SMPS, LAN, WAN, HTTP, URL, DNS, SMTP, PDF, HDMI ইত্যাদির বানানসহ পূর্ণরূপ।</li>
+      <li><strong>হার্ডওয়্যার ও মেমরি:</strong> RAM বনাম ROM-এর ৫টি পার্থক্য, ক্যাশ মেমরি, সিস্টেম বাস, ইনপুট ও আউটপুট ডিভাইস শনাক্তকরণ, মেমরি একক রূপান্তর (Bit, Byte, KB, MB, GB, TB)।</li>
+      <li><strong>মাইক্রোসফট অফিস লিখিত:</strong> MS Word (পেজ মার্জিন, হেডার-ফুটার, টেবিল তৈরি, স্পেল চেক, মেইল মার্জ), MS Excel (SUM, AVERAGE, COUNT, MAX, MIN, IF ফাংশনের সিনট্যাক্স ও উদাহরণ), MS PowerPoint (স্লাইড ট্রানজিশন ও F5 শর্টকাট)।</li>
+      <li><strong>নেটওয়ার্কিং ও সাইবার নিরাপত্তা:</strong> LAN বনাম WAN, স্টার টপোলজির সুবিধা, ফিশিং কী ও বাঁচার উপায়, ফায়ারওয়াল ও অ্যান্টিভাইরাস।</li>
+      <li><strong>ট্রাবলশুটিং:</strong> কম্পিউটার বুট না হলে বা ডিসপ্লে না আসলে একজন প্রশিক্ষক হিসেবে সমস্যা সমাধান ও র‍্যাম পরিষ্কারের ধারাবাহিক ৫টি ধাপ।</li>
+    </ul>
+  </div>
+
+  <!-- Bangla -->
+  <div class="topic-card" style="border-left: 4px solid #10b981;">
+    <div class="topic-title">📚 খ. বাংলা ভাষা ও ব্যাকরণ লিখিত (২০ নম্বর)</div>
+    <ul class="topic-list">
+      <li><strong>সন্ধি বিচ্ছেদ:</strong> স্বরসন্ধি, ব্যঞ্জনসন্ধি ও বিসর্গ সন্ধির নিয়ম এবং পরীক্ষায় বারবার আসা গুরুত্বপূর্ণ সন্ধি বিচ্ছেদ।</li>
+      <li><strong>বাগধারা দিয়ে বাক্য রচনা:</strong> প্রচলিত ও বিশিষ্টার্থক বাগধারার সঠিক অর্থ জেনে বাস্তবমুখী বাক্য গঠন।</li>
+      <li><strong>এককথায় প্রকাশ:</strong> বহুল ব্যবহৃত বাক্য সংকোচন ও সংক্ষেপণ।</li>
+      <li><strong>কারক ও বিভক্তি নির্ণয়:</strong> রেখাঙ্কিত পদের কারক ও বিভক্তি নির্ণয়ের পদ্ধতি।</li>
+      <li><strong>বানান শুদ্ধিকরণ:</strong> বাংলা একাডেমির প্রমিত বানানরীতি অনুসারে প্রচলিত অশুদ্ধ শব্দের নির্ভুল বানান।</li>
+      <li><strong>দাপ্তরিক আবেদনপত্র:</strong> ঊর্ধ্বতন কর্মকর্তা বরাবর কম্পিউটার ল্যাব সংস্কার বা প্রয়োজনীয় যন্ত্রপাতি বরাদ্দের আনুষ্ঠানিক আবেদনপত্র।</li>
+    </ul>
+  </div>
+
+  <!-- English -->
+  <div class="topic-card" style="border-left: 4px solid #f59e0b;">
+    <div class="topic-title">📖 গ. ইংরেজি ভাষা ও ব্যাকরণ লিখিত (২০ নম্বর)</div>
+    <ul class="topic-list">
+      <li><strong>বাংলা থেকে ইংরেজি অনুবাদ (Translation):</strong> প্রাত্যহিক বাক্য, প্রবাদ-প্রবচন ও সমাজকল্যাণমূলক বিষয়ের শুদ্ধ অনুবাদ।</li>
+      <li><strong>Appropriate Prepositions:</strong> বহুল ব্যবহৃত Preposition-এর সঠিক ব্যবহার ও শূন্যস্থান পূরণ।</li>
+      <li><strong>Make Sentence with Idioms:</strong> সরকারি নিয়োগ পরীক্ষায় আসা গুরুত্বপূর্ণ Idioms & Phrases দিয়ে অর্থবহ বাক্য গঠন।</li>
+      <li><strong>Right Form of Verbs:</strong> Subject-Verb Agreement, Tense ও Conditionals নিয়মানুযায়ী সঠিক verb বসানো।</li>
+      <li><strong>Short Paragraph:</strong> Role of ICT in Bangladesh, Computer Training in Skill Development, Smart Bangladesh ইত্যাদি সমসাময়িক বিষয়ের ওপর অনুচ্ছেদ।</li>
+    </ul>
+  </div>
+
+  <!-- Math -->
+  <div class="topic-card" style="border-left: 4px solid #8b5cf6;">
+    <div class="topic-title">📐 ঘ. সাধারণ গণিত লিখিত (১৫ নম্বর — প্রতিটি অংক কষে সমাধান)</div>
+    <ul class="topic-list">
+      <li><strong>পাটিগণিত:</strong> লাভ-ক্ষতি, শতকরা, সরল সুদকষা (I = Pnr), ঐকিক নিয়ম (কাজের ও সময়ের অংক), অনুপাত ও সমানুপাত।</li>
+      <li><strong>বীজগণিত:</strong> বীজগাণিতিক সূত্রাবলি প্রয়োগ করে মান নির্ণয় (বর্গ ও ঘন সংবলিত) এবং সরল সমীকরণ সমাধান।</li>
+      <li><strong>জ্যামিতি ও পরিমিতি:</strong> ত্রিভুজ, চতুর্ভুজ ও আয়তাকার বাগান/ক্ষেত্রের ক্ষেত্রফল এবং রাস্তার ক্ষেত্রফল নির্ণয়।</li>
+      <li><strong>লিখিত সমাধান কৌশল:</strong> সংক্ষিপ্ত টেকনিক বা শর্টকাটের বদলে পরীক্ষার খাতায় প্রতিটি ধাপ স্পষ্টভাবে কষে সমাধান প্রদর্শন।</li>
+    </ul>
+  </div>
+
+  <!-- DSS Special -->
+  <div class="topic-card" style="border-left: 4px solid #ef4444;">
+    <div class="topic-title">🏛️ ঙ. সমাজসেবা অধিদপ্তর স্পেশাল ও সাধারণ জ্ঞান লিখিত (১৫ নম্বর)</div>
+    <ul class="topic-list">
+      <li><strong>সমাজসেবা অধিদপ্তর (DSS) কাঠামো ও কর্মসূচি:</strong>
+        <ul>
+          <li>প্রতিষ্ঠা সাল (১৯৬১), ভিশন, মিশন ও কেন্দ্রীয় কার্যালয়ের বিবরণ।</li>
+          <li>প্রধান ৫টি সামাজিক নিরাপত্তা বেষ্টনী কর্মসূচি: বয়স্ক ভাতা, বিধবা ও স্বামী নিগৃহীতা ভাতা, অসচ্ছল প্রতিবন্ধী ভাতা, প্রতিবন্ধী শিক্ষা উপবৃত্তি, হিজড়া ও অনগ্রসর জনগোষ্ঠীর জীবনমান উন্নয়ন ভাতা।</li>
+          <li>চাইল্ড হেল্পলাইন: ২৪ ঘণ্টার জরুরি টোল-ফ্রি নম্বর <strong>১০৯৮</strong>-এর কার্যক্রম।</li>
+          <li>চিকিৎসা অনুদান: ক্যান্সার, কিডনি, লিভার সিরোসিস, স্ট্রোকে অবশ ও থ্যালাসেমিয়া রোগীদের এককালীন <strong>৫০,০০০/- টাকা</strong> আর্থিক সহায়তা।</li>
+          <li>পল্লী সমাজসেবা (RSS) ও পল্লী মাতৃকেন্দ্র (RMC) ক্ষুদ্রঋণ কর্মসূচি।</li>
+        </ul>
+      </li>
+      <li><strong>বাংলাদেশ বিষয়াবলি ও মুক্তিযুদ্ধ:</strong> বঙ্গবন্ধু, মুক্তিযুদ্ধ, মুজিবনগর সরকার (গঠন ও শপথ), সংবিধানের মূলনীতি ও জাতীয় অর্জন।</li>
+      <li><strong>আন্তর্জাতিক ও বিশেষ দিবস:</strong> আন্তর্জাতিক প্রতিবন্ধী দিবস (৩ ডিসেম্বর), বিশ্ব প্রবীণ দিবস (১ অক্টোবর), বিশ্ব অটিজম সচেতনতা দিবস (২ এপ্রিল), সমাজসেবা দিবস (২ জানুয়ারি)।</li>
+    </ul>
+  </div>
+
+  <!-- 4. সফলতার চূড়ান্ত লিখিত রোডম্যাপ ও দিকনির্দেশনা -->
+  <div class="section-title">৪. সফলতার চূড়ান্ত লিখিত রোডম্যাপ ও প্রস্তুতি নির্দেশিকা</div>
+  <div class="info-box" style="line-height: 1.65;">
+    ১. <strong>কম্পিউটার ট্রেডে শতভাগ দক্ষতা:</strong> আপনি যেহেতু কারিগরি প্রশিক্ষক (কম্পিউটার) পদের পরীক্ষার্থী, তাই সাধারণ প্রার্থীর চেয়ে কম্পিউটার ফান্ডামেন্টালস, কীবোর্ড শর্টকাট, ফুল ফর্ম ও অফিস অ্যাপ্লিকেশনে আপনাকে সর্বোচ্চ নম্বর তুলতে হবে।<br>
+    ২. <strong>গণিত ও অনুবাদ প্রতিদিন খাতায় লিখে অভ্যাস করা:</strong> লিখিত পরীক্ষায় কাটাকাটি ছাড়া ধাপে ধাপে অংক ও ইংরেজি অনুবাদ লেখার চর্চায় পূর্ণ নম্বর পাওয়া যায়।<br>
+    ৩. <strong>সমাজসেবা অধিদপ্তর স্পেশাল সাধারণ জ্ঞান মুখস্থ রাখা:</strong> সমাজসেবা অধিদপ্তরের প্রতিষ্ঠা সাল (১৯৬১), প্রধান ৫টি সামাজিক নিরাপত্তা ভাতা (বয়স্ক, বিধবা, প্রতিবন্ধী), চাইল্ড হেল্পলাইন ১০৯৮ এবং জটিল রোগীদের ৫০,০০০ টাকার অনুদান থেকে নিশ্চিত প্রশ্ন থাকবে।<br>
+    ৪. <strong>ডিজিটাল সুপার সাজেশন পোর্টালে অনুশীলন:</strong> সম্পূর্ণ প্রশ্নব্যাংক ও প্র্যাকটিস সেটের জন্য আমাদের ডিজিটাল ওয়েব পোর্টাল ব্যবহার করুন।
+  </div>
+
+</div>
+
+</body>
+</html>

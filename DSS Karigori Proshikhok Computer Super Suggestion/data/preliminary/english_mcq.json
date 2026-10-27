@@ -1,0 +1,437 @@
+[
+  {
+    "id": 20001,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Appropriate Preposition",
+    "question": "He is senior ______ me in service.",
+    "options": [
+      "A) than",
+      "B) from",
+      "C) to",
+      "D) of"
+    ],
+    "answer": 2,
+    "explanation": "Senior, junior, superior, inferior, prior ইত্যাদি ল্যাটিন তুলনামূলক শব্দের পর 'than' না বসে 'to' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "preposition"
+    ]
+  },
+  {
+    "id": 20002,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Appropriate Preposition",
+    "question": "The poor man died ______ cancer.",
+    "options": [
+      "A) from",
+      "B) of",
+      "C) by",
+      "D) with"
+    ],
+    "answer": 1,
+    "explanation": "কোনো রোগে মারা গেলে Preposition 'of' বসে (Die of disease)। অতিভোজন বা ক্ষত থেকে মারা গেলে 'from' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "preposition"
+    ]
+  },
+  {
+    "id": 20003,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Subject-Verb Agreement",
+    "question": "Neither the teacher nor the students ______ present in the seminar yesterday.",
+    "options": [
+      "A) was",
+      "B) were",
+      "C) is",
+      "D) are"
+    ],
+    "answer": 1,
+    "explanation": "Neither...nor দ্বারা দুটি সাবজেক্ট যুক্ত হলে ভার্বটি কাছের সাবজেক্ট অনুযায়ী হয়। এখানে 'students' প্লুরাল এবং অতীতকালের হওয়ায় 'were' হবে।",
+    "tags": [
+      "english",
+      "grammar",
+      "subject_verb_agreement"
+    ]
+  },
+  {
+    "id": 20004,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Right Form of Verbs",
+    "question": "It is high time we ______ our bad habits.",
+    "options": [
+      "A) change",
+      "B) changed",
+      "C) had changed",
+      "D) have changed"
+    ],
+    "answer": 1,
+    "explanation": "'It is time' বা 'It is high time' এর পর সাবজেক্ট আসলে ভার্বের Past Indefinite Form (V2) ব্যবহৃত হয়, তাই 'changed' হবে।",
+    "tags": [
+      "english",
+      "grammar",
+      "verbs"
+    ]
+  },
+  {
+    "id": 20005,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Right Form of Verbs",
+    "question": "If I had known his email address, I ______ him the report.",
+    "options": [
+      "A) would send",
+      "B) will send",
+      "C) would have sent",
+      "D) sent"
+    ],
+    "answer": 2,
+    "explanation": "Third Conditional-এর নিয়মে If + Past Perfect হলে অপর ক্লজে Subject + would have + V3 বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "conditionals"
+    ]
+  },
+  {
+    "id": 20006,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Voice Change",
+    "question": "Change into Passive: 'Who wrote this poem?'",
+    "options": [
+      "A) By whom was this poem written?",
+      "B) Who was this poem written by?",
+      "C) By whom this poem was written?",
+      "D) Whom had this poem written by?"
+    ],
+    "answer": 0,
+    "explanation": "Who থাকলে Passive এ By whom বসে + be verb (was) + object (this poem) + V3 (written)?",
+    "tags": [
+      "english",
+      "grammar",
+      "voice"
+    ]
+  },
+  {
+    "id": 20007,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Synonyms",
+    "question": "What is the synonym of the word 'Competent'?",
+    "options": [
+      "A) Inefficient",
+      "B) Capable",
+      "C) Lazy",
+      "D) Weak"
+    ],
+    "answer": 1,
+    "explanation": "'Competent' অর্থ দক্ষ বা যোগ্য। এর সমার্থক শব্দ হলো 'Capable' বা 'Skilled'।",
+    "tags": [
+      "english",
+      "vocabulary",
+      "synonym"
+    ]
+  },
+  {
+    "id": 20008,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Antonyms",
+    "question": "What is the antonym of the word 'Transparent'?",
+    "options": [
+      "A) Clear",
+      "B) Opaque",
+      "C) Bright",
+      "D) Fragile"
+    ],
+    "answer": 1,
+    "explanation": "'Transparent' অর্থ স্বচ্ছ বা স্পষ্ট। এর বিপরীত শব্দ হলো 'Opaque' যার অর্থ অস্বচ্ছ বা অস্পষ্ট।",
+    "tags": [
+      "english",
+      "vocabulary",
+      "antonym"
+    ]
+  },
+  {
+    "id": 20009,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Spelling",
+    "question": "Identify the correctly spelled word:",
+    "options": [
+      "A) Accomodation",
+      "B) Accommodation",
+      "C) Acomodation",
+      "D) Accomadation"
+    ],
+    "answer": 1,
+    "explanation": "সঠিক বানান হলো 'Accommodation' (ডাবল c এবং ডাবল m: A-c-c-o-m-m-o-d-a-t-i-o-n)।",
+    "tags": [
+      "english",
+      "vocabulary",
+      "spelling"
+    ]
+  },
+  {
+    "id": 20010,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Idioms & Phrases",
+    "question": "The idiom 'At a stretch' means:",
+    "options": [
+      "A) Slowly",
+      "B) Without break",
+      "C) Temporarily",
+      "D) Rarely"
+    ],
+    "answer": 1,
+    "explanation": "'At a stretch' ইডিয়ামটির অর্থ কোনো বিরতি ছাড়া একনাগাড়ে (Continuous বা Without break)।",
+    "tags": [
+      "english",
+      "vocabulary",
+      "idioms"
+    ]
+  },
+  {
+    "id": 20011,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "One-Word Substitution",
+    "question": "A person who loves mankind is called:",
+    "options": [
+      "A) Philanthropist",
+      "B) Misanthrope",
+      "C) Optimist",
+      "D) Cannibal"
+    ],
+    "answer": 0,
+    "explanation": "মানবপ্রেমিককে বলা হয় 'Philanthropist'। মানববিদ্বেষীকে বলা হয় 'Misanthrope'।",
+    "tags": [
+      "english",
+      "vocabulary",
+      "one_word"
+    ]
+  },
+  {
+    "id": 20012,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Articles",
+    "question": "He is ______ European gentleman.",
+    "options": [
+      "A) an",
+      "B) a",
+      "C) the",
+      "D) no article"
+    ],
+    "answer": 1,
+    "explanation": "European শব্দের শুরুতে ভাওয়েল 'E' থাকলেও এর উচ্চারণ 'ইউ' (You)-এর মতো হওয়ায় এর পূর্বে 'a' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "articles"
+    ]
+  },
+  {
+    "id": 20013,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Sentence Transformation",
+    "question": "Transform into Negative: 'Only Allah can help us.'",
+    "options": [
+      "A) None but Allah can help us.",
+      "B) Nothing but Allah can help us.",
+      "C) Not only Allah can help us.",
+      "D) No one Allah can help us."
+    ],
+    "answer": 0,
+    "explanation": "ব্যক্তি বা সৃষ্টিকর্তা নির্দেশক বাক্যে 'Only' থাকলে নেগেটিভে তার পরিবর্তে বাক্যের শুরুতে 'None but' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "transformation"
+    ]
+  },
+  {
+    "id": 20014,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Translation",
+    "question": "'সে সাঁতার কাটতে জানে না' — এর সঠিক ইংরেজি অনুবাদ কোনটি?",
+    "options": [
+      "A) He does not know to swim.",
+      "B) He does not know how to swim.",
+      "C) He does not know swimming.",
+      "D) He cannot able to swim."
+    ],
+    "answer": 1,
+    "explanation": "কোনো কিছু করার পদ্ধতি বা দক্ষতা জানা বোঝাতে know + how to + verb এর বেস ফর্ম ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "translation"
+    ]
+  },
+  {
+    "id": 20015,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Translation",
+    "question": "'সকাল থেকে গুঁড়ি গুঁড়ি বৃষ্টি হচ্ছে' — এর সঠিক ইংরেজি রূপ কোনটি?",
+    "options": [
+      "A) It is raining heavily since morning.",
+      "B) It has been drizzling since morning.",
+      "C) It was drizzling from morning.",
+      "D) It is drizzling since morning."
+    ],
+    "answer": 1,
+    "explanation": "অতীত থেকে শুরু হয়ে বর্তমান পর্যন্ত কাজ চলা বোঝালে Present Perfect Continuous Tense হয় এবং গুঁড়ি গুঁড়ি বৃষ্টির ইংরেজি 'drizzle'।",
+    "tags": [
+      "english",
+      "translation"
+    ]
+  },
+  {
+    "id": 20016,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Appropriate Preposition",
+    "question": "The teacher congratulated the student ______ his brilliant result.",
+    "options": [
+      "A) for",
+      "B) on",
+      "C) with",
+      "D) to"
+    ],
+    "answer": 1,
+    "explanation": "Congratulate somebody 'on' something (অভিনন্দন জানানো)। তাই 'on' বসবে।",
+    "tags": [
+      "english",
+      "grammar",
+      "preposition"
+    ]
+  },
+  {
+    "id": 20017,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Appropriate Preposition",
+    "question": "We should refrain ______ making malicious remarks.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) from",
+      "D) of"
+    ],
+    "answer": 2,
+    "explanation": "Refrain, abstain, prevent ইত্যাদির পর Preposition 'from' বসে।",
+    "tags": [
+      "english",
+      "grammar",
+      "preposition"
+    ]
+  },
+  {
+    "id": 20018,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Subject-Verb Agreement",
+    "question": "Bread and butter ______ his favourite breakfast.",
+    "options": [
+      "A) are",
+      "B) is",
+      "C) were",
+      "D) have been"
+    ],
+    "answer": 1,
+    "explanation": "Bread and butter যখন একত্রে একটি খাবার হিসেবে একক ধারণা প্রকাশ করে, তখন ভার্বটি Singular (is) হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "subject_verb_agreement"
+    ]
+  },
+  {
+    "id": 20019,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Voice Change",
+    "question": "Change into Passive: 'Do not make a noise.'",
+    "options": [
+      "A) Let not a noise be made.",
+      "B) You are told not to make noise.",
+      "C) Let a noise not made.",
+      "D) A noise should not make."
+    ],
+    "answer": 0,
+    "explanation": "ইম্পারেটিভ নেগেটিভ বাক্যের প্যাসিভ রূপ: Let not + object + be + V3।",
+    "tags": [
+      "english",
+      "grammar",
+      "voice"
+    ]
+  },
+  {
+    "id": 20020,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Narration",
+    "question": "Direct: He said to me, 'Are you reading the book?' Indirect:",
+    "options": [
+      "A) He asked me if I was reading the book.",
+      "B) He told me that was I reading the book.",
+      "C) He asked me whether am I reading the book.",
+      "D) He questioned me if you were reading the book."
+    ],
+    "answer": 0,
+    "explanation": "Interrogative বাক্যে reporting verb 'asked' হয়, লিঙ্কার 'if' বসে এবং tense প্রেজেন্ট কন্টিনিউয়াস থেকে পাস্ট কন্টিনিউয়াস (was reading) হয়।",
+    "tags": [
+      "english",
+      "grammar",
+      "narration"
+    ]
+  },
+  {
+    "id": 20021,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Synonyms",
+    "question": "What is the synonym of 'Frugal'?",
+    "options": [
+      "A) Economical",
+      "B) Extravagant",
+      "C) Careless",
+      "D) Generous"
+    ],
+    "answer": 0,
+    "explanation": "'Frugal' অর্থ মিতব্যয়ী বা হিসেবী। এর সমার্থক শব্দ হলো 'Economical' বা 'Thrifty'। অপচয়কারী হলো 'Extravagant'।",
+    "tags": [
+      "english",
+      "vocabulary",
+      "synonym"
+    ]
+  },
+  {
+    "id": 20022,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Idioms & Phrases",
+    "question": "The phrase 'A white elephant' denotes:",
+    "options": [
+      "A) A very rare animal",
+      "B) A very costly but useless possession",
+      "C) An auspicious symbol",
+      "D) An unexpected fortune"
+    ],
+    "answer": 1,
+    "explanation": "'A white elephant' অর্থ অতি ব্যয়বহুল কিন্তু অকেজো বা কোনো কাজে লাগে না এমন সামগ্রী।",
+    "tags": [
+      "english",
+      "vocabulary",
+      "idioms"
+    ]
+  },
+  {
+    "id": 20023,
+    "subject": "ইংরেজি ভাষা ও গ্রামার",
+    "topic": "Spelling",
+    "question": "Choose the correctly spelled word:",
+    "options": [
+      "A) Bureaucracy",
+      "B) Beuracracy",
+      "C) Bureacracy",
+      "D) Bureaucrasy"
+    ],
+    "answer": 0,
+    "explanation": "সঠিক বানান হলো 'Bureaucracy' (আমলাতন্ত্র): B-u-r-e-a-u-c-r-a-c-y।",
+    "tags": [
+      "english",
+      "vocabulary",
+      "spelling"
+    ]
+  }
+]

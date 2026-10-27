@@ -31,6 +31,21 @@ Circular analysis/                                  <-- রুট ডিরে�
 │
 ├── BPSC ad_202506.pdf                              <-- সার্কুলার ফাইল (জুনিয়র ইন্সট্রাক্টর - ক্রমিক ১২৫)
 ├── Sub_Registrar_Circular.pdf                      <-- সার্কুলার ফাইল (সাব-রেজিস্টার)
+├── advertisement-1780374169755.pdf                 <-- সার্কুলার ফাইল (সমাজসেবা অধিদপ্তর - DSS)
+│
+├── DSS Karigori Proshikhok Computer Super Suggestion/       <-- (মডিউল ৪: সমাজসেবা অধিদপ্তর - কারিগরি প্রশিক্ষক কম্পিউটার)
+│   ├── dss_karigori_proshikhok_computer_super_suggestion.html <-- মূল ইন্টারঅ্যাক্টিভ সুপার সাজেশন ও ওএমআর মক টেস্ট
+│   ├── index.html                                  <-- রিডাইরেক্ট হোম
+│   ├── exam_guide.html                             <-- অফিশিয়াল সিলেবাস ও প্রিন্ট গাইড (A4 Print Ready)
+│   ├── DSS_Karigori_Proshikhok_Computer_Exam_Guide.pdf <-- অফিশিয়াল ৩ পৃষ্ঠার সিলেবাস গাইড PDF
+│   ├── DSS_ad_2026_Circular.pdf                    <-- অফিশিয়াল সার্কুলার কপি (ক্রমিক ৪০ ক, ৩১টি পদ)
+│   ├── data/                                       <-- ১৩৩টি প্রিলি MCQ ও ৫টি লিখিত/ব্যবহারিক হ্যান্ডবুক
+│   └── scripts/                                    <-- ডেটাসেট জেনারেটর ও সিঙ্ক স্ক্রিপ্ট
+│
+├── DSS Data Entry Operator Super Suggestion/               <-- (মডিউল ৫: সমাজসেবা অধিদপ্তর - ডাটা এন্ট্রি অপারেটর)
+│   ├── DSS_ad_2026_Circular.pdf                    <-- মূল সার্কুলার ফাইল (ক্রমিক ১৬, ৩৫টি পদ)
+│   ├── README.md                                   <-- পদ পরিচিতি, টাইপিং গতি (২০ wpm) ও সিলেবাস রূপরেখা
+│   └── data/ & scripts/                            <-- ডেটা ও স্ক্রিপ্ট ফোল্ডার (ধাপ ২ পাইপলাইন)
 │
 ├── Junior Instructor Tech Computer Super Suggestion/       <-- (মডিউল ২: টিএসসি কারিগরি শিক্ষা বিভাগ - ১০০% সম্পন্ন)
 │   ├── junior_instructor_computer_super_suggestion.html  <-- মূল ইন্টারেক্টিভ ওয়েব অ্যাপ (MCQ, Written ও মক টেস্ট)

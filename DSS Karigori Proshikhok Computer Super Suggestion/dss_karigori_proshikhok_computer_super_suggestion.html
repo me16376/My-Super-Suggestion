@@ -1,0 +1,1732 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>সমাজসেবা অধিদপ্তর (DSS) কারিগরি প্রশিক্ষক (কম্পিউটার) — সুপার সাজেশন ও মডেল টেস্ট পোর্টাল</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0284c7;
+      --primary-dark: #0369a1;
+      --primary-light: #f0f9ff;
+      --accent: #2563eb;
+      --accent-hover: #1d4ed8;
+      --bg-main: #f8fafc;
+      --bg-card: #ffffff;
+      --bg-card-hover: #f8fafc;
+      --border-color: #e2e8f0;
+      --border-light: #f1f5f9;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --text-dim: #94a3b8;
+      --success: #10b981;
+      --success-bg: #ecfdf5;
+      --success-border: #a7f3d0;
+      --danger: #ef4444;
+      --danger-bg: #fef2f2;
+      --danger-border: #fecaca;
+      --warning: #f59e0b;
+      --warning-bg: #fffbeb;
+      --warning-border: #fde68a;
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 4px 12px rgba(15, 23, 42, 0.06);
+      --shadow-lg: 0 12px 28px -4px rgba(15, 23, 42, 0.08);
+      --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Hind Siliguri', 'Inter', sans-serif;
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-image: 
+        radial-gradient(circle at 12% 8%, rgba(2, 132, 199, 0.05) 0%, transparent 45%),
+        radial-gradient(circle at 88% 88%, rgba(37, 99, 235, 0.04) 0%, transparent 45%);
+      background-attachment: fixed;
+    }
+
+    .container {
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 24px 20px 60px 20px;
+      width: 100%;
+      flex: 1;
+    }
+
+    /* Top Quick Links Bar */
+    .top-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+      gap: 12px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border-color);
+      max-width: 1300px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .nav-links-left, .nav-links-right {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .nav-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      color: #334155;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: var(--transition);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .nav-btn:hover {
+      background: #f1f5f9;
+      border-color: #0284c7;
+      color: #0284c7;
+      transform: translateY(-1px);
+    }
+
+    .nav-btn.primary {
+      background: linear-gradient(135deg, #0284c7 0%, #2563eb 100%);
+      color: #ffffff;
+      border-color: transparent;
+      box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
+    }
+
+    .nav-btn.primary:hover {
+      background: linear-gradient(135deg, #0369a1 0%, #1d4ed8 100%);
+      box-shadow: 0 6px 16px rgba(2, 132, 199, 0.35);
+    }
+
+    /* Hero Banner */
+    .hero {
+      background: linear-gradient(135deg, #0a2540 0%, #0369a1 60%, #0284c7 100%);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 28px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      color: #ffffff;
+      max-width: 1300px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(90deg, #38bdf8, #818cf8, #34d399);
+    }
+
+    .hero-badge-wrap {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 12px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .badge-dss {
+      background: rgba(255, 255, 255, 0.18);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: #ffffff;
+      backdrop-filter: blur(6px);
+    }
+
+    .badge-grade {
+      background: rgba(245, 158, 11, 0.25);
+      border: 1px solid rgba(245, 158, 11, 0.5);
+      color: #fef08a;
+    }
+
+    .badge-status {
+      background: rgba(16, 185, 129, 0.25);
+      border: 1px solid rgba(16, 185, 129, 0.5);
+      color: #a7f3d0;
+    }
+
+    h1 {
+      font-family: 'Outfit', 'Hind Siliguri', sans-serif;
+      font-size: 28px;
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    h1 span {
+      background: linear-gradient(135deg, #7dd3fc 0%, #c4b5fd 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-meta {
+      font-size: 14.5px;
+      color: #e0f2fe;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .hero-meta strong {
+      color: #ffffff;
+    }
+
+    /* Key Stats Grid */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+      max-width: 1300px;
+      width: 100%;
+    }
+
+    .stat-card {
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: var(--radius-md);
+      padding: 16px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      transition: var(--transition);
+      backdrop-filter: blur(6px);
+    }
+
+    .stat-card:hover {
+      border-color: rgba(255, 255, 255, 0.45);
+      background: rgba(255, 255, 255, 0.2);
+      transform: translateY(-2px);
+    }
+
+    .stat-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      flex-shrink: 0;
+    }
+
+    .stat-icon.blue { background: rgba(255, 255, 255, 0.2); color: #bae6fd; }
+    .stat-icon.green { background: rgba(16, 185, 129, 0.25); color: #6ee7b7; }
+    .stat-icon.purple { background: rgba(139, 92, 246, 0.25); color: #c4b5fd; }
+    .stat-icon.amber { background: rgba(245, 158, 11, 0.25); color: #fde047; }
+    .stat-icon.rose { background: rgba(244, 63, 94, 0.25); color: #fda4af; }
+
+    .stat-number {
+      font-family: 'Outfit', sans-serif;
+      font-size: 22px;
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1.1;
+    }
+
+    .stat-label {
+      font-size: 12px;
+      color: #dbeafe;
+      margin-top: 3px;
+    }
+
+    /* Tabs Bar */
+    .tabs-bar {
+      display: flex;
+      gap: 8px;
+      background: var(--bg-card);
+      padding: 6px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-color);
+      margin-bottom: 24px;
+      overflow-x: auto;
+      box-shadow: var(--shadow-sm);
+      max-width: 1300px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .tab-btn {
+      flex: 1;
+      min-width: 160px;
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 10px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 14.5px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: var(--transition);
+      white-space: nowrap;
+    }
+
+    .tab-btn:hover {
+      color: var(--text-main);
+      background: #f1f5f9;
+    }
+
+    .tab-btn.active {
+      background: linear-gradient(135deg, #0284c7 0%, #2563eb 100%);
+      color: #ffffff;
+      box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
+    }
+
+    /* Tab Content Panels */
+    .tab-pane {
+      display: none;
+      max-width: 1300px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .tab-pane.active {
+      display: block;
+      animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Filter & Search Bar in MCQ Tab */
+    .controls-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 18px 20px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      box-shadow: var(--shadow-sm);
+      max-width: 1300px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .search-row {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .search-box {
+      flex: 1;
+      min-width: 260px;
+      position: relative;
+    }
+
+    .search-input {
+      width: 100%;
+      background: #f8fafc;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      padding: 10px 14px 10px 38px;
+      color: var(--text-main);
+      font-size: 14px;
+      outline: none;
+      transition: var(--transition);
+    }
+
+    .search-input:focus {
+      border-color: #0284c7;
+      background: #ffffff;
+      box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-dim);
+    }
+
+    .filter-pills {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .pill-btn {
+      background: #f1f5f9;
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 6px 14px;
+      border-radius: 9999px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .pill-btn:hover {
+      background: #e2e8f0;
+      color: var(--text-main);
+      border-color: #cbd5e1;
+    }
+
+    .pill-btn.active {
+      background: #0284c7;
+      color: #ffffff;
+      border-color: #0284c7;
+      box-shadow: 0 2px 8px rgba(2, 132, 199, 0.25);
+    }
+
+    /* Question Cards */
+    .question-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      max-width: 1300px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .q-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      transition: var(--transition);
+      position: relative;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .q-card:hover {
+      border-color: #93c5fd;
+      background: var(--bg-card);
+      box-shadow: var(--shadow-md);
+    }
+
+    .q-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 12px;
+      gap: 10px;
+    }
+
+    .q-meta {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .q-subject-badge {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      color: #0284c7;
+      padding: 2px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .q-topic-badge {
+      background: #f8fafc;
+      border: 1px solid var(--border-color);
+      color: #475569;
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-size: 11.5px;
+    }
+
+    .btn-bookmark {
+      background: transparent;
+      border: none;
+      color: var(--text-dim);
+      font-size: 20px;
+      cursor: pointer;
+      transition: var(--transition);
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    .btn-bookmark:hover {
+      color: #f59e0b;
+      transform: scale(1.15);
+    }
+
+    .btn-bookmark.bookmarked {
+      color: #f59e0b;
+    }
+
+    .q-title {
+      font-size: 16.5px;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 16px;
+      line-height: 1.5;
+    }
+
+    .options-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .option-item {
+      background: #f8fafc;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      padding: 10px 14px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: var(--transition);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      user-select: none;
+      color: #334155;
+    }
+
+    .option-item:hover {
+      background: #eff6ff;
+      border-color: #0284c7;
+      color: #0f172a;
+    }
+
+    .option-item.correct {
+      background: var(--success-bg) !important;
+      border-color: var(--success) !important;
+      color: #059669 !important;
+      font-weight: 700;
+    }
+
+    .option-item.incorrect {
+      background: var(--danger-bg) !important;
+      border-color: var(--danger) !important;
+      color: #dc2626 !important;
+    }
+
+    .q-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 10px;
+      border-top: 1px solid #f1f5f9;
+    }
+
+    .btn-explain {
+      background: transparent;
+      border: 1px solid var(--border-color);
+      color: #0284c7;
+      padding: 4px 12px;
+      border-radius: 6px;
+      font-size: 12.5px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: var(--transition);
+    }
+
+    .btn-explain:hover {
+      background: #eff6ff;
+      border-color: #0284c7;
+    }
+
+    .explanation-box {
+      margin-top: 12px;
+      background: #f0fdf4;
+      border-left: 3px solid #10b981;
+      border-radius: 0 6px 6px 0;
+      padding: 10px 14px;
+      font-size: 13.5px;
+      color: #334155;
+      display: none;
+    }
+
+    .explanation-box.show {
+      display: block;
+      animation: fadeIn 0.25s ease;
+    }
+
+    .explanation-box strong {
+      color: #059669;
+    }
+
+    /* Model Test Engine UI */
+    .mock-start-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 36px 30px;
+      text-align: center;
+      max-width: 720px;
+      margin: 20px auto;
+      box-shadow: var(--shadow-md);
+    }
+
+    .mock-start-icon {
+      font-size: 48px;
+      margin-bottom: 12px;
+    }
+
+    .mock-title {
+      font-family: 'Outfit', 'Hind Siliguri', sans-serif;
+      font-size: 24px;
+      font-weight: 800;
+      color: #0f172a;
+      margin-bottom: 10px;
+    }
+
+    .mock-desc {
+      color: var(--text-muted);
+      font-size: 15px;
+      margin-bottom: 24px;
+      line-height: 1.6;
+    }
+
+    .mock-specs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 12px;
+      margin-bottom: 28px;
+      text-align: left;
+    }
+
+    .mock-spec-box {
+      background: #f8fafc;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      padding: 12px;
+    }
+
+    .mock-spec-box .label {
+      font-size: 11.5px;
+      color: var(--text-muted);
+    }
+
+    .mock-spec-box .val {
+      font-size: 16px;
+      font-weight: 700;
+      color: #0f172a;
+      margin-top: 2px;
+    }
+
+    .btn-start-exam {
+      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+      color: #ffffff;
+      border: none;
+      padding: 14px 32px;
+      border-radius: var(--radius-sm);
+      font-size: 17px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      box-shadow: 0 4px 16px rgba(16, 185, 129, 0.3);
+      transition: var(--transition);
+    }
+
+    .btn-start-exam:hover {
+      background: linear-gradient(135deg, #059669 0%, #047857 100%);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 22px rgba(16, 185, 129, 0.4);
+    }
+
+    /* Live Exam Active State */
+    .exam-live-wrapper {
+      display: none;
+      max-width: 1300px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .exam-live-wrapper.active {
+      display: block;
+    }
+
+    .exam-top-sticky {
+      position: sticky;
+      top: 10px;
+      z-index: 99;
+      background: #ffffff;
+      border: 1px solid #bae6fd;
+      border-radius: var(--radius-md);
+      padding: 12px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+    }
+
+    .timer-display {
+      font-family: 'Outfit', monospace;
+      font-size: 22px;
+      font-weight: 800;
+      color: #d97706;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .timer-display.danger {
+      color: #ef4444;
+      animation: pulse 1s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+
+    .exam-progress-info {
+      font-size: 14px;
+      color: #334155;
+      font-weight: 600;
+    }
+
+    .btn-submit-exam {
+      background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+      color: #ffffff;
+      border: none;
+      padding: 8px 18px;
+      border-radius: var(--radius-sm);
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: var(--transition);
+      box-shadow: 0 2px 8px rgba(239, 68, 68, 0.25);
+    }
+
+    .btn-submit-exam:hover {
+      background: #b91c1c;
+      transform: translateY(-1px);
+    }
+
+    /* Exam Result Modal/Card */
+    .result-card {
+      display: none;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin: 20px auto;
+      max-width: 800px;
+      text-align: center;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .result-card.active {
+      display: block;
+      animation: fadeIn 0.3s ease;
+    }
+
+    .score-circle {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 6px solid #0284c7;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px auto;
+      background: #eff6ff;
+    }
+
+    .score-circle .score-val {
+      font-family: 'Outfit', sans-serif;
+      font-size: 32px;
+      font-weight: 800;
+      color: #0284c7;
+      line-height: 1;
+    }
+
+    .score-circle .score-max {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .result-stats-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .result-stat-box {
+      background: #f8fafc;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      padding: 12px;
+    }
+
+    .result-stat-box .num {
+      font-family: 'Outfit', sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+    }
+
+    .result-stat-box .txt {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    /* Written Tab */
+    .written-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      max-width: 1300px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .written-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      transition: var(--transition);
+      position: relative;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .written-card:hover {
+      border-color: #93c5fd;
+      box-shadow: var(--shadow-md);
+    }
+
+    .written-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .written-q {
+      font-size: 16.5px;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 14px;
+      line-height: 1.6;
+      border-bottom: 1px solid #f1f5f9;
+      padding-bottom: 12px;
+    }
+
+    .written-ans {
+      font-size: 14px;
+      color: #334155;
+      white-space: pre-line;
+      line-height: 1.75;
+      background: #f8fafc;
+      padding: 16px;
+      border-radius: var(--radius-sm);
+      border-left: 4px solid #10b981;
+      border-top: 1px solid #f1f5f9;
+      border-right: 1px solid #f1f5f9;
+      border-bottom: 1px solid #f1f5f9;
+      transition: all 0.2s ease;
+    }
+
+    .written-ans.collapsed {
+      display: none;
+    }
+
+    .btn-toggle-ans {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      color: #0284c7;
+      padding: 4px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: var(--transition);
+    }
+
+    .btn-toggle-ans:hover {
+      background: #dbeafe;
+      color: #0369a1;
+    }
+
+    .written-tips {
+      margin-top: 12px;
+      font-size: 12.5px;
+      color: #0284c7;
+      background: #eff6ff;
+      padding: 8px 14px;
+      border-radius: 6px;
+      border-left: 3px solid #0284c7;
+    }
+
+    /* Syllabus Embed */
+    .syllabus-iframe {
+      width: 100%;
+      height: 750px;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      background: #ffffff;
+      max-width: 1300px;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border-color);
+      padding: 24px 20px;
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 40px;
+      max-width: 1300px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 22px; }
+      .top-nav { flex-direction: column; align-items: stretch; }
+      .nav-links-left, .nav-links-right { justify-content: center; }
+      .result-stats-row { grid-template-columns: repeat(2, 1fr); }
+      .options-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- Top Nav Quick Actions -->
+    <nav class="top-nav">
+      <div class="nav-links-left">
+        <a href="../index.html" class="nav-btn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          মাস্টার হাব (Master Hub)
+        </a>
+        <a href="exam_guide.html" target="_blank" class="nav-btn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          সিলেবাস ও পরীক্ষা গাইড (A4 Print)
+        </a>
+        <a href="DSS_Karigori_Proshikhok_Computer_Exam_Guide.pdf" target="_blank" class="nav-btn" style="border-color: #38bdf8; color: #38bdf8;">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          সিলেবাস PDF গাইড (Download)
+        </a>
+        <a href="DSS_ad_2026_Circular.pdf" target="_blank" class="nav-btn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          মূল সার্কুলার PDF
+        </a>
+      </div>
+
+      <div class="nav-links-right">
+        <a href="../PROGRESS.md" target="_blank" class="nav-btn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          প্রগ্রেস ট্র্যাকার (MD)
+        </a>
+        <button class="nav-btn primary" onclick="startMockExamDirect()">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          লাইভ মডেল টেস্ট শুরু করুন
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Card -->
+    <header class="hero">
+      <div class="hero-badge-wrap">
+        <span class="badge badge-dss">সমাজকল্যাণ মন্ত্রণালয় • সমাজসেবা অধিদপ্তর (DSS)</span>
+        <span class="badge badge-grade">১৮তম গ্রেড (৮,৮০০ - ২১,৩১০/-)</span>
+        <span class="badge badge-status" style="background: rgba(16, 185, 129, 0.2); border-color: rgba(16, 185, 129, 0.5); color: #34d399;">পরীক্ষা পদ্ধতি: ৭০ নম্বরের লিখিত পরীক্ষা (Short Written)</span>
+        <span class="badge badge-status" style="background: rgba(245, 158, 11, 0.2); border-color: rgba(245, 158, 11, 0.5); color: #fbbf24;">বিজ্ঞপ্তি ক্রমিক: ৪০ (ক) • শূন্যপদ: ৩১টি</span>
+      </div>
+      <h1>কারিগরি প্রশিক্ষক (উপজেলা) <span>[ট্রেড: কম্পিউটার — লিখিত সুপার সাজেশন]</span></h1>
+      <p class="hero-meta">
+        সংশোধিত নিয়োগ বিজ্ঞপ্তি স্মারক: <strong>৪১.০১.০০০০.০০৯.১১.০০৩.২০২৪-৪৬৫</strong> | 
+        শতভাগ কমন নিশ্চয়তায় খাতা-কলমে লিখিত পরীক্ষা (Short Written), প্রিলিমিনারি OMR ও ব্যবহারিক ট্রেড পরীক্ষার পূর্ণাঙ্গ ডিজিটাল সুপার সাজেশন পোর্টাল।
+      </p>
+
+      <!-- Key Stats Counters -->
+      <div class="stats-grid">
+        <div class="stat-card" style="border-color: #34d399;">
+          <div class="stat-icon green">✍️</div>
+          <div>
+            <div class="stat-number" id="stat-written" style="color: #34d399;">১৩২০+</div>
+            <div class="stat-label">লিখিত প্রশ্ন ও মেগা সমাধান</div>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon blue">📁</div>
+          <div>
+            <div class="stat-number" id="stat-total">১৩৩</div>
+            <div class="stat-label">MCQ প্র্যাকটিস প্রশ্ন</div>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon purple">💻</div>
+          <div>
+            <div class="stat-number">১০০+</div>
+            <div class="stat-label">ট্রেড শর্টকাট, ফুলফর্ম ও ট্রাবলশুটিং</div>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon green">📚</div>
+          <div>
+            <div class="stat-number">৭৫০+</div>
+            <div class="stat-label">বাংলা (২০০ সন্ধি, ২০০ বাগধারা, ২০০ এককথায়)</div>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon amber">📖</div>
+          <div>
+            <div class="stat-number">৩০০+</div>
+            <div class="stat-label">ইংরেজি (২০০ Translation, ১০০ Preposition)</div>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon rose">📐</div>
+          <div>
+            <div class="stat-number">২০+</div>
+            <div class="stat-label">সাধারণ গণিত (কষে সমাধান)</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Tabs Bar -->
+    <div class="tabs-bar">
+      <button class="tab-btn active" onclick="switchTab('writtenTab')">
+        <span>✍️</span> পূর্ণাঙ্গ লিখিত প্রস্তুতি ও সমাধান (Written Master)
+      </button>
+      <button class="tab-btn" onclick="switchTab('mcqTab')">
+        <span>🎯</span> প্রিলিমিনারি প্রশ্নব্যাংক (MCQ)
+      </button>
+      <button class="tab-btn" onclick="switchTab('mockTab')">
+        <span>⏱️</span> লাইভ ওএমআর মডেল টেস্ট (OMR)
+      </button>
+      <button class="tab-btn" onclick="switchTab('syllabusTab')">
+        <span>📋</span> অফিশিয়াল লিখিত সিলেবাস ও গাইড
+      </button>
+    </div>
+
+    <!-- TAB 1: Written Master Prep (Primary Focus) -->
+    <div id="writtenTab" class="tab-pane active">
+      <div class="controls-card">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; flex-wrap: wrap; gap: 10px;">
+          <div>
+            <h3 style="color: #0284c7; font-size: 19px; font-weight: 800; margin-bottom: 4px;">✍️ পূর্ণাঙ্গ লিখিত প্রশ্নব্যাংক ও মেগা সমাধান (Written Master)</h3>
+            <p style="color: var(--text-muted); font-size: 13.5px;">
+              ২০০টি সন্ধি, ২০০টি বাগধারা ও বাক্য, ২০০টি এককথায় প্রকাশ, ২০০টি ইংরেজি অনুবাদ, ১০০টি Preposition, গণিত কষে সমাধান, কম্পিউটার ট্রেড শর্টকাট ও ট্রাবলশুটিং (মোট ৩২টি মেগা মডিউল ও ১,৩২০+ আইটেম)।
+            </p>
+          </div>
+          <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+            <button class="nav-btn" onclick="toggleAllWrittenAnswers()" id="btnToggleAllWritten">
+              👁️ সব উত্তর লুকান / দেখুন
+            </button>
+            <button class="nav-btn" onclick="window.print()">
+              🖨️ প্রিন্ট করুন (Save as PDF)
+            </button>
+            <a href="DSS_Karigori_Proshikhok_Computer_Exam_Guide.pdf" target="_blank" class="nav-btn primary">
+              📥 অফিশিয়াল লিখিত PDF
+            </a>
+          </div>
+        </div>
+
+        <div class="search-row">
+          <div class="search-box">
+            <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            <input type="text" id="writtenSearchInput" class="search-input" placeholder="লিখিত প্রশ্নের মধ্যে বিষয়, টপিক বা কিওয়ার্ড খুঁজুন..." oninput="filterWrittenQuestions()">
+          </div>
+        </div>
+
+        <div class="filter-pills" id="writtenFilterPills">
+          <button class="pill-btn active" onclick="setWrittenSubjectFilter('all', this)">সকল মেগা সেট (৩২টি সেট • ১৩২০+ প্রশ্ন)</button>
+          <button class="pill-btn" onclick="setWrittenSubjectFilter('কম্পিউটার ট্রেড', this)">💻 কম্পিউটার ট্রেড (১০০+ আইটেম)</button>
+          <button class="pill-btn" onclick="setWrittenSubjectFilter('বাংলা লিখিত', this)">📚 বাংলা ব্যাকরণ (৭৫০+ আইটেম)</button>
+          <button class="pill-btn" onclick="setWrittenSubjectFilter('ইংরেজি লিখিত', this)">📖 ইংরেজি অনুবাদ ও গ্রামার (৩০০+ আইটেম)</button>
+          <button class="pill-btn" onclick="setWrittenSubjectFilter('গণিত লিখিত', this)">📐 সাধারণ গণিত সমাধানসহ (২০টি)</button>
+          <button class="pill-btn" onclick="setWrittenSubjectFilter('সমাজসেবা', this)">🏛️ সমাজসেবা ও জিকে</button>
+        </div>
+      </div>
+
+      <div class="written-grid" id="writtenContainer">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+
+    <!-- TAB 2: MCQ Question Bank (Backup Practice) -->
+    <div id="mcqTab" class="tab-pane">
+      <div class="controls-card">
+        <div class="search-row">
+          <div class="search-box">
+            <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            <input type="text" id="searchInput" class="search-input" placeholder="যেকোনো বিষয়, টপিক বা প্রশ্ন লিখে সরাসরি সার্চ করুন..." oninput="filterQuestions()">
+          </div>
+          <button class="nav-btn" onclick="toggleOnlyBookmarks()" id="btnBookmarkFilter">
+            ⭐ শুধু বুকমার্ক (<span id="bookmarkCount">0</span>)
+          </button>
+        </div>
+
+        <div class="filter-pills" id="filterPills">
+          <button class="pill-btn active" onclick="setSubjectFilter('all', this)">সকল বিষয় (All)</button>
+          <button class="pill-btn" onclick="setSubjectFilter('কম্পিউটার ট্রেড (Trade ICT)', this)">💻 কম্পিউটার ট্রেড</button>
+          <button class="pill-btn" onclick="setSubjectFilter('বাংলা ভাষা ও সাহিত্য', this)">📚 বাংলা</button>
+          <button class="pill-btn" onclick="setSubjectFilter('ইংরেজি ভাষা ও গ্রামার', this)">📖 ইংরেজি</button>
+          <button class="pill-btn" onclick="setSubjectFilter('সাধারণ গণিত', this)">📐 সাধারণ গণিত</button>
+          <button class="pill-btn" onclick="setSubjectFilter('সাধারণ জ্ঞান ও সমাজসেবা', this)">🏛️ জিকে ও সমাজসেবা</button>
+        </div>
+      </div>
+
+      <div class="question-list" id="questionContainer">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+
+    <!-- TAB 3: Model Test Engine (OMR Practice) -->
+    <div id="mockTab" class="tab-pane">
+      <!-- Start Screen -->
+      <div class="mock-start-card" id="mockStartScreen">
+        <div class="mock-start-icon">⏱️</div>
+        <h2 class="mock-title">সমাজসেবা অধিদপ্তর কারিগরি প্রশিক্ষক লাইভ মডেল টেস্ট</h2>
+        <p class="mock-desc">
+          অফিশিয়াল নিয়োগ পরীক্ষার আদলে ৭০টি প্রশ্ন সমন্বিত পূর্ণাঙ্গ রিয়েল-টাইম মডেল টেস্ট। সঠিক উত্তরে +১ নম্বর এবং ভুল উত্তরের জন্য -০.২৫ নম্বর কর্তন সহ স্বয়ংক্রিয় রেজাল্ট শিট।
+        </p>
+
+        <div class="mock-specs-grid">
+          <div class="mock-spec-box">
+            <div class="label">মোট প্রশ্ন</div>
+            <div class="val">৭০ টি</div>
+          </div>
+          <div class="mock-spec-box">
+            <div class="label">মোট সময়</div>
+            <div class="val">৬০ মিনিট</div>
+          </div>
+          <div class="mock-spec-box">
+            <div class="label">পূর্ণমান</div>
+            <div class="val">৭০ নম্বর</div>
+          </div>
+          <div class="mock-spec-box">
+            <div class="label">নেগেটিভ মার্কিং</div>
+            <div class="val">-০.২৫ নম্বর</div>
+          </div>
+        </div>
+
+        <button class="btn-start-exam" onclick="initiateLiveMockExam()">
+          🚀 এখনই মডেল টেস্ট শুরু করুন (Start Exam)
+        </button>
+      </div>
+
+      <!-- Live Running Screen -->
+      <div class="exam-live-wrapper" id="examLiveWrapper">
+        <div class="exam-top-sticky">
+          <div class="timer-display" id="examTimer">
+            ⏱️ 60:00
+          </div>
+          <div class="exam-progress-info" id="examProgress">
+            উত্তর দেওয়া হয়েছে: 0 / 70
+          </div>
+          <button class="btn-submit-exam" onclick="confirmSubmitExam()">
+            পরীক্ষা সমাপ্ত করুন (Submit)
+          </button>
+        </div>
+
+        <div class="question-list" id="examQuestionsContainer">
+          <!-- Dynamically populated mock questions -->
+        </div>
+      </div>
+
+      <!-- Result Card -->
+      <div class="result-card" id="mockResultCard">
+        <h2 style="font-size: 22px; color: #0f172a; margin-bottom: 14px;">🏆 মডেল টেস্ট রেজাল্ট ও পারফরম্যান্স রিপোর্ট</h2>
+        
+        <div class="score-circle">
+          <div class="score-val" id="finalScoreVal">0.0</div>
+          <div class="score-max">/ ৭০.০</div>
+        </div>
+
+        <div class="result-stats-row">
+          <div class="result-stat-box">
+            <div class="num" style="color: #34d399;" id="resCorrect">0</div>
+            <div class="txt">সঠিক উত্তর</div>
+          </div>
+          <div class="result-stat-box">
+            <div class="num" style="color: #f87171;" id="resIncorrect">0</div>
+            <div class="txt">ভুল উত্তর</div>
+          </div>
+          <div class="result-stat-box">
+            <div class="num" style="color: #94a3b8;" id="resUnattempted">0</div>
+            <div class="txt">অনুত্তরিত</div>
+          </div>
+          <div class="result-stat-box">
+            <div class="num" style="color: #fbbf24;" id="resPenalty">0.0</div>
+            <div class="txt">নেগেটিভ মার্কস</div>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+          <button class="nav-btn primary" onclick="retakeExam()">
+            🔄 পুনরায় পরীক্ষা দিন (Retake)
+          </button>
+          <button class="nav-btn" onclick="reviewExamAnswers()">
+            📝 উত্তরপত্র রিভিউ করুন (Review Sheet)
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 4: Syllabus & Guidelines Embed -->
+    <div id="syllabusTab" class="tab-pane">
+      <div style="display: flex; justify-content: flex-end; gap: 10px; margin-bottom: 12px; flex-wrap: wrap;">
+        <a href="DSS_Karigori_Proshikhok_Computer_Exam_Guide.pdf" target="_blank" class="nav-btn" style="background: #10b981; color: #ffffff; border-color: transparent;">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          সরাসরি সিলেবাস PDF ডাউনলোড করুন (Download PDF)
+        </a>
+        <a href="exam_guide.html" target="_blank" class="nav-btn primary">
+          🖨️ সম্পূর্ণ গাইড নতুন উইন্ডোতে ওপেন / প্রিন্ট করুন (Open HTML)
+        </a>
+      </div>
+      <iframe src="exam_guide.html" class="syllabus-iframe" title="DSS Exam Guide"></iframe>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>🇧🇩 সমাজসেবা অধিদপ্তর (DSS) কারিগরি প্রশিক্ষক (উপজেলা - ট্রেড: কম্পিউটার) সুপার সাজেশন প্ল্যাটফর্ম</p>
+      <p style="margin-top: 4px; color: #475569;">সকল অধিকার সংরক্ষিত • স্বয়ংক্রিয় জিরো-সিওআরএস অফলাইন আর্কিটেকচার</p>
+    </footer>
+
+  </div>
+
+  <!-- Zero-CORS offline data bundles -->
+  <script src="data/prelim_data.js"></script>
+  <script src="data/written_data.js"></script>
+
+  <script>
+    // App State
+    let prelimQuestions = window.PRELIM_QUESTIONS || [];
+    let writtenQuestions = window.WRITTEN_QUESTIONS || [];
+    let currentFilter = 'all';
+    let currentWrittenFilter = 'all';
+    let allAnswersVisible = true;
+    let onlyBookmarks = false;
+    let bookmarks = JSON.parse(localStorage.getItem('dss_computer_bookmarks') || '[]');
+
+    // Mock Exam State
+    let mockExamQuestions = [];
+    let userAnswers = {};
+    let timerInterval = null;
+    let timeRemaining = 60 * 60; // 60 minutes in seconds
+
+    // Initialize on load
+    document.addEventListener('DOMContentLoaded', () => {
+      updateStats();
+      renderWrittenQuestions();
+      renderQuestions();
+      updateBookmarkCount();
+    });
+
+    function updateStats() {
+      if (document.getElementById('stat-written')) {
+        document.getElementById('stat-written').innerText = '১৩২০+';
+      }
+      if (document.getElementById('stat-total')) {
+        document.getElementById('stat-total').innerText = prelimQuestions.length;
+      }
+    }
+
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.tab-pane').forEach(pane => pane.classList.remove('active'));
+
+      event.currentTarget.classList.add('active');
+      document.getElementById(tabId).classList.add('active');
+    }
+
+    function setSubjectFilter(subj, elem) {
+      currentFilter = subj;
+      document.querySelectorAll('.pill-btn').forEach(btn => btn.classList.remove('active'));
+      elem.classList.add('active');
+      renderQuestions();
+    }
+
+    function toggleOnlyBookmarks() {
+      onlyBookmarks = !onlyBookmarks;
+      const btn = document.getElementById('btnBookmarkFilter');
+      if (onlyBookmarks) {
+        btn.classList.add('primary');
+      } else {
+        btn.classList.remove('primary');
+      }
+      renderQuestions();
+    }
+
+    function filterQuestions() {
+      renderQuestions();
+    }
+
+    function toggleBookmark(id) {
+      const idx = bookmarks.indexOf(id);
+      if (idx > -1) {
+        bookmarks.splice(idx, 1);
+      } else {
+        bookmarks.push(id);
+      }
+      localStorage.setItem('dss_computer_bookmarks', JSON.stringify(bookmarks));
+      updateBookmarkCount();
+      renderQuestions();
+    }
+
+    function updateBookmarkCount() {
+      document.getElementById('bookmarkCount').innerText = bookmarks.length;
+    }
+
+    function renderQuestions() {
+      const container = document.getElementById('questionContainer');
+      const search = (document.getElementById('searchInput').value || '').trim().toLowerCase();
+
+      let filtered = prelimQuestions.filter(q => {
+        // Subject filter
+        if (currentFilter !== 'all' && q.subject !== currentFilter) return false;
+        // Bookmark filter
+        if (onlyBookmarks && !bookmarks.includes(q.id)) return false;
+        // Search filter
+        if (search) {
+          const matchQ = q.question.toLowerCase().includes(search);
+          const matchTopic = (q.topic || '').toLowerCase().includes(search);
+          const matchSubj = (q.subject || '').toLowerCase().includes(search);
+          const matchOpts = (q.options || []).some(opt => opt.toLowerCase().includes(search));
+          return matchQ || matchTopic || matchSubj || matchOpts;
+        }
+        return true;
+      });
+
+      if (filtered.length === 0) {
+        container.innerHTML = `
+          <div style="text-align: center; padding: 40px; color: var(--text-muted); background: var(--bg-card); border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+            <div style="font-size: 32px; margin-bottom: 8px;">🔍</div>
+            <p>কোনো প্রশ্ন খুঁজে পাওয়া যায়নি। অনুসন্ধান পরিবর্তন করুন।</p>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = filtered.map((q, idx) => {
+        const isBookmarked = bookmarks.includes(q.id);
+        return `
+          <div class="q-card" id="q_${q.id}">
+            <div class="q-header">
+              <div class="q-meta">
+                <span class="q-subject-badge">${q.subject}</span>
+                <span class="q-topic-badge">${q.topic || 'সাধারণ'}</span>
+                <span style="font-size: 11.5px; color: var(--text-dim);">#${q.id}</span>
+              </div>
+              <button class="btn-bookmark ${isBookmarked ? 'bookmarked' : ''}" onclick="toggleBookmark(${q.id})" title="বুকমার্ক করুন">
+                ${isBookmarked ? '⭐' : '☆'}
+              </button>
+            </div>
+
+            <div class="q-title">${idx + 1}. ${q.question}</div>
+
+            <div class="options-grid">
+              ${q.options.map((opt, optIdx) => `
+                <div class="option-item" onclick="selectPracticeOption(${q.id}, ${optIdx}, ${q.answer}, this)">
+                  <span style="font-weight: 700; color: #38bdf8;">${String.fromCharCode(65 + optIdx)}</span>
+                  <span>${opt.replace(/^[A-D]\)\s*/, '')}</span>
+                </div>
+              `).join('')}
+            </div>
+
+            <div class="q-footer">
+              <button class="btn-explain" onclick="toggleExplanation(${q.id})">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                ব্যাখ্যা দেখুন (Explanation)
+              </button>
+            </div>
+
+            <div class="explanation-box" id="exp_${q.id}">
+              <strong>সঠিক উত্তর: ${String.fromCharCode(65 + q.answer)}</strong><br>
+              ${q.explanation || 'এই প্রশ্নের জন্য কোনো অতিরিক্ত ব্যাখ্যা সংযুক্ত নেই।'}
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function selectPracticeOption(qId, selectedIdx, correctIdx, elem) {
+      const card = document.getElementById(`q_${qId}`);
+      const options = card.querySelectorAll('.option-item');
+      
+      options.forEach(opt => {
+        opt.classList.remove('correct', 'incorrect');
+      });
+
+      if (selectedIdx === correctIdx) {
+        elem.classList.add('correct');
+      } else {
+        elem.classList.add('incorrect');
+        options[correctIdx].classList.add('correct');
+      }
+
+      // Auto show explanation
+      document.getElementById(`exp_${qId}`).classList.add('show');
+    }
+
+    function toggleExplanation(qId) {
+      const exp = document.getElementById(`exp_${qId}`);
+      exp.classList.toggle('show');
+    }
+
+    // Written Tab Controllers & Renderer
+    function setWrittenSubjectFilter(subj, elem) {
+      currentWrittenFilter = subj;
+      document.querySelectorAll('#writtenFilterPills .pill-btn').forEach(btn => btn.classList.remove('active'));
+      elem.classList.add('active');
+      renderWrittenQuestions();
+    }
+
+    function filterWrittenQuestions() {
+      renderWrittenQuestions();
+    }
+
+    function toggleWrittenAnswer(qId) {
+      const ansElem = document.getElementById(`w_ans_${qId}`);
+      const btnElem = document.getElementById(`w_btn_${qId}`);
+      if (!ansElem) return;
+
+      ansElem.classList.toggle('collapsed');
+      if (ansElem.classList.contains('collapsed')) {
+        btnElem.innerHTML = '👁️ উত্তর দেখুন';
+      } else {
+        btnElem.innerHTML = '🙈 উত্তর লুকান';
+      }
+    }
+
+    function toggleAllWrittenAnswers() {
+      allAnswersVisible = !allAnswersVisible;
+      const allAns = document.querySelectorAll('.written-ans');
+      const allBtns = document.querySelectorAll('.btn-toggle-ans');
+      const masterBtn = document.getElementById('btnToggleAllWritten');
+
+      allAns.forEach(ans => {
+        if (allAnswersVisible) {
+          ans.classList.remove('collapsed');
+        } else {
+          ans.classList.add('collapsed');
+        }
+      });
+
+      allBtns.forEach(btn => {
+        btn.innerHTML = allAnswersVisible ? '🙈 উত্তর লুকান' : '👁️ উত্তর দেখুন';
+      });
+
+      if (masterBtn) {
+        masterBtn.innerHTML = allAnswersVisible ? '🙈 সব উত্তর লুকান' : '👁️ সব উত্তর দেখুন';
+      }
+    }
+
+    function renderWrittenQuestions() {
+      const container = document.getElementById('writtenContainer');
+      if (!writtenQuestions || writtenQuestions.length === 0) {
+        container.innerHTML = '<p style="color: var(--text-muted); text-align: center; padding: 20px;">লিখিত প্রশ্ন লোড হচ্ছে...</p>';
+        return;
+      }
+
+      const searchInput = document.getElementById('writtenSearchInput');
+      const search = (searchInput ? searchInput.value : '').trim().toLowerCase();
+
+      let filtered = writtenQuestions.filter(wq => {
+        if (currentWrittenFilter !== 'all' && !wq.subject.includes(currentWrittenFilter)) {
+          return false;
+        }
+        if (search) {
+          const matchQ = (wq.question || '').toLowerCase().includes(search);
+          const matchA = (wq.answer || '').toLowerCase().includes(search);
+          const matchTopic = (wq.topic || '').toLowerCase().includes(search);
+          const matchSubj = (wq.subject || '').toLowerCase().includes(search);
+          return matchQ || matchA || matchTopic || matchSubj;
+        }
+        return true;
+      });
+
+      if (filtered.length === 0) {
+        container.innerHTML = `
+          <div style="text-align: center; padding: 40px 20px; background: var(--bg-card); border-radius: var(--radius-md); border: 1px dashed var(--border-color);">
+            <p style="color: var(--text-muted); font-size: 15px;">🔍 আপনার অনুসন্ধানের সাথে মিলে এমন কোনো লিখিত প্রশ্ন পাওয়া যায়নি।</p>
+            <button class="nav-btn" style="margin-top: 10px;" onclick="resetWrittenFilters()">সকল প্রশ্ন প্রদর্শন করুন</button>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = filtered.map((wq, idx) => `
+        <div class="written-card" id="w_card_${wq.id}">
+          <div class="written-card-header">
+            <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
+              <span class="q-subject-badge" style="background: rgba(16, 185, 129, 0.15); border-color: rgba(16, 185, 129, 0.4); color: #34d399; font-weight: 700;">${wq.subject}</span>
+              <span class="q-topic-badge">${wq.topic}</span>
+              <span style="font-size: 11.5px; color: var(--text-dim);">#${wq.id}</span>
+            </div>
+            <button class="btn-toggle-ans" id="w_btn_${wq.id}" onclick="toggleWrittenAnswer(${wq.id})">
+              ${allAnswersVisible ? '🙈 উত্তর লুকান' : '👁️ উত্তর দেখুন'}
+            </button>
+          </div>
+          <div class="written-q">${idx + 1}. ${wq.question.replace(/\n/g, '<br>')}</div>
+          <div class="written-ans ${allAnswersVisible ? '' : 'collapsed'}" id="w_ans_${wq.id}">${wq.answer}</div>
+          ${wq.tips ? `<div class="written-tips">💡 পরীক্ষকের দৃষ্টি / লিখিত টিপস: ${wq.tips}</div>` : ''}
+        </div>
+      `).join('');
+    }
+
+    function resetWrittenFilters() {
+      currentWrittenFilter = 'all';
+      if (document.getElementById('writtenSearchInput')) {
+        document.getElementById('writtenSearchInput').value = '';
+      }
+      document.querySelectorAll('#writtenFilterPills .pill-btn').forEach(btn => btn.classList.remove('active'));
+      const firstPill = document.querySelector('#writtenFilterPills .pill-btn');
+      if (firstPill) firstPill.classList.add('active');
+      renderWrittenQuestions();
+    }
+
+    // Model Test Functions
+    function startMockExamDirect() {
+      // Switch to mock tab and start
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.tab-pane').forEach(pane => pane.classList.remove('active'));
+
+      const mockTabBtn = document.querySelectorAll('.tab-btn')[2];
+      if (mockTabBtn) mockTabBtn.classList.add('active');
+      document.getElementById('mockTab').classList.add('active');
+
+      initiateLiveMockExam();
+    }
+
+    function initiateLiveMockExam() {
+      document.getElementById('mockStartScreen').style.display = 'none';
+      document.getElementById('mockResultCard').classList.remove('active');
+      document.getElementById('examLiveWrapper').classList.add('active');
+
+      // Randomly pick up to 70 questions (or all if < 70)
+      const shuffled = [...prelimQuestions].sort(() => 0.5 - Math.random());
+      mockExamQuestions = shuffled.slice(0, Math.min(70, shuffled.length));
+      userAnswers = {};
+
+      renderMockQuestions();
+
+      // Start Timer (60 mins)
+      timeRemaining = 60 * 60;
+      updateTimerDisplay();
+      clearInterval(timerInterval);
+      timerInterval = setInterval(() => {
+        timeRemaining--;
+        updateTimerDisplay();
+        if (timeRemaining <= 0) {
+          clearInterval(timerInterval);
+          alert('পরীক্ষার সময় সমাপ্ত হয়েছে!');
+          submitMockExam();
+        }
+      }, 1000);
+    }
+
+    function updateTimerDisplay() {
+      const mins = Math.floor(timeRemaining / 60);
+      const secs = timeRemaining % 60;
+      const formatted = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+      const elem = document.getElementById('examTimer');
+      elem.innerText = `⏱️ ${formatted}`;
+      if (timeRemaining <= 300) {
+        elem.classList.add('danger');
+      } else {
+        elem.classList.remove('danger');
+      }
+    }
+
+    function renderMockQuestions() {
+      const container = document.getElementById('examQuestionsContainer');
+      container.innerHTML = mockExamQuestions.map((q, idx) => `
+        <div class="q-card" id="mock_q_${q.id}">
+          <div class="q-header">
+            <span class="q-subject-badge">${q.subject}</span>
+            <span style="font-size: 13px; color: var(--text-dim);">প্রশ্ন নং: ${idx + 1} / ${mockExamQuestions.length}</span>
+          </div>
+          <div class="q-title">${idx + 1}. ${q.question}</div>
+          <div class="options-grid">
+            ${q.options.map((opt, optIdx) => `
+              <div class="option-item ${userAnswers[q.id] === optIdx ? 'correct' : ''}" 
+                   onclick="selectMockAnswer(${q.id}, ${optIdx}, this)">
+                <span style="font-weight: 700; color: #38bdf8;">${String.fromCharCode(65 + optIdx)}</span>
+                <span>${opt.replace(/^[A-D]\)\s*/, '')}</span>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `).join('');
+      updateExamProgress();
+    }
+
+    function selectMockAnswer(qId, optIdx, elem) {
+      userAnswers[qId] = optIdx;
+      const card = document.getElementById(`mock_q_${qId}`);
+      card.querySelectorAll('.option-item').forEach((item, i) => {
+        if (i === optIdx) {
+          item.style.borderColor = '#38bdf8';
+          item.style.background = 'rgba(56, 189, 248, 0.2)';
+        } else {
+          item.style.borderColor = '';
+          item.style.background = '';
+        }
+      });
+      updateExamProgress();
+    }
+
+    function updateExamProgress() {
+      const answeredCount = Object.keys(userAnswers).length;
+      document.getElementById('examProgress').innerText = `উত্তর দেওয়া হয়েছে: ${answeredCount} / ${mockExamQuestions.length}`;
+    }
+
+    function confirmSubmitExam() {
+      const answered = Object.keys(userAnswers).length;
+      const unanswered = mockExamQuestions.length - answered;
+      if (confirm(`আপনি কি পরীক্ষা সমাপ্ত করতে চান?\nউত্তর দিয়েছেন: ${answered} টি\nঅনুত্তরিত: ${unanswered} টি`)) {
+        clearInterval(timerInterval);
+        submitMockExam();
+      }
+    }
+
+    function submitMockExam() {
+      let correct = 0;
+      let incorrect = 0;
+      let unattempted = 0;
+
+      mockExamQuestions.forEach(q => {
+        const ans = userAnswers[q.id];
+        if (ans === undefined) {
+          unattempted++;
+        } else if (ans === q.answer) {
+          correct++;
+        } else {
+          incorrect++;
+        }
+      });
+
+      const penalty = incorrect * 0.25;
+      const finalScore = Math.max(0, correct - penalty);
+
+      document.getElementById('examLiveWrapper').classList.remove('active');
+      document.getElementById('mockResultCard').classList.add('active');
+
+      document.getElementById('finalScoreVal').innerText = finalScore.toFixed(2);
+      document.getElementById('resCorrect').innerText = correct;
+      document.getElementById('resIncorrect').innerText = incorrect;
+      document.getElementById('resUnattempted').innerText = unattempted;
+      document.getElementById('resPenalty').innerText = `-${penalty.toFixed(2)}`;
+    }
+
+    function retakeExam() {
+      initiateLiveMockExam();
+    }
+
+    function reviewExamAnswers() {
+      document.getElementById('mockResultCard').classList.remove('active');
+      document.getElementById('examLiveWrapper').classList.add('active');
+      
+      // Hide submit and timer, show review explanation
+      document.getElementById('examTimer').innerText = '📝 উত্তরপত্র রিভিউ মোড';
+      document.querySelector('.btn-submit-exam').style.display = 'none';
+
+      const container = document.getElementById('examQuestionsContainer');
+      container.innerHTML = mockExamQuestions.map((q, idx) => {
+        const uAns = userAnswers[q.id];
+        const isCorrect = uAns === q.answer;
+        const isUnanswered = uAns === undefined;
+
+        return `
+          <div class="q-card" style="border-left: 4px solid ${isCorrect ? '#10b981' : isUnanswered ? '#94a3b8' : '#ef4444'};">
+            <div class="q-header">
+              <span class="q-subject-badge">${q.subject}</span>
+              <span style="font-weight: 700; color: ${isCorrect ? '#34d399' : isUnanswered ? '#94a3b8' : '#f87171'};">
+                ${isCorrect ? '✔ সঠিক (+১)' : isUnanswered ? '⚪ অনুত্তরিত (০)' : '✖ ভুল উত্তর (-০.২৫)'}
+              </span>
+            </div>
+            <div class="q-title">${idx + 1}. ${q.question}</div>
+            <div class="options-grid">
+              ${q.options.map((opt, optIdx) => {
+                let cls = '';
+                if (optIdx === q.answer) cls = 'correct';
+                else if (optIdx === uAns) cls = 'incorrect';
+                return `
+                  <div class="option-item ${cls}">
+                    <span style="font-weight: 700;">${String.fromCharCode(65 + optIdx)}</span>
+                    <span>${opt.replace(/^[A-D]\)\s*/, '')}</span>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+            <div class="explanation-box show" style="display: block;">
+              <strong>সঠিক উত্তর: ${String.fromCharCode(65 + q.answer)}</strong><br>
+              ${q.explanation || 'সঠিক উত্তর যাচাই করুন।'}
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+  </script>
+</body>
+</html>
