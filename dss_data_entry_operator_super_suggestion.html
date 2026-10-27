@@ -9,6 +9,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
 
+  <!-- KaTeX for Math & Technical Equations (Local offline with CDN fallback) -->
+  <link rel="stylesheet" href="drivers/katex.min.css">
+  <script defer src="drivers/katex.min.js"></script>
+  <script defer src="drivers/auto-render.min.js" onload="if(window.renderKaTeX) window.renderKaTeX();"></script>
+
   <!-- Master Site Navigation & Data Bundle -->
   <link rel="stylesheet" href="drivers/site-header.css">
   <script defer src="DSS Data Entry Operator Super Suggestion/data_bundle.js"></script>
@@ -84,6 +89,18 @@
       display: flex;
       flex-direction: column;
       transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    /* KaTeX Math Styling */
+    .katex-display {
+      overflow-x: auto;
+      overflow-y: hidden;
+      padding: 6px 0;
+      margin: 8px 0 !important;
+    }
+    .katex {
+      font-size: 1.08em;
+      text-rendering: auto;
     }
 
     header {
@@ -1479,6 +1496,9 @@
       const targetPane = document.getElementById(tabId);
       if (targetPane) targetPane.classList.add('active');
 
+      if (tabId === 'tab-written') {
+        renderWrittenQuestions();
+      }
       if (tabId === 'tab-bookmark') {
         renderBookmarks();
       }
@@ -1630,23 +1650,60 @@
           </div>
         </div>
       `).join('');
+
+      renderKaTeX(container);
     }
+
+    // Universal KaTeX Math Renderer
+    function renderKaTeX(target) {
+      const el = target || document.body;
+      if (typeof renderMathInElement === 'function') {
+        try {
+          renderMathInElement(el, {
+            delimiters: [
+              { left: '$$', right: '$$', display: true },
+              { left: '$', right: '$', display: false },
+              { left: '\\(', right: '\\)', display: false },
+              { left: '\\[', right: '\\]', display: true }
+            ],
+            throwOnError: false,
+            ignoredTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+          });
+        } catch (err) {
+          console.warn('KaTeX render warning:', err);
+        }
+      }
+    }
+    window.renderKaTeX = renderKaTeX;
 
     // Render Written Questions
     function renderWrittenQuestions() {
       const container = document.getElementById('writtenQuestionsContainer');
-      container.innerHTML = writtenList.map((w, idx) => `
-        <div class="written-card">
-          <h3>
-            <span>${idx + 1}. ${w.question}</span>
-            <span class="q-badge badge-top">${w.subject}</span>
-          </h3>
-          <div style="font-size:12.5px;color:var(--text-muted);margin-bottom:10px;">
-            টপিক: <strong>${w.topic}</strong> | মান: <strong>${w.marks} নম্বর</strong>
+      container.innerHTML = writtenList.map((w, idx) => {
+        const ansText = (w.answer || w.solution || '').trim();
+        const keyPointsHtml = w.points_to_remember && w.points_to_remember.length > 0
+          ? `<div style="margin-top:12px;padding:10px 14px;background:rgba(56,189,248,0.08);border-radius:6px;border:1px dashed var(--primary);font-size:13px;">
+              <strong>💡 পরীক্ষকের দৃষ্টি / গুরুত্বপূর্ণ পয়েন্ট:</strong>
+              <ul style="margin:6px 0 0 18px;">${w.points_to_remember.map(p => `<li>${p}</li>`).join('')}</ul>
+             </div>`
+          : '';
+
+        return `
+          <div class="written-card">
+            <h3>
+              <span>${idx + 1}. ${w.question}</span>
+              <span class="q-badge badge-top">${w.subject}</span>
+            </h3>
+            <div style="font-size:12.5px;color:var(--text-muted);margin-bottom:10px;">
+              টপিক: <strong>${w.topic}</strong> | মান: <strong>${w.marks} নম্বর</strong>
+            </div>
+            <div class="written-ans-box">${ansText}</div>
+            ${keyPointsHtml}
           </div>
-          <div class="written-ans-box">${w.solution}</div>
-        </div>
-      `).join('');
+        `;
+      }).join('');
+
+      renderKaTeX(container);
     }
 
     // ==========================================
@@ -1691,6 +1748,7 @@
           </div>
         </div>
       `).join('');
+      renderKaTeX(container);
       updateExamAnsweredCount();
     }
 
@@ -1825,6 +1883,7 @@
           </div>
         `;
       }).join('');
+      renderKaTeX(container);
     }
 
     // ==========================================
