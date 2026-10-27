@@ -1,0 +1,632 @@
+[
+  {
+    "id": 4746,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভা কালেকশন ফ্রেমওয়ার্কের (Collection Framework) রুট ইন্টারফেস কোনটি?",
+    "options": [
+      "A) java.util.Map",
+      "B) java.lang.Iterable (যার চাইল্ড হলো Collection)",
+      "C) java.util.List",
+      "D) java.lang.Object"
+    ],
+    "answer": 1,
+    "explanation": "`Iterable` হলো শীর্ষ ইন্টারফেস যা for-each লুপ সমর্থন করে; এর নিচে রয়েছে `Collection` ইন্টারফেস।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4747,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "নিচের কোনটি জাভায় `Collection` ইন্টারফেসের সরাসরি সাব-ইন্টারফেস নয়?",
+    "options": [
+      "A) List",
+      "B) Queue",
+      "C) Map",
+      "D) Set"
+    ],
+    "answer": 2,
+    "explanation": "`Map` কালেকশন ফ্রেমওয়ার্কের অংশ হলেও এটি কি-ভ্যালু জোড়া ধারণ করায় `Collection` ইন্টারফেস ইনহেরিট করে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4748,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় `ArrayList` এবং `LinkedList` এর মধ্যে মূল পারফরম্যান্সগত পার্থক্য কী?",
+    "options": [
+      "A) `LinkedList` এ ইনডেক্স দিয়ে দ্রুত পড়া যায়",
+      "B) `ArrayList` ডুপ্লিকেট রাখতে পারে না",
+      "C) উভয়ের অভ্যন্তরীণ গঠন একই",
+      "D) `ArrayList` র্যান্ডম অ্যাক্সেসে ($O(1)$) দ্রুততর, কিন্তু `LinkedList` উপাদান সংযোজন বা বিয়োজনে ($O(1)$) দ্রুততর"
+    ],
+    "answer": 3,
+    "explanation": "ArrayList ডায়নামিক অ্যারে ভিত্তিক হওয়ায় র্যান্ডম অ্যাক্সেস ফাস্ট; LinkedList ডাবল লিঙ্কড লিস্ট হওয়ায় ইনসার্শন/ডিলিশন ফাস্ট।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4749,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় কোনো ডুপ্লিকেট উপাদান সংরক্ষণ করতে না দিলে কোন কালেকশন ইন্টারফেস ব্যবহার করতে হয়?",
+    "options": [
+      "A) List ইন্টারফেস",
+      "B) Set ইন্টারফেস",
+      "C) Queue ইন্টারফেস",
+      "D) Vector ইন্টারফেস"
+    ],
+    "answer": 1,
+    "explanation": "`Set` ইন্টারফেসে (যেমন `HashSet`, `TreeSet`) কোনো উপাদান দুইবার প্রবেশ করানো যায় না (No duplicates allowed)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4750,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "উপাদানসমূহকে স্বয়ংক্রিয়ভাবে স্বাভাবিক ক্রমানুসারে (Sorted Order) সংরক্ষণ করার Set ক্লাস কোনটি?",
+    "options": [
+      "A) ArrayList",
+      "B) HashSet",
+      "C) LinkedHashSet",
+      "D) TreeSet (Red-Black Tree ভিত্তিক)"
+    ],
+    "answer": 3,
+    "explanation": "`TreeSet` সেলফ-ব্যালেন্সিং রেড-ব্ল্যাক ট্রি ব্যবহার করে উপাদানগুলোকে সর্বদা সর্টেড অর্ডারে সাজিয়ে রাখে ($O(\\log N)$)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4751,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "হ্যাশিং টেকনোলজি ব্যবহার করে $O(1)$ টাইম কমপ্লেক্সিটিতে উপাদান সংরক্ষণ ও সন্ধানের Set ক্লাস কোনটি?",
+    "options": [
+      "A) Vector",
+      "B) LinkedList",
+      "C) HashSet",
+      "D) TreeSet"
+    ],
+    "answer": 2,
+    "explanation": "`HashSet` হ্যাশম্যাপের অভ্যন্তরীণ মেকানিজমে কাজ করে অত্যন্ত দ্রুতগতিতে উপাদান প্রসেস করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4752,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় কি-ভ্যালু (Key-Value) জোড়া সংরক্ষণের জন্য বহুল ব্যবহৃত নন-সিনক্রোনাইজড ক্লাস কোনটি?",
+    "options": [
+      "A) HashMap",
+      "B) TreeMap",
+      "C) Hashtable",
+      "D) ArrayList"
+    ],
+    "answer": 0,
+    "explanation": "`HashMap` দ্রুতগতির কি-ভ্যালু সংরক্ষণ ক্লাস যা একটি নাল কি (Null key) এবং একাধিক নাল ভ্যালু সমর্থন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4753,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "`HashMap` এবং লিগ্যাসি `Hashtable` ক্লাসের মধ্যে পার্থক্য কোনটি?",
+    "options": [
+      "A) কোনো পার্থক্য নেই",
+      "B) উভয়ই নাল কি গ্রহণ করে",
+      "C) `Hashtable` দ্রুত কাজ করে",
+      "D) `HashMap` নন-সিনক্রোনাইজড ও দ্রুত এবং নাল অনুমোদন করে; `Hashtable` সিনক্রোনাইজড এবং নাল অনুমোদন করে না"
+    ],
+    "answer": 3,
+    "explanation": "মাল্টিথ্রেডিং নিরাপত্তার জন্য পুরনো `Hashtable` এর মেথডগুলো সিনক্রোনাইজড কিন্তু ধীরগতির।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4754,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় কালেকশন উপাদানগুলোকে সামনের দিকে ক্রমান্বয়ে ট্রাভার্স করার ইউনিভার্সাল ইন্টারফেস কোনটি?",
+    "options": [
+      "A) ListIterator",
+      "B) Iterator (hasNext(), next(), remove())",
+      "C) Enumeration",
+      "D) ForLoop"
+    ],
+    "answer": 1,
+    "explanation": "`Iterator` ইন্টারফেস যেকোনো Collection অবজেক্ট ট্রাভার্স করার জন্য স্ট্যান্ডার্ড মেথড প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4755,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "উভয়মুখী (সামনে ও পেছনে - Bidirectional) ট্রাভার্সাল সমর্থন করে কোন ইটারেটরটি?",
+    "options": [
+      "A) ListIterator",
+      "B) Iterator",
+      "C) Spliterator",
+      "D) Enumeration"
+    ],
+    "answer": 0,
+    "explanation": "`ListIterator` কেবল `List` এর জন্য প্রযোজ্য এবং এটি `hasPrevious()` ও `previous()` সমর্থন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4756,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভা জেনেরিক্সের (Generics) মূল উদ্দেশ্য কোনটি?",
+    "options": [
+      "A) ফাইলের সাইজ কমানো",
+      "B) পাসওয়ার্ড এনক্রিপ্ট করা",
+      "C) কম্পাইল-টাইম টাইপ সেফটি নিশ্চিত করা এবং বারবার টাইপ কাস্টিংয়ের ঝামেলা দূর করা",
+      "D) প্রোগ্রাম স্বয়ংক্রিয়ভাবে রান করা"
+    ],
+    "answer": 2,
+    "explanation": "`List<String> list = new ArrayList<>();` জেনেরিক্স ভুল ডেটা টাইপ ঢোকানো কম্পাইল সময়েই আটকে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4757,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় কাস্টম অবজেক্ট সর্ট করতে ন্যাচারাল অর্ডারিংয়ের জন্য কোন ইন্টারফেস ইমপ্লিমেন্ট করতে হয়?",
+    "options": [
+      "A) Serializable",
+      "B) Cloneable",
+      "C) Comparable ইন্টারফেস (compareTo মেথড)",
+      "D) Comparator ইন্টারফেস (compare মেথড)"
+    ],
+    "answer": 2,
+    "explanation": "একক মূল ক্লাসের ভেতর ন্যাচারাল সর্টিং লজিক লিখতে `Comparable<T>` এর `compareTo()` বাস্তবায়ন করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4758,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "একাধিক ভিন্ন ভিন্ন মানদণ্ডের ভিত্তিতে (যেমন কখনো নাম, কখনো বয়স দিয়ে) সর্ট করতে কোনটি ব্যবহৃত হয়?",
+    "options": [
+      "A) Iterator",
+      "B) Comparator ইন্টারফেস (compare(o1, o2) মেথড)",
+      "C) Comparable ইন্টারফেস",
+      "D) Sorter"
+    ],
+    "answer": 1,
+    "explanation": "মূল ক্লাসে হাত না দিয়ে বাহ্যিক ক্লাসে একাধিক কাস্টম সর্টিং লজিক লিখতে `Comparator` ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4759,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় বাইট স্ট্রিম (Byte Stream) পরিচালনার মূল সুপারক্লাস দুটি কোনটি?",
+    "options": [
+      "A) DataInputStream",
+      "B) FileInputStream এবং FileOutputStream",
+      "C) Reader এবং Writer",
+      "D) InputStream এবং OutputStream"
+    ],
+    "answer": 3,
+    "explanation": "কাঁচা বাইট ডেটা (ছবি, অডিও ইত্যাদি) প্রসেস করতে ৮-বিট বাইট স্ট্রিম `InputStream`/`OutputStream` ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4760,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় ক্যারেক্টার স্ট্রিম (Character Stream) পরিচালনার মূল সুপারক্লাস দুটি কোনটি?",
+    "options": [
+      "A) Reader এবং Writer",
+      "B) FileReader এবং FileWriter",
+      "C) InputStream এবং OutputStream",
+      "D) Scanner"
+    ],
+    "answer": 0,
+    "explanation": "১৬-বিট ইউনিকোড টেক্সট ফাইল পরিচালনার জন্য `Reader` এবং `Writer` ক্লাসদ্বয় ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4761,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "টেক্সট ফাইল থেকে দ্রুতগতির লাইন-বাই-লাইন (`readLine()`) পড়ার জনপ্রিয় ক্লাস কোনটি?",
+    "options": [
+      "A) BufferedReader",
+      "B) FileInputStream",
+      "C) FileReader",
+      "D) Scanner"
+    ],
+    "answer": 0,
+    "explanation": "`BufferedReader` বাফার ব্যবহার করে দক্ষভাবে পুরো লাইন একসাথে পড়ে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4762,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "মেমরির কোনো চলমান জাভা অবজেক্টকে বাইট স্ট্রিমে রূপান্তর করে ফাইলে সংরক্ষণের প্রক্রিয়াকে কী বলে?",
+    "options": [
+      "A) ডি-সিরিয়ালাইজেশন",
+      "B) অবজেক্ট ক্লোনিং",
+      "C) টাইপ কাস্টিং",
+      "D) অবজেক্ট সিরিয়ালাইজেশন (Serialization)"
+    ],
+    "answer": 3,
+    "explanation": "নেটওয়ার্কে প্রেরণ বা ডিস্কে স্থায়ীভাবে রাখতে অবজেক্ট স্টেটকে বাইটে পরিণত করাকে Serialization বলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4763,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "সংরক্ষিত বাইট স্ট্রিম থেকে পুনরায় মূল জাভা অবজেক্ট পুনর্গঠন করার প্রক্রিয়াকে কী বলে?",
+    "options": [
+      "A) কম্পাইলেশন",
+      "B) ডি-সিরিয়ালাইজেশন (Deserialization)",
+      "C) ইনস্ট্যানশিয়েশন",
+      "D) সিরিয়ালাইজেশন"
+    ],
+    "answer": 1,
+    "explanation": "`ObjectInputStream.readObject()` মেথডের মাধ্যমে বাইট থেকে মেমরিতে অবজেক্ট ফিরিয়ে আনা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4764,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "কোনো ক্লাসকে সিরিয়ালাইজেবল করতে হলে কোন ইন্টারফেসটি ইমপ্লিমেন্ট করা আবশ্যক?",
+    "options": [
+      "A) java.lang.Cloneable",
+      "B) java.util.Collection",
+      "C) java.io.Serializable",
+      "D) java.io.Externalizable"
+    ],
+    "answer": 2,
+    "explanation": "`Serializable` একটি মার্কার ইন্টারফেস যা ক্লাসকে সিরিয়ালাইজেশন সক্ষম করে তোলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4765,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "সিরিয়ালাইজেশনের সময় ক্লাসের কোনো সংবেদনশীল ডেটা মেম্বার (যেমন পাসওয়ার্ড) সংরক্ষণ থেকে বাদ দিতে কীওয়ার্ড কোনটি?",
+    "options": [
+      "A) final",
+      "B) volatile",
+      "C) transient",
+      "D) private"
+    ],
+    "answer": 2,
+    "explanation": "`transient` ফিল্ড সিরিয়ালাইজেশনে অংশ নেয় না; ডি-সিরিয়ালাইজেশনের সময় এটি ডিফল্ট মান (যেমন null বা 0) পায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4766,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "সিরিয়ালাইজড ক্লাসের সংস্করণ সামঞ্জস্যতা নিশ্চিত করতে কোন আইডি ঘোষণা করা হয়?",
+    "options": [
+      "A) serialVersionUID",
+      "B) hashCode",
+      "C) classUID",
+      "D) versionID"
+    ],
+    "answer": 0,
+    "explanation": "`private static final long serialVersionUID = 1L;` ডি-সিরিয়ালাইজেশনে ক্লাস ভার্সন অমিলজনিত ত্রুটি রোধ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4767,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় `Collections.sort()` মেথড মূলত কোন সর্টিং অ্যালগরিদম ব্যবহার করে?",
+    "options": [
+      "A) Bubble Sort",
+      "B) QuickSort",
+      "C) Heap Sort",
+      "D) TimSort (Merge Sort এবং Insertion Sort এর সংমিশ্রণ)"
+    ],
+    "answer": 3,
+    "explanation": "জাভায় অবজেক্ট কালেকশন সর্ট করার জন্য টিম পিটার্স উদ্ভাবিত উচ্চ ক্ষমতাসম্পন্ন হাইব্রিড TimSort ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4768,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় একটি থ্রেড-সেফ ডায়নামিক লিস্ট পেতে কোনটি ব্যবহৃত হয়?",
+    "options": [
+      "A) ArrayList",
+      "B) CopyOnWriteArrayList অথবা Collections.synchronizedList()",
+      "C) LinkedList",
+      "D) TreeSet"
+    ],
+    "answer": 1,
+    "explanation": "মাল্টিথ্রেডেড পরিবেশে কনকারেন্ট অ্যাক্সেসের জন্য `CopyOnWriteArrayList` আদর্শ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4769,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় `PriorityQueue` উপাদানগুলোকে কোন ডেটা স্ট্রাকচারের নিয়মে সাজায়?",
+    "options": [
+      "A) স্ট্যাক",
+      "B) বাইনারি হিপ (Min-Heap ডিফল্টভাবে)",
+      "C) অ্যারে",
+      "D) বৃত্তাকার কিউ"
+    ],
+    "answer": 1,
+    "explanation": "`PriorityQueue` ডিফল্টভাবে মিন-হিপ ব্যবহার করে সর্বনিম্ন উপাদানকে রুটে রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4770,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় ফাইল ও ডিরেক্টরি সম্পর্কিত তথ্য ও পথ পরিচালনার জন্য `java.io.File` এর আধুনিক বিকল্প কোনটি?",
+    "options": [
+      "A) java.nio.file.Path এবং java.nio.file.Files (Java 7+ NIO.2)",
+      "B) java.io.FileReader",
+      "C) java.nio.Buffer",
+      "D) java.util.File"
+    ],
+    "answer": 0,
+    "explanation": "NIO.2 প্যাকেজের `Path` এবং `Files` ক্লাস আধুনিক প্ল্যাটফর্ম-স্বাধীন ফাইল অপারেশনের জন্য উন্নত ও দ্রুত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4771,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় কালেকশন অবজেক্টকে অপরিবর্তনীয় (Unmodifiable / Immutable) করার পদ্ধতি কোনটি?",
+    "options": [
+      "A) list.lock()",
+      "B) list.makeFinal()",
+      "C) Collections.unmodifiableList(list)",
+      "D) list.immutable()"
+    ],
+    "answer": 2,
+    "explanation": "`Collections.unmodifiableList()` দিয়ে তৈরি লিস্টে কোনো নতুন উপাদান যোগ বা মুছতে গেলে এক্সেপশন ঘটে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4772,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় `Stack` ক্লাস কোন ডেটা স্ট্রাকচার প্রিন্সিপাল অনুসরণ করে?",
+    "options": [
+      "A) FIFO (First-In-First-Out)",
+      "B) Priority",
+      "C) Random",
+      "D) LIFO (Last-In-First-Out)"
+    ],
+    "answer": 3,
+    "explanation": "স্ট্যাকের মৌলিক অপারেশন `push()` ও `pop()` LIFO নীতি মেনে কাজ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4773,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভা কালেকশনে একই কী-তে বারবার নতুন ভ্যালু পুট (`map.put(key, value)`) করলে কী ঘটে?",
+    "options": [
+      "A) কম্পাইল এরর প্রদর্শন করে",
+      "B) ম্যাপ ক্র্যাশ করে",
+      "C) পূর্ববর্তী ভ্যালুটি ওভাররাইট হয়ে নতুন ভ্যালু বসে এবং আগের ভ্যালুটি রিটার্ন হয়",
+      "D) ডুপ্লিকেট কি তৈরি হয়"
+    ],
+    "answer": 2,
+    "explanation": "ম্যাপে কি অনন্য (Unique); বিদ্যমান কী-তে নতুন মান দিলে তা পূর্বের মানকে প্রতিস্থাপন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4774,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় ফাইল ডিরেক্টরির ফাইল তালিকা পাওয়ার মেথড কোনটি?",
+    "options": [
+      "A) file.readDir()",
+      "B) file.getFiles()",
+      "C) file.allFiles()",
+      "D) file.listFiles()"
+    ],
+    "answer": 3,
+    "explanation": "`File.listFiles()` ডিরেক্টরির ভেতরের সমস্ত ফাইল ও ফোল্ডারের `File[]` অ্যারে প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4775,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৬: জাভা কালেকশন ফ্রেমওয়ার্ক ও ফাইল আই/ও (Collections & I/O)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় প্রিন্ট রাইটার ক্লাসের (`PrintWriter`) প্রধান সুবিধা কী?",
+    "options": [
+      "A) ছবি প্রসেস করতে পারে",
+      "B) ফরম্যাটেড টেক্সট আউটপুট লেখা যায় (`printf()`, `println()`) এবং এটি স্বয়ংক্রিয়ভাবে কোনো এক্সেপশন থ্রো করে না",
+      "C) ফাইল এনক্রিপ্ট করে",
+      "D) এটি মেমরি ব্যবহার করে না"
+    ],
+    "answer": 1,
+    "explanation": "`PrintWriter` টেক্সট ফাইলে সহজে লেখার সুবিধা দেয় এবং `checkError()` দিয়ে এরর যাচাই করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

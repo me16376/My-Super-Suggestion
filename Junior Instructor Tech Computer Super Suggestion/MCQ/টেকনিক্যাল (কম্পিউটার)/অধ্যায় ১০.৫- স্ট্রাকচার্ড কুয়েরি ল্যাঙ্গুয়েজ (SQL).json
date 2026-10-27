@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1296,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "আইবিএম-এর 'System R' গবেষণাগারে উদ্ভাবিত এসকিউএল (SQL)-এর আদি ঐতিহাসিক নাম কী ছিল?",
+    "options": [
+      "A) QUEL",
+      "B) SEQUEL (Structured English QUEry Language)",
+      "C) ISQL",
+      "D) S-SQL"
+    ],
+    "answer": 1,
+    "explanation": "ডোনাল্ড চেম্বারলিন ও রেমন্ড বয়েস কর্তৃক ১৯৭০-এর দশকে উদ্ভাবিত ভাষার আদি নাম ছিল SEQUEL (Structured English Query Language), ট্রেডমার্ক জটিলতায় পরবর্তীতে তা SQL হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1297,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "এসকিউএল-এর উপ-ভাষাসমূহের মধ্যে DDL-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Data Definition Language",
+      "B) Data Design Language",
+      "C) Data Description Language",
+      "D) Database Development Language"
+    ],
+    "answer": 0,
+    "explanation": "DDL হলো 'Data Definition Language', যা ডেটাবেসের স্কিমা, টেবিল ও কাঠামো তৈরি, পরিবর্তন বা ধ্বংস করতে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1298,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "নিচের কোন কমান্ডগুলোর গ্রুপটি সম্পূর্ণরূপে DDL (Data Definition Language)-এর অন্তর্ভুক্ত?",
+    "options": [
+      "A) GRANT, REVOKE",
+      "B) CREATE, ALTER, DROP, TRUNCATE, RENAME",
+      "C) SELECT, INSERT, UPDATE, DELETE",
+      "D) COMMIT, ROLLBACK, SAVEPOINT"
+    ],
+    "answer": 1,
+    "explanation": "টেবিলের কাঠামো সম্পর্কিত কমান্ডগুলো (`CREATE`, `ALTER`, `DROP`, `TRUNCATE`) হলো DDL।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1299,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "টেবিলের ভেতরের ডেটা রেকর্ড নিয়ে কাজ করার DML (Data Manipulation Language) কমান্ড কোনগুলো?",
+    "options": [
+      "A) GRANT, REVOKE",
+      "B) COMMIT, ROLLBACK",
+      "C) INSERT, UPDATE, DELETE, SELECT",
+      "D) CREATE, DROP, ALTER"
+    ],
+    "answer": 2,
+    "explanation": "রেকর্ড যোগ (`INSERT`), পরিবর্তন (`UPDATE`), মোছা (`DELETE`) এবং পড়া (`SELECT`) হলো DML কমান্ড।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1300,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "ব্যবহারকারীকে ডেটাবেসের টেবিলে পারমিশন দেওয়া ও ফিরিয়ে নেওয়ার DCL কমান্ড দুটি কী কী?",
+    "options": [
+      "A) LOCK এবং UNLOCK",
+      "B) INSERT এবং DELETE",
+      "C) COMMIT এবং ROLLBACK",
+      "D) GRANT এবং REVOKE"
+    ],
+    "answer": 3,
+    "explanation": "DCL (Data Control Language) নিরাপত্তা অধিকার নিয়ন্ত্রণ করে: `GRANT` পারমিশন দেয় এবং `REVOKE` পারমিশন প্রত্যাহার করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1301,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "ট্রানজ্যাকশন নিয়ন্ত্রণকারী ভাষা TCL (Transaction Control Language)-এর মূল তিনটি কমান্ড কী কী?",
+    "options": [
+      "A) CREATE, ALTER, এবং DROP",
+      "B) INSERT, UPDATE, এবং DELETE",
+      "C) GRANT, REVOKE, এবং DENY",
+      "D) COMMIT, ROLLBACK, এবং SAVEPOINT"
+    ],
+    "answer": 3,
+    "explanation": "TCL ট্রানজ্যাকশনের স্থায়িত্ব ও রোলব্যাক নিয়ন্ত্রণ করে: `COMMIT` ডেটাবেসে স্থায়ী করে, `ROLLBACK` বাতিল করে এবং `SAVEPOINT` অন্তর্বর্তী মার্কার তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1302,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "`DELETE` এবং `TRUNCATE` কমান্ডের মধ্যে প্রধানতম প্রযুক্তিগত পার্থক্য কোনটি?",
+    "options": [
+      "A) DELETE পুরো টেবিল কাঠামো মুছে দেয়",
+      "B) DELETE হলো DML যা প্রতি সারির জন্য আলাদা লগ রাখে ও শর্তাধীন মোছা যায়, আর TRUNCATE হলো DDL যা সম্পূর্ণ টেবিল ডেটা একবারে মুছে ফেলে এবং রোলব্যাক করা যায় না",
+      "C) TRUNCATE ধীরগতির",
+      "D) উভয়ই হুবহু এক"
+    ],
+    "answer": 1,
+    "explanation": "`DELETE` প্রতি রো ধরে ডিলিট করে লগ রাখে (DML, Where ক্লজ সমর্থন করে); অন্যদিকে `TRUNCATE` সম্পূর্ণ ডেটা পেজ ডি-অ্যালোকেট করে অত্যন্ত দ্রুত খালি করে (DDL)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1303,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "ডেটাবেস থেকে একটি টেবিলের ভেতরের সমস্ত ডেটাসহ তার সম্পূর্ণ কাঠামো ও স্কিমা চিরতরে মুছে ফেলার কমান্ড কোনটি?",
+    "options": [
+      "A) REMOVE TABLE table_name",
+      "B) DELETE FROM table_name",
+      "C) DROP TABLE table_name",
+      "D) TRUNCATE TABLE table_name"
+    ],
+    "answer": 2,
+    "explanation": "`DROP TABLE` টেবিলের কাঠামো ও সমস্ত ডেটা পুরোপুরি ডেটাবেস থেকে বিলুপ্ত করে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1304,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "একটি SQL কুয়েরিতে বিভিন্ন ক্লজগুলোর অভ্যন্তরীণ এক্সিকিউশন অর্ডার (বাস্তবায়ন ক্রম) নিচের কোনটি সঠিক?",
+    "options": [
+      "A) FROM -> WHERE -> GROUP BY -> HAVING -> SELECT -> ORDER BY",
+      "B) WHERE -> FROM -> GROUP BY -> SELECT",
+      "C) FROM -> SELECT -> WHERE -> ORDER BY",
+      "D) SELECT -> FROM -> WHERE -> GROUP BY"
+    ],
+    "answer": 0,
+    "explanation": "SQL ইঞ্জিন প্রথমে `FROM` (টেবিল আনে), তারপর `WHERE` (সারি ফিল্টার করে), তারপর `GROUP BY` ও `HAVING` (গ্রুপ ফিল্টার), এরপর `SELECT` এবং পরিশেষে `ORDER BY` নির্বাহ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1305,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "একটি কলামের মান কোনো নির্দিষ্ট পরিসীমার (Range) মধ্যে আছে কিনা তা সহজে যাচাই করার এসকিউএল অপারেটর কোনটি?",
+    "options": [
+      "A) LIKE",
+      "B) IN",
+      "C) EXISTS",
+      "D) BETWEEN ... AND"
+    ],
+    "answer": 3,
+    "explanation": "`WHERE salary BETWEEN 20000 AND 50000` রেঞ্জের অন্তর্ভুক্ত মানগুলোকে ফিল্টার করে (শুরুর ও শেষের মানসহ)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1306,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "এসকিউএল-এর `LIKE` অপারেটরে শূন্য বা ততোধিক যেকোনো সংখ্যক ক্যারেক্টার নির্দেশ করতে কোন ওয়াইল্ডকার্ড ব্যবহৃত হয়?",
+    "options": [
+      "A) ? (প্রশ্নবোধক)",
+      "B) _ (আন্ডারস্কোর)",
+      "C) % (শতাংশ চিহ্ন)",
+      "D) * (স্টার)"
+    ],
+    "answer": 2,
+    "explanation": "SQL-এ `%` শূন্য বা একাধিক ক্যারেক্টার নির্দেশ করে (যেমন `'A%'` মানে A দিয়ে শুরু হওয়া যেকোনো নাম)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1307,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "এসকিউএল `LIKE` অপারেটরে ঠিক একক একটি (Single) ক্যারেক্টার মেলানোর ওয়াইল্ডকার্ড কোনটি?",
+    "options": [
+      "A) _ (আন্ডারস্কোর)",
+      "B) *",
+      "C) %",
+      "D) #"
+    ],
+    "answer": 0,
+    "explanation": "আন্ডারস্কোর `_` ঠিক একটি মাত্র ক্যারেক্টারের প্রতিনিধিত্ব করে (যেমন `'_a%'` মানে দ্বিতীয় অক্ষরটি অবশ্যই 'a' হতে হবে)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1308,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "একটি কলামের মান ফাঁকা বা অনুপস্থিত (NULL) কিনা তা সঠিকভাবে পরীক্ষা করার সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) == NULL",
+      "B) IS NULL",
+      "C) EQUALS NULL",
+      "D) = NULL"
+    ],
+    "answer": 1,
+    "explanation": "SQL-এ `= NULL` কাজ করে না কারণ NULL কোনো সাধারণ ভ্যালু নয়; এটি যাচাই করতে `IS NULL` বা `IS NOT NULL` ব্যবহার করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1309,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "এসকিউএল অ্যাগ্রিগেট ফাংশনগুলোর (`SUM()`, `AVG()`, `MIN()`, `MAX()`, `COUNT(col)`) ক্ষেত্রে NULL মানের আচরণ কী?",
+    "options": [
+      "A) এরা NULL কে ০ ধরে",
+      "B) এরা এরর প্রদান করে",
+      "C) এরা স্বয়ংক্রিয়ভাবে NULL মানগুলোকে উপেক্ষা (Ignore) করে গণনা করে",
+      "D) এরা ফলাফল NULL বানিয়ে দেয়"
+    ],
+    "answer": 2,
+    "explanation": "সমস্ত অ্যাগ্রিগেট ফাংশন গণনা করার সময় NULL মানকে বাদ দিয়ে হিসাব করে; কেবলমাত্র `COUNT(*)` সম্পূর্ণ সারি গণনা করায় নালসহ সকল সারি ধরে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1310,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "এসকিউএল কুয়েরিতে `WHERE` ক্লজ এবং `HAVING` ক্লজের মধ্যে মূল পার্থক্য কোনটি?",
+    "options": [
+      "A) HAVING আগে চলে WHERE পরে চলে",
+      "B) উভয় ক্লজ হুবহু একই কাজ করে",
+      "C) WHERE কেবল সংখ্যার জন্য আর HAVING টেক্সটের জন্য",
+      "D) WHERE ক্লজ গ্রুপিংয়ের পূর্বে একক সারির ওপর শর্ত প্রয়োগ করে, আর HAVING ক্লজ GROUP BY-এর পর অ্যাগ্রিগেট ফাংশনের শর্তে ফিল্টার করে"
+    ],
+    "answer": 3,
+    "explanation": "`WHERE` ক্লজে অ্যাগ্রিগেট ফাংশন (যেমন `WHERE AVG(salary) > 5000`) ব্যবহার করা অবৈধ; অ্যাগ্রিগেটেড গ্রুপের ফিল্টারিং সর্বদা `HAVING` ক্লজে করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1311,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "যে এসকিউএল জয়েন দুটি টেবিলের শুধুমাত্র সাধারণ ম্যাচ করা সারিগুলোকে ফলাফলে আনে তাকে কী বলে?",
+    "options": [
+      "A) RIGHT JOIN",
+      "B) INNER JOIN (বা সাধারণ JOIN)",
+      "C) FULL JOIN",
+      "D) LEFT JOIN"
+    ],
+    "answer": 1,
+    "explanation": "INNER JOIN কেবল সেই সারিগুলোকে অন্তর্ভুক্ত করে যেখানে উভয় টেবিলের জয়েন শর্ত সত্য ($ON A.id = B.id$) হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1312,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "একটি টেবিল যখন লজিক্যাল প্রয়োজনে নিজের সাথেই নিজে জয়েন করে (যেমন কর্মচারী ও তার ম্যানেজারের সম্পর্ক) তখন তাকে কী বলে?",
+    "options": [
+      "A) SELF JOIN",
+      "B) CROSS JOIN",
+      "C) INNER JOIN",
+      "D) NATURAL JOIN"
+    ],
+    "answer": 0,
+    "explanation": "SELF JOIN হলো একই টেবিলকে দুটি আলাদা অ্যালিয়াস (যেমন `Emp E1 JOIN Emp E2 ON E1.mgr_id = E2.emp_id`) দিয়ে নিজের সাথে জয়েন করা।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1313,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "কোনো শর্ত ছাড়া দুটি টেবিলের সম্ভাব্য সকল সারির কার্তেসীয় গুণজ তৈরি করার এসকিউএল জয়েন কোনটি?",
+    "options": [
+      "A) CROSS JOIN",
+      "B) SELF JOIN",
+      "C) NATURAL JOIN",
+      "D) FULL JOIN"
+    ],
+    "answer": 0,
+    "explanation": "CROSS JOIN প্রথম টেবিলের প্রতিটি সারির সাথে দ্বিতীয় টেবিলের প্রতিটি সারির জোড় তৈরি করে কার্তেসীয় গুণজ উৎপন্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1314,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "যে সাব-কুয়েরির এক্সিকিউশন আউটার (বাইরের) কুয়েরির প্রতিটি সারির ওপর নির্ভরশীল তাকে কী বলে?",
+    "options": [
+      "A) ভিউ কুয়েরি",
+      "B) নেস্টেড সাব-কুয়েরি",
+      "C) ইনডিপেনডেন্ট সাব-কুয়েরি",
+      "D) কো-রিলেটেড সাব-কুয়েরি (Correlated Subquery)"
+    ],
+    "answer": 3,
+    "explanation": "Correlated Subquery আউটার টেবিলের কলাম রেফারেন্স করে, ফলে আউটার কুয়েরির প্রতি সারির জন্য সাব-কুয়েরিটি বারবার নির্বাহ হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1315,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "একটি সাব-কুয়েরি কোনো রেকর্ড বা সারি ফেরত দিচ্ছে কিনা তা সত্য/মিথ্যা (Boolean) আকারে যাচাইয়ের সবচেয়ে দক্ষ অপারেটর কোনটি?",
+    "options": [
+      "A) ANY",
+      "B) EXISTS (বা NOT EXISTS)",
+      "C) ALL",
+      "D) IN"
+    ],
+    "answer": 1,
+    "explanation": "`EXISTS` অপারেটর অন্তত একটি ম্যাচ পাওয়া মাত্রই সত্য রিটার্ন করে এবং বাকিগুলো সার্চ না করায় এটি অত্যন্ত দ্রুত ও পারফরম্যান্স-বান্ধব।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1316,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "সাব-কুয়েরির ফলাফলের যেকোনো একটি মানের চেয়ে বড় হতে শর্ত দেওয়ার অপারেটর কোনটি?",
+    "options": [
+      "A) IN",
+      "B) EXISTS",
+      "C) > ANY (বা > SOME)",
+      "D) > ALL"
+    ],
+    "answer": 2,
+    "explanation": "`> ANY` মানে হলো তালিকার সর্বনিম্ন মানের চেয়ে বড় হলেই শর্ত সত্য হবে; আর `> ALL` মানে তালিকার সর্বোচ্চ মানের চেয়েও বড় হতে হবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1317,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "এসকিউএল-এ 'ভিউ' (View)-এর সবচেয়ে প্রমিত সংজ্ঞা কোনটি?",
+    "options": [
+      "A) একটি সংরক্ষিত ভার্চুয়াল টেবিল যা নিজে ডেটা ধারণ করে না কিন্তু বেস টেবিলের কুয়েরির ওপর ভিত্তি করে ডেটা দেখায়",
+      "B) একটি স্থায়ী ফিজিক্যাল টেবিল",
+      "C) একটি হার্ডওয়্যার মেমরি",
+      "D) একটি টেক্সট ফাইল"
+    ],
+    "answer": 0,
+    "explanation": "View হলো ভার্চুয়াল টেবিল যা `CREATE VIEW` দিয়ে তৈরি হয়; এটি ডিস্কে ডেটা রাখে না, শুধুমাত্র SQL কোড হিসেবে জমা থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1318,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "ডেটাবেসে ভিউ (View) ব্যবহারের প্রধান দুটি সুবিধা কী কী?",
+    "options": [
+      "A) ডিস্ক স্পেস দ্বিগুণ করা",
+      "B) ডেটা নিরাপত্তা (নির্দিষ্ট কলাম গোপন রাখা) এবং জটিল কুয়েরি সরলীকরণ",
+      "C) সার্ভার স্পিড কমানো",
+      "D) হার্ডওয়্যার বাড়ানো"
+    ],
+    "answer": 1,
+    "explanation": "ভিউ সংবেদনশীল তথ্য গোপন রেখে ব্যবহারকারীকে কেবল অনুমতিপ্রাপ্ত কলাম দেখায় এবং জটিল জয়েন কুয়েরিকে একটি সাধারণ টেবিলের মতো ব্যবহারের সুযোগ দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1319,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "একটি ভিউ-এর ওপর সরাসরি `UPDATE` বা `INSERT` অপারেশন (Updatable View) চালানোর শর্ত কোনটি?",
+    "options": [
+      "A) কোনো ভিউ কখনো আপডেট করা যায় না",
+      "B) সব ভিউ সর্বদা আপডেটেবল",
+      "C) ভিউতে অবশ্যই ১০টি টেবিল জয়েন থাকতে হবে",
+      "D) ভিউটি একটিমাত্র বেস টেবিল থেকে তৈরি হতে হবে এবং এতে কোনো DISTINCT, GROUP BY বা অ্যাগ্রিগেট ফাংশন থাকা চলবে না"
+    ],
+    "answer": 3,
+    "explanation": "Updatable View-এর সারি সরাসরি মূল টেবিলের একক সারির সাথে 1:1 ম্যাপ হতে হবে; গ্রুপিং বা অ্যাগ্রিগেশন থাকলে ওএস মূল সারির ম্যাপিং খুঁজে পায় না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1320,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "টেবিলে ডেটা খোঁজার গতি নাটকীয়ভাবে বৃদ্ধি করার উদ্দেশ্যে ডিস্কে তৈরি করা বিশেষ ডেটা স্ট্রাকচারকে কী বলে?",
+    "options": [
+      "A) ভিউ",
+      "B) ট্রিগার",
+      "C) ইনডেক্স (Index)",
+      "D) কার্সার"
+    ],
+    "answer": 2,
+    "explanation": "Index (যেমন B-Tree Index) বইয়ের সূচিপত্রের মতো কাজ করে, ফলে সম্পূর্ণ টেবিল স্ক্যান (Full Table Scan) না করেই সরাসরি নির্দিষ্ট রো খুঁজে পাওয়া যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1321,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "ক্লাস্টার্ড ইনডেক্স (Clustered Index)-এর প্রধান প্রযুক্তিগত বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "A) টেবিলের মূল ফিজিক্যাল ডেটা সারিগুলো স্বয়ং ইনডেক্স কি-এর ক্রমানুসারে সাজানো থাকে (প্রতি টেবিলে মাত্র ১টি থাকে)",
+      "B) প্রতি টেবিলে ১০টি ক্লাস্টার্ড ইনডেক্স থাকে",
+      "C) এটি কখনো প্রাইমারি কি-তে তৈরি হয় না",
+      "D) এটি আলাদা ফাইলে পয়েন্টার রাখে"
+    ],
+    "answer": 0,
+    "explanation": "Clustered Index টেবিলের ফিজিক্যাল বিন্যাস নির্ধারণ করে, তাই একটি টেবিলে কেবল একটিই ক্লাস্টার্ড ইনডেক্স থাকা সম্ভব (সাধারণত Primary Key-তে ডিফল্ট তৈরি হয়)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1322,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "নন-ক্লাস্টার্ড ইনডেক্স (Non-Clustered Index)-এর ক্ষেত্রে নিচের কোনটি সত্য?",
+    "options": [
+      "A) একটি টেবিলে মাত্র একটি হতে পারে",
+      "B) এটি টেবিলের ফিজিক্যাল ক্রম বদলে দেয়",
+      "C) এটি মূল টেবিল থেকে সম্পূর্ণ আলাদা একটি স্ট্রাকচার যা ইনডেক্স কি এবং মূল ডেটা সারির পয়েন্টার ধারণ করে (একটি টেবিলে একাধিক হতে পারে)",
+      "D) এটি কোনো মেমরি নেয় না"
+    ],
+    "answer": 2,
+    "explanation": "Non-clustered Index আলাদা B-Tree স্ট্রাকচারে সাজানো থাকে যার লিফ নোডে মূল টেবিলের রো আইডেন্টিফায়ার (RID বা Clustered Key) থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1323,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "ইনডেক্সিং পড়ার গতি বহুগুণ বাড়ালেও কোন ক্ষেত্রে পারফরম্যান্সে সামান্য বিরূপ প্রভাব ফেলে?",
+    "options": [
+      "A) `SELECT` কুয়েরি ধীর করে",
+      "B) `INSERT`, `UPDATE`, এবং `DELETE` অপারেশনের গতি ধীর করে দেয়",
+      "C) মেমরি মুছে দেয়",
+      "D) ডেটাবেস ব্যাকআপ বন্ধ করে"
+    ],
+    "answer": 1,
+    "explanation": "টেবিলে নতুন ডেটা ঢুকলে বা মুছলে মূল টেবিলের সাথে সাথে সমস্ত ইনডেক্স ট্রিতেও রি-ব্যালেন্স ও আপডেট করতে হয়, ফলে DML রাইট স্পিড কিছুটা কমে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1324,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "টেবিলে কোনো নির্দিষ্ট ঘটনা (INSERT, UPDATE বা DELETE) সংঘটিত হলে স্বয়ংক্রিয়ভাবে এক্সিকিউট হওয়া সংরক্ষিত প্রোগ্রামকে কী বলে?",
+    "options": [
+      "A) ভিউ",
+      "B) স্টোর্ড প্রসিডিউর",
+      "C) কার্সার",
+      "D) ট্রিগার (Trigger)"
+    ],
+    "answer": 3,
+    "explanation": "Trigger হলো ডেটাবেসের ইভেন্ট-চালিত কোড যা অডিট লগিং, ডেটা ভ্যালিডেশন বা স্বয়ংক্রিয় ব্যবসায়িক নিয়ম বজায় রাখতে স্বয়ংক্রিয়ভাবে ফায়ার হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1325,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "ডেটাবেস সার্ভারে পূর্বে কম্পাইল করে সংরক্ষিত রাখা পুনঃব্যবহারযোগ্য জটিল SQL কোডের ব্লককে কী বলে?",
+    "options": [
+      "A) ভিউ",
+      "B) ফাংশন",
+      "C) ট্রিগার",
+      "D) স্টোর্ড প্রসিডিউর (Stored Procedure)"
+    ],
+    "answer": 3,
+    "explanation": "Stored Procedure সার্ভারে প্রি-কম্পাইল্ড অবস্থায় থাকে, যা নেটওয়ার্ক ট্রাফিক কমায় এবং কোড পুনঃব্যবহার ও নিরাপত্তা উন্নত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1326,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "কুয়েরি থেকে প্রাপ্ত বহু-সারির ফলাফলের ওপর সারি ধরে ধরে (Row-by-row) কাজ করার পয়েন্টার মেকানিজম কোনটি?",
+    "options": [
+      "A) কার্সার (Cursor: DECLARE, OPEN, FETCH, CLOSE)",
+      "B) ইনডেক্স",
+      "C) ট্রিগার",
+      "D) ভিউ"
+    ],
+    "answer": 0,
+    "explanation": "Cursor মেমরির রেজাল্ট সেটে একটি রো পয়েন্টার পরিচালনা করে একবারে একটি করে রো প্রসেস করতে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1327,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "এসকিউএল কুয়েরিতে দ্বিতীয় সর্বোচ্চ বেতন (Second Highest Salary) বের করার ক্লাসিক্যাল সাব-কুয়েরি কোনটি?",
+    "options": [
+      "A) `SELECT MIN(salary) FROM Employee`",
+      "B) `SELECT salary FROM Employee ORDER BY salary LIMIT 2`",
+      "C) `SELECT MAX(salary) FROM Employee WHERE salary < (SELECT MAX(salary) FROM Employee)`",
+      "D) `SELECT AVG(salary) FROM Employee`"
+    ],
+    "answer": 2,
+    "explanation": "সর্বোচ্চ বেতন বের করে তার চেয়ে কম বেতনের সেট থেকে পুনরায় `MAX()` নিলে দ্বিতীয় সর্বোচ্চ বেতন পাওয়া যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1328,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "MySQL-এ দ্বিতীয় সর্বোচ্চ বেতন পাওয়ার জন্য `ORDER BY` এবং `LIMIT` ব্যবহারের সঠিক রূপ কোনটি?",
+    "options": [
+      "A) `SELECT salary FROM Employee ORDER BY salary ASC LIMIT 2`",
+      "B) `SELECT salary FROM Employee ORDER BY salary DESC LIMIT 1 OFFSET 1`",
+      "C) `SELECT salary FROM Employee OFFSET 2`",
+      "D) `SELECT salary FROM Employee LIMIT 2`"
+    ],
+    "answer": 1,
+    "explanation": "বেতন ডিসেন্ডিং অর্ডারে সাজিয়ে প্রথমটি বাদ দিয়ে (`OFFSET 1`) পরবর্তী একটি রেকর্ড (`LIMIT 1`) নিলে দ্বিতীয় সর্বোচ্চ বেতন মেলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1329,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "দুটি সিলেক্ট কুয়েরির ফলাফলকে একত্রিত করার সময় `UNION` এবং `UNION ALL`-এর মধ্যে পার্থক্য কী?",
+    "options": [
+      "A) উভয়ই এক",
+      "B) UNION ALL ডুপ্লিকেট বাদ দেয়",
+      "C) UNION ডুপ্লিকেট সারি স্বয়ংক্রিয়ভাবে বাদ দেয়, আর UNION ALL ডুপ্লিকেটসহ সমস্ত সারি সংরক্ষণ করে (দ্রুততর)",
+      "D) UNION কেবল সংখ্যার জন্য"
+    ],
+    "answer": 2,
+    "explanation": "`UNION` ডুপ্লিকেট ফিল্টার করতে অতিরিক্ত সর্টিং চালায়; আর `UNION ALL` কোনো যাচাই ছাড়াই সব রো যোগ করায় অনেক দ্রুত কাজ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1330,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "কোনো কলামে ইনপুট দেওয়ার সময় মান যদি কোনো নির্দিষ্ট লজিক্যাল শর্ত (যেমন `age >= 18`) পূরণ না করে তবে প্রত্যাখ্যানকারী কনস্ট্রেইন্ট কোনটি?",
+    "options": [
+      "A) DEFAULT কনস্ট্রেইন্ট",
+      "B) UNIQUE কনস্ট্রেইন্ট",
+      "C) NOT NULL",
+      "D) CHECK কনস্ট্রেইন্ট"
+    ],
+    "answer": 3,
+    "explanation": "`CHECK (age >= 18)` কনস্ট্রেইন্ট নিশ্চিত করে যে শুধুমাত্র শর্ত পূরণকারী বৈধ মানই কলামে সংরক্ষিত হতে পারবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1331,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "ব্যবহারকারী কোনো মান প্রদান না করলে স্বয়ংক্রিয়ভাবে একটি নির্দিষ্ট মান বসিয়ে দেওয়ার কনস্ট্রেইন্ট কোনটি?",
+    "options": [
+      "A) AUTO",
+      "B) DEFAULT কনস্ট্রেইন্ট",
+      "C) CHECK",
+      "D) STATIC"
+    ],
+    "answer": 1,
+    "explanation": "`DEFAULT 'Active'` উল্লেখ থাকলে ইনসার্ট করার সময় মান না দিলে স্বয়ংক্রিয়ভাবে ডিফল্ট মান বসে যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1332,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "একটি বিদ্যমান টেবিলে নতুন একটি কলাম যুক্ত করার সঠিক DDL কমান্ড কোনটি?",
+    "options": [
+      "A) ALTER TABLE table_name ADD column_name datatype",
+      "B) UPDATE TABLE ADD column_name",
+      "C) MODIFY TABLE table_name ADD column_name",
+      "D) INSERT INTO table_name COLUMN"
+    ],
+    "answer": 0,
+    "explanation": "`ALTER TABLE table_name ADD column_name datatype;` বিদ্যমান টেবিলের স্কিমা সংশোধন করে নতুন কলাম যোগ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1333,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "একটি টেবিলে কলামের সমস্ত মানকে ক্যাপিটাল লেটারে রূপান্তর করে দেখানোর স্ট্রিং ফাংশন কোনটি?",
+    "options": [
+      "A) TO_UPPER()",
+      "B) LOWER()",
+      "C) CAPITAL()",
+      "D) UPPER() বা UCASE()"
+    ],
+    "answer": 3,
+    "explanation": "`UPPER(column_name)` টেক্সটের সমস্ত অক্ষরকে বড় হাতের অক্ষরে রূপান্তর করে প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1334,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "এসকিউএল ইনজেকশন (SQL Injection) আক্রমণ থেকে ডেটাবেস অ্যাপ্লিকেশন সুরক্ষিত রাখার সর্বোত্তম প্রোগ্রামিং কৌশল কোনটি?",
+    "options": [
+      "A) প্যারামিটারাইজড কুয়েরি বা প্রিপেয়ার্ড স্টেটমেন্ট (Prepared Statements)",
+      "B) ফায়ারওয়াল বন্ধ রাখা",
+      "C) রুটের পাসওয়ার্ড সহজ রাখা",
+      "D) প্লেইন স্ট্রিং কনক্যাটেনেশন"
+    ],
+    "answer": 0,
+    "explanation": "Prepared Statements ব্যবহার করলে ব্যবহারকারীর ইনপুটকে কোড হিসেবে এক্সিকিউট না করে বিশুদ্ধ প্যারামিটার ডাটা হিসেবে গ্রহণ করা হয়, যা এসকিউএল ইনজেকশন পুরোপুরি প্রতিরোধ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1335,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১০.৫: স্ট্রাকচার্ড কুয়েরি ল্যাঙ্গুয়েজ (SQL)",
+    "subtopic": "বিষয়- ১০. ডেটাবেস ম্যানেজমেন্ট সিস্টেম (Database Management System)",
+    "question": "SQL উইন্ডো ফাংশনে পার্টিশনের ভেতরে সারির ক্রমানুযায়ী র‌্যাঙ্কিং দেওয়ার জন্য ব্যবহৃত ফাংশন কোনটি?",
+    "options": [
+      "A) SORT()",
+      "B) INDEX()",
+      "C) ROW_NUMBER(), RANK(), এবং DENSE_RANK()",
+      "D) COUNT()"
+    ],
+    "answer": 2,
+    "explanation": "অ্যানালিটিক্যাল উইন্ডো ফাংশন `OVER (PARTITION BY ... ORDER BY ...)` ক্লজের সাথে ব্যবহৃত হয়ে ক্রমিক নম্বর বা ডুপ্লিকেট টাই র‌্যাঙ্ক নির্ধারণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": 3017,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Translation (Bengali to English)",
+    "question": "Translate the following passage into English:\n\"ডিজিটাল বাংলাদেশ বিনির্মাণের পর দেশ এখন স্মার্ট বাংলাদেশের লক্ষ্য বাস্তবায়নে এগিয়ে চলেছে। সরকারি সেবা জনগণের দোরগোড়ায় পৌঁছে দিতে তথ্যপ্রযুক্তি সবচেয়ে বড় হাতিয়ার হিসেবে কাজ করছে। পাসপোর্ট প্রাপ্তি, জন্মনিবন্ধন এবং জাতীয় পরিচয়পত্র সংশোধন এখন অনলাইনের মাধ্যমে ঘরে বসেই সম্পন্ন করা যায়। এই আধুনিক ডিজিটাইজেশন একদিকে যেমন সাধারণ মানুষের ভোগান্তি ও দালালদের দৌরাত্ম্য বন্ধ করেছে, অন্যদিকে জাতীয় রাজস্ব বৃদ্ধিতেও গুরুত্বপূর্ণ ভূমিকা রাখছে।\"",
+    "marks": 8,
+    "answer": "English Translation:\n\n\"Following the realization of Digital Bangladesh, the nation is now marching forward to achieve the vision of Smart Bangladesh. Information technology serves as the paramount instrument in delivering government services right to the doorsteps of the citizens. Obtaining passports, birth registrations, and correcting National Identity Cards (NID) can now be accomplished from home via online platforms. On the one hand, this modern digitization has eliminated public harassment and the extortion of intermediaries; on the other hand, it is playing a vital role in enhancing national revenue.\"",
+    "points_to_remember": [
+      "'জনগণের দোরগোড়ায় পৌঁছে দেওয়া' -> 'delivering right to the doorsteps of the citizens'.",
+      "'দালালদের দৌরাত্ম্য' -> 'extortion/influence of intermediaries/middlemen'."
+    ],
+    "tags": [
+      "translation",
+      "bengali_to_english",
+      "written_english"
+    ]
+  }
+]

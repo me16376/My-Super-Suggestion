@@ -1,0 +1,527 @@
+[
+  {
+    "id": 5001,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "কম্পিউটার বিজ্ঞানে একটি আদর্শ অ্যালগরিদমের মৌলিক বৈশিষ্ট্য কোনগুলো?",
+    "options": [
+      "A) শুধুমাত্র সি ভাষায় লিখিত কোড",
+      "B) অসীম সংখ্যক ধাপ ও দ্রুতগতি",
+      "C) কম্পাইলার ছাড়া চলা",
+      "D) সুনির্দিষ্টতা (Finiteness), নির্ভুলতা (Definiteness), ইনপুট, আউটপুট ও কার্যকারিতা (Effectiveness)"
+    ],
+    "answer": 3,
+    "explanation": "একটি অ্যালগরিদমের ৫টি প্রধান বৈশিষ্ট্য রয়েছে: Input, Output, Definiteness, Finiteness (সীমিত ধাপে শেষ হওয়া), এবং Effectiveness।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5002,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "অ্যালগরিদম মূল্যায়নে টাইম কমপ্লেক্সিটি (Time Complexity) বলতে কী বোঝায়?",
+    "options": [
+      "A) ইনপুট সাইজ বৃদ্ধির সাথে সাথে অ্যালগরিদমের প্রয়োজনীয় মৌলিক অপারেশনের সংখ্যা বা বৃদ্ধির হার",
+      "B) কম্পিউটার প্রসেসরের স্পিড",
+      "C) কোড লেখার মোট সময়",
+      "D) স্টপওয়াচ দিয়ে মাপা সেকেন্ডের হিসাব"
+    ],
+    "answer": 0,
+    "explanation": "টাইম কমপ্লেক্সিটি কোনো নির্দিষ্ট হার্ডওয়্যারের সেকেন্ডের ওপর নির্ভর করে না, এটি ইনপুট $N$-এর প্রেক্ষিতে এক্সিকিউশন স্টেপ বৃদ্ধির গাণিতিক হার পরিমাপ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5003,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "অ্যালগরিদম এক্সিকিউট করতে প্রয়োজনীয় মেমরির পরিমাণকে কী বলা হয়?",
+    "options": [
+      "A) ক্যাশ মেমরি",
+      "B) বাস ব্যান্ডউইথ",
+      "C) স্পেস কমপ্লেক্সিটি (Space Complexity)",
+      "D) টাইম কমপ্লেক্সিটি"
+    ],
+    "answer": 2,
+    "explanation": "ইনপুট সাইজের প্রেক্ষিতে অ্যালগরিদমের মেমরিতে স্থায়ী ও অতিরিক্ত ভ্যারিয়েবল স্পেস (Auxiliary Space) গ্রহণের হারই হলো স্পেস কমপ্লেক্সিটি।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5004,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "অ্যালগরিদমের সবচেয়ে খারাপ পরিস্থিতি বা সর্বোচ্চ সময়সীমা (Upper Bound) নির্দেশ করতে কোন অ্যাসিম্পটোটিক নোটেশন ব্যবহৃত হয়?",
+    "options": [
+      "A) বিগ-ওমেগা নোটেশন ($\\Omega$)",
+      "B) বিগ-ও নোটেশন ($O$)",
+      "C) স্মল-ও ($o$)",
+      "D) বিগ-থিটা নোটেশন ($\\Theta$)"
+    ],
+    "answer": 1,
+    "explanation": "Big-O ($O$) নোটেশন অ্যালগরিদমের ওয়ার্স্ট-কেস বা ঊর্ধ্বসীমা (Upper Bound) গাণিতিকভাবে প্রকাশ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5005,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "অ্যালগরিদমের সেরা পরিস্থিতি বা সর্বনিম্ন সম্ভাব্য সময়সীমা (Lower Bound) নির্দেশ করতে কোন নোটেশন ব্যবহৃত হয়?",
+    "options": [
+      "A) বিগ-থিটা নোটেশন ($\\Theta$)",
+      "B) স্মল-ওমেগা ($\\omega$)",
+      "C) বিগ-ওমেগা নোটেশন ($\\Omega$)",
+      "D) বিগ-ও নোটেশন ($O$)"
+    ],
+    "answer": 2,
+    "explanation": "Big-Omega ($\\Omega$) কোনো অ্যালগরিদমের বেস্ট-কেস বা সর্বনিম্ন কার্যকাল (Lower Bound) উপস্থাপন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5006,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "যখন কোনো অ্যালগরিদমের ঊর্ধ্বসীমা এবং নিম্নসীমা উভয়ই একই হারে বাড়ে (Tight Bound) তখন কোন নোটেশন ব্যবহৃত হয়?",
+    "options": [
+      "A) বিগ-থিটা নোটেশন ($\\Theta$)",
+      "B) বিগ-ওমেগা ($\\Omega$)",
+      "C) বিগ-ও ($O$)",
+      "D) স্মল-ও ($o$)"
+    ],
+    "answer": 0,
+    "explanation": "Big-Theta ($\\Theta$) অ্যাভারেজ বা টাইট বাউন্ড নির্দেশ করে, যেখানে $c_1 g(n) \\le f(n) \\le c_2 g(n)$ সন্তুষ্ট হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5007,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "নিচের কোন টাইম কমপ্লেক্সিটি সবচেয়ে দ্রুততম এবং ইনপুট বৃদ্ধির সাথে সম্পূর্ণ অপরিবর্তিত থাকে?",
+    "options": [
+      "A) $O(N)$",
+      "B) $O(1)$ - কনস্ট্যান্ট টাইম",
+      "C) $O(\\log N)$",
+      "D) $O(N \\log N)$"
+    ],
+    "answer": 1,
+    "explanation": "$O(1)$ কনস্ট্যান্ট টাইম কমপ্লেক্সিটি ইনপুট ১ কোটি হলেও একই নির্দিষ্ট ধাপে কাজ সম্পন্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5008,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "টাইম কমপ্লেক্সিটির বৃদ্ধির হারের সঠিক ঊর্ধ্বক্রম (ধীর থেকে দ্রুততম বৃদ্ধির ক্রম) কোনটি?",
+    "options": [
+      "A) $O(N) < O(1) < O(\\log N) < O(N^2)$",
+      "B) $O(N!) < O(2^N) < O(N^2) < O(N)$",
+      "C) $O(1) < O(N) < O(\\log N) < O(N \\log N)$",
+      "D) $O(1) < O(\\log N) < O(N) < O(N \\log N) < O(N^2) < O(2^N) < O(N!)$"
+    ],
+    "answer": 3,
+    "explanation": "কনস্ট্যান্ট < লগারিদমিক < লিনিয়ার < লিনিয়ারিদমিক < পলিনোমিয়াল < এক্সপোনেনশিয়াল < ফ্যাক্টোরিয়াল।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5009,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "যদি কোনো অ্যালগরিদমের রানিং টাইম $T(N) = 3N^3 + 5N^2 + 100N + 500$ হয়, তবে তার বিগ-ও কমপ্লেক্সিটি কত?",
+    "options": [
+      "A) $O(N^2)$",
+      "B) $O(N^3)$",
+      "C) $O(1)$",
+      "D) $O(N)$"
+    ],
+    "answer": 1,
+    "explanation": "অ্যাসিম্পটোটিক বিশ্লেষণে সর্বোচ্চ ঘাতের পদটি রেখে বাকি ছোট পদ ও সহগগুলো বাদ দেওয়া হয়, ফলে দাঁড়ায় $O(N^3)$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5010,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "নিচের কোড সেগমেন্টের টাইম কমপ্লেক্সিটি কত?\n`for(int i = 1; i <= N; i *= 2) { /* O(1) কাজ */ }`",
+    "options": [
+      "A) $O(N)$",
+      "B) $O(N^2)$",
+      "C) $O(\\log_2 N)$",
+      "D) $O(1)$"
+    ],
+    "answer": 2,
+    "explanation": "যেহেতু লুপ ভ্যারিয়েবল প্রতি ধাপে ২ গুণ করে বাড়ছে ($1, 2, 4, 8, ...$), লুপটি মোট $\\log_2 N$ বার চলবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5011,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "দুটি নেস্টেড লুপের ক্ষেত্রে বাইরের লুপ N বার এবং ভেতরের লুপ N বার চললে সামগ্রিক কমপ্লেক্সিটি কত?",
+    "options": [
+      "A) $O(N^2)$",
+      "B) $O(2N)$",
+      "C) $O(N \\log N)$",
+      "D) $O(N)$"
+    ],
+    "answer": 0,
+    "explanation": "নেস্টেড লুপে অপারেশন গুণ হয়: $N \\times N = N^2$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5012,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "ডিভাইড অ্যান্ড কনকার রিকার্সন রিলেশন $T(N) = 2T(N/2) + O(N)$ কোন অ্যালগরিদমের এবং এর চূড়ান্ত সমাধান কী?",
+    "options": [
+      "A) বাইনারি সার্চ, $O(\\log N)$",
+      "B) ফিবোনাচ্চি, $O(2^N)$",
+      "C) কুইক সর্ট ওর্স্ট কেস, $O(N^2)$",
+      "D) মার্জ সর্ট (Merge Sort), টাইম কমপ্লেক্সিটি $O(N \\log N)$"
+    ],
+    "answer": 3,
+    "explanation": "মাস্টার থিওরেম প্রয়োগে $T(N) = 2T(N/2) + O(N)$ এর জটিলতা হয় $\\Theta(N \\log N)$, যা মার্জ সর্টের আদর্শ সূত্র।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5013,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "ডিভাইড অ্যান্ড কনকার অ্যালগরিদমের রিকারেন্স রিলেশন সহজে সমাধানের জন্য বহুল ব্যবহৃত গাণিতিক উপপাদ্য কোনটি?",
+    "options": [
+      "A) পিথাগোরাস উপপাদ্য",
+      "B) ইউক্লিড অ্যালগরিদম",
+      "C) মাস্টার থিওরেম (Master Theorem)",
+      "D) ফার্মাট উপপাদ্য"
+    ],
+    "answer": 2,
+    "explanation": "$T(n) = aT(n/b) + f(n)$ আকারের সমীকরণ সমাধানের জন্য মাস্টার থিওরেম ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5014,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "অ্যামোর্টাইজড অ্যানালাইসিস (Amortized Analysis) মূলত কোন ক্ষেত্রে প্রযোজ্য?",
+    "options": [
+      "A) কেবলমাত্র একক অপারেশনের জন্য",
+      "B) কম্পাইলার স্পিড মাপতে",
+      "C) সবচেয়ে খারাপ কেস উপেক্ষা করতে",
+      "D) একটি অপারেশনের সিরিজ বা সিকোয়েন্সে গড় খরচ নির্ণয়ে (যেমন ডাইনামিক অ্যারে রিসাইজিং)"
+    ],
+    "answer": 3,
+    "explanation": "যেমন ডাইনামিক অ্যারেতে মাঝেমধ্যে $O(N)$ রিসাইজিং লাগলেও N সংখ্যক অপারেশনের গড়ে প্রতিটি ইনসার্শন $O(1)$ অ্যামোর্টাইজড টাইম নেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5015,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "অক্সিলিয়ারি স্পেস (Auxiliary Space) এবং স্পেস কমপ্লেক্সিটির মধ্যে পার্থক্য কী?",
+    "options": [
+      "A) অক্সিলিয়ারি স্পেস কেবল হার্ডডিস্ক স্পেস",
+      "B) অক্সিলিয়ারি স্পেস হলো অ্যালগরিদম দ্বারা ব্যবহৃত সাময়িক অতিরিক্ত মেমরি (ইনপুট স্পেস বাদে)",
+      "C) উভয়ের মধ্যে কোনো পার্থক্য নেই",
+      "D) অক্সিলিয়ারি স্পেস ইনপুট স্পেসের চেয়ে বড়"
+    ],
+    "answer": 1,
+    "explanation": "Total Space = Auxiliary Space + Input Space। ইন-প্লেস অ্যালগরিদমে অক্সিলিয়ারি স্পেস $O(1)$ হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5016,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "ইন-প্লেস অ্যালগরিদম (In-place Algorithm) বলতে কী বোঝায়?",
+    "options": [
+      "A) যে অ্যালগরিদম মূল ইনপুট মেমরির বাইরে অতিরিক্ত কোনো উল্লেখযোগ্য মেমরি নেয় না (Auxiliary space $O(1)$)",
+      "B) যে অ্যালগরিদমে কোনো মেমরি লাগে না",
+      "C) যে অ্যালগরিদম নতুন মেমরিতে অ্যারে তৈরি করে",
+      "D) যে অ্যালগরিদম রিকার্শন ব্যবহার করে"
+    ],
+    "answer": 0,
+    "explanation": "ইন-প্লেস অ্যালগরিদমে সামান্য কিছু পয়েন্টার বা লুপ ভ্যারিয়েবল ($O(1)$) ছাড়া অতিরিক্ত অ্যারে লাগে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5017,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "একটি সর্টিং অ্যালগরিদম 'স্ট্যাবল' (Stable Sort) হওয়ার অর্থ কী?",
+    "options": [
+      "A) অ্যালগরিদমটি মেমরি ক্র্যাশ করে না",
+      "B) উপাদানগুলো রিভার্স হয়",
+      "C) সমান মানবিশিষ্ট উপাদানগুলোর আপেক্ষিক মূল ক্রম সর্টিংয়ের পরেও অপরিবর্তিত থাকে",
+      "D) টাইম সর্বদা সমান থাকে"
+    ],
+    "answer": 2,
+    "explanation": "ইনপুটে দুটি সমান উপাদানের মধ্যে যেটি আগে ছিল সর্ট করার পরও সেটি আগে থাকলে তাকে Stable Sort বলে (যেমন: Merge Sort)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5018,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "যে অ্যালগরিদম কৌশল বর্তমান মুহূর্তে সর্বোত্তম স্থানীয় পছন্দ (Locally Optimal Choice) গ্রহণ করে অগ্রসর হয় তাকে কী বলে?",
+    "options": [
+      "A) গ্রিডি অ্যালগরিদম (Greedy Algorithm)",
+      "B) ডাইনামিক প্রোগ্রামিং",
+      "C) ব্যাকট্র্যাকিং",
+      "D) ডিভাইড অ্যান্ড কনকার"
+    ],
+    "answer": 0,
+    "explanation": "গ্রিডি পদ্ধতি প্রতি ধাপে তাৎক্ষণিক সেরা সিদ্ধান্ত নেয় (যেমন: ফ্র্যাকশনাল ন্যাপস্যাক, প্রিমস, ক্রুসকল, হাফম্যান কোডিং)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5019,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "সমস্যাকে ছোট ছোট উপ-সমস্যায় ভাগ করে তাদের সমাধান মেমোইজেশন বা টেবুলেশনে সংরক্ষণ করে সমাধান করার কৌশল কোনটি?",
+    "options": [
+      "A) লিনিয়ার সার্চ",
+      "B) গ্রিডি অ্যালগরিদম",
+      "C) ব্রুট ফোর্স",
+      "D) ডাইনামিক প্রোগ্রামিং (Dynamic Programming - DP)"
+    ],
+    "answer": 3,
+    "explanation": "ডাইনামিক প্রোগ্রামিং দুটি প্রধান বৈশিষ্ট্যের ওপর দাঁড়িয়ে: Overlapping Subproblems এবং Optimal Substructure।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5020,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "ডাইনামিক প্রোগ্রামিংয়ে টপ-ডাউন (Top-Down) অ্যাপ্রোচকে কী বলা হয়?",
+    "options": [
+      "A) ব্যাকট্র্যাকিং",
+      "B) মেমোইজেশন (Memoization)",
+      "C) টেবুলেশন (Tabulation)",
+      "D) ইটারেশন"
+    ],
+    "answer": 1,
+    "explanation": "টপ-ডাউন পদ্ধতিতে রিকার্শনের সাথে লুক-আপ টেবিল ব্যবহার করে পূর্ব-গণনাকৃত মান সংরক্ষণকে মেমোইজেশন বলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5021,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "ডাইনামিক প্রোগ্রামিংয়ে বটম-আপ (Bottom-Up) অ্যাপ্রোচকে কী বলা হয়?",
+    "options": [
+      "A) মেমোইজেশন",
+      "B) টেবুলেশন (Tabulation)",
+      "C) রিকার্শন",
+      "D) ডিভাইড"
+    ],
+    "answer": 1,
+    "explanation": "বটম-আপ পদ্ধতিতে ছোট বেস কেস থেকে শুরু করে একটি টেবিল (যেমন অ্যারে) পূর্ণ করে চূড়ান্ত মানে পৌঁছানোকে টেবুলেশন বলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5022,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "সম্ভাব্য সমাধানের পথে অগ্রসর হতে গিয়ে ব্যর্থ হলে পূর্বাবস্থায় ফিরে এসে বিকল্প পথ অনুসন্ধানের কৌশলকে কী বলে?",
+    "options": [
+      "A) ব্যাকট্র্যাকিং (Backtracking)",
+      "B) বাইনারি সার্চ",
+      "C) ডিভাইড অ্যান্ড কনকার",
+      "D) গ্রিডি মেথড"
+    ],
+    "answer": 0,
+    "explanation": "N-Queens সমস্যা, সুডোকু সমাধান, নাইট'স ট্যুর ইত্যাদিতে ডেপথ-ফার্স্ট নিয়মে ব্যাকট্র্যাকিং কার্যকর হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5023,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "যেসব সিদ্ধান্তমূলক সমস্যা পলিনোমিয়াল টাইমে ($O(N^k)$) ডিটারমিনিস্টিক টিউরিং মেশিনে সমাধান করা যায় তাদের কোন ক্লাসভুক্ত বলা হয়?",
+    "options": [
+      "A) NP-Complete",
+      "B) NP-Hard",
+      "C) NP ক্লাস",
+      "D) P ক্লাস (Polynomial Time)"
+    ],
+    "answer": 3,
+    "explanation": "P হলো এমন সমস্যা যা যুক্তিসঙ্গত পলিনোমিয়াল সময়ে সরাসরি সমাধান করা সম্ভব।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5024,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "যেসব সমস্যার সম্ভাব্য সমাধান পলিনোমিয়াল টাইমে যাচাই (Verify) করা যায় তাদের কোন ক্লাসভুক্ত বলা হয়?",
+    "options": [
+      "A) P ক্লাস",
+      "B) Linear ক্লাস",
+      "C) NP ক্লাস (Nondeterministic Polynomial Time)",
+      "D) EXP ক্লাস"
+    ],
+    "answer": 2,
+    "explanation": "NP হলো সেইসব সমস্যা যার দেওয়া উত্তর পলিনোমিয়াল সময়ে সত্য বা মিথ্যা প্রমাণ করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5025,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.১: অ্যালগরিদম বিশ্লেষণ ও কমপ্লেক্সিটি (Analysis of Algorithms & Asymptotic Notations)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "কম্পিউটার বিজ্ঞানের অমীমাংসিত সহস্রাব্দ সমস্যা (Millennium Problem) কোনটি?",
+    "options": [
+      "A) স্টপ প্রবলেম",
+      "B) ডায়মন্ড প্রবলেম",
+      "C) $P = NP$ সমস্যা",
+      "D) টু সাম প্রবলেম"
+    ],
+    "answer": 2,
+    "explanation": "'P কি NP এর সমান?' এটি তাত্ত্বিক কম্পিউটার বিজ্ঞানের সর্বশ্রেষ্ঠ অমীমাংসিত প্রশ্ন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "id": 4936,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১১: ফাংশন অপারেশন ও মডিউল (Function Operation & Modules)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে ফাংশন সংজ্ঞায়িত করার জন্য কোন কিওয়ার্ড ব্যবহৃত হয়?",
+    "options": [
+      "A) def",
+      "B) fn",
+      "C) function",
+      "D) define"
+    ],
+    "answer": 0,
+    "explanation": "পাইথনে ফাংশন তৈরির মূল কীওয়ার্ড হলো `def` (Definition)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4937,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১১: ফাংশন অপারেশন ও মডিউল (Function Operation & Modules)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে প্যারামিটার পাসিং মেকানিজমকে প্রযুক্তিগতভাবে কী বলা হয়?",
+    "options": [
+      "A) বিশুদ্ধ কল বাই রেফারেন্স",
+      "B) পাস বাই নেম",
+      "C) বিশুদ্ধ কল বাই ভ্যালু",
+      "D) পাস বাই অবজেক্ট রেফারেন্স বা কল বাই শেয়ারিং (Pass by Object Reference)"
+    ],
+    "answer": 3,
+    "explanation": "অবজেক্টের মেমরি রেফারেন্স পাস হয়; অবজেক্ট মিউটেবল হলে ভেতরের পরিবর্তন মূল অবজেক্টে দেখা যায়, কিন্তু নতুন মান রি-অ্যাসাইন করলে পরিবর্তন হয় না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4938,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১১: ফাংশন অপারেশন ও মডিউল (Function Operation & Modules)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে অনির্দিষ্ট সংখ্যক পজিশনাল আর্গুমেন্ট গ্রহণের জন্য ফাংশন প্যারামিটারে কী ব্যবহৃত হয়?",
+    "options": [
+      "A) *kwargs",
+      "B) *args (যা একটি টাপল হিসেবে গৃহীত হয়)",
+      "C) **kwargs",
+      "D) &args"
+    ],
+    "answer": 1,
+    "explanation": "`*args` যেকোনো সংখ্যক সাধারণ আর্গুমেন্টকে একটি একক টাপলে আবদ্ধ করে ফাংশনে প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4939,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১১: ফাংশন অপারেশন ও মডিউল (Function Operation & Modules)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে অনির্দিষ্ট সংখ্যক কীওয়ার্ড আর্গুমেন্ট (Named arguments) গ্রহণের জন্য কী ব্যবহৃত হয়?",
+    "options": [
+      "A) *args",
+      "B) *kwargs",
+      "C) **kwargs (যা একটি ডিকশনারি হিসেবে গৃহীত হয়)",
+      "D) &kwargs"
+    ],
+    "answer": 2,
+    "explanation": "`**kwargs` প্যারামিটারগুলোকে কি-ভ্যালু জোড়া হিসেবে ডিকশনারির আকারে গ্রহণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4940,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১১: ফাংশন অপারেশন ও মডিউল (Function Operation & Modules)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে ডিফল্ট আর্গুমেন্ট (Default Argument) লেখার ক্ষেত্রে কোন নিয়মটি বাধ্যতামূলক?",
+    "options": [
+      "A) ডিফল্ট আর্গুমেন্ট সর্বদা নন-ডিফল্ট আর্গুমেন্টের পরে বসতে হবে",
+      "B) ডিফল্ট আর্গুমেন্ট সবার প্রথমে থাকতে হবে",
+      "C) যেকোনো স্থানে বসানো যায়",
+      "D) ডিফল্ট আর্গুমেন্ট কেবল একটিই হতে পারে"
+    ],
+    "answer": 0,
+    "explanation": "নন-ডিফল্ট প্যারামিটারের আগে ডিফল্ট প্যারামিটার দিলে `SyntaxError: non-default argument follows default argument` ঘটে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4941,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১১: ফাংশন অপারেশন ও মডিউল (Function Operation & Modules)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ফাংশন প্যারামিটারে ডিফল্ট মান হিসেবে মিউটেবল অবজেক্ট (যেমন `def f(x=[]):`) ব্যবহারের বিপজ্জনক ফল কোনটি?",
+    "options": [
+      "A) প্রতিবার নতুন খালি লিস্ট তৈরি হয়",
+      "B) ফাংশন ক্র্যাশ করে",
+      "C) পরবর্তী প্রতিটি ফাংশন কলে পূর্ববর্তী কলের ডেটা ওই ডিফল্ট লিস্টে সংরক্ষিত থেকে যায় (ভাগাভাগি হয়)",
+      "D) কম্পাইল এরর প্রদর্শন করে"
+    ],
+    "answer": 2,
+    "explanation": "ডিফল্ট আর্গুমেন্ট কেবল ফাংশন সংজ্ঞায়নের সময় একবার তৈরি হয়; তাই মিউটেবল ডিফল্টের বদলে `None` ব্যবহার করা আদর্শ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4942,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১১: ফাংশন অপারেশন ও মডিউল (Function Operation & Modules)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ফাংশনের ভেতর থেকে গ্লোবাল ভ্যারিয়েবলের মান পরিবর্তন করতে কোন কীওয়ার্ড ঘোষণা করতে হয়?",
+    "options": [
+      "A) nonlocal",
+      "B) global",
+      "C) extern",
+      "D) public"
+    ],
+    "answer": 1,
+    "explanation": "`global x` ঘোষণা না করে ফাংশনে `x = 5` লিখলে পাইথন তাকে নতুন লোকাল ভ্যারিয়েবল গণ্য করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4943,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১১: ফাংশন অপারেশন ও মডিউল (Function Operation & Modules)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "নেস্টেড ফাংশনে তার বাইরের এনক্লোজিং স্কোপের ভ্যারিয়েবল মডিফাই করতে কোন কীওয়ার্ড ব্যবহৃত হয়?",
+    "options": [
+      "A) parent",
+      "B) global",
+      "C) outer",
+      "D) nonlocal"
+    ],
+    "answer": 3,
+    "explanation": "ক্লোজার বা নেস্টেড ফাংশনে বাইরের অবজেক্ট পরিবর্তন করতে পাইথন ৩-এ `nonlocal` যুক্ত করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4944,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১১: ফাংশন অপারেশন ও মডিউল (Function Operation & Modules)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে ভ্যারিয়েবলের স্কোপ অনুসন্ধানের নিয়ম (Scope Resolution Rule) কোনটি?",
+    "options": [
+      "A) LEGB নিয়ম (Local -> Enclosing -> Global -> Built-in)",
+      "B) FIFO নিয়ম",
+      "C) LIFO নিয়ম",
+      "D) BLEG নিয়ম"
+    ],
+    "answer": 0,
+    "explanation": "পাইথন প্রথমে লোকাল, তারপর এনক্লোজিং, তারপর গ্লোবাল এবং সর্বশেষ বিল্ট-ইন নেমস্পেসে ভ্যারিয়েবল খোঁজে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4945,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১১: ফাংশন অপারেশন ও মডিউল (Function Operation & Modules)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে এক লাইনে লেখা নামহীন ছোট ফাংশনকে (Anonymous Function) কী বলে?",
+    "options": [
+      "A) ডেকোরেটর",
+      "B) ইনলাইন ফাংশন",
+      "C) ল্যাম্বডা ফাংশন (Lambda Function)",
+      "D) ম্যাক্রো ফাংশন"
+    ],
+    "answer": 2,
+    "explanation": "`lambda x, y: x + y` সিনট্যাক্স দিয়ে সংক্ষিপ্ত অন-দ্য-ফ্লাই ফাংশন তৈরি করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4946,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১১: ফাংশন অপারেশন ও মডিউল (Function Operation & Modules)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "যেকোনো ইটারেবলের প্রতিটি উপাদানের ওপর নির্দিষ্ট কোনো ফাংশন প্রয়োগ করে ফলাফল পেতে কোনটি ব্যবহৃত হয়?",
+    "options": [
+      "A) apply()",
+      "B) filter()",
+      "C) reduce()",
+      "D) map(func, iterable)"
+    ],
+    "answer": 3,
+    "explanation": "`map(lambda x: x*2, [1, 2, 3])` প্রতিটি উপাদানকে দ্বিগুণ করে [2, 4, 6] এর ইটারেটর দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4947,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১১: ফাংশন অপারেশন ও মডিউল (Function Operation & Modules)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ইটারেবলের কেবল সেই সকল উপাদান ফিল্টার করে নেওয়া যেগুলোর ক্ষেত্রে প্রদত্ত শর্ত সত্য হয় তা কার কাজ?",
+    "options": [
+      "A) filter(func, iterable)",
+      "B) clean()",
+      "C) map()",
+      "D) reduce()"
+    ],
+    "answer": 0,
+    "explanation": "`filter()` বুলিয়ান রিটার্নকারী ফাংশন প্রয়োগ করে সত্য উপাদানগুলো বজায় রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4948,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১১: ফাংশন অপারেশন ও মডিউল (Function Operation & Modules)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ইটারেবলের সকল উপাদানকে ক্রমপুঞ্জিতভাবে একটি একক মানে পরিণত করার ফাংশন `reduce()` কোন মডিউলে থাকে?",
+    "options": [
+      "A) builtins",
+      "B) functools",
+      "C) itertools",
+      "D) math"
+    ],
+    "answer": 1,
+    "explanation": "পাইথন ৩-এ `reduce()` কে বিল্ট-ইন থেকে সরিয়ে `functools.reduce` এ স্থানান্তরিত করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4949,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১১: ফাংশন অপারেশন ও মডিউল (Function Operation & Modules)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "অন্য একটি ফাংশনকে আর্গুমেন্ট হিসেবে গ্রহণ করে তার আচরণ সম্প্রসারণকারী ফাংশনকে কী বলে?",
+    "options": [
+      "A) কনস্ট্রাক্টর",
+      "B) ডেকোরেটর (Decorator)",
+      "C) ল্যাম্বডা",
+      "D) ইটারেটর"
+    ],
+    "answer": 1,
+    "explanation": "ডেকোরেটর (`@decorator_name`) মূল কোডে হাত না দিয়ে ফাংশনের ক্ষমতা বৃদ্ধি বা লগিং ইত্যাদিতে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4950,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১১: ফাংশন অপারেশন ও মডিউল (Function Operation & Modules)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "যে ফাংশন সম্পূর্ণ ফলাফল একসাথে মেমরিতে না রেখে `yield` স্টেটমেন্ট দিয়ে একের পর এক ভ্যালু জেনারেট করে তাকে কী বলে?",
+    "options": [
+      "A) পাসিভ ফাংশন",
+      "B) রিকার্সিভ ফাংশন",
+      "C) ল্যাম্বডা ফাংশন",
+      "D) জেনারেটর ফাংশন (Generator Function)"
+    ],
+    "answer": 3,
+    "explanation": "জেনারেটর `yield` দিয়ে স্টেট ধরে রাখে এবং মেমরি অত্যন্ত সাশ্রয় করে বিশাল ডেটাসেট তৈরি করতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4951,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১১: ফাংশন অপারেশন ও মডিউল (Function Operation & Modules)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "জেনারেটর অবজেক্ট থেকে পরবর্তী মানটি পাওয়ার জন্য কোন বিল্ট-ইন ফাংশন কল করতে হয়?",
+    "options": [
+      "A) yield(gen)",
+      "B) gen.get()",
+      "C) next(gen)",
+      "D) gen.step()"
+    ],
+    "answer": 2,
+    "explanation": "`next(gen)` জেনারেটরের পরবর্তী `yield` মান দেয় এবং মান শেষ হলে `StopIteration` এরর ঘটে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4952,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১১: ফাংশন অপারেশন ও মডিউল (Function Operation & Modules)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "একটি পাইথন স্ক্রিপ্ট সরাসরি রান করা হয়েছে নাকি অন্য ফাইলে ইমপোর্ট করা হয়েছে তা যাচাই করার শর্ত কোনটি?",
+    "options": [
+      "A) if __name__ == '__main__':",
+      "B) if name == 'main':",
+      "C) if __main__ == True:",
+      "D) if __run__ == 1:"
+    ],
+    "answer": 0,
+    "explanation": "ফাইলটি সরাসরি টার্মিনালে চালালে `__name__` এর মান হয় `'__main__'`, আর ইমপোর্ট করলে মডিউলের নিজস্ব নাম ধারণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4953,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১১: ফাংশন অপারেশন ও মডিউল (Function Operation & Modules)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "একটি ডিরেক্টরিকে পাইথনের প্রাতিষ্ঠানিক প্যাকেজ হিসেবে চিহ্নিত করতে ঐতিহ্যগতভাবে কোন ফাইল রাখা হতো?",
+    "options": [
+      "A) __main__.py",
+      "B) __package__.py",
+      "C) setup.py",
+      "D) __init__.py"
+    ],
+    "answer": 3,
+    "explanation": "`__init__.py` ফাইলটি ডিরেক্টরিটিকে প্যাকেজ হিসেবে ঘোষণা করে এবং প্যাকেজ লোডের ইনিশিয়ালাইজেশন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4954,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১১: ফাংশন অপারেশন ও মডিউল (Function Operation & Modules)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "বর্তমান সিস্টেমের তারিখ ও সময় পেতে `datetime` মডিউলের সঠিক কোড কোনটি?",
+    "options": [
+      "A) datetime.today_now()",
+      "B) datetime.datetime.now()",
+      "C) time.current()",
+      "D) date.get_now()"
+    ],
+    "answer": 1,
+    "explanation": "`from datetime import datetime; datetime.now()` বর্তমান তারিখ ও স্থানীয় সময় অবজেক্ট দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4955,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১১: ফাংশন অপারেশন ও মডিউল (Function Operation & Modules)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "`datetime` অবজেক্টকে নির্দিষ্ট ফরম্যাটের স্ট্রিংয়ে পরিণত করার এবং স্ট্রিং থেকে ডেট অবজেক্ট বানানোর মেথড দুটি কোনটি?",
+    "options": [
+      "A) strftime() (Format to String) এবং strptime() (Parse from String)",
+      "B) date_format() এবং date_parse()",
+      "C) toString() এবং toDate()",
+      "D) format() এবং parse()"
+    ],
+    "answer": 0,
+    "explanation": "`strftime` (String Format Time) টেক্সট বানায় এবং `strptime` (String Parse Time) টেক্সটকে অবজেক্ট বানায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

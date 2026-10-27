@@ -1,0 +1,842 @@
+[
+  {
+    "id": 4201,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড অপারেটিং সিস্টেমের মূল সফটওয়্যার আর্কিটেকচারের সবচেয়ে নিচের ভিত্তি স্তর কোনটি?",
+    "options": [
+      "A) অ্যান্ড্রয়েড রানটাইম (ART)",
+      "B) লিনাক্স কার্নেল (Linux Kernel)",
+      "C) হার্ডওয়্যার অ্যাবস্ট্রাকশন লেয়ার (HAL)",
+      "D) অ্যাপ্লিকেশন ফ্রেমওয়ার্ক"
+    ],
+    "answer": 1,
+    "explanation": "লিনাক্স কার্নেল হলো অ্যান্ড্রয়েডের সর্বনিম্ন ভিত্তি স্তর যা মেমরি, প্রসেস, নেটওয়ার্ক ও ডিভাইস ড্রাইভার পরিচালনা করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4202,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড ওএসে ক্যামেরা, অডিও বা ব্লুটুথ চিপ প্রস্তুতকারকদের জন্য স্ট্যান্ডার্ড ইন্টারফেস সংজ্ঞায়িতকারী স্তর কোনটি?",
+    "options": [
+      "A) Linux Kernel",
+      "B) System Apps",
+      "C) HAL (Hardware Abstraction Layer)",
+      "D) Application Framework"
+    ],
+    "answer": 2,
+    "explanation": "HAL উচ্চ স্তরের জাভা/কোটলিন এপিআই এবং নিচের ভৌত হার্ডওয়্যারের মধ্যে একটি আদর্শ মধ্যস্থতাকারী লেয়ার হিসেবে কাজ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4203,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড ৫.০ (ললিপপ) সংস্করণ থেকে ডালভিক ভার্চুয়াল মেশিনের (DVM) বদলে ডিফল্ট রানটাইম ইঞ্জিন হিসেবে কোনটি প্রবর্তিত হয়?",
+    "options": [
+      "A) V8 Engine",
+      "B) JVM (Java Virtual Machine)",
+      "C) CLR",
+      "D) ART (Android Runtime)"
+    ],
+    "answer": 3,
+    "explanation": "ART রানটাইমে AOT (Ahead-of-Time) কম্পাইলেশন ব্যবহার করে অ্যাপ ইনস্টলের সময়ই বাইটকোডকে সরাসরি নেটিভ মেশিন কোডে রূপান্তর করে গতি বাড়ায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4204,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ডালভিকের JIT (Just-In-Time) এবং আধুনিক ART-এর AOT (Ahead-Of-Time) কম্পাইলেশনের মূল পার্থক্য কোনটি?",
+    "options": [
+      "A) DVM অ্যাপ চলার সময় (Runtime) প্রতিবার কোড কম্পাইল করত; আর ART অ্যাপ ইনস্টল করার সময়ই একবার মেশিন কোডে রূপান্তর করে রাখে",
+      "B) DVM মেশিন কোড বানায় না",
+      "C) উভয় ইঞ্জিন হুবহু এক",
+      "D) ART কেবল C++ চালায়"
+    ],
+    "answer": 0,
+    "explanation": "ART-এর AOT কম্পাইলেশনের কারণে অ্যাপ রানটাইমে দ্রুত লঞ্চ হয়, ফ্রেম ড্রপ কমে এবং ব্যাটারি খরচ কম হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4205,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপ্লিকেশন কম্পাইল করার পর জাভা বাইটকোড (.class) রূপান্তরিত হয়ে কোন বাইটকোড ফাইলে পরিণত হয়?",
+    "options": [
+      "A) .dex ফাইল (Dalvik Executable)",
+      "B) .dll ফাইল",
+      "C) .exe ফাইল",
+      "D) .jar ফাইল"
+    ],
+    "answer": 0,
+    "explanation": "D8/R8 কম্পাইলার সমস্ত `.class` ফাইলকে অপ্টিমাইজ ও কম্প্রেস করে মোবাইল বান্ধব একক `.dex` ফাইলে রূপান্তর করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4206,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড সিস্টেমে নোটিফিকেশন প্রদর্শন ও স্ট্যাটাস বার পরিচালনা করার সিস্টেম সার্ভিসের নাম কী?",
+    "options": [
+      "A) WindowManager",
+      "B) PackageManager",
+      "C) NotificationManager",
+      "D) ActivityManager"
+    ],
+    "answer": 2,
+    "explanation": "NotificationManager অ্যাপ্লিকেশন ফ্রেমওয়ার্কের একটি কোর সার্ভিস যা অ্যাপ থেকে আসা পুশ বা লোকাল নোটিফিকেশন হ্যান্ডল করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4207,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "একটি অ্যান্ড্রয়েড অ্যাপের প্যাকেজ নেম, পারমিশন, অ্যাক্টিভিটি ও সার্ভিসসমূহের তালিকা সম্বলিত মূল রুট ফাইলটির নাম কী?",
+    "options": [
+      "A) settings.gradle",
+      "B) AndroidManifest.xml",
+      "C) MainActivity.kt",
+      "D) build.gradle"
+    ],
+    "answer": 1,
+    "explanation": "AndroidManifest.xml হলো অ্যাপের কেন্দ্রীয় কনফিগারেশন ফাইল যা ওএস-কে অ্যাপের সকল উপাদান ও পারমিশন সম্পর্কে জানায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4208,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপে ইন্টারনেট ব্যবহারের অনুমতি নিতে ম্যানিফেস্টে কোন পারমিশন ট্যাগটি লিখতে হয়?",
+    "options": [
+      "A) <allow-internet />",
+      "B) <uses-network android:name=\"INTERNET\" />",
+      "C) <permission name=\"INTERNET\" />",
+      "D) <uses-permission android:name=\"android.permission.INTERNET\" />"
+    ],
+    "answer": 3,
+    "explanation": "`android.permission.INTERNET` হলো নেটওয়ার্ক সকেট খোলার প্রমিত নরমাল পারমিশন যা ম্যানিফেস্টে ঘোষণা করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4209,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড প্রজেক্টে ডিপেনডেন্সি ও বিল্ড কনফিগারেশন পরিচালনার আধুনিক অটোমেশন টুল কোনটি?",
+    "options": [
+      "A) Ant",
+      "B) Gradle বিল্ড সিস্টেম (build.gradle)",
+      "C) Maven",
+      "D) Make"
+    ],
+    "answer": 1,
+    "explanation": "Android Studio ডিফল্ট বিল্ড সিস্টেম হিসেবে Gradle ব্যবহার করে যা লাইব্রেরি ডাউনলোড ও এপিকে বিল্ড স্বয়ংক্রিয় করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4210,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "Gradle ফাইলে 'minSdkVersion' দ্বারা কী বোঝানো হয়?",
+    "options": [
+      "A) টার্গেট এপিআই লেভেল",
+      "B) জাভার ভার্সন",
+      "C) অ্যাপ্লিকেশনটি চলার জন্য ডিভাইসে প্রয়োজনীয় অ্যান্ড্রয়েড ওএসের সর্বনিম্ন এপিআই লেভেল",
+      "D) সর্বোচ্চ এপিআই লেভেল"
+    ],
+    "answer": 2,
+    "explanation": "ডিভাইসের ওএস ভার্সন minSdkVersion-এর নিচে হলে গুগল প্লে স্টোর থেকে বা প্যাকেজ ম্যানেজার দিয়ে অ্যাপটি ইনস্টল করা যাবে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4211,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কম্পিউটার থেকে সংযুক্ত অ্যান্ড্রয়েড ফোনে ইউএসবি ডিবাগিং, কমান্ড চালনা ও ফাইল স্থানান্তরের কমান্ড-লাইন টুলের নাম কী?",
+    "options": [
+      "A) ADB (Android Debug Bridge)",
+      "B) APK",
+      "C) AVD",
+      "D) NDK"
+    ],
+    "answer": 0,
+    "explanation": "ADB ক্লায়েন্ট-সার্ভার আর্কিটেকচারে কাজ করে যা ডেভেলপারকে পিসি টার্মিনাল দিয়ে সরাসরি রিয়েল বা ভার্চুয়াল ফোন নিয়ন্ত্রণ করতে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4212,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড স্টুডিওতে কম্পিউটারের পর্দায় টেস্ট করার জন্য যে কৃত্রিম সফটওয়্যার ফোন তৈরি করা হয় তাকে কী বলে?",
+    "options": [
+      "A) JVM",
+      "B) ADB",
+      "C) SDK",
+      "D) AVD (Android Virtual Device / Emulator)"
+    ],
+    "answer": 3,
+    "explanation": "AVD হলো কিমু (QEMU) ভিত্তিক একটি ভার্চুয়াল মোবাইল এমুলেটর যা বিভিন্ন স্ক্রিন সাইজ ও ওএস ভার্সন টেস্টে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4213,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েডে রানটাইমে লগ মেসেজ (Debugging Log) দেখার জন্য অ্যান্ড্রয়েড স্টুডিওর উইন্ডোটিকে কী বলে?",
+    "options": [
+      "A) Logcat (Log.d, Log.e, Log.i, Log.w)",
+      "B) Profiler",
+      "C) Terminal",
+      "D) Git Console"
+    ],
+    "answer": 0,
+    "explanation": "Logcat সিস্টেমে ঘটা সমস্ত ত্রুটি, এক্সেপশন ও কাস্টম ডিবাগ লগ রিয়েল-টাইমে প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4214,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "২০১৭ সালে গুগল কোন প্রোগ্রামিং ভাষাকে অ্যান্ড্রয়েড অ্যাপ ডেভেলপমেন্টের অফিসিয়াল ফার্স্ট-ক্লাস ভাষা হিসেবে ঘোষণা করে?",
+    "options": [
+      "A) জাভাস্ক্রিপ্ট",
+      "B) পাইথন",
+      "C) সি শার্প",
+      "D) কোটলিন (Kotlin - JetBrains উদ্ভাবিত)"
+    ],
+    "answer": 3,
+    "explanation": "Kotlin আধুনিক, সংক্ষিপ্ত, ১০০% জাভা ইন্টারঅপারেবল এবং নাল-সেফ ভাষা হওয়ায় গুগল এটিকে শীর্ষ প্রাধান্য দিয়েছে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4215,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোটলিনে অপরিবর্তনীয় (Immutable / Read-only) ভ্যারিয়েবল ডিক্লেয়ার করতে কোন কীওয়ার্ডটি ব্যবহৃত হয়?",
+    "options": [
+      "A) var",
+      "B) val (Value - একবার মান দিলে আর পরিবর্তন করা যায় না)",
+      "C) const",
+      "D) let"
+    ],
+    "answer": 1,
+    "explanation": "`val` হলো জাভার `final` ভ্যারিয়েবলের সমতুল্য যার মান পরবর্তীতে রি-অ্যাসাইন করা যায় না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4216,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোটলিনে পরিবর্তনযোগ্য (Mutable) ভ্যারিয়েবল ডিক্লেয়ার করার কীওয়ার্ড কোনটি?",
+    "options": [
+      "A) val",
+      "B) static",
+      "C) var (Variable)",
+      "D) dim"
+    ],
+    "answer": 2,
+    "explanation": "`var` দিয়ে ঘোষিত ভ্যারিয়েবলের মান প্রোগ্রামে যেকোনো সময় নতুন মান দিয়ে পরিবর্তন করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4217,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোটলিন প্রোগ্রামিংয়ে 'NullPointerException' (The Billion Dollar Mistake) সম্পূর্ণ নির্মূল করতে ব্যবহৃত ফিচারকে কী বলে?",
+    "options": [
+      "A) এক্সেপশন হ্যান্ডলিং",
+      "B) নাল-সেফটি (Null Safety)",
+      "C) গার্বেজ কালেকশন",
+      "D) টাইপ কাস্টিং"
+    ],
+    "answer": 1,
+    "explanation": "কোটলিনের টাইপ সিস্টেম নালেবল এবং নন-নালেবল রেফারেন্সকে আলাদা করে কম্পাইল টাইমে নাল সংক্রান্ত ক্র্যাশ ঠেকায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4218,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোটলিনে একটি ভ্যারিয়েবল নাল (Null) ধারণ করতে পারবে তা কম্পাইলারকে বোঝাতে ডেটা টাইপের শেষে কোন প্রতীকটি দিতে হয়?",
+    "options": [
+      "A) স্টার (*)",
+      "B) বিস্ময়সূচক চিহ্ন (!)",
+      "C) হ্যাশ (#)",
+      "D) প্রশ্নবোধক চিহ্ন (যেমন String?)"
+    ],
+    "answer": 3,
+    "explanation": "`String` কখনো নাল হতে পারে না; কিন্তু `String?` নাল মান গ্রহণ করতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4219,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোটলিনে নালেবল ভ্যারিয়েবলের প্রোপার্টি নিরাপদে অ্যাক্সেস করতে ব্যবহৃত 'সেফ-কল অপারেটর' (Safe Call Operator) কোনটি?",
+    "options": [
+      "A) !!",
+      "B) ?:",
+      "C) ?.",
+      "D) ::"
+    ],
+    "answer": 2,
+    "explanation": "`b?.length` এক্সপ্রেশনে b যদি নাল হয় তবে কোনো ক্র্যাশ না করে এক্সপ্রেশনটি সরাসরি `null` রিটার্ন করবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4220,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোটলিনে কোনো ভ্যালু নাল হলে একটি বিকল্প ডিফল্ট মান দেওয়ার জন্য ব্যবহৃত 'এলভিস অপারেটর' (Elvis Operator) কোনটি?",
+    "options": [
+      "A) ?: (যেমন val len = str?.length ?: 0)",
+      "B) ->",
+      "C) !!",
+      "D) ?."
+    ],
+    "answer": 0,
+    "explanation": "রক গায়ক এলভিস প্রিসলির চুলের স্টাইলের সাথে মিল থাকায় `?:` চিহ্নকে Elvis Operator বলা হয় যা নাল হলে ডানপাশের ডিফল্ট মান দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4221,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোটলিনে ডেভেলপার ইচ্ছাকৃতভাবে কোনো নালেবল ভেরিয়েবলকে জোরপূর্বক নন-নাল ঘোষণা করে নাল থাকলে ক্র্যাশ করার 'নট-নাল অ্যাসারশন' অপারেটর কোনটি?",
+    "options": [
+      "A) !.",
+      "B) !! (Double Exclamation)",
+      "C) ?:",
+      "D) ??"
+    ],
+    "answer": 1,
+    "explanation": "`str!!.length` ব্যবহার করলে str নাল হলে তাৎক্ষণিক NullPointerException ছুঁড়ে মারবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4222,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "জাভার সনাতন 'switch-case' স্টেটমেন্টের বিকল্প হিসেবে কোটলিনের আধুনিক ও শক্তিশালী এক্সপ্রেশন কোনটি?",
+    "options": [
+      "A) when এক্সপ্রেশন",
+      "B) branch",
+      "C) choose এক্সপ্রেশন",
+      "D) select"
+    ],
+    "answer": 0,
+    "explanation": "`when` এক্সপ্রেশনে টাইপ চেক, রেঞ্জ ও শর্ত সরাসরি পরীক্ষা করা যায় এবং এটি মান রিটার্ন করতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4223,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোটলিন স্ট্রিংয়ের ভেতরে সরাসরি ভ্যারিয়েবল ও এক্সপ্রেশনের মান প্রিন্ট করার 'স্ট্রিং টেমপ্লেট' সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) &variable",
+      "B) #{variable}",
+      "C) %s এবং %d",
+      "D) $variable এবং ${expression} (যেমন \"Age: ${user.age}\")"
+    ],
+    "answer": 3,
+    "explanation": "String Template স্ট্রিং কনক্যাটেনেশনের প্লাস (+) চিহ্ন বাদ দিয়ে কোডকে অত্যন্ত পরিচ্ছন্ন করে তোলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4224,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোটলিনে ১ থেকে ১০ পর্যন্ত লুপ চালানোর সঠিক রেঞ্জ সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) for (i = 1 to 10)",
+      "B) for (i in 1 until 10)",
+      "C) for (i in 1..10)",
+      "D) for (1..10)"
+    ],
+    "answer": 2,
+    "explanation": "`1..10` রেঞ্জে ১ এবং ১০ উভয় সংখ্যাই অন্তর্ভুক্ত (inclusive); আর `until` দিলে শেষ সংখ্যা বাদ থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4225,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোটলিনে কেবল ডেটা ধারণ করার জন্য এবং স্বয়ংক্রিয়ভাবে equals(), hashCode(), toString() ও copy() পাওয়ার জন্য কোন ক্লাস ব্যবহৃত হয়?",
+    "options": [
+      "A) struct",
+      "B) model class",
+      "C) pojo class",
+      "D) data class (যেমন data class User(val id: Int, val name: String))"
+    ],
+    "answer": 3,
+    "explanation": "`data class` জাভার শত শত লাইনের বয়লারপ্লেট গেটার, সেটার ও মেথড লেখার প্রয়োজনীয়তা দূর করে মাত্র এক লাইনে মডেল বানায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4226,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোটলিনে বাই ডিফল্ট সকল ক্লাস কোন ধরনের থাকে যার কারণে সরাসরি অন্য ক্লাসে ইনহেরিট করা যায় না?",
+    "options": [
+      "A) final (ইনহেরিট করতে হলে ক্লাসের আগে 'open' কিওয়ার্ড দিতে হয়)",
+      "B) abstract",
+      "C) static",
+      "D) public"
+    ],
+    "answer": 0,
+    "explanation": "কোটলিন বাই ডিফল্ট সব ক্লাসকে `final` রাখে; কোনো ক্লাসকে প্যারেন্ট বানাতে হলে স্পষ্টভাবে `open class` লিখতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4227,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোটলিনে কোনো ক্লাসের সোর্স কোড বা ইনহেরিটেন্স ছাড়াই সেই ক্লাসে সম্পূর্ণ নতুন কোনো মেথড যুক্ত করার ক্ষমতাকে কী বলে?",
+    "options": [
+      "A) ইনলাইন ফাংশন",
+      "B) ল্যাম্বডা মেথড",
+      "C) এক্সটেনশন ফাংশন (Extension Function)",
+      "D) অপারেটর ওভারলোডিং"
+    ],
+    "answer": 2,
+    "explanation": "যেমন `fun String.firstLetter(): Char = this[0]` লিখে যেকোনো স্ট্রিংয়ে সরাসরি মেথডটির মতো কল করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4228,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোটলিনে কোনো ক্লাসের অবজেক্ট তৈরি না করেই সরাসরি ক্লাসের নামে কল করার মতো স্ট্যাটিক মেম্বার তৈরি করতে ক্লাসের ভেতরে কী ব্যবহার করা হয়?",
+    "options": [
+      "A) static block",
+      "B) companion object",
+      "C) public static",
+      "D) global object"
+    ],
+    "answer": 1,
+    "explanation": "কোটলিনে কোনো `static` কীওয়ার্ড নেই; স্ট্যাটিক মেথড বা কনস্ট্যান্টের জন্য `companion object` ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4229,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোটলিনে একক ইনস্ট্যান্স বিশিষ্ট ডিজাইন প্যাটার্ন 'সিঙ্গলটন' (Singleton) তৈরি করতে সরাসরি কোন কীওয়ার্ড ব্যবহৃত হয়?",
+    "options": [
+      "A) object (যেমন object NetworkClient { ... })",
+      "B) unique",
+      "C) static class",
+      "D) singleton class"
+    ],
+    "answer": 0,
+    "explanation": "`object` কীওয়ার্ড দিয়ে তৈরি অবজেক্ট থ্রেড-সেফ সিঙ্গলটন হিসেবে মেমরিতে মাত্র একটি ইনস্ট্যান্স বজায় রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4230,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোটলিনে কোনো ফাংশন যদি অন্য কোনো ফাংশনকে প্যারামিটার হিসেবে গ্রহণ করে বা রিটার্ন করে তবে তাকে কী বলে?",
+    "options": [
+      "A) ল্যাম্বডা ফাংশন",
+      "B) পিওর ফাংশন",
+      "C) হায়ার-অর্ডার ফাংশন (Higher-Order Function)",
+      "D) রিকার্সিভ ফাংশন"
+    ],
+    "answer": 2,
+    "explanation": "Higher-Order Function ফাংশনাল প্রোগ্রামিংয়ের শক্তিশালী স্তম্ভ যা ল্যাম্বডার মাধ্যমে কোড পাস করার সুযোগ দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4231,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোটলিনে কোনো নামবিহীন ক্ষুদ্র কোড ব্লককে সরাসরি ভ্যারিয়েবলে রাখা বা ফাংশনে পাস করাকে কী বলে?",
+    "options": [
+      "A) পয়েন্টার",
+      "B) ল্যাম্বডা এক্সপ্রেশন (Lambda Expression, যেমন { a, b -> a + b })",
+      "C) ম্যাক্রো",
+      "D) অ্যানোনিমাস অবজেক্ট"
+    ],
+    "answer": 1,
+    "explanation": "কোটলিনে সেকেন্ড বন্ধনী `{ ... }`-এর ভেতরে ল্যাম্বডা লেখা হয় যা ইভেন্ট লিসেনারে ব্যাপকভাবে ব্যবহৃত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4232,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোটলিন ল্যাম্বডায় যদি একটিমাত্র প্যারামিটার থাকে তবে তা স্পষ্টভাবে না লিখে কোন ডিফল্ট চলক দিয়ে অ্যাক্সেস করা যায়?",
+    "options": [
+      "A) this",
+      "B) item",
+      "C) self",
+      "D) it (যেমন list.filter { it > 5 })"
+    ],
+    "answer": 3,
+    "explanation": "একক প্যারামিটারের ক্ষেত্রে প্যারামিটারের নাম ঘোষণা না করে অন্তর্নির্মিত নাম `it` দিয়ে সহজে কোড লেখা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4233,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোটলিনে 'lateinit' কীওয়ার্ডের মূল ব্যবহার কোনটি?",
+    "options": [
+      "A) ভ্যারিয়েবলকে নাল করে রাখা",
+      "B) ভ্যারিয়েবল ধ্বংস করা",
+      "C) র‍্যামের গতি বাড়ানো",
+      "D) নন-নালেবল var প্রোপার্টির মান অবজেক্ট তৈরির সময় না দিয়ে পরবর্তীতে (যেমন onCreate মেথডে) ইনিশিয়ালাইজ করার প্রতিশ্রুতি দেওয়া"
+    ],
+    "answer": 3,
+    "explanation": "`lateinit var` নন-প্রিমিটিভ টাইপে নাল চেকিংয়ের ঝামেলা ছাড়াই পরে ইনিশিয়ালাইজ করার অনুমতি দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4234,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোটলিনে প্রথমবার অ্যাক্সেস করার আগ পর্যন্ত কোনো ভারী অবজেক্ট ইনিশিয়ালাইজ না করে অলসভাবে তৈরি করার ফাংশন কোনটি?",
+    "options": [
+      "A) lateinit",
+      "B) by lazy { ... } (Lazy Initialization)",
+      "C) delayed",
+      "D) suspend"
+    ],
+    "answer": 1,
+    "explanation": "`val prop by lazy` অবজেক্টটি যখন প্রথমবার কল হবে তখনই কেবল কোডটি রান করে মেমরিতে ক্যাশ করবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4235,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোটলিনে কোনো অবজেক্টের ওপর এক বা একাধিক অপারেশন চালিয়ে একই অবজেক্ট রিটার্ন করার জনপ্রিয় স্কোপ ফাংশন কোনটি?",
+    "options": [
+      "A) apply (যেমন Intent().apply { putExtra(...); action = ... })",
+      "B) let",
+      "C) run",
+      "D) with"
+    ],
+    "answer": 0,
+    "explanation": "`apply` ফাংশন অবজেক্ট কনফিগারেশনে `this` কনটেক্সট ব্যবহার করে এবং অবজেক্টটিকে রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4236,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "একটি অবজেক্ট নাল না হলে কেবল তখনই কোনো কোড ব্লককে নিরাপদে এক্সিকিউট করতে কোন স্কোপ ফাংশনটি বহুল ব্যবহৃত হয়?",
+    "options": [
+      "A) ?.run",
+      "B) ?.with",
+      "C) ?.let { ... } (যেমন user?.let { print(it.name) })",
+      "D) ?.apply"
+    ],
+    "answer": 2,
+    "explanation": "`object?.let { ... }` কোটলিনের সবচেয়ে মার্জিত নাল চেকিং কৌশল যা 'if (object != null)' লেখার ঝামেলা দূর করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4237,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড আর্কিটেকচারে অ্যাপ্লিকেশনের রিসোর্স ফাইলগুলো (যেমন লেআউট, স্ট্রিং, কালার) কোন ডিরেক্টরিতে থাকে?",
+    "options": [
+      "A) assets/",
+      "B) src/",
+      "C) res/ ফোল্ডার (Resources: res/layout, res/values, res/drawable)",
+      "D) libs/"
+    ],
+    "answer": 2,
+    "explanation": "res ফোল্ডারে XML ও মিডিয়া সংরক্ষিত থাকে যা R ক্লাসের মাধ্যমে কোডে স্বয়ংক্রিয়ভাবে সংযুক্ত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4238,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড প্রোজেক্ট কম্পাইল হলে সমস্ত রিসোর্স আইডি (যেমন R.id.btnSubmit, R.layout.activity_main) ধারণকারী স্বয়ংক্রিয় ক্লাসের নাম কী?",
+    "options": [
+      "A) BuildConfig",
+      "B) AppConfig",
+      "C) Manifest",
+      "D) R ক্লাস (R.java)"
+    ],
+    "answer": 3,
+    "explanation": "AAPT (Android Asset Packaging Tool) সমস্ত XML ও রিসোর্সের জন্য অনন্য হেক্সাডেসিমেল পূর্ণসংখ্যা আইডি দিয়ে R ক্লাস তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4239,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড ওএসের মূল চারটি মৌলিক কম্পোনেন্ট (Core App Components) কী কী?",
+    "options": [
+      "A) Activity, Service, Broadcast Receiver, এবং Content Provider",
+      "B) Button, TextView, EditText, ImageView",
+      "C) CPU, RAM, ROM, Flash",
+      "D) XML, Java, Kotlin, Gradle"
+    ],
+    "answer": 0,
+    "explanation": "Activity স্ক্রিন দেখায়, Service ব্যাকগ্রাউন্ডে চলে, Broadcast Receiver সিস্টেম মেসেজ শোনে এবং Content Provider ডেটা শেয়ার করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4240,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.১: অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড প্ল্যাটফর্ম কোন ওপেন সোর্স অপারেটিং সিস্টেমের ওপর ভিত্তি করে তৈরি?",
+    "options": [
+      "A) ইউনিক্স",
+      "B) লিনাক্স কার্নেল (Linux Kernel)",
+      "C) ফ্রিবিএসডি (FreeBSD)",
+      "D) উইন্ডোজ কার্নেল"
+    ],
+    "answer": 1,
+    "explanation": "অ্যান্ড্রয়েড লিনাক্স কার্নেলের ওপর ভিত্তি করে গুগল ও ওপেন হ্যান্ডসেট অ্যালায়েন্স (OHA) কর্তৃক তৈরি হয়েছে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

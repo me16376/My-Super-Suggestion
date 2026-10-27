@@ -1,0 +1,632 @@
+[
+  {
+    "id": 3071,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "যে ভেক্টরের মান ঠিক ১ একক তাকে কী বলা হয় এবং কোনো ভেক্টর A এর দিকে একক ভেক্টর নির্ণয়ের সূত্র কোনটি?",
+    "options": [
+      "A) নাল ভেক্টর",
+      "B) স্কেলার ভেক্টর",
+      "C) পজিশন ভেক্টর",
+      "D) একক ভেক্টর (Unit Vector: â = A / |A|)"
+    ],
+    "answer": 3,
+    "explanation": "কোনো ভেক্টরকে তার পরম মান দিয়ে ভাগ করলে সেই ভেক্টরের সমান্তরাল একক ভেক্টর পাওয়া যায় ($\\hat{a} = \\vec{A} / |\\vec{A}|$)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3072,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "যে ভেক্টরের মান শূন্য এবং যার কোনো সুনির্দিষ্ট দিক নেই তাকে কী বলে?",
+    "options": [
+      "A) একক ভেক্টর",
+      "B) নাল ভেক্টর বা শূন্য ভেক্টর (Null / Zero Vector)",
+      "C) সমান্তরাল ভেক্টর",
+      "D) বিপরীত ভেক্টর"
+    ],
+    "answer": 1,
+    "explanation": "নাল ভেক্টরের প্রারম্ভিক বিন্দু ও অন্তিম বিন্দু একই হওয়ায় এর মান শূন্য এবং দিক অনির্ধারিত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3073,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "মূলবিন্দুর সাপেক্ষে ত্রিমাত্রিক স্থানে P(x, y, z) বিন্দুর অবস্থান ভেক্টর (Position Vector - r) কোনটি?",
+    "options": [
+      "A) r = x*i + y*j + z*k (মান |r| = \\sqrt{x^2 + y^2 + z^2})",
+      "B) r = x + y + z",
+      "C) r = (x/i) + (y/j) + (z/k)",
+      "D) r = x*y*z"
+    ],
+    "answer": 0,
+    "explanation": "ত্রিমাত্রিক কার্তেসীয় স্থানাঙ্কে অবস্থান ভেক্টর $\\vec{r} = x\\hat{i} + y\\hat{j} + z\\hat{k}$ এবং এর মান $\\sqrt{x^2 + y^2 + z^2}$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3074,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "একটি ভেক্টর তিনটি অক্ষের সাথে যথাক্রমে α, β, γ কোণ উৎপন্ন করলে দিক কোসাইনসমূহের (Direction Cosines: l, m, n) সঠিক সম্পর্ক কোনটি?",
+    "options": [
+      "A) l^2 + m^2 + n^2 = 0",
+      "B) \\sin^2 α + \\sin^2 β + \\sin^2 γ = 1",
+      "C) l^2 + m^2 + n^2 = \\cos^2 α + \\cos^2 β + \\cos^2 γ = 1",
+      "D) l + m + n = 1"
+    ],
+    "answer": 2,
+    "explanation": "দিক কোসাইনসমূহের বর্গের সমষ্টি সর্বদা ১ এর সমান; অর্থাৎ $\\cos^2\\alpha + \\cos^2\\beta + \\cos^2\\gamma = 1$ (এবং $\\sin^2\\alpha + \\sin^2\\beta + \\sin^2\\gamma = 2$)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3075,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "দুটি ভেক্টর A এবং B এর ডট গুণন বা স্কেলার গুণনের (Dot Product) সূত্র কোনটি?",
+    "options": [
+      "A) · B = |A| * |B| * \\sin θ",
+      "B) · B = |A| + |B|",
+      "C) · B = Ax*By - Ay*Bx",
+      "D) · B = |A| * |B| * \\cos θ = Ax*Bx + Ay*By + Az*Bz"
+    ],
+    "answer": 3,
+    "explanation": "স্কেলার গুণন হলো $\\vec{A} \\cdot \\vec{B} = |A||B|\\cos\\theta$; এটি একটি স্কেলার রাশি যার কোনো দিক নেই।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3076,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "দুটি অশূন্য ভেক্টর A এবং B পরস্পর লম্ব (Orthogonal / Perpendicular) হওয়ার অপরিহার্য শর্ত কোনটি?",
+    "options": [
+      "A) |A| = |B|",
+      "B) · B = 0 (ডট গুণন শূন্য হওয়া)",
+      "C) × B = 0",
+      "D) + B = 0"
+    ],
+    "answer": 1,
+    "explanation": "যেহেতু $\\cos 90^\\circ = 0$, তাই দুটি ভেক্টর লম্ব হলে তাদের স্কেলার বা ডট গুণন শূন্য হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3077,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "একক ভেক্টরসমূহের ডট গুণনের ক্ষেত্রে কোনটি সঠিক?",
+    "options": [
+      "A) i·i = j·j = k·k = 1 এবং i·j = j·k = k·i = 0",
+      "B) i·j = k",
+      "C) সকল ডট গুণন শূন্য",
+      "D) i·i = 0 এবং i·j = 1"
+    ],
+    "answer": 0,
+    "explanation": "নিজ অক্ষের সাথে কোণ $0^\\circ$ হওয়ায় ডট মান ১, এবং পরস্পরের সাথে $90^\\circ$ হওয়ায় ডট মান শূন্য হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3078,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "পদার্থবিজ্ঞানে বল (F) এবং সরণের (d) ডট গুণনের মাধ্যমে কোন ভৌত রাশি নির্ণয় করা হয়?",
+    "options": [
+      "A) ক্ষমতা",
+      "B) কৃতকাজ (Work done: W = F · d, একক Joule)",
+      "C) ভরবেগ",
+      "D) টর্ক"
+    ],
+    "answer": 1,
+    "explanation": "কাজ একটি স্কেলার রাশি যা বল ও সরণ ভেক্টরের ডট গুণনের মাধ্যমে সংজ্ঞায়িত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3079,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "দুটি ভেক্টর A এবং B এর ক্রস গুণন বা ভেক্টর গুণনের (Cross Product) সঠিক সূত্র কোনটি?",
+    "options": [
+      "A) × B = Ax*Bx + Ay*By",
+      "B) × B = B × A",
+      "C) × B = |A| * |B| * \\sin θ * η̂ (যেখানে η̂ হলো উভয়ের ওপর লম্ব একক ভেক্টর)",
+      "D) × B = |A| * |B| * \\cos θ"
+    ],
+    "answer": 2,
+    "explanation": "ক্রস গুণন একটি ভেক্টর রাশি যার মান $|A||B|\\sin\\theta$ এবং দিক ডানহাত স্ক্রু নিয়ম অনুযায়ী উভয়ের তলের ওপর লম্ব।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3080,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "ক্রস গুণনের বিনিময় নিয়মের ক্ষেত্রে কোনটি সঠিক?",
+    "options": [
+      "A) × B = 1",
+      "B) × B = 0",
+      "C) × B = B × A",
+      "D) × B = -(B × A) (অ্যান্টি-কমিউটেটিভ)"
+    ],
+    "answer": 3,
+    "explanation": "ক্রস গুণন বিনিময় নিয়ম মানে না; ক্রম পরিবর্তন করলে ভেক্টরের দিক সম্পূর্ণ ১৮০ ডিগ্রি উল্টে যায় ($A \\times B = - B \\times A$)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3081,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "দুটি অশূন্য ভেক্টর A এবং B পরস্পর সমান্তরাল বা একই রেখা বরাবর হওয়ার শর্ত কোনটি?",
+    "options": [
+      "A) × B = 0 (ক্রস গুণন শূন্য হওয়া)",
+      "B) + B = 0",
+      "C) |A| = |B|",
+      "D) · B = 0"
+    ],
+    "answer": 0,
+    "explanation": "সমান্তরাল হলে মধ্যবর্তী কোণ $\\theta = 0^\\circ$ বা $180^\\circ$, ফলে $\\sin\\theta = 0$ এবং ক্রস গুণন শূন্য হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3082,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "একক ভেক্টরসমূহের ক্রস গুণনের চক্রাকার নিয়ম অনুযায়ী কোনটি সঠিক?",
+    "options": [
+      "A) i × i = 1",
+      "B) i × j = 0",
+      "C) i × j = k, j × k = i, k × i = j এবং i × i = 0",
+      "D) j × i = k"
+    ],
+    "answer": 2,
+    "explanation": "ডানহাতি কার্তেসীয় ব্যবস্থায় ঘড়ির কাঁটার বিপরীতে $\\hat{i} \\times \\hat{j} = \\hat{k}$ এবং একই ভেক্টরের ক্রস গুণন শূন্য।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3083,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "একটি সামান্তরিকের দুটি সন্নিহিত বাহু ভেক্টর A এবং B দ্বারা সূচিত হলে সামান্তরিকটির ক্ষেত্রফল কত?",
+    "options": [
+      "A) (1/2) * |A × B|",
+      "B) |A × B| বর্গ একক",
+      "C) · B",
+      "D) |A| * |B|"
+    ],
+    "answer": 1,
+    "explanation": "সন্নিহিত বাহু দেওয়া থাকলে সামান্তরিকের ক্ষেত্রফল হলো $|\\vec{A} \\times \\vec{B}|$ এবং ত্রিভুজ হলে $\\frac{1}{2}|\\vec{A} \\times \\vec{B}|$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3084,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "একটি সামান্তরিকের দুটি কর্ণ (Diagonals) যথাক্রমে d1 এবং d2 ভেক্টর দ্বারা নির্দেশিত হলে তার ক্ষেত্রফল কত?",
+    "options": [
+      "A) |d1 × d2|",
+      "B) d1 · d2",
+      "C) (1/4) * |d1 × d2|",
+      "D) (1/2) * |d1 × d2| বর্গ একক"
+    ],
+    "answer": 3,
+    "explanation": "কর্ণদ্বয় দেওয়া থাকলে ক্ষেত্রফল কর্ণের ক্রস গুণনের অর্ধেক ($\\frac{1}{2}|\\vec{d}_1 \\times \\vec{d}_2|$)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3085,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "বলের ভ্রামক বা টর্ক (Torque - τ)-এর ভেক্টর সংজ্ঞা কোনটি?",
+    "options": [
+      "A) τ = F / r",
+      "B) τ = r × F (একক Newton-meter)",
+      "C) τ = r^2 * F",
+      "D) τ = F · r"
+    ],
+    "answer": 1,
+    "explanation": "টর্ক হলো অবস্থান ভেক্টর ও প্রযুক্ত বল ভেক্টরের ক্রস গুণন ($\\vec{\\tau} = \\vec{r} \\times \\vec{F}$)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3086,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "তিনটি ভেক্টর A, B, C-এর স্কেলার ট্রিপল প্রোডাক্ট [A B C] = A · (B × C) জ্যামিতিকভাবে কী নির্দেশ করে?",
+    "options": [
+      "A) ত্রিভুজের ক্ষেত্রফল",
+      "B) একটি রেখার দৈর্ঘ্য",
+      "C) A, B, C বাহু বিশিষ্ট সমান্তরাল ষটফলকের (Parallelepiped) আয়তন",
+      "D) বৃত্তের পরিধি"
+    ],
+    "answer": 2,
+    "explanation": "বক্স প্রোডাক্ট $\\vec{A} \\cdot (\\vec{B} \\times \\vec{C})$ হলো তিনটি ভেক্টর দ্বারা গঠিত সমান্তরাল ঘনকের বা প্যারালিলেপাইপডের আয়তন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3087,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "তিনটি ভেক্টর A, B এবং C একই সমতলে অবস্থান করার (Coplanar বা সমতলীয় হওয়ার) শর্ত কোনটি?",
+    "options": [
+      "A) · B · C = 1",
+      "B) × B × C = 0",
+      "C) + B + C = 0",
+      "D) [A B C] = A · (B × C) = 0 (স্কেলার ট্রিপল প্রোডাক্ট শূন্য হওয়া)"
+    ],
+    "answer": 3,
+    "explanation": "তিনটি ভেক্টর একই সমতলে থাকলে তাদের দ্বারা গঠিত ঘনকের উচ্চতা বা আয়তন শূন্য হয়ে যায়, অর্থাৎ $\\vec{A} \\cdot (\\vec{B} \\times \\vec{C}) = 0$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3088,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "ভেক্টর ট্রিপল প্রোডাক্টের সুবিখ্যাত 'BAC-CAB' নিয়ম কোনটি?",
+    "options": [
+      "A) × (B × C) = (A · C) * B - (A · B) * C",
+      "B) × (B × C) = (A × B) × C",
+      "C) × (B × C) = (A · B) * C - (A · C) * B",
+      "D) × (B × C) = A · (B × C)"
+    ],
+    "answer": 0,
+    "explanation": "ভেক্টর ট্রিপল প্রোডাক্টের সূত্র: $\\vec{A} \\times (\\vec{B} \\times \\vec{C}) = (\\vec{A} \\cdot \\vec{C})\\vec{B} - (\\vec{A} \\cdot \\vec{B})\\vec{C}$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3089,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "যেকোনো ত্রিভুজ ABC-তে বাহু ও বিপরীত কোণের সাইন অনুপাতের সম্পর্ক (Sine Rule) কোনটি?",
+    "options": [
+      "A) / \\sin A = R",
+      "B) * \\sin A = b * \\sin B",
+      "C) / \\cos A = b / \\cos B = c / \\cos C",
+      "D) / \\sin A = b / \\sin B = c / \\sin C = 2R (যেখানে R হলো পরিবৃত্তের ব্যাসার্ধ)"
+    ],
+    "answer": 3,
+    "explanation": "সাইন সূত্রানুযায়ী প্রতিটি বাহু তার বিপরীত কোণের সাইনের সমানুপাতিক এবং অনুপাতের মান পরিবৃত্তের ব্যাসের ($2R$) সমান।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3090,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "যেকোনো ত্রিভুজ ABC-এর ক্ষেত্রে কোসাইন সূত্র (Cosine Rule) কোনটি?",
+    "options": [
+      "A) \\cos A = (a^2 - b^2 - c^2) / (2bc)",
+      "B) \\cos A = (b^2 + c^2 + a^2) / (2bc)",
+      "C) \\cos A = (b^2 + c^2 - a^2) / (2bc) বা a^2 = b^2 + c^2 - 2bc*\\cos A",
+      "D) a^2 = b^2 + c^2 + 2bc*\\cos A"
+    ],
+    "answer": 2,
+    "explanation": "কোসাইন সূত্র: $a^2 = b^2 + c^2 - 2bc \\cos A$ বা $\\cos A = \\frac{b^2 + c^2 - a^2}{2bc}$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3091,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "ত্রিভুজের অভিক্ষেপ সূত্র (Projection Formula) কোনটি?",
+    "options": [
+      "A) = b * \\cos B + c * \\cos C",
+      "B) = b * \\cos C + c * \\cos B",
+      "C) = b * \\sin C + c * \\sin B",
+      "D) = (b + c) * \\cos A"
+    ],
+    "answer": 1,
+    "explanation": "প্রজেকশন সূত্রানুযায়ী যেকোনো বাহু হলো অপর দুই বাহুর অভিক্ষেপের সমষ্টি: $a = b \\cos C + c \\cos B$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3092,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "অর্ধ-পরিসীমা s = (a + b + c)/2 হলে হেরনের সূত্র (Heron's Formula) দিয়ে ত্রিভুজের ক্ষেত্রফল (Δ) কত?",
+    "options": [
+      "A) Δ = \\sqrt{s * (s - a) * (s - b) * (s - c)}",
+      "B) Δ = s * (s - a) * (s - b) * (s - c)",
+      "C) Δ = (1/2) * s * a * b",
+      "D) Δ = \\sqrt{s * a * b * c}"
+    ],
+    "answer": 0,
+    "explanation": "বিষমবাহু ত্রিভুজের ক্ষেত্রফল নির্ণয়ে হেরনের বিখ্যাত সূত্র: $\\Delta = \\sqrt{s(s-a)(s-b)(s-c)}$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3093,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "ত্রিভুজের ক্ষেত্রফল Δ, অন্তঃবৃত্তের ব্যাসার্ধ r এবং অর্ধ-পরিসীমা s-এর সঠিক সম্পর্ক কোনটি?",
+    "options": [
+      "A) r = Δ * s",
+      "B) Δ = r * s বা r = Δ / s",
+      "C) Δ = (1/2) * r * s",
+      "D) Δ = r / s"
+    ],
+    "answer": 1,
+    "explanation": "ত্রিভুজের ক্ষেত্রফল হলো অন্তঃব্যাসার্ধ ও অর্ধ-পরিসীমার গুণফলের সমান ($\\Delta = rs$)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3094,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "ত্রিভুজের তিন বাহু a, b, c এবং পরিবৃত্তের ব্যাসার্ধ R হলে ক্ষেত্রফলের সম্পর্ক কোনটি?",
+    "options": [
+      "A) Δ = 4R / (abc)",
+      "B) R = 4Δ * abc",
+      "C) Δ = (a * b * c) / (4R) বা R = (abc) / (4Δ)",
+      "D) Δ = (a * b * c) / (2R)"
+    ],
+    "answer": 2,
+    "explanation": "পরিব্যাসার্ধের সাথে সম্পর্ক হলো $\\Delta = \\frac{abc}{4R}$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3095,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "A = 2i + 3j - k এবং B = 3i - 2j + 0k হলে তাদের ডট গুণন A · B কত?",
+    "options": [
+      "A) ১২",
+      "B) -১",
+      "C) ৬",
+      "D) ০ (Zero - অর্থাৎ ভেক্টরদ্বয় পরস্পর লম্ব)"
+    ],
+    "answer": 3,
+    "explanation": "$\\vec{A} \\cdot \\vec{B} = (2)(3) + (3)(-2) + (-1)(0) = 6 - 6 + 0 = 0$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3096,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "A = 3i + 4j ভেক্টরটির মান |A| কত?",
+    "options": [
+      "A) ৫ (5)",
+      "B) ১",
+      "C) ২৫",
+      "D) ৭"
+    ],
+    "answer": 0,
+    "explanation": "$|A| = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3097,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "বিপরীত ভেক্টর (Negative Vector) বলতে কী বোঝায়?",
+    "options": [
+      "A) যার মান দ্বিগুণ",
+      "B) যার দিক অভিন্ন",
+      "C) যে ভেক্টরের মান মূল ভেক্টরের সমান কিন্তু দিক সম্পূর্ণ বিপরীতমুখী",
+      "D) যার মান শূন্য"
+    ],
+    "answer": 2,
+    "explanation": "একই মান কিন্তু বিপরীত দিক বিশিষ্ট ভেক্টরকে নেগেটিভ ভেক্টর ($-\\vec{A}$) বলে; এদের যোগফল নাল ভেক্টর হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3098,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "যেকোনো ত্রিভুজ ABC-তে \\tan[(B - C) / 2] নির্ণয়ের নেপিয়ারের অ্যানালজি (Napier's Analogy) কোনটি?",
+    "options": [
+      "A) \\tan[(B - C) / 2] = [(b - c) / (b + c)] * \\tan(A / 2)",
+      "B) \\tan[(B - C) / 2] = [(b - c) / (b + c)] * \\cot(A / 2)",
+      "C) \\tan[(B - C) / 2] = [(b + c) / (b - c)] * \\cot(A / 2)",
+      "D) \\tan[(B - C) / 2] = (b - c) / a"
+    ],
+    "answer": 1,
+    "explanation": "নেপিয়ারের অ্যানালজি: $\\tan\\left(\\frac{B - C}{2}\\right) = \\frac{b - c}{b + c} \\cot\\left(\\frac{A}{2}\\right)$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3099,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "ত্রিভুজের কোণগুলো A = 30°, B = 60° এবং C = 90° হলে বাহুগুলোর অনুপাত a : b : c কত?",
+    "options": [
+      "A) ৪ : ৫",
+      "B) √৩ : ১",
+      "C) ১ : √২",
+      "D) √৩ : ২ (1 : √3 : 2)"
+    ],
+    "answer": 3,
+    "explanation": "সাইন সূত্রানুযায়ী $a : b : c = \\sin 30^\\circ : \\sin 60^\\circ : \\sin 90^\\circ = \\frac{1}{2} : \\frac{\\sqrt{3}}{2} : 1 = 1 : \\sqrt{3} : 2$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3100,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৪: ভেক্টর বীজগণিত ও ত্রিকোণমিতি",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "A ভেক্টরের ওপর B ভেক্টরের স্কেলার অভিক্ষেপ (Projection of B on A) কত?",
+    "options": [
+      "A) (A · B) / |A|",
+      "B) |A × B| / |A|",
+      "C) · B",
+      "D) (A · B) / |B|"
+    ],
+    "answer": 0,
+    "explanation": "$A$-এর ওপর $B$-এর অভিক্ষেপ হলো $|B|\\cos\\theta = \\frac{\\vec{A} \\cdot \\vec{B}}{|A|}$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

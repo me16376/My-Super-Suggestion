@@ -1,0 +1,19 @@
+[
+  {
+    "id": 3037,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Official Drafting & Memorandum",
+    "question": "Draft an official administrative memorandum from the ICT Division to all regional passport offices instructing mandatory enforcement of Two-Factor Authentication (2FA) and a Strict Clean Desk Policy on all biometric enrollment terminals.",
+    "marks": 7,
+    "answer": "Model Administrative Memorandum:\n\nDEPARTMENT OF IMMIGRATION AND PASSPORTS\nICT & INFORMATION SECURITY CELL\nHeadquarters, E-7 Agargaon, Dhaka-1207\n\nMEMORANDUM\n\nRef No: 44.01.0000.701.12.008.26-112\nDate: 23 October 2026\n\nTO: All Assistant Directors, Maintenance Engineers & Data Entry Supervisors\n    Regional Passport Offices (All)\n\nSUBJECT: MANDATORY ENFORCEMENT OF TWO-FACTOR AUTHENTICATION (2FA) AND STRICT CLEAN DESK POLICY FOR ALL BIOMETRIC ENROLLMENT TERMINALS\n\n1. Recent national vulnerability assessments indicate that credential theft and unauthorized terminal access represent the highest threat vectors targeting citizen identity databases. To fortify our Critical Information Infrastructure against illicit intrusion, the following security directives are hereby promulgated for immediate and strict compliance:\n\n   (a) **Mandatory 2FA Enforcement:** Effective from 01 November 2026, no operator shall access the e-Passport Central Portal using single-factor static passwords. Access will strictly require user credentials paired with a hardware FIDO2 Security Token or mobile-based authenticator OTP.\n   (b) **Clean Desk and Clear Screen Policy:** All enrollment desks must remain clear of physical applicant files, handwritten passport numbers, or removable media (USB drives) when unattended. Workstations must be configured to lock automatically after two (02) minutes of inactivity.\n   (c) **Prohibition of Unauthorized Hardware:** Under no circumstances shall personal smartphones, external webcams, or unauthorized Wi-Fi dongles be connected to the government network switch or PC USB ports.\n\n2. Regional Sub-Assistant Maintenance Engineers are instructed to conduct bi-weekly audit sweeps and log terminal compliance. Any breach of this directive will trigger disciplinary action under the Government Servants (Conduct) Rules.\n\nBy Order of the Director General,\n\n(Signature)\n(Engr. Tanvir Ahmed)\nDirector (Systems & ICT)\nDepartment of Immigration and Passports, Dhaka.",
+    "points_to_remember": [
+      "Numbered instructions provide clarity and authority in administrative memos.",
+      "Specify compliance deadlines and consequences of non-compliance."
+    ],
+    "tags": [
+      "official_memo",
+      "cybersecurity_policy",
+      "english_drafting"
+    ]
+  }
+]

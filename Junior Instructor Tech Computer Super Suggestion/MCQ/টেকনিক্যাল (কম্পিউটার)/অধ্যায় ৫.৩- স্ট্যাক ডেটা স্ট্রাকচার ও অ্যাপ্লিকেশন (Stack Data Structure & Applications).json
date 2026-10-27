@@ -1,0 +1,527 @@
+[
+  {
+    "id": 5046,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "স্ট্যাক (Stack) কোন নীতি বা মেকানিজমে পরিচালিত হয়?",
+    "options": [
+      "A) Random Order",
+      "B) LIFO (Last-In-First-Out) বা FILO",
+      "C) FIFO (First-In-First-Out)",
+      "D) Priority Order"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যাকে সবার শেষে যে উপাদান প্রবেশ করানো হয়, অপসারণের সময় সেই উপাদানটিই সবার আগে বের হয় (LIFO)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5047,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "স্ট্যাকে নতুন উপাদান যুক্ত করার এবং উপাদান মুছে ফেলার মৌলিক অপারেশন দুটি কী কী?",
+    "options": [
+      "A) Insert এবং Delete",
+      "B) Enqueue এবং Dequeue",
+      "C) Push (যুক্ত করা) এবং Pop (মুছে ফেলা)",
+      "D) Add এবং Remove"
+    ],
+    "answer": 2,
+    "explanation": "স্ট্যাকের শীর্ষে উপাদান ঢোকানোকে `Push` এবং শীর্ষ থেকে বের করাকে `Pop` বলা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5048,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "স্ট্যাক থেকে অপসারণ না করে কেবলমাত্র শীর্ষের উপাদানটি দেখার অপারেশনকে কী বলে?",
+    "options": [
+      "A) Check",
+      "B) Pop",
+      "C) View",
+      "D) Peek বা Top"
+    ],
+    "answer": 3,
+    "explanation": "`peek()` বা `top()` মেথড স্ট্যাকের সাইজ না কমিয়ে শীর্ষের বর্তমান উপাদানটি রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5049,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "একটি সম্পূর্ণ পূর্ণ স্ট্যাকে নতুন উপাদান Push করার চেষ্টা করলে কোন ত্রুটি ঘটে?",
+    "options": [
+      "A) নাল পয়েন্টার",
+      "B) স্ট্যাক আন্ডারফ্লো (Stack Underflow)",
+      "C) মেমরি লিক",
+      "D) স্ট্যাক ওভারফ্লো (Stack Overflow)"
+    ],
+    "answer": 3,
+    "explanation": "নির্দিষ্ট ধারণক্ষমতা পূর্ণ হওয়ার পর উপাদান যোগ করার চেষ্টা হলো Stack Overflow।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5050,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "একটি সম্পূর্ণ খালি স্ট্যাক থেকে উপাদান Pop করার চেষ্টা করলে কোন অবস্থা সৃষ্টি হয়?",
+    "options": [
+      "A) ডেডলক",
+      "B) স্ট্যাক ওভারফ্লো",
+      "C) স্ট্যাক আন্ডারফ্লো (Stack Underflow)",
+      "D) বাফার ব্লকিং"
+    ],
+    "answer": 2,
+    "explanation": "খালি স্ট্যাক (Top == -1) থেকে ডিলিট করার চেষ্টা করলে Stack Underflow ঘটে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5051,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "স্ট্যাকের `push()`, `pop()`, এবং `peek()` অপারেশনের টাইম কমপ্লেক্সিটি কত?",
+    "options": [
+      "A) $O(\\log N)$",
+      "B) $O(1)$",
+      "C) $O(N)$",
+      "D) $O(N^2)$"
+    ],
+    "answer": 1,
+    "explanation": "যেহেতু সকল অপারেশন কেবল স্ট্যাকের এক প্রান্তে (Top) সম্পন্ন হয়, তাই প্রতিটি অপারেশন কনস্ট্যান্ট টাইম $O(1)$-এ ঘটে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5052,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "কম্পিউটার বিজ্ঞানে স্ট্যাকের বাস্তব ক্লাসিক প্রয়োগ কোনগুলো?",
+    "options": [
+      "A) ফাংশন কল ও রিকার্শন ব্যবস্থাপনা, বন্ধনী সমতা পরীক্ষা (Balanced Parentheses), এক্সপ্রেশন রূপান্তর ও আনডু/রিডু (Undo/Redo)",
+      "B) নেটওয়ার্ক প্যাকেট রাউটিং",
+      "C) সিপিইউ শিডিউলিং",
+      "D) প্রিন্টার স্পুলিং"
+    ],
+    "answer": 0,
+    "explanation": "ফাংশন কল স্ট্যাক, ব্রাউজারের ব্যাক বাটন, টেক্সট এডিটরের Undo এবং প্যারেন্থেসিস চেকিংয়ে স্ট্যাক ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5053,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "অ্যারিথমেটিক এক্সপ্রেশন `A + B` কোন নোটেশনে রয়েছে?",
+    "options": [
+      "A) পোস্টফিক্স নোটেশন (Postfix / RPN)",
+      "B) প্রিফিক্স নোটেশন (Prefix / Polish)",
+      "C) ইনফিক্স নোটেশন (Infix Notation)",
+      "D) ফিক্সড নোটেশন"
+    ],
+    "answer": 2,
+    "explanation": "অপারেটর যদি দুটি অপারেন্ডের মাঝে থাকে তবে তা Infix নোটেশন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5054,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "এক্সপ্রেশন `+ A B` কোন নোটেশন নির্দেশ করে?",
+    "options": [
+      "A) প্রিফিক্স নোটেশন বা পোলিশ নোটেশন (Prefix Notation)",
+      "B) পোস্টফিক্স",
+      "C) টার্নারি",
+      "D) ইনফিক্স"
+    ],
+    "answer": 0,
+    "explanation": "অপারেটর অপারেন্ডের পূর্বে থাকলে তাকে Prefix বা Polish Notation বলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5055,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "এক্সপ্রেশন `A B +` কোন নোটেশন প্রকাশ করে?",
+    "options": [
+      "A) প্রিফিক্স",
+      "B) পোস্টফিক্স নোটেশন বা রিভার্স পোলিশ নোটেশন (Postfix / RPN)",
+      "C) মিক্সড",
+      "D) ইনফিক্স"
+    ],
+    "answer": 1,
+    "explanation": "অপারেটর অপারেন্ডের পরে অবস্থান করলে তাকে Postfix বা Reverse Polish Notation (RPN) বলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5056,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "ইনফিক্স এক্সপ্রেশনকে পোস্টফিক্সে রূপান্তরের জন্য কম্পিউটার বিজ্ঞানী এডসগার ডিকস্ট্রার অ্যালগরিদম কোনটি?",
+    "options": [
+      "A) প্রিমস অ্যালগরিদম",
+      "B) কাদানের অ্যালগরিদম",
+      "C) ক্রুসকল অ্যালগরিদম",
+      "D) শান্টিং-ইয়ার্ড অ্যালগরিদম (Shunting-yard Algorithm)"
+    ],
+    "answer": 3,
+    "explanation": "শান্টিং-ইয়ার্ড অ্যালগরিদম স্ট্যাক ব্যবহার করে অপারেটর প্রেসিডেন্স অনুযায়ী ইনফিক্সকে পোস্টফিক্সে রূপান্তর করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5057,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "ইনফিক্স এক্সপ্রেশন `A + B * C` এর সঠিক পোস্টফিক্স রূপ কোনটি?",
+    "options": [
+      "A) B + C *",
+      "B) + A * B C",
+      "C) B C * +",
+      "D) B C + *"
+    ],
+    "answer": 2,
+    "explanation": "গুণের প্রাধান্য বেশি হওয়ায় আগে `B C *` হবে, তারপর `A` এর সাথে যোগ হয়ে `A B C * +` হবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5058,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "পোস্টফিক্স এক্সপ্রেশন মূল্যায়নে (Postfix Evaluation) স্ট্যাকের অ্যালগরিদমে যখন কোনো সংখ্যা পাওয়া যায় তখন কী করা হয়?",
+    "options": [
+      "A) সংখ্যাটিকে সরাসরি স্ট্যাকে Push করা হয়",
+      "B) প্রিন্ট করা হয়",
+      "C) বাদ দেওয়া হয়",
+      "D) স্ট্যাক থেকে Pop করা হয়"
+    ],
+    "answer": 0,
+    "explanation": "অপারেন্ড পেলে স্ট্যাকে পুশ হয়; আর অপারেটর পেলে শীর্ষের দুটি অপারেন্ড পপ করে হিসাব করে ফলাফল পুনরায় পুশ হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5059,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "পোস্টফিক্স এক্সপ্রেশন `2 3 1 * + 9 -` এর চূড়ান্ত মান কত?",
+    "options": [
+      "A) 6",
+      "B) 4",
+      "C) 5",
+      "D) -4"
+    ],
+    "answer": 3,
+    "explanation": "3 * 1 = 3 -> 2 + 3 = 5 -> 5 - 9 = -4।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5060,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "একটি কোডে বন্ধনীগুলো সঠিকভাবে ভারসাম্যপূর্ণ (Balanced Parentheses) কিনা তা যাচাই করতে কোন ডেটা স্ট্রাকচার ব্যবহৃত হয়?",
+    "options": [
+      "A) অ্যারে",
+      "B) স্ট্যাক (Stack)",
+      "C) ট্রি",
+      "D) কিউ"
+    ],
+    "answer": 1,
+    "explanation": "উদ্বোধনী বন্ধনী পেলে স্ট্যাকে পুশ এবং সমাপনী বন্ধনী পেলে শীর্ষের সাথে মিলিয়ে পপ করার মাধ্যমে ভারসাম্য যাচাই হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5061,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "অ্যারেতে নেক্সট গ্রেটার এলিমেন্ট (Next Greater Element) সমস্যা $O(N)$ সময়ে সমাধানের জন্য কোন বিশেষ স্ট্যাক টেকনিক ব্যবহৃত হয়?",
+    "options": [
+      "A) Priority Stack",
+      "B) ডাবল স্ট্যাক",
+      "C) সার্কুলার স্ট্যাক",
+      "D) মনোটোনিক স্ট্যাক (Monotonic Stack)"
+    ],
+    "answer": 3,
+    "explanation": "মনোটোনিক স্ট্যাক উপাদানগুলোকে সর্বদা একমুখী ক্রমানুসারে বজায় রেখে এক পাসে নেক্সট গ্রেটার বা স্মলার বের করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5062,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "হিস্টোগ্রামে বৃহত্তম আয়তক্ষেত্র (Largest Rectangle in Histogram) নির্ণয়ের বিখ্যাত অ্যালগরিদম কোন ডেটা স্ট্রাকচার নির্ভর?",
+    "options": [
+      "A) গ্রাফ",
+      "B) কিউ",
+      "C) মনোটোনিক স্ট্যাক ($O(N)$ সময়)",
+      "D) বাইনারি সার্চ"
+    ],
+    "answer": 2,
+    "explanation": "হিস্টোগ্রামের বারগুলোর উচ্চতা মনোটোনিক স্ট্যাকে রেখে লিনিয়ার $O(N)$ সময়ে বৃহত্তম আয়তক্ষেত্রের ক্ষেত্রফল পাওয়া যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5063,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "অ্যারে ব্যবহার করে স্ট্যাক বাস্তবায়নের ক্ষেত্রে প্রাথমিক অবস্থায় শীর্ষ পয়েন্টার `top` এর মান কত রাখা হয়?",
+    "options": [
+      "A) -1",
+      "B) 0",
+      "C) 1",
+      "D) NULL"
+    ],
+    "answer": 0,
+    "explanation": "জিরো-ইনডেক্সড অ্যারেতে উপাদান না থাকলে শীর্ষ নির্দেশক `top = -1` দিয়ে খালি স্ট্যাক বোঝানো হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5064,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "লিঙ্কড লিস্ট ব্যবহার করে স্ট্যাক তৈরি করলে Push এবং Pop অপারেশন কোন প্রান্তে করা হয়?",
+    "options": [
+      "A) র‍্যান্ডম নোডে",
+      "B) সর্বদা হেডের (Head/First node) প্রান্তে ($O(1)$ সময়ে)",
+      "C) মাঝের নোডে",
+      "D) টেইল বা শেষ নোডে"
+    ],
+    "answer": 1,
+    "explanation": "হেড নোডে ইনসার্ট ও ডিলিট করলে কোনো ট্রাভার্সাল ছাড়া $O(1)$ সময়ে পুশ ও পপ সম্পন্ন করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5065,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "একটি একক অ্যারের ভেতর দুটি স্ট্যাক (Two Stacks in One Array) মেমরি দক্ষতার সাথে বাস্তবায়নের আদর্শ উপায় কোনটি?",
+    "options": [
+      "A) একটি বিজোড় ইনডেক্সে ও অন্যটি জোড় ইনডেক্সে রাখা",
+      "B) উভয় স্ট্যাক শুরু থেকেই ডানে বাড়বে",
+      "C) একটি স্ট্যাক অ্যারের শুরু থেকে ডানে বাড়বে এবং অপরটি শেষ প্রান্ত থেকে বামে বাড়বে",
+      "D) অ্যারেকে দুই ভাগে ভাগ করে নেওয়া"
+    ],
+    "answer": 2,
+    "explanation": "উভয় প্রান্ত থেকে পরস্পরের দিকে বাড়লে কোনো স্ট্যাক অপচয় হয় না এবং পুরো অ্যারে পূর্ণ না হওয়া পর্যন্ত ওভারফ্লো হয় না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5066,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "রিকার্সিভ ফাংশন কল মেমরিতে কার্যকর করতে সিস্টেম স্বয়ংক্রিয়ভাবে কী ব্যবহার করে?",
+    "options": [
+      "A) কল স্ট্যাক (Call Stack) ও অ্যাক্টিভেশন রেকর্ড ফ্রেম",
+      "B) ক্যাশ",
+      "C) হিপ",
+      "D) কিউ"
+    ],
+    "answer": 0,
+    "explanation": "প্রতিটি ফাংশন কলের লোকাল স্টেট, প্যারামিটার ও রিটার্ন অ্যাড্রেস সিস্টেম কল স্ট্যাকে জমা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5067,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "একটি স্ট্রিংকে রিভার্স বা উল্টানোর জন্য সবচেয়ে সহজ ও স্বাভাবিক ডেটা স্ট্রাকচার কোনটি?",
+    "options": [
+      "A) ম্যাপ",
+      "B) ট্রি",
+      "C) কিউ",
+      "D) স্ট্যাক (Stack)"
+    ],
+    "answer": 3,
+    "explanation": "স্ট্রিংয়ের অক্ষরগুলো একের পর এক স্ট্যাকে পুশ করে আবার পপ করলে LIFO বৈশিষ্ট্যের কারণে স্বয়ংক্রিয়ভাবে উল্টো হয়ে বের হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5068,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "সাধারণ স্ট্যাকে $O(1)$ সময়ে সর্বনিম্ন উপাদান পাওয়ার জন্য (Min-Stack) অতিরিক্ত কী প্রয়োজন হয়?",
+    "options": [
+      "A) একটি সর্টেড অ্যারে",
+      "B) একটি সহায়ক অক্সিলিয়ারি স্ট্যাক যা প্রতিটি ধাপে সর্বনিম্ন মানটি ধরে রাখে",
+      "C) বাইনারি ট্রি",
+      "D) লুপ চালানো"
+    ],
+    "answer": 1,
+    "explanation": "Min-Stack ডিজাইনে একটি অক্সিলিয়ারি স্ট্যাক মূল মানের সাথে সংশ্লিষ্ট সর্বনিম্ন মান ট্র্যাক করে $O(1)$ সময়ে `getMin()` দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5069,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "দুটি কিউ (Queue) ব্যবহার করে একটি স্ট্যাক বাস্তবায়ন করতে চাইলে কোন অপারেশনটি ব্যয়বহুল ($O(N)$) হতে পারে?",
+    "options": [
+      "A) Push অথবা Pop অপারেশন",
+      "B) IsEmpty অপারেশন",
+      "C) Peek অপারেশন",
+      "D) Size অপারেশন"
+    ],
+    "answer": 0,
+    "explanation": "কিউ দিয়ে স্ট্যাক বানাতে হয় `Push`-কে $O(N)$ বানাতে হয় উপাদান স্থানান্তরের মাধ্যমে, অথবা `Pop`-কে $O(N)$ বানাতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5070,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৩: স্ট্যাক ডেটা স্ট্রাকচার ও অ্যাপ্লিকেশন (Stack Data Structure & Applications)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "টাওয়ার অব হ্যানয় (Tower of Hanoi) সমস্যায় রডের উপর ডিস্ক সাজানোর নীতি কোন ডেটা স্ট্রাকচারের সাথে সাদৃশ্যপূর্ণ?",
+    "options": [
+      "A) অ্যারে",
+      "B) কিউ",
+      "C) গ্রাফ",
+      "D) স্ট্যাক (Stack)"
+    ],
+    "answer": 3,
+    "explanation": "ডিস্কগুলো কেবল শীর্ষ থেকেই সরানো ও রাখা যায় বিধায় এটি স্ট্যাকের নিখুঁত প্রতিচ্ছবি।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

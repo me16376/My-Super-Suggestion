@@ -1,0 +1,317 @@
+[
+  {
+    "id": 4886,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৭: পাইথন স্ট্রিং ও লিস্ট ডেটা স্ট্রাকচার",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে স্ট্রিংয়ের নেগেটিভ ইনডেক্সিংয়ে `-1` কোন উপাদানকে নির্দেশ করে?",
+    "options": [
+      "A) প্রথম ক্যারেক্টার",
+      "B) দ্বিতীয় ক্যারেক্টার",
+      "C) স্ট্রিংয়ের একদম শেষ ক্যারেক্টার (Last Character)",
+      "D) নাল ক্যারেক্টার"
+    ],
+    "answer": 2,
+    "explanation": "পাইথনে নেগেটিভ ইনডেক্স পেছন দিক থেকে গোনে; ফলে `-1` হলো সর্বশেষ উপাদান এবং `-2` হলো শেষ দিক থেকে দ্বিতীয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4887,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৭: পাইথন স্ট্রিং ও লিস্ট ডেটা স্ট্রাকচার",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে স্লাইসিং (Slicing) সিনট্যাক্স `s[start:stop:step]` ব্যবহার করে একটি স্ট্রিং রিভার্স করার সংক্ষিপ্ততম উপায় কোনটি?",
+    "options": [
+      "A) s[0:-1]",
+      "B) s[::-1]",
+      "C) s[-1:0]",
+      "D) s.reverse()"
+    ],
+    "answer": 1,
+    "explanation": "`s[::-1]` স্টেপ -১ দিয়ে পুরো স্ট্রিংকে শুরু থেকে শেষ পর্যন্ত সম্পূর্ণ উল্টে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4888,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৭: পাইথন স্ট্রিং ও লিস্ট ডেটা স্ট্রাকচার",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "স্ট্রিংয়ের দুই প্রান্তের অবাঞ্ছিত স্পেস বা হোয়াইটস্পেস মুছে ফেলার স্ট্রিং মেথড কোনটি?",
+    "options": [
+      "A) strip()",
+      "B) lstrip()",
+      "C) trim()",
+      "D) clean()"
+    ],
+    "answer": 0,
+    "explanation": "`strip()` উভয় পাশের স্পেস মোছে, `lstrip()` কেবল বাম পাশের এবং `rstrip()` ডান পাশের স্পেস মোছে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4889,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৭: পাইথন স্ট্রিং ও লিস্ট ডেটা স্ট্রাকচার",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "একটি লিস্টের স্ট্রিং উপাদানগুলোকে নির্দিষ্ট ডিলিমিটার দিয়ে জোড়া লাগিয়ে একক স্ট্রিং বানানোর মেথড কোনটি?",
+    "options": [
+      "A) concat(list)",
+      "B) list.join(delimiter)",
+      "C) merge(list)",
+      "D) delimiter.join(list)"
+    ],
+    "answer": 3,
+    "explanation": "`'-'.join(['a', 'b', 'c'])` এর ফলাফল হবে `'a-b-c'`।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4890,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৭: পাইথন স্ট্রিং ও লিস্ট ডেটা স্ট্রাকচার",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে লিস্ট (List) ডেটা স্ট্রাকচারের প্রধান বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "A) শুধুমাত্র সমজাতীয় উপাত্ত ধারণ করতে পারে",
+      "B) ইমিউটেবল এবং ফিক্সড সাইজ",
+      "C) অর্ডারড (Ordered), মিউটেবল (Mutable) এবং ভিন্ন ভিন্ন ডেটা টাইপের মিশ্রণ ধারণ করতে সক্ষম",
+      "D) আন-অর্ডার্ড"
+    ],
+    "answer": 2,
+    "explanation": "লিস্ট হলো পরিবর্তনযোগ্য ক্রম যাতে ইনটিজার, স্ট্রিং, অবজেক্ট যেকোনো ধরনের ডেটা একসাথে রাখা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4891,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৭: পাইথন স্ট্রিং ও লিস্ট ডেটা স্ট্রাকচার",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "একটি বিদ্যমান লিস্টের একদম শেষে নতুন একটি একক উপাদান যুক্ত করার মেথড কোনটি?",
+    "options": [
+      "A) append(item)",
+      "B) extend(item)",
+      "C) add(item)",
+      "D) insert(item)"
+    ],
+    "answer": 0,
+    "explanation": "`list.append(x)` উপাদানটিকে লিস্টের শেষ প্রান্তে একক উপাদান হিসেবে যুক্ত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4892,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৭: পাইথন স্ট্রিং ও লিস্ট ডেটা স্ট্রাকচার",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "`list.append([4, 5])` এবং `list.extend([4, 5])` এর মধ্যে পার্থক্য কী?",
+    "options": [
+      "A) উভয়ের কার্যপদ্ধতি হুবহু একই",
+      "B) `append` পুরো [4, 5] লিস্টটিকে একটিমাত্র নেস্টেড উপাদান হিসেবে যোগ করে; আর `extend` উপাদান দুটিকে আলাদা আলাদাভাবে যোগ করে",
+      "C) `extend` কেবল স্ট্রিং যোগ করে",
+      "D) `append` শুরুতে যোগ করে"
+    ],
+    "answer": 1,
+    "explanation": "`append` একক এলিমেন্ট যোগ করে (লিস্ট যোগ করলে নেস্টেড লিস্ট হয়); আর `extend` ইটারেবলের প্রতিটি উপাদান আনপ্যাক করে মূল লিস্ট বাড়ায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4893,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৭: পাইথন স্ট্রিং ও লিস্ট ডেটা স্ট্রাকচার",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "লিস্টের কোনো নির্দিষ্ট ইনডেক্সে উপাদান ঢোকানোর মেথড কোনটি?",
+    "options": [
+      "A) add(index, item)",
+      "B) put(index, item)",
+      "C) push(index, item)",
+      "D) insert(index, item)"
+    ],
+    "answer": 3,
+    "explanation": "`list.insert(0, 'first')` ইনডেক্স ০-তে নতুন উপাদান ঢুকিয়ে বাকিগুলোকে ডানে সরিয়ে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4894,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৭: পাইথন স্ট্রিং ও লিস্ট ডেটা স্ট্রাকচার",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "লিস্ট থেকে নির্দিষ্ট কোনো উপাদান মানের ভিত্তিতে প্রথম উপস্থিতি মুছে ফেলার মেথড কোনটি?",
+    "options": [
+      "A) delete(value)",
+      "B) pop(value)",
+      "C) remove(value)",
+      "D) discard(value)"
+    ],
+    "answer": 2,
+    "explanation": "`list.remove(x)` তালিকার প্রথম ম্যাচিং মানটি মুছে ফেলে; মান না থাকলে `ValueError` দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4895,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৭: পাইথন স্ট্রিং ও লিস্ট ডেটা স্ট্রাকচার",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "লিস্টের নির্দিষ্ট ইনডেক্স থেকে উপাদান মুছে ফেলে সেই মুছে ফেলা মানটি রিটার্ন করে কোন মেথডটি?",
+    "options": [
+      "A) pop(index)",
+      "B) del(index)",
+      "C) remove(index)",
+      "D) pull(index)"
+    ],
+    "answer": 0,
+    "explanation": "`list.pop()` ডিফল্টভাবে শেষ উপাদানটি মুছে রিটার্ন করে; `list.pop(i)` নির্দিষ্ট ইনডেক্সের উপাদান দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4896,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৭: পাইথন স্ট্রিং ও লিস্ট ডেটা স্ট্রাকচার",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "লিস্ট কম্প্রিহেনশন (List Comprehension) ব্যবহারের মূল সুবিধা কী?",
+    "options": [
+      "A) লিস্টকে ইমিউটেবল করে",
+      "B) সংক্ষিপ্ত, পরিচ্ছন্ন এবং সাধারণ লুপের চেয়ে দ্রুতগতিতে নতুন লিস্ট তৈরি করা যায়",
+      "C) শুধুমাত্র সংখ্যার জন্য প্রযোজ্য",
+      "D) মেমরি ব্যবহার দ্বিগুণ করে"
+    ],
+    "answer": 1,
+    "explanation": "`[x**2 for x in range(10) if x % 2 == 0]` পাইথনিক ও অত্যন্ত অপ্টিমাইজড লিস্ট তৈরির উপায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4897,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৭: পাইথন স্ট্রিং ও লিস্ট ডেটা স্ট্রাকচার",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "`list.sort()` মেথড এবং `sorted(list)` ফাংশনের মধ্যে মূল পার্থক্য কী?",
+    "options": [
+      "A) `list.sort()` নতুন কপি দেয়",
+      "B) `list.sort()` মূল লিস্টটিকে মেমরিতে সরাসরি সাজিয়ে ফেলে (In-place); আর `sorted()` মূল লিস্ট অপরিবর্তিত রেখে নতুন সর্টেড লিস্ট দেয়",
+      "C) `sorted()` কেবল রিভার্স করে",
+      "D) উভয়ের আচরণ এক"
+    ],
+    "answer": 1,
+    "explanation": "`sort()` মেথড ইন-প্লেস সর্ট করে `None` রিটার্ন করে; `sorted()` একটি নতুন সর্টেড লিস্ট রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4898,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৭: পাইথন স্ট্রিং ও লিস্ট ডেটা স্ট্রাকচার",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে শ্যালো কপি (Shallow Copy) এবং ডিপ কপির (Deep Copy) মধ্যে পার্থক্য কী?",
+    "options": [
+      "A) ডিপ কপি কোনো অবজেক্ট ক্লোন করে না",
+      "B) উভয় কপি হুবহু এক",
+      "C) শ্যালো কপিতে মেমরি বেশি লাগে",
+      "D) শ্যালো কপি ভেতরের নেস্টেড অবজেক্টের রেফারেন্স কপি করে; ডিপ কপি ভেতরের সকল নেস্টেড অবজেক্টের সম্পূর্ণ স্বাধীন ক্লোন কপি তৈরি করে"
+    ],
+    "answer": 3,
+    "explanation": "নেস্টেড লিস্টে শ্যালো কপি করলে ভেতরের লিস্ট মডিফাই করলে দুটোতেই বদলে যায়; `copy.deepcopy()` সম্পূর্ণ স্বাধীন কপি দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4899,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৭: পাইথন স্ট্রিং ও লিস্ট ডেটা স্ট্রাকচার",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "নিচের কোডের আউটপুট কী হবে?\n`a = [1, 2, 3]\nb = a\nb.append(4)\nprint(a)`",
+    "options": [
+      "A) [1, 2, 3]",
+      "B) [4]",
+      "C) [1, 2, 3, 4] (কারণ b এবং a একই মেমরি রেফারেন্স শেয়ার করে)",
+      "D) Error"
+    ],
+    "answer": 2,
+    "explanation": "`b = a` কোনো নতুন লিস্ট বানায় না, শুধু রেফারেন্স কপি করে; তাই b পরিবর্তন করলে a-ও পরিবর্তিত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4900,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৭: পাইথন স্ট্রিং ও লিস্ট ডেটা স্ট্রাকচার",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "একটি লিস্টের সকল উপাদান সম্পূর্ণ খালি করে ফেলার ইন-প্লেস মেথড কোনটি?",
+    "options": [
+      "A) clear()",
+      "B) erase()",
+      "C) clean()",
+      "D) empty()"
+    ],
+    "answer": 0,
+    "explanation": "`list.clear()` লিস্টটির অস্তিত্ব অক্ষুণ্ণ রেখে ভেতরের সকল উপাদান মুছে ফেলে ফাঁকা লিস্ট `[]` বানায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

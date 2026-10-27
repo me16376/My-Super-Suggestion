@@ -1,0 +1,317 @@
+[
+  {
+    "id": 4831,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৩: পাইথন অপারেটর ও এক্সপ্রেশন",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে ফ্লোর ডিভিশন বা পূর্ণসংখ্যা ভাগফল (Floor Division) অপারেটর কোনটি?",
+    "options": [
+      "A) //",
+      "B) **",
+      "C) %",
+      "D) /"
+    ],
+    "answer": 0,
+    "explanation": "`//` অপারেটর ভাগফলের দশমিক অংশ ছেঁটে নিকটবর্তী ছোট পূর্ণসংখ্যা প্রদান করে (যেমন: `7 // 2` হয় 3, এবং `-7 // 2` হয় -4)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4832,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৩: পাইথন অপারেটর ও এক্সপ্রেশন",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে সাধারণ ট্রু ডিভিশন (True Division) অপারেটর `/` এর আউটপুট সর্বদা কোন ডেটা টাইপ হয়?",
+    "options": [
+      "A) int",
+      "B) float (ফ্লোটিং পয়েন্ট সংখ্যা)",
+      "C) ডাবল",
+      "D) ইনপুটের ওপর নির্ভর করে"
+    ],
+    "answer": 1,
+    "explanation": "পাইথন ৩-এ `/` অপারেটর দিয়ে দুটি পূর্ণসংখ্যাকে ভাগ করলেও (যেমন: `4 / 2`) ফলাফল সর্বদা `float` (2.0) হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4833,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৩: পাইথন অপারেটর ও এক্সপ্রেশন",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে ঘাত বা এক্সপোনেনশিয়েশন (Power / Exponentiation) অপারেটর কোনটি?",
+    "options": [
+      "A) pow",
+      "B) ^",
+      "C) ^^",
+      "D) ** (যেমন: 2 ** 3 = 8)"
+    ],
+    "answer": 3,
+    "explanation": "`**` দিয়ে পাওয়ার হিসাব করা হয়; অন্যদিকে `^` হলো বিটওয়াইজ এক্স-অর অপারেটর।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4834,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৩: পাইথন অপারেটর ও এক্সপ্রেশন",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে এক্সপোনেনশিয়েশন অপারেটরের (`**`) অ্যাসোসিয়েটিভিটি কোন দিক থেকে কোন দিকে কাজ করে?",
+    "options": [
+      "A) ডান থেকে বামে (Right to Left)",
+      "B) বাম থেকে ডানে (Left to Right)",
+      "C) র‍্যান্ডম",
+      "D) কোনো অ্যাসোসিয়েটিভিটি নেই"
+    ],
+    "answer": 0,
+    "explanation": "`2 ** 3 ** 2` এর ক্ষেত্রে প্রথমে ডানের `3 ** 2 = 9` হিসাব হয়, তারপর `2 ** 9 = 512` হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4835,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৩: পাইথন অপারেটর ও এক্সপ্রেশন",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে লজিক্যাল অপারেটর কোনগুলো?",
+    "options": [
+      "A) &, |, ~",
+      "B) and, or, not (ইংরেজি শব্দে)",
+      "C) &&, ||, !",
+      "D) AND, OR, NOT"
+    ],
+    "answer": 1,
+    "explanation": "পাইথনে সি-এর মতো `&&` বা `||` নেই; ছোট হাতের ইংরেজি শব্দ `and`, `or`, `not` ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4836,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৩: পাইথন অপারেটর ও এক্সপ্রেশন",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে দুটি অবজেক্ট মেমরির একই ঠিকানা নির্দেশ করছে কিনা তা পরীক্ষা করার আইডেন্টিটি অপারেটর (Identity Operator) কোনটি?",
+    "options": [
+      "A) equals",
+      "B) in",
+      "C) is এবং is not",
+      "D) =="
+    ],
+    "answer": 2,
+    "explanation": "`is` অপারেটর দুটি ভ্যারিয়েবলের মেমরি আইডি (`id(a) == id(b)`) তুলনা করে; অন্যদিকে `==` মান তুলনা করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4837,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৩: পাইথন অপারেটর ও এক্সপ্রেশন",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "যদি `a = [1, 2, 3]` এবং `b = [1, 2, 3]` হয়, তবে `a == b` এবং `a is b` এর ফলাফল যথাক্রমে কী হবে?",
+    "options": [
+      "A) False এবং True",
+      "B) False এবং False",
+      "C) True এবং False",
+      "D) True এবং True"
+    ],
+    "answer": 2,
+    "explanation": "উভয়ের মান একই হওয়ায় `a == b` হলো True; কিন্তু দুটি পৃথক লিস্ট মেমরিতে ভিন্ন ভিন্ন জায়গায় তৈরি হওয়ায় `a is b` হলো False।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4838,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৩: পাইথন অপারেটর ও এক্সপ্রেশন",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "কোনো সিকোয়েন্সে (স্ট্রিং, লিস্ট বা টাপলে) নির্দিষ্ট কোনো মান বিদ্যমান আছে কিনা তা পরীক্ষা করার মেম্বারশিপ অপারেটর (Membership Operator) কোনটি?",
+    "options": [
+      "A) in এবং not in",
+      "B) has",
+      "C) exists",
+      "D) contains"
+    ],
+    "answer": 0,
+    "explanation": "`'a' in 'apple'` সত্য রিটার্ন করে; `in` ও `not in` হলো মেম্বারশিপ অপারেটর।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4839,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৩: পাইথন অপারেটর ও এক্সপ্রেশন",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে টার্নারি অপারেটর বা কন্ডিশনাল এক্সপ্রেশনের সঠিক সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) select(condition, exp1, exp2)",
+      "B) value_if_true if condition else value_if_false",
+      "C) if condition then exp1 else exp2",
+      "D) condition ? exp1 : exp2"
+    ],
+    "answer": 1,
+    "explanation": "পাইথনে টার্নারি সিনট্যাক্স হলো: `x = 'Even' if n % 2 == 0 else 'Odd'`।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4840,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৩: পাইথন অপারেটর ও এক্সপ্রেশন",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথন ৩.৮ এ প্রবর্তিত অ্যাসাইনমেন্ট এক্সপ্রেশন বা ওয়ালরাস অপারেটর (Walrus Operator) কোনটি?",
+    "options": [
+      "A) ==",
+      "B) =:",
+      "C) =>",
+      "D) := (কোলন ও সমান)"
+    ],
+    "answer": 3,
+    "explanation": "`:=` (দেখতে সিন্ধুর ঘোড়ার চোখের মতো) এক্সপ্রেশনের ভেতরেই ভ্যারিয়েবলে মান অ্যাসাইন ও মান রিটার্ন করতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4841,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৩: পাইথন অপারেটর ও এক্সপ্রেশন",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে বিটওয়াইজ নট (Bitwise NOT) অপারেটরে `~x` এর গাণিতিক সূত্র কোনটি?",
+    "options": [
+      "A) x + 1",
+      "B) -(x + 1)",
+      "C) 1 - x",
+      "D) -x"
+    ],
+    "answer": 1,
+    "explanation": "টুজ কমপ্লিমেন্ট নিয়মে `~x` সর্বদা `-(x + 1)` প্রদান করে (যেমন: `~5` এর ফলাফল -6)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4842,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৩: পাইথন অপারেটর ও এক্সপ্রেশন",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "নিচের এক্সপ্রেশনের ফলাফল কী হবে?\n`1 < 2 < 3 == 3`",
+    "options": [
+      "A) False",
+      "B) টাইপ এরর",
+      "C) কম্পাইল এরর",
+      "D) True (চেইনড কম্প্যারিজন: 1 < 2 and 2 < 3 and 3 == 3)"
+    ],
+    "answer": 3,
+    "explanation": "পাইথন Chained Comparison সমর্থন করে, যার প্রতিটি অংশ সত্য হওয়ায় সামগ্রিক ফলাফল True হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4843,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৩: পাইথন অপারেটর ও এক্সপ্রেশন",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে শর্ট সার্কিট ইভালুয়েশনে `10 or 20` এক্সপ্রেশনের আউটপুট কী হবে?",
+    "options": [
+      "A) 30",
+      "B) 20",
+      "C) 10 (কারণ প্রথম অংশ অশূন্য/সত্য হওয়ায় দ্বিতীয় অংশে যায় না)",
+      "D) True"
+    ],
+    "answer": 2,
+    "explanation": "`or` এর প্রথম মান সত্য (ট্রুথি) হলে পাইথন সেই মানটিই সরাসরি রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4844,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৩: পাইথন অপারেটর ও এক্সপ্রেশন",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে শর্ট সার্কিট ইভালুয়েশনে `10 and 20` এর আউটপুট কী হবে?",
+    "options": [
+      "A) 20 (কারণ প্রথম অংশ সত্য হলে দ্বিতীয় অংশের মানের ওপর ফলাফল নির্ভর করে)",
+      "B) 10",
+      "C) True",
+      "D) False"
+    ],
+    "answer": 0,
+    "explanation": "`and` এর ক্ষেত্রে উভয় শর্ত সত্য হতে হয়, তাই প্রথমটি সত্য হলে শেষ অপারেন্ডের মানটিই চূড়ান্ত মান হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4845,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৩: পাইথন অপারেটর ও এক্সপ্রেশন",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে কোন মানগুলো বুলিয়ান যাচাইয়ে 'ফলসি' (Falsy) হিসেবে গণ্য হয়?",
+    "options": [
+      "A) শুধুমাত্র 0 এবং False",
+      "B) শুধুমাত্র ঋণাত্মক সংখ্যা",
+      "C) কেবলমাত্র None",
+      "D) None, False, 0, 0.0, খালি স্ট্রিং \"\", খালি লিস্ট [], খালি টাপল (), খালি ডিকশনারি {}, খালি সেট set()"
+    ],
+    "answer": 3,
+    "explanation": "পাইথনে শূন্য, নান এবং যেকোনো খালি কালেকশন বা সিকোয়েন্স শর্ত হিসেবে দিলে মিথ্যা (False) বিবেচনা করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

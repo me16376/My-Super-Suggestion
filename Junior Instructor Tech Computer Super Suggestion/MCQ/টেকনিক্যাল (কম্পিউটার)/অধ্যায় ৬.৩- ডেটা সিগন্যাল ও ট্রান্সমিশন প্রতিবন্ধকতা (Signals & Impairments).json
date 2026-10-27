@@ -1,0 +1,632 @@
+[
+  {
+    "id": 5256,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "একটি সাইন তরঙ্গের (Sine Wave) তিনটি মৌলিক গাণিতিক বৈশিষ্ট্য কী কী?",
+    "options": [
+      "A) ভোল্টেজ, কারেন্ট এবং রেজিস্ট্যান্স",
+      "B) গতি, দৈর্ঘ্য এবং উচ্চতা",
+      "C) শক্তি, চাপ এবং তাপ",
+      "D) বিস্তার (Peak Amplitude), কম্পাঙ্ক (Frequency), এবং দশা (Phase)"
+    ],
+    "answer": 3,
+    "explanation": "একটি সাধারণ এনালগ পর্যায়বৃত্ত সংকেত $s(t) = A \\sin(2\\pi f t + \\phi)$ দ্বারা নির্ধারিত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5257,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "কম্পাঙ্ক (Frequency - $f$) এবং পর্যায়কালের (Period - $T$) মধ্যকার সম্পর্ক কোনটি?",
+    "options": [
+      "A) $f = 1 / T$ অথবা $T = 1 / f$",
+      "B) $f \\times T = 2$",
+      "C) $f + T = 1$",
+      "D) $f = T^2$"
+    ],
+    "answer": 0,
+    "explanation": "কম্পাঙ্ক হলো প্রতি সেকেন্ডে সম্পন্ন পূর্ণ চক্রের সংখ্যা; এটি পর্যায়কালের বিপরীত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5258,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "তরঙ্গদৈর্ঘ্য (Wavelength - $\\lambda$), সিগন্যালের গতি ($v$) এবং কম্পাঙ্কের ($f$) মধ্যকার সম্পর্ক সূত্র কোনটি?",
+    "options": [
+      "A) $\\lambda = v \\times f$",
+      "B) $\\lambda = f / v$",
+      "C) $\\lambda = v^2 f$",
+      "D) $\\lambda = v / f$ অথবা $v = f \\lambda$"
+    ],
+    "answer": 3,
+    "explanation": "তরঙ্গদৈর্ঘ্য হলো একটি পূর্ণ পর্যায়কালে সিগন্যাল যে দূরত্ব অতিক্রম করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5259,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "টাইম ডোমেইন (Time Domain) গ্রাফ এবং ফ্রিকোয়েন্সি ডোমেইন (Frequency Domain) গ্রাফের মধ্যে পার্থক্য কী?",
+    "options": [
+      "A) উভয় গ্রাফ হুবহু একই তথ্য দেখায়",
+      "B) ফ্রিকোয়েন্সি ডোমেইনে সময় দেখানো হয়",
+      "C) টাইম ডোমেইনে সময়ের সাপেক্ষে বিস্তার দেখানো হয়; ফ্রিকোয়েন্সি ডোমেইনে কম্পাঙ্কের সাপেক্ষে বিস্তার দেখানো হয়",
+      "D) টাইম ডোমেইনে নয়েজ দেখা যায় না"
+    ],
+    "answer": 2,
+    "explanation": "ফুরিয়ার অ্যানালাইসিসে টাইম ডোমেইন সিগন্যালকে তার উপাদান ফ্রিকোয়েন্সিগুলোর বর্ণালীতে প্রকাশ করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5260,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "যেকোনো জটিল কম্পোজিট পর্যায়বৃত্ত সিগন্যালকে অসীম সংখ্যক সাইন তরঙ্গের সমষ্টিতে রূপান্তর করার গাণিতিক ভিত্তি কোনটি?",
+    "options": [
+      "A) টেইলর সিরিজ",
+      "B) ফুরিয়ার অ্যানালাইসিস (Fourier Analysis / Fourier Series)",
+      "C) নিউটন মেথড",
+      "D) ল্যাপলাস মেথড"
+    ],
+    "answer": 1,
+    "explanation": "ফরাসি গণিতবিদ জিন-ব্যাপটিস্ট ফুরিয়ার প্রমাণ করেন যে যেকোনো তরঙ্গকে বিভিন্ন কম্পাঙ্ক ও বিস্তারের সাইন তরঙ্গে বিশ্লিষ্ট করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5261,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "একটি ডিজিটাল স্কয়ার ওয়েভে (Square Wave) মৌলিক কম্পাঙ্কের সাথে কোন ধরনের হারমোনিক্স থাকে?",
+    "options": [
+      "A) বিজোড় হারমোনিক্সসমূহ (Odd Harmonics: $f, 3f, 5f, 7f, \\dots$) অসীম পর্যন্ত",
+      "B) কেবলমাত্র $2f$ হারমোনিক্স",
+      "C) কোনো হারমোনিক্স থাকে না",
+      "D) কেবলমাত্র জোড় হারমোনিক্স"
+    ],
+    "answer": 0,
+    "explanation": "স্কয়ার ওয়েভ তৈরিতে মৌলিক কম্পাঙ্কের সাথে অসীম বিজোড় গুণিতকের সাইন তরঙ্গ যুক্ত থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5262,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ডেটা ট্রান্সমিশনের তিনটি প্রধান প্রতিবন্ধকতা (Transmission Impairments) কোনগুলো?",
+    "options": [
+      "A) ক্যাশ মিস, পেজ ফল্ট ও ডেডলক",
+      "B) প্রেরক, প্রাপক ও চ্যানেল",
+      "C) অ্যাটেনুয়েশন (Attenuation), ডিসটরশন (Distortion), এবং নয়েজ (Noise)",
+      "D) সার্কিট, প্যাকেট ও মেসেজ"
+    ],
+    "answer": 2,
+    "explanation": "দূরত্বে সিগন্যাল দুর্বল হওয়া (Attenuation), তরঙ্গের আকার বিকৃত হওয়া (Distortion) এবং বহিরাগত অবাঞ্ছিত সিগন্যাল (Noise) হলো প্রধান ৩ প্রতিবন্ধকতা।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5263,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "সিগন্যালের শক্তি হ্রাস বা বৃদ্ধি পরিমাপের স্ট্যান্ডার্ড লগারিদমিক একক কোনটি?",
+    "options": [
+      "A) ভোল্ট (Volt)",
+      "B) ডেসিবেল (Decibel - dB)",
+      "C) ওয়াট (Watt)",
+      "D) হার্টজ (Hz)"
+    ],
+    "answer": 1,
+    "explanation": "$\\text{dB} = 10 \\log_{10}(P_2 / P_1)$; এটি সংকেতের লাভ বা ক্ষতি পরিমাপে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5264,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "যদি কোনো সিগন্যালের ক্ষমতা অর্ধেকে নেমে আসে ($P_2 = 0.5 P_1$), তবে ডেসিবেলে পাওয়ার লস কত?",
+    "options": [
+      "A) -১০ dB",
+      "B) -১ dB",
+      "C) -০.৫ dB",
+      "D) -৩ dB (-3 dB)"
+    ],
+    "answer": 3,
+    "explanation": "$10 \\log_{10}(0.5) = 10 \\times (-0.301) \\approx -3\\text{ dB}$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5265,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "কম্পোজিট সিগন্যালের বিভিন্ন কম্পাঙ্কের উপাদানগুলো ভিন্ন ভিন্ন গতিতে সঞ্চালিত হওয়ায় সিগন্যালের আকার বিকৃত হওয়াকে কী বলে?",
+    "options": [
+      "A) অ্যাটেনুয়েশন",
+      "B) প্যারিটি এরর",
+      "C) ডিসটরশন বা ফেজ ডিসটরশন (Distortion)",
+      "D) থার্মাল নয়েজ"
+    ],
+    "answer": 2,
+    "explanation": "ভিন্ন ফ্রিকোয়েন্সির বিভিন্ন প্রপাগেশন স্পিডের কারণে ফেজ স্থানান্তরিত হয়ে সিগন্যাল তার মূল রূপ হারায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5266,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "পরিবাহীর ভেতরের মুক্ত ইলেকট্রনসমূহের এলোমেলো তাপীয় গতির কারণে যে অনিবার্য নয়েজ উৎপন্ন হয় তাকে কী বলে?",
+    "options": [
+      "A) ক্রসটক",
+      "B) ইন্টারমডুলেশন নয়েজ",
+      "C) ইম্পালস নয়েজ",
+      "D) থার্মাল নয়েজ বা জনসন-নাইকুইস্ট নয়েজ (Thermal / White Noise)"
+    ],
+    "answer": 3,
+    "explanation": "তাপমাত্রার কারণে যেকোনো পরিবাহীতে ইলেকট্রনের স্বতঃস্ফূর্ত গতির ফলে হোয়াইট নয়েজ বা থার্মাল নয়েজ সৃষ্টি হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5267,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "পাশাপাশি থাকা দুটি পরিবাহী তারের মধ্যকার তড়িৎ-চৌম্বকীয় আবেশের কারণে এক তারের সংকেত অন্য তারে ঢুকে পড়াকে কী বলে?",
+    "options": [
+      "A) ক্রসটক (Crosstalk)",
+      "B) অ্যাটেনুয়েশন",
+      "C) জিটার",
+      "D) ইম্পালস নয়েজ"
+    ],
+    "answer": 0,
+    "explanation": "টেলিফোনে কথা বলার সময় অন্যের কথা মৃদু শোনা যাওয়া ক্রসটকের উৎকৃষ্ট উদাহরণ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5268,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "বজ্রপাত বা বৈদ্যুতিক স্পার্কের কারণে হঠাৎ করে ক্ষণস্থায়ী কিন্তু তীব্র শক্তির যে নয়েজ সিগন্যালে আঘাত করে তাকে কী বলে?",
+    "options": [
+      "A) ক্রসটক",
+      "B) ইম্পালস নয়েজ (Impulse Noise)",
+      "C) থার্মাল নয়েজ",
+      "D) হোয়াইট নয়েজ"
+    ],
+    "answer": 1,
+    "explanation": "ইম্পালস নয়েজ হঠাৎ ঘটে এবং ডিজিটাল ডেটায় বড় ধরনের বার্স্ট এরর (Burst Error) তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5269,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "সিগন্যাল টু নয়েজ রেশিও (SNR - Signal-to-Noise Ratio) বলতে কী বোঝায়?",
+    "options": [
+      "A) ব্যান্ডউইথ ভাগ নয়েজ",
+      "B) সিগন্যালের ফ্রিকোয়েন্সি ও নয়েজের গুণফল",
+      "C) সিগন্যাল পাওয়ার এবং নয়েজ পাওয়ারের অনুপাত ($\\text{SNR} = P_{\\text{signal}} / P_{\\text{noise}}$)",
+      "D) নয়েজ ও সিগন্যালের যোগফল"
+    ],
+    "answer": 2,
+    "explanation": "SNR উচ্চ হওয়া মানে সংকেত স্পষ্ট এবং নয়েজ কম; ডেসিবেলে একে $\\text{SNR}_{\\text{dB}} = 10 \\log_{10}(\\text{SNR})$ লেখা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5270,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "শব্দহীন বা নিখুঁত (Noiseless) চ্যানেলে সর্বোচ্চ তাত্ত্বিক ডেটা রেট নির্ণয়ের জন্য নাইকুইস্টের সূত্র (Nyquist Theorem) কোনটি?",
+    "options": [
+      "A) $\\text{BitRate} = 2B \\log_2(L)$ (যেখানে $B$ ব্যান্ডউইথ এবং $L$ সিগন্যাল লেভেল)",
+      "B) $\\text{BitRate} = B \\log_2(1 + \\text{SNR})$",
+      "C) $\\text{BitRate} = 2B \\times L$",
+      "D) $\\text{BitRate} = B / L$"
+    ],
+    "answer": 0,
+    "explanation": "হ্যারি নাইকুইস্ট ১৯২৮ সালে প্রমাণ করেন নয়েজহীন চ্যানেলে সর্বোচ্চ ডেটা রেট ব্যান্ডউইথের দ্বিগুণ ও লেভেলের লগারিদমের সমান।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5271,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "বাস্তব কোলাহলপূর্ণ চ্যানেলে (Noisy Channel) সর্বোচ্চ তাত্ত্বিক চ্যানেল ধারণক্ষমতা নির্ণয়ের শ্যানন ক্যাপাসিটি সূত্র (Shannon Capacity) কোনটি?",
+    "options": [
+      "A) $C = B \\times \\text{SNR}$",
+      "B) $C = B \\log_2(1 + \\text{SNR})$",
+      "C) $C = B / (1 + \\text{SNR})$",
+      "D) $C = 2B \\log_2(L)$"
+    ],
+    "answer": 1,
+    "explanation": "ক্লদ শ্যাননের বিখ্যাত সূত্র বাস্তব নয়েজযুক্ত চ্যানেলের চরম তাত্ত্বিক ডেটা সীমা নির্ধারণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5272,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "যদি একটি শব্দহীন চ্যানেলের ব্যান্ডউইথ ৩০০০ Hz হয় এবং সিগন্যালে ২টি লেভেল থাকে, তবে নাইকুইস্ট রেট কত?",
+    "options": [
+      "A) ১২০০০ bps",
+      "B) ৩০০০ bps",
+      "C) ১৫০০ bps",
+      "D) ৬০০০ bps"
+    ],
+    "answer": 3,
+    "explanation": "$2 \\times 3000 \\times \\log_2(2) = 6000 \\times 1 = 6000\\text{ bps}$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5273,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "যদি একটি চ্যানেলের SNR মান শূন্য (০) হয়, তবে শ্যাননের সূত্রানুযায়ী চ্যানেল ক্যাপাসিটি কত হবে?",
+    "options": [
+      "A) অসীম bps",
+      "B) ব্যান্ডউইথের সমান",
+      "C) ০ bps (কোনো ডেটা পাঠানো সম্ভব নয়)",
+      "D) ১০০ bps"
+    ],
+    "answer": 2,
+    "explanation": "$C = B \\log_2(1 + 0) = B \\log_2(1) = 0\\text{ bps}$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5274,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ব্যান্ডউইথ এবং লেটেন্সির গুণফলকে (Bandwidth-Delay Product - BDP) কী বলা হয়?",
+    "options": [
+      "A) চ্যানেলের প্রতিরোধ ক্ষমতা",
+      "B) একটি নির্দিষ্ট মুহূর্তে পুরো যোগাযোগ চ্যানেলে অবস্থানকারী মোট বিটের সংখ্যা (Channel capacity in bits)",
+      "C) নয়েজ লেভেল",
+      "D) মোট প্যাকেটের সংখ্যা"
+    ],
+    "answer": 1,
+    "explanation": "BDP নির্দেশ করে একটি পাইপলাইনকে পুরোপুরি পূর্ণ রাখতে উৎসের কত বিট ডেটা ইন-ফ্লাইটে পাঠানো প্রয়োজন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5275,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "সিগন্যাল সঞ্চালনে প্রপাগেশন সময় (Propagation Time) নির্ণয়ের সূত্র কোনটি?",
+    "options": [
+      "A) $\\text{Propagation Time} = \\text{Distance} / \\text{Propagation Speed}$",
+      "B) $\\text{Propagation Time} = \\text{Speed} \\times \\text{Distance}$",
+      "C) $\\text{Propagation Time} = \\text{Bandwidth} / \\text{Distance}$",
+      "D) $\\text{Propagation Time} = \\text{Message Size} / \\text{Bandwidth}$"
+    ],
+    "answer": 0,
+    "explanation": "প্রপাগেশন সময় কেবল দূরত্ব ও মাধ্যমে আলোর বা তড়িৎ সিগন্যালের গতির ওপর নির্ভর করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5276,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ট্রান্সমিশন সময় (Transmission Time) নির্ণয়ের সূত্র কোনটি?",
+    "options": [
+      "A) $\\text{Transmission Time} = \\text{Delay} \\times 2$",
+      "B) $\\text{Transmission Time} = \\text{Distance} / \\text{Speed}$",
+      "C) $\\text{Transmission Time} = \\text{Size} \\times \\text{Bandwidth}$",
+      "D) $\\text{Transmission Time} = \\text{Message Size} / \\text{Bandwidth}$"
+    ],
+    "answer": 3,
+    "explanation": "নেটওয়ার্ক কার্ড থেকে সম্পূর্ণ বার্তার শেষ বিটটি চ্যানেলে তুলে দিতে যে সময় লাগে তাকে Transmission Delay বলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5277,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "বেসব্যান্ড ট্রান্সমিশন (Baseband Transmission) বলতে কী বোঝায়?",
+    "options": [
+      "A) ডিজিটাল সিগন্যালকে কোনো অ্যানালগ ক্যারিয়ারে রূপান্তর না করে সরাসরি চ্যানেলে প্রেরণ করা",
+      "B) কেবলমাত্র অডিও ট্রান্সমিশন",
+      "C) রেডিও তরঙ্গে রূপান্তর করা",
+      "D) উচ্চ কম্পাঙ্কের ক্যারিয়ারে চড়িয়ে প্রেরণ"
+    ],
+    "answer": 0,
+    "explanation": "বেসব্যান্ডে ডিজিটাল বিট সরাসরি ভোল্টেজ আকারে তারে পাঠানো হয় (যেমন ইথারনেট LAN)। এতে লো-পাস চ্যানেল লাগে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5278,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ব্রডব্যান্ড ট্রান্সমিশন (Broadband Transmission) বলতে কী বোঝায়?",
+    "options": [
+      "A) সরাসরি স্কয়ার ওয়েভ পাঠানো",
+      "B) কোনো মডেম ছাড়া পাঠানো",
+      "C) কেবলমাত্র স্বল্প দূরত্বের সংযোগ",
+      "D) ডিজিটাল সিগন্যালকে মড্যুলেশনের মাধ্যমে উচ্চ কম্পাঙ্কের অ্যানালগ ক্যারিয়ারে রূপান্তর করে ব্যান্ডপাস চ্যানেলে পাঠানো"
+    ],
+    "answer": 3,
+    "explanation": "ব্রডব্যান্ডে মড্যুলেশন ও ফ্রিকোয়েন্সি ডিভিশন মাল্টিপ্লেক্সিং ব্যবহার করে দীর্ঘ দূরত্বে একাধিক সিগন্যাল একসাথে পাঠানো যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5279,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ডিজিটাল সিগন্যালে পরপর থাকা বিটগুলোর সীমানা সংজ্ঞায়িত করা বা সঠিক সময়ে পাঠোদ্ধার করার ক্ষমতাকে কী বলে?",
+    "options": [
+      "A) মড্যুলেশন",
+      "B) বিট সিনক্রোনাইজেশন (Bit Synchronization)",
+      "C) স্যাম্পলিং",
+      "D) প্যারিটি চেকিং"
+    ],
+    "answer": 1,
+    "explanation": "গ্রাহকের অভ্যন্তরীণ ঘড়িকে প্রেরকের বিট টাইমিংয়ের সাথে একলয়ে রাখাই হলো বিট সিনক্রোনাইজেশন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5280,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "সিগন্যাল যখন একটি ধ্রুবক অশূন্য গড় ভোল্টেজ স্তর বজায় রাখে তাকে কী বলা হয়?",
+    "options": [
+      "A) হারমোনিক সিগন্যাল",
+      "B) নয়েজ ফ্লোর",
+      "C) ডিসি কম্পোনেন্ট (DC Component)",
+      "D) এসি কম্পোনেন্ট"
+    ],
+    "answer": 2,
+    "explanation": "ডিসি কম্পোনেন্ট শূন্য ফ্রিকোয়েন্সির সিগন্যাল যা ট্রান্সফরমার বা ক্যাপাসিটিভ লিঙ্কের মধ্য দিয়ে যেতে পারে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5281,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "যদি কোনো সিগন্যালের $\\text{SNR}_{\\text{dB}} = 30\\text{ dB}$ হয়, তবে এর মূল SNR অনুপাত কত?",
+    "options": [
+      "A) ৩০০",
+      "B) ১০০",
+      "C) ১০,০০০",
+      "D) ১০০০"
+    ],
+    "answer": 3,
+    "explanation": "$10 \\log_{10}(\\text{SNR}) = 30 \\implies \\log_{10}(\\text{SNR}) = 3 \\implies \\text{SNR} = 10^3 = 1000$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5282,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ডিজিটাল ডেটা ট্রান্সমিশনে ইন্টার-সিম্বল ইন্টারফেয়ারেন্স (ISI) রোধ করার জন্য নাইকুইস্টের শর্ত কোনটি?",
+    "options": [
+      "A) ব্যান্ডউইথ শূন্য হতে হবে",
+      "B) পলস রেট অবশ্যই চ্যানেল ব্যান্ডউইথের দ্বিগুণের বেশি হতে পারবে না ($R_s \\le 2B$)",
+      "C) সব বিট সমান হতে হবে",
+      "D) সিগন্যাল লেভেল অসীম হতে হবে"
+    ],
+    "answer": 1,
+    "explanation": "ISI হলো পূর্ববর্তী পলসের রেশ পরবর্তী পলসের ওপর উপরিপাতিত হওয়া; নাইকুইস্ট ব্যান্ডউইথ নীতি মেনে এটি দূর করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5283,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "একটি চ্যানেলের কোয়ালিটি বা বিশ্বস্ততা পরিমাপে বিট এরর রেট (BER - Bit Error Rate) বলতে কী বোঝায়?",
+    "options": [
+      "A) চ্যানেলের মোট ব্যান্ডউইথ",
+      "B) প্রতি সেকেন্ডে সফল বিটের সংখ্যা",
+      "C) মোট স্থানান্তরিত বিটের মধ্যে ত্রুটিপূর্ণ বিটের অনুপাত",
+      "D) তারের ভোল্টেজ হ্রাস"
+    ],
+    "answer": 2,
+    "explanation": "BER হলো ভুল বিট সংখ্যা ভাগ মোট পাঠানো বিট সংখ্যা (যেমন $10^{-6}$ মানে প্রতি ১০ লক্ষে ১টি বিট ভুল)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5284,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "টেলিকমিউনিকেশনে সিগন্যালের ফেজ ১৮০ ডিগ্রি পরিবর্তনের অর্থ কী?",
+    "options": [
+      "A) সিগন্যালটি সম্পূর্ণ উল্টে যাওয়া (Inverted)",
+      "B) কম্পাঙ্ক অর্ধেক হওয়া",
+      "C) সিগন্যালের বিস্তার দ্বিগুণ হওয়া",
+      "D) সিগন্যাল বন্ধ হয়ে যাওয়া"
+    ],
+    "answer": 0,
+    "explanation": "১৮০ ডিগ্রি বা $\\pi$ রেডিয়ান ফেজ শিফট মানে পজিটিভ পিক নেগেটিভ পিকে এবং নেগেটিভ পিক পজিটিভে পরিণত হওয়া।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5285,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৩: ডেটা সিগন্যাল ও ট্রান্সমিশন প্রতিবন্ধকতা (Signals & Impairments)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ডিজিটাল সিগন্যালের একটি একক বিট উপস্থাপন করতে যে সময় ব্যয় হয় তাকে কী বলে?",
+    "options": [
+      "A) বিট ইন্টারভাল বা বিট ডিউরেশন ($T_b = 1 / \\text{BitRate}$)",
+      "B) হোল্ড টাইম",
+      "C) ল্যাগ টাইম",
+      "D) বড টাইম"
+    ],
+    "answer": 0,
+    "explanation": "বিট ইন্টারভাল হলো ১টি একক বিট পাঠাতে ব্যয়িত সময়; যেমন ১ Mbps স্পিডে বিট ইন্টারভাল হলো ১ মাইক্রো-সেকেন্ড।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

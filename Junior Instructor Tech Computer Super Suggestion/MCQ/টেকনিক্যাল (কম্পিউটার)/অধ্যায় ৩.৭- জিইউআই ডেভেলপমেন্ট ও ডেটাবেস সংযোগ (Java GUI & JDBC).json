@@ -1,0 +1,527 @@
+[
+  {
+    "id": 4776,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় AWT (Abstract Window Toolkit) এবং Swing-এর মধ্যে প্রধান পার্থক্য কী?",
+    "options": [
+      "A) AWT হলো প্ল্যাটফর্ম-নির্ভর হেভিওয়েট কম্পোনেন্ট; Swing হলো ১০০% খাঁটি জাভায় তৈরি লাইটওয়েট ও প্ল্যাটফর্ম-স্বাধীন কম্পোনেন্ট",
+      "B) Swing প্ল্যাটফর্ম-নির্ভর",
+      "C) AWT তে বেশি উপাদান রয়েছে",
+      "D) উভয়ের মধ্যে কোনো প্রযুক্তিগত পার্থক্য নেই"
+    ],
+    "answer": 0,
+    "explanation": "সুইং উপাদানগুলো ওএস নেটিভ কোড ব্যবহার করে না, ফলে সব অপারেটিং সিস্টেমে দেখতে একই রকম (Pluggable Look and Feel) হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4777,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভা সুইং প্যাকেজের শীর্ষ উইন্ডো ফ্রেম তৈরি করার ক্লাস কোনটি?",
+    "options": [
+      "A) java.awt.Window",
+      "B) javax.swing.JPanel",
+      "C) javax.swing.JFrame",
+      "D) javax.swing.JDialog"
+    ],
+    "answer": 2,
+    "explanation": "`JFrame` হলো সুইং অ্যাপ্লিকেশনের প্রধান উইন্ডো যা টাইটেলবার, মিনিমাইজ ও ক্লোজ বাটন ধারণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4778,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "কোনো `JFrame` উইন্ডোর ক্লোজ বাটনে (X) চাপলে পুরো প্রোগ্রাম বন্ধ করতে কোন মেথড কল করতে হয়?",
+    "options": [
+      "A) frame.close();",
+      "B) frame.exit();",
+      "C) frame.terminate();",
+      "D) frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);"
+    ],
+    "answer": 3,
+    "explanation": "`EXIT_ON_CLOSE` কনস্ট্যান্ট সেট করলে উইন্ডো কাটার সাথে সাথে সম্পূর্ণ প্রোগ্রাম প্রসেস সমাপ্ত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4779,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় `JFrame`-এর ডিফল্ট লেআউট ম্যানেজার কোনটি?",
+    "options": [
+      "A) BorderLayout (North, South, East, West, Center)",
+      "B) FlowLayout",
+      "C) GridLayout",
+      "D) CardLayout"
+    ],
+    "answer": 0,
+    "explanation": "`JFrame` এর কন্টেন্ট পেনের ডিফল্ট লেআউট হলো `BorderLayout`, যা ৫টি জোনে উপাদান রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4780,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় `JPanel`-এর ডিফল্ট লেআউট ম্যানেজার কোনটি?",
+    "options": [
+      "A) GridLayout",
+      "B) FlowLayout",
+      "C) BoxLayout",
+      "D) BorderLayout"
+    ],
+    "answer": 1,
+    "explanation": "`JPanel` ডিফল্টভাবে `FlowLayout` ব্যবহার করে, যেখানে উপাদানগুলো বাম থেকে ডানে সারিবদ্ধভাবে বসে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4781,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "সমস্ত উপাদানকে সমান আকারের সারি ও কলামের গ্রিডে ভাগ করে সাজানোর লেআউট কোনটি?",
+    "options": [
+      "A) FlowLayout",
+      "B) GridLayout",
+      "C) CardLayout",
+      "D) BorderLayout"
+    ],
+    "answer": 1,
+    "explanation": "`GridLayout(rows, cols)` উইন্ডোকে সমান চতুর্ভুজাকৃতি ঘরে ভাগ করে উপাদান সাজায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4782,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় বাটন ক্লিকের ইভেন্ট হ্যান্ডল করতে কোন ইন্টারফেসটি বাস্তবায়ন করতে হয়?",
+    "options": [
+      "A) ActionListener (actionPerformed মেথড)",
+      "B) KeyListener",
+      "C) MouseListener",
+      "D) WindowListener"
+    ],
+    "answer": 0,
+    "explanation": "`button.addActionListener(this);` দিয়ে `actionPerformed(ActionEvent e)` মেথডে ক্লিকের লজিক লিখতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4783,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় ইউজার পাসওয়ার্ড ইনপুট নেওয়ার জন্য টেক্সট গোপন রাখার বিশেষ সুইং কম্পোনেন্ট কোনটি?",
+    "options": [
+      "A) JHiddenField",
+      "B) JTextField",
+      "C) JPasswordField (getPassword() মেথড)",
+      "D) JTextArea"
+    ],
+    "answer": 2,
+    "explanation": "`JPasswordField` ইনপুট করা অক্ষরগুলোকে ডট বা এস্টারিস্ক দিয়ে স্ক্রিনে ঢেকে রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4784,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জেডিবিসি (JDBC)-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Java Data Binding Connection",
+      "B) Java Direct Business Controller",
+      "C) Joint Database Connector",
+      "D) Java Database Connectivity"
+    ],
+    "answer": 3,
+    "explanation": "JDBC হলো জাভা প্রোগ্রাম থেকে রিলেশনাল ডেটাবেসে সংযোগ ও এসকিউএল কুয়েরি পরিচালনার স্ট্যান্ডার্ড এপিআই।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4785,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জেডিবিসি ড্রাইভারগুলোর মধ্যে ১০০% খাঁটি জাভায় তৈরি সরাসরি ডেটাবেস প্রটোকলে কথা বলা টাইপ কোনটি?",
+    "options": [
+      "A) Type 2 Driver (Native API)",
+      "B) Type 1 Driver (JDBC-ODBC Bridge)",
+      "C) Type 4 Driver (Thin Driver - Direct Network to DB)",
+      "D) Type 3 Driver (Network Protocol)"
+    ],
+    "answer": 2,
+    "explanation": "টাইপ ৪ ড্রাইভার কোনো ক্লায়েন্ট লাইব্রেরি ছাড়াই সরাসরি ডেটাবেস প্রোটোকলে যোগাযোগ করে এবং সর্বাধিক ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4786,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জেডিবিসিতে ডেটাবেস সংযোগ স্থাপনের প্রথম ধাপে ড্রাইভার ক্লাস মেমরিতে লোড করতে কোন মেথড ব্যবহৃত হয়?",
+    "options": [
+      "A) Class.forName(\"driver_class_name\")",
+      "B) DriverManager.load()",
+      "C) Connection.start()",
+      "D) new Driver()"
+    ],
+    "answer": 0,
+    "explanation": "`Class.forName(\"com.mysql.cj.jdbc.Driver\")` ক্লাসটিকে ডাইনামিকালি লোড ও রেজিস্টার করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4787,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "ডেটাবেস সংযোগ অবজেক্ট (`Connection`) রিটার্ন করে কোন মেথডটি?",
+    "options": [
+      "A) Database.open(url)",
+      "B) Connection.create(url)",
+      "C) Class.getConnection(url)",
+      "D) DriverManager.getConnection(url, user, password)"
+    ],
+    "answer": 3,
+    "explanation": "`DriverManager.getConnection()` ইউআরএল, ইউজারনেম ও পাসওয়ার্ড দিয়ে ডেটাবেস কানেকশন তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4788,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "এসকিউএল ইনজেকশন (SQL Injection) আক্রমণ প্রতিরোধ করতে কোন স্টেটমেন্ট ব্যবহার করা বাধ্যতামূলক?",
+    "options": [
+      "A) CallableStatement",
+      "B) PreparedStatement (প্যারামিটারাইজড কুয়েরি '?' সহ)",
+      "C) SimpleStatement",
+      "D) Statement"
+    ],
+    "answer": 1,
+    "explanation": "`PreparedStatement` এসকিউএল কুয়েরি আগে থেকেই প্রি-কম্পাইল করে এবং ব্যবহারকারী ইনপুটকে কোড হিসেবে রান করতে দেয় না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4789,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জেডিবিসিতে ডেটাবেস স্টোর্ড প্রসিডিউর (Stored Procedures) এক্সিকিউট করতে কোনটি ব্যবহৃত হয়?",
+    "options": [
+      "A) CallableStatement",
+      "B) PreparedStatement",
+      "C) ProcedureStatement",
+      "D) Statement"
+    ],
+    "answer": 0,
+    "explanation": "`CallableStatement` ডেটাবেসের স্টোর্ড প্রসিডিউর এবং ফাংশন কল করতে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4790,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "ডাটাবেসে `SELECT` কুয়েরি চালিয়ে ডেটা ফেচ বা পড়ার জন্য কোন মেথডটি কল করতে হয়?",
+    "options": [
+      "A) execute()",
+      "B) executeQuery() (যা ResultSet রিটার্ন করে)",
+      "C) fetch()",
+      "D) executeUpdate()"
+    ],
+    "answer": 1,
+    "explanation": "`SELECT` কুয়েরির ফলাফল একটি `ResultSet` টেবিল অবজেক্ট আকারে ফিরে আসে `executeQuery()` কলের মাধ্যমে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4791,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "ডেটাবেসে `INSERT`, `UPDATE`, বা `DELETE` কুয়েরি এক্সিকিউট করতে কোন মেথড ব্যবহৃত হয়?",
+    "options": [
+      "A) commitQuery()",
+      "B) executeSelect()",
+      "C) executeQuery()",
+      "D) executeUpdate() (কতটি রো প্রভাবিত হয়েছে সেই int সংখ্যা রিটার্ন করে)"
+    ],
+    "answer": 3,
+    "explanation": "`executeUpdate()` ডেটা ম্যানিপুলেশন কুয়েরি রান করে এবং কতটি রেকর্ড পরিবর্তিত হয়েছে তা রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4792,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জেডিবিসি `ResultSet` থেকে পরবর্তী রেকর্ডে কার্সর সরাতে কোন মেথড ব্যবহৃত হয়?",
+    "options": [
+      "A) rs.hasNext()",
+      "B) rs.moveToNext()",
+      "C) rs.next()",
+      "D) rs.forward()"
+    ],
+    "answer": 2,
+    "explanation": "`rs.next()` পরবর্তী রো-তে যায় এবং রো বিদ্যমান থাকলে `true` দেয়; ফলে `while(rs.next())` দিয়ে লুপ চলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4793,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "ডেটাবেস ট্রানজেকশনে সকল পরিবর্তন স্থায়ীভাবে সংরক্ষণ নিশ্চিত করতে কোন মেথড কল করা হয়?",
+    "options": [
+      "A) connection.save()",
+      "B) connection.flush()",
+      "C) connection.persist()",
+      "D) connection.commit()"
+    ],
+    "answer": 3,
+    "explanation": "`setAutoCommit(false)` করার পর সকল কুয়েরি সফল হলে `commit()` দিয়ে স্থায়ী করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4794,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "ট্রানজেকশনে কোনো একটি অপারেশন ব্যর্থ হলে পূর্বের সকল পরিবর্তন বাতিল করে ডেটাবেসকে আগের অবস্থায় ফেরাতে কী করতে হয়?",
+    "options": [
+      "A) connection.revert()",
+      "B) connection.rollback()",
+      "C) connection.undo()",
+      "D) connection.cancel()"
+    ],
+    "answer": 1,
+    "explanation": "`rollback()` মেথড ট্রানজেকশনের অসম্পূর্ণ বা ত্রুটিপূর্ণ পরিবর্তনগুলো বাতিল করে ডেটাবেসের সামঞ্জস্য রক্ষা করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4795,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জেডিবিসিতে ডেটাবেসের টেবিল কলামের নাম ও ডেটা টাইপ ইত্যাদি মেটাডেটা জানতে কোনটি ব্যবহৃত হয়?",
+    "options": [
+      "A) ResultSetMetaData (rs.getMetaData())",
+      "B) TableMetaData",
+      "C) ColumnInfo",
+      "D) DatabaseMetaData"
+    ],
+    "answer": 0,
+    "explanation": "`ResultSetMetaData` থেকে কলাম সংখ্যা, কলাম নাম, ডেটা টাইপ ইত্যাদি জানা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4796,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জেডিবিসিতে ডেটাবেসের নাম, ভার্সন ও ড্রাইভার তথ্য জানতে কোন অবজেক্ট ব্যবহৃত হয়?",
+    "options": [
+      "A) SystemInfo",
+      "B) DriverInfo",
+      "C) DatabaseMetaData (conn.getMetaData())",
+      "D) ResultSetMetaData"
+    ],
+    "answer": 2,
+    "explanation": "`DatabaseMetaData` ডেটাবেস সার্ভারের সামগ্রিক কনফিগারেশন তথ্য প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4797,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জেডিবিসিতে ডেটাবেস সংযোগের জন্য ব্যবহৃত স্ট্যান্ডার্ড URL ফরম্যাট কোনটি?",
+    "options": [
+      "A) http://localhost:3306/db",
+      "B) sql:mysql://localhost",
+      "C) jdbc:subprotocol:subname (যেমন jdbc:mysql://localhost:3306/db)",
+      "D) db://localhost/mysql"
+    ],
+    "answer": 2,
+    "explanation": "জেডিবিসি ইউআরএল সর্বদা `jdbc:` প্রটোকল দিয়ে শুরু হয়, তারপর সাব-প্রটোকল (যেমন mysql, oracle) থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4798,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জেডিবিসি রিসোর্স যেমন `ResultSet`, `Statement` ও `Connection` ব্যবহারের পর কী করা বাধ্যতামূলক?",
+    "options": [
+      "A) delete() কল করা",
+      "B) কোনো কিছু করার প্রয়োজন নেই",
+      "C) কম্পিউটার রিস্টার্ট করা",
+      "D) close() মেথড দিয়ে মেমরি ও ডেটাবেস সংযোগ মুক্ত করা"
+    ],
+    "answer": 3,
+    "explanation": "সংযোগ খোলা রাখলে ডেটাবেস সার্ভারে কানেকশন লিক ঘটে এবং সার্ভার ক্র্যাশ করতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4799,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "এন্টারপ্রাইজ অ্যাপ্লিকেশনে বারবার সংযোগ তৈরি না করে পূর্বের সংযোগ পুনঃব্যবহার করতে কী প্রযুক্তি ব্যবহৃত হয়?",
+    "options": [
+      "A) সিঙ্গেল কানেকশন",
+      "B) কানেকশন পুলিং (Connection Pooling - যেমন HikariCP, DBCP)",
+      "C) স্ট্যাটিক কানেকশন",
+      "D) থ্রেড লক"
+    ],
+    "answer": 1,
+    "explanation": "কানেকশন পুলিং আগে থেকেই প্রস্তুত করা সংযোগের পুল বজায় রেখে সিস্টেমের গতি নাটকীয়ভাবে বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4800,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৭: জিইউআই ডেভেলপমেন্ট ও ডেটাবেস সংযোগ (Java GUI & JDBC)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভা সুইং অ্যাপ্লিকেশন তৈরি করার সময় থ্রেড-সেফটি বজায় রাখতে জিইউআই আপডেট কোন থ্রেডে রান করাতে হয়?",
+    "options": [
+      "A) ইভেন্ট ডিসপ্যাচ থ্রেড (Event Dispatch Thread - EDT via SwingUtilities.invokeLater)",
+      "B) মেইন থ্রেড (Main Thread)",
+      "C) গার্বেজ কালেক্টর থ্রেড",
+      "D) ব্যাকগ্রাউন্ড ডেমোন থ্রেড"
+    ],
+    "answer": 0,
+    "explanation": "সুইং কম্পোনেন্টগুলো থ্রেড-সেফ নয়; তাই যেকোনো জিইউআই পরিবর্তন EDT থ্রেডের মাধ্যমে সম্পন্ন করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

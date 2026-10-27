@@ -1,0 +1,842 @@
+[
+  {
+    "id": 4321,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপ্লিকেশনে এক অ্যাক্টিভিটি থেকে অন্য অ্যাক্টিভিটি চালু বা বার্তা আদান-প্রদানের অবজেক্টকে কী বলে?",
+    "options": [
+      "A) টাস্ক",
+      "B) ইনটেন্ট (Intent)",
+      "C) বান্ডেল",
+      "D) কনটেক্সট"
+    ],
+    "answer": 1,
+    "explanation": "Intent হলো অ্যান্ড্রয়েড ফ্রেমওয়ার্কের একটি অ্যাসিনক্রোনাস মেসেজিং অবজেক্ট যা কোনো কাজ করার ইচ্ছা প্রকাশ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4322,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "নিজের অ্যাপ্লিকেশনের সুনির্দিষ্ট কোনো অ্যাক্টিভিটি ক্লাসকে সরাসরি চালু করতে যে ইনটেন্ট ব্যবহৃত হয় তাকে কী বলে?",
+    "options": [
+      "A) সিস্টেম ইনটেন্ট",
+      "B) ইমপ্লিসিট ইনটেন্ট",
+      "C) ব্রডকাস্ট ইনটেন্ট",
+      "D) এক্সপ্লিসিট ইনটেন্ট (Explicit Intent - যেমন Intent(this, SecondActivity::class.java))"
+    ],
+    "answer": 3,
+    "explanation": "Explicit Intent-এ টার্গেট ক্লাসের নাম সরাসরি উল্লেখ থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4323,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোনো নির্দিষ্ট অ্যাপের নাম উল্লেখ না করে একটি কাজের ধরন (যেমন ওয়েবপেজ খোলা, কল করা, ছবি তোলা) উল্লেখ করে সিস্টেমের উপযুক্ত অ্যাপকে ডাকার ইনটেন্ট কোনটি?",
+    "options": [
+      "A) ইমপ্লিসিট ইনটেন্ট (Implicit Intent - যেমন ACTION_VIEW, ACTION_DIAL)",
+      "B) এক্সপ্লিসিট ইনটেন্ট",
+      "C) প্রাইভেট ইনটেন্ট",
+      "D) লোকাল ইনটেন্ট"
+    ],
+    "answer": 0,
+    "explanation": "Implicit Intent ওএস-কে অনুরোধ করে এবং ওএস ডিভাইস থেকে উপযুক্ত অ্যাপের তালিকা (App Chooser) দেখায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4324,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "একটি ব্রাউজারে নির্দিষ্ট ওয়েব ঠিকানা খোলার জন্য সঠিক ইমপ্লিসিট ইনটেন্ট কোড কোনটি?",
+    "options": [
+      "A) val intent = Intent(ACTION_CALL)",
+      "B) val intent = Intent(this, Browser::class.java)",
+      "C) val intent = Intent(Intent.ACTION_VIEW, Uri.parse(\"https://www.google.com\"))",
+      "D) val intent = Intent(\"OPEN_BROWSER\")"
+    ],
+    "answer": 2,
+    "explanation": "`ACTION_VIEW` এবং Uri স্কিমের সাহায্যে যেকোনো ওয়েবসাইট ব্রাউজারে চালু করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4325,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ইনটেন্টের মাধ্যমে পরবর্তী অ্যাক্টিভিটিতে অতিরিক্ত ডেটা (যেমন নাম, আইডি) পাঠানোর মেথড কোনটি?",
+    "options": [
+      "A) putExtra(key, value) (যেমন intent.putExtra(\"USER_ID\", 101))",
+      "B) sendParam()",
+      "C) addData()",
+      "D) setExtra()"
+    ],
+    "answer": 0,
+    "explanation": "`putExtra()` মেথড কি-ভ্যালু পেয়ার আকারে প্রিমিটিভ ডেটা বা সিরিয়ালাইজেবল অবজেক্ট ইনটেন্টে যুক্ত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4326,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "টার্গেট অ্যাক্টিভিটিতে ইনটেন্ট থেকে পাঠানো স্ট্রিং ডেটা রিসিভ করার কোড কোনটি?",
+    "options": [
+      "A) intent.getData()",
+      "B) intent.getStringExtra(\"USER_NAME\")",
+      "C) intent.readExtra()",
+      "D) intent.getString()"
+    ],
+    "answer": 1,
+    "explanation": "`getIntent().getStringExtra(key)` দিয়ে প্রেরিত স্ট্রিং মানটি রিড করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4327,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড ইন্টার-প্রসেস কমিউনিকেশনে জাভার সনাতন Serializable-এর চেয়ে অনেক গুণ দ্রুতগতির কাস্টম অবজেক্ট পাসিং ইন্টারফেস কোনটি?",
+    "options": [
+      "A) জেএসওএন",
+      "B) এক্সএমএল",
+      "C) সিরিয়ালাইজেবল (Serializable)",
+      "D) পার্সেল্যাবল (Parcelable - @Parcelize অ্যানোটেশন সহ)"
+    ],
+    "answer": 3,
+    "explanation": "Parcelable বিশেষভাবে অ্যান্ড্রয়েড আর্কিটেকচারের জন্য অপ্টিমাইজড যা কোনো রিফ্লেকশন ওভারহেড ছাড়াই দ্রুত মেমরি কপি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4328,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "পুরনো startActivityForResult()-এর বিকল্প হিসেবে কোনো অ্যাক্টিভিটি থেকে ফলাফল পাওয়ার সর্বাধুনিক প্রস্তাবিত এপিআই কোনটি?",
+    "options": [
+      "A) fetchResult",
+      "B) startActivityForResult",
+      "C) Activity Result API (registerForActivityResult)",
+      "D) onActivityResult"
+    ],
+    "answer": 2,
+    "explanation": "Activity Result API টাইপ-সেফ চুক্তি (Contracts) ব্যবহার করে ক্যামেরা বা গ্যালারি থেকে রেজাল্ট পাওয়া অনেক সহজ ও ক্র্যাশ-মুক্ত করেছে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4329,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড জেটপ্যাক নেভিগেশন কম্পোনেন্টে অ্যাপের সকল স্ক্রিন ও তাদের মধ্যকার ট্রানজিশন ভিজ্যুয়ালি সংজ্ঞায়িত করার XML ফাইলের নাম কী?",
+    "options": [
+      "A) routes.xml",
+      "B) AndroidManifest.xml",
+      "C) Navigation Graph (nav_graph.xml)",
+      "D) screens.xml"
+    ],
+    "answer": 2,
+    "explanation": "Navigation Graph অ্যাপের স্ক্রিনগুলোর ডিরেকশন ও ডেটা ফ্লো একটি কেন্দ্রীয় ম্যাপে প্রদর্শন ও পরিচালনা করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4330,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "জেটপ্যাক নেভিগেশনে এক গন্তব্য (Destination) থেকে অন্য গন্তব্যে কোড দিয়ে নেভিগেট করার মেথড কোনটি?",
+    "options": [
+      "A) Navigation.start()",
+      "B) FragmentManager.go()",
+      "C) Router.open()",
+      "D) findNavController().navigate(R.id.action_home_to_detail)"
+    ],
+    "answer": 3,
+    "explanation": "NavController অবজেক্ট ব্যাক-স্ট্যাক ও ট্রানজিশন অ্যানিমেশন স্বয়ংক্রিয়ভাবে বজায় রেখে নেভিগেশন সম্পন্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4331,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপে ছোট ছোট ডেটা (যেমন ইউজার লগইন টোকেন, ডার্ক মোড সেটিংস) কি-ভ্যালু পেয়ারে লোকালি সংরক্ষণের সবচেয়ে হালকা মাধ্যম কোনটি?",
+    "options": [
+      "A) শেয়ার্ড প্রেফারেন্সেস (SharedPreferences)",
+      "B) রুম ডাটাবেস",
+      "C) এক্সটার্নাল ফাইল",
+      "D) SQLite ডাটাবেস"
+    ],
+    "answer": 0,
+    "explanation": "SharedPreferences ব্যাকগ্রাউন্ডে একটি ছোট এক্সএমএল ফাইলে কি-ভ্যালু আকারে সাধারণ প্রিমিটিভ ডেটা দ্রুত সংরক্ষণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4332,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "SharedPreferences-এ ডেটা সেভ করার সময় 'commit()' এবং 'apply()'-এর মধ্যে পার্থক্য কী?",
+    "options": [
+      "A) apply() কোনো ডেটা সেভ করে না",
+      "B) apply() অ্যাসিনক্রোনাসলি ব্যাকগ্রাউন্ডে ডেটা লেখে এবং কোনো ইউআই থ্রেড ব্লক করে না; কিন্তু commit() সিঙ্ক্রোনাসলি লেখে ও ইউআই ব্লক করতে পারে",
+      "C) উভয় মেথড একই",
+      "D) commit() নিরাপদ নয়"
+    ],
+    "answer": 1,
+    "explanation": "`apply()` মেমরি ক্যাশ তাৎক্ষণিক আপডেট করে ডিস্কে ব্যাকগ্রাউন্ডে লেখে বলে গুগল সর্বদা `apply()` ব্যবহারের সুপারিশ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4333,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "SharedPreferences-এর সীমাবদ্ধতা কাটিয়ে কোটলিন কোরুটিনস ও ফ্লো (Flow) সমর্থিত আধুনিক ডেটা স্টোরেজ লাইব্রেরি কোনটি?",
+    "options": [
+      "A) Realm",
+      "B) FileStore",
+      "C) জেটপ্যাক ডেটাস্টোর (Jetpack DataStore - Preferences / Proto DataStore)",
+      "D) SQLite"
+    ],
+    "answer": 2,
+    "explanation": "DataStore সম্পূর্ণ নন-ব্লকিং, অ্যাসিনক্রোনাস এবং টাইপ-সেফ যা শেয়ার্ড প্রেফারেন্সের আধুনিক বিকল্প।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4334,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপের ইন্টারনাল স্টোরেজে (Internal Storage) সংরক্ষিত ফাইলের নিরাপত্তা বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "A) মেমরি কার্ডে সেভ হয়",
+      "B) ফাইল কখনো মোছা যায় না",
+      "C) সব অ্যাপ এই ডেটা পড়তে পারে",
+      "D) ফাইলগুলো সম্পূর্ণ প্রাইভেট এবং অন্য কোনো সাধারণ অ্যাপ এগুলোতে অ্যাক্সেস করতে পারে না; অ্যাপ আনইনস্টল করলে ফাইল স্বয়ংক্রিয়ভাবে মুছে যায়"
+    ],
+    "answer": 3,
+    "explanation": "Internal Storage `/data/data/<package_name>/` ডিরেক্টরিতে থাকে যা লিনাক্স ইউজার আইডির মাধ্যমে সম্পূর্ণ সুরক্ষিত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4335,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েডে প্রথাগতভাবে অন্তর্ভুক্ত লাইটওয়েট রিলেশনাল ডাটাবেস ইঞ্জিন কোনটি?",
+    "options": [
+      "A) SQLite",
+      "B) PostgreSQL",
+      "C) MySQL",
+      "D) Oracle"
+    ],
+    "answer": 0,
+    "explanation": "SQLite একটি এমবেডেড ফাইল-ভিত্তিক সার্ভারলেস এসকিউএল ইঞ্জিন যা অ্যান্ড্রয়েডের জন্মলগ্ন থেকেই অন্তর্ভুক্ত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4336,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "সরাসরি SQLite কোড লেখার জটিলতা দূর করে কম্পাইল-টাইম এসকিউএল যাচাইকরণ প্রদানকারী গুগলের অফিসিয়াল ওআরএম (ORM) লাইব্রেরি কোনটি?",
+    "options": [
+      "A) রিয়েলম",
+      "B) রুম পারসিস্টেন্স লাইব্রেরি (Room Database)",
+      "C) হাইবারনেট",
+      "D) গ্রিনডিএও"
+    ],
+    "answer": 1,
+    "explanation": "Room লাইব্রেরি SQLite-এর ওপর একটি আধুনিক অ্যাবস্ট্রাকশন লেয়ার যা কম্পাইল টাইমে এসকিউএল ভুল ধরে ফেলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4337,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "রুম ডাটাবেসে একটি ডেটা ক্লাস যে একটি ডাটাবেস টেবিল নির্দেশ করে তা বোঝাতে কোন অ্যানোটেশনটি ব্যবহার করা হয়?",
+    "options": [
+      "A) @DatabaseTable",
+      "B) @Table",
+      "C) @Entity (যেমন @Entity(tableName = \"users\"))",
+      "D) @Model"
+    ],
+    "answer": 2,
+    "explanation": "`@Entity` অ্যানোটেশন ক্লাসের প্রতিটি ফিল্ডকে ডাটাবেস টেবিলের কলাম হিসেবে বিবেচনা করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4338,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "রুম ডাটাবেসে টেবিলের ডেটা অ্যাক্সেস মেথড (যেমন @Insert, @Update, @Delete, @Query) সংজ্ঞায়িত করার ইন্টারফেসকে কী বলে?",
+    "options": [
+      "A) DAO (Data Access Object - @Dao ইন্টারফেস)",
+      "B) ModelView",
+      "C) Repository",
+      "D) Controller"
+    ],
+    "answer": 0,
+    "explanation": "DAO ইন্টারফেস ডাটাবেসের সমস্ত কুয়েরি ও ক্রাড অপারেশন পরিচ্ছন্নভাবে আলাদা রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4339,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "রুম ডাটাবেস কেন মেইন ইউআই থ্রেডে সরাসরি কোয়েরি চালানো নিষিদ্ধ করেছে?",
+    "options": [
+      "A) রুম মেমরি ধ্বংস করে দেয়",
+      "B) ডাটাবেস আই/ও অপারেশন মেইন থ্রেডকে ব্লক করে অ্যাপ্লিকেশনে ল্যাগ বা ANR (Application Not Responding) সৃষ্টি করতে পারে",
+      "C) এসকিউএল মেইন থ্রেড চেনে না",
+      "D) ডাটাবেস লক হয়ে যায়"
+    ],
+    "answer": 1,
+    "explanation": "রুম ব্যাকগ্রাউন্ড থ্রেড বা কোটলিন কোরুটিন্স (`suspend fun`) ছাড়া মেইন থ্রেডে চললে তাৎক্ষণিক এক্সেপশন ছুঁড়ে মারবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4340,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড ১০ (API 29) সংস্করণ থেকে ব্যবহারকারীর গোপনীয়তা রক্ষায় এক্সটার্নাল স্টোরেজের জন্য চালু করা বাধ্যতামূলক নিরাপত্তা ব্যবস্থার নাম কী?",
+    "options": [
+      "A) রুট স্টোরেজ",
+      "B) ওপেন স্টোরেজ",
+      "C) পাবলিক ফাইল সিস্টেম",
+      "D) স্কোপড স্টোরেজ (Scoped Storage)"
+    ],
+    "answer": 3,
+    "explanation": "Scoped Storage কোনো অ্যাপকে পুরো মেমরি কার্ড অবাধে ব্রাউজ করতে দেয় না; কেবল নিজস্ব ফোল্ডার ও অনুমোদিত মিডিয়া দেখতে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4341,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "স্ক্রিনের নিচ থেকে একটি ড্রয়ার টেনে বের করার লেআউটকে (Navigation Drawer) কী বলে?",
+    "options": [
+      "A) SlidingPaneLayout",
+      "B) DrawerLayout",
+      "C) MenuLayout",
+      "D) SideLayout"
+    ],
+    "answer": 1,
+    "explanation": "DrawerLayout বাম বা ডান দিক থেকে স্লাইড করে নেভিগেশন মেনু খুলে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4342,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "মেটেরিয়াল ডিজাইনে স্ক্রিনের নিচের অংশে ৩ থেকে ৫টি মূল বিভাগের আইকনযুক্ত মেনুকে কী বলে?",
+    "options": [
+      "A) ActionBar",
+      "B) FooterMenu",
+      "C) TabBar",
+      "D) BottomNavigationView"
+    ],
+    "answer": 3,
+    "explanation": "BottomNavigationView আধুনিক মোবাইল অ্যাপের প্রাথমিক নেভিগেশন বার হিসেবে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4343,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ইনটেন্টে অবজেক্ট পাস করতে কোটলিনের কোন প্লাগইন ব্যবহার করে মাত্র এক লাইনে Parcelable কোড জেনারেট করা যায়?",
+    "options": [
+      "A) @Serialize",
+      "B) @AutoParcel",
+      "C) @Parcelize অ্যানোটেশন (kotlin-parcelize প্লাগইন)",
+      "D) @Bundle"
+    ],
+    "answer": 2,
+    "explanation": "`@Parcelize` কোটলিনের একটি কম্পাইলার প্লাগইন যা বয়লারপ্লেট কোড ছাড়াই স্বয়ংক্রিয়ভাবে পার্সেল্যাবল বাস্তবায়ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4344,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "রুম ডাটাবেসে টেবিলের প্রাইমারি কি স্বয়ংক্রিয়ভাবে বৃদ্ধির সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) @PrimaryKey(autoGenerate = true)",
+      "B) @AutoIncrement",
+      "C) @Key",
+      "D) @Id"
+    ],
+    "answer": 0,
+    "explanation": "`@PrimaryKey(autoGenerate = true)` দিলে প্রতি নতুন রো সন্নিবেশে আইডি মান ১ করে বাড়বে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4345,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "রুম ডাটাবেসে কোনো কাস্টম অবজেক্টকে (যেমন Date বা List) রূপান্তর করে টেবিলে সংরক্ষণ করার পদ্ধতির নাম কী?",
+    "options": [
+      "A) টাইপ কনভার্টার (@TypeConverters)",
+      "B) কাস্টিং",
+      "C) অবজেক্ট ম্যাপিং",
+      "D) সিরিয়ালাইজেশন"
+    ],
+    "answer": 0,
+    "explanation": "`@TypeConverters` দিয়ে জটিল অবজেক্টকে লং টাইমস্ট্যাম্প বা জেএসওএন স্ট্রিংয়ে রূপান্তর করে এসকিউএলে রাখা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4346,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ইনটেন্টের অ্যাকশন 'ACTION_SEND' সাধারণত কোন কাজের জন্য ব্যবহৃত হয়?",
+    "options": [
+      "A) ফোন বন্ধ করা",
+      "B) ক্যামেরা অন করা",
+      "C) ফোন কল করা",
+      "D) সোশ্যাল মিডিয়া, ইমেইল বা মেসেজিং অ্যাপের মাধ্যমে টেক্সট বা ছবি শেয়ার করা (Share Sheet খোলা)"
+    ],
+    "answer": 3,
+    "explanation": "`ACTION_SEND` ফোনের প্রমিত সিস্টেম শেয়ার ডায়ালগ প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4347,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "সরাসরি ফোন কল করার জন্য ম্যানিফেস্টে কোন বিপজ্জনক পারমিশনটি (Dangerous Permission) ঘোষণা করতে হয়?",
+    "options": [
+      "A) android.permission.DIAL_PHONE",
+      "B) android.permission.SEND_CALL",
+      "C) android.permission.CALL_PHONE",
+      "D) android.permission.PHONE"
+    ],
+    "answer": 2,
+    "explanation": "`CALL_PHONE` সরাসরি ডায়ালার ডায়ালপ্যাড না দেখিয়ে কল লাগিয়ে দেয় বলে এটি রানটাইম পারমিশনের আওতাভুক্ত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4348,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যাক্টিভিটি ম্যানিফেস্টে `<activity>` ট্যাগের ভেতরে 'android:launchMode' কত প্রকার হতে পারে?",
+    "options": [
+      "A) প্রকার",
+      "B) প্রকার: standard, singleTop, singleTask, এবং singleInstance",
+      "C) প্রকার",
+      "D) ৫ প্রকার"
+    ],
+    "answer": 1,
+    "explanation": "এই ৪টি লঞ্চ মোড অ্যাক্টিভিটি ব্যাক-স্ট্যাকে কীভাবে তৈরি ও পরিচালিত হবে তা নিয়ন্ত্রণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4349,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "নেভিগেশন আর্কিটেকচারে একক অ্যাক্টিভিটি এবং একাধিক ফ্র্যাগমেন্ট বিশিষ্ট আধুনিক মডেলকে কী বলে?",
+    "options": [
+      "A) সার্ভিস আর্কিটেকচার",
+      "B) নো-অ্যাক্টিভিটি",
+      "C) মাল্টি-অ্যাক্টিভিটি আর্কিটেকচার",
+      "D) সিঙ্গেল-অ্যাক্টিভিটি আর্কিটেকচার (Single-Activity Architecture)"
+    ],
+    "answer": 3,
+    "explanation": "গুগল সুপারিশ করে একটি মূল MainActivity রাখা এবং বাকি সমস্ত স্ক্রিনকে ফ্র্যাগমেন্ট হিসেবে পরিচালনা করা।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4350,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "রুম ডাটাবেস মাইগ্রেশনে টেবিল কাঠামো পরিবর্তনের সময় ডেটা নষ্ট না করে নতুন কলাম যোগ করার ক্লাসের নাম কী?",
+    "options": [
+      "A) Migration ক্লাস (যেমন Migration(1, 2))",
+      "B) TableAlter",
+      "C) DataSync",
+      "D) SchemaUpdater"
+    ],
+    "answer": 0,
+    "explanation": "Migration ক্লাসে এসকিউএল `ALTER TABLE` লিখে পুরোনো সংস্করণ থেকে নতুন সংস্করণে ডেটা অক্ষত রেখে যাওয়া যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4351,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "রুম ডাটাবেসে DAO মেথডে ডেটা পরিবর্তনের সাথে সাথে স্বয়ংক্রিয়ভাবে ইউআই আপডেট পেতে রিটার্ন টাইপ হিসেবে কী ব্যবহৃত হয়?",
+    "options": [
+      "A) ArrayList<User>",
+      "B) Cursor",
+      "C) Flow<List<User>> বা LiveData<List<User>>",
+      "D) Set<User>"
+    ],
+    "answer": 2,
+    "explanation": "Flow বা LiveData রিটার্ন করলে ডাটাবেসে কোনো পরিবর্তন হলেই স্বয়ংক্রিয়ভাবে নতুন তালিকা নির্গত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4352,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েডে সংবেদনশীল কি-ভ্যালু ডেটা হার্ডওয়্যার ব্যাকড সিকিউরিটিতে এনক্রিপ্ট করে রাখার জেটপ্যাক সিকিউরিটি ক্লাসের নাম কী?",
+    "options": [
+      "A) SecureStorage",
+      "B) EncryptedSharedPreferences",
+      "C) KeyChainStore",
+      "D) SafePreferences"
+    ],
+    "answer": 1,
+    "explanation": "EncryptedSharedPreferences অ্যান্ড্রয়েড কীস্টোর ব্যবহার করে AES-256 এনক্রিপশনে ডেটা নিরাপদ রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4353,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "নেভিগেশন গ্রাফে ফ্র্যাগমেন্টের আর্গুমেন্ট টাইপ-সেফ উপায়ে পাস করার জন্য গ্র্যাডল প্লাগইন কোনটি?",
+    "options": [
+      "A) type.nav",
+      "B) safe.bundle",
+      "C) arg.passer",
+      "D) androidx.navigation.safeargs.kotlin"
+    ],
+    "answer": 3,
+    "explanation": "SafeArgs প্লাগইন ডিরেকশন ও আর্গুমেন্ট ক্লাস তৈরি করে ভুল কি-নেম বা টাইপ কাস্টিং ক্র্যাশ প্রতিরোধ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4354,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড সিস্টেমে সিস্টেম সেটিংস অ্যাক্টিভিটি (যেমন ওয়াইফাই সেটিংস) খোলার ইনটেন্ট কোনটি?",
+    "options": [
+      "A) Intent(OPEN_SETTINGS)",
+      "B) Intent(Settings.ACTION_WIFI_SETTINGS)",
+      "C) Intent(ACTION_INTERNET)",
+      "D) Intent(SYSTEM_WIFI)"
+    ],
+    "answer": 1,
+    "explanation": "`Settings.ACTION_WIFI_SETTINGS` ব্যবহারকারীকে সরাসরি ফোনের ওয়াইফাই সেটিংস পেজে নিয়ে যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4355,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "স্টোরেজ অ্যাক্সেস ফ্রেমওয়ার্কের (SAF) মাধ্যমে ফাইল পিক করার ইনটেন্ট অ্যাকশন কোনটি?",
+    "options": [
+      "A) ACTION_STORAGE",
+      "B) ACTION_READ_FILE",
+      "C) Intent.ACTION_OPEN_DOCUMENT (বা ACTION_GET_CONTENT)",
+      "D) ACTION_PICK_ALL"
+    ],
+    "answer": 2,
+    "explanation": "ACTION_OPEN_DOCUMENT সিস্টেম ফাইল ব্রাউজার খুলে ব্যবহারকারীকে নির্দিষ্ট ফাইল বাছাই করার অধিকার দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4356,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "একটি অ্যাপ্লিকেশন আনইনস্টল করলেও মুছে যাবে না এমন পাবলিক মিডিয়া ফাইল (ছবি/ভিডিও) সংরক্ষণের প্রমিত স্থান কোনটি?",
+    "options": [
+      "A) মিডিয়া স্টোর এপিআই (MediaStore - Pictures, Movies, DCIM ফোল্ডার)",
+      "B) অ্যাপ প্রাইভেট ডিরেক্টরি",
+      "C) ইন্টারনাল ক্যাশ",
+      "D) শেয়ার্ড প্রেফারেন্স"
+    ],
+    "answer": 0,
+    "explanation": "MediaStore এপিআই পাবলিক মিডিয়া ডিরেক্টরিতে ছবি সেভ করে যা অ্যাপ আনইনস্টল করলেও ফোনে থেকে যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4357,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েডে ইনটেন্ট পাঠানোর আগে ডিভাইসে সেই ইনটেন্ট পূরণ করার মতো কোনো অ্যাপ ইনস্টল আছে কিনা তা যাচাই করার মেথড কোনটি?",
+    "options": [
+      "A) intent.resolveActivity(packageManager) != null",
+      "B) verifyAction()",
+      "C) checkIntent()",
+      "D) isAppAvailable()"
+    ],
+    "answer": 0,
+    "explanation": "`resolveActivity()` পরীক্ষা করা না হলে কোনো সাপোর্টেড অ্যাপ না থাকলে ActivityNotFoundException হয়ে অ্যাপ ক্র্যাশ করবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4358,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যাপের ক্যাশ মেমরি (Cache Memory) সাময়িকভাবে জমা রাখার জন্য ব্যবহৃত ডিরেক্টরি কোনটি?",
+    "options": [
+      "A) root/temp",
+      "B) context.cacheDir (বা context.externalCacheDir)",
+      "C) system/cache",
+      "D) context.filesDir"
+    ],
+    "answer": 1,
+    "explanation": "ক্যাশ ডিরেক্টরিতে ডাউনলোড করা ছবি জমা থাকে যা মেমরি সংকটে ওএস স্বয়ংক্রিয়ভাবে ডিলিট করতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4359,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "রুম ডাটাবেস টেবিল ডিলিট করার সংকেত কোনটি?",
+    "options": [
+      "A) @Erase",
+      "B) @Remove",
+      "C) @Delete suspend fun delete(user: User)",
+      "D) @Drop"
+    ],
+    "answer": 2,
+    "explanation": "`@Delete` অ্যানোটেশন সংশ্লিষ্ট রো ডাটাবেস থেকে মুছে ফেলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4360,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৪: ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ইনটেন্টে অবজেক্ট হিসেবে পুরো একটি বান্ডেল পাস করার মেথড কোনটি?",
+    "options": [
+      "A) intent.save(bundle)",
+      "B) intent.setBundle(bundle)",
+      "C) intent.addBundle(bundle)",
+      "D) intent.putExtras(bundle)"
+    ],
+    "answer": 3,
+    "explanation": "`putExtras(Bundle)` দিয়ে একটি সম্পূর্ণ বান্ডেল অবজেক্ট ইনটেন্টে একসাথে পাস করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

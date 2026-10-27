@@ -1,0 +1,422 @@
+[
+  {
+    "id": 4971,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৩: অবজেক্ট ওরিয়েন্টেড পাইথন (Object-Oriented Python)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে কোনো ক্লাসের ইনস্ট্যান্স তৈরির সময় স্বয়ংক্রিয়ভাবে ইনিশিয়ালাইজ করার কনস্ট্রাক্টর মেথড কোনটি?",
+    "options": [
+      "A) __construct__(self)",
+      "B) __new__(self)",
+      "C) __create__(self)",
+      "D) __init__(self)"
+    ],
+    "answer": 3,
+    "explanation": "`__init__` হলো পাইথনের ডান্ডার মেথড যা নতুন অবজেক্ট তৈরির পর তার ইনিশিয়াল অ্যাট্রিবিউট সেট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4972,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৩: অবজেক্ট ওরিয়েন্টেড পাইথন (Object-Oriented Python)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ইনস্ট্যান্স মেথডের প্রথম প্যারামিটার হিসেবে প্রচলিত `self` মূলত কী নির্দেশ করে?",
+    "options": [
+      "A) প্যারেন্ট ক্লাসের রেফারেন্স",
+      "B) গ্লোবাল ভ্যারিয়েবল",
+      "C) যে অবজেক্টটি মেথডটিকে কল করছে তার নিজস্ব বর্তমান ইনস্ট্যান্স রেফারেন্স",
+      "D) ক্লাসের মেমরি অ্যাড্রেস"
+    ],
+    "answer": 2,
+    "explanation": "`self` হলো পাইথনের সেই কনভেনশন যার মাধ্যমে অবজেক্টের নিজস্ব অ্যাট্রিবিউট ও মেথড অ্যাক্সেস করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4973,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৩: অবজেক্ট ওরিয়েন্টেড পাইথন (Object-Oriented Python)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ক্লাসের বডিতে সরাসরি ঘোষিত ভ্যারিয়েবল (যা ক্লাসের সকল অবজেক্টের মধ্যে শেয়ার হয়) তাকে কী বলে?",
+    "options": [
+      "A) ইনস্ট্যান্স ভ্যারিয়েবল",
+      "B) ক্লাস বা স্ট্যাটিক ভ্যারিয়েবল (Class / Static Variable)",
+      "C) গ্লোবাল ভ্যারিয়েবল",
+      "D) লোকাল ভ্যারিয়েবল"
+    ],
+    "answer": 1,
+    "explanation": "ক্লাস ভ্যারিয়েবল মেমরিতে একবার থাকে এবং সকল ইনস্ট্যান্স তা শেয়ার করে; আর `self.x` হলো প্রতিটি অবজেক্টের পৃথক ইনস্ট্যান্স ভ্যারিয়েবল।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4974,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৩: অবজেক্ট ওরিয়েন্টেড পাইথন (Object-Oriented Python)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "যে মেথড অবজেক্ট নয় বরং স্বয়ং ক্লাসকে প্রথম প্যারামিটার (`cls`) হিসেবে গ্রহণ করে তাকে কী বলে?",
+    "options": [
+      "A) ইনস্ট্যান্স মেথড",
+      "B) স্ট্যাটিক মেথড (@staticmethod)",
+      "C) অ্যাবস্ট্রাক্ট মেথড",
+      "D) ক্লাস মেথড (@classmethod)"
+    ],
+    "answer": 3,
+    "explanation": "`@classmethod` ডেকোরেটরযুক্ত মেথড `cls` প্যারামিটার নেয় এবং অল্টারনেটিভ কনস্ট্রাক্টর হিসেবে জনপ্রিয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4975,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৩: অবজেক্ট ওরিয়েন্টেড পাইথন (Object-Oriented Python)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "যে মেথড কোনো `self` বা `cls` গ্রহণ করে না, সাধারণ ফাংশনের মতো আচরণ করে তাকে কী বলে?",
+    "options": [
+      "A) স্ট্যাটিক মেথড (@staticmethod)",
+      "B) ইনস্ট্যান্স মেথড",
+      "C) প্রাইভেট মেথড",
+      "D) ক্লাস মেথড"
+    ],
+    "answer": 0,
+    "explanation": "`@staticmethod` ক্লাসের নেমস্পেসে থাকা ইউটিলিটি ফাংশন যা অবজেক্ট বা ক্লাসের স্টেট নিয়ে কাজ করে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4976,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৩: অবজেক্ট ওরিয়েন্টেড পাইথন (Object-Oriented Python)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে কোনো অ্যাট্রিবিউটকে প্রাইভেট (Private) করার জন্য নেম ম্যাংলিং (Name Mangling) মেকানিজম কোনটি?",
+    "options": [
+      "A) সিঙ্গেল আন্ডারস্কোর `_var`",
+      "B) final কিওয়ার্ড",
+      "C) ডাবল আন্ডারস্কোর প্রিফিক্স `__var`",
+      "D) private কিওয়ার্ড"
+    ],
+    "answer": 2,
+    "explanation": "`__var` দিলে পাইথন তার নাম বদলে `_ClassName__var` করে দেয়, ফলে বাইরে থেকে সরাসরি ওভাররাইট বা অ্যাক্সেস রোধ হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4977,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৩: অবজেক্ট ওরিয়েন্টেড পাইথন (Object-Oriented Python)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "মেথডকে সাধারণ ভ্যারিয়েবলের মতো রিড ও গেটার-সেটার নিয়ন্ত্রণের সুযোগ দেয় কোন ডেকোরেটর?",
+    "options": [
+      "A) @property এবং @var.setter",
+      "B) @accessor",
+      "C) @getter",
+      "D) @attribute"
+    ],
+    "answer": 0,
+    "explanation": "`@property` মেথডকে ফিল্ডের মতো সিনট্যাক্সে (`obj.x`) পড়ার অনুমতি দেয় এবং এনক্যাপসুলেশন নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4978,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৩: অবজেক্ট ওরিয়েন্টেড পাইথন (Object-Oriented Python)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "চাইল্ড ক্লাসের ভেতর থেকে প্যারেন্ট ক্লাসের মেথড বা কনস্ট্রাক্টর কল করার ফাংশন কোনটি?",
+    "options": [
+      "A) base()",
+      "B) super()",
+      "C) parent()",
+      "D) this()"
+    ],
+    "answer": 1,
+    "explanation": "`super().__init__()` মেথড রেজোলিউশন অর্ডার অনুযায়ী প্যারেন্ট ক্লাসের ইনিশিয়ালাইজার কার্যকর করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4979,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৩: অবজেক্ট ওরিয়েন্টেড পাইথন (Object-Oriented Python)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে মাল্টিপল ইনহেরিটেন্সের ক্ষেত্রে কোন নিয়মে প্যারেন্ট মেথড খোঁজা হয় (MRO)?",
+    "options": [
+      "A) ডেপথ-ফার্স্ট সার্চ",
+      "B) র‍্যান্ডম সার্চ",
+      "C) C3 Linearization অ্যালগরিদম (Method Resolution Order)",
+      "D) ব্রেডথ-ফার্স্ট সার্চ"
+    ],
+    "answer": 2,
+    "explanation": "পাইথন মেথড রেজোলিউশন অর্ডারে (MRO) C3 Linearization ব্যবহার করে ডায়মন্ড সমস্যার যৌক্তিক সমাধান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4980,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৩: অবজেক্ট ওরিয়েন্টেড পাইথন (Object-Oriented Python)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে কোনো ক্লাসের MRO বা মেথড অনুসন্ধান ক্রম দেখার প্রোপার্টি কোনটি?",
+    "options": [
+      "A) ClassName.__path__",
+      "B) ClassName.order()",
+      "C) ClassName.__tree__",
+      "D) ClassName.__mro__ বা ClassName.mro()"
+    ],
+    "answer": 3,
+    "explanation": "`__mro__` টাপলটি ইনহেরিটেন্স শৃঙ্খলের ক্লাস অগ্রাধিকার তালিকা প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4981,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৩: অবজেক্ট ওরিয়েন্টেড পাইথন (Object-Oriented Python)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনের পলিমরফিজমে 'ডাক টাইপিং' (Duck Typing) দর্শনের অর্থ কী?",
+    "options": [
+      "A) অবজেক্ট টাইপ ফিক্সড রাখা",
+      "B) অবজেক্টটি কোন নির্দিষ্ট ক্লাসের তা মুখ্য নয়; বরং অবজেক্টটিতে কাঙ্ক্ষিত মেথড বা আচরণ বিদ্যমান আছে কিনা সেটাই মুখ্য",
+      "C) ক্লাস ইনহেরিট করতেই হবে",
+      "D) কেবল প্রাণীর অবজেক্ট তৈরি করা"
+    ],
+    "answer": 1,
+    "explanation": "'If it walks like a duck and quacks like a duck, it's a duck'—পাইথনে ইন্টারফেস ছাড়াই মেথড থাকলে কোড কাজ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4982,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৩: অবজেক্ট ওরিয়েন্টেড পাইথন (Object-Oriented Python)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "`print(obj)` কল করলে বা স্ট্রিং কনভার্সনে ব্যবহারকারীর জন্য পাঠযোগ্য টেক্সট ফেরত দেয় কোন ডান্ডার মেথড?",
+    "options": [
+      "A) __str__(self)",
+      "B) __show__(self)",
+      "C) __repr__(self)",
+      "D) __text__(self)"
+    ],
+    "answer": 0,
+    "explanation": "`__str__` সাধারণ ব্যবহারকারীর সহজে পড়ার জন্য ইনফরমাল স্ট্রিং রূপান্তর করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4983,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৩: অবজেক্ট ওরিয়েন্টেড পাইথন (Object-Oriented Python)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ডিবাগিং ও ডেভেলপারদের জন্য অবজেক্টের নিখুঁত ও দ্ব্যর্থহীন স্ট্রিং রূপ প্রদর্শন করে কোন ডান্ডার মেথড?",
+    "options": [
+      "A) __format__",
+      "B) __doc__",
+      "C) __repr__(self)",
+      "D) __str__(self)"
+    ],
+    "answer": 2,
+    "explanation": "`__repr__` আনুষ্ঠানিক স্ট্রিং প্রকাশ করে যা দিয়ে আদর্শ ক্ষেত্রে অবজেক্টটি পুনরায় পুনর্গঠন (`eval(repr(obj))`) করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4984,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৩: অবজেক্ট ওরিয়েন্টেড পাইথন (Object-Oriented Python)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে যোগ অপারেটর `+` ওভারলোড করার ডান্ডার মেথড কোনটি?",
+    "options": [
+      "A) __plus__(self, other)",
+      "B) __concat__(self, other)",
+      "C) __sum__(self, other)",
+      "D) __add__(self, other)"
+    ],
+    "answer": 3,
+    "explanation": "কাস্টম অবজেক্টের ওপর `a + b` লিখলে পাইথন অভ্যন্তরীণভাবে `a.__add__(b)` কল করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4985,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৩: অবজেক্ট ওরিয়েন্টেড পাইথন (Object-Oriented Python)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে `len(obj)` ফাংশনটির কাজ কাস্টম ক্লাসে সমর্থন করাতে কোন ডান্ডার মেথড লিখতে হয়?",
+    "options": [
+      "A) __len__(self)",
+      "B) __length__(self)",
+      "C) __size__(self)",
+      "D) __count__(self)"
+    ],
+    "answer": 0,
+    "explanation": "`__len__` মেথড বাস্তবায়ন করলে সেই অবজেক্টের ওপর স্ট্যান্ডার্ড `len()` ফাংশন কাজ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4986,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৩: অবজেক্ট ওরিয়েন্টেড পাইথন (Object-Oriented Python)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে এক্সেপশন হ্যান্ডলিংয়ের মৌলিক কাঠামো কোনটি?",
+    "options": [
+      "A) begin ... rescue ... ensure",
+      "B) try ... except ... else ... finally",
+      "C) try ... error ... end",
+      "D) try ... catch ... finally"
+    ],
+    "answer": 1,
+    "explanation": "পাইথনে `catch`-এর বদলে `except` কিওয়ার্ড ব্যবহৃত হয় এবং অপশনাল `else` ও `finally` যুক্ত থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4987,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৩: অবজেক্ট ওরিয়েন্টেড পাইথন (Object-Oriented Python)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "এক্সেপশন ব্লকে `else` এর ভূমিকা কী?",
+    "options": [
+      "A) সর্বদা চলে",
+      "B) এক্সেপশন ঘটলে চলে",
+      "C) `try` ব্লকে কোনো এক্সেপশন না ঘটলে কেবল তখনই `else` ব্লকটি রান করে",
+      "D) ফাইনালাইজ করতে চলে"
+    ],
+    "answer": 2,
+    "explanation": "যদি `try` এর কোড শতভাগ সফল হয়, কেবল তখনই `else` ব্লকের কাজ শুরু হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4988,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৩: অবজেক্ট ওরিয়েন্টেড পাইথন (Object-Oriented Python)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "প্রোগ্রামার কর্তৃক ইচ্ছাকৃতভাবে বা শর্তসাপেক্ষে কোনো এক্সেপশন নিক্ষেপ করার কিওয়ার্ড কোনটি?",
+    "options": [
+      "A) throw",
+      "B) fire",
+      "C) throws",
+      "D) raise"
+    ],
+    "answer": 3,
+    "explanation": "জাভায় যা `throw`, পাইথনে তা হলো `raise` (যেমন: `raise ValueError(\"Invalid age\")`)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4989,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৩: অবজেক্ট ওরিয়েন্টেড পাইথন (Object-Oriented Python)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে নিজস্ব কাস্টম এক্সেপশন তৈরির জন্য ক্লাসকে কোন ক্লাসের সাবক্লাস করতে হয়?",
+    "options": [
+      "A) Object",
+      "B) Error",
+      "C) Throwable",
+      "D) Exception (বা BaseException)"
+    ],
+    "answer": 3,
+    "explanation": "`class MyError(Exception): pass` লিখে ব্যবহারকারী-সংজ্ঞায়িত এক্সেপশন তৈরি করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4990,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৩: অবজেক্ট ওরিয়েন্টেড পাইথন (Object-Oriented Python)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "একটি অবজেক্টকে ফাংশনের মতো কলযোগ্য (`obj()`) করতে কোন ডান্ডার মেথড ডিফাইন করতে হয়?",
+    "options": [
+      "A) __call__(self, *args, **kwargs)",
+      "B) __exec__(self)",
+      "C) __run__(self)",
+      "D) __invoke__(self)"
+    ],
+    "answer": 0,
+    "explanation": "`__call__` মেথড সংজ্ঞায়িত থাকলে ইনস্ট্যান্স অবজেক্ট স্বয়ং একটি ফাংশনের মতো কল করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

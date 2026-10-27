@@ -1,0 +1,632 @@
+[
+  {
+    "id": 5121,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "ট্রি (Tree) কোন ধরনের ডেটা স্ট্রাকচার?",
+    "options": [
+      "A) সিকোয়েনশিয়াল ডেটা স্ট্রাকচার",
+      "B) লিনিয়ার ডেটা স্ট্রাকচার",
+      "C) নন-লিনিয়ার এবং হায়ারার্কিক্যাল (Non-linear & Hierarchical)",
+      "D) ফ্ল্যাট স্ট্রাকচার"
+    ],
+    "answer": 2,
+    "explanation": "ট্রি উপাদানগুলোকে স্তরভিত্তিক বা পদানুক্রমিক (হায়ারার্কিক্যাল) সম্পর্কে সাজায়, তাই এটি নন-লিনিয়ার ডেটা স্ট্রাকচার।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5122,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "একটি ট্রির শীর্ষবিন্দু যেখান থেকে ট্রির শাখা-প্রশাখা শুরু হয় তাকে কী বলে?",
+    "options": [
+      "A) রুট নোড (Root Node)",
+      "B) লিফ নোড",
+      "C) প্যারেন্ট নোড",
+      "D) চাইল্ড নোড"
+    ],
+    "answer": 0,
+    "explanation": "রুট হলো ট্রির একমাত্র শীর্ষ নোড যার কোনো প্যারেন্ট নোড থাকে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5123,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "যেসব নোডের কোনো চাইল্ড বা সন্তান নোড নেই তাদের কী বলা হয়?",
+    "options": [
+      "A) রুট নোড",
+      "B) লিফ নোড বা টার্মিনাল নোড (Leaf / Terminal Node)",
+      "C) ইন্টারনাল নোড",
+      "D) নন-টার্মিনাল নোড"
+    ],
+    "answer": 1,
+    "explanation": "লিফ নোডের ডিগ্রি সর্বদা শূন্য (Degree = 0)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5124,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "একটি ট্রিতে মোট $N$ সংখ্যক নোড থাকলে তাতে ঠিক কয়টি এজ (Edges) থাকবে?",
+    "options": [
+      "A) $2N$ টি",
+      "B) $N$ টি",
+      "C) $N + 1$ টি",
+      "D) $N - 1$ টি এজ"
+    ],
+    "answer": 3,
+    "explanation": "রুট বাদে প্রতিটি নোডের ঠিক একটি প্যারেন্ট প্রান্ত থাকায় $N$ নোডের ট্রিতে সর্বদা $N-1$ টি এজ থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5125,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "বাইনারি ট্রির (Binary Tree) সংজ্ঞাগত বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "A) প্রতিটি নোডে ঠিক ৩টি চাইল্ড থাকবে",
+      "B) প্রতিটি নোডে সর্বোচ্চ ২টি চাইল্ড (Left child ও Right child) থাকতে পারে",
+      "C) নোডে যত খুশি চাইল্ড থাকতে পারে",
+      "D) নোডগুলো সর্টেড থাকবে"
+    ],
+    "answer": 1,
+    "explanation": "বাইনারি ট্রিতে কোনো নোডের চাইল্ড সংখ্যা ০, ১ অথবা সর্বোচ্চ ২ হতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5126,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "একটি বাইনারি ট্রির $i$-তম স্তরে (Level $i$, যেখানে রুট লেভেল 0) সর্বোচ্চ কয়টি নোড থাকতে পারে?",
+    "options": [
+      "A) $2i$ টি",
+      "B) $i^2$ টি",
+      "C) $2^{i-1}$ টি",
+      "D) $2^i$ টি"
+    ],
+    "answer": 3,
+    "explanation": "লেভেল ০-তে $2^0=1$, লেভেল ১-এ $2^1=2$, লেভেল ২-তে $2^2=4$ ইত্যাদি ক্রমে $2^i$ টি নোড থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5127,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "উচ্চতা $h$ বিশিষ্ট একটি বাইনারি ট্রিতে সর্বোচ্চ মোট কয়টি নোড থাকতে পারে?",
+    "options": [
+      "A) $2^{h+1} - 1$ টি",
+      "B) $h^2$ টি",
+      "C) $2^h$ টি",
+      "D) $2h + 1$ টি"
+    ],
+    "answer": 0,
+    "explanation": "গুণোত্তর ধারার সমষ্টি $1 + 2 + 4 + ... + 2^h = 2^{h+1} - 1$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5128,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "ফুল বাইনারি ট্রির (Full / Strictly Binary Tree) বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "A) সব স্তরে সমান নোড থাকা",
+      "B) সকল নোড বামে থাকা",
+      "C) প্রতিটি নোডের সন্তান সংখ্যা ঠিক ০ অথবা ২ টি (কোনো নোডের ১টি সন্তান হতে পারবে না)",
+      "D) উচ্চতা সর্বনিম্ন হওয়া"
+    ],
+    "answer": 2,
+    "explanation": "ফুল বাইনারি ট্রিতে প্রতিটি নন-লিফ নোডের বাধ্যতামূলকভাবে দুটি করে চাইল্ড থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5129,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "কমপ্লিট বাইনারি ট্রির (Complete Binary Tree) বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "A) সব নোডের দুটি সন্তান থাকে",
+      "B) শেষ স্তর বাদে বাকি সকল স্তর পূর্ণ থাকে এবং শেষ স্তরের নোডগুলো বাম দিক থেকে ক্রমান্বয়ে পূরণ হয়",
+      "C) কেবলমাত্র ১টি শাখা থাকে",
+      "D) ডান দিক থেকে পূরণ হয়"
+    ],
+    "answer": 1,
+    "explanation": "হিপ ডেটা স্ট্রাকচার কমপ্লিট বাইনারি ট্রির নীতির ওপর প্রতিষ্ঠিত যা অ্যারেতে কোনো শূন্যস্থান ছাড়া রাখা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5130,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "ট্রি ট্রাভার্সালে প্রি-অর্ডার (Pre-order) ট্রাভার্সালের সঠিক ক্রম কোনটি?",
+    "options": [
+      "A) Root -> Left -> Right",
+      "B) Root -> Right -> Left",
+      "C) Left -> Root -> Right",
+      "D) Left -> Right -> Root"
+    ],
+    "answer": 0,
+    "explanation": "প্রি-অর্ডারে আগে রুট নোড ভিজিট হয়, তারপর বাম সাব-ট্রি এবং শেষে ডান সাব-ট্রি।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5131,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "ইন-অর্ডার (In-order) ট্রাভার্সালের সঠিক ক্রম কোনটি?",
+    "options": [
+      "A) Left -> Right -> Root",
+      "B) Root -> Left -> Right",
+      "C) Right -> Root -> Left",
+      "D) Left -> Root -> Right"
+    ],
+    "answer": 3,
+    "explanation": "ইন-অর্ডারে প্রথমে বাম সাব-ট্রি, তারপর রুট নোড এবং শেষে ডান সাব-ট্রি প্রসেস হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5132,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "পোস্ট-অর্ডার (Post-order) ট্রাভার্সালের সঠিক ক্রম কোনটি?",
+    "options": [
+      "A) Right -> Left -> Root",
+      "B) Root -> Left -> Right",
+      "C) Left -> Right -> Root",
+      "D) Left -> Root -> Right"
+    ],
+    "answer": 2,
+    "explanation": "পোস্ট-অর্ডারে উভয় চাইল্ড প্রসেস করার পর সবার শেষে রুট নোড ভিজিট করা হয় (ট্রি ডিলিট করতে কার্যকর)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5133,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "বাইনারি সার্চ ট্রির (BST - Binary Search Tree) প্রধান মৌলিক বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "A) সব নোডের মান সমান থাকে",
+      "B) রুটের চেয়ে ছোট মানের সকল নোড বাম সাব-ট্রিতে এবং বড় মানের সকল নোড ডান সাব-ট্রিতে থাকে",
+      "C) রুট সর্বদা ক্ষুদ্রতম হয়",
+      "D) ডান সাব-ট্রির মান ছোট থাকে"
+    ],
+    "answer": 1,
+    "explanation": "BST ইনভ্যারিয়েন্ট: $\\text{Left} < \\text{Root} < \\text{Right}$। এটি দ্রুত অনুসন্ধানের ভিত্তি।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5134,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "যেকোনো বাইনারি সার্চ ট্রিতে (BST) ইন-অর্ডার ট্রাভার্সাল (In-order Traversal) করলে উপাদানগুলো কোন ক্রমানুসারে পাওয়া যায়?",
+    "options": [
+      "A) ছোট থেকে বড় বা আরোহী ক্রমানুসারে (Sorted in Ascending Order)",
+      "B) র‍্যান্ডম ক্রমে",
+      "C) বড় থেকে ছোট",
+      "D) রুট আগে পাওয়া যায়"
+    ],
+    "answer": 0,
+    "explanation": "যেহেতু ইন-অর্ডার Left-Root-Right নিয়মে চলে, BST-র ক্ষেত্রে এটি সর্বদা গাণিতিকভাবে নিখুঁত সর্টেড আউটপুট দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5135,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "ভারসাম্যপূর্ণ (Balanced) বাইনারি সার্চ ট্রিতে সার্চিং, ইনসার্শন ও ডিলিশনের টাইম কমপ্লেক্সিটি কত?",
+    "options": [
+      "A) $O(1)$",
+      "B) $O(N)$",
+      "C) $O(N^2)$",
+      "D) $O(\\log N)$"
+    ],
+    "answer": 3,
+    "explanation": "ব্যালেন্সড ট্রির উচ্চতা $\\log_2 N$ হওয়ায় প্রতিটি ধাপে অর্ধেক ট্রি বাদ দিয়ে $O(\\log N)$-এ কাজ হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5136,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "বাইনারি সার্চ ট্রিতে ওর্স্ট-কেস টাইম কমপ্লেক্সিটি $O(N)$ কখন ঘটে?",
+    "options": [
+      "A) ট্রিটি পুরোপুরি ব্যালেন্সড হলে",
+      "B) রুট নোড ডিলিট করলে",
+      "C) ইনপুট ডেটা আগে থেকেই সর্টেড থাকলে এবং ট্রিটি স্কিউড ট্রিতে (Skewed Binary Tree) পরিণত হলে",
+      "D) ইনপুট সংখ্যা বিজোড় হলে"
+    ],
+    "answer": 2,
+    "explanation": "সর্টেড ডেটা পরপর ইনসার্ট করলে ট্রিটি একদিকে কাত হয়ে একটি সাধারণ লিঙ্কড লিস্টের মতো $O(N)$ হয়ে যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5137,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "BST থেকে দুটি সন্তানবিশিষ্ট (Two Children) কোনো নোড ডিলিট করার সময় তার স্থান কে পূরণ করে?",
+    "options": [
+      "A) রুট নোড",
+      "B) ডান চাইল্ড সরাসরি বসে যায়",
+      "C) ইন-অর্ডার সাকসেসর (ডান সাব-ট্রির সর্বনিম্ন নোড) অথবা ইন-অর্ডার প্রেডিসেসর",
+      "D) যেকোনো লিফ নোড"
+    ],
+    "answer": 2,
+    "explanation": "ইন-অর্ডার সাকসেসর (Inorder Successor) বসালে BST এর নিয়ম হুবহু অক্ষুণ্ণ থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5138,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "এভিএল ট্রির (AVL Tree) ব্যালেন্স ফ্যাক্টর (Balance Factor) নির্ণয়ের সূত্র কোনটি?",
+    "options": [
+      "A) $\\text{BF} = \\text{Degree}(\\text{Root})$",
+      "B) $\\text{BF} = \\text{Height}(\\text{Left Subtree}) - \\text{Height}(\\text{Right Subtree})$",
+      "C) $\\text{BF} = \\text{Height} \\times 2$",
+      "D) $\\text{BF} = \\text{Nodes}(\\text{Left}) - \\text{Nodes}(\\text{Right})$"
+    ],
+    "answer": 1,
+    "explanation": "বাম সাব-ট্রির উচ্চতা থেকে ডান সাব-ট্রির উচ্চতার বিয়োগফলই হলো ব্যালেন্স ফ্যাক্টর।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5139,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "একটি বৈধ এভিএল ট্রির প্রতিটি নোডের ব্যালেন্স ফ্যাক্টরের মান কত হতে পারে?",
+    "options": [
+      "A) যেকোনো পূর্ণসংখ্যা",
+      "B) -2 থেকে +2",
+      "C) সর্বদা 0",
+      "D) -1, 0, অথবা +1"
+    ],
+    "answer": 3,
+    "explanation": "উচ্চতার পার্থক্য ১-এর বেশি (যেমন +২ বা -২) হওয়া মাত্রই রোটেশনের মাধ্যমে পুনরায় ব্যালেন্স করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5140,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "এভিএল ট্রিতে নোড আনব্যালেন্স হলে ভারসাম্য ফিরিয়ে আনার ৪টি মৌলিক রোটেশন কোনগুলো?",
+    "options": [
+      "A) LL রোটেশন, RR রোটেশন, LR রোটেশন, RL রোটেশন",
+      "B) Push, Pop, Shift, Rotate",
+      "C) Clockwise, Counter",
+      "D) Up, Down, Left, Right"
+    ],
+    "answer": 0,
+    "explanation": "একক রোটেশন হলো LL ও RR; ডাবল রোটেশন হলো LR (Left-Right) ও RL (Right-Left)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5141,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "রেড-ব্ল্যাক ট্রির (Red-Black Tree) মূল প্রোপার্টি কোনটি?",
+    "options": [
+      "A) সব নোড লাল হতে হয়",
+      "B) রুট সর্বদা কালো (Black) এবং পরপর দুটি লাল (Red) নোড পাশাপাশি থাকতে পারে না",
+      "C) বাম চাইল্ড সর্বদা কালো",
+      "D) উচ্চতা সর্বদা সমান"
+    ],
+    "answer": 1,
+    "explanation": "নোডের রঙ এবং ব্ল্যাক-হাইটের নিয়মের মাধ্যমে রেড-ব্ল্যাক ট্রি সেলফ-ব্যালেন্সিং বজায় রাখে (যেমন C++ map বা Java TreeMap-এ ব্যবহৃত)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5142,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "ডেটাবেস ইনডেক্সিং এবং ফাইল সিস্টেমে ডিস্ক রিড কমাতে বহুল ব্যবহৃত মাল্টি-ওয়ে সার্চ ট্রি কোনটি?",
+    "options": [
+      "A) এভিএল ট্রি",
+      "B) বাইনারি সার্চ ট্রি",
+      "C) হিপ ট্রি",
+      "D) Tree এবং B+ Tree"
+    ],
+    "answer": 3,
+    "explanation": "B/B+ ট্রি প্রতি নোডে শত শত কি ধারণ করে ট্রির উচ্চতা খুব ছোট রাখে, ফলে সেকেন্ডারি স্টোরেজ ব্লক অ্যাক্সেস নাটকীয়ভাবে কমে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5143,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "B-Tree এবং B+ Tree এর মধ্যে মূল পার্থক্য কী?",
+    "options": [
+      "A) B+ ট্রিতে সমস্ত ডেটা রেকর্ড কেবল লিফ নোডে থাকে এবং লিফ নোডগুলো লিঙ্কড লিস্ট দিয়ে যুক্ত থাকে",
+      "B) ট্রিতে কোনো লিফ থাকে না",
+      "C) B+ ট্রি বাইনারি ট্রি",
+      "D) উভয়ের গঠন অভিন্ন"
+    ],
+    "answer": 0,
+    "explanation": "B+ ট্রির লিফ নোডগুলো লিঙ্কড থাকায় রেঞ্জ কুয়েরি (Range Queries) অত্যন্ত দ্রুত সম্পন্ন করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5144,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "ম্যাক্স-হিপের (Max-Heap) মৌলিক শর্ত কোনটি?",
+    "options": [
+      "A) প্যারেন্ট নোড চাইল্ডের চেয়ে ছোট",
+      "B) বাম চাইল্ড বড় ডান চাইল্ড ছোট",
+      "C) প্রতিটি প্যারেন্ট নোডের মান তার চাইল্ড নোডসমূহের মানের চেয়ে বড় বা সমান (রুট হলো বৃহত্তম মান)",
+      "D) সকল নোড সমান"
+    ],
+    "answer": 2,
+    "explanation": "ম্যাক্স-হিপে রুট নোডে সর্বদা সম্পূর্ণ ট্রির সর্বোচ্চ উপাদানটি অবস্থান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5145,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "অ্যারেতে সংরক্ষিত একটি বাইনারি হিপের $i$-তম ইনডেক্সের নোডের বাম চাইল্ড ও ডান চাইল্ডের ইনডেক্স সূত্র কোনটি (0-based indexing)?",
+    "options": [
+      "A) $i/2$",
+      "B) বাম চাইল্ড: $2i + 1$, ডান চাইল্ড: $2i + 2$",
+      "C) বাম চাইল্ড: $i + 1$, ডান চাইল্ড: $i + 2$",
+      "D) বাম চাইল্ড: $2i$, ডান চাইল্ড: $2i + 1$"
+    ],
+    "answer": 1,
+    "explanation": "জিরো-ইনডেক্সড অ্যারেতে $i$-এর প্যারেন্ট হলো $(i-1)/2$, বাম সন্তান $2i+1$ এবং ডান সন্তান $2i+2$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5146,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "একটি অবিন্যস্ত অ্যারে থেকে 'Build Heap' অপারেশন সম্পন্ন করার সামগ্রিক টাইম কমপ্লেক্সিটি কত?",
+    "options": [
+      "A) $O(\\log N)$",
+      "B) $O(N^2)$",
+      "C) $O(N)$",
+      "D) $O(N \\log N)$"
+    ],
+    "answer": 2,
+    "explanation": "বটম-আপ হিপিফাই পদ্ধতিতে $N/2$ নোডের জন্য গাণিতিক ধারার যোগফলে মোট সময় লিনিয়ার $O(N)$ হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5147,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "হিপে একটি নতুন উপাদান ইনসার্ট করার বা রুট থেকে এক্সট্র্যাক্ট করার টাইম কমপ্লেক্সিটি কত?",
+    "options": [
+      "A) $O(\\log N)$",
+      "B) $O(N)$",
+      "C) $O(N^2)$",
+      "D) $O(1)$"
+    ],
+    "answer": 0,
+    "explanation": "ইনসার্ট বা ডিলিটের পর হিপ প্রোপার্টি বজায় রাখতে ট্রির উচ্চতা বরাবর হিপিফাই করতে $O(\\log N)$ সময় লাগে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5148,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "ট্রি-এর লেভেল-অর্ডার ট্রাভার্সাল (Level-Order Traversal / BFS) বাস্তবায়নে কোন ডেটা স্ট্রাকচার ব্যবহৃত হয়?",
+    "options": [
+      "A) অ্যারে",
+      "B) স্ট্যাক (Stack)",
+      "C) হিপ",
+      "D) কিউ (Queue)"
+    ],
+    "answer": 3,
+    "explanation": "লেভেল বাই লেভেল নোড ভিজিট করতে FIFO কিউতে চাইল্ড নোডগুলো পুশ করে প্রসেস করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5149,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "দুটি নোডের কমন পূর্বপুরুষদের মধ্যে সবচেয়ে গভীরতম নোডটিকে কী বলা হয়?",
+    "options": [
+      "A) সিবলিং",
+      "B) রুট নোড",
+      "C) লোয়েস্ট কমন অ্যানসেস্টর (LCA - Lowest Common Ancestor)",
+      "D) প্যারেন্ট নোড"
+    ],
+    "answer": 2,
+    "explanation": "LCA হলো দুটি নোডের নিকটতম সাধারণ প্যারেন্ট যা ট্রি অ্যালগরিদমে ব্যাপকভাবে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5150,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৬: ট্রি ও বাইনারি সার্চ ট্রি (Tree, BST, AVL & Heap)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "শব্দকোষ বা প্রিফিক্স অনুসন্ধানের জন্য (যেমন অটো-কমপ্লিট) বিশেষায়িত ট্রি ডেটা স্ট্রাকচার কোনটি?",
+    "options": [
+      "A) বাইনারি ট্রি",
+      "B) ট্রাই (Trie / Prefix Tree)",
+      "C) এভিএল ট্রি",
+      "D) সেগমেন্ট ট্রি"
+    ],
+    "answer": 1,
+    "explanation": "Trie ডেটা স্ট্রাকচার প্রতিটি ক্যারেক্টারকে পাথ হিসেবে নিয়ে ডিকশনারি সার্চ $O(L)$ সময়ে সম্পন্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

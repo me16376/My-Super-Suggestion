@@ -1,0 +1,212 @@
+[
+  {
+    "id": 4901,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৮: টাপল ডেটা স্ট্রাকচার (Tuple Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে টাপল (Tuple) ডেটা স্ট্রাকচারের মৌলিক বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "A) মিউটেবল এবং আন-অর্ডার্ড",
+      "B) ডুপ্লিকেট উপাদান অনুমোদন করে না",
+      "C) অর্ডারড (Ordered), ইনডেক্সড কিন্তু ইমিউটেবল (Immutable - পরিবর্তন করা যায় না)",
+      "D) শুধুমাত্র সংখ্যা সংরক্ষণ করতে পারে"
+    ],
+    "answer": 2,
+    "explanation": "টাপল প্যারেন্থেসিস `()` দিয়ে গঠিত একটি অপরিবর্তনশীল ক্রম, যার উপাদান একবার তৈরির পর আর পরিবর্তন বা মোছা যায় না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4902,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৮: টাপল ডেটা স্ট্রাকচার (Tuple Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে একটি মাত্র উপাদান বিশিষ্ট টাপল তৈরির সঠিক সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) t = [5]",
+      "B) t = tuple(5)",
+      "C) t = (5)",
+      "D) t = (5,) বা 5,"
+    ],
+    "answer": 3,
+    "explanation": "একক উপাদানের পর কমা `,` না দিলে পাইথন তাকে সাধারণ বন্ধনীযুক্ত সংখ্যা মনে করে (যেমন `(5)` হলো int, কিন্তু `(5,)` হলো tuple)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4903,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৮: টাপল ডেটা স্ট্রাকচার (Tuple Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে টাপল আনপ্যাকিংয়ে অতিরিক্ত অবশিষ্ট উপাদানগুলোকে একটি লিস্টে ধারণ করতে কোন সিনট্যাক্স ব্যবহৃত হয়?",
+    "options": [
+      "A) কোলন `:`",
+      "B) স্টার বা এস্টারিস্ক `*` (যেমন: first, *rest = t)",
+      "C) ডাবল ডট `..`",
+      "D) অ্যাম্পারস্যান্ড `&`"
+    ],
+    "answer": 1,
+    "explanation": "এক্সটেন্ডেড আনপ্যাকিংয়ে `*rest` দিলে মধ্যবর্তী বা শেষের বাকি সকল উপাদান স্বয়ংক্রিয়ভাবে একটি লিস্টে জমা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4904,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৮: টাপল ডেটা স্ট্রাকচার (Tuple Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "লিস্টের তুলনায় টাপল ব্যবহারের প্রধান সুবিধা কোনটি?",
+    "options": [
+      "A) টাপল ইমিউটেবল হওয়ায় ডেটা সুরক্ষিত থাকে, মেমরি কম নেয় এবং এক্সেস স্পিড তুলনামূলক দ্রুত",
+      "B) টাপল সাইজ ডাইনামিকালি বাড়ে",
+      "C) টাপলে নতুন উপাদান সহজে যোগ করা যায়",
+      "D) টাপলে অনেক বেশি বিল্ট-ইন মেথড থাকে"
+    ],
+    "answer": 0,
+    "explanation": "ফিক্সড সাইজ ও ইমিউটেবিলিটির কারণে পাইথন ইন্টারপ্রেটার টাপলের মেমরি দারুণভাবে অপ্টিমাইজ করতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4905,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৮: টাপল ডেটা স্ট্রাকচার (Tuple Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "টাপল কি পাইথনে ডিকশনারির 'কী' (Dictionary Key) হিসেবে ব্যবহৃত হতে পারে?",
+    "options": [
+      "A) শুধুমাত্র স্ট্রিং থাকলে পারে",
+      "B) যেকোনো টাপল সবসময় পারে",
+      "C) না, টাপল কখনো কী হতে পারে না",
+      "D) হ্যাঁ, যদি টাপলের ভেতরের সকল উপাদান ইমিউটেবল/হ্যাশেবল হয়"
+    ],
+    "answer": 3,
+    "explanation": "টাপলের ভেতর যদি মিউটেবল কোনো অবজেক্ট (যেমন লিস্ট `(1, [2, 3])`) না থাকে, তবে তা হ্যাশেবল বিধায় ডিকশনারি কী হতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4906,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৮: টাপল ডেটা স্ট্রাকচার (Tuple Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "টাপল অবজেক্টের নিজস্ব বিল্ট-ইন মেথড কয়টি?",
+    "options": [
+      "A) ৫টি",
+      "B) ২টি (count() এবং index())",
+      "C) ১০টি",
+      "D) কোনো মেথড নেই"
+    ],
+    "answer": 1,
+    "explanation": "যেহেতু টাপলে উপাদান যোগ বা বিয়োগ করা যায় না, তাই এতে শুধু উপাদান গণনা `count()` ও অবস্থান খোঁজার `index()` মেথড আছে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4907,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৮: টাপল ডেটা স্ট্রাকচার (Tuple Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "নিচের কোডের আউটপুট কী হবে?\n`t = (1, 2, [3, 4])\nt[2].append(5)\nprint(t)`",
+    "options": [
+      "A) TypeError",
+      "B) (1, 2, [3, 4])",
+      "C) (1, 2, [3, 4, 5])",
+      "D) ValueError"
+    ],
+    "answer": 2,
+    "explanation": "টাপল ইমিউটেবল হলেও তার অভ্যন্তরে থাকা রেফারেন্সড লিস্টটি নিজে মিউটেবল, তাই লিস্টটির ভেতরের উপাদান পরিবর্তন সম্ভব।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4908,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৮: টাপল ডেটা স্ট্রাকচার (Tuple Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "কোনো বিদ্যমান টাপলে নতুন উপাদান যোগ করতে চাইলে প্রচলিত কার্যকর পদ্ধতি কোনটি?",
+    "options": [
+      "A) টাপলটিকে লিস্টে রূপান্তর করে পরিবর্তন শেষে পুনরায় টাপলে কনভার্ট করা",
+      "B) টাপলে কখনোই পরিবর্তন সম্ভব নয়",
+      "C) tuple.append() মেথড কল করা",
+      "D) tuple.insert() মেথড কল করা"
+    ],
+    "answer": 0,
+    "explanation": "`temp = list(my_tuple); temp.append(x); my_tuple = tuple(temp)` এর মাধ্যমে নতুন টাপল তৈরি করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4909,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৮: টাপল ডেটা স্ট্রাকচার (Tuple Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ইনডেক্সের পাশাপাশি নামের মাধ্যমে টাপলের উপাদান অ্যাক্সেস করার সুবিধাজনক স্ট্যান্ডার্ড ক্লাস কোনটি?",
+    "options": [
+      "A) typing.Tuple",
+      "B) collections.namedtuple",
+      "C) dataclass",
+      "D) collections.OrderedDict"
+    ],
+    "answer": 1,
+    "explanation": "`namedtuple` ব্যবহার করে অবজেক্টের মতো ফিল্ড নেমে (যেমন: `pt.x`, `pt.y`) হালকা ওজনে টাপল উপাদান অ্যাক্সেস করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4910,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৮: টাপল ডেটা স্ট্রাকচার (Tuple Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "একটি টাপল মেমরিতে কতটুকু স্থান নিয়েছে তা জানতে কোন ফাংশনটি ব্যবহৃত হয়?",
+    "options": [
+      "A) sys.getsizeof(t)",
+      "B) sizeof(t)",
+      "C) len(t)",
+      "D) memory(t)"
+    ],
+    "answer": 0,
+    "explanation": "`sys` মডিউলের `getsizeof()` যেকোনো পাইথন অবজেক্টের দখলকৃত মেমরি বাইট সংখ্যা প্রকাশ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

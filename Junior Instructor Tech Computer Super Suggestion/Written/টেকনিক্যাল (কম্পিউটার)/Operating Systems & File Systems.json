@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1080,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & File Systems",
+    "question": "লিনাক্স ফাইল সিস্টেম ও ইনোড (Inode Architecture) গাণিতিক সমস্যা:\nএকটি ইউনিক্স/লিনাক্স ফাইল সিস্টেমে ডিস্ক ব্লক সাইজ ৪ KB ($4096\\text{ bytes}$) এবং প্রতিটি ডিস্ক ব্লক অ্যাড্রেস বা পয়েন্টার ৩২-বিট ($4\\text{ bytes}$)। প্রতিটি ইনোডে (Inode) মোট ১৫টি ব্লক পয়েন্টার রয়েছে:\n- ১২টি Direct Block Pointers\n- ১টি Single Indirect Pointer\n- ১টি Double Indirect Pointer\n- ১টি Triple Indirect Pointer\n\n(ক) ইনোড কী এবং এতে কী কী মেটাডাটা সংরক্ষিত থাকে?\n(খ) উক্ত সিস্টেমে একটি ফাইলের সর্বোচ্চ তাত্ত্বিক আকার (Maximum Theoretical File Size) কত গাণিতিকভাবে নির্ণয় করুন।",
+    "marks": 9,
+    "answer": "লিনাক্স ইনোড আর্কিটেকচার ও ফাইল সাইজ সমাধান:\n\n১. ইনোড (Index Node) ও সংরক্ষিত মেটাডাটা:\nইনোড হলো ইউনিক্স/লিনাক্স ফাইল সিস্টেমের একটি ডাটা স্ট্রাকচার যা প্রতিটি ফাইল বা ডিরেক্টরির মেটাডাটা ধারণ করে। ইনোডে ফাইলের আসল নাম বা ডাটা থাকে না, তবে নিচের মেটাডাটা থাকে:\n- File Type & Permissions (e.g., `-rwxr-xr-x`)\n- Owner UID and Group GID\n- File Size in bytes\n- Timestamps (atime, mtime, ctime)\n- Hard Link Count\n- ডিস্ক ডাটা ব্লকের পয়েন্টারসমূহ (Direct & Indirect Pointers)\n\n২. সর্বোচ্চ তাত্ত্বিক ফাইল সাইজ নির্ণয়ের গাণিতিক হিসাব:\nদেওয়া আছে:\n• ব্লক সাইজ = $4\\text{ KB} = 4096\\text{ bytes}$\n• পয়েন্টার সাইজ = $4\\text{ bytes}$\n• একটি ব্লকে মোট পয়েন্টার সংখ্যা ($K$):\n$$K = \\frac{4096\\text{ bytes}}{4\\text{ bytes}} = 1024\\text{ pointers}$$\n\nধাপ ১: ১২টি ডাইরেক্ট ব্লক (Direct Blocks):\n১২টি ব্লকে সরাসরি ডাটা থাকে।\n$$\\text{Capacity}_1 = 12 \\times 4\\text{ KB} = 48\\text{ KB}$$\n\nধাপ ২: ১টি সিঙ্গেল ইনডাইরেক্ট ব্লক (Single Indirect):\n১টি পয়েন্টার ব্লক $\\times 1024$ ডাটা ব্লক:\n$$\\text{Capacity}_2 = 1024 \\times 4\\text{ KB} = 4096\\text{ KB} = 4\\text{ MB}$$\n\nধাপ ৩: ১টি ডাবল ইনডাইরেক্ট ব্লক (Double Indirect):\n১০২৪টি ইনডাইরেক্ট ব্লক $\\times 1024$ ডাটা ব্লক = $1024^2$ ব্লক:\n$$\\text{Capacity}_3 = 1024 \\times 1024 \\times 4\\text{ KB} = 1,048,576 \\times 4\\text{ KB} = 4,194,304\\text{ KB} = 4\\text{ GB}$$\n\nধাপ ৪: ১টি ট্রিপল ইনডাইরেক্ট ব্লক (Triple Indirect):\n$1024^3$ ডাটা ব্লক:\n$$\\text{Capacity}_4 = 1024^3 \\times 4\\text{ KB} = 1024 \\times 4\\text{ GB} = 4096\\text{ GB} = 4\\text{ TB}$$\n\nমোট সর্বোচ্চ ফাইল আকার:\n$$\\text{Total Max Size} = 48\\text{ KB} + 4\\text{ MB} + 4\\text{ GB} + 4\\text{ TB} \\approx 4.004\\text{ TB}$$\n\nউত্তর: উক্ত সিস্টেমে একটি ফাইলের সর্বোচ্চ তাত্ত্বিক আকার প্রায় **৪ টেরাবাইট (4 TB)**।",
+    "points_to_remember": [
+      "ইনটিজার ৩২-বিট ব্লক পয়েন্টারের কারণে একটি ডিস্ক ব্লকে ১০২৪টি পয়েন্টার ধরে।",
+      "ফাইল সাইজের সিংহভাগ ক্ষমতাই আসে ট্রিপল ইনডাইরেক্ট পয়েন্টার থেকে।"
+    ],
+    "tags": [
+      "operating_system",
+      "inode",
+      "file_system_math",
+      "linux"
+    ]
+  }
+]

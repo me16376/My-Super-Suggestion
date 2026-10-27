@@ -1,0 +1,842 @@
+[
+  {
+    "id": 3561,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "তথ্য নিরাপত্তার তিনটি প্রধান স্তম্ভ 'CIA Triad'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Cryptography, Identification, Authorization",
+      "B) Cyber, Intelligence, Assurance",
+      "C) Control, Inspection, Authentication",
+      "D) Confidentiality, Integrity, Availability"
+    ],
+    "answer": 3,
+    "explanation": "CIA Triad হলো তথ্যের গোপনীয়তা (Confidentiality), অখণ্ডতা (Integrity), এবং প্রাপ্যতা (Availability)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3562,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "আইবিএম কর্তৃক ১৯৭৭ সালে প্রবর্তিত ক্লাসিক্যাল সিমেট্রিক এনক্রিপশন স্ট্যান্ডার্ড 'DES'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Data Encoding Standard",
+      "B) Data Encryption Standard",
+      "C) Direct Encryption Scheme",
+      "D) Digital Encryption System"
+    ],
+    "answer": 1,
+    "explanation": "DES হলো Data Encryption Standard; এর কী সাইজ ছিল ৫৬-বিট যা বর্তমানে অনিরাপদ হওয়ায় বাতিল করা হয়েছে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3563,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "বর্তমানে বিশ্বব্যাপী আন্তর্জাতিকভাবে ব্যবহৃত সর্বাধিক নিরাপদ সিমেট্রিক এনক্রিপশন 'AES'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Advanced Encryption Standard (Rijndael Algorithm)",
+      "B) Array Encryption Standard",
+      "C) Automated Encryption System",
+      "D) Asymmetric Encryption Standard"
+    ],
+    "answer": 0,
+    "explanation": "AES হলো Advanced Encryption Standard; এটি ১২৮, ১৯২ ও ২৫৬-বিট কী ব্যবহার করে অত্যন্ত শক্তিশালী ডেটা সুরক্ষা দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3564,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "মৌলিক সংখ্যার উৎপাদকে বিশ্লেষণের জটিলতার ওপর ভিত্তি করে তৈরি পাবলিক কী অ্যালগরিদম 'RSA' মূলত কাদের নামের আদ্যক্ষর?",
+    "options": [
+      "A) র‍্যাডিক্যাল সিকিউরিটি অ্যালগরিদম",
+      "B) রিমোট সিকিউর অ্যাক্সেস",
+      "C) রিভেস্ট, শামির এবং অ্যাডেলম্যান (Rivest, Shamir, and Adleman)",
+      "D) র‍্যান্ডম সিস্টেম আর্কিটেকচার"
+    ],
+    "answer": 2,
+    "explanation": "RSA হলো Ron Rivest, Adi Shamir, এবং Leonard Adleman—এই তিন বিজ্ঞানীর নামানুসারে ১৯৭৭ সালে প্রবর্তিত পাবলিক কী অ্যালগরিদম।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3565,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "উপবৃত্তাকার বক্ররেখার গাণিতিক সমীকরণ ব্যবহার করে ছোট কী-তে উচ্চ নিরাপত্তা প্রদানকারী ক্রিপ্টোগ্রাফি 'ECC'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Extended Certificate Cryptography",
+      "B) Enhanced Cyber Cryptosystem",
+      "C) Electronic Codebook Cipher",
+      "D) Elliptic Curve Cryptography"
+    ],
+    "answer": 3,
+    "explanation": "ECC হলো Elliptic Curve Cryptography; এটি মাত্র ২৫৬-বিট কী দিয়ে RSA-এর ৩০৭২-বিট সমমানের নিরাপত্তা দিতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3566,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ক্রিপ্টোগ্রাফিক হ্যাশ অ্যালগরিদম 'SHA' (যেমন SHA-256)-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) System Hash Application",
+      "B) Standard Hash Architecture",
+      "C) Secure Hash Algorithm",
+      "D) Synchronous Hash Algorithm"
+    ],
+    "answer": 2,
+    "explanation": "SHA হলো Secure Hash Algorithm; এটি আমেরিকার NIST কর্তৃক প্রমিত একমুখী হ্যাশিং অ্যালগরিদম যা ডেটার অখণ্ডতা যাচাই করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3567,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ডিজিটাল সার্টিফিকেট ও পাবলিক কী ব্যবস্থাপনার সম্পূর্ণ ফ্রেমওয়ার্ক 'PKI'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Public Key Infrastructure",
+      "B) Private Key Integration",
+      "C) Primary Key Infrastructure",
+      "D) Public Kernel Interface"
+    ],
+    "answer": 0,
+    "explanation": "PKI হলো Public Key Infrastructure; এতে সার্টিফিকেট অথরিটি (CA) ডিজিটাল সার্টিফিকেট ইস্যু ও বাতিল করে নিরাপত্তা দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3568,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "এসএসএল-এর আধুনিক ও নিরাপদ উত্তরসূরি ক্রিপ্টোগ্রাফিক প্রোটোকল 'TLS'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Terminal Layer Safety",
+      "B) Transport Layer Security",
+      "C) Transmission Level Security",
+      "D) Total Link Security"
+    ],
+    "answer": 1,
+    "explanation": "TLS হলো Transport Layer Security; বর্তমান ইন্টারনেটের সকল HTTPS ওয়েবসাইট মূলত TLS 1.2 বা TLS 1.3 দিয়ে সুরক্ষিত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3569,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "সার্ভারে কৃত্রিম ট্রাফিকের বন্যা বইয়ে দিয়ে আসল ব্যবহারকারীদের জন্য সেবা বন্ধ করে দেওয়ার সাইবার আক্রমণ 'DDoS'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Distributed Denial of Service",
+      "B) Direct Denial of Service",
+      "C) Data Distribution of Server",
+      "D) Domain Denial of System"
+    ],
+    "answer": 0,
+    "explanation": "DDoS হলো Distributed Denial of Service; এটি হাজার হাজার সংক্রামিত জম্বি/বটনেট পিসি দিয়ে সার্ভার ডাউন করে ফেলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3570,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ওয়েব পেজে আক্রমণকারী কর্তৃক ক্ষতিকর জাভাস্ক্রিপ্ট কোড প্রবেশ করানোর দুর্বলতা 'XSS'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) XML System Scripting",
+      "B) Cross-Server Security",
+      "C) X-Structure Scripting",
+      "D) Cross-Site Scripting"
+    ],
+    "answer": 3,
+    "explanation": "XSS হলো Cross-Site Scripting (CSS-এর সাথে বিভ্রান্তি এড়াতে XSS লেখা হয়); এর মাধ্যমে ব্যবহারকারীর কুকি ও সেশন চুরি করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3571,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ব্যবহারকারীর অজান্তে তার ব্রাউজার সেশন ব্যবহার করে অননুমোদিত রিকোয়েস্ট পাঠানোর সাইবার আক্রমণ 'CSRF'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Client-Side Request Filter",
+      "B) Cross-Site Request Forgery",
+      "C) Central Security Request Framework",
+      "D) Cross-Server Resource File"
+    ],
+    "answer": 1,
+    "explanation": "CSRF হলো Cross-Site Request Forgery; এটি ব্যবহারকারীর লগইন করা ব্যাংকিং সাইটে জাল ফান্ড ট্রান্সফার রিকোয়েস্ট পাঠাতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3572,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "নেটওয়ার্কে সাইবার অনুপ্রবেশ শনাক্তকারী 'IDS' এবং সক্রিয়ভাবে অনুপ্রবেশ প্রতিহতকারী 'IPS'-এর পূর্ণরূপ যথাক্রমে কী?",
+    "options": [
+      "A) Interface Detection System এবং Inspection Protection System",
+      "B) Internal Defense System এবং Internet Protection System",
+      "C) Intrusion Detection System এবং Intrusion Prevention System",
+      "D) Internet Detection Service এবং Integrated Protocol Security"
+    ],
+    "answer": 2,
+    "explanation": "IDS অনুপ্রবেশ শনাক্ত করে অ্যালার্ট পাঠায়, আর IPS সক্রিয়ভাবে ম্যালিশিয়াস প্যাকেট ড্রপ বা ব্লক করে প্রতিরোধ গড়ে তোলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3573,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "পাবলিক ইন্টারনেট ও সুরক্ষিত ইন্টারনাল প্রাইভেট নেটওয়ার্কের মধ্যবর্তী বাফার সাবনেট 'DMZ'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Dual Mode Zone",
+      "B) Direct Management Zone",
+      "C) Data Monitoring Zone",
+      "D) Demilitarized Zone"
+    ],
+    "answer": 3,
+    "explanation": "DMZ হলো Demilitarized Zone; ওয়েব বা মেইল সার্ভারগুলো এতে রাখা হয় যাতে এগুলো হ্যাক হলেও মূল ইন্টারনাল ডেটাবেস নিরাপদ থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3574,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "প্রতিষ্ঠানের সাইবার সিকিউরিটি অ্যালার্ট ও লগ ফাইল রিয়েল-টাইমে বিশ্লেষণকারী 'SIEM'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Secure Information Encryption Module",
+      "B) Security Information and Event Management",
+      "C) Security Incident and Execution Model",
+      "D) System Intrusion and Event Monitoring"
+    ],
+    "answer": 1,
+    "explanation": "SIEM হলো Security Information and Event Management; এটি ফায়ারওয়াল, সার্ভার ও অ্যান্টিভাইরাসের লগ একীভূত করে অ্যানোমালি ধরে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3575,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ইউরোপীয় ইউনিয়নের ঐতিহাসিক নাগরিক ডেটা সুরক্ষা আইন 'GDPR'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Global Digital Privacy Regulation",
+      "B) General Digital Protection Rights",
+      "C) General Data Protection Regulation",
+      "D) Global Data Privacy Rule"
+    ],
+    "answer": 2,
+    "explanation": "GDPR হলো General Data Protection Regulation; এটি ২০১৮ সালে ইউরোপীয় ইউনিয়ন কর্তৃক প্রবর্তিত কঠোর ডেটা গোপনীয়তা আইন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3576,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ক্লাউডে ভার্চুয়াল সার্ভার, স্টোরেজ ও নেটওয়ার্ক ভাড়া দেওয়ার সেবা 'IaaS'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Infrastructure as a Service",
+      "B) Integration as a Service",
+      "C) Internet as a Service",
+      "D) Information as a Service"
+    ],
+    "answer": 0,
+    "explanation": "IaaS হলো Infrastructure as a Service; যেমন AWS EC2, Google Compute Engine যেখানে ব্যবহারকারী পূর্ণ ওএস নিয়ন্ত্রণ পায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3577,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ওএস ও হার্ডওয়্যার ব্যবস্থাপনা ছাড়াই কেবল কোড রান করার ক্লাউড প্ল্যাটফর্ম 'PaaS'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Platform as a Service",
+      "B) Product as a Service",
+      "C) Program as a Service",
+      "D) Protocol as a Service"
+    ],
+    "answer": 0,
+    "explanation": "PaaS হলো Platform as a Service; যেমন Heroku বা AWS Elastic Beanstalk যেখানে ডেভেলপার শুধু কোড ডিপ্লয় করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3578,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ব্রাউজারের মাধ্যমে সরাসরি সম্পূর্ণ রেডিমেড সফটওয়্যার ব্যবহারের ক্লাউড মডেল 'SaaS'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Storage as a Service",
+      "B) Security as a Service",
+      "C) System as a Service",
+      "D) Software as a Service"
+    ],
+    "answer": 3,
+    "explanation": "SaaS হলো Software as a Service; যেমন Google Workspace, Microsoft 365, Dropbox ইত্যাদি।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3579,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ইভেন্ট ভিত্তিক সার্ভারলেস কোড এক্সিকিউশন সেবা 'FaaS'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Framework as a Service",
+      "B) Fast as a Service",
+      "C) Function as a Service",
+      "D) File as a Service"
+    ],
+    "answer": 2,
+    "explanation": "FaaS হলো Function as a Service (Serverless Computing); যেমন AWS Lambda, Google Cloud Functions।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3580,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "লিনাক্স কার্নেলের ভেতরে সরাসরি অন্তর্নির্মিত ওপেন-সোর্স হাইপারভাইজার 'KVM'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Key-Value Machine",
+      "B) Kernel-based Virtual Machine",
+      "C) Kernel Virtual Module",
+      "D) Keyboard-Video-Mouse"
+    ],
+    "answer": 1,
+    "explanation": "KVM হলো Kernel-based Virtual Machine; এটি লিনাক্স কার্নেলকে একটি টাইপ-১ বেয়ার-মেটাল হাইপারভাইজারে পরিণত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3581,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "আমাজনের ক্লাউড প্ল্যাটফর্ম এডব্লিউএস (AWS)-এর সবচেয়ে জনপ্রিয় ক্লাউড সার্ভার 'EC2'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Enhanced Cluster Cloud",
+      "B) Elastic Compute Cloud",
+      "C) Enterprise Cloud Computing",
+      "D) Electronic Core Cloud"
+    ],
+    "answer": 1,
+    "explanation": "EC2 হলো Elastic Compute Cloud (Elastic-এর E এবং Compute Cloud-এর দুটি C মিলে EC2); এটি প্রয়োজন অনুযায়ী স্কেল করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3582,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "আমাজন ওয়েব সার্ভিসের বিখ্যাত আনলিমিটেড অবজেক্ট স্টোরেজ সার্ভিস 'S3'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Scalable System Storage",
+      "B) Secure Storage Scheme",
+      "C) Simple Storage Service",
+      "D) Standard Storage Service"
+    ],
+    "answer": 2,
+    "explanation": "S3 হলো Simple Storage Service (তিনটি S); এটি ৯৯.৯৯৯৯৯৯৯৯৯% (১১টি ৯) ডুরাবিলিটি সমৃদ্ধ ক্লাউড অবজেক্ট স্টোরেজ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3583,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ইমেজ ও কম্পিউটার ভিশন প্রসেসিংয়ে ব্যবহৃত ডিপ লার্নিং নেটওয়ার্ক 'CNN'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Connected Node Network",
+      "B) Continuous Neural Network",
+      "C) Computer Neural Network",
+      "D) Convolutional Neural Network"
+    ],
+    "answer": 3,
+    "explanation": "CNN হলো Convolutional Neural Network; এটি স্থানিক ভিজ্যুয়াল ফিচার এক্সট্র্যাক্ট করতে বিশেষায়িত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3584,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "সিকোয়েন্স ডেটা ও প্রাকৃতিক ভাষা প্রক্রিয়াকরণে ব্যবহৃত অভ্যন্তরীণ লুপযুক্ত 'RNN'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Recurrent Neural Network",
+      "B) Rapid Neural Network",
+      "C) Recursive Node Network",
+      "D) Residual Neural Network"
+    ],
+    "answer": 0,
+    "explanation": "RNN হলো Recurrent Neural Network; এটি মেমরি স্টেট ধরে রেখে অতীত ইনপুটের তথ্যের ভিত্তিতে পরবর্তী সিকোয়েন্স শেখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3585,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ভ্যানিশিং গ্রেডিয়েন্ট সমস্যা সমাধানকারী বিশেষায়িত গেটেড আরএনএন 'LSTM'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Long Short-Term Memory",
+      "B) Linear Short-Term Memory",
+      "C) Long Sequential Transient Memory",
+      "D) Layered Sequential Time Memory"
+    ],
+    "answer": 0,
+    "explanation": "LSTM হলো Long Short-Term Memory; এটি Forget, Input ও Output গেট দিয়ে দীর্ঘ সিকোয়েন্সের স্মৃতি মনে রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3586,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "মানুষের ভাষা বোঝার তিনটি সম্পর্কিত ক্ষেত্র 'NLP', 'NLU' এবং 'NLG'-এর পূর্ণরূপ কোনগুলো?",
+    "options": [
+      "A) Network Logic Protocol, Unit, এবং Gateway",
+      "B) Natural Language Processing, Understanding, এবং Generation",
+      "C) New Language Programming, Unified, এবং Global",
+      "D) Neural Language Processing, Utility, এবং Generalization"
+    ],
+    "answer": 1,
+    "explanation": "NLP সামগ্রিক ক্ষেত্র; NLU হলো ভাষার অর্থ ও ভাবার্থ অনুধাবন (Understanding) এবং NLG হলো নতুন বাক্য উৎপাদন (Generation)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3587,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "চ্যাটজিপিটি বা জেমিনির মতো শত শত বিলিয়ন প্যারামিটারের ভিত্তি 'LLM'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Logical Learning Model",
+      "B) Linear Logic Machine",
+      "C) Layered Language Module",
+      "D) Large Language Model"
+    ],
+    "answer": 3,
+    "explanation": "LLM হলো Large Language Model; এটি ইন্টারনেটের বিশাল টেক্সটে ট্রান্সফরমার আর্কিটেকচারে প্রি-ট্রেন করা ভাষা মডেল।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3588,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ওপেনএআই-এর বৈপ্লবিক মডেল 'GPT'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Global Pre-trained Translator",
+      "B) Generative Program Transformer",
+      "C) Generative Pre-trained Transformer",
+      "D) General Processing Technology"
+    ],
+    "answer": 2,
+    "explanation": "GPT হলো Generative Pre-trained Transformer; এটি ট্রান্সফরমার ডিকোডার ব্যবহার করে স্বয়ংক্রিয়ভাবে টেক্সট উৎপাদন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3589,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "জেনারেটর ও ডিসক্রিমিনেটরের প্রতিযোগিতামূলক ডিপ লার্নিং মডেল 'GAN'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Generative Array Node",
+      "B) Generative Adversarial Network",
+      "C) Global Artificial Network",
+      "D) Generic Autoencoder Network"
+    ],
+    "answer": 1,
+    "explanation": "GAN হলো Generative Adversarial Network; ইয়ান গুডফেলো কর্তৃক উদ্ভাবিত এই মডেল অবিশ্বাস্য বাস্তবসম্মত সিন্থেটিক ছবি বানায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3590,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "গুগলের দ্বিমুখী কনটেক্সট অনুধাবনকারী ট্রান্সফরমার মডেল 'BERT'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Bidirectional Execution Routing Technology",
+      "B) Basic Entity Recognition Transformer",
+      "C) Bidirectional Encoder Representations from Transformers",
+      "D) Binary Encoded Representations from Transformers"
+    ],
+    "answer": 2,
+    "explanation": "BERT হলো Bidirectional Encoder Representations from Transformers; এটি শব্দের ডান ও বাম উভয় পাশের কনটেক্সট একসাথে বোঝে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3591,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "মানুষের সমকক্ষ বা শ্রেষ্ঠ সার্বিক বুদ্ধিমত্তাসম্পন্ন ভবিষ্যতের কাল্পনিক এআই 'AGI'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Artificial Generic Interface",
+      "B) Automated General Inference",
+      "C) Advanced Global Intelligence",
+      "D) Artificial General Intelligence"
+    ],
+    "answer": 3,
+    "explanation": "AGI হলো Artificial General Intelligence; যা নির্দিষ্ট কাজের ন্যারো এআই-এর বদলে মানুষের মতোই যেকোনো বুদ্ধিবৃত্তিক কাজ শিখতে পারবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3592,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "বক্তৃতা বা অডিও ভয়েসকে স্বয়ংক্রিয়ভাবে লেখ্য টেক্সটে রূপান্তরের প্রযুক্তি 'ASR'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Automatic Speech Recognition",
+      "B) Automated Sound Recording",
+      "C) Advanced Speech Rendering",
+      "D) Audio Signal Recognition"
+    ],
+    "answer": 0,
+    "explanation": "ASR হলো Automatic Speech Recognition (Voice-to-Text); যেমন গুগল ভয়েস টাইপিং।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3593,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "লিখিত পাঠ্যকে কৃত্রিম মানুষের কণ্ঠে রূপান্তরের সিস্টেম 'TTS'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) True-Tone Synthesizer",
+      "B) Terminal Telephony Service",
+      "C) Text-To-Speech",
+      "D) Target-To-Source"
+    ],
+    "answer": 2,
+    "explanation": "TTS হলো Text-To-Speech; যা টেক্সটকে প্রাকৃতিকভাবে উচ্চারিত অডিও শব্দে পরিণত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3594,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "মানুষের দেওয়া রেটিং ও ফিডব্যাকের মাধ্যমে এলএলএম মডেল ফাইন-টিউন করার পদ্ধতি 'RLHF'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Real-time Learning with Human Feature",
+      "B) Reinforcement Learning from Human Feedback",
+      "C) Robust Learning with Human Framework",
+      "D) Recurrent Learning from Heuristic Feedback"
+    ],
+    "answer": 1,
+    "explanation": "RLHF হলো Reinforcement Learning from Human Feedback; এর মাধ্যমে চ্যাটবটকে নিরাপদ, ভদ্র ও নির্ভুল উত্তর দিতে শেখানো হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3595,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "বাইরের নির্ভরযোগ্য ডেটাবেস থেকে তথ্য এনে এলএলএম-এর প্রম্পটে যুক্ত করে হ্যালুসিনেশন কমানোর কৌশল 'RAG'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Rapid Automated Generator",
+      "B) Recurrent Adaptive Generation",
+      "C) Real-time Augmented Graph",
+      "D) Retrieval-Augmented Generation"
+    ],
+    "answer": 3,
+    "explanation": "RAG হলো Retrieval-Augmented Generation; এটি আধুনিক এআই অ্যাপ্লিকেশনে লাইভ ডেটাবেস থেকে সঠিক রেফারেন্স যুক্ত করে নির্ভুল উত্তর দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3596,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "এআই মডেলের ব্ল্যাক-বক্স সিদ্ধান্তের পেছনের সুনির্দিষ্ট কারণ মানুষের বোধগম্যভাবে উপস্থাপন করার ক্ষেত্র 'XAI'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Explainable Artificial Intelligence",
+      "B) Exact Artificial Inference",
+      "C) Expert Artificial Interface",
+      "D) Extended Artificial Intelligence"
+    ],
+    "answer": 0,
+    "explanation": "XAI হলো Explainable Artificial Intelligence; এটি চিকিৎসা ও ব্যাংকিং খাতে এআই-এর বিশ্বাসযোগ্যতা অর্জনে অপরিহার্য।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3597,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "কম্পিউটার ক্লাউডে ভার্চুয়ালাইজেশনের জন্য সফটওয়্যার স্তর 'VMM'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Virtual Memory Manager",
+      "B) Variable Management Module",
+      "C) Visual Media Monitor",
+      "D) Virtual Machine Monitor (বা Hypervisor)"
+    ],
+    "answer": 3,
+    "explanation": "VMM হলো Virtual Machine Monitor; এটি একাধিক ভার্চুয়াল মেশিনকে ফিজিক্যাল হার্ডওয়্যার রিসোর্স ভাগ করে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3598,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ক্লাউড আর্কিটেকচারে সফটওয়্যার সংজ্ঞায়িত নেটওয়ার্কিং 'SDN'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Standard Distributed Node",
+      "B) System Data Network",
+      "C) Software-Defined Networking",
+      "D) Secure Digital Network"
+    ],
+    "answer": 2,
+    "explanation": "SDN হলো Software-Defined Networking; এটি নেটওয়ার্কের কন্ট্রোল প্লেন এবং ডেটা প্লেনকে আলাদা করে সফটওয়্যারের মাধ্যমে কেন্দ্রীভূত নিয়ন্ত্রণ দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3599,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "টেলিকমে হার্ডওয়্যার অ্যাপ্লায়েন্সের বদলে সফটওয়্যার ভার্চুয়ালাইজেশন 'NFV'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Network Functions Virtualization",
+      "B) Node Forwarding Verification",
+      "C) Network Frequency Variation",
+      "D) New Framework Virtualization"
+    ],
+    "answer": 0,
+    "explanation": "NFV হলো Network Functions Virtualization; এটি রাউটার, ফায়ারওয়াল বা লোড ব্যালেন্সারকে ডেডিকেটেড হার্ডওয়্যারের বদলে ভিএম-এ চালায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3600,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৫: সাইবার সিকিউরিটি, ক্লাউড ও এআই পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "আন্তর্জাতিক ইন্টারনেট প্রোটোকল ও স্ট্যান্ডার্ড নথিপত্র 'RFC'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Remote File Configuration",
+      "B) Request for Comments",
+      "C) Routing Framework Control",
+      "D) Request for Connection"
+    ],
+    "answer": 1,
+    "explanation": "RFC হলো Request for Comments; এটি IETF (Internet Engineering Task Force) দ্বারা প্রকাশিত ইন্টারনেট ও নেটওয়ার্কিংয়ের প্রমিত টেকনিক্যাল স্ট্যান্ডার্ড ডকুমেন্টেশন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

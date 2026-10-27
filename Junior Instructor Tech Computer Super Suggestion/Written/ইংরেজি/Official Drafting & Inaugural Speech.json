@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3048,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Official Drafting & Inaugural Speech",
+    "question": "Draft a formal Welcome and Technical Overview Speech (around 150-180 words) to be delivered by the Lead Maintenance Engineer at the inaugural ceremony of the newly installed 'e-Passport Rapid Self-Service Delivery Kiosks' at Hazrat Shahjalal International Airport.",
+    "marks": 8,
+    "answer": "Model Inaugural Speech:\n\n\"Honorable Chief Guest, Distinguished Officers, and Respected Guests,\n\nA very warm welcome to this momentous inauguration ceremony celebrating the operational launch of our state-of-the-art e-Passport Rapid Self-Service Delivery Kiosks at Hazrat Shahjalal International Airport.\n\nToday marks a revolutionary leap forward in citizen service automation. These newly commissioned kiosks are equipped with high-speed optical barcode readers, multi-spectrum polycarbonate document verifiers, and sub-second dual-camera facial matching engines. When an applicant approaches the terminal, the machine verifies their digital token, cross-references biometric parameters against the central immigration database, and dispenses the physical smart e-passport in under forty-five seconds—without requiring human desk intervention.\n\nEngineered with an impenetrable zero-trust architecture, automated audit logging, and dual uninterruptible power units, these kiosks guarantee 99.9% uptime and bulletproof data integrity. This achievement stands as a shining testament to our engineering dedication toward realizing the vision of 'Smart Bangladesh 2041'.\n\nThank you all for being part of this inspiring technological milestone!\"",
+    "points_to_remember": [
+      "A formal speech requires a dignified salutation, technical substance, and an uplifting conclusion."
+    ],
+    "tags": [
+      "inaugural_speech",
+      "public_speaking",
+      "english_drafting"
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "id": 4816,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.২: ভ্যারিয়েবল ও ডেটা টাইপ",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে ভ্যারিয়েবলের ডেটা টাইপ কীভাবে নির্ধারিত হয়?",
+    "options": [
+      "A) পাইথনে কোনো ডেটা টাইপ নেই",
+      "B) স্ট্যাটিকালি (কোডে ডেটা টাইপ স্পষ্টভাবে ঘোষণা করতে হয়)",
+      "C) কম্পাইলেশনের পূর্বে ইউজারকে ইনপুট দিতে হয়",
+      "D) ডাইনামিকালি (Dynamically Typed - অ্যাসাইন করা মানের ওপর ভিত্তি করে রান-টাইমে স্বয়ংক্রিয়ভাবে)"
+    ],
+    "answer": 3,
+    "explanation": "পাইথনে `x = 10` লিখলে x স্বয়ংক্রিয়ভাবে int এবং পরবর্তীতে `x = 'hello'` লিখলে তা str হয়ে যায় (ডাইনামিক টাইপিং)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4817,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.২: ভ্যারিয়েবল ও ডেটা টাইপ",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "কোনো ভ্যারিয়েবলের বর্তমান ডেটা টাইপ জানার জন্য কোন বিল্ট-ইন ফাংশন ব্যবহৃত হয়?",
+    "options": [
+      "A) datatype(var)",
+      "B) type(var)",
+      "C) isinstance(var)",
+      "D) typeof(var)"
+    ],
+    "answer": 1,
+    "explanation": "`type(x)` ফাংশন ভ্যারিয়েবলের টাইপ ক্লাস নির্দেশ করে (যেমন: `<class 'int'>`)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4818,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.২: ভ্যারিয়েবল ও ডেটা টাইপ",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথন ৩-এ পূর্ণসংখ্যা (`int`) ডেটা টাইপের মেমরি ধারণক্ষমতা বা সর্বোচ্চ সীমা কত?",
+    "options": [
+      "A) অসীম বা সীমাহীন (কম্পিউটারের উপলব্ধ র্যামের পরিমাণের ওপর নির্ভরশীল)",
+      "B) ৩২-বিট (-২১৪৭৪৮৩৬৪৮ থেকে +২১৪৭৪৮৩৬৪৭)",
+      "C) ৬৪-বিট",
+      "D) ১২৮-বিট"
+    ],
+    "answer": 0,
+    "explanation": "পাইথন ৩ এ ইন্টিজারের সাইজ ফিক্সড নয়; মেমরি থাকা সাপেক্ষে যত খুশি বড় পূর্ণসংখ্যা কোনো ওভারফ্লো ছাড়াই সংরক্ষণ করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4819,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.২: ভ্যারিয়েবল ও ডেটা টাইপ",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে জটিল সংখ্যা (Complex Number) প্রকাশের সঠিক রূপ কোনটি?",
+    "options": [
+      "A) complex(a, b, c)",
+      "B) + bi",
+      "C) + bj (যেমন: 3 + 4j)",
+      "D) + bk"
+    ],
+    "answer": 2,
+    "explanation": "পাইথনে কাল্পনিক একক (Imaginary unit) হিসেবে 'i'-এর বদলে 'j' বা 'J' ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4820,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.২: ভ্যারিয়েবল ও ডেটা টাইপ",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে বুলিয়ান ডেটা টাইপের (`bool`) দুটি সম্ভাব্য মান কী কী?",
+    "options": [
+      "A) true এবং false",
+      "B) YES এবং NO",
+      "C) 0 এবং 1",
+      "D) True এবং False (বড় হাতের T এবং F দিয়ে শুরু)"
+    ],
+    "answer": 3,
+    "explanation": "পাইথনে বুলিয়ান হলো `int` এর সাবক্লাস এবং এর কীওয়ার্ড দুটি বড় হাতের: `True` (মান 1) এবং `False` (মান 0)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4821,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.২: ভ্যারিয়েবল ও ডেটা টাইপ",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে কোনো মানের অনুপস্থিতি বা শূন্য রেফারেন্স বোঝাতে কোন বিশেষ ডেটা টাইপ ব্যবহৃত হয়?",
+    "options": [
+      "A) null",
+      "B) nil",
+      "C) None (NoneType)",
+      "D) void"
+    ],
+    "answer": 2,
+    "explanation": "অন্য ভাষায় যা null, পাইথনে তা একক অবজেক্ট `None` যার টাইপ `NoneType`।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4822,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.২: ভ্যারিয়েবল ও ডেটা টাইপ",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে ইমিউটেবল (Immutable - যা অপরিবর্তনশীল) ডেটা টাইপের অন্তর্ভুক্ত কোনগুলো?",
+    "options": [
+      "A) list, dict, set",
+      "B) list এবং bytearray",
+      "C) dictionary এবং set",
+      "D) int, float, bool, str, tuple, frozenset"
+    ],
+    "answer": 3,
+    "explanation": "ইমিউটেবল অবজেক্ট তৈরির পর মেমরিতে এর অভ্যন্তরীণ মান বদলানো যায় না; যেকোনো পরিবর্তন নতুন অবজেক্ট তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4823,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.২: ভ্যারিয়েবল ও ডেটা টাইপ",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে মিউটেবল (Mutable - যা সরাসরি পরিবর্তনযোগ্য) ডেটা টাইপের অন্তর্ভুক্ত কোনগুলো?",
+    "options": [
+      "A) frozenset, bool",
+      "B) list, dict, set, bytearray",
+      "C) float, complex",
+      "D) tuple, str, int"
+    ],
+    "answer": 1,
+    "explanation": "মিউটেবল ডেটা টাইপের ক্ষেত্রে মেমরি আইডি বা অবজেক্টের অস্তিত্ব পরিবর্তন না করেই উপাদান যোগ-বিয়োগ করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4824,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.২: ভ্যারিয়েবল ও ডেটা টাইপ",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "মেমরিতে একটি অবজেক্টের অনন্য পরিচয় বা ভার্চুয়াল মেমরি অ্যাড্রেস জানার ফাংশন কোনটি?",
+    "options": [
+      "A) id(obj)",
+      "B) addr(obj)",
+      "C) ptr(obj)",
+      "D) memory(obj)"
+    ],
+    "answer": 0,
+    "explanation": "`id(x)` অবজেক্টটির অনন্য ইনটিজার আইডি প্রদান করে যা CPython-এ অবজেক্টটির আসল মেমরি অ্যাড্রেস।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4825,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.২: ভ্যারিয়েবল ও ডেটা টাইপ",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "নিচের কোনটি পাইথনে একটি অবৈধ (Invalid) ভ্যারিয়েবল নাম?",
+    "options": [
+      "A) total_sum",
+      "B) 2nd_total",
+      "C) _my_var",
+      "D) user2"
+    ],
+    "answer": 1,
+    "explanation": "পাইথনে কোনো ভ্যারিয়েবলের নাম সংখ্যা (Digit) দিয়ে শুরু হতে পারে না; বর্ণ বা আন্ডারস্কোর দিয়ে শুরু হতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4826,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.২: ভ্যারিয়েবল ও ডেটা টাইপ",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে একই সাথে একাধিক ভ্যারিয়েবলে মান অ্যাসাইন করার সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) x, y, z = 10, 20, 30",
+      "B) x = 10, y = 20, z = 30",
+      "C) x and y and z = 10",
+      "D) x; y; z = 10; 20; 30"
+    ],
+    "answer": 0,
+    "explanation": "পাইথনে মাল্টিপল অ্যাসাইনমেন্ট বা টাপল আনপ্যাকিংয়ের মাধ্যমে একসাথে একাধিক ভ্যারিয়েবল মান পায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4827,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.২: ভ্যারিয়েবল ও ডেটা টাইপ",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে দুটি ভ্যারিয়েবল a এবং b এর মান কোনো তৃতীয় ভ্যারিয়েবল ছাড়া অদলবদল (Swap) করার পাইথনিক উপায় কোনটি?",
+    "options": [
+      "A) swap(b)",
+      "B) = b; b = a",
+      "C) a, b = b, a",
+      "D) swap(a, b)"
+    ],
+    "answer": 2,
+    "explanation": "`a, b = b, a` টাপল প্যাকিং ও আনপ্যাকিংয়ের মাধ্যমে কোনো অতিরিক্ত সহায়ক ভ্যারিয়েবল ছাড়াই তাৎক্ষণিক সোয়াপ সম্পন্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4828,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.২: ভ্যারিয়েবল ও ডেটা টাইপ",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "স্ট্রিং থেকে পূর্ণসংখ্যায় রূপান্তর করার টাইপকাস্ট ফাংশন কোনটি?",
+    "options": [
+      "A) str.to_int()",
+      "B) parse_int()",
+      "C) integer()",
+      "D) int(\"123\")"
+    ],
+    "answer": 3,
+    "explanation": "`int()` কনস্ট্রাক্টর ফাংশন সাংখ্যিক স্ট্রিংকে পূর্ণসংখ্যায় রূপান্তর করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4829,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.২: ভ্যারিয়েবল ও ডেটা টাইপ",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "বাইনোমিয়াল বা বড় সংখ্যার পাঠযোগ্যতা বৃদ্ধির জন্য পাইথন ৩.৬ থেকে ডিজিট সেপারেটর হিসেবে কী বৈধ করা হয়?",
+    "options": [
+      "A) স্পেস",
+      "B) ডট `.`",
+      "C) কমা `,`",
+      "D) আন্ডারস্কোর `_` (যেমন: 1_000_000)"
+    ],
+    "answer": 3,
+    "explanation": "সংখ্যার মাঝে `_` দিলে কম্পাইলার তা উপেক্ষা করে, ফলে `1_000_000` হুবহু `1000000` হিসেবে বিবেচিত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4830,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.২: ভ্যারিয়েবল ও ডেটা টাইপ",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "মেমরি অপ্টিমাইজেশনের জন্য পাইথন ছোট পূর্ণসংখ্যার (Small Integer Caching) কোন রেঞ্জকে পূর্বে থেকেই ক্যাশ করে রাখে?",
+    "options": [
+      "A) -১২৮ থেকে ১২৭",
+      "B) সকল ধনাত্মক সংখ্যা",
+      "C) -৫ থেকে ২৫৬ পর্যন্ত (-5 to 256)",
+      "D) ০ থেকে ১০০"
+    ],
+    "answer": 2,
+    "explanation": "CPython -5 থেকে 256 পর্যন্ত ইন্টিজার অবজেক্টগুলোকে প্রি-অ্যালোকেট করে রাখে, ফলে এদের `id()` সর্বদা অভিন্ন হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

@@ -1,0 +1,527 @@
+[
+  {
+    "id": 3376,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় ভিন্ন ভিন্ন ডেটা টাইপের উপাদানসমূহকে একত্রে একক ব্যবহারকারী-সংজ্ঞায়িত ডেটা টাইপে রূপান্তর করার উপায় কোনটি?",
+    "options": [
+      "A) পয়েন্টার (Pointer)",
+      "B) স্ট্রাকচার (Structure - struct)",
+      "C) অ্যারে (Array)",
+      "D) ইনুমারেশন (Enum)"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্রাকচার ভিন্ন ভিন্ন ডেটা টাইপের মেম্বারদের একক প্যাকেজে ধারণ করে (Heterogeneous collection)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3377,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "স্ট্রাকচারের সাধারণ ভেরিয়েবল দ্বারা তার অভ্যন্তরীণ মেম্বার অ্যাক্সেস করতে কোন অপারেটর ব্যবহৃত হয়?",
+    "options": [
+      "A) -> (অ্যারো অপারেটর)",
+      "B) * (ডি-রেফারেন্স)",
+      "C) . (ডট বা পিরিয়ড অপারেটর)",
+      "D) :: (স্কোপ রেজোলিউশন)"
+    ],
+    "answer": 2,
+    "explanation": "স্ট্রাকচার অবজেক্ট বা সাধারণ ভেরিয়েবলের মেম্বার অ্যাক্সেস করতে ডট (`.`) অপারেটর ব্যবহৃত হয়, যেমন: `student1.roll`।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3378,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "স্ট্রাকচারের একটি পয়েন্টার ভেরিয়েবল দ্বারা তার মেম্বার অ্যাক্সেস করার সংক্ষিপ্ত ও প্রচলিত অপারেটর কোনটি?",
+    "options": [
+      "A) &",
+      "B) *",
+      "C) . (ডট অপারেটর)",
+      "D) -> (অ্যারো অপারেটর)"
+    ],
+    "answer": 3,
+    "explanation": "`ptr->name` অপারেটরটি মূলত `(*ptr).name` এর সমতুল্য এবং পয়েন্টার দিয়ে মেম্বার অ্যাক্সেসের জন্য ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3379,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "স্ট্রাকচার ও ইউনিয়নের (Structure vs Union) মধ্যে মৌলিক মেমরিগত পার্থক্য কী?",
+    "options": [
+      "A) ইউনিয়নে বেশি মেমরি লাগে",
+      "B) স্ট্রাকচারে প্রতিটি মেম্বারের জন্য পৃথক মেমরি বরাদ্দ হয়; আর ইউনিয়নে সকল মেম্বার একই মেমরি লোকেশন শেয়ার করে",
+      "C) স্ট্রাকচারে কেবল এক ধরনের ডেটা রাখা যায়",
+      "D) উভয়ের মেমরি বরাদ্দ হুবহু একই"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্রাকচারের সাইজ সকল মেম্বারের সাইজের সমষ্টির সমান (প্যাডিংসহ); কিন্তু ইউনিয়নের সাইজ তার বৃহত্তম একক মেম্বারের সাইজের সমান।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3380,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "একটি ইউনিয়নে যেকোনো এক মুহূর্তে কয়টি মেম্বারের মান বৈধ ও সক্রিয় রাখা যায়?",
+    "options": [
+      "A) কেবলমাত্র যেকোনো ১টি মেম্বার",
+      "B) সর্বোচ্চ ২টি",
+      "C) শূন্যটি",
+      "D) সকল মেম্বার একসাথে"
+    ],
+    "answer": 0,
+    "explanation": "যেহেতু ইউনিয়নের সকল মেম্বার একই মেমরি ঠিকানা শেয়ার করে, তাই নতুন মেম্বারে মান লিখলে আগের মেম্বারের মান ওভাররাইট হয়ে যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3381,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় কোনো বিদ্যমান ডেটা টাইপকে নতুন একটি বিকল্প নাম (Alias) দিতে কোন কীওয়ার্ড ব্যবহৃত হয়?",
+    "options": [
+      "A) define",
+      "B) typedef",
+      "C) alias",
+      "D) rename"
+    ],
+    "answer": 1,
+    "explanation": "`typedef` দিয়ে বড় জটিল ডেটা টাইপ বা স্ট্রাকচারকে সংক্ষিপ্ত নতুন নাম দেওয়া যায়, যেমন: `typedef unsigned long int uint32;`।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3382,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় `enum` (Enumeration) এর উপাদানগুলো ডিফল্টভাবে কোন ধরনের মান এবং কত থেকে শুরু হয়?",
+    "options": [
+      "A) ফ্লোটিং পয়েন্ট মান",
+      "B) থেকে শুরু",
+      "C) ক্যারেক্টার মান, 'A' থেকে শুরু",
+      "D) পূর্ণসংখ্যা (Integer) মান, ০ থেকে শুরু"
+    ],
+    "answer": 3,
+    "explanation": "ইনুমারেশনের উপাদানগুলো পূর্ণসংখ্যা কনস্ট্যান্ট; কোনো মান নির্দিষ্ট না থাকলে প্রথম উপাদান ০, পরেরটি ১ ইত্যাদি ক্রমে বাড়ে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3383,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় মেমরি সাশ্রয়ের উদ্দেশ্যে স্ট্রাকচারের মেম্বারদের নির্দিষ্ট সংখ্যক বিট বরাদ্দ করার প্রযুক্তিকে কী বলে?",
+    "options": [
+      "A) বাইট প্যাডিং",
+      "B) বিট শিফটিং",
+      "C) বিট ফিল্ডস (Bit-fields)",
+      "D) বিট মাস্কিং"
+    ],
+    "answer": 2,
+    "explanation": "`unsigned int flag : 1;` এভাবে কোলন দিয়ে সুনির্দিষ্ট সংখ্যক বিট উল্লেখ করাকে বিট-ফিল্ডস বলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3384,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সিপিইউ ওয়ার্ড অ্যালাইনমেন্টের সুবিধার জন্য কম্পাইলার স্ট্রাকচারের মেম্বারদের মাঝে ফাঁকা বাইট যুক্ত করাকে কী বলে?",
+    "options": [
+      "A) স্ট্রাকচার প্যাডিং (Structure Padding)",
+      "B) মেমরি লিক",
+      "C) বাফার ওভারফ্লো",
+      "D) ডাটা ট্রাংকেশন"
+    ],
+    "answer": 0,
+    "explanation": "হার্ডওয়্যার বাস যাতে দ্রুত ডেটা পড়তে পারে সেজন্য ৩২ বা ৬৪-বিটের গুণিতক হিসেবে ফাঁকা বাইট ঢুকানোকে প্যাডিং বলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3385,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় ফাইল পরিচালনার জন্য ফাইল পয়েন্টার (File Pointer) ডিক্লেয়ারেশনের সঠিক রূপ কোনটি?",
+    "options": [
+      "A) File *fp;",
+      "B) FILE *fp;",
+      "C) file *fp;",
+      "D) FILE fp;"
+    ],
+    "answer": 1,
+    "explanation": "`<stdio.h>` হেডার ফাইলে ক্যাপিটাল লেটারে `FILE` স্ট্রাকচার সংজ্ঞায়িত থাকে; তাই ডিক্লারেশন হয় `FILE *fp;`।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3386,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় একটি ফাইল ওপেন করার স্ট্যান্ডার্ড লাইব্রেরি ফাংশন কোনটি?",
+    "options": [
+      "A) fopen(\"filename.txt\", \"mode\")",
+      "B) open()",
+      "C) load_file()",
+      "D) file_open()"
+    ],
+    "answer": 0,
+    "explanation": "`fopen()` ফাইলটির পাথ এবং ওপেনিং মোড গ্রহণ করে একটি ফাইল পয়েন্টার (`FILE*`) প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3387,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "রাইট মোডে (`\"w\"`) কোনো বিদ্যমান ফাইল ওপেন করলে কী ঘটে?",
+    "options": [
+      "A) ফাইলটি রিড-অনলি হয়ে যায়",
+      "B) কম্পাইল এরর প্রদর্শন করে",
+      "C) ফাইলের শেষে নতুন লেখা যুক্ত হয়",
+      "D) ফাইলটির পূর্ববর্তী সকল ডেটা মুছে সম্পূর্ণ শূন্য বা ফাঁকা হয়ে নতুনভাবে লেখার জন্য উন্মুক্ত হয়"
+    ],
+    "answer": 3,
+    "explanation": "`\"w\"` মোড ফাইল বিদ্যমান থাকলে তার পূর্বের সমস্ত কনটেন্ট ট্রাঙ্কেট (মুছে) ফেলে, আর ফাইল না থাকলে নতুন ফাইল তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3388,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "বিদ্যমান ফাইলের পূর্বের কোনো তথ্য না মুছে তার একদম শেষে নতুন তথ্য সংযোজন করতে কোন মোড ব্যবহৃত হয়?",
+    "options": [
+      "A) এক্সক্লুসিভ মোড (\"x\")",
+      "B) রাইট মোড (\"w\")",
+      "C) অ্যাপেন্ড মোড (\"a\")",
+      "D) রিড মোড (\"r\")"
+    ],
+    "answer": 2,
+    "explanation": "`\"a\"` (Append) মোড ফাইলের বিদ্যমান তথ্যের শেষে লেখার কার্সর রাখে এবং নতুন ডেটা যুক্ত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3389,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "রিড মোডে (`\"r\"`) ওপেন করার সময় যদি নির্দিষ্ট ফাইলটি ডিস্কে খুঁজে না পাওয়া যায় তবে `fopen()` কী রিটার্ন করে?",
+    "options": [
+      "A) NULL",
+      "B) -1",
+      "C) ক্র্যাশ করে",
+      "D) 0"
+    ],
+    "answer": 0,
+    "explanation": "রিড মোডে ফাইল না পাওয়া গেলে বা অ্যাক্সেস পারমিশন না থাকলে `fopen()` ব্যর্থ হয়ে `NULL` রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3390,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "ফাইল থেকে একটি একক ক্যারেক্টার পড়ার ফাংশন কোনটি?",
+    "options": [
+      "A) fputc(ch, fp)",
+      "B) freadc()",
+      "C) fgetc(fp)",
+      "D) getc_file()"
+    ],
+    "answer": 2,
+    "explanation": "`fgetc(fp)` ফাইল স্ট্রিম থেকে পরবর্তী ক্যারেক্টারটি পড়ে তার মান রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3391,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "ফাইল থেকে ফরম্যাটেড উপাত্ত (যেমন int, float ইত্যাদি) পড়ার লাইব্রেরি ফাংশন কোনটি?",
+    "options": [
+      "A) fget_format()",
+      "B) scanf_file()",
+      "C) fprintf()",
+      "D) fscanf(fp, \"%d\", &var)"
+    ],
+    "answer": 3,
+    "explanation": "`fscanf()` ফাইল পয়েন্টার থেকে নির্দিষ্ট ফরম্যাট অনুযায়ী ডেটা ভেরিয়েবলে ইনপুট নেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3392,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "বাইনারি ফাইল থেকে সরাসরি মেমরি ব্লকে ডেটা পড়ার ও লেখার জন্য কোন ফাংশন দুটি ব্যবহৃত হয়?",
+    "options": [
+      "A) fscanf() এবং fprintf()",
+      "B) fread() এবং fwrite()",
+      "C) fgetc() এবং fputc()",
+      "D) bload() এবং bsave()"
+    ],
+    "answer": 1,
+    "explanation": "`fread` ও `fwrite` বাইনারি ফাইলে যেকোনো স্ট্রাকচার বা অ্যারে সরাসরি বাইট আকারে পড়া ও লেখার জন্য ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3393,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "ফাইল পড়ার সময় কার্সর ফাইলের একদম শেষ প্রান্তে (End of File) পৌঁছেছে কিনা তা যাচাই করার ফাংশন কোনটি?",
+    "options": [
+      "A) ferror(fp)",
+      "B) feof(fp)",
+      "C) is_eof(fp)",
+      "D) fend(fp)"
+    ],
+    "answer": 1,
+    "explanation": "`feof(fp)` ফাইল পয়েন্টার EOF স্পর্শ করলে একটি অশূন্য সত্য মান রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3394,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "ফাইল পয়েন্টারকে ফাইলের যেকোনো নির্দিষ্ট পজিশনে সরিয়ে নেওয়ার জন্য (Random Access) কোন ফাংশন ব্যবহৃত হয়?",
+    "options": [
+      "A) rewind(fp)",
+      "B) ftell(fp)",
+      "C) move_ptr()",
+      "D) fseek(fp, offset, whence)"
+    ],
+    "answer": 3,
+    "explanation": "`fseek()` ফাংশন কার্সরকে ফাইলের শুরু (`SEEK_SET`), বর্তমান (`SEEK_CUR`), বা শেষ (`SEEK_END`) থেকে নির্দিষ্ট অফসেটে সরায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3395,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "ফাইল পয়েন্টারের বর্তমান অবস্থানের বাইট অফসেট (Current Position) জানার ফাংশন কোনটি?",
+    "options": [
+      "A) fpos()",
+      "B) rewind(fp)",
+      "C) ftell(fp)",
+      "D) fseek(fp)"
+    ],
+    "answer": 2,
+    "explanation": "`ftell(fp)` ফাইলের শুরু থেকে বর্তমান কার্সরের অবস্থান বাইট সংখ্যায় (long int) রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3396,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "ফাইল পয়েন্টারকে সরাসরি ফাইলের একদম শুরুতে ফিরিয়ে আনার সংক্ষিপ্ত ফাংশন কোনটি?",
+    "options": [
+      "A) উভয়ই সঠিক",
+      "B) fclose(fp)",
+      "C) rewind(fp)",
+      "D) fseek(fp, 0, SEEK_SET)"
+    ],
+    "answer": 0,
+    "explanation": "`rewind(fp)` এবং `fseek(fp, 0, SEEK_SET)` উভয়ই ফাইল কার্সরকে ফাইলের প্রথম বাইটে ফিরিয়ে আনে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3397,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি প্রিপ্রসেসরে `#define PI 3.14159` স্টেটমেন্টটিকে কী বলা হয়?",
+    "options": [
+      "A) গ্লোবাল ভেরিয়েবল",
+      "B) ফাংশন ডিক্লারেশন",
+      "C) ম্যাক্রো সাবস্টিটিউশন (Macro Substitution)",
+      "D) টাইপকাস্ট"
+    ],
+    "answer": 2,
+    "explanation": "`#define` কম্পাইলেশনের পূর্বেই সোর্স কোডে থাকা নির্দিষ্ট টোকেনকে তার সংজ্ঞায়িত মান বা এক্সপ্রেশন দিয়ে হুবহু প্রতিস্থাপন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3398,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "হেডার ফাইল যেন প্রোগ্রামে একবারের বেশি অন্তর্ভুক্ত (Include) হয়ে ডুপ্লিকেট এরর না তৈরি করে সেজন্য কী ব্যবহার করা হয়?",
+    "options": [
+      "A) উভয় পদ্ধতিই প্রচলিত ও কার্যকর",
+      "B) #pragma once",
+      "C) কোনোটিই নয়",
+      "D) ইনক্লুড গার্ড বা প্রিপ্রসেসর কন্ডিশনাল (#ifndef, #define, #endif)"
+    ],
+    "answer": 0,
+    "explanation": "হেডার ফাইলে `#ifndef HEADER_H ... #endif` অথবা আধুনিক কম্পাইলারে `#pragma once` দিয়ে ডাবল ইনক্লুশন রোধ করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3399,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি প্রোগ্রামে কমান্ড লাইন আর্গুমেন্টস গ্রহণের জন্য `main` ফাংশনের প্যারামিটার তালিকা কোনটি?",
+    "options": [
+      "A) int main(char args[])",
+      "B) int main(void)",
+      "C) int main(int count)",
+      "D) int main(int argc, char *argv[])"
+    ],
+    "answer": 3,
+    "explanation": "`argc` হলো মোট আর্গুমেন্ট সংখ্যা এবং `argv` হলো আর্গুমেন্টগুলোর স্ট্রিং পয়েন্টার অ্যারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3400,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৭: স্ট্রাকচার, ইউনিয়ন ও ফাইল হ্যান্ডলিং (Structures, Unions & File I/O)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "কমান্ড লাইন আর্গুমেন্টে `argv[0]` সর্বদা কী ধারণ করে?",
+    "options": [
+      "A) প্রথম ব্যবহারকারী ইনপুট আর্গুমেন্ট",
+      "B) চলমান প্রোগ্রাম ফাইলের নিজস্ব নাম বা পূর্ণাঙ্গ এক্সিকিউশন পাথ",
+      "C) মোট আর্গুমেন্টের সংখ্যা",
+      "D) নাল ক্যারেক্টার"
+    ],
+    "answer": 1,
+    "explanation": "`argv[0]` এ স্বয়ংক্রিয়ভাবে চলমান প্রোগ্রাম বা এক্সিকিউটেবল ফাইলের নাম সংরক্ষিত থাকে; ব্যবহারকারীর প্রথম আর্গুমেন্ট `argv[1]` থেকে শুরু হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

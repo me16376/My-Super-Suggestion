@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1119,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Linux Systems & Firewall Architecture",
+    "question": "লিনাক্স ফায়ারওয়াল আর্কিটেকচার: `iptables` বনাম `nftables`:\n(ক) লিনাক্স নেটফিল্টার (Netfilter) কাঠামোর ৫টি প্রধান হুক বা চেইনের (PREROUTING, INPUT, FORWARD, OUTPUT, POSTROUTING) ট্রাফিক প্রবাহ ডায়াগ্রামসহ ব্যাখ্যা করুন।\n(খ) `iptables` এর টেবিলসমূহ (Filter, NAT, Mangle, Raw) এবং আধুনিক `nftables`-এর মধ্যে ৩টি প্রযুক্তিগত পার্থক্য লিখুন।\n(গ) একটি ইমিগ্রেশন সার্ভারের জন্য `nftables` অথবা `iptables`-এ নিচের ৩টি পলিসি ইমপ্লিমেন্ট করার কমান্ড লিখুন:\n  ১. ডিফল্ট ইনকামিং ট্রাফিক DROP করা।\n  ২. লোকাল ইন্টারফেস (`lo`) ও স্ট্যাব্লিশড কানেকশন গ্রহণ করা।\n  ৩. নির্দিষ্ট আইপি রেঞ্জ (`192.168.10.0/24`) হতে SSH (Port 22) এবং HTTPS (Port 443) অনুমোদন করা।",
+    "marks": 9,
+    "answer": "লিনাক্স নেটফিল্টার, iptables ও nftables সমাধান:\n\n১. লিনাক্স নেটফিল্টার ৫টি হুকের ট্রাফিক প্রবাহ:\n- নেটওয়ার্ক ইন্টারফেস দিয়ে প্যাকেট ঢুকলে প্রথমে `PREROUTING` হুকে যায় (এখানে ডেস্টিনেশন NAT প্রয়োগ হয়)।\n- প্যাকেটটি যদি লোকাল সার্ভারের নিজস্ব জন্য হয়, তবে তা যায় `INPUT` চেইনে এবং স্থানীয় অ্যাপ্লিকেশনে পৌঁছায়।\n- প্যাকেটটি যদি অন্য কোনো হোস্টের উদ্দেশ্যে ফরোয়ার্ড করার হয় (রাউটিং), তবে তা সরাসরি যায় `FORWARD` চেইনে।\n- লোকাল অ্যাপ্লিকেশন থেকে নতুন প্যাকেট বাইরে যাওয়ার সময় প্রথমে `OUTPUT` চেইনে প্রবেশ করে।\n- রাউটিং শেষে প্যাকেটটি নেটওয়ার্কে বের হওয়ার ঠিক পূর্বে `POSTROUTING` হুকে যায় (এখানে সোর্স NAT বা মাস্ক্যুরাইডিং ঘটে)।\n\n২. `iptables` বনাম `nftables` তুলনামূলক ছক:\n| বৈশিষ্ট্য | iptables | nftables |\n| :--- | :--- | :--- |\n| আর্কিটেকচার | ফিক্সড বিল্ট-ইন টেবিল (filter, nat, mangle, raw)। | ব্যবহারকারী ইচ্ছামতো কাস্টম টেবিল ও চেইন তৈরি করতে পারে। |\n| পারফরম্যান্স ও কার্নেল লোড | প্রতিটি রুল আলাদাভাবে লিনিয়ারলি চেক হয়; বৃহৎ রুলে কার্নেল ধীর হয়। | বাইটকোড ভিত্তিক ভার্চুয়াল মেশিন (NFT VM); হ্যাশ সেট ও ডিকশনারি ব্যবহারে উচ্চগতির লুকআপ। |\n| সিনট্যাক্স ও ডুয়াল স্ট্যাক | IPv4 (`iptables`) ও IPv6 (`ip6tables`) এর জন্য আলাদা আলাদা কমান্ড ও রুল লাগে। | ইউনিফাইড পরিবার (`inet`); একক রুলে একই সাথে IPv4 ও IPv6 ফিল্টারিং সম্ভব। |\n\n৩. ফায়ারওয়াল কনফিগারেশন স্ক্রিপ্ট (iptables সিনট্যাক্স):\n```bash\n# ১. ডিফল্ট পলিসি DROP করা\niptables -P INPUT DROP\niptables -P FORWARD DROP\niptables -P OUTPUT ACCEPT\n\n# ২. লুপব্যাক ও Established/Related কানেকশন অনুমোদন\niptables -A INPUT -i lo -j ACCEPT\niptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT\n\n# ৩. নির্দিষ্ট সিকিউর সাবনেট হতে SSH ও HTTPS পোর্ট খোলা\niptables -A INPUT -p tcp -s 192.168.10.0/24 --dport 22 -j ACCEPT\niptables -A INPUT -p tcp -s 192.168.10.0/24 --dport 443 -j ACCEPT\n```\n\nবিকল্প `nftables` সিনট্যাক্স (`/etc/nftables.conf`):\n```text\ntable inet filter {\n    chain input {\n        type filter hook input priority 0; policy drop;\n        iif \"lo\" accept\n        ct state established,related accept\n        ip saddr 192.168.10.0/24 tcp dport { 22, 443 } accept\n    }\n}\n```",
+    "points_to_remember": [
+      "nftables আধুনিক লিনাক্স কার্নেলে iptables, ip6tables, arptables ও ebtables-কে প্রতিস্থাপন করেছে।",
+      "ফায়ারওয়ালে সবসময় 'Default Drop' পলিসি অনুসরণ করা বেস্ট প্র্যাকটিস।"
+    ],
+    "tags": [
+      "netfilter",
+      "iptables",
+      "nftables",
+      "linux_security",
+      "firewall_rules"
+    ]
+  }
+]

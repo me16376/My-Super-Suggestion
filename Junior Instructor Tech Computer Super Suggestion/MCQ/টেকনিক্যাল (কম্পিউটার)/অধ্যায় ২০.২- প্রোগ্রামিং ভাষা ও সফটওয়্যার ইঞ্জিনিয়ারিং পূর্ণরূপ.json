@@ -1,0 +1,842 @@
+[
+  {
+    "id": 3441,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "আধুনিক সফটওয়্যার ইঞ্জিনিয়ারিংয়ের জনপ্রিয় প্যারাডাইম 'OOP'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Objective Operation Program",
+      "B) Operational Object Program",
+      "C) Object-Oriented Programming",
+      "D) Object Optimized Programming"
+    ],
+    "answer": 2,
+    "explanation": "OOP হলো Object-Oriented Programming; যা ক্লাস, অবজেক্ট, এনক্যাপসুলেশন, ইনহেরিটেন্স ও পলিমরফিজম নীতির ওপর প্রতিষ্ঠিত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3442,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "জাভা বাইটকোড রান করার ভার্চুয়াল ইঞ্জিন 'JVM'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Java Verified Machine",
+      "B) Java Virtual Machine",
+      "C) Java Visual Manager",
+      "D) Java Variable Method"
+    ],
+    "answer": 1,
+    "explanation": "JVM হলো Java Virtual Machine; এটি 'Write Once, Run Anywhere' (WORA) বাস্তবায়ন করতে জাভা বাইটকোড এক্সিকিউট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3443,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "জাভা অ্যাপ্লিকেশন ডেভেলপমেন্ট কিট 'JDK'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Java Development Kit",
+      "B) Java Debugging Kernel",
+      "C) Java Data Kit",
+      "D) Java Deployment Kit"
+    ],
+    "answer": 0,
+    "explanation": "JDK হলো Java Development Kit; এতে জাভা কম্পাইলার (javac), লাইব্রেরি এবং রানটাইম এনভায়রনমেন্ট (JRE) অন্তর্ভুক্ত থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3444,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "জাভা প্রোগ্রাম রান করার পরিবেশ 'JRE'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Java Resource Environment",
+      "B) Java Real-time Execution",
+      "C) Java Run Engine",
+      "D) Java Runtime Environment"
+    ],
+    "answer": 3,
+    "explanation": "JRE হলো Java Runtime Environment; এটি সাধারণ ব্যবহারকারীদের সিস্টেমে জাভা অ্যাপ্লিকেশন চালানোর জন্য আবশ্যক।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3445,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "জাভা ও ডটনেট ভার্চুয়াল মেশিনে রানটাইমে বাইটকোডকে সরাসরি মেশিন কোডে কম্পাইলকারী 'JIT'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Java Instruction Translator",
+      "B) Just-In-Time Compiler",
+      "C) Just Interactive Terminal",
+      "D) Joint Integration Technology"
+    ],
+    "answer": 1,
+    "explanation": "JIT হলো Just-In-Time Compiler; এটি বারবার ব্যবহৃত বাইটকোডকে রানিং অবস্থায় দ্রুত মেশিন কোডে রূপান্তর করে গতি বাড়ায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3446,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "দুটি ভিন্ন সফটওয়্যার বা সার্ভিসের মধ্যে তথ্য বিনিময়ের সেতুবন্ধন 'API'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Automated Program Interface",
+      "B) Application Process Integration",
+      "C) Application Programming Interface",
+      "D) Advanced Program Instruction"
+    ],
+    "answer": 2,
+    "explanation": "API হলো Application Programming Interface; এটি সুনির্দিষ্ট প্রোটোকল ও রুলের মাধ্যমে সফটওয়্যারগুলোর পারস্পরিক যোগাযোগ নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3447,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "কোনো প্ল্যাটফর্মে অ্যাপ্লিকেশন তৈরির জন্য প্রদত্ত সফটওয়্যার প্যাকেজ 'SDK'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Software Development Kit",
+      "B) Standard Development Kernel",
+      "C) Software Design Knowledge",
+      "D) System Deployment Kit"
+    ],
+    "answer": 0,
+    "explanation": "SDK হলো Software Development Kit; যেমন Android SDK দিয়ে অ্যান্ড্রয়েড অ্যাপ ডেভেলপ করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3448,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "কোড এডিটর, কম্পাইলার ও ডিবাগার সমন্বিত সফটওয়্যার ডেভেলপমেন্ট প্ল্যাটফর্ম 'IDE'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Internal Design Engine",
+      "B) Integrated Debugging Editor",
+      "C) Interactive Development Entity",
+      "D) Integrated Development Environment"
+    ],
+    "answer": 3,
+    "explanation": "IDE হলো Integrated Development Environment; যেমন VS Code, PyCharm, Eclipse ইত্যাদি।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3449,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "কমান্ড লিখে কম্পিউটার পরিচালনার ইন্টারফেস 'CLI'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Command Level Integration",
+      "B) Command Line Interface",
+      "C) Control Line Instruction",
+      "D) Common Language Infrastructure"
+    ],
+    "answer": 1,
+    "explanation": "CLI হলো Command Line Interface; যেমন লিনাক্স টার্মিনাল বা উইন্ডোজ কমান্ড প্রম্পট।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3450,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "আইকন, উইন্ডো ও পয়েন্টার ভিত্তিক ভিজ্যুয়াল ইন্টারফেস 'GUI'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Global Utility Interface",
+      "B) General User Interface",
+      "C) Graphical User Interface",
+      "D) Graphical Unified Integration"
+    ],
+    "answer": 2,
+    "explanation": "GUI হলো Graphical User Interface; জেরক্স ও অ্যাপল কর্তৃক জনপ্রিয় হওয়া আধুনিক গ্রাফিক্যাল ইন্টারফেস।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3451,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "কম্পিউটারে ইংরেজি বর্ণ ও চিহ্নের ৭-বিট কোডিং স্ট্যান্ডার্ড 'ASCII'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) American Standard Code for Information Interchange",
+      "B) American System Code for Information Integration",
+      "C) American Standard Communication Information Interface",
+      "D) Automated Standard Code for Information Interchange"
+    ],
+    "answer": 0,
+    "explanation": "ASCII হলো American Standard Code for Information Interchange; এতে ১২৮টি মৌলিক ক্যারেক্টার সংজ্ঞায়িত থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3452,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "আইবিএম মেইনফ্রেম কম্পিউটারে ব্যবহৃত ৮-বিট ক্যারেক্টার এনকোডিং 'EBCDIC'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Extended Base Code Decimal Interchange Code",
+      "B) Electronic Binary Coded Decimal Information Code",
+      "C) Encoded Binary Code Decimal Information Control",
+      "D) Extended Binary Coded Decimal Interchange Code"
+    ],
+    "answer": 3,
+    "explanation": "EBCDIC হলো Extended Binary Coded Decimal Interchange Code; যা আইবিএম মেইনফ্রেমে বহুল ব্যবহৃত হতো।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3453,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "দশমিক সংখ্যাকে ৪-বিট বাইনারিতে সরাসরি রূপান্তরের কোড 'BCD'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Binary Coded Decimal",
+      "B) Binary Coded Digit",
+      "C) Basic Computer Data",
+      "D) Base Coded Decimal"
+    ],
+    "answer": 0,
+    "explanation": "BCD হলো Binary Coded Decimal; যাতে প্রতিটি দশমিক অঙ্ক (০-৯)-কে পৃথক ৪-বিট বাইনারিতে প্রকাশ করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3454,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "বাংলা সহ বিশ্বের সকল ভাষার অক্ষর এনকোড করার সার্বজনীন ইউনিকোড ফরম্যাট 'UTF-8'-এ 'UTF'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Unified Transfer Format",
+      "B) Universal Transformation Framework",
+      "C) Unicode Transformation Format",
+      "D) Universal Text Format"
+    ],
+    "answer": 2,
+    "explanation": "UTF হলো Unicode Transformation Format; এটি ভ্যারিয়েবল-লেংথ (১ থেকে ৪ বাইট) বিশিষ্ট আধুনিক এনকোডিং স্ট্যান্ডার্ড।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3455,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "সিস্টেম অ্যানালাইসিসে ডেটার প্রবাহ চিত্রায়িত করার ডায়াগ্রাম 'DFD'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Data Format Diagram",
+      "B) Data Flow Diagram",
+      "C) Data Function Design",
+      "D) Database Flow Design"
+    ],
+    "answer": 1,
+    "explanation": "DFD হলো Data Flow Diagram; এটি সিস্টেমে তথ্য কোথা থেকে আসে, কীভাবে প্রসেস হয় এবং কোথায় জমা থাকে তা দেখায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3456,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "সফটওয়্যার রিকোয়ারমেন্ট নির্ধারণের প্রাথমিক চুক্তিনামা 'SRS'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) System Requirements Schedule",
+      "B) System Resource Specification",
+      "C) Software Release Standard",
+      "D) Software Requirements Specification"
+    ],
+    "answer": 3,
+    "explanation": "SRS হলো Software Requirements Specification; এটি ক্লায়েন্ট ও ডেভেলপার দলের মধ্যে প্রজেক্টের যাবতীয় কার্যাবলির আনুষ্ঠানিক প্রমিত দলিল।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3457,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "অবজেক্ট ওরিয়েন্টেড সফটওয়্যার মডেলিং ও ব্লুপ্রিন্ট তৈরির ভিজ্যুয়াল ভাষা 'UML'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Unified Machine Language",
+      "B) Unified Modeling Language",
+      "C) Unified Method Logic",
+      "D) Universal Modeling Language"
+    ],
+    "answer": 1,
+    "explanation": "UML হলো Unified Modeling Language; এটি ক্লাস ডায়াগ্রাম, সিকোয়েন্স ডায়াগ্রাম ও ইউজ-কেস ডায়াগ্রামের মাধ্যমে সফটওয়্যার আর্কিটেকচার নকশা করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3458,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "সফটওয়্যার তৈরির পরিকল্পনা থেকে শুরু করে রক্ষণাবেক্ষণ পর্যন্ত সমগ্র জীবনচক্র 'SDLC'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Standard Development Language Cycle",
+      "B) System Design Life Cycle",
+      "C) Software Deployment Line Control",
+      "D) Software Development Life Cycle"
+    ],
+    "answer": 3,
+    "explanation": "SDLC হলো Software Development Life Cycle; এর ধাপগুলো হলো প্ল্যানিং, অ্যানালাইসিস, ডিজাইন, কোডিং, টেস্টিং ও মেইনটেন্যান্স।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3459,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "দ্রুত প্রোটোটাইপ তৈরি করে সফটওয়্যার ডেভেলপ করার অ্যাজাইল মডেল 'RAD'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Rapid Agile Deployment",
+      "B) Resource Allocation Diagram",
+      "C) Rapid Application Development",
+      "D) Rational Application Design"
+    ],
+    "answer": 2,
+    "explanation": "RAD হলো Rapid Application Development; এটি দীর্ঘ পরিকল্পনার চেয়ে দ্রুত কার্যকরী মকআপ তৈরিতে জোর দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3460,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "অ্যাজাইল মেথডোলজির জনপ্রিয় ও কঠোর কৌশল 'XP'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Extreme Programming",
+      "B) Extended Programming",
+      "C) Expert Process",
+      "D) External Protocol"
+    ],
+    "answer": 0,
+    "explanation": "XP হলো Extreme Programming; এটি পেয়ার প্রোগ্রামিং ও ক্রমাগত টেস্টিংয়ের মাধ্যমে উচ্চমানের সফটওয়্যার নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3461,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "আগে টেস্ট কেস লিখে পরবর্তীতে মূল কোড লেখার আধুনিক ডেভেলপমেন্ট পদ্ধতি 'TDD'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Target-Driven Development",
+      "B) Test-Driven Development",
+      "C) Technical Design Document",
+      "D) Total Quality Development"
+    ],
+    "answer": 1,
+    "explanation": "TDD হলো Test-Driven Development (Red-Green-Refactor cycle); এটি বাগমুক্ত কোড তৈরিতে অত্যন্ত কার্যকর।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3462,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ব্যবহারকারীর ব্যবহারিক আচরণের ওপর ভিত্তি করে টেস্ট ডিজাইন করার অ্যাজাইল পদ্ধতি 'BDD'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Behavior-Driven Development",
+      "B) Base-Driven Deployment",
+      "C) Business Design Development",
+      "D) Binary Domain Development"
+    ],
+    "answer": 0,
+    "explanation": "BDD হলো Behavior-Driven Development; এটি 'Given-When-Then' সিনট্যাক্স ব্যবহার করে ব্যবসায়িক আচরণ টেস্ট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3463,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "সফটওয়্যার কোম্পানির কাজের গুণগত মান ও প্রক্রিয়ার পরিপক্কতা মূল্যায়নের আন্তর্জাতিক মডেল 'CMMI'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Corporate Maturity Model Interface",
+      "B) Common Method Maturity Integration",
+      "C) Capability Maturity Model Integration",
+      "D) Computer Management Maturity Index"
+    ],
+    "answer": 2,
+    "explanation": "CMMI হলো Capability Maturity Model Integration; কার্নেগি মেলন বিশ্ববিদ্যালয় উদ্ভাবিত এই মডেলে ১ থেকে ৫ স্তর পর্যন্ত রেটিং দেওয়া হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3464,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "সফটওয়্যার তৈরি প্রক্রিয়ায় গুণগত মান ও ত্রুটিহীনতা নিশ্চিতকারী ডিপার্টমেন্ট 'SQA'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Standard Quality Audit",
+      "B) Software Query Assessment",
+      "C) System Quality Analysis",
+      "D) Software Quality Assurance"
+    ],
+    "answer": 3,
+    "explanation": "SQA হলো Software Quality Assurance; এটি সফটওয়্যার ইঞ্জিনিয়ারিং প্রক্রিয়ার মান নিশ্চিত করে বাগ প্রতিরোধ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3465,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "সফটওয়্যার ডিজাইনে কম্পিউটারাইজড স্বয়ংক্রিয় টুলস 'CASE'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Computer-Aided Software Engineering",
+      "B) Common Architecture Software Engine",
+      "C) Computer Application System Entity",
+      "D) Control Automated System Engineering"
+    ],
+    "answer": 0,
+    "explanation": "CASE হলো Computer-Aided Software Engineering; যেমন বিভিন্ন ডায়াগ্রাম ও কোড জেনারেটর টুলস।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3466,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "সফটওয়্যার আর্কিটেকচার ডিজাইন প্যাটার্ন 'MVC'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Multi-View-Control",
+      "B) Model-View-Controller",
+      "C) Main-Visual-Component",
+      "D) Module-Variable-Class"
+    ],
+    "answer": 1,
+    "explanation": "MVC হলো Model-View-Controller; Model ডেটা নিয়ন্ত্রণ করে, View ইউজার ইন্টারফেস দেখায় এবং Controller লজিক হ্যান্ডল করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3467,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "অ্যান্ড্রয়েড ও আধুনিক ফ্রন্টএন্ডে ব্যবহৃত ডিজাইন প্যাটার্ন 'MVVM'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Model-Variable-View-Method",
+      "B) Main-Visual-Variable-Module",
+      "C) Multi-View-Virtual-Model",
+      "D) Model-View-ViewModel"
+    ],
+    "answer": 3,
+    "explanation": "MVVM হলো Model-View-ViewModel; এটি দ্বি-মুখী ডেটা বাইন্ডিংয়ের মাধ্যমে ইউজার ইন্টারফেস ও ডেটাকে আলাদা করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3468,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "প্রোগ্রামিং ভাষার অবজেক্টকে ডেটাবেস টেবিলের রেকর্ডের সাথে স্বয়ংক্রিয়ভাবে রূপান্তরকারী টেকনিক 'ORM'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Operational Relational Model",
+      "B) Online Relational Mapping",
+      "C) Object-Relational Mapping",
+      "D) Object-Resource Management"
+    ],
+    "answer": 2,
+    "explanation": "ORM হলো Object-Relational Mapping; যেমন হাইবারনেট, জ্যাঙ্গো ওআরএম বা প্রিজমা।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3469,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "সফটওয়্যার প্রজেক্টের মোট খরচ ও শ্রম-মাস প্রাক্কলনকারী বিখ্যাত মডেল 'COCOMO'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Computer Cost Modeling",
+      "B) Constructive Cost Model",
+      "C) Corporate Cost Model",
+      "D) Common Cost Model"
+    ],
+    "answer": 1,
+    "explanation": "COCOMO হলো Constructive Cost Model; ব্যারি বোম (Barry Boehm) ১৯৮১ সালে প্রজেক্টে প্রয়োজনীয় লাইনস অব কোড (KLOC) মেপে খরচ হিসাব করতে এটি উদ্ভাবন করেন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3470,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "প্রজেক্ট ম্যানেজমেন্টে অনিশ্চিত সময়সূচি ব্যবস্থাপনার সম্ভাবনামূলক কৌশল 'PERT'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Program Evaluation and Review Technique",
+      "B) Project Efficiency and Resource Tracking",
+      "C) Product Evaluation and Release Time",
+      "D) Process Estimation and Resource Timing"
+    ],
+    "answer": 0,
+    "explanation": "PERT হলো Program Evaluation and Review Technique; এটি অপটিমিস্টিক, পেসিমিস্টিক ও মোস্ট লাইকলি—এই ৩টি সময়ের গড় দিয়ে শিডিউল বানায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3471,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "প্রজেক্টের দীর্ঘতম পথ এবং যে কাজগুলোতে কোনো বিলম্ব সহ্য করা যায় না তা নির্ধারণী পদ্ধতি 'CPM'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Corporate Plan Method",
+      "B) Critical Process Management",
+      "C) Critical Path Method",
+      "D) Continuous Project Monitoring"
+    ],
+    "answer": 2,
+    "explanation": "CPM হলো Critical Path Method; এটি প্রজেক্ট শেষ হওয়ার সর্বনিম্ন মোট সময়কাল নির্দেশ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3472,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "সোর্স কোডের ইতিহাস ও পরিবর্তন ট্র্যাককারী সিস্টেম 'VCS'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Visual Component Studio",
+      "B) Virtual Control System",
+      "C) Variable Code Storage",
+      "D) Version Control System"
+    ],
+    "answer": 3,
+    "explanation": "VCS হলো Version Control System; যেমন Git, SVN ইত্যাদি।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3473,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "আধুনিক ডেভঅপ্স (DevOps)-এর কেন্দ্রবিন্দু পাইপলাইন 'CI/CD'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Common Infrastructure / Cloud Distribution",
+      "B) Continuous Integration / Continuous Deployment (বা Continuous Delivery)",
+      "C) Code Integration / Code Debugging",
+      "D) Control Interface / Control Data"
+    ],
+    "answer": 1,
+    "explanation": "CI/CD হলো Continuous Integration and Continuous Delivery/Deployment; এটি স্বয়ংক্রিয়ভাবে কোড বিল্ড, টেস্ট ও সার্ভারে ডিপ্লয় করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3474,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ওয়েবে ডেটা বিনিময়ের হালকা টেক্সট ফরম্যাট 'JSON'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Java System Object Network",
+      "B) Java Standard Object Name",
+      "C) JavaScript Object Notation",
+      "D) JavaScript Online Notation"
+    ],
+    "answer": 2,
+    "explanation": "JSON হলো JavaScript Object Notation; এটি কী-ভ্যালু জোড়া বিশিষ্ট মানব-বোধগম্য ও লাইটওয়েট ডেটা এক্সচেঞ্জ ফরম্যাট।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3475,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ট্যাগ-ভিত্তিক কাঠামোবদ্ধ ডেটা সংরক্ষণের সার্বজনীন ভাষা 'XML'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Extended Modern Language",
+      "B) Excel Markup Language",
+      "C) External Markup Logic",
+      "D) Extensible Markup Language"
+    ],
+    "answer": 3,
+    "explanation": "XML হলো Extensible Markup Language; এটি W3C দ্বারা প্রস্তাবিত কাস্টম ট্যাগ সংজ্ঞায়িত করার মার্কআপ ভাষা।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3476,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ওয়েব পেজ রিলোড না করে ব্যাকগ্রাউন্ডে অ্যাসিনক্রোনাস ডেটা আদান-প্রদানের প্রযুক্তি 'AJAX'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Asynchronous JavaScript and XML",
+      "B) Automated Java and XML",
+      "C) Asynchronous JSON and XML",
+      "D) Advanced JavaScript and XML"
+    ],
+    "answer": 0,
+    "explanation": "AJAX হলো Asynchronous JavaScript and XML; এটি আধুনিক ডাইনামিক ওয়েব অ্যাপ্লিকেশনের প্রাণকেন্দ্র।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3477,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "স্টেটলেস ও ক্যাশেবল ওয়েব সার্ভিস আর্কিটেকচার 'REST' বা 'RESTful API'-তে REST-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Remote Execution System Technology",
+      "B) Representational State Transfer",
+      "C) Real-time Enterprise Software Technology",
+      "D) Resource State Transport"
+    ],
+    "answer": 1,
+    "explanation": "REST হলো Representational State Transfer; ২০০০ সালে রয় ফিল্ডিং তার ডক্টরেট গবেষণাপত্রে এটি প্রবর্তন করেন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3478,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "এক্সএমএল ভিত্তিক ওয়েব সার্ভিস মেসেজিং প্রোটোকল 'SOAP'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Simple Object Access Protocol",
+      "B) Standard Online Access Protocol",
+      "C) Secure Object Access Protocol",
+      "D) System Object Application Protocol"
+    ],
+    "answer": 0,
+    "explanation": "SOAP হলো Simple Object Access Protocol; এটি অত্যন্ত কঠোর নিরাপত্তা ও ট্রানজ্যাকশন সমর্থিত এন্টারপ্রাইজ প্রোটোকল।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3479,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ব্রাউজারে এইচটিএমএল পেজের অবজেক্ট হায়ারার্কি ট্রি 'DOM'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Document Operation Module",
+      "B) Digital Output Model",
+      "C) Document Object Model",
+      "D) Data Object Management"
+    ],
+    "answer": 2,
+    "explanation": "DOM হলো Document Object Model; এটি ওয়েব পেজের প্রতিটি উপাদানকে একটি অবজেক্ট নোড হিসেবে জাভাস্ক্রিপ্টের সাথে যুক্ত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3480,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.২: প্রোগ্রামিং ভাষা ও সফটওয়্যার ইঞ্জিনিয়ারিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "নিরাপদ স্টেটলেস ওয়েব টোকেন 'JWT'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Joint Web Technology",
+      "B) Java Web Tool",
+      "C) JavaScript Web Token",
+      "D) JSON Web Token"
+    ],
+    "answer": 3,
+    "explanation": "JWT হলো JSON Web Token; এটি ক্লায়েন্ট ও সার্ভারের মধ্যে নিরাপদ তথ্য ও অথেন্টিকেশন বিনিময়ে ডিজিটাল স্বাক্ষরযুক্ত টোকেন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

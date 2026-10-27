@@ -1,0 +1,842 @@
+[
+  {
+    "id": 3481,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ডেটা স্ট্রাকচারে বাস্তবায়ন বিস্তারিত বাদ দিয়ে শুধুমাত্র গাণিতিক বৈশিষ্ট্য ও অপারেশনের সংজ্ঞায়ন 'ADT'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Advanced Data Technology",
+      "B) Array Data Type",
+      "C) Automated Data Transfer",
+      "D) Abstract Data Type"
+    ],
+    "answer": 3,
+    "explanation": "ADT হলো Abstract Data Type; যেমন স্ট্যাক বা কিউ কীভাবে কাজ করবে তা নির্দেশ করে, মেমরিতে কীভাবে রাখা হবে তা নয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3482,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "স্ট্যাক (Stack) ডেটা স্ট্রাকচারের মূল নীতি 'LIFO'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Last In, First Out",
+      "B) Linear In, Fixed Out",
+      "C) Level In, Final Out",
+      "D) Late In, Fast Out"
+    ],
+    "answer": 0,
+    "explanation": "LIFO হলো Last In, First Out; স্ট্যাকে যে উপাদান সর্বশেষে পুশ করা হয় তা সবার আগে পপ বা নির্গত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3483,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "সাধারণ কিউ (Queue) ডেটা স্ট্রাকচারের মূল নীতি 'FIFO'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Fixed In, Fixed Out",
+      "B) First In, First Out",
+      "C) First Input, Final Output",
+      "D) Fast In, Fast Out"
+    ],
+    "answer": 1,
+    "explanation": "FIFO হলো First In, First Out; কিউতে যে আগে প্রবেশ করে সে-ই সবার আগে সার্ভিস পায় বা নির্গত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3484,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "বাম সাব-ট্রি ছোট এবং ডান সাব-ট্রি বড় ডেটা ধারণকারী বিশেষ বাইনারি ট্রি 'BST'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Balanced Search Tree",
+      "B) Base Search Tree",
+      "C) Binary Search Tree",
+      "D) Binary Sorting Table"
+    ],
+    "answer": 2,
+    "explanation": "BST হলো Binary Search Tree; এতে কোনো ডেটা খোঁজার গড় জটিলতা $O(\\log n)$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3485,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "উচ্চতা স্বয়ংক্রিয়ভাবে ভারসাম্য রাখা (উচ্চতার পার্থক্য সর্বোচ্চ ১) 'AVL Tree'-এর AVL মূলত কাদের নামের আদ্যক্ষর?",
+    "options": [
+      "A) অ্যারেল ভন লিবনিজ",
+      "B) অ্যাডভান্সড ভ্যালু লুপ",
+      "C) অ্যালগরিদম ভেক্টর লজিক",
+      "D) আডেলসন-ভেলস্কি এবং ল্যান্ডিস (Adelson-Velsky and Landis)"
+    ],
+    "answer": 3,
+    "explanation": "AVL Tree হলো ১৯৬২ সালে দুই সোভিয়েত গণিতবিদ Georgy Adelson-Velsky এবং Evgenii Landis উদ্ভাবিত বিশ্বের প্রথম সেলফ-ব্যালেন্সিং BST।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3486,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "গ্রাফ ট্রাভার্সাল অ্যালগরিদম 'DFS' এবং 'BFS'-এর পূর্ণরূপ যথাক্রমে কোনগুলো?",
+    "options": [
+      "A) Dual-First Search এবং Block-First Search",
+      "B) Depth-First Search এবং Breadth-First Search",
+      "C) Direct-First Search এবং Binary-First Search",
+      "D) Depth-Fast Search এবং Breadth-Fast Search"
+    ],
+    "answer": 1,
+    "explanation": "DFS হলো Depth-First Search (স্ট্যাক ব্যবহার করে) এবং BFS হলো Breadth-First Search (কিউ ব্যবহার করে)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3487,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "কোনো চক্র বা লুপ ছাড়া একমুখী নির্দেশিত গ্রাফ 'DAG'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Data Allocation Graph",
+      "B) Dynamic Array Graph",
+      "C) Directed Acyclic Graph",
+      "D) Directed Associative Graph"
+    ],
+    "answer": 2,
+    "explanation": "DAG হলো Directed Acyclic Graph; গিট কমিট হিস্ট্রি, ব্লকচেইন এবং জব শিডিউলিংয়ে এটি ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3488,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ভারপ্রাপ্ত গ্রাফে সর্বনিম্ন খরচের সংযুক্ত ট্রি 'MST'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Minimum Spanning Tree",
+      "B) Maximum Spanning Tree",
+      "C) Main Structure Tree",
+      "D) Most Stable Tree"
+    ],
+    "answer": 0,
+    "explanation": "MST হলো Minimum Spanning Tree; প্রিমস ও ক্রুসকল অ্যালগরিদমের মাধ্যমে এটি নির্ণয় করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3489,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ডেটাবেস তৈরি, সংরক্ষণ ও পরিচালনা করার সফটওয়্যার সিস্টেম 'DBMS'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Data Backup Management System",
+      "B) Data Base Manipulation Software",
+      "C) Database Management System",
+      "D) Database Memory System"
+    ],
+    "answer": 2,
+    "explanation": "DBMS হলো Database Management System; এটি ব্যবহারকারী ও ডেটাবেসের মাঝে তথ্য আদান-প্রদান নিয়ন্ত্রণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3490,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ই এফ কড (E. F. Codd)-এর রিলেশনাল মডেলের ওপর ভিত্তি করে তৈরি 'RDBMS'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Rapid Database Management System",
+      "B) Relational Database Management System",
+      "C) Real-time Database Management System",
+      "D) Resource Database Management Software"
+    ],
+    "answer": 1,
+    "explanation": "RDBMS হলো Relational Database Management System; যেমন Oracle, MySQL, PostgreSQL যেখানে টেবিলের মাধ্যমে সম্পর্ক থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3491,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "রিলেশনাল ডেটাবেসের সাথে যোগাযোগের প্রমিত ভাষা 'SQL'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Structured Query Language",
+      "B) System Query Level",
+      "C) Standard Query Logic",
+      "D) Sequential Query Language"
+    ],
+    "answer": 0,
+    "explanation": "SQL হলো Structured Query Language; এটি ডেটাবেসে কুয়েরি ও রেকর্ড ব্যবস্থাপনার আন্তর্জাতিক ANSI/ISO প্রমিত ভাষা।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3492,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "এসকিউএল-এ টেবিল তৈরি (CREATE) ও পরিবর্তনের (ALTER, DROP) কমান্ড ক্যাটাগরি 'DDL'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Database Definition Level",
+      "B) Data Design Language",
+      "C) Data Distribution Logic",
+      "D) Data Definition Language"
+    ],
+    "answer": 3,
+    "explanation": "DDL হলো Data Definition Language; এটি ডেটাবেস স্কিমা বা টেবিলের গঠন কাঠামো তৈরি ও মুছে ফেলার কাজ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3493,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "টেবিলে ডেটা ঢোকানো (INSERT), আপডেট (UPDATE) ও মোছার (DELETE) কমান্ড ক্যাটাগরি 'DML'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Data Manipulation Language",
+      "B) Data Management Language",
+      "C) Database Modification Level",
+      "D) Data Migration Logic"
+    ],
+    "answer": 0,
+    "explanation": "DML হলো Data Manipulation Language; এটি টেবিলের ভেতরে থাকা রেকর্ড বা উপাত্ত পরিচালনার কাজ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3494,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ব্যবহারকারীর অনুমতি প্রদান (GRANT) ও বাতিলের (REVOKE) এসকিউএল ক্যাটাগরি 'DCL'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Data Command Language",
+      "B) Database Configuration Logic",
+      "C) Data Communication Level",
+      "D) Data Control Language"
+    ],
+    "answer": 3,
+    "explanation": "DCL হলো Data Control Language; এটি ডেটাবেসের নিরাপত্তা ও ব্যবহারকারীদের প্রিভিলেজ নিয়ন্ত্রণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3495,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "লেনদেন স্থায়ী সংরক্ষণ (COMMIT) ও ফিরিয়ে নেওয়ার (ROLLBACK) কমান্ড ক্যাটাগরি 'TCL'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Total Control Logic",
+      "B) Transaction Control Language",
+      "C) Technical Command Level",
+      "D) Table Control Language"
+    ],
+    "answer": 1,
+    "explanation": "TCL হলো Transaction Control Language; এটি ডেটাবেসের লেনদেনের ধারাবাহিকতা ও সংরক্ষণ নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3496,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ডেটাবেস ট্রানজ্যাকশনের নির্ভরযোগ্যতার চারটি স্তম্ভ 'ACID' প্রোপার্টির পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Accuracy, Consistency, Integrity, Durability",
+      "B) Authentication, Confidentiality, Integrity, Durability",
+      "C) Atomicity, Consistency, Isolation, Durability",
+      "D) Atomicity, Concurrency, Isolation, Dependability"
+    ],
+    "answer": 2,
+    "explanation": "ACID হলো Atomicity (সব বা কিছুই না), Consistency (নিয়ম রক্ষা), Isolation (স্বতন্ত্রতা), Durability (স্থায়িত্ব)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3497,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ডেটাবেস নরমালাইজেশনে তৃতীয় স্বাভাবিক রূপের চেয়ে কঠোর 'BCNF'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Base Codd Normal Format",
+      "B) Boyce-Codd Normal Form",
+      "C) Basic Condition Normal Form",
+      "D) Binary Coded Normal Form"
+    ],
+    "answer": 1,
+    "explanation": "BCNF হলো Boyce-Codd Normal Form (Raymond F. Boyce এবং E. F. Codd); যাতে প্রতিটি ডিটারমিন্যান্টকে সুপার কী হতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3498,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "সমগ্র ডেটাবেস সিস্টেমের নিরাপত্তা, ব্যাকআপ ও কার্যকারিতা তদারকিকারী প্রধান কর্মকর্তা 'DBA'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Database Application Manager",
+      "B) Data Backup Analyst",
+      "C) Database Architect",
+      "D) Database Administrator"
+    ],
+    "answer": 3,
+    "explanation": "DBA হলো Database Administrator; যিনি ডেটাবেসের রক্ষণাবেক্ষণ ও পারফরম্যান্স টিউনিংয়ের প্রধান দায়িত্বে থাকেন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3499,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ডেটাবেস ডিজাইনে সত্তা ও তাদের পারস্পরিক সম্পর্কের নকশা 'ERD'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Entity-Relationship Diagram",
+      "B) Entity Resource Diagram",
+      "C) Extended Relational Design",
+      "D) Enterprise Relational Database"
+    ],
+    "answer": 0,
+    "explanation": "ERD হলো Entity-Relationship Diagram; পিটার চেন (Peter Chen) ১৯৭৬ সালে এটি প্রবর্তন করেন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3500,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "জাভা অ্যাপ্লিকেশন থেকে এসকিউএল ডেটাবেসের সাথে সংযোগ স্থাপনের ড্রাইভার 'JDBC'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Java Data Backup Component",
+      "B) Java Database Controller",
+      "C) Java Database Connectivity",
+      "D) Java Direct Bridge Connector"
+    ],
+    "answer": 2,
+    "explanation": "JDBC হলো Java Database Connectivity; এটি জাভা প্রোগ্রাম থেকে ডেটাবেস কুয়েরি রান করার স্ট্যান্ডার্ড এপিআই।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3501,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "মাইক্রোসফট কর্তৃক প্রবর্তিত সার্বজনীন ডেটাবেস সংযোগ ইন্টারফেস 'ODBC'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Optimal Database Connection",
+      "B) Object Database Component",
+      "C) Online Database Controller",
+      "D) Open Database Connectivity"
+    ],
+    "answer": 3,
+    "explanation": "ODBC হলো Open Database Connectivity; এটি যেকোনো ওএস বা অ্যাপ্লিকেশন থেকে বিভিন্ন ব্র্যান্ডের ডেটাবেসে প্রবেশের প্রমিত ইন্টারফেস।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3502,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ডেটাবেসে মূল ডিস্কে লেখার পূর্বে পরিবর্তনসমূহ লগ ফাইলে সংরক্ষণের কৌশল 'WAL'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Write-Ahead Logging",
+      "B) Wide Area Logging",
+      "C) Write Allocation Line",
+      "D) Windows Access Log"
+    ],
+    "answer": 0,
+    "explanation": "WAL হলো Write-Ahead Logging; এটি সিস্টেম ক্র্যাশ করলেও ডেটাবেস ট্রানজ্যাকশনের অখণ্ডতা ও রিকভারি নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3503,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "আইবিএম-এর সি মোহন কর্তৃক উদ্ভাবিত বিশ্ববিখ্যাত ডেটাবেস রিকভারি অ্যালগরিদম 'ARIES'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Automated Recovery and Integrated Enterprise System",
+      "B) Algorithms for Recovery and Isolation Exploiting Semantics",
+      "C) Advanced Record Indexing and Execution System",
+      "D) Array Recovery and Information Engine System"
+    ],
+    "answer": 1,
+    "explanation": "ARIES হলো Algorithms for Recovery and Isolation Exploiting Semantics; এটি আধুনিক সমস্ত বাণিজ্যিক RDBMS-এর ক্র্যাশ রিকভারি ভিত্তি।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3504,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ব্যাংকিং ও এটিএমের মতো দ্রুতগামী তাৎক্ষণিক দৈনন্দিন লেনদেন পরিচালনাকারী সিস্টেম 'OLTP'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Online Technical Program",
+      "B) Online Transport Protocol",
+      "C) Online Transaction Processing",
+      "D) Optimal Line Transaction Processing"
+    ],
+    "answer": 2,
+    "explanation": "OLTP হলো Online Transaction Processing; এটি ৩য় নরমাল ফর্মে (3NF) শত শত ব্যবহারকারীর ক্ষুদ্র ও দ্রুত লেনদেন পরিচালনা করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3505,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ব্যবসায়িক সিদ্ধান্ত গ্রহণে বহুমাত্রিক ডেটা বিশ্লেষণ ও ডেটা ওয়্যারহাউস কুয়েরি সিস্টেম 'OLAP'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Optimal Learning and Planning",
+      "B) Online Analytical Processing",
+      "C) Online Application Protocol",
+      "D) Object-Level Analytical Platform"
+    ],
+    "answer": 1,
+    "explanation": "OLAP হলো Online Analytical Processing; এটি স্টার বা স্নোফ্লেক স্কিমা ব্যবহার করে বিশাল ঐতিহাসিক ডেটার জটিল বিশ্লেষণ দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3506,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "একটি প্রতিষ্ঠানের সমস্ত বিভাগীয় ডেটা সমন্বিতভাবে সংরক্ষিত রাখার কেন্দ্রীয় বিশাল ভাণ্ডার 'DW'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Digital Workflow",
+      "B) Data Workspace",
+      "C) Data Web",
+      "D) Data Warehouse"
+    ],
+    "answer": 3,
+    "explanation": "DW হলো Data Warehouse; এটি ব্যবসায়িক বুদ্ধিমত্তা (BI) ও সিদ্ধান্ত গ্রহণে ব্যবহৃত বিষয়ভিত্তিক, সমন্বিত, অপরিবর্তনীয় ডেটা রিপোজিটরি।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3507,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "একটি নির্দিষ্ট বিভাগ বা ব্যবসার নির্দিষ্ট অংশের জন্য নিবেদিত ক্ষুদ্র ডেটা ওয়্যারহাউস 'DM'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Data Mart",
+      "B) Data Mining",
+      "C) Data Model",
+      "D) Data Migration"
+    ],
+    "answer": 0,
+    "explanation": "DM হলো Data Mart; এটি ডেটা ওয়্যারহাউসের একটি নির্দিষ্ট সাবসেট (যেমন কেবল মার্কেটিং বা ফিন্যান্সের ডেটা ধারণ করে)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3508,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "বিভিন্ন উৎস থেকে ডেটা সংগ্রহ করে প্রস্তুত করে ওয়্যারহাউসে লোড করার পাইপলাইন 'ETL'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Electronic Transfer Line",
+      "B) Export, Translate, Log",
+      "C) Extract, Transform, Load",
+      "D) Execute, Test, Link"
+    ],
+    "answer": 2,
+    "explanation": "ETL হলো Extract, Transform, Load; এটি বিভিন্ন ডেটাবেস থেকে ডেটা আহরণ করে, পরিষ্কার ও মানানসই করে ওয়্যারহাউসে সঞ্চয় করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3509,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "বিশাল ডেটাবেস থেকে তাৎপর্যপূর্ণ অজানা জ্ঞান ও প্যাটার্ন আবিষ্কারের সার্বিক বিজ্ঞান 'KDD'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Knowledge Discovery in Databases",
+      "B) Knowledge Domain Design",
+      "C) Key Definition Diagram",
+      "D) Kernel Data Distribution"
+    ],
+    "answer": 0,
+    "explanation": "KDD হলো Knowledge Discovery in Databases; ডেটা মাইনিং হলো এই সার্বিক KDD প্রক্রিয়ার সবচেয়ে গুরুত্বপূর্ণ মূল ধাপ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3510,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "জটিল অবজেক্ট ও অবজেক্ট-ওরিয়েন্টেড ডেটা সরাসরি সংরক্ষণের ডেটাবেস 'OODBMS'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Optimal Object Database Management System",
+      "B) Open Object Database Manipulation System",
+      "C) Online Object Database Monitoring System",
+      "D) Object-Oriented Database Management System"
+    ],
+    "answer": 3,
+    "explanation": "OODBMS হলো Object-Oriented Database Management System; এতে অবজেক্টের স্টেট ও মেথড উভয়ই ডেটাবেসে সংরক্ষিত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3511,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "রিলেশনাল মডেলের সাথে অবজেক্ট ওরিয়েন্টেড বৈশিষ্ট্যের সমন্বয়ে তৈরি 'ORDBMS'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Operational Resource Database Management System",
+      "B) Optimal Relational Database Management System",
+      "C) Object-Relational Database Management System",
+      "D) Online Relational Data Management Software"
+    ],
+    "answer": 2,
+    "explanation": "ORDBMS হলো Object-Relational Database Management System; যেমন PostgreSQL এবং আধুনিক Oracle।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3512,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "অবজেক্ট ডেটাবেসে প্রতিটি অবজেক্টের নিজস্ব অভ্যন্তরীণ অপরিবর্তনীয় অনন্য পরিচিতি 'OID'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Order Identifier",
+      "B) Object Identifier",
+      "C) Operation Identification",
+      "D) Optimal Index Data"
+    ],
+    "answer": 1,
+    "explanation": "OID হলো Object Identifier; এটি সিস্টেম কর্তৃক প্রদত্ত বিশ্বজনীন অনন্য আইডি যা অবজেক্টের মান বদলালেও অপরিবর্তিত থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3513,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "অবজেক্ট ডেটাবেস ম্যানেজমেন্ট গ্রুপ (ODMG) কর্তৃক প্রমিত কুয়েরি ভাষা 'OQL'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Operational Query Level",
+      "B) Online Query Language",
+      "C) Object Query Language",
+      "D) Optimal Query Logic"
+    ],
+    "answer": 2,
+    "explanation": "OQL হলো Object Query Language; এটি এসকিউএল-এর অনুরূপ তবে অবজেক্ট ও মেথড হ্যান্ডল করার অতিরিক্ত সুবিধা যুক্ত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3514,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "রোনাল্ড ফাগিন কর্তৃক প্রস্তাবিত চরম স্বাভাবিক রূপ 'DKNF'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Domain-Key Normal Form",
+      "B) Data-Knowledge Normal Form",
+      "C) Dual-Kernel Normal Form",
+      "D) Direct-Key Normal Form"
+    ],
+    "answer": 0,
+    "explanation": "DKNF হলো Domain-Key Normal Form; এতে ডেটাবেসের সকল কনস্ট্রেইন্ট কেবল ডোমেন কনস্ট্রেইন্ট এবং কী কনস্ট্রেইন্টের মাধ্যমেই বাস্তবায়িত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3515,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ই-আর ডায়াগ্রামের উন্নত রূপ যা সাব-ক্লাস, সুপার-ক্লাস ও ইনহেরিটেন্স সমর্থন করে সেই 'EER'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Electronic Entity Resource",
+      "B) Enterprise Entity Relationship",
+      "C) Efficient Entity Record",
+      "D) Enhanced Entity-Relationship (বা Extended Entity-Relationship)"
+    ],
+    "answer": 3,
+    "explanation": "EER হলো Enhanced Entity-Relationship; এটি জটিল অবজেক্ট মডেলিংয়ে স্পেশালাইজেশন ও জেনারেলাইজেশন চিত্রায়িত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3516,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "রিলেশনাল মডেলের টেবিলের বিকল্প অ-কাঠামোবদ্ধ ও আধা-কাঠামোবদ্ধ আধুনিক ডেটাবেস 'NoSQL'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) New Online SQL",
+      "B) Not Only SQL",
+      "C) Non-Operational SQL",
+      "D) No Structured Query Language"
+    ],
+    "answer": 1,
+    "explanation": "NoSQL হলো Not Only SQL; যেমন MongoDB (ডকুমেন্ট), Redis (কী-ভ্যালু), Cassandra (ওয়াইড কলাম), Neo4j (গ্রাফ)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3517,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ডিস্ট্রিবিউটেড ডেটাবেসের এরিক ব্রিউয়ারের সুবিখ্যাত 'CAP' উপপাদ্যে CAP-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Confidentiality, Authenticity, Privacy",
+      "B) Consistency, Availability, Partition tolerance",
+      "C) Concurrency, Accuracy, Performance",
+      "D) Capacity, Allocation, Processing"
+    ],
+    "answer": 1,
+    "explanation": "CAP হলো Consistency, Availability, Partition tolerance; ডিস্ট্রিবিউটেড সিস্টেমে একসাথে এই তিনটির সর্বোচ্চ দুটি অর্জন সম্ভব।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3518,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "NoSQL ডেটাবেসের ACID-এর বিকল্প শিথিল নির্ভরযোগ্যতা মডেল 'BASE'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Basically Available, Soft state, Eventual consistency",
+      "B) Base Architecture, Structured Execution",
+      "C) Basic Authentication, System Encryption",
+      "D) Binary Access, Secure Storage, Enhanced query"
+    ],
+    "answer": 0,
+    "explanation": "BASE হলো Basically Available, Soft state, Eventual consistency; এটি কঠোর ধারাবাহিকতার বদলে দ্রুত প্রাপ্যতা ও স্কেলাবিলিটি প্রাধান্য দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3519,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ডেটাবেস বা যেকোনো স্টোরেজ সিস্টেমে তথ্যের মৌলিক ৪টি জীবনচক্র অপারেশন 'CRUD'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Compile, Run, Undo, Debug",
+      "B) Control, Route, Unify, Direct",
+      "C) Copy, Restore, Upload, Download",
+      "D) Create, Read, Update, Delete"
+    ],
+    "answer": 3,
+    "explanation": "CRUD হলো Create (তৈরি), Read (পড়া), Update (সংশোধন), Delete (মুছে ফেলা); এসকিউএল-এ যা যথাক্রমে INSERT, SELECT, UPDATE, DELETE।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3520,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৩: ডেটা স্ট্রাকচার ও ডেটাবেস সিস্টেমস পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "মাইক্রোসফটের ওএলই ভিত্তিক আধুনিক ডেটাবেস অ্যাক্সেস প্রযুক্তি 'OLE DB'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Open Language Engine Database",
+      "B) Online Enterprise Database",
+      "C) Object Linking and Embedding Database",
+      "D) Optimal Linking Execution Database"
+    ],
+    "answer": 2,
+    "explanation": "OLE DB হলো Object Linking and Embedding Database; এটি ODBC-এর চেয়েও ব্যাপক যা রিলেশনাল ও নন-রিলেশনাল উভয় ডেটা অ্যাক্সেস দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

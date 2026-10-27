@@ -1,0 +1,19 @@
+[
+  {
+    "id": 3045,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Pairs of Confusing Words",
+    "question": "Distinguish between the following pairs of words by writing clear, grammatically sound contextual sentences:\n(a) Complement vs Compliment\n(b) Principal vs Principle\n(c) Stationary vs Stationery\n(d) Affect vs Effect\n(e) Illicit vs Elicit\n(f) Eminent vs Imminent",
+    "marks": 6,
+    "answer": "Pairs of Confusing Words Solution:\n\n(a) **Complement** vs **Compliment**:\n• **Complement** (To complete or enhance something):\n*Sentence:* The software-defined firewall acts as an essential complement to the physical hardware perimeter.\n• **Compliment** (An expression of praise or admiration):\n*Sentence:* The Director General paid a rich compliment to the maintenance team for restoring server operations without delay.\n\n(b) **Principal** vs **Principle**:\n• **Principal** (Head of an institution / Primary / Main sum):\n*Sentence:* High latency was the principal cause behind the failure of remote database synchronization.\n• **Principle** (A fundamental truth, rule, or doctrine):\n*Sentence:* Zero-trust security operates on the uncompromising principle of continuous verification.\n\n(c) **Stationary** vs **Stationery**:\n• **Stationary** (Not moving / Fixed in one place):\n*Sentence:* The network radar detected a stationary device connected to the switch port for over twelve hours.\n• **Stationery** (Writing materials like paper, envelopes, pens):\n*Sentence:* The administrative assistant submitted an official requisition for office stationery and thermal printer ribbons.\n\n(d) **Affect** vs **Effect**:\n• **Affect** (Verb: To influence or alter something):\n*Sentence:* Severe power fluctuations can adversely affect the sensitive optical sensors of biometric scanners.\n• **Effect** (Noun: The result or consequence of an action):\n*Sentence:* The new load-balancing algorithm had an immediate positive effect on website response times.\n\n(e) **Illicit** vs **Elicit**:\n• **Illicit** (Illegal / Forbidden by law or rules):\n*Sentence:* The forensic investigator intercepted an illicit transmission of citizen records across an unencrypted port.\n• **Elicit** (To evoke, draw out, or obtain information):\n*Sentence:* The technician's diagnostic questions were designed to elicit specific error codes from the user.\n\n(f) **Eminent** vs **Imminent**:\n• **Eminent** (Famous, distinguished, and respected):\n*Sentence:* An eminent computer science professor was invited to conduct the specialized cybersecurity training.\n• **Imminent** (About to happen very soon / Impending):\n*Sentence:* Hearing the high-pitch warning siren from the UPS, the engineers realized that an automatic shutdown was imminent.",
+    "points_to_remember": [
+      "Station**e**ry with an 'e' = **E**nvelopes / pap**e**r.",
+      "Affect is typically a verb, while Effect is typically a noun."
+    ],
+    "tags": [
+      "confusing_words",
+      "vocabulary",
+      "english_grammar"
+    ]
+  }
+]

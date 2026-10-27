@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1079,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Operating Systems & CPU Scheduling",
+    "question": "সিপিইউ শিডিউলিং গাণিতিক সমস্যা (SRTF Scheduling):\nনিচের প্রসেসগুলোর আগমন সময় (Arrival Time) ও বার্স্ট সময় (Burst Time) দেওয়া আছে:\n\n| Process | Arrival Time (ms) | Burst Time (ms) |\n| :---: | :---: | :---: |\n| P1 | 0 | 8 |\n| P2 | 1 | 4 |\n| P3 | 2 | 9 |\n| P4 | 3 | 5 |\n\nShortest Remaining Time First (SRTF - Preemptive SJF) অ্যালগরিদমের জন্য:\n(ক) গ্যান্ট চার্ট (Gantt Chart) আঁকুন।\n(খ) প্রতিটি প্রসেসের Completion Time, Turnaround Time (TAT) ও Waiting Time (WT) বের করুন।\n(গ) গড় টার্নঅ্যারাউন্ড সময় (Average TAT) ও গড় অপেক্ষার সময় (Average WT) নির্ণয় করুন।",
+    "marks": 9,
+    "answer": "SRTF (Shortest Remaining Time First) সমাধান:\n\n১. সময়ভিত্তিক এক্সিকিউশন ও প্রিএম্পশন বিশ্লেষণ:\n• $t = 0$: একমাত্র P1 উপস্থিত। P1 চলতে শুরু করল। অবশিষ্ট বার্স্ট: 8\n• $t = 1$: P2 আসল (বার্স্ট 4)। P1 এর বাকি বার্স্ট = $8 - 1 = 7$। যেহেতু $4 < 7$, তাই P1 প্রিএম্পট হবে এবং P2 চলবে।\n• $t = 2$: P3 আসল (বার্স্ট 9)। P2 এর বাকি বার্স্ট = 3। $3 < 9$, P2 চলবে।\n• $t = 3$: P4 আসল (বার্স্ট 5)। P2 এর বাকি বার্স্ট = 2। $2 < 5$, P2 চলবে।\n• $t = 5$: P2 সম্পূর্ণ শেষ হলো ($1 + 4 = 5$)। এখন কিউতে আছে: P1 (বাকি 7), P3 (বাকি 9), P4 (বাকি 5)। ক্ষুদ্রতম হলো P4 (5)। সুতরাং P4 চলবে।\n• $t = 10$: P4 সম্পূর্ণ শেষ হলো ($5 + 5 = 10$)। বাকি আছে P1 (7) এবং P3 (9)। P1 চলবে।\n• $t = 17$: P1 শেষ হলো ($10 + 7 = 17$)। এবার P3 চলবে।\n• $t = 26$: P3 সম্পূর্ণ শেষ হলো ($17 + 9 = 26$)।\n\nগ্যান্ট চার্ট (Gantt Chart):\n| P1 | P2 | P4 | P1 | P3 |\n0----1----5----10---17---26\n\n২. প্রসেসভিত্তিক ফলাফল টেবিল:\nসূত্র:\n• $\\text{Turnaround Time (TAT)} = \\text{Completion Time (CT)} - \\text{Arrival Time (AT)}$\n• $\\text{Waiting Time (WT)} = \\text{Turnaround Time (TAT)} - \\text{Original Burst Time (BT)}$\n\n| Process | AT | BT | CT | TAT (CT - AT) | WT (TAT - BT) |\n| :---: | :---: | :---: | :---: | :---: | :---: |\n| P1 | 0 | 8 | 17 | 17 - 0 = 17 ms | 17 - 8 = 9 ms |\n| P2 | 1 | 4 | 5 | 5 - 1 = 4 ms | 4 - 4 = 0 ms |\n| P3 | 2 | 9 | 26 | 26 - 2 = 24 ms | 24 - 9 = 15 ms |\n| P4 | 3 | 5 | 10 | 10 - 3 = 7 ms | 7 - 5 = 2 ms |\n\n৩. গড় সময় নির্ণয়:\n• Average Turnaround Time (TAT):\n$$\\text{Avg TAT} = \\frac{17 + 4 + 24 + 7}{4} = \\frac{52}{4} = 13.0\\text{ ms}$$\n\n• Average Waiting Time (WT):\n$$\\text{Avg WT} = \\frac{9 + 0 + 15 + 2}{4} = \\frac{26}{4} = 6.5\\text{ ms}$$\n\nউত্তর: Average Turnaround Time = **13.0 ms** এবং Average Waiting Time = **6.5 ms**।",
+    "points_to_remember": [
+      "SRTF হলো প্রিএম্পটিভ অ্যালগরিদম, প্রতিটি নতুন প্রসেস এলে বাকি সময়ের সাথে তুলনা করতে হয়।",
+      "P2 কোনো অপেক্ষার সময় ছাড়াই তাৎক্ষণিক সার্ভিস পেয়েছে (WT = 0 ms)।"
+    ],
+    "tags": [
+      "operating_system",
+      "cpu_scheduling",
+      "srtf",
+      "gantt_chart",
+      "scheduling_math"
+    ]
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "id": 4991,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৪: পাইথন জিইউআই ও ডেটাবেস অ্যাপ্লিকেশন (Python GUI & DB Application)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনের স্ট্যান্ডার্ড এবং বিল্ট-ইন ডেস্কটপ জিইউআই (GUI) লাইব্রেরি কোনটি?",
+    "options": [
+      "A) PyQt",
+      "B) Kivy",
+      "C) tkinter",
+      "D) wxPython"
+    ],
+    "answer": 2,
+    "explanation": "`tkinter` হলো Tcl/Tk-এর ওপর প্রতিষ্ঠিত পাইথনের অফিশিয়াল স্ট্যান্ডার্ড উইন্ডো লাইব্রেরি।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4992,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৪: পাইথন জিইউআই ও ডেটাবেস অ্যাপ্লিকেশন (Python GUI & DB Application)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "Tkinter অ্যাপ্লিকেশনের মূল উইন্ডো সচল ও প্রদর্শন করতে সর্বশেষ কোন ইভেন্ট লুপ মেথডটি কল করতে হয়?",
+    "options": [
+      "A) root.run()",
+      "B) root.mainloop()",
+      "C) root.show()",
+      "D) root.start()"
+    ],
+    "answer": 1,
+    "explanation": "`mainloop()` হলো ব্লকিং ইভেন্ট লুপ যা মাউস ক্লিক ও কীবোর্ড ইভেন্টের জন্য উইন্ডোটি উন্মুক্ত রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4993,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৪: পাইথন জিইউআই ও ডেটাবেস অ্যাপ্লিকেশন (Python GUI & DB Application)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "Tkinter-এ উইজেটগুলোকে টেবিল বা সারি ও কলামের (Row and Column) আকারে সাজানোর জিওমেট্রি ম্যানেজার কোনটি?",
+    "options": [
+      "A) place()",
+      "B) grid()",
+      "C) table()",
+      "D) pack()"
+    ],
+    "answer": 1,
+    "explanation": "`widget.grid(row=0, column=1)` সারি ও কলামের গ্রিড লেআউট তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4994,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৪: পাইথন জিইউআই ও ডেটাবেস অ্যাপ্লিকেশন (Python GUI & DB Application)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "Tkinter-এ এক লাইনের টেক্সট ইনপুট বক্স তৈরির উইজেট কোনটি?",
+    "options": [
+      "A) Entry",
+      "B) TextBox",
+      "C) Text",
+      "D) Input"
+    ],
+    "answer": 0,
+    "explanation": "`Entry` একক লাইনের ইনপুটের জন্য এবং `Text` বহুলিনের টেক্সট এরিয়ার জন্য ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4995,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৪: পাইথন জিইউআই ও ডেটাবেস অ্যাপ্লিকেশন (Python GUI & DB Application)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে কোনো অতিরিক্ত সার্ভার ইনস্টল ছাড়াই স্বয়ংসম্পূর্ণ ফাইল-ভিত্তিক রিলেশনাল ডেটাবেস মডিউল কোনটি?",
+    "options": [
+      "A) psycopg2",
+      "B) mysql.connector",
+      "C) sqlite3",
+      "D) cx_Oracle"
+    ],
+    "answer": 2,
+    "explanation": "`sqlite3` পাইথনের সাথে ডিফল্টভাবে যুক্ত জিরো-কনফিগারেশন সার্ভারলেস এসকিউএল ইঞ্জিন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4996,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৪: পাইথন জিইউআই ও ডেটাবেস অ্যাপ্লিকেশন (Python GUI & DB Application)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে ডেটাবেসে এসকিউএল কুয়েরি তৈরি ও এক্সিকিউট করার জন্য কোন অবজেক্টটি তৈরি করতে হয়?",
+    "options": [
+      "A) কানেকশন অবজেক্ট",
+      "B) কোয়েরি অবজেক্ট",
+      "C) টেবিল অবজেক্ট",
+      "D) কার্সর অবজেক্ট (conn.cursor())"
+    ],
+    "answer": 3,
+    "explanation": "`cursor = conn.cursor()` এর মাধ্যমে `cursor.execute(\"...\")` চালিয়ে কুয়েরি রান করানো হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4997,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৪: পাইথন জিইউআই ও ডেটাবেস অ্যাপ্লিকেশন (Python GUI & DB Application)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ডেটাবেস থেকে কুয়েরির সমস্ত ম্যাচিং রেকর্ড একসাথে লিস্ট আকারে পাওয়ার মেথড কোনটি?",
+    "options": [
+      "A) cursor.fetchall()",
+      "B) cursor.fetchmany()",
+      "C) cursor.get_all()",
+      "D) cursor.fetchone()"
+    ],
+    "answer": 0,
+    "explanation": "`fetchall()` কুয়েরির সমস্ত রেকর্ড টাপলের একটি পূর্ণাঙ্গ তালিকা আকারে প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4998,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৪: পাইথন জিইউআই ও ডেটাবেস অ্যাপ্লিকেশন (Python GUI & DB Application)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ডেটাবেসে INSERT বা UPDATE করার পর পরিবর্তনগুলো স্থায়ীভাবে ফাইলে সংরক্ষণ নিশ্চিত করতে কোনটি আবশ্যক?",
+    "options": [
+      "A) conn.flush()",
+      "B) cursor.commit()",
+      "C) conn.commit()",
+      "D) conn.save()"
+    ],
+    "answer": 2,
+    "explanation": "`commit()` না কল করলে ট্রানজেকশনের পরিবর্তনগুলো ডিস্ক ফাইলে সংরক্ষিত না হয়ে হারিয়ে যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4999,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৪: পাইথন জিইউআই ও ডেটাবেস অ্যাপ্লিকেশন (Python GUI & DB Application)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথন অবজেক্ট বা ডিকশনারিকে জেএসএন (JSON) স্ট্রিংয়ে রূপান্তর করার ফাংশন কোনটি?",
+    "options": [
+      "A) json.encode()",
+      "B) json.dumps()",
+      "C) json.stringify()",
+      "D) json.loads()"
+    ],
+    "answer": 1,
+    "explanation": "`json.dumps(data)` পাইথন ডেটাকে JSON স্ট্রিংয়ে পরিণত করে; আর `json.loads(str)` JSON টেক্সটকে ডিকশনারিতে রূপান্তর করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5000,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১৪: পাইথন জিইউআই ও ডেটাবেস অ্যাপ্লিকেশন (Python GUI & DB Application)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে ডেটা সায়েন্স ও টেবিল ডেটা বিশ্লেষণের জন্য বিশ্বখ্যাত ডেটাফ্রেম লাইব্রেরি কোনটি?",
+    "options": [
+      "A) Scipy",
+      "B) Requests",
+      "C) Matplotlib",
+      "D) Pandas"
+    ],
+    "answer": 3,
+    "explanation": "প্যান্ডাস (Pandas) হলো 2D টেবুলার ডেটা (DataFrame) হ্যান্ডলিং, ক্লিনিং ও বিশ্লেষণের প্রধান পাইথন লাইব্রেরি।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

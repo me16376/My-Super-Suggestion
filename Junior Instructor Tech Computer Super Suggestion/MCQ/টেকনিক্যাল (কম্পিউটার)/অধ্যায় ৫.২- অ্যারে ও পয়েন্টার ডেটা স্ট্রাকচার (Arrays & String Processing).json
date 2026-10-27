@@ -1,0 +1,422 @@
+[
+  {
+    "id": 5026,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.২: অ্যারে ও পয়েন্টার ডেটা স্ট্রাকচার (Arrays & String Processing)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "অ্যারে (Array) কোন ধরনের ডেটা স্ট্রাকচার?",
+    "options": [
+      "A) লিনিয়ার এবং হোমোজেনিয়াস (Linear & Homogeneous)",
+      "B) নন-লিনিয়ার ট্রাফারসাল",
+      "C) ডাইনামিক লিঙ্কড",
+      "D) নন-লিনিয়ার এবং হেটেরোজেনিয়াস"
+    ],
+    "answer": 0,
+    "explanation": "অ্যারেতে সমজাতীয় উপাদানসমূহ মেমরিতে ধারাবাহিকভাবে ক্রমান্বয়ে সংরক্ষিত থাকে, তাই এটি লিনিয়ার ও সমজাতীয় ডেটা স্ট্রাকচার।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5027,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.২: অ্যারে ও পয়েন্টার ডেটা স্ট্রাকচার (Arrays & String Processing)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "একটি এক-মাত্রিক অ্যারের $i$-তম উপাদানের মেমরি ঠিকানা বের করার সূত্র কোনটি?",
+    "options": [
+      "A) $\\text{Address}(A[i]) = B \\times i + W$",
+      "B) $\\text{Address}(A[i]) = B - i \\times W$",
+      "C) $\\text{Address}(A[i]) = B + i / W$",
+      "D) $\\text{Address}(A[i]) = B + (i - \\text{LB}) \\times W$"
+    ],
+    "answer": 3,
+    "explanation": "যেখানে B = Base Address, LB = Lower Bound (সাধারণত 0), এবং W = প্রতিটি উপাদানের বাইট আকার।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5028,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.২: অ্যারে ও পয়েন্টার ডেটা স্ট্রাকচার (Arrays & String Processing)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "অ্যারের যেকোনো নির্দিষ্ট ইনডেক্সের উপাদান সরাসরি অ্যাক্সেস করার টাইম কমপ্লেক্সিটি কত?",
+    "options": [
+      "A) $O(N^2)$",
+      "B) $O(1)$",
+      "C) $O(N)$",
+      "D) $O(\\log N)$"
+    ],
+    "answer": 1,
+    "explanation": "সরাসরি সূত্র দিয়ে বেস অ্যাড্রেস থেকে মেমরি অফসেট হিসাব করা যায় বলে অ্যারের র্যান্ডম অ্যাক্সেস টাইম $O(1)$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5029,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.২: অ্যারে ও পয়েন্টার ডেটা স্ট্রাকচার (Arrays & String Processing)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "N আকারের একটি সাধারণ অ্যারের একদম শুরুতে নতুন উপাদান ঢোকাতে বা মুছতে টাইম কমপ্লেক্সিটি কত?",
+    "options": [
+      "A) $O(N)$ (কারণ সকল উপাদানকে এক ঘর করে শিফট করতে হয়)",
+      "B) $O(1)$",
+      "C) $O(\\log N)$",
+      "D) $O(N^2)$"
+    ],
+    "answer": 0,
+    "explanation": "শুরুতে উপাদান ঢোকাতে বিদ্যমান N সংখ্যক উপাদানকেই ডানে সরাতে হয়, ফলে জটিলতা $O(N)$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5030,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.২: অ্যারে ও পয়েন্টার ডেটা স্ট্রাকচার (Arrays & String Processing)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "2D অ্যারেতে Row-Major অর্ডারে উপাদান $A[i][j]$ এর মেমরি অ্যাড্রেস নির্ণয়ের সূত্র কোনটি?",
+    "options": [
+      "A) $\\text{Address}(A[i][j]) = B + (i + j) \\times W$",
+      "B) $\\text{Address}(A[i][j]) = B + [(j - \\text{LB}_c) \\times R + (i - \\text{LB}_r)] \\times W$",
+      "C) $\\text{Address}(A[i][j]) = B \\times (i \\times j) + W$",
+      "D) $\\text{Address}(A[i][j]) = B + [(i - \\text{LB}_r) \\times C + (j - \\text{LB}_c)] \\times W$"
+    ],
+    "answer": 3,
+    "explanation": "রো-মেজর নিয়মে আগের পূর্ণ সারিগুলো অতিক্রম করতে হয় ($i \\times C$) এবং তারপর বর্তমান সারির কলাম $j$ যোগ হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5031,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.২: অ্যারে ও পয়েন্টার ডেটা স্ট্রাকচার (Arrays & String Processing)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "2D অ্যারেতে Column-Major অর্ডারে মেমরি স্টোরেজ কোন প্রোগ্রামিং ভাষায় ব্যবহৃত হয়?",
+    "options": [
+      "A) সি++ ভাষা",
+      "B) জাভা",
+      "C) ফোরট্রান (FORTRAN) ও MATLAB",
+      "D) সি (C) ভাষা"
+    ],
+    "answer": 2,
+    "explanation": "সি ও সি++ রো-মেজর ব্যবহার করে, কিন্তু বৈজ্ঞানিক ভাষা FORTRAN এবং MATLAB কলাম-মেজর অর্ডার ব্যবহার করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5032,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.২: অ্যারে ও পয়েন্টার ডেটা স্ট্রাকচার (Arrays & String Processing)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "একটি স্পার্স ম্যাট্রিক্স (Sparse Matrix) বলতে কী বোঝায়?",
+    "options": [
+      "A) একটি সিঙ্গুলার ম্যাট্রিক্স",
+      "B) যে ম্যাট্রিক্সের অধিকাংশ উপাদানই শূন্য (Majority of elements are zero)",
+      "C) যে ম্যাট্রিক্সে কোনো শূন্য থাকে না",
+      "D) যে ম্যাট্রিক্সের সারি ও কলাম অসমান"
+    ],
+    "answer": 1,
+    "explanation": "শূন্য উপাদানের আধিক্য থাকা ম্যাট্রিক্সকে মেমরি সাশ্রয়ের উদ্দেশ্যে ট্রিপলেট ফরম্যাটে (Row, Column, Value) সংরক্ষণ করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5033,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.২: অ্যারে ও পয়েন্টার ডেটা স্ট্রাকচার (Arrays & String Processing)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "স্পার্স ম্যাট্রিক্সের ৩-কলাম রিপ্রেজেন্টেশনে (Triplet Representation) কোন তিনটি তথ্য রাখা হয়?",
+    "options": [
+      "A) বেস, অফসেট ও লেন্থ",
+      "B) সারি নম্বর (Row), কলাম নম্বর (Column) এবং অশূন্য মান (Value)",
+      "C) কী, ভ্যালু ও পয়েন্টার",
+      "D) নাম, সাইজ ও মেমরি"
+    ],
+    "answer": 1,
+    "explanation": "প্রতিটি অশূন্য উপাদানের জন্য তার সারির ইনডেক্স, কলামের ইনডেক্স এবং মূল মান সংরক্ষণ করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5034,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.২: অ্যারে ও পয়েন্টার ডেটা স্ট্রাকচার (Arrays & String Processing)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "একটি $N \\times N$ ডায়াগোনাল ম্যাট্রিক্সে কেবল প্রধান কর্ণে অশূন্য মান থাকলে মেমরিতে কয়টি উপাদান সংরক্ষণ করলেই চলে?",
+    "options": [
+      "A) $2N$ টি",
+      "B) $N^2$ টি",
+      "C) $N$ টি উপাদান",
+      "D) $N(N+1)/2$ টি"
+    ],
+    "answer": 2,
+    "explanation": "প্রধান কর্ণে কেবল $N$ টি উপাদান থাকে, বাকি $N^2 - N$ উপাদান শূন্য হওয়ায় সংরক্ষণের প্রয়োজন নেই।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5035,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.২: অ্যারে ও পয়েন্টার ডেটা স্ট্রাকচার (Arrays & String Processing)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "একটি লোয়ার ট্রায়াঙ্গুলার ম্যাট্রিক্সে (Lower Triangular Matrix) মোট অশূন্য উপাদানের সংখ্যা কত?",
+    "options": [
+      "A) $N^2 / 2$",
+      "B) $N(N - 1) / 2$",
+      "C) $N$",
+      "D) $N(N + 1) / 2$"
+    ],
+    "answer": 3,
+    "explanation": "১ম সারিতে ১টি, ২য় সারিতে ২টি, ... $N$-তম সারিতে $N$টি; মোট $1 + 2 + ... + N = N(N+1)/2$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5036,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.২: অ্যারে ও পয়েন্টার ডেটা স্ট্রাকচার (Arrays & String Processing)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "একটি অ্যারেতে সর্বোচ্চ যোগফলবিশিষ্ট অবিচ্ছিন্ন সাব-অ্যারে (Maximum Subarray Sum) নির্ণয়ের $O(N)$ অ্যালগরিদম কোনটি?",
+    "options": [
+      "A) কাদানের অ্যালগরিদম (Kadane's Algorithm)",
+      "B) ডিকস্ট্রা অ্যালগরিদম",
+      "C) ফ্লয়েড অ্যালগরিদম",
+      "D) ইউক্লিড অ্যালগরিদম"
+    ],
+    "answer": 0,
+    "explanation": "কাদানের অ্যালগরিদম ডাইনামিক প্রোগ্রামিং টেকনিকে এক পাসে $O(N)$ সময়ে ম্যাক্সিমাম সাব-অ্যারে সাম নির্ণয় করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5037,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.২: অ্যারে ও পয়েন্টার ডেটা স্ট্রাকচার (Arrays & String Processing)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "টু-পয়েন্টার (Two-Pointer) টেকনিক ব্যবহার করে সর্টেড অ্যারেতে দুটি সংখ্যার যোগফল নির্দিষ্ট টার্গেটের সমান খোঁজার টাইম কমপ্লেক্সিটি কত?",
+    "options": [
+      "A) $O(\\log N)$",
+      "B) $O(N^2)$",
+      "C) $O(N \\log N)$",
+      "D) $O(N)$"
+    ],
+    "answer": 3,
+    "explanation": "শুরু ও শেষে দুটি পয়েন্টার রেখে এক পাসে যোগফল মেলালে ব্রুট-ফোর্সের $O(N^2)$ কমে $O(N)$-এ নেমে আসে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5038,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.২: অ্যারে ও পয়েন্টার ডেটা স্ট্রাকচার (Arrays & String Processing)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "অ্যারেতে একটি নির্দিষ্ট আকারের চলমান উইন্ডোর (Sliding Window) সর্বোচ্চ মান অনুসন্ধানের আদর্শ ডেটা স্ট্রাকচার কোনটি?",
+    "options": [
+      "A) সাধারণ কিউ",
+      "B) স্ট্যাক",
+      "C) মনোটোনিক ডি-কিউ (Monotonic Deque)",
+      "D) বাইনারি সার্চ ট্রি"
+    ],
+    "answer": 2,
+    "explanation": "স্লাইডিং উইন্ডো ম্যাক্সিমাম সমস্যায় Monotonic Deque ব্যবহার করে প্রতিটি উইন্ডো $O(1)$ অ্যামোর্টাইজড সময়ে প্রসেস করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5039,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.২: অ্যারে ও পয়েন্টার ডেটা স্ট্রাকচার (Arrays & String Processing)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "স্ট্যাটিক অ্যারের তুলনায় ডায়নামিক অ্যারের (যেমন C++ vector বা Python list) প্রধান বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "A) অ্যারে পূর্ণ হলে স্বয়ংক্রিয়ভাবে দ্বিগুণ আকারের নতুন মেমরি বরাদ্দ করে উপাদান কপি করে",
+      "B) অ্যাক্সেস টাইম $O(N)$",
+      "C) মেমরি কখনোই বাড়ে না",
+      "D) লিঙ্কড লিস্টের মতো পয়েন্টার ব্যবহার করে"
+    ],
+    "answer": 0,
+    "explanation": "ডাইনামিক অ্যারে মেমরি ক্যাপাসিটি ফুরিয়ে গেলে সাধারণত দ্বিগুণ (Geometric doubling) করে অ্যামোর্টাইজড $O(1)$ ইনসার্শন নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5040,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.২: অ্যারে ও পয়েন্টার ডেটা স্ট্রাকচার (Arrays & String Processing)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "একটি সর্টেড অ্যারেতে কোনো ডুপ্লিকেট সংখ্যা না রেখে অনন্য সংখ্যাগুলো শুরুতে পুনর্বিন্যাস করার টাইম কমপ্লেক্সিটি কত?",
+    "options": [
+      "A) $O(N \\log N)$",
+      "B) $O(N)$ ইন-প্লেস",
+      "C) $O(N^2)$",
+      "D) $O(1)$"
+    ],
+    "answer": 1,
+    "explanation": "টু-পয়েন্টার টেকনিকে এক পাসে $O(N)$ সময়ে এবং $O(1)$ স্পেসে ডুপ্লিকেট উপাদান দূর করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5041,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.২: অ্যারে ও পয়েন্টার ডেটা স্ট্রাকচার (Arrays & String Processing)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "স্ট্রিংয়ে প্যাটার্ন ম্যাচিংয়ের জন্য বিখ্যাত KMP (Knuth-Morris-Pratt) অ্যালগরিদমের টাইম কমপ্লেক্সিটি কত?",
+    "options": [
+      "A) $O(M \\log N)$",
+      "B) $O(N^2)$",
+      "C) $O(N + M)$",
+      "D) $O(N \\times M)$"
+    ],
+    "answer": 2,
+    "explanation": "KMP অ্যালগরিদম LPS (Longest Prefix Suffix) অ্যারে প্রি-কম্পিউট করে ব্যাকট্র্যাকিং ছাড়া লিনিয়ার $O(N+M)$ সময়ে ম্যাচিং করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5042,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.২: অ্যারে ও পয়েন্টার ডেটা স্ট্রাকচার (Arrays & String Processing)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "স্ট্রিং প্যাটার্ন ম্যাচিংয়ে রোলিং হ্যাশ (Rolling Hash) মেকানিজম ব্যবহার করে কোন অ্যালগরিদম?",
+    "options": [
+      "A) রবিন-কার্প অ্যালগরিদম (Rabin-Karp Algorithm)",
+      "B) বয়ার-মুর অ্যালগরিদম",
+      "C) জাভা ইনডেক্স",
+      "D) KMP অ্যালগরিদম"
+    ],
+    "answer": 0,
+    "explanation": "রবিন-কার্প অ্যালগরিদম হ্যাশ ভ্যালু তুলনা করে দ্রুত সাব-স্ট্রিং ম্যাচিং সম্পন্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5043,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.২: অ্যারে ও পয়েন্টার ডেটা স্ট্রাকচার (Arrays & String Processing)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "একটি স্ট্রিং প্যালিনড্রোম (Palindrome) কিনা তা যাচাই করতে ন্যূনতম টাইম কমপ্লেক্সিটি কত?",
+    "options": [
+      "A) $O(N^2)$",
+      "B) $O(N)$",
+      "C) $O(1)$",
+      "D) $O(\\log N)$"
+    ],
+    "answer": 1,
+    "explanation": "দুই প্রান্ত থেকে $N/2$ বার ক্যারেক্টার মিলিয়ে $O(N)$ সময়ে প্যালিনড্রোম নিশ্চিত করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5044,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.২: অ্যারে ও পয়েন্টার ডেটা স্ট্রাকচার (Arrays & String Processing)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "একটি টেক্সটের সমস্ত সাফিক্স সর্ট করে ইনডেক্স সংরক্ষণের ডেটা স্ট্রাকচারকে কী বলে?",
+    "options": [
+      "A) ম্যাট্রিক্স",
+      "B) হ্যাশ টেবিল",
+      "C) প্রিফিক্স ট্রি",
+      "D) সাফিক্স অ্যারে (Suffix Array)"
+    ],
+    "answer": 3,
+    "explanation": "সাফিক্স অ্যারে স্ট্রিংয়ের সমস্ত সাবস্ট্রিং সংক্রান্ত জটিল অনুসন্ধান অতি দ্রুত সম্পন্ন করতে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5045,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.২: অ্যারে ও পয়েন্টার ডেটা স্ট্রাকচার (Arrays & String Processing)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "প্রিফিক্স সাম অ্যারের (Prefix Sum Array) প্রধান ব্যবহার কোনটি?",
+    "options": [
+      "A) অ্যারের যেকোনো সাব-অ্যারে রেঞ্জের যোগফল $O(1)$ সময়ে নির্ণয় করা",
+      "B) অ্যারে সর্ট করা",
+      "C) উপাদান ডিলিট করা",
+      "D) ইনভার্স করা"
+    ],
+    "answer": 0,
+    "explanation": "`sum(L, R) = prefix[R] - prefix[L-1]` সূত্রের মাধ্যমে রেঞ্জ সাম কুয়েরি $O(1)$ সময়ে পাওয়া যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

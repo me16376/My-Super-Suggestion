@@ -1,0 +1,632 @@
+[
+  {
+    "id": 3346,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় পয়েন্টার (Pointer) ভেরিয়েবল মূলত কী সংরক্ষণ করে?",
+    "options": [
+      "A) যেকোনো ডেটা ভ্যালু",
+      "B) ফাংশনের কোড",
+      "C) অন্য কোনো ভেরিয়েবলের মেমরি অ্যাড্রেস (Memory Address)",
+      "D) ফাইলের নাম"
+    ],
+    "answer": 2,
+    "explanation": "পয়েন্টার হলো একটি বিশেষ ভেরিয়েবল যা সরাসরি কোনো ডেটার বদলে মেমরি লোকেশনের ঠিকানা ধারণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3347,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় কোনো সাধারণ ভেরিয়েবলের মেমরি অ্যাড্রেস বের করতে কোন অপারেটর ব্যবহৃত হয়?",
+    "options": [
+      "A) -> (Arrow Operator)",
+      "B) & (Address-of / Reference Operator)",
+      "C) * (Dereference Operator)",
+      "D) . (Dot Operator)"
+    ],
+    "answer": 1,
+    "explanation": "অ্যাম্পারস্যান্ড (`&`) অপারেটর যেকোনো ভেরিয়েবলের মেমরি বাইটের শুরু ঠিকানা প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3348,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "পয়েন্টার যে ঠিকানাকে নির্দেশ করছে সেই ঠিকানার মূল মানটি পড়তে বা লিখতে কোন অপারেটর ব্যবহৃত হয়?",
+    "options": [
+      "A) * (Indirection বা Dereference Operator)",
+      "B) & (Address Operator)",
+      "C) #",
+      "D) %"
+    ],
+    "answer": 0,
+    "explanation": "`*ptr` হলো ডি-রেফারেন্স অপারেটর যা নির্দেশিত ঠিকানায় সংরক্ষিত মূল ডেটা মান অ্যাক্সেস করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3349,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "একটি ৬৪-বিট অপারেটিং সিস্টেমে `char*`, `int*`, এবং `double*` পয়েন্টার ভেরিয়েবলের সাইজ কত বাইট?",
+    "options": [
+      "A) কম্পাইলার ভেদে অনির্ধারিত",
+      "B) সকল পয়েন্টারের আকার ৪ বাইট",
+      "C) char* ১ বাইট, int* ৪ বাইট, double* ৮ বাইট",
+      "D) সকল পয়েন্টারের আকারই সমান ৮ বাইট (64 bits)"
+    ],
+    "answer": 3,
+    "explanation": "পয়েন্টার কেবল মেমরি অ্যাড্রেস ধরে রাখে; ৬৪-বিট সিস্টেমে যেকোনো টাইপের পয়েন্টারের সাইজ ৮ বাইট এবং ৩২-বিট সিস্টেমে ৪ বাইট।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3350,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় `NULL` পয়েন্টার বলতে কী বোঝায়?",
+    "options": [
+      "A) গার্বেজ মান বিশিষ্ট পয়েন্টার",
+      "B) ভয়েড পয়েন্টার",
+      "C) যে পয়েন্টার মেমরির কোনো বৈধ লোকেশন বা অবজেক্ট নির্দেশ করে না (অ্যাড্রেস 0)",
+      "D) যে পয়েন্টার ডিলিট হয়ে গেছে"
+    ],
+    "answer": 2,
+    "explanation": "NULL হলো একটি বিশেষ কনস্ট্যান্ট ম্যাক্রো যা পয়েন্টার খালি বা কোনো বৈধ অ্যাড্রেস পয়েন্ট করছে না তা বোঝাতে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3351,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "কোনো পয়েন্টার ঘোষণা করার পর কোনো অ্যাড্রেস অ্যাসাইন না করলে তাকে কী ধরনের পয়েন্টার বলে?",
+    "options": [
+      "A) ওয়াইল্ড পয়েন্টার (Wild Pointer)",
+      "B) ড্যাংলিং পয়েন্টার",
+      "C) স্মার্ট পয়েন্টার",
+      "D) নাল পয়েন্টার"
+    ],
+    "answer": 0,
+    "explanation": "আন-ইনিশিয়ালাইজড পয়েন্টার মেমরির যেকোনো অজানা গার্বেজ লোকেশন নির্দেশ করে থাকে, একে Wild Pointer বলে; এটি অত্যন্ত বিপজ্জনক।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3352,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় জেনেরিক পয়েন্টার (Generic Pointer) হিসেবে কোনটি পরিচিত যা যেকোনো ডেটা টাইপের ঠিকানা ধারণ করতে পারে?",
+    "options": [
+      "A) int*",
+      "B) void* (Void Pointer)",
+      "C) char*",
+      "D) null*"
+    ],
+    "answer": 1,
+    "explanation": "`void*` পয়েন্টার যেকোনো ডেটা অবজেক্টের অ্যাড্রেস নিতে পারে, তবে একে ডি-রেফারেন্স করার পূর্বে কাঙ্ক্ষিত টাইপে কাস্ট করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3353,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "যদি `int *p = (int*)1000;` হয় (যেখানে int ৪ বাইট), তবে `p + 1` এর মেমরি অ্যাড্রেস কত হবে?",
+    "options": [
+      "A) 1008",
+      "B) 1001",
+      "C) 1004",
+      "D) 1002"
+    ],
+    "answer": 2,
+    "explanation": "পয়েন্টার অ্যারিথমেটিকে `p + 1` মানে `p + (1 * sizeof(*p))`। ৪ বাইট ইনটিজারের কারণে অ্যাড্রেস ৪ বৃদ্ধি পেয়ে ১০০৪ হবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3354,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "একই অ্যারের দুটি পয়েন্টারের বিয়োগফল `ptr2 - ptr1` কী ফলাফল প্রদান করে?",
+    "options": [
+      "A) মেমরি অ্যাড্রেসের গুণফল",
+      "B) বাইট পার্থক্যের সংখ্যা",
+      "C) শূন্য",
+      "D) পয়েন্টার দুটির মধ্যবর্তী উপাদানের (Elements) সংখ্যা"
+    ],
+    "answer": 3,
+    "explanation": "দুটি পয়েন্টারের বিয়োগফল বাইট পার্থক্যকে ডেটা টাইপের সাইজ দিয়ে ভাগ করে মাঝখানের মোট উপাদানের সংখ্যা রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3355,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "পয়েন্টারের ক্ষেত্রে নিচের কোন গাণিতিক অপারেশনটি সি ভাষায় সম্পূর্ণ নিষিদ্ধ ও অবৈধ?",
+    "options": [
+      "A) পয়েন্টারের সাথে ইন্টিজার যোগ (ptr + 1)",
+      "B) দুটি পয়েন্টারের যোগফল (ptr1 + ptr2) বা গুণন",
+      "C) পয়েন্টার থেকে ইন্টিজার বিয়োগ (ptr - 1)",
+      "D) দুটি পয়েন্টারের বিয়োগ (ptr1 - ptr2)"
+    ],
+    "answer": 1,
+    "explanation": "দুটি মেমরি ঠিকানা পরস্পর যোগ করা বা গুণ করার কোনো অর্থ নেই, তাই সি ভাষায় পয়েন্টারের যোগ ও গুণ সম্পূর্ণ অবৈধ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3356,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় অ্যারের নাম `arr` এবং পয়েন্টারের মধ্যে মৌলিক পার্থক্য কী?",
+    "options": [
+      "A) অ্যারের নাম একটি কনস্ট্যান্ট পয়েন্টার (যার মান বা অ্যাড্রেস পরিবর্তন করা যায় না)",
+      "B) অ্যারের নামকে ইনক্রিমেন্ট করা যায় (arr++)",
+      "C) পয়েন্টারের সাইজ নির্ধারণ করা যায় না",
+      "D) উভয়ের মধ্যে কোনো পার্থক্য নেই"
+    ],
+    "answer": 0,
+    "explanation": "`arr` সর্বদা অ্যারের প্রথম উপাদান নির্দেশকারী ধ্রুবক পয়েন্টার; ফলে `arr++` বা `arr = ptr` লিখলে কম্পাইলার এরর দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3357,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "একটি পয়েন্টার অন্য একটি পয়েন্টার ভেরিয়েবলের মেমরি অ্যাড্রেস ধারণ করলে তাকে কী বলে?",
+    "options": [
+      "A) নাল পয়েন্টার",
+      "B) পয়েন্টার টু পয়েন্টার বা ডাবল পয়েন্টার (`**p`)",
+      "C) ফাংশন পয়েন্টার",
+      "D) ট্রিপল পয়েন্টার"
+    ],
+    "answer": 1,
+    "explanation": "ডাবল পয়েন্টার যেমন `int **q = &p;` অন্য একটি সিঙ্গেল পয়েন্টারের ঠিকানা ধারণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3358,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় ফাংশন পয়েন্টার (Function Pointer) ঘোষণার সঠিক সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) int (*fptr)(int, int);",
+      "B) int *fptr(int, int);",
+      "C) int fptr*(int, int);",
+      "D) func fptr(int, int);"
+    ],
+    "answer": 0,
+    "explanation": "`(*fptr)` প্যারেন্থেসিসে রাখা আবশ্যক, কারণ `int *fptr(int, int);` লিখলে তা পয়েন্টার রিটার্নকারী সাধারণ ফাংশন বোঝায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3359,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় রান-টাইমে মেমরি বরাদ্দ (Dynamic Memory Allocation) মেমরির কোন অংশে ঘটে?",
+    "options": [
+      "A) স্ট্যাক সেগমেন্ট (Stack)",
+      "B) রেজিস্টার",
+      "C) কোড সেগমেন্ট",
+      "D) হিপ সেগমেন্ট (Heap Memory)"
+    ],
+    "answer": 3,
+    "explanation": "প্রোগ্রাম চলাকালীন ডায়নামিক মেমরি হিপ (Heap) পুল থেকে বরাদ্দ ও মুক্ত করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3360,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "ডায়নামিক মেমরি অ্যালোকশনের ফাংশনগুলো (`malloc`, `calloc`, `realloc`, `free`) কোন হেডারে থাকে?",
+    "options": [
+      "A) <stdio.h>",
+      "B) <string.h>",
+      "C) <stdlib.h>",
+      "D) <memory.h>"
+    ],
+    "answer": 2,
+    "explanation": "স্ট্যান্ডার্ড লাইব্রেরি হেডার `<stdlib.h>` এ ডায়নামিক মেমরি ব্যবস্থাপনার প্রোটোটাইপগুলো সংজ্ঞায়িত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3361,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "`malloc()` ফাংশনের কাজ কী এবং বরাদ্দকৃত মেমরি কীভাবে ইনিশিয়ালাইজ হয়?",
+    "options": [
+      "A) মেমরি বরাদ্দ করে এবং সকল বাইট ০ দিয়ে পূর্ণ করে",
+      "B) নির্দিষ্ট বাইট মেমরি বরাদ্দ করে এবং মেমরিটি অনির্ধারিত গার্বেজ মান (Garbage Value) দিয়ে পূর্ণ থাকে",
+      "C) মেমরি সাইজ দ্বিগুণ করে",
+      "D) মেমরি মুক্ত করে"
+    ],
+    "answer": 1,
+    "explanation": "`malloc(size)` হিপ থেকে মেমরি দেয় কিন্তু কোনো ইনিশিয়ালাইজেশন করে না, ফলে এতে পুরনো গার্বেজ ডেটা থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3362,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "`calloc()` ফাংশনের বিশেষ বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "A) একাধিক ব্লকে মেমরি বরাদ্দ করে এবং স্বয়ংক্রিয়ভাবে প্রতিটি বাইট শূন্য (0) দ্বারা ইনিশিয়ালাইজ করে",
+      "B) স্ট্যাক মেমরি থেকে বরাদ্দ দেয়",
+      "C) গার্বেজ মান রেখে দেয়",
+      "D) মেমরি ডিলিট করে"
+    ],
+    "answer": 0,
+    "explanation": "`calloc(num_elements, size_per_element)` মেমরি বরাদ্দের পর সমস্ত বাইট ০ দিয়ে ক্লিয়ার করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3363,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "যদি সিস্টেমে পর্যাপ্ত মেমরি খালি না থাকায় `malloc()` ব্যর্থ হয়, তবে এটি কী রিটার্ন করে?",
+    "options": [
+      "A) 0 বাইট",
+      "B) প্রোগ্রাম শাটডাউন",
+      "C) -1",
+      "D) NULL"
+    ],
+    "answer": 3,
+    "explanation": "মেমরি বরাদ্দ ব্যর্থ হলে `malloc` ও `calloc` নিরাপদ সংকেত হিসেবে `NULL` রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3364,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "পূর্বে বরাদ্দকৃত মেমরির আকার বাড়িয়ে বা কমিয়ে পরিবর্তন করার জন্য কোন ফাংশন ব্যবহৃত হয়?",
+    "options": [
+      "A) resize()",
+      "B) calloc()",
+      "C) realloc()",
+      "D) malloc()"
+    ],
+    "answer": 2,
+    "explanation": "`realloc(ptr, new_size)` পূর্বের মেমরির ডেটা অক্ষুণ্ণ রেখে মেমরি ব্লকের আকার পরিবর্তন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3365,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "ডায়নামিকালি বরাদ্দকৃত মেমরি কাজ শেষে অপারেটিং সিস্টেমে ফেরত দিতে কোন ফাংশন কল করতে হয়?",
+    "options": [
+      "A) delete(ptr)",
+      "B) clear(ptr)",
+      "C) free(ptr)",
+      "D) release(ptr)"
+    ],
+    "answer": 2,
+    "explanation": "`free(ptr)` ফাংশন হিপের অব্যবহৃত মেমরি মুক্ত করে দেয় যাতে অন্য প্রোগ্রাম তা ব্যবহার করতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3366,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি প্রোগ্রামে মেমরি লিক (Memory Leak) কেন ঘটে?",
+    "options": [
+      "A) রিকার্শন ব্যবহার করলে",
+      "B) ডায়নামিক মেমরি `malloc` দ্বারা নেওয়ার পর তা আর `free()` না করে রেফারেন্স হারিয়ে ফেললে",
+      "C) পয়েন্টার বেশি ব্যবহার করলে",
+      "D) অতিরিক্ত ভেরিয়েবল ঘোষণা করলে"
+    ],
+    "answer": 1,
+    "explanation": "বরাদ্দকৃত হিপ মেমরির পয়েন্টার হারিয়ে গেলে কিন্তু `free()` না করা হলে মেমরি ব্লকটি আটকে থাকে, একে Memory Leak বলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3367,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "ড্যাংলিং পয়েন্টার (Dangling Pointer) বলতে কী বোঝায়?",
+    "options": [
+      "A) যে পয়েন্টারে কোনো মান নেই",
+      "B) নাল পয়েন্টারকে",
+      "C) যে পয়েন্টার অ্যারে পয়েন্ট করে",
+      "D) মেমরি লোকেশনটি `free()` করে দেওয়ার পরও পয়েন্টারটি এখনো সেই ডিলিট হওয়া মেমরি ঠিকানা নির্দেশ করে থাকলে"
+    ],
+    "answer": 3,
+    "explanation": "মুক্ত করা মেমরির ঠিকানায় নির্দেশকারী পয়েন্টারকে ড্যাংলিং পয়েন্টার বলে। এর সমাধান হলো `free(p);` এর পর `p = NULL;` করে দেওয়া।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3368,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "একই মেমরি লোকেশনকে পরপর দুইবার `free(p); free(p);` করলে কী সমস্যা ঘটে?",
+    "options": [
+      "A) ডাবল ফ্রি (Double Free) এরর এবং ক্র্যাশ",
+      "B) কোনো সমস্যা হয় না",
+      "C) মেমরি বেশি ক্লিয়ার হয়",
+      "D) কম্পাইল এরর"
+    ],
+    "answer": 0,
+    "explanation": "একই মেমরি দুবার মুক্ত করার চেষ্টা করলে মেমরি ম্যানেজমেন্ট এরর বা নিরাপত্তা দুর্বলতা (Double Free vulnerability) দেখা দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3369,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "যদি `int x = 10; const int *ptr = &x;` হয়, তবে নিচের কোনটি অবৈধ?",
+    "options": [
+      "A) *ptr = 20; (পয়েন্টার দিয়ে মান পরিবর্তন করা যাবে না)",
+      "B) printf(\"%d\", *ptr);",
+      "C) ptr = &y; (পয়েন্টারের ঠিকানা পরিবর্তন করা যাবে)",
+      "D) x = 20;"
+    ],
+    "answer": 0,
+    "explanation": "`const int *ptr` হলো Pointer to Constant, অর্থাৎ পয়েন্টারের মাধ্যমে নির্দেশিত মান পরিবর্তন করা নিষিদ্ধ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3370,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "যদি `int * const ptr = &x;` ঘোষণা করা হয়, তবে এর অর্থ কী?",
+    "options": [
+      "A) পয়েন্টারের মান বদলানো যাবে না",
+      "B) এটি একটি সাধারণ পয়েন্টার",
+      "C) উভয়ই অপরিবর্তনশীল",
+      "D) কনস্ট্যান্ট পয়েন্টার (পয়েন্টারের ঠিকানা পরিবর্তন করা যাবে না, তবে *ptr দিয়ে মান বদলানো যাবে)"
+    ],
+    "answer": 3,
+    "explanation": "`* const ptr` মানে পয়েন্টার ভেরিয়েবলটি নিজে কনস্ট্যান্ট, ফলে এটি একবার ইনিশিয়ালাইজ হওয়ার পর অন্য কোনো ঠিকানা নিতে পারবে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3371,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "পয়েন্টার টু অ্যারে (Pointer to an Array of 5 integers) ঘোষণার সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) int *ptr[5];",
+      "B) int *ptr();",
+      "C) int (*ptr)[5];",
+      "D) int ptr[5]*;"
+    ],
+    "answer": 2,
+    "explanation": "`int (*ptr)[5];` হলো ৫টি পূর্ণসংখ্যার পুরো অ্যারের পয়েন্টার; অন্যদিকে `int *ptr[5];` হলো ৫টি পয়েন্টারের অ্যারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3372,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "নিচের কোডের আউটপুট কী হবে?\n`int a[] = {10, 20, 30}; int *p = a; printf(\"%d \", *p++); printf(\"%d\", *p);`",
+    "options": [
+      "A) 10 10",
+      "B) 10 20",
+      "C) 11 20",
+      "D) 20 20"
+    ],
+    "answer": 1,
+    "explanation": "`*p++` এ পোস্ট-ইনক্রিমেন্টের কারণে প্রথমে বর্তমান উপাদান ১০ প্রিন্ট হবে, তারপর p এক ঘর এগিয়ে ২০-এর ঠিকানায় যাবে। পরবর্তী `*p` হবে ২০।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3373,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় মেমরি ব্লকের এক স্থান থেকে অন্য স্থানে নির্দিষ্ট বাইট কপি করতে দ্রুততম লাইব্রেরি ফাংশন কোনটি?",
+    "options": [
+      "A) strcpy()",
+      "B) memcmp()",
+      "C) memcpy(dest, src, n)",
+      "D) memmove()"
+    ],
+    "answer": 2,
+    "explanation": "`memcpy()` নির্দিষ্ট সাইজের কাঁচা মেমরি বাইট সরাসরি কপি করে যা যেকোনো ডেটা টাইপ বা স্ট্রাকচারের জন্য দ্রুত কাজ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3374,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "একটি মেমরি ব্লকের প্রতিটি বাইট নির্দিষ্ট কোনো মান (যেমন ০) দিয়ে পূর্ণ করতে কোন ফাংশন ব্যবহৃত হয়?",
+    "options": [
+      "A) memclear()",
+      "B) bzero()",
+      "C) meminit()",
+      "D) memset(ptr, value, num_bytes)"
+    ],
+    "answer": 3,
+    "explanation": "`memset(arr, 0, sizeof(arr))` পুরো মেমরি ব্লকটিকে দ্রুত জিরো বা কাঙ্ক্ষিত বাইট ভ্যালু দিয়ে পূর্ণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3375,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৬: পয়েন্টার ও ডায়নামিক মেমরি বরাদ্দ (Pointers & Dynamic Memory Allocation)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "কোনো মেমরিতে ডেটা ওভারল্যাপিং (Overlapping memory regions) থাকলে নিরাপদ কপির জন্য কোনটি ব্যবহার করা উচিত?",
+    "options": [
+      "A) memmove()",
+      "B) strcpy()",
+      "C) strncpy()",
+      "D) memcpy()"
+    ],
+    "answer": 0,
+    "explanation": "সোর্স এবং ডেস্টিনেশন মেমরি যদি পরস্পরের ওপর উপরিপাতিত (Overlapped) হয়, তবে `memmove()` বাফারিং ব্যবহার করে নিরাপদ কপি নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

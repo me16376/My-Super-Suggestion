@@ -1,0 +1,20 @@
+[
+  {
+    "id": 3041,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Reading Comprehension & Analysis",
+    "question": "Read the following passage and answer the questions that follow in complete analytical sentences:\n\n\"Network Function Virtualization (NFV) and Software-Defined Networking (SDN) represent a paradigm shift in modern data center architecture. Traditional enterprise networks rely heavily on proprietary, dedicated hardware appliances such as physical firewalls, load balancers, and edge routers. This hardware-centric model incurs exorbitant capital expenditures, demands complex manual recabling, and creates rigid architectural vendor lock-ins. Conversely, SDN decouples the network control plane—which makes routing and forwarding decisions—from the data plane that forwards physical network packets. By centralizing network intelligence into software controllers, SDN empowers network administrators to dynamically orchestrate traffic flows, automate bandwidth allocation, and provision virtual network slices through programmatic APIs. Complementary to SDN, NFV abstracts essential network functions from specialized hardware and executes them as virtual machines or lightweight microservice containers on commodity x86 servers. Together, these complementary technologies foster hyper-resilient, scalable, and cost-effective digital infrastructures, which are indispensable for managing the immense data flows of modern e-governance.\"\n\n**Questions:**\n(a) What are the principal drawbacks of traditional hardware-centric network infrastructures?\n(b) How does Software-Defined Networking (SDN) achieve architectural agility?\n(c) In what way does NFV complement SDN in an enterprise data center?\n(d) Give synonyms for: 'Exorbitant' and 'Decouples'.",
+    "marks": 8,
+    "answer": "Comprehension Answers:\n\n(a) The primary drawbacks of traditional hardware-centric networks include exorbitant capital expenditures, the requirement of cumbersome manual physical recabling, and rigid dependency on proprietary vendor hardware (vendor lock-in).\n\n(b) SDN achieves architectural agility by decoupling the intelligent control plane from the packet-forwarding data plane. By centralizing network logic into a software controller, administrators can dynamically orchestrate traffic flows, automate bandwidth provisioning, and enforce policies programmatically via APIs without reconfiguring physical devices.\n\n(c) While SDN centralizes the logic and flow control of the network, NFV complements it by replacing proprietary hardware appliances (like physical firewalls and routers) with virtualized software instances running on standardized, commodity x86 server hardware, thereby slashing hardware costs and boosting scalability.\n\n(d) **Synonyms:**\n• **Exorbitant:** Extravagant, excessive, prohibitive, disproportionate.\n• **Decouples:** Separates, disassociates, disconnects, detaches.",
+    "points_to_remember": [
+      "Formulate answers in your own words rather than lifting verbatim sentences from the text.",
+      "Clear distinction between SDN (Control vs Data plane) and NFV (Hardware to Software abstraction)."
+    ],
+    "tags": [
+      "comprehension",
+      "sdn",
+      "nfv",
+      "english_written"
+    ]
+  }
+]

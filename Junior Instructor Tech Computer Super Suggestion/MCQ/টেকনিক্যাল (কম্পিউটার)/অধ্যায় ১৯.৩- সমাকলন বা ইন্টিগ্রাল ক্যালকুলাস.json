@@ -1,0 +1,527 @@
+[
+  {
+    "id": 3046,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "\\int x^n dx এর প্রমিত সমাকলন সূত্র কোনটি (যেখানে n ≠ -1)?",
+    "options": [
+      "A) n * x^(n - 1) + C",
+      "B) x^(n + 1) + C",
+      "C) [x^n / n] + C",
+      "D) [x^(n + 1) / (n + 1)] + C"
+    ],
+    "answer": 3,
+    "explanation": "পাওয়ারের ইন্টিগ্রেশন সূত্রানুযায়ী $\\int x^n dx = \\frac{x^{n+1}}{n+1} + C$ (যদি $n \\neq -1$)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3047,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "যখন n = -1 হয় তখন \\int (1 / x) dx এর সমাকলন মান কোনটি?",
+    "options": [
+      "A) \\ln |x| + C",
+      "B) e^x + C",
+      "C) -1 / x^2 + C",
+      "D) x^0 / 0"
+    ],
+    "answer": 0,
+    "explanation": "যেহেতু $\\frac{d}{dx}(\\ln |x|) = 1/x$, তাই $\\int \\frac{1}{x} dx = \\ln |x| + C$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3048,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "অংশে অংশে সমাকলন বা ইন্টিগ্রেশন বাই পার্টস (Integration by Parts) সূত্র কোনটি?",
+    "options": [
+      "A) \\int u v dx = u v - \\int u dv",
+      "B) \\int u v dx = u \\int v dx - \\int [(du/dx) \\int v dx] dx",
+      "C) \\int u v dx = (\\int u dx) * (\\int v dx)",
+      "D) \\int u v dx = u \\int v dx + \\int v du"
+    ],
+    "answer": 1,
+    "explanation": "Integration by Parts সূত্র: $\\int u v dx = u \\int v dx - \\int \\left( \\frac{du}{dx} \\int v dx \\right) dx$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3049,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "ইন্টিগ্রেশন বাই পার্টসে u (প্রথম ফাংশন) নির্বাচনের অগ্রাধিকার ক্রমের বহুল পরিচিত নিয়ম কোনটি?",
+    "options": [
+      "A) BODMAS",
+      "B) PEMDAS",
+      "C) DETAIL",
+      "D) LIATE (Logarithmic, Inverse trig, Algebraic, Trigonometric, Exponential)"
+    ],
+    "answer": 3,
+    "explanation": "LIATE নিয়ম অনুযায়ী যে ফাংশনটি আগে আসে তাকে $u$ এবং পরেরটিকে $v$ হিসেবে গণ্য করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3050,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "\\int \\ln x dx এর মান কত?",
+    "options": [
+      "A) (\\ln x)^2 / 2 + C",
+      "B) 1 / x + C",
+      "C) x * \\ln x - x + C",
+      "D) x * \\ln x + C"
+    ],
+    "answer": 2,
+    "explanation": "$\\int \\ln x \\cdot 1 dx = \\ln x \\cdot x - \\int \\frac{1}{x} \\cdot x dx = x \\ln x - x + C$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3051,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "\\int [1 / (1 + x^2)] dx এর মান কোনটি?",
+    "options": [
+      "A) \\sin^{-1} x + C",
+      "B) \\tan^{-1} x + C",
+      "C) \\sec^{-1} x + C",
+      "D) \\ln(1 + x^2) + C"
+    ],
+    "answer": 1,
+    "explanation": "$\\tan^{-1} x$-এর ব্যবকলন $\\frac{1}{1+x^2}$ হওয়ায় এর সমাকলন হলো $\\tan^{-1} x + C$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3052,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "\\int [1 / \\sqrt{a^2 - x^2}] dx এর প্রমিত সমাকলন মান কোনটি?",
+    "options": [
+      "A) \\sin^{-1}(x / a) + C",
+      "B) \\ln|x + \\sqrt{a^2 - x^2}| + C",
+      "C) (1 / a) * \\tan^{-1}(x / a) + C",
+      "D) \\cos^{-1}(x / a) + C"
+    ],
+    "answer": 0,
+    "explanation": "আদর্শ সূত্র অনুযায়ী $\\int \\frac{1}{\\sqrt{a^2 - x^2}} dx = \\sin^{-1}\\left(\\frac{x}{a}\\right) + C$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3053,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "\\int [1 / (x^2 + a^2)] dx এর মান কোনটি?",
+    "options": [
+      "A) (1 / 2a) * \\ln|(x - a)/(x + a)| + C",
+      "B) (1 / a) * \\tan^{-1}(x / a) + C",
+      "C) \\tan^{-1}(x / a) + C",
+      "D) \\ln(x^2 + a^2) + C"
+    ],
+    "answer": 1,
+    "explanation": "$\\int \\frac{1}{x^2 + a^2} dx = \\frac{1}{a} \\tan^{-1}\\left(\\frac{x}{a}\\right) + C$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3054,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "যদি কোনো সমাকলনে লবে হরের অন্তরজ উপস্থিত থাকে অর্থাৎ \\int [f'(x) / f(x)] dx, তবে এর মান কত?",
+    "options": [
+      "A) f(x) + C",
+      "B) \\sqrt{f(x)} + C",
+      "C) 1 / [f(x)]^2 + C",
+      "D) \\ln |f(x)| + C"
+    ],
+    "answer": 3,
+    "explanation": "$f(x) = z$ প্রতিস্থাপন করলে $\\int \\frac{dz}{z} = \\ln |z| + C = \\ln |f(x)| + C$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3055,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "\\int \\tan x dx এর সমাকলন কোনটি?",
+    "options": [
+      "A) \\cot x + C",
+      "B) \\sec^2 x + C",
+      "C) \\ln |\\sec x| + C বা -\\ln |\\cos x| + C",
+      "D) \\sin x + C"
+    ],
+    "answer": 2,
+    "explanation": "$\\int \\frac{\\sin x}{\\cos x} dx = -\\int \\frac{-\\sin x}{\\cos x} dx = -\\ln|\\cos x| = \\ln|\\sec x| + C$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3056,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "\\int \\sec x dx এর সমাকলন মান কোনটি?",
+    "options": [
+      "A) \\ln |\\sec x + \\tan x| + C",
+      "B) \\tan x + C",
+      "C) \\sec x * \\tan x + C",
+      "D) \\ln |\\tan x| + C"
+    ],
+    "answer": 0,
+    "explanation": "লব ও হরকে $(\\sec x + \\tan x)$ দিয়ে গুণ করে সমাকলন করলে পাই $\\ln|\\sec x + \\tan x| + C$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3057,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "নির্দিষ্ট সমাকলনের মৌলিক উপপাদ্য (Fundamental Theorem of Calculus) কোনটি?",
+    "options": [
+      "A) \\int_a^b f(x) dx = F(b) * F(a)",
+      "B) \\int_a^b f(x) dx = f(b) - f(a)",
+      "C) \\int_a^b f(x) dx = F(b) - F(a) (যেখানে F'(x) = f(x))",
+      "D) \\int_a^b f(x) dx = F(b) + F(a)"
+    ],
+    "answer": 2,
+    "explanation": "নির্দিষ্ট সমাকলনে অ্যান্টি-ডেরিভেটিভের উচ্চসীমা ও নিম্নসীমার বিয়োগফল নির্ণয় করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3058,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "\\int_a^b f(x) dx এর জ্যামিতিক তাৎপর্য কী?",
+    "options": [
+      "A) বক্ররেখার ভরকেন্দ্র",
+      "B) স্পর্শকের দৈর্ঘ্য",
+      "C) বক্ররেখার ঢাল",
+      "D) y = f(x) বক্ররেখা, X-অক্ষ এবং x = a ও x = b রেখাদ্বয় দ্বারা আবদ্ধ ক্ষেত্রের ক্ষেত্রফল (Area)"
+    ],
+    "answer": 3,
+    "explanation": "নির্দিষ্ট সমাকলন মূলত রিম্যান সামের সীমামান যা বক্ররেখার নিচের নেট ক্ষেত্রফলকে সুনির্দিষ্টভাবে প্রকাশ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3059,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "f(x) যদি একটি বিজোড় ফাংশন (Odd Function, f(-x) = -f(x)) হয়, তবে \\int_{-a}^a f(x) dx এর মান কত?",
+    "options": [
+      "A) ০ (Zero)",
+      "B) 2 * \\int_0^a f(x) dx",
+      "C) 2a",
+      "D) a"
+    ],
+    "answer": 0,
+    "explanation": "প্রতিসম সীমার মাঝে বিজোড় ফাংশনের ধনাত্মক অংশের ক্ষেত্রফল ঋণাত্মক অংশের ক্ষেত্রফলকে হুবহু বাতিল করে শূন্য বানিয়ে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3060,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "f(x) যদি একটি জোড় ফাংশন (Even Function, f(-x) = f(x)) হয়, তবে \\int_{-a}^a f(x) dx সমান কত?",
+    "options": [
+      "A) \\int_0^a f(x) dx",
+      "B) 2 * \\int_0^a f(x) dx",
+      "C) ০",
+      "D) f(a)"
+    ],
+    "answer": 1,
+    "explanation": "জোড় ফাংশন Y-অক্ষের সাপেক্ষে প্রতিসম হওয়ায় প্রতিসম ব্যবধির ইন্টিগ্রাল একপাশের দ্বিগুণ হয় ($2 \\int_0^a f(x) dx$)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3061,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "\\int_0^{π/2} \\sin^2 x dx এর নির্দিষ্ট সমাকলন মান কত?",
+    "options": [
+      "A) π / 4",
+      "B) ১",
+      "C) ১/২",
+      "D) π / 2"
+    ],
+    "answer": 0,
+    "explanation": "$\\sin^2 x = \\frac{1 - \\cos 2x}{2}$; ইন্টিগ্রেশন করলে পাই $\\frac{1}{2} [x - \\frac{\\sin 2x}{2}]_0^{\\pi/2} = \\frac{1}{2} (\\frac{\\pi}{2} - 0) = \\frac{\\pi}{4}$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3062,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "\\int e^x (f(x) + f'(x)) dx এর সমাকলন রূপ কোনটি?",
+    "options": [
+      "A) e^x * f'(x) + C",
+      "B) e^x * f(x) + C",
+      "C) e^x + f(x) + C",
+      "D) e^x / f(x) + C"
+    ],
+    "answer": 1,
+    "explanation": "ক্লাসিক্যাল ইন্টিগ্রাল রুল: $\\int e^x [f(x) + f'(x)] dx = e^x f(x) + C$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3063,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "\\int e^x (\\sin x + \\cos x) dx এর মান কত?",
+    "options": [
+      "A) e^x * (\\sin x - \\cos x) + C",
+      "B) -e^x * \\cos x + C",
+      "C) e^x * \\cos x + C",
+      "D) e^x * \\sin x + C"
+    ],
+    "answer": 3,
+    "explanation": "এখানে $f(x) = \\sin x$ এবং $f'(x) = \\cos x$; সুতরাং উত্তর $e^x f(x) + C = e^x \\sin x + C$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3064,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "\\int_0^1 x * e^x dx এর মান কত?",
+    "options": [
+      "A) e",
+      "B) ০",
+      "C) (1)",
+      "D) e - 1"
+    ],
+    "answer": 2,
+    "explanation": "বাই পার্টস করলে $[x e^x - e^x]_0^1 = (1\\cdot e - e) - (0 - 1) = 0 - (-1) = 1$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3065,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "\\int [1 / (x^2 - a^2)] dx এর মান কোনটি?",
+    "options": [
+      "A) [1 / (2a)] * \\ln|(a + x) / (a - x)| + C",
+      "B) (1 / a) * \\tan^{-1}(x / a) + C",
+      "C) [1 / (2a)] * \\ln|(x - a) / (x + a)| + C",
+      "D) \\ln|x^2 - a^2| + C"
+    ],
+    "answer": 2,
+    "explanation": "আংশিক ভগ্নাংশ করে পাওয়া যায় $\\frac{1}{2a} \\ln|\\frac{x - a}{x + a}| + C$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3066,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "y^2 = 4ax পরাবৃত্ত এবং তার উপকেন্দ্রিক লম্ব (x = a) দ্বারা আবদ্ধ ক্ষেত্রের ক্ষেত্রফল কত?",
+    "options": [
+      "A) (8/3) * a^2 বর্গ একক",
+      "B) 4 * a^2 বর্গ একক",
+      "C) (16/3) * a^2 বর্গ একক",
+      "D) (4/3) * a^2 বর্গ একক"
+    ],
+    "answer": 0,
+    "explanation": "আবদ্ধ ক্ষেত্রফল হলো $2 \\int_0^a 2\\sqrt{a} x^{1/2} dx = 4\\sqrt{a} [\\frac{2}{3} x^{3/2}]_0^a = \\frac{8}{3} a^2$ বর্গ একক।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3067,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "x^2 / a^2 + y^2 / b^2 = 1 উপবৃত্তের সম্পূর্ণ অভ্যন্তরীণ ক্ষেত্রফল কত?",
+    "options": [
+      "A) π * (a^2 + b^2)",
+      "B) π * a * b বর্গ একক",
+      "C) 2π * a * b",
+      "D) (4/3) * π * a * b"
+    ],
+    "answer": 1,
+    "explanation": "উপবৃত্তের ক্ষেত্রফল বৃত্তের $\\pi r^2$-এর সমতুল্য যা $\\pi a b$ (যেখানে $a$ ও $b$ হলো যথাক্রমে বৃহৎ ও ক্ষুদ্র অক্ষের অর্ধদৈর্ঘ্য)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3068,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "\\int_0^a f(x) dx = \\int_0^a f(a - x) dx ধর্মটি প্রয়োগ করে \\int_0^{π/2} [\\sin x / (\\sin x + \\cos x)] dx এর মান কত?",
+    "options": [
+      "A) π / 2",
+      "B) ১",
+      "C) ০",
+      "D) π / 4"
+    ],
+    "answer": 3,
+    "explanation": "$I = \\int_0^{\\pi/2} \\frac{\\sin x}{\\sin x + \\cos x} dx = \\int_0^{\\pi/2} \\frac{\\cos x}{\\cos x + \\sin x} dx$; যোগ করলে $2I = \\int_0^{\\pi/2} 1 dx = \\frac{\\pi}{2} \\implies I = \\frac{\\pi}{4}$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3069,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "\\int \\sec^2 x dx এর সমাকলন কোনটি?",
+    "options": [
+      "A) \\tan x + C",
+      "B) \\sec x + C",
+      "C) \\sec x * \\tan x + C",
+      "D) -\\tan x + C"
+    ],
+    "answer": 0,
+    "explanation": "যেহেতু $\\frac{d}{dx}(\\tan x) = \\sec^2 x$, তাই এর অ্যান্টি-ডেরিভেটিভ হলো $\\tan x + C$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3070,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৩: সমাকলন বা ইন্টিগ্রাল ক্যালকুলাস",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "\\int \\csc^2 x dx এর সমাকলন কোনটি?",
+    "options": [
+      "A) \\tan x + C",
+      "B) -\\csc x + C",
+      "C) -\\cot x + C",
+      "D) \\cot x + C"
+    ],
+    "answer": 2,
+    "explanation": "যেহেতু $\\frac{d}{dx}(-\\cot x) = \\csc^2 x$, তাই এর সমাকলন $-\\cot x + C$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

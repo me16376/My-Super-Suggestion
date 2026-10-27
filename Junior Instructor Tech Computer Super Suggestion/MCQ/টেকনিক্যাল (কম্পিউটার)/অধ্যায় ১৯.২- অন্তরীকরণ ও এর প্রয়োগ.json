@@ -1,0 +1,527 @@
+[
+  {
+    "id": 3021,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "মূল নিয়মে অন্তরক সহগ (Differentiation from First Principles) নির্ণয়ের প্রমিত সংজ্ঞা কোনটি?",
+    "options": [
+      "A) dy/dx = \\lim_{h \\to 0} [f(x + h) - f(x)] / h",
+      "B) dy/dx = [f(x + h) - f(x)] / h",
+      "C) dy/dx = \\lim_{h \\to 0} [f(x + h) + f(x)] / h",
+      "D) dy/dx = \\lim_{h \\to 0} f(x + h)"
+    ],
+    "answer": 0,
+    "explanation": "ফার্স্ট প্রিন্সিপল হলো স্বাধীন চলকের ক্ষুদ্রতম পরিবর্তন $h \\to 0$-এর সাপেক্ষে অধীন চলকের পরিবর্তনের সীমামান।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3022,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "d/dx (x^n) এর অন্তরজ কোনটি?",
+    "options": [
+      "A) (n - 1) * x^n",
+      "B) x^(n + 1) / (n + 1)",
+      "C) n * x^(n - 1)",
+      "D) n * x^n"
+    ],
+    "answer": 2,
+    "explanation": "পাওয়ার রুল অনুযায়ী $\\frac{d}{dx}(x^n) = n x^{n-1}$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3023,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "d/dx (\\ln x) এর মান কত (যেখানে x > 0)?",
+    "options": [
+      "A) x",
+      "B) 1 / x",
+      "C) -1 / x^2",
+      "D) e^x"
+    ],
+    "answer": 1,
+    "explanation": "ন্যাচারাল লগারিদম $\\ln x$-এর অন্তরজ হলো $1/x$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3024,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "দুটি ফাংশন u এবং v এর গুণের অন্তরীকরণ বা প্রোডাক্ট রুল (Product Rule) কোনটি?",
+    "options": [
+      "A) d/dx (uv) = u * (dv/dx) - v * (du/dx)",
+      "B) d/dx (uv) = (du/dx) * (dv/dx)",
+      "C) d/dx (uv) = u + v",
+      "D) d/dx (uv) = u * (dv/dx) + v * (du/dx)"
+    ],
+    "answer": 3,
+    "explanation": "প্রোডাক্ট রুল: প্রথমটি রেখে দ্বিতীয়টির অন্তরীকরণ + দ্বিতীয়টি রেখে প্রথমটির অন্তরীকরণ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3025,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "ভাগফলের অন্তরীকরণ বা কোশেন্ট রুল (Quotient Rule) d/dx (u / v) কোনটি?",
+    "options": [
+      "A) (du/dx) / (dv/dx)",
+      "B) [v * (du/dx) - u * (dv/dx)] / v^2",
+      "C) [v * (du/dx) + u * (dv/dx)] / v^2",
+      "D) [u * (dv/dx) - v * (du/dx)] / v^2"
+    ],
+    "answer": 1,
+    "explanation": "কোশেন্ট রুল অনুযায়ী হর $\\times$ লবের অন্তরজ $-$ লব $\\times$ হরের অন্তরজ, পুরোটা ভাগ হরের বর্গ ($v^2$)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3026,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "d/dx (\\tan x) এর অন্তরজ কোনটি?",
+    "options": [
+      "A) -\\sec^2 x",
+      "B) \\cot x",
+      "C) \\sec^2 x",
+      "D) \\sec x * \\tan x"
+    ],
+    "answer": 2,
+    "explanation": "$\\frac{d}{dx}(\\tan x) = \\sec^2 x$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3027,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "d/dx (\\sin^{-1} x) এর মান কত?",
+    "options": [
+      "A) 1 / (1 + x^2)",
+      "B) -1 / \\sqrt{1 - x^2}",
+      "C) 1 / \\sqrt{x^2 - 1}",
+      "D) 1 / \\sqrt{1 - x^2}"
+    ],
+    "answer": 3,
+    "explanation": "ইনভার্স সাইন ফাংশনের ব্যবকলন সূত্র হলো $\\frac{1}{\\sqrt{1 - x^2}}$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3028,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "d/dx (\\tan^{-1} x) এর মান কোনটি?",
+    "options": [
+      "A) 1 / (1 + x^2)",
+      "B) 1 / \\sqrt{1 + x^2}",
+      "C) \\sec^2 x",
+      "D) -1 / (1 + x^2)"
+    ],
+    "answer": 0,
+    "explanation": "ইনভার্স ট্যান ফাংশনের অন্তরজ হলো $\\frac{1}{1 + x^2}$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3029,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "জ্যামিতিক দৃষ্টিকোণ থেকে কোনো বিন্দুতে dy/dx মূলত কী নির্দেশ করে?",
+    "options": [
+      "A) অভিলম্বের দৈর্ঘ্য",
+      "B) বক্ররেখার মোট দৈর্ঘ্য",
+      "C) উক্ত বিন্দুতে বক্ররেখার স্পর্শকের ঢাল (Slope of Tangent: m = tan θ)",
+      "D) বক্ররেখার নিচে ক্ষেত্রফল"
+    ],
+    "answer": 2,
+    "explanation": "প্রথম অন্তরজ $\\frac{dy}{dx}$ হলো বক্ররেখার নির্দিষ্ট বিন্দুতে অঙ্কিত স্পর্শক X-অক্ষের ধনাত্মক দিকের সাথে যে কোণ উৎপন্ন করে তার ট্যানজেন্ট বা ঢাল।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3030,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "একটি বক্ররেখার স্পর্শক X-অক্ষের সমান্তরাল হলে dy/dx এর মান কত হবে?",
+    "options": [
+      "A) ০ (Zero)",
+      "B) ১",
+      "C) অসীম (∞)",
+      "D) -১"
+    ],
+    "answer": 0,
+    "explanation": "X-অক্ষের সমান্তরাল রেখার ঢাল $\\tan 0^\\circ = 0$; সুতরাং স্পর্শক সমান্তরাল হলে $\\frac{dy}{dx} = 0$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3031,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "স্পর্শকের ঢাল m হলে তার ওপর অঙ্কিত অভিলম্বের (Normal) ঢাল কত?",
+    "options": [
+      "A) m",
+      "B) -1 / m",
+      "C) 1 / m",
+      "D) -m"
+    ],
+    "answer": 1,
+    "explanation": "স্পর্শক ও অভিলম্ব পরস্পর লম্ব হওয়ায় তাদের ঢালের গুণফল -১ ($m_1 m_2 = -1 \\implies m_{normal} = -1/m$)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3032,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "কোনো ফাংশন f(x)-এর সর্বোচ্চ (Maximum) বা সর্বনিম্ন (Minimum) মান থাকার প্রয়োজনীয় শর্ত কোনটি?",
+    "options": [
+      "A) f'(x) = 1",
+      "B) f(x) = 0",
+      "C) f''(x) = 0",
+      "D) f'(x) = dy/dx = 0"
+    ],
+    "answer": 3,
+    "explanation": "চরম বিন্দুতে (Extrema) স্পর্শক অনুভূমিক হয়; তাই প্রথম অন্তরজ শূন্য ($\\frac{df}{dx} = 0$) হতে হবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3033,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "f'(x) = 0 হওয়ার পর f''(x) < 0 (ঋণাত্মক) হলে উক্ত বিন্দুতে ফাংশনটির কী মান বিদ্যমান থাকে?",
+    "options": [
+      "A) কোনো মান নেই",
+      "B) গুরুমান বা সর্বোচ্চ মান (Maximum Value)",
+      "C) ইনফ্লেকশন পয়েন্ট",
+      "D) লঘুমান বা সর্বনিম্ন মান"
+    ],
+    "answer": 1,
+    "explanation": "দ্বিতীয় অন্তরজ ঋণাত্মক ($f''(x) < 0$) হওয়া মানে বক্ররেখাটি নিচের দিকে অবতল (Concave down), ফলে সেখানে গুরুমান (Maximum) পাওয়া যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3034,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "f'(x) = 0 হওয়ার পর f''(x) > 0 (ধনাত্মক) হলে উক্ত বিন্দুতে কী মান পাওয়া যায়?",
+    "options": [
+      "A) গুরুমান",
+      "B) অসীম মান",
+      "C) লঘুমান বা সর্বনিম্ন মান (Minimum Value)",
+      "D) শূন্য মান"
+    ],
+    "answer": 2,
+    "explanation": "দ্বিতীয় অন্তরজ ধনাত্মক ($f''(x) > 0$) মানে বক্ররেখাটি উপরের দিকে উত্তল (Concave up), ফলে সেখানে লঘুমান (Minimum) বিদ্যমান।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3035,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "যে বিন্দুতে বক্ররেখার বক্রতা বা কনক্যাভিটি পরিবর্তিত হয় অর্থাৎ f''(x) = 0 হয় তাকে কী বলে?",
+    "options": [
+      "A) বিন্দু অব ইনফ্লেকশন বা নতি পরিবর্তনের বিন্দু (Point of Inflection)",
+      "B) নোডাল পয়েন্ট",
+      "C) ভারকেন্দ্র",
+      "D) স্থির বিন্দু"
+    ],
+    "answer": 0,
+    "explanation": "Point of Inflection হলো সেই বিন্দু যেখানে গ্রাফ উত্তল থেকে অবতলে বা অবতল থেকে উত্তলে বাঁক বদল করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3036,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "y = \\sin(ax + b) হলে এর n-তম অন্তরজ (n-th derivative) নির্ণয়ের সূত্র কোনটি?",
+    "options": [
+      "A) y_n = a^n * \\sin(ax + b)",
+      "B) y_n = a^n * \\cos(ax + b)",
+      "C) y_n = (-1)^n * a^n * \\sin(ax + b)",
+      "D) y_n = a^n * \\sin(ax + b + nπ/2)"
+    ],
+    "answer": 3,
+    "explanation": "প্রতিবার অন্তরীকরণে একটি $a$ গুণ হয় এবং ফেজ $\\pi/2$ বাড়ে; ফলে $n$-তম অন্তরজ $a^n \\sin(ax + b + \\frac{n\\pi}{2})$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3037,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "দুটি ফাংশনের গুণফলের n-তম অন্তরজ নির্ণয়ের সুবিখ্যাত উপপাদ্য কোনটি?",
+    "options": [
+      "A) টেলরের উপপাদ্য",
+      "B) লিবনিজের উপপাদ্য (Leibnitz's Theorem)",
+      "C) ম্যাকলরিনের উপপাদ্য",
+      "D) রোলসের উপপাদ্য"
+    ],
+    "answer": 1,
+    "explanation": "লিবনিজ থিওরেম দ্বিপদী বিস্তারের মতো দুটি ফাংশনের গুণফলের $n$-তম অন্তরজ বের করে: $D^n(uv) = \\sum_{r=0}^n \\binom{n}{r} D^{n-r}u D^r v$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3038,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "রোলসের উপপাদ্য (Rolle's Theorem) অনুযায়ী যদি f(x) বদ্ধ ব্যবধি [a, b]-তে অবিচ্ছিন্ন, খোলা ব্যবধি (a, b)-তে অন্তরীকরণযোগ্য এবং f(a) = f(b) হয়, তবে—",
+    "options": [
+      "A) কোনো বিন্দু পাওয়া যাবে না",
+      "B) f(c) = 0 হবে",
+      "C) f'(c) = 1 হবে",
+      "D) (a, b) ব্যবধিতে অন্তত একটি বিন্দু c পাওয়া যাবে যেখানে f'(c) = 0"
+    ],
+    "answer": 3,
+    "explanation": "রোলসের উপপাদ্য নিশ্চিত করে যে শুরু ও শেষ উচ্চতা সমান হলে মাঝপথে অন্তত একটি বিন্দুতে স্পর্শক অনুভূমিক ($f'(c) = 0$) হবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3039,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "ল্যাগ্রাঞ্জের গড়মান উপপাদ্য (Lagrange's Mean Value Theorem - LMVT) কোনটি?",
+    "options": [
+      "A) f'(c) = [f(b) - f(a)] / (b - a)",
+      "B) f'(c) = [f(b) + f(a)] / (b + a)",
+      "C) f(c) = [f(a) + f(b)] / 2",
+      "D) f'(c) = 0"
+    ],
+    "answer": 0,
+    "explanation": "LMVT অনুযায়ী দুই প্রান্তের সংযোগকারী জ্যার ঢালের সমান্তরাল অন্তত একটি স্পর্শক $(a, b)$ ব্যবধিতে থাকবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3040,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "সমমাত্রিক ফাংশনে অয়লারের উপপাদ্য (Euler's Theorem on Homogeneous Functions) কোনটি?",
+    "options": [
+      "A) x^2 * (∂u/∂x) = n * u",
+      "B) x * (∂u/∂x) - y * (∂u/∂y) = 0",
+      "C) x * (∂u/∂x) + y * (∂u/∂y) = n * u (যেখানে n হলো ফাংশনের মাত্রা)",
+      "D) (∂u/∂x) + (∂u/∂y) = n"
+    ],
+    "answer": 2,
+    "explanation": "$u(x, y)$ যদি $n$ মাত্রার সমমাত্রিক ফাংশন হয় তবে অয়লারের উপপাদ্য অনুযায়ী $x \\frac{\\partial u}{\\partial x} + y \\frac{\\partial u}{\\partial y} = nu$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3041,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "মোট অন্তরক বা টোটাল ডিফারেনশিয়াল (Total Differential - dz) নির্ণয়ের সূত্র কোনটি যখন z = f(x, y)?",
+    "options": [
+      "A) dz = (∂z/∂x) dy + (∂z/∂y) dx",
+      "B) dz = (∂z/∂x) + (∂z/∂y)",
+      "C) dz = dx dy",
+      "D) dz = (∂z/∂x) dx + (∂z/∂y) dy"
+    ],
+    "answer": 3,
+    "explanation": "দ্বি-চলকের ফাংশনের মোট পরিবর্তন $dz$ হলো আংশিক অন্তরজ ও ক্ষুদ্র পরিবর্তনের গুণফলের যোগফল।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3042,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "y = x^x হলে এর প্রথম অন্তরজ dy/dx কত?",
+    "options": [
+      "A) x^x * ln x",
+      "B) x^x * (1 + ln x)",
+      "C) x * x^(x - 1)",
+      "D) x^x"
+    ],
+    "answer": 1,
+    "explanation": "লগারিদমিক অন্তরীকরণে $\\ln y = x \\ln x$; উভয় পাশে ব্যবকলন করলে $\\frac{1}{y} \\frac{dy}{dx} = \\ln x + 1 \\implies \\frac{dy}{dx} = x^x (1 + \\ln x)$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3043,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "d/dx (\\log_a x) এর মান কত?",
+    "options": [
+      "A) (1 / x) * \\log_a e",
+      "B) 1 / (x * \\log_e a)",
+      "C) x * \\ln a",
+      "D) 1 / x"
+    ],
+    "answer": 0,
+    "explanation": "বেস পরিবর্তন নিয়মানুযায়ী $\\log_a x = \\frac{\\ln x}{\\ln a}$; ব্যবকলন করলে পাই $\\frac{1}{x \\ln a} = \\frac{1}{x} \\log_a e$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3044,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "বৃত্তের ক্ষেত্রফল বৃদ্ধির হার নির্ণয়ে যদি ব্যাসার্ধ r = 5 cm এবং ব্যাসার্ধ বৃদ্ধির হার dr/dt = 2 cm/s হয়, তবে ক্ষেত্রফল বৃদ্ধির হার (dA/dt) কত?",
+    "options": [
+      "A) ১০π বর্গ সেমি/সে",
+      "B) ২৫π বর্গ সেমি/সে",
+      "C) ২০π বর্গ সেমি/সে (20π cm^2/s)",
+      "D) ১০০ বর্গ সেমি/সে"
+    ],
+    "answer": 2,
+    "explanation": "$A = \\pi r^2 \\implies \\frac{dA}{dt} = 2\\pi r \\frac{dr}{dt} = 2\\pi \\times 5 \\times 2 = 20\\pi$ $\\text{cm}^2/\\text{s}$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3045,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.২: অন্তরীকরণ ও এর প্রয়োগ",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "একটি কণার সরণ সমীকরণ s = 2t^3 - 9t^2 + 12t হলে কখন কণাটির বেগ শূন্য হবে?",
+    "options": [
+      "A) t = 3 সেকেন্ডে",
+      "B) t = 0 সেকেন্ডে",
+      "C) t = 1 সেকেন্ড এবং t = 2 সেকেন্ডে",
+      "D) কখনোই শূন্য হবে না"
+    ],
+    "answer": 2,
+    "explanation": "বেগ $v = \\frac{ds}{dt} = 6t^2 - 18t + 12 = 6(t^2 - 3t + 2) = 6(t - 1)(t - 2)$; $v = 0$ হলে $t = 1$ বা $t = 2$ সেকেন্ড।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "id": 3166,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৮: কম্বিনেটরিক্স ও সম্ভাবনা",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "n সংখ্যক ভিন্ন বস্তু থেকে প্রতিবারে r সংখ্যক বস্তু নিয়ে বিন্যাস (Permutation) নির্ণয়ের সূত্র কোনটি?",
+    "options": [
+      "A) P(n, r) = (n - r)!",
+      "B) P(n, r) = n! * r!",
+      "C) P(n, r) = n! / (n - r)!",
+      "D) P(n, r) = n! / [r! * (n - r)!]"
+    ],
+    "answer": 2,
+    "explanation": "বিন্যাসে ক্রম বিবেচনা করা হয়; তাই $P(n, r) = \\frac{n!}{(n - r)!}$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3167,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৮: কম্বিনেটরিক্স ও সম্ভাবনা",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "n সংখ্যক ভিন্ন বস্তু থেকে প্রতিবারে r সংখ্যক বস্তু বাছাই করে সমাবেশ (Combination) গঠনের সূত্র কোনটি?",
+    "options": [
+      "A) C(n, r) = r! / n!",
+      "B) C(n, r) = n! / [r! * (n - r)!]",
+      "C) C(n, r) = n! * r!",
+      "D) C(n, r) = n! / (n - r)!"
+    ],
+    "answer": 1,
+    "explanation": "সমাবেশে দলের ক্রম বিবেচনা করা হয় না; তাই $C(n, r) = \\binom{n}{r} = \\frac{n!}{r!(n - r)!}$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3168,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৮: কম্বিনেটরিক্স ও সম্ভাবনা",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "বিন্যাস P(n, r) এবং সমাবেশ C(n, r)-এর মধ্যকার সঠিক সম্পর্ক কোনটি?",
+    "options": [
+      "A) P(n, r) = r! * C(n, r)",
+      "B) P(n, r) = C(n, r)",
+      "C) P(n, r) = C(n, r) / r!",
+      "D) C(n, r) = r! * P(n, r)"
+    ],
+    "answer": 0,
+    "explanation": "বাছাইকৃত $r$ বস্তুকে নিজেদের মধ্যে $r!$ উপায়ে সাজানো যায় বলে $P(n, r) = r! \\times C(n, r)$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3169,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৮: কম্বিনেটরিক্স ও সম্ভাবনা",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "n সংখ্যক বস্তুর মধ্যে p সংখ্যক প্রথম প্রকার, q সংখ্যক দ্বিতীয় প্রকার ও r সংখ্যক তৃতীয় প্রকার সদৃশ হলে মোট বিন্যাস সংখ্যা কত?",
+    "options": [
+      "A) n! * p! * q!",
+      "B) (n - p - q - r)!",
+      "C) n! / (p! * q! * r!)",
+      "D) n! / (p + q + r)"
+    ],
+    "answer": 2,
+    "explanation": "সদৃশ বা অভিন্ন বস্তু থাকলে তাদের নিজস্ব ফ্যাক্টোরিয়াল দিয়ে ভাগ করতে হয় (যেমন 'BANGLADESH' বা 'ENGINEERING' শব্দের বিন্যাস)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3170,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৮: কম্বিনেটরিক্স ও সম্ভাবনা",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "n সংখ্যক ভিন্ন ব্যক্তিকে একটি গোল টেবিলে কত উপায়ে বসানো (Circular Permutation) যায়?",
+    "options": [
+      "A) n! উপায়ে",
+      "B) (n - 1)! উপায়ে",
+      "C) (n - 1)! / 2 উপায়ে",
+      "D) (n + 1)! উপায়ে"
+    ],
+    "answer": 1,
+    "explanation": "বৃত্তাকার বিন্যাসে শুরুর কোনো নির্দিষ্ট প্রান্ত না থাকায় একজনকে স্থির রেখে বাকিদের বিন্যাস $(n - 1)!$ হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3171,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৮: কম্বিনেটরিক্স ও সম্ভাবনা",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "n টি ভিন্ন রঙের পুতি বা ফুল দিয়ে একটি মালা কত প্রকারে গাঁথা সম্ভব?",
+    "options": [
+      "A) n!",
+      "B) n! / 2",
+      "C) (n - 1)!",
+      "D) (n - 1)! / 2 উপায়ে (যেহেতু উল্টানো যায়)"
+    ],
+    "answer": 3,
+    "explanation": "মালাকে উল্টে দেখলে ঘড়ির কাঁটার দিক ও বিপরীত দিকের মধ্যে কোনো তফাত থাকে না, তাই বিন্যাস সংখ্যা অর্ধেক $\\frac{(n - 1)!}{2}$ হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3172,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৮: কম্বিনেটরিক্স ও সম্ভাবনা",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "প্যাসকেলের অভেদ (Pascal's Identity) কোনটি?",
+    "options": [
+      "A) C(n, r) + C(n, r - 1) = C(n + 1, r)",
+      "B) C(n, r) = C(n - 1, r)",
+      "C) C(n, r) + C(n, r - 1) = C(n, r + 1)",
+      "D) C(n, r) - C(n, r - 1) = C(n + 1, r)"
+    ],
+    "answer": 0,
+    "explanation": "প্যাসকেলের ত্রিভুজের মূল ভিত্তি হলো $\\binom{n}{r} + \\binom{n}{r-1} = \\binom{n+1}{r}$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3173,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৮: কম্বিনেটরিক্স ও সম্ভাবনা",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "দ্বিপদী সহগসমূহের মোট যোগফল C(n, 0) + C(n, 1) + C(n, 2) + ... + C(n, n) কত?",
+    "options": [
+      "A) n^2",
+      "B) 2^(n - 1)",
+      "C) n!",
+      "D) 2^n"
+    ],
+    "answer": 3,
+    "explanation": "$(1 + x)^n$ বিস্তারে $x = 1$ বসালে পাই $(1 + 1)^n = 2^n$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3174,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৮: কম্বিনেটরিক্স ও সম্ভাবনা",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "ফিবোনাচ্চি ধারার (Fibonacci Sequence: 0, 1, 1, 2, 3, 5, 8, 13, ...) রিকারেন্স সমীকরণ কোনটি?",
+    "options": [
+      "A) F_n = 2 * F_{n-1}",
+      "B) F_n = F_{n-1} + F_{n-2} (যেখানে F_0 = 0, F_1 = 1)",
+      "C) F_n = F_{n-1} * F_{n-2}",
+      "D) F_n = F_{n-1} - F_{n-2}"
+    ],
+    "answer": 1,
+    "explanation": "ফিবোনাচ্চি ধারার প্রতিটি পদ পূর্ববর্তী দুটি পদের যোগফলের সমান ($F_n = F_{n-1} + F_{n-2}$)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3175,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৮: কম্বিনেটরিক্স ও সম্ভাবনা",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "n জোড়া বন্ধনীর সঠিক বিন্যাস বা n নোডের বাইনারি ট্রি সংখ্যা গণনায় কোন ধারাটি ব্যবহৃত হয়?",
+    "options": [
+      "A) ক্যাটালান সংখ্যা (Catalan Numbers: C_n = [1 / (n + 1)] * C(2n, n))",
+      "B) হারমোনিক ধারা",
+      "C) লুকাস ধারা",
+      "D) ফিবোনাচ্চি ধারা"
+    ],
+    "answer": 0,
+    "explanation": "কম্পিউটার বিজ্ঞানে পার্সিং ও বাইনারি ট্রি গণনায় Catalan সংখ্যা ($C_n = \\frac{1}{n+1}\\binom{2n}{n}$) অত্যন্ত গুরুত্বপূর্ণ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3176,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৮: কম্বিনেটরিক্স ও সম্ভাবনা",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "একটি নিখুঁত ছক্কা (Die) একবার নিক্ষেপ করলে বিজোড় মৌলিক সংখ্যা (৩ বা ৫) ওঠার সম্ভাবনা কত?",
+    "options": [
+      "A) ১/৬",
+      "B) ২/৩",
+      "C) ২/৬ = ১/৩ (1/3)",
+      "D) ১/২"
+    ],
+    "answer": 2,
+    "explanation": "ছক্কার মোট নমুনা $S = \\{1, 2, 3, 4, 5, 6\\}$ (৬টি); বিজোড় মৌলিক হলো $\\{3, 5\\}$ (২টি); তাই সম্ভাবনা $2/6 = 1/3$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3177,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৮: কম্বিনেটরিক্স ও সম্ভাবনা",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "দুটি ছক্কা একত্রে নিক্ষেপ করলে প্রাপ্ত সংখ্যাদ্বয়ের যোগফল ঠিক ৭ হওয়ার সম্ভাবনা কত?",
+    "options": [
+      "A) ৭/৩৬",
+      "B) ১/১২",
+      "C) ৫/৩৬",
+      "D) ৬/৩৬ = ১/৬ (1/6)"
+    ],
+    "answer": 3,
+    "explanation": "মোট আউটকাম $6 \\times 6 = 36$; যোগফল ৭ হওয়ার অনুকূল জোড়: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) = ৬টি; ফলে সম্ভাবনা $6/36 = 1/6$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3178,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৮: কম্বিনেটরিক্স ও সম্ভাবনা",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "একটি মুদ্রা ৩ বার টস করলে ঠিক ২টি হেড (Head) পাওয়ার সম্ভাবনা কত?",
+    "options": [
+      "A) ৩/৮ (3/8)",
+      "B) ১/২",
+      "C) ১/৮",
+      "D) ১/৪"
+    ],
+    "answer": 0,
+    "explanation": "মোট নমুনা $2^3 = 8$; ঠিক ২টি হেডের অনুকূল ঘটনা: HHT, HTH, THH (৩টি); সম্ভাবনা $3/8$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3179,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৮: কম্বিনেটরিক্স ও সম্ভাবনা",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "দুটি ঘটনা A এবং B পরস্পর স্বাধীন (Independent Events) হওয়ার গাণিতিক শর্ত কোনটি?",
+    "options": [
+      "A) P(A) = P(B)",
+      "B) P(A ∩ B) = P(A) * P(B)",
+      "C) P(A ∪ B) = P(A) + P(B)",
+      "D) P(A ∩ B) = 0"
+    ],
+    "answer": 1,
+    "explanation": "স্বাধীন ঘটনায় একটির ঘটা অন্যটির ঘটাকে প্রভাবিত করে না; ফলে তাদের যৌথ সম্ভাবনা একক সম্ভাবনার গুণফল ($P(A \\cap B) = P(A) P(B)$)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3180,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৮: কম্বিনেটরিক্স ও সম্ভাবনা",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "দুটি ঘটনা পরস্পর বর্জনশীল বা নিচ্ছেদ (Mutually Exclusive) হলে P(A ∩ B) এর মান কত?",
+    "options": [
+      "A) P(A) * P(B)",
+      "B) ০.৫",
+      "C) ০ (Zero)",
+      "D) ১"
+    ],
+    "answer": 2,
+    "explanation": "পরস্পর বর্জনশীল ঘটনা একসাথে ঘটতে পারে না, তাই তাদের ছেদের সম্ভাবনা শূন্য ($P(A \\cap B) = 0$)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3181,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৮: কম্বিনেটরিক্স ও সম্ভাবনা",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "শর্তাধীন সম্ভাবনা (Conditional Probability) P(A|B) এর সূত্র কোনটি?",
+    "options": [
+      "A) P(A|B) = P(A ∩ B) / P(A)",
+      "B) P(A|B) = P(A) / P(B)",
+      "C) P(A|B) = P(A) * P(B)",
+      "D) P(A|B) = P(A ∩ B) / P(B) (যেখানে P(B) > 0)"
+    ],
+    "answer": 3,
+    "explanation": "$B$ ঘটার প্রেক্ষিতে $A$ ঘটার সম্ভাবনা হলো $P(A|B) = \\frac{P(A \\cap B)}{P(B)}$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3182,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৮: কম্বিনেটরিক্স ও সম্ভাবনা",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "একটি ডিসক্রিট র‍্যান্ডম ভ্যারিয়েবল X-এর গাণিতিক প্রত্যাশা বা এক্সপেক্টেড ভ্যালু (Expected Value - E[X]) কীভাবে নির্ণয় করা হয়?",
+    "options": [
+      "A) E[X] = x_i / P(x_i)",
+      "B) E[X] = \\sum (x_i * P(x_i))",
+      "C) E[X] = \\sum P(x_i)",
+      "D) E[X] = \\sum x_i"
+    ],
+    "answer": 1,
+    "explanation": "Expected Value হলো মানসমূহের সম্ভাব্যতাদ্বারা ভারযুক্ত গড় (Weighted Average): $E[X] = \\sum x_i P(x_i)$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3183,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৮: কম্বিনেটরিক্স ও সম্ভাবনা",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "দ্বিপদী বিন্যাস (Binomial Distribution)-এ n বার ট্রায়ালে সাফল্যের সম্ভাবনা p এবং ব্যর্থতার সম্ভাবনা q হলে গড় (Mean) ও ভেদাঙ্ক (Variance) যথাক্রমে কত?",
+    "options": [
+      "A) গড় = n*p এবং ভেদাঙ্ক = n*p*q",
+      "B) গড় = n এবং ভেদাঙ্ক = p",
+      "C) গড় = p এবং ভেদাঙ্ক = p*q",
+      "D) গড় = n*p*q এবং ভেদাঙ্ক = n*p"
+    ],
+    "answer": 0,
+    "explanation": "দ্বিপদী বিন্যাসে গড় $\\mu = np$ এবং ভেদাঙ্ক $\\sigma^2 = npq$ (যেখানে $p + q = 1$)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3184,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৮: কম্বিনেটরিক্স ও সম্ভাবনা",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "কোন সম্ভাব্যতা বিন্যাসে গড় (Mean) এবং ভেদাঙ্ক (Variance) উভয়ের মান পরস্পর সমান (Mean = Variance = λ) হয়?",
+    "options": [
+      "A) দ্বিপদী বিন্যাস",
+      "B) নরমাল বিন্যাস",
+      "C) পয়সন বিন্যাস (Poisson Distribution)",
+      "D) ইউনিফর্ম বিন্যাস"
+    ],
+    "answer": 2,
+    "explanation": "Poisson বিন্যাসের অনন্য বৈশিষ্ট্য হলো এর গড় ও ভেদাঙ্ক উভয়ই হুবহু প্যারামিটার $\\lambda$-এর সমান।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3185,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৮: কম্বিনেটরিক্স ও সম্ভাবনা",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "স্বাভাবিক বা নরমাল বিন্যাসের (Normal / Gaussian Distribution) বেল-কার্ভ (Bell Curve) কার সাপেক্ষে সম্পূর্ণ প্রতিসম হয়?",
+    "options": [
+      "A) গড় বা মিউ (Mean: x = μ)",
+      "B) অসীম",
+      "C) মূলবিন্দু",
+      "D) ভেদাঙ্ক"
+    ],
+    "answer": 0,
+    "explanation": "নরমাল ডিস্ট্রিবিউশন গড় $x = \\mu$-এর সাপেক্ষে ঘণ্টাকৃতির প্রতিসম বক্ররেখা তৈরি করে, যার ক্ষেত্রফল ঠিক ১.০।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

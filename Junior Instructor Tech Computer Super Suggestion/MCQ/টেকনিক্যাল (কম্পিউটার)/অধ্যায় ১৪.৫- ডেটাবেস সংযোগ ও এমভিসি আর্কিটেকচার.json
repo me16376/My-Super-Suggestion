@@ -1,0 +1,632 @@
+[
+  {
+    "id": 2136,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপিতে পিডিও (PDO - PHP Data Objects)-এর মূল সুবিধা কোনটি?",
+    "options": [
+      "A) এটি শুধুমাত্র সি++ কোড রান করার জন্য ব্যবহৃত হয়",
+      "B) এতে কোনো এক্সেপশন হ্যান্ডলিং নেই",
+      "C) এটি ১২টি ভিন্ন ডাটাবেস সিস্টেম সমর্থনকারী ইউনিফাইড ডেটা-অ্যাক্সেস ইন্টারফেস এবং প্রিপেয়ার্ড স্টেটমেন্ট সমর্থন করে",
+      "D) এটি শুধুমাত্র মাইএসকিউএল সমর্থন করে"
+    ],
+    "answer": 2,
+    "explanation": "PDO একটি ডেটাবেস অ্যাবস্ট্রাকশন লেয়ার যা MySQL, PostgreSQL, SQLite, Oracle সহ বিভিন্ন ডেটাবেসের সাথে অভিন্ন কোড ইন্টারফেস এবং শক্তিশালী নিরাপত্তা প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2137,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিডিও ব্যবহার করে মাইএসকিউএল ডেটাবেসের সাথে সংযোগ স্থাপনের সঠিক DSN (Data Source Name) সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) new PDO(\"localhost:mysql:mydb\", \"user\", \"pass\")",
+      "B) new PDO(\"mysql:host=localhost;dbname=mydb;charset=utf8mb4\", \"user\", \"pass\")",
+      "C) new PDO(\"connect:mysql//localhost/mydb\", \"user\", \"pass\")",
+      "D) new PDO(\"db=mysql;server=localhost;name=mydb\")"
+    ],
+    "answer": 1,
+    "explanation": "PDO কনস্ট্রাক্টরে প্রথম প্যারামিটার হিসেবে ড্রাইভারের নাম, হোস্ট, ডাটাবেস নাম ও অক্ষর সেট নিয়ে গঠিত DSN স্ট্রিং পাঠাতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2138,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিডিও-তে ডেটাবেস কানেকশন ব্যর্থ হলে বা এসকিউএল এরর ঘটলে কোন স্পেশাল এক্সেপশনটি থ্রো করা হয়?",
+    "options": [
+      "A) ConnectionException",
+      "B) DatabaseError",
+      "C) PDOException",
+      "D) SQLException"
+    ],
+    "answer": 2,
+    "explanation": "PDO অপারেশনে যেকোনো ব্যর্থতা নির্দেশ করতে `PDOException` ক্লাস তৈরি হয় যা `catch (PDOException $e)` ব্লকে ধরা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2139,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "এসকিউএল ইনজেকশন (SQL Injection) আক্রমণের বিরুদ্ধে ওয়েব অ্যাপ্লিকেশনকে সম্পূর্ণ সুরক্ষিত রাখার সর্বোত্তম কৌশল কোনটি?",
+    "options": [
+      "A) প্রিপেয়ার্ড স্টেটমেন্টস (Prepared Statements) এবং প্যারামিটারাইজড কুয়েরি ব্যবহার করা",
+      "B) ইউআরএল কোয়েরি স্ট্রিং বন্ধ রাখা",
+      "C) শুধুমাত্র জাভাস্ক্রিপ্ট ক্লায়েন্ট-সাইড ভ্যালিডেশন ব্যবহার করা",
+      "D) ইনপুট ফিল্ডে স্পেস নিষিদ্ধ করা"
+    ],
+    "answer": 0,
+    "explanation": "Prepared Statements ব্যবহার করলে এসকিউএল লজিক এবং ইউজার ডেটা সম্পূর্ণ পৃথকভাবে সার্ভারে সংকলিত হয়, ফলে ইউজার ইনপুটের মধ্যে থাকা কোনো ক্ষতিকর কমান্ড এসকিউএল কোড হিসেবে রান করতে পারে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2140,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিডিও-তে নেইমড প্লেসহোল্ডার (Named Placeholders) বিশিষ্ট প্রিপেয়ার্ড স্টেটমেন্টের সঠিক উদাহরণ কোনটি?",
+    "options": [
+      "A) $stmt = $pdo->prepare(\"SELECT * FROM users WHERE email = $email AND status = $status\");",
+      "B) $stmt = $pdo->prepare(\"SELECT * FROM users WHERE email = {email}\");",
+      "C) $stmt = $pdo->prepare(\"SELECT * FROM users WHERE email = ?email\");",
+      "D) $stmt = $pdo->prepare(\"SELECT * FROM users WHERE email = :email AND status = :status\");"
+    ],
+    "answer": 3,
+    "explanation": "PDO-তে কোলন চিহ্ন দিয়ে শুরু হওয়া নামযুক্ত প্যারামিটারকে Named Placeholder বলে (যেমন: `:email`), যা পরবর্তীতে বাইন্ড করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2141,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিডিও প্রিপেয়ার্ড স্টেটমেন্টে প্যারামিটার বাইন্ডিং করার সঠিক মেথড কোনটি?",
+    "options": [
+      "A) $stmt->bindParam(':email', $email, PDO::PARAM_STR);",
+      "B) $stmt->assign(':email', $email);",
+      "C) $stmt->setParam(':email', $email);",
+      "D) $stmt->link(':email', $email);"
+    ],
+    "answer": 0,
+    "explanation": "`bindParam()` বা `bindValue()` মেথডের মাধ্যমে প্যারামিটারাইজড প্লেসহোল্ডারে ডেটা টাইপ ও ভ্যারিয়েবল রেফারেন্স বাইন্ড করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2142,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি এক্সিকিউট করা পিডিও স্টেটমেন্ট থেকে পরবর্তী একক সারি শুধুমাত্র কলামের নামযুক্ত অ্যাসোসিয়েটিভ অ্যারে হিসেবে পেতে কোন ফেচ মোডটি ব্যবহৃত হয়?",
+    "options": [
+      "A) $stmt->fetch(PDO::FETCH_BOTH)",
+      "B) $stmt->fetch(PDO::FETCH_NUM)",
+      "C) $stmt->fetch(PDO::FETCH_OBJ)",
+      "D) $stmt->fetch(PDO::FETCH_ASSOC)"
+    ],
+    "answer": 3,
+    "explanation": "`PDO::FETCH_ASSOC` শুধুমাত্র টেবিলের ফিল্ড/কলাম নামগুলোকে কি (Key) হিসেবে রিটার্ন করে, যা মেমরি-দক্ষ ও পরিষ্কার।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2143,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিডিও-তে একটি কুয়েরির মাধ্যমে ডেটাবেসের সকল সারি একবারে অ্যারে অব অ্যারে হিসেবে নিয়ে আসার মেথড কোনটি?",
+    "options": [
+      "A) $stmt->getAllRows()",
+      "B) $stmt->readAll()",
+      "C) $stmt->fetchAll()",
+      "D) $stmt->fetchEvery()"
+    ],
+    "answer": 2,
+    "explanation": "`fetchAll()` মেথড কুয়েরির সমস্ত রেজাল্ট সেট একবারে একটি দ্বিমাত্রিক অ্যারে আকারে রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2144,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ডাটাবেসে নতুন রেকর্ড INSERT করার পর জেনারেট হওয়া অটো-ইনক্রিমেন্ট প্রাইমারি কী আইডিটি জানার জন্য পিডিও-র মেথড কোনটি?",
+    "options": [
+      "A) $pdo->autoId()",
+      "B) $pdo->lastInsertId()",
+      "C) $pdo->getInsertId()",
+      "D) $stmt->insertedRowId()"
+    ],
+    "answer": 1,
+    "explanation": "`$pdo->lastInsertId()` ডেটাবেসের সর্বশেষ অটো-জেনারেটেড সিকোয়েন্স বা আইডি প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2145,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি UPDATE বা DELETE কুয়েরির দ্বারা ডাটাবেসে মোট কতটি সারি প্রভাবিত বা পরিবর্তিত হয়েছে তা জানতে কোন মেথড ব্যবহৃত হয়?",
+    "options": [
+      "A) $stmt->num_rows()",
+      "B) $stmt->affected()",
+      "C) $stmt->countRows()",
+      "D) $stmt->rowCount()"
+    ],
+    "answer": 3,
+    "explanation": "`$stmt->rowCount()` মেথড সর্বশেষ এসকিউএল স্টেটমেন্টের দ্বারা প্রভাবিত (affected) রো-এর সংখ্যা প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2146,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সিআরইউডি (CRUD) অপারেশনের চারটি অক্ষরের সাথে এসকিউএল (SQL) স্টেটমেন্টের সঠিক যুগল কোনটি?",
+    "options": [
+      "A) Create -> MAKE, Read -> VIEW, Update -> MODIFY, Delete -> REMOVE",
+      "B) Create -> SELECT, Read -> INSERT, Update -> ALTER, Delete -> DROP",
+      "C) Create -> INSERT, Read -> SELECT, Update -> UPDATE, Delete -> DELETE",
+      "D) Create -> POST, Read -> GET, Update -> PUT, Delete -> CLEAR"
+    ],
+    "answer": 2,
+    "explanation": "CRUD হলো ডেটাবেস পারসিস্টেন্সির চারটি মৌলিক ক্রিয়া: Create (INSERT), Read (SELECT), Update (UPDATE), এবং Delete (DELETE)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2147,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ডেটাবেসে একাধিক গুরুত্বপূর্ণ কুয়েরি একত্রে সম্পন্ন করতে এবং কোনো একটি ব্যর্থ হলে সম্পূর্ণ অপারেশন পূর্বাবস্থায় ফিরিয়ে নিতে পিডিও-র কোন ট্রানজ্যাকশন মেথডগুলো ব্যবহৃত হয়?",
+    "options": [
+      "A) lock(), unlock(), এবং restore()",
+      "B) beginTransaction(), commit(), এবং rollBack()",
+      "C) startTransaction(), save(), এবং cancel()",
+      "D) init(), execute(), এবং revert()"
+    ],
+    "answer": 1,
+    "explanation": "ACID বৈশিষ্ট্য নিশ্চিত করতে `beginTransaction()` দিয়ে ট্রানজ্যাকশন শুরু হয়, সব ঠিক থাকলে `commit()` এবং এরর ঘটলে ক্যাচ ব্লকে `rollBack()` করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2148,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "MySQLi এক্সটেনশনে প্রিপেয়ার্ড স্টেটমেন্টে `bind_param(\"ssi\", $name, $email, $age)` এর `\"ssi\"` কী নির্দেশ করে?",
+    "options": [
+      "A) প্যারামিটারগুলোর টাইপ যথাক্রমে String, String, Integer",
+      "B) Select, Select, Insert",
+      "C) Secure, Safe, Integer",
+      "D) System, String, Index"
+    ],
+    "answer": 0,
+    "explanation": "MySQLi-তে টাইপ স্পেসিফায়ার: 's' = string, 'i' = integer, 'd' = double/float, এবং 'b' = blob।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2149,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপিতে পিডিও ডেটাবেস সংযোগটি সঠিকভাবে বন্ধ বা ক্লোজ করার উপায় কোনটি?",
+    "options": [
+      "A) $pdo->close();",
+      "B) $pdo = null;",
+      "C) $pdo->disconnect();",
+      "D) close($pdo);"
+    ],
+    "answer": 1,
+    "explanation": "PDO অবজেক্ট রেফারেন্স নাল (`$pdo = null;`) করে দিলে অন্তর্নিহিত কানেকশনটি বন্ধ হয়ে যায় এবং মেমরি মুক্ত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2150,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "এমভিসি (MVC) আর্কিটেকচারাল প্যাটার্নের মূল লক্ষ্য বা দর্শন কোনটি?",
+    "options": [
+      "A) Separation of Concerns (অ্যাপ্লিকেশনের ডেটা, বিজনেস লজিক ও ইউজার ইন্টারফেসকে আলাদা আলাদা স্তরে পৃথক রাখা)",
+      "B) একই ফাইলে এইচটিএমএল, সিএসএস ও পিএইচপি কোড মিশ্রিত করা",
+      "C) শুধুমাত্র ব্রাউজারে জাভাস্ক্রিপ্ট দিয়ে সার্ভার পরিচালনা করা",
+      "D) ডেটাবেস ব্যবহারের প্রয়োজনীয়তা সম্পূর্ণ দূর করা"
+    ],
+    "answer": 0,
+    "explanation": "MVC প্যাটার্নের মূল লক্ষ্য হলো কোডের দায়িত্ব বিভাজন (Separation of Concerns), যার ফলে কোড সহজে মেইনটেইন, টেস্ট ও বড় পরিসরে ডেভেলপ করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2151,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "এমভিসি (MVC) প্যাটার্নে 'Model' এর সুনির্দিষ্ট দায়িত্ব কোনটি?",
+    "options": [
+      "A) ইউজারের এইচটিটিপি রিকোয়েস্ট সরাসরি ব্রাউজার থেকে গ্রহণ করা",
+      "B) এইচটিএমএল ও সিএসএস দিয়ে ব্রাউজারে ইউজার ইন্টারফেস প্রদর্শন করা",
+      "C) ওয়েব সার্ভারের অপারেটিং সিস্টেম পরিচালনা করা",
+      "D) ডেটাবেস অপারেশন, ডেটা স্ট্রাকচার এবং বিজনেস লজিক পরিচালনা করা"
+    ],
+    "answer": 3,
+    "explanation": "মডেল (Model) ডেটাবেসের সাথে যোগাযোগ করে, ডেটা ভ্যালিডেশন ও ব্যবসায়িক নিয়ম (Business Rules) বাস্তবায়ন করে ডেটা সরবরাহ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2152,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "এমভিসি প্যাটার্নে 'View' এর প্রাথমিক কাজ কী?",
+    "options": [
+      "A) ইউআরএল রাউটিং নিয়ন্ত্রণ করা",
+      "B) ডেটাবেসে সরাসরি এসকিউএল কুয়েরি এক্সিকিউট করা",
+      "C) মডেলের ডেটাকে সুন্দরভাবে এইচটিএমএল/সিএসএস ফরম্যাটে ব্যবহারকারীর কাছে উপস্থাপন ও প্রদর্শন করা",
+      "D) সার্ভারের পোর্ট কনফিগারেশন করা"
+    ],
+    "answer": 2,
+    "explanation": "ভিউ (View) হলো প্রেজেন্টেশন লেয়ার, যা ব্যবহারকারীর ভিজ্যুয়াল ইন্টারফেস তৈরি করে কিন্তু নিজে কোনো ব্যবসায়িক সিদ্ধান্ত বা ডেটাবেস সংযোগ পরিচালনা করে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2153,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "এমভিসি প্যাটার্নে 'Controller' এর ভূমিকা কী?",
+    "options": [
+      "A) ব্যবহারকারীর রিকোয়েস্ট গ্রহণ করা, মডেল থেকে প্রয়োজনীয় ডেটা সংগ্রহ করা এবং তা সঠিক ভিউতে পাঠানো",
+      "B) ডেটাবেস টেবিল তৈরি করা",
+      "C) শুধুমাত্র সিএসএস ফাইল কম্পাইল করা",
+      "D) ব্রাউজারে কুকি সেভ রাখা"
+    ],
+    "answer": 0,
+    "explanation": "কন্ট্রোলার (Controller) মধ্যস্থতাকারী হিসেবে কাজ করে; এটি ইউজারের ইনপুট প্রসেস করে, মডেলকে নির্দেশ দেয় এবং ফলাফল ভিউতে পাঠিয়ে রেসপন্স জেনারেট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2154,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "এমভিসি ওয়েব অ্যাপ্লিকেশনে ব্যবহারকারী যখন ব্রাউজারে কোনো ইউআরএল লিখে অনুরোধ পাঠায়, তখন রিকোয়েস্টটি কার দ্বারা নির্দিষ্ট কন্ট্রোলারে পাঠানো হয়?",
+    "options": [
+      "A) Database View",
+      "B) Router (রাউটার)",
+      "C) CSS Engine",
+      "D) Session Manager"
+    ],
+    "answer": 1,
+    "explanation": "রাউটার (Router) আগত এইচটিটিপি রিকোয়েস্টের ইউআরএল ও মেথড বিশ্লেষণ করে নির্দিষ্ট কন্ট্রোলারের সংশ্লিষ্ট মেথডের সাথে ম্যাপ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2155,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "বর্তমানে বিশ্বব্যাপী এন্টারপ্রাইজ ওয়েব অ্যাপ্লিকেশনে সর্বাধিক ব্যবহৃত ও জনপ্রিয় পিএইচপি এমভিসি ফ্রেমওয়ার্ক কোনটি?",
+    "options": [
+      "A) Ruby on Rails",
+      "B) Django",
+      "C) Laravel (লারাভেল)",
+      "D) Express.js"
+    ],
+    "answer": 2,
+    "explanation": "Laravel হলো আধুনিক পিএইচপির সর্বাধিক জনপ্রিয় ওপেন সোর্স এমভিসি ফ্রেমওয়ার্ক (Django পাইথনের, Express জাভাস্ক্রিপ্টের, Rails রুবির ফ্রেমওয়ার্ক)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2156,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "লারাভেল ফ্রেমওয়ার্কে অবজেক্ট ও ডেটাবেস টেবিলের মধ্যে ম্যাপিং করতে ব্যবহৃত শক্তিশালী ওআরএম (ORM)-এর নাম কী?",
+    "options": [
+      "A) Hibernate",
+      "B) Prisma",
+      "C) Entity Framework",
+      "D) Eloquent ORM"
+    ],
+    "answer": 3,
+    "explanation": "লারাভেলের ডিফল্ট অ্যাক্টিভ রেকর্ড ভিত্তিক অবজেক্ট-রিলেশনাল ম্যাপিং টুলের নাম 'Eloquent ORM'।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2157,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "লারাভেলে এইচটিএমএল ভিউ ফাইল রেন্ডার করতে ব্যবহৃত ডিফল্ট টেমপ্লেট ইঞ্জিনের নাম কী?",
+    "options": [
+      "A) Blade (.blade.php)",
+      "B) Smarty",
+      "C) Jinja",
+      "D) Twig"
+    ],
+    "answer": 0,
+    "explanation": "লারাভেলের অত্যন্ত দ্রুত ও পাওয়ারফুল টেমপ্লেট ইঞ্জিন হলো Blade, যার ভিউ ফাইলগুলো `.blade.php` এক্সটেনশনে সংরক্ষিত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2158,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপি অ্যাপ্লিকেশনের লাইব্রেরি, প্যাকেজ এবং ডিপেন্ডেন্সি পরিচালনা করার অফিশিয়াল প্যাকেজ ম্যানেজার টুল কোনটি?",
+    "options": [
+      "A) npm",
+      "B) Composer (কম্পোজার)",
+      "C) Maven",
+      "D) pip"
+    ],
+    "answer": 1,
+    "explanation": "পিএইচপির ডিপেনডেন্সি ম্যানেজার হলো 'Composer'। (npm নোডের, pip পাইথনের, maven জাভার)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2159,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "কম্পোজারের প্রজেক্ট ডিপেনডেন্সি এবং মেটাডেটা কোন কনফিগারেশন ফাইলে সংরক্ষিত থাকে?",
+    "options": [
+      "A) package.json",
+      "B) config.xml",
+      "C) requirements.txt",
+      "D) composer.json"
+    ],
+    "answer": 3,
+    "explanation": "`composer.json` ফাইলে প্রজেক্টের প্রয়োজনীয় সকল পিএইচপি প্যাকেজ ও তাদের ভার্সন স্পেসিফিকেশন উল্লেখ থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2160,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "কম্পোজার দ্বারা ইনস্টল করা প্যাকেজ ও ক্লাসগুলোকে প্রজেক্টে স্বয়ংক্রিয়ভাবে ইনক্লুড করতে স্ক্রিপ্টের শুরুতে কোন ফাইলটি যুক্ত করতে হয়?",
+    "options": [
+      "A) require 'modules/loader.php';",
+      "B) include 'packages/index.php';",
+      "C) require 'vendor/autoload.php';",
+      "D) import 'composer/core.php';"
+    ],
+    "answer": 2,
+    "explanation": "কম্পোজারের পিএসআর-৪ (PSR-4) অটোলোডার ব্যবহারের জন্য `vendor/autoload.php` ফাইলটি ইনক্লুড করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2161,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "অ্যাপাচি (Apache) ওয়েব সার্ভারে ক্লিন ইউআরএল (Pretty URLs), ডিরেক্টরি সিকিউরিটি ও রিরাইট রুলস নির্ধারণে কোন কনফিগারেশন ফাইল ব্যবহৃত হয়?",
+    "options": [
+      "A) nginx.conf",
+      "B) httpd.ini",
+      "C) .htaccess",
+      "D) web.config"
+    ],
+    "answer": 2,
+    "explanation": "অ্যাপাচি সার্ভারে ডিরেক্টরি-লেভেল কনফিগারেশন ফাইল হলো `.htaccess` (বিশেষ করে `mod_rewrite` মডিউলের জন্য)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2162,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "আধুনিক ওয়েব ফ্রেমওয়ার্কে কোডের মাধ্যমে ডেটাবেসের টেবিল স্কিমা তৈরি, সংশোধন এবং ভার্সন কন্ট্রোল করার মেকানিজমকে কী বলা হয়?",
+    "options": [
+      "A) Database Replication",
+      "B) Database Migration (ডেটাবেস মাইগ্রেশন)",
+      "C) Data Seeding",
+      "D) Database Normalization"
+    ],
+    "answer": 1,
+    "explanation": "মাইগ্রেশন (Migration) হলো ডেটাবেসের ভার্সন কন্ট্রোল সিস্টেমের মতো, যা কোডের মাধ্যমে টিম মেম্বারদের মাঝে ডেটাবেস স্কিমা সিঙ্ক রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2163,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "লারাভেল সহ আধুনিক প্রজেক্টে ডেটাবেস ক্রেডেনশিয়ালস ও সিক্রেট এপিআই কী-এর মতো সংবেদনশীল কনফিগারেশন কোথায় রাখা হয়?",
+    "options": [
+      "A) .env ফাইল (Environment Variables)",
+      "B) style.css ফাইল",
+      "C) README.md ফাইল",
+      "D) index.html ফাইল"
+    ],
+    "answer": 0,
+    "explanation": "পরিবেশ সংশ্লিষ্ট সংবেদনশীল ভেরিয়েবল `.env` ফাইলে রাখা হয় এবং এটি গিট রিপোজিটরিতে শেয়ার করা হয় না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2164,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপি প্রজেক্টে টেস্ট ডেটা দিয়ে ডেটাবেস পূর্ণ করার স্বয়ংক্রিয় প্রসেসকে কী বলা হয়?",
+    "options": [
+      "A) Data Truncation",
+      "B) Data Indexing",
+      "C) Data Caching",
+      "D) Data Seeding (সিডার)"
+    ],
+    "answer": 3,
+    "explanation": "ডেভেলপমেন্ট বা টেস্টিংয়ের প্রয়োজনে ডেটাবেস টেবিলে স্বয়ংক্রিয়ভাবে স্যাম্পল রেকর্ড ইনসার্ট করাকে সিডিং (Seeding) বলা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2165,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৫: ডেটাবেস সংযোগ ও এমভিসি আর্কিটেকচার",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সিআরইউডি অপারেশনে ডেটা মুছে ফেলার সময় বাস্তবে ডাটাবেস রো ডিলিট না করে শুধুমাত্র একটি টাইমস্ট্যাম্প সেট করাকে কী বলা হয়?",
+    "options": [
+      "A) Hard Delete",
+      "B) Cascade Delete",
+      "C) Soft Delete (সফট ডিলিট)",
+      "D) Permanent Delete"
+    ],
+    "answer": 2,
+    "explanation": "সফট ডিলিটে রেকর্ডের `deleted_at` কলামে টাইমস্ট্যাম্প বসে যায়; সাধারণ কুয়েরিতে তা বাদ পড়ে কিন্তু প্রয়োজনে রিকভার করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

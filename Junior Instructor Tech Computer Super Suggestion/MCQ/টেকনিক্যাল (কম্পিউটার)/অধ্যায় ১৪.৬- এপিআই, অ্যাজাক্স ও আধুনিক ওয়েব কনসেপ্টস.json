@@ -1,0 +1,737 @@
+[
+  {
+    "id": 2166,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "অ্যাজাক্স (AJAX) এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Asynchronous JavaScript and XML",
+      "B) Asynchronous Java Application Extension",
+      "C) Automated JSON and XML",
+      "D) Advanced JavaScript and XHTML"
+    ],
+    "answer": 0,
+    "explanation": "AJAX এর পূর্ণরূপ হলো Asynchronous JavaScript and XML।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2167,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ওয়েব ডেভেলপমেন্টে অ্যাজাক্স (AJAX) প্রযুক্তির মূল সুবিধা কোনটি?",
+    "options": [
+      "A) ব্রাউজারের ইন্টারনেট স্পিড দ্বিগুণ করা",
+      "B) সম্পূর্ণ ওয়েব পেজ রিলোড বা রিফ্রেশ না করে ব্যাকগ্রাউন্ডে সার্ভারের সাথে অ্যাসিনক্রোনাসভাবে ডেটা আদান-প্রদান করা",
+      "C) ওয়েবসাইটের ডিজাইনে আধুনিক গ্রাফিক্স যুক্ত করা",
+      "D) সার্ভার ছাড়াই ক্লায়েন্ট সাইডে ডেটাবেস চালানো"
+    ],
+    "answer": 1,
+    "explanation": "অ্যাজাক্সের মাধ্যমে ব্রাউজার রিলোড না করেই ব্যাকগ্রাউন্ডে সার্ভারে রিকোয়েস্ট পাঠাতে ও রেসপন্স এনে পেজের নির্দিষ্ট অংশ ডায়নামিকালি আপডেট করতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2168,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "জাভাস্ক্রিপ্টে ট্র্যাডিশনাল অ্যাজাক্স রিকোয়েস্ট তৈরি ও পরিচালনার মূল ব্রাউজার অবজেক্ট কোনটি?",
+    "options": [
+      "A) FetchObject",
+      "B) WebConnector",
+      "C) HttpRequestManager",
+      "D) XMLHttpRequest"
+    ],
+    "answer": 3,
+    "explanation": "ঐতিহ্যগতভাবে ক্লাসিক জাভাস্ক্রিপ্টে ব্রাউজার ব্যাকগ্রাউন্ড রিকোয়েস্ট পাঠাতে `XMLHttpRequest` (XHR) অবজেক্ট ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2169,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "`XMLHttpRequest` অবজেক্টের `readyState` এর মান ৪ (4) দ্বারা কী বোঝায়?",
+    "options": [
+      "A) LOADING - ডেটা ডাউনলোড হচ্ছে",
+      "B) DONE - অপারেশন সফলভাবে সমাপ্ত এবং সম্পূর্ণ রেসপন্স তৈরি হয়েছে",
+      "C) OPENED - কানেকশন ওপেন হয়েছে",
+      "D) UNSENT - রিকোয়েস্ট এখনো পাঠানো হয়নি"
+    ],
+    "answer": 1,
+    "explanation": "XHR readyState কোডসমূহ: 0 = UNSENT, 1 = OPENED, 2 = HEADERS_RECEIVED, 3 = LOADING, এবং 4 = DONE।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2170,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "আধুনিক ব্রাউজারে `XMLHttpRequest` এর পরিবর্তে অ্যাসিনক্রোনাস এইচটিটিপি রিকোয়েস্ট পাঠানোর জন্য প্রমিজ-ভিত্তিক আধুনিক স্ট্যান্ডার্ড এপিআই কোনটি?",
+    "options": [
+      "A) Curl API",
+      "B) Axios API",
+      "C) Request API",
+      "D) Fetch API (fetch())"
+    ],
+    "answer": 3,
+    "explanation": "আধুনিক জাভাস্ক্রিপ্টে `fetch()` এপিআই বিল্ট-ইন যা প্রমিজ (Promise) ভিত্তিক এবং পরিষ্কার সিনট্যাক্স প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2171,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "জাভাস্ক্রিপ্ট প্রমিজ (Promise)-এর সম্ভাব্য তিনটি অবস্থা (States) কী কী?",
+    "options": [
+      "A) Start, Running, Finished",
+      "B) Waiting, Success, Aborted",
+      "C) Pending, Fulfilled (Resolved), Rejected",
+      "D) Open, In-progress, Closed"
+    ],
+    "answer": 2,
+    "explanation": "একটি প্রমিজ তিনটি অবস্থার যেকোনো একটিতে থাকে: Pending (কাজ চলমান), Fulfilled (সফল সমাপ্তি), অথবা Rejected (ব্যর্থ/এরর)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2172,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি জাভাস্ক্রিপ্ট প্রমিজ সফল হলে ফলাফল গ্রহণ করতে এবং এরর ঘটলে তা হ্যান্ডেল করতে কোন দুটি মেথড চেইনিং ব্যবহৃত হয়?",
+    "options": [
+      "A) .then() এবং .catch()",
+      "B) .success() এবং .error()",
+      "C) .done() এবং .fail()",
+      "D) .resolve() এবং .reject()"
+    ],
+    "answer": 0,
+    "explanation": "প্রমিজ সফল হলে `.then(data => ...)` কল হয় এবং কোনো এরর হলে তা ধরার জন্য চেইনে `.catch(err => ...)` মেথড থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2173,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "জাভাস্ক্রিপ্টে অ্যাসিনক্রোনাস কোডকে প্রমিজ চেইনিংয়ের ঝামেলা এড়িয়ে সাধারণ সিঙ্ক্রোনাস কোডের মতো লিখতে কোন আধুনিক ফিচারটি ব্যবহৃত হয়?",
+    "options": [
+      "A) generator / yield",
+      "B) try / catch শুধুমাত্র",
+      "C) defer / async",
+      "D) async / await সিনট্যাক্স"
+    ],
+    "answer": 3,
+    "explanation": "ES2017-এ প্রবর্তিত `async/await` সিনট্যাক্স প্রমিজ রেজোলিউশনের ওপর নির্ভর করে কোডকে সহজপাঠ্য সিঙ্ক্রোনাস রূপ দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2174,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "জেএসওএন (JSON) এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Java Source Object Naming",
+      "B) JavaScript Object Notation",
+      "C) JavaScript Online Node",
+      "D) Java Standard Output Network"
+    ],
+    "answer": 1,
+    "explanation": "JSON এর পূর্ণরূপ JavaScript Object Notation। এটি টেক্সট ভিত্তিক এবং সকল প্রোগ্রামিং ভাষায় ডেটা বিনিময়ের জন্য ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2175,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "নিচের কোনটি বৈধ JSON ডেটা টাইপ হিসেবে গ্রহণযোগ্য নয়?",
+    "options": [
+      "A) Function (ফাংশন বা মেথড)",
+      "B) Number",
+      "C) Boolean (true/false)",
+      "D) Array"
+    ],
+    "answer": 0,
+    "explanation": "JSON-এ ফাংশন (Function), ডেট অবজেক্ট বা `undefined` রাখা যায় না। কেবল String, Number, Object, Array, Boolean এবং null সমর্থিত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2176,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "জাভাস্ক্রিপ্ট অবজেক্টকে একটি বৈধ JSON ফরম্যাটের টেক্সট স্ট্রিংয়ে রূপান্তর করতে কোন মেথড ব্যবহৃত হয়?",
+    "options": [
+      "A) JSON.parse()",
+      "B) JSON.serialize()",
+      "C) JSON.stringify()",
+      "D) JSON.toText()"
+    ],
+    "answer": 2,
+    "explanation": "`JSON.stringify(object)` জাভাস্ক্রিপ্ট ভ্যালু বা অবজেক্টকে JSON টেক্সট স্ট্রিংয়ে রূপান্তর করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2177,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সার্ভার থেকে প্রাপ্ত একটি JSON টেক্সট স্ট্রিংকে জাভাস্ক্রিপ্ট অবজেক্টে রূপান্তর করতে কোন মেথড ব্যবহৃত হয়?",
+    "options": [
+      "A) JSON.toObject()",
+      "B) JSON.stringify()",
+      "C) JSON.decode()",
+      "D) JSON.parse()"
+    ],
+    "answer": 3,
+    "explanation": "`JSON.parse(text)` JSON টেক্সটকে পার্স করে সংশ্লিষ্ট জাভাস্ক্রিপ্ট অবজেক্ট বা অ্যারেতে রূপান্তর করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2178,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপিতে কোনো অ্যারে বা অবজেক্টকে JSON স্ট্রিং হিসেবে রূপান্তর করে ক্লায়েন্টে পাঠানোর জন্য কোন ফাংশনটি ব্যবহৃত হয়?",
+    "options": [
+      "A) json_decode()",
+      "B) to_json()",
+      "C) json_encode()",
+      "D) serialize_json()"
+    ],
+    "answer": 2,
+    "explanation": "`json_encode($data)` ফাংশন পিএইচপি ডেটা স্ট্রাকচারকে JSON ফরম্যাটেড স্ট্রিংয়ে রূপান্তরিত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2179,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপিতে `json_decode($json_string, true)`-এ দ্বিতীয় প্যারামিটার `true` দিলে আউটপুট কী হিসেবে পাওয়া যায়?",
+    "options": [
+      "A) অ্যাসোসিয়েটিভ অ্যারে (Associative Array)",
+      "B) PHP Standard Object",
+      "C) বুলিয়ান",
+      "D) স্ট্রিং"
+    ],
+    "answer": 0,
+    "explanation": "দ্বিতীয় আর্গুমেন্ট `true` দেওয়া হলে `json_decode` অবজেক্টের বদলে পিএইচপির অ্যাসোসিয়েটিভ অ্যারে রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2180,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "রেস্ট (REST) এপিআই আর্কিটেকচারের পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Remote Endpoint State Transmission",
+      "B) Representational State Transfer",
+      "C) Responsive Entity Standard Transfer",
+      "D) Real-time Enterprise Server Technology"
+    ],
+    "answer": 1,
+    "explanation": "REST এর পূর্ণরূপ Representational State Transfer। ২০০০ সালে রয় ফিল্ডিং (Roy Fielding) এটি উদ্ভাবন করেন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2181,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "রেস্টফুল (RESTful) আর্কিটেকচারের 'Stateless' বৈশিষ্ট্যের অর্থ কী?",
+    "options": [
+      "A) সার্ভার ডাটাবেস সংরক্ষণ করে না",
+      "B) ক্লায়েন্ট কোনো রিকোয়েস্ট পাঠাতে পারে না",
+      "C) সার্ভার ক্লায়েন্টের কোনো পূর্ববর্তী সেশন স্টেট মেমরিতে সংরক্ষণ করে না; প্রতিটি রিকোয়েস্টে প্রসেস করার মতো পূর্ণাঙ্গ তথ্য থাকতে হয়",
+      "D) সার্ভার সবসময় বন্ধ থাকে"
+    ],
+    "answer": 2,
+    "explanation": "Statelessness নিয়মানুযায়ী সার্ভার ক্লায়েন্টের কনটেক্সট মনে রাখে না। প্রতিটি এইচটিটিপি রিকোয়েস্ট সম্পূর্ণ স্বাধীন এবং প্রয়োজনীয় সব অথেনটিকেশন ও প্যারামিটার বহন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2182,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "RESTful API এন্ডপয়েন্ট নামকরণে কোন নীতিটি সর্বোত্তম ইন্ডাস্ট্রিয়াল স্ট্যান্ডার্ড?",
+    "options": [
+      "A) ভার্ব বা ক্রিয়াপদ ব্যবহার করা (যেমন: `/api/getStudents`)",
+      "B) ফাইলের এক্সটেনশন যুক্ত করা (যেমন: `/api/students.php`)",
+      "C) সবসময় ক্যাপিটাল লেটার ব্যবহার করা",
+      "D) রিসোর্স নির্দেশ করতে প্লুরাল নাউন (Plural Noun) ব্যবহার করা (যেমন: `/api/students`)"
+    ],
+    "answer": 3,
+    "explanation": "রেস্টে ইউআরআই রিসোর্স নির্দেশ করে যা নাউন হওয়া উচিত এবং অ্যাকশন নির্ধারিত হয় HTTP মেথড (GET, POST, PUT, DELETE) দ্বারা।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2183,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "REST এপিআই-তে নতুন একটি রিসোর্স (যেমন নতুন ইউজার) সার্ভারে তৈরি করতে কোন এইচটিটিপি মেথড ব্যবহার করা হয়?",
+    "options": [
+      "A) PUT",
+      "B) POST",
+      "C) DELETE",
+      "D) GET"
+    ],
+    "answer": 1,
+    "explanation": "নতুন রিসোর্স তৈরির জন্য `POST` রিকোয়েস্ট ব্যবহৃত হয় এবং সফল হলে সাধারণত `201 Created` স্ট্যাটাস কোড দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2184,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "RESTful এপিআই-তে একটি বিদ্যমান রিসোর্সের সম্পূর্ণ ডেটা প্রতিস্থাপন (Replace/Update) করতে কোন মেথডটি ব্যবহৃত হয়?",
+    "options": [
+      "A) PUT",
+      "B) POST",
+      "C) OPTIONS",
+      "D) GET"
+    ],
+    "answer": 0,
+    "explanation": "`PUT` মেথড পুরো রিসোর্সকে সম্পূর্ণভাবে আপডেট বা রিপ্লেস করে। আংশিক আপডেটের জন্য `PATCH` ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2185,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "কোনো রিসোর্সের কেবল নির্দিষ্ট এক বা দুটি ফিল্ড আংশিক সংশোধন (Partial Update) করতে কোন এইচটিটিপি মেথড সবচেয়ে উপযুক্ত?",
+    "options": [
+      "A) PATCH",
+      "B) HEAD",
+      "C) GET",
+      "D) PUT"
+    ],
+    "answer": 0,
+    "explanation": "`PATCH` মেথড রিসোর্সের আংশিক মডিফিকেশনের জন্য নির্ধারিত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2186,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সার্ভার থেকে কোনো রিসোর্স স্থায়ীভাবে মুছে ফেলার জন্য কোন স্ট্যান্ডার্ড এইচটিটিপি মেথড ব্যবহৃত হয়?",
+    "options": [
+      "A) REMOVE",
+      "B) DELETE",
+      "C) CLEAR",
+      "D) DROP"
+    ],
+    "answer": 1,
+    "explanation": "রিসোর্স অপসারণের জন্য `DELETE` মেথড ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2187,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "এইচটিটিপি স্ট্যাটাস কোড '200 OK' এবং '201 Created'-এর মধ্যে পার্থক্য কী?",
+    "options": [
+      "A) '200 OK' এরর কোড আর '201' সাকসেস",
+      "B) উভয় কোডের অর্থ সম্পূর্ণ অভিন্ন",
+      "C) '200 OK' সাধারণ সফল রিকোয়েস্টের ক্ষেত্রে এবং '201 Created' সফলভাবে নতুন রেকর্ড বা রিসোর্স তৈরির ক্ষেত্রে ফেরত আসে",
+      "D) '201 Created' ফাইল ডাউনলোডে ব্যবহৃত হয়"
+    ],
+    "answer": 2,
+    "explanation": "200 নির্দেশ করে রিকোয়েস্ট সফল হয়েছে; 201 নির্দেশ করে রিকোয়েস্ট সফল হয়েছে এবং সার্ভারে একটি নতুন রিসোর্স তৈরি হয়েছে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2188,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ক্লায়েন্ট কোনো সুরক্ষিত এপিআই-তে সঠিক অথেনটিকেশন ক্রেডেনশিয়ালস বা টোকেন না দিয়ে কল করলে সার্ভার কোন এইচটিটিপি স্ট্যাটাস কোড দেয়?",
+    "options": [
+      "A) 500 Server Error",
+      "B) 403 Forbidden",
+      "C) 404 Not Found",
+      "D) 401 Unauthorized"
+    ],
+    "answer": 3,
+    "explanation": "401 Unauthorized নির্দেশ করে যে ক্লায়েন্টের পরিচয় নিশ্চিত নয় বা ভ্যালিড ক্রেডেনশিয়াল সরবরাহ করা হয়নি।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2189,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ব্যবহারকারী লগইন করা সত্ত্বেও যদি কোনো নির্দিষ্ট রিসোর্সে প্রবেশের অনুমতি (Authorization) না থাকে, তবে কোন স্ট্যাটাস কোডটি প্রদান করা হয়?",
+    "options": [
+      "A) 403 Forbidden",
+      "B) 401 Unauthorized",
+      "C) 400 Bad Request",
+      "D) 405 Method Not Allowed"
+    ],
+    "answer": 0,
+    "explanation": "403 Forbidden মানে ক্লায়েন্টের পরিচয় চিহ্নিত হয়েছে, কিন্তু ওই রিসোর্সে প্রবেশের অধিকার বা পারমিশন নেই।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2190,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "অনুরোধকৃত ওয়েব পেজ বা এপিআই রিসোর্স সার্ভারে খুঁজে পাওয়া না গেলে কোন সুপরিচিত ক্লায়েন্ট এরর কোড ফেরত আসে?",
+    "options": [
+      "A) 500 Internal Server Error",
+      "B) 301 Moved Permanently",
+      "C) 502 Bad Gateway",
+      "D) 404 Not Found"
+    ],
+    "answer": 3,
+    "explanation": "404 Not Found নির্দেশ করে যে ক্লায়েন্টের অনুরোধকৃত এন্ডপয়েন্ট বা ফাইল সার্ভারে বিদ্যমান নেই।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2191,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সার্ভারের ব্যাকএন্ড স্ক্রিপ্টে কোনো আনহ্যান্ডেল্ড বাগ বা ক্র্যাশ ঘটলে ব্রাউজারে কোন স্ট্যাটাস কোড প্রদর্শিত হয়?",
+    "options": [
+      "A) 200 OK",
+      "B) 500 Internal Server Error",
+      "C) 400 Bad Request",
+      "D) 304 Not Modified"
+    ],
+    "answer": 1,
+    "explanation": "500 Internal Server Error হলো জেনেরিক সার্ভার এরর যা ব্যাকএন্ড কোডের ফেইলিউর নির্দেশ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2192,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি REST API সার্ভার থেকে রেসপন্সের ফরম্যাট JSON ঘোষণা করতে হেডারে কী পাঠাতে হয়?",
+    "options": [
+      "A) Accept-Encoding: gzip",
+      "B) Content-Type: text/html",
+      "C) Content-Type: application/json",
+      "D) Response-Type: json/object"
+    ],
+    "answer": 2,
+    "explanation": "`Content-Type: application/json` হেডার ক্লায়েন্টকে জানায় যে প্রাপ্ত ডেটা একটি JSON অবজেক্ট।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2193,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "টোকেন-ভিত্তিক এপিআই অনুরোধে ক্লায়েন্ট কীভাবে হেডারের মাধ্যমে টোকেন পাঠায়?",
+    "options": [
+      "A) Authorization: Bearer <token>",
+      "B) Auth-User: <token>",
+      "C) Token: <token>",
+      "D) Security-Key: <token>"
+    ],
+    "answer": 0,
+    "explanation": "স্ট্যান্ডার্ড এইচটিটিপি অথেনটিকেশনে `Authorization: Bearer <token>` হেডার ফিল্ড ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2194,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "জেডব্লিউটি (JWT - JSON Web Token) এর গঠন কয়টি ভাগে বিভক্ত এবং সেগুলো ডট (.) দ্বারা কীভাবে বিন্যস্ত?",
+    "options": [
+      "A) ৪টি অংশ: User.Data.Hash.Key",
+      "B) ৩টি অংশ: Token.Secret.Hash",
+      "C) ২টি অংশ: Header.Body",
+      "D) ৩টি অংশ: Header.Payload.Signature"
+    ],
+    "answer": 3,
+    "explanation": "JWT টোকেনের তিনটি অংশ ডট দিয়ে যুক্ত থাকে: হেডার (অ্যালগরিদম তথ্য), পে-লোড (ইউজার ক্লেমস/ডেটা) এবং সিগনেচার (সিক্রেট কি দ্বারা তৈরি হ্যাশ)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2195,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "JWT টোকেনের 'Payload' অংশ সম্পর্কে কোন তথ্যটি অতীব গুরুত্বপূর্ণ?",
+    "options": [
+      "A) পে-লোড শুধুমাত্র সার্ভার পড়তে পারে ব্রাউজার নয়",
+      "B) পে-লোড কেবল Base64Url এনকোডেড থাকে কিন্তু এনক্রিপ্টেড নয়; তাই এতে পাসওয়ার্ডের মতো সংবেদনশীল তথ্য রাখা যাবে না",
+      "C) পে-লোড সম্পূর্ণ মিলিটারি গ্রেড এনক্রিপ্টেড থাকে",
+      "D) পে-লোডে কোনো ইউজার আইডি রাখা যায় না"
+    ],
+    "answer": 1,
+    "explanation": "JWT পে-লোড এনকোডেড (Base64), এনক্রিপ্টেড নয়। যে কেউ এটি ডিকোড করে ভেতরের টেক্সট দেখতে পারে, তবে সিগনেচার না থাকায় পরিবর্তন করতে পারে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2196,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সিওআরএস (CORS - Cross-Origin Resource Sharing) সমস্যা কেন ঘটে?",
+    "options": [
+      "A) সিএসএস ফাইল লোড না হলে",
+      "B) ডাটাবেসে পাসওয়ার্ড ভুল দিলে",
+      "C) ব্রাউজারের সেইম-অরিজিন পলিসি (Same-Origin Policy - SOP) সুরক্ষার কারণে যখন ফ্রন্টএন্ড ডোমেইন এবং ব্যাকএন্ড এপিআই ডোমেইন বা পোর্ট ভিন্ন হয়",
+      "D) সার্ভারে ইন্টারনেটের গতি কমে গেলে"
+    ],
+    "answer": 2,
+    "explanation": "নিরাপত্তার স্বার্থে ব্রাউজার এক অরিজিন থেকে অন্য অরিজিনে অ্যাজাক্স রিকোয়েস্ট ব্লক করে যদি না ব্যাকএন্ড সার্ভার নির্দিষ্ট CORS হেডার অনুমোদন দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2197,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ক্রস-অরিজিন এপিআই কল সফল করতে সার্ভারকে রেসপন্স হেডারে কোন হেডারটি পাঠানো আবশ্যক?",
+    "options": [
+      "A) Access-Control-Allow-Origin: *",
+      "B) Allow-Cross-Domain: true",
+      "C) Security-Bypass: accept",
+      "D) Origin-Policy: open"
+    ],
+    "answer": 0,
+    "explanation": "`Access-Control-Allow-Origin: *` (বা নির্দিষ্ট ডোমেইন) হেডার ব্রাউজারকে জানিয়ে দেয় যে এই রিসোর্সটি অন্য অরিজিন থেকেও কল করা যাবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2198,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "জটিল CORS রিকোয়েস্টে ব্রাউজার মূল রিকোয়েস্ট (যেমন PUT বা DELETE) পাঠানোর আগে স্বয়ংক্রিয়ভাবে কোন প্রিফ্লাইট (Preflight) মেথড পাঠিয়ে অনুমতি পরীক্ষা করে?",
+    "options": [
+      "A) HEAD",
+      "B) OPTIONS",
+      "C) CONNECT",
+      "D) TRACE"
+    ],
+    "answer": 1,
+    "explanation": "ব্রাউজার ব্যাকগ্রাউন্ডে স্বয়ংক্রিয়ভাবে `OPTIONS` রিকোয়েস্ট পাঠিয়ে সার্ভারের অনুমোদিত মেথড ও হেডার যাচাই করে নেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2199,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সিঙ্গেল পেজ অ্যাপ্লিকেশন (SPA) যেমন React, Vue, বা Angular-এর ক্ষেত্রে আর্কিটেকচারাল পরিবর্তন কোনটি?",
+    "options": [
+      "A) প্রতিটি লিঙ্কে ক্লিকে সার্ভার থেকে সম্পূর্ণ নতুন এইচটিএমএল পেজ রিলোড হয়",
+      "B) সার্ভার-সাইডে কোনো এপিআই থাকে না",
+      "C) কোনো জাভাস্ক্রিপ্ট ব্যবহার করা হয় না",
+      "D) ব্রাউজার একবারেই একটি মূল এইচটিএমএল শেল লোড করে এবং পরবর্তীতে পেজ রিফ্রেশ ছাড়াই এপিআই থেকে ডেটা এনে DOM ডায়নামিকালি পরিবর্তন করে"
+    ],
+    "answer": 3,
+    "explanation": "SPA তে ব্রাউজার পুরো পেজ রিফ্রেশ না করে জাভাস্ক্রিপ্ট ক্লায়েন্ট-সাইড রাউটিং ও ব্যাকএন্ড REST API কলের মাধ্যমে তাৎক্ষণিক ইন্টারফেস আপডেট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2200,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৬: এপিআই, অ্যাজাক্স ও আধুনিক ওয়েব কনসেপ্টস",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "রিয়েল-টাইম চ্যাট এবং লাইভ ডেটা স্ট্রিমিংয়ের জন্য ক্লায়েন্ট ও সার্ভারের মধ্যে নিরবচ্ছিন্ন ও লো-লেটেন্সির ফুল-ডুপ্লেক্স (Full-Duplex) সংযোগ স্থাপনের আধুনিক প্রোটোকল কোনটি?",
+    "options": [
+      "A) এইচটিটিপি ১.১ (HTTP 1.1)",
+      "B) এফটিপি (FTP)",
+      "C) ওয়েবসকেট প্রোটোকল (WebSocket - ws:// ও wss://)",
+      "D) এসএমটিপি (SMTP)"
+    ],
+    "answer": 2,
+    "explanation": "ওয়েবসকেট (WebSocket) প্রোটোকল একক TCP সংযোগের মাধ্যমে ক্লায়েন্ট ও সার্ভারের মাঝে যুগপৎ দ্বিমুখী (Full-Duplex) তাৎক্ষণিক রিয়েল-টাইম ডেটা প্রবাহ নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 3007,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Précis & Summary Writing",
+    "question": "Read the following passage carefully and write a concise précis (summary) in about one-third of its original length. Suggest a suitable title:\n\n'In the contemporary globalized era, international travel and migration have expanded exponentially, placing unprecedented demands on border management agencies. Traditional manual identity inspection processes relying solely on paper documents are increasingly vulnerable to sophisticated forgery, impersonation, and fraudulent alterations. To counteract these vulnerabilities, modern sovereign nations have embraced automated biometric border control systems. The deployment of electronic Machine-Readable Passports (e-MRPs), integrated with contactless smart chips storing tamper-proof biometric identifiers, ensures non-repudiation and global interoperability under ICAO standards. Furthermore, automated border gates (e-Gates) utilize near-infrared optical cameras and live facial recognition algorithms to verify traveler identities within seconds. While these technological advancements drastically minimize human discretion, alleviate passenger congestion, and reinforce national security, their sustained efficacy hinges on continuous system maintenance, real-time synchronization with international watchlists (such as INTERPOL databases), and unyielding adherence to citizen data privacy regulations.'",
+    "marks": 8,
+    "answer": "Suggested Title: Biometric Automation in Modern Border Security\n\nPrécis:\nRising global travel demands have rendered traditional manual passport verification vulnerable to fraud and impersonation. Consequently, modern border control relies heavily on biometric e-Passports and automated e-Gates using facial recognition and smart chips to ensure secure, rapid, and tamper-proof verification under international standards. However, sustaining this enhanced security and efficiency requires uninterrupted hardware maintenance, real-time database synchronization, and stringent data privacy protection.",
+    "points_to_remember": [
+      "A précis must be written in the author's own words and in the third person.",
+      "Omit redundant examples, rhetorical flourishes, and technical repetitions.",
+      "The length must stay strictly around one-third of the original text (approximately 45-55 words)."
+    ],
+    "tags": [
+      "precis",
+      "summary_writing",
+      "written"
+    ]
+  }
+]

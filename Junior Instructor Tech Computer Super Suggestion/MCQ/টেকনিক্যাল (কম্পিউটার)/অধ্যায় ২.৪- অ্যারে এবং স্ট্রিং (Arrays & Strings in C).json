@@ -1,0 +1,632 @@
+[
+  {
+    "id": 3286,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় অ্যারে (Array) বলতে কী বোঝায়?",
+    "options": [
+      "A) ভিন্ন ভিন্ন ডেটা টাইপের উপাত্তের সমষ্টি",
+      "B) একটি নন-লিনিয়ার ডায়নামিক ডেটা স্ট্রাকচার",
+      "C) একই ডেটা টাইপের উপাত্তের ধারাবাহিক (Contiguous) মেমরি সংরক্ষণ ব্যবস্থা",
+      "D) শুধুমাত্র ক্যারেক্টার সংরক্ষণের মেমরি ব্লক"
+    ],
+    "answer": 2,
+    "explanation": "অ্যারে হলো সমজাতীয় (Homogeneous) ডেটা উপাদানসমূহের একটি সুসংগঠিত সংগ্রহ যা মেমরিতে পরপর ধারাবাহিক (Contiguous) ব্লকে সংরক্ষিত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3287,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় ১০টি উপাদান বিশিষ্ট একটি ইন্টিজার অ্যারে `int arr[10];` এর বৈধ ইনডেক্স রেঞ্জ কোনটি?",
+    "options": [
+      "A) ০ থেকে ৯ (0 to 9)",
+      "B) থেকে ৯",
+      "C) ০ থেকে ১০",
+      "D) থেকে ১০"
+    ],
+    "answer": 0,
+    "explanation": "সি ভাষায় অ্যারে জিরো-ইনডেক্সড (Zero-indexed), অর্থাৎ প্রথম উপাদানের ইনডেক্স ০ এবং n আকারের অ্যারের শেষ উপাদান ইনডেক্স (n-1)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3288,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় আংশিক ইনিশিয়ালাইজেশন `int arr[5] = {1, 2};` করলে বাকি উপাদানগুলোর মান কী হবে?",
+    "options": [
+      "A) বাকি উপাদানগুলো খালি থাকবে",
+      "B) কম্পাইল এরর হবে",
+      "C) গার্বেজ মান থাকবে",
+      "D) বাকি তিনটি উপাদান স্বয়ংক্রিয়ভাবে ০ (Zero) হবে"
+    ],
+    "answer": 3,
+    "explanation": "অ্যারে ইনিশিয়ালাইজেশনের সময় কিছু উপাদানের মান দিলে অবশিষ্ট সকল উপাদান কম্পাইলার স্বয়ংক্রিয়ভাবে ০ দ্বারা পূর্ণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3289,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় কোনো অ্যারের সীমার বাইরে অ্যাক্সেস করলে (Array Index Out of Bounds) কম্পাইলার কী প্রতিক্রিয়া দেখায়?",
+    "options": [
+      "A) ArrayOutOfBoundsException এক্সেপশন থ্রো করে",
+      "B) অ্যারের আকার স্বয়ংক্রিয়ভাবে বাড়িয়ে দেয়",
+      "C) কোনো বাউন্ডস চেকিং করে না এবং অনির্ধারিত আচরণ (Undefined Behavior / Segmentation Fault) ঘটায়",
+      "D) কম্পাইল এরর প্রদর্শন করে"
+    ],
+    "answer": 2,
+    "explanation": "সি ভাষা কার্যক্ষমতা বাড়ানোর জন্য রান-টাইমে অ্যারে বাউন্ডস চেকিং করে না; ফলে সীমার বাইরে মান অ্যাক্সেস করলে ডেটা করাপশন বা মেমরি ফল্ট হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3290,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "একটি অ্যারে `int a[10];` এর মোট উপাদান সংখ্যা বের করার সঠিক সি এক্সপ্রেশন কোনটি?",
+    "options": [
+      "A) count(a)",
+      "B) sizeof(a) / sizeof(a[0])",
+      "C) sizeof(a)",
+      "D) length(a)"
+    ],
+    "answer": 1,
+    "explanation": "অ্যারের মোট বাইট আকারকে (`sizeof(a)`) একটি একক উপাদানের আকার (`sizeof(a[0])`) দিয়ে ভাগ করলে মোট উপাদান সংখ্যা পাওয়া যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3291,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় দ্বি-মাত্রিক অ্যারে (2D Array) মেমরিতে কোন নিয়মে সংরক্ষিত হয়?",
+    "options": [
+      "A) র্যান্ডম অর্ডার",
+      "B) ডায়াগোনাল অর্ডার",
+      "C) কলাম-মেজর অর্ডার (Column-Major Order)",
+      "D) রো-মেজর অর্ডার (Row-Major Order)"
+    ],
+    "answer": 3,
+    "explanation": "সি কম্পাইলার 2D অ্যারেকে Row-Major অর্ডারে মেমরিতে রাখে, অর্থাৎ প্রথম সারির সকল উপাদান পরপর থাকার পর দ্বিতীয় সারির উপাদানগুলো থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3292,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "নিচের কোন দ্বি-মাত্রিক অ্যারে ঘোষণাটি সি ভাষায় সম্পূর্ণ অবৈধ?",
+    "options": [
+      "A) int a[][];",
+      "B) int a[][3] = {{1,2,3}, {4,5,6}};",
+      "C) int a[2][] = {{1,2}, {3,4}};",
+      "D) int a[2][3];"
+    ],
+    "answer": 0,
+    "explanation": "সি ভাষায় বহুমাত্রিক অ্যারেতে কলাম সাইজ (বা ২য় মাত্রা থেকে পরবর্তী মাত্রাগুলো) উল্লেখ করা বাধ্যতামূলক; কলাম সাইজ ছাড়া অ্যারে অবৈধ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3293,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "দুটি $N \\times N$ ম্যাট্রিক্সের গুণন সম্পন্ন করতে প্রচলিত অ্যালগরিদমে কয়টি নেস্টেড লুপ প্রয়োজন?",
+    "options": [
+      "A) ১টি লুপ",
+      "B) ৪টি নেস্টেড লুপ",
+      "C) ২টি নেস্টেড লুপ",
+      "D) ৩টি নেস্টেড লুপ (টাইম কমপ্লেক্সিটি $O(N^3)$)"
+    ],
+    "answer": 3,
+    "explanation": "ম্যাট্রিক্স গুণনে সারি ট্রাভার্সাল, কলাম ট্রাভার্সাল এবং উপাদানসমূহের ডট প্রডাক্টের গুণফল-যোগফলের জন্য মোট ৩টি নেস্টেড লুপ লাগে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3294,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় একটি স্ট্রিং (String) মূলত কী?",
+    "options": [
+      "A) একটি প্রিমিটিভ বিল্ট-ইন ডেটা টাইপ",
+      "B) নাল ক্যারেক্টার ('\\0') দ্বারা সমাপ্ত এক-মাত্রিক ক্যারেক্টার অ্যারে",
+      "C) ইনটিজার ডেটার সমষ্টি",
+      "D) একটি অবজেক্ট ক্লাস"
+    ],
+    "answer": 1,
+    "explanation": "সি ভাষায় স্ট্রিং কোনো বিল্ট-ইন ক্লাস নয়, এটি নাল ক্যারেক্টার `\\0` (ASCII 0) দ্বারা সমাপ্ত একটি ক্যারেক্টার অ্যারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3295,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "`char str[] = \"HELLO\";` ঘোষণা করলে মেমরিতে অ্যারেটির সাইজ কত বাইট হবে?",
+    "options": [
+      "A) ৭ বাইট",
+      "B) বাইট",
+      "C) ৬ বাইট (৫টি অক্ষর + ১টি নাল ক্যারেক্টার '\\0')",
+      "D) ৫ বাইট"
+    ],
+    "answer": 2,
+    "explanation": "ডাবল কোটেশনের ভেতরের ৫টি বর্ণের সাথে কম্পাইলার স্বয়ংক্রিয়ভাবে একটি অতিরিক্ত নাল টার্মিনেটর `\\0` যোগ করে, তাই মোট আকার ৬ বাইট।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3296,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "স্পেস বা হোয়াইটস্পেস সহ সম্পূর্ণ এক লাইন টেক্সট কীবোর্ড থেকে ইনপুট নিতে নিরাপদ ফাংশন কোনটি?",
+    "options": [
+      "A) fgets(str, sizeof(str), stdin)",
+      "B) gets(str)",
+      "C) getchar()",
+      "D) scanf(\"%s\", str)"
+    ],
+    "answer": 0,
+    "explanation": "`fgets()` বাফার সাইজ নির্দিষ্ট করে ইনপুট গ্রহণ করে, ফলে বাফার ওভারফ্লো রোধ হয় এবং স্পেসযুক্ত পুরো লাইন পড়া যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3297,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "`scanf(\"%s\", str);` ব্যবহার করে স্ট্রিং ইনপুট নেওয়ার প্রধান সীমাবদ্ধতা কোনটি?",
+    "options": [
+      "A) এটি নাল ক্যারেক্টার যোগ করে না",
+      "B) প্রথম স্পেস (Space), ট্যাব বা নিউলাইন পেলেই ইনপুট পড়া বন্ধ করে দেয়",
+      "C) সর্বদা কম্পাইল এরর দেয়",
+      "D) ইংরেজি ছাড়া অন্য ভাষা পড়তে পারে না"
+    ],
+    "answer": 1,
+    "explanation": "`%s` হোয়াইটস্পেসকে ডিলিমিটার গণ্য করে, ফলে 'Hello World' লিখলে `scanf` কেবল 'Hello' গ্রহণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3298,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় স্ট্রিং ম্যানিপুলেশনের লাইব্রেরি ফাংশনগুলো কোন হেডার ফাইলে সংজ্ঞায়িত থাকে?",
+    "options": [
+      "A) <stdio.h>",
+      "B) <stdlib.h>",
+      "C) <ctype.h>",
+      "D) <string.h>"
+    ],
+    "answer": 3,
+    "explanation": "`<string.h>` হেডার ফাইলে `strlen`, `strcpy`, `strcat`, `strcmp` ইত্যাদি স্ট্রিং ফাংশন থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3299,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "`strlen(\"Bangladesh\")` ফাংশনটি কত মান রিটার্ন করবে?",
+    "options": [
+      "A) ১১",
+      "B) ১২",
+      "C) ১০",
+      "D) ৯"
+    ],
+    "answer": 2,
+    "explanation": "`strlen()` নাল ক্যারেক্টার ছাড়া মূল অক্ষরের সংখ্যা গণনা করে; 'Bangladesh' শব্দে ১০টি অক্ষর রয়েছে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3300,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "একটি স্ট্রিংকে অন্য স্ট্রিংয়ে কপি করার সঠিক ফাংশন কোনটি?",
+    "options": [
+      "A) strcpy(destination, source)",
+      "B) strcmp(destination, source)",
+      "C) strcat(destination, source)",
+      "D) strcopy(source, destination)"
+    ],
+    "answer": 0,
+    "explanation": "`strcpy(dest, src)` সোর্স স্ট্রিংটিকে ডেস্টিনেশন অ্যারেতে কপি করে এবং শেষে নাল ক্যারেক্টার যুক্ত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3301,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "দুটি স্ট্রিংকে জোড়া লাগানোর (Concatenation) লাইব্রেরি ফাংশন কোনটি?",
+    "options": [
+      "A) append(str1, str2)",
+      "B) strjoin(str1, str2)",
+      "C) stradd(str1, str2)",
+      "D) strcat(str1, str2)"
+    ],
+    "answer": 3,
+    "explanation": "`strcat(dest, src)` ডেস্টিনেশন স্ট্রিংয়ের শেষে সোর্স স্ট্রিংটিকে জুড়ে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3302,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "যদি `strcmp(str1, str2)` এর ফলাফল ০ (Zero) হয়, তবে এর অর্থ কী?",
+    "options": [
+      "A) স্ট্রিং দুটি খালি",
+      "B) উভয় স্ট্রিং হুবহু অভিন্ন ও সমান",
+      "C) দ্বিতীয় স্ট্রিংটি বড়",
+      "D) প্রথম স্ট্রিংটি বড়"
+    ],
+    "answer": 1,
+    "explanation": "`strcmp()` ক্যারেক্টারগুলোর আসকি মান তুলনা করে; দুটি স্ট্রিং পুরোপুরি সমান হলে রিটার্ন করে ০।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3303,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "একটি মূল স্ট্রিংয়ের ভেতর কোনো নির্দিষ্ট সাব-স্ট্রিংয়ের প্রথম উপস্থিতির ঠিকানা খুঁজে দেয় কোন ফাংশনটি?",
+    "options": [
+      "A) strtok()",
+      "B) strrchr()",
+      "C) strstr()",
+      "D) strchr()"
+    ],
+    "answer": 2,
+    "explanation": "`strstr(main_str, sub_str)` সাবস্ট্রিংটি খুঁজে পেলে তার শুরুর পয়েন্টার দেয়, না পেলে NULL রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3304,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "একটি স্ট্রিংয়ের ভেতর নির্দিষ্ট কোনো একক ক্যারেক্টার খোঁজার ফাংশন কোনটি?",
+    "options": [
+      "A) strchr()",
+      "B) strpbrk()",
+      "C) strcmp()",
+      "D) strstr()"
+    ],
+    "answer": 0,
+    "explanation": "`strchr(str, ch)` নির্দিষ্ট ক্যারেক্টারের প্রথম উপস্থিতির পয়েন্টার প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3305,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "একটি দীর্ঘ স্ট্রিংকে নির্দিষ্ট ডিলিমিটারের (যেমন স্পেস বা কমা) ভিত্তিতে খণ্ড খণ্ড টোকেনে বিভক্ত করে কোনটি?",
+    "options": [
+      "A) strsplit()",
+      "B) strtok()",
+      "C) strncpy()",
+      "D) strsep()"
+    ],
+    "answer": 1,
+    "explanation": "`strtok(str, delim)` স্ট্রিংকে নির্দিষ্ট চিহ্ন বা অক্ষরের ওপর ভিত্তি করে টোকেনাইজ করতে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3306,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "`char str[] = \"Hello\"; str[0] = 'M';` এবং `char *ptr = \"Hello\"; ptr[0] = 'M';` এর মধ্যে কোনটি নিরাপদ?",
+    "options": [
+      "A) দ্বিতীয়টি নিরাপদ, প্রথমটি নয়",
+      "B) উভয়টিই নিরাপদ",
+      "C) উভয়টিই কম্পাইল এরর দেবে",
+      "D) প্রথমটি নিরাপদ (Modify করা যাবে), কিন্তু দ্বিতীয়টি ক্র্যাশ করবে (Read-only স্ট্রিং লিটারাল)"
+    ],
+    "answer": 3,
+    "explanation": "অ্যারে ফরম্যাটে স্ট্রিং স্ট্যাক মেমরিতে থাকায় পরিবর্তনযোগ্য; কিন্তু পয়েন্টার দিয়ে ডিরেক্ট স্ট্রিং লিটারাল পয়েন্ট করলে তা কোড/রিড-অনলি মেমরিতে থাকায় পরিবর্তন করলে Segmentation Fault হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3307,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় একাধিক নামের তালিকা সংরক্ষণের জন্য কোনটি ব্যবহৃত হয়?",
+    "options": [
+      "A) ফ্লোট অ্যারে",
+      "B) কমা সেপারেটেড স্ট্রিং",
+      "C) অ্যারে অব স্ট্রিংস বা 2D ক্যারেক্টার অ্যারে `char names[10][50];`",
+      "D) 1D ইনটিজার অ্যারে"
+    ],
+    "answer": 2,
+    "explanation": "একাধিক স্ট্রিং ধারণ করতে 2D ক্যারেক্টার অ্যারে (বা পয়েন্টার অ্যারে `char *names[]`) ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3308,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "নিচের কোডের আউটপুট কী হবে?\n`char s[] = \"ABC\\0DEF\"; printf(\"%s\", s);`",
+    "options": [
+      "A) ABC",
+      "B) ABCDEF",
+      "C) DEF",
+      "D) ABC0DEF"
+    ],
+    "answer": 0,
+    "explanation": "`printf` স্ট্রিং প্রিন্ট করার সময় নাল ক্যারেক্টার `\\0` পাওয়া মাত্র সমাপ্তি বিবেচনা করে থেমে যায়, ফলে কেবল 'ABC' প্রিন্ট হবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3309,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় ক্যারেক্টার অ্যারের প্রথম উপাদানের মেমরি অ্যাড্রেসকে কী বলা হয়?",
+    "options": [
+      "A) এন্ড অ্যাড্রেস",
+      "B) টপ অ্যাড্রেস",
+      "C) বেস অ্যাড্রেস (Base Address)",
+      "D) ইনডেক্স অ্যাড্রেস"
+    ],
+    "answer": 2,
+    "explanation": "অ্যারের প্রথম উপাদানটির (`&arr[0]`) মেমরি ঠিকানাকে বেস অ্যাড্রেস বলা হয়, যা অ্যারের নিজস্ব নাম `arr` নির্দেশ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3310,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "যদি `int a[5] = {10, 20, 30, 40, 50};` হয়, তবে `*a` এবং `*(a + 2)` এর মান কত?",
+    "options": [
+      "A) 10 এবং 20",
+      "B) 10 এবং 30",
+      "C) গার্বেজ মান",
+      "D) 20 এবং 40"
+    ],
+    "answer": 1,
+    "explanation": "`*a` অ্যারের প্রথম উপাদান ১০ নির্দেশ করে এবং `*(a + 2)` ইনডেক্স ২ এর উপাদান ৩০ নির্দেশ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3311,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "একটি ম্যাট্রিক্সের সারি ও কলাম অদলবদল করাকে কী বলা হয়?",
+    "options": [
+      "A) ট্রান্সপোজ ম্যাট্রিক্স (Transpose Matrix)",
+      "B) এডজয়েন্ট ম্যাট্রিক্স",
+      "C) সিঙ্গুলার ম্যাট্রিক্স",
+      "D) ইনভার্স ম্যাট্রিক্স"
+    ],
+    "answer": 0,
+    "explanation": "ম্যাট্রিক্সের সারির উপাদানগুলোকে কলামে এবং কলামের উপাদানগুলোকে সারিতে রূপান্তর করাকে ট্রান্সপোজ বলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3312,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি স্ট্যান্ডার্ডে `<ctype.h>` হেডার ফাইলের `toupper('a')` ফাংশন কী রিটার্ন করে?",
+    "options": [
+      "A) আসকি মান ৯৭",
+      "B) ছোট হাতের 'a'",
+      "C) শূন্য",
+      "D) বড় হাতের 'A'"
+    ],
+    "answer": 3,
+    "explanation": "`toupper()` ফাংশন ছোট হাতের ইংরেজি বর্ণকে সংশ্লিষ্ট বড় হাতের বর্ণে রূপান্তর করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3313,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "`<ctype.h>` হেডার ফাইলের `isdigit('5')` ফাংশন কী ফলাফল প্রদান করে?",
+    "options": [
+      "A) ৫",
+      "B) একটি অশূন্য মান (True) কারণ এটি সংখ্যা",
+      "C) শূন্য (False)",
+      "D) কম্পাইল এরর"
+    ],
+    "answer": 1,
+    "explanation": "`isdigit()` আর্গুমেন্টটি ০ থেকে ৯ এর মধ্যবর্তী ক্যারেক্টার ডিজিট হলে অশূন্য (সত্য) রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3314,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় ভেরিয়েবল লেন্থ অ্যারে (VLA - Variable Length Array) প্রথম কোন স্ট্যান্ডার্ডে সমর্থিত হয়?",
+    "options": [
+      "A) C99 স্ট্যান্ডার্ড",
+      "B) C89",
+      "C) C++98",
+      "D) K&R C"
+    ],
+    "answer": 0,
+    "explanation": "C99 স্ট্যান্ডার্ডে রান-টাইমে ভেরিয়েবল দ্বারা নির্ধারিত সাইজের অ্যারে (যেমন `int arr[n];`) বৈধতা পায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3315,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৪: অ্যারে এবং স্ট্রিং (Arrays & Strings in C)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "কোনো অ্যারের উপাদানসমূহ রিভার্স (Reverse) বা উল্টো করতে টাইম কমপ্লেক্সিটি কত?",
+    "options": [
+      "A) O(log N)",
+      "B) O(1)",
+      "C) O(N)",
+      "D) O(N^2)"
+    ],
+    "answer": 2,
+    "explanation": "টু-পয়েন্টার টেকনিকে অ্যারের শুরু ও শেষের উপাদান সোয়াপ করে N/2 অপারেশনে উল্টানো যায়, যার জটিলতা O(N)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

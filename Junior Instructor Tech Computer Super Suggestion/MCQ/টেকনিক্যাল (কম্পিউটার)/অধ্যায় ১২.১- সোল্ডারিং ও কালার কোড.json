@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1601,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১২.১: সোল্ডারিং ও কালার কোড",
+    "subtopic": "বিষয়- ১২. ইলেকট্রনিক্স ও ডিজিটাল ইলেকট্রনিক্স (Basic Electronics & Digital Electronics - I, II)",
+    "question": "ইলেকট্রনিক্স সার্কিটে বহুল ব্যবহৃত আদর্শ নরম সোল্ডার তারে (Soft Solder Wire) টিন (Sn) এবং লেড (Pb)-এর আদর্শ অনুপাত কত?",
+    "options": [
+      "A) ৩০% টিন এবং ৭০% লেড",
+      "B) ৮০% টিন এবং ২০% লেড",
+      "C) ৬০% টিন এবং ৪০% লেড (বা ৬৩:৩৭ ইউটেকটিক)",
+      "D) ৫০% টিন এবং ৫০% লেড"
+    ],
+    "answer": 2,
+    "explanation": "ইলেকট্রনিক্সে সাধারণত ৬০:৪০ বা ৬৩:৩৭ (ইউটেকটিক) অনুপাতের সোল্ডার তার ব্যবহৃত হয়, যার গলনাঙ্ক ১৮৩°C এবং এটি দ্রুত ও নিখুঁত ইলেকট্রিক্যাল জয়েন্ট তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1602,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১২.১: সোল্ডারিং ও কালার কোড",
+    "subtopic": "বিষয়- ১২. ইলেকট্রনিক্স ও ডিজিটাল ইলেকট্রনিক্স (Basic Electronics & Digital Electronics - I, II)",
+    "question": "সোল্ডারিং করার সময় ধাতব পৃষ্ঠ থেকে অক্সাইড স্তর অপসারণ এবং সোল্ডারের মসৃণ প্রবাহ নিশ্চিত করতে কোন রাসায়নিক উপাদান ব্যবহার করা হয়?",
+    "options": [
+      "A) ফ্লাক্স বা রোজিন (Flux / Rosin)",
+      "B) সালফিউরিক এসিড",
+      "C) পানি",
+      "D) অ্যালকোহল"
+    ],
+    "answer": 0,
+    "explanation": "Flux উত্তপ্ত ধাতব পৃষ্ঠকে জারণ (Oxidation) থেকে রক্ষা করে এবং গলিত সোল্ডারকে সমানভাবে ছড়িয়ে যেতে সাহায্য করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1603,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১২.১: সোল্ডারিং ও কালার কোড",
+    "subtopic": "বিষয়- ১২. ইলেকট্রনিক্স ও ডিজিটাল ইলেকট্রনিক্স (Basic Electronics & Digital Electronics - I, II)",
+    "question": "সোল্ডারিং আয়রনের বিটের মাথায় সোল্ডার তারের একটি পাতলা মসৃণ প্রলেপ দেওয়ার প্রক্রিয়াকে কী বলা হয়?",
+    "options": [
+      "A) ড্রিলিং",
+      "B) টিনিং (Tinning)",
+      "C) ক্লিনিং",
+      "D) এচিং"
+    ],
+    "answer": 1,
+    "explanation": "Tinning হলো সোল্ডারিং আয়রনের টিপ বা কম্পোনেন্টের লিডে তাপ পরিবহন সহজ করতে হালকা সোল্ডারের প্রলেপ দেওয়া।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1604,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১২.১: সোল্ডারিং ও কালার কোড",
+    "subtopic": "বিষয়- ১২. ইলেকট্রনিক্স ও ডিজিটাল ইলেকট্রনিক্স (Basic Electronics & Digital Electronics - I, II)",
+    "question": "অপর্যাপ্ত তাপে সোল্ডার গলিয়ে তৈরি করা রুক্ষ, নিস্তেজ ও ত্রুটিপূর্ণ ভঙ্গুর সোল্ডার জয়েন্টকে কী বলা হয়?",
+    "options": [
+      "A) ওয়েট জয়েন্ট",
+      "B) আইডিয়াল জয়েন্ট",
+      "C) শাইন জয়েন্ট",
+      "D) কোল্ড সোল্ডার জয়েন্ট (Cold Solder Joint)"
+    ],
+    "answer": 3,
+    "explanation": "Cold Solder Joint অপূর্ণাঙ্গ সংযোগ তৈরি করে যা উচ্চ রোধ তৈরি করে এবং যে কোনো সময় সার্কিটে বিরতিহীন সংযোগহীনতা ঘটাতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1605,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১২.১: সোল্ডারিং ও কালার কোড",
+    "subtopic": "বিষয়- ১২. ইলেকট্রনিক্স ও ডিজিটাল ইলেকট্রনিক্স (Basic Electronics & Digital Electronics - I, II)",
+    "question": "নিচের কোনটি একটি সক্রিয় বা অ্যাক্টিভ (Active) ইলেকট্রনিক কম্পোনেন্টের উদাহরণ?",
+    "options": [
+      "A) ক্যাপাসিটর (Capacitor)",
+      "B) রেজিস্টর (Resistor)",
+      "C) ট্রানজিস্টর (Transistor)",
+      "D) ইনডাক্টর (Inductor)"
+    ],
+    "answer": 2,
+    "explanation": "সক্রিয় উপাদান বৈদ্যুতিক সংকেতকে বিবর্ধিত (Amplify) বা নিয়ন্ত্রণ করতে পারে এবং এর পরিচালনার জন্য বাহ্যিক শক্তির উৎস প্রয়োজন (যেমন ডায়োড, ট্রানজিস্টর, অপ-অ্যাম্প)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1606,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১২.১: সোল্ডারিং ও কালার কোড",
+    "subtopic": "বিষয়- ১২. ইলেকট্রনিক্স ও ডিজিটাল ইলেকট্রনিক্স (Basic Electronics & Digital Electronics - I, II)",
+    "question": "রেজিস্টর কালার কোডের মুখস্থ রাখার বিখ্যাত নেমোনিক 'BBROYGBVGW'-তে 'B' এবং 'R' বর্ণগুলো কোন কোন রঙ নির্দেশ করে?",
+    "options": [
+      "A) Black (০), Brown (১), Red (২)",
+      "B) Black, Blue, Rose",
+      "C) Brown, Black, Red",
+      "D) Blue, Brown, Red"
+    ],
+    "answer": 0,
+    "explanation": "কালার কোড ক্রমানুসারে: Black (0), Brown (1), Red (2), Orange (3), Yellow (4), Green (5), Blue (6), Violet (7), Grey (8), White (9)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1607,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১২.১: সোল্ডারিং ও কালার কোড",
+    "subtopic": "বিষয়- ১২. ইলেকট্রনিক্স ও ডিজিটাল ইলেকট্রনিক্স (Basic Electronics & Digital Electronics - I, II)",
+    "question": "একটি ৪-ব্যান্ড রেজিস্টরের ব্যান্ডগুলোর রঙ যথাক্রমে হলুদ (Yellow), বেগুনি (Violet), কমলা (Orange) এবং সোনালী (Gold) হলে এর মান কত?",
+    "options": [
+      "A) ৭ kΩ ± ৫%",
+      "B) ৪৭ kΩ ± ৫%",
+      "C) ৪৭০ Ω ± ১০%",
+      "D) ৫৭ kΩ ± ৫%"
+    ],
+    "answer": 1,
+    "explanation": "Yellow = ৪, Violet = ৭, Orange = $10^3$ (মাল্টিপ্লায়ার), Gold = ±৫% সহনশীলতা। অতএব মান = $৪৭ \times ১০^৩$ Ω = ৪৭ kΩ ± ৫%।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1608,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১২.১: সোল্ডারিং ও কালার কোড",
+    "subtopic": "বিষয়- ১২. ইলেকট্রনিক্স ও ডিজিটাল ইলেকট্রনিক্স (Basic Electronics & Digital Electronics - I, II)",
+    "question": "রেজিস্টরের টলারেন্স ব্যান্ডে সিলভার (Silver) রঙ থাকলে এর সহনশীলতার শতকরা মান কত?",
+    "options": [
+      "A) ± ৫%",
+      "B) ± ২০%",
+      "C) ± ১%",
+      "D) ± ১০%"
+    ],
+    "answer": 3,
+    "explanation": "Gold = ±৫%, Silver = ±১০%, এবং কোনো টলারেন্স ব্যান্ড না থাকলে তা ±২০% নির্দেশ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1609,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১২.১: সোল্ডারিং ও কালার কোড",
+    "subtopic": "বিষয়- ১২. ইলেকট্রনিক্স ও ডিজিটাল ইলেকট্রনিক্স (Basic Electronics & Digital Electronics - I, II)",
+    "question": "একটি সিরামিক ডিস্ক ক্যাপাসিটরের গায়ে '104' কোড লেখা থাকলে এর ক্যাপাসিট্যান্সের মান কত?",
+    "options": [
+      "A) ১০ µF",
+      "B) ১০৪ pF",
+      "C) ০৪ nF",
+      "D) ০.১ µF (বা 100,000 pF)"
+    ],
+    "answer": 3,
+    "explanation": "প্রথম দুটি ডিজিট '10', তৃতীয় ডিজিট '4' হলো শূন্যের সংখ্যা। অতএব $10 \times 10^4$ pF = 100,000 pF = 100 nF = 0.1 µF।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1610,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১২.১: সোল্ডারিং ও কালার কোড",
+    "subtopic": "বিষয়- ১২. ইলেকট্রনিক্স ও ডিজিটাল ইলেকট্রনিক্স (Basic Electronics & Digital Electronics - I, II)",
+    "question": "ক্যাপাসিট্যান্স এবং ইন্ডাকট্যান্স পরিমাপের এসআই (SI) আন্তর্জাতিক একক দুটি কী কী?",
+    "options": [
+      "A) ফ্যারাড (Farad) এবং হেনরি (Henry)",
+      "B) জুল এবং ওয়াট",
+      "C) ওহম এবং ভোল্ট",
+      "D) কুলম্ব এবং অ্যাম্পিয়ার"
+    ],
+    "answer": 0,
+    "explanation": "ক্যাপাসিট্যান্সের একক ফ্যারাড (F) এবং ইন্ডাকট্যান্সের একক হেনরি (H)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

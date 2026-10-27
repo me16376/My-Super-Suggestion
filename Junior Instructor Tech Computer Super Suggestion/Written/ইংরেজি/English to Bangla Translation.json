@@ -1,0 +1,38 @@
+[
+  {
+    "id": 3035,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English to Bangla Translation",
+    "question": "Translate the following passage into expressive and lucid Bengali:\n\"Zero Trust is not merely a piece of cybersecurity software, but an overarching strategic philosophy that eliminates implicit trust from enterprise networks. Traditional security architectures operated on the flawed assumption that everything inside an organization's local area network could be trusted. In contrast, Zero Trust mandates continuous cryptographic authentication, dynamic privilege authorization, and comprehensive session inspection, thereby preventing lateral threat proliferation even when a perimeter workstation is compromised.\"",
+    "marks": 8,
+    "answer": "বাংলায় প্রাঞ্জল ভাবানুবাদ:\n\n\"জিরো ট্রাস্ট নিছক কোনো সাইবার নিরাপত্তা সফটওয়্যার নয়, বরং এটি একটি সর্বাত্মক ও সমন্বিত কৌশলগত দর্শন যা করপোরেট নেটওয়ার্ক থেকে অন্ধ ও অন্তর্নিহিত বিশ্বাসের ধারণাকে সম্পূর্ণ নির্মূল করে। সনাতন নিরাপত্তা ব্যবস্থাগুলো এই ত্রুটিপূর্ণ ধারণার ওপর প্রতিষ্ঠিত ছিল যে সংস্থার নিজস্ব লোকাল এরিয়া নেটওয়ার্কের (ল্যান) ভেতরের সবকিছুই বিশ্বস্ত ও নিরাপদ। এর বিপরীতে, জিরো ট্রাস্ট প্রতিটি ধাপে সার্বক্ষণিক ক্রিপ্টোগ্রাফিক যাচাইকরণ, গতিশীল সুবিধা অনুমোদন এবং প্রতিটি সেশনের পুঙ্খানুপুঙ্খ পর্যবেক্ষণকে বাধ্যতামূলক করে; যার ফলে নেটওয়ার্কের কোনো সীমানার কম্পিউটার হ্যাকড হলেও আক্রমণকারীর পক্ষে ভেতরের অন্যান্য সার্ভারে ছড়িয়ে পড়া (ল্যাটারাল বিস্তার) সম্পূর্ণরূপে প্রতিহত করা সম্ভব হয়।\"",
+    "points_to_remember": [
+      "'Overarching strategic philosophy' -> সর্বাত্মক ও সমন্বিত কৌশলগত দর্শন।",
+      "'Implicit trust' -> অন্ধ বা অন্তর্নিহিত বিশ্বাস।",
+      "'Lateral threat proliferation' -> ল্যাটারাল বিস্তার বা পার্শ্ববর্তী সার্ভারে ছড়িয়ে পড়া।"
+    ],
+    "tags": [
+      "translation",
+      "english_to_bangla",
+      "zero_trust"
+    ]
+  },
+  {
+    "id": 3058,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English to Bangla Translation",
+    "question": "Translate the following analytical text into natural, expressive Bengali:\n\"Sustainable green computing has transitioned from an environmental luxury to an urgent economic necessity for enterprise data centers. Modern cloud facilities consume staggering amounts of electrical power, primarily driven by compute clusters and continuous refrigeration chillers. By adopting hot-aisle containment, high-efficiency liquid immersion cooling, and transitioning to on-site solar photovoltaic energy, public institutions can drastically reduce their Power Usage Effectiveness (PUE) metrics while safeguarding sovereign digital records against escalating utility costs.\"",
+    "marks": 8,
+    "answer": "বাংলায় প্রাঞ্জল ভাবানুবাদ:\n\n\"পরিবেশবান্ধব টেকসই গ্রিন কম্পিউটিং আজ নিছক কোনো বিলাসী পরিবেশবাদী ধারণা নয়, বরং করপোরেট ডেটাসেন্টারগুলোর জন্য এক অত্যন্ত জরুরি অর্থনৈতিক প্রয়োজনীয়তায় রূপ নিয়েছে। আধুনিক ক্লাউড অবকাঠামোগুলো বিপুল পরিমাণ বিদ্যুৎ শক্তি গ্রাস করে, যার প্রধান কারণ হাই-পারফরম্যান্স সার্ভার ক্লাস্টার চালানো এবং নিরবচ্ছিন্ন চিলার দিয়ে সেগুলো ঠান্ডা রাখা। সার্ভার রুমে হট-আইল কনটেইনমেন্ট পদ্ধতি চালু, অত্যন্ত দক্ষ তরল নিমজ্জন কুলিং (Liquid Immersion Cooling) গ্রহণ এবং অন-সাইট সৌর প্যানেল ব্যবহারের মাধ্যমে সরকারি প্রতিষ্ঠানগুলো তাদের পাওয়ার ইউসেজ ইফেক্টিভনেস (PUE) সূচক উল্লেখযোগ্যভাবে কমিয়ে আনতে পারে; যার ফলে বিদ্যুৎ খরচের ক্রমাগত বৃদ্ধির ধাক্কা সামলে জাতীয় ডিজিটাল তথ্যভাণ্ডারকে নিরাপদে রাখা সম্ভব হবে।\"",
+    "points_to_remember": [
+      "'Hot-aisle containment' -> উষ্ণ-বাতাস নির্গমন রোধ পদ্ধতি।",
+      "'Liquid immersion cooling' -> তরল নিমজ্জন কুলিং প্রযুক্তি।",
+      "'PUE (Power Usage Effectiveness)' -> ডেটাসেন্টারের বিদ্যুৎ ব্যবহারের দক্ষতা পরিমাপক।"
+    ],
+    "tags": [
+      "translation",
+      "english_to_bangla",
+      "green_computing"
+    ]
+  }
+]

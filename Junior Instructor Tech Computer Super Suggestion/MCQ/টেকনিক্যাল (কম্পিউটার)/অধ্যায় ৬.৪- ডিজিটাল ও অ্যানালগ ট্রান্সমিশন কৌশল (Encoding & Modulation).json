@@ -1,0 +1,632 @@
+[
+  {
+    "id": 5296,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ডিজিটাল বাইনারি ডেটাকে (০ ও ১) ডিজিটাল ভোল্টেজ সিগন্যালে রূপান্তর করার পদ্ধতিকে কী বলা হয়?",
+    "options": [
+      "A) স্যাম্পলিং",
+      "B) মড্যুলেশন",
+      "C) লাইন কোডিং (Line Coding)",
+      "D) ডিজিটাইজেশন"
+    ],
+    "answer": 2,
+    "explanation": "লাইন কোডিং হলো বাইনারি বিট সিকোয়েন্সকে সরাসরি ট্রান্সমিশন লাইনে চলাচলের উপযোগী ভোল্টেজ পলসে রূপান্তর করার প্রক্রিয়া।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5297,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ইউনিপোলার এনআরজেড (Unipolar NRZ) এনকোডিংয়ের প্রধান ত্রুটি কোনগুলো?",
+    "options": [
+      "A) উচ্চ ডিসি কম্পোনেন্ট (DC Component) উপস্থিতি এবং ঘড়ি সিনক্রোনাইজেশনের কোনো ব্যবস্থা না থাকা",
+      "B) জটিল সার্কিট প্রয়োজন হওয়া",
+      "C) খুব বেশি ট্রানজিশন হওয়া",
+      "D) অতিরিক্ত ব্যান্ডউইথ খরচ"
+    ],
+    "answer": 0,
+    "explanation": "ইউনিপোলারে কেবল একটি পোলারিটি থাকে (১ এর জন্য +V, ০ এর জন্য ০V), ফলে গড় ডিসি ভোল্টেজ থাকে এবং একটানা ০ বা ১ এলে রিসিভার ক্লক হারিয়ে ফেলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5298,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "পোলার NRZ-I (Non-Return-to-Zero Invert) এনকোডিংয়ে বিটের রূপান্তর কীভাবে নির্ধারিত হয়?",
+    "options": [
+      "A) প্রতি বিটেই শূন্যে নেমে যায়",
+      "B) সর্বদা পজিটিভ থাকে",
+      "C) বিট '১' আসলে ভোল্টেজ লেভেলের ট্রানজিশন (ইনভার্ট) ঘটে এবং '০' আসলে ভোল্টেজ অপরিবর্তিত থাকে",
+      "D) বিট '০' আসলে ইনভার্ট হয়"
+    ],
+    "answer": 2,
+    "explanation": "NRZ-I তে ১ পাওয়া মাত্র সংকেত উল্টে যায়; এটি ডিফারেনশিয়াল এনকোডিং যা তারের পোলারিটি উল্টে গেলেও কাজ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5299,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "রিটার্ন-টু-জিরো (RZ) এনকোডিংয়ের বিশেষ বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "A) সিগন্যাল কখনো শূন্য হয় না",
+      "B) ব্যান্ডউইথ অর্ধেক লাগে",
+      "C) শুধুমাত্র ধনাত্মক ভোল্টেজ থাকে",
+      "D) প্রতিটি বিট ইন্টারভালের ঠিক মাঝামাঝি সময়ে সিগন্যাল শূন্য ভোল্টেজে (Zero level) নেমে আসে"
+    ],
+    "answer": 3,
+    "explanation": "RZ প্রতি বিটের মাঝে ০ ভোল্টে ড্রপ করায় স্বয়ংক্রিয় ক্লক সিঙ্ক নিশ্চিত হয়, তবে এতে দ্বিগুণ ব্যান্ডউইথ প্রয়োজন হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5300,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ক্লাসিক্যাল ইথারনেট (IEEE 802.3) লোকাল এরিয়া নেটওয়ার্কে কোন বিখ্যাত লাইন কোডিং ব্যবহৃত হয়?",
+    "options": [
+      "A) AMI",
+      "B) ম্যানচেস্টার এনকোডিং (Manchester Encoding)",
+      "C) NRZ-L",
+      "D) মোরস কোড"
+    ],
+    "answer": 1,
+    "explanation": "ম্যানচেস্টার এনকোডিংয়ে প্রতি বিটের ঠিক মাঝামাঝি ট্রানজিশন ঘটে (যেমন হাই-টু-লো হলো ০ এবং লো-টু-হাই হলো ১), যা স্বয়ংক্রিয় ক্লক সিঙ্ক দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5301,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "টোকেন রিং (IEEE 802.5) নেটওয়ার্কে কোন লাইন কোডিং স্কিম ব্যবহৃত হয়?",
+    "options": [
+      "A) ডিফারেনশিয়াল ম্যানচেস্টার এনকোডিং (Differential Manchester)",
+      "B) NRZ-I",
+      "C) RZ",
+      "D) ম্যানচেস্টার এনকোডিং"
+    ],
+    "answer": 0,
+    "explanation": "ডিফারেনশিয়াল ম্যানচেস্টারে বিট ০ হলে শুরুতে ট্রানজিশন ঘটে এবং ১ হলে শুরুতে ট্রানজিশন ঘটে না, তবে মাঝামাঝি ক্লক ট্রানজিশন অক্ষুণ্ণ থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5302,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "বাইটপোলার AMI (Alternate Mark Inversion) এনকোডিংয়ে বাইনারি ০ এবং ১ কীভাবে প্রদর্শিত হয়?",
+    "options": [
+      "A) বাইনারি ১ শূন্য ভোল্টেজ",
+      "B) কেবল ঋণাত্মক ভোল্টেজ থাকে",
+      "C) উভয়ই ধনাত্মক ভোল্টেজ",
+      "D) বাইনারি ০ হলো শূন্য ভোল্টেজ, এবং বাইনারি ১ গুলো পর্যায়ক্রমে ধনাত্মক ও ঋণাত্মক ভোল্টেজ গ্রহণ করে"
+    ],
+    "answer": 3,
+    "explanation": "AMI তে ১ গুলো অল্টারনেট (+V ও -V) হওয়ায় মোট গড় ভোল্টেজ শূন্য হয়ে ডিসি কম্পোনেন্ট পুরোপুরি দূর হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5303,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "টেলিযোগাযোগে অবিচ্ছিন্ন অ্যানালগ ভয়েসকে ডিজিটাল বিট স্ট্রিমে রূপান্তর করার স্ট্যান্ডার্ড প্রযুক্তি কোনটি?",
+    "options": [
+      "A) AM",
+      "B) FDM",
+      "C) পালস কোড মড্যুলেশন (PCM - Pulse Code Modulation)",
+      "D) QAM"
+    ],
+    "answer": 2,
+    "explanation": "PCM অ্যানালগ সিগন্যালকে ৩টি ধাপে ডিজিটাইজ করে: স্যাম্পলিং (Sampling), কোয়ান্টাইজেশন (Quantization) এবং এনকোডিং (Encoding)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5304,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "নাইকুইস্টের স্যাম্পলিং উপপাদ্য অনুযায়ী নিখুঁতভাবে সংকেত পুনর্গঠন করতে স্যাম্পলিং রেট ($f_s$) কত হতে হয়?",
+    "options": [
+      "A) সর্বোচ্চ কম্পাঙ্কের অর্ধেক",
+      "B) সিগন্যালের সর্বোচ্চ কম্পাঙ্কের দ্বিগুণের সমান বা বেশি ($f_s \\ge 2 f_{\\text{max}}$)",
+      "C) কম্পাঙ্কের বর্গের সমান",
+      "D) সর্বোচ্চ কম্পাঙ্কের সমান"
+    ],
+    "answer": 1,
+    "explanation": "আন্ডার-স্যাম্পলিংয়ের কারণে সৃষ্ট অ্যালিয়াসিং (Aliasing) রোধে স্যাম্পলিং ফ্রিকোয়েন্সি $2 f_{\\text{max}}$ হওয়া বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5305,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "মানুষের কণ্ঠস্বরের সর্বোচ্চ কম্পাঙ্ক ৪ kHz (৪০০০ Hz) বিবেচনা করলে টেলিফোনিতে PCM স্যাম্পলিং রেট কত?",
+    "options": [
+      "A) ৮০০০ স্যাম্পল প্রতি সেকেন্ডে (8000 samples/sec)",
+      "B) ১৬০০০ স্যাম্পল/সে.",
+      "C) ৪০০০ স্যাম্পল/সে.",
+      "D) ২০০০ স্যাম্পল/সে."
+    ],
+    "answer": 0,
+    "explanation": "নাইকুইস্ট রেট: $2 \\times 4000 = 8000\\text{ samples/sec}$ (প্রতি ১২৫ মাইক্রো-সেকেন্ডে একটি করে স্যাম্পল)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5306,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "অ্যানালগ স্যাম্পলকে নিকটবর্তী পূর্ণসংখ্যা স্তরে রূপান্তর করার সময় যে অবিচ্ছেদ্য ত্রুটি ঘটে তাকে কী বলে?",
+    "options": [
+      "A) থার্মাল নয়েজ",
+      "B) অ্যাটেনুয়েশন",
+      "C) কোয়ান্টাইজেশন এরর বা নয়েজ (Quantization Error)",
+      "D) ক্রসটক"
+    ],
+    "answer": 2,
+    "explanation": "প্রকৃত অবিচ্ছিন্ন মান এবং ডিসক্রিট কোয়ান্টাইজড লেভেলের মধ্যকার গাণিতিক পার্থক্যই হলো কোয়ান্টাইজেশন নয়েজ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5307,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ডিজিটাল টেলিফোন সিস্টেমে (DS0 চ্যানেল) প্রতি স্যাম্পলে ৮ বিট বরাদ্দ থাকলে স্ট্যান্ডার্ড ডেটা রেট কত?",
+    "options": [
+      "A) ১২৮ kbps",
+      "B) ৫৬ kbps",
+      "C) ৩২ kbps",
+      "D) ৬৪ kbps (64 kbps)"
+    ],
+    "answer": 3,
+    "explanation": "$\\text{Bit Rate} = 8000 \\text{ samples/sec} \\times 8 \\text{ bits/sample} = 64,000\\text{ bps} = 64\\text{ kbps}$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5308,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "অল্প বিট রেটে অ্যানালগ সংকেত রূপান্তরের জন্য প্রতি স্যাম্পলে কেবল ১ বিট (বৃদ্ধি বা হ্রাস) প্রেরণকারী পদ্ধতি কোনটি?",
+    "options": [
+      "A) PAM",
+      "B) ডেল্টা মড্যুলেশন (DM - Delta Modulation)",
+      "C) QAM",
+      "D) পালস কোড মড্যুলেশন"
+    ],
+    "answer": 1,
+    "explanation": "ডেল্টা মড্যুলেশন পূর্ববর্তী স্যাম্পলের চেয়ে সংকেত বাড়লে ১ এবং কমলে ০ পাঠায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5309,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ডিজিটাল ডেটা দ্বারা অ্যানালগ ক্যারিয়ারের বিস্তার (Amplitude) পরিবর্তন করার মড্যুলেশন কোনটি?",
+    "options": [
+      "A) FSK",
+      "B) PSK",
+      "C) ASK (Amplitude Shift Keying)",
+      "D) QAM"
+    ],
+    "answer": 2,
+    "explanation": "ASK তে ১ এর জন্য ক্যারিয়ার তরঙ্গের পূর্ণ বিস্তার এবং ০ এর জন্য বিস্তার শূন্য বা কম রাখা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5310,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ডিজিটাল ডেটা অনুযায়ী অ্যানালগ ক্যারিয়ারের কম্পাঙ্ক (Frequency) পরিবর্তনের মড্যুলেশন কোনটি?",
+    "options": [
+      "A) PSK",
+      "B) FSK (Frequency Shift Keying)",
+      "C) ASK",
+      "D) PCM"
+    ],
+    "answer": 1,
+    "explanation": "FSK তে বাইনারি ১ এর জন্য একটি নির্দিষ্ট ফ্রিকোয়েন্সি $f_1$ এবং ০ এর জন্য অন্য ফ্রিকোয়েন্সি $f_2$ প্রেরিত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5311,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "বাইনারি ০ এবং ১ বোঝাতে ক্যারিয়ার সিগন্যালে ১৮০ ডিগ্রি দশা পরিবর্তন (Phase Shift) ঘটায় কোনটি?",
+    "options": [
+      "A) QPSK",
+      "B) ASK",
+      "C) FSK",
+      "D) BPSK (Binary Phase Shift Keying)"
+    ],
+    "answer": 3,
+    "explanation": "BPSK (Binary PSK) দুটি বিপরীত ফেজ (০° ও ১৮০°) ব্যবহার করে প্রতি প্রতীকে ১ বিট তথ্য পাঠায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5312,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "চারটি ভিন্ন ফেজ (৪৫°, ১৩৫°, ২২৫°, ৩১৫°) ব্যবহার করে প্রতি প্রতীকে একসাথে ২টি করে বিট প্রেরণ করে কোনটি?",
+    "options": [
+      "A) QPSK (Quadrature Phase Shift Keying)",
+      "B) FSK",
+      "C) 16-QAM",
+      "D) BPSK"
+    ],
+    "answer": 0,
+    "explanation": "QPSK তে ৪টি ভিন্ন দশা থাকায় এটি প্রতি সিগন্যালে ২ বিট (Dibit: 00, 01, 10, 11) বহন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5313,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "উচ্চ ডেটা রেট অর্জনের জন্য ASK এবং PSK উভয়ের সংমিশ্রণে গঠিত অত্যন্ত জনপ্রিয় মড্যুলেশন কৌশল কোনটি?",
+    "options": [
+      "A) BPSK",
+      "B) PCM",
+      "C) FSK",
+      "D) QAM (Quadrature Amplitude Modulation)"
+    ],
+    "answer": 3,
+    "explanation": "QAM একই সাথে বিস্তার ও দশা উভয়ই পরিবর্তন করে (যেমন 16-QAM এ প্রতি প্রতীকে ৪ বিট এবং 256-QAM এ ৮ বিট যায়)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5314,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "QAM বা PSK সিগন্যালের বিস্তার ও ফেজের সমন্বিত গ্রাফিক্যাল উপস্থাপনকে কী ডায়াগ্রাম বলা হয়?",
+    "options": [
+      "A) বোড প্লট",
+      "B) কনস্টেলেশন ডায়াগ্রাম (Constellation Diagram)",
+      "C) স্মিথ চার্ট",
+      "D) আই ডায়াগ্রাম"
+    ],
+    "answer": 1,
+    "explanation": "কনস্টেলেশন ডায়াগ্রাম X-অক্ষে ইন-ফেজ এবং Y-অক্ষে কোয়াড্রেচার উপাংশ বিন্দু আকারে প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5315,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "একটি 64-QAM সিস্টেমে প্রতিটি সিগন্যাল উপাদান (Symbol) কত বিট তথ্য বহন করে?",
+    "options": [
+      "A) ৬ বিট ($2^6 = 64$)",
+      "B) বিট",
+      "C) ৮ বিট",
+      "D) ১৬ বিট"
+    ],
+    "answer": 0,
+    "explanation": "প্রতি প্রতীকে বিট সংখ্যা $n = \\log_2(64) = 6$ বিট।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5316,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "টেলিযোগাযোগে মডেমের (MODEM) মূল কাজ কোনটি?",
+    "options": [
+      "A) শুধুমাত্র আইপি ঠিকানা দেওয়া",
+      "B) কেবল ভোল্টেজ বাড়ানো",
+      "C) কম্পিউটারের ডিজিটাল ডেটাকে অ্যানালগে রূপান্তর (Modulation) এবং অ্যানালগকে ডিজিটালে রূপান্তর (Demodulation)",
+      "D) কেবল ইন্টারনেট বন্ধ করা"
+    ],
+    "answer": 2,
+    "explanation": "মডেম (Modulator-Demodulator) টেলিফোন লাইনের অ্যানালগ মাধ্যমে ডিজিটাল ডেটা পরিবহনের সেতু হিসেবে কাজ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5317,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "অ্যানালগ রেডিওতে এএম (AM) এবং এফএম (FM) এর মধ্যে শব্দের মানের দিক থেকে কোনটি শ্রেষ্ঠ?",
+    "options": [
+      "A) এএম শ্রেষ্ঠ",
+      "B) উভয়ের শব্দমান অভিন্ন",
+      "C) এএম-এ কোনো নয়েজ থাকে না",
+      "D) এফএম (FM) শ্রেষ্ঠ, কারণ এটি বিস্তারজনিত বৈদ্যুতিক নয়েজ দ্বারা প্রভাবিত হয় না"
+    ],
+    "answer": 3,
+    "explanation": "বায়ুমণ্ডলীয় নয়েজ মূলত তরঙ্গের বিস্তারকে বিকৃত করে, ফলে ফ্রিকোয়েন্সি মড্যুলেশন (FM) নয়েজ এড়িয়ে উচ্চমানের অডিও প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5318,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "এএম (AM) রেডিও ব্রডকাস্টিংয়ের সাধারণ ফ্রিকোয়েন্সি ব্যান্ড কত?",
+    "options": [
+      "A) ৪ GHz",
+      "B) GHz",
+      "C) ৫৩০ kHz থেকে ১৭০০ kHz (Medium Wave)",
+      "D) ৮৮ MHz থেকে ১০৮ MHz"
+    ],
+    "answer": 2,
+    "explanation": "বাণিজ্যিক AM রেডিও ৫৩০ থেকে ১৭০০ কিলোহাৰ্টজ মিডিয়াম ওয়েভ ব্যান্ডে কাজ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5319,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "বাণিজ্যিক এফএম (FM) রেডিওর আন্তর্জাতিক ফ্রিকোয়েন্সি ব্যান্ড কত?",
+    "options": [
+      "A) ৪ GHz",
+      "B) ৮৮ MHz থেকে ১০৮ MHz (VHF ব্যান্ড)",
+      "C) ৯০০ MHz",
+      "D) ৫৩০ kHz থেকে ১৭০০ kHz"
+    ],
+    "answer": 1,
+    "explanation": "স্ট্যান্ডার্ড এফএম রেডিও ৮৮ থেকে ১০৮ মেগাহার্টজ ভিএইচএফ ব্যান্ডে ২০০ kHz চ্যানেলে সম্প্রচারিত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5320,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ডিজিটাল সিগন্যালে ইন্টার-সিম্বল ইন্টারফেয়ারেন্স (ISI) পরিমাপের জন্য অসিলোস্কোপে কোন প্যাটার্ন পর্যবেক্ষণ করা হয়?",
+    "options": [
+      "A) আই প্যাটার্ন বা আই ডায়াগ্রাম (Eye Pattern / Eye Diagram)",
+      "B) লিসাজাস প্যাটার্ন",
+      "C) স্মিথ চার্ট",
+      "D) স্পেকট্রাম"
+    ],
+    "answer": 0,
+    "explanation": "Eye Pattern-এর চোখের উন্মুক্ততা (Openness) যত বড় হয়, নয়েজ ও আইএসআই তত কম এবং সিগন্যাল স্পষ্ট নির্দেশ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5321,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "পালস অ্যামপ্লিচিউড মড্যুলেশন (PAM) কোন ধরনের সংকেত তৈরি করে?",
+    "options": [
+      "A) বিশুদ্ধ ডিজিটাল বিট",
+      "B) অ্যানালগ স্যাম্পলযুক্ত কিন্তু সময়ে বিচ্ছিন্ন (Discrete in time, continuous in amplitude)",
+      "C) সাইন তরঙ্গ",
+      "D) বাইনারি কোড"
+    ],
+    "answer": 1,
+    "explanation": "PAM হলো স্যাম্পলিংয়ের তাৎক্ষণিক রূপ যেখানে পলসগুলোর বিস্তার মূল সংকেতের সমান থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5322,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "কম্প্যান্ডিং (Companding: Compressing + Expanding) কৌশলের প্রধান উদ্দেশ্য কোনটি?",
+    "options": [
+      "A) দুর্বল ও ছোট সংকেতগুলোর জন্য কোয়ান্টাইজেশন নয়েজ কমানো এবং ডায়নামিক রেঞ্জ বৃদ্ধি করা",
+      "B) ডেটার স্পিড কমানো",
+      "C) কেবল তারের দৈর্ঘ্য বাড়ানো",
+      "D) পাসওয়ার্ড দেওয়া"
+    ],
+    "answer": 0,
+    "explanation": "টেলিফোনিতে ছোট ভলিউমের শব্দের কোয়ান্টাইজেশন উন্নত করতে $\\mu$-law (উত্তর আমেরিকা) এবং A-law (ইউরোপ) কম্প্যান্ডিং ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5323,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "উত্তর আমেরিকা ও জাপানে ব্যবহৃত কম্প্যান্ডিং স্ট্যান্ডার্ড কোনটি?",
+    "options": [
+      "A) law",
+      "B) law (এ-ল)",
+      "C) PCM-law",
+      "D) $\\mu$-law (মিউ-ল)"
+    ],
+    "answer": 3,
+    "explanation": "আমেরিকান T1 ক্যারিয়ারে $\\mu$-law এবং ইউরোপীয় E1 ক্যারিয়ারে A-law স্ট্যান্ডার্ড ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5324,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "লাইন কোডিংয়ে ব্লক কোডিং (Block Coding: যেমন 4B/5B, 8B/10B) ব্যবহারের প্রধান সুবিধা কী?",
+    "options": [
+      "A) ব্যান্ডউইথ কমানো",
+      "B) ডেটার আকার ছোট করা",
+      "C) একটানা দীর্ঘ ০ বা ১ আসা রোধ করে ঘড়ি সিনক্রোনাইজেশন নিশ্চিত করা এবং ত্রুটি শনাক্ত করা",
+      "D) এনক্রিপশন দেওয়া"
+    ],
+    "answer": 2,
+    "explanation": "4B/5B প্রতি ৪ বিট ডেটাকে ৫ বিটের এমন কোডে রূপান্তর করে যাতে কখনো পরপর তিনটির বেশি ০ না থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5325,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৪: ডিজিটাল ও অ্যানালগ ট্রান্সমিশন কৌশল (Encoding & Modulation)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ফাস্ট ইথারনেটে (100Base-TX) ব্যবহৃত ত্রিমুখী ভোল্টেজ লেভেলবিশিষ্ট লাইন কোডিং কোনটি?",
+    "options": [
+      "A) MLT-3 (Multi-Level Transmit 3)",
+      "B) Unipolar",
+      "C) Manchester",
+      "D) NRZ"
+    ],
+    "answer": 0,
+    "explanation": "MLT-3 তিনটি ভোল্টেজ স্তর (+V, 0, -V) ব্যবহার করে সিগন্যালের ফ্রিকোয়েন্সি চারগুণ কমিয়ে UTP কেবলে ১০০ Mbps নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

@@ -1,0 +1,632 @@
+[
+  {
+    "id": 5291,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ইন্টারনেট প্রোটোকল সুইটে ব্যবহৃত চেকসাম (Checksum) গণনায় যোগফলের সময় কোনো ক্যারি বিট (Carry-out) তৈরি হলে তা কীভাবে সমন্বয় করা হয়?",
+    "options": [
+      "A) যোগফলের সর্বডানের বিটের সাথে পুনরায় যোগ করা হয় (End-around carry)",
+      "B) হেডারের সর্ববামে বসিয়ে দেওয়া হয়",
+      "C) ক্যারি বিটের জন্য নতুন বাইট তৈরি করা হয়",
+      "D) ক্যারি বিটটি স্থায়ীভাবে বাতিল করা হয়"
+    ],
+    "answer": 0,
+    "explanation": "ওয়ানস কমপ্লিমেন্ট (1's complement) পাটিগণিতে যোগের সময় ক্যারি আউট তৈরি হলে তাকে ফলাফলের সর্বডানের নিম্নতম বিটের (LSB) সাথে পুনরায় যোগ করতে হয়, যাকে 'End-around carry' বলা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5292,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "CRC অ্যালগরিদমে যদি জেনারেটর বহুপদী বা ডিভাইজর পলিনোমিয়ালের সর্বোচ্চ ঘাত বা ডিগ্রি $k$ হয়, তবে উৎপন্ন Frame Check Sequence (FCS)-এর দৈর্ঘ্য কত বিট হবে?",
+    "options": [
+      "A) $k-1$ বিট",
+      "B) $k$ বিট",
+      "C) $k+1$ বিট",
+      "D) $2k$ বিট"
+    ],
+    "answer": 1,
+    "explanation": "CRC-তে ডিভাইজর যদি $k$ ডিগ্রির হয় (অর্থাৎ $k+1$ বিট দীর্ঘ), তবে মডিউলো-২ ভাগের ভাগশেষ বা FCS ঠিক $k$ বিট দীর্ঘ হবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5293,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "তারবিহীন বা ত্রুটিপূর্ণ মাধ্যমে ট্রান্সমিশনের সময় দীর্ঘ বার্স্ট এরর (Burst Error)-কে ছোট ছোট একক ত্রুটিতে রূপান্তর করে সংশোধনের জন্য কোন কৌশল প্রয়োগ করা হয়?",
+    "options": [
+      "A) ইন্টারলিভিং (Interleaving)",
+      "B) রিভার্স পোলারিটি (Reverse Polarity)",
+      "C) বাইপোলার শিফটিং (Bipolar Shifting)",
+      "D) জ্যামিং (Jamming)"
+    ],
+    "answer": 0,
+    "explanation": "ইন্টারলিভিং কৌশলে পাশাপাশি ফ্রেম বা কোডওয়ার্ডের বিটগুলোকে ম্যাট্রিক্স আকারে সাজিয়ে মিশ্রিত করে পাঠানো হয়, ফলে একটানা নয়েজে বার্স্ট এরর হলেও প্রতিটি ফ্রেম কেবল একটি করে বিট হারায় যা সহজে সংশোধনযোগ্য।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5294,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "একটি হ্যামিং কোড ব্যবস্থায় একক বিট ত্রুটি সংশোধনের পাশাপাশি দ্বৈত বিট ত্রুটি শনাক্ত (SEC-DED) করার জন্য কী অতিরিক্ত যুক্ত করা হয়?",
+    "options": [
+      "A) টুইন চেকিং বিট",
+      "B) দ্বিগুণ সংখ্যক ডেটা বিট",
+      "C) আলাদা CRC ফিল্ড",
+      "D) সম্পূর্ণ কোডওয়ার্ডের ওপর একটি অতিরিক্ত সামগ্রিক প্যারিটি বিট"
+    ],
+    "answer": 3,
+    "explanation": "SEC-DED (Single Error Correction, Double Error Detection) অর্জনে স্ট্যান্ডার্ড হ্যামিং কোডের সাথে পুরো ব্লকের জন্য একটি অতিরিক্ত মাস্টার প্যারিটি বিট যোগ করা হয়, যা নূন্যতম হ্যামিং দূরত্ব ৪ এ উন্নীত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5295,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "মেমরি বা স্টোরেজ ছাড়াই ডেটার ধারাবাহিক প্রবাহের উপর ভিত্তি করে জটিল ম্যাথমেটিক্যাল পলিনোমিয়াল স্টেট মেশিনে পরিচালিত এরর কারেকশন কোড কোনটি?",
+    "options": [
+      "A) প্যারিটি ব্লক কোড (Block Code)",
+      "B) কনভোল্যুশনাল কোড (Convolutional Code)",
+      "C) ম্যাট্রিক্স কোড (Matrix Code)",
+      "D) চেকসাম কোড (Checksum Code)"
+    ],
+    "answer": 1,
+    "explanation": "কনভোল্যুশনাল কোড (Convolutional Code) শিফট রেজিস্টারের মাধ্যমে চলমান বিট স্ট্রিমের ওপর ক্রমাগত স্লাইডিং প্রক্রিয়ায় রিডানড্যান্ট বিট তৈরি করে, যা স্যাটেলাইট ও ওয়্যারলেস যোগাযোগে বহুল ব্যবহৃত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5346,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ডেটা ট্রান্সমিশনে কোনো ডেটা ইউনিটের একক একটি বিট (০ থেকে ১ বা ১ থেকে ০) পরিবর্তিত হলে তাকে কী বলে?",
+    "options": [
+      "A) বার্স্ট এরর",
+      "B) ফেজ এরর",
+      "C) সিঙ্গেল-বিট এরর (Single-Bit Error)",
+      "D) প্যারিটি এরর"
+    ],
+    "answer": 2,
+    "explanation": "একটিমাত্র বিট নষ্ট হওয়াকে Single-Bit Error বলে; এটি কম গতির ডেটা ট্রান্সমিশনে বেশি ঘটে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5347,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "কোনো ডেটা ব্লকে পরপর একাধিক সংলগ্ন বিট একসাথে ক্ষতিগ্রস্ত বা উল্টে গেলে তাকে কী বলে?",
+    "options": [
+      "A) সিঙ্গেল বিট এরর",
+      "B) হোয়াইট এরর",
+      "C) ক্লক এরর",
+      "D) বার্স্ট এরর (Burst Error)"
+    ],
+    "answer": 3,
+    "explanation": "উচ্চগতির যোগাযোগে ক্ষণস্থায়ী ইম্পালস নয়েজের কারণে একঝাঁক বিট নষ্ট হয়, একে Burst Error বলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5348,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ত্রুটি শনাক্ত ও সংশোধনের উদ্দেশ্যে মূল ডেটার সাথে অতিরিক্ত যেসব বিট যোগ করা হয় তাদের কী বলে?",
+    "options": [
+      "A) পেলোড",
+      "B) রিডানড্যান্ট বিট (Redundant Bits)",
+      "C) ইনফরমেশন বিট",
+      "D) ইউজার বিট"
+    ],
+    "answer": 1,
+    "explanation": "Redundancy হলো বাড়তি নিরাপত্তামূলক বিট যা রিসিভারকে ডেটার বিশুদ্ধতা যাচাই করতে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5349,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "সাধারণ প্যারিটি চেক (Parity Check) পদ্ধতির প্রধান সীমাবদ্ধতা কোনটি?",
+    "options": [
+      "A) এটি অনেক মেমরি নেয়",
+      "B) এটি অনেক ধীরগতির",
+      "C) এটি বিজোড় এরর ধরতে পারে না",
+      "D) যদি জোড় সংখ্যক বিট (যেমন ২টি বা ৪টি বিট) একসাথে পরিবর্তিত হয় তবে এটি ত্রুটি ধরতে পারে না"
+    ],
+    "answer": 3,
+    "explanation": "প্যারিটি কেবল বিজোড় সংখ্যক (১, ৩, ৫) বিট এরর ধরতে পারে; দুটি বিট উল্টালে ১-এর সংখ্যার সমতা অপরিবর্তিত থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5350,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ইভেন প্যারিটিতে (Even Parity) ডেটা যদি `1011001` হয় (মোট চারটি ১), তবে প্যারিটি বিট কত হবে?",
+    "options": [
+      "A) 0 (কারণ মোট ১-এর সংখ্যা ইতিমধ্যে জোড়)",
+      "B) 1",
+      "C) NULL",
+      "D) 10"
+    ],
+    "answer": 0,
+    "explanation": "মোট ১ এর সংখ্যাকে জোড় রাখতে প্যারিটি বিট ০ যোগ করতে হবে; ফলে মোট ১ থাকবে ৪টি (জোড়)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5351,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "টু-ডাইমেনশনাল প্যারিটি চেকে (LRC + VRC) ডেটাকে কীভাবে বিন্যস্ত করে প্যারিটি হিসাব করা হয়?",
+    "options": [
+      "A) ডায়াগোনাল বরাবর",
+      "B) র‍্যান্ডম ক্রমে",
+      "C) একটি ম্যাট্রিক্সের মতো সারি (Rows) এবং কলাম (Columns) উভয় দিক বরাবর প্যারিটি বিট হিসাব করা হয়",
+      "D) কেবলমাত্র শেষ সারিতে"
+    ],
+    "answer": 2,
+    "explanation": "2D প্যারিটি অনুভূমিক ও উল্লম্ব উভয় প্যারিটি নেওয়ায় এটি অধিকাংশ বার্স্ট এরর এবং একক বিট ত্রুটি সংশোধন করতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5352,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ইন্টারনেট প্রোটোকল সুইটে (IP, TCP, UDP হেডার) ত্রুটি শনাক্তকরণে কোন অ্যালগরিদম ব্যবহৃত হয়?",
+    "options": [
+      "A) হ্যামিং কোড",
+      "B) চেকসাম (16-bit One's Complement Checksum)",
+      "C) CRC-32",
+      "D) প্যারিটি"
+    ],
+    "answer": 1,
+    "explanation": "আইপি সুইট ১৬-বিট ওয়ার্ডগুলোর ১-এর পরিপূরক যোগফল নিয়ে তার ইনভার্স বা পরিপূরক চেকসাম হিসেবে পাঠায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5353,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "লোকাল এরিয়া নেটওয়ার্কে (যেমন ইথারনেট ফ্রেম) হার্ডওয়্যার স্তরে ত্রুটি শনাক্তকরণে বহুল ব্যবহৃত বহুপদী পদ্ধতি কোনটি?",
+    "options": [
+      "A) প্যারিটি চেক",
+      "B) সাইক্লিক রিডানড্যান্সি চেক (CRC - Cyclic Redundancy Check)",
+      "C) চেকসাম",
+      "D) হ্যামিং কোড"
+    ],
+    "answer": 1,
+    "explanation": "CRC বাইনারি পলিনোমিয়াল ডিভিশন ও শিফট রেজিস্টার ভিত্তিক অত্যন্ত শক্তিশালী ত্রুটি শনাক্তকারী কৌশল।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5354,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "CRC অ্যালগরিদমে গাণিতিক ভাগ প্রক্রিয়ায় সাধারণ ভাগের পরিবর্তে কোন বাইনারি অপারেশন ব্যবহৃত হয়?",
+    "options": [
+      "A) বিয়োগফল",
+      "B) গুণন",
+      "C) মডিউলো-২ ভাগ বা বিটওয়াইজ এক্স-অর (Modulo-2 Division using XOR)",
+      "D) সাধারণ বাইনারি ভাগ"
+    ],
+    "answer": 2,
+    "explanation": "মডিউলো-২ গাণিতিকে কোনো ক্যারি বা বরো (Carry/Borrow) থাকে না, সরাসরি XOR অপারেশনের মাধ্যমে ভাগশেষ নির্ণয় করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5355,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "CRC-তে ডিভাইজর বা জেনারেটর পলিনোমিয়াল যদি $n+1$ বিটের হয়, তবে মূল ডেটার শেষে কতটি শূন্য যোগ করা হয়?",
+    "options": [
+      "A) $2n$ টি",
+      "B) ১টি",
+      "C) $n+1$ টি",
+      "D) $n$ টি শূন্য (Gen bits - 1)"
+    ],
+    "answer": 3,
+    "explanation": "ডিভাইজরের দৈর্ঘ্যের চেয়ে ঠিক এক কম সংখ্যক শূন্য অ্যাপেন্ড করে ভাগ করতে হয় এবং প্রাপ্ত $n$ বিট ভাগশেষই হলো CRC।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5356,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ইথারনেট ফ্রেমের ট্রেইলারে Frame Check Sequence (FCS) হিসেবে কোন স্ট্যান্ডার্ড CRC ব্যবহৃত হয়?",
+    "options": [
+      "A) CRC-32 (৩২ বিট ভাগশেষ)",
+      "B) CRC-8",
+      "C) CRC-64",
+      "D) CRC-16"
+    ],
+    "answer": 0,
+    "explanation": "IEEE 802.3 ইথারনেটে ৩২-বিট পলিনোমিয়াল বিশিষ্ট CRC-32 ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5357,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "গ্রাহক প্রান্তে CRC যাচাইয়ের সময় গৃহীত সম্পূর্ণ কোডওয়ার্ডকে ডিভাইজর দিয়ে মডিউলো-২ ভাগ করলে ভাগশেষ কত আসলে ডেটা নির্ভুল বলে গণ্য হয়?",
+    "options": [
+      "A) ১",
+      "B) সবগুলো বিট শূন্য (Remainder = 0)",
+      "C) অশূন্য মান",
+      "D) ডিভাইজরের সমান"
+    ],
+    "answer": 1,
+    "explanation": "কোনো ত্রুটি না থাকলে ভাগশেষ সর্বদা নিখুঁত শূন্য (All zeros) হবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5358,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "দুটি সমান দৈর্ঘ্যের কোডওয়ার্ডের মধ্যে বিট অমিলের সংখ্যাকে কী বলা হয়?",
+    "options": [
+      "A) ইউক্লিড দূরত্ব",
+      "B) প্যারিটি দূরত্ব",
+      "C) মডুলো দূরত্ব",
+      "D) হ্যামিং দূরত্ব (Hamming Distance)"
+    ],
+    "answer": 3,
+    "explanation": "দুটি বাইনারি শব্দের XOR করলে যতটি '১' পাওয়া যায় তাই তাদের মধ্যকার Hamming Distance $d(x,y)$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5359,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "যদি কোডওয়ার্ড $A = 10101$ এবং $B = 11100$ হয়, তবে তাদের হ্যামিং দূরত্ব কত?",
+    "options": [
+      "A) ১",
+      "B) ৩",
+      "C) (২য় ও ৫ম বিটে অমিল)",
+      "D) ০"
+    ],
+    "answer": 2,
+    "explanation": "$10101 \\oplus 11100 = 01001$; এতে দুটি ১ থাকায় হ্যামিং দূরত্ব ২।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5360,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "একটি সিস্টেমে সর্বোচ্চ $s$ সংখ্যক বিট ত্রুটি নিশ্চিতভাবে শনাক্ত (Detect) করতে ন্যূনতম হ্যামিং দূরত্ব কত হতে হবে?",
+    "options": [
+      "A) $d_{\\text{min}} = s + 1$",
+      "B) $d_{\\text{min}} = 2s + 1$",
+      "C) $d_{\\text{min}} = s$",
+      "D) $d_{\\text{min}} = s - 1$"
+    ],
+    "answer": 0,
+    "explanation": "$s$ টি এরর ধরতে ন্যূনতম দূরত্ব $s+1$ হতে হয় যাতে ভুল কোডটি অন্য কোনো বৈধ কোডে পরিণত না হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5361,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "একটি সিস্টেমে সর্বোচ্চ $t$ সংখ্যক বিট ত্রুটি স্বয়ংক্রিয়ভাবে সংশোধন (Correct) করতে ন্যূনতম হ্যামিং দূরত্ব কত হতে হবে?",
+    "options": [
+      "A) $d_{\\text{min}} = t$",
+      "B) $d_{\\text{min}} = 2t + 1$",
+      "C) $d_{\\text{min}} = 2t$",
+      "D) $d_{\\text{min}} = t + 1$"
+    ],
+    "answer": 1,
+    "explanation": "এরর সংশোধনে নিকটতম বৈধ কোড নির্বাচন করতে ডিসিশন বাউন্ডারি হিসেবে $2t+1$ ন্যূনতম দূরত্ব লাগে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5362,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "একক বিট ত্রুটি শনাক্ত ও সংশোধন করতে সক্ষম বিখ্যাত লিনিয়ার এরর-কারেক্টিং কোড কোনটি?",
+    "options": [
+      "A) CRC",
+      "B) ম্যানচেস্টার কোড",
+      "C) চেকসাম",
+      "D) হ্যামিং কোড (Hamming Code - রিচার্ড হ্যামিং উদ্ভাবিত)"
+    ],
+    "answer": 3,
+    "explanation": "১৯৫০ সালে রিচার্ড হ্যামিং একক বিট ত্রুটি স্বয়ংক্রিয় সংশোধনের হ্যামিং কোড আবিষ্কার করেন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5363,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "হ্যামিং কোডে $m$ সংখ্যক ডেটা বিটের জন্য প্রয়োজনীয় প্যারিটি বিট $r$ নির্ণয়ের অসমতা সূত্র কোনটি?",
+    "options": [
+      "A) $2^r \\ge m + r + 1$",
+      "B) $2^r \\ge m + 1$",
+      "C) $2^r \\le m + r$",
+      "D) $r \\ge 2m + 1$"
+    ],
+    "answer": 0,
+    "explanation": "$2^r$ টি ভিন্ন অবস্থা অবশ্যই মূল ডেটা, প্যারিটি বিট ও এররবিহীন মোট অবস্থার সমান বা বড় হতে হবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5364,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "হ্যামিং কোডে ৪টি ডেটা বিটের ($m=4$) জন্য ন্যূনতম কয়টি রিডানড্যান্ট প্যারিটি বিট ($r$) প্রয়োজন?",
+    "options": [
+      "A) ৪টি",
+      "B) ১টি",
+      "C) ৩টি (হ্যামিং 7,4 কোড)",
+      "D) ২টি"
+    ],
+    "answer": 2,
+    "explanation": "$r=3$ হলে $2^3 = 8 \\ge 4 + 3 + 1 = 8$; শর্ত পূরণ হয়। ফলে ৭ বিটের Hamming(7,4) কোড গঠিত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5365,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "হ্যামিং কোডওয়ার্ডে প্যারিটি বিটগুলো কোন কোন অবস্থানে (Bit Positions) স্থাপন করা হয়?",
+    "options": [
+      "A) সবগুলো শেষে",
+      "B) সবগুলো শুরুতে",
+      "C) জোড় অবস্থানে",
+      "D) এর সূচকীয় অবস্থানসমূহে ($1, 2, 4, 8, 16, \\dots$ অর্থাৎ $2^k$ অবস্থানে)"
+    ],
+    "answer": 3,
+    "explanation": "পজিশন ১ ($P_1$), পজিশন ২ ($P_2$), পজিশন ৪ ($P_4$) ইত্যাদিতে প্যারিটি বিট থাকে এবং বাকি ঘরে মূল ডেটা বসে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5366,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "হ্যামিং কোডে গ্রাহক প্রান্তে কোন নির্দিষ্ট বিটটি ভুল হয়েছে তার সঠিক অবস্থান শনাক্তকারী মানকে কী বলে?",
+    "options": [
+      "A) প্যারিটি ভ্যালু",
+      "B) চেক ভ্যালু",
+      "C) সিনড্রোম ওয়ার্ড বা সিনড্রোম বিটস (Syndrome Bits)",
+      "D) মডুলাস"
+    ],
+    "answer": 2,
+    "explanation": "প্যারিটি চেকের ফলাফল (যেমন বাইনারি 110 = দশমিক 6) সরাসরি নির্দেশ করে ৬ নম্বর বিটটি ভুল হয়েছে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5367,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "পুনরায় ডেটা না চেয়ে রিসিভার নিজেই গাণিতিকভাবে ত্রুটি সংশোধন করে নেওয়ার প্রযুক্তিকে কী বলে?",
+    "options": [
+      "A) ফরওয়ার্ড এরর কারেকশন (FEC - Forward Error Correction)",
+      "B) ARQ (Automatic Repeat Request)",
+      "C) প্যারিটি ডিটেকশন",
+      "D) ফিডব্যাক কারেকশন"
+    ],
+    "answer": 0,
+    "explanation": "স্যাটেলাইট বা মহাকাশ গবেষণার মতো দূরবর্তী সংযোগে যেখানে রি-ট্রান্সমিশন অসম্ভব সেখানে FEC ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5368,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "গ্রাহক প্রান্তে ত্রুটি ধরা পড়লে প্রেরকের নিকট পুনরায় ডেটা পাঠানোর অনুরোধ (ARQ) করার পদ্ধতিকে কী বলে?",
+    "options": [
+      "A) প্যাকেট ড্রপ",
+      "B) রিট্রান্সমিশন এরর কন্ট্রোল (ARQ - Automatic Repeat Request)",
+      "C) FEC",
+      "D) ওপেন লুপ কন্ট্রোল"
+    ],
+    "answer": 1,
+    "explanation": "ARQ (যেমন Stop-and-Wait, Go-Back-N, Selective Repeat) একনলেজমেন্ট না পেলে ডেটা পুনরায় পাঠায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5369,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "কম্পিউটারের ECC মেমরিতে (Error-Correcting Code RAM) সাধারণত কোন অ্যালগরিদম ব্যবহৃত হয়?",
+    "options": [
+      "A) CRC-32",
+      "B) সিম্পল প্যারিটি",
+      "C) MD5",
+      "D) SECDED (Single Error Correction, Double Error Detection - এক্সটেন্ডেড হ্যামিং কোড)"
+    ],
+    "answer": 3,
+    "explanation": "সার্ভার র্যামে কসমিক রশ্মির কারণে ঘটা একক বিট ভুল স্বয়ংক্রিয় ঠিক করতে SECDED হ্যামিং কোড ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5370,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৬: এরর ডিটেকশন ও কারেকশন (Error Detection & Correction)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "CRC-তে $x^4 + x + 1$ পলিনোমিয়ালের সমতুল্য বাইনারি ডিভাইজর কোনটি?",
+    "options": [
+      "A) 11111",
+      "B) 10101",
+      "C) 10011",
+      "D) 11001"
+    ],
+    "answer": 2,
+    "explanation": "$x^4 (1) + x^3 (0) + x^2 (0) + x^1 (1) + x^0 (1) = 10011$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

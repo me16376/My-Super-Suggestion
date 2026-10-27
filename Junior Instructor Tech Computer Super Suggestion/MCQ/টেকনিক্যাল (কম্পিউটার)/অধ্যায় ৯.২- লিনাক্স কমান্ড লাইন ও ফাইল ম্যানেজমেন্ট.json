@@ -1,0 +1,947 @@
+[
+  {
+    "id": 5836,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লুকানো ফাইলসহ সমস্ত ফাইল ও ফোল্ডারের বিস্তারিত লং-লিস্টিং (পারমিশন, ওনার, সাইজ) দেখার কমান্ড কোনটি?",
+    "options": [
+      "A) ls -la (বা ls -al)",
+      "B) ls -w",
+      "C) ls -x",
+      "D) ls -d"
+    ],
+    "answer": 0,
+    "explanation": "`ls -l` লং লিস্টিং দেখায় এবং `-a` (all) হিডেন ফাইলসহ সবকিছু প্রদর্শন করে, তাই `ls -la` সমস্ত তথ্য দেখার প্রমিত কমান্ড।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5837,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "ফাইল সাইজ সহজে পাঠযোগ্য ফরম্যাটে (যেমন KB, MB, GB) প্রদর্শনের জন্য `ls` কমান্ডের সাথে কোন ফ্ল্যাগ ব্যবহার করা হয়?",
+    "options": [
+      "A) -h (Human-readable)",
+      "B) -m",
+      "C) -s",
+      "D) -k"
+    ],
+    "answer": 0,
+    "explanation": "`ls -lh` কমান্ড ফাইলের আকার বাইটের বদলে মানুষের পাঠযোগ্য KB, MB বা GB এককে প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5838,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "প্যারেন্ট ডিরেক্টরি বিদ্যমান না থাকলেও এক কমান্ডে নেস্টেড ডিরেক্টরি পাথ (যেমন `a/b/c`) তৈরির অপশন কোনটি?",
+    "options": [
+      "A) mkdir -r a/b/c",
+      "B) mkdir -s a/b/c",
+      "C) mkdir -f a/b/c",
+      "D) mkdir -p a/b/c"
+    ],
+    "answer": 3,
+    "explanation": "`mkdir -p` (Parents) অপশন প্রয়োজন অনুযায়ী সমস্ত অনুপস্থিত প্যারেন্ট ফোল্ডার স্বয়ংক্রিয়ভাবে তৈরি করে দেয় এবং ফোল্ডার থাকলে এরর দেয় না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5839,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি শূন্য বা ফাঁকা ফাইল তৈরি করতে অথবা বিদ্যমান ফাইলের টাইমস্ট্যাম্প আপডেট করতে কোন কমান্ড ব্যবহৃত হয়?",
+    "options": [
+      "A) cat",
+      "B) touch",
+      "C) make",
+      "D) create"
+    ],
+    "answer": 1,
+    "explanation": "`touch filename` কমান্ড ফাইলটি না থাকলে তাৎক্ষণিক ০ বাইটের একটি ফাঁকা ফাইল তৈরি করে, আর ফাইল থাকলে তার অ্যাক্সেস ও মডিফিকেশন টাইম আপডেট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5840,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি সম্পূর্ণ ডিরেক্টরি তার সমস্ত সাব-ডিরেক্টরি ও ফাইলসহ অন্য জায়গায় কপি করার রিকার্সিভ অপশন কোনটি?",
+    "options": [
+      "A) cp -p",
+      "B) cp -v",
+      "C) cp -r (বা cp -R)",
+      "D) cp -f"
+    ],
+    "answer": 2,
+    "explanation": "`cp -r source_dir target_dir` (-r বা Recursive) ডিরেক্টরির ভেতরের সমস্ত উপাদান একের পর এক কপি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5841,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি ফাইল বা ডিরেক্টরি স্থানান্তর (Move) করতে অথবা নাম পরিবর্তন (Rename) করতে কোন কমান্ড ব্যবহৃত হয়?",
+    "options": [
+      "A) mv",
+      "B) cp",
+      "C) rn",
+      "D) rename-only"
+    ],
+    "answer": 0,
+    "explanation": "লিনাক্সে `mv` (Move) কমান্ড ফাইল স্থানান্তর এবং নাম পরিবর্তন (Rename) উভয় কাজেই ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5842,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি অপূর্ণ বা পূর্ণ ডিরেক্টরিকে জোরপূর্বক কোনো প্রম্পট ছাড়া মুছে ফেলতে অত্যন্ত সতর্কতার সাথে কোন কমান্ড ব্যবহৃত হয়?",
+    "options": [
+      "A) del -f",
+      "B) rm -d",
+      "C) rm -rf",
+      "D) rmdir"
+    ],
+    "answer": 2,
+    "explanation": "`rm -rf` (-r মানে Recursive, -f মানে Force) ডিরেক্টরি ও তার সমস্ত ভেতরের ফাইল কোনো ব্যবহারকারী কনফার্মেশন ছাড়াই চিরতরে মুছে ফেলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5843,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি টেক্সট ফাইলের সমস্ত কনটেন্ট কনসোলে সরাসরি প্রদর্শন করতে কোন কমান্ড ব্যবহৃত হয়?",
+    "options": [
+      "A) echo",
+      "B) cat",
+      "C) ls",
+      "D) touch"
+    ],
+    "answer": 1,
+    "explanation": "`cat` (Concatenate) কমান্ড ফাইলের ভেতরের সমস্ত লেখা স্ট্যান্ডার্ড আউটপুটে (স্ক্রিনে) সরাসরি প্রিন্ট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5844,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "বিশাল সাইজের টেক্সট বা লগ ফাইল পৃষ্ঠাভিত্তিক স্ক্রোল করে উপর-নিচ পড়ার আধুনিক পেজার কমান্ড কোনটি?",
+    "options": [
+      "A) head",
+      "B) echo",
+      "C) cat",
+      "D) less"
+    ],
+    "answer": 3,
+    "explanation": "`less` কমান্ড মেমরিতে পুরো ফাইল একবারে লোড না করে দ্রুত নেভিগেশন ও আগে-পিছে স্ক্রোল করার সুযোগ দেয় ('less is more')।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5845,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি ফাইলের শুরুর প্রথম ১০টি লাইন প্রদর্শন করতে কোন কমান্ড ব্যবহৃত হয়?",
+    "options": [
+      "A) top",
+      "B) head",
+      "C) first",
+      "D) tail"
+    ],
+    "answer": 1,
+    "explanation": "`head` কমান্ড ডিফল্টভাবে ফাইলের প্রথম ১০টি লাইন দেখায়; নির্দিষ্ট সংখ্যার জন্য `head -n 20 filename` ব্যবহার করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5846,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি ফাইলের সর্বশেষ অংশ এবং চলমান লগ ফাইলের রিয়েল-টাইম লাইভ আপডেট দেখার অপশন কোনটি?",
+    "options": [
+      "A) watch -log",
+      "B) head -f",
+      "C) tail -f /var/log/syslog",
+      "D) cat -live"
+    ],
+    "answer": 2,
+    "explanation": "`tail -f` (Follow) অপশন টার্মিনালকে উন্মুক্ত রেখে ফাইলে নতুন কোনো লাইন যুক্ত হওয়া মাত্রই রিয়েল-টাইমে স্ক্রিনে তুলে ধরে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5847,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "সম্পূর্ণ ফাইল সিস্টেমে নির্দিষ্ট নামের ফাইল খুঁজতে সবচেয়ে শক্তিশালী ও নমনীয় কমান্ড কোনটি?",
+    "options": [
+      "A) search",
+      "B) where",
+      "C) grep",
+      "D) find"
+    ],
+    "answer": 3,
+    "explanation": "`find` কমান্ড নাম, সাইজ, ওনার, পারমিশন বা মডিফিকেশন সময়ের ভিত্তিতে ডিরেক্টরি ট্রিতে রিকার্সিভলি ফাইল সার্চ করে (যেমন: `find / -name test.txt`)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5848,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "পূর্বে প্রস্তুতকৃত ইনডেক্স ডাটাবেস (`updatedb`) ব্যবহার করে তাৎক্ষণিকভাবে ফাইল খোঁজার দ্রুততম কমান্ড কোনটি?",
+    "options": [
+      "A) locate",
+      "B) which",
+      "C) grep",
+      "D) find"
+    ],
+    "answer": 0,
+    "explanation": "`locate` কমান্ড সম্পূর্ণ ডিস্ক স্ক্যান না করে তার নিজস্ব প্রি-বিল্ট ডাটাবেস থেকে সার্চ করায় চোখের পলকে ফাইল খুঁজে পায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5849,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি এক্সিকিউটেবল কমান্ড শেলের কোন পাথে অবস্থিত (যেমন `/usr/bin/python3`) তা জানার কমান্ড কোনটি?",
+    "options": [
+      "A) who",
+      "B) where",
+      "C) what",
+      "D) which"
+    ],
+    "answer": 3,
+    "explanation": "`which` কমান্ড ব্যবহারকারীর `$PATH` এনভায়রনমেন্ট ভ্যারিয়েবল স্ক্যান করে কোনো নির্দিষ্ট এক্সিকিউটেবলের লোকেশন প্রিন্ট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5850,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্সে একটি ফাইলের সিম্বলিক লিঙ্ক বা সফট লিঙ্ক (Soft Link) তৈরির সঠিক সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) ln source_file link_name",
+      "B) link -s source_file",
+      "C) ln -s source_file link_name",
+      "D) symlink source link"
+    ],
+    "answer": 2,
+    "explanation": "`ln -s` ফ্ল্যাগ ব্যবহার করলে সফট/সিম্বলিক লিঙ্ক তৈরি হয়; ফ্ল্যাগ ছাড়া কেবল `ln` লিখলে হার্ড লিঙ্ক তৈরি হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5851,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "হার্ড লিঙ্ক (Hard Link)-এর প্রধান প্রযুক্তিগত বৈশিষ্ট্য ও সীমাবদ্ধতা কোনটি?",
+    "options": [
+      "A) হার্ড লিঙ্ক মূল ফাইলের সাথে একই i-node শেয়ার করে এবং এটি ভিন্ন পার্টিশন বা ফাইলসিস্টেম অতিক্রম করতে পারে না",
+      "B) হার্ড লিঙ্ক ভিন্ন আইনোডে থাকে",
+      "C) মূল ফাইল মুছলে হার্ড লিঙ্ক নষ্ট হয়ে যায়",
+      "D) হার্ড লিঙ্ক শুধু ডিরেক্টরির হয়"
+    ],
+    "answer": 0,
+    "explanation": "হার্ড লিঙ্ক সরাসরি একই ডিস্ক ইনোডকে পয়েন্ট করে; তাই এটি ক্রস-পার্টিশনে কাজ করতে পারে না এবং ডিরেক্টরিতে হার্ড লিঙ্ক তৈরি নিষিদ্ধ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5852,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্স শেলের তিনটি প্রমিত ডেটা স্ট্রিম: stdin, stdout এবং stderr-এর ফাইল ডেসক্রিপ্টর নম্বর যথাক্রমে কোনটি?",
+    "options": [
+      "A) 1, 2, 3",
+      "B) 0, 1, 2",
+      "C) 0, 2, 1",
+      "D) 2, 1, 0"
+    ],
+    "answer": 1,
+    "explanation": "Standard Input (stdin) = 0, Standard Output (stdout) = 1, এবং Standard Error (stderr) = 2।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5853,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "কমান্ডের আউটপুট ফাইলে পাঠানোর সময় ফাইলের আগের কনটেন্ট মুছে ওভাররাইট করার রিডাইরেকশন অপারেটর কোনটি?",
+    "options": [
+      "A) <",
+      "B) > (গ্রেটার দ্যান)",
+      "C) >>",
+      "D) |"
+    ],
+    "answer": 1,
+    "explanation": "একক `>` অপারেটর গন্তব্য ফাইলের বর্তমান কনটেন্ট মুছে সম্পূর্ণ নতুন করে ওভাররাইট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5854,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "ফাইলের পূর্বের লেখা অক্ষত রেখে নতুন আউটপুট ফাইলের শেষ লাইনে যুক্ত (Append) করার অপারেটর কোনটি?",
+    "options": [
+      "A) <<",
+      "B) 2>",
+      "C) >> (ডাবল গ্রেটার দ্যান)",
+      "D) >"
+    ],
+    "answer": 2,
+    "explanation": "ডাবল `>>` অপারেটর ফাইলের বিদ্যমান ডেটা না মুছে শেষে নতুন লাইন অ্যাপেন্ড করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5855,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি কমান্ডের শুধুমাত্র ত্রুটি বার্তাগুলোকে (Standard Error) ফাইলে রিডাইরেক্ট করতে কোনটি ব্যবহৃত হয়?",
+    "options": [
+      "A) 2>",
+      "B) &>",
+      "C) 1>",
+      "D) >"
+    ],
+    "answer": 0,
+    "explanation": "ফাইল ডেসক্রিপ্টর ২ নির্দেশ করে এরর; তাই `command 2> error.log` দিলে সাধারণ আউটপুট না গিয়ে কেবল এরর বার্তা ফাইলে জমা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5856,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি কমান্ডের সাধারণ আউটপুট এবং এরর উভয়েই একসাথে ফাইলে পাঠাতে কোন অপারেটর ব্যবহৃত হয়?",
+    "options": [
+      "A) <>",
+      "B) 1>2",
+      "C) >>",
+      "D) &> (বা 2>&1)"
+    ],
+    "answer": 3,
+    "explanation": "`&> output.log` অথবা `> output.log 2>&1` কমান্ড stdout ও stderr উভয়কে একই ফাইলেই রিডাইরেক্ট করে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5857,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি কমান্ডের আউটপুটকে সরাসরি পরবর্তী কমান্ডের ইনপুট হিসেবে সংযুক্ত করার পাইপলাইন অপারেটর কোনটি?",
+    "options": [
+      "A) ;",
+      "B) | (ভার্টিক্যাল বার)",
+      "C) &",
+      "D) >"
+    ],
+    "answer": 1,
+    "explanation": "পাইপলাইন অপারেটর `|` বাম পাশের কমান্ডের স্ট্যান্ডার্ড আউটপুটকে মেমরিতে সরাসরি ডান পাশের কমান্ডের স্ট্যান্ডার্ড ইনপুটে ফিড করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5858,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "টেক্সট ফাইলের ভেতর নির্দিষ্ট শব্দ, প্যাটার্ন বা রেগুলার এক্সপ্রেশন অনুসন্ধানকারী বিশ্বখ্যাত ফিল্টার কমান্ড কোনটি?",
+    "options": [
+      "A) search",
+      "B) find",
+      "C) grep",
+      "D) scan"
+    ],
+    "answer": 2,
+    "explanation": "`grep` (Global Regular Expression Print) ফাইলে বা পাইপলাইনে নির্দিষ্ট প্যাটার্ন বা টেক্সট সার্চ করে ম্যাচ হওয়া লাইনগুলো প্রিন্ট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5859,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "`grep` কমান্ডে কেস-ইনসেনসিটিভ (বড়-ছোট অক্ষরের পার্থক্য ছাড়া) অনুসন্ধানের অপশন কোনটি?",
+    "options": [
+      "A) -v",
+      "B) -n",
+      "C) -c",
+      "D) -i"
+    ],
+    "answer": 3,
+    "explanation": "`grep -i pattern file` বড় ও ছোট হাতের অক্ষরের তফাত উপেক্ষা করে ম্যাচ খুঁজে বের করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5860,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "`grep` কমান্ডে নির্দিষ্ট প্যাটার্ন বাদে বাকি অননুরূপ লাইনগুলো (Invert Match) দেখার অপশন কোনটি?",
+    "options": [
+      "A) -v",
+      "B) -l",
+      "C) -r",
+      "D) -i"
+    ],
+    "answer": 0,
+    "explanation": "`grep -v` অপশন ইনভার্ট ম্যাচ সম্পাদন করে; অর্থাৎ যে লাইনে কাঙ্ক্ষিত শব্দটি নেই শুধু সেই লাইনগুলো প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5861,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি ফাইলের মোট লাইন সংখ্যা, শব্দ সংখ্যা এবং বাইট সংখ্যা গণনার কমান্ড কোনটি?",
+    "options": [
+      "A) count",
+      "B) wc (Word Count)",
+      "C) stat",
+      "D) num"
+    ],
+    "answer": 1,
+    "explanation": "`wc` (Word Count) কমান্ড ডিফল্টভাবে লাইন, শব্দ ও বাইট সংখ্যা দেখায়; শুধুমাত্র লাইন দেখতে `wc -l` ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5862,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "টেক্সট ফাইলের লাইনগুলোকে বর্ণানুক্রমিক বা সংখ্যাক্রমে সাজানোর কমান্ড কোনটি?",
+    "options": [
+      "A) uniq",
+      "B) arrange",
+      "C) sort",
+      "D) order"
+    ],
+    "answer": 2,
+    "explanation": "`sort` কমান্ড ইনপুট টেক্সটের লাইনগুলোকে বর্ণানুক্রমে সাজায়; সংখ্যা অনুযায়ী সাজাতে `sort -n` ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5863,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি সাজানো (Sorted) টেক্সট ফাইলের পরপর পুনরাবৃত্তিমূলক ডুপ্লিকেট লাইনগুলো ফিল্টার করে একক কপি রাখার কমান্ড কোনটি?",
+    "options": [
+      "A) uniq",
+      "B) distinct",
+      "C) single",
+      "D) filter"
+    ],
+    "answer": 0,
+    "explanation": "`uniq` কমান্ড সংলগ্ন ডুপ্লিকেট লাইন দূর করে; তাই সচরাচর `sort file | uniq` পাইপলাইনে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5864,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "টেক্সট লাইনের নির্দিষ্ট কলাম বা ডেলিমিটারের ভিত্তিতে অংশবিশেষ কেটে আলাদা করার কমান্ড কোনটি?",
+    "options": [
+      "A) clip",
+      "B) trim",
+      "C) split",
+      "D) cut"
+    ],
+    "answer": 3,
+    "explanation": "`cut -d':' -f1 /etc/passwd` কমান্ড কোলন ডেলিমিটার দিয়ে প্রথম ফিল্ডের (ইউজারনেম) তালিকা আলাদা করতে বহুল ব্যবহৃত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5865,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "কমান্ডের আউটপুটকে একই সাথে টার্মিনাল স্ক্রিনে প্রদর্শন এবং ফাইলে সংরক্ষণ উভয় কাজ করার 'T-shaped' স্প্লিটার কমান্ড কোনটি?",
+    "options": [
+      "A) pipe",
+      "B) split",
+      "C) tee",
+      "D) dual"
+    ],
+    "answer": 2,
+    "explanation": "`tee` কমান্ড পাইপলাইন ডেটাকে স্ক্রিনে প্রদর্শন করার পাশাপাশি সমান্তরালভাবে এক বা একাধিক ফাইলে রাইট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5866,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্স কমান্ড লাইনে ফাইল না খুলে সরাসরি স্ট্রিমে টেক্সট পরিবর্তন ও প্রতিস্থাপন করার 'Stream Editor' টুল কোনটি?",
+    "options": [
+      "A) sed",
+      "B) grep",
+      "C) tr",
+      "D) awk"
+    ],
+    "answer": 0,
+    "explanation": "`sed` (Stream Editor) কমান্ড টেক্সটের স্বয়ংক্রিয় রিপ্লেসমেন্টে ব্যবহৃত হয় (যেমন: `sed 's/apple/orange/g' file.txt`)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5867,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "টেবিল বা কলাম আকারে থাকা ডেটা ফিল্ড প্রসেসিং, প্যাটার্ন স্ক্যানিং ও রিপোর্টিংয়ের শক্তিশালী স্ক্রিপ্টিং কমান্ড কোনটি?",
+    "options": [
+      "A) grep",
+      "B) cut",
+      "C) sed",
+      "D) awk"
+    ],
+    "answer": 3,
+    "explanation": "Aho, Weinberger ও Kernighan উদ্ভাবিত `awk` একটি পূর্ণাঙ্গ প্যাটার্ন স্ক্যানিং ল্যাঙ্গুয়েজ যা `$1, $2` ফিল্ড দিয়ে দ্রুত ডেটা টেবিল প্রসেস করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5868,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "Vim/Vi এডিটরে নতুন টেক্সট টাইপ করার জন্য কমান্ড মোড থেকে ইনসার্ট মোডে যাওয়ার কি (Key) কোনটি?",
+    "options": [
+      "A) x",
+      "B) i (বা a)",
+      "C) Esc",
+      "D) :"
+    ],
+    "answer": 1,
+    "explanation": "Vim এডিটরে `i` (Insert) চাপলে ইনসার্ট মোডে যায় এবং টাইপ করা যায়; পুনরায় কমান্ড মোডে ফিরতে `Esc` চাপতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5869,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "Vim এডিটরে ফাইল সেভ করে এডিটর থেকে সফলভাবে বের হওয়ার কমান্ড কোনটি?",
+    "options": [
+      "A) :exit",
+      "B) :w",
+      "C) :wq (বা :x)",
+      "D) :q!"
+    ],
+    "answer": 2,
+    "explanation": "লাস্ট-লাইন মোডে `:w` দিয়ে সেভ ও `:q` দিয়ে কুইট করা হয়; উভয়ে মিলে `:wq` ফাইল সেভ করে এক্সিট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5870,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "Vim এডিটরে কোনো পরিবর্তন সেভ না করে জোরপূর্বক বের হওয়ার কমান্ড কোনটি?",
+    "options": [
+      "A) :q!",
+      "B) :close",
+      "C) :wq",
+      "D) :exit!"
+    ],
+    "answer": 0,
+    "explanation": "`:q!` কমান্ড কোনো পরিবর্তন সংরক্ষণ না করেই এডিটর বন্ধ করে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5871,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "Vim এডিটরের কমান্ড মোডে সম্পূর্ণ একটি লাইন ডিলিট বা কাট করার শর্টকাট কী?",
+    "options": [
+      "A) u",
+      "B) yy",
+      "C) p",
+      "D) dd"
+    ],
+    "answer": 3,
+    "explanation": "কমান্ড মোডে পরপর দুইবার `d` (`dd`) চাপলে বর্তমান কার্সরের সম্পূর্ণ লাইনটি মুছে ক্লিপবোর্ডে যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5872,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "Vim এডিটরে কোনো লাইন কপি (Yank) এবং পরবর্তীতে কার্সরের নিচে পেস্ট করার শর্টকাট যথাক্রমে কোনটি?",
+    "options": [
+      "A) `cc` ও `v`",
+      "B) কপি করার জন্য `yy` এবং পেস্ট করার জন্য `p`",
+      "C) `dd` ও `p`",
+      "D) `Ctrl+C` ও `Ctrl+V`"
+    ],
+    "answer": 1,
+    "explanation": "Vim-এ কপি করাকে Yank (`yy`) এবং পেস্ট করাকে Put (`p`) বলা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5873,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "Vim এডিটরে সর্বশেষ ভুল পদক্ষেপ বাতিল (Undo) করার শর্টকাট কী?",
+    "options": [
+      "A) Ctrl+Z",
+      "B) :u",
+      "C) u",
+      "D) r"
+    ],
+    "answer": 2,
+    "explanation": "কমান্ড মোডে সাধারণ `u` চাপলে পূর্ববর্তী অ্যাকশন আনডু (Undo) হয় এবং `Ctrl + r` চাপলে রিডু (Redo) হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5874,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "টার্মিনালে ব্যবহৃত অত্যন্ত সহজ ও ফ্রেন্ডলি নন-মোডাল টেক্সট এডিটর কোনটি যাতে নিচে শর্টকাট গাইড থাকে?",
+    "options": [
+      "A) nano",
+      "B) ed",
+      "C) vim",
+      "D) emacs"
+    ],
+    "answer": 0,
+    "explanation": "`nano` হলো শিক্ষানবিসদের জন্য সহজ এডিটর যাতে কোনো মোডাল জটিলতা নেই এবং `Ctrl + O` দিয়ে সেভ ও `Ctrl + X` দিয়ে এক্সিট করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5875,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "দুটি টেক্সট ফাইলের মধ্যে লাইনের পার্থক্য তুলনা ও প্রদর্শন করার স্ট্যান্ডার্ড কমান্ড কোনটি?",
+    "options": [
+      "A) compare",
+      "B) diff",
+      "C) comm",
+      "D) cmp"
+    ],
+    "answer": 1,
+    "explanation": "`diff file1 file2` দুটি ফাইলের মধ্যে কোথায় কী যোগ বা বিয়োগ হয়েছে তা স্পষ্টভাবে তুলে ধরে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5876,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি ফাইলের ভেতরের তথ্য বিশ্লেষণ করে তার আসল ফাইল টাইপ (যেমন ELF binary, ASCII text, PNG image) বের করার কমান্ড কোনটি?",
+    "options": [
+      "A) stat",
+      "B) type",
+      "C) info",
+      "D) file"
+    ],
+    "answer": 3,
+    "explanation": "`file filename` ফাইলের ম্যাজিক নম্বর ও হেডার পড়ে এক্সটেনশন ভুল থাকলেও তার সঠিক ফাইল ফরম্যাট চিহ্নিত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5877,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "কোনো ফাইলের ইনোড নম্বর, সাইজ, ব্লক সংখ্যা, আই/ও ব্লক এবং বিস্তারিত টাইমস্ট্যাম্প (Access, Modify, Change) দেখার কমান্ড কোনটি?",
+    "options": [
+      "A) stat",
+      "B) inquire",
+      "C) file",
+      "D) ls"
+    ],
+    "answer": 0,
+    "explanation": "`stat filename` কমান্ড ফাইলের সমস্ত নিম্নস্তরের ইনোড মেটাডাটা বিস্তারিতভাবে প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5878,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "টার্মিনাল স্ক্রিন সম্পূর্ণ পরিষ্কার করে ফাঁকা করার কমান্ড কোনটি?",
+    "options": [
+      "A) clean",
+      "B) clear (বা Ctrl + L)",
+      "C) cls",
+      "D) reset"
+    ],
+    "answer": 1,
+    "explanation": "লিনাক্সে টার্মিনাল ক্লিয়ার করতে `clear` কমান্ড বা কিবোর্ড শর্টকাট `Ctrl + L` ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5879,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "পূর্বে কার্যকর করা সমস্ত কমান্ডের ধারাবাহিক তালিকা দেখতে কোন কমান্ড ব্যবহৃত হয়?",
+    "options": [
+      "A) log",
+      "B) past",
+      "C) relist",
+      "D) history"
+    ],
+    "answer": 3,
+    "explanation": "`history` কমান্ড বর্তমান শেলের কমান্ড হিস্ট্রি প্রদর্শন করে এবং `!number` দিয়ে অতীত কমান্ড পুনরায় রান করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5880,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.২: লিনাক্স কমান্ড লাইন ও ফাইল ম্যানেজমেন্ট",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "দীর্ঘ কোনো জটিল কমান্ডের সংক্ষিপ্ত রূপ বা নিজস্ব শর্টকাট তৈরি করার কমান্ড কোনটি?",
+    "options": [
+      "A) macro",
+      "B) shortcut",
+      "C) alias",
+      "D) bind"
+    ],
+    "answer": 2,
+    "explanation": "`alias` দিয়ে কাস্টম শর্টকাট ডিফাইন করা যায় (যেমন: `alias ll='ls -la'`), যা স্থায়ী করতে `~/.bashrc` ফাইলে লেখা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

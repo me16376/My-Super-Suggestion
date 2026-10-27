@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3013,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Transformation of Sentences",
+    "question": "Transform the following sentences as directed without changing their original meaning:\n(a) As soon as the biometric scanner read the fingerprint, the e-gate opened. (Make it Negative using 'No sooner had')\n(b) In spite of working day and night, the technician could not restore the corrupted database. (Make it Compound)\n(c) The server is so overloaded that it cannot handle additional concurrent requests. (Make it Simple using 'too...to')\n(d) No other security protocol in our department is as robust as PKI. (Make it Superlative)\n(e) Who does not wish to serve the motherland? (Make it Assertive)",
+    "marks": 5,
+    "answer": "Transformation Solutions:\n\n(a) **Negative:** No sooner had the biometric scanner read the fingerprint than the e-gate opened.\n\n(b) **Compound:** The technician worked day and night, but he could not restore the corrupted database.\n\n(c) **Simple:** The server is too overloaded to handle additional concurrent requests.\n\n(d) **Superlative:** PKI is the most robust security protocol in our department.\n\n(e) **Assertive:** Everyone wishes to serve the motherland.",
+    "points_to_remember": [
+      "No sooner had + Sub + V3 ... than + Sub + V2.",
+      "Too + adj + to + V1 replaces so...that + negative clause."
+    ],
+    "tags": [
+      "transformation",
+      "english_grammar"
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3050,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "High-Frequency Vocabulary & Contextual Mastery",
+    "question": "For each of the following advanced vocabulary words, provide: (1) its precise grammatical definition, (2) an exact antonym, and (3) an exemplary sentence in an IT or administrative context:\n(a) Alacrity\n(b) Cacophony\n(c) Paradigm\n(d) Quintessential\n(e) Fastidious\n(f) Obsolete",
+    "marks": 6,
+    "answer": "High-Frequency Vocabulary Analysis:\n\n(a) **Alacrity** (Noun):\n• Definition: Brisk, cheerful readiness and promptness in response.\n• Antonym: Reluctance / Hesitation / Sluggishness.\n• *Sentence:* The on-call engineering team responded with remarkable alacrity to resolve the critical server database deadlock.\n\n(b) **Cacophony** (Noun):\n• Definition: A harsh, discordant, and jarring mixture of sounds.\n• Antonym: Harmony / Euphony / Symphony.\n• *Sentence:* Amidst the cacophony of screeching UPS warning alarms in the server room, the senior technician methodically identified the tripping circuit breaker.\n\n(c) **Paradigm** (Noun):\n• Definition: A typical example, model, or conceptual framework of something.\n• Antonym: Anomaly / Deviation.\n• *Sentence:* The migration from monolithic codebases to microservices represents a profound paradigm shift in modern software development.\n\n(d) **Quintessential** (Adjective):\n• Definition: Representing the most perfect or typical embodiment of a quality or class.\n• Antonym: Substandard / Mediocre / Atypical.\n• *Sentence:* The Tier-IV National Data Center stands as the quintessential model of high-availability public infrastructure.\n\n(e) **Fastidious** (Adjective):\n• Definition: Very attentive to and concerned about accuracy, detail, and cleanliness.\n• Antonym: Careless / Sloppy / Negligent.\n• *Sentence:* The database administrator is fastidious about maintaining transaction log integrity and verifying backup checksums daily.\n\n(f) **Obsolete** (Adjective):\n• Definition: No longer produced or used; completely out of date.\n• Antonym: Contemporary / Modern / State-of-the-art.\n• *Sentence:* Traditional legacy passbooks have become entirely obsolete following the nationwide adoption of polycarbonate biometric e-passports.",
+    "points_to_remember": [
+      "Using precise grammatical categories and sophisticated contextual sentences demonstrates linguistic mastery in written tests."
+    ],
+    "tags": [
+      "vocabulary",
+      "gre_words",
+      "english_written"
+    ]
+  }
+]

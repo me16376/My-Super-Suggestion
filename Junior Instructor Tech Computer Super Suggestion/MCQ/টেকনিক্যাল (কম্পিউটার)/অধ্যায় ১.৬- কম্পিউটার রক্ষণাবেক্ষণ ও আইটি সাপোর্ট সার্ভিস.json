@@ -1,0 +1,632 @@
+[
+  {
+    "id": 1171,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "কম্পিউটার পাওয়ার অন করার পর মনিটরে কোনো ডিসপ্লে না আসা এবং বায়োস থেকে বারবার অবিচ্ছিন্ন বিপ (Continuous Beep) শব্দ হওয়ার সম্ভাব্য কারণ কী?",
+    "options": [
+      "A) মাউসের সমস্যা",
+      "B) সিপিইউ ফ্যানের সমস্যা",
+      "C) হার্ডডিস্কের ত্রুটি",
+      "D) র‍্যাম (RAM) এর ত্রুটি বা র‍্যাম স্লটে ধুলাবালি জমা"
+    ],
+    "answer": 3,
+    "explanation": "পোস্ট (POST) এর সময় র‍্যাম শনাক্ত করতে না পারলে বা র‍্যাম ঢিলা হলে বায়োস দীর্ঘ অবিচ্ছিন্ন বিপ শব্দ দিয়ে সতর্ক করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1172,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "সিপিইউ প্রসেসর এবং হিটসিঙ্কের মাঝে নিখুঁত তাপ পরিবহনের জন্য কোনটি প্রয়োগ করা আবশ্যক?",
+    "options": [
+      "A) থার্মাল পেস্ট (Thermal Paste / Grease)",
+      "B) গ্লু আঠা",
+      "C) মবিল লুব্রিকেন্ট",
+      "D) অ্যালকোহল"
+    ],
+    "answer": 0,
+    "explanation": "থার্মাল পেস্ট প্রসেসর ও মেটাল হিটসিঙ্কের মধ্যবর্তী ক্ষুদ্রাতিক্ষুদ্র বায়ু দূর করে তাপ পরিবাহিতা নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1173,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "কম্পিউটার চালু হওয়ার কিছুক্ষণের মধ্যেই অতিরিক্ত গরম হয়ে নিজে থেকেই বন্ধ (Thermal Shutdown) হওয়ার মূল কারণ কী?",
+    "options": [
+      "A) সিপিইউ কুলিং ফ্যান বন্ধ থাকা বা থার্মাল পেস্ট শুকিয়ে যাওয়া",
+      "B) মনিটরের ব্রাইটনেস বেশি হওয়া",
+      "C) কীবোর্ডের ত্রুটি",
+      "D) সাউন্ড কার্ডের সমস্যা"
+    ],
+    "answer": 0,
+    "explanation": "সিপিইউ তাপমাত্রা বিপৎসীমা (৯০°-১০০° সে.) অতিক্রম করলে হার্ডওয়্যার পুড়ে যাওয়া রোধে স্বয়ংক্রিয়ভাবে শাটডাউন হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1174,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "ঐতিহ্যবাহী এমবিআর (MBR - Master Boot Record) পার্টিশন স্কিমে সর্বোচ্চ কতটি প্রাইমারি পার্টিশন তৈরি করা যায়?",
+    "options": [
+      "A) ২টি",
+      "B) ৪টি",
+      "C) ৮টি",
+      "D) ১২৮টি"
+    ],
+    "answer": 1,
+    "explanation": "MBR পার্টিশন টেবিলে সর্বোচ্চ ৪টি প্রাইমারি পার্টিশন (অথবা ৩টি প্রাইমারি ও ১টি এক্সটেন্ডেড পার্টিশন) তৈরি করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1175,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এমবিআর (MBR) পার্টিশন টেবিলের সর্বোচ্চ হার্ডডিস্ক ধারণক্ষমতা সমর্থন কত?",
+    "options": [
+      "A) 1 TB",
+      "B) 500 GB",
+      "C) 2 TB (টেরাবাইট)",
+      "D) 4 TB"
+    ],
+    "answer": 2,
+    "explanation": "৩২-বিট সেক্টর অ্যাড্রেসিং সীমাবদ্ধতার কারণে MBR সর্বোচ্চ ২ টেরাবাইট পর্যন্ত ডিস্ক সমর্থন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1176,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "আধুনিক জিপিটি (GPT - GUID Partition Table) স্কিমে সর্বোচ্চ কতটি পার্টিশন তৈরি করা যায়?",
+    "options": [
+      "A) ১৬টি",
+      "B) ৪টি",
+      "C) ৬৪টি",
+      "D) ১২৮টি"
+    ],
+    "answer": 3,
+    "explanation": "UEFI ভিত্তিক GPT পার্টিশনিং স্কিমে কোনো এক্সটেন্ডেড পার্টিশন ছাড়াই ১২৮টি প্রাইমারি পার্টিশন করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1177,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "উইন্ডোজের সিস্টেম ফাইল নষ্ট হয়ে গেলে পূর্বের সংরক্ষিত ভালো অবস্থায় সিস্টেমকে ফিরিয়ে নেওয়ার টুলের নাম কী?",
+    "options": [
+      "A) ডিফ্র্যাগমেন্টার",
+      "B) ফরমেটিং",
+      "C) ডিস্ক ক্লিনআপ",
+      "D) সিস্টেম রিস্টোর পয়েন্ট (System Restore Point)"
+    ],
+    "answer": 3,
+    "explanation": "System Restore ব্যবহারকারীর ব্যক্তিগত ফাইল নষ্ট না করে রেজিস্ট্রি ও সিস্টেম ফাইলকে পূর্বের সেভ পয়েন্টে ফিরিয়ে নেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1178,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "কম্পিউটারের পাওয়ার সাপ্লাই ইউনিটের (SMPS) ২৪-পিন ATX কানেক্টরের মাদারবোর্ড পাওয়ার-অন সিগন্যাল তারের রঙ কী?",
+    "options": [
+      "A) কালো (Black - Ground)",
+      "B) হলুদ (Yellow - +12V)",
+      "C) সবুজ (Green - PS_ON)",
+      "D) লাল (Red - +5V)"
+    ],
+    "answer": 2,
+    "explanation": "সবুজ তার (PS_ON) কে যেকোনো কালো (Ground) তারের সাথে শর্ট করলে এসএমপিএস ফ্যান স্বয়ংক্রিয়ভাবে চালু হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1179,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এসএমপিএস-এর হলুদ (Yellow) তারের আউটপুট ভোল্টেজ মান কত?",
+    "options": [
+      "A) +3.3V",
+      "B) +12V",
+      "C) -12V",
+      "D) +5V"
+    ],
+    "answer": 1,
+    "explanation": "হলুদ তার হলো +12V (ফ্যান, ডিস্ক মোটর ও প্রসেসরের জন্য), লাল তার হলো +5V এবং কমলা তার হলো +3.3V।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1180,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "হার্ডডিস্কের কোনো ফিজিক্যাল ব্যাড সেক্টর (Bad Sector) বা ফাইল সিস্টেমের ত্রুটি স্ক্যান ও মেরামতের কমান্ড কোনটি?",
+    "options": [
+      "A) chkdsk /f /r",
+      "B) sfc /scannow",
+      "C) diskpart",
+      "D) format c:"
+    ],
+    "answer": 0,
+    "explanation": "chkdsk (Check Disk) ইউটিলিটি ফাইলের অখণ্ডতা পরীক্ষা করে এবং ক্ষতিগ্রস্ত সেক্টর রিড করে ডেটা উদ্ধারের চেষ্টা করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1181,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "উইন্ডোজের করাপ্ট বা বিকৃত হওয়া সিস্টেম ফাইল স্ক্যান করে স্বয়ংক্রিয়ভাবে অরিজিনাল ফাইল দিয়ে প্রতিস্থাপনের কমান্ড কোনটি?",
+    "options": [
+      "A) ipconfig /renew",
+      "B) sfc /scannow (System File Checker)",
+      "C) chkdsk",
+      "D) netsh winsock reset"
+    ],
+    "answer": 1,
+    "explanation": "SFC (System File Checker) সুরক্ষিত সিস্টেম ফাইলের ইন্টিগ্রিটি চেক করে মাইক্রোসফটের ক্যাশ কপি দিয়ে মেরামত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1182,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "কম্পিউটারের আইপি অ্যাড্রেস, সাবনেট মাস্ক ও ডিফল্ট গেটওয়ে জানার জন্য কমান্ড প্রম্পটে কোন কমান্ড লেখা হয়?",
+    "options": [
+      "A) netstat",
+      "B) tracert",
+      "C) ping",
+      "D) ipconfig"
+    ],
+    "answer": 3,
+    "explanation": "উইন্ডোজ কমান্ড প্রম্পটে 'ipconfig' চাপলে বর্তমান নেটওয়ার্ক ইন্টারফেসের আইপি তথ্য প্রদর্শিত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1183,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "নেটওয়ার্কের অন্য একটি কম্পিউটারের সাথে সংযোগ ঠিক আছে কিনা এবং লেটেন্সি কত তা পরীক্ষার কমান্ড কোনটি?",
+    "options": [
+      "A) ipconfig",
+      "B) nslookup",
+      "C) ping",
+      "D) route"
+    ],
+    "answer": 2,
+    "explanation": "Ping কমান্ড ICMP Echo Request পাঠিয়ে হোস্ট ডিভাইসটির সক্রিয়তা ও রেসপন্স সময় (RTT) যাচাই করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1184,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "একটি প্যাকেটের সোর্স থেকে ডেস্টিনেশন সার্ভার পর্যন্ত পৌঁছাতে মধ্যবর্তী সকল রাউটার বা হপ দেখানোর কমান্ড কোনটি?",
+    "options": [
+      "A) tracert (Traceroute)",
+      "B) ping",
+      "C) arp",
+      "D) netstat"
+    ],
+    "answer": 0,
+    "explanation": "Tracert কমান্ড TTL বাড়িয়ে বাড়িয়ে প্যাকেটের প্রতিটি ট্রাভেল পাথ ও রাউটার আইপি প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1185,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "কম্পিউটারের হার্ডওয়্যার উপাদানসমূহের (RAM, Display, Sound) বিস্তারিত টেস্ট রিপোর্ট পেতে রান কমান্ডে কী লেখা হয়?",
+    "options": [
+      "A) dxdiag",
+      "B) cleanmgr",
+      "C) msconfig",
+      "D) regedit"
+    ],
+    "answer": 0,
+    "explanation": "dxdiag (DirectX Diagnostic Tool) গ্রাফিক্স, প্রসেসর, র‍্যাম ও সাউন্ডের সার্বিক অবস্থা যাচাই করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1186,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "উইন্ডোজ স্টার্টআপে কোন কোন অ্যাপ স্বয়ংক্রিয়ভাবে চালু হবে তা নিয়ন্ত্রণ করতে কোন কনফিগারেশন ইউটিলিটি ব্যবহৃত হয়?",
+    "options": [
+      "A) dxdiag",
+      "B) msconfig (System Configuration)",
+      "C) cmd",
+      "D) control"
+    ],
+    "answer": 1,
+    "explanation": "msconfig-এর মাধ্যমে বুট অপশন, সার্ভিস ও স্টার্টআপ অ্যাপ নিয়ন্ত্রণ করে পিসি দ্রুত করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1187,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "কম্পিউটারের সকল কানেক্টেড হার্ডওয়্যার ও ড্রাইভারের হলুদ সতর্কতা চিহ্ন (Yellow Exclamation Mark) চেক করার টুল কোনটি?",
+    "options": [
+      "A) সার্ভিসেস",
+      "B) ইভেন্ট ভিউয়ার",
+      "C) ডিস্ক ম্যানেজমেন্ট",
+      "D) ডিভাইস ম্যানেজার (Device Manager - devmgmt.msc)"
+    ],
+    "answer": 3,
+    "explanation": "Device Manager-এ কোনো ড্রাইভার মিসিং বা ত্রুটিপূর্ণ হলে হলুদ বিস্ময়সূচক চিহ্ন প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1188,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "নতুন হার্ডডিস্ক পার্টিশন করা, ড্রাইভ লেটার বরাদ্দ করা ও ফরম্যাট করার উইন্ডোজ কনসোল টুল কোনটি?",
+    "options": [
+      "A) টাস্ক শিডিউলার",
+      "B) ফায়ারওয়াল",
+      "C) ডিস্ক ম্যানেজমেন্ট (Disk Management - diskmgmt.msc)",
+      "D) ডিভাইস ম্যানেজার"
+    ],
+    "answer": 2,
+    "explanation": "Disk Management ড্রাইভ শ্রিঙ্ক, এক্সপ্যান্ড, নতুন ভলিউম তৈরি ও ড্রাইভ লেটার নির্ধারণের মূল টুল।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1189,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "উইন্ডোজের ব্যাকগ্রাউন্ড সিস্টেম সার্ভিসসমূহ (যেমন- Print Spooler, Windows Update) চালু/বন্ধ করার টুল কোনটি?",
+    "options": [
+      "A) secpol.msc",
+      "B) services.msc",
+      "C) gpedit.msc",
+      "D) eventvwr"
+    ],
+    "answer": 1,
+    "explanation": "Services.msc উইন্ডোজের সকল সিস্টেম ডেমন ও ব্যাকগ্রাউন্ড সার্ভিস পরিচালনা করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1190,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "প্রিন্টারে কোনো ডকুমেন্ট প্রিন্ট আটকে গেলে (Print Job Stuck) কোন সার্ভিস রিস্টার্ট দিতে হয়?",
+    "options": [
+      "A) Print Spooler",
+      "B) Workstation",
+      "C) Windows Audio",
+      "D) Remote Desktop"
+    ],
+    "answer": 0,
+    "explanation": "Print Spooler সার্ভিস রিস্টার্ট দিলে প্রিন্ট কিউ খালি হয়ে প্রিন্টার পুনরায় সচল হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1191,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "কোনো কারণে উইন্ডোজের অডিও সম্পূর্ণ বন্ধ হয়ে গেলে সার্ভিস থেকে কোনটি রিস্টার্ট করতে হয়?",
+    "options": [
+      "A) Plug and Play",
+      "B) Task Scheduler",
+      "C) Audio Router",
+      "D) Windows Audio"
+    ],
+    "answer": 3,
+    "explanation": "Windows Audio সার্ভিস সাউন্ড চিপ ও ড্রাইভারের সাথে অ্যাপ্লিকেশন সাউন্ড স্ট্রিম সিঙ্ক করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1192,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "কম্পিউটারের মাদারবোর্ডে বায়োস চিপকে নতুন ভার্সনে আপডেট করার প্রক্রিয়াকে কী বলা হয়?",
+    "options": [
+      "A) ফার্মওয়্যার ডিলিট",
+      "B) বায়োস ক্লিয়ারিং",
+      "C) বায়োস ফ্ল্যাশিং (BIOS Flashing / Firmware Update)",
+      "D) চিপ ওভারক্লকিং"
+    ],
+    "answer": 2,
+    "explanation": "মাদারবোর্ডের রম চিপে নতুন মাইক্রোকোড বা ফার্মওয়্যার ইন্সটল করাকে BIOS Flashing বলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1193,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "কম্পিউটারের প্রসেসরের নির্ধারিত স্বাভাবিক গতির চেয়ে বেশি গতিতে কৃত্রিমভাবে চালানোর প্রক্রিয়াকে কী বলে?",
+    "options": [
+      "A) হাইপার-থ্রেডিং",
+      "B) বুস্টিং",
+      "C) ওভারক্লকিং (Overclocking)",
+      "D) আন্ডারক্লকিং"
+    ],
+    "answer": 2,
+    "explanation": "Overclocking ক্লক মাল্টিপ্লায়ার বা ভোল্টেজ বাড়িয়ে কর্মক্ষমতা বৃদ্ধি করে, তবে এর ফলে অতিরিক্ত তাপ উৎপন্ন হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1194,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "একটি সম্পূর্ণ হার্ডডিস্কের হুবহু শতভাগ প্রতিচ্ছবি বা ক্লোন (Exact Sector-by-Sector Copy) তৈরি করার প্রক্রিয়া কোনটি?",
+    "options": [
+      "A) ডিস্ক ক্লোনিং (Disk Cloning)",
+      "B) ফাইল কপি",
+      "C) ডিস্ক কম্প্রেশন",
+      "D) ডিস্ক ব্যাকআপ"
+    ],
+    "answer": 0,
+    "explanation": "Disk Cloning ওএস, সিস্টেম পার্টিশন ও ফাইল সহ সম্পূর্ণ ড্রাইভের অবিকল রেপ্লিকা ড্রাইভ তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1195,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "উইন্ডোজে পেনড্রাইভের ক্ষতিকর অটো-রান ভাইরাস ছড়ানো বন্ধে কোন সার্ভিসটি নিষ্ক্রিয় করা উচিত?",
+    "options": [
+      "A) ReadyBoost",
+      "B) AutoPlay / AutoRun",
+      "C) Superfetch",
+      "D) Windows Search"
+    ],
+    "answer": 1,
+    "explanation": "AutoRun নিষ্ক্রিয় করলে পেনড্রাইভ ঢোকানোর সাথে সাথে কোনো ম্যালওয়্যার স্বয়ংক্রিয়ভাবে রান হতে পারে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1196,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "পেনড্রাইভ দিয়ে উইন্ডোজ ইন্সটল করার জন্য বুটেবল ইউএসবি (Bootable USB) তৈরিতে কোন ওপেন-সোর্স সফটওয়্যারটি বহুল ব্যবহৃত?",
+    "options": [
+      "A) Notepad",
+      "B) WinRAR",
+      "C) VLC",
+      "D) Rufus"
+    ],
+    "answer": 3,
+    "explanation": "Rufus আইএসও (ISO) ইমেজ ফাইল থেকে অতি দ্রুত MBR বা GPT মোডে বুটেবল ইউএসবি ড্রাইভ তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1197,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "পিসিতে হঠাৎ ইন্টারনেট কাজ না করলে আইপি সংক্রান্ত ক্যাশ ও সকেট রিসেট করার সঠিক কমান্ড কোনটি?",
+    "options": [
+      "A) cls",
+      "B) ping localhost",
+      "C) ipconfig /all",
+      "D) netsh winsock reset"
+    ],
+    "answer": 3,
+    "explanation": "'netsh winsock reset' টিসিপি/আইপি স্ট্যাক ক্যাটালগ পুনর্নির্মাণ করে নেটওয়ার্ক ত্রুটি দূর করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1198,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "কম্পিউটারের লোকাল ডিএনএস ক্যাশ মেমোরি ক্লিয়ার করার কমান্ড কোনটি?",
+    "options": [
+      "A) ipconfig /release",
+      "B) ipconfig /flushdns",
+      "C) net view",
+      "D) ipconfig /renew"
+    ],
+    "answer": 1,
+    "explanation": "'ipconfig /flushdns' কম্পিউটারের পুরনো জমে থাকা ডিএনএস হোস্টনেম ক্যাশ মুছে ফ্রেশ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1199,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "কম্পিউটার হার্ডওয়্যারের দীর্ঘস্থায়িত্ব বজায় রাখতে নিয়মিত অভ্যন্তরীণ রক্ষণাবেক্ষণে কোনটি জরুরি?",
+    "options": [
+      "A) ব্লোয়ার দিয়ে ধুলাবালি পরিষ্কার ও পর্যাপ্ত বায়ু চলাচল নিশ্চিত করা",
+      "B) ফ্যান খুলে রাখা",
+      "C) পিসির ভেতর পানি ছিটানো",
+      "D) অতিরিক্ত তাপমাত্রায় পিসি চালানো"
+    ],
+    "answer": 0,
+    "explanation": "ধুলাবালি জমা হলে হিটসিঙ্কের তাপ নির্গমন বন্ধ হয়ে যন্ত্রাংশ ক্ষতিগ্রস্ত হয়, তাই নিয়মিত ব্লোয়ার দিয়ে পরিষ্কার করা প্রয়োজন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1200,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৬: কম্পিউটার রক্ষণাবেক্ষণ ও আইটি সাপোর্ট সার্ভিস",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "অফিসে একাধিক কম্পিউটারের ব্যাকআপ এবং ডেটা সুরক্ষার সবচেয়ে কার্যকর এন্টারপ্রাইজ ব্যাকআপ নীতি কোনটি?",
+    "options": [
+      "A) একই হার্ডডিস্কের অন্য ফোল্ডারে কপি রাখা",
+      "B) ব্যাকআপ না নেওয়া",
+      "C) ২-১ ব্যাকআপ রুল (3 কপি ডেটা, 2 ভিন্ন মিডিয়া, 1 কপি অফসাইট/ক্লাউডে)",
+      "D) পেনড্রাইভে ১ কপি রাখা"
+    ],
+    "answer": 2,
+    "explanation": "3-2-1 ব্যাকআপ নিয়ম অনুযায়ী মূল ডেটাসহ ৩ কপি ডেটা, অন্তত ২টি ভিন্ন স্টোরেজে এবং ১ কপি দূরবর্তী ক্লাউড বা অফসাইটে সুরক্ষিত রাখতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

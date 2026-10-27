@@ -1,0 +1,4002 @@
+[
+  {
+    "id": 10201,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He died ___ cholera.",
+    "options": [
+      "A) for",
+      "B) by",
+      "C) of",
+      "D) from"
+    ],
+    "answer": 2,
+    "explanation": "রোগে মারা গেলে 'die of' ব্যবহৃত হয়। সুতরাং 'He died of cholera' সঠিক।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10202,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The soldier died ___ his country.",
+    "options": [
+      "A) for",
+      "B) from",
+      "C) of",
+      "D) by"
+    ],
+    "answer": 0,
+    "explanation": "দেশের জন্য আত্মত্যাগ বা কোনো মহৎ উদ্দেশ্যে মারা গেলে 'die for' ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10203,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He died ___ overeating.",
+    "options": [
+      "A) for",
+      "B) of",
+      "C) by",
+      "D) from"
+    ],
+    "answer": 3,
+    "explanation": "অতিরিক্ত খাওয়া, পরিশ্রম বা অন্য কোনো পরোক্ষ কারণে মারা গেলে 'die from' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10204,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The passenger died ___ an accident.",
+    "options": [
+      "A) for",
+      "B) by",
+      "C) of",
+      "D) from"
+    ],
+    "answer": 1,
+    "explanation": "দুর্ঘটনায় বা অপঘাতে মারা গেলে সাধারণত 'die by' (বা in an accident) ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10205,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He died ___ poison.",
+    "options": [
+      "A) by",
+      "B) for",
+      "C) of",
+      "D) from"
+    ],
+    "answer": 0,
+    "explanation": "বিষপানে বা আত্মহত্যাজনিত কারণে মারা গেলে 'die by poison' ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10206,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "She died ___ poverty and starvation.",
+    "options": [
+      "A) by",
+      "B) of",
+      "C) for",
+      "D) from"
+    ],
+    "answer": 3,
+    "explanation": "অনাহার বা দারিদ্রে মারা গেলে 'die from' (বা of starvation) বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10207,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The brave man died ___ harness.",
+    "options": [
+      "A) on",
+      "B) at",
+      "C) in",
+      "D) by"
+    ],
+    "answer": 2,
+    "explanation": "'Die in harness' একটি ইডিয়ম, যার অর্থ কর্মরত অবস্থায় মৃত্যুবরণ করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10208,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He is good ___ English.",
+    "options": [
+      "A) with",
+      "B) at",
+      "C) in",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "কোনো বিষয়ে দক্ষ বোঝাতে 'good at' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10209,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He is weak ___ Mathematics.",
+    "options": [
+      "A) for",
+      "B) on",
+      "C) at",
+      "D) in"
+    ],
+    "answer": 3,
+    "explanation": "কোনো বিষয়ে কাঁচা বা দুর্বল বোঝাতে 'weak in' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10210,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The boy is clever ___ painting.",
+    "options": [
+      "A) with",
+      "B) at",
+      "C) in",
+      "D) on"
+    ],
+    "answer": 1,
+    "explanation": "কোনো বিষয়ে পারদর্শী বোঝাতে 'clever at' ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10211,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He is senior ___ me by two years.",
+    "options": [
+      "A) to",
+      "B) of",
+      "C) than",
+      "D) from"
+    ],
+    "answer": 0,
+    "explanation": "Senior, junior, superior, inferior, prior ইত্যাদির পর তুলনার ক্ষেত্রে 'to' বসে, 'than' নয়।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10212,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "I am junior ___ all my colleagues.",
+    "options": [
+      "A) than",
+      "B) from",
+      "C) to",
+      "D) with"
+    ],
+    "answer": 2,
+    "explanation": "Junior-এর পরে সর্বদা preposition হিসেবে 'to' ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10213,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "This brand is superior ___ that one.",
+    "options": [
+      "A) to",
+      "B) from",
+      "C) over",
+      "D) than"
+    ],
+    "answer": 0,
+    "explanation": "Superior-এর পরে comparative ডিগ্রির ক্ষেত্রে 'to' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10214,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The quality of this cloth is inferior ___ that.",
+    "options": [
+      "A) with",
+      "B) from",
+      "C) to",
+      "D) than"
+    ],
+    "answer": 2,
+    "explanation": "Inferior-এর পরে 'to' ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10215,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Prior ___ that, he had worked in a bank.",
+    "options": [
+      "A) from",
+      "B) to",
+      "C) than",
+      "D) before"
+    ],
+    "answer": 1,
+    "explanation": "Prior শব্দের পর উপযুক্ত preposition হিসেবে 'to' বসে (prior to = পূর্বে)।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10216,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "I prefer tea ___ coffee.",
+    "options": [
+      "A) from",
+      "B) than",
+      "C) over",
+      "D) to"
+    ],
+    "answer": 3,
+    "explanation": "পছন্দের ক্ষেত্রে দুইটির মধ্যে তুলনা করতে 'prefer ... to ...' ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10217,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He preferred death ___ dishonour.",
+    "options": [
+      "A) to",
+      "B) over",
+      "C) than",
+      "D) from"
+    ],
+    "answer": 0,
+    "explanation": "Prefer-এর পর 'to' বসে। 'He preferred death to dishonour' অর্থ সে অপমানের চেয়ে মৃত্যুকে প্রাধান্য দিল।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10218,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "You must abide ___ the rules of the institution.",
+    "options": [
+      "A) with",
+      "B) to",
+      "C) in",
+      "D) by"
+    ],
+    "answer": 3,
+    "explanation": "'Abide by' অর্থ মেনে চলা। নিয়মানুবর্তিতা বোঝাতে abide by বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10219,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He is absorbed ___ deep thought.",
+    "options": [
+      "A) with",
+      "B) at",
+      "C) in",
+      "D) on"
+    ],
+    "answer": 2,
+    "explanation": "'Absorbed in' অর্থ মগ্ন বা নিমগ্ন থাকা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10220,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Please abstain ___ evil company.",
+    "options": [
+      "A) with",
+      "B) from",
+      "C) in",
+      "D) to"
+    ],
+    "answer": 1,
+    "explanation": "'Abstain from' অর্থ কোনো কিছু থেকে বিরত থাকা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10221,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "We should refrain ___ smoking in public places.",
+    "options": [
+      "A) to",
+      "B) by",
+      "C) with",
+      "D) from"
+    ],
+    "answer": 3,
+    "explanation": "'Refrain from' অর্থ বিরত থাকা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10222,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He is accustomed ___ working hard.",
+    "options": [
+      "A) with",
+      "B) in",
+      "C) to",
+      "D) at"
+    ],
+    "answer": 2,
+    "explanation": "'Accustomed to' অর্থ অভ্যস্ত হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10223,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "You should adhere ___ your principles.",
+    "options": [
+      "A) with",
+      "B) to",
+      "C) in",
+      "D) on"
+    ],
+    "answer": 1,
+    "explanation": "'Adhere to' অর্থ দৃঢ়ভাবে লেগে থাকা বা নীতিতে অবিচল থাকা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10224,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "His house is adjacent ___ the school.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) near",
+      "D) at"
+    ],
+    "answer": 0,
+    "explanation": "'Adjacent to' অর্থ সংলগ্ন বা নিকটে অবস্থিত।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10225,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The old man is afflicted ___ arthritis.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) by",
+      "D) of"
+    ],
+    "answer": 1,
+    "explanation": "'Afflicted with' অর্থ যন্ত্রণাদায়ক ব্যাধি বা কষ্টে পীড়িত হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10226,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Children are often afraid ___ ghosts.",
+    "options": [
+      "A) with",
+      "B) to",
+      "C) from",
+      "D) of"
+    ],
+    "answer": 3,
+    "explanation": "'Afraid of' অর্থ ভীত হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10227,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The hunter aimed ___ the bird.",
+    "options": [
+      "A) on",
+      "B) to",
+      "C) at",
+      "D) with"
+    ],
+    "answer": 2,
+    "explanation": "'Aim at' অর্থ কোনো লক্ষ্যবস্তুর দিকে তাক করা বা নিশানা করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10228,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The teacher was angry ___ the students.",
+    "options": [
+      "A) with",
+      "B) at",
+      "C) to",
+      "D) for"
+    ],
+    "answer": 0,
+    "explanation": "কোনো ব্যক্তির ওপর রাগান্বিত হলে 'angry with' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10229,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He was angry ___ my improper behavior.",
+    "options": [
+      "A) with",
+      "B) at",
+      "C) for",
+      "D) to"
+    ],
+    "answer": 1,
+    "explanation": "কারো আচরণ বা কোনো বিষয়ের ওপর রাগ প্রকাশ করতে 'angry at' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10230,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Parents are anxious ___ their children's safety.",
+    "options": [
+      "A) at",
+      "B) for",
+      "C) about",
+      "D) with"
+    ],
+    "answer": 2,
+    "explanation": "উদ্বিগ্ন অর্থে 'anxious about' ব্যবহৃত হয় (কোনো কিছুর ব্যাকুল আকাঙ্ক্ষা বোঝাতে anxious for বসে)।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10231,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "You must apologize ___ your teacher ___ your misconduct.",
+    "options": [
+      "A) at, to",
+      "B) for, to",
+      "C) with, for",
+      "D) to, for"
+    ],
+    "answer": 3,
+    "explanation": "কারো নিকট ক্ষমা প্রার্থনা করতে 'apologize to (someone)' এবং কোনো অপরাধের জন্য হলে 'for (something)' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10232,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "I have no appetite ___ food today.",
+    "options": [
+      "A) for",
+      "B) with",
+      "C) in",
+      "D) to"
+    ],
+    "answer": 0,
+    "explanation": "'Appetite for' অর্থ ক্ষুধার উদ্রেক বা তীব্র রুচি থাকা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10233,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He applied ___ the Principal ___ a leave.",
+    "options": [
+      "A) to, for",
+      "B) for, to",
+      "C) in, for",
+      "D) with, for"
+    ],
+    "answer": 0,
+    "explanation": "কারো কাছে আবেদন করতে 'apply to' এবং কোনো পদের জন্য বা ছুটির জন্য 'apply for' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10234,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The minister was apprised ___ the situation.",
+    "options": [
+      "A) about",
+      "B) of",
+      "C) to",
+      "D) with"
+    ],
+    "answer": 1,
+    "explanation": "'Apprise of' অর্থ অবহিত করা বা জ্ঞাত করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10235,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "His remarks are not appropriate ___ the occasion.",
+    "options": [
+      "A) with",
+      "B) for",
+      "C) at",
+      "D) to"
+    ],
+    "answer": 3,
+    "explanation": "'Appropriate to' (বা for) অর্থ প্রাসঙ্গিক বা উপযুক্ত।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10236,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "My father does not approve ___ my proposal.",
+    "options": [
+      "A) with",
+      "B) to",
+      "C) of",
+      "D) for"
+    ],
+    "answer": 2,
+    "explanation": "'Approve of' অর্থ অনুমোদন বা সম্মতি প্রদান করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10237,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Do not argue ___ your elders.",
+    "options": [
+      "A) with",
+      "B) at",
+      "C) against",
+      "D) to"
+    ],
+    "answer": 0,
+    "explanation": "কারো সাথে তর্ক করা বোঝাতে 'argue with' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10238,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He felt ashamed ___ his rude conduct.",
+    "options": [
+      "A) at",
+      "B) with",
+      "C) for",
+      "D) of"
+    ],
+    "answer": 3,
+    "explanation": "'Ashamed of' অর্থ লজ্জিত হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10239,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The poor boy asked ___ help.",
+    "options": [
+      "A) after",
+      "B) with",
+      "C) for",
+      "D) to"
+    ],
+    "answer": 2,
+    "explanation": "'Ask for' অর্থ চাওয়া বা প্রার্থনা করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10240,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "A student should aspire ___ greatness.",
+    "options": [
+      "A) after",
+      "B) to",
+      "C) for",
+      "D) at"
+    ],
+    "answer": 1,
+    "explanation": "'Aspire to' (বা after) অর্থ উচ্চাকাঙ্ক্ষা পোষণ করা বা মহৎ কিছু কামনা করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10241,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The doctor assured me ___ his recovery.",
+    "options": [
+      "A) for",
+      "B) with",
+      "C) of",
+      "D) about"
+    ],
+    "answer": 2,
+    "explanation": "'Assure of' অর্থ আশ্বস্ত করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10242,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "We were astonished ___ his unexpected failure.",
+    "options": [
+      "A) at",
+      "B) by",
+      "C) for",
+      "D) with"
+    ],
+    "answer": 0,
+    "explanation": "'Astonished at' অর্থ কোনো ঘটনায় বিস্মিত বা হতবাক হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10243,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "You must attend ___ your teacher's lecture.",
+    "options": [
+      "A) with",
+      "B) upon",
+      "C) at",
+      "D) to"
+    ],
+    "answer": 3,
+    "explanation": "মনোযোগ দেওয়ার ক্ষেত্রে 'attend to' বসে (সেবা করার ক্ষেত্রে attend upon/on বসে)।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10244,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The nurse attended ___ the sick patient.",
+    "options": [
+      "A) with",
+      "B) upon",
+      "C) to",
+      "D) at"
+    ],
+    "answer": 1,
+    "explanation": "রোগীর সেবা-শুশ্রূষা করা বোঝাতে 'attend upon' বা 'attend on' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10245,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "You should avail yourself ___ this golden opportunity.",
+    "options": [
+      "A) in",
+      "B) to",
+      "C) with",
+      "D) of"
+    ],
+    "answer": 3,
+    "explanation": "'Avail (oneself) of' অর্থ সুযোগ গ্রহণ করা বা সদ্ব্যবহার করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10246,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He is averse ___ hard physical labor.",
+    "options": [
+      "A) with",
+      "B) at",
+      "C) to",
+      "D) from"
+    ],
+    "answer": 2,
+    "explanation": "'Averse to' অর্থ বিমুখ বা অনিচ্ছুক।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10247,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "One should be fully aware ___ one's rights.",
+    "options": [
+      "A) about",
+      "B) of",
+      "C) with",
+      "D) to"
+    ],
+    "answer": 1,
+    "explanation": "'Aware of' অর্থ সচেতন বা অবগত।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10248,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The dog barked ___ the stranger.",
+    "options": [
+      "A) at",
+      "B) on",
+      "C) with",
+      "D) to"
+    ],
+    "answer": 0,
+    "explanation": "'Bark at' অর্থ ঘেউ ঘেউ করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10249,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "I do not believe ___ his honesty.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) on",
+      "D) in"
+    ],
+    "answer": 3,
+    "explanation": "কোনো কিছুতে আস্থা বা বিশ্বাস স্থাপন করতে 'believe in' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10250,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "This beautiful house belongs ___ my grandfather.",
+    "options": [
+      "A) to",
+      "B) for",
+      "C) with",
+      "D) in"
+    ],
+    "answer": 0,
+    "explanation": "'Belong to' অর্থ কারো মালিকানাধীন বা অধিকারভুক্ত হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10251,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He is bent ___ ruining his own career.",
+    "options": [
+      "A) to",
+      "B) on",
+      "C) with",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "'Bent on' অর্থ কোনো কিছু করতে অনড় বা সংকল্পবদ্ধ থাকা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10252,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The tragedy left him bereft ___ all hope.",
+    "options": [
+      "A) by",
+      "B) from",
+      "C) of",
+      "D) with"
+    ],
+    "answer": 2,
+    "explanation": "'Bereft of' অর্থ বঞ্চিত বা নিঃস্ব হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10253,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The king bestowed great honors ___ the brave soldier.",
+    "options": [
+      "A) with",
+      "B) to",
+      "C) for",
+      "D) on"
+    ],
+    "answer": 3,
+    "explanation": "কাউকে সম্মান বা খেতাব প্রদান করা বোঝাতে 'bestow on' (বা upon) বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10254,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Beware ___ pickpockets in crowded areas.",
+    "options": [
+      "A) to",
+      "B) of",
+      "C) with",
+      "D) from"
+    ],
+    "answer": 1,
+    "explanation": "'Beware of' অর্থ সতর্ক বা সাবধান হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10255,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "A father should not be blind ___ his son's faults.",
+    "options": [
+      "A) to",
+      "B) in",
+      "C) with",
+      "D) of"
+    ],
+    "answer": 0,
+    "explanation": "দোষ দেখেও না দেখার ভান করা বা অন্ধ স্নেহ প্রকাশে 'blind to' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10256,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The unfortunate beggar is blind ___ one eye.",
+    "options": [
+      "A) from",
+      "B) to",
+      "C) of",
+      "D) with"
+    ],
+    "answer": 2,
+    "explanation": "চোখে সত্যি সত্যি দেখতে না পেলে 'blind of/in an eye' ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10257,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Do not boast ___ your wealth and power.",
+    "options": [
+      "A) for",
+      "B) with",
+      "C) about",
+      "D) of"
+    ],
+    "answer": 3,
+    "explanation": "'Boast of' অর্থ অহংকার বা দম্ভ করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10258,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The ship is bound ___ London.",
+    "options": [
+      "A) for",
+      "B) towards",
+      "C) at",
+      "D) to"
+    ],
+    "answer": 0,
+    "explanation": "কোনো গন্তব্যে যাত্রার উদ্দেশ্যে রওনা হলে 'bound for' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10259,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Hearing the sad news, the girl burst ___ tears.",
+    "options": [
+      "A) with",
+      "B) into",
+      "C) in",
+      "D) out"
+    ],
+    "answer": 1,
+    "explanation": "কান্নায় ভেঙে পড়া বোঝাতে 'burst into tears' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10260,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Everyone burst ___ laughing at his witty joke.",
+    "options": [
+      "A) in",
+      "B) with",
+      "C) out",
+      "D) into"
+    ],
+    "answer": 2,
+    "explanation": "অট্টহাসিতে ফেটে পড়া বোঝাতে 'burst out laughing' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10261,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The emergency situation calls ___ immediate action.",
+    "options": [
+      "A) on",
+      "B) at",
+      "C) for",
+      "D) in"
+    ],
+    "answer": 2,
+    "explanation": "'Call for' অর্থ দাবি করা বা প্রয়োজন হওয়া (demand)।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10262,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The Prime Minister called ___ the President yesterday.",
+    "options": [
+      "A) at",
+      "B) on",
+      "C) in",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "কোনো ব্যক্তির সাথে সাক্ষাৎ করা বোঝাতে 'call on' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10263,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He promised to call ___ my office this afternoon.",
+    "options": [
+      "A) at",
+      "B) on",
+      "C) in",
+      "D) to"
+    ],
+    "answer": 0,
+    "explanation": "কোনো স্থানে গিয়ে দেখা করা বোঝাতে 'call at' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10264,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He is capable ___ solving the most complex puzzles.",
+    "options": [
+      "A) for",
+      "B) with",
+      "C) to",
+      "D) of"
+    ],
+    "answer": 3,
+    "explanation": "'Capable of' অর্থ কোনো কিছু করতে সক্ষম।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10265,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "We should be careful ___ our health.",
+    "options": [
+      "A) about",
+      "B) of",
+      "C) with",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "'Careful of' বা 'careful about' অর্থ যত্নশীল বা সতর্ক।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10266,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He is confident ___ his eventual victory.",
+    "options": [
+      "A) about",
+      "B) in",
+      "C) of",
+      "D) for"
+    ],
+    "answer": 2,
+    "explanation": "'Confident of' অর্থ নিশ্চিত বা আস্থাশীল।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10267,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "His story coincides ___ the police report.",
+    "options": [
+      "A) with",
+      "B) at",
+      "C) to",
+      "D) for"
+    ],
+    "answer": 0,
+    "explanation": "'Coincide with' অর্থ হুবহু মিলে যাওয়া বা একমত হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10268,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Shakespeare is often compared ___ Kalidasa.",
+    "options": [
+      "A) at",
+      "B) with",
+      "C) from",
+      "D) to"
+    ],
+    "answer": 3,
+    "explanation": "ভিন্ন জাতীয় দুটি জিনিসের সাথে রূপক তুলনা করতে 'compare to' এবং সমজাতীয় ব্যক্তির সাথে তুলনা করতে 'compare with' প্রচলিত।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10269,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The company compensated the workers ___ their loss.",
+    "options": [
+      "A) with",
+      "B) of",
+      "C) to",
+      "D) for"
+    ],
+    "answer": 3,
+    "explanation": "'Compensate for' অর্থ ক্ষতিপূরণ দেওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10270,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Water is composed ___ hydrogen and oxygen.",
+    "options": [
+      "A) with",
+      "B) from",
+      "C) of",
+      "D) by"
+    ],
+    "answer": 2,
+    "explanation": "'Composed of' অর্থ কোনো কিছু দ্বারা গঠিত হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10271,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "You must comply ___ the official orders.",
+    "options": [
+      "A) with",
+      "B) for",
+      "C) to",
+      "D) in"
+    ],
+    "answer": 0,
+    "explanation": "'Comply with' অর্থ আদেশ বা অনুরোধ মেনে চলা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10272,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "I concur ___ you on this important matter.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) in",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "ব্যক্তির সাথে একমত হওয়া বোঝাতে 'concur with' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10273,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The convicted criminal was condemned ___ death.",
+    "options": [
+      "A) with",
+      "B) by",
+      "C) to",
+      "D) for"
+    ],
+    "answer": 2,
+    "explanation": "'Condemned to' অর্থ দণ্ডে দণ্ডিত হওয়া (condemned to death)।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10274,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "I have full reason to confide ___ his integrity.",
+    "options": [
+      "A) with",
+      "B) to",
+      "C) on",
+      "D) in"
+    ],
+    "answer": 3,
+    "explanation": "'Confide in' অর্থ কারো ওপর সম্পূর্ণ বিশ্বাস বা আস্থা রাখা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10275,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "All citizens must conform ___ the traffic regulations.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) for",
+      "D) by"
+    ],
+    "answer": 0,
+    "explanation": "'Conform to' অর্থ নিয়ম বা বিধিমালার সাথে সঙ্গতি রক্ষা করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10276,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "We congratulated him ___ his outstanding success.",
+    "options": [
+      "A) with",
+      "B) on",
+      "C) at",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "কারো সাফল্যে অভিনন্দন জানাতে 'congratulate on' ব্যবহৃত হয়, 'for' নয়।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10277,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "A good citizen is conscious ___ his moral duties.",
+    "options": [
+      "A) with",
+      "B) about",
+      "C) of",
+      "D) to"
+    ],
+    "answer": 2,
+    "explanation": "'Conscious of' অর্থ সচেতন বা সজাগ।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10278,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Happiness consists ___ contentment of the mind.",
+    "options": [
+      "A) with",
+      "B) of",
+      "C) at",
+      "D) in"
+    ],
+    "answer": 3,
+    "explanation": "কোনো কিছুতে নিহিত থাকা অর্থে 'consist in' বসে (সুখ আত্মতুষ্টির মধ্যে নিহিত)।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10279,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The committee consists ___ seven eminent members.",
+    "options": [
+      "A) of",
+      "B) by",
+      "C) with",
+      "D) in"
+    ],
+    "answer": 0,
+    "explanation": "কোনো কিছু নিয়ে গঠিত হওয়া অর্থে 'consist of' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10280,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "His action was contrary ___ his official statement.",
+    "options": [
+      "A) from",
+      "B) to",
+      "C) with",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "'Contrary to' অর্থ বিপরীত বা প্রতিকূল।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10281,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Rich people should contribute ___ relief funds.",
+    "options": [
+      "A) for",
+      "B) with",
+      "C) in",
+      "D) to"
+    ],
+    "answer": 3,
+    "explanation": "'Contribute to' অর্থ কোনো তহবিলে চাঁদা বা অবদান রাখা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10282,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He has no control ___ his fiery temper.",
+    "options": [
+      "A) with",
+      "B) over",
+      "C) on",
+      "D) at"
+    ],
+    "answer": 1,
+    "explanation": "কোনো কিছুর ওপর নিয়ন্ত্রণ বোঝাতে 'control over' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10283,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The lawyer is thoroughly conversant ___ the law.",
+    "options": [
+      "A) with",
+      "B) in",
+      "C) about",
+      "D) to"
+    ],
+    "answer": 0,
+    "explanation": "'Conversant with' অর্থ কোনো বিষয়ে সম্যক অবগত বা অভিজ্ঞ।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10284,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The jury convicted him ___ the heinous murder.",
+    "options": [
+      "A) with",
+      "B) in",
+      "C) of",
+      "D) for"
+    ],
+    "answer": 2,
+    "explanation": "'Convict of' অর্থ কোনো অপরাধে দোষী সাব্যস্ত করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10285,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "It is difficult to cope ___ the rising inflation.",
+    "options": [
+      "A) against",
+      "B) to",
+      "C) up with",
+      "D) with"
+    ],
+    "answer": 3,
+    "explanation": "পরিস্থিতির সাথে মানিয়ে নেওয়া বোঝাতে 'cope with' সঠিক ('cope up with' ব্যাকরণগতভাবে ভুল)।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10286,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "There is no easy cure ___ this fatal disease.",
+    "options": [
+      "A) of",
+      "B) to",
+      "C) for",
+      "D) from"
+    ],
+    "answer": 2,
+    "explanation": "রোগের প্রতিষেধক বা প্রতিকার অর্থে noun হিসেবে 'cure for' বসে (কিন্তু verb হিসেবে cured of বসে)।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10287,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The doctor cured him ___ the terrible fever.",
+    "options": [
+      "A) with",
+      "B) of",
+      "C) from",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "রোগমুক্ত হওয়া অর্থে verb 'cure of' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10288,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He deals ___ rice and wheat in the market.",
+    "options": [
+      "A) in",
+      "B) with",
+      "C) for",
+      "D) to"
+    ],
+    "answer": 0,
+    "explanation": "ব্যবসা করা অর্থে 'deal in' বসে (deal in rice/textiles)।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10289,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He knows how to deal ___ rude customers.",
+    "options": [
+      "A) in",
+      "B) for",
+      "C) to",
+      "D) with"
+    ],
+    "answer": 3,
+    "explanation": "কারো সাথে আচরণ করা বা কোনো সমস্যা সমাধান করা অর্থে 'deal with' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10290,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He dedicated his life ___ the service of humanity.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) for",
+      "D) in"
+    ],
+    "answer": 0,
+    "explanation": "'Dedicate to' অর্থ কোনো মহৎ কাজে উৎসর্গ করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10291,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "His diet is deficient ___ essential vitamins.",
+    "options": [
+      "A) of",
+      "B) from",
+      "C) in",
+      "D) with"
+    ],
+    "answer": 2,
+    "explanation": "'Deficient in' অর্থ কোনো উপাদানের ঘাটতি থাকা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10292,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The poet takes great delight ___ nature's beauty.",
+    "options": [
+      "A) at",
+      "B) in",
+      "C) with",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "'Delight in' অর্থ কোনো কিছুতে আনন্দ উপভোগ করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10293,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Success depends ___ hard and consistent work.",
+    "options": [
+      "A) to",
+      "B) at",
+      "C) with",
+      "D) on"
+    ],
+    "answer": 3,
+    "explanation": "'Depend on' (বা upon) অর্থ নির্ভর করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10294,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The tyrant deprived the citizens ___ their rights.",
+    "options": [
+      "A) with",
+      "B) from",
+      "C) of",
+      "D) to"
+    ],
+    "answer": 2,
+    "explanation": "'Deprive of' অর্থ বঞ্চিত করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10295,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He has a strong desire ___ fame and recognition.",
+    "options": [
+      "A) for",
+      "B) in",
+      "C) to",
+      "D) of"
+    ],
+    "answer": 0,
+    "explanation": "'Desire for' অর্থ কোনো কিছুর তীব্র কামনা (noun হিসেবে desire for বসে)।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10296,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The defeated army despaired ___ winning the war.",
+    "options": [
+      "A) for",
+      "B) of",
+      "C) with",
+      "D) from"
+    ],
+    "answer": 1,
+    "explanation": "'Despair of' অর্থ কোনো আশা ত্যাগ করা বা নিরাশ হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10297,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "His speech was totally devoid ___ truth.",
+    "options": [
+      "A) to",
+      "B) from",
+      "C) with",
+      "D) of"
+    ],
+    "answer": 3,
+    "explanation": "'Devoid of' অর্থ বর্জিত বা শূন্য।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10298,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The student devoted four hours daily ___ studies.",
+    "options": [
+      "A) for",
+      "B) in",
+      "C) to",
+      "D) with"
+    ],
+    "answer": 2,
+    "explanation": "'Devote to' অর্থ সময় বা শক্তি নিয়োজিত করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10299,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "I beg to differ ___ you on this controversial topic.",
+    "options": [
+      "A) from",
+      "B) with",
+      "C) to",
+      "D) against"
+    ],
+    "answer": 1,
+    "explanation": "কারো সাথে মতের অমিল হওয়া বোঝাতে 'differ with' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10300,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "This modern model differs greatly ___ the old one.",
+    "options": [
+      "A) from",
+      "B) to",
+      "C) with",
+      "D) by"
+    ],
+    "answer": 0,
+    "explanation": "কোনো বস্তুর সাথে গুণের ভিন্নতা বোঝাতে 'differ from' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10301,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Only graduates are eligible ___ this administrative post.",
+    "options": [
+      "A) to",
+      "B) in",
+      "C) with",
+      "D) for"
+    ],
+    "answer": 3,
+    "explanation": "'Eligible for' অর্থ কোনো পদের জন্য উপযুক্ত বা যোগ্য।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10302,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "She is engaged ___ an engineer.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) for",
+      "D) by"
+    ],
+    "answer": 0,
+    "explanation": "বাগদান সম্পন্ন হওয়া বোঝাতে 'engaged to' বসে (কাজে মগ্ন থাকলে engaged in বসে)।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10303,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He is currently engaged ___ writing a new novel.",
+    "options": [
+      "A) with",
+      "B) in",
+      "C) at",
+      "D) to"
+    ],
+    "answer": 1,
+    "explanation": "কোনো কাজে ব্যস্ত বা নিযুক্ত থাকা বোঝাতে 'engaged in' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10304,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He was envious ___ his neighbor's prosperity.",
+    "options": [
+      "A) at",
+      "B) with",
+      "C) of",
+      "D) to"
+    ],
+    "answer": 2,
+    "explanation": "'Envious of' অর্থ ঈর্ষান্বিত হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10305,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Water is essential ___ human life.",
+    "options": [
+      "A) to",
+      "B) for",
+      "C) with",
+      "D) of"
+    ],
+    "answer": 0,
+    "explanation": "'Essential to' (বা for) অর্থ অত্যাবশ্যক বা অপরিহার্য।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10306,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "She excels ___ classical Indian music.",
+    "options": [
+      "A) with",
+      "B) for",
+      "C) at",
+      "D) in"
+    ],
+    "answer": 3,
+    "explanation": "কোনো শিল্প বা বিদ্যায় অসাধারণ নৈপুণ্য প্রদর্শন বোঝাতে 'excel in' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10307,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Charitable institutions are exempt ___ taxation.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) from",
+      "D) of"
+    ],
+    "answer": 2,
+    "explanation": "'Exempt from' অর্থ অব্যাহতিপ্রাপ্ত বা রেহাই পাওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10308,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "His face is familiar ___ me.",
+    "options": [
+      "A) with",
+      "B) to",
+      "C) of",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "কারো কাছে পরিচিত বোঝাতে 'familiar to' বসে (কারো সাথে পরিচয় বোঝাতে familiar with বসে)।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10309,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "I am quite familiar ___ the rules of this game.",
+    "options": [
+      "A) with",
+      "B) for",
+      "C) at",
+      "D) to"
+    ],
+    "answer": 0,
+    "explanation": "কোনো বিষয় সম্যক জানা বোঝাতে 'familiar with' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10310,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Cancer proved fatal ___ his grandfather.",
+    "options": [
+      "A) of",
+      "B) to",
+      "C) for",
+      "D) with"
+    ],
+    "answer": 1,
+    "explanation": "'Fatal to' অর্থ প্রাণঘাতী বা মারাত্মক ক্ষতিকর।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10311,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Cows feed mostly ___ green grass.",
+    "options": [
+      "A) by",
+      "B) in",
+      "C) with",
+      "D) on"
+    ],
+    "answer": 3,
+    "explanation": "কোনো কিছু খেয়ে বেঁচে থাকা বোঝাতে 'feed on' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10312,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Children are extremely fond ___ sweets.",
+    "options": [
+      "A) in",
+      "B) for",
+      "C) of",
+      "D) to"
+    ],
+    "answer": 2,
+    "explanation": "'Fond of' অর্থ অনুরাগী বা প্রিয় হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10313,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He is finally free ___ all financial worries.",
+    "options": [
+      "A) with",
+      "B) of",
+      "C) from",
+      "D) to"
+    ],
+    "answer": 2,
+    "explanation": "কোনো সমস্যা বা বিপদ থেকে মুক্ত অর্থে 'free from' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10314,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The pitcher was full ___ cold water.",
+    "options": [
+      "A) in",
+      "B) with",
+      "C) by",
+      "D) of"
+    ],
+    "answer": 3,
+    "explanation": "'Full of' অর্থ পূর্ণ বা ভর্তি থাকা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10315,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He glanced ___ his wristwatch anxiously.",
+    "options": [
+      "A) on",
+      "B) at",
+      "C) with",
+      "D) to"
+    ],
+    "answer": 1,
+    "explanation": "'Glance at' অর্থ একনজর তাকানো বা চোখ বুলানো।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10316,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "I am truly grateful ___ you ___ your timely help.",
+    "options": [
+      "A) to, for",
+      "B) at, to",
+      "C) for, to",
+      "D) with, for"
+    ],
+    "answer": 0,
+    "explanation": "কারো প্রতি কৃতজ্ঞ হলে 'grateful to' এবং উপকারের জন্য হলে 'grateful for' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10317,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He is greedy ___ power and influence.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) for",
+      "D) of"
+    ],
+    "answer": 2,
+    "explanation": "'Greedy for' (বা of) অর্থ লোভী।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10318,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The prisoner was found guilty ___ treason.",
+    "options": [
+      "A) in",
+      "B) of",
+      "C) with",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "'Guilty of' অর্থ কোনো অপরাধে অপরাধী সাব্যস্ত হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10319,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Do not hanker ___ worldly wealth.",
+    "options": [
+      "A) at",
+      "B) for",
+      "C) to",
+      "D) after"
+    ],
+    "answer": 3,
+    "explanation": "'Hanker after' অর্থ কোনো কিছুর পেছনে ব্যাকুল হয়ে ছোটা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10320,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The old grandfather is hard ___ hearing.",
+    "options": [
+      "A) of",
+      "B) with",
+      "C) in",
+      "D) at"
+    ],
+    "answer": 0,
+    "explanation": "'Hard of hearing' একটি প্রবাদতুল্য বাক্যাংশ, যার অর্থ কানে কম শোনা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10321,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Prince Charles was heir ___ the British throne.",
+    "options": [
+      "A) of",
+      "B) to",
+      "C) in",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "'Heir to' অর্থ উত্তরাধিকারী।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10322,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "We all hope ___ a bright future.",
+    "options": [
+      "A) for",
+      "B) to",
+      "C) in",
+      "D) with"
+    ],
+    "answer": 0,
+    "explanation": "'Hope for' অর্থ কোনো ভালো ফলের আশা করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10323,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He was completely ignorant ___ the latest developments.",
+    "options": [
+      "A) about",
+      "B) in",
+      "C) of",
+      "D) with"
+    ],
+    "answer": 2,
+    "explanation": "'Ignorant of' অর্থ অজ্ঞ বা অনবগত।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10324,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He has been ill ___ typhoid for a week.",
+    "options": [
+      "A) of",
+      "B) by",
+      "C) from",
+      "D) with"
+    ],
+    "answer": 3,
+    "explanation": "কোনো রোগে আক্রান্ত হয়ে অসুস্থ থাকা বোঝাতে 'ill with' ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10325,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The government imposed heavy tax ___ luxury goods.",
+    "options": [
+      "A) on",
+      "B) to",
+      "C) in",
+      "D) upon"
+    ],
+    "answer": 0,
+    "explanation": "'Impose on/upon' অর্থ কর বা নিয়ম চাপিয়ে দেওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10326,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "I am greatly indebted ___ him for his guidance.",
+    "options": [
+      "A) with",
+      "B) to",
+      "C) for",
+      "D) at"
+    ],
+    "answer": 1,
+    "explanation": "'Indebted to' অর্থ কারো কাছে ঋণী থাকা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10327,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "A stoic is indifferent ___ pain and pleasure.",
+    "options": [
+      "A) from",
+      "B) at",
+      "C) to",
+      "D) with"
+    ],
+    "answer": 2,
+    "explanation": "'Indifferent to' অর্থ উদাসীন বা নির্বিকার।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10328,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Do not indulge ___ smoking or alcohol.",
+    "options": [
+      "A) at",
+      "B) to",
+      "C) with",
+      "D) in"
+    ],
+    "answer": 3,
+    "explanation": "'Indulge in' অর্থ কোনো আসক্তিকর কাজে লিপ্ত হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10329,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The principal was informed ___ the matter.",
+    "options": [
+      "A) about",
+      "B) with",
+      "C) of",
+      "D) to"
+    ],
+    "answer": 2,
+    "explanation": "'Informed of' অর্থ কোনো বিষয়ে জানানো বা জ্ঞাত করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10330,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The suspect was found innocent ___ the accusation.",
+    "options": [
+      "A) with",
+      "B) of",
+      "C) from",
+      "D) in"
+    ],
+    "answer": 1,
+    "explanation": "'Innocent of' অর্থ নির্দোষ।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10331,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He insisted ___ going there alone.",
+    "options": [
+      "A) on",
+      "B) for",
+      "C) in",
+      "D) to"
+    ],
+    "answer": 0,
+    "explanation": "'Insist on' অর্থ জিদ ধরা বা নাছোড়বান্দা হওয়া। এর পর gerund বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10332,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "She has a keen interest ___ photography.",
+    "options": [
+      "A) with",
+      "B) to",
+      "C) for",
+      "D) in"
+    ],
+    "answer": 3,
+    "explanation": "'Interest in' অর্থ আগ্রহ বা কৌতূহল।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10333,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He is very intimate ___ the local mayor.",
+    "options": [
+      "A) of",
+      "B) for",
+      "C) with",
+      "D) to"
+    ],
+    "answer": 2,
+    "explanation": "'Intimate with' অর্থ ঘনিষ্ঠ বা অন্তরঙ্গ।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10334,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Allow me to introduce my friend ___ you.",
+    "options": [
+      "A) with",
+      "B) for",
+      "C) at",
+      "D) to"
+    ],
+    "answer": 3,
+    "explanation": "কারো সাথে পরিচয় করিয়ে দেওয়া অর্থে 'introduce to' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10335,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "They invited us ___ dinner last night.",
+    "options": [
+      "A) to",
+      "B) at",
+      "C) in",
+      "D) for"
+    ],
+    "answer": 0,
+    "explanation": "ভোজ বা অনুষ্ঠানে নিমন্ত্রণ জানানো বোঝাতে 'invite to' বসে ('invite for' নয়)।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10336,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "She is jealous ___ her sister's success.",
+    "options": [
+      "A) with",
+      "B) of",
+      "C) to",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "'Jealous of' অর্থ ঈর্ষাপরায়ণ হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10337,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Do not jump ___ a hasty conclusion without evidence.",
+    "options": [
+      "A) on",
+      "B) at",
+      "C) to",
+      "D) in"
+    ],
+    "answer": 2,
+    "explanation": "'Jump to a conclusion' অর্থ তাড়াহুড়ো করে সিদ্ধান্তে পৌঁছানো।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10338,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Industry is the key ___ success in life.",
+    "options": [
+      "A) in",
+      "B) to",
+      "C) for",
+      "D) of"
+    ],
+    "answer": 1,
+    "explanation": "'Key to' অর্থ চাবিকাঠি বা প্রধান উপায়।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10339,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "We must always be kind ___ animals.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) towards",
+      "D) for"
+    ],
+    "answer": 0,
+    "explanation": "'Kind to' অর্থ সদয় বা সহানুভূতিশীল।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10340,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Someone was knocking ___ the door loudly.",
+    "options": [
+      "A) to",
+      "B) on",
+      "C) in",
+      "D) at"
+    ],
+    "answer": 3,
+    "explanation": "'Knock at the door' অর্থ দরজায় কড়া নাড়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10341,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Due to lack ___ funds, the project was stopped.",
+    "options": [
+      "A) in",
+      "B) of",
+      "C) for",
+      "D) with"
+    ],
+    "answer": 1,
+    "explanation": "Noun হিসেবে 'lack of' বসে (অভাব বোঝাতে)।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10342,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The war veteran was lame ___ one leg.",
+    "options": [
+      "A) of",
+      "B) at",
+      "C) in",
+      "D) with"
+    ],
+    "answer": 0,
+    "explanation": "'Lame of/in a leg' অর্থ খোঁড়া হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10343,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Never laugh ___ the helpless and poor.",
+    "options": [
+      "A) on",
+      "B) with",
+      "C) to",
+      "D) at"
+    ],
+    "answer": 3,
+    "explanation": "'Laugh at' অর্থ কাউকে উপহাস বা বিদ্রূপ করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10344,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Careless driving often leads ___ fatal accidents.",
+    "options": [
+      "A) in",
+      "B) towards",
+      "C) to",
+      "D) for"
+    ],
+    "answer": 2,
+    "explanation": "'Lead to' অর্থ কোনো ফলের দিকে চালিত করা বা ঘটানো।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10345,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Those who break traffic laws are liable ___ a fine.",
+    "options": [
+      "A) in",
+      "B) with",
+      "C) to",
+      "D) for"
+    ],
+    "answer": 2,
+    "explanation": "'Liable to' অর্থ কোনো জরিমানা বা শাস্তির আওতায় পড়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10346,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Please listen ___ what the teacher says.",
+    "options": [
+      "A) to",
+      "B) at",
+      "C) for",
+      "D) with"
+    ],
+    "answer": 0,
+    "explanation": "'Listen to' অর্থ মনোযোগ দিয়ে শোনা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10347,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The poor peasant lives ___ honest means.",
+    "options": [
+      "A) in",
+      "B) with",
+      "C) on",
+      "D) by"
+    ],
+    "answer": 3,
+    "explanation": "কোনো উপায়ে জীবিকা নির্বাহ করা বোঝাতে 'live by' বসে (যেমন: live by honest labor)।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10348,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Bengalis live mainly ___ rice and fish.",
+    "options": [
+      "A) by",
+      "B) on",
+      "C) with",
+      "D) in"
+    ],
+    "answer": 1,
+    "explanation": "কোনো নির্দিষ্ট খাদ্য খেয়ে জীবনধারণ করা বোঝাতে 'live on' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10349,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The mother longs ___ her lost son.",
+    "options": [
+      "A) after",
+      "B) at",
+      "C) to",
+      "D) for"
+    ],
+    "answer": 3,
+    "explanation": "'Long for' অর্থ গভীর ব্যাকুলতা বা তীব্র আকাঙ্ক্ষা পোষণ করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10350,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Who will look ___ the orphan child?",
+    "options": [
+      "A) into",
+      "B) after",
+      "C) for",
+      "D) at"
+    ],
+    "answer": 1,
+    "explanation": "'Look after' অর্থ যত্ন নেওয়া বা দেখাশোনা করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10351,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The detective is looking ___ the mysterious murder.",
+    "options": [
+      "A) into",
+      "B) at",
+      "C) after",
+      "D) for"
+    ],
+    "answer": 0,
+    "explanation": "'Look into' অর্থ তদন্ত করা (investigate)।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10352,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "I am looking ___ my lost car keys.",
+    "options": [
+      "A) at",
+      "B) into",
+      "C) for",
+      "D) after"
+    ],
+    "answer": 2,
+    "explanation": "'Look for' অর্থ খোঁজা বা সন্ধান করা (search)।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10353,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Do not look down ___ the poor.",
+    "options": [
+      "A) upon",
+      "B) with",
+      "C) at",
+      "D) to"
+    ],
+    "answer": 0,
+    "explanation": "'Look down upon' অর্থ ঘৃণা করা বা অবজ্ঞার চোখে দেখা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10354,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Soldiers must remain loyal ___ their nation.",
+    "options": [
+      "A) for",
+      "B) to",
+      "C) at",
+      "D) with"
+    ],
+    "answer": 1,
+    "explanation": "'Loyal to' অর্থ বিশ্বস্ত বা অনুগত।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10355,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The grieving mother was mad ___ grief.",
+    "options": [
+      "A) of",
+      "B) for",
+      "C) with",
+      "D) at"
+    ],
+    "answer": 2,
+    "explanation": "'Mad with' অর্থ চরম আবেগে দিশেহারা বা পাগলপ্রায় হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10356,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "This sturdy table is made ___ solid teak wood.",
+    "options": [
+      "A) with",
+      "B) from",
+      "C) by",
+      "D) of"
+    ],
+    "answer": 3,
+    "explanation": "যে উপাদান দিয়ে তৈরি তা বাহ্যিকভাবে অপরিবর্তিত থাকলে 'made of' বসে (যেমন: table is made of wood)।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10357,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Paper is made ___ wood and bamboo.",
+    "options": [
+      "A) with",
+      "B) from",
+      "C) of",
+      "D) by"
+    ],
+    "answer": 1,
+    "explanation": "উপাদানটির রাসায়নিক বা বাহ্যিক রূপ পুরোপুরি বদলে গেলে 'made from' বসে (যেমন: paper is made from wood)।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10358,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The princess was married ___ a noble knight.",
+    "options": [
+      "A) with",
+      "B) by",
+      "C) of",
+      "D) to"
+    ],
+    "answer": 3,
+    "explanation": "Passive voice-এ 'marry to' ব্যবহৃত হয় (যেমন: married to someone)।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10359,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Do not meddle ___ my personal affairs.",
+    "options": [
+      "A) in",
+      "B) with",
+      "C) at",
+      "D) to"
+    ],
+    "answer": 0,
+    "explanation": "'Meddle in' (বা meddle with) অর্থ অনধিকার চর্চা করা বা নাক গলানো।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10360,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "A good student is mindful ___ his daily studies.",
+    "options": [
+      "A) at",
+      "B) to",
+      "C) of",
+      "D) with"
+    ],
+    "answer": 2,
+    "explanation": "'Mindful of' অর্থ যত্নবান বা মনোযোগী।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10361,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The entire nation mourned ___ the fallen heroes.",
+    "options": [
+      "A) for",
+      "B) with",
+      "C) at",
+      "D) to"
+    ],
+    "answer": 0,
+    "explanation": "'Mourn for' অর্থ কারো মৃত্যুতে শোক প্রকাশ করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10362,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Fresh water is necessary ___ all living organisms.",
+    "options": [
+      "A) at",
+      "B) with",
+      "C) to",
+      "D) for"
+    ],
+    "answer": 2,
+    "explanation": "'Necessary to' (বা for) অর্থ প্রয়োজনীয় বা অপরিহার্য।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10363,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He lost his job because he was negligent ___ his duty.",
+    "options": [
+      "A) in",
+      "B) of",
+      "C) at",
+      "D) to"
+    ],
+    "answer": 1,
+    "explanation": "'Negligent of' (বা in) অর্থ কর্তব্যে অবহেলাকারী।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10364,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The notorious outlaw was known ___ his cruelty.",
+    "options": [
+      "A) with",
+      "B) at",
+      "C) to",
+      "D) for"
+    ],
+    "answer": 3,
+    "explanation": "'Notorious for' অর্থ কুখ্যাত হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10365,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "A child should be obedient ___ his parents.",
+    "options": [
+      "A) for",
+      "B) with",
+      "C) at",
+      "D) to"
+    ],
+    "answer": 3,
+    "explanation": "'Obedient to' অর্থ বাধ্য বা অনুগত।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10366,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "We strongly objected ___ their unreasonable proposal.",
+    "options": [
+      "A) with",
+      "B) at",
+      "C) to",
+      "D) for"
+    ],
+    "answer": 2,
+    "explanation": "'Object to' অর্থ আপত্তি জানানো।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10367,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "I am much obliged ___ you for your kindness.",
+    "options": [
+      "A) for",
+      "B) to",
+      "C) at",
+      "D) with"
+    ],
+    "answer": 1,
+    "explanation": "'Obliged to' অর্থ কারো প্রতি কৃতজ্ঞ বা অনুগৃহীত।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10368,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Illiteracy is a major obstacle ___ national progress.",
+    "options": [
+      "A) to",
+      "B) of",
+      "C) in",
+      "D) for"
+    ],
+    "answer": 0,
+    "explanation": "'Obstacle to' অর্থ অগ্রগতির পথে অন্তরায় বা বাধা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10369,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "A brilliant idea suddenly occurred ___ my mind.",
+    "options": [
+      "A) into",
+      "B) to",
+      "C) in",
+      "D) at"
+    ],
+    "answer": 1,
+    "explanation": "'Occur to' অর্থ মনে উদয় হওয়া বা মাথায় আসা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10370,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The admission is open ___ students of all backgrounds.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) for",
+      "D) at"
+    ],
+    "answer": 0,
+    "explanation": "'Open to' অর্থ সবার জন্য উন্মুক্ত।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10371,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The Ganga originates ___ the Gangotri glacier.",
+    "options": [
+      "A) from",
+      "B) by",
+      "C) at",
+      "D) in"
+    ],
+    "answer": 3,
+    "explanation": "'Originate in' (বা from) অর্থ কোনো স্থান থেকে উৎপন্ন হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10372,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The grieving widow was overcome ___ sorrow.",
+    "options": [
+      "A) of",
+      "B) at",
+      "C) with",
+      "D) by"
+    ],
+    "answer": 2,
+    "explanation": "'Overcome with' অর্থ তীব্র শোকে বা আবেগে অভিভূত হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10373,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "These two railway tracks are parallel ___ each other.",
+    "options": [
+      "A) from",
+      "B) with",
+      "C) at",
+      "D) to"
+    ],
+    "answer": 3,
+    "explanation": "'Parallel to' অর্থ সমান্তরাল।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10374,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The miser wept when forced to part ___ his gold.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) from",
+      "D) of"
+    ],
+    "answer": 1,
+    "explanation": "কোনো বস্তু ত্যাগ করা বা হাতছাড়া হওয়া বোঝাতে 'part with' বসে (ব্যক্তির সাথে ছাড়াছাড়ি হলে part from বসে)।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10375,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "She was heartbroken to part ___ her dearest mother.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) from",
+      "D) of"
+    ],
+    "answer": 2,
+    "explanation": "কোনো ব্যক্তির কাছ থেকে বিদায় নেওয়া বা আলাদা হওয়া বোঝাতে 'part from' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10376,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "A fair judge should never be partial ___ either party.",
+    "options": [
+      "A) to",
+      "B) for",
+      "C) towards",
+      "D) with"
+    ],
+    "answer": 0,
+    "explanation": "'Partial to' অর্থ পক্ষপাতদুষ্ট হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10377,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "A true scientist persists ___ search of knowledge.",
+    "options": [
+      "A) in",
+      "B) to",
+      "C) with",
+      "D) on"
+    ],
+    "answer": 0,
+    "explanation": "'Persist in' অর্থ কোনো কাজে নাছোড়বান্দা হয়ে লেগে থাকা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10378,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "We should take pity ___ the poor and destitute.",
+    "options": [
+      "A) with",
+      "B) on",
+      "C) to",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "'Pity on' (take pity on) অর্থ করুণা বা দয়া প্রদর্শন করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10379,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The teacher was highly pleased ___ her diligence.",
+    "options": [
+      "A) for",
+      "B) by",
+      "C) at",
+      "D) with"
+    ],
+    "answer": 3,
+    "explanation": "ব্যক্তি বা তার গুণে সন্তুষ্ট হওয়া বোঝাতে 'pleased with' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10380,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The young leader is popular ___ the common people.",
+    "options": [
+      "A) for",
+      "B) to",
+      "C) with",
+      "D) among"
+    ],
+    "answer": 2,
+    "explanation": "'Popular with' (বা among) অর্থ কারো কাছে জনপ্রিয় হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10381,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Smoking is prohibited ___ all public hospital premises.",
+    "options": [
+      "A) from",
+      "B) at",
+      "C) to",
+      "D) in"
+    ],
+    "answer": 3,
+    "explanation": "'Prohibit from' (বা prohibited in) অর্থ নিষিদ্ধ করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10382,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Parents are naturally proud ___ their children's success.",
+    "options": [
+      "A) of",
+      "B) to",
+      "C) with",
+      "D) for"
+    ],
+    "answer": 0,
+    "explanation": "'Proud of' অর্থ গর্বিত হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10383,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He is fully qualified ___ this technical position.",
+    "options": [
+      "A) in",
+      "B) with",
+      "C) for",
+      "D) to"
+    ],
+    "answer": 2,
+    "explanation": "'Qualified for' অর্থ কোনো পদের জন্য উপযুক্ত যোগ্যতা সম্পন্ন।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10384,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The patient quickly recovered ___ his serious illness.",
+    "options": [
+      "A) of",
+      "B) from",
+      "C) by",
+      "D) with"
+    ],
+    "answer": 1,
+    "explanation": "'Recover from' অর্থ রোগ বা দুর্বলতা থেকে আরোগ্য লাভ করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10385,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The committee referred the matter ___ an expert panel.",
+    "options": [
+      "A) at",
+      "B) to",
+      "C) towards",
+      "D) for"
+    ],
+    "answer": 1,
+    "explanation": "'Refer to' অর্থ কারো কাছে নির্দেশ বা সিদ্ধান্তের জন্য পাঠানো।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10386,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He has immense respect ___ all his learned teachers.",
+    "options": [
+      "A) to",
+      "B) towards",
+      "C) for",
+      "D) with"
+    ],
+    "answer": 2,
+    "explanation": "'Respect for' অর্থ শ্রদ্ধা বা সম্মান।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10387,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Every citizen is responsible ___ the law ___ his actions.",
+    "options": [
+      "A) with, for",
+      "B) at, for",
+      "C) for, to",
+      "D) to, for"
+    ],
+    "answer": 3,
+    "explanation": "কারো কাছে দায়ী হলে 'responsible to' এবং কাজের জন্য দায়ী হলে 'responsible for' বসে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10388,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Hard work usually results ___ great success.",
+    "options": [
+      "A) in",
+      "B) from",
+      "C) to",
+      "D) with"
+    ],
+    "answer": 0,
+    "explanation": "'Result in' অর্থ কোনো ফলাফল ঘটা বা পর্যবসিত হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10389,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Bangladesh is rich ___ valuable natural gas.",
+    "options": [
+      "A) in",
+      "B) for",
+      "C) of",
+      "D) with"
+    ],
+    "answer": 0,
+    "explanation": "'Rich in' অর্থ কোনো সম্পদে সমৃদ্ধ হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10390,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The wicked robbers robbed the traveler ___ all his money.",
+    "options": [
+      "A) from",
+      "B) of",
+      "C) with",
+      "D) by"
+    ],
+    "answer": 1,
+    "explanation": "'Rob of' অর্থ কোনো ব্যক্তি থেকে কোনো কিছু ছিনিয়ে নেওয়া বা ডাকাতি করা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10391,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Are you completely satisfied ___ your exam result?",
+    "options": [
+      "A) at",
+      "B) for",
+      "C) by",
+      "D) with"
+    ],
+    "answer": 3,
+    "explanation": "'Satisfied with' অর্থ কোনো কিছুতে সন্তুষ্ট থাকা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10392,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The old scientist is in constant search ___ truth.",
+    "options": [
+      "A) for",
+      "B) after",
+      "C) of",
+      "D) to"
+    ],
+    "answer": 2,
+    "explanation": "'In search of' একটি প্রবাদতুল্য ফ্রেজ, যার অর্থ সন্ধানে বা অন্বেষণে।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10393,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "We are running very short ___ funds right now.",
+    "options": [
+      "A) of",
+      "B) for",
+      "C) in",
+      "D) with"
+    ],
+    "answer": 0,
+    "explanation": "'Short of' অর্থ কোনো কিছুর ঘাটতি থাকা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10394,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "This unique smartphone model is similar ___ that one.",
+    "options": [
+      "A) like",
+      "B) with",
+      "C) to",
+      "D) as"
+    ],
+    "answer": 2,
+    "explanation": "'Similar to' অর্থ সদৃশ বা একই রকম।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10395,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "I am extremely sorry ___ my unintended mistake.",
+    "options": [
+      "A) with",
+      "B) for",
+      "C) about",
+      "D) to"
+    ],
+    "answer": 1,
+    "explanation": "'Sorry for' অর্থ কোনো ভুলের জন্য অনুতপ্ত বা দুঃখিত।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10396,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Do not stare ___ strangers in that impolite manner.",
+    "options": [
+      "A) on",
+      "B) with",
+      "C) to",
+      "D) at"
+    ],
+    "answer": 3,
+    "explanation": "'Stare at' অর্থ একদৃষ্টিতে তাকিয়ে থাকা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10397,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "The terms are strictly subject ___ board approval.",
+    "options": [
+      "A) with",
+      "B) to",
+      "C) for",
+      "D) under"
+    ],
+    "answer": 1,
+    "explanation": "'Subject to' অর্থ কোনো শর্তের অধীন বা সাপেক্ষ।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10398,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He eventually succeeded ___ achieving his life's dream.",
+    "options": [
+      "A) to",
+      "B) with",
+      "C) at",
+      "D) in"
+    ],
+    "answer": 3,
+    "explanation": "'Succeed in' অর্থ কোনো কাজে সফলকাম হওয়া।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10399,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "He has been suffering ___ malaria since last Monday.",
+    "options": [
+      "A) from",
+      "B) of",
+      "C) with",
+      "D) by"
+    ],
+    "answer": 0,
+    "explanation": "কোনো রোগে ভোগা বোঝাতে 'suffer from' ব্যবহৃত হয়।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  },
+  {
+    "id": 10400,
+    "subject": "ইংরেজি",
+    "topic": "Appropriate Prepositions",
+    "subtopic": "১২. Appropriate Prepositions",
+    "question": "Always put your trust ___ Almighty God.",
+    "options": [
+      "A) with",
+      "B) to",
+      "C) in",
+      "D) on"
+    ],
+    "answer": 2,
+    "explanation": "'Trust in' অর্থ বিশ্বাস বা ভরসা রাখা।",
+    "tags": [
+      "english",
+      "bpsc_prelim",
+      "junior_instructor"
+    ]
+  }
+]

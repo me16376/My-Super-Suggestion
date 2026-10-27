@@ -1,0 +1,18 @@
+[
+  {
+    "id": 2002,
+    "subject": "বাংলা লিখিত",
+    "topic": "অনুবাদ ও দাপ্তরিক লিখন",
+    "question": "ইংরেজি অনুচ্ছেদটি বাংলায় প্রাঞ্জল অনুবাদ করুন:\n'Information Technology has revolutionized the way government services are delivered to the citizens. Digital systems ensure transparency, reduce bureaucratic delays, and eliminate corruption. The implementation of e-governance and biometric passport systems has positioned Bangladesh as a forward-looking digital nation.'",
+    "marks": 7,
+    "answer": "বাংলায় প্রাঞ্জল অনুবাদ:\n\n\"তথ্যপ্রযুক্তি নাগরিকদের কাছে সরকারি সেবা পৌঁছে দেওয়ার পদ্ধতিতে এক বৈপ্লবিক পরিবর্তন এনেছে। ডিজিটাল ব্যবস্থা স্বচ্ছতা নিশ্চিত করে, আমলাতান্ত্রিক কালক্ষেপণ কমায় এবং দুর্নীতি নির্মূল করে। ই-গভর্ন্যান্স ও বায়োমেট্রিক পাসপোর্ট ব্যবস্থার সফল বাস্তবায়ন বাংলাদেশকে একটি দূরদর্শী ডিজিটাল রাষ্ট্র হিসেবে সুপ্রতিষ্ঠিত করেছে।\"",
+    "points_to_remember": [
+      "আক্ষরিক অনুবাদের চেয়ে প্রাঞ্জল ভাবানুবাদ পরীক্ষায় বেশি নম্বর নিশ্চিত করে।",
+      "আমলাতান্ত্রিক জটিলতা/কালক্ষেপণ (bureaucratic delays), স্বচ্ছতা (transparency)।"
+    ],
+    "tags": [
+      "bangla_translation",
+      "written"
+    ]
+  }
+]

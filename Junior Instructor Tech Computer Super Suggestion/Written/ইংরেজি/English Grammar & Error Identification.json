@@ -1,0 +1,20 @@
+[
+  {
+    "id": 3053,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English Grammar & Error Identification",
+    "question": "Correct the structural and grammatical errors in each of the following sentences:\n(a) Having analyzed the log files, the hardware error was resolved by the technician.\n(b) The database administrator is responsible for monitoring traffic, patching vulnerabilities, and to maintain backups.\n(c) Every applicant must submit their biometric records at counter four.\n(d) The system crashed because the power failed, however the UPS failed to switch over.\n(e) More faster processors are required to handle millions of daily e-Passport queries.\n(f) He insisted on me attending the emergency network briefing.",
+    "marks": 6,
+    "answer": "Error Correction Solution:\n\n(a) Incorrect (Dangling Modifier): Having analyzed the log files, the hardware error was resolved by the technician.\n**Correct:** **Having analyzed the log files, the technician resolved** the hardware error.\n*Reason:* The participial phrase must modify the actual subject performing the action ('the technician', not 'the hardware error').\n\n(b) Incorrect (Faulty Parallelism): ...monitoring traffic, patching vulnerabilities, and to maintain backups.\n**Correct:** The database administrator is responsible for monitoring traffic, patching vulnerabilities, and **maintaining** backups.\n*Reason:* Parallel grammatical structures require consistent gerund forms (-ing).\n\n(c) Incorrect (Pronoun Agreement): Every applicant must submit their biometric records...\n**Correct:** Every applicant must submit **his or her** biometric records at counter four. (or: **All applicants must submit their** biometric records...)\n*Reason:* 'Every applicant' is a singular distributive subject.\n\n(d) Incorrect (Run-on / Comma Splice): ...because the power failed, however the UPS...\n**Correct:** The system crashed because the power failed; **however, the UPS** failed to switch over. (or: ...failed. However, the UPS...)\n*Reason:* Conjunctive adverbs ('however') must be preceded by a semicolon or period.\n\n(e) Incorrect (Double Comparative): More faster processors...\n**Correct:** **Faster processors** (or: Significantly faster processors) are required...\n*Reason:* 'Faster' is already comparative; using 'more' is a double comparative error.\n\n(f) Incorrect (Gerund Object): He insisted on me attending...\n**Correct:** He insisted on **my attending** the emergency network briefing.\n*Reason:* A gerund ('attending') requires a possessive adjective ('my') before it.",
+    "points_to_remember": [
+      "Dangling modifiers occur when the introductory participial phrase lacks a logical subject.",
+      "Gerunds are preceded by possessive pronouns (my, his, her, their)."
+    ],
+    "tags": [
+      "error_correction",
+      "parallelism",
+      "dangling_modifier",
+      "grammar"
+    ]
+  }
+]

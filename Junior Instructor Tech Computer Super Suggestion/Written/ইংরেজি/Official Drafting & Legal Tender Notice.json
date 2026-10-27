@@ -1,0 +1,19 @@
+[
+  {
+    "id": 3056,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Official Drafting & Legal Tender Notice",
+    "question": "Draft an official 'Tender Disqualification and Blacklisting Show-Cause Notice' from the Department of Immigration and Passports to a vendor for supplying counterfeit NVMe Solid State Drives (SSDs) under a public e-GP procurement contract.",
+    "marks": 8,
+    "answer": "Official Tender Disqualification & Show-Cause Notice:\n\nGOVERNMENT OF THE PEOPLE'S REPUBLIC OF BANGLADESH\nDEPARTMENT OF IMMIGRATION AND PASSPORTS\nOFFICE OF THE SUPERINTENDING ENGINEER & HEAD OF PROCUREMENT\nE-7 Agargaon, Dhaka-1207\n\nMemo No: 44.01.0000.405.14.022.26-615\nDate: 23 October 2026\n\nTo:\nThe Managing Director\nNexTech Solutions & Distribution Ltd.\nLevel-5, BCS Computer City, Agargaon, Dhaka.\n\nSUBJECT: SHOW-CAUSE NOTICE: SUPPLY OF COUNTERFEIT NVMe SOLID STATE DRIVES UNDER E-GP TENDER ID: 948215 AND PROPOSED BLACKLISTING\n\nDear Sir,\n\nYou are hereby notified that under Public e-GP Tender ID: 948215 (Package: Supply of High-Speed Enterprise Storage Drives for e-Passport Database Kiosks), your firm delivered one hundred (100) units of purported 'Samsung PM9A3 Enterprise 3.84TB NVMe SSDs' on 18 October 2026.\n\n2. During the mandatory pre-commissioning testing conducted by our Technical Evaluation and Inspection Committee, the following fraudulent discrepancies were uncovered:\n   (a) The storage drives failed SMART diagnostic integrity checks, displaying fake controller firmware and counterfeit serial labels.\n   (b) Benchmark throughput revealed sequential read speeds of barely 450 MB/s instead of the mandatory PCIe Gen4 specification of 6,500 MB/s.\n   (c) Formal manufacturer serial validation confirmed that the supplied drives are unauthorized counterfeit consumer modules relabeled as enterprise hardware.\n\n3. Supplying counterfeit hardware for a Critical Information Infrastructure constitutes fraudulent practice and a grave breach of Rule 127 of the Public Procurement Rules (PPR-2008).\n\n4. You are hereby directed to show cause in writing within **seven (07) calendar days** from the receipt of this notice as to why your firm should not be disqualified, your Performance Security (BDT 1,200,000/-) forfeited, and your business entity permanently blacklisted from participating in all future public procurement across Bangladesh.\n\nYours faithfully,\n\n(Signature)\n(Engr. Farid Uddin Ahmed)\nSuperintending Engineer & Chairman, Technical Inspection Committee\nDepartment of Immigration and Passports\nEmail: se.procure@dip.gov.bd",
+    "points_to_remember": [
+      "Cite relevant procurement laws (Rule 127 of PPR-2008) and technical forensic evidence (SMART logs, throughput deficits)."
+    ],
+    "tags": [
+      "show_cause_notice",
+      "blacklisting",
+      "procurement",
+      "english_drafting"
+    ]
+  }
+]

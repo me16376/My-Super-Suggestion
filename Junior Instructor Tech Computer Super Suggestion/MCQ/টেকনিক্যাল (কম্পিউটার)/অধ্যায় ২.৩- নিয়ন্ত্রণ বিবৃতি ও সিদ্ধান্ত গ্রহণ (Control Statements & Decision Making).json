@@ -1,0 +1,632 @@
+[
+  {
+    "id": 3256,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় শর্তযুক্ত সিদ্ধান্তের ক্ষেত্রে বুলিয়ান মান হিসেবে সত্য (True) ও মিথ্যা (False) বোঝাতে কী ব্যবহৃত হয়?",
+    "options": [
+      "A) True এবং False নামে দুটি টেক্সট",
+      "B) শুধুমাত্র ধনাত্মক সংখ্যা True",
+      "C) শুধুমাত্র ১ True এবং ০ False",
+      "D) যেকোনো অশূন্য (Non-zero) মান True এবং শূন্য (0) False"
+    ],
+    "answer": 3,
+    "explanation": "সি ভাষায় শর্ত যাচাইয়ে ০ হলো False এবং যেকোনো অশূন্য মান (এমনকি ঋণাত্মক সংখ্যাও) True হিসেবে গণ্য হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3257,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "`if (x = 5)` স্টেটমেন্টের ফলাফল কী হবে?",
+    "options": [
+      "A) শর্তটি সর্বদা False হবে",
+      "B) শর্তটি সর্বদা True হবে এবং x এর মান 5 সেট হবে",
+      "C) x এর মান পূর্বাবস্থায় থাকবে",
+      "D) এটি একটি কম্পাইল এরর"
+    ],
+    "answer": 1,
+    "explanation": "`=` হলো অ্যাসাইনমেন্ট অপারেটর। এখানে `x = 5` এর ফলাফল ৫ (অশূন্য), ফলে শর্তটি সত্য (True) হিসেবে কার্যকর হবে। তুলনার জন্য `==` প্রয়োজন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3258,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় নেস্টেড `if-else` এ ড্যাংলিং এলস (Dangling Else) সমস্যা সমাধানে কম্পাইলার কোন নিয়ম অনুসরণ করে?",
+    "options": [
+      "A) একটি `else` সর্বদা তার সবচেয়ে নিকটবর্তী আগের অমিলযুক্ত (Unmatched) `if`-এর সাথে যুক্ত হয়",
+      "B) `else` প্রথম `if` এর সাথে যুক্ত হয়",
+      "C) র‍্যান্ডমলি যুক্ত হয়",
+      "D) কম্পাইলার এরর দেয়"
+    ],
+    "answer": 0,
+    "explanation": "ড্যাংলিং এলস নীতি অনুযায়ী ব্র্যাকেট না থাকলে `else` ঠিক তার পূর্ববর্তী নিকটতম অমিলযুক্ত `if`-এর সাথে জোড়া বাঁধে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3259,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় `switch` স্টেটমেন্টের এক্সপ্রেশনে নিচের কোন ডেটা টাইপ ব্যবহার করা সম্পূর্ণ নিষিদ্ধ?",
+    "options": [
+      "A) enum",
+      "B) int",
+      "C) float এবং double",
+      "D) char"
+    ],
+    "answer": 2,
+    "explanation": "`switch` এর শর্তে কেবল অবিভাজ্য পূর্ণসংখ্যা টাইপ (`int`, `char`, `enum`) ব্যবহার করা যায়; ফ্লোটিং পয়েন্ট (`float`, `double`) মান নিষিদ্ধ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3260,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "`switch-case` ব্লকে প্রতিটি `case`-এর শেষে `break` স্টেটমেন্ট না দিলে কী ঘটে?",
+    "options": [
+      "A) সিস্টেম ক্র্যাশ করে",
+      "B) লুপের মতো প্রথম কেসে ফিরে যায়",
+      "C) কম্পাইল এরর প্রদর্শন করে",
+      "D) পরবর্তী কেসগুলোর কোড শর্ত না মেনেই ধারাবাহিকভাবে চলতে থাকে (Fall-through)"
+    ],
+    "answer": 3,
+    "explanation": "কেসের শেষে `break` না দিলে তাকে Fall-through বলা হয়; এতে ম্যাচিং কেসের পর থেকে ব্রেক না পাওয়া পর্যন্ত পরবর্তী সকল কেস এক্সিকিউট হতে থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3261,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "`switch-case` এ `default` ব্লকের অবস্থান কোথায় হতে পারে?",
+    "options": [
+      "A) সুইচ ব্লকের যেকোনো স্থানে (শুরুতে, মাঝে বা শেষে) রাখা যায়",
+      "B) শুধুমাত্র সবার শুরুতে থাকতে হবে",
+      "C) শুধুমাত্র সবার শেষে থাকতে হবে",
+      "D) ডিফল্ট ব্লক লেখা বাধ্যতামূলক"
+    ],
+    "answer": 0,
+    "explanation": "`default` কেস সাধারণত শেষে রাখা হলেও এটি সিনট্যাক্স অনুযায়ী সুইচের যেকোনো স্থানে থাকতে পারে এবং এটি রাখা বাধ্যতামূলক নয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3262,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় এন্ট্রি-কন্ট্রোলড (Entry-controlled) লুপ কোনগুলো?",
+    "options": [
+      "A) do-while লুপ",
+      "B) শুধুমাত্র for লুপ",
+      "C) for লুপ এবং while লুপ",
+      "D) শুধুমাত্র do-while লুপ"
+    ],
+    "answer": 2,
+    "explanation": "`for` এবং `while` লুপের ক্ষেত্রে লুপ বডিতে প্রবেশের আগেই শর্ত পরীক্ষা করা হয়, তাই এগুলো Entry-controlled লুপ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3263,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় এক্সিট-কন্ট্রোলড (Exit-controlled) লুপ কোনটি?",
+    "options": [
+      "A) for লুপ",
+      "B) do-while লুপ",
+      "C) while লুপ",
+      "D) nested লুপ"
+    ],
+    "answer": 1,
+    "explanation": "`do-while` লুপে বডি একবার চলার পর শেষে শর্ত পরীক্ষা করা হয়, তাই এটিকে Exit-controlled লুপ বলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3264,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "শর্ত শুরুতেই মিথ্যা (False) হলেও নিচের কোন লুপটির বডি অন্তত একবার নিশ্চিতভাবে এক্সিকিউট হবে?",
+    "options": [
+      "A) for লুপ",
+      "B) while লুপ",
+      "C) কোনোটিই নয়",
+      "D) do-while লুপ"
+    ],
+    "answer": 3,
+    "explanation": "`do-while` লুপের শর্ত শেষে থাকায় শর্ত মিথ্যা হলেও লুপের ভেতরের কোড ন্যূনতম একবার রান করবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3265,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "`for( ; ; )` স্টেটমেন্টের অর্থ কী?",
+    "options": [
+      "A) কম্পাইল এরর",
+      "B) একটি অসীম লুপ (Infinite Loop)",
+      "C) লুপটি একবারও চলবে না",
+      "D) লুপটি শূন্যবার চলবে"
+    ],
+    "answer": 1,
+    "explanation": "`for` লুপের তিনটি অংশই খালি রাখলে টেস্ট কন্ডিশন ডিফল্টভাবে অশূন্য (True) ধরে নেওয়া হয়, যা ইনফাইনাইট লুপ তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3266,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "`while(1)` এক্সপ্রেশনের আচরণ কী?",
+    "options": [
+      "A) চিরন্তন সত্য বা অসীম লুপ তৈরি করে",
+      "B) একবার চলে থেমে যায়",
+      "C) কম্পাইল এরর দেয়",
+      "D) প্রোগ্রাম ক্র্যাশ করে"
+    ],
+    "answer": 0,
+    "explanation": "১ একটি অশূন্য সংখ্যা তাই শর্ত সর্বদা সত্য, ফলে এটি একটি অসীম লুপ (Infinite Loop) হিসেবে চলতে থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3267,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "লুপের বর্তমান পুনরাবৃত্তিটি (Current Iteration) তাৎক্ষণিক স্কিপ করে পরবর্তী পুনরাবৃত্তিতে যাওয়ার নির্দেশ কোনটি?",
+    "options": [
+      "A) goto",
+      "B) return",
+      "C) continue",
+      "D) break"
+    ],
+    "answer": 2,
+    "explanation": "`continue` স্টেটমেন্ট লুপের নিচের অবশিষ্ট কোড বাদ দিয়ে সরাসরি পরবর্তী পুনরাবৃত্তিতে চলে যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3268,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "লুপ বা `switch` ব্লক থেকে তাৎক্ষণিক স্থায়ীভাবে সম্পূর্ণ বের হয়ে আসার নির্দেশ কোনটি?",
+    "options": [
+      "A) default",
+      "B) exit",
+      "C) continue",
+      "D) break"
+    ],
+    "answer": 3,
+    "explanation": "`break` স্টেটমেন্ট চলমান লুপ বা সুইচ ব্লক থেকে কন্ট্রোলকে সরাসরি ব্লকের বাইরে নিয়ে যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3269,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি প্রোগ্রামে শর্তহীনভাবে নির্দিষ্ট কোনো লেবেলে (Label) জাম্প করার কিওয়ার্ড কোনটি?",
+    "options": [
+      "A) jump",
+      "B) goto",
+      "C) pass",
+      "D) switch"
+    ],
+    "answer": 1,
+    "explanation": "`goto label;` প্রোগ্রামের ফ্লো সরাসরি সংজ্ঞায়িত `label:` অবস্থানে স্থানান্তর করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3270,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "স্ট্রাকচার্ড প্রোগ্রামিংয়ে `goto` স্টেটমেন্ট পরিহার করার পরামর্শ দেওয়া হয় কেন?",
+    "options": [
+      "A) মেমরি অতিরিক্ত নষ্ট হয়",
+      "B) এটি সি++ এ নিষিদ্ধ",
+      "C) প্রোগ্রামের ফ্লো জটিল ও দুর্বোধ্য 'স্প্যাগেটি কোড' (Spaghetti Code) তৈরি করে",
+      "D) কম্পাইলার হ্যাং হয়ে যায়"
+    ],
+    "answer": 2,
+    "explanation": "`goto` অতিরিক্ত ব্যবহারের ফলে কোডের নিয়ন্ত্রণ প্রবাহ বোঝা অসম্ভব হয়ে পড়ে এবং কোড মেইনটেন্যান্স কঠিন হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3271,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "নিচের সি কোডের আউটপুট কী হবে?\n`int i = 0; for(i = 0; i < 5; i++); printf(\"%d\", i);`",
+    "options": [
+      "A) কম্পাইল এরর",
+      "B) 4",
+      "C) 0 1 2 3 4",
+      "D) 5"
+    ],
+    "answer": 3,
+    "explanation": "লুপের শেষে সেমিকোলন (;) থাকায় এটি বডিহীন লুপ। `i` এর মান বৃদ্ধি পেয়ে ৫ হলে শর্ত মিথ্যা হয়ে লুপ শেষ হবে এবং প্রিন্ট হবে ৫।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3272,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "নিচের কোডের আউটপুট কী হবে?\n`int a = 1, b = 2; if(a-- > 0 || ++b > 2) printf(\"%d %d\", a, b);`",
+    "options": [
+      "A) 0 2",
+      "B) 1 2",
+      "C) -1 3",
+      "D) 0 3"
+    ],
+    "answer": 0,
+    "explanation": "লজিক্যাল OR (`||`) এ প্রথম শর্ত `a-- > 0` (১ > ০) সত্য হওয়ায় শর্ট-সার্কিট ইভালুয়েশনে দ্বিতীয় অংশ `++b` এক্সিকিউটই হবে না! ফলে a হবে 0 এবং b থাকবে 2।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3273,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় শর্ট-সার্কিট ইভালুয়েশন (Short-circuit Evaluation) কোন দুটি অপারেটরে ঘটে?",
+    "options": [
+      "A) & এবং |",
+      "B) + এবং -",
+      "C) && (লজিক্যাল AND) এবং || (লজিক্যাল OR)",
+      "D) == এবং !="
+    ],
+    "answer": 2,
+    "explanation": "`&&` এর প্রথম শর্ত ফলস হলে দ্বিতীয় অংশ দেখা হয় না, এবং `||` এর প্রথম শর্ত ট্রু হলে দ্বিতীয় অংশ মূল্যায়ন করা হয় না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3274,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "নিচের কোড সেগমেন্টের আউটপুট কী?\n`int x = 10; if(x == 10) { int x = 20; printf(\"%d \", x); } printf(\"%d\", x);`",
+    "options": [
+      "A) কম্পাইল এরর",
+      "B) 20 10",
+      "C) 20 20",
+      "D) 10 10"
+    ],
+    "answer": 1,
+    "explanation": "ভেতরের ব্লকের `x` হলো লোকাল ভেরিয়েবল যা বাইরের `x` কে শ্যাডো (Shadow) করে। তাই ব্লকের ভেতরে ২০ এবং বাইরে ১০ প্রিন্ট হবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3275,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "`for(int i = 0; i < 3; i++)` ঘোষণাটি কোন সি স্ট্যান্ডার্ড থেকে প্রথম বৈধ করা হয়?",
+    "options": [
+      "A) C89 স্ট্যান্ডার্ড",
+      "B) K&R C",
+      "C) C18",
+      "D) C99 স্ট্যান্ডার্ড"
+    ],
+    "answer": 3,
+    "explanation": "C89 এ লুপের শুরুতে ভেরিয়েবল ঘোষণা করা যেত না, আগে ঘোষণা করতে হতো। C99 থেকে লুপের ভেতরে ডিক্লারেশন বৈধ করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3276,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "`do-while` লুপের সিনট্যাক্সে `while(condition)` এর পর কোনটি আবশ্যক?",
+    "options": [
+      "A) ; (সেমিকোলন)",
+      "B) : (কোলন)",
+      "C) কোনো চিহ্ন প্রয়োজন নেই",
+      "D) { } (কার্লি ব্র্যাকেট)"
+    ],
+    "answer": 0,
+    "explanation": "`do { ... } while(condition);` সিনট্যাক্সে কন্ডিশনের পর সেমিকোলন দেওয়া বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3277,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "নেস্টেড লুপের ভেতরে `break` স্টেটমেন্ট প্রয়োগ করলে কন্ট্রোল কোথায় যাবে?",
+    "options": [
+      "A) প্রোগ্রাম বন্ধ হয়ে যাবে",
+      "B) ফাংশন থেকে বের হয়ে যাবে",
+      "C) একসাথে সকল নেস্টেড লুপ থেকে বের হয়ে যাবে",
+      "D) কেবলমাত্র যে লুপটির ভেতরে `break` রয়েছে সেটি থেকে বের হবে"
+    ],
+    "answer": 3,
+    "explanation": "`break` শুধুমাত্র তার সবচেয়ে অভ্যন্তরীণ বর্তমান (Innermost) লুপ বা সুইচ ব্লক থেকে বাইরে নিয়ে যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3278,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "নিচের কোডের আউটপুট কী হবে?\n`int i = 1; switch(i) { case 1: printf(\"A\"); case 2: printf(\"B\"); default: printf(\"C\"); }`",
+    "options": [
+      "A) C",
+      "B) ABC",
+      "C) A",
+      "D) AB"
+    ],
+    "answer": 1,
+    "explanation": "কেস ১ এ ম্যাচ করলেও কোনো `break` না থাকায় Fall-through হয়ে পরবর্তী কেস ২ ও ডিফল্ট সবগুলো এক্সিকিউট হবে এবং 'ABC' প্রিন্ট হবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3279,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি প্রোগ্রামে `exit(0)` ফাংশন কল করলে কী ঘটে?",
+    "options": [
+      "A) কেবলমাত্র বর্তমান লুপ বন্ধ হয়",
+      "B) ফাংশনটি রিস্টার্ট হয়",
+      "C) সম্পূর্ণ প্রোগ্রামটি স্বাভাবিকভাবে সমাপ্ত হয়ে অপারেটিং সিস্টেমে ফিরে যায়",
+      "D) কম্পিউটার শাটডাউন হয়"
+    ],
+    "answer": 2,
+    "explanation": "`<stdlib.h>` এর `exit(0)` তাৎক্ষণিকভাবে ওপেন ফাইল ক্লোজ ও বাফার ফ্লাশ করে পুরো প্রোগ্রাম সমাপ্ত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3280,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "`switch` স্টেটমেন্টে দুটি `case` এর মান যদি একই (Duplicate) হয়, তবে কী ঘটে?",
+    "options": [
+      "A) কম্পাইল-টাইম এরর (Duplicate case value)",
+      "B) দ্বিতীয়টি রান করবে",
+      "C) প্রথমটি রান করবে",
+      "D) রান-টাইমে ক্র্যাশ করবে"
+    ],
+    "answer": 0,
+    "explanation": "সি ভাষায় একই সুইচের অধীনে দুটি কেসের কনস্ট্যান্ট মান অভিন্ন হলে কম্পাইলার এরর দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3281,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "নিচের কোডের আউটপুট কী?\n`int n = 0; while(n++ < 3); printf(\"%d\", n);`",
+    "options": [
+      "A) 3",
+      "B) 5",
+      "C) 2",
+      "D) 4"
+    ],
+    "answer": 3,
+    "explanation": "n=0 চেক (0<3 সত্য) -> n হয় 1; n=1 চেক -> n হয় 2; n=2 চেক -> n হয় 3; n=3 চেক (3<3 মিথ্যা) -> পোস্ট ইনক্রিমেন্টে n হয় 4। প্রিন্ট হবে 4।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3282,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "সি ভাষায় কোনো কন্ডিশনাল এক্সপ্রেশন যেমন `if (5 > 3 > 1)` এর ফলাফল কী হবে?",
+    "options": [
+      "A) মিথ্যা বা False (কারণ 5 > 3 হয় 1, এবং 1 > 1 হয় 0 বা মিথ্যা)",
+      "B) সত্য (True)",
+      "C) আনডিফাইন্ড",
+      "D) কম্পাইল এরর"
+    ],
+    "answer": 0,
+    "explanation": "রিলেশনাল অপারেটর বাম থেকে ডানে মূল্যায়ন হয়: `5 > 3` এর মান ১। তারপর `1 > 1` এর মান ০ (মিথ্যা)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3283,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "একটি `for` লুপের এক্সিকিউশনের সঠিক ক্রম কোনটি?",
+    "options": [
+      "A) বডি -> কন্ডিশন -> আপডেট -> ইনিশিয়ালাইজেশন",
+      "B) ইনিশিয়ালাইজেশন -> কন্ডিশন টেস্ট -> বডি এক্সিকিউশন -> আপডেট/ইনক্রিমেন্ট",
+      "C) ইনিশিয়ালাইজেশন -> আপডেট -> কন্ডিশন -> বডি",
+      "D) কন্ডিশন -> ইনিশিয়ালাইজেশন -> বডি -> আপডেট"
+    ],
+    "answer": 1,
+    "explanation": "`for(init; cond; update)` এ প্রথমে init একবার হয়, তারপর cond সত্য হলে বডি চলে, তারপর update হয় এবং আবার cond পরীক্ষা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3284,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "লুপ নিয়ন্ত্রণের জন্য ব্যবহৃত ভেরিয়েবলকে কী বলা হয়?",
+    "options": [
+      "A) স্টেট ভেরিয়েবল",
+      "B) গ্লোবাল ভেরিয়েবল",
+      "C) লুপ কন্ট্রোল ভেরিয়েবল (LCV)",
+      "D) এনভায়রনমেন্ট ভেরিয়েবল"
+    ],
+    "answer": 2,
+    "explanation": "যে ভেরিয়েবলের মানের ওপর লুপের শর্ত ও পুনরাবৃত্তি নির্ভর করে তাকে লুপ কন্ট্রোল ভেরিয়েবল বলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3285,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২.৩: নিয়ন্ত্রণ বিবৃতি ও সিদ্ধান্ত গ্রহণ (Control Statements & Decision Making)",
+    "subtopic": "বিষয়- ২. প্রোগ্রামিং ইন সি (Programming in C)",
+    "question": "নিচের কোন স্টেটমেন্টটি ব্যবহার করে একটি ইনফাইনাইট লুপ থেকে শর্তসাপেক্ষে নিরাপদে বের হওয়া যায়?",
+    "options": [
+      "A) continue",
+      "B) if শর্তের সাথে break স্টেটমেন্ট",
+      "C) default",
+      "D) sizeof"
+    ],
+    "answer": 1,
+    "explanation": "ইনফাইনাইট লুপ যেমন `while(1)` এর ভেতর নির্দিষ্ট শর্ত যাচাই করে `break` দিলে লুপ থেকে নিরাপদে বের হওয়া যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

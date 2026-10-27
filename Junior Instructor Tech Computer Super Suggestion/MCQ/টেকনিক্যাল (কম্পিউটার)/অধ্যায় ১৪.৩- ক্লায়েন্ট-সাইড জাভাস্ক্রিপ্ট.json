@@ -1,0 +1,737 @@
+[
+  {
+    "id": 2066,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "জাভাস্ক্রিপ্ট (JavaScript) মূলত কোন ধরনের প্রোগ্রামিং ভাষা?",
+    "options": [
+      "A) কম্পাইল্ড এবং স্ট্যাটিকালি টাইপড ভাষা",
+      "B) কেবলমাত্র ডেটাবেস কুয়েরি ভাষা",
+      "C) ইন্টারপ্রেটেড, ডায়নামিকালি টাইপড, সিঙ্গেল-থ্রেডেড এবং প্রোটোটাইপ-ভিত্তিক মাল্টি-প্যারাডাইম ভাষা",
+      "D) শুধুমাত্র অবজেক্ট ওরিয়েন্টেড লো-লেভেল ভাষা"
+    ],
+    "answer": 2,
+    "explanation": "জাভাস্ক্রিপ্ট ব্রাউজারে V8-এর মতো ইঞ্জিনে JIT কম্পাইলেশন হয়ে চলে; এটি সিঙ্গেল-থ্রেডেড হলেও অ্যাসিনক্রোনাস ইভেন্ট-লুপ দ্বারা পরিচালিত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2067,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "এইচটিএমএল পেজ সম্পূর্ণ পার্স (Parse) শেষ হওয়া পর্যন্ত জাভাস্ক্রিপ্ট স্ক্রিপ্টের এক্সিকিউশন স্থগিত রাখার অ্যাট্রিবিউট কোনটি?",
+    "options": [
+      "A) lazy",
+      "B) async",
+      "C) wait",
+      "D) defer"
+    ],
+    "answer": 3,
+    "explanation": "`defer` ব্যাকগ্রাউন্ডে স্ক্রিপ্ট ডাউনলোড করে কিন্তু সম্পূর্ণ এইচটিএমএল ডোম তৈরি শেষ হওয়ার পরেই কেবল ক্রমানুসারে এক্সিকিউট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2068,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "জাভাস্ক্রিপ্টে ভ্যারিয়েবল ঘোষণার আধুনিক কীওয়ার্ড `let` এবং `const`-এর স্কোপিং বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "A) গ্লোবাল স্কোপড",
+      "B) ব্লক স্কোপড (Block-scoped: কোঁকড়া বন্ধনী {} এর মধ্যে সীমাবদ্ধ)",
+      "C) ফাংশন স্কোপড",
+      "D) উইন্ডো স্কোপড"
+    ],
+    "answer": 1,
+    "explanation": "ES6-এ আসা `let` এবং `const` ব্লক-স্কোপড; অন্যদিকে পুরোনো `var` হলো ফাংশন-স্কোপড।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2069,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "`const` দিয়ে ঘোষিত কোনো অবজেক্টের ক্ষেত্রে নিচের কোন উক্তিটি সত্য?",
+    "options": [
+      "A) অবজেক্টের কোনো প্রোপার্টি কখনোই বদলানো যায় না",
+      "B) এটি গ্লোবাল হয়ে যায়",
+      "C) এটি মান পরিবর্তনকে সমর্থন করে না",
+      "D) ভেরিয়েবলটিকে পুনরায় নতুন মান বা অবজেক্ট অ্যাসাইন করা যায় না, তবে অবজেক্টের অভ্যন্তরীণ প্রোপার্টি পরিবর্তন করা যায়"
+    ],
+    "answer": 3,
+    "explanation": "`const` ভ্যারিয়েবলের মেমরি রেফারেন্সকে লক করে; ফলে `obj = {}` করা যাবে না কিন্তু `obj.name = 'New'` বৈধ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2070,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "জাভাস্ক্রিপ্টে `var` দিয়ে ভ্যারিয়েবল ডিক্লেয়ার করার আগে ব্যবহার করলে এরর না দিয়ে `undefined` দেওয়ার ঘটনাকে কী বলে?",
+    "options": [
+      "A) শ্যাডোইং",
+      "B) ক্লোজার",
+      "C) হোয়েস্টিং (Hoisting)",
+      "D) বাইন্ডিং"
+    ],
+    "answer": 2,
+    "explanation": "Hoisting-এ ইন্টারপ্রেটার কোড চালনার আগেই সমস্ত `var` ডিক্লেয়ারেশনকে স্কোপের শীর্ষে তুলে নেয় এবং `undefined` দিয়ে ইনিশিয়ালাইজ করে রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2071,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "জাভাস্ক্রিপ্টে `typeof null`-এর ফলাফল কী আসে?",
+    "options": [
+      "A) \"boolean\"",
+      "B) \"object\" (জাভাস্ক্রিপ্টের একটি ঐতিহাসিক সুপরিচিত বাগ)",
+      "C) \"null\"",
+      "D) \"undefined\""
+    ],
+    "answer": 1,
+    "explanation": "জাভাস্ক্রিপ্টের প্রথম সংস্করণের টাইপ-ট্যাগ ভুলের কারণে `typeof null === 'object'` আসে, যা ব্যাকওয়ার্ড কম্প্যাটিবিলিটির জন্য অপরিবর্তিত রাখা হয়েছে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2072,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "জাভাস্ক্রিপ্টে সমতা অপারেটর `==` এবং স্ট্রিক্ট সমতা অপারেটর `===`-এর মধ্যে মৌলিক পার্থক্য কোনটি?",
+    "options": [
+      "A) `==` স্বয়ংক্রিয়ভাবে টাইপ রূপান্তর (Type Coercion) করে কেবল মান পরীক্ষা করে; `===` কোনো রূপান্তর ছাড়াই মান এবং ডেটা টাইপ উভয়ই পরীক্ষা করে",
+      "B) `===` ধীরগতির",
+      "C) উভয় অপারেটর সম্পূর্ণ এক",
+      "D) `==` কেবল সংখ্যার জন্য"
+    ],
+    "answer": 0,
+    "explanation": "`5 == '5'` সত্য (true) কারণ স্ট্রিংকে সংখ্যায় কনভার্ট করে; কিন্তু `5 === '5'` মিথ্যা (false) কারণ তাদের ডেটা টাইপ ভিন্ন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2073,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "জাভাস্ক্রিপ্টে নিচের কোন মানটি একটি ফলসি (Falsy) মান নয়?",
+    "options": [
+      "A) 0",
+      "B) null",
+      "C) \"0\" (একটি অ-শূন্য স্ট্রিং)",
+      "D) undefined"
+    ],
+    "answer": 2,
+    "explanation": "জাভাস্ক্রিপ্টের Falsy মানগুলো হলো: `false`, `0`, `-0`, `\"\"` (ফাঁকা স্ট্রিং), `null`, `undefined`, এবং `NaN`। উদ্ধৃতি চিহ্নের ভেতরের `\"0\"` একটি ট্রুথি (Truthy) স্ট্রিং।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2074,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "জাভাস্ক্রিপ্টে `NaN` (Not-a-Number)-এর ডেটা টাইপ কী?",
+    "options": [
+      "A) undefined",
+      "B) number",
+      "C) NaN",
+      "D) string"
+    ],
+    "answer": 1,
+    "explanation": "হাস্যকর শোনালেও `typeof NaN === 'number'`; এটি অবাস্তব গাণিতিক অপারেশনের (যেমন 0/0 বা 'abc' * 2) সংখ্যাগত ফলাফল নির্দেশ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2075,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ES6-এর আধুনিক অ্যারো ফাংশন (Arrow Function: `() => {}`)-এর প্রধান বিশেষত্ব কোনটি?",
+    "options": [
+      "A) এরা খুব ধীরগতির",
+      "B) এদের কোনো প্যারামিটার থাকে না",
+      "C) এরা রিটার্ন করতে পারে না",
+      "D) এদের নিজস্ব কোনো `this` বাইন্ডিং থাকে না, বরং বাইরের লেক্সিক্যাল স্কোপের `this` ধারণ করে"
+    ],
+    "answer": 3,
+    "explanation": "অ্যারো ফাংশনে লেক্সিক্যাল `this` থাকায় কলব্যাক বা ইভেন্ট হ্যান্ডলারে `this` হারিয়ে যাওয়ার সমস্যা ঘটে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2076,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি বিদ্যমান অ্যারেকে পরিবর্তন না করে প্রতিটি উপাদানের ওপর অপারেশন চালিয়ে একটি সম্পূর্ণ নতুন অ্যারে তৈরি করার মেথড কোনটি?",
+    "options": [
+      "A) map()",
+      "B) push()",
+      "C) forEach()",
+      "D) splice()"
+    ],
+    "answer": 0,
+    "explanation": "`map()` প্রতিটি উপাদানের জন্য কলব্যাক রান করে রূপান্তরকৃত ফলাফল দিয়ে একটি নতুন অ্যারে রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2077,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "নির্দিষ্ট শর্ত পূরণকারী উপাদানগুলোকে বেছে নিয়ে একটি নতুন ফিল্টার করা অ্যারে পাওয়ার মেথড কোনটি?",
+    "options": [
+      "A) search()",
+      "B) filter()",
+      "C) slice()",
+      "D) find()"
+    ],
+    "answer": 1,
+    "explanation": "`filter()` কলব্যাক যার জন্য `true` রিটার্ন করে শুধুমাত্র সেই উপাদানগুলোকে নিয়ে নতুন অ্যারে বানায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2078,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি সম্পূর্ণ অ্যারের সমস্ত উপাদানকে প্রসেস করে একক একটি চূড়ান্ত মানে (যেমন সমষ্টি বা গুণফল) রূপান্তরিত করার মেথড কোনটি?",
+    "options": [
+      "A) reduce()",
+      "B) concat()",
+      "C) map()",
+      "D) join()"
+    ],
+    "answer": 0,
+    "explanation": "`reduce((acc, curr) => acc + curr, 0)` অ্যাকুমুলেটর ব্যবহার করে পুরো অ্যারেকে একটি একক মানে সংকুচিত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2079,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "অ্যারেকে সরাসরি পরিবর্তন (Mutate) করে নির্দিষ্ট পজিশন থেকে উপাদান যোগ বা বাদ দেওয়ার শক্তিশালী মেথড কোনটি?",
+    "options": [
+      "A) slice()",
+      "B) split()",
+      "C) shift()",
+      "D) splice()"
+    ],
+    "answer": 3,
+    "explanation": "`splice(start, deleteCount, items)` মূল অ্যারে পরিবর্তন করে; আর `slice()` মূল অ্যারে অপরিবর্তিত রেখে অংশবিশেষ কেটে নেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2080,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ES6-এর স্প্রেড অপারেটর (Spread Operator: `...`)-এর ব্যবহারিক প্রয়োগ কোনটি?",
+    "options": [
+      "A) ডোম সিলেক্ট করা",
+      "B) লুপ চালানো",
+      "C) অ্যারে বা অবজেক্টের সমস্ত উপাদানকে খুলে ক্লোন করা বা একত্রিত করা",
+      "D) ফাংশন বন্ধ করা"
+    ],
+    "answer": 2,
+    "explanation": "`const newArr = [...arr1, ...arr2]` বা `const clone = {...obj}` অত্যন্ত সহজে শ্যালো কপি ও মার্জ করতে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2081,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "অবজেক্ট বা অ্যারে থেকে সরাসরি নির্দিষ্ট প্রোপার্টিকে আলাদা চলকে বের করে আনার সিনট্যাক্সকে কী বলে?",
+    "options": [
+      "A) কনক্যাটেনেশন",
+      "B) সিরিয়ালাইজেশন",
+      "C) ডিস্ট্রাকচারিং অ্যাসাইনমেন্ট (Destructuring: const { name, age } = user;)",
+      "D) ইনক্যাপসুলেশন"
+    ],
+    "answer": 2,
+    "explanation": "Destructuring কোডকে পরিচ্ছন্ন করে এবং অবজেক্ট থেকে এক লাইনেই প্রয়োজনীয় ফিল্ডগুলো ভ্যারিয়েবল হিসেবে খুলে নেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2082,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সিএসএস সিলেক্টর ব্যবহার করে ডকুমেন্টের প্রথম ম্যাচ করা উপাদানটি খুঁজে পাওয়ার আধুনিক ডোম মেথড কোনটি?",
+    "options": [
+      "A) document.getElementById()",
+      "B) document.querySelector()",
+      "C) document.find()",
+      "D) document.getElementsByTagName()"
+    ],
+    "answer": 1,
+    "explanation": "`querySelector('.btn-primary')` যেকোনো জটিল সিএসএস সিলেক্টর দিয়ে প্রথম উপাদানটি রিটার্ন করে; সমস্ত ম্যাচ পেতে `querySelectorAll()` লাগে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2083,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "নিরাপত্তার স্বার্থে ক্রস-সাইট স্ক্রিপ্টিং (XSS) আক্রমণ প্রতিরোধে কোনো উপাদানে কেবল বিশুদ্ধ টেক্সট ইনসার্ট করার জন্য কোন প্রোপার্টি ব্যবহার করা উচিত?",
+    "options": [
+      "A) outerHTML",
+      "B) document.write()",
+      "C) innerHTML",
+      "D) textContent বা innerText"
+    ],
+    "answer": 3,
+    "explanation": "`textContent` কোনো এইচটিএমএল ট্যাগ এক্সিকিউট করে না, ফলে ইউজার ইনপুটের মাধ্যমে ক্ষতিকর স্ক্রিপ্ট রান হওয়ার ঝুঁকি থাকে না (যা `innerHTML`-এ থাকে)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2084,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি এইচটিএমএল উপাদানে সিএসএস ক্লাস যুক্ত বা অপসারন করার সবচেয়ে আধুনিক ও পরিচ্ছন্ন উপায় কোনটি?",
+    "options": [
+      "A) element.classList.add() এবং element.classList.remove()",
+      "B) element.style.class = ...",
+      "C) element.className = ...",
+      "D) element.setAttribute()"
+    ],
+    "answer": 0,
+    "explanation": "`classList` এপিআই (`add`, `remove`, `toggle`, `contains`) ক্লাসের তালিকা ম্যানিপুলেট করা অত্যন্ত সহজ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2085,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "মেমরিতে নতুন একটি এইচটিএমএল উপাদান (যেমন একটি নতুন `<div>` বা `<p>`) তৈরি করার ডোম মেথড কোনটি?",
+    "options": [
+      "A) document.createElement()",
+      "B) document.new()",
+      "C) document.appendChild()",
+      "D) document.makeElement()"
+    ],
+    "answer": 0,
+    "explanation": "`document.createElement('div')` নতুন নোড তৈরি করে যা পরবর্তীতে `appendChild()` দিয়ে ডোমে যুক্ত করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2086,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "উপাদানে ইভেন্ট লিসেনার যুক্ত করার আধুনিক মানসম্মত মেথড কোনটি?",
+    "options": [
+      "A) bindEvent()",
+      "B) attachEvent()",
+      "C) addEventListener('click', callback)",
+      "D) onclick = callback"
+    ],
+    "answer": 2,
+    "explanation": "`addEventListener` একই উপাদানে একাধিক পৃথক লিসেনার যুক্ত করতে পারে এবং বাবলিং/ক্যাপচারিং ফেজ নিয়ন্ত্রণ করতে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2087,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "কোনো ফর্ম সাবমিট করার সময় পেজের স্বাভাবিক রিলোড হওয়া বা লিঙ্কে ক্লিক করলে নতুন পেজে যাওয়া বন্ধ করার মেথড কোনটি?",
+    "options": [
+      "A) return false;",
+      "B) event.stop()",
+      "C) event.stopPropagation()",
+      "D) event.preventDefault()"
+    ],
+    "answer": 3,
+    "explanation": "`event.preventDefault()` ব্রাউজারের ডিফল্ট আচরণ বন্ধ করে যাতে জাভাস্ক্রিপ্টের মাধ্যমে ফর্ম ভ্যালিডেশন বা অ্যাজাক্স কল পরিচালনা করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2088,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি চাইল্ড উপাদানে ঘটা ইভেন্ট ধীরে ধীরে প্যারেন্ট এবং উপরের পূর্বপুরুষ উপাদানগুলোর দিকে ছড়িয়ে পড়ার প্রক্রিয়াকে কী বলে?",
+    "options": [
+      "A) ইভেন্ট টানেলিং",
+      "B) ইভেন্ট বাবলিং (Event Bubbling)",
+      "C) ইভেন্ট ক্যাপচারিং",
+      "D) ইভেন্ট ড্রপ"
+    ],
+    "answer": 1,
+    "explanation": "Event Bubbling হলো ডোম ট্রি-র নিচ থেকে উপরের দিকে ইভেন্টের বুদবুদের মতো ওঠা; এটি বন্ধ করতে `event.stopPropagation()` ব্যবহার করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2089,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "প্রতিটি চাইল্ড উপাদানে আলাদা লিসেনার না বসিয়ে তাদের সাধারণ একক প্যারেন্ট উপাদানে একটি মাত্র ইভেন্ট লিসেনার বসানোর কৌশলকে কী বলে?",
+    "options": [
+      "A) ইভেন্ট পুলিং",
+      "B) ইভেন্ট প্রক্সি",
+      "C) ইভেন্ট ডেলিগেশন (Event Delegation)",
+      "D) ইভেন্ট রাউটিং"
+    ],
+    "answer": 2,
+    "explanation": "ইভেন্ট বাবলিংকে কাজে লাগিয়ে প্যারেন্টে একক লিসেনার বসিয়ে `event.target` দিয়ে চাইল্ড শনাক্ত করাকে Event Delegation বলে (মেমরি সাশ্রয়ী)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2090,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি অভ্যন্তরীণ ফাংশন যখন তার বাইরের এনক্লোজিং ফাংশনের ভ্যারিয়েবলগুলোকে বাইরের ফাংশন শেষ হয়ে যাওয়ার পরও স্মরণে রাখে, সেই মেকানিজমকে কী বলে?",
+    "options": [
+      "A) ক্লোজার (Closure)",
+      "B) রিকিউরশন",
+      "C) পলিমরফিজম",
+      "D) হোয়েস্টিং"
+    ],
+    "answer": 0,
+    "explanation": "Closure হলো ফাংশন এবং তার লেক্সিক্যাল এনভায়রনমেন্টের সমন্বয়, যা প্রাইভেট ভ্যারিয়েবল ও ডেটা এনক্যাপসুলেশন তৈরিতে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2091,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ব্রাউজারের লোকাল স্টোরেজে (localStorage) ডেটা কতদিন সংরক্ষিত থাকে?",
+    "options": [
+      "A) মাস",
+      "B) সর্বোচ্চ ২৪ ঘণ্টা",
+      "C) ব্রাউজার ট্যাব বন্ধ করলেই মুছে যায়",
+      "D) ব্যবহারকারী বা জাভাস্ক্রিপ্ট কোড দিয়ে ম্যানুয়ালি মুছে না ফেলা পর্যন্ত কোনো মেয়াদোত্তীর্ণ ছাড়া চিরস্থায়ীভাবে সংরক্ষিত থাকে"
+    ],
+    "answer": 3,
+    "explanation": "`localStorage` প্রায় ৫-১০ MB ডেটা ব্রাউজার বন্ধ বা পিসি রিস্টার্ট করলেও চিরতরে অক্ষুণ্ণ রাখে; আর `sessionStorage` ট্যাব বন্ধের সাথে সাথে মুছে যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2092,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "লোকাল স্টোরেজে একটি জাভাস্ক্রিপ্ট অবজেক্ট সংরক্ষণ করার সঠিক উপায় কোনটি?",
+    "options": [
+      "A) localStorage.write('user', userObj);",
+      "B) localStorage.setItem('user', JSON.stringify(userObj));",
+      "C) localStorage.setItem('user', userObj);",
+      "D) localStorage.save(userObj);"
+    ],
+    "answer": 1,
+    "explanation": "localStorage কেবল স্ট্রিং মান ধারণ করে; তাই অবজেক্টকে আগে `JSON.stringify()` দিয়ে স্ট্রিং বানিয়ে সেভ করতে হয় এবং পড়ার সময় `JSON.parse()` করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2093,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "জাভাস্ক্রিপ্টে একটি নির্দিষ্ট সময় (যেমন ২ সেকেন্ড) পর কোনো ফাংশন একবার নির্বাহ করার টাইমার মেথড কোনটি?",
+    "options": [
+      "A) setInterval(callback, 2000)",
+      "B) setTimeout(callback, 2000)",
+      "C) wait(2000)",
+      "D) sleep(2000)"
+    ],
+    "answer": 1,
+    "explanation": "`setTimeout` নির্দিষ্ট মিলিসেকেন্ড পর একবার কোড চালায়; আর `setInterval` প্রতি নির্দিষ্ট সময় পর বারবার কোড চালায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2094,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "জাভাস্ক্রিপ্ট প্রমিজ (Promise)-এর তিনটি সম্ভাব্য অবস্থা (States) কী কী?",
+    "options": [
+      "A) True, False, and Null",
+      "B) Input, Process, and Output",
+      "C) Pending (অপেক্ষমাণ), Fulfilled/Resolved (সফল), এবং Rejected (প্রত্যাখ্যাত)",
+      "D) Start, Running, and Stop"
+    ],
+    "answer": 2,
+    "explanation": "Promise অ্যাসিনক্রোনাস অপারেশনের অবস্থা নির্দেশ করে: প্রাথমিক অবস্থা Pending, কাজ সফল হলে Fulfilled (`.then()`), এবং ব্যর্থ হলে Rejected (`.catch()`)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2095,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "অ্যাসিনক্রোনাস প্রমিজ-ভিত্তিক কোডকে সাধারণ সিঙ্ক্রোনাস কোডের মতো সহজে পড়তে ও লিখতে ES8-এ কোন সিনট্যাক্স আনা হয়েছে?",
+    "options": [
+      "A) async / await সিনট্যাক্স",
+      "B) then / catch",
+      "C) defer / async",
+      "D) try / catch"
+    ],
+    "answer": 0,
+    "explanation": "`async` ফাংশনের ভেতরে `await` ব্যবহার করলে প্রমিজ সমাধান না হওয়া পর্যন্ত কোড অপেক্ষা করে, যা কলব্যাক হেল দূর করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2096,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ব্রাউজারে আধুনিক এইচটিটিপি নেটওয়ার্ক রিকোয়েস্ট পাঠানোর নেটিভ এপিআই কোনটি?",
+    "options": [
+      "A) request()",
+      "B) http.get()",
+      "C) curl()",
+      "D) fetch() এপিআই"
+    ],
+    "answer": 3,
+    "explanation": "`fetch('url')` প্রমিজ রিটার্ন করে এবং আধুনিক ওয়েবে XMLHttpRequest-এর বিকল্প হিসেবে বহুল ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2097,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "জাভাস্ক্রিপ্টে কোডের কঠোর নিয়ম প্রয়োগ এবং অঘোষিত ভ্যারিয়েবল ব্যবহারের মতো অনিরাপদ কাজ বন্ধ করার নির্দেশ কোনটি?",
+    "options": [
+      "A) \"safe code\";",
+      "B) \"strict mode\";",
+      "C) \"use secure\";",
+      "D) \"use strict\";"
+    ],
+    "answer": 3,
+    "explanation": "`\"use strict\";` স্ক্রিপ্টের শুরুতে দিলে জাভাস্ক্রিপ্ট স্ট্রিক্ট মোডে চলে, যা নীরব ত্রুটিগুলোকে ভিজিবল এক্সেপশনে রূপান্তর করে কোডকে সুরক্ষিত রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2098,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "জাভাস্ক্রিপ্ট ইঞ্জিন সিঙ্গেল-থ্রেডেড হওয়া সত্ত্বেও কীভাবে নন-ব্লকিং অ্যাসিনক্রোনাস কাজ সম্পন্ন করে?",
+    "options": [
+      "A) অপারেটিং সিস্টেমের সাহায্যে থ্রেড বানিয়ে",
+      "B) কোড বন্ধ রেখে",
+      "C) ইভেন্ট লুপ (Event Loop) এবং কলব্যাক কিউ (Task/Microtask Queue) মেকানিজম ব্যবহার করে",
+      "D) মাল্টি-সিপিইউ ব্যবহার করে"
+    ],
+    "answer": 2,
+    "explanation": "Event Loop পর্যবেক্ষণ করে কল স্ট্যাক খালি হলে টাস্ক কিউ থেকে অ্যাসিনক্রোনাস কলব্যাকগুলো একে একে কল স্ট্যাকে তুলে এক্সিকিউট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2099,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ব্রাউজারের বর্তমান ইউআরএল (URL) জানা এবং নতুন ইউআরএলে রিডাইরেক্ট করার ব্রাউজার অবজেক্ট কোনটি?",
+    "options": [
+      "A) window.location",
+      "B) window.screen",
+      "C) window.navigator",
+      "D) window.history"
+    ],
+    "answer": 0,
+    "explanation": "`window.location.href = 'new_url'` ব্রাউজারকে নতুন পেজে রিডাইরেক্ট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2100,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৩: ক্লায়েন্ট-সাইড জাভাস্ক্রিপ্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ব্যবহারকারীর ব্রাউজারের ধরন, অপারেটিং সিস্টেম ও প্ল্যাটফর্মের তথ্য জানার বিওএম (BOM) অবজেক্ট কোনটি?",
+    "options": [
+      "A) location",
+      "B) navigator (window.navigator.userAgent)",
+      "C) history",
+      "D) document"
+    ],
+    "answer": 1,
+    "explanation": "`navigator` অবজেক্ট ক্লায়েন্টের ব্রাউজার, ল্যাঙ্গুয়েজ এবং অপারেটিং সিস্টেমের মেটাডাটা সরবরাহ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

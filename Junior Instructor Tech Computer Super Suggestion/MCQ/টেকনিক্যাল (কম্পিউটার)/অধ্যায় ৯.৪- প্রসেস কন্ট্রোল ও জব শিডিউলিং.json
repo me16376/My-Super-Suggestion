@@ -1,0 +1,737 @@
+[
+  {
+    "id": 5921,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্সে সিস্টেমে চলমান সমস্ত প্রসেসের সম্পূর্ণ বিস্তারিত স্ন্যাপশট দেখার জনপ্রিয় BSD সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) ps aux",
+      "B) show process",
+      "C) ps all",
+      "D) ps -ef"
+    ],
+    "answer": 0,
+    "explanation": "`ps aux` (a=all users, u=user-oriented format, x=processes without tty) সিস্টেমের প্রতিটি প্রসেসের সিপিইউ ও মেমরি ব্যবহার প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5922,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্সে প্রসেসগুলোর মধ্যে পিতা-সন্তান (Parent-Child) সম্পর্ক ট্রি বা বৃক্ষাকারে দেখার কমান্ড কোনটি?",
+    "options": [
+      "A) ps -tree",
+      "B) top -tree",
+      "C) ptree",
+      "D) pstree"
+    ],
+    "answer": 3,
+    "explanation": "`pstree` কমান্ড প্রসেস আইডি ও তাদের হাইয়ারার্কি সুন্দর ভিজ্যুয়াল ট্রি আকারে উপস্থাপন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5923,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "শুধুমাত্র নির্দিষ্ট নামের প্রসেসের প্রসেস আইডি (PID) খুঁজে বের করার কমান্ড কোনটি?",
+    "options": [
+      "A) ps -name",
+      "B) pgrep process_name (বা pidof)",
+      "C) findpid",
+      "D) whichpid"
+    ],
+    "answer": 1,
+    "explanation": "`pgrep` (Process Grep) এবং `pidof` কোনো চলমান প্রসেসের নাম দিলে সরাসরি তার PID নম্বর রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5924,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্সে কোনো সিগন্যাল নম্বর উল্লেখ না করে শুধুমাত্র `kill PID` দিলে প্রসেসটিতে ডিফল্ট কোন সিগন্যাল পাঠানো হয়?",
+    "options": [
+      "A) SIGINT (সিগন্যাল 2)",
+      "B) SIGKILL (সিগন্যাল 9)",
+      "C) SIGTERM (সিগন্যাল 15 - গ্রেসফুল টার্মিনেশন)",
+      "D) SIGHUP (সিগন্যাল 1)"
+    ],
+    "answer": 2,
+    "explanation": "ডিফল্ট সিগন্যাল হলো SIGTERM (15), যা প্রসেসকে ভদ্রভাবে নিজের রিসোর্স গুটিয়ে নিয়ে টার্মিনেট করার অনুরোধ জানায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5925,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "অবাধ্য বা আটকে যাওয়া কোনো প্রসেসকে কার্নেল দ্বারা তৎক্ষণাৎ জোরপূর্বক বন্ধ করার অপ্রতিরোধ্য সিগন্যাল কোনটি?",
+    "options": [
+      "A) SIGSTOP (সিগন্যাল 19)",
+      "B) SIGTERM (সিগন্যাল 15)",
+      "C) SIGKILL (সিগন্যাল 9)",
+      "D) SIGQUIT"
+    ],
+    "answer": 2,
+    "explanation": "SIGKILL (9) কোনো প্রসেস ক্যাচ বা ব্লক করতে পারে না; কার্নেল সরাসরি প্রসেসটির মেমোরি খালি করে তাকে বন্ধ করে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5926,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি সার্ভিস ডেমন রিস্টার্ট না করে শুধুমাত্র তার কনফিগারেশন ফাইল রিলোড করাতে কোন সিগন্যাল পাঠানো হয়?",
+    "options": [
+      "A) SIGUSR1",
+      "B) SIGTERM",
+      "C) SIGKILL",
+      "D) SIGHUP (সিগন্যাল 1 - Hangup)"
+    ],
+    "answer": 3,
+    "explanation": "SIGHUP (1) সংকেত পাঠালে অধিকাংশ ডেমন সার্ভিস সচল রেখেই তাদের কনফিগ ফাইল রি-রিড করে নেয় (যেমন: `kill -HUP PID`).",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5927,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "টার্মিনালে কিবোর্ড শর্টকাট `Ctrl + C` চাপলে চলমান ফোরগ্রাউন্ড প্রসেসে কোন সিগন্যাল পাঠানো হয়?",
+    "options": [
+      "A) SIGINT (সিগন্যাল 2 - Interrupt)",
+      "B) SIGKILL",
+      "C) SIGQUIT",
+      "D) SIGTSTP"
+    ],
+    "answer": 0,
+    "explanation": "`Ctrl + C` চাপলে শেলের মাধ্যমে প্রসেসে SIGINT (Interrupt) সিগন্যাল যায়, যা সাধারণ প্রোগ্রামকে বাতিল করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5928,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "চলমান ফোরগ্রাউন্ড প্রোগ্রামকে স্থগিত (Pause/Suspend) করে ব্যাকগ্রাউন্ডে পাঠাতে কিবোর্ডে কী চাপতে হয়?",
+    "options": [
+      "A) Ctrl + X",
+      "B) Ctrl + Z (যা SIGTSTP সিগন্যাল পাঠায়)",
+      "C) Ctrl + D",
+      "D) Ctrl + C"
+    ],
+    "answer": 1,
+    "explanation": "`Ctrl + Z` প্রসেসকে সাময়িকভাবে পজ করে ব্যাকগ্রাউন্ডে ঝুলিয়ে দেয়, যা পরবর্তীতে `bg` কমান্ড দিয়ে চালু বা `fg` দিয়ে সামনে আনা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5929,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "টার্মিনাল থেকে কোনো কমান্ড সরাসরি ব্যাকগ্রাউন্ডে এক্সিকিউট করার জন্য কমান্ডের শেষে কোন প্রতীক যোগ করতে হয়?",
+    "options": [
+      "A) & (অ্যাম্পারস্যান্ড)",
+      "B) $",
+      "C) |",
+      "D) ;"
+    ],
+    "answer": 0,
+    "explanation": "কমান্ডের শেষে `&` দিলে (যেমন `sleep 100 &`) তা ব্যাকগ্রাউন্ডে শুরু হয় এবং টার্মিনাল প্রম্পট সাথে সাথে মুক্ত হয়ে যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5930,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "স্থগিত থাকা একটি ব্যাকগ্রাউন্ড জবকে ব্যাকগ্রাউন্ডেই পুনরায় সচল (Running) করতে কোন কমান্ড ব্যবহৃত হয়?",
+    "options": [
+      "A) run",
+      "B) bg",
+      "C) fg",
+      "D) resume"
+    ],
+    "answer": 1,
+    "explanation": "`bg` (Background) কমান্ড স্থগিত থাকা জবকে ব্যাকগ্রাউন্ডে চলমান অবস্থায় নিয়ে যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5931,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "ব্যাকগ্রাউন্ডে চলমান কোনো জবকে পুনরায় টার্মিনালের ফোরগ্রাউন্ডে ফিরিয়ে আনার কমান্ড কোনটি?",
+    "options": [
+      "A) bg",
+      "B) front",
+      "C) jobs",
+      "D) fg"
+    ],
+    "answer": 3,
+    "explanation": "`fg` (Foreground) কমান্ড ব্যাকগ্রাউন্ড জবকে টার্মিনালের সামনে নিয়ে আসে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5932,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "ইউজার টার্মিনাল বা SSH সেশন বন্ধ করে দিলেও স্ক্রিপ্ট যাতে বন্ধ না হয়ে ব্যাকগ্রাউন্ডে চলতে থাকে সেজন্য কোন ইউটিলিটি ব্যবহৃত হয়?",
+    "options": [
+      "A) bg",
+      "B) sudo",
+      "C) nohup (No Hang Up) বা tmux / screen",
+      "D) cron"
+    ],
+    "answer": 2,
+    "explanation": "`nohup command &` কমান্ড SIGHUP সিগন্যাল প্রতিরোধ করে, ফলে টার্মিনাল এক্সিট করলেও ব্যাকগ্রাউন্ড প্রসেস নিরবচ্ছিন্নভাবে চলতে থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5933,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্স সিস্টেমের আপটাইম এবং ১, ৫ ও ১৫ মিনিটের লোড অ্যাভারেজ (Load Average) দেখার দ্রুততম কমান্ড কোনটি?",
+    "options": [
+      "A) uptime",
+      "B) load",
+      "C) w",
+      "D) top"
+    ],
+    "answer": 0,
+    "explanation": "`uptime` কমান্ড সিস্টেম কতক্ষণ চলছে, কতজন ইউজার লগইন আছে এবং শেষ ১, ৫ ও ১৫ মিনিটের সিপিইউ লোড গড় প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5934,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "সিস্টেমের মোট র‍্যাম (RAM), ব্যবহৃত মেমরি ও সোয়াপ মেমরির হিসাব মেগাবাইট বা গিগাবাইটে দেখার কমান্ড কোনটি?",
+    "options": [
+      "A) df -h",
+      "B) vmstat",
+      "C) free -m (বা free -h)",
+      "D) meminfo"
+    ],
+    "answer": 2,
+    "explanation": "`free -h` (Human-readable) কমান্ড ফিজিক্যাল র‍্যামের মোট, ব্যবহৃত, বাফার/ক্যাশ এবং উপলব্ধ মেমোরির স্বচ্ছ হিসাব দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5935,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "ডিস্কের ফাইল সিস্টেমগুলোর মোট স্টোরেজ ও ফাঁকা স্পেস দেখার কমান্ড কোনটি?",
+    "options": [
+      "A) fdisk -l",
+      "B) df -h (Disk Free)",
+      "C) du -sh",
+      "D) lsblk"
+    ],
+    "answer": 1,
+    "explanation": "`df -h` (Disk Free) মাউন্ট করা প্রতিটি পার্টিশনের মোট আকার, ব্যবহৃত জায়গা ও অবশিষ্ট ফাঁকা পার্সেন্টেজ প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5936,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "কোনো নির্দিষ্ট ফাইল বা সম্পূর্ণ ফোল্ডারের মোট ডিস্ক সাইজ সংক্ষেপে (Summary) দেখার কমান্ড কোনটি?",
+    "options": [
+      "A) df -h",
+      "B) stat folder",
+      "C) size folder",
+      "D) du -sh folder_name (Disk Usage)"
+    ],
+    "answer": 3,
+    "explanation": "`du -sh` (-s মানে Summary, -h মানে Human-readable) নির্দিষ্ট ডিরেক্টরির সমস্ত ফাইল মিলে মোট কত মেগাবাইট বা গিগাবাইট জায়গা নিয়েছে তা দেখায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5937,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্সে স্বয়ংক্রিয় পুনরাবৃত্তিমূলক টাস্ক বা জব শিডিউলিংয়ের জন্য ব্যাকগ্রাউন্ড ডেমন কোনটি?",
+    "options": [
+      "A) cron (বা crond)",
+      "B) schedulerd",
+      "C) systemd-timer",
+      "D) atd"
+    ],
+    "answer": 0,
+    "explanation": "`cron` ডেমন ব্যাকগ্রাউন্ডে প্রতি মিনিটে জাগ্রত হয়ে ক্রনট্যাব ফাইল পরীক্ষা করে নির্ধারিত সময়সূচি অনুযায়ী স্ক্রিপ্ট ও ব্যাকআপ পরিচালনা করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5938,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি ক্রনট্যাব (Crontab) এন্ট্রিতে সময় ও তারিখ নির্ধারণের জন্য কয়টি ফিল্ড থাকে?",
+    "options": [
+      "A) ৬টি ফিল্ড",
+      "B) ৫টি ফিল্ড",
+      "C) ৪টি ফিল্ড",
+      "D) ৭টি ফিল্ড"
+    ],
+    "answer": 1,
+    "explanation": "ক্রনট্যাবের ৫টি ফিল্ডের সঠিক ক্রম: Minute (0-59), Hour (0-23), Day of Month (1-31), Month (1-12), এবং Day of Week (0-6, 0=রবিবার)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5939,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "ক্রনট্যাব এক্সপ্রেশন `0 2 * * * /backup.sh` দ্বারা কী বোঝানো হয়েছে?",
+    "options": [
+      "A) প্রতি ২ মিনিট পর পর চলবে",
+      "B) প্রতি মাসের ২ তারিখে চলবে",
+      "C) প্রতি ২ ঘণ্টায় চলবে",
+      "D) প্রতিদিন রাত ২:০০ টায় ব্যাকআপ স্ক্রিপ্ট চলবে"
+    ],
+    "answer": 3,
+    "explanation": "মিনিট=0, ঘণ্টা=2, বাকি তিনটি ফিল্ডে `*` মানে প্রতিদিন রাত ঠিক ২টা ০০ মিনিটে কাজটি নির্বাহ হবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5940,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "প্রতি ৫ মিনিট পরপর একটি স্ক্রিপ্ট চালানোর সঠিক ক্রনট্যাব সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) * * 5 * * script.sh",
+      "B) 5 * * * * script.sh",
+      "C) */5 * * * * /path/to/script.sh",
+      "D) 5 5 * * * script.sh"
+    ],
+    "answer": 2,
+    "explanation": "`*/5` এক্সপ্রেশনটি প্রতি ৫ মিনিট অন্তর অন্তর টাস্ক এক্সিকিউট করতে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5941,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "বর্তমান ব্যবহারকারীর ব্যক্তিগত ক্রনট্যাব ফাইল এডিট করার কমান্ড কোনটি?",
+    "options": [
+      "A) crontab -r",
+      "B) crontab -l",
+      "C) crontab -e",
+      "D) nano /etc/crontab"
+    ],
+    "answer": 2,
+    "explanation": "`crontab -e` (Edit) ব্যবহারকারীর নিজস্ব শিডিউল ফাইল খুলে দেয় এবং সেভ করার পর স্বয়ংক্রিয়ভাবে সিনট্যাক্স যাচাই করে ইনস্টল করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5942,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "বর্তমান ব্যবহারকারীর তালিকাভুক্ত সমস্ত সক্রিয় ক্রন জব দেখার কমান্ড কোনটি?",
+    "options": [
+      "A) crontab -v",
+      "B) crontab -e",
+      "C) crontab -s",
+      "D) crontab -l"
+    ],
+    "answer": 3,
+    "explanation": "`crontab -l` (List) বর্তমান ইউজারের সংরক্ষিত সমস্ত ক্রন শিডিউল স্ক্রিনে প্রিন্ট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5943,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "ভবিষ্যতে শুধুমাত্র একবারের জন্য (One-time) নির্দিষ্ট সময়ে একটি কাজ শিডিউল করার কমান্ড কোনটি?",
+    "options": [
+      "A) at",
+      "B) cron",
+      "C) batch",
+      "D) timer"
+    ],
+    "answer": 0,
+    "explanation": "`at` কমান্ড একবারের কাজের জন্য উপযোগী (যেমন: `at 5:00 PM tomorrow`), যার ব্যাকগ্রাউন্ড সার্ভিস হলো `atd`।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5944,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "`at` কমান্ডে অপেক্ষমাণ কিউভুক্ত কাজগুলোর তালিকা দেখার কমান্ড কোনটি?",
+    "options": [
+      "A) atrm",
+      "B) atq (বা at -l)",
+      "C) jobs",
+      "D) cron -l"
+    ],
+    "answer": 1,
+    "explanation": "`atq` (At Queue) ভবিষ্যতে রান হওয়ার অপেক্ষায় থাকা ওয়ান-টাইম জবগুলোর তালিকা দেখায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5945,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "সিস্টেমের লোড অ্যাভারেজ যখন কমে (০.৮-এর নিচে নামে) কেবল তখনই ওয়ান-টাইম কাজ চালনা করার কমান্ড কোনটি?",
+    "options": [
+      "A) at",
+      "B) nice",
+      "C) batch",
+      "D) cron"
+    ],
+    "answer": 2,
+    "explanation": "`batch` কমান্ড ভারী কাজ শিডিউল করে রাখে এবং সিস্টেমের সিপিইউ লোড স্বস্তিদায়ক অবস্থায় নামা মাত্রই কাজ শুরু করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5946,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি নতুন প্রোগ্রামকে নির্দিষ্ট প্রায়োরিটি (Nice value) দিয়ে চালু করার কমান্ড কোনটি?",
+    "options": [
+      "A) chprio",
+      "B) priority",
+      "C) renice",
+      "D) nice -n 10 script.sh"
+    ],
+    "answer": 3,
+    "explanation": "`nice` কমান্ড নতুন প্রসেস শুরু করার সময় তার নাইস ভ্যালু (-20 থেকে +19) নির্ধারণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5947,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "ইতিমধ্যে চলমান কোনো রানিং প্রসেসের প্রায়োরিটি বা নাইস ভ্যালু পরিবর্তনের কমান্ড কোনটি?",
+    "options": [
+      "A) nice",
+      "B) renice -n 5 -p PID",
+      "C) chprio",
+      "D) top -p"
+    ],
+    "answer": 1,
+    "explanation": "`renice` কমান্ড চলমান কোনো প্রসেসের PID উল্লেখ করে তার অগ্রাধিকার মান তাৎক্ষণিকভাবে বাড়াতে বা কমাতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5948,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্সে কোনো কমান্ড নিয়মিত বিরতিতে (যেমন প্রতি ২ সেকেন্ড পর পর) স্বয়ংক্রিয়ভাবে স্ক্রিনে রিফ্রেশ করে দেখার ইউটিলিটি কোনটি?",
+    "options": [
+      "A) watch -n 2 command",
+      "B) loop",
+      "C) repeat",
+      "D) tail"
+    ],
+    "answer": 0,
+    "explanation": "`watch` কমান্ড ফুলস্ক্রিনে নির্দিষ্ট সময় পরপর আউটপুট রিফ্রেশ করে দেখায় (যেমন: `watch -n 1 'free -m'`)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5949,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "ভার্চুয়াল মেমরি, পেজিং, ব্লক আই/ও এবং সিপিইউ অ্যাক্টিভিটি প্রতি সেকেন্ডের পরিসংখ্যানে দেখার কমান্ড কোনটি?",
+    "options": [
+      "A) vmstat",
+      "B) free",
+      "C) iostat",
+      "D) uptime"
+    ],
+    "answer": 0,
+    "explanation": "`vmstat` (Virtual Memory Statistics) প্রসেস, মেমরি সোয়াপিং, আইও ব্লক ও সিপিইউ ব্যবহারের গতিশীল রিপোর্ট দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5950,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্স স্টোরেজ ডিভাইস ও পার্টিশনের ইনপুট/আউটপুট (I/O) লোড ও রিড-রাইট গতি মনিটর করার টুল কোনটি?",
+    "options": [
+      "A) vmstat",
+      "B) iostat",
+      "C) df",
+      "D) du"
+    ],
+    "answer": 1,
+    "explanation": "`iostat` (sysstat প্যাকেজের অংশ) ডিস্ক ড্রাইভগুলোর থ্রুপুট, সার্ভিস টাইম ও রিড/রাইট রেট নিখুঁতভাবে বিশ্লেষণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5951,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্সে প্রসেস কর্তৃক ব্যবহৃত মেমরিতে ওপেন ফাইল ও নেটওয়ার্ক সকেটের তালিকা দেখার কমান্ড কোনটি?",
+    "options": [
+      "A) ps",
+      "B) netstat",
+      "C) openfiles",
+      "D) lsof (List Open Files)"
+    ],
+    "answer": 3,
+    "explanation": "`lsof` (List Open Files) কমান্ড সিস্টেমের সমস্ত খোলা ফাইল, সক্রিয় লিসেনিং সকেট এবং কোন প্রসেস তা ধরে রেখেছে তা উন্মোচন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5952,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লগইন করা সমস্ত সক্রিয় ব্যবহারকারীর তালিকা ও তাদের চলমান বর্তমান কাজ দেখার দ্রুততম কমান্ড কোনটি?",
+    "options": [
+      "A) whoami",
+      "B) users",
+      "C) w (বা who)",
+      "D) id"
+    ],
+    "answer": 2,
+    "explanation": "`w` কমান্ড লগইন করা প্রতিটি ইউজারের আইপি, টার্মিনাল TTY, লগইন টাইম ও সে কোন কমান্ডটি বর্তমানে রান করছে তা দেখায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5953,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "সিস্টেমে অতীতে কোন কোন ব্যবহারকারী লগইন ও রিবুট করেছিল তার ঐতিহাসিক অডিট লগ দেখার কমান্ড কোনটি?",
+    "options": [
+      "A) who -h",
+      "B) history",
+      "C) last",
+      "D) past"
+    ],
+    "answer": 2,
+    "explanation": "`last` কমান্ড `/var/log/wtmp` ফাইল পড়ে পূর্বের সমস্ত ইউজার সেশন ও রিবুট সময়ের ইতিহাস তুলে ধরে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5954,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "টার্মিনালে অন্য কোনো ব্যবহারকারীকে বা সমস্ত ব্যবহারকারীকে সরাসরি ব্রডকাস্ট বার্তা পাঠানোর কমান্ড কোনটি?",
+    "options": [
+      "A) echo",
+      "B) wall (Write to All) বা write",
+      "C) mail",
+      "D) msg"
+    ],
+    "answer": 1,
+    "explanation": "`wall` (Write to All) কমান্ড সার্ভারে লগইন থাকা সমস্ত ব্যবহারকারীর ওপেন টার্মিনালে তাৎক্ষণিক জরুরি প্রশাসনিক মেসেজ ব্রডকাস্ট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5955,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৪: প্রসেস কন্ট্রোল ও জব শিডিউলিং",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্স সার্ভার নিরাপদ ও সুশৃঙ্খলভাবে তাৎক্ষণিকভাবে বন্ধ বা রিবুট করার প্রমিত কমান্ড কোনটি?",
+    "options": [
+      "A) kill 0",
+      "B) exit",
+      "C) halt -f",
+      "D) shutdown -h now (বন্ধ করতে) বা reboot"
+    ],
+    "answer": 3,
+    "explanation": "`shutdown` কমান্ড সমস্ত চলমান সার্ভিসকে নোটিফিকেশন পাঠিয়ে আনমাউন্ট করে নিরাপদে সিস্টেম অফ বা রিস্টার্ট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

@@ -1,0 +1,632 @@
+[
+  {
+    "id": 4716,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় এক্সেপশন ও এরর সংক্রান্ত সকল ক্লাসের মূল প্যারেন্ট সুপারক্লাস কোনটি?",
+    "options": [
+      "A) java.lang.Exception",
+      "B) java.lang.Throwable",
+      "C) java.lang.Object",
+      "D) java.lang.Error"
+    ],
+    "answer": 1,
+    "explanation": "`Throwable` হলো শীর্ষ ক্লাস, যার দুটি মূল শাখা: `Error` এবং `Exception`।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4717,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় চেকড এক্সেপশন (Checked Exception) এবং আনচেকড এক্সেপশনের মধ্যে মূল পার্থক্য কী?",
+    "options": [
+      "A) চেকড এক্সেপশন কম্পাইল সময়েই হ্যান্ডল বা ডিক্লেয়ার করতে হয়, আর আনচেকড রান-টাইমে ঘটে",
+      "B) চেকড এক্সেপশন কখনো হ্যান্ডল করা যায় না",
+      "C) উভয়ের মধ্যে কোনো প্রযুক্তিগত পার্থক্য নেই",
+      "D) আনচেকড এক্সেপশন কম্পাইল সময়ে ধরা পড়ে"
+    ],
+    "answer": 0,
+    "explanation": "কম্পাইলার চেকড এক্সেপশন (যেমন IOException) হ্যান্ডেল করা হয়েছে কিনা কম্পাইল সময়েই বাধ্য করে; `RuntimeException` হলো আনচেকড।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4718,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "নিচের কোনটি জাভায় একটি আনচেকড এক্সেপশন (Unchecked Exception)?",
+    "options": [
+      "A) IOException",
+      "B) NullPointerException",
+      "C) SQLException",
+      "D) ClassNotFoundException"
+    ],
+    "answer": 1,
+    "explanation": "`NullPointerException` হলো `RuntimeException` এর সাবক্লাস, যা রান-টাইমে নাল রেফারেন্স অ্যাক্সেস করলে ঘটে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4719,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় যে কোডে সম্ভাব্য কোনো ত্রুটি বা এক্সেপশন ঘটার ঝুঁকি থাকে তা কোন ব্লকে রাখা হয়?",
+    "options": [
+      "A) throw ব্লক",
+      "B) catch ব্লক",
+      "C) finally ব্লক",
+      "D) try ব্লক"
+    ],
+    "answer": 3,
+    "explanation": "ঝুঁকিপূর্ণ কোড `try` ব্লকে আবদ্ধ করা হয় এবং ত্রুটি ধরা পড়লে তা সংশ্লিষ্ট `catch` ব্লকে স্থানান্তরিত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4720,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "এক্সেপশন ঘটুক বা না ঘটুক, ক্লিনআপ কোড রান করতে কোন ব্লকটি সর্বদা নিশ্চিতভাবে এক্সিকিউট হয়?",
+    "options": [
+      "A) try ব্লক",
+      "B) throw ব্লক",
+      "C) finally ব্লক",
+      "D) catch ব্লক"
+    ],
+    "answer": 2,
+    "explanation": "`finally` ব্লকের ভেতরের কোড (যেমন ডেটাবেস সংযোগ বা ফাইল বন্ধ করা) যেকোনো পরিস্থিতিতে এক্সিকিউট হওয়া নিশ্চিত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4721,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় প্রোগ্রামারের কোড থেকে ম্যানুয়ালি কোনো এক্সেপশন অবজেক্ট নিক্ষেপ করতে কোন কীওয়ার্ড ব্যবহৃত হয়?",
+    "options": [
+      "A) try",
+      "B) catch",
+      "C) throw",
+      "D) throws"
+    ],
+    "answer": 2,
+    "explanation": "`throw new ArithmeticException(\"Invalid\");` সিনট্যাক্সে একক এক্সেপশন নিক্ষেপ করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4722,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "কোনো মেথড তার ভেতর থেকে চেকড এক্সেপশন ছুঁড়তে পারে তা কলার মেথডকে আগাম সতর্ক করতে মেথড হেডারে কী ব্যবহৃত হয়?",
+    "options": [
+      "A) try কীওয়ার্ড",
+      "B) catch কীওয়ার্ড",
+      "C) throw কীওয়ার্ড",
+      "D) throws কীওয়ার্ড"
+    ],
+    "answer": 3,
+    "explanation": "মেথড সিগনেচারে `void readFile() throws IOException` লিখে সম্ভাব্য এক্সেপশন ডিক্লেয়ার করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4723,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "একাধিক `catch` ব্লক ব্যবহারের ক্ষেত্রে সঠিক নিয়ম কোনটি?",
+    "options": [
+      "A) যেকোনো ক্রমে দেওয়া যায়",
+      "B) নির্দিষ্ট সাবক্লাস এক্সেপশন আগে এবং সাধারণ সুপারক্লাস (Exception) সবার শেষে রাখতে হবে",
+      "C) সুপারক্লাস এক্সেপশন সবার প্রথমে দিতে হবে",
+      "D) কেবলমাত্র একটি ক্যাচ ব্লক অনুমোদিত"
+    ],
+    "answer": 1,
+    "explanation": "প্যারেন্ট ক্লাস `Exception` আগে দিলে আনরিচেবল কোড (Unreachable catch block) এরর দেখায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4724,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভা ৭ এ প্রবর্তিত Try-with-resources স্টেটমেন্টের প্রধান সুবিধা কী?",
+    "options": [
+      "A) স্টেটমেন্ট শেষে স্বয়ংক্রিয়ভাবে ওপেনকৃত ফাইল বা স্ট্রিম ক্লোজ করে দেয় (AutoCloseable)",
+      "B) গতি দ্বিগুণ করে",
+      "C) মেমরি ডিলিট করে",
+      "D) ক্যাচ ব্লক লিখতে হয় না"
+    ],
+    "answer": 0,
+    "explanation": "Try-with-resources বন্ধনীতে থাকা রিসোর্স কাজ শেষে ম্যানুয়াল ক্লোজ ছাড়াই অটো ক্লোজ নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4725,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় নিজস্ব কাস্টম এক্সেপশন তৈরি করতে হলে ক্লাসটিকে কার সাবক্লাস হতে হয়?",
+    "options": [
+      "A) Object ক্লাস",
+      "B) Thread ক্লাস",
+      "C) Exception ক্লাস (বা RuntimeException)",
+      "D) Error ক্লাস"
+    ],
+    "answer": 2,
+    "explanation": "`class MyCustomException extends Exception` লিখে ব্যবহারকারী-সংজ্ঞায়িত এক্সেপশন তৈরি করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4726,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "কম্পিউটারে অপারেটিং সিস্টেমের একটি প্রসেস (Process) এবং থ্রেডের (Thread) মধ্যে পার্থক্য কী?",
+    "options": [
+      "A) প্রসেস হলো ভারী ও পৃথক মেমরিযুক্ত স্বতন্ত্র প্রোগ্রাম; থ্রেড হলো একই প্রসেসের ভেতরের হালকা ও মেমরি শেয়ারকারী একক",
+      "B) প্রসেসে কোনো মেমরি থাকে না",
+      "C) উভয়ই হুবহু এক",
+      "D) থ্রেড বেশি ভারী"
+    ],
+    "answer": 0,
+    "explanation": "থ্রেডকে লাইটওয়েট সাব-প্রসেস বলা হয় যা একই প্রসেসের অ্যাড্রেস স্পেস ও ফাইল রিসোর্স শেয়ার করে দ্রুত কাজ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4727,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় একটি থ্রেড তৈরি করার দুটি স্ট্যান্ডার্ড উপায় কী কী?",
+    "options": [
+      "A) `Process` ক্লাস ব্যবহার করা",
+      "B) `Object` ক্লাস ক্লোন করা",
+      "C) `System` মেথড কল করা",
+      "D) `Thread` ক্লাস ইনহেরিট করা অথবা `Runnable` ইন্টারফেস বাস্তবায়ন করা"
+    ],
+    "answer": 3,
+    "explanation": "জাভায় থ্রেড তৈরিতে `extends Thread` অথবা `implements Runnable` ব্যবহার করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4728,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "কোন পদ্ধতিতে থ্রেড তৈরি করা ওওপি ডিজাইনের জন্য সর্বাধিক সুপারিশকৃত ও নমনীয়?",
+    "options": [
+      "A) `Thread` ক্লাস ইনহেরিট করা",
+      "B) `Runnable` ইন্টারফেস বাস্তবায়ন (কারণ জাভায় অন্য ক্লাস ইনহেরিট করার সুযোগ বহাল থাকে)",
+      "C) উভয় পদ্ধতি সমান ক্ষতিকর",
+      "D) কোনোটিই নয়"
+    ],
+    "answer": 1,
+    "explanation": "যেহেতু জাভা মাল্টিপল ক্লাস ইনহেরিটেন্স সমর্থন করে না, তাই Runnable ইন্টারফেস ব্যবহার করলে অন্য যেকোনো ক্লাস ইনহেরিট করার স্বাধীনতা থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4729,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "একটি থ্রেডের কাজ শুরু করতে কোন মেথডটি কল করতে হয়?",
+    "options": [
+      "A) start() মেথড",
+      "B) execute() মেথড",
+      "C) run() মেথড",
+      "D) init() মেথড"
+    ],
+    "answer": 0,
+    "explanation": "`thread.start()` মেথড নতুন কল স্ট্যাক তৈরি করে এবং JVM কর্তৃক অ্যাসিনক্রোনাসলি `run()` মেথডকে এক্সিকিউট করায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4730,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "সরাসরি `thread.run()` কল করলে কী সমস্যা হয়?",
+    "options": [
+      "A) প্রোগ্রাম বন্ধ হয়ে যায়",
+      "B) সিপিইউ নষ্ট হয়",
+      "C) কম্পাইল এরর প্রদর্শন করে",
+      "D) নতুন কোনো থ্রেড তৈরি হয় না; এটি বর্তমান মূল থ্রেডেই সাধারণ মেথডের মতো কল হয়ে যায়"
+    ],
+    "answer": 3,
+    "explanation": "`run()` সরাসরি কল করলে মাল্টিথ্রেডিং হয় না, কারেন্ট থ্রেডেই কোড রান করে। থ্রেড শুরু করতে `start()` আবশ্যক।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4731,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "চলমান কোনো থ্রেডকে নির্দিষ্ট মিলি-সেকেন্ডের জন্য সাময়িক বিরতি দেওয়ার মেথড কোনটি?",
+    "options": [
+      "A) Thread.stop()",
+      "B) Thread.pause()",
+      "C) Thread.sleep(milliseconds)",
+      "D) Thread.wait()"
+    ],
+    "answer": 2,
+    "explanation": "`Thread.sleep(1000)` থ্রেডকে ১ সেকেন্ডের জন্য স্লিপ বা টাইমড ওয়েটিং স্টেটে রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4732,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "কোনো নির্দিষ্ট থ্রেডের কাজ পুরোপুরি শেষ না হওয়া পর্যন্ত বর্তমান থ্রেডকে অপেক্ষা করাতে কোন মেথড কল করতে হয়?",
+    "options": [
+      "A) thread.wait()",
+      "B) thread.join()",
+      "C) thread.sync()",
+      "D) thread.hold()"
+    ],
+    "answer": 1,
+    "explanation": "`t1.join()` কল করলে t1 থ্রেড সমাপ্ত না হওয়া পর্যন্ত পরবর্তী থ্রেড বা মেইন থ্রেড অপেক্ষা করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4733,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় থ্রেডের ডিফল্ট স্বাভাবিক অগ্রাধিকার (Norm Priority) মান কত?",
+    "options": [
+      "A) 10",
+      "B) 5 (রেঞ্জ ১ থেকে ১০)",
+      "C) 0",
+      "D) 1"
+    ],
+    "answer": 1,
+    "explanation": "থ্রেড প্রায়োরিটি ১ (`MIN_PRIORITY`) থেকে ১০ (`MAX_PRIORITY`) পর্যন্ত হয়; ডিফল্ট মান হলো ৫ (`NORM_PRIORITY`)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4734,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "একাধিক থ্রেড যখন একই শেয়ার্ড ডেটা সমান্তরালে পরিবর্তন করার চেষ্টা করে ত্রুটিপূর্ণ ফলাফল তৈরি করে তখন তাকে কী বলে?",
+    "options": [
+      "A) রেস কন্ডিশন (Race Condition)",
+      "B) স্টারভেশন",
+      "C) লাইভলক",
+      "D) ডেডলক"
+    ],
+    "answer": 0,
+    "explanation": "শেয়ার্ড রিসোর্সে অনিয়ন্ত্রিত অ্যাক্সেসের সংঘাতকে Race Condition বলা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4735,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "রেস কন্ডিশন রোধে এবং একবারে একটিমাত্র থ্রেডকে ক্রিটিক্যাল সেকশনে প্রবেশের অনুমতি দিতে কোন কীওয়ার্ড ব্যবহৃত হয়?",
+    "options": [
+      "A) atomic",
+      "B) volatile",
+      "C) locked",
+      "D) synchronized"
+    ],
+    "answer": 3,
+    "explanation": "`synchronized` মেথড বা ব্লক অবজেক্ট মনিটর লক ব্যবহার করে থ্রেড-সেফটি নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4736,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "দুটি বা ততোধিক থ্রেড যখন পরস্পরের দখলকৃত রিসোর্সের জন্য চিরতরে অপেক্ষমাণ অবস্থায় আটকে থাকে তখন তাকে কী বলে?",
+    "options": [
+      "A) থ্রেড পুল",
+      "B) রেস কন্ডিশন",
+      "C) ডেডলক (Deadlock)",
+      "D) ইনফাইনাইট লুপ"
+    ],
+    "answer": 2,
+    "explanation": "সার্কুলার ডিপেন্ডেন্সির কারণে থ্রেডসমূহ অনির্দিষ্টকালের জন্য আটকে থাকাই হলো ডেডলক।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4737,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় ইন্টার-থ্রেড কমিউনিকেশনের মেথডসমূহ (`wait()`, `notify()`, `notifyAll()`) কোন ক্লাসে সংজ্ঞায়িত?",
+    "options": [
+      "A) java.lang.Object ক্লাসে",
+      "B) java.util.concurrent প্যাকেজে",
+      "C) java.lang.Thread ক্লাসে",
+      "D) java.lang.Runnable ইন্টারফেসে"
+    ],
+    "answer": 0,
+    "explanation": "যেহেতু লক বা মনিটর প্রতিটি অবজেক্টের সাথে যুক্ত থাকে, তাই এই মেথডগুলো `Thread` এ নয় বরং শীর্ষ `Object` ক্লাসে সংজ্ঞায়িত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4738,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "`wait()` এবং `notify()` মেথডগুলো কোন ধরনের ব্লকের ভেতর থেকে কল করা বাধ্যতামূলক?",
+    "options": [
+      "A) try-catch ব্লকে",
+      "B) synchronized ব্লকের ভেতর থেকে",
+      "C) যেকোনো সাধারণ ব্লকে",
+      "D) static ব্লকে"
+    ],
+    "answer": 1,
+    "explanation": "অবজেক্টের মনিটর লক ছাড়া `wait()` কল করলে রান-টাইমে `IllegalMonitorStateException` ঘটে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4739,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় ব্যাকগ্রাউন্ড সাপোর্ট সার্ভিস দেওয়ার জন্য ব্যবহৃত থ্রেডকে (যেমন গার্বেজ কালেক্টর) কী বলে?",
+    "options": [
+      "A) ফরগ্রাউন্ড থ্রেড",
+      "B) ইউজার থ্রেড",
+      "C) মেইন থ্রেড",
+      "D) ডেমোন থ্রেড (Daemon Thread)"
+    ],
+    "answer": 3,
+    "explanation": "ডেমোন থ্রেড হলো কম অগ্রাধিকারের ব্যাকগ্রাউন্ড থ্রেড; সকল ইউজার থ্রেড শেষ হলে JVM স্বয়ংক্রিয়ভাবে বন্ধ হয়ে যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4740,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "একটি থ্রেডকে ডেমোন থ্রেড বানাতে কোন মেথডটি `start()` কলের আগেই ডাকতে হয়?",
+    "options": [
+      "A) thread.makeDaemon()",
+      "B) thread.initDaemon()",
+      "C) thread.setDaemon(true)",
+      "D) thread.daemon = true"
+    ],
+    "answer": 2,
+    "explanation": "থ্রেড চালু করার পর `setDaemon()` কল করলে `IllegalThreadStateException` ঘটে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4741,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় `volatile` কীওয়ার্ড ফিল্ডের সাথে ব্যবহারের মূল উদ্দেশ্য কী?",
+    "options": [
+      "A) মেমরি সেভ করা",
+      "B) ভেরিয়েবলকে কনস্ট্যান্ট করা",
+      "C) ভেরিয়েবলকে প্রাইভেট করা",
+      "D) ভেরিয়েবলের মান কোনো থ্রেড ক্যাশে সংরক্ষণ না করে সরাসরি মূল মেমরি (RAM) থেকে পড়তে ও লিখতে বাধ্য করা"
+    ],
+    "answer": 3,
+    "explanation": "`volatile` নিশ্চিত করে যে এক থ্রেড কর্তৃক করা মান পরিবর্তন অন্যান্য সকল থ্রেড তাৎক্ষণিক দেখতে পায় (Visibility guarantee)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4742,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় একটি থ্রেড তার জীবদ্দশায় কয়টি মৌলিক অবস্থা (Life Cycle States) অতিক্রম করতে পারে?",
+    "options": [
+      "A) ৬টি (NEW, RUNNABLE, BLOCKED, WAITING, TIMED_WAITING, TERMINATED)",
+      "B) ৩টি",
+      "C) ৪টি",
+      "D) ৮টি"
+    ],
+    "answer": 0,
+    "explanation": "জাভা থ্রেডের স্টেটগুলো `Thread.State` এনামে মোট ৬টি সুনির্দিষ্ট অবস্থায় সংজ্ঞায়িত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4743,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভা কনকারেন্সি ইউটিলিটিতে বারবার নতুন থ্রেড তৈরি করার ওভারহেড কমাতে কী ব্যবহৃত হয়?",
+    "options": [
+      "A) অ্যারে থ্রেড",
+      "B) থ্রেড পুল (Thread Pool - ExecutorService)",
+      "C) রিকার্সিভ থ্রেড",
+      "D) সিঙ্গেল থ্রেড"
+    ],
+    "answer": 1,
+    "explanation": "`ExecutorService` পূর্বে তৈরিকৃত থ্রেড পুনঃব্যবহার করে টাস্ক এক্সিকিউট করে, ফলে রিসোর্স সাশ্রয় হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4744,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "কোনো মেথডে `System.exit(0)` এক্সিকিউট হলে `finally` ব্লক কি কার্যকর হবে?",
+    "options": [
+      "A) কম্পাইল এরর হবে",
+      "B) হ্যাঁ, সর্বদা রান করবে",
+      "C) না, JVM সরাসরি বন্ধ হয়ে যাওয়ায় finally ব্লক রান করে না",
+      "D) অনিশ্চিত"
+    ],
+    "answer": 2,
+    "explanation": "`System.exit()` হলো একমাত্র বিরল ব্যতিক্রম যখন JVM তাৎক্ষণিক টার্মিনেট হওয়ায় finally ব্লকও চলে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4745,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৫: এক্সেপশন হ্যান্ডলিং ও মাল্টিথ্রেডিং (Exception Handling & Multithreading)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় থ্রেডের বর্তমান রেফারেন্স জানতে কোন স্ট্যাটিক মেথড কল করতে হয়?",
+    "options": [
+      "A) Thread.currentThread()",
+      "B) this.getThread()",
+      "C) System.getThread()",
+      "D) Thread.getThread()"
+    ],
+    "answer": 0,
+    "explanation": "`Thread.currentThread()` বর্তমানে চলমান থ্রেড অবজেক্টটির রেফারেন্স রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

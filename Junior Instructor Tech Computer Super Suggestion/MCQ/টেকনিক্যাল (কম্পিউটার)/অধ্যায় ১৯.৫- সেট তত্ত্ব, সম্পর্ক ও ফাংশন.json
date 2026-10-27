@@ -1,0 +1,422 @@
+[
+  {
+    "id": 3101,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৫: সেট তত্ত্ব, সম্পর্ক ও ফাংশন",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "যে সেটে কোনো উপাদান থাকে না তাকে কী বলে এবং এর প্রতীক কোনটি?",
+    "options": [
+      "A) শক্তি সেট",
+      "B) একক সেট",
+      "C) সার্বিক সেট",
+      "D) ফাঁকা সেট বা নাল সেট (Empty Set / Null Set: ∅ বা {})"
+    ],
+    "answer": 3,
+    "explanation": "ফাঁকা সেটে কোনো সদস্য থাকে না; এর কার্ডিনালিটি শূন্য ($|\\emptyset| = 0$)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3102,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৫: সেট তত্ত্ব, সম্পর্ক ও ফাংশন",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "একটি সেটের উপাদান সংখ্যা n হলে তার শক্তি সেট বা পাওয়ার সেটের (Power Set - P(A)) উপাদান সংখ্যা কত?",
+    "options": [
+      "A) 2n টি",
+      "B) n^2 টি",
+      "C) 2^n টি (এবং প্রকৃত উপসেট সংখ্যা 2^n - 1 টি)",
+      "D) n! টি"
+    ],
+    "answer": 2,
+    "explanation": "$n$ উপাদানের সেটের সম্ভাব্য মোট উপসেট সংখ্যা $2^n$; এর মধ্যে মূল সেটটি বাদে বাকি $(2^n - 1)$ টি হলো প্রকৃত উপসেট (Proper Subsets)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3103,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৫: সেট তত্ত্ব, সম্পর্ক ও ফাংশন",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "A এবং B দুটি সেটের ছেদ সেট যদি ফাঁকা সেট হয় অর্থাৎ A ∩ B = ∅, তবে সেট দুটিকে কী বলা হয়?",
+    "options": [
+      "A) সার্বিক সেট",
+      "B) নিচ্ছেদ সেট (Disjoint Sets)",
+      "C) সমতুল্য সেট",
+      "D) উপসেট"
+    ],
+    "answer": 1,
+    "explanation": "দুটি সেটের মধ্যে কোনো সাধারণ সদস্য না থাকলে তাদের পরস্পর নিচ্ছেদ বা Disjoint Sets বলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3104,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৫: সেট তত্ত্ব, সম্পর্ক ও ফাংশন",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "দুটি সেটের সিমেট্রিক ডিফারেন্স (Symmetric Difference: A Δ B)-এর সঠিক সংজ্ঞা কোনটি?",
+    "options": [
+      "A) (A - B) ∪ (B - A) বা (A ∪ B) - (A ∩ B)",
+      "B) (A - B) ∩ (B - A)",
+      "C) ∪ B",
+      "D) ∩ B"
+    ],
+    "answer": 0,
+    "explanation": "সিমেট্রিক ডিফারেন্সে সেই সকল উপাদান থাকে যা কেবল $A$-তে বা কেবল $B$-তে আছে, কিন্তু উভয়ের সাধারণ অংশে ($A \\cap B$) নেই।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3105,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৫: সেট তত্ত্ব, সম্পর্ক ও ফাংশন",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "সেট তত্ত্বে ডি মরগ্যানের প্রথম সূত্র (De Morgan's First Law) কোনটি?",
+    "options": [
+      "A) (A ∩ B)^c = A^c ∩ B^c",
+      "B) (A ∪ B)^c = A - B",
+      "C) (A ∪ B)^c = A^c ∪ B^c",
+      "D) (A ∪ B)^c = A^c ∩ B^c"
+    ],
+    "answer": 3,
+    "explanation": "ডি মরগ্যানের প্রথম নিয়মানুযায়ী দুটি সেটের সংযোগের পূরক সেট তাদের পৃথক পূরক সেটের ছেদ সেটের সমান।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3106,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৫: সেট তত্ত্ব, সম্পর্ক ও ফাংশন",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "সেট তত্ত্বে ডি মরগ্যানের দ্বিতীয় সূত্রটি কোনটি?",
+    "options": [
+      "A) (A ∩ B)^c = A^c ∪ B^c",
+      "B) (A ∩ B)^c = A^c ∩ B^c",
+      "C) (A ∩ B)^c = B^c - A^c",
+      "D) (A ∩ B)^c = A ∪ B"
+    ],
+    "answer": 0,
+    "explanation": "ডি মরগ্যানের দ্বিতীয় নিয়মানুযায়ী ছেদ সেটের কমপ্লিমেন্ট হলো কমপ্লিমেন্ট সেটের ইউনিয়ন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3107,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৫: সেট তত্ত্ব, সম্পর্ক ও ফাংশন",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "দুটি সসীম সেটের ক্ষেত্রে অন্তর্ভুক্তকরণ ও বর্জন নীতি (Principle of Inclusion-Exclusion) কোনটি?",
+    "options": [
+      "A) |A ∪ B| = |A| + |B| + |A ∩ B|",
+      "B) |A ∪ B| = |A| - |B|",
+      "C) |A ∪ B| = |A| + |B| - |A ∩ B|",
+      "D) |A ∪ B| = |A| * |B|"
+    ],
+    "answer": 2,
+    "explanation": "সাধারণ উপাদানগুলো দুবার যোগ হয়ে যাওয়ায় একবার বিয়োগ করে সমন্বয় করতে হয় ($|A \\cup B| = |A| + |B| - |A \\cap B|$)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3108,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৫: সেট তত্ত্ব, সম্পর্ক ও ফাংশন",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "সেট A-এর উপাদান সংখ্যা m এবং সেট B-এর উপাদান সংখ্যা n হলে কার্তেসীয় গুণজ A × B-এর উপাদান সংখ্যা কত?",
+    "options": [
+      "A) m + n",
+      "B) m * n",
+      "C) m^n",
+      "D) 2^(m+n)"
+    ],
+    "answer": 1,
+    "explanation": "$A \\times B$ হলো সকল ক্রমজোড় $(a, b)$-এর সেট, যার মোট সংখ্যা $|A| \\times |B| = m \\times n$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3109,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৫: সেট তত্ত্ব, সম্পর্ক ও ফাংশন",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "একটি সেটের ওপর সংজ্ঞায়িত রিলেশন R যদি রিফ্লেক্সিভ (Reflexive), সিমেট্রিক (Symmetric) এবং ট্রানজিটিভ (Transitive) হয়, তবে তাকে কী বলে?",
+    "options": [
+      "A) ফাংশন",
+      "B) অ্যান্টি-সিমেট্রিক সম্পর্ক",
+      "C) আংশিক ক্রম সম্পর্ক (Partial Order)",
+      "D) সমতুল্য সম্পর্ক (Equivalence Relation)"
+    ],
+    "answer": 3,
+    "explanation": "যে সম্পর্ক একই সাথে স্বসম (Reflexive), প্রতিসম (Symmetric) ও সংক্রামক (Transitive) তাকে সমতুল্য সম্পর্ক বা Equivalence Relation বলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3110,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৫: সেট তত্ত্ব, সম্পর্ক ও ফাংশন",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "যদি একটি রিলেশন রিফ্লেক্সিভ, অ্যান্টি-সিমেট্রিক (Anti-symmetric) এবং ট্রানজিটিভ হয়, তবে তাকে কী বলা হয়?",
+    "options": [
+      "A) পূর্ণ ক্রম সম্পর্ক",
+      "B) আংশিক ক্রম সম্পর্ক বা পোসেট (Partial Order Relation / Poset)",
+      "C) নাল রিলেশন",
+      "D) সমতুল্য সম্পর্ক"
+    ],
+    "answer": 1,
+    "explanation": "Reflexive, Anti-symmetric ও Transitive সম্পর্ককে Partial Order বলে এবং যে সেটে এটি সংজ্ঞায়িত তাকে Poset (Partially Ordered Set) বলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3111,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৫: সেট তত্ত্ব, সম্পর্ক ও ফাংশন",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "একটি পোসেটকে (Poset) দ্বিমাত্রিক তলে শীর্ষ ও সংযোগকারী রেখাংশ দিয়ে উপস্থাপনকারী ট্রানজিটিভিটি-বর্জিত ডায়াগ্রামকে কী বলে?",
+    "options": [
+      "A) ভেন ডায়াগ্রাম",
+      "B) ট্রি ডায়াগ্রাম",
+      "C) হাসে ডায়াগ্রাম (Hasse Diagram)",
+      "D) ফ্লোচার্ট"
+    ],
+    "answer": 2,
+    "explanation": "Hasse Diagram হলো পোসেটের সরলীকৃত গ্রাফ যাতে স্বসম লুপ ও ট্রানজিটিভ ধারগুলো উহ্য রেখে ক্রমবিন্যাস দেখানো হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3112,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৫: সেট তত্ত্ব, সম্পর্ক ও ফাংশন",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "একটি পোসেটের যেকোনো দুটি উপাদানের যদি একটি অনন্য গ্রেটেস্ট লোয়ার বাউন্ড (GLB/Meet) এবং একটি লিস্ট আপার বাউন্ড (LUB/Join) থাকে তবে তাকে কী বলে?",
+    "options": [
+      "A) ল্যাটিস (Lattice)",
+      "B) ট্রি",
+      "C) রিং",
+      "D) ফিল্ড"
+    ],
+    "answer": 0,
+    "explanation": "ল্যাটিস হলো এমন একটি বিশেষ পোসেট যার প্রতিটি উপাদান-জোড়ার জন্য Meet ($a \\wedge b$) এবং Join ($a \\vee b$) বিদ্যমান।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3113,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৫: সেট তত্ত্ব, সম্পর্ক ও ফাংশন",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "যে ফাংশনে ডোমেনের ভিন্ন ভিন্ন উপাদানের প্রতিচ্ছবি (Image) কো-ডোমেনে সর্বদা ভিন্ন ভিন্ন হয় তাকে কী বলে?",
+    "options": [
+      "A) সার্বিক ফাংশন",
+      "B) বহু-এক ফাংশন",
+      "C) ধ্রুবক ফাংশন",
+      "D) এক-এক ফাংশন বা ইনজেক্টিভ ফাংশন (One-to-One / Injective Function)"
+    ],
+    "answer": 3,
+    "explanation": "$x_1 \\neq x_2 \\implies f(x_1) \\neq f(x_2)$ হলে তাকে One-to-One বা Injective ফাংশন বলা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3114,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৫: সেট তত্ত্ব, সম্পর্ক ও ফাংশন",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "যে ফাংশনে কো-ডোমেন এবং রেঞ্জ সম্পূর্ণরূপে সমান হয় (কো-ডোমেনের প্রতিটি উপাদানের অন্তত একটি প্রাক-প্রতিচ্ছবি থাকে) তাকে কী বলে?",
+    "options": [
+      "A) সার্বিক বা অনটু ফাংশন (Onto / Surjective Function)",
+      "B) ইনজেক্টিভ ফাংশন",
+      "C) আইডেন্টিটি ফাংশন",
+      "D) ইনভার্স ফাংশন"
+    ],
+    "answer": 0,
+    "explanation": "Range = Codomain হলে ফাংশনটি Surjective বা Onto।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3115,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৫: সেট তত্ত্ব, সম্পর্ক ও ফাংশন",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "কোনো ফাংশনের বিপরীত ফাংশন (Inverse Function - f^-1) থাকার অপরিহার্য শর্ত কোনটি?",
+    "options": [
+      "A) ফাংশনটিকে কেবল সার্বিক হলেই চলবে",
+      "B) ফাংশনটিকে ধ্রুবক হতে হবে",
+      "C) ফাংশনটিকে অবশ্যই এক-এক এবং সার্বিক উভয়ই হতে হবে (Bijective Function)",
+      "D) ফাংশনটিকে কেবল এক-এক হলেই চলবে"
+    ],
+    "answer": 2,
+    "explanation": "একটি ফাংশন Bijective (One-to-One and Onto) হলেই কেবল এর অনন্য বিপরীত ফাংশন ($f^{-1}$) সংজ্ঞায়িত করা সম্ভব।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3116,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৫: সেট তত্ত্ব, সম্পর্ক ও ফাংশন",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "যদি k টি খোপে (Pigeonholes) (k + 1) বা ততোধিক পায়রা (Pigeons) রাখা হয়, তবে অন্তত একটি খোপে কমপক্ষে কয়টি পায়রা থাকবে?",
+    "options": [
+      "A) ১টি পায়রা",
+      "B) অন্তত ২টি পায়রা থাকবে (পিজিয়নহোল নীতি)",
+      "C) শূন্য পায়রা",
+      "D) k টি পায়রা"
+    ],
+    "answer": 1,
+    "explanation": "পিজিয়নহোল নীতি অনুযায়ী পায়রার সংখ্যা খোপের সংখ্যার চেয়ে বেশি হলে অন্তত একটি খোপে একের অধিক (কমপক্ষে ২টি) পায়রা অবশ্যই থাকবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3117,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৫: সেট তত্ত্ব, সম্পর্ক ও ফাংশন",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "১৩ জন ব্যক্তির একটি দলে জন্মমাসের ভিত্তিতে নিশ্চিতভাবে বলা যায় যে অন্তত কতজনের জন্ম একই মাসে হতে বাধ্য?",
+    "options": [
+      "A) জনের",
+      "B) অন্তত ২ জনের",
+      "C) কারো নয়",
+      "D) জনের"
+    ],
+    "answer": 1,
+    "explanation": "বছরে ১২টি মাস (খোপ); ব্যক্তি ১৩ জন (পায়রা); ফলে পিজিয়নহোল নীতিতে অন্তত একটি মাসে কমপক্ষে $\\lceil 13/12 \\rceil = 2$ জনের জন্মদিন হবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3118,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৫: সেট তত্ত্ব, সম্পর্ক ও ফাংশন",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "f(x) = 2x + 3 হলে এর বিপরীত ফাংশন f^-1(x) কত?",
+    "options": [
+      "A) 1 / (2x + 3)",
+      "B) (x + 3) / 2",
+      "C) (x - 3) / 2",
+      "D) 2x - 3"
+    ],
+    "answer": 2,
+    "explanation": "$y = 2x + 3 \\implies 2x = y - 3 \\implies x = \\frac{y - 3}{2}$; সুতরাং $f^{-1}(x) = \\frac{x - 3}{2}$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3119,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৫: সেট তত্ত্ব, সম্পর্ক ও ফাংশন",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "f(x) = x^2 এবং g(x) = x + 1 হলে তাদের সংযোজিত ফাংশন বা কম্পোজিশন f(g(x)) কত?",
+    "options": [
+      "A) x^2 + 1",
+      "B) x^2 * (x + 1)",
+      "C) x^2 - 1",
+      "D) (x + 1)^2 = x^2 + 2x + 1"
+    ],
+    "answer": 3,
+    "explanation": "$f(g(x)) = f(x + 1) = (x + 1)^2 = x^2 + 2x + 1$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3120,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৯.৫: সেট তত্ত্ব, সম্পর্ক ও ফাংশন",
+    "subtopic": "বিষয়- ১৯. ডিসক্রিট ম্যাথমেটিক্স ও ইঞ্জিনিয়ারিং ম্যাথমেটিক্স (Discrete & Engineering Mathematics)",
+    "question": "একটি সেটের ওপর বাইনারি রিলেশন R যদি (a, b) ∈ R এবং (b, a) ∈ R হলে বাধ্যতামূলকভাবে a = b দাবি করে, তবে তাকে কী বলে?",
+    "options": [
+      "A) অ্যান্টি-সিমেট্রিক (Anti-symmetric)",
+      "B) রিফ্লেক্সিভ",
+      "C) ট্রানজিটিভ",
+      "D) সিমেট্রিক"
+    ],
+    "answer": 0,
+    "explanation": "Anti-symmetric নিয়মে ভিন্ন উপাদানের মাঝে দ্বিমুখী তীর থাকতে পারে না; যেমন বাস্তব সংখ্যার '$\\le$' সম্পর্ক।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

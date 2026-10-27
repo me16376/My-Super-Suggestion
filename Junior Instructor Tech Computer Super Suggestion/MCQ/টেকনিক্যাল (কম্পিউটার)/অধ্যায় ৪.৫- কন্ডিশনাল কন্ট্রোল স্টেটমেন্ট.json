@@ -1,0 +1,317 @@
+[
+  {
+    "id": 4856,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৫: কন্ডিশনাল কন্ট্রোল স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে মাল্টি-ওয়ে ডিসিশন মেকিংয়ের জন্য 'else if'-এর সংক্ষিপ্ত কিওয়ার্ড কোনটি?",
+    "options": [
+      "A) elsif",
+      "B) elif",
+      "C) else if",
+      "D) elseif"
+    ],
+    "answer": 1,
+    "explanation": "পাইথনে একাধিক শর্তের সিঁড়ি তৈরির জন্য `if ... elif ... else` সিনট্যাক্স ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4857,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৫: কন্ডিশনাল কন্ট্রোল স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে কোনো ফাংশন, ক্লাস বা কন্ডিশনাল ব্লকে কোনো কাজ না করে ব্লকটি সিনট্যাক্সগতভাবে পূর্ণ রাখতে কী ব্যবহৃত হয়?",
+    "options": [
+      "A) break",
+      "B) null",
+      "C) continue",
+      "D) pass স্টেটমেন্ট"
+    ],
+    "answer": 3,
+    "explanation": "`pass` হলো একটি নো-অপারেশন (No-op) স্টেটমেন্ট যা খালি কোড ব্লকে ইনডেন্টেশন এরর দূর করতে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4858,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৫: কন্ডিশনাল কন্ট্রোল স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথন ৩.১০ এ প্রবর্তিত প্যাটার্ন ম্যাচিং (সি-এর switch-case এর বিকল্প) স্টেটমেন্ট কোনটি?",
+    "options": [
+      "A) switch-case স্টেটমেন্ট",
+      "B) match-case স্টেটমেন্ট",
+      "C) select-case",
+      "D) choose-when"
+    ],
+    "answer": 1,
+    "explanation": "পাইথন ৩.১০ এ স্ট্রাকচারাল প্যাটার্ন ম্যাচিংয়ের জন্য `match expr: case pattern:` যুক্ত করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4859,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৫: কন্ডিশনাল কন্ট্রোল স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথন ৩.১০ এর `match-case` এ ডিফল্ট কেস (Default fallback) বোঝাতে কোন প্যাটার্ন ব্যবহৃত হয়?",
+    "options": [
+      "A) default:",
+      "B) case default:",
+      "C) case _:",
+      "D) case *:"
+    ],
+    "answer": 2,
+    "explanation": "ওয়াইল্ডকার্ড হিসেবে আন্ডারস্কোর `case _:` হলো ডিফল্ট ম্যাচ যা অন্য কোনো প্যাটার্ন না মিললে কার্যকর হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4860,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৫: কন্ডিশনাল কন্ট্রোল স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "নিচের কোডের আউটপুট কী হবে?\n`x = []\nif x:\n    print(\"Yes\")\nelse:\n    print(\"No\")`",
+    "options": [
+      "A) No",
+      "B) Error",
+      "C) None",
+      "D) Yes"
+    ],
+    "answer": 0,
+    "explanation": "খালি লিস্ট `[]` একটি ফলসি (Falsy) মান, তাই if শর্ত মিথ্যা হয়ে else ব্লক চলে এবং 'No' প্রিন্ট হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4861,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৫: কন্ডিশনাল কন্ট্রোল স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে কোনো শর্তের পূর্বে সত্যকে মিথ্যা এবং মিথ্যাকে সত্য করতে কোন অপারেটর ব্যবহৃত হয়?",
+    "options": [
+      "A) invert",
+      "B) ~",
+      "C) not",
+      "D) !"
+    ],
+    "answer": 2,
+    "explanation": "লজিক্যাল নেগেশনের জন্য পাইথনে `not` কিওয়ার্ড ব্যবহৃত হয় (যেমন: `if not flag:`)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4862,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৫: কন্ডিশনাল কন্ট্রোল স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "কোনো একটি শর্তের পেটে আরেকটি শর্ত সন্নিবেশিত করাকে কী বলে?",
+    "options": [
+      "A) কম্পাউন্ড if",
+      "B) নেস্টেড কন্ডিশন (Nested if)",
+      "C) মাল্টিপল if",
+      "D) চেইনড if"
+    ],
+    "answer": 1,
+    "explanation": "একটি `if` ব্লকের অভ্যন্তরে ইনডেন্টেশন দিয়ে পুনরায় `if` লেখা হলো নেস্টেড কন্ডিশন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4863,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৫: কন্ডিশনাল কন্ট্রোল স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "নিচের কোডের আউটপুট কী?\n`a = 5\nprint(\"Big\") if a > 10 else print(\"Small\")`",
+    "options": [
+      "A) Small",
+      "B) None",
+      "C) SyntaxError",
+      "D) Big"
+    ],
+    "answer": 0,
+    "explanation": "এটি ওয়ান-লাইনার কন্ডিশনাল এক্সপ্রেশন। যেহেতু ৫ > ১০ মিথ্যা, তাই else এর অংশ 'Small' কার্যকর হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4864,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৫: কন্ডিশনাল কন্ট্রোল স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "লিপ ইয়ার (Leap Year) হওয়ার সঠিক পাইথন শর্ত কোনটি?",
+    "options": [
+      "A) year % 400 == 0 and year % 100 == 0",
+      "B) year % 4 == 0 or year % 100 == 0",
+      "C) year % 4 == 0",
+      "D) (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)"
+    ],
+    "answer": 3,
+    "explanation": "৪০০ দ্বারা বিভাজ্য সাল অথবা ১০০ দ্বারা বিভাজ্য না হয়ে ৪ দ্বারা বিভাজ্য সাল লিপ ইয়ার।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4865,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৫: কন্ডিশনাল কন্ট্রোল স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে কোনো শর্ত যাচাইয়ের পর কোলন (`:`) না দিলে কোন ধরনের ত্রুটি ঘটে?",
+    "options": [
+      "A) IndentationError",
+      "B) SyntaxError",
+      "C) NameError",
+      "D) TypeError"
+    ],
+    "answer": 1,
+    "explanation": "`if`, `elif`, `else` এর শেষে কোলন দেওয়া ব্যাকরণগত বাধ্যতামূলক নিয়ম; না দিলে সিনট্যাক্স এরর হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4866,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৫: কন্ডিশনাল কন্ট্রোল স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ইনডেন্টেশন বা স্পেসিংয়ে অসঙ্গতি থাকলে পাইথনে কোন সুনির্দিষ্ট এক্সেপশন ঘটে?",
+    "options": [
+      "A) IndentationError",
+      "B) SyntaxError",
+      "C) SpacingError",
+      "D) TabError"
+    ],
+    "answer": 0,
+    "explanation": "ইনডেন্টেশনে কোনো অমিল হলে পাইথন কম্পাইলার তাৎক্ষণিক `IndentationError` প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4867,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৫: কন্ডিশনাল কন্ট্রোল স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "একই ফাইলে ইনডেন্টেশনের জন্য ট্যাব (Tab) এবং স্পেসের (Space) মিশ্রণ ঘটালে কোন এরর আসে?",
+    "options": [
+      "A) ZeroDivisionError",
+      "B) ValueError",
+      "C) TabError: inconsistent use of tabs and spaces in indentation",
+      "D) TypeError"
+    ],
+    "answer": 2,
+    "explanation": "পাইথন ৩-এ একই ফাইলে ট্যাব ও স্পেসের সংমিশ্রণ সম্পূর্ণ নিষিদ্ধ এবং এটি `TabError` সৃষ্টি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4868,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৫: কন্ডিশনাল কন্ট্রোল স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "তিনটি সংখ্যার মধ্যে বৃহত্তম সংখ্যা নির্ণয়ে পাইথনের বিল্ট-ইন ফাংশন কোনটি?",
+    "options": [
+      "A) greatest(a, b, c)",
+      "B) big(a, b, c)",
+      "C) maximum(a, b, c)",
+      "D) max(a, b, c)"
+    ],
+    "answer": 3,
+    "explanation": "`max()` ফাংশন প্রদত্ত আর্গুমেন্টসমূহের মধ্যে বৃহত্তম মানটি সরাসরি রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4869,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৫: কন্ডিশনাল কন্ট্রোল স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "কোনো ভ্যারিয়েবলের মান None কিনা তা যাচাই করার সবচেয়ে আদর্শ পাইথনিক উপায় কোনটি?",
+    "options": [
+      "A) if not x:",
+      "B) if x is not None:",
+      "C) if x == None:",
+      "D) if x is None:"
+    ],
+    "answer": 3,
+    "explanation": "PEP 8 অনুযায়ী `None` একটি সিঙ্গেলটন অবজেক্ট, তাই এর তুলনা সর্বদা আইডেন্টিটি অপারেটর `is` দিয়ে করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4870,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৫: কন্ডিশনাল কন্ট্রোল স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "কন্ডিশনাল ব্লকে `assert condition, \"Error Message\"` এর ভূমিকা কী?",
+    "options": [
+      "A) লুপ তৈরি করে",
+      "B) শর্তটি ট্রু হলে এরর দেয়",
+      "C) শর্তটি মিথ্যা হলে AssertionError তুলে ধরে প্রোগ্রাম বন্ধ করে দেয় (ডিবাগিংয়ে কার্যকর)",
+      "D) মেমরি ক্লিয়ার করে"
+    ],
+    "answer": 2,
+    "explanation": "`assert` স্টেটমেন্ট অভ্যন্তরীণ যাচাইকরণ বা ডিবাগিংয়ের জন্য কোডের সঠিক অবস্থা নিশ্চিত করতে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

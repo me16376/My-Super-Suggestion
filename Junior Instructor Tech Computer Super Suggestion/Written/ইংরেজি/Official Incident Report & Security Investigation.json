@@ -1,0 +1,19 @@
+[
+  {
+    "id": 3055,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Official Incident Report & Security Investigation",
+    "question": "Draft an official Security Incident Investigation Report to the Director General concerning an unauthorized physical access attempt at the Central Server Room after regular office hours, utilizing CCTV footage analysis and electronic badge door access logs.",
+    "marks": 9,
+    "answer": "Official Security Incident Investigation Report:\n\n**CONFIDENTIAL & RESTRICTED**  \n**INCIDENT REPORT REF:** DIP/SEC-INV/2026-10-88  \n**DATE:** 23 October 2026  \n\n**TO:**  \nThe Director General  \nDepartment of Immigration and Passports  \nE-7 Agargaon, Dhaka-1207.  \n\n**SUBJECT: INVESTIGATION REPORT ON UNAUTHORIZED PHYSICAL ACCESS ATTEMPT AT CENTRAL SERVER ROOM (ZONE-A)**  \n\n**1. INCIDENT OVERVIEW:**  \nOn the night of 22 October 2026 at 21:42 hours, an unauthorized entry attempt was recorded at the biometric magnetic access door of Central Server Room (Zone-A). The automated security controller triggered a silent alarm to the Security Operations Center (SOC). Immediate intervention by the on-duty maintenance engineer and security guards prevented any physical breach.\n\n**2. FORENSIC & LOG FINDINGS:**  \n• **Electronic Badge Access Log:** At 21:42:15, a deactivated RFID proximity badge (Card ID #DIP-CL-0412, formerly issued to a contractual cleaning supervisor whose tenure expired on 30 September 2026) was swiped three times consecutively at the biometric door reader. The access controller recorded 'Access Denied: Invalid Credential'.  \n• **High-Definition CCTV Footage Analysis:** Optical surveillance camera (CAM-SR-02) captured an unidentified individual wearing a maintenance jumpsuit attempting to forcefully manipulate the door latch handle following badge rejection. Upon the sounding of the perimeter buzzer, the suspect fled toward the basement staircase exit.  \n• **Hardware & Data Verification:** A thorough physical audit confirmed all server racks, SAN storage arrays, and cryptographic HSM modules remained locked and untampered. Network telemetry confirmed zero internal data exfiltration.\n\n**3. CORRECTIVE ACTIONS & RECOMMENDATIONS:**  \n1. **Immediate Credential Invalidation:** Conduct a comprehensive Active Directory and physical access card database audit to purge all expired vendor and contractual credentials.  \n2. **Two-Factor Door Interlock:** Upgrade Server Room access from single-factor RFID cards to multi-factor authentication requiring biometric fingerprint verification alongside the smart card.  \n3. **Legal Redress:** Forward CCTV footage and timestamp logs to law enforcement agencies for suspect tracing and formal prosecution under the Cyber Security Act.\n\n**INVESTIGATING OFFICER:**  \n(Signature)  \n(Engr. Md. Ashraful Alam)  \nSub-Assistant Maintenance Engineer (Security & Infrastructure)  \nDepartment of Immigration and Passports.",
+    "points_to_remember": [
+      "Include precise timestamps, badge IDs, CCTV camera codes, and concrete security recommendations."
+    ],
+    "tags": [
+      "security_report",
+      "incident_investigation",
+      "official_drafting",
+      "cctv_audit"
+    ]
+  }
+]

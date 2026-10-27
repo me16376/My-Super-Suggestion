@@ -1,0 +1,632 @@
+[
+  {
+    "id": 4656,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভা প্রোগ্রামিং ভাষার প্রধান স্লোগান 'WORA'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Write Once, Read Anywhere",
+      "B) Write Once, Run Anywhere",
+      "C) Web Oriented Rapid Architecture",
+      "D) Work Online, Run Always"
+    ],
+    "answer": 1,
+    "explanation": "জাভায় একবার কোড কম্পাইল করে বাইটকোড বানালে তা যেকোনো অপারেটিং সিস্টেমে কোনো পরিবর্তন ছাড়াই চালানো যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4657,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "সান মাইক্রোসিস্টেমসের জেমস গসলিং (James Gosling) কত সালে জাভা ভাষা উদ্ভাবন করেন?",
+    "options": [
+      "A) ১৯৯৫ সালে",
+      "B) ১৯৮৫ সালে",
+      "C) ১৯৯১ সালে (প্রজেক্ট গ্রিন ওক হিসেবে)",
+      "D) ২০০০ সালে"
+    ],
+    "answer": 2,
+    "explanation": "জেমস গসলিং ও তাঁর দল ১৯৯১ সালে ওক (Oak) প্রজেক্ট শুরু করেন এবং ১৯৯৫ সালে আনুষ্ঠানিকভাবে জাভা ১.০ হিসেবে আত্মপ্রকাশ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4658,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভা কম্পাইলার (`javac`) জাভা সোর্স কোডকে (.java) কম্পাইল করে কিসে রূপান্তর করে?",
+    "options": [
+      "A) বাইটকোড (.class ফাইল)",
+      "B) অ্যাসেম্বলি কোড",
+      "C) মেশিন কোড (.exe)",
+      "D) সি কোড"
+    ],
+    "answer": 0,
+    "explanation": "জাভা সোর্স কোড সরাসরি কোনো মেশিনের কোড হয় না; এটি প্ল্যাটফর্ম-স্বাধীন ইন্টারমিডিয়েট বাইটকোডে (.class) পরিণত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4659,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভা বাইটকোড এক্সিকিউট করার মূল ভার্চুয়াল ইঞ্জিন কোনটি?",
+    "options": [
+      "A) JIT",
+      "B) JRE",
+      "C) JDK",
+      "D) JVM (Java Virtual Machine)"
+    ],
+    "answer": 3,
+    "explanation": "JVM প্ল্যাটফর্ম-নির্ভর ভার্চুয়াল মেশিন যা প্ল্যাটফর্ম-স্বাধীন বাইটকোড পড়ে সংশ্লিষ্ট ওএস-এর মেশিন কোডে রূপান্তর করে রান করায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4660,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জেডিকে (JDK) এবং জেরিই (JRE) এর সম্পর্ক কোনটি?",
+    "options": [
+      "A) JRE = JDK + JVM",
+      "B) JDK = JRE + Development Tools (javac, debugger ইত্যাদি)",
+      "C) JDK কেবল জাভা চালানোর জন্য",
+      "D) উভয়ই হুবহু একই জিনিস"
+    ],
+    "answer": 1,
+    "explanation": "JDK হলো সম্পূর্ণ ডেভেলপমেন্ট কিট যার মধ্যে JRE এবং ডেভেলপমেন্ট টুলস অন্তর্ভুক্ত থাকে; আর JRE হলো শুধুমাত্র রান করার এনভায়রনমেন্ট।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4661,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "JVM-এর অভ্যন্তরীণ 'JIT Compiler'-এর পূর্ণরূপ এবং কাজ কী?",
+    "options": [
+      "A) Java Interface Tool; ইন্টারফেস সংযুক্ত করে",
+      "B) Java Intermediate Translator; বাইটকোড মুছে ফেলে",
+      "C) Joint Instruction Tester; বাগ খোঁজে",
+      "D) Just-In-Time Compiler; বারবার ব্যবহৃত বাইটকোড অংশ সরাসরি দ্রুতগতির মেশিন কোডে রূপান্তর করে গতি বৃদ্ধি করে"
+    ],
+    "answer": 3,
+    "explanation": "JIT কম্পাইলার হটস্পট কোডকে ইন্টারপ্রেট করার পরিবর্তে সরাসরি নেটিভ মেশিন কোডে কম্পাইল করে কার্যক্ষমতা বহুগুণ বাড়ায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4662,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় `public static void main(String[] args)` মেথডে `static` কীওয়ার্ড দেওয়ার কারণ কী?",
+    "options": [
+      "A) যাতে মেথডটির মান স্থির থাকে",
+      "B) যাতে মেথড কোনো ভ্যালু রিটার্ন না করে",
+      "C) যাতে JVM কোনো অবজেক্ট তৈরি না করেই সরাসরি মেথডটিকে মেমরি থেকে কল করতে পারে",
+      "D) যাতে এটি সিকিউর থাকে"
+    ],
+    "answer": 2,
+    "explanation": "প্রোগ্রামের শুরুতে ক্লাসের কোনো অবজেক্ট থাকে না; `static` থাকায় JVM ক্লাস লোড করেই সরাসরি `main` কল করতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4663,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "যদি কোনো জাভা সোর্স ফাইলে একটি `public class Student` থাকে, তবে ফাইলটির নাম কী হতে হবে?",
+    "options": [
+      "A) Student.java",
+      "B) student.java",
+      "C) যেকোনো নাম দেওয়া যাবে",
+      "D) Main.java"
+    ],
+    "answer": 0,
+    "explanation": "জাভায় পাবলিক ক্লাসের নাম এবং সোর্স ফাইলের নাম কেস-সেনসিটিভভাবে হুবহু এক হতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4664,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভা ভাষায় কয়টি আদি বা প্রিমিটিভ ডেটা টাইপ (Primitive Data Types) রয়েছে?",
+    "options": [
+      "A) ৬টি",
+      "B) ৮টি (byte, short, int, long, float, double, char, boolean)",
+      "C) ১০টি",
+      "D) ৪টি"
+    ],
+    "answer": 1,
+    "explanation": "জাভায় ৮টি প্রিমিটিভ টাইপ রয়েছে। এদের আকার প্ল্যাটফর্ম ভেদে কখনো পরিবর্তিত হয় না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4665,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় `char` ডেটা টাইপ মেমরিতে কত বাইট স্থান দখল করে এবং এটি কোন এনকোডিং ব্যবহার করে?",
+    "options": [
+      "A) ৮ বাইট, UTF-32",
+      "B) বাইট, বাইনারি",
+      "C) বাইট (16 bits), ইউনিকোড (Unicode / UTF-16)",
+      "D) বাইট, আসকি (ASCII)"
+    ],
+    "answer": 2,
+    "explanation": "বিশ্বের সকল ভাষার বর্ণ ধারণ করতে জাভা ২-বাইট ইউনিকোড ক্যারেক্টার সেট ব্যবহার করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4666,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় `boolean` ডেটা টাইপের সম্ভাব্য মান কী কী হতে পারে?",
+    "options": [
+      "A) ০ অথবা ১",
+      "B) TRUE, FALSE অথবা NULL",
+      "C) যেকোনো অশূন্য সংখ্যা",
+      "D) শুধুমাত্র true অথবা false"
+    ],
+    "answer": 3,
+    "explanation": "জাভায় বুলিয়ান সম্পূর্ণ টাইপ-সেফ; সি-এর মতো পূর্ণসংখ্যা (০ বা ১) দিয়ে বুলিয়ান মান প্রকাশ করা জাভায় সম্পূর্ণ নিষিদ্ধ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4667,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় কোনো ভেরিয়েবলকে কনস্ট্যান্ট (অপরিবর্তনশীল) করতে কোন কীওয়ার্ড ব্যবহৃত হয়?",
+    "options": [
+      "A) final",
+      "B) immutable",
+      "C) static",
+      "D) const"
+    ],
+    "answer": 0,
+    "explanation": "`final` ভেরিয়েবলের মান একবার ইনিশিয়ালাইজ করার পর আর কখনো বদলানো যায় না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4668,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "ছোট ডেটা টাইপ স্বয়ংক্রিয়ভাবে বড় ডেটা টাইপে রূপান্তরিত হওয়াকে জাভায় কী বলে?",
+    "options": [
+      "A) ডাউনকাস্টিং",
+      "B) ওয়াইডেনিং কাস্টিং (Widening / Implicit Casting)",
+      "C) ন্যারোইং কাস্টিং",
+      "D) পার্সিং"
+    ],
+    "answer": 1,
+    "explanation": "যেমন `int` থেকে `double`-এ রূপান্তর ডেটা লস ছাড়াই স্বয়ংক্রিয়ভাবে হয় (Widening)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4669,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "বড় ডেটা টাইপকে জোরপূর্বক ছোট ডেটা টাইপে রূপান্তর করার (Narrowing / Explicit Casting) সঠিক সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) int a = parse(myDouble);",
+      "B) int a = (int) myDouble;",
+      "C) int a = int(myDouble);",
+      "D) int a = myDouble as int;"
+    ],
+    "answer": 1,
+    "explanation": "এক্সপ্লিসিট কাস্টিংয়ের জন্য বন্ধনীতে টার্গেট টাইপ লিখতে হয়, এতে ডেটা বা প্রিসিশন লস হতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4670,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় আনসাইনড রাইট শিফট (Unsigned Right Shift) অপারেটর কোনটি?",
+    "options": [
+      "A) <<<",
+      "B) >>",
+      "C) >>>",
+      "D) <<"
+    ],
+    "answer": 2,
+    "explanation": "`>>>` অপারেটর চিহ্ন বিট বিবেচনা না করে সর্ববামে শূন্য (0) পুশ করে ডানে শিফট করায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4671,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় কোনো অবজেক্ট নির্দিষ্ট কোনো ক্লাসের ইনস্ট্যান্স কিনা তা পরীক্ষা করার অপারেটর কোনটি?",
+    "options": [
+      "A) instanceof",
+      "B) typeof",
+      "C) is_a",
+      "D) typeid"
+    ],
+    "answer": 0,
+    "explanation": "`obj instanceof ClassName` শর্তটি অবজেক্টটি ঐ ক্লাসের বা তার সাবক্লাসের হলে `true` রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4672,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভা ৫ এ প্রবর্তিত এনহ্যান্সড ফর লুপের (Enhanced for-each loop) সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) for (var of array)",
+      "B) for (Type var in array)",
+      "C) foreach (var in array)",
+      "D) for (Type var : arrayOrCollection)"
+    ],
+    "answer": 3,
+    "explanation": "কোলন (`:`) ব্যবহারের মাধ্যমে অ্যারে বা কালেকশনের প্রতিটি উপাদান সহজে ইটারেট করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4673,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় `String` অবজেক্ট মূলত কী ধরনের?",
+    "options": [
+      "A) একটি ক্যারেক্টার পয়েন্টার",
+      "B) ইমিউটেবল (Immutable - এর ভেতরের মান পরিবর্তন করা যায় না)",
+      "C) মিউটেবল (সরাসরি পরিবর্তনযোগ্য)",
+      "D) একটি প্রিমিটিভ ডেটা টাইপ"
+    ],
+    "answer": 1,
+    "explanation": "জাভায় স্ট্রিং অপরিবর্তনশীল (Immutable)। স্ট্রিংয়ে কোনো পরিবর্তন করলে নতুন স্ট্রিং অবজেক্ট তৈরি হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4674,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় মেমরি সাশ্রয়ের উদ্দেশ্যে স্ট্রিং লিটারালগুলো মেমরির কোন বিশেষ এলাকায় রাখা হয়?",
+    "options": [
+      "A) বাইটকোড ক্যাশ",
+      "B) রেজিস্টার",
+      "C) স্ট্যাক মেমরি",
+      "D) স্ট্রিং কনস্ট্যান্ট পুল (String Constant Pool - SCP)"
+    ],
+    "answer": 3,
+    "explanation": "হিপ মেমরির অভ্যন্তরে স্ট্রিং কনস্ট্যান্ট পুলে একই মানের একাধিক লিটারাল একক মেমরি লোকেশন শেয়ার করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4675,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় ঘন ঘন পরিবর্তনশীল ও মিউটেবল (Mutable) স্ট্রিং তৈরির জন্য থ্রেড-সেফ ক্লাস কোনটি?",
+    "options": [
+      "A) StringBuffer (Synchronized / Thread-safe)",
+      "B) String",
+      "C) StringTokenizer",
+      "D) StringBuilder"
+    ],
+    "answer": 0,
+    "explanation": "`StringBuffer` এর মেথডগুলো সিনক্রোনাইজড, ফলে মাল্টিথ্রেডেড প্রোগ্রামে এটি সম্পূর্ণ থ্রেড-সেফ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4676,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "সিঙ্গেল থ্রেডে দ্রুতগতির মিউটেবল (Mutable) স্ট্রিং অপারেশনের জন্য সেরা ক্লাস কোনটি?",
+    "options": [
+      "A) StringBuffer",
+      "B) String",
+      "C) StringBuilder (Non-synchronized ও দ্রুততম)",
+      "D) Vector"
+    ],
+    "answer": 2,
+    "explanation": "`StringBuilder` সিনক্রোনাইজড নয় বিধায় এর মেথডগুলো `StringBuffer` এর চেয়ে অনেক দ্রুত চলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4677,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় দুটি স্ট্রিংয়ের রেফারেন্স তুলনা করতে `==` এবং মান তুলনা করতে কোনটি ব্যবহৃত হয়?",
+    "options": [
+      "A) .equals() মেথড",
+      "B) .compare()",
+      "C) ===",
+      "D) .content()"
+    ],
+    "answer": 0,
+    "explanation": "`==` কেবল মেমরি অ্যাড্রেস তুলনা করে; স্ট্রিংয়ের আসল টেক্সট মান তুলনা করতে `.equals()` মেথড ব্যবহার করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4678,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় অ্যারের আকার জানার প্রোপার্টি কোনটি?",
+    "options": [
+      "A) sizeof(array)",
+      "B) array.length",
+      "C) array.size()",
+      "D) array.length()"
+    ],
+    "answer": 1,
+    "explanation": "জাভায় অ্যারের আকার জানার জন্য কোনো ফাংশন নয়, বরং বিল্ট-ইন ফাইনাল ফিল্ড `.length` ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4679,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভা স্ট্রিংয়ের দৈর্ঘ্য জানার পদ্ধতি কোনটি?",
+    "options": [
+      "A) str.size()",
+      "B) len(str)",
+      "C) str.length()",
+      "D) str.length"
+    ],
+    "answer": 2,
+    "explanation": "স্ট্রিং ক্লাসে দৈর্ঘ্য জানার জন্য বন্ধনীযুক্ত মেথড `str.length()` কল করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4680,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় কীবোর্ড থেকে কনসোলে ইউজার ইনপুট নেওয়ার সবচেয়ে জনপ্রিয় ও সহজ ইউটিলিটি ক্লাস কোনটি?",
+    "options": [
+      "A) java.lang.System",
+      "B) java.io.Console",
+      "C) java.util.Input",
+      "D) java.util.Scanner"
+    ],
+    "answer": 3,
+    "explanation": "`Scanner sc = new Scanner(System.in);` দিয়ে পূর্ণসংখ্যা, স্ট্রিং ইত্যাদি খুব সহজে ইনপুট নেওয়া যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4681,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় কোনো প্রিমিটিভ টাইপকে অবজেক্টে রূপান্তর করার ক্লাসগুলোকে কী বলা হয়?",
+    "options": [
+      "A) কাস্টিং ক্লাস",
+      "B) র‍্যাপার ক্লাস (Wrapper Classes - Integer, Double ইত্যাদি)",
+      "C) ইউটিলিটি ক্লাস",
+      "D) জেনারেটর ক্লাস"
+    ],
+    "answer": 1,
+    "explanation": "প্রিমিটিভ টাইপকে কালেকশনে অবজেক্ট হিসেবে ব্যবহারের জন্য ৮টি সংশ্লিষ্ট Wrapper Class রয়েছে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4682,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভা কম্পাইলার কর্তৃক স্বয়ংক্রিয়ভাবে প্রিমিটিভ থেকে অবজেক্টে রূপান্তরকে কী বলে?",
+    "options": [
+      "A) আপকাস্টিং",
+      "B) আনবক্সিং",
+      "C) ডাউনকাস্টিং",
+      "D) অটোবক্সিং (Autoboxing)"
+    ],
+    "answer": 3,
+    "explanation": "যেমন `int` মানকে সরাসরি `Integer` অবজেক্টে কম্পাইলার দ্বারা রূপান্তর করাই হলো Autoboxing।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4683,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "র‍্যাপার অবজেক্ট থেকে স্বয়ংক্রিয়ভাবে প্রিমিটিভ মানে ফিরে আসাকে কী বলে?",
+    "options": [
+      "A) অটোবক্সিং",
+      "B) ডি-সিরিয়ালাইজেশন",
+      "C) আনবক্সিং (Unboxing)",
+      "D) টাইপকাস্টিং"
+    ],
+    "answer": 2,
+    "explanation": "`Integer` অবজেক্ট থেকে সরাসরি `int` প্রিমিটিভে রূপান্তর হলো Unboxing।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4684,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভায় পয়েন্টার (Explicit Pointers) বাদ দেওয়ার প্রধান কারণ কী?",
+    "options": [
+      "A) মেমরি ও সিস্টেমের নিরাপত্তা নিশ্চিত করা এবং কোড জটিলতা কমানো",
+      "B) জাভায় মেমরি নেই বলে",
+      "C) জাভা কেবল ইন্টারনেটে চলে বলে",
+      "D) বাইটকোড পয়েন্টার সমর্থন করে না"
+    ],
+    "answer": 0,
+    "explanation": "সরাসরি মেমরি পয়েন্টার অ্যাক্সেস হ্যাকিং, সিস্টেম ক্র্যাশ ও মেমরি করাপশনের ঝুঁকি বাড়ায়, তাই জাভা এটি পরিহার করে সম্পূর্ণ ভার্চুয়াল রেফারেন্স চালু করেছে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4685,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৩.৩: জাভা আর্কিটেকচার ও ফান্ডামেন্টালস (Java Architecture & Basics)",
+    "subtopic": "বিষয়- ৩. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (সি++, জাভা)",
+    "question": "জাভা প্ল্যাটফর্মের সব ক্লাস পরোক্ষ বা প্রত্যক্ষভাবে কোন মূল ক্লাসের চাইল্ড (Root Class)?",
+    "options": [
+      "A) java.lang.Class",
+      "B) java.lang.Object",
+      "C) java.util.Base",
+      "D) java.lang.System"
+    ],
+    "answer": 1,
+    "explanation": "জাভার ক্লাস হায়ারার্কিতে সর্বশীর্ষে রয়েছে `Object` ক্লাস; সকল ক্লাস স্বয়ংক্রিয়ভাবে একে ইনহেরিট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

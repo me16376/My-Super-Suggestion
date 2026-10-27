@@ -1,0 +1,317 @@
+[
+  {
+    "id": 4871,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৬: লুপিং বা পুনরাবৃত্তি স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে মৌলিকভাবে কয় ধরনের লুপ রয়েছে?",
+    "options": [
+      "A) ধরনের (for, while, do-while)",
+      "B) ধরনের (for লুপ এবং while লুপ)",
+      "C) ধরনের",
+      "D) ধরনের"
+    ],
+    "answer": 1,
+    "explanation": "পাইথনে সরাসরি কোনো `do-while` লুপ নেই; কেবল `for` এবং `while` লুপ রয়েছে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4872,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৬: লুপিং বা পুনরাবৃত্তি স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে সংখ্যার অনুক্রম তৈরি করার ফাংশন `range(start, stop, step)` এর ক্ষেত্রে `stop` মানটির বৈশিষ্ট্য কী?",
+    "options": [
+      "A) `stop` মানটি অন্তর্ভুক্ত হয় না (Exclusive - stop-1 পর্যন্ত চলে)",
+      "B) `stop` মানটি দ্বিগুণ হয়",
+      "C) `stop` মানটি সহ চলে (Inclusive)",
+      "D) স্টপ মান দেওয়া বাধ্যতামূলক নয়"
+    ],
+    "answer": 0,
+    "explanation": "`range(1, 5)` উৎপন্ন করে 1, 2, 3, 4 (অর্থাৎ শেষ সীমা ৫ অন্তর্ভুক্ত হয় না)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4873,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৬: লুপিং বা পুনরাবৃত্তি স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "`range(5)` এক্সপ্রেশনটি কোন কোন সংখ্যা তৈরি করে?",
+    "options": [
+      "A) 1, 2, 3, 4, 5",
+      "B) 1, 2, 3, 4",
+      "C) 0, 1, 2, 3, 4",
+      "D) 0, 1, 2, 3, 4, 5"
+    ],
+    "answer": 2,
+    "explanation": "ডিফল্টভাবে `start` শূন্য (0) থেকে শুরু হয় এবং ৫ এর আগ পর্যন্ত মোট ৫টি সংখ্যা উৎপন্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4874,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৬: লুপিং বা পুনরাবৃত্তি স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "১০ থেকে ১ পর্যন্ত উল্টো ক্রমে সংখ্যা প্রিন্ট করতে `range` এর সঠিক রূপ কোনটি?",
+    "options": [
+      "A) range(10, 0, -1)",
+      "B) range(10, 1, -1)",
+      "C) range(1, 10, -1)",
+      "D) range(10, -1, 0)"
+    ],
+    "answer": 0,
+    "explanation": "শুরু ১০, শেষ ০ (এক্সক্লুসিভ হওয়ায় ১ পর্যন্ত আসবে) এবং স্টেপ -১।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4875,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৬: লুপিং বা পুনরাবৃত্তি স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে কোনো লুপের সাথে যুক্ত `else` ব্লক কখন এক্সিকিউট হয়?",
+    "options": [
+      "A) পাইথনে লুপের সাথে else লেখা যায় না",
+      "B) যখন লুপের ভেতর `break` কার্যকর হয়",
+      "C) লুপের প্রতিটি পুনরাবৃত্তিতে",
+      "D) যখন লুপটি কোনো `break` ছাড়াই স্বাভাবিকভাবে সম্পূর্ণ সমাপ্ত হয়"
+    ],
+    "answer": 3,
+    "explanation": "পাইথনের অনন্য বৈশিষ্ট্য হলো `for-else` বা `while-else`; লুপ যদি ব্রেক ছাড়া স্বাভাবিকভাবে শেষ হয় কেবল তখনই `else` চলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4876,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৬: লুপিং বা পুনরাবৃত্তি স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "লুপ থেকে তাৎক্ষণিকভাবে সম্পূর্ণ বের হয়ে আসার নির্দেশ কোনটি?",
+    "options": [
+      "A) continue",
+      "B) break",
+      "C) pass",
+      "D) exit"
+    ],
+    "answer": 1,
+    "explanation": "`break` স্টেটমেন্ট চলমান লুপ বন্ধ করে কন্ট্রোলকে লুপের পরবর্তী স্টেটমেন্টে নিয়ে যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4877,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৬: লুপিং বা পুনরাবৃত্তি স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "লুপের বর্তমান পুনরাবৃত্তির অবশিষ্ট অংশ বাদ দিয়ে পরবর্তী পুনরাবৃত্তিতে যাওয়ার নির্দেশ কোনটি?",
+    "options": [
+      "A) continue",
+      "B) return",
+      "C) break",
+      "D) pass"
+    ],
+    "answer": 0,
+    "explanation": "`continue` তাৎক্ষণিক চলতি চক্র স্কিপ করে লুপের পরবর্তী ধাপে অগ্রসর হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4878,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৬: লুপিং বা পুনরাবৃত্তি স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে কোনো কালেকশন ইটারেট করার সময় একই সাথে ইনডেক্স ও উপাদান পাওয়ার ফাংশন কোনটি?",
+    "options": [
+      "A) zip(iterable)",
+      "B) items(iterable)",
+      "C) range(len(iterable))",
+      "D) enumerate(iterable)"
+    ],
+    "answer": 3,
+    "explanation": "`for idx, val in enumerate(['a', 'b']):` এটি স্বয়ংক্রিয়ভাবে ইনডেক্স ও ভ্যালুর টাপল জোড়া প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4879,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৬: লুপিং বা পুনরাবৃত্তি স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "একাধিক সমদৈর্ঘ্যের লিস্টকে একসাথে সমান্তরালে ইটারেট করতে কোন বিল্ট-ইন ফাংশন ব্যবহৃত হয়?",
+    "options": [
+      "A) enumerate()",
+      "B) merge()",
+      "C) zip(list1, list2)",
+      "D) combine()"
+    ],
+    "answer": 2,
+    "explanation": "`zip()` একাধিক সিকোয়েন্সের সংশ্লিষ্ট উপাদানগুলোকে জোড়া বেঁধে টাপলের ইটারেটর বানায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4880,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৬: লুপিং বা পুনরাবৃত্তি স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে একটি অসীম লুপ (Infinite Loop) তৈরির সহজ সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) loop forever:",
+      "B) while True:",
+      "C) while(1 == 0):",
+      "D) for(;;)"
+    ],
+    "answer": 1,
+    "explanation": "`while True:` শর্ত সর্বদা সত্য থাকায় এটি একটি অসীম লুপ তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4881,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৬: লুপিং বা পুনরাবৃত্তি স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "নিচের কোডের আউটপুট কী হবে?\n`for i in range(3):\n    if i == 1:\n        break\nelse:\n    print(\"Done\")`",
+    "options": [
+      "A) 0 1 Done",
+      "B) Error",
+      "C) কিছুই প্রিন্ট হবে না (কারণ break কার্যকর হওয়ায় else ব্লক চলবে না)",
+      "D) Done"
+    ],
+    "answer": 2,
+    "explanation": "লুপটি `break` দিয়ে অকালে বন্ধ হওয়ায় লুপের সাথে থাকা `else` ব্লকটি আর এক্সিকিউট হবে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4882,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৬: লুপিং বা পুনরাবৃত্তি স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে লুপ ভ্যারিয়েবলের মান প্রয়োজন না হলে ঐতিহ্যগতভাবে কোন প্রতীককে ডামি ভ্যারিয়েবল হিসেবে ব্যবহার করা হয়?",
+    "options": [
+      "A) x",
+      "B) dummy",
+      "C) null",
+      "D) _ (আন্ডারস্কোর, যেমন: for _ in range(5):)"
+    ],
+    "answer": 3,
+    "explanation": "পাইথনিক নিয়মে অব্যবহৃত লুপ ভ্যারিয়েবল বোঝাতে একক আন্ডারস্কোর `_` ব্যবহার প্রচলিত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4883,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৬: লুপিং বা পুনরাবৃত্তি স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "লুপের ভেতর একটি লিস্ট মডিফাই (উপাদান ডিলিট) করার সময় সূক্ষ্ম ভুল এড়াতে কী করা উচিত?",
+    "options": [
+      "A) সরাসরি লিস্ট দিয়ে চালানো",
+      "B) লিস্টের একটি কপি নিয়ে লুপ চালানো (যেমন: `for item in my_list.copy():`)",
+      "C) লিস্টের নাম পরিবর্তন করা",
+      "D) while লুপ ব্যবহার নিষিদ্ধ"
+    ],
+    "answer": 1,
+    "explanation": "চলমান লিস্টের উপাদান ডিলিট করলে ইনডেক্স শিফট হয়ে কিছু উপাদান স্কিপ হয়ে যায়; কপি দিয়ে লুপ চালালে এ ভুল হয় না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4884,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৬: লুপিং বা পুনরাবৃত্তি স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "নেস্টেড লুপের (Nested Loop) ক্ষেত্রে অভ্যন্তরীণ লুপে `break` দিলে কী ঘটে?",
+    "options": [
+      "A) শুধুমাত্র যে অভ্যন্তরীণ লুপটিতে break দেওয়া হয়েছে সেটি বন্ধ হয়",
+      "B) একসাথে সকল লুপ বন্ধ হয়ে যায়",
+      "C) প্রোগ্রাম বন্ধ হয়ে যায়",
+      "D) ফাংশন থেকে রিটার্ন করে"
+    ],
+    "answer": 0,
+    "explanation": "`break` কেবল তার নিজস্ব সবচেয়ে ভেতরের (Innermost) লুপ বন্ধ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4885,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৬: লুপিং বা পুনরাবৃত্তি স্টেটমেন্ট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "কোনো সিকোয়েন্সকে রিভার্স বা উল্টো দিক থেকে ইটারেট করার মেমরি-সাশ্রয়ী ফাংশন কোনটি?",
+    "options": [
+      "A) sort_desc()",
+      "B) sequence.reverse()",
+      "C) sequence[::-1]",
+      "D) reversed(sequence)"
+    ],
+    "answer": 3,
+    "explanation": "`reversed()` নতুন কপি না বানিয়ে উল্টো দিকের রিভার্স ইটারেটর প্রদান করে যা অত্যন্ত মেমরি সাশ্রয়ী।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

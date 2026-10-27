@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1147,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Programming in C / Data Structures",
+    "question": "C প্রোগ্রামিং ভাষায় একটি সিঙ্গলি লিংকড লিস্টের (Singly Linked List) নোড স্ট্রাকচার তৈরি করুন এবং লিংকড লিস্টের শুরুতে (Beginning) একটি নতুন নোড ইনসার্ট করার পূর্ণাঙ্গ ফাংশন লিখুন।",
+    "marks": 7,
+    "answer": "C কোড সমাধান:\n\n```c\n#include <stdio.h>\n#include <stdlib.h>\n\n// নোড স্ট্রাকচার সংজ্ঞা\nstruct Node {\n    int data;\n    struct Node* next;\n};\n\n// শুরুতে নোড ইনসার্ট করার ফাংশন\nvoid insertAtBeginning(struct Node** head_ref, int new_data) {\n    // ১. নতুন নোডের জন্য মেমোরি বরাদ্দ\n    struct Node* new_node = (struct Node*)malloc(sizeof(struct Node));\n    \n    // ২. ডেটা এসাইন করা\n    new_node->data = new_data;\n    \n    // ৩. নতুন নোডের next পয়েন্টার বর্তমান head কে পয়েন্ট করবে\n    new_node->next = (*head_ref);\n    \n    // ৪. head পয়েন্টার নতুন নোডকে পয়েন্ট করবে\n    (*head_ref) = new_node;\n    \n    printf(\"Node inserted: %d\\n\", new_data);\n}\n```\n\n• সময় জটিলতা (Time Complexity): O(1)\n• স্থান জটিলতা (Space Complexity): O(1)",
+    "points_to_remember": [
+      "malloc() ফাংশন ডায়নামিক মেমোরি এলোকেশনের জন্য ব্যবহৃত হয়।",
+      "হেড রেফারেন্স ডাবল পয়েন্টার (**head_ref) দিয়ে পাস করা হয় মূল পয়েন্টার পরিবর্তনের জন্য।"
+    ],
+    "tags": [
+      "c_programming",
+      "data_structures",
+      "code"
+    ]
+  }
+]

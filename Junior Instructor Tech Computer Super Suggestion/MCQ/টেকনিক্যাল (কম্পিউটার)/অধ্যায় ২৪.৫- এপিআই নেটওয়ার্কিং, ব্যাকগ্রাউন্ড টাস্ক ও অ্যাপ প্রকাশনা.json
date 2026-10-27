@@ -1,0 +1,842 @@
+[
+  {
+    "id": 4361,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড ওএসে মেইন ইউআই থ্রেড (Main/UI Thread) টানা ৫ সেকেন্ড বা তার বেশি ব্লক হয়ে থাকলে সিস্টেমে যে গুরুতর ত্রুটি দেখা দেয় তাকে কী বলে?",
+    "options": [
+      "A) ANR (Application Not Responding - অ্যাপ বন্ধ করার ডায়ালগ আসে)",
+      "B) NullPointerException",
+      "C) StackOverflow",
+      "D) OutOfMemoryError"
+    ],
+    "answer": 0,
+    "explanation": "মেইন থ্রেড ইউজার ইন্টারফেস ড্র করে; সেখানে নেটওয়ার্ক বা ভারী ক্যালকুলেশন চালালে সিস্টেম ফ্রিজ হয়ে ANR ডায়ালগ দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4362,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোটলিন কোরুটিনস (Kotlin Coroutines)-এর মূল প্রযুক্তিগত সৌন্দর্য কোনটি?",
+    "options": [
+      "A) এটি কেবল মেমরি ডিলিট করে",
+      "B) এটি নতুন সিপিইউ তৈরি করে",
+      "C) এতে কোনো মেমরি লাগে না",
+      "D) এটি হালকা ভার্চুয়াল থ্রেডের মতো কাজ করে যা অন্তর্নিহিত ওএস থ্রেডকে ব্লক না করেই কোডকে সাময়িক সাসপেন্ড (Suspend) করতে পারে"
+    ],
+    "answer": 3,
+    "explanation": "কোরুটিন্স হাজার হাজার ব্যাকগ্রাউন্ড টাস্ক চালাতে পারে অত্যন্ত নগণ্য মেমরি খরচে থ্রেড ব্লকিং ছাড়াই।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4363,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোটলিনে যে ফাংশনগুলো কোরুটিনের ভেতরে সাময়িকভাবে এক্সিকিউশন পজ বা সাসপেন্ড করতে পারে তাদের আগে কোন কীওয়ার্ডটি লিখতে হয়?",
+    "options": [
+      "A) async",
+      "B) suspend (যেমন suspend fun fetchData(): String)",
+      "C) delay",
+      "D) await"
+    ],
+    "answer": 1,
+    "explanation": "`suspend` ফাংশন কেবল অন্য কোনো suspend ফাংশন বা কোরুটিন স্কোপের ভেতর থেকেই কল করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4364,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "নেটওয়ার্ক কল, ডাটাবেস কোয়েরি বা ডিস্ক ফাইল রিড/রাইটের জন্য কোন কোরুটিন ডিসপ্যাচারটি (Dispatcher) ব্যবহার করা বাধ্যতামূলক?",
+    "options": [
+      "A) Dispatchers.Unconfined",
+      "B) Dispatchers.Default",
+      "C) Dispatchers.IO",
+      "D) Dispatchers.Main"
+    ],
+    "answer": 2,
+    "explanation": "`Dispatchers.IO` ইনপুট/আউটপুট অপারেশনের জন্য অপ্টিমাইজড থ্রেড পুল বরাদ্দ করে মেইন থ্রেডকে সুরক্ষিত রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4365,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "জটিল গাণিতিক হিসাব বা ভারী সিপিইউ প্রসেসিংয়ের জন্য কোন কোরুটিন ডিসপ্যাচারটি উপযুক্ত?",
+    "options": [
+      "A) Dispatchers.Main",
+      "B) Dispatchers.IO",
+      "C) Dispatchers.Current",
+      "D) Dispatchers.Default"
+    ],
+    "answer": 3,
+    "explanation": "`Dispatchers.Default` সিপিইউ কোর সংখ্যার সমান থ্রেড ব্যবহার করে ভারী গাণিতিক অ্যালগরিদম চালায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4366,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ব্যাকগ্রাউন্ড থ্রেড থেকে প্রাপ্ত ফলাফল দিয়ে সরাসরি টেক্সটভিউ বা স্ক্রিন আপডেট করার জন্য কোন ডিসপ্যাচার আবশ্যক?",
+    "options": [
+      "A) Dispatchers.Default",
+      "B) Dispatchers.Main",
+      "C) Dispatchers.Async",
+      "D) Dispatchers.IO"
+    ],
+    "answer": 1,
+    "explanation": "অ্যান্ড্রয়েডে UI উইজেট কেবল মেইন থ্রেড থেকেই পরিবর্তন করা সম্ভব; তাই `withContext(Dispatchers.Main)` ব্যবহার করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4367,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোরুটিনে সমান্তরালভাবে দুটি কাজ চালিয়ে ফলাফল ফেরত পাওয়ার জন্য 'async' বিল্ডারের সাথে কোন মেথড কল করতে হয়?",
+    "options": [
+      "A) result()",
+      "B) get()",
+      "C) await() (যেমন val data = deferred.await())",
+      "D) join()"
+    ],
+    "answer": 2,
+    "explanation": "`async` একটি Deferred অবজেক্ট রিটার্ন করে এবং `await()` কল করলে ফলাফল প্রস্তুত না হওয়া পর্যন্ত অপেক্ষা করে মান দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4368,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েডে RESTful ওয়েব এপিআই (API) কল করার জন্য স্কয়ার (Square) কর্তৃক নির্মিত ইন্ডাস্ট্রি স্ট্যান্ডার্ড টাইপ-সেফ এইচটিটিপি ক্লায়েন্ট কোনটি?",
+    "options": [
+      "A) রেট্রোফিট (Retrofit)",
+      "B) ভলি (Volley)",
+      "C) ফেচ",
+      "D) এইচটিটিপিক্লায়েন্ট"
+    ],
+    "answer": 0,
+    "explanation": "Retrofit জাভা/কোটলিন ইন্টারফেসকে অ্যানোটেশনের মাধ্যমে এইচটিটিপি রিকোয়েস্টে রূপান্তর করে এবং এটি বিশ্বজুড়ে সর্বাধিক ব্যবহৃত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4369,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "Retrofit ইন্টারফেসে সার্ভার থেকে ডেটা পাওয়ার জন্য HTTP GET মেথডের অ্যানোটেশন কোনটি?",
+    "options": [
+      "A) @FETCH",
+      "B) @POST",
+      "C) @RETRIEVE",
+      "D) @GET(\"users/list\")"
+    ],
+    "answer": 3,
+    "explanation": "`@GET` অ্যানোটেশন সংশ্লিষ্ট শেষ প্রান্তে (Endpoint) এইচটিটিপি গেট রিকোয়েস্ট পাঠায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4370,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "সার্ভার থেকে প্রাপ্ত JSON রেসপন্সকে স্বয়ংক্রিয়ভাবে কোটলিন ডেটা অবজেক্টে রূপান্তর করার জন্য রেট্রোফিটের সাথে কোন কনভার্টার যুক্ত করা হয়?",
+    "options": [
+      "A) ByteConverter",
+      "B) TextConverter",
+      "C) GsonConverterFactory (বা MoshiConverterFactory)",
+      "D) XmlConverter"
+    ],
+    "answer": 2,
+    "explanation": "Gson বা Moshi কনভার্টার ফ্যাক্টরি ব্যাকগ্রাউন্ডে JSON ডেটাকে ডেটা ক্লাস মডেলে পার্স করে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4371,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ইন্টারনেট থেকে ছবি ডাউনলোড, স্বয়ংক্রিয় ডিস্ক ও মেমরি ক্যাশিং এবং মসৃণ প্রদর্শনের জন্য জনপ্রিয় কোটলিন ফার্স্ট লাইব্রেরি কোনটি?",
+    "options": [
+      "A) Room",
+      "B) Coil (বা Glide / Picasso)",
+      "C) Retrofit",
+      "D) WorkManager"
+    ],
+    "answer": 1,
+    "explanation": "Coil (Coroutine Image Loader) কোটলিন ও জেটপ্যাক কম্পোজের জন্য নির্মিত আধুনিক লাইটওয়েট ইমেজ লোডিং লাইব্রেরি।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4372,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ব্যবহারকারী অ্যাপ বন্ধ করে দিলেও বা ফোন রিস্টার্ট হলেও নির্ভরযোগ্য ব্যাকগ্রাউন্ড টাস্ক (যেমন ডেটা সিঙ্ক) নিশ্চিত করার জেটপ্যাক লাইব্রেরি কোনটি?",
+    "options": [
+      "A) WorkManager (OneTimeWorkRequest / PeriodicWorkRequest)",
+      "B) JobScheduler",
+      "C) IntentService",
+      "D) AsyncTask"
+    ],
+    "answer": 0,
+    "explanation": "WorkManager ব্যাটারি সাশ্রয়ী শর্ত (যেমন ওয়াইফাই সংযুক্ত বা চার্জিং অবস্থায় থাকা) সাপেক্ষে অবিচলভাবে কাজ সম্পন্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4373,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "গুগল প্লে সার্ভিসেসের মাধ্যমে ডিভাইসের সর্বোচ্চ নিখুঁত ও ব্যাটারি সাশ্রয়ী ভৌগোলিক অবস্থান (GPS Location) পাওয়ার এপিআই কোনটি?",
+    "options": [
+      "A) FusedLocationProviderClient",
+      "B) NetworkLocator",
+      "C) LocationManager",
+      "D) GpsProvider"
+    ],
+    "answer": 0,
+    "explanation": "Fused Location Provider জিপিএস, সেল টাওয়ার ও ওয়াইফাই সিগন্যাল বুদ্ধিমত্তার সাথে ফিউজ করে দ্রুত সঠিক লোকেশন দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4374,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড ৬.০ (মার্শম্যালো) থেকে ক্যামেরা, মাইক্রোফোন বা লোকেশনের মতো সংবেদনশীল পারমিশনের জন্য কোন নিয়ম বাধ্যতামূলক করা হয়েছে?",
+    "options": [
+      "A) টাকা দিয়ে পারমিশন কেনা",
+      "B) কেবল ইনস্টলের সময় সম্মতি",
+      "C) রানটাইম পারমিশন (Runtime Permissions - অ্যাপ চলার সময় ব্যবহারকারীর কাছ থেকে পপআপে সম্মতি নেওয়া)",
+      "D) কোনো পারমিশন লাগে না"
+    ],
+    "answer": 2,
+    "explanation": "Dangerous Permissions অ্যাপ ইনস্টলের পরে প্রথমবার ব্যবহারের মুহূর্তে ব্যবহারকারীর কাছে সম্মতি চাইতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4375,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ক্লাউড থেকে অ্যান্ড্রয়েড অ্যাপে পুশ নোটিফিকেশন পাঠানোর বিশ্বস্ত গুগল প্ল্যাটফর্ম কোনটি?",
+    "options": [
+      "A) Bluetooth",
+      "B) FCM (Firebase Cloud Messaging)",
+      "C) APNS",
+      "D) SMS Gateway"
+    ],
+    "answer": 1,
+    "explanation": "FCM সম্পূর্ণ বিনামূল্যে রিয়েল-টাইমে কোটি কোটি ডিভাইসে সার্ভার থেকে পুশ নোটিফিকেশন পৌঁছে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4376,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "গুগল প্লে স্টোরে প্রতিটি অ্যাপ আপডেটে বিল্ড ফাইলের কোন মানটি অবশ্যই আগের চেয়ে বেশি হতে হয়?",
+    "options": [
+      "A) targetSdk",
+      "B) minSdk",
+      "C) versionName",
+      "D) versionCode (পূর্ণসংখ্যা মান, যেমন 1, 2, 3...)"
+    ],
+    "answer": 3,
+    "explanation": "`versionCode` একটি ধনাত্মক পূর্ণসংখ্যা যা গুগল প্লে স্টোর সংস্করণ তুলনা ও আপডেট নিশ্চিত করতে যাচাই করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4377,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ব্যবহারকারী প্লে স্টোরে বা অ্যাপ সেটিংসে যে ভার্সন নম্বরটি দেখতে পান (যেমন '2.1.0') তাকে কী বলে?",
+    "options": [
+      "A) buildNumber",
+      "B) packageVersion",
+      "C) versionName",
+      "D) versionCode"
+    ],
+    "answer": 2,
+    "explanation": "`versionName` ব্যবহারকারীর কাছে দৃশ্যমান স্ট্রিং যা সেমান্টিক ভার্সনিং (Major.Minor.Patch) অনুসরণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4378,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "গুগল প্লে স্টোরে অ্যাপ রিলিজের জন্য বর্তমানে প্রস্তাবিত প্যাকেজিং ফরম্যাট কোনটি যা ডিভাইসের উপযোগী ক্ষুদ্র আকারের এপিকে সরবরাহ করে?",
+    "options": [
+      "A) AAB (Android App Bundle - .aab ফাইল)",
+      "B) APK (.apk)",
+      "C) ZIP",
+      "D) JAR"
+    ],
+    "answer": 0,
+    "explanation": "App Bundle গুগল প্লে-কে ডায়নামিক ডেলিভারির সুযোগ দেয় ফলে ব্যবহারকারী কেবল তার ফোনের ভাষা ও স্ক্রিন রেজোলিউশনের রিসোর্স ডাউনলোড করে সাইজ ১৫-৩০% কমে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4379,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "রিলিজ এপিকে বা অ্যাপ বান্ডেল তৈরির পূর্বে অ্যাপের নিরাপত্তা নিশ্চিত করতে কোন ফাইল দিয়ে ডিজিটালি সাইন করতে হয়?",
+    "options": [
+      "A) manifest.xml",
+      "B) কি-স্টোর ফাইল (KeyStore file - .jks বা .keystore)",
+      "C) license.txt",
+      "D) debug.keystore"
+    ],
+    "answer": 1,
+    "explanation": "KeyStore ফাইলে প্রাইভেট ক্রিপ্টোগ্রাফিক কি থাকে যা প্রমাণ করে অ্যাপটি আসল ডেভেলপারের তৈরি।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4380,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপের রিভার্স ইঞ্জিনিয়ারিং ঠেকাতে কোড অস্পষ্ট করা (Obfuscation) এবং অপ্রয়োজনীয় কোড মুছে অ্যাপের সাইজ কমানোর কম্পাইলার টুল কোনটি?",
+    "options": [
+      "A) Gradle",
+      "B) Lint",
+      "C) D8",
+      "D) R8 / ProGuard (minifyEnabled true)"
+    ],
+    "answer": 3,
+    "explanation": "R8 কোডের ক্লাস ও মেথডের নাম ছোট করে (যেমন a, b, c) অবফাসকেট করে এবং অব্যবহৃত লাইব্রেরি কোড ছেঁটে ফেলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4381,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "গুগল প্লে কনসোলে সাধারণ জনগণের জন্য অ্যাপ উন্মুক্ত করার পূর্বে নির্দিষ্ট পরীক্ষকদের জন্য রিলিজ করার ট্র্যাক কোনটি?",
+    "options": [
+      "A) প্রোডাকশন ট্র্যাক",
+      "B) ওপেন ওয়েব",
+      "C) ইন্টারনাল ও ক্লোজড টেস্টিং (Closed / Internal Testing Track)",
+      "D) গ্লোবাল ট্র্যাক"
+    ],
+    "answer": 2,
+    "explanation": "নতুন গুগল পলিসি অনুযায়ী ব্যক্তিগত অ্যাকাউন্ট থেকে প্রোডাকশনে যাওয়ার আগে অন্তত ২০ জন অভ্যন্তরীণ পরীক্ষক দিয়ে ১৪ দিন টেস্ট করাতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4382,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েডে ভিউমডেলের ভেতরে কোরুটিন চালানোর জন্য লাইফসাইকেল-সচেতন স্কোপ কোনটি?",
+    "options": [
+      "A) ProcessScope",
+      "B) viewModelScope (যেমন viewModelScope.launch { ... })",
+      "C) lifecycleScope",
+      "D) GlobalScope"
+    ],
+    "answer": 1,
+    "explanation": "`viewModelScope` ভিউমডেল ক্লিয়ার হওয়ার সাথে সাথে স্বয়ংক্রিয়ভাবে চলমান সমস্ত কোরুটিন বাতিল করে মেমরি লিক ঠেকায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4383,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যাক্টিভিটি বা ফ্র্যাগমেন্টের লাইফসাইকেল ধ্বংস হওয়ার সাথে সাথে স্বয়ংক্রিয়ভাবে বাতিল হয়ে যাওয়া কোরুটিন স্কোপ কোনটি?",
+    "options": [
+      "A) lifecycleScope",
+      "B) viewModelScope",
+      "C) GlobalScope",
+      "D) ThreadScope"
+    ],
+    "answer": 0,
+    "explanation": "`lifecycleScope` অ্যাক্টিভিটি ডেস্ট্রয় হলে ব্যাকগ্রাউন্ডের অসমাপ্ত কোরুটিন টাস্ক স্বয়ংক্রিয়ভাবে থামিয়ে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4384,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যাপ চলাকালীন পুরো সময় বেঁচে থাকে এবং মেমরি লিকের চরম ঝুঁকি তৈরি করে কোন কোরুটিন স্কোপটি?",
+    "options": [
+      "A) lifecycleScope",
+      "B) viewModelScope",
+      "C) coroutineScope",
+      "D) GlobalScope"
+    ],
+    "answer": 3,
+    "explanation": "`GlobalScope` কাঠামোগত সমঝোতা (Structured Concurrency) ভঙ্গ করে বলে এটি ব্যবহারে গুগল কঠোর সতর্কতা দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4385,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ফায়ারবেসের নো-এসকিউএল ক্লাউড ডকুমেন্ট ডাটাবেস কোনটি যা ক্লায়েন্টে রিয়েল-টাইম অফলাইন ক্যাশিং সমর্থন করে?",
+    "options": [
+      "A) ক্লাউড ফায়ারস্টোর (Cloud Firestore)",
+      "B) ক্লাউড এসকিউএল",
+      "C) বিগটেবিল",
+      "D) রিয়েলটাইম ডাটাবেস"
+    ],
+    "answer": 0,
+    "explanation": "Cloud Firestore কালেকশন ও ডকুমেন্ট ভিত্তিক শক্তিশালী নো-এসকিউএল ডাটাবেস যা অফলাইন সমর্থন সহ তাৎক্ষণিক ডেটা সিঙ্ক করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4386,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "Retrofit ক্লায়েন্টে এইচটিটিপি নেটওয়ার্ক অনুরোধ ও প্রতিক্রিয়া লগক্যাটে প্রিন্ট করার ইন্টারসেপ্টর কোনটি?",
+    "options": [
+      "A) DataLogger",
+      "B) LogInterceptor",
+      "C) NetworkWatcher",
+      "D) HttpLoggingInterceptor (OkHttp লাইব্রেরি)"
+    ],
+    "answer": 3,
+    "explanation": "HttpLoggingInterceptor এপিআই কল ও জেএসওএন রেসপন্স বডি সরাসরি লগক্যাটে স্পষ্ট দেখতে সাহায্য করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4387,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপে গুগল ম্যাপস দেখানোর জন্য কোন মেটেরিয়াল ফ্র্যাগমেন্টটি ব্যবহার করা হয়?",
+    "options": [
+      "A) LocationFragment",
+      "B) GoogleMapView",
+      "C) SupportMapFragment",
+      "D) MapBoxFragment"
+    ],
+    "answer": 2,
+    "explanation": "`SupportMapFragment` ম্যাপের লাইফসাইকেল ও ইন্টারঅ্যাকশন হ্যান্ডল করে গুগল ম্যাপ প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4388,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "প্রোগ্রামের রানটাইমে মেমরি লিক (Memory Leak) স্বয়ংক্রিয়ভাবে শনাক্ত ও নোটিফিকেশনে সতর্কবার্তা দেওয়ার ওপেন সোর্স লাইব্রেরি কোনটি?",
+    "options": [
+      "A) মেমরিওয়াচ",
+      "B) লিকক্যানারি (LeakCanary - Square)",
+      "C) গার্বেজডিটেক্টর",
+      "D) বাগস্ন্যাগ"
+    ],
+    "answer": 1,
+    "explanation": "LeakCanary ডেস্ট্রয় হওয়া অ্যাক্টিভিটি মেমরিতে আটকে থাকলে তার রেফারেন্স ট্রি সহ নিখুঁত রিপোর্ট তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4389,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েডে সফটওয়্যার কোডের নিরাপত্তা ও কোয়ালিটি ত্রুটি পরীক্ষা করার বিল্ট-ইন স্ট্যাটিক অ্যানালাইসিস টুল কোনটি?",
+    "options": [
+      "A) Debugger",
+      "B) Gradle Check",
+      "C) Android Lint (Analyze > Inspect Code)",
+      "D) Profiler"
+    ],
+    "answer": 2,
+    "explanation": "Android Lint কোডের পারফরম্যান্স, নিরাপত্তা ও অপ্রয়োজনীয় রিসোর্স পরীক্ষা করে সতর্কবার্তা দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4390,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপে ব্যবহারকারীর রিয়েল-টাইম ক্র্যাশ রিপোর্ট এবং ত্রুটির স্ট্যাকট্রেস ট্র্যাক করার ক্লাউড প্ল্যাটফর্ম কোনটি?",
+    "options": [
+      "A) গুগল ম্যাপস",
+      "B) গুগল ড্রাইভ",
+      "C) ক্লাউড মেসেজিং",
+      "D) ফায়ারবেস ক্র্যাশলিটিক্স (Firebase Crashlytics)"
+    ],
+    "answer": 3,
+    "explanation": "Crashlytics প্রোডাকশনে ব্যবহারকারীদের ফোনে ঘটা অপ্রত্যাশিত ক্র্যাশের বিস্তারিত লগ তাৎক্ষণিক ডেভেলপার কনসোলে পাঠায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4391,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "নেটওয়ার্ক কানেক্টিভিটি (ওয়াইফাই বা সেলুলার ডাটা সক্রিয় আছে কিনা) পরীক্ষা করার সিস্টেম সার্ভিস কোনটি?",
+    "options": [
+      "A) NetworkManager",
+      "B) ConnectivityManager",
+      "C) InternetService",
+      "D) WifiManager"
+    ],
+    "answer": 1,
+    "explanation": "`ConnectivityManager` সক্রিয় নেটওয়ার্কের অবস্থা ও ইন্টারনেটের প্রাপ্যতা পর্যবেক্ষণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4392,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "গুগল প্লে স্টোরের পলিসি অনুযায়ী ব্যবহারকারীর ডেটা প্রাইভেসি রক্ষার ঘোষণার ফর্মটির নাম কী?",
+    "options": [
+      "A) ডাটা সেফটি সেকশন (Data Safety Form)",
+      "B) জিডিপিআর ডিক্লারেশন",
+      "C) ইউজার এগ্রিমেন্ট",
+      "D) কপিরাইট ফর্ম"
+    ],
+    "answer": 0,
+    "explanation": "Data Safety সেকশনে অ্যাপ ব্যবহারকারীর কোন কোন ডেটা সংগ্রহ বা শেয়ার করে তা স্পষ্টভাবে ঘোষণা করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4393,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোটলিন কোরুটিনে নির্দিষ্ট সময় কোনো থ্রেড ব্লক না করে বিরতি দেওয়ার ফাংশন কোনটি?",
+    "options": [
+      "A) pause()",
+      "B) delay(timeMillis)",
+      "C) Thread.sleep()",
+      "D) wait()"
+    ],
+    "answer": 1,
+    "explanation": "`delay()` কেবল সংশ্লিষ্ট কোরুটিনটিকে পজ করে কিন্তু ওএস থ্রেডকে অন্য কাজের জন্য মুক্ত রাখে; যেখানে `Thread.sleep()` পুরো থ্রেডকে ব্লক করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4394,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপে ডিপেনডেন্সি ইনজেকশন (Dependency Injection - DI) সহজ ও স্ট্যান্ডার্ডাইজড করার আধুনিক অফিসিয়াল ফ্রেমওয়ার্ক কোনটি?",
+    "options": [
+      "A) কোইন",
+      "B) বাটারনাইফ",
+      "C) স্প্রিং বুট",
+      "D) হিল্ট (Hilt - Dagger-এর ওপর নির্মিত)"
+    ],
+    "answer": 3,
+    "explanation": "Hilt গুগল প্রস্তাবিত অ্যান্ড্রয়েড ডিআই লাইব্রেরি যা অ্যাক্টিভিটি ও ভিউমডেলের জন্য বয়লারপ্লেটহীন ডিপেনডেন্সি ইনজেকশন দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4395,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যাপের সাইজ কমাতে অব্যবহৃত এক্সএমএল কালার ও ছবি স্বয়ংক্রিয়ভাবে বাদ দেওয়ার গ্র্যাডল কমান্ড কোনটি?",
+    "options": [
+      "A) compressAssets",
+      "B) minifyEnabled true",
+      "C) shrinkResources true",
+      "D) cleanBuild"
+    ],
+    "answer": 2,
+    "explanation": "`shrinkResources true` আনব্যবহৃত রিসোর্সগুলোকে এপিকে থেকে বাদ দিয়ে ফাইলের আকার উল্লেখযোগ্যভাবে ছোট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4396,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যাপ্লিকেশনের রিলিজ ভার্সন তৈরির জন্য গ্র্যাডল টাস্ক কমান্ড কোনটি?",
+    "options": [
+      "A) ./gradlew bundleRelease (বা assembleRelease)",
+      "B) ./gradlew start",
+      "C) ./gradlew run",
+      "D) ./gradlew test"
+    ],
+    "answer": 0,
+    "explanation": "`bundleRelease` প্লে স্টোরের জন্য সাইনড `.aab` বান্ডেল তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4397,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপে এইচটিটিপিএস (HTTPS) নেটওয়ার্ক কলের সময় ট্রাফিক ম্যান-ইন-দ্য-মিডল আক্রমণ থেকে বাঁচাতে ব্যবহৃত সার্টিফিকেটের পিন বাঁধাকে কী বলে?",
+    "options": [
+      "A) ফায়ারওয়াল",
+      "B) এসএসএল পিনিং (SSL / Certificate Pinning)",
+      "C) এনক্রিপশন",
+      "D) হ্যাশিং"
+    ],
+    "answer": 1,
+    "explanation": "SSL Pinning অ্যাপে নির্দিষ্ট সার্ভারের পাবলিক কি হার্ডকোড করে দেয় ফলে হ্যাকাররা জাল সার্টিফিকেট দিয়ে ডেটা চুরি করতে পারে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4398,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "গুগল প্লে স্টোরে অ্যাপ প্রকাশের জন্য ডেভেলপার অ্যাকাউন্ট খোলার জন্য এককালীন ফি কত?",
+    "options": [
+      "A) সম্পূর্ণ বিনামূল্যে",
+      "B) $99 বার্ষিক",
+      "C) ২৫ মার্কিন ডলার ($25 USD)",
+      "D) $50 USD"
+    ],
+    "answer": 2,
+    "explanation": "গুগল প্লে কনসোলে লাইফটাইম রেজিস্ট্রেশনের জন্য এককালীন ২৫ ডলার ফি দিতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4399,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ব্যবহারকারীর ডিভাইসে ইন্টারনেট কানেকশন না থাকলেও পূর্বে সংরক্ষিত ডেটা প্রদর্শন করার স্থাপত্য প্যাটার্নকে কী বলে?",
+    "options": [
+      "A) ক্লাউড-ফার্স্ট",
+      "B) নো-নেটওয়ার্ক প্যাটার্ন",
+      "C) অনলাইন ক্যাশিং",
+      "D) অফলাইন-ফার্স্ট আর্কিটেকচার (Offline-First with Single Source of Truth / Room)"
+    ],
+    "answer": 3,
+    "explanation": "Offline-First আর্কিটেকচারে অ্যাপ সর্বদা লোকাল ডাটাবেস (Room) থেকে ইউআই প্রদর্শন করে এবং ব্যাকগ্রাউন্ডে এপিআই থেকে ডেটা এনে ডাটাবেস আপডেট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4400,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৫: এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যাপ পাবলিশিংয়ের সময় 'targetSdkVersion' আপগ্রেড করার গুরুত্ব কী?",
+    "options": [
+      "A) গুগল প্লে স্টোরের পলিসি অনুযায়ী আধুনিক নিরাপত্তা ও ব্যাটারি অপ্টিমাইজেশন সুবিধা নিশ্চিত করতে প্রতি বছর লেটেস্ট ওএস টার্গেট করা বাধ্যতামূলক",
+      "B) এটি না করলে ফোন গরম হয়",
+      "C) এতে কোনো প্রভাব নেই",
+      "D) অ্যাপ ডিলিট হয়ে যায়"
+    ],
+    "answer": 0,
+    "explanation": "গুগল প্লে প্রতি বছর ডেভেলপারদের জন্য সাম্প্রতিক অ্যান্ড্রয়েড সংস্করণকে targetSdk হিসেবে নির্ধারণ বাধ্যতামূলক করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

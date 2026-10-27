@@ -1,0 +1,317 @@
+[
+  {
+    "id": 4921,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১০: ডিকশনারি ডেটা স্ট্রাকচার (Dictionary Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে ডিকশনারি (Dictionary) ডেটা স্ট্রাকচার কীভাবে উপাত্ত সংরক্ষণ করে?",
+    "options": [
+      "A) শুধুমাত্র ইনডেক্স অনুযায়ী",
+      "B) ট্রি ডেটা স্ট্রাকচার আকারে",
+      "C) সিরিয়াল বাইনারি আকারে",
+      "D) কী-মান জোড়া (Key-Value Pair) হিসেবে, যেখানে কী অনন্য ও ইমিউটেবল"
+    ],
+    "answer": 3,
+    "explanation": "ডিকশনারি হ্যাশ টেবিল নীতিতে প্রতিটি অনন্য কী-এর সাথে সংশ্লিষ্ট মান সংরক্ষণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4922,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১০: ডিকশনারি ডেটা স্ট্রাকচার (Dictionary Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথন ৩.৭ থেকে ডিকশনারির উপাদানের ক্রমের ক্ষেত্রে কোন আনুষ্ঠানিক গ্যারান্টি দেওয়া হয়েছে?",
+    "options": [
+      "A) ইনসার্শন অর্ডার বজায় থাকে (Insertion order is guaranteed)",
+      "B) রিভার্স অর্ডারে থাকে",
+      "C) উপাদানগুলো স্বয়ংক্রিয়ভাবে সর্টেড থাকে",
+      "D) সম্পূর্ণ র‍্যান্ডম থাকে"
+    ],
+    "answer": 0,
+    "explanation": "পাইথন ৩.৭ থেকে ডিকশনারি উপাদান ঢোকানোর মূল ক্রম অক্ষুণ্ণ রাখার বিষয়টি ভাষার স্থায়ী বৈশিষ্ট্য হিসেবে নির্ধারণ করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4923,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১০: ডিকশনারি ডেটা স্ট্রাকচার (Dictionary Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ডিকশনারির কোনো কী খুঁজতে গিয়ে কী না থাকলে এরর এড়াতে নিরাপদ মেথড কোনটি?",
+    "options": [
+      "A) dict.search(key)",
+      "B) dict.find(key)",
+      "C) dict.get(key, default)",
+      "D) dict[key]"
+    ],
+    "answer": 2,
+    "explanation": "`d[key]` দিলে কি না থাকলে `KeyError` হয়; কিন্তু `d.get(key, 'default')` দিলে এরর না দিয়ে ডিফল্ট মান দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4924,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১০: ডিকশনারি ডেটা স্ট্রাকচার (Dictionary Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ডিকশনারি থেকে নির্দিষ্ট কী মুছে ফেলে তার মানটি ফেরত পাওয়ার মেথড কোনটি?",
+    "options": [
+      "A) dict.remove(key)",
+      "B) dict.pop(key)",
+      "C) del dict[key]",
+      "D) dict.discard(key)"
+    ],
+    "answer": 1,
+    "explanation": "`d.pop('name')` উপাদানটি ডিকশনারি থেকে ডিলিট করে তার ভ্যালুটি রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4925,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১০: ডিকশনারি ডেটা স্ট্রাকচার (Dictionary Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ডিকশনারির সর্বশেষ যুক্ত হওয়া কী-ভ্যালু জোড়া মুছে ফেলার (LIFO ক্রম) মেথড কোনটি?",
+    "options": [
+      "A) dict.popitem()",
+      "B) dict.remove_item()",
+      "C) dict.pop()",
+      "D) dict.delete_last()"
+    ],
+    "answer": 0,
+    "explanation": "`d.popitem()` শেষ ইনসার্ট করা `(key, value)` টাপলটি রিমুভ করে রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4926,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১০: ডিকশনারি ডেটা স্ট্রাকচার (Dictionary Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ডিকশনারির সকল কী ও মানের জোড়াকে টাপল আকারে পাওয়ার মেথড কোনটি?",
+    "options": [
+      "A) dict.keys()",
+      "B) dict.items()",
+      "C) dict.pairs()",
+      "D) dict.values()"
+    ],
+    "answer": 1,
+    "explanation": "`d.items()` একটি ডিকশনারি ভিউ দেয় যাতে `[(key1, val1), (key2, val2)]` থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4927,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১০: ডিকশনারি ডেটা স্ট্রাকচার (Dictionary Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "একটি বিদ্যমান ডিকশনারিতে অন্য একটি ডিকশনারির উপাদানসমূহ মার্জ বা আপডেট করার মেথড কোনটি?",
+    "options": [
+      "A) dict.add()",
+      "B) dict.merge()",
+      "C) dict.update(other_dict)",
+      "D) dict.append()"
+    ],
+    "answer": 2,
+    "explanation": "`d1.update(d2)` d1-এর ভেতরে d2-এর কী-ভ্যালু জোড়া সংযোজন বা ওভাররাইট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4928,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১০: ডিকশনারি ডেটা স্ট্রাকচার (Dictionary Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথন ৩.৯ এ দুটি ডিকশনারি মার্জ করার জন্য কোন নতুন অপারেটর যুক্ত করা হয়?",
+    "options": [
+      "A) +",
+      "B) &",
+      "C) **",
+      "D) | (যেমন: d3 = d1 | d2)"
+    ],
+    "answer": 3,
+    "explanation": "পাইথন ৩.৯ থেকে ডিকশনারি ইউনিয়ন বা মার্জ করার জন্য `|` এবং ইন-প্লেস আপডেটের জন্য `|=` অপারেটর যোগ করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4929,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১০: ডিকশনারি ডেটা স্ট্রাকচার (Dictionary Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "যদি ডিকশনারিতে নির্দিষ্ট কোনো কী বিদ্যমান না থাকে তবে ডিফল্ট মান সেট করা এবং বিদ্যমান থাকলে বর্তমান মান পাওয়ার মেথড কোনটি?",
+    "options": [
+      "A) dict.setdefault(key, default)",
+      "B) dict.get()",
+      "C) dict.insert()",
+      "D) dict.add_default()"
+    ],
+    "answer": 0,
+    "explanation": "`d.setdefault(k, 0)` কি না থাকলে মান ০ সেট করে ০ দেয়, আর কি থাকলে আগের মান অক্ষুণ্ণ রেখে তা রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4930,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১০: ডিকশনারি ডেটা স্ট্রাকচার (Dictionary Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ডিকশনারি কম্প্রিহেনশনের (Dictionary Comprehension) সঠিক উদাহরণ কোনটি?",
+    "options": [
+      "A) [x: x**2 for x in range(5)]",
+      "B) (x: x**2 for x in range(5))",
+      "C) {x, x**2 for x in range(5)}",
+      "D) {x: x**2 for x in range(5)}"
+    ],
+    "answer": 3,
+    "explanation": "কার্লি ব্র্যাকেটে `{key: value for item in iterable}` সিনট্যাক্স দিয়ে ডিকশনারি কম্প্রিহেনশন হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4931,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১০: ডিকশনারি ডেটা স্ট্রাকচার (Dictionary Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "নিচের কোনটি পাইথনে ডিকশনারির 'কী' হিসেবে ব্যবহার করা সম্পূর্ণ নিষিদ্ধ?",
+    "options": [
+      "A) স্ট্রিং \"name\"",
+      "B) লিস্ট [1, 2, 3]",
+      "C) টাপল (1, 2)",
+      "D) পূর্ণসংখ্যা 42"
+    ],
+    "answer": 1,
+    "explanation": "লিস্ট একটি মিউটেবল অবজেক্ট যা হ্যাশেবল নয় (Unhashable type: 'list'), তাই এটি কী হতে পারে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4932,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১০: ডিকশনারি ডেটা স্ট্রাকচার (Dictionary Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "কী অনুপস্থিত থাকলে স্বয়ংক্রিয়ভাবে ডিফল্ট টাইপ ইনিশিয়ালাইজ করার স্ট্যান্ডার্ড কালেকশন ক্লাস কোনটি?",
+    "options": [
+      "A) dict.default()",
+      "B) collections.OrderedDict",
+      "C) collections.defaultdict",
+      "D) collections.Counter"
+    ],
+    "answer": 2,
+    "explanation": "`defaultdict(int)` বা `defaultdict(list)` অনুপস্থিত কী-তে কল করলে স্বয়ংক্রিয়ভাবে 0 বা [] তৈরি করে নেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4933,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১০: ডিকশনারি ডেটা স্ট্রাকচার (Dictionary Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "যেকোনো ইটারেবলের উপাদানসমূহের পৌনঃপুনিকতা (Frequency count) সহজে বের করতে কোন ক্লাস ব্যবহৃত হয়?",
+    "options": [
+      "A) math.frequency()",
+      "B) dict.count()",
+      "C) collections.Counter",
+      "D) collections.defaultdict"
+    ],
+    "answer": 2,
+    "explanation": "`Counter(['a', 'b', 'a'])` একটি বিশেষ ডিকশনারি যাতে উপাদান ও তাদের সংখ্যা সংরক্ষিত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4934,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১০: ডিকশনারি ডেটা স্ট্রাকচার (Dictionary Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ডিকশনারির সমস্ত কী-এর ওপর লুপ চালানোর ডিফল্ট সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) for k in my_dict.all():",
+      "B) for k, v in my_dict:",
+      "C) for k in keys(my_dict):",
+      "D) for k in my_dict:"
+    ],
+    "answer": 3,
+    "explanation": "ডিকশনারিকে সরাসরি ইটারেট করলে ডিফল্টভাবে কেবল তার 'কী' (Keys) গুলো পাওয়া যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4935,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১০: ডিকশনারি ডেটা স্ট্রাকচার (Dictionary Structure)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "দুটি তালিকা (কী তালিকা এবং মান তালিকা) থেকে একটি পূর্ণাঙ্গ ডিকশনারি বানানোর পাইথনিক উপায় কোনটি?",
+    "options": [
+      "A) zip(dict(keys, values))",
+      "B) dict(zip(keys_list, values_list))",
+      "C) dict.merge(keys, values)",
+      "D) combine(keys, values)"
+    ],
+    "answer": 1,
+    "explanation": "`zip` উপাদানগুলোকে জোড়া বানায় এবং `dict()` তাকে সরাসরি ডিকশনারিতে রূপান্তর করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

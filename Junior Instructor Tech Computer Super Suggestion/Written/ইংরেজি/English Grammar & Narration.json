@@ -1,0 +1,20 @@
+[
+  {
+    "id": 3032,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English Grammar & Narration",
+    "question": "Change the following sentences from Direct to Indirect Speech:\n(a) The System Analyst said to the engineer, \"Have you patched the kernel vulnerability today?\"\n(b) The Director said, \"Do not tamper with the biometric scanner seals under any circumstance.\"\n(c) The user said, \"Alas! All my unsaved passport application data is lost!\"\n(d) The technician said, \"Let us replace the malfunctioning SMPS before testing the display.\"\n(e) The instructor said, \"Light travels faster than sound in a vacuum.\"",
+    "marks": 5,
+    "answer": "Direct to Indirect Speech Solution:\n\n(a) Direct: The System Analyst said to the engineer, \"Have you patched the kernel vulnerability today?\"\n$\\rightarrow$ **Indirect:** The System Analyst asked the engineer if (or whether) he had patched the kernel vulnerability that day.\n\n(b) Direct: The Director said, \"Do not tamper with the biometric scanner seals under any circumstance.\"\n$\\rightarrow$ **Indirect:** The Director forbade them to tamper with the biometric scanner seals under any circumstance. (or: The Director ordered not to tamper with...)\n\n(c) Direct: The user said, \"Alas! All my unsaved passport application data is lost!\"\n$\\rightarrow$ **Indirect:** The user exclaimed with sorrow that all his unsaved passport application data was lost.\n\n(d) Direct: The technician said, \"Let us replace the malfunctioning SMPS before testing the display.\"\n$\\rightarrow$ **Indirect:** The technician proposed (or suggested) that they should replace the malfunctioning SMPS before testing the display.\n\n(e) Direct: The instructor said, \"Light travels faster than sound in a vacuum.\"\n$\\rightarrow$ **Indirect:** The instructor said that light travels faster than sound in a vacuum. *(Universal truth tense remains unchanged)*.",
+    "points_to_remember": [
+      "Universal truths or scientific facts do not change tense in indirect speech.",
+      "'Today' transforms into 'that day'.",
+      "'Let us' changes into 'suggested/proposed that they should'."
+    ],
+    "tags": [
+      "narration",
+      "indirect_speech",
+      "english_grammar"
+    ]
+  }
+]

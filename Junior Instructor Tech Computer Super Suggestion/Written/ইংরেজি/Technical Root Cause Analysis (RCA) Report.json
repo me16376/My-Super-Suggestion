@@ -1,0 +1,20 @@
+[
+  {
+    "id": 3038,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Technical Root Cause Analysis (RCA) Report",
+    "question": "Draft an executive Technical Incident & Root Cause Analysis (RCA) Report concerning a 45-minute total network outage at a Regional Technical School and College (TSC) / Polytechnic Institute caused by a physical switching loop and Spanning Tree Protocol (STP) misconfiguration.",
+    "marks": 9,
+    "answer": "Executive Technical Incident & Root Cause Analysis (RCA) Report:\n\n**DOCUMENT CLASSIFICATION:** INTERNAL RESTRICTED  \n**INCIDENT TRACKING ID:** INC-2026-1023-NET  \n**AFFECTED FACILITY:** Regional Technical School and College (TSC) / Polytechnic Institute, Sylhet  \n**DATE OF INCIDENT:** 23 October 2026 | **DURATION:** 45 Minutes (10:15 AM – 11:00 AM)  \n\n**1. EXECUTIVE SUMMARY:**  \nAt 10:15 AM, the local area network serving twenty-two (22) biometric enrollment counters and eight (8) delivery stations experienced a total connectivity failure. Applicants could not be enrolled, and e-Gate verification timed out. Full service was restored at 11:00 AM following the isolation of a loop and configuration of Rapid Spanning Tree Protocol (RSTP).\n\n**2. TIMELINE OF EVENTS:**  \n• **10:15 AM:** Core Switch CPU utilization surged to 100%; inter-VLAN ping latency spiked from 1ms to over 3500ms, followed by 98% packet loss.  \n• **10:25 AM:** Maintenance Engineer diagnosed a broadcast radiation storm (over 120,000 broadcast packets/sec) saturating all trunk ports.  \n• **10:40 AM:** Physical inspection identified that an unmanaged 8-port desktop switch in the training room had both ends of a patch cable inadvertently plugged into two adjacent wall ports connected to Access Switch-02.  \n• **10:45 AM:** Loop cable physically disconnected; broadcast storm ceased immediately.  \n• **10:55 AM:** Spanning Tree BPDU Guard and Loop Guard enabled globally across all access ports.  \n• **11:00 AM:** Full system operational verification confirmed; incident resolved.\n\n**3. ROOT CAUSE:**  \n1. **Human Error:** An operator mistakenly connected both ends of an Ethernet patch cable into two live data jacks, forming a physical bridging loop.  \n2. **Configuration Gap:** Access Switch-02 had 'BPDU Guard' disabled on edge ports. Consequently, when loop frames circulated, the switch failed to automatically err-disable the rogue port, precipitating an uncontained Layer-2 broadcast storm.\n\n**4. PREVENTIVE ACTIONS & RECOMMENDATIONS:**  \n• Enable `spanning-tree portfast bpduguard default` on all edge ports across all switches nationwide.  \n• Enforce strict physical port locking on unallocated wall sockets.  \n• Deploy automated SNMP trap alerts to notify the NOC when switch CPU exceeds 80%.\n\n**SUBMITTED BY:**  \n(Md. Shakil Hossain)  \nSub-Assistant Maintenance Engineer  \nRegional Technical School and College (TSC) / Polytechnic Institute, Sylhet.",
+    "points_to_remember": [
+      "Technical incident reports require Executive Summary, Timeline, Root Cause, and Action Items.",
+      "Incorporate precise networking terms (broadcast storm, BPDU guard, trunk ports, err-disable)."
+    ],
+    "tags": [
+      "rca_report",
+      "incident_report",
+      "networking",
+      "technical_writing"
+    ]
+  }
+]

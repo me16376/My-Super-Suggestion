@@ -1,0 +1,737 @@
+[
+  {
+    "id": 1071,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "মাইক্রোসফট ওয়ার্ড ২০০৭ ও পরবর্তী ভার্সনের ডিফল্ট ফাইল এক্সটেনশন কোনটি?",
+    "options": [
+      "A) .docx",
+      "B) .txt",
+      "C) .doc",
+      "D) .dotx"
+    ],
+    "answer": 0,
+    "explanation": "Office 2007 থেকে এক্সএমএল-ভিত্তিক ওপেন ফরম্যাট হিসেবে '.docx' ডিফল্ট ফাইল এক্সটেনশন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1072,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এমএস ওয়ার্ডে বানান ও ব্যাকরণ (Spelling & Grammar) যাচাই করার শর্টকাট কী কোনটি?",
+    "options": [
+      "A) F5",
+      "B) Shift + F7",
+      "C) F12",
+      "D) F7"
+    ],
+    "answer": 3,
+    "explanation": "F7 চাপলে সরাসরি স্পেলিং ও গ্রামার চেকার ডায়ালগ বক্স ওপেন হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1073,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "শব্দের সমার্থক বা বিপরীতার্থক শব্দ খোঁজার টুল 'থিসরাস' (Thesaurus) খোলার শর্টকাট কী কোনটি?",
+    "options": [
+      "A) F7",
+      "B) Ctrl + F7",
+      "C) Alt + F7",
+      "D) Shift + F7"
+    ],
+    "answer": 3,
+    "explanation": "Shift + F7 চাপলে নির্বাচিত শব্দের প্রতিশব্দ বা থিসরাস প্যান সক্রিয় হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1074,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এমএস ওয়ার্ডে একটি ডকুমেন্টের সমস্ত লেখা একবারে সিলেক্ট (Select All) করার কমান্ড কোনটি?",
+    "options": [
+      "A) Alt + A",
+      "B) Ctrl + Shift + A",
+      "C) Ctrl + A",
+      "D) Ctrl + S"
+    ],
+    "answer": 2,
+    "explanation": "Ctrl + A চাপলে সম্পূর্ণ ডকুমেন্টের সকল কনটেন্ট সিলেক্ট হয়ে যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1075,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এমএস ওয়ার্ডে টেক্সটকে উভয় প্রান্তে সমান করে সাজানোর 'Justify' অ্যালাইনমেন্টের শর্টকাট কোনটি?",
+    "options": [
+      "A) Ctrl + E",
+      "B) Ctrl + J",
+      "C) Ctrl + L",
+      "D) Ctrl + R"
+    ],
+    "answer": 1,
+    "explanation": "Ctrl + J টেক্সটকে জাস্টিফাই করে, Ctrl + E সেন্টার করে, Ctrl + L লেফট এবং Ctrl + R রাইট অ্যালাইন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1076,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "সাবস্ক্রিপ্ট (Subscript - যেমন $H_2O$) করার কীবোর্ড শর্টকাট কোনটি?",
+    "options": [
+      "A) Ctrl + =",
+      "B) Ctrl + Shift + +",
+      "C) Ctrl + Sub",
+      "D) Alt + ="
+    ],
+    "answer": 0,
+    "explanation": "Ctrl + = সাবস্ক্রিপ্ট তৈরি করে এবং Ctrl + Shift + + সুপারস্ক্রিপ্ট ($X^2$) তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1077,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "সুপারস্ক্রিপ্ট (Superscript - যেমন $X^2$) করার কীবোর্ড শর্টকাট কোনটি?",
+    "options": [
+      "A) Shift + F3",
+      "B) Alt + Shift + +",
+      "C) Ctrl + Shift + +",
+      "D) Ctrl + ="
+    ],
+    "answer": 2,
+    "explanation": "Ctrl + Shift + + কোনো অক্ষরকে লাইনের ওপরে সুপারস্ক্রিপ্ট হিসেবে বসায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1078,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "ইংরেজি লেখার কেস দ্রুত পরিবর্তন (UPPERCASE, lowercase, Title Case) করার শর্টকাট কোনটি?",
+    "options": [
+      "A) Shift + F3",
+      "B) Ctrl + F3",
+      "C) F3",
+      "D) Alt + F3"
+    ],
+    "answer": 0,
+    "explanation": "Shift + F3 চাপলে পর্যায়ক্রমে ক্যাপিটাল, স্মল ও প্রপার কেসে পরিবর্তন হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1079,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এমএস ওয়ার্ডে নতুন একটি খালি পেজ বা পেজ ব্রেক (Page Break) দেওয়ার শর্টকাট কী কোনটি?",
+    "options": [
+      "A) Ctrl + Shift + Enter",
+      "B) Shift + Enter",
+      "C) Alt + Enter",
+      "D) Ctrl + Enter"
+    ],
+    "answer": 3,
+    "explanation": "Ctrl + Enter চাপলে কার্সারের বর্তমান অবস্থান থেকে নতুন পেজ শুরু হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1080,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "প্যারাগ্রাফের মাঝে নতুন লাইন তৈরি করতে কিন্তু প্যারাগ্রাফ ব্রেক না করার জন্য কোনটি ব্যবহার করা হয়?",
+    "options": [
+      "A) Ctrl + Enter",
+      "B) Shift + Enter (Soft Return)",
+      "C) Alt + Enter",
+      "D) Enter"
+    ],
+    "answer": 1,
+    "explanation": "Shift + Enter দিলে লাইন ব্রেক হয় কিন্তু প্যারাগ্রাফ স্পেসিং ছাড়া একই প্যারাগ্রাফে থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1081,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "কোন ফিচারের মাধ্যমে একই চিঠি বা নোটিশ শত শত ভিন্ন ঠিকানায় স্বয়ংক্রিয়ভাবে তৈরি ও প্রিন্ট করা যায়?",
+    "options": [
+      "A) হাইপারলিঙ্ক",
+      "B) ম্যাক্রো",
+      "C) ট্র্যাক চেঞ্জেস",
+      "D) মেইল মার্জ (Mail Merge)"
+    ],
+    "answer": 3,
+    "explanation": "Mail Merge মূল ডকুমেন্টের সাথে ডেটা সোর্স (এক্সেল বা আউটলুক কন্টাক্ট) যুক্ত করে গণ-চিঠিপত্র তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1082,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "একটি ডকুমেন্টের পৃষ্ঠার হালকা জলছাপের মতো লেখা বা ছবি (যেমন- Confidential, Draft) দেওয়াকে কী বলে?",
+    "options": [
+      "A) বর্ডার",
+      "B) হেডার",
+      "C) ওয়াটারমার্ক (Watermark)",
+      "D) ফুটার"
+    ],
+    "answer": 2,
+    "explanation": "Watermark হলো পেজের ব্যাকগ্রাউন্ডে টেক্সটের পেছনে থাকা হালকা লোগো বা সতর্কবার্তা।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1083,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "ডকুমেন্টের প্রতিটি পৃষ্ঠার শীর্ষে স্বয়ংক্রিয়ভাবে একই শিরোনাম বা অধ্যায়ের নাম প্রদর্শনের জন্য কোনটি ব্যবহৃত হয়?",
+    "options": [
+      "A) এন্ডনোট",
+      "B) হেডার (Header)",
+      "C) ফুটার (Footer)",
+      "D) পাদটীকা"
+    ],
+    "answer": 1,
+    "explanation": "Header পেজের টপ মার্জিনে থাকে এবং এটি ডকুমেন্টের প্রতিটি পৃষ্ঠায় স্বয়ংক্রিয়ভাবে পুনরাবৃত্তি হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1084,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "ফুটনোট (Footnote) এবং এন্ডনোট (Endnote) এর মধ্যে মৌলিক পার্থক্য কী?",
+    "options": [
+      "A) ফুটনোট সংশ্লিষ্ট পৃষ্ঠার নিচে থাকে, এন্ডনোট সম্পূর্ণ ডকুমেন্টের সর্বশেষে থাকে",
+      "B) এদের মাঝে কোনো পার্থক্য নেই",
+      "C) ফুটনোট শুধু উপরে থাকে",
+      "D) এন্ডনোট পেজের বামে থাকে"
+    ],
+    "answer": 0,
+    "explanation": "Footnote রেফারেন্স পেজের নিচে প্রদর্শিত হয়, আর Endnote পুরো ডকুমেন্টের শেষ পৃষ্ঠায় তালিকাভুক্ত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1085,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এমএস ওয়ার্ডে পূর্বে সম্পাদিত কোনো কাজ বাতিল করে পূর্বের অবস্থায় ফেরার (Undo) কমান্ড কোনটি?",
+    "options": [
+      "A) Ctrl + Z",
+      "B) Ctrl + Y",
+      "C) Ctrl + X",
+      "D) Ctrl + U"
+    ],
+    "answer": 0,
+    "explanation": "Ctrl + Z হলো আনডু (Undo) এবং Ctrl + Y হলো রিডু (Redo)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1086,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এমএস ওয়ার্ডে 'Save As' ডায়ালগ বক্স সরাসরি ওপেন করার শর্টকাট কী কোনটি?",
+    "options": [
+      "A) Shift + F12",
+      "B) Alt + F12",
+      "C) F12",
+      "D) Ctrl + S"
+    ],
+    "answer": 2,
+    "explanation": "F12 চাপলে নতুন নাম বা ফরম্যাটে ফাইল সংরক্ষণের 'Save As' উইন্ডো চলে আসে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1087,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "ডকুমেন্টে কোনো নির্দিষ্ট টেক্সট খুঁজে বের করে অন্য টেক্সট দ্বারা প্রতিস্থাপনের (Find & Replace) শর্টকাট কোনটি?",
+    "options": [
+      "A) Ctrl + F",
+      "B) Ctrl + H",
+      "C) Ctrl + G",
+      "D) Ctrl + R"
+    ],
+    "answer": 1,
+    "explanation": "Ctrl + F শুধুমাত্র ফাইন্ড (Find) করে, আর Ctrl + H সরাসরি 'Replace' ডায়ালগ বক্স ওপেন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1088,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "টেক্সটের ফরম্যাটিং কপি করে অন্য টেক্সটে হুবহু প্রয়োগ করার জন্য কোন টুল ব্যবহৃত হয়?",
+    "options": [
+      "A) ক্লিপবোর্ড",
+      "B) স্টাইল গ্যালারি",
+      "C) কপি-পেস্ট",
+      "D) ফরম্যাট পেন্টার (Format Painter)"
+    ],
+    "answer": 3,
+    "explanation": "Format Painter (Ctrl + Shift + C এবং Ctrl + Shift + V) টেক্সটের ফন্ট, সাইজ ও কালার স্টাইল কপি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1089,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এমএস ওয়ার্ড টেবিলের একাধিক সেলকে একত্র করে একটি মাত্র সেলে রূপান্তর করাকে কী বলে?",
+    "options": [
+      "A) Split Cells",
+      "B) Wrap Text",
+      "C) Merge Cells",
+      "D) Group"
+    ],
+    "answer": 2,
+    "explanation": "Merge Cells নির্বাচিত একাধিক পাশাপাশি বা ওপর-নিচের সেলকে একটি একক সেলে রূপান্তর করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1090,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "একটি একক সেলকে একাধিক সারি বা কলামে বিভক্ত করাকে কী বলে?",
+    "options": [
+      "A) Merge Cells",
+      "B) Split Cells",
+      "C) Align Cells",
+      "D) Delete Cells"
+    ],
+    "answer": 1,
+    "explanation": "Split Cells অপশনের মাধ্যমে একটি সেলকে নির্দিষ্ট সংখ্যক রো ও কলামে ভাগ করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1091,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এমএস ওয়ার্ডে হাইপারলিঙ্ক (Hyperlink) ইনসার্ট করার কীবোর্ড শর্টকাট কোনটি?",
+    "options": [
+      "A) Ctrl + K",
+      "B) Ctrl + H",
+      "C) Alt + K",
+      "D) Ctrl + L"
+    ],
+    "answer": 0,
+    "explanation": "Ctrl + K চাপলে নির্দিষ্ট লেখার সাথে ওয়েব লিংক বা অন্য ফাইলের সংযোগ স্থাপনের অপশন আসে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1092,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "ডকুমেন্টের প্রিন্ট আউট নেওয়ার পূর্বে কেমন দেখাবে তা দেখার অপশনকে কী বলে?",
+    "options": [
+      "A) ওয়েব লেআউট",
+      "B) আউটলাইন ভিউ",
+      "C) রিড মোড",
+      "D) প্রিন্ট প্রিভিউ (Print Preview)"
+    ],
+    "answer": 3,
+    "explanation": "Ctrl + F2 বা Print Preview মার্জিন ও লেআউট ঠিক আছে কিনা তা প্রিন্ট করার আগেই প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1093,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এমএস ওয়ার্ডে ড্রপ ক্যাপ (Drop Cap) ফিচারের মূল কাজ কী?",
+    "options": [
+      "A) প্যারাগ্রাফের প্রথম অক্ষরটিকে অনেক বড় করে কয়েক লাইন জুড়ে প্রদর্শন করা",
+      "B) পাসওয়ার্ড দেওয়া",
+      "C) প্রথম শব্দ ডিলিট করা",
+      "D) সব লেখা ছোট করা"
+    ],
+    "answer": 0,
+    "explanation": "সংবাদপত্র বা ম্যাগাজিনে প্যারাগ্রাফের প্রথম বর্ণ বড় করে ৩/৪ লাইন উচ্চতায় উপস্থাপন করতে Drop Cap ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1094,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "ডকুমেন্টে একাধিক ব্যবহারকারীর করা সম্পাদনা, সংশোধন ও মন্তব্য ট্র্যাক করার ফিচারের নাম কী?",
+    "options": [
+      "A) স্পেল চেকার",
+      "B) ট্র্যাক চেঞ্জেস (Track Changes)",
+      "C) কম্পেয়ার",
+      "D) ম্যাক্রো"
+    ],
+    "answer": 1,
+    "explanation": "Track Changes (Ctrl + Shift + E) চালুকৃত অবস্থায় যেকোনো সংযোজন বা বিয়োজন আলাদা রঙে দৃশ্যমান থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1095,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এমএস ওয়ার্ডে বারবার করতে হওয়া একাধিক কমান্ড রেকর্ড করে পরবর্তীতে এক ক্লিকে চালানোর প্রযুক্তি কোনটি?",
+    "options": [
+      "A) টেমপ্লেট",
+      "B) মেইল মার্জ",
+      "C) স্মার্টআর্ট",
+      "D) ম্যাক্রো (Macro - VBA)"
+    ],
+    "answer": 3,
+    "explanation": "ম্যাক্রো পুনরাবৃত্তিমূলক কাজ রেকর্ড করে এবং শর্টকাট কি দিয়ে স্বয়ংক্রিয়ভাবে রান করতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1096,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এমএস ওয়ার্ডের ডিফল্ট পেজ ওরিয়েন্টেশন (Page Orientation) কোনটি থাকে?",
+    "options": [
+      "A) বুকলেট",
+      "B) ল্যান্ডস্কেপ (Landscape - আড়াআড়ি)",
+      "C) পোর্ট্রেট (Portrait - খাড়া)",
+      "D) ইনভার্টেড"
+    ],
+    "answer": 2,
+    "explanation": "এমএস ওয়ার্ড ডকুমেন্টের স্বাভাবিক পেজ ওরিয়েন্টেশন থাকে Portrait বা উলম্ব।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1097,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "বই বাঁধানোর জন্য পেজের ভেতর যে অতিরিক্ত মার্জিন স্পেস যোগ করা হয় তাকে কী মার্জিন বলে?",
+    "options": [
+      "A) টপ মার্জিন",
+      "B) গাটার মার্জিন (Gutter Margin)",
+      "C) মিরর মার্জিন",
+      "D) লেফট মার্জিন"
+    ],
+    "answer": 1,
+    "explanation": "Gutter Margin বই বাঁধাই বা স্পাইরাল বাইন্ডিংয়ের সময় লেখা যাতে কেটে না যায় সেজন্য বরাদ্দ থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1098,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "শব্দের নিচে লাল রঙের আঁকাবাঁকা রেখা (Red Wavy Underline) কী নির্দেশ করে?",
+    "options": [
+      "A) ব্যাকরণগত ভুল (Grammar Error)",
+      "B) ফরম্যাটিং অসঙ্গতি",
+      "C) বানান ভুল (Spelling Error)",
+      "D) হাইপারলিঙ্ক"
+    ],
+    "answer": 2,
+    "explanation": "লাল আঁকাবাঁকা দাগ দিয়ে স্পেলিং ভুল এবং নীল বা সবুজ দাগ দিয়ে ব্যাকরণগত (Grammar) ত্রুটি নির্দেশ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1099,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "শব্দের নিচে নীল রঙের আঁকাবাঁকা রেখা (Blue Wavy Underline) কী নির্দেশ করে?",
+    "options": [
+      "A) প্রিন্ট এরর",
+      "B) ফন্ট মিসিং",
+      "C) বানান ভুল",
+      "D) ব্যাকরণগত বা কনটেক্সচুয়াল ভুল (Grammar / Contextual Error)"
+    ],
+    "answer": 3,
+    "explanation": "আধুনিক ওয়ার্ডে নীল দাগ ব্যাকরণগত অসঙ্গতি বা ব্যাকরণগত ভুল নির্দেশ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1100,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এমএস ওয়ার্ডে ফন্ট সাইজ এক পয়েন্ট করে বড় (Grow Font) করার কীবোর্ড শর্টকাট কোনটি?",
+    "options": [
+      "A) Ctrl + ]",
+      "B) Alt + ]",
+      "C) Ctrl + [",
+      "D) Ctrl + Shift + >"
+    ],
+    "answer": 0,
+    "explanation": "Ctrl + ] এক পয়েন্ট বৃদ্ধি করে এবং Ctrl + [ এক পয়েন্ট হ্রাস করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1101,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এমএস ওয়ার্ড ডকুমেন্টের জুম লেভেল সর্বনিম্ন এবং সর্বোচ্চ কত শতাংশ হতে পারে?",
+    "options": [
+      "A) ১০% থেকে ৫০০%",
+      "B) ২০% থেকে ২০০%",
+      "C) ১% থেকে ১০০০%",
+      "D) ১০% থেকে ১০০%"
+    ],
+    "answer": 0,
+    "explanation": "এমএস ওয়ার্ডে ভিউ জুম সর্বনিম্ন 10% এবং সর্বোচ্চ 500% পর্যন্ত বাড়ানো যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1102,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এক পেজের লেখা থেকে অন্য সেকশনে আলাদা মার্জিন বা হেডার দিতে কোনটি ইনসার্ট করতে হয়?",
+    "options": [
+      "A) টেক্সট র‍্যাপিং",
+      "B) সেকশন ব্রেক (Section Break)",
+      "C) পেজ ব্রেক",
+      "D) কলাম ব্রেক"
+    ],
+    "answer": 1,
+    "explanation": "Section Break একই ডকুমেন্টে আলাদা পৃষ্ঠা বিন্যাস, মার্জিন বা ভিন্ন হেডার/ফুটার ব্যবহার করার সুবিধা দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1103,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "ডকুমেন্টের একটি শব্দ বা অনুচ্ছেদের ওপর মন্তব্য লিখে রাখার টুলের নাম কী?",
+    "options": [
+      "A) ক্যাপশন",
+      "B) বুকমার্ক",
+      "C) ফুটনোট",
+      "D) কমেন্ট (Comment)"
+    ],
+    "answer": 3,
+    "explanation": "Comment টুলের মাধ্যমে মূল টেক্সট অপরিবর্তিত রেখে ডানপাশে মন্তব্য যুক্ত করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1104,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "ডকুমেন্টের ভেতরের নির্দিষ্ট কোনো স্থানে দ্রুত জাম্প করার জন্য যে ল্যান্ডমার্ক তৈরি করা হয় তাকে কী বলে?",
+    "options": [
+      "A) ইনডেক্স",
+      "B) হাইপারলিঙ্ক",
+      "C) বুকমার্ক (Bookmark)",
+      "D) ক্রস-রেফারেন্স"
+    ],
+    "answer": 2,
+    "explanation": "Bookmark কোনো নির্দিষ্ট টেক্সট বা স্থানে নাম দিয়ে চিহ্নিত করে রাখে যাতে পরবর্তীতে সহজে লিংক করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1105,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৩: ওয়ার্ড প্রসেসিং অ্যাপ্লিকেশন (MS Word)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "একটি এমএস ওয়ার্ড ডকুমেন্টকে অপরিবর্তনীয় ও সুরক্ষিত পিডিএফ (PDF) ফরম্যাটে সংরক্ষণের জন্য কোনটি ব্যবহার করা হয়?",
+    "options": [
+      "A) Export / Save as PDF",
+      "B) Convert to RTF",
+      "C) Print to Word",
+      "D) Save as HTML"
+    ],
+    "answer": 0,
+    "explanation": "File -> Export -> Create PDF/XPS দিয়ে সহজেই নিরাপদ ও বহনযোগ্য পিডিএফ তৈরি করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

@@ -1,0 +1,737 @@
+[
+  {
+    "id": 2031,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সিএসএস (CSS)-এর পূর্ণরূপ কী এবং একটি বহিরাগত এক্সটার্নাল সিএসএস ফাইল এইচটিএমএলে যুক্ত করার সঠিক সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) Cascading Style Sheets; <link rel=\"stylesheet\" href=\"style.css\">",
+      "B) Creative Style Sheets; <style src=\"style.css\">",
+      "C) Cascading Script Source; <css link=\"style.css\">",
+      "D) Computer Style Sheets; <script href=\"style.css\">"
+    ],
+    "answer": 0,
+    "explanation": "CSS হলো Cascading Style Sheets; এটি `<head>` ট্যাগের ভেতরে `<link rel=\"stylesheet\" href=\"style.css\">` দিয়ে সংযুক্ত করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2032,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সিএসএস কোড সংযুক্ত করার তিনটি পদ্ধতির মধ্যে সবচেয়ে সুপারিশকৃত এবং পেশাদার পদ্ধতি কোনটি?",
+    "options": [
+      "A) ইন্টারনাল সিএসএস",
+      "B) এক্সটার্নাল সিএসএস (External CSS - আলাদা .css ফাইল ব্যবহার)",
+      "C) ইনলাইন সিএসএস",
+      "D) এমবেডেড সিএসএস"
+    ],
+    "answer": 1,
+    "explanation": "External CSS কোড ও ডিজাইনের সম্পূর্ণ পৃথকীকরণ নিশ্চিত করে, ক্যাশিংয়ের সুবিধা দেয় এবং বহু পেজের ডিজাইন একসাথে নিয়ন্ত্রণ করতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2033,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সিএসএস-এ একটি ক্লাস সিলেক্টর (Class Selector) এবং একটি আইডি সিলেক্টর (ID Selector) লেখার সঠিক প্রতীক যথাক্রমে কী কী?",
+    "options": [
+      "A) ক্লাসের জন্য ডট (.) এবং আইডির জন্য হ্যাশ (#)",
+      "B) উভয়ের জন্য তারকা (*)",
+      "C) ক্লাসের জন্য হ্যাশ (#) এবং আইডির জন্য ডট (.)",
+      "D) ক্লাসের জন্য ডলার ($) এবং আইডির জন্য @"
+    ],
+    "answer": 0,
+    "explanation": "সিএসএস-এ ক্লাস নির্দেশ করতে ডট (`.my-class`) এবং আইডি নির্দেশ করতে হ্যাশ (`#my-id`) ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2034,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি ওয়েবপেজের সমস্ত এইচটিএমএল উপাদানের ওপর সার্বজনীনভাবে কোনো স্টাইল প্রয়োগের ইউনিভার্সাল সিলেক্টর (Universal Selector) প্রতীক কোনটি?",
+    "options": [
+      "A) হ্যাশ (#)",
+      "B) অ্যাম্পারস্যান্ড (&)",
+      "C) তারকা চিহ্ন (*)",
+      "D) ডট (.)"
+    ],
+    "answer": 2,
+    "explanation": "`* { margin: 0; padding: 0; }` দিয়ে পেজের সমস্ত এলিমেন্টের ডিফল্ট মার্জিন-প্যাডিং রিসেট করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2035,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সিএসএস চাইল্ড কম্বিনেটর সিলেক্টর `div > p`-এর সঠিক অর্থ কোনটি?",
+    "options": [
+      "A) <div>-এর পাশের <p>",
+      "B) শুধুমাত্র সেই <p> উপাদানগুলো সিলেক্ট হবে যা সরাসরি <div>-এর প্রত্যক্ষ সন্তান (Direct Child)",
+      "C) সমস্ত <p> ট্যাগ",
+      "D) <div>-এর ভেতরের যেকোনো <p>"
+    ],
+    "answer": 1,
+    "explanation": "`>` হলো চাইল্ড কম্বিনেটর যা কেবল সরাসরি চাইল্ডকে সিলেক্ট করে, নেস্টেড গ্র্যান্ডচাইল্ডকে বাদ দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2036,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সিএসএস স্পেসিফিসিটি হায়ারার্কিতে (Specificity Hierarchy) কার অগ্রাধিকার সবচেয়ে বেশি?",
+    "options": [
+      "A) আইডি সিলেক্টর (ID: 100)",
+      "B) ক্লাস সিলেক্টর (Class: 10)",
+      "C) উপাদান সিলেক্টর (Element: 1)",
+      "D) ইনলাইন স্টাইল (Inline Style: specificity 1000)"
+    ],
+    "answer": 3,
+    "explanation": "Inline Style (1000) > ID (100) > Class/Pseudo-class (10) > Element (1)। তবে যেকোনো রুলের শেষে `!important` বসালে তা স্পেসিফিসিটি ওভাররাইড করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2037,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সিএসএস বক্স মডেল (CSS Box Model)-এর কেন্দ্র থেকে বাইরের দিকে স্তরগুলোর সঠিক ক্রম কোনটি?",
+    "options": [
+      "A) Content -> Border -> Padding -> Margin",
+      "B) Margin -> Border -> Padding -> Content",
+      "C) Content -> Margin -> Border -> Padding",
+      "D) Content -> Padding -> Border -> Margin"
+    ],
+    "answer": 3,
+    "explanation": "বক্স মডেলের কেন্দ্রে থাকে Content, তার চারপাশে অভ্যন্তরীণ ফাঁকা জায়গা Padding, তার বাইরে দৃশ্যমান Border, এবং সবার বাইরে উপাদানসমূহের মধ্যবর্তী দূরত্ব Margin।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2038,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "কোন সিএসএস প্রোপার্টির কারণে প্যাডিং এবং বর্ডার যোগ করলেও উপাদানটির মোট প্রস্থ (Total Width) বৃদ্ধি পায় না এবং স্থির থাকে?",
+    "options": [
+      "A) box-sizing: border-box;",
+      "B) width: auto;",
+      "C) box-sizing: content-box;",
+      "D) overflow: hidden;"
+    ],
+    "answer": 0,
+    "explanation": "`border-box` নির্ধারণ করলে উপাদানটির ঘোষিত `width`-এর ভেতরেই প্যাডিং ও বর্ডার অন্তর্ভুক্ত হয়ে যায়, ফলে লেআউট ভেঙে যায় না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2039,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সিএসএস পজিশনিংয়ে ডিফল্ট পজিশন ভ্যালু কোনটি যা সাধারণ ডকুমেন্ট ফ্লো মেনে চলে?",
+    "options": [
+      "A) position: absolute;",
+      "B) position: static;",
+      "C) position: fixed;",
+      "D) position: relative;"
+    ],
+    "answer": 1,
+    "explanation": "এইচটিএমএল উপাদানের ডিফল্ট পজিশন হলো `static`, যাতে `top`, `bottom`, `left`, `right` প্রোপার্টি কোনো কাজ করে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2040,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি উপাদানকে তার সাধারণ অবস্থানের সাপেক্ষে সামান্য সরাতে চাইলে কোন পজিশন ব্যবহার করা হয়?",
+    "options": [
+      "A) position: sticky;",
+      "B) position: fixed;",
+      "C) position: relative;",
+      "D) position: static;"
+    ],
+    "answer": 2,
+    "explanation": "`position: relative` উপাদানটির মূল স্থানটি সংরক্ষিত রেখে তার স্বাভাবিক অবস্থানের সাপেক্ষে top/left ইত্যাদিতে স্থানান্তরিত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2041,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ডকুমেন্ট ফ্লো থেকে পুরোপুরি বিচ্ছিন্ন হয়ে নিকটতম পজিশনড প্যারেন্টের (Positioned Ancestor) সাপেক্ষে উপাদান স্থাপনের পজিশন কোনটি?",
+    "options": [
+      "A) position: absolute;",
+      "B) position: static;",
+      "C) position: fixed;",
+      "D) position: relative;"
+    ],
+    "answer": 0,
+    "explanation": "`position: absolute` উপাদানটিকে স্বাভাবিক ফ্লো থেকে বের করে দেয় এবং নিকটতম প্যারেন্ট যার `position: relative/absolute` আছে তার সাপেক্ষে অবস্থান নেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2042,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পেজ যতই স্ক্রোল করা হোক না কেন, উপাদানটি ব্রাউজার ভিউপোর্টের নির্দিষ্ট স্থানে স্থায়ীভাবে আটকে রাখার পজিশন কোনটি?",
+    "options": [
+      "A) position: absolute;",
+      "B) position: sticky;",
+      "C) position: relative;",
+      "D) position: fixed;"
+    ],
+    "answer": 3,
+    "explanation": "`position: fixed` সরাসরি ব্রাউজার উইন্ডো বা ভিউপোর্টের সাথে যুক্ত থাকে (যেমন ফিক্সড হেডার বা ব্যাক-টু-টপ বাটন)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2043,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "স্ক্রোল করার সময় উপাদানটি স্বাভাবিকভাবে চলতে চলতে একটি নির্দিষ্ট স্ক্রোল পজিশনে পৌঁছানোর পর আটকে যাওয়ার আধুনিক হাইব্রিড পজিশন কোনটি?",
+    "options": [
+      "A) position: fixed;",
+      "B) position: relative;",
+      "C) position: sticky;",
+      "D) position: absolute;"
+    ],
+    "answer": 2,
+    "explanation": "`position: sticky` প্রথমে রিলেটিভের মতো আচরণ করে এবং নির্দিষ্ট থ্রেশহোল্ড (যেমন `top: 0`) পার হলে ফিক্সডের মতো আটকে যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2044,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ওভারল্যাপ হওয়া উপাদানগুলোর কোনটি কার উপরে বা নিচে থাকবে (Stacking Order) তা নিয়ন্ত্রণকারী সিএসএস প্রোপার্টি কোনটি?",
+    "options": [
+      "A) stack-level",
+      "B) z-index",
+      "C) layer-index",
+      "D) display-order"
+    ],
+    "answer": 1,
+    "explanation": "`z-index` তৃতীয় মাত্রা (Z-অক্ষ) বরাবর উপাদানের স্তর বিন্যাস করে; উচ্চ z-index মান বিশিষ্ট উপাদান নিম্ন মানের উপরে দৃশ্যমান হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2045,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ফ্লেক্সবক্স (CSS Flexbox) লেআউট সিস্টেমে প্রধান অক্ষ (Main Axis) বরাবর উপাদানগুলোর বিন্যাস ও ফাঁক নিয়ন্ত্রণকারী প্রোপার্টি কোনটি?",
+    "options": [
+      "A) align-items",
+      "B) justify-content",
+      "C) flex-direction",
+      "D) align-content"
+    ],
+    "answer": 1,
+    "explanation": "`justify-content` মেইন এক্সিস বরাবর ফ্লেক্স আইটেমগুলোকে সাজায় (যেমন: center, space-between, space-around, flex-start)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2046,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ফ্লেক্সবক্স লেআউটে ক্রস অক্ষ (Cross Axis - উলম্ব দিক) বরাবর উপাদানগুলোর অ্যালাইনমেন্ট নিয়ন্ত্রণ করে কোন প্রোপার্টি?",
+    "options": [
+      "A) justify-content",
+      "B) flex-flow",
+      "C) align-items",
+      "D) align-self"
+    ],
+    "answer": 2,
+    "explanation": "`align-items` ক্রস এক্সিস বরাবর সমস্ত ফ্লেক্স আইটেমকে উল্লম্বভাবে সাজায় (যেমন: center, flex-start, stretch)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2047,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি div কন্টেইনারের ভেতরের টেক্সট বা উপাদানকে ঠিক কেন্দ্রবিন্দুতে (Perfect Centering - উভয় অক্ষ বরাবর) আনতে ফ্লেক্সবক্সের সবচেয়ে সহজ কোড কোনটি?",
+    "options": [
+      "A) display: block; margin: auto;",
+      "B) float: center;",
+      "C) text-align: center;",
+      "D) display: flex; justify-content: center; align-items: center;"
+    ],
+    "answer": 3,
+    "explanation": "Flexbox-এ `justify-content: center` আনুভূমিকভাবে এবং `align-items: center` উলম্বভাবে ঠিক কেন্দ্রে নিয়ে আসে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2048,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "দ্বিমাত্রিক (2D - সারি ও কলাম উভয়ই একসাথে নিয়ন্ত্রণ) আধুনিক জটিল ওয়েব লেআউট তৈরির জন্য সবচেয়ে শক্তিশালী সিএসএস প্রযুক্তি কোনটি?",
+    "options": [
+      "A) সিএসএস গ্রিড (CSS Grid Layout)",
+      "B) ফ্লোট (Float)",
+      "C) টেবিল লেআউট",
+      "D) ফ্লেক্সবক্স (Flexbox)"
+    ],
+    "answer": 0,
+    "explanation": "Flexbox হলো এক-মাত্রিক (1D: হয় রো অথবা কলাম); অন্যদিকে CSS Grid হলো দ্বিমাত্রিক (2D: রো ও কলামের সমন্বিত গ্রিড)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2049,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সিএসএস গ্রিডে সমান আকারের ৩টি কলাম তৈরি করার সবচেয়ে আধুনিক ও সংক্ষিপ্ত সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) display: grid-3;",
+      "B) grid-template-columns: 33% 33% 33%;",
+      "C) grid-template-columns: repeat(3, 1fr);",
+      "D) grid-columns: 3;"
+    ],
+    "answer": 2,
+    "explanation": "`repeat(3, 1fr)` গ্রিডের ফাঁকা জায়গাকে ৩টি সমান ভগ্নাংশ ইউনিটে (Fractional Unit) ভাগ করে ৩ কলাম বিশিষ্ট নিখুঁত গ্রিড বানায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2050,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সিএসএস গ্রিড বা ফ্লেক্সবক্সে উপাদানগুলোর মধ্যবর্তী ব্যবধান নির্ধারণকারী প্রোপার্টি কোনটি?",
+    "options": [
+      "A) gap (বা grid-gap)",
+      "B) margin",
+      "C) space",
+      "D) padding"
+    ],
+    "answer": 0,
+    "explanation": "`gap: 20px` মার্জিনের ঝামেলা ছাড়াই গ্রিড বা ফ্লেক্স আইটেমগুলোর মাঝখানে সুষম ফাঁক তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2051,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "উপাদানের কোণাগুলোকে গোলাকার (Rounded Corners) করার সিএসএস৩ প্রোপার্টি কোনটি?",
+    "options": [
+      "A) corner-round",
+      "B) border-curve",
+      "C) box-curve",
+      "D) border-radius"
+    ],
+    "answer": 3,
+    "explanation": "`border-radius: 50%` একটি বর্গাকার উপাদানকে নিখুঁত বৃত্তে পরিণত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2052,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি বাক্সের চারপাশে ছায়া (Drop Shadow) তৈরি করার সঠিক সিএসএস৩ সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) text-shadow: 2px 2px;",
+      "B) box-shadow: 2px 4px 8px rgba(0,0,0,0.2);",
+      "C) drop-shadow: 2px;",
+      "D) shadow: box 2px;"
+    ],
+    "answer": 1,
+    "explanation": "`box-shadow` প্যারামিটারগুলো ক্রমানুসারে: X-অফসেট, Y-অফসেট, ব্লার রেডিয়াস, স্প্রেড রেডিয়াস এবং কালার।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2053,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সিএসএস-এ মাউস হোভার বা প্রোপার্টি পরিবর্তনের গতিকে মসৃণ ও সময়কাল সাপেক্ষে অ্যানিমেট করার প্রোপার্টি কোনটি?",
+    "options": [
+      "A) transform",
+      "B) transition (যেমন transition: all 0.3s ease;)",
+      "C) speed",
+      "D) animation"
+    ],
+    "answer": 1,
+    "explanation": "`transition` প্রোপার্টি পরিবর্তনের আকস্মিক ধাক্কা দূর করে একটি নির্দিষ্ট সময় ধরে মসৃণ অ্যানিমেশন প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2054,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "কোনো উপাদানকে নির্দিষ্ট কোণে ঘোরানো (Rotate), স্কেল বা বড়-ছোট করা (Scale) এবং স্থানান্তর (Translate) করার সিএসএস৩ প্রোপার্টি কোনটি?",
+    "options": [
+      "A) move",
+      "B) transition",
+      "C) transform",
+      "D) position"
+    ],
+    "answer": 2,
+    "explanation": "`transform: rotate(45deg) scale(1.2)` উপাদানটির জ্যামিতিক রূপান্তর ঘটায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2055,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সিএসএস৩-তে জটিল ও চক্রাকার অ্যানিমেশনের ধাপগুলো সংজ্ঞায়িত করার জন্য কোন ডিরেক্টিভটি ব্যবহৃত হয়?",
+    "options": [
+      "A) @keyframes",
+      "B) @motion",
+      "C) @animation",
+      "D) @transition"
+    ],
+    "answer": 0,
+    "explanation": "`@keyframes animationName { from { ... } to { ... } }` দিয়ে অ্যানিমেশনের বিভিন্ন শতাংশে (0%, 50%, 100%) স্টাইল নির্দিষ্ট করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2056,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "বিভিন্ন স্ক্রিন সাইজের ডিভাইসে (মোবাইল, ট্যাবলেট, ডেস্কটপ) ভিন্ন ভিন্ন সিএসএস স্টাইল প্রয়োগের রেসপনসিভ মেকানিজম কোনটি?",
+    "options": [
+      "A) মিডিয়া স্ক্রিপ্ট",
+      "B) রেসপনসিভ ট্যাগ",
+      "C) জাভাস্ক্রিপ্ট ডিটেক্টর",
+      "D) মিডিয়া কুয়েরি (@media screen and (max-width: 768px))"
+    ],
+    "answer": 3,
+    "explanation": "Media Query হলো রেসপনসিভ ওয়েব ডিজাইনের মূল ভিত্তি; এটি ভিউপোর্টের প্রস্থ মেপে সেই অনুযায়ী উপযুক্ত স্টাইল কার্যকর করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2057,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সিএসএস রিলেটিভ একক `rem` (Root EM) কিসের সাপেক্ষে আকার পরিমাপ করে?",
+    "options": [
+      "A) এইচটিএমএল রুট উপাদানের (<html>) ফন্ট সাইজের সাপেক্ষে",
+      "B) ভিউলাইন প্রস্থের সাপেক্ষে",
+      "C) স্ক্রিন ডিপিআই-এর সাপেক্ষে",
+      "D) বর্তমান প্যারেন্ট উপাদানের সাপেক্ষে"
+    ],
+    "answer": 0,
+    "explanation": "`rem` সর্বদা রুট `<html>` ট্যাগের ফন্ট সাইজের সাপেক্ষে গণনা করা হয় (ডিফল্ট ১৬ পিক্সেল = ১ rem); আর `em` তার সরাসরি প্যারেন্টের ওপর নির্ভর করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2058,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ব্রাউজার ভিউপোর্টের মোট উচ্চতার ১ শতাংশ নির্দেশকারী সিএসএস ভিউপোর্ট একক কোনটি?",
+    "options": [
+      "A) 1em",
+      "B) 1vw",
+      "C) 1rem",
+      "D) 1vh (Viewport Height)"
+    ],
+    "answer": 3,
+    "explanation": "`1vh` হলো ব্রাউজার উইন্ডোর দৃশ্যমান উচ্চতার ১%; পুরো স্ক্রিনের সমান উচ্চতা করতে `height: 100vh;` দেওয়া হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2059,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি উপাদানকে অদৃশ্য করে দেওয়ার জন্য `display: none;` এবং `visibility: hidden;`-এর মধ্যে পার্থক্য কী?",
+    "options": [
+      "A) উভয় প্রোপার্টি হুবহু এক",
+      "B) visibility: hidden কোনো জায়গা রাখে না",
+      "C) display: none উপাদানটিকে পেজ থেকে পুরোপুরি সরিয়ে দেয় এবং কোনো জায়গা দখল করে না; visibility: hidden উপাদানকে অদৃশ্য করলেও তার মূল জায়গা খালি ধরে রাখে",
+      "D) display: none কেবল টেক্সটের জন্য"
+    ],
+    "answer": 2,
+    "explanation": "`display: none` উপাদানকে ডোম থেকে আনরেন্ডার করে স্থান মুক্ত করে; আর `visibility: hidden` উপাদানকে অদৃশ্য করলেও ফাঁকা স্পেসটি অক্ষুণ্ণ থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2060,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "কোনো উপাদানের বিষয়বস্তু তার নির্ধারিত সীমানা অতিক্রম করে উপচে পড়লে তা লুকানোর প্রোপার্টি কোনটি?",
+    "options": [
+      "A) display: hide;",
+      "B) overflow: hidden;",
+      "C) overflow: visible;",
+      "D) overflow: auto;"
+    ],
+    "answer": 1,
+    "explanation": "`overflow: hidden` বক্সের বাইরের অতিরিক্ত কনটেন্ট কেটে দেয় এবং স্ক্রোলবার তৈরি হতে বাধা দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2061,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সিএসএস৩-তে দুটি বা ততোধিক রঙের মসৃণ মিশ্রণে ব্যাকগ্রাউন্ড তৈরির সঠিক প্রোপার্টি কোনটি?",
+    "options": [
+      "A) gradient: linear;",
+      "B) background: color-mix(red, yellow);",
+      "C) background-color: multi;",
+      "D) background: linear-gradient(to right, red, yellow);"
+    ],
+    "answer": 3,
+    "explanation": "`linear-gradient()` এবং `radial-gradient()` সিএসএস৩-তে কোনো ইমেজ ছাড়াই আকর্ষণীয় গ্রেডিয়েন্ট ব্যাকগ্রাউন্ড তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2062,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "মাউস কার্সার কোনো উপাদানের উপর নেওয়ার সময় স্টাইল পরিবর্তনের সিউডো-ক্লাস কোনটি?",
+    "options": [
+      "A) :hover",
+      "B) :visited",
+      "C) :active",
+      "D) :focus"
+    ],
+    "answer": 0,
+    "explanation": "`:hover` ব্যবহারকারী যখন মাউস পয়েন্টার কোনো বাটন বা লিঙ্কের ওপর নেয় তখন কার্যকর হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2063,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি তালিকার শুধুমাত্র জোড় (Even) বা বিজোড় (Odd) উপাদানগুলোকে সিলেক্ট করার সিএসএস সিউডো-ক্লাস কোনটি?",
+    "options": [
+      "A) :first-child",
+      "B) :only-child",
+      "C) :nth-child(even) বা :nth-child(odd)",
+      "D) :last-child"
+    ],
+    "answer": 2,
+    "explanation": "`:nth-child(even)` টেবিল বা লিস্টে স্ট্রাইপড বা পর্যায়ক্রমিক ভিন্ন রঙের সারি তৈরি করতে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2064,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "কোনো উপাদানের শুরুতে বা শেষে অতিরিক্ত কোনো এইচটিএমএল ছাড়াই সিএসএস দিয়ে কৃত্রিম আইকন বা কনটেন্ট যুক্ত করার সিউডো-এলিমেন্ট দুটি কী কী?",
+    "options": [
+      "A) ::first-letter এবং ::first-line",
+      "B) ::before এবং ::after (content প্রোপার্টিসহ)",
+      "C) :hover এবং :focus",
+      "D) ::start এবং ::end"
+    ],
+    "answer": 1,
+    "explanation": "`::before` এবং `::after` সিউডো-এলিমেন্ট `content: \"\";` ব্যবহারের মাধ্যমে অতিরিক্ত ডেকোরেটিভ উপাদান যুক্ত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2065,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.২: সিএসএস ও সিএসএস৩ স্টাইলিং",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "আধুনিক সিএসএস-এ ভ্যারিয়েবল (CSS Custom Properties) ডিক্লেয়ার ও ব্যবহার করার সঠিক সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) --primary-color: #3498db; এবং ব্যবহার: var(--primary-color);",
+      "B) @color: #3498db;",
+      "C) $primary-color: #3498db; এবং ব্যবহার: $primary-color;",
+      "D) let color = #3498db;"
+    ],
+    "answer": 0,
+    "explanation": "নেটিভ সিএসএস ভ্যারিয়েবল `--` দিয়ে শুরু হয় (যেমন `:root { --main-bg: #fff; }`) এবং তা `var(--main-bg)` দিয়ে কল করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

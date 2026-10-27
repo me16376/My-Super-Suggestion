@@ -1,0 +1,19 @@
+[
+  {
+    "id": 3016,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Clause Analysis & Synthesis",
+    "question": "(a) Identify the underlined clauses and name their types:\n  (i) We know *that the encrypted biometric chip cannot be cloned*.\n  (ii) The engineer *who configured the core firewall* received an award.\n  (iii) *When the power failed*, the online UPS took over seamlessly.\n\n(b) Join the pairs of sentences into a single Complex sentence:\n  (i) The biometric enrollment device was malfunctioning. We immediately swapped it with a standby unit.\n  (ii) He is a certified network specialist. Everyone knows this fact.",
+    "marks": 5,
+    "answer": "Clause Analysis & Synthesis:\n\n(a) Clause Identification:\n(i) *that the encrypted biometric chip cannot be cloned* $\\rightarrow$ **Noun Clause** (Functions as the direct object of the transitive verb 'know').\n(ii) *who configured the core firewall* $\\rightarrow$ **Adjective / Relative Clause** (Modifies the noun antecedent 'The engineer').\n(iii) *When the power failed* $\\rightarrow$ **Adverbial Clause of Time** (Modifies the verb 'took over').\n\n(b) Sentence Joining (Synthesis into Complex Sentences):\n(i) **Complex:** As (or Since) the biometric enrollment device was malfunctioning, we immediately swapped it with a standby unit.\n(ii) **Complex:** Everyone knows that he is a certified network specialist.",
+    "points_to_remember": [
+      "Noun clause answers 'what' after the main verb.",
+      "Adjective clause begins with relative pronoun (who, which, that) following a noun."
+    ],
+    "tags": [
+      "clause_analysis",
+      "synthesis",
+      "grammar"
+    ]
+  }
+]

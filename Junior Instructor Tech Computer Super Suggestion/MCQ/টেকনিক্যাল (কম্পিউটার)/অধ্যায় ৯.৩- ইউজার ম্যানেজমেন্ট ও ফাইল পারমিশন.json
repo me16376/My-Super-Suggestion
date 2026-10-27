@@ -1,0 +1,842 @@
+[
+  {
+    "id": 5881,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্স সিস্টেমে সুপারইউজার বা রুট (Root) অ্যাকাউন্টের ইউজার আইডি (UID) সর্বদা কত হয়?",
+    "options": [
+      "A) 1",
+      "B) 1000",
+      "C) 0 (শূন্য)",
+      "D) 500"
+    ],
+    "answer": 2,
+    "explanation": "রুট ইউজারের UID সর্বদা শূন্য (0)। যে অ্যাকাউন্টের UID 0, কার্নেল তাকেই সুপারইউজারের নিরঙ্কুশ প্রশাসনিক ক্ষমতা দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5882,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "আধুনিক লিনাক্স ডিস্ট্রিবিউশনে সাধারণ মানব ব্যবহারকারীদের (Normal Users) UID সাধারণত কোথা থেকে শুরু হয়?",
+    "options": [
+      "A) 0 থেকে",
+      "B) 5000 থেকে",
+      "C) 100 থেকে",
+      "D) 1000 থেকে"
+    ],
+    "answer": 3,
+    "explanation": "UID 0 হলো রুট, UID 1 থেকে 999 হলো সিস্টেম ডেমনের জন্য সংরক্ষিত, এবং সাধারণ ব্যবহারকারীদের UID 1000 থেকে শুরু হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5883,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "সিস্টেমের সমস্ত ব্যবহারকারী অ্যাকাউন্টের মৌলিক তথ্য কোন ফাইলে কোলন (`:`) দ্বারা বিভক্ত ৭টি ফিল্ডে থাকে?",
+    "options": [
+      "A) /etc/passwd",
+      "B) /etc/users",
+      "C) /etc/shadow",
+      "D) /etc/group"
+    ],
+    "answer": 0,
+    "explanation": "`/etc/passwd` ফাইলে প্রতিটি ইউজারের জন্য ৭টি ফিল্ড থাকে: Username:PasswordFlag:UID:GID:GECOS(Comment):HomeDir:Shell।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5884,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "নিরাপত্তার স্বার্থে ব্যবহারকারীদের এনক্রিপ্টেড পাসওয়ার্ড হ্যাশ ও মেয়াদোত্তীর্ণের তথ্য সুরক্ষিতভাবে কোন ফাইলে রাখা হয়?",
+    "options": [
+      "A) /etc/passwd",
+      "B) /etc/shadow",
+      "C) /etc/security",
+      "D) /etc/gshadow"
+    ],
+    "answer": 1,
+    "explanation": "`/etc/passwd` সবার জন্য পাঠযোগ্য হওয়ায় পাসওয়ার্ড হ্যাশগুলো অত্যন্ত সুরক্ষিত `/etc/shadow` ফাইলে সরিয়ে নেওয়া হয় যা শুধু রুট পড়তে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5885,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "সিস্টেমের সমস্ত ইউজার গ্রুপের নাম, গ্রুপ আইডি (GID) ও সদস্যদের তালিকা কোন ফাইলে থাকে?",
+    "options": [
+      "A) /etc/shadow",
+      "B) /etc/passwd",
+      "C) /etc/group",
+      "D) /etc/sudoers"
+    ],
+    "answer": 2,
+    "explanation": "`/etc/group` ফাইলে ৪টি ফিল্ডে গ্রুপের তথ্য থাকে: GroupName:Password:GID:MemberList।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5886,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্সে নতুন ব্যবহারকারী তৈরি করার জন্য স্ট্যান্ডার্ড নিম্নস্তরের অ্যাডমিন কমান্ড কোনটি?",
+    "options": [
+      "A) newuser",
+      "B) useradd (বা ইন্টারেক্টিভ adduser)",
+      "C) createuser",
+      "D) mkuser"
+    ],
+    "answer": 1,
+    "explanation": "`useradd username` নতুন ব্যবহারকারী সৃষ্টি করে এবং `passwd username` দিয়ে তার পাসওয়ার্ড নির্ধারণ করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5887,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি বিদ্যমান ব্যবহারকারী অ্যাকাউন্টের হোম ডিরেক্টরি, গ্রুপ বা শেল পরিবর্তন করার কমান্ড কোনটি?",
+    "options": [
+      "A) passwd",
+      "B) useradd",
+      "C) chuser",
+      "D) usermod"
+    ],
+    "answer": 3,
+    "explanation": "`usermod` (User Modify) কমান্ডের মাধ্যমে ব্যবহারকারীকে সেকেন্ডারি গ্রুপে যুক্ত করা (`-aG`) বা শেল পরিবর্তন করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5888,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি ব্যবহারকারী অ্যাকাউন্ট তার হোম ডিরেক্টরি ও মেইল স্পুলসহ সম্পূর্ণ মুছে ফেলার সঠিক কমান্ড কোনটি?",
+    "options": [
+      "A) userdel -r username",
+      "B) rmuser username",
+      "C) userdel username",
+      "D) delete username"
+    ],
+    "answer": 0,
+    "explanation": "`userdel -r` (-r বা Remove) ব্যবহারকারী ডিলিট করার পাশাপাশি তার হোম ডিরেক্টরি ও মেইল ফাইল পুরোপুরি মুছে ফেলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5889,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একজন ব্যবহারকারীকে তার নিজের পাসওয়ার্ড পরিবর্তন করতে কোন কমান্ড দেওয়া আবশ্যক?",
+    "options": [
+      "A) chpass",
+      "B) passwd",
+      "C) password",
+      "D) setpass"
+    ],
+    "answer": 1,
+    "explanation": "`passwd` কমান্ড কোনো আর্গুমেন্ট ছাড়া দিলে সাধারণ ইউজার বর্তমান পাসওয়ার্ড দিয়ে নতুন পাসওয়ার্ড সেট করতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5890,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "অন্য ব্যবহারকারী অ্যাকাউন্টে স্যুইচ করার জন্য কোন কমান্ড ব্যবহৃত হয়?",
+    "options": [
+      "A) sudo",
+      "B) login",
+      "C) switch",
+      "D) su (Switch User)"
+    ],
+    "answer": 3,
+    "explanation": "`su - username` কমান্ড সংশ্লিষ্ট ব্যবহারকারীর পাসওয়ার্ড যাচাই করে সেই ইউজারের সম্পূর্ণ এনভায়রনমেন্টে প্রবেশ করায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5891,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "রুট পাসওয়ার্ড জানা ছাড়াই অনুমোদিত সাধারণ ব্যবহারকারীকে সাময়িকভাবে প্রশাসনিক কমান্ড চালানোর অনুমতি দেয় কোনটি?",
+    "options": [
+      "A) su",
+      "B) root",
+      "C) sudo (Superuser Do)",
+      "D) admin"
+    ],
+    "answer": 2,
+    "explanation": "`sudo` (Superuser Do) ব্যবহারকারীকে নিজস্ব পাসওয়ার্ড যাচাইয়ের মাধ্যমে রুটের প্রিভিলেজে কোনো নির্দিষ্ট কমান্ড এক্সিকিউট করতে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5892,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "কোন ব্যবহারকারী কোন কোন প্রিভিলেজড কমান্ড `sudo` দিয়ে চালাতে পারবে তা কোন ফাইলে কনফিগার করা থাকে?",
+    "options": [
+      "A) /etc/sudoers (যা `visudo` দিয়ে এডিট করা হয়)",
+      "B) /etc/passwd",
+      "C) /etc/group",
+      "D) /etc/shadow"
+    ],
+    "answer": 0,
+    "explanation": "`/etc/sudoers` ফাইলটি সিনট্যাক্স এরর প্রতিরোধে সর্বদা বিশেষ `visudo` কমান্ডের মাধ্যমে এডিট করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5893,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্স ফাইল পারমিশনে Read ($r$), Write ($w$) এবং Execute ($x$)-এর জন্য নির্ধারিত সাংখ্যিক (অক্টাল) মান যথাক্রমে কত?",
+    "options": [
+      "A) r = 3, w = 2, x = 1",
+      "B) r = 4, w = 3, x = 2",
+      "C) r = 4, w = 2, x = 1",
+      "D) r = 1, w = 2, x = 4"
+    ],
+    "answer": 2,
+    "explanation": "বাইনারি ৩-বিট পারমিশন অনুযায়ী: Read = 4 ($2^2$), Write = 2 ($2^1$), এবং Execute = 1 ($2^0$)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5894,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি ফাইলের পারমিশন স্ট্রিং `-rwxr-xr--` হলে তার সমতুল্য তিন অঙ্কের অক্টাল সংখ্যা কত?",
+    "options": [
+      "A) 644",
+      "B) 754",
+      "C) 755",
+      "D) 777"
+    ],
+    "answer": 1,
+    "explanation": "ইউজার: $rwx = 4+2+1 = 7$; গ্রুপ: $r-x = 4+0+1 = 5$; অন্যান্য: $r-- = 4+0+0 = 4$। সুতরাং মান হলো 754।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5895,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "ফাইল বা ডিরেক্টরির পারমিশন মোড পরিবর্তন করার মূল কমান্ড কোনটি?",
+    "options": [
+      "A) setperm",
+      "B) chown",
+      "C) chgrp",
+      "D) chmod (Change Mode)"
+    ],
+    "answer": 3,
+    "explanation": "`chmod` কমান্ড সিম্বলিক পদ্ধতিতে (যেমন `chmod +x script.sh`) অথবা অক্টাল পদ্ধতিতে (যেমন `chmod 755 file`) পারমিশন পরিবর্তন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5896,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি ফাইলের ওনারকে (মালিক) এবং গ্রুপকে পরিবর্তন করার কমান্ড কোনটি?",
+    "options": [
+      "A) chown (Change Owner: chown user:group filename)",
+      "B) usermod",
+      "C) chgrp",
+      "D) chmod"
+    ],
+    "answer": 0,
+    "explanation": "`chown` কমান্ড দিয়ে ফাইলের ওনারশিপ পরিবর্তন করা যায়; কোলন দিয়ে ওনার ও গ্রুপ একসাথেও পরিবর্তন করা যায় (`chown john:developers file`).",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5897,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "ফাইল পারমিশনে 'SUID' (Set User ID) স্পেশাল পারমিশনের প্রধান কাজ কী?",
+    "options": [
+      "A) ফাইলটি চিরতরে বন্ধ হবে",
+      "B) ফাইলটি কেউ মুছতে পারবে না",
+      "C) ফাইল এনক্রিপ্ট হবে",
+      "D) যেকোনো সাধারণ ব্যবহারকারী ফাইলটি রান করলেও তা ফাইলের মালিকের (সাধারণত রুট) প্রিভিলেজে এক্সিকিউট হবে"
+    ],
+    "answer": 3,
+    "explanation": "SUID থাকলে সাধারণ ইউজার প্রোগ্রাম চালালেও তা প্রোগ্রামের ওনারের প্রিভিলেজে রান করে; যেমন `/usr/bin/passwd`普通 ইউজার চালালেও রুট প্রিভিলেজে পাসওয়ার্ড ফাইলে লেখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5898,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "SUID স্পেশাল পারমিশনের অক্টাল মান কত এবং `ls -l` লং-লিস্টিংয়ে এটি কীভাবে প্রদর্শিত হয়?",
+    "options": [
+      "A) অক্টাল মান 7",
+      "B) অক্টাল মান 4 এবং ওনারের execute ঘরে 's' (যেমন `-rwsr-xr-x`)",
+      "C) অক্টাল মান 2 এবং 'g'",
+      "D) অক্টাল মান 1 এবং 't'"
+    ],
+    "answer": 1,
+    "explanation": "SUID-এর অক্টাল ডিজিট ৪; `chmod 4755 filename` দিলে ইউজারের $x$-এর জায়গায় $s$ বসে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5899,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "কোনো শেয়ার্ড ডিরেক্টরিতে SGID (Set Group ID, অক্টাল মান 2) সক্রিয় থাকলে কী সুবিধা পাওয়া যায়?",
+    "options": [
+      "A) ডিরেক্টরিতে যে কেউ নতুন ফাইল তৈরি করলে সেই ফাইলের গ্রুপ ওনারশিপ স্বয়ংক্রিয়ভাবে ঐ ডিরেক্টরির গ্রুপের অন্তর্ভুক্ত হয়",
+      "B) সব ফাইল রুট হয়ে যায়",
+      "C) ইউজার মুছে যায়",
+      "D) ডিরেক্টরি লক হয়ে যায়"
+    ],
+    "answer": 0,
+    "explanation": "টিমওয়ার্কের জন্য SGID ডিরেক্টরি অত্যন্ত সুবিধাজনক, যাতে দলের যেকোনো সদস্য ফাইল বানালেও গ্রুপের অন্য সদস্যরা স্বয়ংক্রিয়ভাবে অ্যাক্সেস পায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5900,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "পাবলিক ডিরেক্টরিতে (যেমন `/tmp`, পারমিশন 1777) 'স্টিকি বিট' (Sticky Bit) দেওয়ার প্রধান উদ্দেশ্য কী?",
+    "options": [
+      "A) ফাইল রিড-অনলি হয়ে যাবে",
+      "B) সবাই সবার ফাইল মুছতে পারবে",
+      "C) শুধুমাত্র ফাইলের প্রকৃত মালিক ও রুট ছাড়া অন্য কোনো ইউজার ফাইলটি মুছতে বা রিনেম করতে পারবে না",
+      "D) সিপিইউ ফাস্ট হবে"
+    ],
+    "answer": 2,
+    "explanation": "স্টিকি বিট (অক্টাল ১, প্রকাশ পায় 't' দিয়ে) নিশ্চিত করে যে একটি শেয়ার্ড ফোল্ডারে সবার রাইট পারমিশন থাকা সত্ত্বেও একজন অন্য কারো ফাইল ডিলিট করতে পারবে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5901,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্সে নতুন তৈরি হওয়া ফাইল ও ডিরেক্টরির ডিফল্ট বেস পারমিশন যথাক্রমে কত থাকে?",
+    "options": [
+      "A) ফাইলের জন্য 666 এবং ডিরেক্টরির জন্য 777",
+      "B) উভয়ের জন্যই 777",
+      "C) ফাইলের জন্য 644 এবং ডিরেক্টরির জন্য 755",
+      "D) ফাইলের জন্য 777 এবং ডিরেক্টরির জন্য 666"
+    ],
+    "answer": 0,
+    "explanation": "নতুন ফাইলের ডিফল্ট সর্বোচ্চ পারমিশন 666 (rw-rw-rw-) এবং ডিরেক্টরির 777 (rwxrwxrwx); যার থেকে বর্তমান umask মান বিয়োগ হয়ে প্রকৃত পারমিশন নির্ধারিত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5902,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "যদি সিস্টেমে `umask` মান 022 সেট করা থাকে, তবে নতুন তৈরি করা সাধারণ ফাইলের প্রকৃত পারমিশন কত হবে?",
+    "options": [
+      "A) 777",
+      "B) 755 (rwxr-xr-x)",
+      "C) 644 (rw-r--r--)",
+      "D) 666"
+    ],
+    "answer": 2,
+    "explanation": "ফাইলের ক্ষেত্রে: $666 - 022 = 644$ (ওনারের রিড-রাইট, কিন্তু গ্রুপ ও অন্যদের কেবল রিড পারমিশন)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5903,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "যদি `umask` মান 022 হয়, তবে নতুন তৈরি করা কোনো ডিরেক্টরির প্রকৃত পারমিশন কত হবে?",
+    "options": [
+      "A) 644 (rw-r--r--)",
+      "B) 755 (rwxr-xr-x)",
+      "C) 777",
+      "D) 700"
+    ],
+    "answer": 1,
+    "explanation": "ডিরেক্টরির ক্ষেত্রে: $777 - 022 = 755$ (ওনারের ফুল পারমিশন, গ্রুপ ও অন্যদের রিড এবং ডিরেক্টরিতে প্রবেশের জন্য এক্সিকিউট পারমিশন)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5904,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্সে একটি ডিরেক্টরিতে 'Execute' ($x$) পারমিশনের প্রকৃত অর্থ কী?",
+    "options": [
+      "A) ডিরেক্টরি রিনেম করা",
+      "B) ডিরেক্টরি মুছে ফেলা",
+      "C) ডিরেক্টরি কম্পাইল করা",
+      "D) ডিরেক্টরির ভেতরে প্রবেশ করা (cd) এবং তার উপাদানসমূহ অ্যাক্সেস করার অনুমতি"
+    ],
+    "answer": 3,
+    "explanation": "ফাইলে execute মানে প্রোগ্রাম চালানো, কিন্তু ডিরেক্টরিতে execute ($x$) পারমিশন না থাকলে ব্যবহারকারী `cd` দিয়ে সেই ফোল্ডারে প্রবেশ করতে পারে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5905,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "কোনো ব্যবহারকারী অ্যাকাউন্টকে সাময়িকভাবে নিষ্ক্রিয় বা লক (Lock) করার পাসওয়ার্ড কমান্ড কোনটি?",
+    "options": [
+      "A) userdel username",
+      "B) passwd -d username",
+      "C) passwd -l username (বা usermod -L)",
+      "D) passwd -u username"
+    ],
+    "answer": 2,
+    "explanation": "`passwd -l` (Lock) কমান্ড `/etc/shadow` ফাইলে সংশ্লিষ্ট ইউজারের পাসওয়ার্ড হ্যাশের শুরুতে একটি বিস্ময়সূচক চিহ্ন (`!`) বসিয়ে অ্যাকাউন্টটি লক করে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5906,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "ব্যবহারকারী পাসওয়ার্ডের মেয়াদ উত্তীর্ণের তারিখ, সর্বোচ্চ ও সর্বনিম্ন আয়ু দেখতে ও পরিবর্তন করতে কোন কমান্ড ব্যবহৃত হয়?",
+    "options": [
+      "A) chage (Change Aging: যেমন chage -l username)",
+      "B) usermod",
+      "C) passwd",
+      "D) aging"
+    ],
+    "answer": 0,
+    "explanation": "`chage` (Change Age) কমান্ড পাসওয়ার্ড মেয়াদ, ওয়ার্নিং দিন এবং অ্যাকাউন্ট এক্সপায়ার সংক্রান্ত সিকিউরিটি পলিসি নিয়ন্ত্রণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5907,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "সাধারণ পারমিশনের বাইরে নির্দিষ্ট কোনো ইউজার বা গ্রুপকে বিশেষ পারমিশন দেওয়ার জন্য অ্যাক্সেস কন্ট্রোল লিস্ট (ACL) দেখার কমান্ড কোনটি?",
+    "options": [
+      "A) ls -l",
+      "B) setfacl",
+      "C) aclview",
+      "D) getfacl filename"
+    ],
+    "answer": 3,
+    "explanation": "`getfacl` কমান্ড ফাইলের এক্সটেন্ডেড ACL এন্ট্রি ও নির্দিষ্ট ইউজার পারমিশন বিশদভাবে প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5908,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "ফাইলে নির্দিষ্ট ব্যবহারকারী 'john'-কে রিড-রাইট পারমিশন দেওয়ার সঠিক `setfacl` কমান্ড কোনটি?",
+    "options": [
+      "A) setfacl -a john:rw filename",
+      "B) setfacl -m u:john:rw filename",
+      "C) setfacl -x u:john filename",
+      "D) chmod john:rw filename"
+    ],
+    "answer": 1,
+    "explanation": "`setfacl -m` (-m বা Modify) অপশন দিয়ে নির্দিষ্ট ব্যবহারকারী ($u$) বা গ্রুপের ($g$) জন্য সূক্ষ্ম পারমিশন রুল যোগ করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5909,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্সে একটি নতুন ইউজার গ্রুপ তৈরি করার জন্য কোন কমান্ডটি ব্যবহৃত হয়?",
+    "options": [
+      "A) mkgroup",
+      "B) newgroup",
+      "C) groupadd groupname",
+      "D) addgroup"
+    ],
+    "answer": 2,
+    "explanation": "`groupadd` কমান্ড `/etc/group` ফাইলে একটি নতুন এন্ট্রি ও ইউনিক GID বরাদ্দ করে নতুন গ্রুপ তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5910,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "বিদ্যমান ব্যবহারকারীকে তার বর্তমান গ্রুপগুলো অক্ষত রেখে একটি অতিরিক্ত সেকেন্ডারি গ্রুপে যুক্ত করার কমান্ড কোনটি?",
+    "options": [
+      "A) useradd -g group user",
+      "B) usermod -aG groupname username",
+      "C) usermod -g groupname username",
+      "D) groupadd user group"
+    ],
+    "answer": 1,
+    "explanation": "এখানে `-a` মানে Append এবং `-G` মানে Supplementary Group; `-a` ছাড়া শুধু `-G` দিলে আগের সমস্ত সেকেন্ডারি গ্রুপ থেকে ইউজার বাদ পড়ে যাবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5911,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্সে একজন ব্যবহারকারী কোন কোন গ্রুপের সদস্য তা তাৎক্ষণিকভাবে দেখার কমান্ড কোনটি?",
+    "options": [
+      "A) listgroup",
+      "B) usergroup",
+      "C) who",
+      "D) groups (বা id username)"
+    ],
+    "answer": 3,
+    "explanation": "`groups` বা `id` কমান্ড সংশ্লিষ্ট ব্যবহারকারীর প্রাইমারি ও সেকেন্ডারি সমস্ত গ্রুপের তালিকা প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5912,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্সে যে মডুলার সিস্টেমটি সমস্ত অ্যাপ্লিকেশন ও সার্ভিসের সেন্ট্রালাইজড অথেনটিকেশন নিয়ন্ত্রণ করে তাকে কী বলে?",
+    "options": [
+      "A) PAM (Pluggable Authentication Modules)",
+      "B) SELinux",
+      "C) Kerberos",
+      "D) LDAP"
+    ],
+    "answer": 0,
+    "explanation": "PAM (Pluggable Authentication Modules) লিনাক্সে প্রোগ্রাম পরিবর্তন না করেই পাসওয়ার্ড নীতি ও দ্বি-স্তর বিশিষ্ট প্রমাণীকরণ (2FA) যুক্ত করার ফ্রেমওয়ার্ক।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5913,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্সে কোনো ব্যবহারকারীর লগইন শেল সম্পূর্ণ নিষিদ্ধ বা ডিসেবল করতে `/etc/passwd`-এ কোন ডামি শেল বসানো হয়?",
+    "options": [
+      "A) /bin/sh",
+      "B) /dev/null",
+      "C) /sbin/nologin (বা /bin/false)",
+      "D) /bin/bash"
+    ],
+    "answer": 2,
+    "explanation": "সিস্টেম ও সার্ভিস অ্যাকাউন্টগুলোর (যেমন www-data, ftp) ইন্টারেক্টিভ লগইন ঠেকাতে শেল ফিল্ডে `/sbin/nologin` রাখা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5914,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "নতুন ইউজার তৈরির সময় তার হোম ডিরেক্টরিতে স্বয়ংক্রিয়ভাবে যে ডিফল্ট টেমপ্লেট ফাইলগুলো কপি হয় তা কোথায় থাকে?",
+    "options": [
+      "A) /etc/skel",
+      "B) /etc/default",
+      "C) /usr/share/skel",
+      "D) /etc/template"
+    ],
+    "answer": 0,
+    "explanation": "`useradd` কমান্ড চালানোর সময় `/etc/skel` (Skeleton) ডিরেক্টরির সমস্ত হিডেন কনফিগ ফাইল (যেমন `.bashrc`, `.profile`) নতুন ইউজারের হোমে কপি হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5915,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "নিরাপত্তা বৃদ্ধির জন্য রুট ছাড়াও প্রসেসের প্রিভিলেজ সীমিত করার এনএসএ (NSA) উদ্ভাবিত বাধ্যতামূলক অ্যাক্সেস কন্ট্রোল কোনটি?",
+    "options": [
+      "A) AppArmor",
+      "B) PAM",
+      "C) UFW",
+      "D) SELinux (Security-Enhanced Linux)"
+    ],
+    "answer": 3,
+    "explanation": "SELinux (Security-Enhanced Linux) কার্নেল স্তরে MAC (Mandatory Access Control) নীতি প্রয়োগ করে রুট কম্প্রোমাইজ হলেও সিস্টেমের ক্ষতি রোধ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5916,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "SELinux-এর বর্তমান এনফোর্সমেন্ট মোড পরীক্ষা করার কমান্ড কোনটি?",
+    "options": [
+      "A) setenforce",
+      "B) getenforce",
+      "C) sestatus",
+      "D) selinux -v"
+    ],
+    "answer": 1,
+    "explanation": "`getenforce` কমান্ড বর্তমান মোড (Enforcing, Permissive, বা Disabled) প্রদর্শন করে এবং `setenforce 0/1` দিয়ে অস্থায়ীভাবে পরিবর্তন করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5917,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "উবুন্টু এবং ডেবিয়ান লিনাক্সে SELinux-এর বিকল্প হিসেবে ব্যবহৃত জনপ্রিয় প্রোফাইল-ভিত্তিক সিকিউরিটি মডিউল কোনটি?",
+    "options": [
+      "A) Firewalld",
+      "B) IPTables",
+      "C) SELinux",
+      "D) AppArmor"
+    ],
+    "answer": 3,
+    "explanation": "AppArmor পাথ-ভিত্তিক অ্যাক্সেস কন্ট্রোল ব্যবহার করে প্রোগ্রামের ফাইল ও নেটওয়ার্ক সক্ষমতা সীমাবদ্ধ রাখে, যা উবুন্টুতে ডিফল্ট থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5918,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "কোনো ফাইলের পারমিশন পরিবর্তন প্রতিরোধে 'অপরিবর্তনীয়' (Immutable) অ্যাট্রিবিউট যোগ করার বিশেষ কমান্ড কোনটি?",
+    "options": [
+      "A) chmod +i filename",
+      "B) chattr +i filename",
+      "C) lock filename",
+      "D) chown root filename"
+    ],
+    "answer": 1,
+    "explanation": "`chattr +i` (Immutable) ফ্ল্যাগ দিলে রুট ইউজার নিজেও ফাইলটি মুছতে, পরিবর্তন করতে বা রিনেম করতে পারে না যতক্ষণ না `chattr -i` দিয়ে লক তোলা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5919,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "ফাইলের বিশেষ ফাইল অ্যাট্রিবিউটস (যেমন Immutable, Append-only) দেখার কমান্ড কোনটি?",
+    "options": [
+      "A) fileattr",
+      "B) stat",
+      "C) lsattr",
+      "D) ls -l"
+    ],
+    "answer": 2,
+    "explanation": "`lsattr` (List Attributes) কমান্ড এক্সটেন্ডেড ফাইল সিস্টেমের বিশেষ ফ্ল্যাগসমূহ প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5920,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৩: ইউজার ম্যানেজমেন্ট ও ফাইল পারমিশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি ব্যবহারকারীকে পাসওয়ার্ডবিহীন তাৎক্ষণিক `sudo` সুবিধা দিতে `sudoers` ফাইলে কোন ডিরেক্টিভ লেখা হয়?",
+    "options": [
+      "A) username ALL=(ALL) NOPASSWD: ALL",
+      "B) username SUDO WITHOUT_PASS",
+      "C) ALLOW username",
+      "D) username ALL: ALL"
+    ],
+    "answer": 0,
+    "explanation": "`NOPASSWD: ALL` ডিরেক্টিভ নির্দিষ্ট ব্যবহারকারীকে পাসওয়ার্ড চাওয়া ছাড়াই যে কোনো রুট কমান্ড নির্বাহের অনুমতি দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

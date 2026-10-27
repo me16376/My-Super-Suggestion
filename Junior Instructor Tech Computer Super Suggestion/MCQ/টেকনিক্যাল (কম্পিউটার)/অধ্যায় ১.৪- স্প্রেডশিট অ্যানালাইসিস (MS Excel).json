@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1106,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "মাইক্রোসফট এক্সেলের প্রতিটি ফাইলকে প্রযুক্তিগতভাবে কী বলা হয়?",
+    "options": [
+      "A) ওয়ার্কশিট (Worksheet)",
+      "B) সেল ডকুমেন্ট",
+      "C) ওয়ার্কবুক (Workbook)",
+      "D) স্প্রেডশিট ডাটাবেস"
+    ],
+    "answer": 2,
+    "explanation": "এক্সেলের একটি পূর্ণাঙ্গ ফাইলকে Workbook বলা হয়, যার ভেতরে একাধিক Worksheet থাকতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1107,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এমএস এক্সেলে একটি কলাম এবং একটি সারির মিলনস্থলকে কী বলা হয়?",
+    "options": [
+      "A) ব্লক",
+      "B) সেল (Cell)",
+      "C) গ্রিড",
+      "D) বক্স"
+    ],
+    "answer": 1,
+    "explanation": "কলাম ও রো পরস্পরকে ছেদ করে যে আয়তাকার ক্ষেত্র তৈরি করে তাকে Cell বলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1108,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এমএস এক্সেল ২০০৭ থেকে বর্তমান সংস্করণে একটি একক শিটে মোট কতটি সারি (Rows) থাকে?",
+    "options": [
+      "A) ৬৫,৫৩৬",
+      "B) ১৬,৩৮৪",
+      "C) ১,০০,০০০",
+      "D) ১০,৪৮,৫৭৬ ($2^{20}$)"
+    ],
+    "answer": 3,
+    "explanation": "Excel 2007 থেকে মোট সারি সংখ্যা ১,০৪৮,৫৭৬ এবং কলাম সংখ্যা ১৬,৩৮৪ (A থেকে XFD)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1109,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "বর্তমান সক্রিয় সেলের নাম বা রেফারেন্স এক্সেলের কোন অংশে প্রদর্শিত হয়?",
+    "options": [
+      "A) নেম বক্স (Name Box)",
+      "B) ফর্মুলা বার (Formula Bar)",
+      "C) টাইটেল বার",
+      "D) স্ট্যাটাস বার"
+    ],
+    "answer": 0,
+    "explanation": "ফর্মুলা বারের বাম পাশে অবস্থিত Name Box-এ সক্রিয় সেলের অ্যাড্রেস (যেমন C5) দেখা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1110,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এমএস এক্সেলে যেকোনো ফর্মুলা বা সূত্র লেখার পূর্বে কোন চিহ্নটি দেওয়া বাধ্যতামূলক?",
+    "options": [
+      "A) @ (অ্যাট চিহ্ন)",
+      "B) = (সমান চিহ্ন)",
+      "C) # (হ্যাশ চিহ্ন)",
+      "D) + (প্লাস চিহ্ন)"
+    ],
+    "answer": 1,
+    "explanation": "এক্সেল কোনো এন্ট্রিকে ফর্মুলা হিসেবে বিবেচনা করার জন্য সর্বপ্রথম '=' চিহ্ন দিতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1111,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এক্সেলে '$A$1' কোন ধরনের সেল রেফারেন্সের উদাহরণ?",
+    "options": [
+      "A) মিক্সড রেফারেন্স",
+      "B) সার্কুলার রেফারেন্স",
+      "C) অ্যাবসলিউট রেফারেন্স (Absolute Reference)",
+      "D) রিলেটিভ রেফারেন্স"
+    ],
+    "answer": 2,
+    "explanation": "কলাম ও রো উভয়ের আগে ডেইলার ($) চিহ্ন থাকলে তা সূত্র কপি করার সময় লক থাকে, একে Absolute Reference বলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1112,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এক্সেলে সেল রেফারেন্সকে রিলেটিভ থেকে অ্যাবসলিউটে রূপান্তর করার ফাংশন কি কোনটি?",
+    "options": [
+      "A) F9",
+      "B) F2",
+      "C) F12",
+      "D) F4"
+    ],
+    "answer": 3,
+    "explanation": "ফর্মুলা এডিট করার সময় 'F4' চাপলে A1 ক্রমানুসারে $A$1, A$1, $A1-এ পরিবর্তিত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1113,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "A1 থেকে A10 পর্যন্ত সেলের সংখ্যার গড় নির্ণয়ের সঠিক ফর্মুলা কোনটি?",
+    "options": [
+      "A) =AVG(A1:A10)",
+      "B) =MEAN(A1:A10)",
+      "C) =AVERAGE(A1:A10)",
+      "D) =TOTAL(A1:A10)/10"
+    ],
+    "answer": 2,
+    "explanation": "এক্সেলে গাণিতিক গড় নির্ণয়ের বিল্ট-ইন ফাংশন হলো AVERAGE।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1114,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "কোন ফাংশনটি শুধুমাত্র সংখ্যাযুক্ত (Numeric) সেল গণনা করে, টেক্সট বা ফাঁকা সেল গণনা করে না?",
+    "options": [
+      "A) COUNTIF()",
+      "B) COUNT()",
+      "C) COUNTA()",
+      "D) COUNTBLANK()"
+    ],
+    "answer": 1,
+    "explanation": "COUNT() শুধু সংখ্যা গণনা করে; আর COUNTA() ফাঁকা বাদে যেকোনো ধরনের ডেটাযুক্ত সেল গণনা করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1115,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "একটি নির্দিষ্ট শর্তের ভিত্তিতে সংখ্যা যোগ করার জন্য কোন এক্সেল ফাংশন ব্যবহৃত হয়?",
+    "options": [
+      "A) SUMIF()",
+      "B) IF()",
+      "C) SUM()",
+      "D) COUNTIF()"
+    ],
+    "answer": 0,
+    "explanation": "SUMIF(range, criteria, [sum_range]) নির্দিষ্ট শর্ত পূরণকারী সেলসমূহের যোগফল প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1116,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এক্সেলে টেবিলের প্রথম কলামে কোনো মান উল্লম্বভাবে খুঁজে সংশ্লিষ্ট সারির অন্য কলামের ডেটা আনার ফাংশন কোনটি?",
+    "options": [
+      "A) MATCH()",
+      "B) OFFSET()",
+      "C) HLOOKUP()",
+      "D) VLOOKUP()"
+    ],
+    "answer": 3,
+    "explanation": "VLOOKUP (Vertical Lookup) বাম কলামে ভ্যালু খুঁজে ডানপাশের নির্দিষ্ট ইনডেক্সের মান রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1117,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "টেবিলের প্রথম সারিতে কোনো মান অনুভূমিকভাবে (Horizontally) খোঁজার ফাংশন কোনটি?",
+    "options": [
+      "A) VLOOKUP()",
+      "B) XLOOKUP()",
+      "C) LOOKUP()",
+      "D) HLOOKUP()"
+    ],
+    "answer": 3,
+    "explanation": "HLOOKUP (Horizontal Lookup) টেবিলের শীর্ষ সারিতে ভ্যালু খুঁজে নিচের সারির মান নিয়ে আসে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1118,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "আধুনিক এক্সেলে VLOOKUP ও HLOOKUP-এর সীমাবদ্ধতা দূরকারী শক্তিশালী দ্বি-মুখী লুকআপ ফাংশন কোনটি?",
+    "options": [
+      "A) INDEX()",
+      "B) ZLOOKUP()",
+      "C) XLOOKUP()",
+      "D) POWERLOOKUP()"
+    ],
+    "answer": 2,
+    "explanation": "XLOOKUP যেকোনো দিকে (বামে, ডানে, উপরে, নিচে) কোনো ঝামেলা ছাড়াই সরাসরি লুকআপ করতে সক্ষম।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1119,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এক্সেলে শর্তাধীন লজিক্যাল সিদ্ধান্ত গ্রহণের ফাংশন কোনটি?",
+    "options": [
+      "A) IF()",
+      "B) AND()",
+      "C) OR()",
+      "D) CHECK()"
+    ],
+    "answer": 0,
+    "explanation": "IF(Logical_test, Value_if_true, Value_if_false) হলো মৌলিক শর্তাধীন ফাংশন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1120,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এক্সেলে একাধিক টেক্সট বা স্ট্রিংকে একসাথে জোড়া লাগানোর ফাংশন কোনটি?",
+    "options": [
+      "A) COMBINE()",
+      "B) CONCATENATE() বা CONCAT()",
+      "C) MERGE()",
+      "D) JOIN()"
+    ],
+    "answer": 1,
+    "explanation": "CONCATENATE() বা '&' অপারেটর একাধিক সেলের লেখাকে একত্রিত করে একক স্ট্রিং তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1121,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "একটি সেলের টেক্সটের মোট অক্ষরের সংখ্যা গণনা করার ফাংশন কোনটি?",
+    "options": [
+      "A) TEXTCOUNT()",
+      "B) LEN()",
+      "C) LENGTH()",
+      "D) COUNT()"
+    ],
+    "answer": 1,
+    "explanation": "LEN(text) ফাংশন টেক্সটে বিদ্যমান স্পেস সহ মোট ক্যারেক্টার সংখ্যা গণনা করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1122,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "টেক্সটের শুরুতে ও শেষে থাকা অপ্রয়োজনীয় অতিরিক্ত স্পেস দূর করার ফাংশন কোনটি?",
+    "options": [
+      "A) TRIM()",
+      "B) REMOVE()",
+      "C) CLEAR()",
+      "D) CLEAN()"
+    ],
+    "answer": 0,
+    "explanation": "TRIM(text) শব্দের মধ্যবর্তী একক স্পেস রেখে বাকি সব অতিরিক্ত স্পেস মুছে ফেলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1123,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "বিশাল পরিমাণ ডেটাকে তাৎক্ষণিকভাবে সারসংক্ষেপ, গ্রুপিং ও বিশ্লেষণ করার শক্তিশালী এক্সেল টুল কোনটি?",
+    "options": [
+      "A) ম্যাক্রো",
+      "B) শর্টিং",
+      "C) পিভট টেবিল (Pivot Table)",
+      "D) ডাটা ভ্যালিডেশন"
+    ],
+    "answer": 2,
+    "explanation": "Pivot Table ড্র্যাগ-অ্যান্ড-ড্রপ ফিল্ডের মাধ্যমে জটিল ডেটার সামারি, ফিল্টারিং ও ক্রস-ট্যাবুলেশন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1124,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এক্সেলে সেলের ভেতরে ভুল ডেটা প্রবেশ রোধে ড্রপডাউন তালিকা বা নিয়ম তৈরি করার টুলের নাম কী?",
+    "options": [
+      "A) প্রটেক্ট শিট",
+      "B) কনসলিডেট",
+      "C) কন্ডিশনাল ফরম্যাটিং",
+      "D) ডেটা ভ্যালিডেশন (Data Validation)"
+    ],
+    "answer": 3,
+    "explanation": "Data Validation সেলে কোন ধরনের ডেটা বা সীমা (যেমন ১-১০০, ড্রপডাউন লিস্ট) ইনপুট দেওয়া যাবে তা নিয়ন্ত্রণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1125,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "নির্দিষ্ট শর্ত পূরণ করলে সেলের রঙ স্বয়ংক্রিয়ভাবে পরিবর্তন (যেমন ৮০-এর বেশি পেলে সবুজ) করার টুলের নাম কী?",
+    "options": [
+      "A) ফরম্যাট সেলস",
+      "B) অটো কালার",
+      "C) কন্ডিশনাল ফরম্যাটিং (Conditional Formatting)",
+      "D) স্টাইল"
+    ],
+    "answer": 2,
+    "explanation": "Conditional Formatting সেলের মানের ওপর ভিত্তি করে কালার স্কেল বা হাইলাইট রুলস প্রয়োগ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1126,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "কাঙ্ক্ষিত ফলাফল পাওয়ার জন্য কোনো নির্দিষ্ট ইনপুট ভ্যালু কত হতে হবে তা বের করার টুল কোনটি?",
+    "options": [
+      "A) গোল সিক (Goal Seek)",
+      "B) সিনারিও ম্যানেজার",
+      "C) ডাটা টেবিল",
+      "D) সলভার"
+    ],
+    "answer": 0,
+    "explanation": "Goal Seek হলো What-If অ্যানালাইসিসের একটি টুল যা ব্যাকওয়ার্ড ক্যালকুলেশন করে ইনপুট নির্ধারণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1127,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "বড় টেবিলে নিচের দিকে স্ক্রোল করার সময়ও শীর্ষ কলাম শিরোনাম যাতে সবসময় দৃশ্যমান থাকে সেজন্য কী করা হয়?",
+    "options": [
+      "A) স্প্লিট উইন্ডো",
+      "B) হাইড রো",
+      "C) লক সেলস",
+      "D) ফ্রিজ প্যানস (Freeze Panes)"
+    ],
+    "answer": 3,
+    "explanation": "Freeze Top Row বা Freeze Panes নির্দিষ্ট সারি ও কলামকে স্ক্রিনে স্থির আটকে রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1128,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এক্সেলে সেলের প্রস্থের চেয়ে সংখ্যা বড় হয়ে গেলে সেলে কোন এরর মেসেজ প্রদর্শিত হয়?",
+    "options": [
+      "A) #DIV/0!",
+      "B) #####",
+      "C) #NAME?",
+      "D) #VALUE!"
+    ],
+    "answer": 1,
+    "explanation": "কলামের প্রস্থ সংখ্যা বা তারিখ প্রদর্শনের জন্য অপর্যাপ্ত হলে '#####' প্রদর্শিত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1129,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এক্সেলে কোনো সংখ্যাকে শূন্য (0) দিয়ে ভাগ করার চেষ্টা করলে কোন এরর কোড আসে?",
+    "options": [
+      "A) #DIV/0!",
+      "B) #NULL!",
+      "C) #NUM!",
+      "D) #REF!"
+    ],
+    "answer": 0,
+    "explanation": "গাণিতিকভাবে শূন্য দিয়ে ভাগ অসংজ্ঞায়িত হওয়ায় এক্সেল '#DIV/0!' প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1130,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "ফর্মুলায় কোনো ফাংশনের নাম বা সেলের নাম ভুল টাইপ করলে কোন এরর আসে?",
+    "options": [
+      "A) #VALUE!",
+      "B) #REF!",
+      "C) #NAME?",
+      "D) #N/A"
+    ],
+    "answer": 2,
+    "explanation": "অচেনা ফাংশনের নাম বা নামহীন টেক্সট রেফারেন্সের ক্ষেত্রে '#NAME?' ত্রুটি আসে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1131,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "ফর্মুলার রেফারেন্স দেওয়া কোনো সেল বা কলাম ডিলিট করে দিলে কোন এরর আসে?",
+    "options": [
+      "A) #N/A",
+      "B) #NULL!",
+      "C) #VALUE!",
+      "D) #REF!"
+    ],
+    "answer": 3,
+    "explanation": "বৈধ সেল রেফারেন্স হারিয়ে গেলে ইনভ্যালিড সেল রেফারেন্স '#REF!' আসে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1132,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এক্সেলে বর্তমান তারিখ (Current Date) স্বয়ংক্রিয়ভাবে ইনসার্ট করার ফাংশন কোনটি?",
+    "options": [
+      "A) =DATE()",
+      "B) =TODAY()",
+      "C) =CURRENT()",
+      "D) =NOW()"
+    ],
+    "answer": 1,
+    "explanation": "=TODAY() বর্তমান সিস্টেম তারিখ দেয়, আর =NOW() তারিখ এবং বর্তমান সময় উভয়ই দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1133,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এক্সেলে বর্তমান তারিখ ও সময় (Current Date & Time) একসাথে পাওয়ার ফাংশন কোনটি?",
+    "options": [
+      "A) =TODAY()",
+      "B) =NOW()",
+      "C) =TIME()",
+      "D) =DATETIME()"
+    ],
+    "answer": 1,
+    "explanation": "=NOW() ফর্মুলাটি বর্তমান তারিখের সাথে সময়ও রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1134,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এক্সেলে স্বয়ংক্রিয়ভাবে অটো-সাম (AutoSum) করার কীবোর্ড শর্টকাট কোনটি?",
+    "options": [
+      "A) Shift + =",
+      "B) Ctrl + S",
+      "C) Ctrl + =",
+      "D) Alt + ="
+    ],
+    "answer": 3,
+    "explanation": "Alt + = চাপলে স্বয়ংক্রিয়ভাবে সংলগ্ন সারির যোগফলের SUM ফর্মুলা বসে যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1135,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "সমগ্র শতকরা অংশের অনুপাত (Percentage of Whole) প্রদর্শনের জন্য কোন চার্ট সবচেয়ে উপযুক্ত?",
+    "options": [
+      "A) পাই চার্ট (Pie Chart)",
+      "B) বার চার্ট",
+      "C) স্ক্যাটার প্লট",
+      "D) লাইন চার্ট"
+    ],
+    "answer": 0,
+    "explanation": "Pie Chart ১০০% অংশের মধ্যে বিভিন্ন উপাদানের আনুপাতিক শেয়ার বৃত্তাকারে দেখায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1136,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "সময়ের সাথে ডেটার গতিবিধি বা ট্রেন্ড (Trend over time) প্রদর্শনের জন্য কোন চার্ট সেরা?",
+    "options": [
+      "A) ডোনাট চার্ট",
+      "B) রাডার চার্ট",
+      "C) লাইন চার্ট (Line Chart)",
+      "D) পাই চার্ট"
+    ],
+    "answer": 2,
+    "explanation": "দিন, মাস বা বছর অনুযায়ী ডেটার উত্থান-পতন প্রদর্শনে Line Chart সবচেয়ে জনপ্রিয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1137,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এক্সেলে দুটি ভিন্ন ভ্যারিয়েবলের পারস্পরিক সম্পর্ক বা সহসম্বন্ধ প্রদর্শনে কোন চার্ট ব্যবহৃত হয়?",
+    "options": [
+      "A) বার চার্ট",
+      "B) পাই চার্ট",
+      "C) কলাম চার্ট",
+      "D) স্ক্যাটার চার্ট (Scatter Plot / XY Chart)"
+    ],
+    "answer": 3,
+    "explanation": "Scatter Plot দুটি সংখ্যাসূচক চলকের মধ্যকার রিলেশনশিপ বিন্দু আকারে প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1138,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এক্সেলে একটি সেলের ভেতরেই ছোট আকারের ট্রেন্ড গ্রাফ প্রদর্শনকারী ফিচারকে কী বলে?",
+    "options": [
+      "A) মিনি চার্ট",
+      "B) স্পার্কলাইনস (Sparklines)",
+      "C) ডাটা বার",
+      "D) পিভট চার্ট"
+    ],
+    "answer": 1,
+    "explanation": "Sparklines হলো একক সেলের ভেতরে থাকা অতিক্ষুদ্র লাইন বা কলাম গ্রাফ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1139,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এক্সেলে সেলের ভেতর নতুন লাইন শুরু করতে (Wrap Text বাদে) কোন শর্টকাট চাপতে হয়?",
+    "options": [
+      "A) Alt + Enter",
+      "B) Ctrl + Enter",
+      "C) Enter",
+      "D) Shift + Enter"
+    ],
+    "answer": 0,
+    "explanation": "Alt + Enter চাপলে একই সেলের মধ্যে নতুন আরেকটি লাইন শুরু হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1140,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এক্সেলে স্বয়ংক্রিয় ধারাবাহিক প্যাটার্ন বুঝে বাকি সেল স্বয়ংক্রিয়ভাবে পূরণ করার জাদুকরী টুলের নাম কী?",
+    "options": [
+      "A) জাস্টিফাই",
+      "B) অটো ফিল",
+      "C) ফ্ল্যাশ ফিল (Flash Fill - Ctrl + E)",
+      "D) ফিল সিরিজ"
+    ],
+    "answer": 2,
+    "explanation": "Flash Fill (Ctrl + E) ব্যবহারকারীর প্যাটার্ন বুঝে ডেটা বিভাজন বা সমন্বয় স্বয়ংক্রিয়ভাবে সম্পন্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1141,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এক্সেলে কোনো সেলে কমেন্ট বা নোট যুক্ত করার শর্টকাট কী কোনটি?",
+    "options": [
+      "A) Shift + F2",
+      "B) F2",
+      "C) Ctrl + F2",
+      "D) Alt + F2"
+    ],
+    "answer": 0,
+    "explanation": "Shift + F2 চাপলে নির্বাচিত সেলে নোট বা কমেন্ট বক্স ওপেন হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1142,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এক্সেলে ফিল্টার (Filter) চালু বা বন্ধ করার কীবোর্ড শর্টকাট কোনটি?",
+    "options": [
+      "A) Ctrl + F",
+      "B) Alt + F",
+      "C) Ctrl + Alt + L",
+      "D) Ctrl + Shift + L"
+    ],
+    "answer": 3,
+    "explanation": "Ctrl + Shift + L চাপলে টেবিল হেডারে ড্রপডাউন ফিল্টার টগল হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1143,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এক্সেলে সেলের সম্পূর্ণ কন্টেন্ট মুছে না ফেলে শুধুমাত্র ফরম্যাটিং ক্লিয়ার করার অপশন কোনটি?",
+    "options": [
+      "A) Clear Contents",
+      "B) Clear Formats",
+      "C) Delete",
+      "D) Clear All"
+    ],
+    "answer": 1,
+    "explanation": "Clear Formats মূল ডেটা অক্ষত রেখে কেবল ফন্ট, রঙ ও বর্ডার রিসেট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1144,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এক্সেলে নির্বাচিত ডেটা রেঞ্জ থেকে তাৎক্ষণিকভাবে একটি অফিসিয়াল চার্ট তৈরি করার শর্টকাট কোনটি?",
+    "options": [
+      "A) Shift + F11",
+      "B) Ctrl + F1",
+      "C) F11",
+      "D) F1"
+    ],
+    "answer": 2,
+    "explanation": "F11 চাপলে একটি আলাদা চার্ট শিটে সরাসরি ডিফল্ট চার্ট তৈরি হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1145,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৪: স্প্রেডশিট অ্যানালাইসিস (MS Excel)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "এক্সেলে শিট সুরক্ষার জন্য পাসওয়ার্ড সেট করতে কোন রিবন ট্যাবে যেতে হয়?",
+    "options": [
+      "A) Data -> Secure",
+      "B) View -> Lock",
+      "C) Review -> Protect Sheet",
+      "D) Insert -> Password"
+    ],
+    "answer": 2,
+    "explanation": "Review ট্যাবের অন্তর্গত 'Protect Sheet' দিয়ে স্প্রেডশিটে অননুমোদিত এডিটিং লক করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

@@ -1,0 +1,947 @@
+[
+  {
+    "id": 5956,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "সিস্টেমের সমস্ত ব্লক স্টোরেজ ডিভাইস ও পার্টিশনের ট্রি স্ট্রাকচার দেখার কমান্ড কোনটি?",
+    "options": [
+      "A) lsblk",
+      "B) parted",
+      "C) blkid",
+      "D) fdisk -l"
+    ],
+    "answer": 0,
+    "explanation": "`lsblk` (List Block Devices) কমান্ড ডিস্ক ও পার্টিশনগুলোকে তাদের সাইজ, টাইপ ও মাউন্ট পয়েন্টসহ পরিষ্কার বৃক্ষাকারে প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5957,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি নতুন পার্টিশনে লিনাক্সের জনপ্রিয় ext4 ফাইল সিস্টেম তৈরি (Format) করার কমান্ড কোনটি?",
+    "options": [
+      "A) format.ext4 /dev/sdb1",
+      "B) createfs /dev/sdb1",
+      "C) mkfs.ext4 /dev/sdb1 (বা mke2fs -t ext4)",
+      "D) fdisk -format"
+    ],
+    "answer": 2,
+    "explanation": "`mkfs.ext4` (Make Filesystem) কমান্ড নির্দিষ্ট ব্লক ডিভাইসে ইনোড টেবিল ও জার্নালিং ব্লক স্থাপন করে ext4 ফাইল সিস্টেম তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5958,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি পার্টিশনকে ডিরেক্টরি ট্রির নির্দিষ্ট ফোল্ডারে সংযুক্ত (Mount) করার কমান্ড কোনটি?",
+    "options": [
+      "A) link /dev/sdb1",
+      "B) mount /dev/sdb1 /mnt/data",
+      "C) connect /dev/sdb1",
+      "D) attach /dev/sdb1"
+    ],
+    "answer": 1,
+    "explanation": "`mount device directory` কমান্ড একটি স্টোরেজ ডিভাইসকে লিনাক্স ফাইল সিস্টেমের একটি ডিরেক্টরিতে কার্যক্ষমভাবে জুড়ে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5959,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "কম্পিউটার রিবুট হলেও স্বয়ংক্রিয়ভাবে পার্টিশন মাউন্ট রাখার স্থায়ী কনফিগারেশন ফাইল কোনটি?",
+    "options": [
+      "A) /etc/fstab (File System Table)",
+      "B) /etc/filesystems",
+      "C) /etc/mount.conf",
+      "D) /etc/mtab"
+    ],
+    "answer": 0,
+    "explanation": "`/etc/fstab` ফাইলে ৬টি ফিল্ডে (Device UUID, MountPoint, Type, Options, Dump, FsckOrder) পার্টিশনের অটো-মাউন্ট তথ্য থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5960,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্স LVM (Logical Volume Manager) আর্কিটেকচারে নিচের কোনটি স্তরীভূত সঠিক ক্রম?",
+    "options": [
+      "A) Logical Volume -> Volume Group -> Physical Volume",
+      "B) Partition -> Logical Volume -> Physical Volume",
+      "C) Volume Group -> Physical Volume -> Logical Volume",
+      "D) Physical Volume (PV) -> Volume Group (VG) -> Logical Volume (LV)"
+    ],
+    "answer": 3,
+    "explanation": "প্রথমে ফিজিক্যাল ডিস্ককে PV বানানো হয়, একাধিক PV মিলে তৈরি হয় VG (স্টোরেজ পুল), এবং VG থেকে প্রয়োজনমতো রিসাইজযোগ্য LV কাটা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5961,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্সে একটি ফিজিক্যাল ড্রাইভকে LVM ফিজিক্যাল ভলিউম হিসেবে প্রস্তুত করার কমান্ড কোনটি?",
+    "options": [
+      "A) lvcreate",
+      "B) pvcreate /dev/sdb",
+      "C) vgcreate",
+      "D) mkfs.lvm"
+    ],
+    "answer": 1,
+    "explanation": "`pvcreate` কমান্ড ড্রাইভের শুরুতে LVM হেডার ও মেটাডাটা লিখে তাকে ভলিউম গ্রুপে অন্তর্ভুক্তির উপযোগী করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5962,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি ভলিউম গ্রুপের (VG) আকার বৃদ্ধি করতে নতুন একটি ফিজিক্যাল ডিস্ক যুক্ত করার কমান্ড কোনটি?",
+    "options": [
+      "A) vgcreate",
+      "B) vgenlarge",
+      "C) lvresize",
+      "D) vgextend vg_name /dev/sdc"
+    ],
+    "answer": 3,
+    "explanation": "`vgextend` কমান্ড কোনো ভলিউম গ্রুপে নতুন ডিস্ক (PV) যোগ করে পুলের ফ্রি স্টোরেজ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5963,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি চলমান লজিক্যাল ভলিউমের (LV) সাইজ ১০ গিগাবাইট বাড়িয়ে সাথে সাথে ফাইলসিস্টেম রিসাইজ করার ফ্ল্যাগ কোনটি?",
+    "options": [
+      "A) lvreduce",
+      "B) resize2fs only",
+      "C) lvextend -r -L +10G /dev/vg0/lv0",
+      "D) vgextend"
+    ],
+    "answer": 2,
+    "explanation": "`lvextend -r` (-r বা --resizefs) অপশনটি ভলিউম বাড়ানোর সাথে সাথে অন্তর্নিহিত ফাইলসিস্টেমকেও একযোগে অনলাইনে প্রসারিত করে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5964,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "ডেবিয়ান ও উবুন্টু লিনাক্সে লোকাল `.deb` প্যাকেজ ফাইল সরাসরি ইনস্টল করার নিম্নস্তরের কমান্ড কোনটি?",
+    "options": [
+      "A) dpkg -i package.deb",
+      "B) rpm -ivh",
+      "C) yum localinstall",
+      "D) apt install"
+    ],
+    "answer": 0,
+    "explanation": "`dpkg -i` (-i বা Install) কমান্ড সরাসরি ডেবিয়ান প্যাকেজ ইনস্টল করে; তবে এটি ইন্টারনেট থেকে ডিপেন্ডেন্সি ডাউনলোড করতে পারে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5965,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "উবুন্টুতে ইন্টারনেট রিপোজিটরি থেকে প্রয়োজনীয় ডিপেন্ডেন্সিসহ সফটওয়্যার ইনস্টল করার উচ্চস্তরের প্যাকেজ ম্যানেজার কোনটি?",
+    "options": [
+      "A) dnf",
+      "B) apt (বা apt-get)",
+      "C) yum",
+      "D) dpkg"
+    ],
+    "answer": 1,
+    "explanation": "`apt install package_name` কমান্ড স্বয়ংক্রিয়ভাবে সমস্ত নির্ভরশীল প্যাকেজ চিহ্নিত, ডাউনলোড ও ইনস্টল করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5966,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "উবুন্টুতে সফটওয়্যার আনইনস্টল করার সময় তার সমস্ত কনফিগারেশন ফাইলসহ পুরোপুরি মুছে ফেলতে কোন কমান্ড ব্যবহৃত হয়?",
+    "options": [
+      "A) apt purge package_name",
+      "B) dpkg -r",
+      "C) apt clean",
+      "D) apt remove package_name"
+    ],
+    "answer": 0,
+    "explanation": "`apt remove` শুধুমাত্র প্রোগ্রামটি মোছে কনফিগ রেখে দেয়, আর `apt purge` প্রোগ্রামের সাথে তার কনফিগারেশন ফাইলগুলোও নিশ্চিহ্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5967,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "উবুন্টুতে প্যাকেজ ডাউনলোডের অফিশিয়াল ও থার্ড-পার্টি রিপোজিটরি তালিকা কোন কনফিগারেশন ফাইলে থাকে?",
+    "options": [
+      "A) /etc/yum.repos.d/",
+      "B) /etc/packages.list",
+      "C) /etc/apt/sources.list (ও /etc/apt/sources.list.d/)",
+      "D) /etc/dpkg.conf"
+    ],
+    "answer": 2,
+    "explanation": "`/etc/apt/sources.list` ফাইলে সফটওয়্যার মিরর ও আর্চাইভ সার্ভারের URL সংরক্ষিত থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5968,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "রেড হ্যাট (RHEL) ও সেন্টওএস সিস্টেমে লোকাল `.rpm` প্যাকেজ ইনস্টল করার নিম্নস্তরের টুল কোনটি?",
+    "options": [
+      "A) apt install",
+      "B) dpkg -i",
+      "C) dnf build",
+      "D) rpm -ivh package.rpm"
+    ],
+    "answer": 3,
+    "explanation": "`rpm -ivh` (i=Install, v=Verbose, h=Hash progress) কমান্ড রেড হ্যাট প্যাকেজ ম্যানেজারের সাহায্যে আরপিএম ফাইল ইনস্টল করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5969,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "আধুনিক RHEL 8/9 এবং Fedora সিস্টেমে ডিফল্ট উচ্চস্তরের প্যাকেজ ম্যানেজার কোনটি?",
+    "options": [
+      "A) dnf (Dandified YUM)",
+      "B) apt",
+      "C) yum",
+      "D) pacman"
+    ],
+    "answer": 0,
+    "explanation": "YUM-এর আধুনিক, দ্রুততর ও উন্নত মেমরি ব্যবহারকারী উত্তরসূরি হলো `dnf` (Dandified YUM)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5970,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একাধিক ফাইলকে একটি একক `.tar.gz` কমপ্রেসড আর্কাইভে রূপান্তর করার সঠিক `tar` কমান্ড কোনটি?",
+    "options": [
+      "A) tar -xzvf archive.tar.gz",
+      "B) tar -tvf archive.tar",
+      "C) gzip -tar folder/",
+      "D) tar -czvf archive.tar.gz folder/"
+    ],
+    "answer": 3,
+    "explanation": "`tar -czvf` (c=Create, z=gzip compression, v=Verbose, f=Filename) একটি ডিরেক্টরিকে কমপ্রেসড টারবলে রূপান্তর করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5971,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি `.tar.gz` আর্কাইভ ফাইল আনপ্যাক বা এক্সট্র্যাক্ট করার সঠিক কমান্ড কোনটি?",
+    "options": [
+      "A) tar -czvf archive.tar.gz",
+      "B) tar -xzvf archive.tar.gz",
+      "C) untargz archive",
+      "D) extract archive.tar.gz"
+    ],
+    "answer": 1,
+    "explanation": "`tar -xzvf` (x=eXtract) জিপ করা টার ফাইলকে খুলে মূল ফাইলগুলো বের করে আনে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5972,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "আধুনিক লিনাক্স ডিস্ট্রিবিউশনগুলোতে সিস্টেম ও সার্ভিস ম্যানেজারের মূল ভিত্তি (PID 1) কোনটি?",
+    "options": [
+      "A) Upstart",
+      "B) SysV init",
+      "C) systemd",
+      "D) OpenRC"
+    ],
+    "answer": 2,
+    "explanation": "`systemd` হলো আধুনিক লিনাক্সের স্ট্যান্ডার্ড ইনিট সিস্টেম ও সার্ভিস ম্যানেজার যা সমান্তরাল সার্ভিস বুটিং ও জার্নাল লগিং নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5973,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "`systemd`-তে একটি সার্ভিস (যেমন nginx) চালু বা স্টার্ট করার সঠিক কমান্ড কোনটি?",
+    "options": [
+      "A) service start nginx",
+      "B) systemctl start nginx",
+      "C) systemd start nginx",
+      "D) nginx start"
+    ],
+    "answer": 1,
+    "explanation": "`systemctl` হলো systemd-এর কন্ট্রোল টুল; সার্ভিস স্টার্ট করতে `systemctl start servicename` ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5974,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "কম্পিউটার বুট হওয়ার সাথে সাথে কোনো সার্ভিস যাতে স্বয়ংক্রিয়ভাবে চালু (Auto-start on boot) হয় সেজন্য কমান্ড কোনটি?",
+    "options": [
+      "A) systemctl on servicename",
+      "B) systemctl start servicename",
+      "C) systemctl enable servicename",
+      "D) systemctl auto servicename"
+    ],
+    "answer": 2,
+    "explanation": "`systemctl enable` সার্ভিসটির জন্য সিস্টেম টার্গেটে প্রয়োজনীয় সিম্বলিক লিঙ্ক তৈরি করে যাতে পরবর্তী বুটে তা স্বয়ংক্রিয় রান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5975,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি সার্ভিস বর্তমানে সচল (active/running) আছে কিনা তা বিশদভাবে দেখার কমান্ড কোনটি?",
+    "options": [
+      "A) systemctl view servicename",
+      "B) systemctl info servicename",
+      "C) systemctl check servicename",
+      "D) systemctl status servicename"
+    ],
+    "answer": 3,
+    "explanation": "`systemctl status` সার্ভিসের মেমোরি ব্যবহার, PID এবং সাম্প্রতিক লগসহ বর্তমান কার্যকারিতা তুলে ধরে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5976,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "ঐতিহ্যবাহী Runlevel 3 (মাল্টি-ইউজার টেক্সট মোড উইথ নেটওয়ার্কিং)-এর সমতুল্য আধুনিক Systemd টার্গেট কোনটি?",
+    "options": [
+      "A) multi-user.target",
+      "B) default.target",
+      "C) rescue.target",
+      "D) graphical.target"
+    ],
+    "answer": 0,
+    "explanation": "Systemd-এ Runlevel 3 হলো `multi-user.target` এবং Runlevel 5 (GUI ডেস্কটপ মোড) হলো `graphical.target`।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5977,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "`systemd`-এর সেন্ট্রালাইজড বাইনারি লগ ফাইলগুলো পড়ার কমান্ড কোনটি?",
+    "options": [
+      "A) logview",
+      "B) cat /var/log/journal",
+      "C) syslogctl",
+      "D) journalctl"
+    ],
+    "answer": 3,
+    "explanation": "`journalctl` কমান্ড systemd-journald ডেমন দ্বারা সংগৃহীত সমস্ত কার্নেল, বুট ও সার্ভিস লগ সুন্দরভাবে ফিল্টার করে দেখায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5978,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "কোনো নির্দিষ্ট সার্ভিসের (যেমন sshd) সাম্প্রতিক লগ দেখতে কোন `journalctl` কমান্ড ব্যবহার করা হয়?",
+    "options": [
+      "A) journalctl -u sshd",
+      "B) journalctl -f sshd_log",
+      "C) journalctl -p sshd",
+      "D) journalctl -s sshd"
+    ],
+    "answer": 0,
+    "explanation": "`journalctl -u unit_name` (-u মানে Unit) শুধুমাত্র সংশ্লিষ্ট নির্দিষ্ট সার্ভিসটির লগ মেসেজগুলো ফিল্টার করে প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5979,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্সে ব্যবহারকারীর সফল ও ব্যর্থ SSH লগইন চেষ্টার নিরাপত্তা অডিট লগ কোথায় থাকে?",
+    "options": [
+      "A) /var/log/syslog",
+      "B) /var/log/auth.log (উবুন্টু) বা /var/log/secure (রেড হ্যাট)",
+      "C) /var/log/dmesg",
+      "D) /var/log/kern.log"
+    ],
+    "answer": 1,
+    "explanation": "অথেনটিকেশন ও ব্রুট-ফোর্স অ্যাটাকের তথ্য ডেবিয়ান/উবুন্টুতে `/var/log/auth.log`-এ এবং RHEL/CentOS-এ `/var/log/secure`-এ জমা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5980,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "কম্পিউটার বুট হওয়ার সময় কার্নেল হার্ডওয়্যার ডিটেকশন ও রিং বাফারের লগ মেসেজ দেখার কমান্ড কোনটি?",
+    "options": [
+      "A) klog",
+      "B) journalctl -k",
+      "C) dmesg",
+      "D) bootlog"
+    ],
+    "answer": 2,
+    "explanation": "`dmesg` (Driver Message) কমান্ড কার্নেল রিং বাফারের সমস্ত হার্ডওয়্যার ড্রাইভার ইনিশিয়ালাইজেশন ও এরর লগ প্রিন্ট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5981,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্সে প্রথাগত `ifconfig`-এর আধুনিক বিকল্প হিসেবে নেটওয়ার্ক ইন্টারফেস ও আইপি অ্যাড্রেস দেখার কমান্ড কোনটি?",
+    "options": [
+      "A) netconfig",
+      "B) ip show",
+      "C) ifshow",
+      "D) ip addr (বা ip a)"
+    ],
+    "answer": 3,
+    "explanation": "আধুনিক `iproute2` প্যাকেজে `ip addr` কমান্ড تمام নেটওয়ার্ক ইন্টারফেসের IPv4 ও IPv6 ঠিকানা ও স্ট্যাটাস প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5982,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্স কার্নেলের আইপি রাউটিং টেবিল ও ডিফল্ট গেটওয়ে দেখার আধুনিক কমান্ড কোনটি?",
+    "options": [
+      "A) route -n",
+      "B) gateway show",
+      "C) ip route (বা ip r)",
+      "D) netstat -r"
+    ],
+    "answer": 2,
+    "explanation": "`ip route` কমান্ড সিস্টেমের বর্তমান রাউটিং পাথ ও ডিফল্ট গেটওয়ে প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5983,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "একটি নেটওয়ার্ক ইন্টারফেস (যেমন eth0) কমান্ড লাইনে চালু (Up) বা বন্ধ (Down) করার সঠিক `ip` কমান্ড কোনটি?",
+    "options": [
+      "A) ip link start eth0",
+      "B) ip link set dev eth0 up (বা down)",
+      "C) ifup eth0",
+      "D) network eth0 up"
+    ],
+    "answer": 1,
+    "explanation": "`ip link set dev interface_name up/down` কমান্ড দিয়ে লেয়ার-২ ইন্টারফেসের প্রশাসনিক অবস্থা নিয়ন্ত্রণ করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5984,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "সিস্টেমে বর্তমানে কোন কোন TCP ও UDP পোর্ট লিসেনিং অবস্থায় খোলা আছে এবং কোন প্রসেস তা ধরে রেখেছে তা দেখার দ্রুততম টুল কোনটি?",
+    "options": [
+      "A) ss -tulpn (বা পুরোনো netstat -tulpn)",
+      "B) lsof -i",
+      "C) nmap",
+      "D) ports -a"
+    ],
+    "answer": 0,
+    "explanation": "`ss` (Socket Statistics) অত্যন্ত দ্রুতগতির আধুনিক টুল; `-tulpn` (t=TCP, u=UDP, l=Listening, p=Process, n=Numeric port) দিয়ে সমস্ত ওপেন পোর্ট দেখা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5985,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্স মেশিনের নিজস্ব হোস্টনেম (Hostname) স্থায়ীভাবে পরিবর্তন করার আধুনিক কমান্ড কোনটি?",
+    "options": [
+      "A) hostnamectl set-hostname new_name",
+      "B) sysctl hostname",
+      "C) hostname new_name",
+      "D) sethostname"
+    ],
+    "answer": 0,
+    "explanation": "`hostnamectl set-hostname` কমান্ড `/etc/hostname` ফাইলে নতুন নাম স্থায়ীভাবে লিখে রিবুট ছাড়াই সিস্টেম হোস্টনেম আপডেট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5986,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "ডিএনএস সার্ভার ছাড়াও লোকাল মেশিনে স্ট্যাটিক আইপির বিপরীতে হোস্টনেম ম্যাপিংয়ের কনফিগারেশন ফাইল কোনটি?",
+    "options": [
+      "A) /etc/networks",
+      "B) /etc/hostname",
+      "C) /etc/hosts",
+      "D) /etc/resolv.conf"
+    ],
+    "answer": 2,
+    "explanation": "`/etc/hosts` ফাইলে সরাসরি `192.168.1.100 server1.local` লিখে রাখলে সিস্টেম ডিএনএসে যাওয়ার আগেই এই স্ট্যাটিক ম্যাপিং ব্যবহার করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5987,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্স সিস্টেম ডোমেন রেজোলিউশনের জন্য কোন ডিএনএস নেমসার্ভারে রিকোয়েস্ট পাঠাবে তা কোন ফাইলে নির্দিষ্ট থাকে?",
+    "options": [
+      "A) /etc/hosts",
+      "B) /etc/dns.conf",
+      "C) /etc/nsswitch.conf",
+      "D) /etc/resolv.conf"
+    ],
+    "answer": 3,
+    "explanation": "`/etc/resolv.conf` ফাইলে `nameserver 8.8.8.8` নির্দেশিকা দিয়ে সিস্টেমের ডিএনএস সার্ভার আইপি কনফিগার করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5988,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "হোস্ট লুকআপের ক্ষেত্রে সিস্টেম আগে `/etc/hosts` ফাইল দেখবে নাকি DNS সার্ভার কুয়েরি করবে তা কোন ফাইলে ঠিক করা হয়?",
+    "options": [
+      "A) /etc/resolv.conf",
+      "B) /etc/nsswitch.conf",
+      "C) /etc/hosts",
+      "D) /etc/networks"
+    ],
+    "answer": 1,
+    "explanation": "`/etc/nsswitch.conf` (Name Service Switch) ফাইলে `hosts: files dns` লেখা থাকে, যার অর্থ আগে লোকাল ফাইল এবং পরে ডিএনএস কুয়েরি হবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5989,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "ডিএনএস রেকর্ড পরীক্ষা ও ট্রাবলশুটিংয়ের জন্য অ্যাডভান্সড ডোমেন কুয়েরি টুল কোনটি?",
+    "options": [
+      "A) dig (Domain Information Groper) বা nslookup",
+      "B) ping",
+      "C) traceroute",
+      "D) curl"
+    ],
+    "answer": 0,
+    "explanation": "`dig` (Domain Information Groper) কমান্ড ডিএনএস রেকর্ড, সার্ভার রেসপন্স টাইম ও ফ্ল্যাগসহ বিস্তারিত টেকনিক্যাল আউটপুট প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5990,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "টার্মিনাল থেকে সরাসরি কোনো ফাইল বা ওয়েব পৃষ্ঠা HTTP/FTP দিয়ে ডাউনলোড করার কমান্ড কোনটি?",
+    "options": [
+      "A) download",
+      "B) fetch",
+      "C) wget (বা curl -O)",
+      "D) getfile"
+    ],
+    "answer": 2,
+    "explanation": "`wget URL` কমান্ড স্বয়ংক্রিয়ভাবে ব্যাকগ্রাউন্ডে নেটওয়ার্ক থেকে ফাইল ডাউনলোড করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5991,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "উবুন্টুতে অত্যন্ত সহজে পোর্ট খোলা ও ফায়ারওয়াল পরিচালনার জন্য ব্যবহৃত ফ্রন্টএন্ড টুল কোনটি?",
+    "options": [
+      "A) iptables",
+      "B) netfilter",
+      "C) firewalld",
+      "D) ufw (Uncomplicated Firewall)"
+    ],
+    "answer": 3,
+    "explanation": "UFW (Uncomplicated Firewall) হলো লিনাক্স কার্নেলের জটিল iptables-এর একটি অত্যন্ত সহজবোধ্য কমান্ড-লাইন ফ্রন্টএন্ড।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5992,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "UFW ফায়ারওয়ালে ওয়েব ট্রাফিকের জন্য পোর্ট ৮০ খোলার সঠিক কমান্ড কোনটি?",
+    "options": [
+      "A) ufw permit 80",
+      "B) ufw allow 80/tcp",
+      "C) ufw enable 80",
+      "D) ufw open 80"
+    ],
+    "answer": 1,
+    "explanation": "`ufw allow 80/tcp` বা `ufw allow http` কমান্ড দিয়ে ফায়ারওয়ালে ইনবাউন্ড পোর্ট ৮০ অনুমোদন করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5993,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "রেড হ্যাট ও সেন্টওএস সিস্টেমে ডাইনামিক জোন-ভিত্তিক ফায়ারওয়াল পরিচালনার টুল কোনটি?",
+    "options": [
+      "A) ipchains",
+      "B) nftables",
+      "C) firewalld (firewall-cmd কমান্ডের মাধ্যমে)",
+      "D) ufw"
+    ],
+    "answer": 2,
+    "explanation": "RHEL-এ `firewalld` সার্ভিস ডিফল্ট থাকে এবং `firewall-cmd` কমান্ডের সাহায্যে বিভিন্ন জোনে (যেমন public, trusted) রুল কনফিগার করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5994,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্স কার্নেল নেটফিল্টারের ক্লাসিক্যাল প্যাকেজ ফিল্টারিং ফ্রেমওয়ার্ক `iptables`-এর ডিফল্ট ফিল্টার টেবিলে কয়টি চেইন (Chains) থাকে?",
+    "options": [
+      "A) ৩টি চেইন (INPUT, OUTPUT, FORWARD)",
+      "B) ৫টি চেইন",
+      "C) ২টি চেইন",
+      "D) ৪টি চেইন"
+    ],
+    "answer": 0,
+    "explanation": "`iptables`-এর ফিল্টার টেবিলে ৩টি বিল্ট-ইন চেইন থাকে: INPUT (লোকাল মেশিনে আগত প্যাকেট), OUTPUT (মেশিন থেকে নির্গত), এবং FORWARD (রাউটিং হয়ে চলে যাওয়া)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5995,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "iptables-এ কোনো প্যাকেটকে ড্রপ না করে প্রেরককে ICMP এরর পাঠিয়ে প্রত্যাখ্যান করার টার্গেট কোনটি?",
+    "options": [
+      "A) LOG",
+      "B) DROP",
+      "C) ACCEPT",
+      "D) REJECT"
+    ],
+    "answer": 3,
+    "explanation": "DROP প্যাকেটটি নীরবে ফেলে দেয় কোনো উত্তর না দিয়ে; আর REJECT প্যাকেটটি বাতিল করে প্রেরককে তাৎক্ষণিক 'Destination Port Unreachable' পাঠায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5996,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্স মেশিনের কার্নেল প্যারামিটার ও নেটওয়ার্ক আচরণ (যেমন IP ফরোয়ার্ডিং `net.ipv4.ip_forward`) রান-টাইমে কনফিগার করার টুল কোনটি?",
+    "options": [
+      "A) systemctl",
+      "B) sysctl (কনফিগ ফাইল /etc/sysctl.conf)",
+      "C) modprobe",
+      "D) kernctl"
+    ],
+    "answer": 1,
+    "explanation": "`sysctl` কমান্ড `/proc/sys/` ডিরেক্টরির অধীনে থাকা কার্নেল ভ্যারিয়েবলগুলো রান-টাইমে মডিফাই ও টিউন করতে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5997,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্সে দূরবর্তী সার্ভারের ফাইল সিস্টেমকে নেটওয়ার্কের মাধ্যমে লোকাল ড্রাইভের মতো মাউন্ট করে ফাইল শেয়ার করার প্রোটোকল কোনটি?",
+    "options": [
+      "A) SSH",
+      "B) NFS (Network File System)",
+      "C) SMB",
+      "D) FTP"
+    ],
+    "answer": 1,
+    "explanation": "NFS (Network File System) ইউনিক্স/লিনাক্স জগতের ক্লাসিক্যাল শেয়ারিং প্রোটোকল যার কনফিগারেশন ফাইল `/etc/exports`।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5998,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্স সার্ভারকে উইন্ডোজ ক্লায়েন্টের সাথে ফাইল ও প্রিন্টার শেয়ার করার উপযুক্ত করতে কোন ওপেন সোর্স সফটওয়্যার ব্যবহৃত হয়?",
+    "options": [
+      "A) NFS",
+      "B) BIND",
+      "C) Samba (SMB/CIFS প্রোটোকল)",
+      "D) Apache"
+    ],
+    "answer": 2,
+    "explanation": "Samba লিনাক্সে মাইক্রোসফটের SMB/CIFS প্রোটোকল বাস্তবায়ন করে, যার প্রধান কনফিগ ফাইল `/etc/samba/smb.conf`।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5999,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "লিনাক্স সার্ভারে দূরবর্তী নিরাপদ SSH লগইনে পাসওয়ার্ড ছাড়া স্বয়ংক্রিয় লগইনের জন্য ক্লায়েন্টের পাবলিক কি কোন ফাইলে সংরক্ষণ করতে হয়?",
+    "options": [
+      "A) ~/.ssh/authorized_keys",
+      "B) ~/.ssh/known_hosts",
+      "C) ~/.ssh/id_rsa",
+      "D) ~/.ssh/config"
+    ],
+    "answer": 0,
+    "explanation": "ব্যবহারকারীর হোমে `~/.ssh/authorized_keys` ফাইলে পাবলিক কি সংরক্ষিত থাকলে পাসওয়ার্ড টাইপ ছাড়াই পাবলিক-কি ক্রিপ্টোগ্রাফিতে নিরাপদ SSH লগইন সম্ভব হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 6000,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৯.৫: স্টোরেজ, প্যাকেজ ম্যানেজমেন্ট ও নেটওয়ার্ক কনফিগারেশন",
+    "subtopic": "বিষয়- ৯. লিনাক্স ও সিস্টেম অ্যাডমিনিস্ট্রেশন (Linux & System Administration)",
+    "question": "দুটি লিনাক্স সার্ভারের মধ্যে ফাইল ও ডিরেক্টরি দ্রুত ও ইনক্রিমেন্টাল (শুধুমাত্র পরিবর্তিত অংশ) সিঙ্ক ও ব্যাকআপের সর্বশ্রেষ্ঠ কমান্ড কোনটি?",
+    "options": [
+      "A) ftp",
+      "B) scp",
+      "C) cp",
+      "D) rsync (Remote Sync: যেমন rsync -avz source destination)"
+    ],
+    "answer": 3,
+    "explanation": "`rsync` (Remote Sync) ডেল্টা-ট্রান্সফার অ্যালগরিদম ব্যবহার করে সম্পূর্ণ ফাইলের বদলে কেবল পরিবর্তিত বাইটগুলো এনক্রিপ্ট করে পাঠায়, যা ব্যাকআপে বিপুল ব্যান্ডউইথ সাশ্রয় করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

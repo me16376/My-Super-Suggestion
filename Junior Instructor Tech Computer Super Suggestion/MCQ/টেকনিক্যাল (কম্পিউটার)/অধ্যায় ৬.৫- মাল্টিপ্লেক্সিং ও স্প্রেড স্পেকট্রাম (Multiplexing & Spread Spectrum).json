@@ -1,0 +1,527 @@
+[
+  {
+    "id": 5286,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ডিরেক্ট সিকোয়েন্স স্প্রেড স্পেকট্রাম (DSSS) প্রযুক্তিতে প্রতিটি মূল ডেটা বিটকে প্রসারিত করতে যে উচ্চগতির সিউডো-র্যান্ডম বিট প্যাটার্ন ব্যবহার করা হয় তাকে কী বলে?",
+    "options": [
+      "A) ব্যারিটি সিকোয়েন্স (Parity Sequence)",
+      "B) ফ্রেম মার্কার (Frame Marker)",
+      "C) চিপিং কোড (Chipping Sequence / PN Code)",
+      "D) গার্ড সিকোয়েন্স (Guard Sequence)"
+    ],
+    "answer": 2,
+    "explanation": "DSSS পদ্ধতিতে প্রেরিত ডেটা বিটকে একটি উচ্চ গতির সিউডো-র্যান্ডম কোড (Pseudo-random Noise or Chipping code) দিয়ে গুণ/XOR করা হয়, যা সিগন্যালের ব্যান্ডউইথকে মূল সিগন্যালের চেয়ে বহুগুণ বৃদ্ধি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5287,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "স্প্রেড স্পেকট্রাম কমিউনিকেশনে স্প্রেডেড সিগন্যালের ব্যান্ডউইথ এবং মূল আনস্প্রেডেড সিগন্যালের ব্যান্ডউইথের অনুপাতকে কী বলা হয়?",
+    "options": [
+      "A) ব্যান্ডউইথ ইউটিলাইজেশন (Bandwidth Ratio)",
+      "B) প্রসেসিং গেইন (Processing Gain)",
+      "C) নয়েজ ফিগার (Noise Figure)",
+      "D) মড্যুলেশন ইনডেক্স (Modulation Index)"
+    ],
+    "answer": 1,
+    "explanation": "প্রসেসিং গেইন (Processing Gain = BW_spread / BW_signal) হলো স্প্রেড স্পেকট্রাম ব্যবস্থার একটি প্রধান নির্দেশক, যা জ্যামিং প্রতিরোধ ক্ষমতা এবং সংকেতের গোপনীয়তা নির্ধারণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5288,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ফ্রিকোয়েন্সি হপিং স্প্রেড স্পেকট্রামে (FHSS) যদি ডেটা বিট হারের চেয়ে ক্যারিয়ার হপিংয়ের হার দ্রুততর হয়, তবে তাকে কী বলা হয়?",
+    "options": [
+      "A) ডিরেক্ট হপিং (Direct Hopping)",
+      "B) কন্টিনিউয়াস হপিং (Continuous Hopping)",
+      "C) স্লো হপিং (Slow Frequency Hopping)",
+      "D) ফাস্ট হপিং (Fast Frequency Hopping)"
+    ],
+    "answer": 3,
+    "explanation": "যখন ক্যারিয়ার ফ্রিকোয়েন্সি প্রতি ডেটা বিট সময়ের মধ্যে একাধিকবার পরিবর্তন হয় (Hopping rate > Bit rate), তখন তাকে ফাস্ট ফ্রিকোয়েন্সি হপিং (Fast Hopping) বলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5289,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "স্ট্যাটিস্টিক্যাল টিডিএম (Statistical TDM)-এ প্রতিটি টাইম স্লটের ভেতরে প্রেরিত ডেটার সাথে অতিরিক্ত কোন তথ্য পাঠানো বাধ্যতামূলক?",
+    "options": [
+      "A) প্যারামিটার ম্যাট্রিক্স",
+      "B) অতিরিক্ত গার্ড ব্যান্ড",
+      "C) উৎস/গন্তব্যের অ্যাড্রেস বা নোড আইডি",
+      "D) ফ্রেম সাইজ নির্দেশক"
+    ],
+    "answer": 2,
+    "explanation": "সিনক্রোনাস TDM-এ স্লটের অবস্থান নির্ধারিত থাকে তাই অ্যাড্রেস লাগে না। কিন্তু স্ট্যাটিস্টিক্যাল TDM-এ যার ডেটা আছে কেবল তাকেই স্লট বরাদ্দ দেওয়ায় প্রতিটি স্লটে কোন ডিভাইসের ডেটা তা চিহ্নিত করতে অ্যাড্রেসিং তথ্য যুক্ত করা বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5290,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "সিনক্রোনাস TDM-এ যদি ৪টি চ্যানেল প্রতিটিতে ১ Mbps হারে ডেটা প্রেরণ করে এবং প্রতিটি চ্যানেল থেকে ১ বিট করে নিয়ে ১ বিটের ফ্রেম তৈরি হয়, তবে ফ্রেম সাইজ কত হবে?",
+    "options": [
+      "A) বিট",
+      "B) ৮ বিট",
+      "C) ১৬ বিট",
+      "D) বিট"
+    ],
+    "answer": 3,
+    "explanation": "৪টি চ্যানেলের প্রতিটির জন্য একটি করে বিট বরাদ্দ থাকায় একটি কম্বাইন্ড ফ্রেমের আকার হবে ৪ বিট এবং মাল্টিপ্লেক্সড আউটপুট গতি হবে ৪ Mbps।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5326,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "মাল্টিপ্লেক্সিং (Multiplexing) বলতে কী বোঝায়?",
+    "options": [
+      "A) একটি সংকেতকে একাধিক ফাইলে ভাগ করা",
+      "B) ডেটা এনক্রিপ্ট করা",
+      "C) শুধুমাত্র একক ডেটা প্রবাহ",
+      "D) একটি একক ফিজিক্যাল যোগাযোগ মাধ্যমের মধ্য দিয়ে একই সাথে একাধিক লজিক্যাল সংকেত প্রেরণ করার প্রযুক্তি"
+    ],
+    "answer": 3,
+    "explanation": "মাল্টিপ্লেক্সার (MUX) একাধিক ইনপুট চ্যানেলকে একটি একক হাই-স্পিড লিঙ্কে যুক্ত করে এবং DEMUX অপর প্রান্তে আলাদা করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5327,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "অ্যানালগ সংকেতের ক্ষেত্রে পুরো ব্যান্ডউইথকে একাধিক ছোট ছোট কম্পাঙ্ক চ্যানেলে ভাগ করার পদ্ধতি কোনটি?",
+    "options": [
+      "A) টাইম ডিভিশন মাল্টিপ্লেক্সিং (TDM)",
+      "B) CDMA",
+      "C) ফ্রিকোয়েন্সি ডিভিশন মাল্টিপ্লেক্সিং (FDM)",
+      "D) WDM"
+    ],
+    "answer": 2,
+    "explanation": "FDM বিভিন্ন সংকেতকে আলাদা আলাদা ক্যারিয়ার ফ্রিকোয়েন্সিতে বসিয়ে একই সাথে পাঠায় (যেমন রেডিও, কেবল টিভি)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5328,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "FDM পদ্ধতিতে পাশাপাশি থাকা দুটি ফ্রিকোয়েন্সি চ্যানেলের সিগন্যালের উপরিপাতন বা ওভারল্যাপিং রোধ করতে মাঝে কী রাখা হয়?",
+    "options": [
+      "A) স্টপ ব্যান্ড",
+      "B) গার্ড ব্যান্ড (Guard Band)",
+      "C) টাইম স্লট",
+      "D) প্যারিটি বিট"
+    ],
+    "answer": 1,
+    "explanation": "গার্ড ব্যান্ড হলো অব্যবহৃত সরু ফ্রিকোয়েন্সি ব্যবধান যা চ্যানেলের মধ্যে ক্রসটক ও হস্তক্ষেপ প্রতিরোধ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5329,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "অপটিক্যাল ফাইবার ক্যাবলের মধ্য দিয়ে আলোর বিভিন্ন তরঙ্গদৈর্ঘ্যকে (Wavelength) মিশ্রিত করে প্রেরণের প্রযুক্তি কোনটি?",
+    "options": [
+      "A) FDM",
+      "B) TDM",
+      "C) ওয়েভলেংথ ডিভিশন মাল্টিপ্লেক্সিং (WDM / DWDM)",
+      "D) CDM"
+    ],
+    "answer": 2,
+    "explanation": "WDM হলো ফাইবার অপটিক্সের জন্য FDM; প্রিজম বা গ্র্যাটিং দিয়ে বিভিন্ন রঙের লেজার আলোকে একক ফাইবারে পাঠানো হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5330,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ডিজিটাল সিগন্যালের ক্ষেত্রে পুরো সময়কে ক্ষুদ্র ক্ষুদ্র টাইম স্লটে ভাগ করে চ্যানেল শেয়ার করার পদ্ধতি কোনটি?",
+    "options": [
+      "A) WDM",
+      "B) টাইম ডিভিশন মাল্টিপ্লেক্সিং (TDM)",
+      "C) FDM",
+      "D) AM"
+    ],
+    "answer": 1,
+    "explanation": "TDM সম্পূর্ণ ব্যান্ডউইথ ব্যবহার করে কিন্তু প্রতিটি প্রেরককে নির্দিষ্ট সময় পর পর টাইম স্লট দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5331,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "সিঙ্ক্রোনাস টিডিএম (Synchronous TDM)-এর প্রধান অপচয় বা সীমাবদ্ধতা কোনটি?",
+    "options": [
+      "A) এটি ডিজিটাল সিগন্যালে চলে না",
+      "B) এটি খুব জটিল",
+      "C) এতে কোনো বাফার থাকে না",
+      "D) কোনো প্রেরক ডিভাইস নিষ্ক্রিয় থাকলেও তার জন্য বরাদ্দকৃত টাইম স্লটটি ফাঁকা অবস্থাতেই চলে যায় (স্লট অপচয়)"
+    ],
+    "answer": 3,
+    "explanation": "সিঙ্ক্রোনাস টিডিএম প্রতিটি উৎসের জন্য স্থায়ী টাইম স্লট রাখে, ফলে ডেটা না থাকলে ব্যান্ডউইথ অপচয় হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5332,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "চাহিদা অনুযায়ী কেবল সক্রিয় ডিভাইসগুলোকে ডায়নামিকালি টাইম স্লট বরাদ্দ করে অপচয় রোধকারী টিডিএম কোনটি?",
+    "options": [
+      "A) স্ট্যাটিস্টিক্যাল টিডিএম বা অ্যাসিনক্রোনাস টিডিএম (Statistical TDM)",
+      "B) FDM",
+      "C) WDM",
+      "D) সিঙ্ক্রোনাস টিডিএম"
+    ],
+    "answer": 0,
+    "explanation": "Statistical TDM-এ স্লটগুলো কেবল সক্রিয় প্রেরকদের দেওয়া হয় এবং প্রতিটি স্লটে গ্রাহকের অ্যাড্রেস যুক্ত থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5333,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "উত্তর আমেরিকার টেলিযোগাযোগে স্ট্যান্ডার্ড T1 ক্যারিয়ার লাইনের মোট ডেটা রেট কত?",
+    "options": [
+      "A) ০৪৮ Mbps",
+      "B) ৫৪৪ Mbps (1.544 Mbps - ২৪টি ভয়েস চ্যানেল)",
+      "C) ১০ Mbps",
+      "D) ৬৪ kbps"
+    ],
+    "answer": 1,
+    "explanation": "T1 লাইনে ২৪টি ৬৪ kbps চ্যানেল + ৮ kbps ফ্রেমিং বিট মিলিয়ে মোট $(24 \\times 8 + 1) \\times 8000 = 1.544\\text{ Mbps}$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5334,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "ইউরোপীয় স্ট্যান্ডার্ড E1 ক্যারিয়ার লাইনের ডেটা ট্রান্সমিশন রেট কত?",
+    "options": [
+      "A) ৫৪৪ Mbps",
+      "B) ৫৬ kbps",
+      "C) ৩৪ Mbps",
+      "D) ০৪৮ Mbps (2.048 Mbps - ৩২টি চ্যানেল)"
+    ],
+    "answer": 3,
+    "explanation": "E1 লাইনে ৩২টি ৬৪ kbps চ্যানেল (৩০টি ভয়েস + ২টি সিগন্যালিং) থাকে, যার মোট স্পিড $32 \\times 64 = 2.048\\text{ Mbps}$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5335,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "অপটিক্যাল ফাইবার নেটওয়ার্কে ব্যবহৃত SONET আর্কিটেকচারের মৌলিক বেস ট্রান্সমিশন রেট (STS-1 / OC-1) কত?",
+    "options": [
+      "A) ৫১.৮৪ Mbps (51.84 Mbps)",
+      "B) ১৫৫.৫২ Mbps",
+      "C) ১০ Gbps",
+      "D) ৫৪৪ Mbps"
+    ],
+    "answer": 0,
+    "explanation": "SONET-এর মূল কাঠামো STS-1 প্রতি ১২৫ মাইক্রো-সেকেন্ডে ৮১০ বাইটের ফ্রেম পাঠিয়ে ৫১.৮৪ Mbps গতি দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5336,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "স্প্রেড স্পেকট্রাম (Spread Spectrum) প্রযুক্তির মূল উদ্দেশ্য কী?",
+    "options": [
+      "A) কেবল তারের খরচ কমানো",
+      "B) ব্যান্ডউইথ কমানো",
+      "C) সিগন্যালকে প্রয়োজনীয় ব্যান্ডের চেয়ে অনেক বেশি বিস্তৃত ফ্রিকোয়েন্সিতে ছড়িয়ে দিয়ে জ্যামিং প্রতিরোধ ও নিরাপত্তা নিশ্চিত করা",
+      "D) সিগন্যাল স্লো করা"
+    ],
+    "answer": 2,
+    "explanation": "স্প্রেড স্পেকট্রাম সংকেতকে কৃত্রিম নয়েজের মতো ছড়িয়ে দেয় যা বহিরাগত জ্যামিং ও আড়িপাতা সম্পূর্ণ ব্যর্থ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5337,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "একটি ছদ্ম-এলোমেলো (Pseudorandom) সিকোয়েন্স অনুযায়ী ক্যারিয়ার ফ্রিকোয়েন্সি দ্রুত পরিবর্তনকারী কৌশল কোনটি?",
+    "options": [
+      "A) FDM",
+      "B) TDM",
+      "C) DSSS",
+      "D) ফ্রিকোয়েন্সি হপিং স্প্রেড স্পেকট্রাম (FHSS - Frequency Hopping)"
+    ],
+    "answer": 3,
+    "explanation": "FHSS প্রতি সেকেন্ডে শত শত বার ক্যারিয়ার পরিবর্তন করে লাফিয়ে চলে (যেমন ব্লুটুথ প্রযুক্তিতে ব্যবহৃত)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5338,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "মূল ডেটা বিটকে উচ্চগতির ছদ্ম-কোড (Chipping Code) দ্বারা গুণ করে স্প্রেড করার কৌশল কোনটি?",
+    "options": [
+      "A) ডিরেক্ট সিকোয়েন্স স্প্রেড স্পেকট্রাম (DSSS)",
+      "B) OFDM",
+      "C) FHSS",
+      "D) QAM"
+    ],
+    "answer": 0,
+    "explanation": "DSSS প্রতিটি ডেটা বিটকে চিপিং কোড দিয়ে গুণ করে সংকেতকে বিস্তৃত করে (Wi-Fi 802.11b এবং CDMA তে ব্যবহৃত)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5339,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "একই ফ্রিকোয়েন্সি ও একই সময়ে একাধিক ব্যবহারকারীকে স্বতন্ত্র গাণিতিক কোড (Orthogonal Codes) দিয়ে যোগাযোগ করানোর পদ্ধতি কোনটি?",
+    "options": [
+      "A) TDMA",
+      "B) CSMA/CD",
+      "C) কোড ডিভিশন মাল্টিপল অ্যাক্সেস (CDMA)",
+      "D) FDMA"
+    ],
+    "answer": 2,
+    "explanation": "CDMA প্রতিটি ব্যবহারকারীকে অর্থোগোনাল ওয়ালশ কোড (Walsh Code) বরাদ্দ করে সংকেত পৃথক রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5340,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "৪জি এলটিই এবং আধুনিক ওয়াই-ফাইতে স্পেকট্রাম দক্ষতা বাড়াতে পরস্পর লম্ব সাব-ক্যারিয়ার ব্যবহারকারী মড্যুলেশন কোনটি?",
+    "options": [
+      "A) TDM",
+      "B) OFDM (Orthogonal Frequency Division Multiplexing)",
+      "C) DSSS",
+      "D) FDM"
+    ],
+    "answer": 1,
+    "explanation": "OFDM সাব-ক্যারিয়ারগুলোকে পরস্পর অর্থোগোনাল রাখায় কোনো গার্ড ব্যান্ড ছাড়াই ওভারল্যাপ করে অবিশ্বাস্য ডেটা রেট দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5341,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "একটি একক উচ্চগতির ডিজিটাল স্ট্রিমকে একাধিক ধীরগতির লাইনে ভাগ করে পাঠানোর বিপরীত প্রক্রিয়াকে কী বলে?",
+    "options": [
+      "A) এনকোডিং",
+      "B) মড্যুলেশন",
+      "C) ইনভার্স মাল্টিপ্লেক্সিং (Inverse Multiplexing)",
+      "D) ডিমাল্টিপ্লেক্সিং"
+    ],
+    "answer": 2,
+    "explanation": "Inverse Multiplexing একটি বৃহৎ ব্যান্ডউইথের প্রবাহকে একাধিক সাশ্রয়ী সরু চ্যানেলে ভেঙে পাঠায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5342,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "একক অপটিক্যাল ফাইবারে অত্যন্ত ঘন ঘন তরঙ্গদৈর্ঘ্য (যেমন ৮০ থেকে ১৬০টি আলো চ্যানেল) পাঠানোর আধুনিক রূপ কোনটি?",
+    "options": [
+      "A) TDM",
+      "B) CWDM",
+      "C) FDM",
+      "D) DWDM (Dense Wavelength Division Multiplexing)"
+    ],
+    "answer": 3,
+    "explanation": "DWDM অত্যন্ত সংকীর্ণ ব্যবধানে (০.৮ nm বা কম) শতাধিক তরঙ্গদৈর্ঘ্য চালিয়ে টেরাবিট স্পিড নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5343,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "সিঙ্ক্রোনাস টিডিএম-এ প্রতিটি ফ্রেমের শুরুতে রিসিভারকে সিঙ্ক্রোনাইজ রাখতে কোন বিট যুক্ত করা হয়?",
+    "options": [
+      "A) স্টপ বিট",
+      "B) ফ্রেমিং বিট (Framing Bit)",
+      "C) প্যারিটি বিট",
+      "D) ডামি বিট"
+    ],
+    "answer": 1,
+    "explanation": "প্রতিটি TDM ফ্রেমের সীমানা চিহ্নিত করতে ফ্রেমিং বিট (যেমন ১ বিট অল্টারনেটিং প্যাটার্ন 0101) যোগ করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5344,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "টেলিকমিউনিকেশনে FDM ডিমাল্টিপ্লেক্সিংয়ের সময় গ্রাহক প্রান্তে সংকেত পৃথক করার মূল উপাদান কোনটি?",
+    "options": [
+      "A) ব্যান্ডপাস ফিল্টার (Bandpass Filter)",
+      "B) অ্যাম্প্লিফায়ার",
+      "C) লো-পাস ফিল্টার",
+      "D) ইনভার্টার"
+    ],
+    "answer": 0,
+    "explanation": "ব্যান্ডপাস ফিল্টার নির্দিষ্ট কাঙ্ক্ষিত ফ্রিকোয়েন্সি ব্যান্ডকে রেখে বাকি সকল কম্পাঙ্ক আটকে দিয়ে সিগন্যাল আলাদা করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5345,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৬.৫: মাল্টিপ্লেক্সিং ও স্প্রেড স্পেকট্রাম (Multiplexing & Spread Spectrum)",
+    "subtopic": "বিষয়- ৬. ডেটা কমিউনিকেশন (Data Communication)",
+    "question": "টেলিযোগাযোগে সেলুলার ৩জি প্রযুক্তির মূল ভিত্তি কোনটি ছিল?",
+    "options": [
+      "A) WCDMA (Wideband CDMA)",
+      "B) GSM",
+      "C) GPRS",
+      "D) AMPS"
+    ],
+    "answer": 0,
+    "explanation": "৩জি ইউএমটিএস সেলুলার নেটওয়ার্ক ৫ MHz ব্যান্ডের ডাইরেক্ট সিকোয়েন্স WCDMA স্প্রেড স্পেকট্রামের ওপর প্রতিষ্ঠিত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

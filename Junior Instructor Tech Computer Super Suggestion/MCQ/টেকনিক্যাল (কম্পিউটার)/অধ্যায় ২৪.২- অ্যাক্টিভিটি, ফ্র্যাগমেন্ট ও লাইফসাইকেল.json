@@ -1,0 +1,842 @@
+[
+  {
+    "id": 4241,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপ্লিকেশনে ব্যবহারকারীর সামনে উপস্থাপিত একক স্ক্রিন এবং ইন্টারঅ্যাকশন উইন্ডোকে কী বলে?",
+    "options": [
+      "A) ব্রডকাস্ট রিসিভার",
+      "B) কন্টেন্ট প্রোভাইডার",
+      "C) অ্যাক্টিভিটি (Activity)",
+      "D) সার্ভিস"
+    ],
+    "answer": 2,
+    "explanation": "Activity হলো একটি একক ইউজার ইন্টারফেস স্ক্রিন যার ওপর ভিউ বা উইজেট স্থাপন করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4242,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যাক্টিভিটি প্রথম তৈরি হওয়ার সময় সর্বপ্রথম কোন লাইফসাইকেল মেথডটি সিস্টেম কর্তৃক কল হয়?",
+    "options": [
+      "A) onStart()",
+      "B) onCreate()",
+      "C) onPause()",
+      "D) onResume()"
+    ],
+    "answer": 1,
+    "explanation": "`onCreate()`-এ অ্যাক্টিভিটির প্রাথমিক সেটআপ, ভিউ ইনফ্লেট (`setContentView`) এবং প্রাথমিক ডেটা লোড করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4243,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যাক্টিভিটি পর্দায় দৃশ্যমান (Visible) হওয়ার মুহূর্তে কোন লাইফসাইকেল মেথডটি কল হয়?",
+    "options": [
+      "A) onRestart()",
+      "B) onCreate()",
+      "C) onResume()",
+      "D) onStart()"
+    ],
+    "answer": 3,
+    "explanation": "`onStart()` মেথডে অ্যাক্টিভিটি পর্দায় ব্যবহারকারীর চোখে দৃশ্যমান হয় কিন্তু ফোকাসে আসে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4244,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যাক্টিভিটি ফোরগ্রাউন্ডে এসে ব্যবহারকারীর সাথে সরাসরি মিথস্ক্রিয়া (Interactive Focus) করার জন্য প্রস্তুত হলে কোন মেথড কল হয়?",
+    "options": [
+      "A) onResume()",
+      "B) onPause()",
+      "C) onStart()",
+      "D) onCreate()"
+    ],
+    "answer": 0,
+    "explanation": "`onResume()` হলো অ্যাক্টিভিটির রানিং স্টেজ যেখানে ক্যামেরা চালু বা অ্যানিমেশন স্টার্ট করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4245,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ব্যবহারকারী অন্য কোনো আংশিক স্বচ্ছ ডায়ালগ খুললে বা ফোন কল এলে বর্তমান অ্যাক্টিভিটির ফোকাস সাময়িক হারানোর মেথড কোনটি?",
+    "options": [
+      "A) onRestart()",
+      "B) onStop()",
+      "C) onPause()",
+      "D) onDestroy()"
+    ],
+    "answer": 2,
+    "explanation": "`onPause()` চলাকালীন অ্যাক্টিভিটি আংশিক দেখা যেতে পারে তবে এটি ফোকাস হারায়; এখানে ভারী কাজ করা নিষিদ্ধ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4246,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "যখন একটি অ্যাক্টিভিটি ব্যবহারকারীর পর্দা থেকে সম্পূর্ণ আড়ালে চলে যায় এবং আর দৃশ্যমান থাকে না তখন কোন মেথড কল হয়?",
+    "options": [
+      "A) onDestroy()",
+      "B) onStop()",
+      "C) onCreate()",
+      "D) onPause()"
+    ],
+    "answer": 1,
+    "explanation": "ব্যবহারকারী হোম বাটন চাপলে বা নতুন কোনো পূর্ণস্ক্রিন অ্যাক্টিভিটি খুললে পূর্ববর্তী অ্যাক্টিভিটিতে `onStop()` কল হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4247,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "একটি স্টপ (Stopped) হয়ে থাকা অ্যাক্টিভিটি পুনরায় ব্যাকগ্রাউন্ড থেকে ফোরগ্রাউন্ডে ফিরে আসার সময় onStart()-এর পূর্বে কোন মেথড কল হয়?",
+    "options": [
+      "A) onCreate()",
+      "B) onResume()",
+      "C) onRestore()",
+      "D) onRestart()"
+    ],
+    "answer": 3,
+    "explanation": "অ্যাক্টিভিটি মেমরি থেকে ধ্বংস না হয়ে কেবল লুকানো থাকলে ফিরে আসার সময় `onRestart()` হয়ে পুনরায় `onStart()`-এ যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4248,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যাক্টিভিটি মেমরি থেকে সম্পূর্ণরূপে ধ্বংস (Killed / Finished) হওয়ার আগে সর্বশেষ কোন লাইফসাইকেল মেথডটি কল হয়?",
+    "options": [
+      "A) onDestroy()",
+      "B) onPause()",
+      "C) onStop()",
+      "D) onTerminate()"
+    ],
+    "answer": 0,
+    "explanation": "`finish()` মেথড কল করলে বা ওএস মেমরির চরম সংকটে অ্যাক্টিভিটি কিল করলে ধ্বংস হওয়ার আগে `onDestroy()` এক্সিকিউট হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4249,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "স্মার্টফোনকে পোর্ট্রেট থেকে ল্যান্ডস্কেপে রোটেট (Configuration Change) করলে অ্যাক্টিভিটিতে কী ঘটে?",
+    "options": [
+      "A) কেবল টেক্সট বড় হয়",
+      "B) অ্যাক্টিভিটি কিছুই পরিবর্তন হয় না",
+      "C) ফোন রিবুট হয়",
+      "D) বর্তমান অ্যাক্টিভিটি ধ্বংস হয়ে (Destroy) পুনরায় স্ক্র্যাচ থেকে নতুন করে onCreate() কল করে তৈরি হয়"
+    ],
+    "answer": 3,
+    "explanation": "ডিভাইস রোটেট করলে রিসোর্স কনফিগারেশন বদলায় বলে ওএস স্বয়ংক্রিয়ভাবে অ্যাক্টিভিটি ডেস্ট্রয় করে নতুন রিসোর্স দিয়ে নতুন করে বানায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4250,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "স্ক্রিন রোটেশনের ফলে অ্যাক্টিভিটি ধ্বংস হলেও ইউজার ইন্টারফেসের ডেটা সাময়িকভাবে সংরক্ষণ করার কলব্যাক মেথড কোনটি?",
+    "options": [
+      "A) onSaveInstanceState(Bundle)",
+      "B) onDestroy()",
+      "C) onSaveData()",
+      "D) onPause()"
+    ],
+    "answer": 0,
+    "explanation": "Bundle-এ কি-ভ্যালু আকারে ডেটা সেভ করা হয় যা পরবর্তীতে `onCreate(savedInstanceState)` মেথডে ফেরত পাওয়া যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4251,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কনফিগারেশন চেঞ্জের পরও ডেটা নিরাপদে ধরে রাখার আধুনিক জেটপ্যাক আর্কিটেকচার কম্পোনেন্ট কোনটি?",
+    "options": [
+      "A) ContentProvider",
+      "B) ViewModel",
+      "C) SQLite",
+      "D) SharedPreferences"
+    ],
+    "answer": 1,
+    "explanation": "ViewModel-এর লাইফসাইকেল অ্যাক্টিভিটির ধ্বংসের পরও জীবিত থাকে এবং নতুন অ্যাক্টিভিটিতে সেই ডেটা সরবরাহ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4252,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড ওএসে খোলা অ্যাক্টিভিটিগুলো যে ডেটা স্ট্রাকচারে (Task Stack) ক্রমান্বয়ে জমা থাকে তার বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "A) বাইনারি ট্রি",
+      "B) গ্রাফ",
+      "C) LIFO স্ট্যাক (Last-In, First-Out ব্যাক-স্ট্যাক)",
+      "D) FIFO কিউ"
+    ],
+    "answer": 2,
+    "explanation": "নতুন অ্যাক্টিভিটি স্ট্যাকের সবার উপরে বসে; ব্যাক বাটন চাপলে শীর্ষের অ্যাক্টিভিটি পপ আউট হয়ে আগের স্ক্রিন সামনে আসে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4253,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "চলমান কোনো অ্যাক্টিভিটিকে কোড থেকে তাৎক্ষণিক বন্ধ করার জন্য কোন ফাংশনটি কল করতে হয়?",
+    "options": [
+      "A) exit()",
+      "B) finish()",
+      "C) stop()",
+      "D) destroy()"
+    ],
+    "answer": 1,
+    "explanation": "`finish()` কল করলে অ্যাক্টিভিটি ব্যাক-স্ট্যাক থেকে সরে যায় এবং onDestroy মেথডের দিকে এগোয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4254,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "একটি অ্যাক্টিভিটির ভেতরে পুনর্ব্যবহারযোগ্য সাব-অ্যাক্টিভিটি বা মডুলার ইউআই অংশকে কী বলে?",
+    "options": [
+      "A) ফ্র্যাগমেন্ট (Fragment)",
+      "B) প্যানেল",
+      "C) সার্ভিস",
+      "D) উইজেট"
+    ],
+    "answer": 0,
+    "explanation": "Fragment হলো নিজস্ব লাইফসাইকেল বিশিষ্ট একটি মডুলার UI খণ্ড যা একই অ্যাক্টিভিটিতে একাধিক স্ক্রিন লেআউট তৈরি করতে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4255,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ফ্র্যাগমেন্ট প্রথম যখন তার হোস্ট অ্যাক্টিভিটির সাথে সংযুক্ত হয় তখন ফ্র্যাগমেন্টের কোন মেথড কল হয়?",
+    "options": [
+      "A) onStart()",
+      "B) onCreateView()",
+      "C) onCreate()",
+      "D) onAttach(Context)"
+    ],
+    "answer": 3,
+    "explanation": "`onAttach()` নিশ্চিত করে যে ফ্র্যাগমেন্টটি সফলভাবে প্যারেন্ট অ্যাক্টিভিটির সাথে যুক্ত হয়েছে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4256,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ফ্র্যাগমেন্টের নিজস্ব XML লেআউট লোড (Inflate) করে ভিউ হায়ারার্কি তৈরি করার মেথড কোনটি?",
+    "options": [
+      "A) onStart()",
+      "B) onCreate()",
+      "C) onCreateView()",
+      "D) onViewCreated()"
+    ],
+    "answer": 2,
+    "explanation": "`onCreateView()` LayoutInflater-এর সাহায্যে XML লেআউটকে বাস্তব View অবজেক্টে ইনফ্লেট করে রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4257,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ফ্র্যাগমেন্টের ভিউ সফলভাবে তৈরি হওয়ার পর বাটন ক্লিক লিসেনার বা ইনিশিয়ালাইজেশন করার সবচেয়ে নিরাপদ মেথড কোনটি?",
+    "options": [
+      "A) onViewCreated(View, Bundle)",
+      "B) onCreate()",
+      "C) onAttach()",
+      "D) onDestroyView()"
+    ],
+    "answer": 0,
+    "explanation": "`onViewCreated()`-এ নিশ্চিত হওয়া যায় যে ভিউ তৈরি সম্পন্ন হয়েছে, ফলে findViewById বা ভিউ বাইন্ডিং নিরাপদে করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4258,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ফ্র্যাগমেন্ট ব্যাক-স্ট্যাকে গেলে তার ভিজ্যুয়াল ভিউ ধ্বংস হলেও ফ্র্যাগমেন্ট ইনস্ট্যান্স বেঁচে থাকার সময়ের মেথড কোনটি?",
+    "options": [
+      "A) onStop()",
+      "B) onDetach()",
+      "C) onDestroy()",
+      "D) onDestroyView()"
+    ],
+    "answer": 3,
+    "explanation": "`onDestroyView()`-এ ভিউ মেমরি ফ্রি করা হয় কিন্তু ফ্র্যাগমেন্ট অবজেক্ট মেমরিতে বজায় থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4259,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ফ্র্যাগমেন্ট হোস্ট অ্যাক্টিভিটি থেকে সম্পূর্ণরূপে বিচ্ছিন্ন হওয়ার শেষ মেথড কোনটি?",
+    "options": [
+      "A) onDestroyView()",
+      "B) onDetach()",
+      "C) onDestroy()",
+      "D) onStop()"
+    ],
+    "answer": 1,
+    "explanation": "`onDetach()` কল হওয়ার পর ফ্র্যাগমেন্টের সাথে অ্যাক্টিভিটির কোনো সম্পর্ক বা কনটেক্সট অবশিষ্ট থাকে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4260,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "রানটাইমে কোড দিয়ে ফ্র্যাগমেন্ট যোগ, প্রতিস্থাপন (Replace) বা ডিলিট করার ট্রানজ্যাকশন পরিচালনাকারী ক্লাসের নাম কী?",
+    "options": [
+      "A) LayoutManager",
+      "B) WindowManager",
+      "C) FragmentManager এবং FragmentTransaction",
+      "D) ActivityManager"
+    ],
+    "answer": 2,
+    "explanation": "`supportFragmentManager.beginTransaction()` দিয়ে শুরু করে `replace()` বা `add()` করার পর `commit()` করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4261,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ফ্র্যাগমেন্ট প্রতিস্থাপন (Replace) করার সময় ব্যবহারকারী যাতে ফোনের ব্যাক বাটন চাপলে আগের ফ্র্যাগমেন্টে ফিরতে পারে সেজন্য কী কল করতে হয়?",
+    "options": [
+      "A) keepInMemory()",
+      "B) pushBack()",
+      "C) addToBackStack(null)",
+      "D) saveToHistory()"
+    ],
+    "answer": 2,
+    "explanation": "`addToBackStack(null)` ট্রানজ্যাকশনটিকে অ্যাক্টিভিটির ব্যাক-স্ট্যাকে সংরক্ষণ করে ফলে ব্যাক বাটনে পূর্ববর্তী ফ্র্যাগমেন্ট ফিরে আসে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4262,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "এক ফ্র্যাগমেন্ট থেকে অন্য ফ্র্যাগমেন্টে আর্গুমেন্ট হিসেবে নিরাপদ ডেটা পাঠানোর আধুনিক প্রস্তাবিত মেকানিজম কোনটি?",
+    "options": [
+      "A) Bundle / SafeArgs এবং Shared ViewModel",
+      "B) ফাইলে লিখে রাখা",
+      "C) ডাটাবেসে সেভ করা",
+      "D) স্ট্যাটিক গ্লোবাল ভ্যারিয়েবল"
+    ],
+    "answer": 0,
+    "explanation": "নেভিগেশন কম্পোনেন্টের SafeArgs প্লাগইন বা প্যারেন্ট অ্যাক্টিভিটি শেয়ার্ড ভিউমডেল ডেটা আদান-প্রদানের সবচেয়ে নির্ভরযোগ্য পথ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4263,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যাক্টিভিটি ম্যানিফেস্টে `<intent-filter>` ট্যাগে 'android.intent.action.MAIN' এবং 'android.intent.category.LAUNCHER' দিলে কী ঘটে?",
+    "options": [
+      "A) অ্যাপে ইন্টারনেট চলবে",
+      "B) অ্যাপটি ব্যাকগ্রাউন্ডে লুকানো থাকবে",
+      "C) অ্যাপটি বন্ধ হয়ে যাবে",
+      "D) অ্যাক্টিভিটিটি ফোনের অ্যাপ ড্রয়ারে মূল লঞ্চার আইকন হিসেবে প্রদর্শিত হবে এবং অ্যাপ খোলার সময় সবার আগে চালু হবে"
+    ],
+    "answer": 3,
+    "explanation": "এই ফিল্টারটি অ্যাপের এন্ট্রি-পয়েন্ট বা শুরুর অ্যাক্টিভিটি (Splash বা Main) নির্ধারণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4264,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "একটি অ্যাক্টিভিটির ভেতরে XML লেআউট ফাইলকে পর্দায় প্রদর্শন করার জন্য কোন ফাংশনটি কল করা বাধ্যতামূলক?",
+    "options": [
+      "A) inflateLayout()",
+      "B) setContentView(R.layout.activity_main)",
+      "C) initUI()",
+      "D) showLayout()"
+    ],
+    "answer": 1,
+    "explanation": "`setContentView()` মেথড অ্যাক্টিভিটির উইন্ডোকে নির্দিষ্ট XML লেআউটের সাথে যুক্ত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4265,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড ৮.০ (Oreo) থেকে ব্যাকগ্রাউন্ড প্রসেসের ব্যাটারি অপচয় রোধে কোন সীমাবদ্ধতা আরোপ করা হয়েছে?",
+    "options": [
+      "A) ব্যাকগ্রাউন্ড সার্ভিস লিমিটেশন (Background Execution Limits - ফোরগ্রাউন্ড সার্ভিস বা WorkManager ব্যবহার বাধ্যতামূলক)",
+      "B) ইন্টারনেট বন্ধ করা",
+      "C) সব অ্যাপ বন্ধ করে দেওয়া",
+      "D) কোটলিন নিষিদ্ধ করা"
+    ],
+    "answer": 0,
+    "explanation": "অ্যান্ড্রয়েড ওরিও থেকে সাধারণ আন-বাউন্ড ব্যাকগ্রাউন্ড সার্ভিস কিছুক্ষণ পর কিল হয়ে যায়; তাই নোটিফিকেশন সহ Foreground Service ব্যবহার করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4266,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ব্যবহারকারী স্ট্যাটাস বারে সবসময় একটি স্থায়ী নোটিফিকেশন দেখতে পাওয়ার ব্যাকগ্রাউন্ড সার্ভিসকে কী বলে?",
+    "options": [
+      "A) ইনটেন্ট সার্ভিস",
+      "B) ব্যাকগ্রাউন্ড সার্ভিস",
+      "C) বাউন্ড সার্ভিস",
+      "D) ফোরগ্রাউন্ড সার্ভিস (Foreground Service - যেমন মিউজিক প্লেয়ার বা জিপিএস ট্র্যাকিং)"
+    ],
+    "answer": 3,
+    "explanation": "Foreground Service ব্যবহারকারীকে অবগত রেখে ব্যাকগ্রাউন্ডে দীর্ঘমেয়াদী কাজ চালায় এবং ওএস এটি সহজে মেমরি সংকটে মারে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4267,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড সিস্টেমে ডিভাইস বুট হওয়া, ব্যাটারি লো হওয়া বা ইন্টারনেট কানেক্টিভিটি পরিবর্তনের মতো সিস্টেম বার্তা গ্রহণকারী কম্পোনেন্ট কোনটি?",
+    "options": [
+      "A) ফ্র্যাগমেন্ট",
+      "B) ব্রডকাস্ট রিসিভার (Broadcast Receiver)",
+      "C) অ্যাক্টিভিটি",
+      "D) সার্ভিস"
+    ],
+    "answer": 1,
+    "explanation": "Broadcast Receiver কোনো ইউজার ইন্টারফেস ছাড়া সিস্টেম বা অন্যান্য অ্যাপের ঘোষিত গ্লোবাল বার্তা শুনতে ও সাড়া দিতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4268,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "একটি অ্যাপ্লিকেশন অন্য অ্যাপ্লিকেশনের সাথে নিজস্ব ডেটাবেসের ডেটা নিরাপদে শেয়ার করার জন্য কোন উপাদান ব্যবহার করে?",
+    "options": [
+      "A) সার্ভিস",
+      "B) ইনটেন্ট",
+      "C) কন্টেন্ট প্রোভাইডার (Content Provider - যেমন কন্টাক্টস বা গ্যালারি অ্যাক্সেস)",
+      "D) ব্রডকাস্ট রিসিভার"
+    ],
+    "answer": 2,
+    "explanation": "Content Provider URI স্কিম (content://...) ব্যবহার করে স্ট্যান্ডার্ড CRUD অপারেশনের মাধ্যমে অ্যাপের মধ্যে নিরাপদ ডেটা আদান-প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4269,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যাক্টিভিটি ব্যাক-স্ট্যাকে কোনো ডুপ্লিকেট অ্যাক্টিভিটি যেন তৈরি না হয় এবং স্ট্যাকের শীর্ষে থাকলে সেটিই ব্যবহার করার লঞ্চ মোড কোনটি?",
+    "options": [
+      "A) singleTask",
+      "B) singleTop",
+      "C) singleInstance",
+      "D) standard (যা প্রতিবার নতুন ইনস্ট্যান্স খোলে)"
+    ],
+    "answer": 1,
+    "explanation": "`singleTop` মোডে অ্যাক্টিভিটি স্ট্যাকের শীর্ষে থাকলে নতুন অ্যাক্টিভিটি না খুলে `onNewIntent()` কল করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4270,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যাপ স্ক্রিনে ব্যবহারকারী হোম বাটন চাপলে অ্যাক্টিভিটিতে মেথড কল হওয়ার সঠিক ক্রম কোনটি?",
+    "options": [
+      "A) onPause() -> onStop()",
+      "B) onDestroy() -> onStop()",
+      "C) onPause() -> onDestroy()",
+      "D) onStop() -> onDestroy()"
+    ],
+    "answer": 0,
+    "explanation": "হোম বাটন চাপলে অ্যাপ দৃশ্যপট থেকে চলে যায়, প্রথমে ফোকাস হারিয়ে onPause() হয় এবং পরে সম্পূর্ণরূপে আড়ালে গিয়ে onStop() হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4271,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "হোমে থাকা একটি অ্যাপে ব্যবহারকারী পুনরায় ট্যাপ করে ফিরে আসলে মেথড কল হওয়ার সঠিক ক্রম কোনটি?",
+    "options": [
+      "A) onCreate() -> onStart()",
+      "B) onResume() -> onStart()",
+      "C) onStart() -> onCreate()",
+      "D) onRestart() -> onStart() -> onResume()"
+    ],
+    "answer": 3,
+    "explanation": "স্টপ অবস্থা থেকে অ্যাপ রিস্টার্ট হয়ে প্রথমে দৃশ্যমান হয় (onStart) এবং তারপর ব্যবহারকারীর ফোকাসে আসে (onResume)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4272,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যাক্টিভিটিতে ব্যাক বাটন চাপলে মেথড কল হওয়ার সঠিক ধারাবাহিকতা কোনটি?",
+    "options": [
+      "A) onPause() -> onDestroy()",
+      "B) onStop() -> onPause()",
+      "C) onPause() -> onStop() -> onDestroy()",
+      "D) onDestroy() -> onStop()"
+    ],
+    "answer": 2,
+    "explanation": "ব্যাক বাটনে অ্যাক্টিভিটি চিরতরে বন্ধ হয়: ফোকাস ত্যাগ (onPause), দৃশ্যপট ত্যাগ (onStop) এবং মেমরি থেকে বিনাশ (onDestroy)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4273,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ফ্র্যাগমেন্ট ক্লাসে কোনো কনস্ট্রাক্টর ওভারলোড না করে আর্গুমেন্ট পাস করার স্ট্যান্ডার্ড অ্যান্ড্রয়েড প্যাটার্ন কোনটি?",
+    "options": [
+      "A) সরাসরি ভেরিয়েবল সেট করা",
+      "B) প্যারামিটারাইজড কনস্ট্রাক্টর কল করা",
+      "C) গ্লোবাল ভ্যারিয়েবলে রাখা",
+      "D) স্ট্যাটিক newInstance(args) ফ্যাক্টরি মেথড এবং setArguments(Bundle)"
+    ],
+    "answer": 3,
+    "explanation": "ওএস ফ্র্যাগমেন্ট রিক্রিয়েট করার সময় কেবল ডিফল্ট শূন্য-প্যারামিটার কনস্ট্রাক্টর কল করে; তাই `setArguments(Bundle)` ব্যবহার করা নিয়ম।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4274,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যাক্টিভিটির ভেতরে কাস্টম ডায়ালগ উইন্ডো হিসেবে প্রদর্শনের জন্য বিশেষ ফ্র্যাগমেন্ট সাব-ক্লাস কোনটি?",
+    "options": [
+      "A) ListFragment",
+      "B) DialogFragment",
+      "C) ViewFragment",
+      "D) PreferenceFragment"
+    ],
+    "answer": 1,
+    "explanation": "DialogFragment নিজস্ব লাইফসাইকেল বজায় রেখে মোডাল ডায়ালগ ও পপআপ স্ক্রিন তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4275,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ট্যাবলেট স্ক্রিনে বামে আইটেম তালিকা এবং ডানে নির্বাচিত আইটেমের বিবরণ একসাথে দেখানোর জন্য কোনটি সবচেয়ে উপযোগী?",
+    "options": [
+      "A) একক অ্যাক্টিভিটিতে দুটি পাশাপাশি ফ্র্যাগমেন্ট (Master-Detail Flow)",
+      "B) দুটি আলাদা আলাদা ফোন",
+      "C) একটি মাত্র টেক্সটভিউ",
+      "D) সার্ভিস"
+    ],
+    "answer": 0,
+    "explanation": "ট্যাবলেটের বড় স্ক্রিনে Master ফ্র্যাগমেন্ট ও Detail ফ্র্যাগমেন্ট একসাথে বসিয়ে চমৎকার আধুনিক লেআউট তৈরি হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4276,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ট্যাব লেআউটে সোয়াইপ করে ফ্র্যাগমেন্ট পরিবর্তন করার জন্য আধুনিক অ্যাডাপ্টার কম্পোনেন্ট কোনটি?",
+    "options": [
+      "A) ScrollView",
+      "B) ListView",
+      "C) ViewPager2 এবং FragmentStateAdapter",
+      "D) GridView"
+    ],
+    "answer": 2,
+    "explanation": "ViewPager2 রিসাইক্লার ভিউয়ের ওপর নির্মিত যা মেমরি অপ্টিমাইজেশনের মাধ্যমে মসৃণ অনুভূমিক সোয়াইপিং স্ক্রিন দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4277,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ফ্র্যাগমেন্ট ট্রানজ্যাকশন সম্পাদনে 'commit()' এবং 'commitNow()'-এর মধ্যে মৌলিক পার্থক্য কোনটি?",
+    "options": [
+      "A) commit() কাজ করে না",
+      "B) commit() মেইন থ্রেডে অ্যাসিনক্রোনাসলি শিডিউল করে; আর commitNow() তৎক্ষণাৎ সিঙ্ক্রোনাসলি সম্পন্ন করে",
+      "C) উভয় মেথড একই সময়ে চলে",
+      "D) commitNow() ব্যাক-স্ট্যাক সমর্থন করে না"
+    ],
+    "answer": 1,
+    "explanation": "`commit()` কল ব্যাকপ্যাকে জমা হয়ে পরবর্তী ইউআই সাইকেলে ঘটে, যেখানে `commitNow()` তাৎক্ষণিক ব্লকিং রান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4278,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যাক্টিভিটি লাইফসাইকেল স্টেট সরাসরি পর্যবেক্ষণ করার জন্য জেটপ্যাকের লাইফসাইকেল-অ্যাওয়ার কম্পোনেন্ট কোনটি?",
+    "options": [
+      "A) DefaultLifecycleObserver / LifecycleOwner",
+      "B) Thread",
+      "C) Handler",
+      "D) BroadcastReceiver"
+    ],
+    "answer": 0,
+    "explanation": "LifecycleObserver দিয়ে অ্যাক্টিভিটি কোডে কোনো বিশৃঙ্খলা ছাড়াই থার্ড-পার্টি লাইব্রেরি বা ক্লাস লাইফসাইকেল ট্র্যাক করতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4279,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড আর্কিটেকচারে UI উপাদানগুলোকে ডেটা পরিবর্তনের সাথে স্বয়ংক্রিয়ভাবে আপডেট করার লাইফসাইকেল-সচেতন অবজারভেবল ডেটা হোল্ডার কোনটি?",
+    "options": [
+      "A) HashMap",
+      "B) Cursor",
+      "C) LiveData (বা আধুনিক StateFlow)",
+      "D) ArrayList"
+    ],
+    "answer": 2,
+    "explanation": "LiveData কেবল অ্যাক্টিভিটি 'Active' (Started/Resumed) থাকা অবস্থায় ডেটা পাঠায় ফলে মেমরি লিক ও ক্র্যাশ রোধ হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4280,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.২: অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যাপ্লিকেশনের গ্লোবাল স্টেট ধারণ করার জন্য এবং অ্যাপ চলাকালীন পুরো সময় জীবিত থাকা বেস ক্লাস কোনটি?",
+    "options": [
+      "A) MainActivity",
+      "B) RootContext",
+      "C) BaseService",
+      "D) Application ক্লাস (বা কাস্টম MyCustomApp : Application())"
+    ],
+    "answer": 3,
+    "explanation": "Application ক্লাস অ্যাপের প্রথম প্রসেস চালুর সময় ইনস্ট্যানশিয়েট হয় এবং সম্পূর্ণ অ্যাপ বন্ধ না হওয়া পর্যন্ত মেমরিতে থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

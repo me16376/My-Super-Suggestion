@@ -1,0 +1,842 @@
+[
+  {
+    "id": 4281,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপে স্ক্রিনের আকার ও পিক্সেল ঘনত্বের ভিন্নতা সত্ত্বেও সব ডিভাইসে সমআকারের ইউআই বজায় রাখতে উইজেটের মাপ কোন এককে নির্ধারণ করতে হয়?",
+    "options": [
+      "A) px (Pixels)",
+      "B) dp বা dip (Density-independent Pixels)",
+      "C) in (Inches)",
+      "D) mm (Millimeters)"
+    ],
+    "answer": 1,
+    "explanation": "`dp` হলো ১৬০ ডিপিআই স্ক্রিনের ১ পিক্সেলের সমান ভার্চুয়াল একক যা সব ধরনের রেজোলিউশনে ভিউয়ের অনুপাত ঠিক রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4282,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ব্যবহারকারীর সিস্টেম সেটিংসে ফন্ট বড় বা ছোট করার সুবিধার জন্য লেখার টেক্সট সাইজ (Text Size) কোন এককে দিতে হয়?",
+    "options": [
+      "A) sp (Scale-independent Pixels)",
+      "B) pt",
+      "C) dp",
+      "D) px"
+    ],
+    "answer": 0,
+    "explanation": "`sp` ফন্টের জন্য ব্যবহৃত বিশেষ একক যা দৃষ্টিপ্রতিবন্ধী ব্যবহারকারীর সিস্টেম ফন্ট স্কেলিং অনুযায়ী স্বয়ংক্রিয় বড়-ছোট হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4283,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "পর্দায় ব্যবহারকারীকে কেবল টেক্সট প্রদর্শনের জন্য ব্যবহৃত প্রাথমিক উইজেট কোনটি?",
+    "options": [
+      "A) ImageView",
+      "B) EditText",
+      "C) Button",
+      "D) TextView"
+    ],
+    "answer": 3,
+    "explanation": "`TextView` স্ক্রিনে যেকোনো স্ট্যাটিক বা ডায়নামিক টেক্সট মেসেজ দেখাতে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4284,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ব্যবহারকারীর কাছ থেকে কীবোর্ডের মাধ্যমে টেক্সট বা পাসওয়ার্ড ইনপুট নেওয়ার মূল উইজেট কোনটি?",
+    "options": [
+      "A) CheckBox",
+      "B) TextView",
+      "C) EditText",
+      "D) Label"
+    ],
+    "answer": 2,
+    "explanation": "`EditText` হলো একটি সাব-ক্লাস যা ব্যবহারকারীকে টাইপ করার সুযোগ দেয় (`android:hint` দিয়ে ওয়াটারমার্ক টেক্সট দেওয়া হয়)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4285,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "একাধিক স্বতন্ত্র বিকল্প থেকে ব্যবহারকারীকে এক বা একাধিক পছন্দ নির্বাচনের অনুমতি দেয় কোন উইজেট?",
+    "options": [
+      "A) CheckBox",
+      "B) ProgressBar",
+      "C) Switch",
+      "D) RadioButton"
+    ],
+    "answer": 0,
+    "explanation": "CheckBox একাধিক স্বাধীন অপশন নির্বাচনের সুযোগ দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4286,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "একাধিক বিকল্পের মধ্য থেকে কেবল একটিমাত্র বিকল্প নির্বাচন নিশ্চিত করতে RadioButton-গুলোকে কোন কন্টেইনারে আবদ্ধ করতে হয়?",
+    "options": [
+      "A) LinearLayout",
+      "B) RadioGroup",
+      "C) ButtonGroup",
+      "D) FrameLayout"
+    ],
+    "answer": 1,
+    "explanation": "RadioGroup-এর ভেতরে থাকা RadioButton-গুলোর মধ্যে মিউচুয়াল এক্সক্লুসিভ আচরণ কাজ করে (একটি চাপলে অন্যটি আনচেক হয়)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4287,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "পর্দায় কিছু সময়ের জন্য একটি ছোট হালকা পপআপ বার্তা প্রদর্শন করে স্বয়ংক্রিয়ভাবে মিলিয়ে যাওয়ার মেকানিজম কোনটি?",
+    "options": [
+      "A) Notification",
+      "B) Dialog",
+      "C) Snackbar",
+      "D) Toast (Toast.makeText(context, \"Text\", Toast.LENGTH_SHORT).show())"
+    ],
+    "answer": 3,
+    "explanation": "Toast স্ক্রিনের নিচে সাময়িক বার্তা প্রদর্শন করে এবং ব্যবহারকারীর কোনো ক্লিক ছাড়াই নিজ থেকে অদৃশ্য হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4288,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "স্ক্রিনের নিচে অ্যাকশন বাটন (যেমন 'UNDO') সহ আধুনিক ফিডব্যাক নোটিফিকেশন বার প্রদর্শনকারী মেটেরিয়াল উইজেট কোনটি?",
+    "options": [
+      "A) Toast",
+      "B) AlertDialog",
+      "C) Snackbar (Snackbar.make(view, \"Deleted\", Snackbar.LENGTH_LONG).setAction(\"UNDO\").show())",
+      "D) Banner"
+    ],
+    "answer": 2,
+    "explanation": "Snackbar মেটেরিয়াল ডিজাইনের একটি উন্নত ফিডব্যাক উপাদান যাতে ব্যবহারকারীকে ফিরতি অ্যাকশন দেওয়ার সুযোগ থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4289,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ব্যবহারকারীকে কোনো সতর্কবার্তা দেখানো এবং নিশ্চিতকরণ বাতিলে 'OK' ও 'Cancel' বাটনযুক্ত পপআপের নাম কী?",
+    "options": [
+      "A) PopupWindow",
+      "B) AlertDialog (AlertDialog.Builder)",
+      "C) Toast",
+      "D) Snackbar"
+    ],
+    "answer": 1,
+    "explanation": "AlertDialog ব্যবহারকারীর কাছ থেকে ইতিবাচক বা নেতিবাচক সিদ্ধান্ত নেওয়ার জন্য স্ক্রিন সাময়িক ব্লক করে পপআপ দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4290,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ড্রপ-ডাউন তালিকা থেকে কোনো একটি আইটেম বাছাই করার সিলেক্টর উইজেটকে কী বলা হয়?",
+    "options": [
+      "A) Menu",
+      "B) ListView",
+      "C) Picker",
+      "D) Spinner"
+    ],
+    "answer": 3,
+    "explanation": "Spinner হলো ওয়েবের `<select>` ড্রপডাউন অপশনের অ্যান্ড্রয়েড সংস্করণ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4291,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "চাইল্ড ভিউগুলোকে একক সারিতে কেবল অনুভূমিক (Horizontal) বা উল্লম্ব (Vertical) দিকে সাজানোর লেআউট কোনটি?",
+    "options": [
+      "A) FrameLayout",
+      "B) RelativeLayout",
+      "C) LinearLayout (android:orientation=\"horizontal\" / \"vertical\")",
+      "D) ConstraintLayout"
+    ],
+    "answer": 2,
+    "explanation": "LinearLayout সোজা একমুখী রেখায় উপাদানগুলোকে সাজায় এবং `layout_weight` দিয়ে খালি স্পেস ভাগ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4292,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "LinearLayout-এ চাইল্ড ভিউগুলোর মধ্যে স্ক্রিনের খালি জায়গা আনুপাতিক হারে ভাগ করার বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "A) android:layout_weight",
+      "B) android:padding",
+      "C) android:layout_gravity",
+      "D) android:gravity"
+    ],
+    "answer": 0,
+    "explanation": "layout_weight স্ক্রিনের প্রস্থ বা উচ্চতা অনুযায়ী উপাদানগুলোর মাঝে অনুপাত (যেমন ১:২) বণ্টন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4293,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "একটি ভিউয়ের ভেতরের কন্টেন্ট (যেমন বাটনের ভেতরের লেখা) কোন দিকে সারিবদ্ধ হবে তা নির্ধারণকারী অ্যাট্রিবিউট কোনটি?",
+    "options": [
+      "A) android:orientation",
+      "B) android:layout_gravity",
+      "C) android:gravity",
+      "D) android:layout_weight"
+    ],
+    "answer": 2,
+    "explanation": "`gravity` ভিউয়ের ভেতরের কন্টেন্টের অ্যালাইনমেন্ট ঠিক করে; আর `layout_gravity` প্যারেন্টের মধ্যে পুরো ভিউয়ের অবস্থান ঠিক করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4294,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "চাইল্ড ভিউগুলোকে একে অপরের সাপেক্ষে (যেমন layout_toRightOf, layout_below) অবস্থান নির্ধারণকারী লেআউট কোনটি?",
+    "options": [
+      "A) RelativeLayout",
+      "B) FrameLayout",
+      "C) LinearLayout",
+      "D) TableLayout"
+    ],
+    "answer": 0,
+    "explanation": "RelativeLayout সম্পর্কিত পজিশনিংয়ের মাধ্যমে ভিউগুলোকে পরস্পরের ডানে, বামে বা নিচে স্থাপন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4295,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "একটিমাত্র একক চাইল্ড ভিউ ধারণ করতে অথবা ভিউগুলোকে কার্ডের মতো একটার ওপর আরেকটা স্ট্যাক করে রাখার জন্য সবচেয়ে উপযোগী হালকা লেআউট কোনটি?",
+    "options": [
+      "A) LinearLayout",
+      "B) FrameLayout",
+      "C) RelativeLayout",
+      "D) TableLayout"
+    ],
+    "answer": 1,
+    "explanation": "FrameLayout হলো ফ্র্যাগমেন্ট কন্টেইনার বা ছবির ওপর টেক্সট ব্যাজ স্ট্যাক করার সবচেয়ে হালকা লেআউট।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4296,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোনো নেস্টেড লেআউট ছাড়া সমতল (Flat View Hierarchy) কাঠামোর মাধ্যমে অত্যন্ত জটিল ও দ্রুতগতির ইউআই তৈরির আধুনিক আদর্শ লেআউট কোনটি?",
+    "options": [
+      "A) RelativeLayout",
+      "B) LinearLayout",
+      "C) AbsoluteLayout",
+      "D) ConstraintLayout"
+    ],
+    "answer": 3,
+    "explanation": "ConstraintLayout রিলেটিভ কনস্ট্রেইন্ট ব্যবহার করে মেমরি ও রেন্ডারিং গভীরতা সর্বনিম্ন রেখে সর্বোচ্চ পারফরম্যান্স নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4297,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ConstraintLayout-এ একটি ভিউয়ের শীর্ষ সীমানাকে প্যারেন্ট লেআউটের শীর্ষের সাথে বাঁধার অ্যাট্রিবিউট কোনটি?",
+    "options": [
+      "A) android:layout_alignParentTop=\"true\"",
+      "B) app:layout_constraintTop_toTopOf=\"parent\"",
+      "C) app:layout_alignTop=\"parent\"",
+      "D) app:layout_above=\"parent\""
+    ],
+    "answer": 1,
+    "explanation": "ConstraintLayout-এ অন্তত একটি অনুভূমিক এবং একটি উল্লম্ব কনস্ট্রেইন্ট বাঁধা বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4298,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ConstraintLayout-এ অদৃশ্য অনুভূমিক বা উল্লম্ব রেফারেন্স লাইন যার ওপর ভিত্তি করে শতাংশ হারে (Percent) ভিউ সাজানো যায় তাকে কী বলে?",
+    "options": [
+      "A) Chain",
+      "B) Barrier",
+      "C) Group",
+      "D) Guideline (Guideline with layout_constraintGuide_percent)"
+    ],
+    "answer": 3,
+    "explanation": "Guideline ডিজাইনে অদৃশ্য মার্কার তৈরি করে যেখানে স্ক্রিনের ৩০% বা ৫০% অবস্থানে উপাদান অ্যাঙ্কর করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4299,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "একাধিক ভিউয়ের সবচেয়ে বড় দৈর্ঘ্যের প্রান্তকে রেফারেন্স ধরে ডায়নামিক বাউন্ডারি তৈরির কনস্ট্রেইন্ট উপাদান কোনটি?",
+    "options": [
+      "A) Barrier",
+      "B) Chain",
+      "C) Flow",
+      "D) Guideline"
+    ],
+    "answer": 0,
+    "explanation": "Barrier ভাষার অনুবাদে লেখার সাইজ বড়-ছোট হলেও স্বয়ংক্রিয়ভাবে বাধা হিসেবে কাজ করে পরবর্তী ভিউকে ধাক্কা দিয়ে দূরে সরায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4300,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ঐতিহ্যবাহী ধীরগতির 'findViewById()' মেথডের বদলে টাইপ-সেফ ও নাল-সেফ উপায়ে XML ভিউগুলোকে সরাসরি অবজেক্ট হিসেবে পাওয়ার জেটপ্যাক ফিচারের নাম কী?",
+    "options": [
+      "A) কোটলিন সিন্থেটিক্স",
+      "B) রিসোর্স ম্যাপিং",
+      "C) ভিউ বাইন্ডিং (View Binding)",
+      "D) বাটারনাইফ"
+    ],
+    "answer": 2,
+    "explanation": "View Binding প্রতিটি XML ফাইলের জন্য স্বয়ংক্রিয়ভাবে বাইন্ডিং ক্লাস জেনারেট করে যা ভুল আইডি জনিত রানটাইম ক্র্যাশ সম্পূর্ণ বন্ধ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4301,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "ঐতিহ্যবাহী ListView-এর তুলনায় আধুনিক RecyclerView-এর প্রধান প্রযুক্তিগত সুবিধা কোনটি?",
+    "options": [
+      "A) এতে কোনো স্ক্রোলিং নেই",
+      "B) এতে কোনো অ্যাডাপ্টার লাগে না",
+      "C) বাধ্যতামূলক ভিউহোল্ডার প্যাটার্ন ব্যবহার করে স্ক্রিনের বাইরের ভিউগুলোকে রিসাইকেল করে মেমরি ও সিপিইউ বাঁচায়",
+      "D) এটি কেবল ৩টি আইটেম দেখাতে পারে"
+    ],
+    "answer": 2,
+    "explanation": "RecyclerView স্ক্রিন থেকে অদৃশ্য হওয়া ভিউ অবজেক্টগুলোকে ধ্বংস না করে নতুন ডেটার জন্য রিসাইকেল করে মসৃণ ৬০ FPS স্ক্রোলিং দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4302,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "RecyclerView-তে প্রতিটি একক আইটেমের ভিউ উপাদানগুলোর রেফারেন্স ক্যাশ করে রাখার ক্লাসের নাম কী?",
+    "options": [
+      "A) ItemDecoration",
+      "B) ViewHolder (RecyclerView.ViewHolder)",
+      "C) LayoutManager",
+      "D) Adapter"
+    ],
+    "answer": 1,
+    "explanation": "ViewHolder প্রতিটি সারির ভেতরের উইজেটগুলোর আইডি ধরে রাখে যাতে বারবার ব্যয়বহুল `findViewById()` কল করতে না হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4303,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "RecyclerView অ্যাডাপ্টারে ডেটা সংগ্রহের মোট উপাদান সংখ্যা রিটার্ন করার মেথড কোনটি?",
+    "options": [
+      "A) getItemCount(): Int",
+      "B) getCount()",
+      "C) totalItems()",
+      "D) size()"
+    ],
+    "answer": 0,
+    "explanation": "`getItemCount()` তালিকার মোট আইটেম সংখ্যা রিটার্ন করে যা রিসাইক্লার ভিউকে স্ক্রোল সীমানা নির্ধারণে সাহায্য করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4304,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "RecyclerView-তে একটি নির্দিষ্ট পজিশনের ডেটাকে সংশ্লিষ্ট ViewHolder-এর ভিউতে প্রদর্শন বা বাইন্ড করার মেথড কোনটি?",
+    "options": [
+      "A) setViewData()",
+      "B) onCreateViewHolder()",
+      "C) getItemCount()",
+      "D) onBindViewHolder(holder: ViewHolder, position: Int)"
+    ],
+    "answer": 3,
+    "explanation": "`onBindViewHolder()` মেথডে নির্দিষ্ট পজিশনের ডেটা অবজেক্ট তুলে এনে টেক্সটভিউ বা ইমেজভিউতে সেট করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4305,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "RecyclerView-এর আইটেমগুলো উল্লম্ব তালিকা, গ্রিড বা অসম পিন্টারেস্ট স্টাইলে সাজানোর দায়িত্ব কার?",
+    "options": [
+      "A) ViewHolder",
+      "B) Adapter",
+      "C) LayoutManager (LinearLayoutManager, GridLayoutManager, StaggeredGridLayoutManager)",
+      "D) DiffUtil"
+    ],
+    "answer": 2,
+    "explanation": "LayoutManager তালিকাটির উপস্থাপন বিন্যাস নির্ধারণ করে; এটি পরিবর্তন করে এক ক্লিকেই লিস্টকে গ্রিডে রূপান্তর করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4306,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "পুরো তালিকা রিফ্রেশ না করে ব্যাকগ্রাউন্ড থ্রেডে দুটি তালিকার মধ্যে কেবল পরিবর্তিত আইটেমগুলো গণনা করার আধুনিক জেটপ্যাক ইউটিলিটি কোনটি?",
+    "options": [
+      "A) BaseAdapter",
+      "B) ArrayAdapter",
+      "C) notifyDataSetChanged()",
+      "D) DiffUtil (বা ListAdapter)"
+    ],
+    "answer": 3,
+    "explanation": "DiffUtil ইউজিন মায়ার্সের পার্থক্য অ্যালগরিদম ব্যবহার করে কেবল পরিবর্তিত আইটেমগুলোতে মসৃণ অ্যানিমেশন সহ আংশিক আপডেট পাঠায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4307,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কোনো এক্সএমএল (XML) ফাইল ছাড়াই সম্পূর্ণ কোটলিন কোড দিয়ে ডিক্লারেটিভ উপায়ে ইউআই তৈরির আধুনিক অফিসিয়াল টুলকিট কোনটি?",
+    "options": [
+      "A) জেটপ্যাক কম্পোজ (Jetpack Compose)",
+      "B) অ্যান্ড্রয়েড ভিউজ",
+      "C) ফ্লাটার",
+      "D) জাভা সুইং"
+    ],
+    "answer": 0,
+    "explanation": "Jetpack Compose গুগলের সর্বাধুনিক ডিক্লারেটিভ ইউআই ফ্রেমওয়ার্ক যা কোটলিনের ফাংশন লিখে সরাসরি রিঅ্যাক্টিভ ইউআই তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4308,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "জেটপ্যাক কম্পোজে একটি ফাংশন যে একটি ইউজার ইন্টারফেস স্ক্রিন বা উইজেট তৈরি করে তা বোঝাতে কোন অ্যানোটেশনটি দিতে হয়?",
+    "options": [
+      "A) @UI",
+      "B) @Composable",
+      "C) @Widget",
+      "D) @View"
+    ],
+    "answer": 1,
+    "explanation": "`@Composable` অ্যানোটেশন কম্পোজ কম্পাইলারকে জানায় যে এই ফাংশনটি ডেটাকে ভিজ্যুয়াল ইউজার ইন্টারফেসে রূপান্তর করবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4309,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "জেটপ্যাক কম্পোজে উপাদানগুলোকে উল্লম্বভাবে (একটি উপাদানের নিচে আরেকটি) সাজানোর মৌলিক কম্পোজেবল কোনটি?",
+    "options": [
+      "A) Row",
+      "B) Stack",
+      "C) Column",
+      "D) Box"
+    ],
+    "answer": 2,
+    "explanation": "`Column` হলো ঐতিহ্যবাহী উল্লম্ব LinearLayout-এর সমতুল্য কম্পোজ কন্টেইনার।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4310,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "জেটপ্যাক কম্পোজে উপাদানগুলোকে অনুভূমিকভাবে (একটি উপাদানের ডানে আরেকটি) পাশাপাশি সাজানোর কম্পোজেবল কোনটি?",
+    "options": [
+      "A) Column",
+      "B) Row",
+      "C) Grid",
+      "D) Box"
+    ],
+    "answer": 1,
+    "explanation": "`Row` অনুভূমিক বিন্যাসে উইজেটগুলোকে পাশাপাশি সারিবদ্ধ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4311,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "একটি উপাদানের ওপর আরেকটি উপাদান স্ট্যাক আকারে বসানোর জন্য (FrameLayout-এর সমতুল্য) কম্পোজেবল কোনটি?",
+    "options": [
+      "A) Box",
+      "B) Layer",
+      "C) Row",
+      "D) Column"
+    ],
+    "answer": 0,
+    "explanation": "`Box` একাধিক ভিউকে একটির ওপর আরেকটি লেয়ার আকারে সাজায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4312,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "জেটপ্যাক কম্পোজে রিকম্পোজিশনের (Recomposition) সময় কোনো স্টেট বা ভ্যারিয়েবলের মান মেমরিতে ধরে রাখার ফাংশন কোনটি?",
+    "options": [
+      "A) saveState()",
+      "B) keep()",
+      "C) store()",
+      "D) remember { mutableStateOf(initialValue) }"
+    ],
+    "answer": 3,
+    "explanation": "`remember` কম্পোজিশন চলাকালীন ভ্যালু ক্যাশ করে রাখে এবং স্টেট পরিবর্তিত হলে স্বয়ংক্রিয়ভাবে স্ক্রিন রি-রেন্ডার (Recompose) করায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4313,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "জেটপ্যাক কম্পোজে RecyclerView-এর মতো বড় স্ক্রোলিং তালিকা অন-ডিমান্ড মেমরি সাশ্রয়ীভাবে দেখানোর কম্পোজেবল কোনটি?",
+    "options": [
+      "A) RecyclerViewCompose",
+      "B) ScrollableColumn",
+      "C) ListView",
+      "D) LazyColumn (উল্লম্ব তালিকার জন্য) এবং LazyRow (অনুভূমিকের জন্য)"
+    ],
+    "answer": 3,
+    "explanation": "`LazyColumn` কেবল স্ক্রিনে দৃশ্যমান আইটেমগুলোকেই কম্পোজ করে ফলে হাজার হাজার আইটেমের তালিকাও দ্রুত স্ক্রোল হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4314,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কম্পোজে কোনো উপাদানের সাইজ, প্যাডিং, ব্যাকগ্রাউন্ড, বর্ডার ও ক্লিক আচরণ পরিবর্তন করার জন্য চেইন আকারে ব্যবহৃত অবজেক্ট কোনটি?",
+    "options": [
+      "A) Modifier (যেমন Modifier.fillMaxWidth().padding(16.dp))",
+      "B) Style",
+      "C) Attributes",
+      "D) Properties"
+    ],
+    "answer": 0,
+    "explanation": "Modifier হলো কম্পোজের মূল স্টাইলিং টুল যা দিয়ে যেকোনো কম্পোজেবলের লেআউট ও আচরণ কাস্টমাইজ করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4315,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "জেটপ্যাক কম্পোজে মেটেরিয়াল ডিজাইনের প্রমিত কাঠামো (যেমন TopAppBar, FloatingActionButton, BottomBar) সংবলিত লেআউট কোনটি?",
+    "options": [
+      "A) ScreenLayout",
+      "B) Container",
+      "C) Scaffold",
+      "D) Surface"
+    ],
+    "answer": 2,
+    "explanation": "`Scaffold` একটি পূর্ণাঙ্গ মেটেরিয়াল অ্যাপ স্ক্রিনের মৌলিক স্লটগুলো প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4316,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "জেটপ্যাক কম্পোজে টেক্সট লেখার জন্য মৌলিক কম্পোজেবল ফাংশন কোনটি?",
+    "options": [
+      "A) EditText()",
+      "B) Text(\"Hello World\")",
+      "C) TextView()",
+      "D) Label()"
+    ],
+    "answer": 1,
+    "explanation": "`Text()` হলো কম্পোজের টেক্সট রেন্ডারিং ফাংশন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4317,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "জেটপ্যাক কম্পোজে ব্যবহারকারীর কাছ থেকে টেক্সট ইনপুট নেওয়ার মূল কম্পোজেবল কোনটি?",
+    "options": [
+      "A) InputBox",
+      "B) TextBox",
+      "C) TextField বা OutlinedTextField",
+      "D) EditText"
+    ],
+    "answer": 2,
+    "explanation": "`TextField` এবং `OutlinedTextField` মেটেরিয়াল ডিজাইনের ইনপুট ফিল্ড যা নিয়ন্ত্রিত স্টেট নিয়ে চলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4318,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "কম্পোজে স্টেটকে কোনো চাইল্ড কম্পোজেবলের ভেতরে সীমাবদ্ধ না রেখে প্যারেন্ট ফাংশনে তুলে নেওয়ার আর্কিটেকচারাল প্যাটার্নকে কী বলে?",
+    "options": [
+      "A) State Hiding",
+      "B) State Hoisting (স্টেট উত্তোলন)",
+      "C) State Isolation",
+      "D) State Dropping"
+    ],
+    "answer": 1,
+    "explanation": "State Hoisting কম্পোজেবল ফাংশনগুলোকে স্টেটলেস (Stateless) বানায় ফলে কোড সহজে টেস্ট ও পুনর্ব্যবহার করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4319,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যাক্টিভিটির ভেতরে জেটপ্যাক কম্পোজ ইউআই প্রদর্শনের জন্য ব্যবহৃত মেথড কোনটি?",
+    "options": [
+      "A) setContentView()",
+      "B) initCompose()",
+      "C) startCompose()",
+      "D) setContent { ... }"
+    ],
+    "answer": 3,
+    "explanation": "ComponentActivity-তে `setContent { MyComposeApp() }` কল করে রুট কম্পোজিবল লোড করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4320,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২৪.৩: অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "বিষয়- ২৪. মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Mobile Application Development - Android & Kotlin)",
+    "question": "অ্যান্ড্রয়েড স্টুডিওতে কোনো এমুলেটর না চালিয়ে সরাসরি কোড এডিটরেই কম্পোজেবল প্রিভিউ দেখার অ্যানোটেশন কোনটি?",
+    "options": [
+      "A) @Preview",
+      "B) @Emulator",
+      "C) @Design",
+      "D) @ShowUI"
+    ],
+    "answer": 0,
+    "explanation": "`@Preview` অ্যানোটেশন দিলে অ্যান্ড্রয়েড স্টুডিওর স্প্লিট উইন্ডোতে তাৎক্ষণিক লাইভ প্রিভিউ দেখা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "id": 4846,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৪: ফরম্যাটেড ইনপুট ও আউটপুট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে ব্যবহারকারীর কাছ থেকে কীবোর্ড ইনপুট নেওয়ার বিল্ট-ইন ফাংশন কোনটি?",
+    "options": [
+      "A) input()",
+      "B) scanf()",
+      "C) raw_input()",
+      "D) read()"
+    ],
+    "answer": 0,
+    "explanation": "পাইথন ৩-এ `input()` ফাংশন কনসোল থেকে ইনপুট নিয়ে সর্বদা স্ট্রিং (`str`) আকারে রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4847,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৪: ফরম্যাটেড ইনপুট ও আউটপুট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "`input()` ফাংশন দিয়ে পূর্ণসংখ্যা ইনপুট নিতে হলে কোন অতিরিক্ত ফাংশন ব্যবহার করতে হয়?",
+    "options": [
+      "A) input.to_int()",
+      "B) cin >> x",
+      "C) int(input())",
+      "D) scan_int()"
+    ],
+    "answer": 2,
+    "explanation": "যেহেতু `input()` সর্বদা স্ট্রিং দেয়, তাই গাণিতিক কাজের জন্য একে `int()` দিয়ে টাইপকাস্ট করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4848,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৪: ফরম্যাটেড ইনপুট ও আউটপুট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "কনসোলে এক লাইনে স্পেস দিয়ে একাধিক ইনপুট গ্রহণ করতে কোন পদ্ধতি কার্যকর?",
+    "options": [
+      "A) input().multiple()",
+      "B) input().split()",
+      "C) input().all()",
+      "D) read_all()"
+    ],
+    "answer": 1,
+    "explanation": "`split()` ফাংশন স্পেসের ওপর ভিত্তি করে ইনপুট লাইনটিকে স্ট্রিংয়ের লিস্টে বিভক্ত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4849,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৪: ফরম্যাটেড ইনপুট ও আউটপুট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "একই লাইনে ইনপুট নিয়ে সরাসরি পূর্ণসংখ্যায় রূপান্তর করতে কোনটি ব্যবহৃত হয়?",
+    "options": [
+      "A) map(int, input().split())",
+      "B) int(input().split())",
+      "C) split(int)",
+      "D) input().toInt()"
+    ],
+    "answer": 0,
+    "explanation": "`map(int, input().split())` স্পেসযুক্ত সকল ইনপুটকে ইন্টিজারে রূপান্তর করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4850,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৪: ফরম্যাটেড ইনপুট ও আউটপুট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথন `print()` ফাংশনে উপাদানগুলোর মধ্যকার সংযোগকারী চিহ্ন পরিবর্তনের প্যারামিটার কোনটি?",
+    "options": [
+      "A) end",
+      "B) sep (Separator)",
+      "C) flush",
+      "D) delimiter"
+    ],
+    "answer": 1,
+    "explanation": "`print(a, b, sep='-')` দিলে উপাদানগুলোর মাঝে ডিফল্ট স্পেসের বদলে হাইফেন বসবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4851,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৪: ফরম্যাটেড ইনপুট ও আউটপুট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথন `print()` ফাংশনে লাইনের সমাপ্তি চিহ্ন (ডিফল্ট নিউলাইন `\\n`) পরিবর্তনের প্যারামিটার কোনটি?",
+    "options": [
+      "A) terminate",
+      "B) line",
+      "C) sep",
+      "D) end"
+    ],
+    "answer": 3,
+    "explanation": "`print(\"Hello\", end=' ')` দিলে আউটপুটের শেষে নতুন লাইনে না গিয়ে স্পেস যোগ হবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4852,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৪: ফরম্যাটেড ইনপুট ও আউটপুট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথন ৩.৬ থেকে প্রবর্তিত আধুনিক, দ্রুততম ও সর্বাধিক পঠিত ফরম্যাটেড স্ট্রিং কোনটি?",
+    "options": [
+      "A) str.format()",
+      "B) % ফরম্যাটিং",
+      "C) f-string (Formatted string literals - f\"Hello {name}\")",
+      "D) template string"
+    ],
+    "answer": 2,
+    "explanation": "f-string হলো `f\"...{expression}...\"` যা রান-টাইমে এক্সপ্রেশনকে দ্রুত ইভালুয়েট করে প্রতিস্থাপন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4853,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৪: ফরম্যাটেড ইনপুট ও আউটপুট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "f-string ব্যবহার করে একটি ফ্লোট সংখ্যার দশমিকের পর ঠিক ২ ঘর পর্যন্ত দেখানোর সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) f\"{num:2}\"",
+      "B) f\"{round(num, 2)}\"",
+      "C) f\"{num%2f}\"",
+      "D) f\"{num:.2f}\""
+    ],
+    "answer": 3,
+    "explanation": "`:.2f` ফরম্যাট স্পেসিফায়ার ফ্লোটিং পয়েন্ট সংখ্যাকে দশমিকের পর ২ ঘর প্রদর্শন নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4854,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৪: ফরম্যাটেড ইনপুট ও আউটপুট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে কোনো টেক্সট বা সংখ্যার বামে শূন্য (Zero) প্যাডিং করে নির্দিষ্ট দৈর্ঘ্য করার মেথড কোনটি?",
+    "options": [
+      "A) str.zfill(width)",
+      "B) str.fill()",
+      "C) str.zero()",
+      "D) str.pad()"
+    ],
+    "answer": 0,
+    "explanation": "`\"42\".zfill(5)` এর ফলাফল হবে `\"00042\"`।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4855,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.৪: ফরম্যাটেড ইনপুট ও আউটপুট",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "স্ট্রিংকে কেন্দ্রে রেখে দুইপাশে নির্দিষ্ট ক্যারেক্টার দিয়ে পূর্ণ করার ফরম্যাটিং মেথড কোনটি?",
+    "options": [
+      "A) str.align()",
+      "B) str.middle()",
+      "C) str.center(width, fillchar)",
+      "D) str.justify()"
+    ],
+    "answer": 2,
+    "explanation": "`\"Python\".center(10, '*')` স্ট্রিংটিকে কেন্দ্রে রেখে দুইপাশে তারা বসিয়ে দৈর্ঘ্য ১০ করবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

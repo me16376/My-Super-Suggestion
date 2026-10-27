@@ -1,0 +1,317 @@
+[
+  {
+    "id": 4956,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১২: ফাইল আই/ও অপারেশন (Files I/O Operation)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে কোনো ফাইল ওপেন করার স্ট্যান্ডার্ড বিল্ট-ইন ফাংশন কোনটি?",
+    "options": [
+      "A) load_file()",
+      "B) read_file()",
+      "C) open(filename, mode)",
+      "D) file.open()"
+    ],
+    "answer": 2,
+    "explanation": "`open('data.txt', 'r')` ফাইল হ্যান্ডলার অবজেক্ট রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4957,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১২: ফাইল আই/ও অপারেশন (Files I/O Operation)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ফাইল খোলার পর কাজ শেষে স্বয়ংক্রিয়ভাবে ক্লোজ নিশ্চিত করতে এবং এক্সেপশন প্রতিরোধে কোন কনটেক্সট ম্যানেজার ব্যবহৃত হয়?",
+    "options": [
+      "A) try open(...) as f:",
+      "B) with open(...) as f:",
+      "C) auto open(...) as f:",
+      "D) using open(...) as f:"
+    ],
+    "answer": 1,
+    "explanation": "`with` স্টেটমেন্ট Context Management Protocol (`__enter__` ও `__exit__`) মেনে ফাইল অটোমেটিক ক্লোজ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4958,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১২: ফাইল আই/ও অপারেশন (Files I/O Operation)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "বিদ্যমান ফাইলের কনটেন্ট না মুছে তার একদম শেষে নতুন লেখা যোগ করার ফাইল ওপেনিং মোড কোনটি?",
+    "options": [
+      "A) 'w' (Write mode)",
+      "B) 'r' (Read mode)",
+      "C) 'a' (Append mode)",
+      "D) 'x' (Exclusive mode)"
+    ],
+    "answer": 2,
+    "explanation": "`'a'` মোড পয়েন্টারকে ফাইলের শেষে রাখে এবং নতুন ডেটা অ্যাপেন্ড করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4959,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১২: ফাইল আই/ও অপারেশন (Files I/O Operation)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ফাইলটি ডিস্কে আগে থেকেই বিদ্যমান থাকলে এরর তৈরি করে নতুন ফাইল খোলার এক্সক্লুসিভ ক্রিয়েশন মোড কোনটি?",
+    "options": [
+      "A) 'a'",
+      "B) 'r'",
+      "C) 'w'",
+      "D) 'x' (Exclusive creation)"
+    ],
+    "answer": 3,
+    "explanation": "`'x'` মোড কেবল তখনই ফাইল তৈরি করে যদি ফাইলটি আগে থেকে না থাকে; ফাইল থাকলে `FileExistsError` দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4960,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১২: ফাইল আই/ও অপারেশন (Files I/O Operation)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "একটি বড় টেক্সট ফাইলের প্রতিটি লাইন মেমরি-সাশ্রয়ী উপায়ে লাইন বাই লাইন পড়ার পাইথনিক নিয়ম কোনটি?",
+    "options": [
+      "A) for line in file:",
+      "B) file.read().splitlines()",
+      "C) file.readlines()",
+      "D) while file.read():"
+    ],
+    "answer": 0,
+    "explanation": "`for line in f:` সম্পূর্ণ ফাইল একসাথে র্যামে না এনে ইটারেটর হিসেবে একটি একটি করে লাইন লোড করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4961,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১২: ফাইল আই/ও অপারেশন (Files I/O Operation)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ফাইলের সমস্ত লাইন পড়ে একটি স্ট্রিংয়ের লিস্ট আকারে পাওয়ার মেথড কোনটি?",
+    "options": [
+      "A) file.read()",
+      "B) file.readlines()",
+      "C) file.getlines()",
+      "D) file.readline()"
+    ],
+    "answer": 1,
+    "explanation": "`readlines()` প্রতিটি লাইনকে একক উপাদান হিসেবে নিয়ে একটি পূর্ণাঙ্গ লিস্ট প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4962,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১২: ফাইল আই/ও অপারেশন (Files I/O Operation)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ফাইলের কার্সরের বর্তমান বাইট পজিশন জানার মেথড কোনটি?",
+    "options": [
+      "A) file.tell()",
+      "B) file.seek()",
+      "C) file.loc()",
+      "D) file.pos()"
+    ],
+    "answer": 0,
+    "explanation": "`file.tell()` ফাইল পয়েন্টারটির বর্তমান অবস্থান নির্দেশ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4963,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১২: ফাইল আই/ও অপারেশন (Files I/O Operation)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ফাইল পয়েন্টারকে ফাইলের একদম শুরুতে (০ বাইটে) নিয়ে যাওয়ার নির্দেশ কোনটি?",
+    "options": [
+      "A) file.reset()",
+      "B) file.rewind()",
+      "C) file.seek(0)",
+      "D) file.tell(0)"
+    ],
+    "answer": 2,
+    "explanation": "`file.seek(offset)` কার্সরকে নির্দিষ্ট অফসেটে সরায়; `seek(0)` শুরুতে নিয়ে যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4964,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১২: ফাইল আই/ও অপারেশন (Files I/O Operation)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ছবি, অডিও বা পিডিএফের মতো নন-টেক্সট বাইনারি ফাইল খোলার জন্য মোডের সাথে কোন অক্ষর যুক্ত করতে হয়?",
+    "options": [
+      "A) 't'",
+      "B) 'bin'",
+      "C) 'raw'",
+      "D) 'b' (যেমন: 'rb', 'wb')"
+    ],
+    "answer": 3,
+    "explanation": "বাইনারি মোড `'rb'` বা `'wb'` কোনো এনকোডিং ছাড়াই সরাসরি র বাইট অবজেক্ট প্রসেস করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4965,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১২: ফাইল আই/ও অপারেশন (Files I/O Operation)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে কোনো ফাইল ডিস্ক থেকে মুছে ফেলার ফাংশন কোনটি?",
+    "options": [
+      "A) os.erase()",
+      "B) file.delete()",
+      "C) os.delete()",
+      "D) os.remove(filename) বা os.unlink()"
+    ],
+    "answer": 3,
+    "explanation": "`os` মডিউলের `remove()` অথবা `unlink()` দিয়ে ডিস্ক থেকে নির্দিষ্ট ফাইল ডিলিট করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4966,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১২: ফাইল আই/ও অপারেশন (Files I/O Operation)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "নির্দিষ্ট কোনো ফাইল বা ফোল্ডার ডিস্কে বিদ্যমান আছে কিনা তা পরীক্ষা করার মেথড কোনটি?",
+    "options": [
+      "A) os.check()",
+      "B) os.path.exists(path)",
+      "C) path.find()",
+      "D) os.is_file()"
+    ],
+    "answer": 1,
+    "explanation": "`os.path.exists(path)` ফাইল বা ফোল্ডার উপস্থিত থাকলে `True` দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4967,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১২: ফাইল আই/ও অপারেশন (Files I/O Operation)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "অপারেটিং সিস্টেম নিরপেক্ষভাবে একাধিক ডিরেক্টরি পাথ যুক্ত করার নিরাপদ ফাংশন কোনটি?",
+    "options": [
+      "A) dir + '/' + file",
+      "B) os.concat()",
+      "C) os.path.join(dir, file)",
+      "D) dir + '\\' + file"
+    ],
+    "answer": 2,
+    "explanation": "`os.path.join()` উইন্ডোজের ব্যাকস্ল্যাশ এবং লিনাক্সের ফরওয়ার্ড স্ল্যাশ স্বয়ংক্রিয়ভাবে সমন্বয় করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4968,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১২: ফাইল আই/ও অপারেশন (Files I/O Operation)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "পাইথনে অবজেক্ট সিরিয়ালাইজেশন বা বাইনারি সংরক্ষণের বিল্ট-ইন মডিউল কোনটি?",
+    "options": [
+      "A) pickle মডিউল",
+      "B) serialize",
+      "C) marshal",
+      "D) json মডিউল"
+    ],
+    "answer": 0,
+    "explanation": "`pickle.dump()` পাইথন অবজেক্টকে বাইট স্ট্রিমে রূপান্তর করে এবং `pickle.load()` দ্বারা ফিরিয়ে আনে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4969,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১২: ফাইল আই/ও অপারেশন (Files I/O Operation)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ফাইল থেকে রিড করার সময় যদি ফাইলটি না থাকে তবে কোন নির্দিষ্ট এক্সেপশন ঘটে?",
+    "options": [
+      "A) FileNotFoundError",
+      "B) IOError",
+      "C) PathError",
+      "D) FileMissingException"
+    ],
+    "answer": 0,
+    "explanation": "অনুপস্থিত ফাইল রিড মোডে ওপেন করলে `FileNotFoundError` (বা OSError) নিক্ষেপ হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 4970,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৪.১২: ফাইল আই/ও অপারেশন (Files I/O Operation)",
+    "subtopic": "বিষয়- ৪. পাইথন প্রোগ্রামিং (Python Programming & App Development)",
+    "question": "ফাইল অবজেক্টে `write()` মেথড সফলভাবে সম্পন্ন হওয়ার পর কী রিটার্ন করে?",
+    "options": [
+      "A) None",
+      "B) ফাইলে লেখা মোট অক্ষরের (Characters/Bytes) সংখ্যা",
+      "C) True",
+      "D) ফাইলের নতুন সাইজ"
+    ],
+    "answer": 1,
+    "explanation": "পাইথন ৩-এ `f.write('abc')` মেথড ফাইলে মোট যতটি ক্যারেক্টার লেখা হয়েছে সেই সংখ্যাটি রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

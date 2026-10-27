@@ -1,0 +1,53 @@
+[
+  {
+    "id": 3001,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English Writing & Grammar",
+    "question": "(A) Fill in the blanks with appropriate prepositions:\n  i. He is absorbed _____ his studies.\n  ii. The committee consists _____ five members.\n  iii. Do not boast _____ your wealth.\n(B) Translate the following into English:\n  ১. সততা সর্বোৎকৃষ্ট পন্থা।\n  ২. তিনি গতকাল এখানে এসেছেন।\n  ৩. বাংলাদেশ দিন দিন তথ্যপ্রযুক্তিতে এগিয়ে যাচ্ছে।",
+    "marks": 6,
+    "answer": "(A) Appropriate Prepositions:\n  i. He is absorbed in his studies. (absorbed in = গভীরভাবে নিমগ্ন)\n  ii. The committee consists of five members. (consist of = গঠিত হওয়া)\n  iii. Do not boast of / about your wealth. (boast of = অহংকার করা)\n\n(B) English Translation:\n  ১. Honesty is the best policy.\n  ২. He came here yesterday. (Past Indefinite Tense)\n  ৩. Bangladesh is progressing in information technology day by day.",
+    "points_to_remember": [
+      "Yesterday থাকলে বাক্য Past Indefinite হয় ('has come' হবে না)।",
+      "Consist of (গঠিত) বনাম Consist in (নিহিত থাকা)।"
+    ],
+    "tags": [
+      "english_grammar",
+      "translation"
+    ]
+  },
+  {
+    "id": 3004,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English Writing & Grammar",
+    "question": "(A) Transform the sentences as directed:\n  i. Though he is poor, he is honest. (Make it Compound)\n  ii. As soon as the bell rang, the students entered the classroom. (Make it Negative using 'No sooner had')\n(B) Translate into English:\n  ১. জ্ঞানই শক্তি।\n  ২. বহিরাগমন ও পাসপোর্ট অধিদপ্তর জনগণের সেবায় নিয়োজিত।\n  ৩. প্রযুক্তির অপব্যবহার রোধে আমাদের সচেতন হতে হবে।",
+    "marks": 7,
+    "answer": "(A) Transformation of Sentences:\n  i. Compound: He is poor, but he is honest.\n  ii. Negative: No sooner had the bell rung than the students entered the classroom.\n\n(B) English Translation:\n  ১. Knowledge is power.\n  ২. The Department of Immigration and Passports is dedicated to the service of the citizens.\n  ৩. We must be conscious/vigilant to prevent the misuse of technology.",
+    "points_to_remember": [
+      "'Though/Although' থাকলে Compound করার সময় 'but/yet' বসে।",
+      "'No sooner had + V3 ... than + Past Indefinite' বসে।"
+    ],
+    "tags": [
+      "transformation",
+      "translation",
+      "written"
+    ]
+  },
+  {
+    "id": 3006,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "English Writing & Grammar",
+    "question": "(A) Fill in the blanks with the correct form of verbs:\n  i. Neither of the two network routers _____ (work) properly right now.\n  ii. The Sub-Assistant Engineer along with his team members _____ (inspect) the main server room at this moment.\n  iii. It is high time the department _____ (upgrade) the legacy core firewalls.\n  iv. Had the technician alerted us earlier, we _____ (resolve) the database deadlock sooner.\n\n(B) Correct the grammatical errors in the following sentences:\n  i. He gave me many valuable advices regarding the interview.\n  ii. One of my colleague have completed the Linux server certification.\n  iii. Senior engineers prefer on-premise solutions than cloud storage.",
+    "marks": 8,
+    "answer": "(A) Right Form of Verbs:\n  i. Neither of the two network routers is working / works properly right now. ('Neither of' takes a singular verb).\n  ii. The Sub-Assistant Engineer along with his team members is inspecting the main server room at this moment. ('Along with', 'as well as', 'together with' connect subjects where the verb strictly agrees with the first subject: 'The Sub-Assistant Engineer' - singular).\n  iii. It is high time the department upgraded the legacy core firewalls. ('It is high time' followed by a subject requires Past Indefinite verb form V2: upgraded).\n  iv. Had the technician alerted us earlier, we would have resolved the database deadlock sooner. (Third conditional inversion: Had + Subject + V3 ... Subject + would have + V3).\n\n(B) Error Correction:\n  i. Incorrect: He gave me many valuable advices regarding the interview.\n     Correct: He gave me much valuable advice regarding the interview. (Or: 'many pieces of valuable advice' — 'Advice' is an uncountable noun).\n  ii. Incorrect: One of my colleague have completed the Linux server certification.\n     Correct: One of my colleagues has completed the Linux server certification. ('One of' is followed by a plural noun 'colleagues' and a singular verb 'has').\n  iii. Incorrect: Senior engineers prefer on-premise solutions than cloud storage.\n     Correct: Senior engineers prefer on-premise solutions to cloud storage. ('Prefer ... to' is the correct prepositional combination, not 'than').",
+    "points_to_remember": [
+      "'Neither of' + plural noun + singular verb.",
+      "'Prefer' takes preposition 'to', never 'than'.",
+      "'Advice', 'Information', 'Luggage', 'Furniture' are uncountable and do not take plural -s."
+    ],
+    "tags": [
+      "grammar_correction",
+      "right_form_of_verb",
+      "written"
+    ]
+  }
+]

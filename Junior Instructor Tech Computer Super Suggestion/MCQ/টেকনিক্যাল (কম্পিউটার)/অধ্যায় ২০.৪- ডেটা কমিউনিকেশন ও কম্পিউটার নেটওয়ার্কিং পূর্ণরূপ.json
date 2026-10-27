@@ -1,0 +1,842 @@
+[
+  {
+    "id": 3521,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "আন্তর্জাতিক মান সংস্থা (ISO) কর্তৃক নেটওয়ার্কের যোগাযোগের ৭-স্তরের প্রমিত আর্কিটেকচার 'OSI'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Open Source Infrastructure",
+      "B) Online System Integration",
+      "C) Optical System Interface",
+      "D) Open Systems Interconnection"
+    ],
+    "answer": 3,
+    "explanation": "OSI হলো Open Systems Interconnection; এর ৭টি লেয়ার হলো ফিজিক্যাল, ডেটা লিঙ্ক, নেটওয়ার্ক, ট্রান্সপোর্ট, সেশন, প্রেজেন্টেশন ও অ্যাপ্লিকেশন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3522,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ইন্টারনেটের মূল ভিত্তি প্রোটোকল স্যুট 'TCP/IP'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Transfer Channel Protocol / Internet Packet",
+      "B) Transmission Control Protocol / Internet Protocol",
+      "C) Telecommunication Control Protocol / Interface Protocol",
+      "D) Transport Control Protocol / Information Protocol"
+    ],
+    "answer": 1,
+    "explanation": "TCP হলো সংযোগ-ভিত্তিক নির্ভরযোগ্য ট্রান্সমিশন প্রোটোকল এবং IP হলো নেটওয়ার্ক লেয়ারের প্যাকেট রাউটিং প্রোটোকল।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3523,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ট্রান্সপোর্ট লেয়ারের হালকা, দ্রুত ও কানেকশনলেস প্রোটোকল 'UDP'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) User Delivery Protocol",
+      "B) Unified Datagram Packet",
+      "C) User Datagram Protocol",
+      "D) Universal Data Protocol"
+    ],
+    "answer": 2,
+    "explanation": "UDP হলো User Datagram Protocol; এটি হ্যান্ডশেক বা অ্যাকনলেজমেন্ট ছাড়াই দ্রুত ডেটা পাঠায় (যেমন ডিএনএস, ভিডিও স্ট্রিমিং ও গেমিংয়ে ব্যবহৃত)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3524,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "নেটওয়ার্কে ত্রুটি বার্তা ও 'পিং' (Ping) অপারেশনে ব্যবহৃত প্রোটোকল 'ICMP'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Internet Control Message Protocol",
+      "B) Internet Channel Monitoring Protocol",
+      "C) Internal Communication Management Protocol",
+      "D) Inter-network Connection Message Protocol"
+    ],
+    "answer": 0,
+    "explanation": "ICMP হলো Internet Control Message Protocol; এটি নেটওয়ার্ক নোডের সচলতা যাচাই ও ত্রুটি রিপোর্ট করতে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3525,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "আইপি নেটওয়ার্কে মাল্টিকাস্ট গ্রুপ সদস্যপদ ব্যবস্থাপনার প্রোটোকল 'IGMP'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Integrated Group Message Protocol",
+      "B) Internet Group Management Protocol",
+      "C) Internal Gateway Management Protocol",
+      "D) Interface Gateway Monitoring Protocol"
+    ],
+    "answer": 1,
+    "explanation": "IGMP হলো Internet Group Management Protocol; এটি রাউটারকে জানায় কোন লোকাল হোস্টে নির্দিষ্ট মাল্টিকাস্ট প্যাকেট পাঠাতে হবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3526,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "জানা লজিক্যাল আইপি অ্যাড্রেস থেকে অজ্ঞাত ফিজিক্যাল ম্যাক (MAC) অ্যাড্রেস বের করার প্রোটোকল 'ARP'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Address Resolution Protocol",
+      "B) Automated Recognition Protocol",
+      "C) Advanced Routing Protocol",
+      "D) Application Resource Protocol"
+    ],
+    "answer": 0,
+    "explanation": "ARP হলো Address Resolution Protocol; এটি লোকাল ল্যানে আইপি ঠিকানাকে হার্ডওয়্যার ম্যাক ঠিকানায় ম্যাপ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3527,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ম্যাক অ্যাড্রেস জানা থাকলে তার বিপরীতে আইপি অ্যাড্রেস পাওয়ার বিপরীত প্রোটোকল 'RARP'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Rapid Address Resolution Protocol",
+      "B) Remote Address Routing Protocol",
+      "C) Routing Address Resolution Protocol",
+      "D) Reverse Address Resolution Protocol"
+    ],
+    "answer": 3,
+    "explanation": "RARP হলো Reverse Address Resolution Protocol; ডিস্কলেস ওয়ার্কস্টেশনে বুটের সময় আইপি পেতে এটি ব্যবহৃত হতো (বর্তমানে DHCP দ্বারা প্রতিস্থাপিত)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3528,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "নেটওয়ার্কের ক্লায়েন্ট ডিভাইসকে স্বয়ংক্রিয়ভাবে গতিশীল আইপি ঠিকানা ও সাবনেট বরাদ্দকারী 'DHCP'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Domain Host Connection Protocol",
+      "B) Direct Host Control Protocol",
+      "C) Dynamic Host Configuration Protocol",
+      "D) Data Host Configuration Protocol"
+    ],
+    "answer": 2,
+    "explanation": "DHCP হলো Dynamic Host Configuration Protocol; এটি DORA (Discover, Offer, Request, Acknowledge) প্রক্রিয়ায় স্বয়ংক্রিয় আইপি দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3529,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "মানুষের বোধগম্য ডোমেন নামকে (যেমন google.com) কম্পিউটার আইপিতে রূপান্তরকারী 'DNS'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Dynamic Network System",
+      "B) Data Naming Scheme",
+      "C) Digital Network Service",
+      "D) Domain Name System (বা Domain Name Server)"
+    ],
+    "answer": 3,
+    "explanation": "DNS হলো Domain Name System; এটি ইন্টারনেটের ফোনবুক হিসেবে কাজ করে ডোমেন নামের বিপরীতে আইপি বের করে দেয় (পোর্ট ৫৩)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3530,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ওয়ার্ল্ড ওয়াইড ওয়েবে ওয়েব পেজ ট্রান্সফারের প্রমিত প্রোটোকল 'HTTP'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Hypertext Transfer Protocol",
+      "B) Hypertext Transport Platform",
+      "C) High-speed Text Transmission Protocol",
+      "D) Hyperlink Text Transfer Protocol"
+    ],
+    "answer": 0,
+    "explanation": "HTTP হলো Hypertext Transfer Protocol; এটি ক্লায়েন্ট ও ওয়েব সার্ভারের মাঝে ওয়েব পেজ বিনিময়ের স্টেটলেস অ্যাপ্লিকেশন প্রোটোকল।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3531,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "এসএসএল/টিএলএস এনক্রিপশন যুক্ত নিরাপদ ওয়েব ব্রাউজিং প্রোটোকল 'HTTPS'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) High-level Text Protection System",
+      "B) Hypertext Transfer Protocol Standard",
+      "C) Hypertext Transfer Protocol Secure",
+      "D) Hyperlink Transport Protocol System"
+    ],
+    "answer": 2,
+    "explanation": "HTTPS হলো Hypertext Transfer Protocol Secure; এটি টিসিপি পোর্ট ৪৪৩ ব্যবহার করে এন্ড-টু-এন্ড এনক্রিপ্টেড ওয়েব যোগাযোগ দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3532,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "নেটওয়ার্কে ফাইল আপলোড ও ডাউনলোডের প্রোটোকল 'FTP'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Fixed Transfer Protocol",
+      "B) File Transfer Protocol",
+      "C) Fast Transmission Protocol",
+      "D) File Tracking Protocol"
+    ],
+    "answer": 1,
+    "explanation": "FTP হলো File Transfer Protocol; এটি কন্ট্রোল সংযোগের জন্য পোর্ট ২১ এবং ডেটা ট্রান্সফারের জন্য পোর্ট ২০ ব্যবহার করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3533,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "সার্ভারে এনক্রিপ্টেড রিমোট কমান্ড এক্সিকিউট করার নিরাপদ শেল 'SSH'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) System Security Host",
+      "B) Safe System Host",
+      "C) Standard Server Handler",
+      "D) Secure Shell"
+    ],
+    "answer": 3,
+    "explanation": "SSH হলো Secure Shell; এটি টেলনেট ও আর-লগইনের অনিরাপদ টেক্সট যোগাযোগের বিকল্প হিসেবে পোর্ট ২২-এ এনক্রিপ্টেড সেশন দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3534,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ইন্টারনেটে এক সার্ভার থেকে অন্য সার্ভারে ইমেইল পাঠানোর প্রমিত পুশ প্রোটোকল 'SMTP'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Secure Message Transport Protocol",
+      "B) System Mail Transport Platform",
+      "C) Simple Mail Transfer Protocol",
+      "D) Standard Mail Transmission Protocol"
+    ],
+    "answer": 2,
+    "explanation": "SMTP হলো Simple Mail Transfer Protocol; এটি ইমেইল প্রেরণে পোর্ট ২৫ (বা সাবমিশনে ৫৮৭) ব্যবহার করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3535,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ইমেইল সার্ভার থেকে লোকাল পিসিতে ইমেইল ডাউনলোড করার প্রোটোকল 'POP3'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Post Office Protocol version 3",
+      "B) Public Office Protocol version 3",
+      "C) Primary Operation Protocol 3",
+      "D) Post Online Packet version 3"
+    ],
+    "answer": 0,
+    "explanation": "POP3 হলো Post Office Protocol version 3; এটি সার্ভার থেকে মেইল নামিয়ে এনে লোকাল ক্লায়েন্টে জমা করে এবং সার্ভার থেকে মেইল মুছে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3536,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "একাধিক ডিভাইসে মেইল সার্ভারের সাথে ফোল্ডার ও ইমেইল সিঙ্ক রাখার আধুনিক প্রোটোকল 'IMAP'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Internal Mail Access Platform",
+      "B) Internet Message Access Protocol",
+      "C) Internet Mail Authentication Protocol",
+      "D) Integrated Message Application Protocol"
+    ],
+    "answer": 1,
+    "explanation": "IMAP হলো Internet Message Access Protocol; এটি মেইল সার্ভারেই ইমেইল জমা রেখে রিয়েল-টাইম দুইমুখী সিঙ্ক্রোনাইজেশন বজায় রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3537,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ইমেইলে অডিও, ভিডিও, ছবি বা বাইনারি ফাইল সংযুক্ত করে পাঠানোর এক্সটেনশন 'MIME'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Multipurpose Internet Mail Extensions",
+      "B) Multi-interface Mail Encryption",
+      "C) Modern Internet Message Extension",
+      "D) Multimedia Information Mail Entity"
+    ],
+    "answer": 0,
+    "explanation": "MIME হলো Multipurpose Internet Mail Extensions; এটি সাধারণ ৭-বিট ASCII টেক্সট ইমেইলকে যেকোনো বাইনারি ফাইল পাঠানোর উপযোগী করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3538,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "রাউটার, সুইচ ও সার্ভারের পারফরম্যান্স পর্যবেক্ষণ ও ব্যবস্থাপনার প্রোটোকল 'SNMP'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Secure Network Maintenance Protocol",
+      "B) System Network Monitoring Protocol",
+      "C) Simple Network Management Protocol",
+      "D) Standard Node Management Protocol"
+    ],
+    "answer": 2,
+    "explanation": "SNMP হলো Simple Network Management Protocol; এটি এজেন্ট ও ম্যানেজারের মাঝে MIB ডেটা আদান-প্রদান করে নেটওয়ার্ক মনিটর করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3539,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "হপ কাউন্টের ওপর ভিত্তি করে তৈরি ডিস্ট্যান্স ভেক্টর রাউটিং প্রোটোকল 'RIP'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Rapid Internet Protocol",
+      "B) Routing Information Protocol",
+      "C) Resource Interface Protocol",
+      "D) Real-time Interior Protocol"
+    ],
+    "answer": 1,
+    "explanation": "RIP হলো Routing Information Protocol; এটি বেলম্যান-ফোর্ড অ্যালগরিদম ভিত্তিক এবং এর সর্বোচ্চ হপ কাউন্ট ১৫।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3540,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ডিক্সট্রা অ্যালগরিদমের সাহায্যে দ্রুততম পথ নির্ণয়কারী লিংক স্টেট রাউটিং প্রোটোকল 'OSPF'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Operational Shortest Path Framework",
+      "B) Optimal System Packet Forwarding",
+      "C) Open Secure Path Finding",
+      "D) Open Shortest Path First"
+    ],
+    "answer": 3,
+    "explanation": "OSPF হলো Open Shortest Path First; এটি অভ্যন্তরীণ গেটওয়ে প্রোটোকল হিসেবে দ্রুত কনভার্জেন্স ও এরিয়া ভিত্তিক স্কেলাবিলিটি দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3541,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ইন্টারনেটের বিভিন্ন অটোনোমাস সিস্টেমের (AS) মাঝে মূল কোর রাউটিং পরিচালনাকারী 'BGP'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Broadband Gateway Protocol",
+      "B) Binary Gateway Protocol",
+      "C) Base Gateway Protocol",
+      "D) Border Gateway Protocol"
+    ],
+    "answer": 3,
+    "explanation": "BGP হলো Border Gateway Protocol; এটি ইন্টারনেট ব্যাকবোনের পাথ-ভেক্টর এক্সটেরিয়র গেটওয়ে প্রোটোকল।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3542,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ক্লাসফুল আইপি অ্যাড্রেসিংয়ের সীমাবদ্ধতা দূর করে প্রিফিক্স নোটেশন ভিত্তিক রাউটিং পদ্ধতি 'CIDR'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Classless Inter-Domain Routing",
+      "B) Classless Interface Distribution Route",
+      "C) Computer Inter-Network Direct Routing",
+      "D) Common Internet Domain Routing"
+    ],
+    "answer": 0,
+    "explanation": "CIDR হলো Classless Inter-Domain Routing; এটি সাবনেট মাস্কিং ও সুপারনেটিংয়ের মাধ্যমে আইপিভি৪ অ্যাড্রেসের অপচয় রোধ করেছে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3543,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "প্রয়োজন অনুযায়ী ভিন্ন ভিন্ন সাইজের সাবনেট তৈরি করার কৌশল 'VLSM'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Virtual Local Subnet Management",
+      "B) Variable Layer System Mask",
+      "C) Variable Length Subnet Masking",
+      "D) Verified Length Subnet Module"
+    ],
+    "answer": 2,
+    "explanation": "VLSM হলো Variable Length Subnet Masking; এটি একটি নেটওয়ার্কের মধ্যে বিভিন্ন ব্রাঞ্চের প্রয়োজন অনুযায়ী আলাদা মাস্ক ব্যবহারের সুযোগ দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3544,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "প্রাইভেট লোকাল আইপি অ্যাড্রেসকে পাবলিক ইন্টারনেটের বৈশ্বিক আইপিতে রূপান্তরের পদ্ধতি 'NAT'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Network Array Transformation",
+      "B) Network Address Translation",
+      "C) Network Access Terminal",
+      "D) Node Allocation Technology"
+    ],
+    "answer": 1,
+    "explanation": "NAT হলো Network Address Translation; এটি কোটি কোটি প্রাইভেট আইপি ডিভাইসের জন্য মাত্র একটি পাবলিক আইপি শেয়ার করার সুবিধা দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3545,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "পোর্ট নম্বরের ভিন্নতা ব্যবহার করে হাজারো ডিভাইসকে একটি পাবলিক আইপিতে ম্যাপিংয়ের 'PAT'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Port Address Translation (NAT Overload)",
+      "B) Primary Access Translation",
+      "C) Protocol Access Terminal",
+      "D) Packet Allocation Table"
+    ],
+    "answer": 0,
+    "explanation": "PAT হলো Port Address Translation; এটি প্রতিটি আউটগোয়িং কানেকশনে অনন্য পোর্ট নম্বর বসিয়ে এক পাবলিক আইপি দিয়ে বহু পিসি চালায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3546,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "পাবলিক ইন্টারনেটের ওপর দিয়ে এনক্রিপ্টেড প্রাইভেট টানেল তৈরির প্রযুক্তি 'VPN'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Visual Public Network",
+      "B) Virtual Private Network",
+      "C) Verified Packet Network",
+      "D) Virtual Protected Node"
+    ],
+    "answer": 1,
+    "explanation": "VPN হলো Virtual Private Network; এটি নিরাপদ টানেলিংয়ের মাধ্যমে দূরবর্তী ব্যবহারকারীকে করপোরেট নেটওয়ার্কে নিরাপদ সংযোগ দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3547,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "একটি ফিজিক্যাল সুইচকে লজিক্যালি একাধিক স্বাধীন ব্রডকাস্ট ডোমেনে বিভক্ত করার প্রযুক্তি 'VLAN'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Variable Link Access Network",
+      "B) Verified LAN Architecture",
+      "C) Visual Local Area Network",
+      "D) Virtual Local Area Network (IEEE 802.1Q)"
+    ],
+    "answer": 3,
+    "explanation": "VLAN হলো Virtual Local Area Network; এটি ব্রডকাস্ট ট্রাফিক নিয়ন্ত্রণ ও নেটওয়ার্কের নিরাপত্তা পৃথকীকরণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3548,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "সুইচযুক্ত ইথারনেট নেটওয়ার্কে বিপজ্জনক লুপ ও ব্রডকাস্ট ঝড় প্রতিরোধকারী 'STP'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Shielded Twisted Pair",
+      "B) Synchronous Transmission Protocol",
+      "C) Spanning Tree Protocol (IEEE 802.1D)",
+      "D) Simple Terminal Protocol"
+    ],
+    "answer": 2,
+    "explanation": "STP হলো Spanning Tree Protocol (র‍্যাডিয়া পার্লম্যান উদ্ভাবিত); এটি রিডান্ড্যান্ট সুইচের অতিরিক্ত পথকে সাময়িক ব্লক করে লুপ বন্ধ রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3549,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "কম্পিউটারের নেটওয়ার্ক ইন্টারফেস কার্ড বা অ্যাডাপ্টারের সংক্ষেপ 'NIC'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Network Interface Card",
+      "B) Node Interconnect Controller",
+      "C) Network Instruction Controller",
+      "D) Network Internet Component"
+    ],
+    "answer": 0,
+    "explanation": "NIC হলো Network Interface Card; এতে অনন্য ৪৮-বিট ফিজিক্যাল ম্যাক অ্যাড্রেস হার্ডকোড করা থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3550,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "নেটওয়ার্ক হার্ডওয়্যারের বিশ্বজনীন অনন্য ৪৮-বিট স্থায়ী ঠিকানা 'MAC'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Memory Access Channel",
+      "B) Main Address Controller",
+      "C) Media Access Control",
+      "D) Multi-Access Channel"
+    ],
+    "answer": 2,
+    "explanation": "MAC হলো Media Access Control; এটি ডেটা লিঙ্ক লেয়ারের উপ-স্তর এবং এর ঠিকানা হেক্সাডেসিমেল ১২টি অঙ্কে (যেমন 00:1A:2B:3C:4D:5E) লেখা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3551,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "একটি নেটওয়ার্ক ফ্রেমে সর্বোচ্চ যে পরিমাণ ডেটা একক প্যাকেট হিসেবে পাঠানো যায় সেই 'MTU'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Minimum Transfer Unit",
+      "B) Maximum Timing Unit",
+      "C) Main Transmission Utility",
+      "D) Maximum Transmission Unit (স্ট্যান্ডার্ড ইথারনেটে ১৫০০ বাইট)"
+    ],
+    "answer": 3,
+    "explanation": "MTU হলো Maximum Transmission Unit; প্যাকেট এর চেয়ে বড় হলে রাউটারকে ফ্র্যাগমেন্টেশন (টুকরো) করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3552,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "টিসিপি সেগমেন্টের সর্বোচ্চ ডেটা ধারণ ক্ষমতা 'MSS'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Maximum Storage Size",
+      "B) Maximum Segment Size",
+      "C) Minimum Socket Size",
+      "D) Main Segment Standard"
+    ],
+    "answer": 1,
+    "explanation": "MSS হলো Maximum Segment Size; সাধারণত MTU থেকে আইপি ও টিসিপি হেডার (২০ + ২০ = ৪০ বাইট) বাদ দিলে $1500 - 40 = 1460$ বাইট হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3553,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "আইপি প্যাকেট অনন্তকাল ধরে রাউটিং লুপে ঘোরা বন্ধ করতে প্রতি হপে কমে যাওয়া ফিল্ড 'TTL'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Total Transmission Length",
+      "B) Terminal Timing Limit",
+      "C) Time To Live",
+      "D) Time To Link"
+    ],
+    "answer": 2,
+    "explanation": "TTL হলো Time To Live; প্রতি রাউটার পার হওয়ার সময় এর মান ১ কমে এবং ০ হলে প্যাকেটটি ড্রপ হয়ে ICMP Time Exceeded মেসেজ যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3554,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "তারযুক্ত ইথারনেট লোকাল এরিয়া নেটওয়ার্কে কলিশন শনাক্ত করার অ্যাক্সেস মেথড 'CSMA/CD'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Channel Sense Multi Access with Collision Direction",
+      "B) Carrier Sense Multiple Access with Collision Detection",
+      "C) Control System Media Access with Collision Division",
+      "D) Carrier System Multiple Access with Carrier Detection"
+    ],
+    "answer": 1,
+    "explanation": "CSMA/CD হলো Carrier Sense Multiple Access with Collision Detection; এটি কেবল তারযুক্ত ইথারনেটে কলিশন ঘটলে জ্যাম সিগন্যাল পাঠিয়ে ব্যাকঅফ নেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3555,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ওয়্যারলেস ওয়াইফাই (IEEE 802.11) নেটওয়ার্কে কলিশন এড়ানোর অ্যাক্সেস কৌশল 'CSMA/CA'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Carrier Sense Multiple Access with Collision Avoidance",
+      "B) Channel System Media Access with Collision Arbitration",
+      "C) Carrier Sense Multi Access with Control Allocation",
+      "D) Carrier Sense Multiple Access with Carrier Allocation"
+    ],
+    "answer": 0,
+    "explanation": "CSMA/CA হলো Collision Avoidance; ওয়্যারলেসে কলিশন সরাসরি শোনা যায় না বলে RTS/CTS হ্যান্ডশেকিং দিয়ে কলিশন এড়ানো হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3556,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "অ্যানালগ ভয়েস সিগন্যালকে ডিজিটাল বিট স্ট্রিমে রূপান্তরের স্ট্যান্ডার্ড কৌশল 'PCM'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Peak Carrier Modulation",
+      "B) Phase Code Modulation",
+      "C) Pulse Carrier Multiplexing",
+      "D) Pulse Code Modulation"
+    ],
+    "answer": 3,
+    "explanation": "PCM হলো Pulse Code Modulation; এর ৩টি মূল ধাপ হলো স্যাম্পলিং (Sampling), কোয়ান্টাইজেশন (Quantization) ও এনকোডিং (Encoding)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3557,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "ডেটা লিঙ্ক লেয়ারে ফ্রেমের ভুলত্রুটি বা বিট এরর শনাক্ত করার বহুপদী অ্যালগরিদম 'CRC'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Channel Routing Code",
+      "B) Cyclic Repeat Control",
+      "C) Continuous Redundancy Check",
+      "D) Cyclic Redundancy Check"
+    ],
+    "answer": 3,
+    "explanation": "CRC হলো Cyclic Redundancy Check; এটি বাইনারি পলিনোমিয়াল ভাগশেষের সাহায্যে ৯৯.৯৯% ট্রান্সমিশন এরর শনাক্ত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3558,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "সরাসরি গ্রাহকের বাড়ি পর্যন্ত উচ্চগতির অপটিক্যাল ফাইবার সংযোগের নেটওয়ার্ক 'FTTH'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Fast Transmission To Home",
+      "B) Fiber To The Home",
+      "C) Fiber Telecom Terminal Host",
+      "D) Fiber Telephone Transport Hub"
+    ],
+    "answer": 1,
+    "explanation": "FTTH হলো Fiber To The Home; এটি তামার তার বাদ দিয়ে সরাসরি গ্রাহকের বাসাবাড়ি পর্যন্ত উচ্চগতির ব্রডব্যান্ড নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3559,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "টেলিফোন তামার তারের মধ্য দিয়ে ব্রডব্যান্ড ইন্টারনেট সরবরাহের প্রযুক্তি 'ADSL'-এর পূর্ণরূপ কোনটি?",
+    "options": [
+      "A) Advanced Digital System Line",
+      "B) Asynchronous Data Subscriber Loop",
+      "C) Asymmetric Digital Subscriber Line",
+      "D) Automated Digital Subscriber Link"
+    ],
+    "answer": 2,
+    "explanation": "ADSL হলো Asymmetric Digital Subscriber Line; এতে ডাউনলোডের গতি আপলোডের চেয়ে বেশি থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 3560,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ২০.৪: ডেটা কমিউনিকেশন ও কম্পিউটার নেটওয়ার্কিং পূর্ণরূপ",
+    "subtopic": "বিষয়- ২০. পূর্ণরূপ (Full Forms & Technical Abbreviations)",
+    "question": "রেডিও ফ্রিকোয়েন্সি ব্যবহার করে স্বয়ংক্রিয়ভাবে ট্যাগযুক্ত বস্তু শনাক্তকরণ প্রযুক্তি 'RFID'-এর পূর্ণরূপ কী?",
+    "options": [
+      "A) Radio Frequency Identification",
+      "B) Rapid Frequency Integration",
+      "C) Remote Frequency Indicator",
+      "D) Radio Format Identifier"
+    ],
+    "answer": 0,
+    "explanation": "RFID হলো Radio Frequency Identification; টোল প্লাজা, পাসপোর্ট ও গুদামের মালামাল ট্র্যাকিংয়ে এটি ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

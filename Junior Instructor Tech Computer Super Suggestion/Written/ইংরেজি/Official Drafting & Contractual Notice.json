@@ -1,0 +1,19 @@
+[
+  {
+    "id": 3039,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Official Drafting & Contractual Notice",
+    "question": "Draft an official 'Cure Notice / Penalty Warning Letter' from the Department of Immigration and Passports to the authorized Annual Maintenance Contract (AMC) vendor for repeated failure to replace degraded UPS battery banks within the agreed SLA timeframe.",
+    "marks": 8,
+    "answer": "Model Contractual Cure Notice:\n\nGOVERNMENT OF THE PEOPLE'S REPUBLIC OF BANGLADESH\nDEPARTMENT OF IMMIGRATION AND PASSPORTS\nOFFICE OF THE SYSTEM ANALYST\nE-7 Agargaon, Dhaka-1207\n\nRef: 44.01.0000.301.08.004.26-789\nDate: 23 October 2026\n\nTo:\nThe Managing Director\nElectroTech Power Solutions Ltd.\nHouse-14, Road-07, Banani, Dhaka-1213.\n\nSUBJECT: FORMAL CURE NOTICE: PERSISTENT DELAY IN REPLACING FAULTY 10 KVA ONLINE UPS BATTERY BANKS UNDER AMC CONTRACT NO: DIP/AMC-UPS/2025-26\n\nDear Sir,\n\nThis serves as a formal written notice regarding your repeated breach of performance commitments under the active Annual Maintenance Contract (Contract Ref: DIP/AMC-UPS/2025-26, dated 15 January 2026).\n\n2. As per Clause 8.2 (Service Level Agreement) of the said contract, your technical personnel are contractually obligated to rectify or replace defective UPS battery cells within twenty-four (24) hours of ticket issuance. However, Ticket #UPS-DH-402 (issued on 12 October 2026) and Ticket #UPS-CTG-409 (issued on 16 October 2026) regarding swollen and degraded 12V 100Ah VRLA battery strings remain unaddressed despite three formal reminders.\n\n3. This prolonged negligence has deprived our production passport servers of clean redundant power, exposing national immigration databases to severe risks of catastrophic power surges and unbudgeted downtime.\n\n4. You are hereby called upon to **cure this default within forty-eight (48) hours** of receipt of this notice by delivering and commissioning genuine replacement battery modules. Failure to comply will compel this Department to invoke Clause 14.1, imposing liquidated damages at 0.5% per week of the contract value and initiating forfeiture of your Performance Guarantee Security, alongside prospective blacklisting from future public tenders.\n\nPlease treat this notice as extremely urgent.\n\nYours faithfully,\n\n(Signature)\n(Engr. Kazi Mahfuzur Rahman)\nSystem Analyst & Head of Maintenance\nDepartment of Immigration and Passports\nEmail: sysanalyst@dip.gov.bd",
+    "points_to_remember": [
+      "A legal/contractual cure notice must cite specific contract clauses, dates, ticket IDs, and exact legal remedies/penalties."
+    ],
+    "tags": [
+      "official_letter",
+      "contractual_notice",
+      "sla_warning",
+      "english_drafting"
+    ]
+  }
+]

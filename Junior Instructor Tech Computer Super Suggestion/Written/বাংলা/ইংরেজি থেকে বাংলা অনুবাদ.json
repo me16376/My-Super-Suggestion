@@ -1,0 +1,71 @@
+[
+  {
+    "id": 2023,
+    "subject": "বাংলা লিখিত",
+    "topic": "ইংরেজি থেকে বাংলা অনুবাদ",
+    "question": "ইংরেজি অনুচ্ছেদটি বাংলায় প্রাঞ্জল অনুবাদ করুন:\n\"Cybersecurity has become a cornerstone of national security in the twenty-first century. As critical government databases, citizen identities, and immigration systems are digitized, the vulnerability to sophisticated cyber attacks increases exponentially. A minor breach in a national biometric infrastructure could compromise personal privacy and sovereignty. Therefore, investing in advanced firewalls, cryptographic defense, and skilled human resources is not merely an IT upgrade, but an indispensable imperative for safeguarding the nation.\"",
+    "marks": 8,
+    "answer": "বাংলায় প্রাঞ্জল অনুবাদ:\n\n\"একবিংশ শতাব্দীতে সাইবার নিরাপত্তা জাতীয় নিরাপত্তার এক অবিচ্ছেদ্য মূলভিত্তিতে পরিণত হয়েছে। সরকারের স্পর্শকাতর ডাটাবেজ, নাগরিক পরিচিতি এবং ইমিগ্রেশন ব্যবস্থা যে হারে ডিজিটালাইজড হচ্ছে, জটিল ও সুদূরপ্রসারী সাইবার আক্রমণের ঝুঁকিও সে অনুপাতে জ্যামিতিক হারে বৃদ্ধি পাচ্ছে। কোনো জাতীয় বায়োমেট্রিক অবকাঠামোতে সামান্যতম নিরাপত্তাজনিত ফাটলও নাগরিকদের ব্যক্তিগত গোপনীয়তা এবং রাষ্ট্রের সার্বভৌমত্বকে মারাত্মক হুমকির মুখে ফেলতে পারে। সুতরাং, সর্বাধুনিক ফায়ারওয়্যাল, ক্রিপ্টোগ্রাফিক সুরক্ষা এবং দক্ষ মানবসম্পদ তৈরিতে বিনিয়োগ করা কেবল নিছক কোনো আইটি উন্নয়ন নয়, বরং দেশমাতৃকার অখণ্ড সুরক্ষার জন্য এক অপরিহার্য ও অনস্বীকার্য তাগিদ।\"",
+    "points_to_remember": [
+      "'Cornerstone' -> মূলভিত্তি / ভিত্তিপ্রস্তর।",
+      "'Vulnerability increases exponentially' -> ঝুঁকি জ্যামিতিক হারে বৃদ্ধি পাচ্ছে।",
+      "'Indispensable imperative' -> অপরিহার্য তাগিদ।"
+    ],
+    "tags": [
+      "translation",
+      "english_to_bangla",
+      "written_bangla"
+    ]
+  },
+  {
+    "id": 2039,
+    "subject": "বাংলা লিখিত",
+    "topic": "ইংরেজি থেকে বাংলা অনুবাদ",
+    "question": "ইংরেজি অনুচ্ছেদটি বাংলায় প্রাঞ্জল অনুবাদ করুন:\n\"In the era of Fourth Industrial Revolution, data has emerged as the new currency of global power. The Department of Immigration and Passports handles millions of critical biometric records, making data security a non-negotiable priority. A robust database architecture backed by advanced encryption standards protects personal freedom and prevents cross-border identity fraud, thereby upholding the dignity of the national passport.\"",
+    "marks": 8,
+    "answer": "বাংলায় প্রাঞ্জল অনুবাদ:\n\n\"চতুর্থ শিল্পবিপ্লবের এই যুগে ডাটা বা উপাত্ত বৈশ্বিক পরাক্রমের এক নতুন মুদ্রায় পরিণত হয়েছে। বহিরাগমন ও পাসপোর্ট অধিদপ্তর কোটি কোটি নাগরিকের অত্যন্ত স্পর্শকাতর বায়োমেট্রিক রেকর্ড সংরক্ষণ ও পরিচালনা করে, যা ডাটা সুরক্ষাকে এক অনস্বীকার্য ও আপসহীন অগ্রাধিকার হিসেবে প্রতিষ্ঠিত করেছে। সর্বাধুনিক এনক্রিপশন স্ট্যান্ডার্ড সমৃদ্ধ একটি শক্তিশালী ও মজবুত ডাটাবেজ কাঠামো নাগরিকদের ব্যক্তিগত গোপনীয়তা রক্ষা করে এবং আন্তঃসীমান্ত পরিচয় জালিয়াতি প্রতিরোধ করে; যার মধ্য দিয়ে জাতীয় পাসপোর্টের আন্তর্জাতিক মর্যাদা অক্ষুণ্ণ থাকে।\"",
+    "points_to_remember": [
+      "'New currency of global power' -> বৈশ্বিক পরাক্রমের এক নতুন মুদ্রা।",
+      "'Non-negotiable priority' -> আপসহীন অগ্রাধিকার।"
+    ],
+    "tags": [
+      "translation",
+      "english_to_bangla"
+    ]
+  },
+  {
+    "id": 2040,
+    "subject": "বাংলা লিখিত",
+    "topic": "ইংরেজি থেকে বাংলা অনুবাদ",
+    "question": "ইংরেজি অনুচ্ছেদটি বাংলায় প্রাঞ্জল অনুবাদ করুন:\n\"Artificial Intelligence and automated decision systems are transforming public sector administration worldwide. In border control and passport issuance, machine learning algorithms can detect document forgery and facial spoofing within fractions of a second. However, technical staff must remain vigilant against algorithmic bias and ensure continuous system calibration to maintain 100% operational reliability.\"",
+    "marks": 8,
+    "answer": "বাংলায় প্রাঞ্জল অনুবাদ:\n\n\"কৃত্রিম বুদ্ধিমত্তা (AI) এবং স্বয়ংক্রিয় সিদ্ধান্ত গ্রহণ পদ্ধতি বিশ্বজুড়ে সরকারি খাতের প্রশাসনিক ব্যবস্থাপনায় আমূল পরিবর্তন আনছে। সীমান্ত নিয়ন্ত্রণ এবং পাসপোর্ট প্রদানের ক্ষেত্রে মেশিন লার্নিং অ্যালগরিদম চোখের পলকে—সেকেন্ডের ভগ্নাংশের মধ্যেই—জাল নথি এবং কৃত্রিম মুখাবয়ব (ফেসিয়াল স্পুফিং) শনাক্ত করতে সক্ষম। তথাপি, শতভাগ পরিচালনগত নির্ভরতা ও কার্যকারিতা বজায় রাখতে কারিগরি কর্মীদের সর্বদা অ্যালগরিদমের পক্ষপাতিত্বের বিরুদ্ধে সতর্ক থাকতে হবে এবং নিয়মিত সিস্টেমের সঠিক ক্যালিব্রেশন নিশ্চিত করতে হবে।\"",
+    "points_to_remember": [
+      "'Public sector administration' -> সরকারি খাতের প্রশাসনিক ব্যবস্থাপনা।",
+      "'Facial spoofing' -> কৃত্রিম মুখাবয়ব বা মুখের নকল প্রদর্শন।"
+    ],
+    "tags": [
+      "translation",
+      "english_to_bangla",
+      "ai_governance"
+    ]
+  },
+  {
+    "id": 2057,
+    "subject": "বাংলা লিখিত",
+    "topic": "ইংরেজি থেকে বাংলা অনুবাদ",
+    "question": "ইংরেজি অনুচ্ছেদটি প্রাঞ্জল ও গতিশীল বাংলায় অনুবাদ করুন:\n\"In modern digital governance, ensuring high availability and zero downtime of public database systems is an existential imperative. A well-designed Disaster Recovery site, coupled with real-time synchronous replication and automated failover, protects national data assets against physical hazards, equipment degradation, and power blackouts. Technical maintenance engineers serve as the frontline defenders who maintain the operational heartbeat of sovereign citizen registry infrastructures.\"",
+    "marks": 8,
+    "answer": "বাংলায় প্রাঞ্জল ভাবানুবাদ:\n\n\"আধুনিক ডিজিটাল প্রশাসনিক ব্যবস্থাপনায় নাগরিক সেবা সংক্রান্ত পাবলিক ডাটাবেজগুলোর সার্বক্ষণিক প্রাপ্যতা এবং জিরো ডাউনটাইম নিশ্চিত করা এক অপরিহার্য ও অনস্বীকার্য তাগিদ। রিয়েল-টাইম সিনক্রোনাস রেপ্লিকেশন এবং স্বয়ংক্রিয় ফেইলওভার সুবিধাসম্পন্ন একটি সুনির্বাচিত ও আধুনিক ডিজাস্টার রিকভারি সাইট যেকোনো প্রাকৃতিক দুর্যোগ, যন্ত্রাংশের ক্ষয় এবং ব্ল্যাকআউটজনিত বিদ্যুৎ বিপর্যয়ের বিরুদ্ধে জাতীয় ডাটা সম্পদের শতভাগ সুরক্ষা নিশ্চিত করে। এই ব্যবস্থায় কারিগরি রক্ষণাবেক্ষণ প্রকৌশলীগণ হলেন সেই প্রথম সারির সম্মুখযোদ্ধা, যাঁরা সার্বভৌম নাগরিক পরিচিতি পরিকাঠামোর কর্মচাঞ্চল্যের হৃদস্পন্দনকে সার্বক্ষণিক সচল রাখেন।\"",
+    "points_to_remember": [
+      "'Existential imperative' -> অনস্বীকার্য ও অপরিহার্য তাগিদ।",
+      "'Operational heartbeat' -> কর্মচাঞ্চল্যের হৃদস্পন্দন।",
+      "'Frontline defenders' -> প্রথম সারির সম্মুখযোদ্ধা।"
+    ],
+    "tags": [
+      "translation",
+      "english_to_bangla",
+      "maintenance_bangla"
+    ]
+  }
+]

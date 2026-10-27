@@ -1,0 +1,737 @@
+[
+  {
+    "id": 2101,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপি (PHP) এর বর্তমান রিকার্সিভ অ্যাক্রোনিম (Recursive Acronym) পূর্ণরূপ কী?",
+    "options": [
+      "A) PHP: Hypertext Preprocessor",
+      "B) Personal Home Page Tools",
+      "C) Public Hypertext Protocol",
+      "D) Private Hyperlink Processor"
+    ],
+    "answer": 0,
+    "explanation": "পিএইচপি-র প্রাথমিক পূর্ণরূপ ছিল 'Personal Home Page', যা পরবর্তীতে রিকার্সিভ নাম 'PHP: Hypertext Preprocessor' হিসেবে স্বীকৃত পায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2102,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি পিএইচপি কোড ব্লক শুরু ও শেষ করার আদর্শ এবং সর্বাধিক সুপারিশকৃত স্ট্যান্ডার্ড ট্যাগ কোনটি?",
+    "options": [
+      "A) <script language=\"php\"> ... </script>",
+      "B) <% ... %>",
+      "C) <? ... ?>",
+      "D) <?php ... ?>"
+    ],
+    "answer": 3,
+    "explanation": "`<?php ... ?>` হলো স্ট্যান্ডার্ড ট্যাগ। শর্ট ওপেন ট্যাগ `<? ?>` সার্ভার কনফিগারেশনের উপর নির্ভরশীল হওয়ায় সর্বত্র কাজ নাও করতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2103,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপি স্ক্রিপ্ট এক্সিকিউশনের ক্ষেত্রে কোন উক্তিটি সঠিক?",
+    "options": [
+      "A) পিএইচপি কেবল ডেস্কটপ অ্যাপ্লিকেশন তৈরি করতে ব্যবহৃত হয়",
+      "B) পিএইচপি স্ক্রিপ্ট সম্পূর্ণ সার্ভার-সাইডে ইন্টারপ্রিটার দ্বারা রান হয়ে ব্রাউজারে কেবল সাধারণ এইচটিএমএল/টেক্সট আউটপুট পাঠায়",
+      "C) পিএইচপিতে কোনো লজিক্যাল বা কন্ট্রোল স্টেটমেন্ট সমর্থন করে না",
+      "D) পিএইচপি কোড ব্রাউজারে ডাউনলোড হয়ে ক্লায়েন্ট ইঞ্জিনে রান করে"
+    ],
+    "answer": 1,
+    "explanation": "পিএইচপি একটি সার্ভার-সাইড স্ক্রিপ্টিং ভাষা। সার্ভার কোড ইন্টারপ্রিট ও এক্সিকিউট করে শুধু রেন্ডার করা এইচটিএমএল ব্রাউজারে পাঠায়; ক্লায়েন্ট মূল পিএইচপি সোর্স কোড দেখতে পায় না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2104,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপিতে আউটপুট প্রদর্শনের জন্য ব্যবহৃত `echo` এবং `print` স্টেটমেন্টের মধ্যে মূল প্রযুক্তিগত পার্থক্য কী?",
+    "options": [
+      "A) `print` এর কোনো রিটার্ন ভ্যালু নেই এবং `echo` সর্বদা ১ রিটার্ন করে",
+      "B) উভয়ের মধ্যে কোনো প্রযুক্তিগত পার্থক্য নেই, এরা ১০০% অভিন্ন",
+      "C) `echo` এর কোনো রিটার্ন ভ্যালু নেই এবং একাধিক প্যারামিটার নিতে পারে; কিন্তু `print` সর্বদা ১ (integer 1) রিটার্ন করে",
+      "D) `echo` শুধুমাত্র নাম্বার প্রিন্ট করে এবং `print` টেক্সট প্রিন্ট করে"
+    ],
+    "answer": 2,
+    "explanation": "`echo` স্টেটমেন্ট কোনো মান রিটার্ন করে না এবং এটি কমা দিয়ে একাধিক আর্গুমেন্ট প্রিন্ট করতে পারে এবং `print` এর চেয়ে সামান্য দ্রুত; অন্যদিকে `print` সর্বদা ১ রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2105,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপিতে ভ্যারিয়েবল ডিক্লেয়ার করার সময় নামের পূর্বে কোন প্রতীকটি ব্যবহার করা বাধ্যতামূলক?",
+    "options": [
+      "A) & (Ampersand)",
+      "B) # (Hash sign)",
+      "C) @ (At sign)",
+      "D) $ (Dollar sign)"
+    ],
+    "answer": 3,
+    "explanation": "পিএইচপিতে সকল ভ্যারিয়েবল ডলার চিহ্নের (`$`) মাধ্যমে শুরু করতে হয় (যেমন: `$name = 'Karim';`) এবং ভেরিয়েবল নাম কেস-সেনসিটিভ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2106,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপিতে টাইপ সিস্টেমের বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "A) স্ট্রংলি ও স্ট্যাটিকালি টাইপড ভাষা",
+      "B) ডায়নামিকালি বা লুজলি টাইপড (Loosely Typed) ভাষা, যেখানে ভ্যারিয়েবলের টাইপ আগে থেকে ডিক্লেয়ার করতে হয় না",
+      "C) শুধুমাত্র প্রিমিটিভ টাইপ সমর্থন করে",
+      "D) টাইপ ডিক্লেয়ার না করলে কম্পাইল এরর দেয়"
+    ],
+    "answer": 1,
+    "explanation": "পিএইচপি ডায়নামিকালি টাইপড ভাষা; ভেরিয়েবলে যে ধরনের মান রাখা হয় পিএইচপি ইন্টারপ্রিটার স্বয়ংক্রিয়ভাবে সেই টাইপ নির্ধারণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2107,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপিতে একটি ফাংশনের ভেতর থেকে গ্লোবাল ভ্যারিয়েবল অ্যাক্সেস করতে কোন কীওয়ার্ডটি ব্যবহার করতে হয়?",
+    "options": [
+      "A) global",
+      "B) public",
+      "C) super",
+      "D) extern"
+    ],
+    "answer": 0,
+    "explanation": "ফাংশন স্কোপে গ্লোবাল ভেরিয়েবল ব্যবহার করতে `global $var;` ঘোষণা করতে হয় অথবা সুপারগ্লোবাল `$GLOBALS['var']` অ্যারে ব্যবহার করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2108,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ফাংশন এক্সিকিউশন শেষ হওয়ার পরও কোন লোকাল ভ্যারিয়েবলের মান মেমরিতে ধরে রাখতে পিএইচপিতে কোন কীওয়ার্ড ব্যবহৃত হয়?",
+    "options": [
+      "A) constant",
+      "B) persist",
+      "C) static",
+      "D) preserve"
+    ],
+    "answer": 2,
+    "explanation": "একটি লোকাল ভ্যারিয়েবলের আগে `static` লিখলে ফাংশন কল শেষ হলেও এর পূর্ববর্তী মান নষ্ট না হয়ে পরবর্তী কলের জন্য সংরক্ষিত থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2109,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপিতে রান-টাইমে কনস্ট্যান্ট (Constant) ডিফাইন করার জন্য কোন গ্লোবাল ফাংশনটি ব্যবহৃত হয়?",
+    "options": [
+      "A) constant()",
+      "B) createConstant()",
+      "C) define()",
+      "D) setConst()"
+    ],
+    "answer": 2,
+    "explanation": "`define('SITE_NAME', 'MyWebsite');` ফাংশনের মাধ্যমে পিএইচপিতে গ্লোবাল কনস্ট্যান্ট নির্ধারণ করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2110,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপি সুপারগ্লোবাল `$_GET` এর মাধ্যমে ফর্ম ডেটা রিসিভ করার ক্ষেত্রে কোন বৈশিষ্ট্যটি সঠিক?",
+    "options": [
+      "A) ডেটা ব্রাউজারের ইউআরএল কোয়েরি স্ট্রিংয়ে (Query String) প্রকাশ্যভাবে যুক্ত থাকে এবং এর সাইজ সীমিত",
+      "B) পাসওয়ার্ড ও ক্রেডিট কার্ডের মতো সংবেদনশীল ডেটা পাঠানোর জন্য নিরাপদ",
+      "C) ডেটা এইচটিটিপি রিকোয়েস্ট বডিতে এনক্রিপ্ট হয়ে যায়",
+      "D) এটি বাইনারি ইমেজ ও ফাইল আপলোড করার জন্য ব্যবহৃত হয়"
+    ],
+    "answer": 0,
+    "explanation": "`$_GET` এর ডেটা ইউআরএলে দেখা যায় (`example.com?name=rahim&age=20`), ফলে এটি বুকমার্ক করা যায় কিন্তু পাসওয়ার্ড বা সেনসিটিভ ডেটার জন্য অনিরাপদ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2111,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ফর্ম সাবমিশনে গোপনীয় ডেটা পাঠানো এবং ফাইল আপলোডের ক্ষেত্রে কোন এইচটিটিপি মেথড ও পিএইচপি সুপারগ্লোবাল ব্যবহৃত হয়?",
+    "options": [
+      "A) HEAD মেথড এবং `$_HEAD` সুপারগ্লোবাল",
+      "B) GET মেথড এবং `$_GET` সুপারগ্লোবাল",
+      "C) PUT মেথড এবং `$_INPUT` সুপারগ্লোবাল",
+      "D) POST মেথড এবং `$_POST` সুপারগ্লোবাল"
+    ],
+    "answer": 3,
+    "explanation": "`POST` মেথড ডেটাকে এইচটিটিপি মেসেজ বডিতে পাঠায়, ইউআরএলে ডেটা দৃশ্যমান হয় না এবং বড় আকারের ডেটা বা ফাইল নিরাপদে পাঠানো যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2112,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপিতে `$_GET`, `$_POST`, এবং `$_COOKIE` এর সমন্বিত ডেটা অ্যাক্সেস করার ডিফল্ট সুপারগ্লোবাল কোনটি?",
+    "options": [
+      "A) $_ALL",
+      "B) $_REQUEST",
+      "C) $_INPUT",
+      "D) $_GLOBALS"
+    ],
+    "answer": 1,
+    "explanation": "`$_REQUEST` একটি সহযোগী সুপারগ্লোবাল যা ডিফল্টভাবে `$_GET`, `$_POST`, এবং `$_COOKIE` এর উপাদানসমূহ ধারণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2113,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "বর্তমান চলমান পিএইচপি স্ক্রিপ্টের ফাইলপাথ ও নাম জানতে কোন সার্ভার সুপারগ্লোবাল এলিমেন্টটি ব্যবহৃত হয়?",
+    "options": [
+      "A) $_SERVER['PHP_SELF']",
+      "B) $_SERVER['CURRENT_FILE']",
+      "C) $_SERVER['SCRIPT_URL']",
+      "D) $_SERVER['SERVER_NAME']"
+    ],
+    "answer": 0,
+    "explanation": "`$_SERVER['PHP_SELF']` বর্তমান এক্সিকিউট হওয়া স্ক্রিপ্টের রিলেটিভ পাথ নির্দেশ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2114,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "এইচটিএমএল ফর্মে ফাইল আপলোড করতে `<form>` ট্যাগে কোন অ্যাট্রিবিউটটি আবশ্যক?",
+    "options": [
+      "A) method=\"upload\"",
+      "B) enctype=\"multipart/form-data\"",
+      "C) enctype=\"application/x-www-form-urlencoded\"",
+      "D) type=\"file/upload\""
+    ],
+    "answer": 1,
+    "explanation": "ফাইল বা বাইনারি ডেটা আপলোডের জন্য ফর্মে `enctype=\"multipart/form-data\"` এবং `method=\"POST\"` থাকা বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2115,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপিতে আপলোডকৃত ফাইলের অস্থায়ী অবস্থান ও মূল নাম সংরক্ষণে কোন সুপারগ্লোবাল ব্যবহৃত হয়?",
+    "options": [
+      "A) $_FILE_DATA['path'] ও $_FILE_DATA['name']",
+      "B) $_POST['file'] ও $_POST['name']",
+      "C) $_UPLOAD['tmp'] ও $_UPLOAD['filename']",
+      "D) $_FILES['fieldname']['tmp_name'] ও $_FILES['fieldname']['name']"
+    ],
+    "answer": 3,
+    "explanation": "আপলোডকৃত ফাইলের মেটাডেটা `$_FILES` দুই মাত্রিক অ্যারেতে থাকে, যার কীগুলো হলো `name`, `type`, `tmp_name`, `error`, ও `size`।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2116,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ইউজার ইনপুট থেকে ক্রস-সাইট স্ক্রিপ্টিং (Cross-Site Scripting - XSS) অ্যাটাক প্রতিরোধে পিএইচপির কোন বিল্ট-ইন ফাংশনটি এইচটিএমএল বিশেষ চিহ্নগুলোকে এনটিটিতে রূপান্তর করে?",
+    "options": [
+      "A) addslashes()",
+      "B) strip_tags()",
+      "C) htmlspecialchars()",
+      "D) urlencode()"
+    ],
+    "answer": 2,
+    "explanation": "`htmlspecialchars()` ফাংশন `<, >, &, \", '` ইত্যাদি বিশেষ চিহ্নকে এইচটিএমএল এনটিটিতে (যেমন: `&lt;`, `&gt;`) রূপান্তর করে স্ক্রিপ্ট ইনজেকশন প্রতিহত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2117,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ইনপুট স্ট্রিংয়ের শুরু এবং শেষ থেকে অপ্রয়োজনীয় স্পেস, ট্যাব ও নিউলাইন অপসারণে কোন ফাংশনটি ব্যবহৃত হয়?",
+    "options": [
+      "A) clear()",
+      "B) trim()",
+      "C) clean()",
+      "D) strip()"
+    ],
+    "answer": 1,
+    "explanation": "`trim($str)` ফাংশন স্ট্রিংয়ের উভয় প্রান্তের সকল হোয়াইটস্পেস ক্যারেক্টার মুছে ফেলে ডেটা স্যানিটাইজ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2118,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপিতে কাস্টম টেক্সট কি (Key) এবং ভ্যালু (Value) সমৃদ্ধ অ্যারেকে কী বলা হয়?",
+    "options": [
+      "A) মাল্টি-ডাইমেনশনাল অ্যারে",
+      "B) ইনডেক্সড অ্যারে (Indexed Array)",
+      "C) লিনিয়ার অ্যারে",
+      "D) অ্যাসোসিয়েটিভ অ্যারে (Associative Array)"
+    ],
+    "answer": 3,
+    "explanation": "যে অ্যারেতে সংখ্যাসূচক সূচকের পরিবর্তে নামযুক্ত কী (Key) ব্যবহার করা হয় তাকে অ্যাসোসিয়েটিভ অ্যারে বলে (যেমন: `$salary = ['Rahim' => 30000];`)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2119,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপিতে একটি অ্যারেতে মোট কতটি উপাদান আছে তা গণনা করতে কোন ফাংশনটি ব্যবহৃত হয়?",
+    "options": [
+      "A) array_length()",
+      "B) total()",
+      "C) count() বা sizeof()",
+      "D) length()"
+    ],
+    "answer": 2,
+    "explanation": "পিএইচপিতে অ্যারের এলিমেন্ট সংখ্যা গণনায় `count($arr)` বা তার অ্যালিয়াস `sizeof($arr)` ফাংশন ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2120,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপিতে একটি অ্যারের শেষ প্রান্তে নতুন এক বা একাধিক উপাদান যুক্ত করার ফাংশন কোনটি?",
+    "options": [
+      "A) array_push()",
+      "B) array_unshift()",
+      "C) array_insert()",
+      "D) array_append()"
+    ],
+    "answer": 0,
+    "explanation": "`array_push($arr, $val)` অ্যারের শেষে নতুন উপাদান যোগ করে। বিপরীতে `array_unshift()` শুরুতে যোগ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2121,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি নির্দিষ্ট মান কোনো অ্যারেতে বিদ্যমান আছে কিনা তা যাচাই করতে পিএইচপির কোন ফাংশন ব্যবহৃত হয়?",
+    "options": [
+      "A) in_array()",
+      "B) array_search_val()",
+      "C) has_value()",
+      "D) exists()"
+    ],
+    "answer": 0,
+    "explanation": "`in_array($needle, $haystack)` কোনো উপাদান অ্যারেতে থাকলে true এবং না থাকলে false রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2122,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি অ্যাসোসিয়েটিভ অ্যারের সকল কি ও মান সহজে ইটারেট বা লুপ করতে পিএইচপির সবচেয়ে আদর্শ লুপ কোনটি?",
+    "options": [
+      "A) for ($i = 0; $i < count($array); $i++)",
+      "B) foreach ($array as $key => $value)",
+      "C) loop ($array as $item)",
+      "D) while ($array->next())"
+    ],
+    "answer": 1,
+    "explanation": "`foreach ($array as $key => $value)` লুপ কোনো ইনডেক্স ট্র্যাক না করেই সহজে অ্যারের প্রতিটি কী-ভ্যালু জোড়া প্রসেস করতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2123,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ওয়েব ব্রাউজারে কুকি (Cookie) তৈরি এবং প্রেরণের জন্য পিএইচপির কোন ফাংশনটি ব্যবহৃত হয়?",
+    "options": [
+      "A) makecookie()",
+      "B) send_cookie()",
+      "C) setcookie()",
+      "D) create_cookie()"
+    ],
+    "answer": 2,
+    "explanation": "`setcookie(name, value, expire, path, domain, secure, httponly)` ফাংশনের মাধ্যমে এইচটিটিপি হেডারে কুকি পাঠানো হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2124,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "`setcookie()` ফাংশন কল করার বিষয়ে কোন শর্তটি অবশ্যই মেনে চলতে হবে?",
+    "options": [
+      "A) শুধুমাত্র ডাটাবেস কোয়েরির পর কল করতে হবে",
+      "B) ব্রাউজারে জাভাস্ক্রিপ্ট অন থাকতে হবে",
+      "C) ডকুমেন্টের `</body>` ট্যাগের পর কল করতে হবে",
+      "D) ব্রাউজারে যেকোনো এইচটিএমএল ট্যাগ, টেক্সট বা হোয়াইটস্পেস আউটপুট হওয়ার আগেই এটি এক্সিকিউট হতে হবে"
+    ],
+    "answer": 3,
+    "explanation": "কুকি এইচটিটিপি রেসপন্স হেডারে যুক্ত থাকে; ফলে সার্ভার থেকে কোনো এইচটিএমএল বা টেক্সট আউটপুট ব্রাউজারে চলে গেলে হেডার ইতিমধ্যে পাঠানো হয়ে যায় এবং 'Headers already sent' এরর দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2125,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "কুকি (Cookie) এবং সেশন (Session)-এর মধ্যে মৌলিক পার্থক্য কোনটি?",
+    "options": [
+      "A) কুকি সেশনের চেয়ে বেশি নিরাপদ",
+      "B) সেশন কোনো কুকি সাপোর্ট করে না",
+      "C) কুকি সার্ভারে থাকে আর সেশন ব্রাউজারে থাকে",
+      "D) কুকি ক্লায়েন্ট ব্রাউজারে সংরক্ষিত থাকে, আর সেশন ওয়েব সার্ভারের স্টোরেজে অত্যন্ত সুরক্ষিতভাবে সংরক্ষিত থাকে"
+    ],
+    "answer": 3,
+    "explanation": "কুকির তথ্য ক্লায়েন্টের পিসিতে টেক্সট ফাইল আকারে থাকে যা ইউজার এডিট করতে পারে; কিন্তু সেশন ডেটা সার্ভারে থাকে এবং ক্লায়েন্টের কাছে শুধু একটি ইউনিক Session ID পাঠানো হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2126,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপিতে সেশন শুরু বা বিদ্যমান সেশন পুনরুদ্ধার করতে স্ক্রিপ্টের শুরুতে কোন ফাংশনটি কল করা আবশ্যক?",
+    "options": [
+      "A) open_session()",
+      "B) session_start()",
+      "C) session_init()",
+      "D) start_session()"
+    ],
+    "answer": 1,
+    "explanation": "যেকোনো সেশন ভেরিয়েবল এক্সেস বা সেট করার পূর্বে অবশ্যই `session_start()` কল করতে হয় এবং এটিও কোনো আউটপুট প্রিন্ট হওয়ার পূর্বে কল করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2127,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "চলমান একটি সেশনের সকল সেশন ভেরিয়েবল মুছে ফেলতে এবং সেশন আইডি সহ সেশন সম্পূর্ণ ধ্বংস করতে কোন ফাংশন দুটি ব্যবহৃত হয়?",
+    "options": [
+      "A) session_unset() এবং session_destroy()",
+      "B) session_clear() এবং session_delete()",
+      "C) session_reset() এবং session_stop()",
+      "D) session_kill() এবং session_end()"
+    ],
+    "answer": 0,
+    "explanation": "`session_unset()` সেশনের সমস্ত রেজিস্টার্ড ভ্যারিয়েবল মুক্ত করে এবং `session_destroy()` সার্ভারের স্টোরেজ থেকে পুরো সেশন ফাইলটি ধ্বংস করে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2128,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি সম্পূর্ণ ফাইলকে একটিমাত্র স্ট্রিং হিসেবে একবারে মেমরিতে রিড করার জন্য পিএইচপির সবচেয়ে সহজ ও দ্রুততম ফাংশন কোনটি?",
+    "options": [
+      "A) fgets()",
+      "B) fread()",
+      "C) file_get_contents()",
+      "D) readfile()"
+    ],
+    "answer": 2,
+    "explanation": "`file_get_contents('filename.txt')` কোনো হ্যান্ডলার ওপেন-ক্লোজ করা ছাড়াই সম্পূর্ণ ফাইলের কন্টেন্ট একটি স্ট্রিং আকারে রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2129,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপিতে `fopen(\"log.txt\", \"a\")` স্টেটমেন্টে মোড `\"a\"` কী নির্দেশ করে?",
+    "options": [
+      "A) Archive মোড",
+      "B) Read-only মোড",
+      "C) Append মোড - ফাইলের বর্তমান তথ্যের শেষ প্রান্তে নতুন তথ্য যোগ করা (ফাইল না থাকলে তৈরি হবে)",
+      "D) Write মোড - বিদ্যমান তথ্য সম্পূর্ণ মুছে ফেলা"
+    ],
+    "answer": 2,
+    "explanation": "`\"a\"` হলো অ্যাপেন্ড মোড যা ফাইলের পয়েন্টারকে একেবারে শেষে রাখে এবং পূর্ববর্তী তথ্য মুছে না ফেলে নতুন ডেটা সংযুক্ত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2130,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সার্ভারে আপলোড করা অস্থায়ী ফাইলকে নিরাপদ গন্তব্য ফোল্ডারে স্থানান্তর করতে পিএইচপির কোন ফাংশনটি অনুমোদিত?",
+    "options": [
+      "A) move_uploaded_file()",
+      "B) copy()",
+      "C) file_put_contents()",
+      "D) rename()"
+    ],
+    "answer": 0,
+    "explanation": "`move_uploaded_file($temp_path, $dest_path)` নিশ্চিত করে যে ফাইলটি এইচটিটিপি পোস্টের মাধ্যমেই আপলোড হয়েছে, যা সিস্টেম সিকিউরিটির জন্য অত্যন্ত গুরুত্বপূর্ণ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2131,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপি ক্লাসের ভেতরে নিজস্ব মেম্বার প্রপার্টি বা মেথড নির্দেশ করতে কোন ছদ্ম-ভ্যারিয়েবলটি (Pseudo-variable) ব্যবহৃত হয়?",
+    "options": [
+      "A) $self",
+      "B) $this",
+      "C) $me",
+      "D) $parent"
+    ],
+    "answer": 1,
+    "explanation": "অবজেক্টের বর্তমান ইনস্ট্যান্সের অভ্যন্তরীণ প্রপার্টি ও মেথড এক্সেস করতে `$this->propertyName` ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2132,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপি ওওপি-তে (OOP) একটি ক্লাসের নতুন অবজেক্ট তৈরির সাথে সাথেই স্বয়ংক্রিয়ভাবে এক্সিকিউট হওয়া কনস্ট্রাক্টর মেথডের নাম কী?",
+    "options": [
+      "A) __init()",
+      "B) __create()",
+      "C) ClassName()",
+      "D) __construct()"
+    ],
+    "answer": 3,
+    "explanation": "পিএইচপিতে কনস্ট্রাক্টর হলো ডাবল আন্ডারস্কোরযুক্ত ম্যাজিক মেথড `__construct()` যা অবজেক্ট ইনস্ট্যানশিয়েট করার সময় স্বয়ংক্রিয়ভাবে কল হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2133,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপিতে ক্লাসের কোনো মেম্বার যদি `protected` হিসেবে ঘোষিত হয়, তবে সেটি কোথায় অ্যাক্সেসযোগ্য?",
+    "options": [
+      "A) শুধুমাত্র ডেটাবেসের সংযোগের সময়",
+      "B) শুধুমাত্র ওই ক্লাসের ভেতরে, চাইল্ড ক্লাসেও অ্যাক্সেসযোগ্য নয়",
+      "C) বিশ্বের যেকোনো জায়গা থেকে পাবলিকলি",
+      "D) শুধুমাত্র ওই ক্লাসের ভেতরে এবং তার থেকে ইনহেরিট করা চাইল্ড ক্লাসের ভেতরে"
+    ],
+    "answer": 3,
+    "explanation": "`protected` মেম্বার নিজস্ব ক্লাস এবং এক্সটেন্ডেড চাইল্ড ক্লাস থেকে অ্যাক্সেসযোগ্য; তবে ক্লাসের বাইরের অবজেক্ট ইনস্ট্যান্স থেকে সরাসরি ইনভোক করা যায় না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2134,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপিতে একটি চাইল্ড ক্লাস অন্য একটি প্যারেন্ট ক্লাস থেকে ইনহেরিট করতে কোন কীওয়ার্ডটি ব্যবহার করে?",
+    "options": [
+      "A) derives",
+      "B) extends",
+      "C) inherits",
+      "D) implements"
+    ],
+    "answer": 1,
+    "explanation": "পিএইচপিতে ক্লাস ইনহেরিটেন্সে `extends` কীওয়ার্ড ব্যবহৃত হয় (যেমন: `class Car extends Vehicle {}`)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2135,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.৪: পিএইচপি ও সার্ভার-সাইড ডেভেলপমেন্ট",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "পিএইচপিতে অবজেক্ট তৈরি না করে সরাসরি ক্লাসের নাম দিয়ে স্ট্যাটিক মেথড বা প্রপার্টি অ্যাক্সেস করতে কোন অপারেটরটি ব্যবহৃত হয়?",
+    "options": [
+      "A) Scope Resolution Operator (::)",
+      "B) Object Operator (->)",
+      "C) Arrow Function (=>)",
+      "D) Dot Operator (.)"
+    ],
+    "answer": 0,
+    "explanation": "স্ট্যাটিক মেম্বার, কনস্ট্যান্ট বা প্যারেন্ট ক্লাসের মেথড এক্সেস করতে ডাবল কোলন বা স্কোপ রেজোলিউশন অপারেটর (`ClassName::methodName()`) ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

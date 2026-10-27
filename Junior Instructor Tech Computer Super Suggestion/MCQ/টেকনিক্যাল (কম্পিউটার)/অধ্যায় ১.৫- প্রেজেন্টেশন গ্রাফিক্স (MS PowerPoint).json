@@ -1,0 +1,527 @@
+[
+  {
+    "id": 1146,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "মাইক্রোসফট পাওয়ারপয়েন্ট ২০০৭ এবং পরবর্তী ভার্সনের ডিফল্ট ফাইল এক্সটেনশন কোনটি?",
+    "options": [
+      "A) .pptx",
+      "B) .potx",
+      "C) .ppsx",
+      "D) .ppt"
+    ],
+    "answer": 0,
+    "explanation": "Office 2007 থেকে পাওয়ারপয়েন্ট প্রেজেন্টেশনের মূল এক্সটেনশন হলো '.pptx'।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1147,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "পাওয়ারপয়েন্টে প্রথম স্লাইড থেকে স্লাইড শো (Slide Show) শুরু করার কীবোর্ড শর্টকাট কোনটি?",
+    "options": [
+      "A) Alt + F5",
+      "B) F5",
+      "C) Ctrl + F5",
+      "D) Shift + F5"
+    ],
+    "answer": 1,
+    "explanation": "F5 চাপলে প্রথম স্লাইড থেকে ফুল স্ক্রিন স্লাইড শো শুরু হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1148,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "বর্তমান সক্রিয় স্লাইড (Current Slide) থেকে স্লাইড শো শুরু করার শর্টকাট কী কোনটি?",
+    "options": [
+      "A) F5",
+      "B) Ctrl + F5",
+      "C) Alt + Shift + F5",
+      "D) Shift + F5"
+    ],
+    "answer": 3,
+    "explanation": "Shift + F5 চাপলে ইউজার বর্তমানে যে স্লাইডে আছেন ঠিক সেখান থেকেই শো শুরু হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1149,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "পাওয়ারপয়েন্টে একটি প্রেজেন্টেশনের মাঝে নতুন একটি স্লাইড যোগ (New Slide) করার শর্টকাট কোনটি?",
+    "options": [
+      "A) Ctrl + M",
+      "B) Shift + N",
+      "C) Alt + N",
+      "D) Ctrl + N"
+    ],
+    "answer": 0,
+    "explanation": "Ctrl + M চাপলে নতুন স্লাইড ইনসার্ট হয়, আর Ctrl + N চাপলে সম্পূর্ণ নতুন ফাইল তৈরি হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1150,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "চলমান কোনো স্লাইড ডুপ্লিকেট (Duplicate Slide) করার শর্টকাট কোনটি?",
+    "options": [
+      "A) Ctrl + C",
+      "B) Alt + D",
+      "C) Ctrl + D",
+      "D) Ctrl + Shift + D"
+    ],
+    "answer": 2,
+    "explanation": "Ctrl + D নির্বাচিত স্লাইডের হুবহু আরেকটি প্রতিলিপি তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1151,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "একটি প্রেজেন্টেশনের সকল স্লাইডের ফন্ট, ব্যাকগ্রাউন্ড ও লোগো একবারে নিয়ন্ত্রণ করার টুলের নাম কী?",
+    "options": [
+      "A) হ্যান্ডআউট মাস্টার",
+      "B) ডিজাইন থিম",
+      "C) লেআউট বিল্ডার",
+      "D) স্লাইড মাস্টার (Slide Master)"
+    ],
+    "answer": 3,
+    "explanation": "Slide Master হলো শীর্ষ স্লাইড যার ডিজাইন পরিবর্তন করলে সম্পূর্ণ প্রেজেন্টেশনের সব স্লাইড স্বয়ংক্রিয়ভাবে আপডেট হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1152,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "একটি স্লাইড থেকে পরবর্তী স্লাইডে যাওয়ার সময়ের ভিজ্যুয়াল এফেক্টকে কী বলা হয়?",
+    "options": [
+      "A) অ্যানিমেশন (Animation)",
+      "B) ট্রানজিশন (Transition)",
+      "C) স্লাইড শো",
+      "D) মরফিং"
+    ],
+    "answer": 1,
+    "explanation": "Transition দুটি স্লাইডের মধ্যবর্তী ট্রানজিশনাল প্রভাব নিয়ন্ত্রণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1153,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "স্লাইডের ভেতরের উপাদানসমূহের (টেক্সট, ছবি বা শেপ) চলাচলের ভিজ্যুয়াল এফেক্টকে কী বলা হয়?",
+    "options": [
+      "A) ইন্টারঅ্যাকশন",
+      "B) অ্যানিমেশন (Animation)",
+      "C) ট্রানজিশন",
+      "D) ট্রান্সফর্মেশন"
+    ],
+    "answer": 1,
+    "explanation": "Animation স্লাইডের মধ্যকার নির্দিষ্ট অবজেক্টের প্রবেশ, প্রস্থান ও নড়াচড়া নিয়ন্ত্রণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1154,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "পাওয়ারপয়েন্টে অ্যানিমেশনের প্রধান ৪টি প্রকারভেদের মধ্যে নিচের কোনটি অন্তর্ভুক্ত নয়?",
+    "options": [
+      "A) কনভার্সন (Conversion)",
+      "B) এমফ্যাসিস (Emphasis)",
+      "C) এন্ট্রান্স (Entrance)",
+      "D) এক্সিট (Exit)"
+    ],
+    "answer": 0,
+    "explanation": "অ্যানিমেশনের ৪টি প্রকার হলো: Entrance (প্রবেশ), Emphasis (গুরুত্ব), Exit (প্রস্থান) এবং Motion Paths (গতিপথ)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1155,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "স্লাইড শো চলাকালীন স্ক্রিন সাময়িকভাবে সম্পূর্ণ কালো (Black Screen) করার জন্য কোন কি চাপতে হয়?",
+    "options": [
+      "A) Esc",
+      "B) Space",
+      "C) B",
+      "D) W"
+    ],
+    "answer": 2,
+    "explanation": "স্লাইড শো চলাকালে 'B' চাপলে স্ক্রিন কালো (Black) এবং 'W' চাপলে সাদা (White) হয়ে যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1156,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "স্লাইড শো চলাকালীন স্ক্রিনে তাৎক্ষণিক ড্রয়িং বা দাগ দেওয়ার জন্য পেন টুল (Pen Tool) সক্রিয় করার শর্টকাট কোনটি?",
+    "options": [
+      "A) Ctrl + B",
+      "B) Ctrl + E",
+      "C) Ctrl + A",
+      "D) Ctrl + P"
+    ],
+    "answer": 3,
+    "explanation": "Ctrl + P পয়েন্টারকে পেন টুলে পরিণত করে এবং Ctrl + E ইরেজার সক্রিয় করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1157,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "পাওয়ারপয়েন্টে সকল স্লাইড থাম্বনেইল আকারে এক স্ক্রিনে দেখার ভিউ মোডকে কী বলে?",
+    "options": [
+      "A) নরমাল ভিউ",
+      "B) আউটলাইন ভিউ",
+      "C) স্লাইড সর্টার ভিউ (Slide Sorter View)",
+      "D) রিডিং ভিউ"
+    ],
+    "answer": 2,
+    "explanation": "Slide Sorter View সব স্লাইড গ্রিড আকারে দেখায়, যা স্লাইডের ক্রম পরিবর্তন ও পুনর্বিন্যাসে উপযোগী।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1158,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "স্লাইড শো চলাকালীন প্রেজেন্টার ল্যাপটপে পরবর্তী স্লাইড ও নোট দেখতে পান কিন্তু দর্শক শুধু স্লাইড দেখেন—এ ব্যবস্থার নাম কী?",
+    "options": [
+      "A) স্পিকার ভিউ",
+      "B) প্রেজেন্টার ভিউ (Presenter View)",
+      "C) ডুয়াল ভিউ",
+      "D) অডিয়েন্স ভিউ"
+    ],
+    "answer": 1,
+    "explanation": "Presenter View স্পিকারকে টাইমার, ব্যক্তিগত স্পিকার নোটস এবং আপকামিং স্লাইড প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1159,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "পাওয়ারপয়েন্টে প্রতিটি স্লাইড প্রদর্শনের সময় অনুশীলন ও নিখুঁত সময় রেকর্ড করার ফিচার কোনটি?",
+    "options": [
+      "A) টাইম রেকর্ডার",
+      "B) স্লাইড টাইমার",
+      "C) অটো প্লে",
+      "D) রিহার্স টাইমিংস (Rehearse Timings)"
+    ],
+    "answer": 3,
+    "explanation": "Rehearse Timings ব্যবহারকারীকে প্রতিটি স্লাইডে কত সময় লাগবে তা অনুশীলন ও অটো-অ্যাডভান্স সেভ করতে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1160,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "স্লাইড শো বন্ধ করে স্বাভাবিক এডিটিং মোডে ফিরে আসার শর্টকাট কী কোনটি?",
+    "options": [
+      "A) Esc (Escape)",
+      "B) Backspace",
+      "C) Enter",
+      "D) Space"
+    ],
+    "answer": 0,
+    "explanation": "Esc চাপলে যেকোনো সময় স্লাইড শো সমাপ্ত হয়ে নরমাল এডিটিং উইন্ডো ফিরে আসে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1161,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "স্লাইডে ক্লিক করলে কোনো অ্যাকশন (যেমন- অন্য স্লাইডে যাওয়া, শব্দ বাজানো) সম্পাদনের বাটনকে কী বলে?",
+    "options": [
+      "A) কন্ট্রোল সুইচ",
+      "B) ম্যাক্রো বাটন",
+      "C) ট্রিগার বক্স",
+      "D) অ্যাকশন বাটন (Action Buttons)"
+    ],
+    "answer": 3,
+    "explanation": "Action Button হলো বিশেষ শেপ যাতে হাইপারলিঙ্ক বা বিশেষ ম্যাক্রো অ্যাকশন যুক্ত থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1162,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "পাওয়ারপয়েন্টে সরাসরি ক্লিক করলে প্রেজেন্টেশন ওপেন না হয়ে সরাসরি স্লাইড শো শুরু হওয়ার ফাইল ফরম্যাট কোনটি?",
+    "options": [
+      "A) .ppsx (PowerPoint Show)",
+      "B) .pptm",
+      "C) .pptx",
+      "D) .potx"
+    ],
+    "answer": 0,
+    "explanation": "'.ppsx' হলো পাওয়ারপয়েন্ট শো ফরম্যাট যা ওপেন করলেই সরাসরি পূর্ণ স্ক্রিন স্লাইড শো রান হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1163,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "শ্রোতাদের পড়ার সুবিধার জন্য প্রতি পৃষ্ঠায় একাধিক স্লাইডের মিনিয়েচার প্রিন্ট কপিকে কী বলা হয়?",
+    "options": [
+      "A) নোটস পেজ",
+      "B) আউটলাইন",
+      "C) হ্যান্ডআউটস (Handouts)",
+      "D) ফ্লায়ার"
+    ],
+    "answer": 2,
+    "explanation": "Handouts হলো অডিয়েন্সের জন্য এক পাতায় ১, ২, ৩, ৪, ৬ বা ৯টি স্লাইড প্রিন্ট করার লেআউট।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1164,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "পাওয়ারপয়েন্টে জটিল তথ্য, প্রসেস ফ্লো বা সাংগঠনিক কাঠামো সহজে ডায়াগ্রামে ফুটিয়ে তোলার টুলের নাম কী?",
+    "options": [
+      "A) চার্টস",
+      "B) স্মার্টআর্ট (SmartArt Graphics)",
+      "C) ওয়ার্ডআর্ট",
+      "D) শেপস"
+    ],
+    "answer": 1,
+    "explanation": "SmartArt হায়ারার্কি, সাইকেল, রিলেশনশিপ এবং প্রসেস ডায়াগ্রাম দ্রুত তৈরি করতে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1165,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "স্লাইডে থাকা সুন্দর আকর্ষণীয় স্টাইলাইজড টেক্সট আর্ট যোগ করার ফিচারের নাম কী?",
+    "options": [
+      "A) স্মার্টআর্ট",
+      "B) ক্লিপআর্ট",
+      "C) ওয়ার্ডআর্ট (WordArt)",
+      "D) টেক্সট বক্স"
+    ],
+    "answer": 2,
+    "explanation": "WordArt টেক্সটকে ত্রিমাত্রিক শ্যাডো, বেভেল ও গ্রেডিয়েন্ট এফেক্ট দিয়ে আকর্ষণীয় করে তোলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1166,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "পাওয়ারপয়েন্টে স্লাইড ট্রানজিশনের আধুনিক 'মরফ' (Morph) ফিচারের মূল কাজ কী?",
+    "options": [
+      "A) ভিডিও কম্প্রেস করা",
+      "B) এক স্লাইডের উপাদানকে মসৃণভাবে অ্যানিমেট করে পরবর্তী স্লাইডের অবস্থানে রূপান্তর করা",
+      "C) সাউন্ড ইফেক্ট বন্ধ করা",
+      "D) স্লাইড ডিলিট করা"
+    ],
+    "answer": 1,
+    "explanation": "Morph ট্রানজিশন সাধারণ উপাদানসমূহ চিহ্নিত করে স্লাইড পরিবর্তনের সময় মসৃণ মুভমেন্ট তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1167,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "পাওয়ারপয়েন্টে স্লাইডের নিচে বক্তার নিজস্ব তথ্য লিখে রাখার প্যানটিকে কী বলে?",
+    "options": [
+      "A) নোটস প্যান (Notes Pane)",
+      "B) স্ট্যাটাস বার",
+      "C) কমেন্ট বক্স",
+      "D) টাস্ক প্যান"
+    ],
+    "answer": 0,
+    "explanation": "Notes Pane-এ স্পিকার তার বক্তব্যের সহায়ক ক্লু লিখে রাখেন যা দর্শকরা দেখতে পায় না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1168,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "স্লাইড শোতে নির্দিষ্ট ক্রমানুসারে স্লাইড প্রদর্শন নিয়ন্ত্রণ (লুপে চলা বা কিয়স্ক মোড) করার অপশন কোনটি?",
+    "options": [
+      "A) Hide Slide",
+      "B) Broadcast Slide Show",
+      "C) Custom Show",
+      "D) Set Up Slide Show"
+    ],
+    "answer": 3,
+    "explanation": "'Set Up Slide Show' ডায়ালগ বক্স থেকে ফুল স্ক্রিন, লুপ কন্টিনিউয়াসলি এবং কিয়স্ক মোড সেট করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1169,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "কোনো স্লাইডকে প্রেজেন্টেশনে রেখেও স্লাইড শো চলাকালীন অদৃশ্য রাখার অপশন কোনটি?",
+    "options": [
+      "A) রিমুভ স্লাইড",
+      "B) হাইড স্লাইড (Hide Slide)",
+      "C) কাট স্লাইড",
+      "D) ডিলিট স্লাইড"
+    ],
+    "answer": 1,
+    "explanation": "Hide Slide অপশন স্লাইডটি ফাইলে বজায় রাখে কিন্তু স্লাইড শো চলাকালে স্কিপ করে যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 1170,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১.৫: প্রেজেন্টেশন গ্রাফিক্স (MS PowerPoint)",
+    "subtopic": "বিষয়- ১. কম্পিউটার ফান্ডামেন্টাল (Computer Fundamentals & Office Applications)",
+    "question": "পাওয়ারপয়েন্টে সম্পূর্ণ প্রেজেন্টেশনকে এমপি৪ (MP4) ভিডিও হিসেবে এক্সপোর্ট করার সুবিধা কোন মেনুতে থাকে?",
+    "options": [
+      "A) File -> Print",
+      "B) View -> Export",
+      "C) File -> Export -> Create a Video",
+      "D) Design -> Video"
+    ],
+    "answer": 2,
+    "explanation": "Export মেনু থেকে স্লাইড ও অ্যানিমেশন সহ সম্পূর্ণ প্রেজেন্টেশনকে Full HD ভিডিওতে সেভ করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

@@ -1,0 +1,632 @@
+[
+  {
+    "id": 2001,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি আধুনিক এইচটিএমএল৫ (HTML5) ডকুমেন্টের একেবারে শুরুতে ব্রাউজারকে ডকুমেন্টের ধরন নির্দেশ করতে কোন ডিক্লেয়ারেশনটি আবশ্যক?",
+    "options": [
+      "A) <!DOCTYPE html>",
+      "B) <?xml version=\"1.0\"?>",
+      "C) <html version=\"5.0\">",
+      "D) <doctype html5>"
+    ],
+    "answer": 0,
+    "explanation": "`<!DOCTYPE html>` হলো কেস-ইনসেনসিটিভ স্ট্যান্ডার্ড ডকটাইপ যা ব্রাউজারকে স্ট্যান্ডার্ড মোডে রেন্ডার করতে নির্দেশ দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2002,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "বিশ্বের সমস্ত ভাষার ক্যারেক্টার (যেমন বাংলা লিপি) ওয়েব ব্রাউজারে নিখুঁতভাবে প্রদর্শনের জন্য `<head>` সেকশনে কোন মেটা ট্যাগ যুক্ত করা আবশ্যক?",
+    "options": [
+      "A) <meta encoding=\"ascii\">",
+      "B) <meta charset=\"UTF-8\">",
+      "C) <meta lang=\"bn\">",
+      "D) <meta http-equiv=\"refresh\">"
+    ],
+    "answer": 1,
+    "explanation": "`<meta charset=\"UTF-8\">` বিশ্বজনীন ইউনিকোড ক্যারেক্টার এনকোডিং নির্ধারণ করে, যা বাংলাসহ সকল ভাষা বিকৃত হওয়া রোধ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2003,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "এইচটিএমএল ডকুমেন্টের ব্রাউজার ট্যাবে প্রদর্শিত শিরোনাম (Title) এবং সার্চ ইঞ্জিন অপটিমাইজেশন (SEO)-এর জন্য কোন ট্যাগটি ব্যবহৃত হয়?",
+    "options": [
+      "A) <meta name=\"title\">",
+      "B) <h1>",
+      "C) <title>",
+      "D) <header>"
+    ],
+    "answer": 2,
+    "explanation": "`<title>` ট্যাগ ডকুমেন্টের `<head>`-এর ভেতর বসে ব্রাউজার ট্যাবের টেক্সট এবং বুকমার্ক নাম নির্ধারণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2004,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "এইচটিএমএল-এ টেক্সটের মধ্যে নতুন একটি অনুচ্ছেদ শুরু না করে কেবল একটি লাইন ব্রেক (Line Break) দেওয়ার জন্য কোন ট্যাগ ব্যবহৃত হয়?",
+    "options": [
+      "A) <lb>",
+      "B) <p>",
+      "C) <hr>",
+      "D) <br>"
+    ],
+    "answer": 3,
+    "explanation": "`<br>` হলো একটি এম্পটি বা ভয়েড ট্যাগ (Self-closing) যা কোনো মার্জিন ছাড়াই সরাসরি একটি নতুন লাইন তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2005,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ওয়েবপেজে বিষয়বস্তুর মাঝে একটি আনুভূমিক রৈখিক বিভাজক (Horizontal Rule) আঁকার ট্যাগ কোনটি?",
+    "options": [
+      "A) <border>",
+      "B) <hr>",
+      "C) <line>",
+      "D) <divider>"
+    ],
+    "answer": 1,
+    "explanation": "`<hr>` ট্যাগ পেজে একটি থিম্যাটিক ব্রেক বা দৃশ্যমান অনুভূমিক দাগ তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2006,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "কোনো টেক্সটকে সাধারণ বোল্ড না করে শব্দার্থগতভাবে (Semantically) 'অত্যন্ত গুরুত্বপূর্ণ বা জরুরি' বোঝাতে কোন ট্যাগ ব্যবহৃত হয়?",
+    "options": [
+      "A) <em>",
+      "B) <b>",
+      "C) <strong>",
+      "D) <bold>"
+    ],
+    "answer": 2,
+    "explanation": "`<b>` কেবল দৃশ্যমান বোল্ড করে কিন্তু `<strong>` স্ক্রিন রিডার ও সার্চ ইঞ্জিনের কাছে বিষয়বস্তুর গুরুত্ব বা জরুরি অবস্থা নির্দেশ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2007,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সোর্স কোডে থাকা স্পেস, ট্যাব ও লাইন ব্রেক হুবহু বজায় রেখে ফিক্সড-উইডথ বা মনোস্পেস ফন্টে প্রদর্শনের ট্যাগ কোনটি?",
+    "options": [
+      "A) <text>",
+      "B) <format>",
+      "C) <code>",
+      "D) <pre>"
+    ],
+    "answer": 3,
+    "explanation": "`<pre>` (Preformatted Text) ট্যাবের ভেতরে লেখা স্পেস ও এন্টার কি হুবহু ব্রাউজারে সংরক্ষিত ও প্রদর্শিত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2008,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি হাইপারলিঙ্ক ক্লিকের পর নতুন ব্রাউজার উইন্ডো বা নতুন ট্যাবে খোলার জন্য `<a>` ট্যাগে কোন অ্যাট্রিবিউট ব্যবহার করা হয়?",
+    "options": [
+      "A) target=\"_blank\"",
+      "B) window=\"new\"",
+      "C) target=\"_newtab\"",
+      "D) target=\"_self\""
+    ],
+    "answer": 0,
+    "explanation": "`<a href=\"url\" target=\"_blank\">` নতুন ট্যাবে লিঙ্কটি ওপেন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2009,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ওয়েবপেজে কোনো ছবি লোড হতে ব্যর্থ হলে তার বিকল্প হিসেবে টেক্সট প্রদর্শনের এবং অন্ধ ব্যবহারকারীদের স্ক্রিন রিডারের জন্য কোন অ্যাট্রিবিউট আবশ্যক?",
+    "options": [
+      "A) title",
+      "B) src",
+      "C) caption",
+      "D) alt (Alternative text)"
+    ],
+    "answer": 3,
+    "explanation": "`<img src=\"...\" alt=\"বিবরণ\">` ইমেজ প্রদর্শনে ব্যর্থ হলে অল্টারনেটিভ টেক্সট দেখায় এবং অ্যাক্সেসিবিলিটি নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2010,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "এইচটিএমএল৫-এ কোনো প্লাগইন (যেমন ফ্ল্যাশ প্লেয়ার) ছাড়াই ব্রাউজারে সরাসরি অডিও ফাইল প্লে করার ট্যাগ কোনটি?",
+    "options": [
+      "A) <audio controls>",
+      "B) <play>",
+      "C) <media>",
+      "D) <sound>"
+    ],
+    "answer": 0,
+    "explanation": "`<audio controls>` ট্যাগে `controls` অ্যাট্রিবিউট প্লে, পজ ও ভলিউম বাটন প্রদান করে অডিও চালাতে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2011,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি ক্রমানুসারী সংখ্যাযুক্ত তালিকা (Ordered List: 1, 2, 3...) তৈরি করার জন্য কোন ট্যাগটি ব্যবহৃত হয়?",
+    "options": [
+      "A) <li>",
+      "B) <ol>",
+      "C) <ul>",
+      "D) <dl>"
+    ],
+    "answer": 1,
+    "explanation": "`<ol>` হলো Ordered List এবং বুলেট পয়েন্ট বিশিষ্ট তালিকাকে `<ul>` (Unordered List) বলা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2012,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "এইচটিএমএল টেবিলে একাধিক কলামকে একত্রিত করে একটি একক বড় কলামে পরিণত করার অ্যাট্রিবিউট কোনটি?",
+    "options": [
+      "A) merge",
+      "B) col-span",
+      "C) colspan",
+      "D) rowspan"
+    ],
+    "answer": 2,
+    "explanation": "`<td colspan=\"3\">` পাশাপাশি তিনটি কলামকে মার্জ করে একটি সেল বানায়; আর `<td rowspan=\"2\">` উলম্ব সারি মার্জ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2013,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "টেবিলের কলামের শিরোনাম বা হেডার সেল নির্দেশ করার জন্য কোন ট্যাগ ব্যবহৃত হয় যা ডিফল্টভাবে বোল্ড ও কেন্দ্রে থাকে?",
+    "options": [
+      "A) <tr>",
+      "B) <td>",
+      "C) <th>",
+      "D) <thead>"
+    ],
+    "answer": 2,
+    "explanation": "`<th>` (Table Header) সেলগুলো স্বয়ংক্রিয়ভাবে টেক্সট সেন্টারে এবং বোল্ড ফন্টে উপস্থাপন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2014,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "এইচটিএমএল ফর্মের মাধ্যমে কোনো ইমেজ বা পিডিএফ ফাইল সার্ভারে আপলোড করার সময় `<form>` ট্যাগে কোন এনকোডিং অ্যাট্রিবিউট আবশ্যক?",
+    "options": [
+      "A) enctype=\"multipart/form-data\"",
+      "B) enctype=\"text/plain\"",
+      "C) type=\"file\"",
+      "D) method=\"GET\""
+    ],
+    "answer": 0,
+    "explanation": "বাইনারি ফাইল আপলোডের ক্ষেত্রে অবশ্যই `method=\"POST\"` এবং `enctype=\"multipart/form-data\"` উল্লেখ থাকতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2015,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "এইচটিএমএল ফর্মে গোপন পাসওয়ার্ড ইনপুটের জন্য যাতে টাইপ করা অক্ষরগুলো ডট বা স্টারে ঢেকে থাকে, কোন ইনপুট টাইপ ব্যবহৃত হয়?",
+    "options": [
+      "A) type=\"secure\"",
+      "B) type=\"password\"",
+      "C) type=\"hidden\"",
+      "D) type=\"text\""
+    ],
+    "answer": 1,
+    "explanation": "`<input type=\"password\">` ইনপুট ফিল্ডে টাইপ করা বর্ণমালাকে মাস্কিং করে স্ক্রিন থেকে গোপন রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2016,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একাধিক বিকল্পের মধ্য থেকে ব্যবহারকারীকে কেবল একটি মাত্র অপশন বেছে নেওয়ার সুযোগ দিতে কোন ইনপুট কন্ট্রোল ব্যবহৃত হয়?",
+    "options": [
+      "A) টেক্সট এরিয়া",
+      "B) ড্রপডাউন",
+      "C) চেকবক্স (type=\"checkbox\")",
+      "D) রেডিও বাটন (type=\"radio\" একই name অ্যাট্রিবিউটসহ)"
+    ],
+    "answer": 3,
+    "explanation": "Radio button গ্রুপে একই `name` থাকলে গ্রুপ থেকে যেকোনো একক বিকল্প নির্বাচন করা যায়; Checkbox-এ একাধিক নির্বাচন সম্ভব।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2017,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ফর্মে একাধিক লাইনের দীর্ঘ টেক্সট (যেমন মন্তব্য বা ঠিকানা) ইনপুট নেওয়ার উপাদান কোনটি?",
+    "options": [
+      "A) <textbox>",
+      "B) <textarea>",
+      "C) <input type=\"longtext\">",
+      "D) <input type=\"multiline\">"
+    ],
+    "answer": 1,
+    "explanation": "`<textarea rows=\"4\" cols=\"50\"></textarea>` বহু-লাইনের টেক্সট ইনপুট এরিয়া তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2018,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ড্রপ-ডাউন সিলেক্ট মেনু (Select Menu) তৈরির জন্য ব্যবহৃত ট্যাগ জোড়া কোনটি?",
+    "options": [
+      "A) <select> এবং <option>",
+      "B) <dropdown> এবং <list>",
+      "C) <choice> এবং <opt>",
+      "D) <menu> এবং <item>"
+    ],
+    "answer": 0,
+    "explanation": "`<select>` ট্যাগের ভেতরে প্রতিটি আইটেমকে `<option value=\"...\">` দিয়ে সংজ্ঞায়িত করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2019,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ইনপুট ফিল্ডে ব্যবহারকারী টাইপ শুরু করার আগে হালকা ছাই রঙের নির্দেশনামূলক টেক্সট প্রদর্শনের অ্যাট্রিবিউট কোনটি?",
+    "options": [
+      "A) title",
+      "B) hint",
+      "C) value",
+      "D) placeholder"
+    ],
+    "answer": 3,
+    "explanation": "`<input placeholder=\"আপনার নাম লিখুন\">` ফাঁকা ফিল্ডে অস্থায়ী ইঙ্গিত প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2020,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "জাভাস্ক্রিপ্ট কোড ছাড়া শুধুমাত্র এইচটিএমএল৫ দিয়ে কোনো ফর্ম ইনপুট ফাঁকা রাখা যাবে না তা নিশ্চিত করার অ্যাট্রিবিউট কোনটি?",
+    "options": [
+      "A) not-null",
+      "B) validate",
+      "C) required",
+      "D) mandatory"
+    ],
+    "answer": 2,
+    "explanation": "`required` অ্যাট্রিবিউট থাকলে ইনপুট ফিল্ড ফাঁকা রেখে ফর্ম সাবমিট করার চেষ্টা করলে ব্রাউজার স্বয়ংক্রিয়ভাবে ফর্ম আটকে ভ্যালিডেশন নোটিশ দেখায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2021,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "রেগুলার এক্সপ্রেশন (Regex) ব্যবহার করে ইনপুটের প্যাটার্ন (যেমন ফোন নম্বর বা পিন কোড) যাচাই করার এইচটিএমএল৫ অ্যাট্রিবিউট কোনটি?",
+    "options": [
+      "A) format",
+      "B) pattern",
+      "C) regex",
+      "D) match"
+    ],
+    "answer": 1,
+    "explanation": "`<input pattern=\"[0-9]{11}\">` সরাসরি ইনপুট ডেটার বিন্যাস যাচাই করতে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2022,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "এইচটিএমএল৫ সিম্যান্টিক এলিমেন্ট `<nav>`-এর মূল উদ্দেশ্য কোনটি?",
+    "options": [
+      "A) ওয়েবসাইটের প্রধান প্রধান নেভিগেশন লিঙ্কগুলোর ব্লক ধারণ করা",
+      "B) ভিডিও নেভিগেট করা",
+      "C) নতুন পেজ লোড করা",
+      "D) সার্ভারের সাথে সংযোগ করা"
+    ],
+    "answer": 0,
+    "explanation": "`<nav>` (Navigation) ট্যাগ সার্চ ইঞ্জিন ও অ্যাক্সেসিবিলিটি টুলের কাছে স্পষ্ট করে যে এর ভেতরের লিঙ্কগুলো সাইটের প্রধান মেনু।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2023,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি সম্পূর্ণ স্বয়ংসম্পূর্ণ এবং স্বাধীন বিষয়বস্তু (যেমন একটি ব্লগ পোস্ট, সংবাদ নিবন্ধ বা ফোরাম পোস্ট) প্রকাশের সিম্যান্টিক ট্যাগ কোনটি?",
+    "options": [
+      "A) <aside>",
+      "B) <div>",
+      "C) <article>",
+      "D) <section>"
+    ],
+    "answer": 2,
+    "explanation": "`<article>` এমন কনটেন্ট নির্দেশ করে যা সাইটের বাকি অংশ থেকে সম্পূর্ণ আলাদাভাবে যেকোনো জায়গায় স্বতন্ত্রভাবে পুনঃপ্রকাশযোগ্য।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2024,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ওয়েবপেজের মূল বিষয়বস্তুর সাথে পরোক্ষভাবে সম্পর্কিত পার্শ্ববর্তী তথ্য (যেমন সাইডবার, সম্পর্কিত লিঙ্ক বা বিজ্ঞাপন) প্রকাশের ট্যাগ কোনটি?",
+    "options": [
+      "A) <nav>",
+      "B) <footer>",
+      "C) <section>",
+      "D) <aside>"
+    ],
+    "answer": 3,
+    "explanation": "`<aside>` ট্যাগ সাইডবার বা সম্পূরক তথ্য নির্দেশ করে যা মূল কনটেন্টের পাশে প্রদর্শিত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2025,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "একটি ডকুমেন্টের সবচেয়ে কেন্দ্রীয় অনন্য বিষয়বস্তু ধারণকারী সিম্যান্টিক ট্যাগ কোনটি যা প্রতি পেজে কেবল একবারই থাকা উচিত?",
+    "options": [
+      "A) <body>",
+      "B) <content>",
+      "C) <main>",
+      "D) <section>"
+    ],
+    "answer": 2,
+    "explanation": "`<main>` ডকুমেন্টের প্রধান মৌলিক বিষয়বস্তু বহন করে; এতে হেডার, ফুটার বা সাধারণ সাইডবারের মতো পুনরাবৃত্তিমূলক তথ্য থাকা নিষিদ্ধ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2026,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ওয়েবপেজে কোনো ছবি বা ডায়াগ্রামের নিচে আনুষ্ঠানিক ক্যাপশন (Caption) যুক্ত করার সিম্যান্টিক ট্যাগ জোড়া কোনটি?",
+    "options": [
+      "A) <media> এবং <desc>",
+      "B) <figure> এবং <figcaption>",
+      "C) <img> এবং <label>",
+      "D) <picture> এবং <caption>"
+    ],
+    "answer": 1,
+    "explanation": "`<figure>` কন্টেইনারের ভেতরে মিডিয়া থাকে এবং `<figcaption>` ট্যাগ সেই মিডিয়ার ক্যাপশন প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2027,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "এইচটিএমএল৫ ক্যানভাস (`<canvas>`)-এ দ্বিমাত্রিক গ্রাফিক্স, চার্ট বা গেম অ্যানিমেশন রেন্ডার করার জন্য কোন প্রোগ্রামিং ভাষা ব্যবহার করা আবশ্যক?",
+    "options": [
+      "A) জাভাস্ক্রিপ্ট (JavaScript)",
+      "B) এসকিউএল",
+      "C) সিএসএস",
+      "D) পিএইচপি"
+    ],
+    "answer": 0,
+    "explanation": "`<canvas>` হলো একটি ফাঁকা অঙ্কন ক্যানভাস; জাভাস্ক্রিপ্ট কোড (getContext('2d')) ব্যবহার করে এতে পিক্সেল ধরে ধরে আঁকা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2028,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "রেজোলিউশন হারানো ছাড়া যত খুশি জুম করলেও ছবির মান অক্ষুণ্ণ থাকা টু-ডি ভেক্টর গ্রাফিক্স প্রদর্শনের এইচটিএমএল৫ ট্যাগ কোনটি?",
+    "options": [
+      "A) <canvas>",
+      "B) <img>",
+      "C) <vector>",
+      "D) <svg> (Scalable Vector Graphics)"
+    ],
+    "answer": 3,
+    "explanation": "SVG হলো এক্সএমএল-ভিত্তিক ভেক্টর গ্রাফিক্স যা গাণিতিক রেখা ও বক্ররেখা দিয়ে গঠিত হওয়ায় যেকোনো রেজোলিউশনে শার্প থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2029,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "ব্রাউজার উইন্ডোর মধ্যে আরেকটি বহিরাগত স্বতন্ত্র ওয়েবপেজ এমবেড করে দেখানোর ফ্রেম ট্যাগ কোনটি?",
+    "options": [
+      "A) <object>",
+      "B) <frame>",
+      "C) <embed>",
+      "D) <iframe> (Inline Frame)"
+    ],
+    "answer": 3,
+    "explanation": "`<iframe src=\"url\">` অন্য যেকোনো ওয়েবপেজ বা ইউটিউব ভিডিওকে বর্তমান পেজের ভেতর উইন্ডো আকারে দেখায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 2030,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ১৪.১: এইচটিএমএল ও আধুনিক এইচটিএমএল৫",
+    "subtopic": "বিষয়- ১৪. ওয়েব টেকনোলজি (Web Design & Development - I & II)",
+    "question": "সার্চ ইঞ্জিন ও ব্রাউজারকে মোবাইল স্ক্রিনের সাথে ওয়েবসাইটের প্রস্থ ও স্কেলিং খাপ খাইয়ে নেওয়ার নির্দেশ দেওয়া মেটা ট্যাগ কোনটি?",
+    "options": [
+      "A) <meta name=\"zoom\" content=\"fixed\">",
+      "B) <meta name=\"mobile\" content=\"responsive\">",
+      "C) <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+      "D) <meta name=\"screen\" content=\"all\">"
+    ],
+    "answer": 2,
+    "explanation": "Viewport মেটা ট্যাগ রেসপনসিভ ওয়েব ডিজাইনের প্রথম ভিত্তি; এটি ডিভাইসের প্রকৃত স্ক্রিন প্রস্থ অনুসারে পেজের ভিউপোর্ট সেট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]

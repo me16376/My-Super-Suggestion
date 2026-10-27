@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3021,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Formal Application Drafting",
+    "question": "Draft a formal official application to the Director General of the Department of Immigration & Passports requesting budget allocation and technical approval for procuring 10 units of Online UPS and redundant air conditioning systems for regional server rooms.",
+    "marks": 8,
+    "answer": "Formal Application:\n\nOctober 23, 2026\n\nTo\nThe Director General\nDepartment of Immigration and Passports\nAgargaon, Dhaka-1207.\n\n**Subject: Application for administrative and financial sanction to procure 10 units of Online UPS and precision air conditioning units for regional server rooms.**\n\nSir,\n\nI have the honor to submit that the regional passport offices at Chittagong, Sylhet, Rajshahi, and Khulna are handling an unprecedented volume of biometric passport enrollments and daily database sync operations. The server rooms at these vital regional hubs house critical rack servers, core switches, and biometric storage arrays that operate on a 24/7/365 basis.\n\nDuring recent technical performance audits, it was observed that frequent commercial power grid fluctuations and extreme summer ambient temperatures have caused repeated server thermal throttling and damaged several SMPS units. The existing offline backup units are inadequate to sustain server uptime during prolonged power cuts.\n\nTo safeguard these critical IT assets, prevent catastrophic hardware burnouts, and ensure uninterrupted citizen services, it is urgently imperative to install:\n1. 10 units of 6 KVA True Online Double-Conversion UPS (with 2-hour battery backup).\n2. Dual-redundant 2-ton inverter Precision Air Conditioning units with automatic temperature alternation controllers.\n\nA detailed technical specification sheet and an estimated budget of BDT 35,00,000 (Thirty-Five Lakh Taka only) have been prepared in compliance with the Public Procurement Rules (PPR-2008) and are attached herewith for your kind consideration.\n\nIn view of the above, I earnestly request your kind administrative approval and necessary financial allocation for the expeditious procurement and installation of the aforementioned equipment.\n\nYours obediently,\n\n*(Signature)*\n**(Engr. Md. Shakil Hossain)**\nSub-Assistant Maintenance Engineer\nCentral Maintenance & Electrical Division\nDepartment of Immigration and Passports, Dhaka.",
+    "points_to_remember": [
+      "Official applications to high-ranking government officials must maintain respectful, clear, and professional administrative language."
+    ],
+    "tags": [
+      "official_application",
+      "formal_writing",
+      "english_written"
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 3012,
+    "subject": "ইংরেজি লিখিত",
+    "topic": "Right Form of Verbs",
+    "question": "Complete the following sentences with the right form of verbs given in brackets:\n(a) You had better (consult) the network engineer before resetting the core router.\n(b) Walk fast lest you (miss) the government biometric training session.\n(c) No sooner had the technician (replace) the faulty SMPS than the server started functioning.\n(d) It is high time we (upgrade) the legacy firewall systems.\n(e) He talks as if he (know) all the root passwords of the data center.",
+    "marks": 5,
+    "answer": "Corrected Sentences:\n\n(a) You had better **consult** the network engineer before resetting the core router.\n*(Rule: 'Had better', 'would rather' are modal idioms followed by base form of verb V1 without 'to').*\n\n(b) Walk fast lest you **should miss** (or **might miss**) the government biometric training session.\n*(Rule: 'Lest' is followed by Subject + should/might + base form of verb).* \n\n(c) No sooner had the technician **replaced** the faulty SMPS than the server started functioning.\n*(Rule: 'No sooner had' takes Past Participle V3, and the clause after 'than' takes Past Indefinite V2).*\n\n(d) It is high time we **upgraded** the legacy firewall systems.\n*(Rule: 'It is time' / 'It is high time' followed by a subject requires Past Indefinite V2).*\n\n(e) He talks as if he **knew** all the root passwords of the data center.\n*(Rule: Present Indefinite + 'as if' / 'as though' takes Past Indefinite; for 'be' verb it takes 'were').*",
+    "points_to_remember": [
+      "'It is high time' + subject -> V2 (Past Indefinite).",
+      "'Lest' এর পরে কখনো 'not' বসে না, কারণ 'lest' নিজেই নেতিবাচক।"
+    ],
+    "tags": [
+      "right_form_of_verbs",
+      "english_grammar"
+    ]
+  }
+]

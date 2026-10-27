@@ -1,0 +1,527 @@
+[
+  {
+    "id": 5071,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "কিউ (Queue) কোন নীতি বা মূলনীতির ওপর ভিত্তি করে কাজ করে?",
+    "options": [
+      "A) Priority Order",
+      "B) LIFO (Last-In-First-Out)",
+      "C) FIFO (First-In-First-Out) বা LILO",
+      "D) FILO"
+    ],
+    "answer": 2,
+    "explanation": "কিউতে সবার প্রথমে যে উপাদান প্রবেশ করে, সেবার ক্ষেত্রে সেই উপাদানটিই সবার আগে বের হয় (FIFO)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5072,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "কিউতে উপাদান প্রবেশের প্রান্ত এবং উপাদান অপসারণের প্রান্ত দুটিকে যথাক্রমে কী বলা হয়?",
+    "options": [
+      "A) Start এবং Stop",
+      "B) Rear (বা Tail) এবং Front (বা Head)",
+      "C) Top এবং Bottom",
+      "D) Left এবং Right"
+    ],
+    "answer": 1,
+    "explanation": "কিউয়ের পেছনের প্রান্ত বা `Rear` দিয়ে নতুন উপাদান ঢোকে এবং সামনের প্রান্ত বা `Front` দিয়ে উপাদান বের হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5073,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "কিউতে উপাদান যুক্ত করা এবং উপাদান অপসারণ করার টেকনিক্যাল নাম দুটি কী কী?",
+    "options": [
+      "A) Push এবং Pop",
+      "B) Enqueue (যুক্ত করা) এবং Dequeue (অপসারণ করা)",
+      "C) Put এবং Get",
+      "D) Insert এবং Delete"
+    ],
+    "answer": 1,
+    "explanation": "কিউতে উপাদান যুক্ত করাকে `Enqueue` এবং বের করাকে `Dequeue` বলা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5074,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "লিনিয়ার কিউতে (Linear Queue) উপাদান মুছে ফেলার ফলে সামনের খালি জায়গা পুনরায় ব্যবহার করতে না পারার সমস্যাকে কী বলে?",
+    "options": [
+      "A) মিথ্যা বা আপাত ওভারফ্লো (False Overflow)",
+      "B) মেমরি লিক",
+      "C) আন্ডারফ্লো",
+      "D) ডেডলক"
+    ],
+    "answer": 0,
+    "explanation": "লিনিয়ার অ্যারেতে Front এগিয়ে গেলে আগের মেমরি খালি থাকা সত্ত্বেও `Rear == MAX-1` হলে কিউকে পূর্ণ দেখায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5075,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "লিনিয়ার কিউয়ের মিথ্যা ওভারফ্লো সমস্যা সমাধান করতে কোন উন্নত কিউ ডেটা স্ট্রাকচার ব্যবহৃত হয়?",
+    "options": [
+      "A) ডাবল-এন্ডেড কিউ",
+      "B) প্রায়োরিটি কিউ",
+      "C) বৃত্তাকার কিউ (Circular Queue)",
+      "D) স্ট্যাক কিউ"
+    ],
+    "answer": 2,
+    "explanation": "সার্কুলার কিউতে শেষ প্রান্তের পর মডিউলো অ্যারিথমেটিক দিয়ে পুনরায় শুরুর খালি ঘরে উপাদান প্রবেশ করানো যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5076,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "একটি সার্কুলার কিউতে (আকার N) পরবর্তী Rear ইনডেক্স হিসাব করার সূত্র কোনটি?",
+    "options": [
+      "A) Rear % N",
+      "B) Rear + 1",
+      "C) (Rear - 1) % N",
+      "D) (Rear + 1) % N"
+    ],
+    "answer": 3,
+    "explanation": "`rear = (rear + 1) % capacity` সূত্রের মাধ্যমে বৃত্তাকার আবর্তন সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5077,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "সার্কুলার কিউ সম্পূর্ণ পূর্ণ (Full) কিনা তা যাচাই করার শর্ত কোনটি?",
+    "options": [
+      "A) (Rear + 1) % N == Front",
+      "B) Rear == N - 1",
+      "C) Front == -1",
+      "D) Rear == Front"
+    ],
+    "answer": 0,
+    "explanation": "Rear এর পরবর্তী ইনডেক্স যদি Front-এর সমান হয়ে যায় তবে সার্কুলার কিউ পূর্ণ থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5078,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "কিউয়ের `enqueue()` এবং `dequeue()` অপারেশনের আদর্শ টাইম কমপ্লেক্সিটি কত?",
+    "options": [
+      "A) $O(\\log N)$",
+      "B) $O(N^2)$",
+      "C) $O(N)$",
+      "D) $O(1)$"
+    ],
+    "answer": 3,
+    "explanation": "Front ও Rear উভয় পয়েন্টার নির্ধারিত থাকায় উভয় অপারেশন কনস্ট্যান্ট টাইম $O(1)$-এ সম্পন্ন হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5079,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "যে কিউয়ের উভয় প্রান্ত (Front ও Rear) দিয়েই উপাদান ইনসার্ট ও ডিলিট করা যায় তাকে কী বলে?",
+    "options": [
+      "A) প্রায়োরিটি কিউ",
+      "B) ডি-কিউ (Deque - Double-Ended Queue)",
+      "C) সার্কুলার কিউ",
+      "D) লিনিয়ার কিউ"
+    ],
+    "answer": 1,
+    "explanation": "Deque (Double Ended Queue) উভয় প্রান্তে Push ও Pop অপারেশন সমর্থন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5080,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "ইনপুট রেস্ট্রিক্টেড ডি-কিউ (Input-Restricted Deque) এর বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "A) কোনোটিই নয়",
+      "B) উভয় প্রান্তেই নিষিদ্ধ",
+      "C) উপাদান প্রবেশ কেবল এক প্রান্তে অনুমোদিত, তবে অপসারণ উভয় প্রান্ত দিয়েই সম্ভব",
+      "D) অপসারণ এক প্রান্তে, প্রবেশ উভয় প্রান্তে"
+    ],
+    "answer": 2,
+    "explanation": "ইনপুট কেবল একটি প্রান্তে সীমাবদ্ধ কিন্তু আউটপুট উভয় প্রান্ত থেকেই নেওয়া যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5081,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "যে কিউতে প্রতিটি উপাদানের সাথে অগ্রাধিকার মান যুক্ত থাকে এবং উচ্চ অগ্রাধিকারের উপাদান আগে সার্ভিস পায় তাকে কী বলে?",
+    "options": [
+      "A) ডাবল কিউ",
+      "B) সার্কুলার কিউ",
+      "C) প্রায়োরিটি কিউ (Priority Queue)",
+      "D) সিম্পল কিউ"
+    ],
+    "answer": 2,
+    "explanation": "Priority Queue উপাদানের আগমনের ক্রমের বদলে তার প্রায়োরিটির ওপর ভিত্তি করে Dequeue করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5082,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "প্রায়োরিটি কিউ বাস্তবায়নের সবচেয়ে দক্ষ এবং দ্রুততম ডেটা স্ট্রাকচার কোনটি?",
+    "options": [
+      "A) সর্টেড লিঙ্কড লিস্ট",
+      "B) আনসর্টেড অ্যারে",
+      "C) বাইনারি সার্চ ট্রি",
+      "D) বাইনারি হিপ (Binary Heap)"
+    ],
+    "answer": 3,
+    "explanation": "বাইনারি হিপ ব্যবহার করলে ইনসার্শন ও ডিলিশন উভয়ই $O(\\log N)$ সময়ে সম্পন্ন করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5083,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "অপারেটিং সিস্টেমে একাধিক প্রসেসের মধ্যে সিপিইউ শেয়ারিং (যেমন Round Robin Scheduling) করতে কোন ডেটা স্ট্রাকচার ব্যবহৃত হয়?",
+    "options": [
+      "A) স্ট্যাক",
+      "B) সার্কুলার কিউ (Circular Queue)",
+      "C) বাইনারি ট্রি",
+      "D) ম্যাট্রিক্স"
+    ],
+    "answer": 1,
+    "explanation": "রাউন্ড রবিন সিপিইউ শিডিউলিং প্রতিটি প্রসেসকে টাইম কোয়ান্টাম অনুযায়ী বৃত্তাকার কিউতে পরিচালনা করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5084,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "প্রিন্টারে একাধিক ব্যবহারকারীর প্রিন্ট রিকোয়েস্ট ধারাবাহিকভাবে প্রক্রিয়াকরণ করাকে (Printer Spooling) কী বলে?",
+    "options": [
+      "A) FIFO কিউ অ্যাপ্লিকেশন",
+      "B) র‍্যান্ডম প্রসেসিং",
+      "C) LIFO স্ট্যাক অ্যাপ্লিকেশন",
+      "D) রিকার্সিভ মেথড"
+    ],
+    "answer": 0,
+    "explanation": "প্রিন্টার স্পুলার প্রথম আসা ডকুমেন্ট আগে প্রিন্ট করার জন্য FIFO কিউ ব্যবহার করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5085,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "গ্রাফ বা ট্রি-এর ব্রেথ-ফার্স্ট সার্চ (BFS - Breadth-First Search) ট্রাভার্সাল বাস্তবায়নে কোন ডেটা স্ট্রাকচার অপরিহার্য?",
+    "options": [
+      "A) হিপ",
+      "B) স্ট্যাক (Stack)",
+      "C) কিউ (Queue)",
+      "D) অ্যারে"
+    ],
+    "answer": 2,
+    "explanation": "BFS নিকটবর্তী লেভেলের সকল নোড আগে ভিজিট করার জন্য কিউ ব্যবহার করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5086,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "দুটি স্ট্যাক (Two Stacks) ব্যবহার করে একটি FIFO কিউ বাস্তবায়নের ক্ষেত্রে Dequeue অপারেশনের গড় টাইম কমপ্লেক্সিটি কত?",
+    "options": [
+      "A) $O(1)$ অ্যামোর্টাইজড",
+      "B) $O(\\log N)$",
+      "C) $O(N!)$",
+      "D) $O(N^2)$"
+    ],
+    "answer": 0,
+    "explanation": "দুটি স্ট্যাক দিয়ে কিউ বানালে প্রতিটি উপাদান ঠিক দুবার পপ হয়, ফলে এর অ্যামোর্টাইজড জটিলতা $O(1)$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5087,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "লিঙ্কড লিস্ট দিয়ে কিউ বাস্তবায়নের ক্ষেত্রে Enqueue এবং Dequeue যথাক্রমে কোন কোন প্রান্তে করা উচিত?",
+    "options": [
+      "A) উভয়ই Head প্রান্তে",
+      "B) Enqueue Head প্রান্তে এবং Dequeue Tail প্রান্তে",
+      "C) উভয়ই Tail প্রান্তে",
+      "D) Enqueue করা উচিত Tail প্রান্তে এবং Dequeue করা উচিত Head প্রান্তে ($O(1)$ সময়ে)"
+    ],
+    "answer": 3,
+    "explanation": "Tail পয়েন্টারে নতুন নোড যোগ করা $O(1)$ এবং Head থেকে নোড মুছে ফেলা $O(1)$।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5088,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "একটি খালি সাধারণ কিউতে `Front` এবং `Rear` এর প্রাথমিক মান কত রাখা হয়?",
+    "options": [
+      "A) 1 এবং 1",
+      "B) -1 এবং -1",
+      "C) NULL",
+      "D) 0 এবং 0"
+    ],
+    "answer": 1,
+    "explanation": "কিউ যখন সম্পূর্ণ শূন্য থাকে তখন কোনো বৈধ ইনডেক্স না থাকায় `front = -1` এবং `rear = -1` ধরা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5089,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "নেটওয়ার্কিংয়ে রাউটার বা সুইচের বাফারে ডেটা প্যাকেট জমা রাখা ও প্রেরণে কোন নীতি অনুসরণ করা হয়?",
+    "options": [
+      "A) র‍্যান্ডম ড্রপ",
+      "B) FIFO কিউ মেকানিজম",
+      "C) ট্রি অর্ডার",
+      "D) LIFO স্ট্যাক মেকানিজম"
+    ],
+    "answer": 1,
+    "explanation": "নেটওয়ার্ক বাফার প্যাকেটগুলো আসার ক্রমানুসারে (FIFO) সংরক্ষণ ও ফরওয়ার্ড করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5090,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "কিবোর্ড বাফার (Keyboard Buffer) যেখানে ব্যবহারকারীর টাইপ করা কীস্ট্রোক জমা হয় তা কোন ডেটা স্ট্রাকচার মেনে চলে?",
+    "options": [
+      "A) হিপ",
+      "B) স্ট্যাক",
+      "C) সার্কুলার কিউ (Circular FIFO Buffer)",
+      "D) লিস্ট"
+    ],
+    "answer": 2,
+    "explanation": "কীবোর্ড ইন্টারাপ্ট বাফার টাইপিং সিকোয়েন্স বজায় রাখতে রিং বাফার বা সার্কুলার কিউ ব্যবহার করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5091,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "যদি একটি সার্কুলার কিউতে $N$ টি স্লট থাকে, তবে ফুল এবং এম্পটি অবস্থার পার্থক্য স্পষ্ট রাখতে সাধারণত সর্বোচ্চ কয়টি উপাদান রাখা হয়?",
+    "options": [
+      "A) $N$ টি",
+      "B) $N / 2$ টি",
+      "C) $N + 1$ টি",
+      "D) $N - 1$ টি উপাদান"
+    ],
+    "answer": 3,
+    "explanation": "একটি স্লট খালি রাখা হলে `rear == front` নির্দেশ করে খালি এবং `(rear + 1) % N == front` নির্দেশ করে পূর্ণ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5092,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "অপারেটিং সিস্টেমে একাধিক প্রসেস যখন কোনো একক আইও (I/O) ডিভাইসের অপেক্ষায় থাকে তখন তারা কোন কিউতে জমা থাকে?",
+    "options": [
+      "A) ডিভাইস কিউ (Device Queue)",
+      "B) স্ট্যাক",
+      "C) রেডি কিউ",
+      "D) জব কিউ"
+    ],
+    "answer": 0,
+    "explanation": "আই/ও রিসোর্সের জন্য অপেক্ষমাণ প্রসেসগুলো সংশ্লিষ্ট ডিভাইস কিউতে লাইন ধরে থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5093,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "কিউ ডেটা স্ট্রাকচার ব্যবহার করে ১ থেকে $N$ পর্যন্ত সকল বাইনারি সংখ্যা জেনারেট করার টাইম কমপ্লেক্সিটি কত?",
+    "options": [
+      "A) $O(N)$",
+      "B) $O(2^N)$",
+      "C) $O(N \\log N)$",
+      "D) $O(N^2)$"
+    ],
+    "answer": 0,
+    "explanation": "কিউতে '1' রেখে পপ করে '0' ও '1' অ্যাপেন্ড করার মাধ্যমে লিনিয়ার $O(N)$ সময়ে বাইনারি ধারা উৎপন্ন হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5094,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "সি++ এসটিএল-এ ডাবল-এন্ডেড কিউ কনটেইনারটির নাম কী?",
+    "options": [
+      "A) std::vector",
+      "B) std::deque",
+      "C) std::queue",
+      "D) std::list"
+    ],
+    "answer": 1,
+    "explanation": "`std::deque` কনটেইনার উভয় প্রান্তে $O(1)$ ইনসার্শন ও ডিলিশন এবং র্যান্ডম অ্যাক্সেস প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  },
+  {
+    "id": 5095,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অধ্যায় ৫.৪: কিউ ডেটা স্ট্রাকচার (Queue Data Structure)",
+    "subtopic": "বিষয়- ৫. ডেটা স্ট্রাকচার এন্ড অ্যালগরিদম (Data Structure & Algorithm)",
+    "question": "পাইথনে দ্রুতগতির থ্রেড-সেফ ডি-কিউ (Deque) কোন স্ট্যান্ডার্ড মডিউলে রয়েছে?",
+    "options": [
+      "A) queue.Queue",
+      "B) sys.deque",
+      "C) itertools.deque",
+      "D) collections.deque"
+    ],
+    "answer": 3,
+    "explanation": "`collections.deque` উভয় প্রান্তে $O(1)$ সময়ে `append` এবং `popleft` করতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ]
+  }
+]
