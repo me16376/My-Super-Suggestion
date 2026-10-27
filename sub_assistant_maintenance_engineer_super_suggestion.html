@@ -187,46 +187,91 @@
       margin-bottom: 20px;
     }
 
-    /* Master Tabs: Prelim vs Written */
+    /* Master Tabs: Prelim vs Written vs Mock */
     .master-tabs {
       display: flex;
-      background: rgba(15, 23, 42, 0.6);
-      padding: 6px;
-      border-radius: 14px;
-      border: 1px solid rgba(255, 255, 255, 0.15);
-      gap: 8px;
-      margin-top: 8px;
+      align-items: center;
+      justify-content: center;
+      background: rgba(15, 23, 42, 0.78);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      padding: 7px;
+      border-radius: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      gap: 10px;
+      margin-top: 18px;
       width: 100%;
-      max-width: 580px;
+      max-width: 1040px;
+      box-shadow: 0 14px 35px -5px rgba(0, 0, 0, 0.45), inset 0 1px 1px rgba(255, 255, 255, 0.15);
     }
 
     .master-tab-btn {
-      flex: 1;
-      padding: 12px 18px;
-      border: none;
-      background: transparent;
+      flex: 1 1 0;
+      min-width: 0;
+      padding: 14px 22px;
+      border: 1px solid transparent;
+      background: rgba(255, 255, 255, 0.03);
       color: #cbd5e1;
       font-family: inherit;
       font-size: 15px;
       font-weight: 600;
-      border-radius: 10px;
+      border-radius: 12px;
       cursor: pointer;
-      display: flex;
+      display: inline-flex;
       align-items: center;
       justify-content: center;
-      gap: 8px;
-      transition: var(--transition);
+      gap: 10px;
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      white-space: nowrap;
+      user-select: none;
+      letter-spacing: 0.2px;
     }
 
-    .master-tab-btn.active {
-      background: #ffffff;
-      color: #0f172a;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    .master-tab-btn svg {
+      flex-shrink: 0;
+      width: 19px;
+      height: 19px;
+      transition: transform 0.25s ease, stroke 0.25s ease;
     }
 
     .master-tab-btn:hover:not(.active) {
       background: rgba(255, 255, 255, 0.1);
       color: #ffffff;
+      border-color: rgba(255, 255, 255, 0.18);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .master-tab-btn:hover:not(.active) svg {
+      transform: scale(1.12);
+    }
+
+    .master-tab-btn.active {
+      background: #ffffff;
+      color: #0f172a;
+      font-weight: 700;
+      border-color: #ffffff;
+      box-shadow: 0 8px 24px -2px rgba(0, 0, 0, 0.35), 0 2px 6px rgba(0, 0, 0, 0.2);
+      transform: translateY(-2px);
+    }
+
+    .master-tab-btn.active svg {
+      stroke: #0284c7;
+    }
+
+    @media (max-width: 900px) {
+      .master-tabs {
+        flex-direction: column;
+        max-width: 100%;
+        gap: 8px;
+        padding: 8px;
+      }
+      .master-tab-btn {
+        width: 100%;
+        min-width: 100%;
+        white-space: normal;
+        padding: 12px 16px;
+      }
     }
 
     /* Controls Bar: Filter & Search */
