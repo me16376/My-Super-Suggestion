@@ -17,79 +17,60 @@
 ## 📂 ২. ডিরেক্টরি কাঠামো (Directory Tree)
 
 ```text
-Circular analysis/                                  <-- রুট ডিরেক্টরি (Master Root)
+My Super Suggestion/                                    <-- রুট ডিরেক্টরি (Master Root)
 │
-├── PROGRESS.md                                     <-- কেন্দ্রীয় একক মাস্টার প্রগ্রেস ট্র্যাকার (All Jobs)
-├── index.html                                      <-- মাস্টার হাব / কেন্দ্রীয় ড্যাশবোর্ড (সকল আবেদনের তালিকা)
-├── README.md                                       <-- (বর্তমান আর্কিটেকচার ও অপারেশনাল গাইড)
-├── drivers/                                        <-- সর্বজনীন শেয়ার্ড অফলাইন ড্রাইভার ও এসেটস
-│   ├── fonts/                                      <-- বাংলা ও ইংরেজি অফলাইন ফন্ট
-│   ├── fontawesome/                                <-- আইকন সেট
-│   ├── katex/                                      <-- KaTeX ম্যাথ ফন্ট ও রিসোর্স
-│   ├── katex.min.css                               <-- গাণিতিক সমীকরণ রেন্ডারিং CSS
-│   └── katex.min.js                                <-- গাণিতিক সমীকরণ রেন্ডারিং JS
+├── index.html                                          <-- মাস্টার হাব / কেন্দ্রীয় ড্যাশবোর্ড
+├── README.md                                           <-- আর্কিটেকচার ও অপারেশনাল গাইড
+├── PROGRESS.md                                         <-- কেন্দ্রীয় একক মাস্টার প্রগ্রেস ট্র্যাকার
 │
-├── BPSC ad_202506.pdf                              <-- সার্কুলার ফাইল (জুনিয়র ইন্সট্রাক্টর - ক্রমিক ১২৫)
-├── Sub_Registrar_Circular.pdf                      <-- সার্কুলার ফাইল (সাব-রেজিস্টার)
-├── advertisement-1780374169755.pdf                 <-- সার্কুলার ফাইল (সমাজসেবা অধিদপ্তর - DSS)
+├── drivers/                                            <-- সর্বজনীন শেয়ার্ড অফলাইন ড্রাইভার ও এসেটস
+│   ├── fonts/                                          <-- বাংলা ও ইংরেজি অফলাইন ফন্ট
+│   ├── fontawesome/                                    <-- আইকন সেট
+│   ├── katex/                                          <-- KaTeX ম্যাথ ফন্ট ও রিসোর্স
+│   ├── katex.min.css                                   <-- গাণিতিক সমীকরণ রেন্ডারিং CSS
+│   └── katex.min.js                                    <-- গাণিতিক সমীকরণ রেন্ডারিং JS
 │
-├── DSS Karigori Proshikhok Computer Super Suggestion/       <-- (মডিউল ৪: সমাজসেবা অধিদপ্তর - কারিগরি প্রশিক্ষক কম্পিউটার)
-│   ├── dss_karigori_proshikhok_computer_super_suggestion.html <-- মূল ইন্টারঅ্যাক্টিভ সুপার সাজেশন ও ওএমআর মক টেস্ট
-│   ├── index.html                                  <-- রিডাইরেক্ট হোম
-│   ├── exam_guide.html                             <-- অফিশিয়াল সিলেবাস ও প্রিন্ট গাইড (A4 Print Ready)
-│   ├── DSS_Karigori_Proshikhok_Computer_Exam_Guide.pdf <-- অফিশিয়াল ৩ পৃষ্ঠার সিলেবাস গাইড PDF
-│   ├── DSS_ad_2026_Circular.pdf                    <-- অফিশিয়াল সার্কুলার কপি (ক্রমিক ৪০ ক, ৩১টি পদ)
-│   ├── data/                                       <-- ১৩৩টি প্রিলি MCQ ও ৫টি লিখিত/ব্যবহারিক হ্যান্ডবুক
-│   └── scripts/                                    <-- ডেটাসেট জেনারেটর ও সিঙ্ক স্ক্রিপ্ট
+├── [মূল সুপার সাজেশন ও এক্সাম গাইড HTML ফাইলসমূহ (রুট লেভেলে)]:
+│   ├── sub_assistant_maintenance_engineer_super_suggestion.html
+│   ├── sub_assistant_maintenance_engineer_exam_guide.html
+│   ├── junior_instructor_computer_super_suggestion.html
+│   ├── junior_instructor_computer_exam_guide.html
+│   ├── petrobangla_sub_assistant_engineer_super_suggestion.html
+│   ├── petrobangla_sub_assistant_engineer_exam_guide.html
+│   ├── dss_karigori_proshikhok_computer_super_suggestion.html
+│   └── dss_karigori_proshikhok_computer_exam_guide.html
 │
-├── DSS Data Entry Operator Super Suggestion/               <-- (মডিউল ৫: সমাজসেবা অধিদপ্তর - ডাটা এন্ট্রি অপারেটর)
-│   ├── DSS_ad_2026_Circular.pdf                    <-- মূল সার্কুলার ফাইল (ক্রমিক ১৬, ৩৫টি পদ)
-│   ├── README.md                                   <-- পদ পরিচিতি, টাইপিং গতি (২০ wpm) ও সিলেবাস রূপরেখা
-│   └── data/ & scripts/                            <-- ডেটা ও স্ক্রিপ্ট ফোল্ডার (ধাপ ২ পাইপলাইন)
+├── [অফিশিয়াল সার্কুলার PDF ফাইলসমূহ (রুট লেভেলে)]:
+│   ├── BPSC ad_202506.pdf                              <-- বিপিএসসি জুনিয়র ইন্সট্রাক্টর
+│   ├── advertisement-1780374169755.pdf                 <-- সমাজসেবা অধিদপ্তর (DSS)
+│   ├── petrobangla-1790774270-5822.pdf                 <-- পেট্রোবাংলা
+│   └── Sub_Registrar_Circular.pdf                      <-- সাব-রেজিস্টার
 │
-├── Junior Instructor Tech Computer Super Suggestion/       <-- (মডিউল ২: টিএসসি কারিগরি শিক্ষা বিভাগ - ১০০% সম্পন্ন)
-│   ├── junior_instructor_computer_super_suggestion.html  <-- মূল ইন্টারেক্টিভ ওয়েব অ্যাপ (MCQ, Written ও মক টেস্ট)
-│   ├── index.html                                        <-- পোর্টাল হোম (লোকাল সার্ভার সাপোর্ট)
-│   ├── exam_guide.html                                   <-- অফিশিয়াল পরীক্ষা পদ্ধতি ও সিলেবাস গাইড (প্রিন্ট রেডি)
-│   ├── Junior_Instructor_Computer_Exam_Syllabus_Guide.pdf <-- পূর্ণাঙ্গ ৩ পৃষ্ঠার সিলেবাস গাইড PDF
-│   ├── BPSC_ad_202506_Junior_Instructor.pdf             <-- অফিশিয়াল সার্কুলার কপি
-│   ├── data/                                             <-- ১২,৬০০টি প্রিলি MCQ ও ৩৭২টি লিখিত প্রশ্ন
-│   └── scripts/                                          <-- ডেটাসেট ও অ্যাপ অটোমেশন স্ক্রিপ্টসমূহ
-├── Petrobangla Sub-Assistant Engineer Computer IT/          <-- (মডিউল ৩: পেট্রোবাংলা - তিতাস ও বাখরাবাদ গ্যাস)
-│   ├── exam_guide.html                             <-- অফিশিয়াল পরীক্ষা পদ্ধতি ও সিলেবাস গাইড (প্রিন্ট রেডি)
-│   ├── Petrobangla_Sub_Assistant_Engineer_Computer_IT_Exam_Guide.pdf <-- পূর্ণাঙ্গ ৩ পৃষ্ঠার সিলেবাস গাইড PDF
-│   └── Petrobangla_ad_2026_Circular.pdf            <-- মূল সার্কুলার ফাইল (ক্রমিক ১৭.৪)
+├── [পদভিত্তিক ডেটা ফোল্ডারসমূহ (শুধুমাত্র JSON ডেটাসেট ও অফিশিয়াল সিলেবাস PDF)]:
+│   ├── Sub-Assistant Maintenance Engineer Super Suggestion/
+│   │   ├── preliminary_mcq.json                        <-- ৬,৫৯০টি প্রিলিমিনারি MCQ
+│   │   ├── written_questions.json                      <-- ৩৭৫টি লিখিত প্রশ্ন ও সমাধান
+│   │   └── Sub_Assistant_Maintenance_Engineer_Exam_Syllabus_Guide.pdf
+│   │
+│   ├── Junior Instructor Tech Computer Super Suggestion/
+│   │   ├── preliminary_mcq.json                        <-- ১২,৬০০টি প্রিলিমিনারি MCQ
+│   │   ├── written_questions.json                      <-- ৩৭২টি লিখিত প্রশ্ন ও সমাধান
+│   │   └── Junior_Instructor_Computer_Exam_Syllabus_Guide.pdf
+│   │
+│   ├── Petrobangla Sub-Assistant Engineer Computer IT/
+│   │   ├── preliminary_mcq.json                        <-- ৭,৫০০টি প্রিলিমিনারি MCQ
+│   │   ├── written_questions.json                      <-- ১৫০টি লিখিত সমস্যা ও সমাধান
+│   │   └── Petrobangla_Sub_Assistant_Engineer_Computer_IT_Exam_Guide.pdf
+│   │
+│   ├── DSS Karigori Proshikhok Computer Super Suggestion/
+│   │   ├── preliminary_mcq.json                        <-- ১৩৩টি প্রিলিমিনারি MCQ
+│   │   ├── written_questions.json                      <-- ৩২টি লিখিত প্রশ্ন ও হ্যান্ডবুক
+│   │   └── DSS_Karigori_Proshikhok_Computer_Exam_Guide.pdf
+│   │
+│   └── DSS Data Entry Operator Super Suggestion/
+│       └── README.md
 │
-└── Sub-Assistant Maintenance Engineer Super Suggestion/    <-- (মডিউল ১: পাসপোর্ট অধিদপ্তর)
-    │
-    ├── sub_assistant_maintenance_engineer_super_suggestion.html  <-- মূল ইন্টারেক্টিভ ওয়েব অ্যাপ
-    ├── index.html                                  <-- পোর্টাল হোম (লোকাল সার্ভার সাপোর্ট)
-    ├── exam_guide.html                             <-- অফিশিয়াল সিলেবাস ও প্রিন্ট রিডিং গাইড
-    ├── Sub_Assistant_Maintenance_Engineer_Exam_Syllabus_Guide.pdf
-    ├── সাব-অ্যাসিস্ট্যান্ট_মেইনটেন্যান্স_ইঞ্জিনিয়ার_পরীক্ষা_পদ্ধতি_ও_সিলেবাস.pdf
-    │
-    ├── data/                                       <-- প্রশ্নব্যাংক ডেটাসেট
-    │   ├── preliminary_mcq.json                    <-- প্রিলিমিনারি মূল মাস্টার MCQ ডেটাসেট (৬,৫৯০টি)
-    │   ├── written_questions.json                  <-- লিখিত মাস্টার প্রশ্ন ও সমাধান ডেটাসেট (৩৭৫টি)
-    │   ├── prelim_data.js                          <-- Zero-CORS অফলাইন JS বান্ডল (MCQ)
-    │   ├── written_data.js                         <-- Zero-CORS অফলাইন JS বান্ডল (Written)
-    │   │
-    │   ├── preliminary/                            <-- বিষয়ভিত্তিক প্রিলিমিনারি ডেটা
-    │   │   ├── technical_computer_mcq.json         <-- ২,৮৫৫টি কোর টেকনিক্যাল MCQ
-    │   │   ├── bangla_mcq.json                     <-- ১,১৯৫টি বাংলা ব্যাকরণ ও সাহিত্য MCQ
-    │   │   ├── english_mcq.json                    <-- ১,৩৪৫টি ইংরেজি গ্রামার ও ভোকাবুলারি MCQ
-    │   │   └── gk_mcq.json                         <-- ১,১৯৫টি বাংলাদেশ, আন্তর্জাতিক ও আইসিটি MCQ
-    │   │
-    │   └── written/                                <-- বিষয়ভিত্তিক লিখিত ডেটা
-    │       ├── technical_written.json              <-- ১৫০টি টেকনিক্যাল ব্রড, ম্যাথ ও ডায়াগ্রাম
-    │       ├── bangla_written.json                 <-- ৬০টি সমাস, বাক্য শুদ্ধি, পত্র ও প্রবন্ধ
-    │       ├── english_written.json                <-- ৬৫টি গ্রামার, অনুবাদ ও ফোকাস রাইটিং
-    │       └── gk_written.json                     <-- ১০০টি সংবিধান, মুক্তিযুদ্ধ ও আন্তর্জাতিক প্রশ্ন
-    │
-    └── scripts/                                    <-- ডেটা সিঙ্ক ও এক্সপ্যানশন অটোমেশন স্ক্রিপ্ট
-        ├── sync_data.js                            <-- JSON ডেটা মার্জ ও অফলাইন বান্ডল জেনারেটর
-        ├── update_progress.js                      <-- PROGRESS.md আপডেট স্ক্রিপ্ট
-        └── app_logic.js                            <-- মূল ওয়েব অ্যাপ্লিকেশনের কোর লজিক
+└── _dev_archive/                                       <-- ব্যাকআপ স্ক্রিপ্টসমূহ (Development Tools)
 ```
 
 ---
