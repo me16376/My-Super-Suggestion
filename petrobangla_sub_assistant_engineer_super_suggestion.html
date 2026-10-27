@@ -499,7 +499,6 @@
       padding: 16px;
       margin-top: 14px;
       font-size: 14px;
-      white-space: pre-wrap;
       font-family: inherit;
       color: #1e293b;
       line-height: 1.7;
@@ -511,14 +510,53 @@
       animation: fadeIn 0.3s ease;
     }
 
+    .written-answer-header {
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    .written-answer-text {
+      white-space: pre-wrap;
+      line-height: 1.7;
+      font-family: inherit;
+      color: inherit;
+    }
+
     .key-points-box {
       background: #fffbeb;
       border: 1px dashed #fcd34d;
       border-radius: var(--radius-sm);
-      padding: 10px 14px;
-      margin-top: 12px;
-      font-size: 13px;
+      padding: 12px 16px;
+      margin-top: 14px;
+      font-size: 13.5px;
       color: #92400e;
+      white-space: normal !important;
+    }
+
+    .key-points-box strong {
+      display: block;
+      margin-bottom: 6px;
+      color: #b45309;
+      white-space: normal !important;
+    }
+
+    .key-points-box ul {
+      margin: 0 !important;
+      padding-left: 20px !important;
+      white-space: normal !important;
+      list-style-type: disc;
+    }
+
+    .key-points-box li {
+      margin-bottom: 4px !important;
+      line-height: 1.55 !important;
+      white-space: normal !important;
+    }
+
+    .key-points-box li:last-child {
+      margin-bottom: 0 !important;
     }
 
     .btn-toggle-answer {
@@ -1623,14 +1661,9 @@
     function renderWrittenCards(items) {
       return items.map((q) => {
         const isBookmarked = bookmarks.has(q.id);
-        const keyPointsHtml = q.points_to_remember && q.points_to_remember.length > 0 ? `
-          <div class="key-points-box">
-            <strong>মনে রাখার বিশেষ টেকনিক:</strong>
-            <ul style="margin-top: 4px; padding-left: 18px;">
-              ${q.points_to_remember.map(p => `<li>${escapeHtml(p)}</li>`).join('')}
-            </ul>
-          </div>
-        ` : '';
+        const keyPointsHtml = q.points_to_remember && q.points_to_remember.length > 0
+          ? `<div class="key-points-box"><strong>💡 মনে রাখার বিশেষ টেকনিক:</strong><ul>${q.points_to_remember.map(p => `<li>${escapeHtml(p.trim())}</li>`).join('')}</ul></div>`
+          : '';
 
         return `
           <div class="question-card" id="q-card-${q.id}">
@@ -1654,7 +1687,8 @@
             </button>
 
             <div class="written-answer-box" id="answer-box-${q.id}">
-              <strong>মডেল উত্তর ও গাণিতিক সমাধান:</strong>\n\n${escapeHtml(q.answer)}
+              <div class="written-answer-header">মডেল উত্তর ও গাণিতিক সমাধান:</div>
+              <div class="written-answer-text">${escapeHtml(q.answer)}</div>
               ${keyPointsHtml}
             </div>
           </div>
