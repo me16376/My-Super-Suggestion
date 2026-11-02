@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Computer Basic - পরীক্ষার চূড়ান্ত প্রস্তুতি ও তুলনামূলক ছক</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap');
+
+  *, *::before, *::after, html, body, h1, h2, h3, h4, h5, h6, table, th, td, p, div, span, b, strong, a {
+    font-family: 'Noto Sans Bengali', 'Nirmala UI', 'Kalpurush', 'SolaimanLipi', sans-serif !important;
+  }
+
+  
+
+  @page {
+    size: A4 portrait;
+    margin: 14mm 12mm 14mm 12mm;
+    @bottom-center {
+      content: counter(page);
+    }
+  }
+
+  * {
+    box-sizing: border-box;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  body {
+    font-family: 'Noto Sans Bengali', 'SolaimanLipi', 'Kalpurush', 'Nirmala UI', 'Segoe UI', sans-serif;
+    color: #1e293b;
+    background-color: #ffffff;
+    line-height: 1.4;
+    font-size: 10.5pt;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cover-header {
+    text-align: center;
+    border-bottom: 3px solid #1e3a8a;
+    padding-bottom: 14px;
+    margin-bottom: 18px;
+  }
+
+  .cover-header h1 {
+    font-size: 26pt;
+    color: #1e3a8a;
+    margin: 0 0 4px 0;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+
+  .cover-header .subtitle {
+    font-size: 12.5pt;
+    color: #475569;
+    font-weight: 500;
+    margin: 0 0 8px 0;
+  }
+
+  .cover-header .badge-bar {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 6px;
+  }
+
+  .badge {
+    background: #e0e7ff;
+    color: #3730a3;
+    padding: 3px 12px;
+    border-radius: 9999px;
+    font-size: 8.5pt;
+    font-weight: 600;
+  }
+
+  .toc-box {
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-left: 5px solid #2563eb;
+    border-radius: 6px;
+    padding: 10px 16px;
+    margin-bottom: 20px;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .toc-box h3 {
+    margin: 0 0 8px 0;
+    color: #1e3a8a;
+    font-size: 11.5pt;
+  }
+
+  .toc-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px 20px;
+    font-size: 9pt;
+    color: #334155;
+  }
+
+  .section-block {
+    margin-bottom: 20px;
+  }
+
+  .section-title {
+    font-size: 13pt;
+    color: #1e3a8a;
+    border-left: 4px solid #2563eb;
+    padding-left: 10px;
+    margin: 18px 0 8px 0;
+    font-weight: 700;
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  .section-subtitle {
+    font-size: 11pt;
+    color: #0f766e;
+    margin: 12px 0 6px 0;
+    font-weight: 600;
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  .note-box {
+    background: #fefce8;
+    border: 1px solid #fef08a;
+    border-left: 4px solid #eab308;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin: 8px 0 12px 0;
+    font-size: 9.2pt;
+    color: #713f12;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 8px 0 14px 0;
+    font-size: 9pt;
+    line-height: 1.35;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  th {
+    background-color: #1e3a8a;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: left;
+    padding: 6px 8px;
+    border: 1px solid #1e3a8a;
+    font-size: 8.8pt;
+  }
+
+  td {
+    padding: 5.5px 8px;
+    border: 1px solid #cbd5e1;
+    vertical-align: top;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #f8fafc;
+  }
+
+  td.row-head {
+    font-weight: 600;
+    color: #1e293b;
+    background-color: #f1f5f9;
+    width: 16%;
+    white-space: normal;
+  }
+
+  .footer-note {
+    text-align: center;
+    font-size: 8.5pt;
+    color: #64748b;
+    margin-top: 25px;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 8px;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+</style>
+</head>
+<body>
+
+  <!-- COVER / HEADER -->
+  <div class="cover-header">
+    <h1>Computer Basic</h1>
+    <div class="subtitle">কম্পিউটার ও আইসিটি পরীক্ষার চূড়ান্ত প্রস্তুতি ও তুলনামূলক ছক</div>
+    <div class="badge-bar">
+      <span class="badge">ICT Quick Revision</span>
+      <span class="badge">Master Comparison Tables</span>
+      <span class="badge">Exam High-Yield</span>
+    </div>
+  </div>
+
+  <!-- TABLE OF CONTENTS -->
+  <div class="toc-box">
+    <h3>সূচিপত্র (Table of Contents)</h3>
+    <div class="toc-grid">
+      <div>১. কম্পিউটারের ৫টি প্রজন্মের তুলনামূলক ছক</div>
+      <div>৮. মেমরি স্পষ্টীকরণ: Main vs Auxiliary</div>
+      <div>২. মার্ক-১, এনিয়াক ও ইউনিভ্যাক-১ এর তুলনা</div>
+      <div>৯. র‍্যাম (RAM) ও রম (ROM) এর পার্থক্য</div>
+      <div>৩. কাজের ধরন অনুযায়ী কম্পিউটারের শ্রেণিবিভাগ</div>
+      <div>১০. SRAM ও DRAM এর পার্থক্য</div>
+      <div>৪. আকার ও ক্ষমতা অনুযায়ী কম্পিউটার শ্রেণিবিভাগ</div>
+      <div>১১. ক্যাশ মেমরি ও ভার্চুয়াল মেমরি</div>
+      <div>৫. OMR, OCR ও MICR এর তুলনামূলক বিশ্লেষণ</div>
+      <div>১২. PROM, EPROM ও EEPROM এর পার্থক্য</div>
+      <div>৬. ইমপ্যাক্ট ও নন-ইমপ্যাক্ট প্রিন্টার</div>
+      <div>১৩. হার্ডডিস্ক (HDD) ও এসএসডি (SSD)</div>
+      <div>৭. প্রধান ৪টি প্রিন্টারের কার‍্যপ্রণালী ও মূলনীতি</div>
+      <div>১৪. হার্ডওয়্যার, সফটওয়্যার ও ফার্মওয়্যার</div>
+      <div>—</div>
+      <div>১৫. সিস্টেম সফটওয়্যার ও অ্যাপ্লিকেশন সফটওয়্যার</div>
+    </div>
+  </div>
+
+  <!-- TOPIC 1 -->
+  <div class="section-block">
+    <div class="section-title">১. কম্পিউটারের ৫টি প্রজন্মের তুলনামূলক ছক (Computer Generations 1st - 5th)</div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 15%;">প্রধান বৈশিষ্ট্য</th>
+          <th style="width: 17%;">প্রথম প্রজন্ম (১৯৪৯–১৯৫৯)</th>
+          <th style="width: 17%;">দ্বিতীয় প্রজন্ম (১৯৬০–১৯৬৩)</th>
+          <th style="width: 17%;">তৃতীয় প্রজন্ম (১৯৬৪–১৯৭০)</th>
+          <th style="width: 17%;">চতুর্থ প্রজন্ম (১৯৭১–বর্তমান)</th>
+          <th style="width: 17%;">পঞ্চম প্রজন্ম (বর্তমান ও ভবিষ্যৎ)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="row-head">ইলেকট্রনিক সার্কিট</td>
+          <td>বায়ুশূন্য টিউব বা ভাল্ব (Vacuum Tube)</td>
+          <td>ট্রানজিস্টর (Transistor)</td>
+          <td>একীভূত বর্তনী (IC - Integrated Circuit)</td>
+          <td>বৃহৎ ও অতি বৃহৎ মানের IC (VLSI / মাইক্রোপ্রসেসর)</td>
+          <td>অতি বৃহৎ একীভূত বর্তনী (ULSI), অপটিক্যাল চিপ</td>
+        </tr>
+        <tr>
+          <td class="row-head">প্রধান স্মৃতি (Primary Memory)</td>
+          <td>চৌম্বকীয় ড্রাম (Magnetic Drum)</td>
+          <td>চৌম্বকীয় কোর (Magnetic Core)</td>
+          <td>চৌম্বকীয় কোর (Magnetic Core)</td>
+          <td>সেমিকন্ডাক্টর মেমরি (RAM, ROM)</td>
+          <td>সুপারকন্ডাক্টর ও উচ্চক্ষমতাসম্পন্ন অপটিক্যাল স্মৃতি</td>
+        </tr>
+        <tr>
+          <td class="row-head">সহায়ক স্মৃতি (Secondary Memory)</td>
+          <td>ম্যাগনেটিক টেপ, পাঞ্চকার্ড</td>
+          <td>ম্যাগনেটিক ডিস্ক ও ম্যাগনেটিক টেপ</td>
+          <td>ম্যাগনেটিক ডিস্ক ও ম্যাগনেটিক টেপ</td>
+          <td>ম্যাগনেটিক ডিস্ক, হার্ডডিস্ক, ফ্লপি ডিস্ক</td>
+          <td>এসএসডি (SSD), ক্লাউড স্টোরেজ, অপটিক্যাল ডিস্ক</td>
+        </tr>
+        <tr>
+          <td class="row-head">গ্রহণ মাধ্যম (Input)</td>
+          <td>পাঞ্চকার্ড, পেপার টেপ</td>
+          <td>পাঞ্চকার্ড</td>
+          <td>কিবোর্ড, Key to Tape</td>
+          <td>কি-বোর্ড, মাউস, স্ক্যানার ইত্যাদি</td>
+          <td>কণ্ঠস্বর (Voice), স্পর্শ (Touch), AI সেন্সর</td>
+        </tr>
+        <tr>
+          <td class="row-head">নির্গমন মাধ্যম (Output)</td>
+          <td>পাঞ্চকার্ড, প্রিন্টআউট</td>
+          <td>পাঞ্চকার্ড, প্রিন্টার</td>
+          <td>মনিটর ও প্রিন্টার</td>
+          <td>ভিডিও মনিটর, প্রিন্টার ইত্যাদি</td>
+          <td>আল্ট্রা এইচডি মনিটর, হলোগ্রাফিক ডিসপ্লে, ভয়েস রেসপন্স</td>
+        </tr>
+        <tr>
+          <td class="row-head">সফটওয়্যার ও ভাষা</td>
+          <td>মেশিন ভাষা (Machine Language)</td>
+          <td>উচ্চতর ভাষা (FORTRAN, COBOL)</td>
+          <td>অপারেটিং সিস্টেম, উচ্চতর ভাষা (C, DOS)</td>
+          <td>DBMS, OOP ভাষা (Java, Python, C++)</td>
+          <td>কৃত্রিম বুদ্ধিমত্তা (AI), ন্যাচারাল ল্যাঙ্গুয়েজ প্রসেসিং (NLP)</td>
+        </tr>
+        <tr>
+          <td class="row-head">অন্যান্য বৈশিষ্ট্য</td>
+          <td>ব্যাচ প্রসেসিং অপারেটিং সিস্টেম</td>
+          <td>রিয়েল টাইম প্রসেসিং, ডেটা কমিউনিকেশন</td>
+          <td>টাইম শেয়ারিং, মাল্টি প্রোগ্রামিং, মাল্টি প্রসেসিং</td>
+          <td>মাইক্রোকম্পিউটার, ইন্টারনেট, নেটওয়ার্কিং</td>
+          <td>সুপারকম্পিউটার, কোয়ান্টাম কম্পিউটিং, প্যারালাল প্রসেসিং</td>
+        </tr>
+        <tr>
+          <td class="row-head">কম্পিউটারের আকার</td>
+          <td>অনেক বড় (Room Size)</td>
+          <td>আকারে আগের চেয়ে ছোট</td>
+          <td>মাঝারি / ছোট (Desk Size)</td>
+          <td>টাইপরাইটার সাইজ / ডেস্কটপ, ল্যাপটপ</td>
+          <td>অতি ক্ষুদ্র, পাতলা (হ্যান্ডহেল্ড, ন্যানোকম্পিউটার)</td>
+        </tr>
+        <tr>
+          <td class="row-head">উল্লেখযোগ্য উদাহরণ</td>
+          <td>ENIAC, EDVAC, UNIVAC-1, IBM 704</td>
+          <td>IBM 1401, IBM 1600, IBM 1604, CDC 1604</td>
+          <td>IBM-360, IBM-370, PDP-8, PDP-11</td>
+          <td>IBM-PC, Apple Mac, HP, 8086 মাইক্রোপ্রসেসর</td>
+          <td>কোয়ান্টাম কম্পিউটার, পারম পদ্ম, রোবোটিক্স ও এআই সিস্টেম</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- TOPIC 2 -->
+  <div class="section-block">
+    <div class="section-title">২. প্রাথমিক কম্পিউটার ত্রয়ী: Mark-I, ENIAC ও UNIVAC-I তুলনামূলক ছক</div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 18%;">প্রধান বৈশিষ্ট্য</th>
+          <th style="width: 27%;">Mark-I (মার্ক-১)</th>
+          <th style="width: 27%;">ENIAC (এনিয়াক)</th>
+          <th style="width: 28%;">UNIVAC-I (ইউনিভ্যাক-১)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="row-head">পূর্ণরূপ</td>
+          <td>Automatic Sequence Controlled Calculator (ASCC)</td>
+          <td>Electronic Numerical Integrator and Computer</td>
+          <td>Universal Automatic Computer I</td>
+        </tr>
+        <tr>
+          <td class="row-head">তৈরির সাল</td>
+          <td>১৯৪৪ খ্রিষ্টাব্দ</td>
+          <td>১৯৪৫–১৯৪৬ খ্রিষ্টাব্দ</td>
+          <td>১৯৫১ খ্রিষ্টাব্দ</td>
+        </tr>
+        <tr>
+          <td class="row-head">উদ্ভাবক / ডিজাইনার</td>
+          <td>হাওয়ার্ড এইকেন (Howard Aiken) ও আইবিএম (IBM)</td>
+          <td>জন মশলি (John Mauchly) ও জে. প্রেসপার একার্ট</td>
+          <td>জে. প্রেসপার একার্ট ও জন মশলি</td>
+        </tr>
+        <tr>
+          <td class="row-head">মূল প্রযুক্তি (সার্কিট)</td>
+          <td>ইলেক্ট্রো-মেকানিক্যাল (রিলে ও সুইচ ভিত্তিক)</td>
+          <td>সম্পূর্ণ ইলেকট্রনিক (ভ্যাকুয়াম টিউব — প্রায় ১৮,০০০টি)</td>
+          <td>ইলেকট্রনিক (ভ্যাকুয়াম টিউব ও ক্রিস্টাল ডায়োড)</td>
+        </tr>
+        <tr>
+          <td class="row-head">স্মৃতি ব্যবস্থা (Memory)</td>
+          <td>মেকানিক্যাল কাউন্টার হুইল ও ম্যাগনেটিক ড্রাম</td>
+          <td>অ্যাকুমুলেটর (টিউব ভিত্তিক রেজিস্টার)</td>
+          <td>পারদ বিলম্ব রেখা (Mercury Delay Line) ও ম্যাগনেটিক টেপ</td>
+        </tr>
+        <tr>
+          <td class="row-head">ইনপুট ও আউটপুট</td>
+          <td>পাঞ্চড পেপার টেপ, পাঞ্চকার্ড ও বৈদ্যুতিক টাইপরাইটার</td>
+          <td>পাঞ্চকার্ড (আইবিএম কার্ড রিডার ও পাঞ্চার)</td>
+          <td>চৌম্বকীয় ফিতা (ম্যাগনেটিক টেপ - Uniservo) ও পাঞ্চকার্ড</td>
+        </tr>
+        <tr>
+          <td class="row-head">কাজের গতি</td>
+          <td>প্রতি সেকেন্ডে প্রায় ৩টি যোগ/বিয়োগ</td>
+          <td>প্রতি সেকেন্ডে প্রায় ৫,০০০টি যোগ</td>
+          <td>প্রতি সেকেন্ডে প্রায় ১,৯০০টির বেশি অপারেশন</td>
+        </tr>
+        <tr>
+          <td class="row-head">প্রধান ব্যবহার</td>
+          <td>দ্বিতীয় বিশ্বযুদ্ধে ব্যালিস্টিক হিসাব ও বৈজ্ঞানিক গণনা</td>
+          <td>সামরিক ব্যালিস্টিক ক্ষেপণাস্ত্রের গতিপথ নির্ণয়</td>
+          <td>প্রথম বাণিজ্যিকভাবে সফল সাধারণ ব্যবহারের কম্পিউটার</td>
+        </tr>
+        <tr>
+          <td class="row-head">আকার ও ওজন</td>
+          <td>প্রায় ৫১ ফুট লম্বা, ৮ ফুট উঁচু; ওজন প্রায় ৫ টন</td>
+          <td>প্রায় ১,৮০০ বর্গফুট জায়গা দখলকারী; ওজন প্রায় ৩০ টন</td>
+          <td>বিশাল আকৃতির রুম সাইজ; ওজন প্রায় ১৩ টন</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- TOPIC 3 -->
+  <div class="section-block">
+    <div class="section-title">৩. কম্পিউটারের শ্রেণিবিভাগ (Classification of Computers)</div>
+    
+    <div class="section-subtitle">৩.১ কার‍্যপদ্ধতি ও প্রয়োগের ভিত্তিতে শ্রেণিবিভাগ</div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 18%;">তুলনার বিষয়</th>
+          <th style="width: 27%;">অ্যানালগ কম্পিউটার (Analog)</th>
+          <th style="width: 27%;">ডিজিটাল কম্পিউটার (Digital)</th>
+          <th style="width: 28%;">হাইব্রিড কম্পিউটার (Hybrid)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="row-head">কাজের মূল নীতি</td>
+          <td>ধারাবাহিক বা পরিবর্তনশীল ভৌত ডেটা (চাপ, তাপ, ভোল্টেজ) পরিমাপ করে কাজ করে</td>
+          <td>বিচ্ছিন্ন ডেটা বা বাইনারি সংকেত (০ এবং ১) প্রক্রিয়াকরণ করে গণনা করে</td>
+          <td>অ্যানালগ ও ডিজিটাল উভয় পদ্ধতির সমন্বয়ে ইনপুট পরিমাপ ও ডিজিটালে প্রসেস করে</td>
+        </tr>
+        <tr>
+          <td class="row-head">ইনপুটের ধরন</td>
+          <td>অবিচ্ছিন্ন বৈদ্যুতিক তরঙ্গ বা ভৌত সিগন্যাল</td>
+          <td>সংখ্যা, বর্ণ বা সাংখ্যিক বাইনারি ডেটা</td>
+          <td>জটিল অ্যানালগ সংকেত গ্রহণ করে ডিজিটালে রূপান্তর</td>
+        </tr>
+        <tr>
+          <td class="row-head">ফলাফলের যথার্থতা</td>
+          <td>আনুমানিক বা সীমিত নির্ভুলতা</td>
+          <td>অত্যন্ত নিখুঁত ও নির্ভরযোগ্য ফলাফল প্রদান করে</td>
+          <td>অ্যানালগের গতি এবং ডিজিটালের যথার্থতার চমৎকার সমন্বয়</td>
+        </tr>
+        <tr>
+          <td class="row-head">কাজের গতি</td>
+          <td>রিয়েল-টাইম হিসাবের জন্য খুব দ্রুত কাজ করে</td>
+          <td>প্রসেসরের ক্ষমতার ওপর ভিত্তি করে অত্যন্ত দ্রুত</td>
+          <td>জটিল বৈজ্ঞানিক বিশ্লেষণে অত্যন্ত দ্রুত</td>
+        </tr>
+        <tr>
+          <td class="row-head">ব্যবহারের ক্ষেত্র</td>
+          <td>ভোল্টমিটার, পেট্রল পাম্প মিটার, পুরোনো স্পিডোমিটার</td>
+          <td>অফিসিয়াল কাজ, হিসাব-নিকাশ, সফটওয়্যার ও ব্যক্তিগত ব্যবহার</td>
+          <td>হাসপাতালের আইসিইউ (ICU/ECG), যুদ্ধবিমান, মহাকাশ গবেষণা</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="section-subtitle">৩.২ আকার, সামর্থ্য ও দামের ভিত্তিতে ডিজিটাল কম্পিউটারের শ্রেণিবিভাগ</div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 16%;">প্রধান বৈশিষ্ট্য</th>
+          <th style="width: 21%;">সুপার কম্পিউটার (Super)</th>
+          <th style="width: 21%;">মেইনফ্রেম (Mainframe)</th>
+          <th style="width: 21%;">মিনি কম্পিউটার (Mini)</th>
+          <th style="width: 21%;">মাইক্রো কম্পিউটার (Micro)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="row-head">প্রসেসিং ক্ষমতা</td>
+          <td>সর্বোচ্চ গতিসম্পন্ন; ফ্লোপস (FLOPS) এককে হিসাব হয়</td>
+          <td>একযোগে কোটি কোটি নির্দেশ নির্বাহ (MIPS) করতে পারে</td>
+          <td>মাঝারি মানের প্রসেসিং ক্ষমতা সম্পন্ন</td>
+          <td>একক ব্যবহারকারীর জন্য উপযুক্ত প্রসেসিং গতি</td>
+        </tr>
+        <tr>
+          <td class="row-head">ব্যবহারকারীর সংখ্যা</td>
+          <td>একসাথে হাজার হাজার গবেষক বা প্রসেস যুক্ত হতে পারে</td>
+          <td>সেন্ট্রালাইজড সিস্টেমে একসাথে শত শত/হাজারো ব্যবহারকারী</td>
+          <td>মাঝারি প্রতিষ্ঠানে একসাথে ১০–১০০ জন ব্যবহারকারী</td>
+          <td>সাধারণত একক ব্যবহারকারী (Single User)</td>
+        </tr>
+        <tr>
+          <td class="row-head">আকার ও স্টোরেজ</td>
+          <td>বিশাল আকৃতির রুম; পেটাফ্লপস/এক্সাটেরাবাইট স্টোরেজ</td>
+          <td>বড় আলমারির মতো বা বহু কেবিনেটের বিশাল আয়তন</td>
+          <td>মাঝারি আলমারির সাইজ বা একাধিক র‍্যাক বিশিষ্ট</td>
+          <td>ছোট টেবিল বা হাতের তালুর মতো সহজে বহনযোগ্য</td>
+        </tr>
+        <tr>
+          <td class="row-head">মূল্য</td>
+          <td>সবচেয়ে ব্যয়বহুল (কোটি কোটি ডলার)</td>
+          <td>অত্যন্ত ব্যয়বহুল</td>
+          <td>মাঝারি ব্যয়ের</td>
+          <td>সাধারণের ক্রয়ক্ষমতার মধ্যে (সাশ্রয়ী)</td>
+        </tr>
+        <tr>
+          <td class="row-head">প্রধান ব্যবহার</td>
+          <td>মহাকাশ গবেষণা, নিউক্লিয়ার সিমুলেশন, আবহাওয়া পূর্বাভাস</td>
+          <td>ব্যাংক, বীমা, বিমান রিজার্ভেশন, জাতীয় ডেটা সেন্টার</td>
+          <td>মাঝারি শিল্প প্রতিষ্ঠান, ব্যাংক শাখা, বৈজ্ঞানিক ল্যাব</td>
+          <td>ব্যক্তিগত কাজ, অফিস অটোমেশন, পড়াশোনা, ব্রাউজিং</td>
+        </tr>
+        <tr>
+          <td class="row-head">উদাহরণ</td>
+          <td>Frontier, Fugaku, Summit, পারম পদ্ম</td>
+          <td>IBM zSeries, IBM 4381, UNIVAC 1100</td>
+          <td>PDP-11, VAX, IBM AS/400</td>
+          <td>Desktop PC, Laptop, Tablet, Smartphone</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- TOPIC 4 -->
+  <div class="section-block">
+    <div class="section-title">৪. ডেটা গ্রহণ মাধ্যম: OMR, OCR ও MICR-এর তুলনামূলক বিশ্লেষণ</div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 18%;">প্রধান বৈশিষ্ট্য</th>
+          <th style="width: 27%;">OMR</th>
+          <th style="width: 27%;">OCR</th>
+          <th style="width: 28%;">MICR</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="row-head">পূর্ণরূপ</td>
+          <td>Optical Mark Reader / Recognition</td>
+          <td>Optical Character Reader / Recognition</td>
+          <td>Magnetic Ink Character Recognition</td>
+        </tr>
+        <tr>
+          <td class="row-head">কাজের মূল নীতি</td>
+          <td>কাগজের নির্দিষ্ট স্থানে পেনসিল বা কালির দাগে আলো ফেলে প্রতিফলনের মাত্রা নির্ণয় করে</td>
+          <td>মুদ্রিত বা হাতে লেখা অক্ষরের ওপর আলো ফেলে প্যাটার্ন বিশ্লেষণ করে টেক্সটে রূপান্তর করে</td>
+          <td>চৌম্বকীয় কালি (আয়রন অক্সাইড) দ্বারা মুদ্রিত অক্ষরকে চুম্বকায়িত করে শনাক্ত করে</td>
+        </tr>
+        <tr>
+          <td class="row-head">ইনপুটের ধরন</td>
+          <td>বৃত্তাকার ভরাট দাগ, চেক বক্স বা পূর্বনির্ধারিত চিহ্ন</td>
+          <td>টাইপ করা টেক্সট, মুদ্রিত বই/কাগজ বা স্ক্যান করা হাতের লেখা</td>
+          <td>বিশেষ ফন্টে (E-13B, CMC-7) চৌম্বকীয় কালিতে ছাপা সংখ্যা ও কোড</td>
+        </tr>
+        <tr>
+          <td class="row-head">প্রক্রিয়াকরণের গতি</td>
+          <td>অত্যন্ত দ্রুত (প্রতি মিনিটে শত শত শিট মূল্যায়ন সম্ভব)</td>
+          <td>মাঝারি থেকে দ্রুত (রেজল্যুশন ও ফন্টের স্পষ্টতার ওপর নির্ভরশীল)</td>
+          <td>অত্যন্ত দ্রুত এবং নির্ভুল (প্রতি মিনিটে হাজারো চেক প্রসেস করে)</td>
+        </tr>
+        <tr>
+          <td class="row-head">ভুল হওয়ার ঝুঁকি</td>
+          <td>চিহ্ন শনাক্তে নির্ভুল; ভাঁজ বা অতিরিক্ত দাগ থাকলে সমস্যা হতে পারে</td>
+          <td>হাতের লেখা অস্পষ্ট হলে বা অচেনা ফন্ট হলে পাঠোদ্ধারে ভুল হতে পারে</td>
+          <td>জালিয়াতির ঝুঁকি প্রায় শূন্য; চেক নোংরা বা দাগযুক্ত হলেও পড়া যায়</td>
+        </tr>
+        <tr>
+          <td class="row-head">প্রধান ব্যবহার</td>
+          <td>পরীক্ষার নৈর্ব্যক্তিক (MCQ) উত্তরপত্র মূল্যায়ন, জরিপ ও লটারি</td>
+          <td>বই ডিজিটালাইজেশন, এডিটেবল টেক্সটে রূপান্তর, পাসপোর্ট রিডার</td>
+          <td>ব্যাংক চেক, ড্রাফট ও আর্থিক লেনদেনের নথিপত্র ক্লিয়ারিং</td>
+        </tr>
+        <tr>
+          <td class="row-head">যন্ত্রাংশের প্রকৃতি</td>
+          <td>অপটিক্যাল সেন্সর ও আলোর উৎস ভিত্তিক হার্ডওয়্যার ডিভাইস</td>
+          <td>অপটিক্যাল স্ক্যানার ও প্যাটার্ন ম্যাচিং সফটওয়্যারের সমন্বয়</td>
+          <td>বিশেষায়িত ম্যাগনেটিক রিডার / স্ক্যানার হার্ডওয়্যার</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- TOPIC 5 -->
+  <div class="section-block">
+    <div class="section-title">৫. মুদ্রণ যন্ত্র (Printers): প্রকারভেদ ও মূলনীতি</div>
+    
+    <div class="section-subtitle">৫.১ ইমপ্যাক্ট ও নন-ইমপ্যাক্ট প্রিন্টারের তুলনা</div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 20%;">তুলনার বিষয়</th>
+          <th style="width: 40%;">ইমপ্যাক্ট প্রিন্টার (Impact Printer)</th>
+          <th style="width: 40%;">নন-ইমপ্যাক্ট প্রিন্টার (Non-Impact Printer)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="row-head">কাজের মূল নীতি</td>
+          <td>কাগজের ওপর কালিযুক্ত ফিতা (Ribbon)-তে পিন বা হাতুড়ি দিয়ে যান্ত্রিকভাবে আঘাত (Impact) করে ছাপানো হয়</td>
+          <td>কাগজের ওপর আঘাত ছাড়াই তাপ, লেজার রশ্মি, তরল কালি বা রাসায়নিক প্রক্রিয়ায় লেখা ছাপানো হয়</td>
+        </tr>
+        <tr>
+          <td class="row-head">মুদ্রণের মান (Quality)</td>
+          <td>প্রিন্টের মান সাধারণ বা নিম্নমানের; গ্রাফিক্স বা সূক্ষ্ম ছবি স্পষ্ট আসে না</td>
+          <td>অত্যন্ত নিখুঁত, স্পষ্ট এবং উচ্চ রেজল্যুশনের প্রিন্ট (টেক্সট ও ছবি উভয় ক্ষেত্রে)</td>
+        </tr>
+        <tr>
+          <td class="row-head">মুদ্রণের গতি</td>
+          <td>তুলনামূলক কম গতিসম্পন্ন (CPS/LPM এ পরিমাপ করা হয়)</td>
+          <td>অত্যন্ত দ্রুতগতিসম্পন্ন (PPM এ পরিমাপ করা হয়)</td>
+        </tr>
+        <tr>
+          <td class="row-head">শব্দ সৃষ্টির মাত্রা</td>
+          <td>মেকানিক্যাল আঘাতের কারণে কাজ করার সময় প্রচুর শব্দ তৈরি হয়</td>
+          <td>অত্যন্ত শান্তভাবে কাজ করে, যান্ত্রিক আঘাত না থাকায় প্রায় শব্দহীন</td>
+        </tr>
+        <tr>
+          <td class="row-head">কার্বন কপি সুবিধা</td>
+          <td>আঘাতের চাপ থাকায় কার্বন পেপার ব্যবহার করে একসাথে ডুপ্লিকেট কপি বের করা যায়</td>
+          <td>কার্বন পেপার দিয়ে ডুপ্লিকেট কপি বের করা সম্ভব নয় (পুনরায় প্রিন্ট দিতে হয়)</td>
+        </tr>
+        <tr>
+          <td class="row-head">ব্যবহৃত কালি</td>
+          <td>ইঙ্কড রিবন (কালিযুক্ত কাপড়ের ফিতা)</td>
+          <td>তরল কালি (Cartridge/Ink tank) বা গুঁড়ো কালি (Toner)</td>
+        </tr>
+        <tr>
+          <td class="row-head">খরচ</td>
+          <td>ডিভাইসের দাম কম এবং রিবনের খরচ অনেক কম হওয়ায় প্রতি পেজে প্রিন্ট খরচ সাশ্রয়ী</td>
+          <td>ডিভাইসের দাম ও টোনার/কার্ট্রিজের মূল্য বেশি হওয়ায় প্রিন্ট খরচ তুলনামূলক বেশি</td>
+        </tr>
+        <tr>
+          <td class="row-head">উদাহরণ</td>
+          <td>ডট ম্যাট্রিক্স (Dot Matrix), ডেইজি হুইল (Daisy Wheel), লাইন প্রিন্টার</td>
+          <td>লেজার প্রিন্টার (Laser), ইঙ্কজেট (Inkjet), থার্মাল প্রিন্টার</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="section-subtitle">৫.২ প্রধান ৪টি প্রিন্টারের মূলনীতি ও পার্থক্য ছক (Exam High-Yield)</div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 16%;">মূলনীতির ধাপ / তুলনা</th>
+          <th style="width: 21%;">লেজার প্রিন্টার (Laser)</th>
+          <th style="width: 21%;">ড্রাম প্রিন্টার (Drum)</th>
+          <th style="width: 21%;">ডট ম্যাট্রিক্স (Dot Matrix)</th>
+          <th style="width: 21%;">লাইন প্রিন্টার (Line)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="row-head">১. মূল প্রযুক্তি (Core Tech)</td>
+          <td>স্থির-তড়িৎ ও লেজার রশ্মি (Electro-photographic)</td>
+          <td>ঘূর্ণায়মান ড্রাম ও হাতুড়ির আঘাত (Rotational Impact)</td>
+          <td>পিনের আঘাত ও বিন্দুর বিন্যাস (Pin-strike Matrix)</td>
+          <td>চেইন/ব্যান্ডের সাথে হাতুড়ির একযোগে আঘাত</td>
+        </tr>
+        <tr>
+          <td class="row-head">২. ছাপানোর পদ্ধতি</td>
+          <td>নন-ইমপ্যাক্ট: কাগজে কোনো আঘাত লাগে না, আলো ও তাপে ছাপা হয়</td>
+          <td>ইমপ্যাক্ট: হাতুড়ি ঘূর্ণায়মান ড্রামের অক্ষরে আঘাত করে</td>
+          <td>ইমপ্যাক্ট: ৯ বা ২৪টি পিন রিবনে ঠুকে বিন্দু বিন্দু দাগ ফেলে</td>
+          <td>ইমপ্যাক্ট: হাতুড়ির পুরো সারি (Hammer bank) একযোগে আঘাত করে</td>
+        </tr>
+        <tr>
+          <td class="row-head">৩. প্রতিবারে মুদ্রণ</td>
+          <td>একসাথে পুরো একটি পৃষ্ঠা (Page Printer)</td>
+          <td>একসাথে পুরো একটি লাইন (Line Printer)</td>
+          <td>একটি একটি করে অক্ষর (Character Printer)</td>
+          <td>একসাথে পুরো একটি লাইন (Line Printer)</td>
+        </tr>
+        <tr>
+          <td class="row-head">৪. কালি কাগজে বসানোর নিয়ম</td>
+          <td>তাপ ও চাপ (Heat & Pressure) দিয়ে টোনার গলিয়ে কাগজে বসানো হয়</td>
+          <td>হাতুড়ির যান্ত্রিক চাপে রিবন থেকে কালি কাগজে বসে</td>
+          <td>পিনের ধাক্কায় রিবন থেকে বিন্দু বিন্দু কালি কাগজে বসে</td>
+          <td>হাতুড়ির সারির এককালীন চাপে পুরো লাইনের কালি বসে</td>
+        </tr>
+        <tr>
+          <td class="row-head">৫. ব্যবহৃত কালি</td>
+          <td>শুকনো গুঁড়ো কালি (Toner)</td>
+          <td>কালির ফিতা (Inked Ribbon)</td>
+          <td>কালির ফিতা (Inked Ribbon)</td>
+          <td>চওড়া কালির ফিতা (Wide Inked Ribbon)</td>
+        </tr>
+        <tr>
+          <td class="row-head">৬. কাজের মূল ধাপ</td>
+          <td>চার্জ তৈরি → টোনার আকর্ষণ → তাপে গলিয়ে কাগজে স্থায়ী মুদ্রণ</td>
+          <td>ড্রাম ঘোরা → অক্ষর সামনে আসা → হাতুড়ির আঘাত → লাইন প্রিন্ট</td>
+          <td>সংকেত পাওয়া → নির্দিষ্ট পিন ছিটকে যাওয়া → বিন্দু তৈরি → অক্ষর গঠন</td>
+          <td>অক্ষরের সারি ঘোরা → পুরো হ্যামার ব্যাঙ্ক ছিটকে যাওয়া → পুরো লাইন প্রিন্ট</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- TOPIC 6 -->
+  <div class="section-block">
+    <div class="section-title">৬. স্মৃতি ও স্টোরেজ ব্যবস্থা (Memory & Storage Devices)</div>
+    
+    <div class="section-subtitle">৬.১ প্রাথমিক স্মৃতি বনাম সহায়ক স্মৃতি (Primary vs Secondary Memory)</div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 20%;">তুলনার বিষয়</th>
+          <th style="width: 40%;">প্রাথমিক স্মৃতি (Primary Memory)</th>
+          <th style="width: 40%;">সহায়ক / মাধ্যমিক স্মৃতি (Secondary Memory)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="row-head">অন্যান্য নাম</td>
+          <td>প্রধান স্মৃতি (Main Memory), অভ্যন্তরীণ মেমরি (Internal)</td>
+          <td>সহায়ক স্মৃতি (Auxiliary Memory), বাহ্যিক মেমরি (External)</td>
+        </tr>
+        <tr>
+          <td class="row-head">CPU-র সাথে সংযোগ</td>
+          <td>CPU সরাসরি (Directly) ডেটা আদান-প্রদান করতে পারে</td>
+          <td>CPU সরাসরি সংযোগ করে না; ডেটা আগে প্রাইমারি মেমরিতে এনে প্রসেস হয়</td>
+        </tr>
+        <tr>
+          <td class="row-head">স্থায়িত্ব (Volatility)</td>
+          <td>উদ্বায়ী বা ক্ষণস্থায়ী (Volatile); বিদ্যুৎ গেলে ডেটা মুছে যায় (ব্যতিক্রম: ROM)</td>
+          <td>স্থায়ী (Non-volatile); বিদ্যুৎ চলে গেলেও ডেটা সংরক্ষিত থাকে</td>
+        </tr>
+        <tr>
+          <td class="row-head">কাজের গতি</td>
+          <td>অত্যন্ত দ্রুতগতিসম্পন্ন (High Speed)</td>
+          <td>প্রাইমারি মেমরির তুলনায় গতি অনেক কম (Slow Speed)</td>
+        </tr>
+        <tr>
+          <td class="row-head">ধারণক্ষমতা (Capacity)</td>
+          <td>সীমিত ধারণক্ষমতা (সাধারণত ৪ GB থেকে ৩২ GB)</td>
+          <td>বিপুল ধারণক্ষমতা (সাধারণত ২৫৬ GB থেকে বহু টেরাবাইট)</td>
+        </tr>
+        <tr>
+          <td class="row-head">প্রতি বিটের খরচ</td>
+          <td>অত্যন্ত ব্যয়বহুল (Costly per bit)</td>
+          <td>তুলনামূলকভাবে বেশ সাশ্রয়ী (Cheaper per bit)</td>
+        </tr>
+        <tr>
+          <td class="row-head">তৈরির প্রযুক্তি</td>
+          <td>সেমিকন্ডাক্টর বা অর্ধপরিবাহী চিপ ভিত্তিক প্রযুক্তি</td>
+          <td>ম্যাগনেটিক, অপটিক্যাল বা ফ্ল্যাশ মেমরি প্রযুক্তি</td>
+        </tr>
+        <tr>
+          <td class="row-head">মূল ভূমিকা</td>
+          <td>বর্তমানে চলমান প্রোগ্রাম ও তাৎক্ষণিক নির্দেশ জমা রাখা</td>
+          <td>অপারেটিং সিস্টেম, সফটওয়্যার এবং ফাইলসমূহ স্থায়ীভাবে জমা রাখা</td>
+        </tr>
+        <tr>
+          <td class="row-head">উদাহরণ</td>
+          <td>RAM (SRAM, DRAM), ROM, ক্যাশ মেমরি (Cache)</td>
+          <td>হার্ডডিস্ক (HDD), এসএসডি (SSD), পেনড্রাইভ, অপটিক্যাল ডিস্ক (CD/DVD)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="note-box">
+      <strong>পরীক্ষার জন্য বিশেষ পরিভাষা নোট:</strong><br>
+      • <strong>Main Memory</strong> এবং <strong>Primary Memory</strong> হুবহু একই জিনিস (সিপিইউ সরাসরি এটি থেকে ডেটা গ্রহণ ও প্রসেস করে)।<br>
+      • <strong>Auxiliary Memory</strong> এবং <strong>Secondary Memory</strong> হুবহু একই জিনিস (ভবিষ্যতের জন্য ডেটা স্থায়ীভাবে জমা রাখে)।
+    </div>
+
+    <div class="section-subtitle">৬.২ র‍্যাম (RAM) ও রম (ROM)-এর পার্থক্য</div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 20%;">তুলনার বিষয়</th>
+          <th style="width: 40%;">র‍্যাম (RAM)</th>
+          <th style="width: 40%;">রম (ROM)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="row-head">পূর্ণরূপ</td>
+          <td>Random Access Memory</td>
+          <td>Read Only Memory</td>
+        </tr>
+        <tr>
+          <td class="row-head">কাজের ধরন (Operation)</td>
+          <td>রিড এবং রাইট (Read & Write) উভয় কাজই করা যায়</td>
+          <td>শুধুমাত্র ডেটা পড়া (Read-only) যায়, সহজে পরিবর্তন করা যায় না</td>
+        </tr>
+        <tr>
+          <td class="row-head">স্থায়িত্ব (Volatility)</td>
+          <td>উদ্বায়ী (Volatile): বিদ্যুৎ চলে গেলে ডেটা সম্পূর্ণ মুছে যায়</td>
+          <td>স্থায়ী (Non-Volatile): বিদ্যুৎ চলে গেলেও সংরক্ষিত ডেটা অক্ষত থাকে</td>
+        </tr>
+        <tr>
+          <td class="row-head">মূল কাজ</td>
+          <td>বর্তমানে চলমান অ্যাপ্লিকেশন ও প্রসেসের ডেটা সাময়িকভাবে রাখা</td>
+          <td>কম্পিউটার চালু করার বুটস্ট্র‍্যাপ লোডার ও BIOS নির্দেশাবলি রাখা</td>
+        </tr>
+        <tr>
+          <td class="row-head">ডেটা পরিবর্তনের সুযোগ</td>
+          <td>ব্যবহারকারী বা প্রসেসর ইচ্ছামতো ডেটা পরিবর্তন ও মুছতে পারে</td>
+          <td>ডেটা পরিবর্তন করা অত্যন্ত কঠিন; নির্মাতা কোম্পানি প্রোগ্রাম করে দেয়</td>
+        </tr>
+        <tr>
+          <td class="row-head">ধারণক্ষমতা ও গতি</td>
+          <td>উচ্চ ক্ষমতা (৪ GB – ৬৪ GB) এবং অত্যন্ত দ্রুতগতির মেমরি</td>
+          <td>সীমিত ক্ষমতা (কয়েক MB) এবং RAM-এর চেয়ে গতি কিছুটা কম</td>
+        </tr>
+        <tr>
+          <td class="row-head">প্রকারভেদ</td>
+          <td>SRAM (Static RAM), DRAM (Dynamic RAM)</td>
+          <td>PROM, EPROM, EEPROM</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="section-subtitle">৬.৩ স্ট্যাটিক র‍্যাম (SRAM) ও ডায়নামিক র‍্যাম (DRAM)-এর পার্থক্য</div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 20%;">তুলনার বিষয়</th>
+          <th style="width: 40%;">স্ট্যাটিক র‍্যাম (SRAM)</th>
+          <th style="width: 40%;">ডায়নামিক র‍্যাম (DRAM)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="row-head">পূর্ণরূপ</td>
+          <td>Static Random Access Memory</td>
+          <td>Dynamic Random Access Memory</td>
+        </tr>
+        <tr>
+          <td class="row-head">গঠন উপাদান</td>
+          <td>ট্রানজিস্টর ও ল্যাচ/ফ্লিপ-ফ্লপ (প্রতি বিটে ৪–৬টি ট্রানজিস্টর)</td>
+          <td>১টি ট্রানজিস্টর ও ১টি ক্যাপাসিটর (প্রতি বিটের জন্য)</td>
+        </tr>
+        <tr>
+          <td class="row-head">রিফ্রেশ করার প্রয়োজন</td>
+          <td>ক্যাপাসিটর না থাকায় রিফ্রেশ করার প্রয়োজন হয় না</td>
+          <td>ক্যাপাসিটর চার্জ হারায়, তাই প্রতি সেকেন্ডে শত শত বার রিফ্রেশ লাগে</td>
+        </tr>
+        <tr>
+          <td class="row-head">কাজের গতি</td>
+          <td>অত্যন্ত দ্রুতগতিসম্পন্ন (High Speed)</td>
+          <td>SRAM-এর তুলনায় গতি কিছুটা ধীর</td>
+        </tr>
+        <tr>
+          <td class="row-head">ধারণক্ষমতা (Density)</td>
+          <td>প্রতি চিপে মেমরি ধারণক্ষমতা কম (কম ডেটা ধরে)</td>
+          <td>প্রতি চিপে মেমরি ধারণক্ষমতা অনেক বেশি (উচ্চ ডেনসিটি)</td>
+        </tr>
+        <tr>
+          <td class="row-head">বিদ্যুৎ খরচ ও মূল্য</td>
+          <td>বিদ্যুৎ খরচ কম (রিফ্রেশ লাগে না); তবে জটিল গঠনের কারণে দাম বেশি</td>
+          <td>রিফ্রেশের কারণে বিদ্যুৎ খরচ বেশি; তবে সার্কিট সহজ হওয়ায় দাম সাশ্রয়ী</td>
+        </tr>
+        <tr>
+          <td class="row-head">ব্যবহারের ক্ষেত্র</td>
+          <td>প্রসেসরের ভেতরের ক্যাশ মেমরি (L1, L2, L3 Cache) হিসেবে</td>
+          <td>কম্পিউটারের মূল মেমরি বা মেইন র‍্যাম (DDR3, DDR4, DDR5) হিসেবে</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="section-subtitle">৬.৪ ক্যাশ মেমরি (Cache Memory) ও ভার্চুয়াল মেমরি (Virtual Memory)</div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 20%;">তুলনার বিষয়</th>
+          <th style="width: 40%;">ক্যাশ মেমরি (Cache Memory)</th>
+          <th style="width: 40%;">ভার্চুয়াল মেমরি (Virtual Memory)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="row-head">প্রকৃতি</td>
+          <td>এটি একটি বাস্তব, অতি দ্রুতগতির ফিজিক্যাল হার্ডওয়্যার চিপ (SRAM)</td>
+          <td>কোনো বাস্তব হার্ডওয়্যার নয়; ওএস-এর মেমরি ম্যানেজমেন্ট কৌশল (লজিক্যাল)</td>
+        </tr>
+        <tr>
+          <td class="row-head">অবস্থান</td>
+          <td>প্রসেসরের ভেতরে বা সিপিইউ এবং মূল র‍্যামের মধ্যবর্তী স্থানে</td>
+          <td>সেকেন্ডারি স্টোরেজে (হার্ডডিস্ক বা এসএসডি-র পেজিং/সোয়াপ ফাইলে)</td>
+        </tr>
+        <tr>
+          <td class="row-head">নিয়ন্ত্রণ ব্যবস্থা</td>
+          <td>কম্পিউটার হার্ডওয়্যার ও মেমরি কন্ট্রোলার সরাসরি নিয়ন্ত্রণ করে</td>
+          <td>অপারেটিং সিস্টেম (OS) এবং প্রসেসরের MMU নিয়ন্ত্রণ করে</td>
+        </tr>
+        <tr>
+          <td class="row-head">মূল উদ্দেশ্য</td>
+          <td>ঘন ঘন ব্যবহৃত ডেটা কাছে রেখে সিপিইউ ও র‍্যামের গতির ব্যবধান কমানো</td>
+          <td>র‍্যামের ধারণক্ষমতার চেয়ে বড় প্রোগ্রাম বা একাধিক ভারী অ্যাপ রান করানো</td>
+        </tr>
+        <tr>
+          <td class="row-head">গতি ও ধারণক্ষমতা</td>
+          <td>মেমরির মধ্যে সবচেয়ে দ্রুতগতিসম্পন্ন; তবে সাইজ কম (২ MB থেকে ৬৪ MB)</td>
+          <td>সেকেন্ডারি স্টোরেজ ভিত্তিক হওয়ায় গতি ধীর; তবে সাইজ অনেক বড় (GB পরিসরে)</td>
+        </tr>
+        <tr>
+          <td class="row-head">শ্রেণিবিভাগ / কৌশল</td>
+          <td>L1, L2, L3 ক্যাশ মেমরি</td>
+          <td>পেজিং (Paging) ও সেগমেন্টেশন (Segmentation) পদ্ধতি</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="section-subtitle">৬.৫ রম পরিবারের তুলনামূলক বিশ্লেষণ: PROM, EPROM ও EEPROM</div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 18%;">তুলনার বিষয়</th>
+          <th style="width: 27%;">PROM</th>
+          <th style="width: 27%;">EPROM</th>
+          <th style="width: 28%;">EEPROM</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="row-head">পূর্ণরূপ</td>
+          <td>Programmable Read Only Memory</td>
+          <td>Erasable Programmable Read Only Memory</td>
+          <td>Electrically Erasable Programmable Read Only Memory</td>
+        </tr>
+        <tr>
+          <td class="row-head">মুছে ফেলার সুযোগ</td>
+          <td>একবার লিখলে আর কোনোভাবেই মোছা যায় না (Non-erasable)</td>
+          <td>মুছে পুনরায় নতুন ডেটা লেখা যায়</td>
+          <td>মুছে পুনরায় নতুন ডেটা লেখা যায়</td>
+        </tr>
+        <tr>
+          <td class="row-head">মুছে ফেলার মাধ্যম</td>
+          <td>প্রযোজ্য নয় (মুছা অসম্ভব)</td>
+          <td>তীব্র অতিবেগুনি রশ্মি (Ultra-Violet / UV Light)</td>
+          <td>বৈদ্যুতিক ভোল্টেজ বা বৈদ্যুতিক সংকেত (Electrical Signal)</td>
+        </tr>
+        <tr>
+          <td class="row-head">মুছে ফেলার পদ্ধতি</td>
+          <td>মুছে ফেলা যায় না</td>
+          <td>চিপ সার্কিট থেকে খুলে UV চেম্বারে রেখে পুরো মেমরি মুছতে হয়</td>
+          <td>সার্কিট বোর্ডে থাকা অবস্থাতেই নির্দিষ্ট বাইট বা ব্লক বিদ্যুৎ দিয়ে মোছা যায়</td>
+        </tr>
+        <tr>
+          <td class="row-head">মুছার সময়</td>
+          <td>প্রযোজ্য নয়</td>
+          <td>পুরো মেমরি মুছতে প্রায় ১০ থেকে ২০ মিনিট সময় লাগে</td>
+          <td>মাত্র ৪ থেকে ১০ মিলিসেকেন্ডে (ms) অত্যন্ত দ্রুত মোছা যায়</td>
+        </tr>
+        <tr>
+          <td class="row-head">শারীরিক গঠন</td>
+          <td>সাধারণ সিল করা আইসি চিপ</td>
+          <td>UV রশ্মি প্রবেশের জন্য চিপে কোয়ার্টজ কাঁচের জানালা থাকে</td>
+          <td>পুরোপুরি সিল করা স্বাভাবিক প্যাকেজ, কোনো কাঁচের জানালা নেই</td>
+        </tr>
+        <tr>
+          <td class="row-head">পুনরায় লেখার সীমা</td>
+          <td>মাত্র একবারই লেখা যায় (WORM)</td>
+          <td>সীমিত বার (১,০০০ থেকে ২,০০০ বার)</td>
+          <td>বহুবার (১০,০০০ থেকে ১০,০০,০০০ বার পর‍্যন্ত)</td>
+        </tr>
+        <tr>
+          <td class="row-head">ব্যবহারের ক্ষেত্র</td>
+          <td>ভিডিও গেম কনসোল কার্ট্রিজ, স্থায়ী কোড</td>
+          <td>পুরোনো প্রজন্মের মাদারবোর্ডের BIOS চিপ</td>
+          <td>আধুনিক মাদারবোর্ডের Flash BIOS, পেনড্রাইভ, মেমরি কার্ড</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="section-subtitle">৬.৬ হার্ড ডিস্ক ড্রাইভ (HDD) ও সলিড স্টেট ড্রাইভ (SSD)-এর পার্থক্য</div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 20%;">তুলনার বিষয়</th>
+          <th style="width: 40%;">হার্ড ডিস্ক ড্রাইভ (HDD)</th>
+          <th style="width: 40%;">সলিড স্টেট ড্রাইভ (SSD)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="row-head">পূর্ণরূপ</td>
+          <td>Hard Disk Drive</td>
+          <td>Solid State Drive</td>
+        </tr>
+        <tr>
+          <td class="row-head">কাজের প্রযুক্তি</td>
+          <td>ইলেক্ট্রো-ম্যাগনেটিক পদ্ধতি (চৌম্বকীয় ডিস্ক ও রিড/রাইট হেড)</td>
+          <td>ফ্ল্যাশ মেমরি প্রযুক্তি (NAND ফ্ল্যাশ মেমরি চিপ ভিত্তিক)</td>
+        </tr>
+        <tr>
+          <td class="row-head">চলনক্ষম যন্ত্রাংশ</td>
+          <td>ভেতরের প্ল্যাটার বা ডিস্ক দ্রুত ঘোরে এবং মেকানিক্যাল পার্টস থাকে</td>
+          <td>কোনো মুভিং পার্টস নেই (সম্পূর্ণ ইলেকট্রনিক সলিড-স্টেট)</td>
+        </tr>
+        <tr>
+          <td class="row-head">পড়া ও লেখার গতি</td>
+          <td>গতি তুলনামূলক কম (সাধারণত ৮০–১৬০ MB/s)</td>
+          <td>অত্যন্ত দ্রুতগতির (SATA: ৫০০ MB/s; NVMe: ৩,০০০–৭,০০০+ MB/s)</td>
+        </tr>
+        <tr>
+          <td class="row-head">বুট ও লোডিং টাইম</td>
+          <td>সিস্টেম বুট হতে বেশি সময় নেয় (৩০–৬০ সেকেন্ড)</td>
+          <td>বুট টাইম অত্যন্ত দ্রুত (১০–১৫ সেকেন্ড বা তারও কম)</td>
+        </tr>
+        <tr>
+          <td class="row-head">স্থায়িত্ব ও শক রেজিসট্যান্স</td>
+          <td>হাত থেকে পড়ে গেলে বা নাড়া লাগলে নষ্ট হওয়ার ঝুঁকি বেশি</td>
+          <td>মেকানিক্যাল পার্টস না থাকায় ঝাঁকুনি বা পতনে সহজে নষ্ট হয় না</td>
+        </tr>
+        <tr>
+          <td class="row-head">শব্দ ও তাপ উৎপাদন</td>
+          <td>ডিস্ক ঘোরার কারণে মৃদু শব্দ এবং অতিরিক্ত তাপ উৎপন্ন হয়</td>
+          <td>কোনো শব্দ তৈরি হয় না (সম্পূর্ণ নীরব) এবং কম তাপ উৎপন্ন হয়</td>
+        </tr>
+        <tr>
+          <td class="row-head">ওজন ও বিদ্যুৎ খরচ</td>
+          <td>ভারী ও আকারে বড়; বিদ্যুৎ খরচ বেশি</td>
+          <td>হালকা ও পাতলা; বিদ্যুৎ খরচ অনেক কম (ব্যাটারি ব্যাকআপ বাড়ে)</td>
+        </tr>
+        <tr>
+          <td class="row-head">আদর্শ ব্যবহার</td>
+          <td>বিপুল পরিমাণ ডেটা ব্যাকআপ ও আর্কাইভ স্টোরেজে</td>
+          <td>ওএস রান, ভারী সফটওয়্যার, ভিডিও এডিটিং ও গেমিংয়ের গতি বাড়াতে</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- TOPIC 7 -->
+  <div class="section-block">
+    <div class="section-title">৭. কম্পিউটার সিস্টেম উপাদান ও সফটওয়্যার (System Components & Software)</div>
+    
+    <div class="section-subtitle">৭.১ হার্ডওয়্যার, সফটওয়্যার ও ফার্মওয়্যার (Hardware, Software & Firmware)-এর পার্থক্য</div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 18%;">তুলনার বিষয়</th>
+          <th style="width: 27%;">হার্ডওয়্যার (Hardware)</th>
+          <th style="width: 27%;">সফটওয়্যার (Software)</th>
+          <th style="width: 28%;">ফার্মওয়্যার (Firmware)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="row-head">সংজ্ঞা ও প্রকৃতি</td>
+          <td>কম্পিউটারের স্পর্শযোগ্য ও দৃশ্যমান সমস্ত ভৌত যন্ত্রাংশ</td>
+          <td>হার্ডওয়্যার পরিচালনার জন্য লিখিত কোড বা প্রোগ্রামের সমষ্টি</td>
+          <td>হার্ডওয়্যার চিপের ভেতরে স্থায়ীভাবে সংরক্ষিত লো-লেভেল কোড</td>
+        </tr>
+        <tr>
+          <td class="row-head">স্পর্শযোগ্যতা</td>
+          <td>বস্তুগত, তাই খালি চোখে দেখা ও স্পর্শ করা যায়</td>
+          <td>যৌক্তিক (Logical), স্পর্শ করা যায় না</td>
+          <td>যে চিপে থাকে তা স্পর্শ করা যায়, ভেতরের কোড স্পর্শ করা যায় না</td>
+        </tr>
+        <tr>
+          <td class="row-head">সংরক্ষণের স্থান</td>
+          <td>কম্পিউটার কেসিং, মাদারবোর্ড বা পেরিফেরাল হিসেবে থাকে</td>
+          <td>সেকেন্ডারি স্টোরেজে (HDD, SSD) থাকে এবং র‍্যামে লোড হয়</td>
+          <td>নন-ভোলাটাইল মেমরি চিপে (ROM, PROM, EEPROM) থাকে</td>
+        </tr>
+        <tr>
+          <td class="row-head">পরিবর্তন ও আপগ্রেড</td>
+          <td>सहজে পরিবর্তন করা যায় না; মেরামত বা প্রতিস্থাপন লাগে</td>
+          <td>ব্যবহারকারী যেকোনো সময় ইনস্টল, আপডেট বা আনইনস্টল করতে পারেন</td>
+          <td>সহজে পরিবর্তন হয় না; আপডেট করতে ফ্ল্যাশিং (Flashing) লাগে</td>
+        </tr>
+        <tr>
+          <td class="row-head">ভূমিকা ও নির্ভরশীলতা</td>
+          <td>শারীরিক অবকাঠামো তৈরি করে; সফটওয়্যার ছাড়া কাজ করতে পারে না</td>
+          <td>ব্যবহারকারীকে ইন্টারফেস দেয়; হার্ডওয়্যার ছাড়া একা চলতে পারে না</td>
+          <td>হার্ডওয়্যার উপাদান সক্রিয় রাখে; ওএস চালুর আগেই কাজ শুরু করে</td>
+        </tr>
+        <tr>
+          <td class="row-head">তৈরির উপাদান</td>
+          <td>ধাতব উপাদান, প্লাস্টিক, সিলিকন চিপ ও সার্কিট</td>
+          <td>উচ্চতর ভাষা (C, C++, Java, Python) লিখিত কোড</td>
+          <td>লো-লেভেল মেশিন বা অ্যাসেম্বলি/সি ভাষায় লিখিত কোড</td>
+        </tr>
+        <tr>
+          <td class="row-head">ভাইরাসের প্রভাব</td>
+          <td>কম্পিউটার ভাইরাস সরাসরি হার্ডওয়্যার ধ্বংস করে না</td>
+          <td>খুব সহজেই ভাইরাস বা ম্যালওয়্যার দ্বারা আক্রান্ত হতে পারে</td>
+          <td>সাধারণ ভাইরাসে আক্রান্ত হয় না বললেই চলে</td>
+        </tr>
+        <tr>
+          <td class="row-head">উদাহরণ</td>
+          <td>CPU, RAM, কীবোর্ড, মাউস, হার্ডডিস্ক, মনিটর</td>
+          <td>Windows, Linux, MS Word, Photoshop, Chrome</td>
+          <td>BIOS, UEFI, রাউটার ও রিমোটের ইন্টারনাল কন্ট্রোল চিপ</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="section-subtitle">৭.২ সিস্টেম সফটওয়্যার ও অ্যাপ্লিকেশন সফটওয়্যার (System Software vs Application Software)</div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 20%;">তুলনার বিষয়</th>
+          <th style="width: 40%;">সিস্টেম সফটওয়্যার (System Software)</th>
+          <th style="width: 40%;">অ্যাপ্লিকেশন সফটওয়্যার (Application Software)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="row-head">সংজ্ঞা ও উদ্দেশ্য</td>
+          <td>কম্পিউটার হার্ডওয়্যার পরিচালনা ও অন্য সফটওয়্যার চলার পরিবেশ তৈরি করা</td>
+          <td>ব্যবহারকারীর নির্দিষ্ট বাস্তব কাজ (টাইপিং, হিসাব, ডিজাইন) সম্পন্ন করা</td>
+        </tr>
+        <tr>
+          <td class="row-head">কাজের স্তর (Level)</td>
+          <td>লো-লেভেল (Low-level); সরাসরি হার্ডওয়্যারের সাথে যোগাযোগ করে</td>
+          <td>হাই-লেভেল (High-level); সিস্টেম সফটওয়্যারের ওপর ভিত্তি করে কাজ করে</td>
+        </tr>
+        <tr>
+          <td class="row-head">ব্যবহারকারীর মিথস্ক্রিয়া</td>
+          <td>ব্যাকগ্রাউন্ডে কাজ করে, ব্যবহারকারী সরাসরি খুব কম ইন্টারঅ্যাক্ট করেন</td>
+          <td>ব্যবহারকারী সরাসরি গ্রাফিক্যাল ইন্টারফেসের (GUI) মাধ্যমে এটি চালান</td>
+        </tr>
+        <tr>
+          <td class="row-head">ইনস্টলেশন ও চালনা</td>
+          <td>ওএস সেটআপের সাথেই ইনস্টল হয় এবং কম্পিউটার অন হলেই চালু হয়</td>
+          <td>প্রয়োজন অনুসারে ব্যবহারকারী আলাদাভাবে ইনস্টল করেন ও চালান</td>
+        </tr>
+        <tr>
+          <td class="row-head">নির্ভরশীলতা</td>
+          <td>স্বাধীনভাবে চলতে পারে; অ্যাপ্লিকেশন সফটওয়্যারের ওপর নির্ভর করে না</td>
+          <td>সিস্টেম সফটওয়্যার (যেমন: ওএস) ছাড়া একা চলতে পারে না</td>
+        </tr>
+        <tr>
+          <td class="row-head">অপরিহার‍্যতা</td>
+          <td>কম্পিউটারের প্রাণ; এটি ছাড়া কম্পিউটার চালানো বা বুট করাই অসম্ভব</td>
+          <td>ঐচ্ছিক; এটি না থাকলেও কম্পিউটার চলবে, শুধু নির্দিষ্ট কাজ করা যাবে না</td>
+        </tr>
+        <tr>
+          <td class="row-head">তৈরির ভাষা</td>
+          <td>তুলনামূলক জটিল এবং মূলত C, C++, অ্যাসেম্বলি ভাষায় তৈরি</td>
+          <td>তুলনামূলক কম জটিল এবং C#, Java, Python, JavaScript ইত্যাদিতে তৈরি</td>
+        </tr>
+        <tr>
+          <td class="row-head">উদাহরণ</td>
+          <td>অপারেটিং সিস্টেম (Windows, Linux, macOS), ডিভাইস ড্রাইভার, BIOS/UEFI</td>
+          <td>MS Word, MS Excel, Adobe Photoshop, Google Chrome, মিডিয়া প্লেয়ার</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="footer-note">
+    Computer Basic • প্রস্তুত ও সংকলিত: পরীক্ষার চূড়ান্ত প্রস্তুতি নোট • সর্বস্বত্ব সংরক্ষিত
+  </div>
+
+</body>
+</html>
