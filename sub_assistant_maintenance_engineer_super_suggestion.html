@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html data-theme="light" lang="bn">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1300,9 +1300,6 @@
         <div class="site-status-badge" id="siteStatusBadge">
           <span class="site-status-dot"></span> 🟢 ডেটাসেট কানেক্টেড
         </div>
-        <button class="site-theme-btn" id="siteThemeToggle" title="থিম পরিবর্তন" type="button">
-          🌓
-        </button>
         <button class="site-mobile-toggle" id="siteMobileToggle" title="মেনু" type="button">
           ☰
         </button>
@@ -1317,9 +1314,6 @@
         <a href="index.html" class="hero-top-link" style="background: rgba(255, 255, 255, 0.18);">
           🏠 মাস্টার পোর্টাল (Hub)
         </a>
-        <button id="theme-toggle-btn" class="hero-top-link" onclick="toggleTheme()" title="ডার্ক / লাইট মোড পরিবর্তন" style="cursor:pointer;border:none;">
-          <span id="theme-icon">🌙</span> <span id="theme-text">ডার্ক মোড</span>
-        </button>
         <a href="Sub-Assistant Maintenance Engineer Super Suggestion/Sub_Assistant_Maintenance_Engineer_Exam_Syllabus_Guide.pdf" target="_blank" class="hero-top-link outline">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
           সিলেবাস PDF
@@ -1477,27 +1471,13 @@
     }
 
     // Theme Toggle (Dark / Light Mode)
+    // Permanent Light Theme
     function initTheme() {
-      const savedTheme = localStorage.getItem('bpsc_theme') || 'light';
-      if (savedTheme === 'dark') {
-        document.body.classList.add('dark-mode');
-      }
-      updateThemeButton();
+      document.body.classList.remove('dark-mode');
+      localStorage.setItem('bpsc_theme', 'light');
     }
-
-    function toggleTheme() {
-      const isDark = document.body.classList.toggle('dark-mode');
-      localStorage.setItem('bpsc_theme', isDark ? 'dark' : 'light');
-      updateThemeButton();
-    }
-
-    function updateThemeButton() {
-      const isDark = document.body.classList.contains('dark-mode');
-      const icon = document.getElementById('theme-icon');
-      const text = document.getElementById('theme-text');
-      if (icon) icon.textContent = isDark ? '☀️' : '🌙';
-      if (text) text.textContent = isDark ? 'লাইট মোড' : 'ডার্ক মোড';
-    }
+    function toggleTheme() {}
+    function updateThemeButton() {}
 
     // Quick Practice Quiz
     function startQuickQuiz(count = 20) {

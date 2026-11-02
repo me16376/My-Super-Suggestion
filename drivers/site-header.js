@@ -38,31 +38,17 @@
       });
     }
 
-    // 3. Theme Toggle & Sync
-    const currentTheme = localStorage.getItem('bpsc_theme') || 'dark';
-    applyTheme(currentTheme);
-
-    const themeToggleBtn = document.getElementById('siteThemeToggle');
-    if (themeToggleBtn) {
-      themeToggleBtn.addEventListener('click', () => {
-        const activeTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-        applyTheme(activeTheme);
-        localStorage.setItem('bpsc_theme', activeTheme);
-        window.dispatchEvent(new CustomEvent('siteThemeChanged', { detail: { theme: activeTheme } }));
-      });
-    }
+    // 3. Permanent Pure Light Theme (No Dark Mode)
+    applyTheme('light');
+    localStorage.setItem('bpsc_theme', 'light');
 
     // 4. Dynamic Connection Badge Status
     updateConnectionBadge();
   }
 
   function applyTheme(theme) {
-    document.documentElement.setAttribute('data-theme', theme);
-    const themeBtn = document.getElementById('siteThemeToggle');
-    if (themeBtn) {
-      themeBtn.innerHTML = theme === 'dark' ? '☀️' : '🌙';
-      themeBtn.setAttribute('title', theme === 'dark' ? 'লাইট মোড চালু করুন' : 'ডার্ক মোড চালু করুন');
-    }
+    document.documentElement.setAttribute('data-theme', 'light');
+    localStorage.setItem('bpsc_theme', 'light');
   }
 
   function updateConnectionBadge() {

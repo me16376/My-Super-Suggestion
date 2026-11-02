@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html data-theme="light" lang="bn">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1111,9 +1111,6 @@
         <div class="site-status-badge" id="siteStatusBadge">
           <span class="site-status-dot"></span> 🟢 ডেটাসেট কানেক্টেড
         </div>
-        <button class="site-theme-btn" id="siteThemeToggle" title="থিম পরিবর্তন" type="button">
-          🌓
-        </button>
         <button class="site-mobile-toggle" id="siteMobileToggle" title="মেনু" type="button">
           ☰
         </button>
@@ -1141,9 +1138,6 @@
         <a href="DSS Data Entry Operator Super Suggestion/DSS_Data_Entry_Operator_Exam_Guide.pdf" target="_blank" class="nav-btn primary">
           📄 অফিশিয়াল সিলেবাস PDF
         </a>
-        <button class="theme-toggle" id="themeToggleBtn" onclick="toggleTheme()" title="থিম পরিবর্তন">
-          🌓
-        </button>
       </div>
     </div>
   </header>
@@ -1527,15 +1521,10 @@
 
     // Theme Management
     function initTheme() {
-      const saved = localStorage.getItem('dss_deo_theme') || 'light';
-      document.documentElement.setAttribute('data-theme', saved);
+      document.documentElement.setAttribute('data-theme', 'light');
+      localStorage.setItem('dss_deo_theme', 'light');
     }
-    function toggleTheme() {
-      const current = document.documentElement.getAttribute('data-theme') || 'light';
-      const target = current === 'dark' ? 'light' : 'dark';
-      document.documentElement.setAttribute('data-theme', target);
-      localStorage.setItem('dss_deo_theme', target);
-    }
+    function toggleTheme() {}
     initTheme();
 
     // Tab Management

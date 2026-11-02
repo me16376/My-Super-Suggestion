@@ -3,17 +3,17 @@
    ========================================================================== */
 
 :root {
-  --hdr-bg: rgba(15, 23, 42, 0.92);
-  --hdr-bg-scrolled: rgba(15, 23, 42, 0.98);
-  --hdr-border: rgba(255, 255, 255, 0.12);
-  --hdr-text: #f8fafc;
-  --hdr-text-muted: #94a3b8;
-  --hdr-accent: #38bdf8;
-  --hdr-accent-glow: rgba(56, 189, 248, 0.25);
-  --hdr-dropdown-bg: #1e293b;
-  --hdr-dropdown-border: #334155;
-  --hdr-hover: rgba(255, 255, 255, 0.08);
-  --hdr-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+  --hdr-bg: rgba(255, 255, 255, 0.94);
+  --hdr-bg-scrolled: rgba(255, 255, 255, 0.98);
+  --hdr-border: #e2e8f0;
+  --hdr-text: #0f172a;
+  --hdr-text-muted: #64748b;
+  --hdr-accent: #0284c7;
+  --hdr-accent-glow: rgba(2, 132, 199, 0.15);
+  --hdr-dropdown-bg: #ffffff;
+  --hdr-dropdown-border: #e2e8f0;
+  --hdr-hover: #f1f5f9;
+  --hdr-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.08);
 }
 
 [data-theme="light"] {
@@ -382,3 +382,5 @@
     justify-content: center;
   }
 }
+
+.site-theme-btn, .theme-toggle, #theme-toggle-btn { display: none !important; }
