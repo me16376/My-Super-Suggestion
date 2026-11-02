@@ -38,6 +38,30 @@
       });
     }
 
+    // Dropdown Toggle for click & touch interactions
+    document.querySelectorAll('.site-nav-item > button.site-nav-link').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const parent = btn.closest('.site-nav-item');
+        const dropdown = parent ? parent.querySelector('.site-dropdown') : null;
+        if (!dropdown) return;
+
+        document.querySelectorAll('.site-dropdown.show').forEach(dd => {
+          if (dd !== dropdown) dd.classList.remove('show');
+        });
+
+        dropdown.classList.toggle('show');
+      });
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.site-dropdown')) {
+        document.querySelectorAll('.site-dropdown.show').forEach(dd => {
+          dd.classList.remove('show');
+        });
+      }
+    });
+
     // 3. Permanent Pure Light Theme (No Dark Mode)
     applyTheme('light');
     localStorage.setItem('bpsc_theme', 'light');

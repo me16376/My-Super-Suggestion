@@ -110,135 +110,145 @@
       background: rgba(52, 211, 153, 0.2);
     }
 
-    .header-hero {
-      max-width: 1300px;
-      margin: 0 auto;
-      border-radius: 0 0 var(--radius-lg) var(--radius-lg);
-      background: linear-gradient(135deg, #064e3b 0%, #065f46 50%, #047857 100%);
-      color: #ffffff;
-      padding: 36px 20px 48px;
-      position: relative;
-      overflow: hidden;
-      box-shadow: 0 4px 20px rgba(6, 78, 59, 0.3);
-    }
-
-    .header-hero::before {
-      content: '';
-      position: absolute;
-      top: -50px;
-      right: -50px;
-      width: 320px;
-      height: 320px;
-      background: radial-gradient(circle, rgba(52, 211, 153, 0.2) 0%, transparent 70%);
-      border-radius: 50%;
-      pointer-events: none;
-    }
-
     .container {
       max-width: 1300px;
       margin: 0 auto;
-      padding: 0 16px;
+      padding: 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .header-hero {
+      max-width: 1300px;
+      margin: 20px auto;
+      border-radius: var(--radius-lg);
+      background: linear-gradient(180deg, #f0fdf4 0%, #ffffff 100%);
+      color: #0f172a;
+      padding: 36px 20px 32px;
+      position: relative;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05);
+      text-align: center;
+      width: 100%;
+      box-sizing: border-box;
     }
 
     .hero-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       text-align: center;
-      position: relative;
-      z-index: 1;
     }
 
-    .hero-badge {
+    .hero-nav-bar {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .hero-top-link {
       display: inline-flex;
       align-items: center;
-      gap: 6px;
-      background: rgba(255, 255, 255, 0.15);
-      border: 1px solid rgba(255, 255, 255, 0.25);
-      padding: 4px 14px;
+      gap: 8px;
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      color: #065f46;
+      text-decoration: none;
+      padding: 6px 16px;
       border-radius: 9999px;
       font-size: 13px;
       font-weight: 600;
-      margin-bottom: 14px;
-      backdrop-filter: blur(6px);
+      transition: var(--transition);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    }
+
+    .hero-top-link:hover {
+      background: #ecfdf5;
+      border-color: #10b981;
+      color: #047857;
+    }
+
+    .hero-top-link.outline {
+      background: rgba(16, 185, 129, 0.08);
+      border-color: rgba(16, 185, 129, 0.3);
+      color: #059669;
+    }
+
+    .hero-top-link.outline:hover {
+      background: #059669;
+      color: #ffffff;
     }
 
     .hero-title {
-      font-size: 32px;
-      font-weight: 700;
-      margin-bottom: 10px;
-      letter-spacing: -0.5px;
+      font-size: 30px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      line-height: 1.3;
+      color: #064e3b;
+      letter-spacing: -0.4px;
     }
 
     .hero-subtitle {
-      font-size: 15px;
-      color: #d1fae5;
+      font-size: 14.5px;
+      color: #374151;
       max-width: 820px;
-      margin: 0 auto 24px;
+      margin: 0 auto 20px auto;
+      line-height: 1.55;
     }
 
-    /* Master Mode Switcher Tabs */
     .master-tabs {
       display: flex;
       align-items: center;
       justify-content: center;
-      background: rgba(15, 23, 42, 0.78);
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
-      padding: 7px;
-      border-radius: 16px;
-      border: 1px solid rgba(255, 255, 255, 0.16);
-      gap: 10px;
-      margin: 18px auto 0 auto;
+      background: #f1f5f9;
+      padding: 6px;
+      border-radius: 14px;
+      border: 1px solid #cbd5e1;
+      gap: 8px;
+      margin: 14px auto 0 auto;
       width: 100%;
       max-width: 1080px;
-      box-shadow: 0 14px 35px -5px rgba(0, 0, 0, 0.45), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+      box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.03);
     }
 
     .master-tab-btn {
       flex: 1 1 0;
       min-width: 0;
-      padding: 14px 20px;
+      padding: 12px 18px;
       border: 1px solid transparent;
-      background: rgba(255, 255, 255, 0.03);
-      color: #cbd5e1;
+      background: transparent;
+      color: #475569;
       font-family: inherit;
       font-size: 14.5px;
       font-weight: 600;
-      border-radius: 12px;
+      border-radius: 10px;
       cursor: pointer;
       display: inline-flex;
       align-items: center;
       justify-content: center;
       gap: 10px;
-      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      transition: all 0.2s ease;
       user-select: none;
-      letter-spacing: 0.2px;
     }
 
     .master-tab-btn svg {
-      flex-shrink: 0;
-      width: 19px;
-      height: 19px;
-      transition: transform 0.25s ease, stroke 0.25s ease;
+      stroke: #64748b;
+      transition: stroke 0.2s ease;
     }
 
-    .master-tab-btn:hover:not(.active) {
-      background: rgba(255, 255, 255, 0.1);
-      color: #ffffff;
-      border-color: rgba(255, 255, 255, 0.18);
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    }
-
-    .master-tab-btn:hover:not(.active) svg {
-      transform: scale(1.12);
+    .master-tab-btn:hover {
+      color: #064e3b;
+      background: rgba(255, 255, 255, 0.7);
     }
 
     .master-tab-btn.active {
       background: #ffffff;
-      color: #065f46;
+      color: #047857;
       font-weight: 700;
-      border-color: #ffffff;
-      box-shadow: 0 8px 24px -2px rgba(0, 0, 0, 0.35), 0 2px 6px rgba(0, 0, 0, 0.2);
-      transform: translateY(-2px);
+      border-color: #cbd5e1;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     }
 
     .master-tab-btn.active svg {
@@ -261,14 +271,17 @@
 
     /* Controls Bar: Search, Filters */
     .controls-wrapper {
+      max-width: 1300px;
+      margin: 0 auto 24px auto;
       background: var(--card-bg);
       border: 1px solid var(--border-color);
       border-radius: var(--radius-md);
-      padding: 18px;
-      margin: -24px auto 24px;
+      padding: 18px 20px;
       box-shadow: var(--shadow-md);
       position: relative;
       z-index: 10;
+      width: 100%;
+      box-sizing: border-box;
     }
 
     .filter-grid {
@@ -348,14 +361,15 @@
 
     /* Live Stats Bar */
     .stats-bar {
+      max-width: 1300px;
+      margin: 0 auto 20px auto;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 20px;
       font-size: 13.5px;
       color: var(--text-muted);
-      flex-wrap: wrap;
-      gap: 12px;
+      width: 100%;
+      box-sizing: border-box;
     }
 
     .score-badge {
@@ -394,10 +408,13 @@
 
     /* Questions Cards Layout */
     .questions-container {
+      max-width: 1300px;
+      margin: 0 auto 30px auto;
       display: flex;
       flex-direction: column;
       gap: 16px;
-      margin-bottom: 30px;
+      width: 100%;
+      box-sizing: border-box;
     }
 
     .question-card {
@@ -948,8 +965,16 @@
     }
 
     body.dark-mode footer {
-      background: #0f172a;
-      border-top-color: #1e293b;
+      max-width: 1300px;
+      margin: 40px auto 0 auto;
+      text-align: center;
+      padding: 24px 20px;
+      font-size: 13px;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border-color);
+      background: var(--card-bg);
+      width: 100%;
+      box-sizing: border-box;
     }
 
     /* Print styles */
@@ -995,22 +1020,31 @@
   <header class="site-master-header">
     <div class="site-header-inner">
       <a href="index.html" class="site-brand">
-        <div class="site-brand-logo">🇧🇩</div>
+        <div class="site-brand-logo">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="#ffffff" fill-opacity="0.95"/>
+            <path d="M4 10.5V16.5C4 16.5 7.5 19.5 12 19.5C16.5 19.5 20 16.5 20 16.5V10.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M22 7V14" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="12" cy="12" r="1.5" fill="#facc15"/>
+          </svg>
+        </div>
         <div class="site-brand-text">
           <span class="site-brand-title">বিপিএসসি ও সরকারি চাকরি প্রস্তুতি</span>
-          <span class="site-brand-subtitle">সুপার সাজেশন মাস্টার প্ল্যাটফর্ম</span>
+          <span class="site-brand-subtitle">
+            <span class="badge-dot"></span> সুপার সাজেশন মাস্টার প্ল্যাটফর্ম
+          </span>
         </div>
       </a>
 
       <ul class="site-nav-menu" id="siteNavMenu">
         <li class="site-nav-item">
-          <a href="index.html" class="site-nav-link">
+          <a href="index.html" class="site-nav-link active">
             🏠 মাস্টার হাব
           </a>
         </li>
 
         <li class="site-nav-item">
-          <button class="site-nav-link active" type="button">
+          <button class="site-nav-link" type="button">
             📚 সকল সুপার সাজেশন
             <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
           </button>
@@ -1018,45 +1052,55 @@
             <div class="site-dropdown-inner">
               <div class="site-dropdown-header">
                 <span>প্রস্তুতকৃত ৫টি সুপার সাজেশন পোর্টাল</span>
-                <span style="color:#10b981;">● সক্রিয়</span>
+                <span class="site-dd-status-badge">● সক্রিয়</span>
               </div>
               <a href="sub_assistant_maintenance_engineer_super_suggestion.html" class="site-dropdown-item">
-                <span class="site-dd-icon">🏢</span>
-                <div>
-                  <div class="site-dd-title">সাব-অ্যাসিস্ট্যান্ট মেইনটেন্যান্স ইঞ্জিনিয়ার</div>
-                  <div class="site-dd-meta">বহিরাগমন ও পাসপোর্ট অধিদপ্তর • ১০ম গ্রেড</div>
+                <div class="site-dd-left">
+                  <div class="site-dd-icon-box" style="background: #eff6ff; border-color: #bfdbfe; color: #2563eb;">🏢</div>
+                  <div class="site-dd-info">
+                    <div class="site-dd-title">সাব-অ্যাসিস্ট্যান্ট মেইনটেন্যান্স ইঞ্জিনিয়ার</div>
+                    <div class="site-dd-meta">বহিরাগমন ও পাসপোর্ট অধিদপ্তর • ১০ম গ্রেড</div>
+                  </div>
                 </div>
                 <span class="site-dd-badge">৬,৯৬৫ প্রশ্ন</span>
               </a>
               <a href="junior_instructor_computer_super_suggestion.html" class="site-dropdown-item">
-                <span class="site-dd-icon">🏫</span>
-                <div>
-                  <div class="site-dd-title">জুনিয়র ইন্সট্রাক্টর [টেক/কম্পিউটার]</div>
-                  <div class="site-dd-meta">কারিগরি শিক্ষা অধিদপ্তর (DTE) • ১০ম গ্রেড</div>
+                <div class="site-dd-left">
+                  <div class="site-dd-icon-box" style="background: #f5f3ff; border-color: #ddd6fe; color: #7c3aed;">🏫</div>
+                  <div class="site-dd-info">
+                    <div class="site-dd-title">জুনিয়র ইন্সট্রাক্টর [টেক/কম্পিউটার]</div>
+                    <div class="site-dd-meta">কারিগরি শিক্ষা অধিদপ্তর (DTE) • ১০ম গ্রেড</div>
+                  </div>
                 </div>
                 <span class="site-dd-badge">১২,৯৭২ প্রশ্ন</span>
               </a>
-              <a href="petrobangla_sub_assistant_engineer_super_suggestion.html" class="site-dropdown-item active">
-                <span class="site-dd-icon">🔥</span>
-                <div>
-                  <div class="site-dd-title">উপ-সহকারী প্রকৌশলী [কম্পিউটার / আইটি]</div>
-                  <div class="site-dd-meta">পেট্রোবাংলা (তিতাস ও বাখরাবাদ) • ১০ম গ্রেড</div>
+              <a href="petrobangla_sub_assistant_engineer_super_suggestion.html" class="site-dropdown-item">
+                <div class="site-dd-left">
+                  <div class="site-dd-icon-box" style="background: #ecfdf5; border-color: #a7f3d0; color: #059669;">🔥</div>
+                  <div class="site-dd-info">
+                    <div class="site-dd-title">উপ-সহকারী প্রকৌশলী [কম্পিউটার / আইটি]</div>
+                    <div class="site-dd-meta">পেট্রোবাংলা (তিতাস ও বাখরাবাদ) • ১০ম গ্রেড</div>
+                  </div>
                 </div>
                 <span class="site-dd-badge">৭,৬৫০ প্রশ্ন</span>
               </a>
               <a href="dss_karigori_proshikhok_computer_super_suggestion.html" class="site-dropdown-item">
-                <span class="site-dd-icon">🛠️</span>
-                <div>
-                  <div class="site-dd-title">কারিগরি প্রশিক্ষক [কম্পিউটার ট্রেড]</div>
-                  <div class="site-dd-meta">সমাজসেবা অধিদপ্তর (DSS) • ১০ম গ্রেড</div>
+                <div class="site-dd-left">
+                  <div class="site-dd-icon-box" style="background: #f0f9ff; border-color: #bae6fd; color: #0284c7;">🛠️</div>
+                  <div class="site-dd-info">
+                    <div class="site-dd-title">কারিগরি প্রশিক্ষক [কম্পিউটার ট্রেড]</div>
+                    <div class="site-dd-meta">সমাজসেবা অধিদপ্তর (DSS) • ১০ম গ্রেড</div>
+                  </div>
                 </div>
                 <span class="site-dd-badge">১৬৫ প্রশ্ন</span>
               </a>
               <a href="dss_data_entry_operator_super_suggestion.html" class="site-dropdown-item">
-                <span class="site-dd-icon">⌨️</span>
-                <div>
-                  <div class="site-dd-title">ডাটা এন্ট্রি অপারেটর</div>
-                  <div class="site-dd-meta">সমাজসেবা অধিদপ্তর (DSS) • ১৬তম গ্রেড</div>
+                <div class="site-dd-left">
+                  <div class="site-dd-icon-box" style="background: #eef2ff; border-color: #c7d2fe; color: #4f46e5;">⌨️</div>
+                  <div class="site-dd-info">
+                    <div class="site-dd-title">ডাটা এন্ট্রি অপারেটর</div>
+                    <div class="site-dd-meta">সমাজসেবা অধিদপ্তর (DSS) • ১৬তম গ্রেড</div>
+                  </div>
                 </div>
                 <span class="site-dd-badge">৮১ প্রশ্ন</span>
               </a>
@@ -1073,68 +1117,101 @@
             <div class="site-dropdown-inner">
               <div class="site-dropdown-header">
                 <span>অফিশিয়াল সিলেবাস গাইড PDF</span>
+                <span class="site-dd-status-badge">সরাসরি ডাউনলোড</span>
               </div>
               <a href="Sub-Assistant Maintenance Engineer Super Suggestion/Sub_Assistant_Maintenance_Engineer_Exam_Syllabus_Guide.pdf" target="_blank" class="site-dropdown-item">
-                <span class="site-dd-icon">📄</span>
-                <div>
-                  <div class="site-dd-title">মেইনটেন্যান্স ইঞ্জিনিয়ার সিলেবাস PDF</div>
-                  <div class="site-dd-meta">১০ম গ্রেড পূর্ণাঙ্গ লিখিত ও প্রিলি সিলেবাস</div>
+                <div class="site-dd-left">
+                  <div class="site-dd-icon-box" style="background: #fef2f2; border-color: #fecaca; color: #dc2626;">📄</div>
+                  <div class="site-dd-info">
+                    <div class="site-dd-title">মেইনটেন্যান্স ইঞ্জিনিয়ার সিলেবাস PDF</div>
+                    <div class="site-dd-meta">১০ম গ্রেড পূর্ণাঙ্গ লিখিত ও প্রিলি সিলেবাস</div>
+                  </div>
                 </div>
+                <span class="site-dd-badge" style="background: #fef2f2; color: #dc2626; border-color: #fecaca;">PDF ↗</span>
               </a>
               <a href="Junior Instructor Tech Computer Super Suggestion/Junior_Instructor_Computer_Exam_Syllabus_Guide.pdf" target="_blank" class="site-dropdown-item">
-                <span class="site-dd-icon">📄</span>
-                <div>
-                  <div class="site-dd-title">জুনিয়র ইন্সট্রাক্টর সিলেবাস PDF</div>
-                  <div class="site-dd-meta">২০০ নম্বরের বিস্তারিত লিখিত গাইড</div>
+                <div class="site-dd-left">
+                  <div class="site-dd-icon-box" style="background: #fef2f2; border-color: #fecaca; color: #dc2626;">📄</div>
+                  <div class="site-dd-info">
+                    <div class="site-dd-title">জুনিয়র ইন্সট্রাক্টর সিলেবাস PDF</div>
+                    <div class="site-dd-meta">২০০ নম্বরের বিস্তারিত লিখিত গাইড</div>
+                  </div>
                 </div>
+                <span class="site-dd-badge" style="background: #fef2f2; color: #dc2626; border-color: #fecaca;">PDF ↗</span>
               </a>
               <a href="Petrobangla Sub-Assistant Engineer Computer IT/Petrobangla_Sub_Assistant_Engineer_Computer_IT_Exam_Guide.pdf" target="_blank" class="site-dropdown-item">
-                <span class="site-dd-icon">📄</span>
-                <div>
-                  <div class="site-dd-title">পেট্রোবাংলা বুয়েট প্যাটার্ন গাইড PDF</div>
-                  <div class="site-dd-meta">৬০ MCQ + ৪০ লিখিত সিলেবাস</div>
+                <div class="site-dd-left">
+                  <div class="site-dd-icon-box" style="background: #fef2f2; border-color: #fecaca; color: #dc2626;">📄</div>
+                  <div class="site-dd-info">
+                    <div class="site-dd-title">পেট্রোবাংলা বুয়েট প্যাটার্ন গাইড PDF</div>
+                    <div class="site-dd-meta">৬০ MCQ + ৪০ লিখিত সিলেবাস</div>
+                  </div>
                 </div>
+                <span class="site-dd-badge" style="background: #fef2f2; color: #dc2626; border-color: #fecaca;">PDF ↗</span>
               </a>
               <a href="DSS Karigori Proshikhok Computer Super Suggestion/DSS_Karigori_Proshikhok_Computer_Exam_Guide.pdf" target="_blank" class="site-dropdown-item">
-                <span class="site-dd-icon">📄</span>
-                <div>
-                  <div class="site-dd-title">সমাজসেবা কারিগরি প্রশিক্ষক গাইড PDF</div>
-                  <div class="site-dd-meta">কম্পিউটার ট্রেড পূর্ণাঙ্গ সিলেবাস</div>
+                <div class="site-dd-left">
+                  <div class="site-dd-icon-box" style="background: #fef2f2; border-color: #fecaca; color: #dc2626;">📄</div>
+                  <div class="site-dd-info">
+                    <div class="site-dd-title">সমাজসেবা কারিগরি প্রশিক্ষক গাইড PDF</div>
+                    <div class="site-dd-meta">কম্পিউটার ট্রেড পূর্ণাঙ্গ সিলেবাস</div>
+                  </div>
                 </div>
+                <span class="site-dd-badge" style="background: #fef2f2; color: #dc2626; border-color: #fecaca;">PDF ↗</span>
               </a>
               <a href="DSS Data Entry Operator Super Suggestion/DSS_Data_Entry_Operator_Exam_Guide.pdf" target="_blank" class="site-dropdown-item">
-                <span class="site-dd-icon">📄</span>
-                <div>
-                  <div class="site-dd-title">ডাটা এন্ট্রি অপারেটর গাইড PDF</div>
-                  <div class="site-dd-meta">৭০ ওএমআর + ২০ wpm টাইপিং টেস্ট</div>
+                <div class="site-dd-left">
+                  <div class="site-dd-icon-box" style="background: #fef2f2; border-color: #fecaca; color: #dc2626;">📄</div>
+                  <div class="site-dd-info">
+                    <div class="site-dd-title">ডাটা এন্ট্রি অপারেটর গাইড PDF</div>
+                    <div class="site-dd-meta">৭০ ওএমআর + ২০ wpm টাইপিং টেস্ট</div>
+                  </div>
                 </div>
+                <span class="site-dd-badge" style="background: #fef2f2; color: #dc2626; border-color: #fecaca;">PDF ↗</span>
               </a>
               <div class="site-dropdown-header" style="margin-top: 6px;">
                 <span>মূল অফিশিয়াল সার্কুলারসমূহ</span>
+                <span class="site-dd-status-badge" style="background: #fffbeb; color: #b45309; border-color: #fde68a;">বিজ্ঞপ্তি</span>
               </div>
               <a href="BPSC ad_202506.pdf" target="_blank" class="site-dropdown-item">
-                <span class="site-dd-icon">📜</span>
-                <div>
-                  <div class="site-dd-title">বিপিএসসি নন-ক্যাডার সার্কুলার ২০২৫-০৬</div>
+                <div class="site-dd-left">
+                  <div class="site-dd-icon-box" style="background: #fffbeb; border-color: #fde68a; color: #d97706;">📜</div>
+                  <div class="site-dd-info">
+                    <div class="site-dd-title">বিপিএসসি নন-ক্যাডার সার্কুলার ২০২৫-০৬</div>
+                    <div class="site-dd-meta">বিজ্ঞপ্তি ক্রমিক ৮৯ ও ইউনিট ০৬</div>
+                  </div>
                 </div>
+                <span class="site-dd-badge" style="background: #fffbeb; color: #d97706; border-color: #fde68a;">সার্কুলার ↗</span>
               </a>
               <a href="petrobangla-1790774270-5822.pdf" target="_blank" class="site-dropdown-item">
-                <span class="site-dd-icon">📜</span>
-                <div>
-                  <div class="site-dd-title">পেট্রোবাংলা নিয়োগ বিজ্ঞপ্তি ২০২৬</div>
+                <div class="site-dd-left">
+                  <div class="site-dd-icon-box" style="background: #fffbeb; border-color: #fde68a; color: #d97706;">📜</div>
+                  <div class="site-dd-info">
+                    <div class="site-dd-title">পেট্রোবাংলা নিয়োগ বিজ্ঞপ্তি ২০২৬</div>
+                    <div class="site-dd-meta">তিতাস ও বাখরাবাদ গ্যাস ফিল্ডস পদসমূহ</div>
+                  </div>
                 </div>
+                <span class="site-dd-badge" style="background: #fffbeb; color: #d97706; border-color: #fde68a;">সার্কুলার ↗</span>
               </a>
               <a href="advertisement-1780374169755.pdf" target="_blank" class="site-dropdown-item">
-                <span class="site-dd-icon">📜</span>
-                <div>
-                  <div class="site-dd-title">সমাজসেবা অধিদপ্তর নিয়োগ বিজ্ঞপ্তি ২০২৬</div>
+                <div class="site-dd-left">
+                  <div class="site-dd-icon-box" style="background: #fffbeb; border-color: #fde68a; color: #d97706;">📜</div>
+                  <div class="site-dd-info">
+                    <div class="site-dd-title">সমাজসেবা অধিদপ্তর নিয়োগ বিজ্ঞপ্তি ২০২৬</div>
+                    <div class="site-dd-meta">বিজ্ঞপ্তি ক্রমিক ৪৩ ও ৯৮ (৩১ পদ)</div>
+                  </div>
                 </div>
+                <span class="site-dd-badge" style="background: #fffbeb; color: #d97706; border-color: #fde68a;">সার্কুলার ↗</span>
               </a>
               <a href="Sub_Registrar_Circular.pdf" target="_blank" class="site-dropdown-item">
-                <span class="site-dd-icon">📜</span>
-                <div>
-                  <div class="site-dd-title">সাব-রেজিস্টার সার্কুলার (আইন মন্ত্রণালয়)</div>
+                <div class="site-dd-left">
+                  <div class="site-dd-icon-box" style="background: #fffbeb; border-color: #fde68a; color: #d97706;">📜</div>
+                  <div class="site-dd-info">
+                    <div class="site-dd-title">সাব-রেজিস্টার সার্কুলার (আইন মন্ত্রণালয়)</div>
+                    <div class="site-dd-meta">নিবন্ধন অধিদপ্তর ও বিচার বিভাগ</div>
+                  </div>
                 </div>
+                <span class="site-dd-badge" style="background: #fffbeb; color: #d97706; border-color: #fde68a;">সার্কুলার ↗</span>
               </a>
             </div>
           </div>
@@ -1149,7 +1226,7 @@
 
       <div class="site-header-actions">
         <div class="site-status-badge" id="siteStatusBadge">
-          <span class="site-status-dot"></span> 🟢 ডেটাসেট কানেক্টেড
+          <span class="site-status-dot"></span> 🟢 ২৭,৮৩৩ প্রশ্ন কানেক্টেড
         </div>
         <button class="site-mobile-toggle" id="siteMobileToggle" title="মেনু" type="button">
           ☰
@@ -1160,7 +1237,7 @@
 
   <!-- Header Section -->
   <header class="header-hero">
-    <div class="container hero-content">
+    <div class="hero-content">
       <div class="hero-nav-bar">
         <a href="index.html" class="hero-top-link" style="background: rgba(255, 255, 255, 0.18);">
           🏠 মাস্টার পোর্টাল (Hub)
@@ -1268,11 +1345,9 @@
   </main>
 
   <footer>
-    <div class="container">
       <p><strong>পেট্রোবাংলা (বাংলাদেশ তেল, গ্যাস ও খনিজ সম্পদ কর্পোরেশন) — নিয়োগ প্রস্তুতি সিস্টেম</strong></p>
       <p style="margin-top: 4px; color: #94a3b8;">পদ: উপ-সহকারী প্রকৌশলী (কম্পিউটার/আইটি) | তিতাস গ্যাস (০৬) ও বাখরাবাদ গ্যাস (০২) | বুয়েট (BUET) প্যাটার্ন</p>
-    </div>
-  </footer>
+    </footer>
 
   <script>
     /* ==========================================================
