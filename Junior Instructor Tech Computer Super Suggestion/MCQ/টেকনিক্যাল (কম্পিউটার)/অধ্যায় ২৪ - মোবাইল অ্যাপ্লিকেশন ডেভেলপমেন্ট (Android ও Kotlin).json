@@ -1,0 +1,4402 @@
+[
+  {
+    "id": 4201,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড অপারেটিং সিস্টেমের মূল সফটওয়্যার আর্কিটেকচারের সবচেয়ে নিচের ভিত্তি স্তর কোনটি?",
+    "options": [
+      "A) অ্যান্ড্রয়েড রানটাইম (ART)",
+      "B) লিনাক্স কার্নেল (Linux Kernel)",
+      "C) হার্ডওয়্যার অ্যাবস্ট্রাকশন লেয়ার (HAL)",
+      "D) অ্যাপ্লিকেশন ফ্রেমওয়ার্ক"
+    ],
+    "answer": 1,
+    "explanation": "লিনাক্স কার্নেল হলো অ্যান্ড্রয়েডের সর্বনিম্ন ভিত্তি স্তর যা মেমরি, প্রসেস, নেটওয়ার্ক ও ডিভাইস ড্রাইভার পরিচালনা করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4202,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড ওএসে ক্যামেরা, অডিও বা ব্লুটুথ চিপ প্রস্তুতকারকদের জন্য স্ট্যান্ডার্ড ইন্টারফেস সংজ্ঞায়িতকারী স্তর কোনটি?",
+    "options": [
+      "A) Linux Kernel",
+      "B) System Apps",
+      "C) HAL (Hardware Abstraction Layer)",
+      "D) Application Framework"
+    ],
+    "answer": 2,
+    "explanation": "HAL উচ্চ স্তরের জাভা/কোটলিন এপিআই এবং নিচের ভৌত হার্ডওয়্যারের মধ্যে একটি আদর্শ মধ্যস্থতাকারী লেয়ার হিসেবে কাজ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4203,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড ৫.০ (ললিপপ) সংস্করণ থেকে ডালভিক ভার্চুয়াল মেশিনের (DVM) বদলে ডিফল্ট রানটাইম ইঞ্জিন হিসেবে কোনটি প্রবর্তিত হয়?",
+    "options": [
+      "A) V8 Engine",
+      "B) JVM (Java Virtual Machine)",
+      "C) CLR",
+      "D) ART (Android Runtime)"
+    ],
+    "answer": 3,
+    "explanation": "ART রানটাইমে AOT (Ahead-of-Time) কম্পাইলেশন ব্যবহার করে অ্যাপ ইনস্টলের সময়ই বাইটকোডকে সরাসরি নেটিভ মেশিন কোডে রূপান্তর করে গতি বাড়ায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4204,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ডালভিকের JIT (Just-In-Time) এবং আধুনিক ART-এর AOT (Ahead-Of-Time) কম্পাইলেশনের মূল পার্থক্য কোনটি?",
+    "options": [
+      "A) DVM অ্যাপ চলার সময় (Runtime) প্রতিবার কোড কম্পাইল করত; আর ART অ্যাপ ইনস্টল করার সময়ই একবার মেশিন কোডে রূপান্তর করে রাখে",
+      "B) DVM মেশিন কোড বানায় না",
+      "C) উভয় ইঞ্জিন হুবহু এক",
+      "D) ART কেবল C++ চালায়"
+    ],
+    "answer": 0,
+    "explanation": "ART-এর AOT কম্পাইলেশনের কারণে অ্যাপ রানটাইমে দ্রুত লঞ্চ হয়, ফ্রেম ড্রপ কমে এবং ব্যাটারি খরচ কম হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4205,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপ্লিকেশন কম্পাইল করার পর জাভা বাইটকোড (.class) রূপান্তরিত হয়ে কোন বাইটকোড ফাইলে পরিণত হয়?",
+    "options": [
+      "A) .dex ফাইল (Dalvik Executable)",
+      "B) .dll ফাইল",
+      "C) .exe ফাইল",
+      "D) .jar ফাইল"
+    ],
+    "answer": 0,
+    "explanation": "D8/R8 কম্পাইলার সমস্ত `.class` ফাইলকে অপ্টিমাইজ ও কম্প্রেস করে মোবাইল বান্ধব একক `.dex` ফাইলে রূপান্তর করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4206,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড সিস্টেমে নোটিফিকেশন প্রদর্শন ও স্ট্যাটাস বার পরিচালনা করার সিস্টেম সার্ভিসের নাম কী?",
+    "options": [
+      "A) WindowManager",
+      "B) PackageManager",
+      "C) NotificationManager",
+      "D) ActivityManager"
+    ],
+    "answer": 2,
+    "explanation": "NotificationManager অ্যাপ্লিকেশন ফ্রেমওয়ার্কের একটি কোর সার্ভিস যা অ্যাপ থেকে আসা পুশ বা লোকাল নোটিফিকেশন হ্যান্ডল করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4207,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "একটি অ্যান্ড্রয়েড অ্যাপের প্যাকেজ নেম, পারমিশন, অ্যাক্টিভিটি ও সার্ভিসসমূহের তালিকা সম্বলিত মূল রুট ফাইলটির নাম কী?",
+    "options": [
+      "A) settings.gradle",
+      "B) AndroidManifest.xml",
+      "C) MainActivity.kt",
+      "D) build.gradle"
+    ],
+    "answer": 1,
+    "explanation": "AndroidManifest.xml হলো অ্যাপের কেন্দ্রীয় কনফিগারেশন ফাইল যা ওএস-কে অ্যাপের সকল উপাদান ও পারমিশন সম্পর্কে জানায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4208,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপে ইন্টারনেট ব্যবহারের অনুমতি নিতে ম্যানিফেস্টে কোন পারমিশন ট্যাগটি লিখতে হয়?",
+    "options": [
+      "A) <allow-internet />",
+      "B) <uses-network android:name=\"INTERNET\" />",
+      "C) <permission name=\"INTERNET\" />",
+      "D) <uses-permission android:name=\"android.permission.INTERNET\" />"
+    ],
+    "answer": 3,
+    "explanation": "`android.permission.INTERNET` হলো নেটওয়ার্ক সকেট খোলার প্রমিত নরমাল পারমিশন যা ম্যানিফেস্টে ঘোষণা করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4209,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড প্রজেক্টে ডিপেনডেন্সি ও বিল্ড কনফিগারেশন পরিচালনার আধুনিক অটোমেশন টুল কোনটি?",
+    "options": [
+      "A) Ant",
+      "B) Gradle বিল্ড সিস্টেম (build.gradle)",
+      "C) Maven",
+      "D) Make"
+    ],
+    "answer": 1,
+    "explanation": "Android Studio ডিফল্ট বিল্ড সিস্টেম হিসেবে Gradle ব্যবহার করে যা লাইব্রেরি ডাউনলোড ও এপিকে বিল্ড স্বয়ংক্রিয় করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4210,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "Gradle ফাইলে 'minSdkVersion' দ্বারা কী বোঝানো হয়?",
+    "options": [
+      "A) টার্গেট এপিআই লেভেল",
+      "B) জাভার ভার্সন",
+      "C) অ্যাপ্লিকেশনটি চলার জন্য ডিভাইসে প্রয়োজনীয় অ্যান্ড্রয়েড ওএসের সর্বনিম্ন এপিআই লেভেল",
+      "D) সর্বোচ্চ এপিআই লেভেল"
+    ],
+    "answer": 2,
+    "explanation": "ডিভাইসের ওএস ভার্সন minSdkVersion-এর নিচে হলে গুগল প্লে স্টোর থেকে বা প্যাকেজ ম্যানেজার দিয়ে অ্যাপটি ইনস্টল করা যাবে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4211,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কম্পিউটার থেকে সংযুক্ত অ্যান্ড্রয়েড ফোনে ইউএসবি ডিবাগিং, কমান্ড চালনা ও ফাইল স্থানান্তরের কমান্ড-লাইন টুলের নাম কী?",
+    "options": [
+      "A) ADB (Android Debug Bridge)",
+      "B) APK",
+      "C) AVD",
+      "D) NDK"
+    ],
+    "answer": 0,
+    "explanation": "ADB ক্লায়েন্ট-সার্ভার আর্কিটেকচারে কাজ করে যা ডেভেলপারকে পিসি টার্মিনাল দিয়ে সরাসরি রিয়েল বা ভার্চুয়াল ফোন নিয়ন্ত্রণ করতে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4212,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড স্টুডিওতে কম্পিউটারের পর্দায় টেস্ট করার জন্য যে কৃত্রিম সফটওয়্যার ফোন তৈরি করা হয় তাকে কী বলে?",
+    "options": [
+      "A) JVM",
+      "B) ADB",
+      "C) SDK",
+      "D) AVD (Android Virtual Device / Emulator)"
+    ],
+    "answer": 3,
+    "explanation": "AVD হলো কিমু (QEMU) ভিত্তিক একটি ভার্চুয়াল মোবাইল এমুলেটর যা বিভিন্ন স্ক্রিন সাইজ ও ওএস ভার্সন টেস্টে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4213,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েডে রানটাইমে লগ মেসেজ (Debugging Log) দেখার জন্য অ্যান্ড্রয়েড স্টুডিওর উইন্ডোটিকে কী বলে?",
+    "options": [
+      "A) Logcat (Log.d, Log.e, Log.i, Log.w)",
+      "B) Profiler",
+      "C) Terminal",
+      "D) Git Console"
+    ],
+    "answer": 0,
+    "explanation": "Logcat সিস্টেমে ঘটা সমস্ত ত্রুটি, এক্সেপশন ও কাস্টম ডিবাগ লগ রিয়েল-টাইমে প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4214,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "২০১৭ সালে গুগল কোন প্রোগ্রামিং ভাষাকে অ্যান্ড্রয়েড অ্যাপ ডেভেলপমেন্টের অফিসিয়াল ফার্স্ট-ক্লাস ভাষা হিসেবে ঘোষণা করে?",
+    "options": [
+      "A) জাভাস্ক্রিপ্ট",
+      "B) পাইথন",
+      "C) সি শার্প",
+      "D) কোটলিন (Kotlin - JetBrains উদ্ভাবিত)"
+    ],
+    "answer": 3,
+    "explanation": "Kotlin আধুনিক, সংক্ষিপ্ত, ১০০% জাভা ইন্টারঅপারেবল এবং নাল-সেফ ভাষা হওয়ায় গুগল এটিকে শীর্ষ প্রাধান্য দিয়েছে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4215,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোটলিনে অপরিবর্তনীয় (Immutable / Read-only) ভ্যারিয়েবল ডিক্লেয়ার করতে কোন কীওয়ার্ডটি ব্যবহৃত হয়?",
+    "options": [
+      "A) var",
+      "B) val (Value - একবার মান দিলে আর পরিবর্তন করা যায় না)",
+      "C) const",
+      "D) let"
+    ],
+    "answer": 1,
+    "explanation": "`val` হলো জাভার `final` ভ্যারিয়েবলের সমতুল্য যার মান পরবর্তীতে রি-অ্যাসাইন করা যায় না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4216,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোটলিনে পরিবর্তনযোগ্য (Mutable) ভ্যারিয়েবল ডিক্লেয়ার করার কীওয়ার্ড কোনটি?",
+    "options": [
+      "A) val",
+      "B) static",
+      "C) var (Variable)",
+      "D) dim"
+    ],
+    "answer": 2,
+    "explanation": "`var` দিয়ে ঘোষিত ভ্যারিয়েবলের মান প্রোগ্রামে যেকোনো সময় নতুন মান দিয়ে পরিবর্তন করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4217,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোটলিন প্রোগ্রামিংয়ে 'NullPointerException' (The Billion Dollar Mistake) সম্পূর্ণ নির্মূল করতে ব্যবহৃত ফিচারকে কী বলে?",
+    "options": [
+      "A) এক্সেপশন হ্যান্ডলিং",
+      "B) নাল-সেফটি (Null Safety)",
+      "C) গার্বেজ কালেকশন",
+      "D) টাইপ কাস্টিং"
+    ],
+    "answer": 1,
+    "explanation": "কোটলিনের টাইপ সিস্টেম নালেবল এবং নন-নালেবল রেফারেন্সকে আলাদা করে কম্পাইল টাইমে নাল সংক্রান্ত ক্র্যাশ ঠেকায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4218,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোটলিনে একটি ভ্যারিয়েবল নাল (Null) ধারণ করতে পারবে তা কম্পাইলারকে বোঝাতে ডেটা টাইপের শেষে কোন প্রতীকটি দিতে হয়?",
+    "options": [
+      "A) স্টার (*)",
+      "B) বিস্ময়সূচক চিহ্ন (!)",
+      "C) হ্যাশ (#)",
+      "D) প্রশ্নবোধক চিহ্ন (যেমন String?)"
+    ],
+    "answer": 3,
+    "explanation": "`String` কখনো নাল হতে পারে না; কিন্তু `String?` নাল মান গ্রহণ করতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4219,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোটলিনে নালেবল ভ্যারিয়েবলের প্রোপার্টি নিরাপদে অ্যাক্সেস করতে ব্যবহৃত 'সেফ-কল অপারেটর' (Safe Call Operator) কোনটি?",
+    "options": [
+      "A) !!",
+      "B) ?:",
+      "C) ?.",
+      "D) ::"
+    ],
+    "answer": 2,
+    "explanation": "`b?.length` এক্সপ্রেশনে b যদি নাল হয় তবে কোনো ক্র্যাশ না করে এক্সপ্রেশনটি সরাসরি `null` রিটার্ন করবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4220,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোটলিনে কোনো ভ্যালু নাল হলে একটি বিকল্প ডিফল্ট মান দেওয়ার জন্য ব্যবহৃত 'এলভিস অপারেটর' (Elvis Operator) কোনটি?",
+    "options": [
+      "A) ?: (যেমন val len = str?.length ?: 0)",
+      "B) ->",
+      "C) !!",
+      "D) ?."
+    ],
+    "answer": 0,
+    "explanation": "রক গায়ক এলভিস প্রিসলির চুলের স্টাইলের সাথে মিল থাকায় `?:` চিহ্নকে Elvis Operator বলা হয় যা নাল হলে ডানপাশের ডিফল্ট মান দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4221,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোটলিনে ডেভেলপার ইচ্ছাকৃতভাবে কোনো নালেবল ভেরিয়েবলকে জোরপূর্বক নন-নাল ঘোষণা করে নাল থাকলে ক্র্যাশ করার 'নট-নাল অ্যাসারশন' অপারেটর কোনটি?",
+    "options": [
+      "A) !.",
+      "B) !! (Double Exclamation)",
+      "C) ?:",
+      "D) ??"
+    ],
+    "answer": 1,
+    "explanation": "`str!!.length` ব্যবহার করলে str নাল হলে তাৎক্ষণিক NullPointerException ছুঁড়ে মারবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4222,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "জাভার সনাতন 'switch-case' স্টেটমেন্টের বিকল্প হিসেবে কোটলিনের আধুনিক ও শক্তিশালী এক্সপ্রেশন কোনটি?",
+    "options": [
+      "A) when এক্সপ্রেশন",
+      "B) branch",
+      "C) choose এক্সপ্রেশন",
+      "D) select"
+    ],
+    "answer": 0,
+    "explanation": "`when` এক্সপ্রেশনে টাইপ চেক, রেঞ্জ ও শর্ত সরাসরি পরীক্ষা করা যায় এবং এটি মান রিটার্ন করতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4223,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোটলিন স্ট্রিংয়ের ভেতরে সরাসরি ভ্যারিয়েবল ও এক্সপ্রেশনের মান প্রিন্ট করার 'স্ট্রিং টেমপ্লেট' সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) &variable",
+      "B) #{variable}",
+      "C) %s এবং %d",
+      "D) $variable এবং ${expression} (যেমন \"Age: ${user.age}\")"
+    ],
+    "answer": 3,
+    "explanation": "String Template স্ট্রিং কনক্যাটেনেশনের প্লাস (+) চিহ্ন বাদ দিয়ে কোডকে অত্যন্ত পরিচ্ছন্ন করে তোলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4224,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোটলিনে ১ থেকে ১০ পর্যন্ত লুপ চালানোর সঠিক রেঞ্জ সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) for (i = 1 to 10)",
+      "B) for (i in 1 until 10)",
+      "C) for (i in 1..10)",
+      "D) for (1..10)"
+    ],
+    "answer": 2,
+    "explanation": "`1..10` রেঞ্জে ১ এবং ১০ উভয় সংখ্যাই অন্তর্ভুক্ত (inclusive); আর `until` দিলে শেষ সংখ্যা বাদ থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4225,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোটলিনে কেবল ডেটা ধারণ করার জন্য এবং স্বয়ংক্রিয়ভাবে equals(), hashCode(), toString() ও copy() পাওয়ার জন্য কোন ক্লাস ব্যবহৃত হয়?",
+    "options": [
+      "A) struct",
+      "B) model class",
+      "C) pojo class",
+      "D) data class (যেমন data class User(val id: Int, val name: String))"
+    ],
+    "answer": 3,
+    "explanation": "`data class` জাভার শত শত লাইনের বয়লারপ্লেট গেটার, সেটার ও মেথড লেখার প্রয়োজনীয়তা দূর করে মাত্র এক লাইনে মডেল বানায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4226,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোটলিনে বাই ডিফল্ট সকল ক্লাস কোন ধরনের থাকে যার কারণে সরাসরি অন্য ক্লাসে ইনহেরিট করা যায় না?",
+    "options": [
+      "A) final (ইনহেরিট করতে হলে ক্লাসের আগে 'open' কিওয়ার্ড দিতে হয়)",
+      "B) abstract",
+      "C) static",
+      "D) public"
+    ],
+    "answer": 0,
+    "explanation": "কোটলিন বাই ডিফল্ট সব ক্লাসকে `final` রাখে; কোনো ক্লাসকে প্যারেন্ট বানাতে হলে স্পষ্টভাবে `open class` লিখতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4227,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোটলিনে কোনো ক্লাসের সোর্স কোড বা ইনহেরিটেন্স ছাড়াই সেই ক্লাসে সম্পূর্ণ নতুন কোনো মেথড যুক্ত করার ক্ষমতাকে কী বলে?",
+    "options": [
+      "A) ইনলাইন ফাংশন",
+      "B) ল্যাম্বডা মেথড",
+      "C) এক্সটেনশন ফাংশন (Extension Function)",
+      "D) অপারেটর ওভারলোডিং"
+    ],
+    "answer": 2,
+    "explanation": "যেমন `fun String.firstLetter(): Char = this[0]` লিখে যেকোনো স্ট্রিংয়ে সরাসরি মেথডটির মতো কল করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4228,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোটলিনে কোনো ক্লাসের অবজেক্ট তৈরি না করেই সরাসরি ক্লাসের নামে কল করার মতো স্ট্যাটিক মেম্বার তৈরি করতে ক্লাসের ভেতরে কী ব্যবহার করা হয়?",
+    "options": [
+      "A) static block",
+      "B) companion object",
+      "C) public static",
+      "D) global object"
+    ],
+    "answer": 1,
+    "explanation": "কোটলিনে কোনো `static` কীওয়ার্ড নেই; স্ট্যাটিক মেথড বা কনস্ট্যান্টের জন্য `companion object` ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4229,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোটলিনে একক ইনস্ট্যান্স বিশিষ্ট ডিজাইন প্যাটার্ন 'সিঙ্গলটন' (Singleton) তৈরি করতে সরাসরি কোন কীওয়ার্ড ব্যবহৃত হয়?",
+    "options": [
+      "A) object (যেমন object NetworkClient { ... })",
+      "B) unique",
+      "C) static class",
+      "D) singleton class"
+    ],
+    "answer": 0,
+    "explanation": "`object` কীওয়ার্ড দিয়ে তৈরি অবজেক্ট থ্রেড-সেফ সিঙ্গলটন হিসেবে মেমরিতে মাত্র একটি ইনস্ট্যান্স বজায় রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4230,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোটলিনে কোনো ফাংশন যদি অন্য কোনো ফাংশনকে প্যারামিটার হিসেবে গ্রহণ করে বা রিটার্ন করে তবে তাকে কী বলে?",
+    "options": [
+      "A) ল্যাম্বডা ফাংশন",
+      "B) পিওর ফাংশন",
+      "C) হায়ার-অর্ডার ফাংশন (Higher-Order Function)",
+      "D) রিকার্সিভ ফাংশন"
+    ],
+    "answer": 2,
+    "explanation": "Higher-Order Function ফাংশনাল প্রোগ্রামিংয়ের শক্তিশালী স্তম্ভ যা ল্যাম্বডার মাধ্যমে কোড পাস করার সুযোগ দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4231,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোটলিনে কোনো নামবিহীন ক্ষুদ্র কোড ব্লককে সরাসরি ভ্যারিয়েবলে রাখা বা ফাংশনে পাস করাকে কী বলে?",
+    "options": [
+      "A) পয়েন্টার",
+      "B) ল্যাম্বডা এক্সপ্রেশন (Lambda Expression, যেমন { a, b -> a + b })",
+      "C) ম্যাক্রো",
+      "D) অ্যানোনিমাস অবজেক্ট"
+    ],
+    "answer": 1,
+    "explanation": "কোটলিনে সেকেন্ড বন্ধনী `{ ... }`-এর ভেতরে ল্যাম্বডা লেখা হয় যা ইভেন্ট লিসেনারে ব্যাপকভাবে ব্যবহৃত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4232,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোটলিন ল্যাম্বডায় যদি একটিমাত্র প্যারামিটার থাকে তবে তা স্পষ্টভাবে না লিখে কোন ডিফল্ট চলক দিয়ে অ্যাক্সেস করা যায়?",
+    "options": [
+      "A) this",
+      "B) item",
+      "C) self",
+      "D) it (যেমন list.filter { it > 5 })"
+    ],
+    "answer": 3,
+    "explanation": "একক প্যারামিটারের ক্ষেত্রে প্যারামিটারের নাম ঘোষণা না করে অন্তর্নির্মিত নাম `it` দিয়ে সহজে কোড লেখা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4233,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোটলিনে 'lateinit' কীওয়ার্ডের মূল ব্যবহার কোনটি?",
+    "options": [
+      "A) ভ্যারিয়েবলকে নাল করে রাখা",
+      "B) ভ্যারিয়েবল ধ্বংস করা",
+      "C) র‍্যামের গতি বাড়ানো",
+      "D) নন-নালেবল var প্রোপার্টির মান অবজেক্ট তৈরির সময় না দিয়ে পরবর্তীতে (যেমন onCreate মেথডে) ইনিশিয়ালাইজ করার প্রতিশ্রুতি দেওয়া"
+    ],
+    "answer": 3,
+    "explanation": "`lateinit var` নন-প্রিমিটিভ টাইপে নাল চেকিংয়ের ঝামেলা ছাড়াই পরে ইনিশিয়ালাইজ করার অনুমতি দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4234,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোটলিনে প্রথমবার অ্যাক্সেস করার আগ পর্যন্ত কোনো ভারী অবজেক্ট ইনিশিয়ালাইজ না করে অলসভাবে তৈরি করার ফাংশন কোনটি?",
+    "options": [
+      "A) lateinit",
+      "B) by lazy { ... } (Lazy Initialization)",
+      "C) delayed",
+      "D) suspend"
+    ],
+    "answer": 1,
+    "explanation": "`val prop by lazy` অবজেক্টটি যখন প্রথমবার কল হবে তখনই কেবল কোডটি রান করে মেমরিতে ক্যাশ করবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4235,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোটলিনে কোনো অবজেক্টের ওপর এক বা একাধিক অপারেশন চালিয়ে একই অবজেক্ট রিটার্ন করার জনপ্রিয় স্কোপ ফাংশন কোনটি?",
+    "options": [
+      "A) apply (যেমন Intent().apply { putExtra(...); action = ... })",
+      "B) let",
+      "C) run",
+      "D) with"
+    ],
+    "answer": 0,
+    "explanation": "`apply` ফাংশন অবজেক্ট কনফিগারেশনে `this` কনটেক্সট ব্যবহার করে এবং অবজেক্টটিকে রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4236,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "একটি অবজেক্ট নাল না হলে কেবল তখনই কোনো কোড ব্লককে নিরাপদে এক্সিকিউট করতে কোন স্কোপ ফাংশনটি বহুল ব্যবহৃত হয়?",
+    "options": [
+      "A) ?.run",
+      "B) ?.with",
+      "C) ?.let { ... } (যেমন user?.let { print(it.name) })",
+      "D) ?.apply"
+    ],
+    "answer": 2,
+    "explanation": "`object?.let { ... }` কোটলিনের সবচেয়ে মার্জিত নাল চেকিং কৌশল যা 'if (object != null)' লেখার ঝামেলা দূর করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4237,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড আর্কিটেকচারে অ্যাপ্লিকেশনের রিসোর্স ফাইলগুলো (যেমন লেআউট, স্ট্রিং, কালার) কোন ডিরেক্টরিতে থাকে?",
+    "options": [
+      "A) assets/",
+      "B) src/",
+      "C) res/ ফোল্ডার (Resources: res/layout, res/values, res/drawable)",
+      "D) libs/"
+    ],
+    "answer": 2,
+    "explanation": "res ফোল্ডারে XML ও মিডিয়া সংরক্ষিত থাকে যা R ক্লাসের মাধ্যমে কোডে স্বয়ংক্রিয়ভাবে সংযুক্ত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4238,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড প্রোজেক্ট কম্পাইল হলে সমস্ত রিসোর্স আইডি (যেমন R.id.btnSubmit, R.layout.activity_main) ধারণকারী স্বয়ংক্রিয় ক্লাসের নাম কী?",
+    "options": [
+      "A) BuildConfig",
+      "B) AppConfig",
+      "C) Manifest",
+      "D) R ক্লাস (R.java)"
+    ],
+    "answer": 3,
+    "explanation": "AAPT (Android Asset Packaging Tool) সমস্ত XML ও রিসোর্সের জন্য অনন্য হেক্সাডেসিমেল পূর্ণসংখ্যা আইডি দিয়ে R ক্লাস তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4239,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড ওএসের মূল চারটি মৌলিক কম্পোনেন্ট (Core App Components) কী কী?",
+    "options": [
+      "A) Activity, Service, Broadcast Receiver, এবং Content Provider",
+      "B) Button, TextView, EditText, ImageView",
+      "C) CPU, RAM, ROM, Flash",
+      "D) XML, Java, Kotlin, Gradle"
+    ],
+    "answer": 0,
+    "explanation": "Activity স্ক্রিন দেখায়, Service ব্যাকগ্রাউন্ডে চলে, Broadcast Receiver সিস্টেম মেসেজ শোনে এবং Content Provider ডেটা শেয়ার করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4240,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ও কোটলিন পরিবেশ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড প্ল্যাটফর্ম কোন ওপেন সোর্স অপারেটিং সিস্টেমের ওপর ভিত্তি করে তৈরি?",
+    "options": [
+      "A) ইউনিক্স",
+      "B) লিনাক্স কার্নেল (Linux Kernel)",
+      "C) ফ্রিবিএসডি (FreeBSD)",
+      "D) উইন্ডোজ কার্নেল"
+    ],
+    "answer": 1,
+    "explanation": "অ্যান্ড্রয়েড লিনাক্স কার্নেলের ওপর ভিত্তি করে গুগল ও ওপেন হ্যান্ডসেট অ্যালায়েন্স (OHA) কর্তৃক তৈরি হয়েছে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4241,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপ্লিকেশনে ব্যবহারকারীর সামনে উপস্থাপিত একক স্ক্রিন এবং ইন্টারঅ্যাকশন উইন্ডোকে কী বলে?",
+    "options": [
+      "A) ব্রডকাস্ট রিসিভার",
+      "B) কন্টেন্ট প্রোভাইডার",
+      "C) অ্যাক্টিভিটি (Activity)",
+      "D) সার্ভিস"
+    ],
+    "answer": 2,
+    "explanation": "Activity হলো একটি একক ইউজার ইন্টারফেস স্ক্রিন যার ওপর ভিউ বা উইজেট স্থাপন করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4242,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যাক্টিভিটি প্রথম তৈরি হওয়ার সময় সর্বপ্রথম কোন লাইফসাইকেল মেথডটি সিস্টেম কর্তৃক কল হয়?",
+    "options": [
+      "A) onStart()",
+      "B) onCreate()",
+      "C) onPause()",
+      "D) onResume()"
+    ],
+    "answer": 1,
+    "explanation": "`onCreate()`-এ অ্যাক্টিভিটির প্রাথমিক সেটআপ, ভিউ ইনফ্লেট (`setContentView`) এবং প্রাথমিক ডেটা লোড করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4243,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যাক্টিভিটি পর্দায় দৃশ্যমান (Visible) হওয়ার মুহূর্তে কোন লাইফসাইকেল মেথডটি কল হয়?",
+    "options": [
+      "A) onRestart()",
+      "B) onCreate()",
+      "C) onResume()",
+      "D) onStart()"
+    ],
+    "answer": 3,
+    "explanation": "`onStart()` মেথডে অ্যাক্টিভিটি পর্দায় ব্যবহারকারীর চোখে দৃশ্যমান হয় কিন্তু ফোকাসে আসে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4244,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যাক্টিভিটি ফোরগ্রাউন্ডে এসে ব্যবহারকারীর সাথে সরাসরি মিথস্ক্রিয়া (Interactive Focus) করার জন্য প্রস্তুত হলে কোন মেথড কল হয়?",
+    "options": [
+      "A) onResume()",
+      "B) onPause()",
+      "C) onStart()",
+      "D) onCreate()"
+    ],
+    "answer": 0,
+    "explanation": "`onResume()` হলো অ্যাক্টিভিটির রানিং স্টেজ যেখানে ক্যামেরা চালু বা অ্যানিমেশন স্টার্ট করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4245,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ব্যবহারকারী অন্য কোনো আংশিক স্বচ্ছ ডায়ালগ খুললে বা ফোন কল এলে বর্তমান অ্যাক্টিভিটির ফোকাস সাময়িক হারানোর মেথড কোনটি?",
+    "options": [
+      "A) onRestart()",
+      "B) onStop()",
+      "C) onPause()",
+      "D) onDestroy()"
+    ],
+    "answer": 2,
+    "explanation": "`onPause()` চলাকালীন অ্যাক্টিভিটি আংশিক দেখা যেতে পারে তবে এটি ফোকাস হারায়; এখানে ভারী কাজ করা নিষিদ্ধ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4246,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "যখন একটি অ্যাক্টিভিটি ব্যবহারকারীর পর্দা থেকে সম্পূর্ণ আড়ালে চলে যায় এবং আর দৃশ্যমান থাকে না তখন কোন মেথড কল হয়?",
+    "options": [
+      "A) onDestroy()",
+      "B) onStop()",
+      "C) onCreate()",
+      "D) onPause()"
+    ],
+    "answer": 1,
+    "explanation": "ব্যবহারকারী হোম বাটন চাপলে বা নতুন কোনো পূর্ণস্ক্রিন অ্যাক্টিভিটি খুললে পূর্ববর্তী অ্যাক্টিভিটিতে `onStop()` কল হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4247,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "একটি স্টপ (Stopped) হয়ে থাকা অ্যাক্টিভিটি পুনরায় ব্যাকগ্রাউন্ড থেকে ফোরগ্রাউন্ডে ফিরে আসার সময় onStart()-এর পূর্বে কোন মেথড কল হয়?",
+    "options": [
+      "A) onCreate()",
+      "B) onResume()",
+      "C) onRestore()",
+      "D) onRestart()"
+    ],
+    "answer": 3,
+    "explanation": "অ্যাক্টিভিটি মেমরি থেকে ধ্বংস না হয়ে কেবল লুকানো থাকলে ফিরে আসার সময় `onRestart()` হয়ে পুনরায় `onStart()`-এ যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4248,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যাক্টিভিটি মেমরি থেকে সম্পূর্ণরূপে ধ্বংস (Killed / Finished) হওয়ার আগে সর্বশেষ কোন লাইফসাইকেল মেথডটি কল হয়?",
+    "options": [
+      "A) onDestroy()",
+      "B) onPause()",
+      "C) onStop()",
+      "D) onTerminate()"
+    ],
+    "answer": 0,
+    "explanation": "`finish()` মেথড কল করলে বা ওএস মেমরির চরম সংকটে অ্যাক্টিভিটি কিল করলে ধ্বংস হওয়ার আগে `onDestroy()` এক্সিকিউট হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4249,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "স্মার্টফোনকে পোর্ট্রেট থেকে ল্যান্ডস্কেপে রোটেট (Configuration Change) করলে অ্যাক্টিভিটিতে কী ঘটে?",
+    "options": [
+      "A) কেবল টেক্সট বড় হয়",
+      "B) অ্যাক্টিভিটি কিছুই পরিবর্তন হয় না",
+      "C) ফোন রিবুট হয়",
+      "D) বর্তমান অ্যাক্টিভিটি ধ্বংস হয়ে (Destroy) পুনরায় স্ক্র্যাচ থেকে নতুন করে onCreate() কল করে তৈরি হয়"
+    ],
+    "answer": 3,
+    "explanation": "ডিভাইস রোটেট করলে রিসোর্স কনফিগারেশন বদলায় বলে ওএস স্বয়ংক্রিয়ভাবে অ্যাক্টিভিটি ডেস্ট্রয় করে নতুন রিসোর্স দিয়ে নতুন করে বানায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4250,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "স্ক্রিন রোটেশনের ফলে অ্যাক্টিভিটি ধ্বংস হলেও ইউজার ইন্টারফেসের ডেটা সাময়িকভাবে সংরক্ষণ করার কলব্যাক মেথড কোনটি?",
+    "options": [
+      "A) onSaveInstanceState(Bundle)",
+      "B) onDestroy()",
+      "C) onSaveData()",
+      "D) onPause()"
+    ],
+    "answer": 0,
+    "explanation": "Bundle-এ কি-ভ্যালু আকারে ডেটা সেভ করা হয় যা পরবর্তীতে `onCreate(savedInstanceState)` মেথডে ফেরত পাওয়া যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4251,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কনফিগারেশন চেঞ্জের পরও ডেটা নিরাপদে ধরে রাখার আধুনিক জেটপ্যাক আর্কিটেকচার কম্পোনেন্ট কোনটি?",
+    "options": [
+      "A) ContentProvider",
+      "B) ViewModel",
+      "C) SQLite",
+      "D) SharedPreferences"
+    ],
+    "answer": 1,
+    "explanation": "ViewModel-এর লাইফসাইকেল অ্যাক্টিভিটির ধ্বংসের পরও জীবিত থাকে এবং নতুন অ্যাক্টিভিটিতে সেই ডেটা সরবরাহ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4252,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড ওএসে খোলা অ্যাক্টিভিটিগুলো যে ডেটা স্ট্রাকচারে (Task Stack) ক্রমান্বয়ে জমা থাকে তার বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "A) বাইনারি ট্রি",
+      "B) গ্রাফ",
+      "C) LIFO স্ট্যাক (Last-In, First-Out ব্যাক-স্ট্যাক)",
+      "D) FIFO কিউ"
+    ],
+    "answer": 2,
+    "explanation": "নতুন অ্যাক্টিভিটি স্ট্যাকের সবার উপরে বসে; ব্যাক বাটন চাপলে শীর্ষের অ্যাক্টিভিটি পপ আউট হয়ে আগের স্ক্রিন সামনে আসে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4253,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "চলমান কোনো অ্যাক্টিভিটিকে কোড থেকে তাৎক্ষণিক বন্ধ করার জন্য কোন ফাংশনটি কল করতে হয়?",
+    "options": [
+      "A) exit()",
+      "B) finish()",
+      "C) stop()",
+      "D) destroy()"
+    ],
+    "answer": 1,
+    "explanation": "`finish()` কল করলে অ্যাক্টিভিটি ব্যাক-স্ট্যাক থেকে সরে যায় এবং onDestroy মেথডের দিকে এগোয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4254,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "একটি অ্যাক্টিভিটির ভেতরে পুনর্ব্যবহারযোগ্য সাব-অ্যাক্টিভিটি বা মডুলার ইউআই অংশকে কী বলে?",
+    "options": [
+      "A) ফ্র্যাগমেন্ট (Fragment)",
+      "B) প্যানেল",
+      "C) সার্ভিস",
+      "D) উইজেট"
+    ],
+    "answer": 0,
+    "explanation": "Fragment হলো নিজস্ব লাইফসাইকেল বিশিষ্ট একটি মডুলার UI খণ্ড যা একই অ্যাক্টিভিটিতে একাধিক স্ক্রিন লেআউট তৈরি করতে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4255,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ফ্র্যাগমেন্ট প্রথম যখন তার হোস্ট অ্যাক্টিভিটির সাথে সংযুক্ত হয় তখন ফ্র্যাগমেন্টের কোন মেথড কল হয়?",
+    "options": [
+      "A) onStart()",
+      "B) onCreateView()",
+      "C) onCreate()",
+      "D) onAttach(Context)"
+    ],
+    "answer": 3,
+    "explanation": "`onAttach()` নিশ্চিত করে যে ফ্র্যাগমেন্টটি সফলভাবে প্যারেন্ট অ্যাক্টিভিটির সাথে যুক্ত হয়েছে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4256,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ফ্র্যাগমেন্টের নিজস্ব XML লেআউট লোড (Inflate) করে ভিউ হায়ারার্কি তৈরি করার মেথড কোনটি?",
+    "options": [
+      "A) onStart()",
+      "B) onCreate()",
+      "C) onCreateView()",
+      "D) onViewCreated()"
+    ],
+    "answer": 2,
+    "explanation": "`onCreateView()` LayoutInflater-এর সাহায্যে XML লেআউটকে বাস্তব View অবজেক্টে ইনফ্লেট করে রিটার্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4257,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ফ্র্যাগমেন্টের ভিউ সফলভাবে তৈরি হওয়ার পর বাটন ক্লিক লিসেনার বা ইনিশিয়ালাইজেশন করার সবচেয়ে নিরাপদ মেথড কোনটি?",
+    "options": [
+      "A) onViewCreated(View, Bundle)",
+      "B) onCreate()",
+      "C) onAttach()",
+      "D) onDestroyView()"
+    ],
+    "answer": 0,
+    "explanation": "`onViewCreated()`-এ নিশ্চিত হওয়া যায় যে ভিউ তৈরি সম্পন্ন হয়েছে, ফলে findViewById বা ভিউ বাইন্ডিং নিরাপদে করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4258,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ফ্র্যাগমেন্ট ব্যাক-স্ট্যাকে গেলে তার ভিজ্যুয়াল ভিউ ধ্বংস হলেও ফ্র্যাগমেন্ট ইনস্ট্যান্স বেঁচে থাকার সময়ের মেথড কোনটি?",
+    "options": [
+      "A) onStop()",
+      "B) onDetach()",
+      "C) onDestroy()",
+      "D) onDestroyView()"
+    ],
+    "answer": 3,
+    "explanation": "`onDestroyView()`-এ ভিউ মেমরি ফ্রি করা হয় কিন্তু ফ্র্যাগমেন্ট অবজেক্ট মেমরিতে বজায় থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4259,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ফ্র্যাগমেন্ট হোস্ট অ্যাক্টিভিটি থেকে সম্পূর্ণরূপে বিচ্ছিন্ন হওয়ার শেষ মেথড কোনটি?",
+    "options": [
+      "A) onDestroyView()",
+      "B) onDetach()",
+      "C) onDestroy()",
+      "D) onStop()"
+    ],
+    "answer": 1,
+    "explanation": "`onDetach()` কল হওয়ার পর ফ্র্যাগমেন্টের সাথে অ্যাক্টিভিটির কোনো সম্পর্ক বা কনটেক্সট অবশিষ্ট থাকে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4260,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "রানটাইমে কোড দিয়ে ফ্র্যাগমেন্ট যোগ, প্রতিস্থাপন (Replace) বা ডিলিট করার ট্রানজ্যাকশন পরিচালনাকারী ক্লাসের নাম কী?",
+    "options": [
+      "A) LayoutManager",
+      "B) WindowManager",
+      "C) FragmentManager এবং FragmentTransaction",
+      "D) ActivityManager"
+    ],
+    "answer": 2,
+    "explanation": "`supportFragmentManager.beginTransaction()` দিয়ে শুরু করে `replace()` বা `add()` করার পর `commit()` করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4261,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ফ্র্যাগমেন্ট প্রতিস্থাপন (Replace) করার সময় ব্যবহারকারী যাতে ফোনের ব্যাক বাটন চাপলে আগের ফ্র্যাগমেন্টে ফিরতে পারে সেজন্য কী কল করতে হয়?",
+    "options": [
+      "A) keepInMemory()",
+      "B) pushBack()",
+      "C) addToBackStack(null)",
+      "D) saveToHistory()"
+    ],
+    "answer": 2,
+    "explanation": "`addToBackStack(null)` ট্রানজ্যাকশনটিকে অ্যাক্টিভিটির ব্যাক-স্ট্যাকে সংরক্ষণ করে ফলে ব্যাক বাটনে পূর্ববর্তী ফ্র্যাগমেন্ট ফিরে আসে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4262,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "এক ফ্র্যাগমেন্ট থেকে অন্য ফ্র্যাগমেন্টে আর্গুমেন্ট হিসেবে নিরাপদ ডেটা পাঠানোর আধুনিক প্রস্তাবিত মেকানিজম কোনটি?",
+    "options": [
+      "A) Bundle / SafeArgs এবং Shared ViewModel",
+      "B) ফাইলে লিখে রাখা",
+      "C) ডাটাবেসে সেভ করা",
+      "D) স্ট্যাটিক গ্লোবাল ভ্যারিয়েবল"
+    ],
+    "answer": 0,
+    "explanation": "নেভিগেশন কম্পোনেন্টের SafeArgs প্লাগইন বা প্যারেন্ট অ্যাক্টিভিটি শেয়ার্ড ভিউমডেল ডেটা আদান-প্রদানের সবচেয়ে নির্ভরযোগ্য পথ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4263,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যাক্টিভিটি ম্যানিফেস্টে `<intent-filter>` ট্যাগে 'android.intent.action.MAIN' এবং 'android.intent.category.LAUNCHER' দিলে কী ঘটে?",
+    "options": [
+      "A) অ্যাপে ইন্টারনেট চলবে",
+      "B) অ্যাপটি ব্যাকগ্রাউন্ডে লুকানো থাকবে",
+      "C) অ্যাপটি বন্ধ হয়ে যাবে",
+      "D) অ্যাক্টিভিটিটি ফোনের অ্যাপ ড্রয়ারে মূল লঞ্চার আইকন হিসেবে প্রদর্শিত হবে এবং অ্যাপ খোলার সময় সবার আগে চালু হবে"
+    ],
+    "answer": 3,
+    "explanation": "এই ফিল্টারটি অ্যাপের এন্ট্রি-পয়েন্ট বা শুরুর অ্যাক্টিভিটি (Splash বা Main) নির্ধারণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4264,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "একটি অ্যাক্টিভিটির ভেতরে XML লেআউট ফাইলকে পর্দায় প্রদর্শন করার জন্য কোন ফাংশনটি কল করা বাধ্যতামূলক?",
+    "options": [
+      "A) inflateLayout()",
+      "B) setContentView(R.layout.activity_main)",
+      "C) initUI()",
+      "D) showLayout()"
+    ],
+    "answer": 1,
+    "explanation": "`setContentView()` মেথড অ্যাক্টিভিটির উইন্ডোকে নির্দিষ্ট XML লেআউটের সাথে যুক্ত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4265,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড ৮.০ (Oreo) থেকে ব্যাকগ্রাউন্ড প্রসেসের ব্যাটারি অপচয় রোধে কোন সীমাবদ্ধতা আরোপ করা হয়েছে?",
+    "options": [
+      "A) ব্যাকগ্রাউন্ড সার্ভিস লিমিটেশন (Background Execution Limits - ফোরগ্রাউন্ড সার্ভিস বা WorkManager ব্যবহার বাধ্যতামূলক)",
+      "B) ইন্টারনেট বন্ধ করা",
+      "C) সব অ্যাপ বন্ধ করে দেওয়া",
+      "D) কোটলিন নিষিদ্ধ করা"
+    ],
+    "answer": 0,
+    "explanation": "অ্যান্ড্রয়েড ওরিও থেকে সাধারণ আন-বাউন্ড ব্যাকগ্রাউন্ড সার্ভিস কিছুক্ষণ পর কিল হয়ে যায়; তাই নোটিফিকেশন সহ Foreground Service ব্যবহার করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4266,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ব্যবহারকারী স্ট্যাটাস বারে সবসময় একটি স্থায়ী নোটিফিকেশন দেখতে পাওয়ার ব্যাকগ্রাউন্ড সার্ভিসকে কী বলে?",
+    "options": [
+      "A) ইনটেন্ট সার্ভিস",
+      "B) ব্যাকগ্রাউন্ড সার্ভিস",
+      "C) বাউন্ড সার্ভিস",
+      "D) ফোরগ্রাউন্ড সার্ভিস (Foreground Service - যেমন মিউজিক প্লেয়ার বা জিপিএস ট্র্যাকিং)"
+    ],
+    "answer": 3,
+    "explanation": "Foreground Service ব্যবহারকারীকে অবগত রেখে ব্যাকগ্রাউন্ডে দীর্ঘমেয়াদী কাজ চালায় এবং ওএস এটি সহজে মেমরি সংকটে মারে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4267,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড সিস্টেমে ডিভাইস বুট হওয়া, ব্যাটারি লো হওয়া বা ইন্টারনেট কানেক্টিভিটি পরিবর্তনের মতো সিস্টেম বার্তা গ্রহণকারী কম্পোনেন্ট কোনটি?",
+    "options": [
+      "A) ফ্র্যাগমেন্ট",
+      "B) ব্রডকাস্ট রিসিভার (Broadcast Receiver)",
+      "C) অ্যাক্টিভিটি",
+      "D) সার্ভিস"
+    ],
+    "answer": 1,
+    "explanation": "Broadcast Receiver কোনো ইউজার ইন্টারফেস ছাড়া সিস্টেম বা অন্যান্য অ্যাপের ঘোষিত গ্লোবাল বার্তা শুনতে ও সাড়া দিতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4268,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "একটি অ্যাপ্লিকেশন অন্য অ্যাপ্লিকেশনের সাথে নিজস্ব ডেটাবেসের ডেটা নিরাপদে শেয়ার করার জন্য কোন উপাদান ব্যবহার করে?",
+    "options": [
+      "A) সার্ভিস",
+      "B) ইনটেন্ট",
+      "C) কন্টেন্ট প্রোভাইডার (Content Provider - যেমন কন্টাক্টস বা গ্যালারি অ্যাক্সেস)",
+      "D) ব্রডকাস্ট রিসিভার"
+    ],
+    "answer": 2,
+    "explanation": "Content Provider URI স্কিম (content://...) ব্যবহার করে স্ট্যান্ডার্ড CRUD অপারেশনের মাধ্যমে অ্যাপের মধ্যে নিরাপদ ডেটা আদান-প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4269,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যাক্টিভিটি ব্যাক-স্ট্যাকে কোনো ডুপ্লিকেট অ্যাক্টিভিটি যেন তৈরি না হয় এবং স্ট্যাকের শীর্ষে থাকলে সেটিই ব্যবহার করার লঞ্চ মোড কোনটি?",
+    "options": [
+      "A) singleTask",
+      "B) singleTop",
+      "C) singleInstance",
+      "D) standard (যা প্রতিবার নতুন ইনস্ট্যান্স খোলে)"
+    ],
+    "answer": 1,
+    "explanation": "`singleTop` মোডে অ্যাক্টিভিটি স্ট্যাকের শীর্ষে থাকলে নতুন অ্যাক্টিভিটি না খুলে `onNewIntent()` কল করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4270,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যাপ স্ক্রিনে ব্যবহারকারী হোম বাটন চাপলে অ্যাক্টিভিটিতে মেথড কল হওয়ার সঠিক ক্রম কোনটি?",
+    "options": [
+      "A) onPause() -> onStop()",
+      "B) onDestroy() -> onStop()",
+      "C) onPause() -> onDestroy()",
+      "D) onStop() -> onDestroy()"
+    ],
+    "answer": 0,
+    "explanation": "হোম বাটন চাপলে অ্যাপ দৃশ্যপট থেকে চলে যায়, প্রথমে ফোকাস হারিয়ে onPause() হয় এবং পরে সম্পূর্ণরূপে আড়ালে গিয়ে onStop() হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4271,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "হোমে থাকা একটি অ্যাপে ব্যবহারকারী পুনরায় ট্যাপ করে ফিরে আসলে মেথড কল হওয়ার সঠিক ক্রম কোনটি?",
+    "options": [
+      "A) onCreate() -> onStart()",
+      "B) onResume() -> onStart()",
+      "C) onStart() -> onCreate()",
+      "D) onRestart() -> onStart() -> onResume()"
+    ],
+    "answer": 3,
+    "explanation": "স্টপ অবস্থা থেকে অ্যাপ রিস্টার্ট হয়ে প্রথমে দৃশ্যমান হয় (onStart) এবং তারপর ব্যবহারকারীর ফোকাসে আসে (onResume)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4272,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যাক্টিভিটিতে ব্যাক বাটন চাপলে মেথড কল হওয়ার সঠিক ধারাবাহিকতা কোনটি?",
+    "options": [
+      "A) onPause() -> onDestroy()",
+      "B) onStop() -> onPause()",
+      "C) onPause() -> onStop() -> onDestroy()",
+      "D) onDestroy() -> onStop()"
+    ],
+    "answer": 2,
+    "explanation": "ব্যাক বাটনে অ্যাক্টিভিটি চিরতরে বন্ধ হয়: ফোকাস ত্যাগ (onPause), দৃশ্যপট ত্যাগ (onStop) এবং মেমরি থেকে বিনাশ (onDestroy)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4273,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ফ্র্যাগমেন্ট ক্লাসে কোনো কনস্ট্রাক্টর ওভারলোড না করে আর্গুমেন্ট পাস করার স্ট্যান্ডার্ড অ্যান্ড্রয়েড প্যাটার্ন কোনটি?",
+    "options": [
+      "A) সরাসরি ভেরিয়েবল সেট করা",
+      "B) প্যারামিটারাইজড কনস্ট্রাক্টর কল করা",
+      "C) গ্লোবাল ভ্যারিয়েবলে রাখা",
+      "D) স্ট্যাটিক newInstance(args) ফ্যাক্টরি মেথড এবং setArguments(Bundle)"
+    ],
+    "answer": 3,
+    "explanation": "ওএস ফ্র্যাগমেন্ট রিক্রিয়েট করার সময় কেবল ডিফল্ট শূন্য-প্যারামিটার কনস্ট্রাক্টর কল করে; তাই `setArguments(Bundle)` ব্যবহার করা নিয়ম।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4274,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যাক্টিভিটির ভেতরে কাস্টম ডায়ালগ উইন্ডো হিসেবে প্রদর্শনের জন্য বিশেষ ফ্র্যাগমেন্ট সাব-ক্লাস কোনটি?",
+    "options": [
+      "A) ListFragment",
+      "B) DialogFragment",
+      "C) ViewFragment",
+      "D) PreferenceFragment"
+    ],
+    "answer": 1,
+    "explanation": "DialogFragment নিজস্ব লাইফসাইকেল বজায় রেখে মোডাল ডায়ালগ ও পপআপ স্ক্রিন তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4275,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ট্যাবলেট স্ক্রিনে বামে আইটেম তালিকা এবং ডানে নির্বাচিত আইটেমের বিবরণ একসাথে দেখানোর জন্য কোনটি সবচেয়ে উপযোগী?",
+    "options": [
+      "A) একক অ্যাক্টিভিটিতে দুটি পাশাপাশি ফ্র্যাগমেন্ট (Master-Detail Flow)",
+      "B) দুটি আলাদা আলাদা ফোন",
+      "C) একটি মাত্র টেক্সটভিউ",
+      "D) সার্ভিস"
+    ],
+    "answer": 0,
+    "explanation": "ট্যাবলেটের বড় স্ক্রিনে Master ফ্র্যাগমেন্ট ও Detail ফ্র্যাগমেন্ট একসাথে বসিয়ে চমৎকার আধুনিক লেআউট তৈরি হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4276,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ট্যাব লেআউটে সোয়াইপ করে ফ্র্যাগমেন্ট পরিবর্তন করার জন্য আধুনিক অ্যাডাপ্টার কম্পোনেন্ট কোনটি?",
+    "options": [
+      "A) ScrollView",
+      "B) ListView",
+      "C) ViewPager2 এবং FragmentStateAdapter",
+      "D) GridView"
+    ],
+    "answer": 2,
+    "explanation": "ViewPager2 রিসাইক্লার ভিউয়ের ওপর নির্মিত যা মেমরি অপ্টিমাইজেশনের মাধ্যমে মসৃণ অনুভূমিক সোয়াইপিং স্ক্রিন দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4277,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ফ্র্যাগমেন্ট ট্রানজ্যাকশন সম্পাদনে 'commit()' এবং 'commitNow()'-এর মধ্যে মৌলিক পার্থক্য কোনটি?",
+    "options": [
+      "A) commit() কাজ করে না",
+      "B) commit() মেইন থ্রেডে অ্যাসিনক্রোনাসলি শিডিউল করে; আর commitNow() তৎক্ষণাৎ সিঙ্ক্রোনাসলি সম্পন্ন করে",
+      "C) উভয় মেথড একই সময়ে চলে",
+      "D) commitNow() ব্যাক-স্ট্যাক সমর্থন করে না"
+    ],
+    "answer": 1,
+    "explanation": "`commit()` কল ব্যাকপ্যাকে জমা হয়ে পরবর্তী ইউআই সাইকেলে ঘটে, যেখানে `commitNow()` তাৎক্ষণিক ব্লকিং রান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4278,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যাক্টিভিটি লাইফসাইকেল স্টেট সরাসরি পর্যবেক্ষণ করার জন্য জেটপ্যাকের লাইফসাইকেল-অ্যাওয়ার কম্পোনেন্ট কোনটি?",
+    "options": [
+      "A) DefaultLifecycleObserver / LifecycleOwner",
+      "B) Thread",
+      "C) Handler",
+      "D) BroadcastReceiver"
+    ],
+    "answer": 0,
+    "explanation": "LifecycleObserver দিয়ে অ্যাক্টিভিটি কোডে কোনো বিশৃঙ্খলা ছাড়াই থার্ড-পার্টি লাইব্রেরি বা ক্লাস লাইফসাইকেল ট্র্যাক করতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4279,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড আর্কিটেকচারে UI উপাদানগুলোকে ডেটা পরিবর্তনের সাথে স্বয়ংক্রিয়ভাবে আপডেট করার লাইফসাইকেল-সচেতন অবজারভেবল ডেটা হোল্ডার কোনটি?",
+    "options": [
+      "A) HashMap",
+      "B) Cursor",
+      "C) LiveData (বা আধুনিক StateFlow)",
+      "D) ArrayList"
+    ],
+    "answer": 2,
+    "explanation": "LiveData কেবল অ্যাক্টিভিটি 'Active' (Started/Resumed) থাকা অবস্থায় ডেটা পাঠায় ফলে মেমরি লিক ও ক্র্যাশ রোধ হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4280,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যাক্টিভিটি, ফ্র্যাগমেন্ট ও লাইফসাইকেল",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যাপ্লিকেশনের গ্লোবাল স্টেট ধারণ করার জন্য এবং অ্যাপ চলাকালীন পুরো সময় জীবিত থাকা বেস ক্লাস কোনটি?",
+    "options": [
+      "A) MainActivity",
+      "B) RootContext",
+      "C) BaseService",
+      "D) Application ক্লাস (বা কাস্টম MyCustomApp : Application())"
+    ],
+    "answer": 3,
+    "explanation": "Application ক্লাস অ্যাপের প্রথম প্রসেস চালুর সময় ইনস্ট্যানশিয়েট হয় এবং সম্পূর্ণ অ্যাপ বন্ধ না হওয়া পর্যন্ত মেমরিতে থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4281,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপে স্ক্রিনের আকার ও পিক্সেল ঘনত্বের ভিন্নতা সত্ত্বেও সব ডিভাইসে সমআকারের ইউআই বজায় রাখতে উইজেটের মাপ কোন এককে নির্ধারণ করতে হয়?",
+    "options": [
+      "A) px (Pixels)",
+      "B) dp বা dip (Density-independent Pixels)",
+      "C) in (Inches)",
+      "D) mm (Millimeters)"
+    ],
+    "answer": 1,
+    "explanation": "`dp` হলো ১৬০ ডিপিআই স্ক্রিনের ১ পিক্সেলের সমান ভার্চুয়াল একক যা সব ধরনের রেজোলিউশনে ভিউয়ের অনুপাত ঠিক রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4282,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ব্যবহারকারীর সিস্টেম সেটিংসে ফন্ট বড় বা ছোট করার সুবিধার জন্য লেখার টেক্সট সাইজ (Text Size) কোন এককে দিতে হয়?",
+    "options": [
+      "A) sp (Scale-independent Pixels)",
+      "B) pt",
+      "C) dp",
+      "D) px"
+    ],
+    "answer": 0,
+    "explanation": "`sp` ফন্টের জন্য ব্যবহৃত বিশেষ একক যা দৃষ্টিপ্রতিবন্ধী ব্যবহারকারীর সিস্টেম ফন্ট স্কেলিং অনুযায়ী স্বয়ংক্রিয় বড়-ছোট হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4283,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "পর্দায় ব্যবহারকারীকে কেবল টেক্সট প্রদর্শনের জন্য ব্যবহৃত প্রাথমিক উইজেট কোনটি?",
+    "options": [
+      "A) ImageView",
+      "B) EditText",
+      "C) Button",
+      "D) TextView"
+    ],
+    "answer": 3,
+    "explanation": "`TextView` স্ক্রিনে যেকোনো স্ট্যাটিক বা ডায়নামিক টেক্সট মেসেজ দেখাতে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4284,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ব্যবহারকারীর কাছ থেকে কীবোর্ডের মাধ্যমে টেক্সট বা পাসওয়ার্ড ইনপুট নেওয়ার মূল উইজেট কোনটি?",
+    "options": [
+      "A) CheckBox",
+      "B) TextView",
+      "C) EditText",
+      "D) Label"
+    ],
+    "answer": 2,
+    "explanation": "`EditText` হলো একটি সাব-ক্লাস যা ব্যবহারকারীকে টাইপ করার সুযোগ দেয় (`android:hint` দিয়ে ওয়াটারমার্ক টেক্সট দেওয়া হয়)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4285,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "একাধিক স্বতন্ত্র বিকল্প থেকে ব্যবহারকারীকে এক বা একাধিক পছন্দ নির্বাচনের অনুমতি দেয় কোন উইজেট?",
+    "options": [
+      "A) CheckBox",
+      "B) ProgressBar",
+      "C) Switch",
+      "D) RadioButton"
+    ],
+    "answer": 0,
+    "explanation": "CheckBox একাধিক স্বাধীন অপশন নির্বাচনের সুযোগ দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4286,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "একাধিক বিকল্পের মধ্য থেকে কেবল একটিমাত্র বিকল্প নির্বাচন নিশ্চিত করতে RadioButton-গুলোকে কোন কন্টেইনারে আবদ্ধ করতে হয়?",
+    "options": [
+      "A) LinearLayout",
+      "B) RadioGroup",
+      "C) ButtonGroup",
+      "D) FrameLayout"
+    ],
+    "answer": 1,
+    "explanation": "RadioGroup-এর ভেতরে থাকা RadioButton-গুলোর মধ্যে মিউচুয়াল এক্সক্লুসিভ আচরণ কাজ করে (একটি চাপলে অন্যটি আনচেক হয়)।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4287,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "পর্দায় কিছু সময়ের জন্য একটি ছোট হালকা পপআপ বার্তা প্রদর্শন করে স্বয়ংক্রিয়ভাবে মিলিয়ে যাওয়ার মেকানিজম কোনটি?",
+    "options": [
+      "A) Notification",
+      "B) Dialog",
+      "C) Snackbar",
+      "D) Toast (Toast.makeText(context, \"Text\", Toast.LENGTH_SHORT).show())"
+    ],
+    "answer": 3,
+    "explanation": "Toast স্ক্রিনের নিচে সাময়িক বার্তা প্রদর্শন করে এবং ব্যবহারকারীর কোনো ক্লিক ছাড়াই নিজ থেকে অদৃশ্য হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4288,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "স্ক্রিনের নিচে অ্যাকশন বাটন (যেমন 'UNDO') সহ আধুনিক ফিডব্যাক নোটিফিকেশন বার প্রদর্শনকারী মেটেরিয়াল উইজেট কোনটি?",
+    "options": [
+      "A) Toast",
+      "B) AlertDialog",
+      "C) Snackbar (Snackbar.make(view, \"Deleted\", Snackbar.LENGTH_LONG).setAction(\"UNDO\").show())",
+      "D) Banner"
+    ],
+    "answer": 2,
+    "explanation": "Snackbar মেটেরিয়াল ডিজাইনের একটি উন্নত ফিডব্যাক উপাদান যাতে ব্যবহারকারীকে ফিরতি অ্যাকশন দেওয়ার সুযোগ থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4289,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ব্যবহারকারীকে কোনো সতর্কবার্তা দেখানো এবং নিশ্চিতকরণ বাতিলে 'OK' ও 'Cancel' বাটনযুক্ত পপআপের নাম কী?",
+    "options": [
+      "A) PopupWindow",
+      "B) AlertDialog (AlertDialog.Builder)",
+      "C) Toast",
+      "D) Snackbar"
+    ],
+    "answer": 1,
+    "explanation": "AlertDialog ব্যবহারকারীর কাছ থেকে ইতিবাচক বা নেতিবাচক সিদ্ধান্ত নেওয়ার জন্য স্ক্রিন সাময়িক ব্লক করে পপআপ দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4290,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ড্রপ-ডাউন তালিকা থেকে কোনো একটি আইটেম বাছাই করার সিলেক্টর উইজেটকে কী বলা হয়?",
+    "options": [
+      "A) Menu",
+      "B) ListView",
+      "C) Picker",
+      "D) Spinner"
+    ],
+    "answer": 3,
+    "explanation": "Spinner হলো ওয়েবের `<select>` ড্রপডাউন অপশনের অ্যান্ড্রয়েড সংস্করণ।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4291,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "চাইল্ড ভিউগুলোকে একক সারিতে কেবল অনুভূমিক (Horizontal) বা উল্লম্ব (Vertical) দিকে সাজানোর লেআউট কোনটি?",
+    "options": [
+      "A) FrameLayout",
+      "B) RelativeLayout",
+      "C) LinearLayout (android:orientation=\"horizontal\" / \"vertical\")",
+      "D) ConstraintLayout"
+    ],
+    "answer": 2,
+    "explanation": "LinearLayout সোজা একমুখী রেখায় উপাদানগুলোকে সাজায় এবং `layout_weight` দিয়ে খালি স্পেস ভাগ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4292,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "LinearLayout-এ চাইল্ড ভিউগুলোর মধ্যে স্ক্রিনের খালি জায়গা আনুপাতিক হারে ভাগ করার বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "A) android:layout_weight",
+      "B) android:padding",
+      "C) android:layout_gravity",
+      "D) android:gravity"
+    ],
+    "answer": 0,
+    "explanation": "layout_weight স্ক্রিনের প্রস্থ বা উচ্চতা অনুযায়ী উপাদানগুলোর মাঝে অনুপাত (যেমন ১:২) বণ্টন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4293,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "একটি ভিউয়ের ভেতরের কন্টেন্ট (যেমন বাটনের ভেতরের লেখা) কোন দিকে সারিবদ্ধ হবে তা নির্ধারণকারী অ্যাট্রিবিউট কোনটি?",
+    "options": [
+      "A) android:orientation",
+      "B) android:layout_gravity",
+      "C) android:gravity",
+      "D) android:layout_weight"
+    ],
+    "answer": 2,
+    "explanation": "`gravity` ভিউয়ের ভেতরের কন্টেন্টের অ্যালাইনমেন্ট ঠিক করে; আর `layout_gravity` প্যারেন্টের মধ্যে পুরো ভিউয়ের অবস্থান ঠিক করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4294,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "চাইল্ড ভিউগুলোকে একে অপরের সাপেক্ষে (যেমন layout_toRightOf, layout_below) অবস্থান নির্ধারণকারী লেআউট কোনটি?",
+    "options": [
+      "A) RelativeLayout",
+      "B) FrameLayout",
+      "C) LinearLayout",
+      "D) TableLayout"
+    ],
+    "answer": 0,
+    "explanation": "RelativeLayout সম্পর্কিত পজিশনিংয়ের মাধ্যমে ভিউগুলোকে পরস্পরের ডানে, বামে বা নিচে স্থাপন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4295,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "একটিমাত্র একক চাইল্ড ভিউ ধারণ করতে অথবা ভিউগুলোকে কার্ডের মতো একটার ওপর আরেকটা স্ট্যাক করে রাখার জন্য সবচেয়ে উপযোগী হালকা লেআউট কোনটি?",
+    "options": [
+      "A) LinearLayout",
+      "B) FrameLayout",
+      "C) RelativeLayout",
+      "D) TableLayout"
+    ],
+    "answer": 1,
+    "explanation": "FrameLayout হলো ফ্র্যাগমেন্ট কন্টেইনার বা ছবির ওপর টেক্সট ব্যাজ স্ট্যাক করার সবচেয়ে হালকা লেআউট।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4296,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোনো নেস্টেড লেআউট ছাড়া সমতল (Flat View Hierarchy) কাঠামোর মাধ্যমে অত্যন্ত জটিল ও দ্রুতগতির ইউআই তৈরির আধুনিক আদর্শ লেআউট কোনটি?",
+    "options": [
+      "A) RelativeLayout",
+      "B) LinearLayout",
+      "C) AbsoluteLayout",
+      "D) ConstraintLayout"
+    ],
+    "answer": 3,
+    "explanation": "ConstraintLayout রিলেটিভ কনস্ট্রেইন্ট ব্যবহার করে মেমরি ও রেন্ডারিং গভীরতা সর্বনিম্ন রেখে সর্বোচ্চ পারফরম্যান্স নিশ্চিত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4297,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ConstraintLayout-এ একটি ভিউয়ের শীর্ষ সীমানাকে প্যারেন্ট লেআউটের শীর্ষের সাথে বাঁধার অ্যাট্রিবিউট কোনটি?",
+    "options": [
+      "A) android:layout_alignParentTop=\"true\"",
+      "B) app:layout_constraintTop_toTopOf=\"parent\"",
+      "C) app:layout_alignTop=\"parent\"",
+      "D) app:layout_above=\"parent\""
+    ],
+    "answer": 1,
+    "explanation": "ConstraintLayout-এ অন্তত একটি অনুভূমিক এবং একটি উল্লম্ব কনস্ট্রেইন্ট বাঁধা বাধ্যতামূলক।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4298,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ConstraintLayout-এ অদৃশ্য অনুভূমিক বা উল্লম্ব রেফারেন্স লাইন যার ওপর ভিত্তি করে শতাংশ হারে (Percent) ভিউ সাজানো যায় তাকে কী বলে?",
+    "options": [
+      "A) Chain",
+      "B) Barrier",
+      "C) Group",
+      "D) Guideline (Guideline with layout_constraintGuide_percent)"
+    ],
+    "answer": 3,
+    "explanation": "Guideline ডিজাইনে অদৃশ্য মার্কার তৈরি করে যেখানে স্ক্রিনের ৩০% বা ৫০% অবস্থানে উপাদান অ্যাঙ্কর করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4299,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "একাধিক ভিউয়ের সবচেয়ে বড় দৈর্ঘ্যের প্রান্তকে রেফারেন্স ধরে ডায়নামিক বাউন্ডারি তৈরির কনস্ট্রেইন্ট উপাদান কোনটি?",
+    "options": [
+      "A) Barrier",
+      "B) Chain",
+      "C) Flow",
+      "D) Guideline"
+    ],
+    "answer": 0,
+    "explanation": "Barrier ভাষার অনুবাদে লেখার সাইজ বড়-ছোট হলেও স্বয়ংক্রিয়ভাবে বাধা হিসেবে কাজ করে পরবর্তী ভিউকে ধাক্কা দিয়ে দূরে সরায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4300,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ঐতিহ্যবাহী ধীরগতির 'findViewById()' মেথডের বদলে টাইপ-সেফ ও নাল-সেফ উপায়ে XML ভিউগুলোকে সরাসরি অবজেক্ট হিসেবে পাওয়ার জেটপ্যাক ফিচারের নাম কী?",
+    "options": [
+      "A) কোটলিন সিন্থেটিক্স",
+      "B) রিসোর্স ম্যাপিং",
+      "C) ভিউ বাইন্ডিং (View Binding)",
+      "D) বাটারনাইফ"
+    ],
+    "answer": 2,
+    "explanation": "View Binding প্রতিটি XML ফাইলের জন্য স্বয়ংক্রিয়ভাবে বাইন্ডিং ক্লাস জেনারেট করে যা ভুল আইডি জনিত রানটাইম ক্র্যাশ সম্পূর্ণ বন্ধ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4301,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ঐতিহ্যবাহী ListView-এর তুলনায় আধুনিক RecyclerView-এর প্রধান প্রযুক্তিগত সুবিধা কোনটি?",
+    "options": [
+      "A) এতে কোনো স্ক্রোলিং নেই",
+      "B) এতে কোনো অ্যাডাপ্টার লাগে না",
+      "C) বাধ্যতামূলক ভিউহোল্ডার প্যাটার্ন ব্যবহার করে স্ক্রিনের বাইরের ভিউগুলোকে রিসাইকেল করে মেমরি ও সিপিইউ বাঁচায়",
+      "D) এটি কেবল ৩টি আইটেম দেখাতে পারে"
+    ],
+    "answer": 2,
+    "explanation": "RecyclerView স্ক্রিন থেকে অদৃশ্য হওয়া ভিউ অবজেক্টগুলোকে ধ্বংস না করে নতুন ডেটার জন্য রিসাইকেল করে মসৃণ ৬০ FPS স্ক্রোলিং দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4302,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "RecyclerView-তে প্রতিটি একক আইটেমের ভিউ উপাদানগুলোর রেফারেন্স ক্যাশ করে রাখার ক্লাসের নাম কী?",
+    "options": [
+      "A) ItemDecoration",
+      "B) ViewHolder (RecyclerView.ViewHolder)",
+      "C) LayoutManager",
+      "D) Adapter"
+    ],
+    "answer": 1,
+    "explanation": "ViewHolder প্রতিটি সারির ভেতরের উইজেটগুলোর আইডি ধরে রাখে যাতে বারবার ব্যয়বহুল `findViewById()` কল করতে না হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4303,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "RecyclerView অ্যাডাপ্টারে ডেটা সংগ্রহের মোট উপাদান সংখ্যা রিটার্ন করার মেথড কোনটি?",
+    "options": [
+      "A) getItemCount(): Int",
+      "B) getCount()",
+      "C) totalItems()",
+      "D) size()"
+    ],
+    "answer": 0,
+    "explanation": "`getItemCount()` তালিকার মোট আইটেম সংখ্যা রিটার্ন করে যা রিসাইক্লার ভিউকে স্ক্রোল সীমানা নির্ধারণে সাহায্য করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4304,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "RecyclerView-তে একটি নির্দিষ্ট পজিশনের ডেটাকে সংশ্লিষ্ট ViewHolder-এর ভিউতে প্রদর্শন বা বাইন্ড করার মেথড কোনটি?",
+    "options": [
+      "A) setViewData()",
+      "B) onCreateViewHolder()",
+      "C) getItemCount()",
+      "D) onBindViewHolder(holder: ViewHolder, position: Int)"
+    ],
+    "answer": 3,
+    "explanation": "`onBindViewHolder()` মেথডে নির্দিষ্ট পজিশনের ডেটা অবজেক্ট তুলে এনে টেক্সটভিউ বা ইমেজভিউতে সেট করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4305,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "RecyclerView-এর আইটেমগুলো উল্লম্ব তালিকা, গ্রিড বা অসম পিন্টারেস্ট স্টাইলে সাজানোর দায়িত্ব কার?",
+    "options": [
+      "A) ViewHolder",
+      "B) Adapter",
+      "C) LayoutManager (LinearLayoutManager, GridLayoutManager, StaggeredGridLayoutManager)",
+      "D) DiffUtil"
+    ],
+    "answer": 2,
+    "explanation": "LayoutManager তালিকাটির উপস্থাপন বিন্যাস নির্ধারণ করে; এটি পরিবর্তন করে এক ক্লিকেই লিস্টকে গ্রিডে রূপান্তর করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4306,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "পুরো তালিকা রিফ্রেশ না করে ব্যাকগ্রাউন্ড থ্রেডে দুটি তালিকার মধ্যে কেবল পরিবর্তিত আইটেমগুলো গণনা করার আধুনিক জেটপ্যাক ইউটিলিটি কোনটি?",
+    "options": [
+      "A) BaseAdapter",
+      "B) ArrayAdapter",
+      "C) notifyDataSetChanged()",
+      "D) DiffUtil (বা ListAdapter)"
+    ],
+    "answer": 3,
+    "explanation": "DiffUtil ইউজিন মায়ার্সের পার্থক্য অ্যালগরিদম ব্যবহার করে কেবল পরিবর্তিত আইটেমগুলোতে মসৃণ অ্যানিমেশন সহ আংশিক আপডেট পাঠায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4307,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোনো এক্সএমএল (XML) ফাইল ছাড়াই সম্পূর্ণ কোটলিন কোড দিয়ে ডিক্লারেটিভ উপায়ে ইউআই তৈরির আধুনিক অফিসিয়াল টুলকিট কোনটি?",
+    "options": [
+      "A) জেটপ্যাক কম্পোজ (Jetpack Compose)",
+      "B) অ্যান্ড্রয়েড ভিউজ",
+      "C) ফ্লাটার",
+      "D) জাভা সুইং"
+    ],
+    "answer": 0,
+    "explanation": "Jetpack Compose গুগলের সর্বাধুনিক ডিক্লারেটিভ ইউআই ফ্রেমওয়ার্ক যা কোটলিনের ফাংশন লিখে সরাসরি রিঅ্যাক্টিভ ইউআই তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4308,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "জেটপ্যাক কম্পোজে একটি ফাংশন যে একটি ইউজার ইন্টারফেস স্ক্রিন বা উইজেট তৈরি করে তা বোঝাতে কোন অ্যানোটেশনটি দিতে হয়?",
+    "options": [
+      "A) @UI",
+      "B) @Composable",
+      "C) @Widget",
+      "D) @View"
+    ],
+    "answer": 1,
+    "explanation": "`@Composable` অ্যানোটেশন কম্পোজ কম্পাইলারকে জানায় যে এই ফাংশনটি ডেটাকে ভিজ্যুয়াল ইউজার ইন্টারফেসে রূপান্তর করবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4309,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "জেটপ্যাক কম্পোজে উপাদানগুলোকে উল্লম্বভাবে (একটি উপাদানের নিচে আরেকটি) সাজানোর মৌলিক কম্পোজেবল কোনটি?",
+    "options": [
+      "A) Row",
+      "B) Stack",
+      "C) Column",
+      "D) Box"
+    ],
+    "answer": 2,
+    "explanation": "`Column` হলো ঐতিহ্যবাহী উল্লম্ব LinearLayout-এর সমতুল্য কম্পোজ কন্টেইনার।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4310,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "জেটপ্যাক কম্পোজে উপাদানগুলোকে অনুভূমিকভাবে (একটি উপাদানের ডানে আরেকটি) পাশাপাশি সাজানোর কম্পোজেবল কোনটি?",
+    "options": [
+      "A) Column",
+      "B) Row",
+      "C) Grid",
+      "D) Box"
+    ],
+    "answer": 1,
+    "explanation": "`Row` অনুভূমিক বিন্যাসে উইজেটগুলোকে পাশাপাশি সারিবদ্ধ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4311,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "একটি উপাদানের ওপর আরেকটি উপাদান স্ট্যাক আকারে বসানোর জন্য (FrameLayout-এর সমতুল্য) কম্পোজেবল কোনটি?",
+    "options": [
+      "A) Box",
+      "B) Layer",
+      "C) Row",
+      "D) Column"
+    ],
+    "answer": 0,
+    "explanation": "`Box` একাধিক ভিউকে একটির ওপর আরেকটি লেয়ার আকারে সাজায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4312,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "জেটপ্যাক কম্পোজে রিকম্পোজিশনের (Recomposition) সময় কোনো স্টেট বা ভ্যারিয়েবলের মান মেমরিতে ধরে রাখার ফাংশন কোনটি?",
+    "options": [
+      "A) saveState()",
+      "B) keep()",
+      "C) store()",
+      "D) remember { mutableStateOf(initialValue) }"
+    ],
+    "answer": 3,
+    "explanation": "`remember` কম্পোজিশন চলাকালীন ভ্যালু ক্যাশ করে রাখে এবং স্টেট পরিবর্তিত হলে স্বয়ংক্রিয়ভাবে স্ক্রিন রি-রেন্ডার (Recompose) করায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4313,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "জেটপ্যাক কম্পোজে RecyclerView-এর মতো বড় স্ক্রোলিং তালিকা অন-ডিমান্ড মেমরি সাশ্রয়ীভাবে দেখানোর কম্পোজেবল কোনটি?",
+    "options": [
+      "A) RecyclerViewCompose",
+      "B) ScrollableColumn",
+      "C) ListView",
+      "D) LazyColumn (উল্লম্ব তালিকার জন্য) এবং LazyRow (অনুভূমিকের জন্য)"
+    ],
+    "answer": 3,
+    "explanation": "`LazyColumn` কেবল স্ক্রিনে দৃশ্যমান আইটেমগুলোকেই কম্পোজ করে ফলে হাজার হাজার আইটেমের তালিকাও দ্রুত স্ক্রোল হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4314,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কম্পোজে কোনো উপাদানের সাইজ, প্যাডিং, ব্যাকগ্রাউন্ড, বর্ডার ও ক্লিক আচরণ পরিবর্তন করার জন্য চেইন আকারে ব্যবহৃত অবজেক্ট কোনটি?",
+    "options": [
+      "A) Modifier (যেমন Modifier.fillMaxWidth().padding(16.dp))",
+      "B) Style",
+      "C) Attributes",
+      "D) Properties"
+    ],
+    "answer": 0,
+    "explanation": "Modifier হলো কম্পোজের মূল স্টাইলিং টুল যা দিয়ে যেকোনো কম্পোজেবলের লেআউট ও আচরণ কাস্টমাইজ করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4315,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "জেটপ্যাক কম্পোজে মেটেরিয়াল ডিজাইনের প্রমিত কাঠামো (যেমন TopAppBar, FloatingActionButton, BottomBar) সংবলিত লেআউট কোনটি?",
+    "options": [
+      "A) ScreenLayout",
+      "B) Container",
+      "C) Scaffold",
+      "D) Surface"
+    ],
+    "answer": 2,
+    "explanation": "`Scaffold` একটি পূর্ণাঙ্গ মেটেরিয়াল অ্যাপ স্ক্রিনের মৌলিক স্লটগুলো প্রদান করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4316,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "জেটপ্যাক কম্পোজে টেক্সট লেখার জন্য মৌলিক কম্পোজেবল ফাংশন কোনটি?",
+    "options": [
+      "A) EditText()",
+      "B) Text(\"Hello World\")",
+      "C) TextView()",
+      "D) Label()"
+    ],
+    "answer": 1,
+    "explanation": "`Text()` হলো কম্পোজের টেক্সট রেন্ডারিং ফাংশন।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4317,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "জেটপ্যাক কম্পোজে ব্যবহারকারীর কাছ থেকে টেক্সট ইনপুট নেওয়ার মূল কম্পোজেবল কোনটি?",
+    "options": [
+      "A) InputBox",
+      "B) TextBox",
+      "C) TextField বা OutlinedTextField",
+      "D) EditText"
+    ],
+    "answer": 2,
+    "explanation": "`TextField` এবং `OutlinedTextField` মেটেরিয়াল ডিজাইনের ইনপুট ফিল্ড যা নিয়ন্ত্রিত স্টেট নিয়ে চলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4318,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কম্পোজে স্টেটকে কোনো চাইল্ড কম্পোজেবলের ভেতরে সীমাবদ্ধ না রেখে প্যারেন্ট ফাংশনে তুলে নেওয়ার আর্কিটেকচারাল প্যাটার্নকে কী বলে?",
+    "options": [
+      "A) State Hiding",
+      "B) State Hoisting (স্টেট উত্তোলন)",
+      "C) State Isolation",
+      "D) State Dropping"
+    ],
+    "answer": 1,
+    "explanation": "State Hoisting কম্পোজেবল ফাংশনগুলোকে স্টেটলেস (Stateless) বানায় ফলে কোড সহজে টেস্ট ও পুনর্ব্যবহার করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4319,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যাক্টিভিটির ভেতরে জেটপ্যাক কম্পোজ ইউআই প্রদর্শনের জন্য ব্যবহৃত মেথড কোনটি?",
+    "options": [
+      "A) setContentView()",
+      "B) initCompose()",
+      "C) startCompose()",
+      "D) setContent { ... }"
+    ],
+    "answer": 3,
+    "explanation": "ComponentActivity-তে `setContent { MyComposeApp() }` কল করে রুট কম্পোজিবল লোড করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4320,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "অ্যান্ড্রয়েড ইউজার ইন্টারফেস ও জেটপ্যাক কম্পোজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড স্টুডিওতে কোনো এমুলেটর না চালিয়ে সরাসরি কোড এডিটরেই কম্পোজেবল প্রিভিউ দেখার অ্যানোটেশন কোনটি?",
+    "options": [
+      "A) @Preview",
+      "B) @Emulator",
+      "C) @Design",
+      "D) @ShowUI"
+    ],
+    "answer": 0,
+    "explanation": "`@Preview` অ্যানোটেশন দিলে অ্যান্ড্রয়েড স্টুডিওর স্প্লিট উইন্ডোতে তাৎক্ষণিক লাইভ প্রিভিউ দেখা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4321,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপ্লিকেশনে এক অ্যাক্টিভিটি থেকে অন্য অ্যাক্টিভিটি চালু বা বার্তা আদান-প্রদানের অবজেক্টকে কী বলে?",
+    "options": [
+      "A) টাস্ক",
+      "B) ইনটেন্ট (Intent)",
+      "C) বান্ডেল",
+      "D) কনটেক্সট"
+    ],
+    "answer": 1,
+    "explanation": "Intent হলো অ্যান্ড্রয়েড ফ্রেমওয়ার্কের একটি অ্যাসিনক্রোনাস মেসেজিং অবজেক্ট যা কোনো কাজ করার ইচ্ছা প্রকাশ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4322,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "নিজের অ্যাপ্লিকেশনের সুনির্দিষ্ট কোনো অ্যাক্টিভিটি ক্লাসকে সরাসরি চালু করতে যে ইনটেন্ট ব্যবহৃত হয় তাকে কী বলে?",
+    "options": [
+      "A) সিস্টেম ইনটেন্ট",
+      "B) ইমপ্লিসিট ইনটেন্ট",
+      "C) ব্রডকাস্ট ইনটেন্ট",
+      "D) এক্সপ্লিসিট ইনটেন্ট (Explicit Intent - যেমন Intent(this, SecondActivity::class.java))"
+    ],
+    "answer": 3,
+    "explanation": "Explicit Intent-এ টার্গেট ক্লাসের নাম সরাসরি উল্লেখ থাকে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4323,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোনো নির্দিষ্ট অ্যাপের নাম উল্লেখ না করে একটি কাজের ধরন (যেমন ওয়েবপেজ খোলা, কল করা, ছবি তোলা) উল্লেখ করে সিস্টেমের উপযুক্ত অ্যাপকে ডাকার ইনটেন্ট কোনটি?",
+    "options": [
+      "A) ইমপ্লিসিট ইনটেন্ট (Implicit Intent - যেমন ACTION_VIEW, ACTION_DIAL)",
+      "B) এক্সপ্লিসিট ইনটেন্ট",
+      "C) প্রাইভেট ইনটেন্ট",
+      "D) লোকাল ইনটেন্ট"
+    ],
+    "answer": 0,
+    "explanation": "Implicit Intent ওএস-কে অনুরোধ করে এবং ওএস ডিভাইস থেকে উপযুক্ত অ্যাপের তালিকা (App Chooser) দেখায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4324,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "একটি ব্রাউজারে নির্দিষ্ট ওয়েব ঠিকানা খোলার জন্য সঠিক ইমপ্লিসিট ইনটেন্ট কোড কোনটি?",
+    "options": [
+      "A) val intent = Intent(ACTION_CALL)",
+      "B) val intent = Intent(this, Browser::class.java)",
+      "C) val intent = Intent(Intent.ACTION_VIEW, Uri.parse(\"https://www.google.com\"))",
+      "D) val intent = Intent(\"OPEN_BROWSER\")"
+    ],
+    "answer": 2,
+    "explanation": "`ACTION_VIEW` এবং Uri স্কিমের সাহায্যে যেকোনো ওয়েবসাইট ব্রাউজারে চালু করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4325,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ইনটেন্টের মাধ্যমে পরবর্তী অ্যাক্টিভিটিতে অতিরিক্ত ডেটা (যেমন নাম, আইডি) পাঠানোর মেথড কোনটি?",
+    "options": [
+      "A) putExtra(key, value) (যেমন intent.putExtra(\"USER_ID\", 101))",
+      "B) sendParam()",
+      "C) addData()",
+      "D) setExtra()"
+    ],
+    "answer": 0,
+    "explanation": "`putExtra()` মেথড কি-ভ্যালু পেয়ার আকারে প্রিমিটিভ ডেটা বা সিরিয়ালাইজেবল অবজেক্ট ইনটেন্টে যুক্ত করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4326,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "টার্গেট অ্যাক্টিভিটিতে ইনটেন্ট থেকে পাঠানো স্ট্রিং ডেটা রিসিভ করার কোড কোনটি?",
+    "options": [
+      "A) intent.getData()",
+      "B) intent.getStringExtra(\"USER_NAME\")",
+      "C) intent.readExtra()",
+      "D) intent.getString()"
+    ],
+    "answer": 1,
+    "explanation": "`getIntent().getStringExtra(key)` দিয়ে প্রেরিত স্ট্রিং মানটি রিড করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4327,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড ইন্টার-প্রসেস কমিউনিকেশনে জাভার সনাতন Serializable-এর চেয়ে অনেক গুণ দ্রুতগতির কাস্টম অবজেক্ট পাসিং ইন্টারফেস কোনটি?",
+    "options": [
+      "A) জেএসওএন",
+      "B) এক্সএমএল",
+      "C) সিরিয়ালাইজেবল (Serializable)",
+      "D) পার্সেল্যাবল (Parcelable - @Parcelize অ্যানোটেশন সহ)"
+    ],
+    "answer": 3,
+    "explanation": "Parcelable বিশেষভাবে অ্যান্ড্রয়েড আর্কিটেকচারের জন্য অপ্টিমাইজড যা কোনো রিফ্লেকশন ওভারহেড ছাড়াই দ্রুত মেমরি কপি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4328,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "পুরনো startActivityForResult()-এর বিকল্প হিসেবে কোনো অ্যাক্টিভিটি থেকে ফলাফল পাওয়ার সর্বাধুনিক প্রস্তাবিত এপিআই কোনটি?",
+    "options": [
+      "A) fetchResult",
+      "B) startActivityForResult",
+      "C) Activity Result API (registerForActivityResult)",
+      "D) onActivityResult"
+    ],
+    "answer": 2,
+    "explanation": "Activity Result API টাইপ-সেফ চুক্তি (Contracts) ব্যবহার করে ক্যামেরা বা গ্যালারি থেকে রেজাল্ট পাওয়া অনেক সহজ ও ক্র্যাশ-মুক্ত করেছে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4329,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড জেটপ্যাক নেভিগেশন কম্পোনেন্টে অ্যাপের সকল স্ক্রিন ও তাদের মধ্যকার ট্রানজিশন ভিজ্যুয়ালি সংজ্ঞায়িত করার XML ফাইলের নাম কী?",
+    "options": [
+      "A) routes.xml",
+      "B) AndroidManifest.xml",
+      "C) Navigation Graph (nav_graph.xml)",
+      "D) screens.xml"
+    ],
+    "answer": 2,
+    "explanation": "Navigation Graph অ্যাপের স্ক্রিনগুলোর ডিরেকশন ও ডেটা ফ্লো একটি কেন্দ্রীয় ম্যাপে প্রদর্শন ও পরিচালনা করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4330,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "জেটপ্যাক নেভিগেশনে এক গন্তব্য (Destination) থেকে অন্য গন্তব্যে কোড দিয়ে নেভিগেট করার মেথড কোনটি?",
+    "options": [
+      "A) Navigation.start()",
+      "B) FragmentManager.go()",
+      "C) Router.open()",
+      "D) findNavController().navigate(R.id.action_home_to_detail)"
+    ],
+    "answer": 3,
+    "explanation": "NavController অবজেক্ট ব্যাক-স্ট্যাক ও ট্রানজিশন অ্যানিমেশন স্বয়ংক্রিয়ভাবে বজায় রেখে নেভিগেশন সম্পন্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4331,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপে ছোট ছোট ডেটা (যেমন ইউজার লগইন টোকেন, ডার্ক মোড সেটিংস) কি-ভ্যালু পেয়ারে লোকালি সংরক্ষণের সবচেয়ে হালকা মাধ্যম কোনটি?",
+    "options": [
+      "A) শেয়ার্ড প্রেফারেন্সেস (SharedPreferences)",
+      "B) রুম ডাটাবেস",
+      "C) এক্সটার্নাল ফাইল",
+      "D) SQLite ডাটাবেস"
+    ],
+    "answer": 0,
+    "explanation": "SharedPreferences ব্যাকগ্রাউন্ডে একটি ছোট এক্সএমএল ফাইলে কি-ভ্যালু আকারে সাধারণ প্রিমিটিভ ডেটা দ্রুত সংরক্ষণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4332,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "SharedPreferences-এ ডেটা সেভ করার সময় 'commit()' এবং 'apply()'-এর মধ্যে পার্থক্য কী?",
+    "options": [
+      "A) apply() কোনো ডেটা সেভ করে না",
+      "B) apply() অ্যাসিনক্রোনাসলি ব্যাকগ্রাউন্ডে ডেটা লেখে এবং কোনো ইউআই থ্রেড ব্লক করে না; কিন্তু commit() সিঙ্ক্রোনাসলি লেখে ও ইউআই ব্লক করতে পারে",
+      "C) উভয় মেথড একই",
+      "D) commit() নিরাপদ নয়"
+    ],
+    "answer": 1,
+    "explanation": "`apply()` মেমরি ক্যাশ তাৎক্ষণিক আপডেট করে ডিস্কে ব্যাকগ্রাউন্ডে লেখে বলে গুগল সর্বদা `apply()` ব্যবহারের সুপারিশ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4333,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "SharedPreferences-এর সীমাবদ্ধতা কাটিয়ে কোটলিন কোরুটিনস ও ফ্লো (Flow) সমর্থিত আধুনিক ডেটা স্টোরেজ লাইব্রেরি কোনটি?",
+    "options": [
+      "A) Realm",
+      "B) FileStore",
+      "C) জেটপ্যাক ডেটাস্টোর (Jetpack DataStore - Preferences / Proto DataStore)",
+      "D) SQLite"
+    ],
+    "answer": 2,
+    "explanation": "DataStore সম্পূর্ণ নন-ব্লকিং, অ্যাসিনক্রোনাস এবং টাইপ-সেফ যা শেয়ার্ড প্রেফারেন্সের আধুনিক বিকল্প।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4334,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপের ইন্টারনাল স্টোরেজে (Internal Storage) সংরক্ষিত ফাইলের নিরাপত্তা বৈশিষ্ট্য কোনটি?",
+    "options": [
+      "A) মেমরি কার্ডে সেভ হয়",
+      "B) ফাইল কখনো মোছা যায় না",
+      "C) সব অ্যাপ এই ডেটা পড়তে পারে",
+      "D) ফাইলগুলো সম্পূর্ণ প্রাইভেট এবং অন্য কোনো সাধারণ অ্যাপ এগুলোতে অ্যাক্সেস করতে পারে না; অ্যাপ আনইনস্টল করলে ফাইল স্বয়ংক্রিয়ভাবে মুছে যায়"
+    ],
+    "answer": 3,
+    "explanation": "Internal Storage `/data/data/<package_name>/` ডিরেক্টরিতে থাকে যা লিনাক্স ইউজার আইডির মাধ্যমে সম্পূর্ণ সুরক্ষিত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4335,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েডে প্রথাগতভাবে অন্তর্ভুক্ত লাইটওয়েট রিলেশনাল ডাটাবেস ইঞ্জিন কোনটি?",
+    "options": [
+      "A) SQLite",
+      "B) PostgreSQL",
+      "C) MySQL",
+      "D) Oracle"
+    ],
+    "answer": 0,
+    "explanation": "SQLite একটি এমবেডেড ফাইল-ভিত্তিক সার্ভারলেস এসকিউএল ইঞ্জিন যা অ্যান্ড্রয়েডের জন্মলগ্ন থেকেই অন্তর্ভুক্ত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4336,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "সরাসরি SQLite কোড লেখার জটিলতা দূর করে কম্পাইল-টাইম এসকিউএল যাচাইকরণ প্রদানকারী গুগলের অফিসিয়াল ওআরএম (ORM) লাইব্রেরি কোনটি?",
+    "options": [
+      "A) রিয়েলম",
+      "B) রুম পারসিস্টেন্স লাইব্রেরি (Room Database)",
+      "C) হাইবারনেট",
+      "D) গ্রিনডিএও"
+    ],
+    "answer": 1,
+    "explanation": "Room লাইব্রেরি SQLite-এর ওপর একটি আধুনিক অ্যাবস্ট্রাকশন লেয়ার যা কম্পাইল টাইমে এসকিউএল ভুল ধরে ফেলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4337,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "রুম ডাটাবেসে একটি ডেটা ক্লাস যে একটি ডাটাবেস টেবিল নির্দেশ করে তা বোঝাতে কোন অ্যানোটেশনটি ব্যবহার করা হয়?",
+    "options": [
+      "A) @DatabaseTable",
+      "B) @Table",
+      "C) @Entity (যেমন @Entity(tableName = \"users\"))",
+      "D) @Model"
+    ],
+    "answer": 2,
+    "explanation": "`@Entity` অ্যানোটেশন ক্লাসের প্রতিটি ফিল্ডকে ডাটাবেস টেবিলের কলাম হিসেবে বিবেচনা করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4338,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "রুম ডাটাবেসে টেবিলের ডেটা অ্যাক্সেস মেথড (যেমন @Insert, @Update, @Delete, @Query) সংজ্ঞায়িত করার ইন্টারফেসকে কী বলে?",
+    "options": [
+      "A) DAO (Data Access Object - @Dao ইন্টারফেস)",
+      "B) ModelView",
+      "C) Repository",
+      "D) Controller"
+    ],
+    "answer": 0,
+    "explanation": "DAO ইন্টারফেস ডাটাবেসের সমস্ত কুয়েরি ও ক্রাড অপারেশন পরিচ্ছন্নভাবে আলাদা রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4339,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "রুম ডাটাবেস কেন মেইন ইউআই থ্রেডে সরাসরি কোয়েরি চালানো নিষিদ্ধ করেছে?",
+    "options": [
+      "A) রুম মেমরি ধ্বংস করে দেয়",
+      "B) ডাটাবেস আই/ও অপারেশন মেইন থ্রেডকে ব্লক করে অ্যাপ্লিকেশনে ল্যাগ বা ANR (Application Not Responding) সৃষ্টি করতে পারে",
+      "C) এসকিউএল মেইন থ্রেড চেনে না",
+      "D) ডাটাবেস লক হয়ে যায়"
+    ],
+    "answer": 1,
+    "explanation": "রুম ব্যাকগ্রাউন্ড থ্রেড বা কোটলিন কোরুটিন্স (`suspend fun`) ছাড়া মেইন থ্রেডে চললে তাৎক্ষণিক এক্সেপশন ছুঁড়ে মারবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4340,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড ১০ (API 29) সংস্করণ থেকে ব্যবহারকারীর গোপনীয়তা রক্ষায় এক্সটার্নাল স্টোরেজের জন্য চালু করা বাধ্যতামূলক নিরাপত্তা ব্যবস্থার নাম কী?",
+    "options": [
+      "A) রুট স্টোরেজ",
+      "B) ওপেন স্টোরেজ",
+      "C) পাবলিক ফাইল সিস্টেম",
+      "D) স্কোপড স্টোরেজ (Scoped Storage)"
+    ],
+    "answer": 3,
+    "explanation": "Scoped Storage কোনো অ্যাপকে পুরো মেমরি কার্ড অবাধে ব্রাউজ করতে দেয় না; কেবল নিজস্ব ফোল্ডার ও অনুমোদিত মিডিয়া দেখতে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4341,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "স্ক্রিনের নিচ থেকে একটি ড্রয়ার টেনে বের করার লেআউটকে (Navigation Drawer) কী বলে?",
+    "options": [
+      "A) SlidingPaneLayout",
+      "B) DrawerLayout",
+      "C) MenuLayout",
+      "D) SideLayout"
+    ],
+    "answer": 1,
+    "explanation": "DrawerLayout বাম বা ডান দিক থেকে স্লাইড করে নেভিগেশন মেনু খুলে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4342,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "মেটেরিয়াল ডিজাইনে স্ক্রিনের নিচের অংশে ৩ থেকে ৫টি মূল বিভাগের আইকনযুক্ত মেনুকে কী বলে?",
+    "options": [
+      "A) ActionBar",
+      "B) FooterMenu",
+      "C) TabBar",
+      "D) BottomNavigationView"
+    ],
+    "answer": 3,
+    "explanation": "BottomNavigationView আধুনিক মোবাইল অ্যাপের প্রাথমিক নেভিগেশন বার হিসেবে ব্যবহৃত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4343,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ইনটেন্টে অবজেক্ট পাস করতে কোটলিনের কোন প্লাগইন ব্যবহার করে মাত্র এক লাইনে Parcelable কোড জেনারেট করা যায়?",
+    "options": [
+      "A) @Serialize",
+      "B) @AutoParcel",
+      "C) @Parcelize অ্যানোটেশন (kotlin-parcelize প্লাগইন)",
+      "D) @Bundle"
+    ],
+    "answer": 2,
+    "explanation": "`@Parcelize` কোটলিনের একটি কম্পাইলার প্লাগইন যা বয়লারপ্লেট কোড ছাড়াই স্বয়ংক্রিয়ভাবে পার্সেল্যাবল বাস্তবায়ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4344,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "রুম ডাটাবেসে টেবিলের প্রাইমারি কি স্বয়ংক্রিয়ভাবে বৃদ্ধির সিনট্যাক্স কোনটি?",
+    "options": [
+      "A) @PrimaryKey(autoGenerate = true)",
+      "B) @AutoIncrement",
+      "C) @Key",
+      "D) @Id"
+    ],
+    "answer": 0,
+    "explanation": "`@PrimaryKey(autoGenerate = true)` দিলে প্রতি নতুন রো সন্নিবেশে আইডি মান ১ করে বাড়বে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4345,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "রুম ডাটাবেসে কোনো কাস্টম অবজেক্টকে (যেমন Date বা List) রূপান্তর করে টেবিলে সংরক্ষণ করার পদ্ধতির নাম কী?",
+    "options": [
+      "A) টাইপ কনভার্টার (@TypeConverters)",
+      "B) কাস্টিং",
+      "C) অবজেক্ট ম্যাপিং",
+      "D) সিরিয়ালাইজেশন"
+    ],
+    "answer": 0,
+    "explanation": "`@TypeConverters` দিয়ে জটিল অবজেক্টকে লং টাইমস্ট্যাম্প বা জেএসওএন স্ট্রিংয়ে রূপান্তর করে এসকিউএলে রাখা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4346,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ইনটেন্টের অ্যাকশন 'ACTION_SEND' সাধারণত কোন কাজের জন্য ব্যবহৃত হয়?",
+    "options": [
+      "A) ফোন বন্ধ করা",
+      "B) ক্যামেরা অন করা",
+      "C) ফোন কল করা",
+      "D) সোশ্যাল মিডিয়া, ইমেইল বা মেসেজিং অ্যাপের মাধ্যমে টেক্সট বা ছবি শেয়ার করা (Share Sheet খোলা)"
+    ],
+    "answer": 3,
+    "explanation": "`ACTION_SEND` ফোনের প্রমিত সিস্টেম শেয়ার ডায়ালগ প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4347,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "সরাসরি ফোন কল করার জন্য ম্যানিফেস্টে কোন বিপজ্জনক পারমিশনটি (Dangerous Permission) ঘোষণা করতে হয়?",
+    "options": [
+      "A) android.permission.DIAL_PHONE",
+      "B) android.permission.SEND_CALL",
+      "C) android.permission.CALL_PHONE",
+      "D) android.permission.PHONE"
+    ],
+    "answer": 2,
+    "explanation": "`CALL_PHONE` সরাসরি ডায়ালার ডায়ালপ্যাড না দেখিয়ে কল লাগিয়ে দেয় বলে এটি রানটাইম পারমিশনের আওতাভুক্ত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4348,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যাক্টিভিটি ম্যানিফেস্টে `<activity>` ট্যাগের ভেতরে 'android:launchMode' কত প্রকার হতে পারে?",
+    "options": [
+      "A) প্রকার",
+      "B) প্রকার: standard, singleTop, singleTask, এবং singleInstance",
+      "C) প্রকার",
+      "D) ৫ প্রকার"
+    ],
+    "answer": 1,
+    "explanation": "এই ৪টি লঞ্চ মোড অ্যাক্টিভিটি ব্যাক-স্ট্যাকে কীভাবে তৈরি ও পরিচালিত হবে তা নিয়ন্ত্রণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4349,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "নেভিগেশন আর্কিটেকচারে একক অ্যাক্টিভিটি এবং একাধিক ফ্র্যাগমেন্ট বিশিষ্ট আধুনিক মডেলকে কী বলে?",
+    "options": [
+      "A) সার্ভিস আর্কিটেকচার",
+      "B) নো-অ্যাক্টিভিটি",
+      "C) মাল্টি-অ্যাক্টিভিটি আর্কিটেকচার",
+      "D) সিঙ্গেল-অ্যাক্টিভিটি আর্কিটেকচার (Single-Activity Architecture)"
+    ],
+    "answer": 3,
+    "explanation": "গুগল সুপারিশ করে একটি মূল MainActivity রাখা এবং বাকি সমস্ত স্ক্রিনকে ফ্র্যাগমেন্ট হিসেবে পরিচালনা করা।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4350,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "রুম ডাটাবেস মাইগ্রেশনে টেবিল কাঠামো পরিবর্তনের সময় ডেটা নষ্ট না করে নতুন কলাম যোগ করার ক্লাসের নাম কী?",
+    "options": [
+      "A) Migration ক্লাস (যেমন Migration(1, 2))",
+      "B) TableAlter",
+      "C) DataSync",
+      "D) SchemaUpdater"
+    ],
+    "answer": 0,
+    "explanation": "Migration ক্লাসে এসকিউএল `ALTER TABLE` লিখে পুরোনো সংস্করণ থেকে নতুন সংস্করণে ডেটা অক্ষত রেখে যাওয়া যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4351,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "রুম ডাটাবেসে DAO মেথডে ডেটা পরিবর্তনের সাথে সাথে স্বয়ংক্রিয়ভাবে ইউআই আপডেট পেতে রিটার্ন টাইপ হিসেবে কী ব্যবহৃত হয়?",
+    "options": [
+      "A) ArrayList<User>",
+      "B) Cursor",
+      "C) Flow<List<User>> বা LiveData<List<User>>",
+      "D) Set<User>"
+    ],
+    "answer": 2,
+    "explanation": "Flow বা LiveData রিটার্ন করলে ডাটাবেসে কোনো পরিবর্তন হলেই স্বয়ংক্রিয়ভাবে নতুন তালিকা নির্গত হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4352,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েডে সংবেদনশীল কি-ভ্যালু ডেটা হার্ডওয়্যার ব্যাকড সিকিউরিটিতে এনক্রিপ্ট করে রাখার জেটপ্যাক সিকিউরিটি ক্লাসের নাম কী?",
+    "options": [
+      "A) SecureStorage",
+      "B) EncryptedSharedPreferences",
+      "C) KeyChainStore",
+      "D) SafePreferences"
+    ],
+    "answer": 1,
+    "explanation": "EncryptedSharedPreferences অ্যান্ড্রয়েড কীস্টোর ব্যবহার করে AES-256 এনক্রিপশনে ডেটা নিরাপদ রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4353,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "নেভিগেশন গ্রাফে ফ্র্যাগমেন্টের আর্গুমেন্ট টাইপ-সেফ উপায়ে পাস করার জন্য গ্র্যাডল প্লাগইন কোনটি?",
+    "options": [
+      "A) type.nav",
+      "B) safe.bundle",
+      "C) arg.passer",
+      "D) androidx.navigation.safeargs.kotlin"
+    ],
+    "answer": 3,
+    "explanation": "SafeArgs প্লাগইন ডিরেকশন ও আর্গুমেন্ট ক্লাস তৈরি করে ভুল কি-নেম বা টাইপ কাস্টিং ক্র্যাশ প্রতিরোধ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4354,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড সিস্টেমে সিস্টেম সেটিংস অ্যাক্টিভিটি (যেমন ওয়াইফাই সেটিংস) খোলার ইনটেন্ট কোনটি?",
+    "options": [
+      "A) Intent(OPEN_SETTINGS)",
+      "B) Intent(Settings.ACTION_WIFI_SETTINGS)",
+      "C) Intent(ACTION_INTERNET)",
+      "D) Intent(SYSTEM_WIFI)"
+    ],
+    "answer": 1,
+    "explanation": "`Settings.ACTION_WIFI_SETTINGS` ব্যবহারকারীকে সরাসরি ফোনের ওয়াইফাই সেটিংস পেজে নিয়ে যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4355,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "স্টোরেজ অ্যাক্সেস ফ্রেমওয়ার্কের (SAF) মাধ্যমে ফাইল পিক করার ইনটেন্ট অ্যাকশন কোনটি?",
+    "options": [
+      "A) ACTION_STORAGE",
+      "B) ACTION_READ_FILE",
+      "C) Intent.ACTION_OPEN_DOCUMENT (বা ACTION_GET_CONTENT)",
+      "D) ACTION_PICK_ALL"
+    ],
+    "answer": 2,
+    "explanation": "ACTION_OPEN_DOCUMENT সিস্টেম ফাইল ব্রাউজার খুলে ব্যবহারকারীকে নির্দিষ্ট ফাইল বাছাই করার অধিকার দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4356,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "একটি অ্যাপ্লিকেশন আনইনস্টল করলেও মুছে যাবে না এমন পাবলিক মিডিয়া ফাইল (ছবি/ভিডিও) সংরক্ষণের প্রমিত স্থান কোনটি?",
+    "options": [
+      "A) মিডিয়া স্টোর এপিআই (MediaStore - Pictures, Movies, DCIM ফোল্ডার)",
+      "B) অ্যাপ প্রাইভেট ডিরেক্টরি",
+      "C) ইন্টারনাল ক্যাশ",
+      "D) শেয়ার্ড প্রেফারেন্স"
+    ],
+    "answer": 0,
+    "explanation": "MediaStore এপিআই পাবলিক মিডিয়া ডিরেক্টরিতে ছবি সেভ করে যা অ্যাপ আনইনস্টল করলেও ফোনে থেকে যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4357,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েডে ইনটেন্ট পাঠানোর আগে ডিভাইসে সেই ইনটেন্ট পূরণ করার মতো কোনো অ্যাপ ইনস্টল আছে কিনা তা যাচাই করার মেথড কোনটি?",
+    "options": [
+      "A) intent.resolveActivity(packageManager) != null",
+      "B) verifyAction()",
+      "C) checkIntent()",
+      "D) isAppAvailable()"
+    ],
+    "answer": 0,
+    "explanation": "`resolveActivity()` পরীক্ষা করা না হলে কোনো সাপোর্টেড অ্যাপ না থাকলে ActivityNotFoundException হয়ে অ্যাপ ক্র্যাশ করবে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4358,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যাপের ক্যাশ মেমরি (Cache Memory) সাময়িকভাবে জমা রাখার জন্য ব্যবহৃত ডিরেক্টরি কোনটি?",
+    "options": [
+      "A) root/temp",
+      "B) context.cacheDir (বা context.externalCacheDir)",
+      "C) system/cache",
+      "D) context.filesDir"
+    ],
+    "answer": 1,
+    "explanation": "ক্যাশ ডিরেক্টরিতে ডাউনলোড করা ছবি জমা থাকে যা মেমরি সংকটে ওএস স্বয়ংক্রিয়ভাবে ডিলিট করতে পারে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4359,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "রুম ডাটাবেস টেবিল ডিলিট করার সংকেত কোনটি?",
+    "options": [
+      "A) @Erase",
+      "B) @Remove",
+      "C) @Delete suspend fun delete(user: User)",
+      "D) @Drop"
+    ],
+    "answer": 2,
+    "explanation": "`@Delete` অ্যানোটেশন সংশ্লিষ্ট রো ডাটাবেস থেকে মুছে ফেলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4360,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "ইনটেন্ট, নেভিগেশন ও ডেটা স্টোরেজ",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ইনটেন্টে অবজেক্ট হিসেবে পুরো একটি বান্ডেল পাস করার মেথড কোনটি?",
+    "options": [
+      "A) intent.save(bundle)",
+      "B) intent.setBundle(bundle)",
+      "C) intent.addBundle(bundle)",
+      "D) intent.putExtras(bundle)"
+    ],
+    "answer": 3,
+    "explanation": "`putExtras(Bundle)` দিয়ে একটি সম্পূর্ণ বান্ডেল অবজেক্ট ইনটেন্টে একসাথে পাস করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4361,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড ওএসে মেইন ইউআই থ্রেড (Main/UI Thread) টানা ৫ সেকেন্ড বা তার বেশি ব্লক হয়ে থাকলে সিস্টেমে যে গুরুতর ত্রুটি দেখা দেয় তাকে কী বলে?",
+    "options": [
+      "A) ANR (Application Not Responding - অ্যাপ বন্ধ করার ডায়ালগ আসে)",
+      "B) NullPointerException",
+      "C) StackOverflow",
+      "D) OutOfMemoryError"
+    ],
+    "answer": 0,
+    "explanation": "মেইন থ্রেড ইউজার ইন্টারফেস ড্র করে; সেখানে নেটওয়ার্ক বা ভারী ক্যালকুলেশন চালালে সিস্টেম ফ্রিজ হয়ে ANR ডায়ালগ দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4362,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোটলিন কোরুটিনস (Kotlin Coroutines)-এর মূল প্রযুক্তিগত সৌন্দর্য কোনটি?",
+    "options": [
+      "A) এটি কেবল মেমরি ডিলিট করে",
+      "B) এটি নতুন সিপিইউ তৈরি করে",
+      "C) এতে কোনো মেমরি লাগে না",
+      "D) এটি হালকা ভার্চুয়াল থ্রেডের মতো কাজ করে যা অন্তর্নিহিত ওএস থ্রেডকে ব্লক না করেই কোডকে সাময়িক সাসপেন্ড (Suspend) করতে পারে"
+    ],
+    "answer": 3,
+    "explanation": "কোরুটিন্স হাজার হাজার ব্যাকগ্রাউন্ড টাস্ক চালাতে পারে অত্যন্ত নগণ্য মেমরি খরচে থ্রেড ব্লকিং ছাড়াই।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4363,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোটলিনে যে ফাংশনগুলো কোরুটিনের ভেতরে সাময়িকভাবে এক্সিকিউশন পজ বা সাসপেন্ড করতে পারে তাদের আগে কোন কীওয়ার্ডটি লিখতে হয়?",
+    "options": [
+      "A) async",
+      "B) suspend (যেমন suspend fun fetchData(): String)",
+      "C) delay",
+      "D) await"
+    ],
+    "answer": 1,
+    "explanation": "`suspend` ফাংশন কেবল অন্য কোনো suspend ফাংশন বা কোরুটিন স্কোপের ভেতর থেকেই কল করা যায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4364,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "নেটওয়ার্ক কল, ডাটাবেস কোয়েরি বা ডিস্ক ফাইল রিড/রাইটের জন্য কোন কোরুটিন ডিসপ্যাচারটি (Dispatcher) ব্যবহার করা বাধ্যতামূলক?",
+    "options": [
+      "A) Dispatchers.Unconfined",
+      "B) Dispatchers.Default",
+      "C) Dispatchers.IO",
+      "D) Dispatchers.Main"
+    ],
+    "answer": 2,
+    "explanation": "`Dispatchers.IO` ইনপুট/আউটপুট অপারেশনের জন্য অপ্টিমাইজড থ্রেড পুল বরাদ্দ করে মেইন থ্রেডকে সুরক্ষিত রাখে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4365,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "জটিল গাণিতিক হিসাব বা ভারী সিপিইউ প্রসেসিংয়ের জন্য কোন কোরুটিন ডিসপ্যাচারটি উপযুক্ত?",
+    "options": [
+      "A) Dispatchers.Main",
+      "B) Dispatchers.IO",
+      "C) Dispatchers.Current",
+      "D) Dispatchers.Default"
+    ],
+    "answer": 3,
+    "explanation": "`Dispatchers.Default` সিপিইউ কোর সংখ্যার সমান থ্রেড ব্যবহার করে ভারী গাণিতিক অ্যালগরিদম চালায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4366,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ব্যাকগ্রাউন্ড থ্রেড থেকে প্রাপ্ত ফলাফল দিয়ে সরাসরি টেক্সটভিউ বা স্ক্রিন আপডেট করার জন্য কোন ডিসপ্যাচার আবশ্যক?",
+    "options": [
+      "A) Dispatchers.Default",
+      "B) Dispatchers.Main",
+      "C) Dispatchers.Async",
+      "D) Dispatchers.IO"
+    ],
+    "answer": 1,
+    "explanation": "অ্যান্ড্রয়েডে UI উইজেট কেবল মেইন থ্রেড থেকেই পরিবর্তন করা সম্ভব; তাই `withContext(Dispatchers.Main)` ব্যবহার করা হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4367,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোরুটিনে সমান্তরালভাবে দুটি কাজ চালিয়ে ফলাফল ফেরত পাওয়ার জন্য 'async' বিল্ডারের সাথে কোন মেথড কল করতে হয়?",
+    "options": [
+      "A) result()",
+      "B) get()",
+      "C) await() (যেমন val data = deferred.await())",
+      "D) join()"
+    ],
+    "answer": 2,
+    "explanation": "`async` একটি Deferred অবজেক্ট রিটার্ন করে এবং `await()` কল করলে ফলাফল প্রস্তুত না হওয়া পর্যন্ত অপেক্ষা করে মান দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4368,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েডে RESTful ওয়েব এপিআই (API) কল করার জন্য স্কয়ার (Square) কর্তৃক নির্মিত ইন্ডাস্ট্রি স্ট্যান্ডার্ড টাইপ-সেফ এইচটিটিপি ক্লায়েন্ট কোনটি?",
+    "options": [
+      "A) রেট্রোফিট (Retrofit)",
+      "B) ভলি (Volley)",
+      "C) ফেচ",
+      "D) এইচটিটিপিক্লায়েন্ট"
+    ],
+    "answer": 0,
+    "explanation": "Retrofit জাভা/কোটলিন ইন্টারফেসকে অ্যানোটেশনের মাধ্যমে এইচটিটিপি রিকোয়েস্টে রূপান্তর করে এবং এটি বিশ্বজুড়ে সর্বাধিক ব্যবহৃত।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4369,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "Retrofit ইন্টারফেসে সার্ভার থেকে ডেটা পাওয়ার জন্য HTTP GET মেথডের অ্যানোটেশন কোনটি?",
+    "options": [
+      "A) @FETCH",
+      "B) @POST",
+      "C) @RETRIEVE",
+      "D) @GET(\"users/list\")"
+    ],
+    "answer": 3,
+    "explanation": "`@GET` অ্যানোটেশন সংশ্লিষ্ট শেষ প্রান্তে (Endpoint) এইচটিটিপি গেট রিকোয়েস্ট পাঠায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4370,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "সার্ভার থেকে প্রাপ্ত JSON রেসপন্সকে স্বয়ংক্রিয়ভাবে কোটলিন ডেটা অবজেক্টে রূপান্তর করার জন্য রেট্রোফিটের সাথে কোন কনভার্টার যুক্ত করা হয়?",
+    "options": [
+      "A) ByteConverter",
+      "B) TextConverter",
+      "C) GsonConverterFactory (বা MoshiConverterFactory)",
+      "D) XmlConverter"
+    ],
+    "answer": 2,
+    "explanation": "Gson বা Moshi কনভার্টার ফ্যাক্টরি ব্যাকগ্রাউন্ডে JSON ডেটাকে ডেটা ক্লাস মডেলে পার্স করে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4371,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ইন্টারনেট থেকে ছবি ডাউনলোড, স্বয়ংক্রিয় ডিস্ক ও মেমরি ক্যাশিং এবং মসৃণ প্রদর্শনের জন্য জনপ্রিয় কোটলিন ফার্স্ট লাইব্রেরি কোনটি?",
+    "options": [
+      "A) Room",
+      "B) Coil (বা Glide / Picasso)",
+      "C) Retrofit",
+      "D) WorkManager"
+    ],
+    "answer": 1,
+    "explanation": "Coil (Coroutine Image Loader) কোটলিন ও জেটপ্যাক কম্পোজের জন্য নির্মিত আধুনিক লাইটওয়েট ইমেজ লোডিং লাইব্রেরি।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4372,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ব্যবহারকারী অ্যাপ বন্ধ করে দিলেও বা ফোন রিস্টার্ট হলেও নির্ভরযোগ্য ব্যাকগ্রাউন্ড টাস্ক (যেমন ডেটা সিঙ্ক) নিশ্চিত করার জেটপ্যাক লাইব্রেরি কোনটি?",
+    "options": [
+      "A) WorkManager (OneTimeWorkRequest / PeriodicWorkRequest)",
+      "B) JobScheduler",
+      "C) IntentService",
+      "D) AsyncTask"
+    ],
+    "answer": 0,
+    "explanation": "WorkManager ব্যাটারি সাশ্রয়ী শর্ত (যেমন ওয়াইফাই সংযুক্ত বা চার্জিং অবস্থায় থাকা) সাপেক্ষে অবিচলভাবে কাজ সম্পন্ন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4373,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "গুগল প্লে সার্ভিসেসের মাধ্যমে ডিভাইসের সর্বোচ্চ নিখুঁত ও ব্যাটারি সাশ্রয়ী ভৌগোলিক অবস্থান (GPS Location) পাওয়ার এপিআই কোনটি?",
+    "options": [
+      "A) FusedLocationProviderClient",
+      "B) NetworkLocator",
+      "C) LocationManager",
+      "D) GpsProvider"
+    ],
+    "answer": 0,
+    "explanation": "Fused Location Provider জিপিএস, সেল টাওয়ার ও ওয়াইফাই সিগন্যাল বুদ্ধিমত্তার সাথে ফিউজ করে দ্রুত সঠিক লোকেশন দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4374,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড ৬.০ (মার্শম্যালো) থেকে ক্যামেরা, মাইক্রোফোন বা লোকেশনের মতো সংবেদনশীল পারমিশনের জন্য কোন নিয়ম বাধ্যতামূলক করা হয়েছে?",
+    "options": [
+      "A) টাকা দিয়ে পারমিশন কেনা",
+      "B) কেবল ইনস্টলের সময় সম্মতি",
+      "C) রানটাইম পারমিশন (Runtime Permissions - অ্যাপ চলার সময় ব্যবহারকারীর কাছ থেকে পপআপে সম্মতি নেওয়া)",
+      "D) কোনো পারমিশন লাগে না"
+    ],
+    "answer": 2,
+    "explanation": "Dangerous Permissions অ্যাপ ইনস্টলের পরে প্রথমবার ব্যবহারের মুহূর্তে ব্যবহারকারীর কাছে সম্মতি চাইতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4375,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ক্লাউড থেকে অ্যান্ড্রয়েড অ্যাপে পুশ নোটিফিকেশন পাঠানোর বিশ্বস্ত গুগল প্ল্যাটফর্ম কোনটি?",
+    "options": [
+      "A) Bluetooth",
+      "B) FCM (Firebase Cloud Messaging)",
+      "C) APNS",
+      "D) SMS Gateway"
+    ],
+    "answer": 1,
+    "explanation": "FCM সম্পূর্ণ বিনামূল্যে রিয়েল-টাইমে কোটি কোটি ডিভাইসে সার্ভার থেকে পুশ নোটিফিকেশন পৌঁছে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4376,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "গুগল প্লে স্টোরে প্রতিটি অ্যাপ আপডেটে বিল্ড ফাইলের কোন মানটি অবশ্যই আগের চেয়ে বেশি হতে হয়?",
+    "options": [
+      "A) targetSdk",
+      "B) minSdk",
+      "C) versionName",
+      "D) versionCode (পূর্ণসংখ্যা মান, যেমন 1, 2, 3...)"
+    ],
+    "answer": 3,
+    "explanation": "`versionCode` একটি ধনাত্মক পূর্ণসংখ্যা যা গুগল প্লে স্টোর সংস্করণ তুলনা ও আপডেট নিশ্চিত করতে যাচাই করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4377,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ব্যবহারকারী প্লে স্টোরে বা অ্যাপ সেটিংসে যে ভার্সন নম্বরটি দেখতে পান (যেমন '2.1.0') তাকে কী বলে?",
+    "options": [
+      "A) buildNumber",
+      "B) packageVersion",
+      "C) versionName",
+      "D) versionCode"
+    ],
+    "answer": 2,
+    "explanation": "`versionName` ব্যবহারকারীর কাছে দৃশ্যমান স্ট্রিং যা সেমান্টিক ভার্সনিং (Major.Minor.Patch) অনুসরণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4378,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "গুগল প্লে স্টোরে অ্যাপ রিলিজের জন্য বর্তমানে প্রস্তাবিত প্যাকেজিং ফরম্যাট কোনটি যা ডিভাইসের উপযোগী ক্ষুদ্র আকারের এপিকে সরবরাহ করে?",
+    "options": [
+      "A) AAB (Android App Bundle - .aab ফাইল)",
+      "B) APK (.apk)",
+      "C) ZIP",
+      "D) JAR"
+    ],
+    "answer": 0,
+    "explanation": "App Bundle গুগল প্লে-কে ডায়নামিক ডেলিভারির সুযোগ দেয় ফলে ব্যবহারকারী কেবল তার ফোনের ভাষা ও স্ক্রিন রেজোলিউশনের রিসোর্স ডাউনলোড করে সাইজ ১৫-৩০% কমে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4379,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "রিলিজ এপিকে বা অ্যাপ বান্ডেল তৈরির পূর্বে অ্যাপের নিরাপত্তা নিশ্চিত করতে কোন ফাইল দিয়ে ডিজিটালি সাইন করতে হয়?",
+    "options": [
+      "A) manifest.xml",
+      "B) কি-স্টোর ফাইল (KeyStore file - .jks বা .keystore)",
+      "C) license.txt",
+      "D) debug.keystore"
+    ],
+    "answer": 1,
+    "explanation": "KeyStore ফাইলে প্রাইভেট ক্রিপ্টোগ্রাফিক কি থাকে যা প্রমাণ করে অ্যাপটি আসল ডেভেলপারের তৈরি।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4380,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপের রিভার্স ইঞ্জিনিয়ারিং ঠেকাতে কোড অস্পষ্ট করা (Obfuscation) এবং অপ্রয়োজনীয় কোড মুছে অ্যাপের সাইজ কমানোর কম্পাইলার টুল কোনটি?",
+    "options": [
+      "A) Gradle",
+      "B) Lint",
+      "C) D8",
+      "D) R8 / ProGuard (minifyEnabled true)"
+    ],
+    "answer": 3,
+    "explanation": "R8 কোডের ক্লাস ও মেথডের নাম ছোট করে (যেমন a, b, c) অবফাসকেট করে এবং অব্যবহৃত লাইব্রেরি কোড ছেঁটে ফেলে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4381,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "গুগল প্লে কনসোলে সাধারণ জনগণের জন্য অ্যাপ উন্মুক্ত করার পূর্বে নির্দিষ্ট পরীক্ষকদের জন্য রিলিজ করার ট্র্যাক কোনটি?",
+    "options": [
+      "A) প্রোডাকশন ট্র্যাক",
+      "B) ওপেন ওয়েব",
+      "C) ইন্টারনাল ও ক্লোজড টেস্টিং (Closed / Internal Testing Track)",
+      "D) গ্লোবাল ট্র্যাক"
+    ],
+    "answer": 2,
+    "explanation": "নতুন গুগল পলিসি অনুযায়ী ব্যক্তিগত অ্যাকাউন্ট থেকে প্রোডাকশনে যাওয়ার আগে অন্তত ২০ জন অভ্যন্তরীণ পরীক্ষক দিয়ে ১৪ দিন টেস্ট করাতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4382,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েডে ভিউমডেলের ভেতরে কোরুটিন চালানোর জন্য লাইফসাইকেল-সচেতন স্কোপ কোনটি?",
+    "options": [
+      "A) ProcessScope",
+      "B) viewModelScope (যেমন viewModelScope.launch { ... })",
+      "C) lifecycleScope",
+      "D) GlobalScope"
+    ],
+    "answer": 1,
+    "explanation": "`viewModelScope` ভিউমডেল ক্লিয়ার হওয়ার সাথে সাথে স্বয়ংক্রিয়ভাবে চলমান সমস্ত কোরুটিন বাতিল করে মেমরি লিক ঠেকায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4383,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যাক্টিভিটি বা ফ্র্যাগমেন্টের লাইফসাইকেল ধ্বংস হওয়ার সাথে সাথে স্বয়ংক্রিয়ভাবে বাতিল হয়ে যাওয়া কোরুটিন স্কোপ কোনটি?",
+    "options": [
+      "A) lifecycleScope",
+      "B) viewModelScope",
+      "C) GlobalScope",
+      "D) ThreadScope"
+    ],
+    "answer": 0,
+    "explanation": "`lifecycleScope` অ্যাক্টিভিটি ডেস্ট্রয় হলে ব্যাকগ্রাউন্ডের অসমাপ্ত কোরুটিন টাস্ক স্বয়ংক্রিয়ভাবে থামিয়ে দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4384,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যাপ চলাকালীন পুরো সময় বেঁচে থাকে এবং মেমরি লিকের চরম ঝুঁকি তৈরি করে কোন কোরুটিন স্কোপটি?",
+    "options": [
+      "A) lifecycleScope",
+      "B) viewModelScope",
+      "C) coroutineScope",
+      "D) GlobalScope"
+    ],
+    "answer": 3,
+    "explanation": "`GlobalScope` কাঠামোগত সমঝোতা (Structured Concurrency) ভঙ্গ করে বলে এটি ব্যবহারে গুগল কঠোর সতর্কতা দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4385,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ফায়ারবেসের নো-এসকিউএল ক্লাউড ডকুমেন্ট ডাটাবেস কোনটি যা ক্লায়েন্টে রিয়েল-টাইম অফলাইন ক্যাশিং সমর্থন করে?",
+    "options": [
+      "A) ক্লাউড ফায়ারস্টোর (Cloud Firestore)",
+      "B) ক্লাউড এসকিউএল",
+      "C) বিগটেবিল",
+      "D) রিয়েলটাইম ডাটাবেস"
+    ],
+    "answer": 0,
+    "explanation": "Cloud Firestore কালেকশন ও ডকুমেন্ট ভিত্তিক শক্তিশালী নো-এসকিউএল ডাটাবেস যা অফলাইন সমর্থন সহ তাৎক্ষণিক ডেটা সিঙ্ক করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4386,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "Retrofit ক্লায়েন্টে এইচটিটিপি নেটওয়ার্ক অনুরোধ ও প্রতিক্রিয়া লগক্যাটে প্রিন্ট করার ইন্টারসেপ্টর কোনটি?",
+    "options": [
+      "A) DataLogger",
+      "B) LogInterceptor",
+      "C) NetworkWatcher",
+      "D) HttpLoggingInterceptor (OkHttp লাইব্রেরি)"
+    ],
+    "answer": 3,
+    "explanation": "HttpLoggingInterceptor এপিআই কল ও জেএসওএন রেসপন্স বডি সরাসরি লগক্যাটে স্পষ্ট দেখতে সাহায্য করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4387,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপে গুগল ম্যাপস দেখানোর জন্য কোন মেটেরিয়াল ফ্র্যাগমেন্টটি ব্যবহার করা হয়?",
+    "options": [
+      "A) LocationFragment",
+      "B) GoogleMapView",
+      "C) SupportMapFragment",
+      "D) MapBoxFragment"
+    ],
+    "answer": 2,
+    "explanation": "`SupportMapFragment` ম্যাপের লাইফসাইকেল ও ইন্টারঅ্যাকশন হ্যান্ডল করে গুগল ম্যাপ প্রদর্শন করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4388,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "প্রোগ্রামের রানটাইমে মেমরি লিক (Memory Leak) স্বয়ংক্রিয়ভাবে শনাক্ত ও নোটিফিকেশনে সতর্কবার্তা দেওয়ার ওপেন সোর্স লাইব্রেরি কোনটি?",
+    "options": [
+      "A) মেমরিওয়াচ",
+      "B) লিকক্যানারি (LeakCanary - Square)",
+      "C) গার্বেজডিটেক্টর",
+      "D) বাগস্ন্যাগ"
+    ],
+    "answer": 1,
+    "explanation": "LeakCanary ডেস্ট্রয় হওয়া অ্যাক্টিভিটি মেমরিতে আটকে থাকলে তার রেফারেন্স ট্রি সহ নিখুঁত রিপোর্ট তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4389,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েডে সফটওয়্যার কোডের নিরাপত্তা ও কোয়ালিটি ত্রুটি পরীক্ষা করার বিল্ট-ইন স্ট্যাটিক অ্যানালাইসিস টুল কোনটি?",
+    "options": [
+      "A) Debugger",
+      "B) Gradle Check",
+      "C) Android Lint (Analyze > Inspect Code)",
+      "D) Profiler"
+    ],
+    "answer": 2,
+    "explanation": "Android Lint কোডের পারফরম্যান্স, নিরাপত্তা ও অপ্রয়োজনীয় রিসোর্স পরীক্ষা করে সতর্কবার্তা দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4390,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপে ব্যবহারকারীর রিয়েল-টাইম ক্র্যাশ রিপোর্ট এবং ত্রুটির স্ট্যাকট্রেস ট্র্যাক করার ক্লাউড প্ল্যাটফর্ম কোনটি?",
+    "options": [
+      "A) গুগল ম্যাপস",
+      "B) গুগল ড্রাইভ",
+      "C) ক্লাউড মেসেজিং",
+      "D) ফায়ারবেস ক্র্যাশলিটিক্স (Firebase Crashlytics)"
+    ],
+    "answer": 3,
+    "explanation": "Crashlytics প্রোডাকশনে ব্যবহারকারীদের ফোনে ঘটা অপ্রত্যাশিত ক্র্যাশের বিস্তারিত লগ তাৎক্ষণিক ডেভেলপার কনসোলে পাঠায়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4391,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "নেটওয়ার্ক কানেক্টিভিটি (ওয়াইফাই বা সেলুলার ডাটা সক্রিয় আছে কিনা) পরীক্ষা করার সিস্টেম সার্ভিস কোনটি?",
+    "options": [
+      "A) NetworkManager",
+      "B) ConnectivityManager",
+      "C) InternetService",
+      "D) WifiManager"
+    ],
+    "answer": 1,
+    "explanation": "`ConnectivityManager` সক্রিয় নেটওয়ার্কের অবস্থা ও ইন্টারনেটের প্রাপ্যতা পর্যবেক্ষণ করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4392,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "গুগল প্লে স্টোরের পলিসি অনুযায়ী ব্যবহারকারীর ডেটা প্রাইভেসি রক্ষার ঘোষণার ফর্মটির নাম কী?",
+    "options": [
+      "A) ডাটা সেফটি সেকশন (Data Safety Form)",
+      "B) জিডিপিআর ডিক্লারেশন",
+      "C) ইউজার এগ্রিমেন্ট",
+      "D) কপিরাইট ফর্ম"
+    ],
+    "answer": 0,
+    "explanation": "Data Safety সেকশনে অ্যাপ ব্যবহারকারীর কোন কোন ডেটা সংগ্রহ বা শেয়ার করে তা স্পষ্টভাবে ঘোষণা করতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4393,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "কোটলিন কোরুটিনে নির্দিষ্ট সময় কোনো থ্রেড ব্লক না করে বিরতি দেওয়ার ফাংশন কোনটি?",
+    "options": [
+      "A) pause()",
+      "B) delay(timeMillis)",
+      "C) Thread.sleep()",
+      "D) wait()"
+    ],
+    "answer": 1,
+    "explanation": "`delay()` কেবল সংশ্লিষ্ট কোরুটিনটিকে পজ করে কিন্তু ওএস থ্রেডকে অন্য কাজের জন্য মুক্ত রাখে; যেখানে `Thread.sleep()` পুরো থ্রেডকে ব্লক করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4394,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপে ডিপেনডেন্সি ইনজেকশন (Dependency Injection - DI) সহজ ও স্ট্যান্ডার্ডাইজড করার আধুনিক অফিসিয়াল ফ্রেমওয়ার্ক কোনটি?",
+    "options": [
+      "A) কোইন",
+      "B) বাটারনাইফ",
+      "C) স্প্রিং বুট",
+      "D) হিল্ট (Hilt - Dagger-এর ওপর নির্মিত)"
+    ],
+    "answer": 3,
+    "explanation": "Hilt গুগল প্রস্তাবিত অ্যান্ড্রয়েড ডিআই লাইব্রেরি যা অ্যাক্টিভিটি ও ভিউমডেলের জন্য বয়লারপ্লেটহীন ডিপেনডেন্সি ইনজেকশন দেয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4395,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যাপের সাইজ কমাতে অব্যবহৃত এক্সএমএল কালার ও ছবি স্বয়ংক্রিয়ভাবে বাদ দেওয়ার গ্র্যাডল কমান্ড কোনটি?",
+    "options": [
+      "A) compressAssets",
+      "B) minifyEnabled true",
+      "C) shrinkResources true",
+      "D) cleanBuild"
+    ],
+    "answer": 2,
+    "explanation": "`shrinkResources true` আনব্যবহৃত রিসোর্সগুলোকে এপিকে থেকে বাদ দিয়ে ফাইলের আকার উল্লেখযোগ্যভাবে ছোট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4396,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যাপ্লিকেশনের রিলিজ ভার্সন তৈরির জন্য গ্র্যাডল টাস্ক কমান্ড কোনটি?",
+    "options": [
+      "A) ./gradlew bundleRelease (বা assembleRelease)",
+      "B) ./gradlew start",
+      "C) ./gradlew run",
+      "D) ./gradlew test"
+    ],
+    "answer": 0,
+    "explanation": "`bundleRelease` প্লে স্টোরের জন্য সাইনড `.aab` বান্ডেল তৈরি করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4397,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যান্ড্রয়েড অ্যাপে এইচটিটিপিএস (HTTPS) নেটওয়ার্ক কলের সময় ট্রাফিক ম্যান-ইন-দ্য-মিডল আক্রমণ থেকে বাঁচাতে ব্যবহৃত সার্টিফিকেটের পিন বাঁধাকে কী বলে?",
+    "options": [
+      "A) ফায়ারওয়াল",
+      "B) এসএসএল পিনিং (SSL / Certificate Pinning)",
+      "C) এনক্রিপশন",
+      "D) হ্যাশিং"
+    ],
+    "answer": 1,
+    "explanation": "SSL Pinning অ্যাপে নির্দিষ্ট সার্ভারের পাবলিক কি হার্ডকোড করে দেয় ফলে হ্যাকাররা জাল সার্টিফিকেট দিয়ে ডেটা চুরি করতে পারে না।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4398,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "গুগল প্লে স্টোরে অ্যাপ প্রকাশের জন্য ডেভেলপার অ্যাকাউন্ট খোলার জন্য এককালীন ফি কত?",
+    "options": [
+      "A) সম্পূর্ণ বিনামূল্যে",
+      "B) $99 বার্ষিক",
+      "C) ২৫ মার্কিন ডলার ($25 USD)",
+      "D) $50 USD"
+    ],
+    "answer": 2,
+    "explanation": "গুগল প্লে কনসোলে লাইফটাইম রেজিস্ট্রেশনের জন্য এককালীন ২৫ ডলার ফি দিতে হয়।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4399,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "ব্যবহারকারীর ডিভাইসে ইন্টারনেট কানেকশন না থাকলেও পূর্বে সংরক্ষিত ডেটা প্রদর্শন করার স্থাপত্য প্যাটার্নকে কী বলে?",
+    "options": [
+      "A) ক্লাউড-ফার্স্ট",
+      "B) নো-নেটওয়ার্ক প্যাটার্ন",
+      "C) অনলাইন ক্যাশিং",
+      "D) অফলাইন-ফার্স্ট আর্কিটেকচার (Offline-First with Single Source of Truth / Room)"
+    ],
+    "answer": 3,
+    "explanation": "Offline-First আর্কিটেকচারে অ্যাপ সর্বদা লোকাল ডাটাবেস (Room) থেকে ইউআই প্রদর্শন করে এবং ব্যাকগ্রাউন্ডে এপিআই থেকে ডেটা এনে ডাটাবেস আপডেট করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  },
+  {
+    "id": 4400,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "এপিআই নেটওয়ার্কিং, ব্যাকগ্রাউন্ড টাস্ক ও অ্যাপ প্রকাশনা",
+    "subtopic": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)",
+    "question": "অ্যাপ পাবলিশিংয়ের সময় 'targetSdkVersion' আপগ্রেড করার গুরুত্ব কী?",
+    "options": [
+      "A) গুগল প্লে স্টোরের পলিসি অনুযায়ী আধুনিক নিরাপত্তা ও ব্যাটারি অপ্টিমাইজেশন সুবিধা নিশ্চিত করতে প্রতি বছর লেটেস্ট ওএস টার্গেট করা বাধ্যতামূলক",
+      "B) এটি না করলে ফোন গরম হয়",
+      "C) এতে কোনো প্রভাব নেই",
+      "D) অ্যাপ ডিলিট হয়ে যায়"
+    ],
+    "answer": 0,
+    "explanation": "গুগল প্লে প্রতি বছর ডেভেলপারদের জন্য সাম্প্রতিক অ্যান্ড্রয়েড সংস্করণকে targetSdk হিসেবে নির্ধারণ বাধ্যতামূলক করে।",
+    "tags": [
+      "technical",
+      "bpsc",
+      "junior_instructor",
+      "polytechnic"
+    ],
+    "chapter": "অধ্যায় ২৪ - মোবাইল অ্যাপ্লিকেশন ডেভেলপমেন্ট (Android ও Kotlin)"
+  }
+]

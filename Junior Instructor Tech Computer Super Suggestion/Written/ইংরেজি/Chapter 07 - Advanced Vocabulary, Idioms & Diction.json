@@ -1,0 +1,92 @@
+[
+  {
+    "id": 3030,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 07 - Advanced Vocabulary, Idioms & Diction",
+    "topic": "Idioms & Phrases in Context",
+    "question": "Construct meaningful sentences using the following idioms and phrases, illustrating their clear contextual meaning:\n(a) Bone of contention\n(b) Burn the midnight oil\n(c) At sixes and sevens\n(d) Through thick and thin\n(e) A blessing in disguise\n(f) Null and void\n(g) Kith and kin\n(h) Call it a day",
+    "options": [],
+    "answer": "Idioms and Contextual Usage Solution:\n\n(a) **Bone of contention** (A subject of dispute or argument):\n*Sentence:* The allocation of budget for server procurement became a major bone of contention between the finance department and the ICT cell.\n\n(b) **Burn the midnight oil** (To work or study late into the night):\n*Sentence:* The technical team had to burn the midnight oil to successfully migrate the e-Passport database before the morning office hours.\n\n(c) **At sixes and sevens** (In a state of total confusion or disarray):\n*Sentence:* When the centralized Active Directory domain server crashed, the administrative staff were all at sixes and sevens.\n\n(d) **Through thick and thin** (Under all circumstances, good or bad):\n*Sentence:* The senior system administrator supported his junior engineers through thick and thin during the high-pressure system launch.\n\n(e) **A blessing in disguise** (Something that seems bad at first, but turns out to be beneficial):\n*Sentence:* The minor network glitch proved to be a blessing in disguise as it exposed a critical firewall misconfiguration before a major cyber attack could occur.\n\n(f) **Null and void** (Having no legal force or validity):\n*Sentence:* Due to fraudulent biometric submissions, the applicant's previous passport was declared null and void by the immigration authorities.\n\n(g) **Kith and kin** (Friends, family, and relatives):\n*Sentence:* Thousands of expatriate workers rejoiced with their kith and kin after receiving their smart e-passports without delays.\n\n(h) **Call it a day** (To stop working for the rest of the day):\n*Sentence:* Having resolved the routing loop and verified all switch uplinks, the engineering team finally decided to call it a day.",
+    "explanation": ""
+  },
+  {
+    "id": 3064,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 07 - Advanced Vocabulary, Idioms & Diction",
+    "topic": "Idioms & Phrases in Context",
+    "question": "Construct meaningful, grammatically sound professional sentences illustrating the contextual application of the following idioms:\n(a) Touch and go\n(b) Back to the drawing board\n(c) Cut corners\n(d) Bite the bullet\n(e) Hit the nail on the head\n(f) A dime a dozen",
+    "options": [],
+    "answer": "Idioms and Practical Usage Solution:\n\n(a) **Touch and go** (Precarious, uncertain, or risky):\n*Sentence:* It was touch and go whether the failing primary database could be restored before the immigration counters opened at dawn.\n\n(b) **Back to the drawing board** (To start planning something anew after an initial plan fails):\n*Sentence:* When the initial routing configuration precipitated a massive packet loop, the network engineering team had to go back to the drawing board.\n\n(c) **Cut corners** (To do something poorly or cheaply to save time or money):\n*Sentence:* Procurement officers must never cut corners when purchasing mission-critical server power supplies and fire suppression systems.\n\n(d) **Bite the bullet** (To face a painful or difficult situation with courage and determination):\n*Sentence:* The administration had to bite the bullet and shut down the legacy server for a full twelve hours to execute the mandatory database overhaul.\n\n(e) **Hit the nail on the head** (To state or describe a situation exactly right):\n*Sentence:* The maintenance engineer hit the nail on the head when he diagnosed the server reboot issue as a faulty RAM parity mismatch.\n\n(f) **A dime a dozen** (Very common and having little special value):\n*Sentence:* In the modern job market, basic computer literacy is a dime a dozen; candidates must master specialized skills like cybersecurity and Linux administration to excel.",
+    "explanation": ""
+  },
+  {
+    "id": 3050,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 07 - Advanced Vocabulary, Idioms & Diction",
+    "topic": "Advanced Vocabulary & Contextual Usage",
+    "question": "For each of the following advanced vocabulary words, provide: (1) its precise grammatical definition, (2) an exact antonym, and (3) an exemplary sentence in an IT or administrative context:\n(a) Alacrity\n(b) Cacophony\n(c) Paradigm\n(d) Quintessential\n(e) Fastidious\n(f) Obsolete",
+    "options": [],
+    "answer": "High-Frequency Vocabulary Analysis:\n\n(a) **Alacrity** (Noun):\n• Definition: Brisk, cheerful readiness and promptness in response.\n• Antonym: Reluctance / Hesitation / Sluggishness.\n• *Sentence:* The on-call engineering team responded with remarkable alacrity to resolve the critical server database deadlock.\n\n(b) **Cacophony** (Noun):\n• Definition: A harsh, discordant, and jarring mixture of sounds.\n• Antonym: Harmony / Euphony / Symphony.\n• *Sentence:* Amidst the cacophony of screeching UPS warning alarms in the server room, the senior technician methodically identified the tripping circuit breaker.\n\n(c) **Paradigm** (Noun):\n• Definition: A typical example, model, or conceptual framework of something.\n• Antonym: Anomaly / Deviation.\n• *Sentence:* The migration from monolithic codebases to microservices represents a profound paradigm shift in modern software development.\n\n(d) **Quintessential** (Adjective):\n• Definition: Representing the most perfect or typical embodiment of a quality or class.\n• Antonym: Substandard / Mediocre / Atypical.\n• *Sentence:* The Tier-IV National Data Center stands as the quintessential model of high-availability public infrastructure.\n\n(e) **Fastidious** (Adjective):\n• Definition: Very attentive to and concerned about accuracy, detail, and cleanliness.\n• Antonym: Careless / Sloppy / Negligent.\n• *Sentence:* The database administrator is fastidious about maintaining transaction log integrity and verifying backup checksums daily.\n\n(f) **Obsolete** (Adjective):\n• Definition: No longer produced or used; completely out of date.\n• Antonym: Contemporary / Modern / State-of-the-art.\n• *Sentence:* Traditional legacy passbooks have become entirely obsolete following the nationwide adoption of polycarbonate biometric e-passports.",
+    "explanation": ""
+  },
+  {
+    "id": 3065,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 07 - Advanced Vocabulary, Idioms & Diction",
+    "topic": "Advanced Vocabulary & Contextual Usage",
+    "question": "For each of the following advanced vocabulary words, provide: (1) its precise definition, (2) an exact antonym, and (3) an administrative or technical sentence:\n(a) Tenacious\n(b) Impeccable\n(c) Superfluous\n(d) Vulnerable\n(e) Exemplary\n(f) Dichotomy",
+    "options": [],
+    "answer": "High-Impact Vocabulary Analysis:\n\n(a) **Tenacious** (Adjective):\n• Definition: Tending to keep a firm hold of something; persistent and determined.\n• Antonym: Irresolute / Weak / Yielding.\n• *Sentence:* The forensic engineer's tenacious investigation eventually pinpointed the stealthy backdoor script buried deep within the application logs.\n\n(b) **Impeccable** (Adjective):\n• Definition: In accordance with the highest standards; faultless and spotless.\n• Antonym: Flawed / Defective / Blemished.\n• *Sentence:* The data center maintained an impeccable track record of 99.999% uptime throughout the entire fiscal year.\n\n(c) **Superfluous** (Adjective):\n• Definition: Unnecessary, especially through being more than enough; redundant.\n• Antonym: Essential / Indispensable / Necessary.\n• *Sentence:* Upgrading the network switch firmware rendered several legacy diagnostic scripts completely superfluous.\n\n(d) **Vulnerable** (Adjective):\n• Definition: Susceptible to physical or emotional attack or damage.\n• Antonym: Invulnerable / Resilient / Immune.\n• *Sentence:* Unpatched operating systems leave critical passport enrollment workstations vulnerable to automated ransomware worms.\n\n(e) **Exemplary** (Adjective):\n• Definition: Serving as a desirable model; representing the best of its kind.\n• Antonym: Reprehensible / Substandard / Deplorable.\n• *Sentence:* The Sub-Assistant Maintenance Engineer received an official commendation for his exemplary leadership during the data center power crisis.\n\n(f) **Dichotomy** (Noun):\n• Definition: A division or contrast between two things that are represented as being entirely opposed or different.\n• Antonym: Harmony / Unity / Uniformity.\n• *Sentence:* Modern border security must bridge the dichotomy between impenetrable national defense and smooth, expedited passenger transit.",
+    "explanation": ""
+  },
+  {
+    "id": 3015,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 07 - Advanced Vocabulary, Idioms & Diction",
+    "topic": "Idioms & Phrases in Context",
+    "question": "Write down the meaning and make meaningful sentences with the following idioms and phrases:\n(a) Achilles' heel\n(b) At a stone's throw\n(c) Bite the bullet\n(d) Burn the midnight oil\n(e) Through thick and thin\n(f) A blessing in disguise",
+    "options": [],
+    "answer": "Idioms and Sentence Construction:\n\n(a) **Achilles' heel** (A fatal weakness or vulnerable spot):\n*Lack of automated offsite backup proved to be the Achilles' heel of their IT infrastructure.*\n\n(b) **At a stone's throw** (Very close by / Short distance):\n*The regional passport office is situated at a stone's throw from the central bus terminal.*\n\n(c) **Bite the bullet** (To face a difficult or unpleasant situation with courage):\n*The ministry had to bite the bullet and replace the entire legacy server array to prevent cyber intrusions.*\n\n(d) **Burn the midnight oil** (To work or study late into the night):\n*Our maintenance team burned the midnight oil to configure the e-gate biometric systems before the inauguration.*\n\n(e) **Through thick and thin** (Under all circumstances, good or bad):\n*The dedicated engineers stood by the department through thick and thin during the national database migration.*\n\n(f) **A blessing in disguise** (An apparent misfortune that eventually has good results):\n*The temporary network outage was a blessing in disguise as it prompted the installation of redundant fiber optic links.*",
+    "explanation": ""
+  },
+  {
+    "id": 3046,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 07 - Advanced Vocabulary, Idioms & Diction",
+    "topic": "One-Word Substitution & Confusing Words",
+    "question": "Provide the precise single-word substitute for each of the following descriptions:\n(a) A person who speaks or knows many languages.\n(b) That which cannot be corrected or reformed.\n(c) One who is all-knowing and has infinite knowledge.\n(d) One who sacrifices his own interests for the welfare of others.\n(e) A universal remedy or cure for all diseases and difficulties.\n(f) Occurring, awarded, or published after a person's death.\n(g) A person who believes in or advocates the overthrow of government authority.\n(h) A person who hates or distrusts humankind.",
+    "options": [],
+    "answer": "One-Word Substitution Solution:\n\n(a) A person who speaks or knows many languages = **Polyglot** (or Linguist)\n(b) That which cannot be corrected or reformed = **Incorrigible**\n(c) One who is all-knowing and has infinite knowledge = **Omniscient**\n(d) One who sacrifices his own interests for the welfare of others = **Altruist**\n(e) A universal remedy or cure for all diseases and difficulties = **Panacea**\n(f) Occurring, awarded, or published after a person's death = **Posthumous**\n(g) A person who believes in or advocates the overthrow of government authority = **Anarchist**\n(h) A person who hates or distrusts humankind = **Misanthrope** (or Misanthropist)।",
+    "explanation": ""
+  },
+  {
+    "id": 3045,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 07 - Advanced Vocabulary, Idioms & Diction",
+    "topic": "One-Word Substitution & Confusing Words",
+    "question": "Distinguish between the following pairs of words by writing clear, grammatically sound contextual sentences:\n(a) Complement vs Compliment\n(b) Principal vs Principle\n(c) Stationary vs Stationery\n(d) Affect vs Effect\n(e) Illicit vs Elicit\n(f) Eminent vs Imminent",
+    "options": [],
+    "answer": "Pairs of Confusing Words Solution:\n\n(a) **Complement** vs **Compliment**:\n• **Complement** (To complete or enhance something):\n*Sentence:* The software-defined firewall acts as an essential complement to the physical hardware perimeter.\n• **Compliment** (An expression of praise or admiration):\n*Sentence:* The Director General paid a rich compliment to the maintenance team for restoring server operations without delay.\n\n(b) **Principal** vs **Principle**:\n• **Principal** (Head of an institution / Primary / Main sum):\n*Sentence:* High latency was the principal cause behind the failure of remote database synchronization.\n• **Principle** (A fundamental truth, rule, or doctrine):\n*Sentence:* Zero-trust security operates on the uncompromising principle of continuous verification.\n\n(c) **Stationary** vs **Stationery**:\n• **Stationary** (Not moving / Fixed in one place):\n*Sentence:* The network radar detected a stationary device connected to the switch port for over twelve hours.\n• **Stationery** (Writing materials like paper, envelopes, pens):\n*Sentence:* The administrative assistant submitted an official requisition for office stationery and thermal printer ribbons.\n\n(d) **Affect** vs **Effect**:\n• **Affect** (Verb: To influence or alter something):\n*Sentence:* Severe power fluctuations can adversely affect the sensitive optical sensors of biometric scanners.\n• **Effect** (Noun: The result or consequence of an action):\n*Sentence:* The new load-balancing algorithm had an immediate positive effect on website response times.\n\n(e) **Illicit** vs **Elicit**:\n• **Illicit** (Illegal / Forbidden by law or rules):\n*Sentence:* The forensic investigator intercepted an illicit transmission of citizen records across an unencrypted port.\n• **Elicit** (To evoke, draw out, or obtain information):\n*Sentence:* The technician's diagnostic questions were designed to elicit specific error codes from the user.\n\n(f) **Eminent** vs **Imminent**:\n• **Eminent** (Famous, distinguished, and respected):\n*Sentence:* An eminent computer science professor was invited to conduct the specialized cybersecurity training.\n• **Imminent** (About to happen very soon / Impending):\n*Sentence:* Hearing the high-pitch warning siren from the UPS, the engineers realized that an automatic shutdown was imminent.",
+    "explanation": ""
+  },
+  {
+    "id": 3025,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 07 - Advanced Vocabulary, Idioms & Diction",
+    "topic": "Advanced Vocabulary & Contextual Usage",
+    "question": "Provide the precise meaning and a contextual sentence for each of the following words:\n(a) Ephemeral\n(b) Pragmatic\n(c) Resilient\n(d) Mitigate\n(e) Ubiquitous\n(f) Redundant",
+    "options": [],
+    "answer": "Vocabulary Analysis and Usage:\n\n(a) **Ephemeral** (Lasting for a very short time / Transitory):\n*Sentence:* The speed boost achieved by clearing the browser cache was ephemeral, as memory usage escalated again within minutes.\n\n(b) **Pragmatic** (Dealing with problems in a practical, realistic way):\n*Sentence:* The maintenance engineer took a pragmatic approach by installing an interim backup generator while awaiting the main power grid repairs.\n\n(c) **Resilient** (Able to withstand or recover quickly from difficult conditions):\n*Sentence:* The new microservices architecture is remarkably resilient, ensuring that a database failure in one regional office does not crash the central passport portal.\n\n(d) **Mitigate** (To make something bad less severe, serious, or painful):\n*Sentence:* Deploying hardware firewalls helped mitigate the risk of distributed denial-of-service (DDoS) attacks against the government server.\n\n(e) **Ubiquitous** (Present, appearing, or found everywhere):\n*Sentence:* Optical barcode and QR code scanners have become ubiquitous across all modern international airport departure gates.\n\n(f) **Redundant** (Exceeding what is strictly necessary; functioning as a duplicate for safety):\n*Sentence:* The data center was configured with redundant power supplies and twin fiber-optic uplinks to eliminate any single point of failure.",
+    "explanation": ""
+  },
+  {
+    "id": 3047,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 07 - Advanced Vocabulary, Idioms & Diction",
+    "topic": "Word Formation & Parts of Speech",
+    "question": "Convert the following words into the specified parts of speech and write one meaningful sentence with the newly formed word:\n(a) Maintain (into Noun)\n(b) Secure (into Noun)\n(c) Resilient (into Noun)\n(d) Execute (into Noun)\n(e) Pure (into Verb)\n(f) Clear (into Verb)",
+    "options": [],
+    "answer": "Word Formation & Usage Solution:\n\n(a) **Maintain** $\\rightarrow$ Noun: **Maintenance**\n*Sentence:* Routine preventive maintenance of biometric kiosks minimizes sudden hardware breakdowns during peak hours.\n\n(b) **Secure** $\\rightarrow$ Noun: **Security**\n*Sentence:* Multi-factor authentication provides an indispensable layer of security for public database systems.\n\n(c) **Resilient** $\\rightarrow$ Noun: **Resilience**\n*Sentence:* The remarkable resilience of the Tier-IV data center ensured zero data loss despite a localized power grid failure.\n\n(d) **Execute** $\\rightarrow$ Noun: **Execution**\n*Sentence:* The precise execution of the disaster recovery failover plan completed within twenty-five seconds.\n\n(e) **Pure** $\\rightarrow$ Verb: **Purify**\n*Sentence:* Air scrubbers are installed inside the server hall to continuously purify the air of airborne dust particulates.\n\n(f) **Clear** $\\rightarrow$ Verb: **Clarify**\n*Sentence:* The circular was issued to clarify the revised technical specifications for digital signature cards.",
+    "explanation": ""
+  }
+]

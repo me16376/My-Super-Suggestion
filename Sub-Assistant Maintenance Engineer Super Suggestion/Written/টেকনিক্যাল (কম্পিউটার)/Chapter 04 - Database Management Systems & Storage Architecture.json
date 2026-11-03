@@ -1,0 +1,439 @@
+[
+  {
+    "id": 1006,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems",
+    "question": "ডাটাবেজ নরমালাইজেশন (Normalization) কী? ১ম, ২য় ও ৩য় স্বাভাবিক রূপ (1NF, 2NF, 3NF)-এর শর্তসমূহ বাস্তব উদাহরণসহ ব্যাখ্যা করুন।",
+    "marks": 8,
+    "answer": "• ডাটাবেজ নরমালাইজেশন:\nডাটাবেজের টেবিল কাঠামোকে সুশৃঙ্খল করা এবং অপ্রয়োজনীয় পুনরাবৃত্তি (Data Redundancy) কমিয়ে ডাটাবেজের ইনসার্ট, আপডেট ও ডিলিট অ্যানোমালি দূর করার ধারাবাহিক গাণিতিক প্রক্রিয়াকে নরমালাইজেশন বলে।\n\n১. ১ম স্বাভাবিক রূপ (1NF):\n- শর্ত: টেবিলের প্রতিটি কলামে অ্যাটমিক (অবিভাজ্য/একক) ভ্যালু থাকতে হবে। কোনো মাল্টি-ভ্যালুড বা রিপিটিং গ্রুপ থাকতে পারবে না।\n- উদাহরণ: কোনো Employee টেবিলে 'Phone_No' কলামে এক ঘরে দুটি নম্বর (0171..., 0191...) থাকলে তা 1NF নয়। আলাদা রো বা কলামে একক ভ্যালু বসালে তা 1NF হবে।\n\n২. ২য় স্বাভাবিক রূপ (2NF):\n- শর্ত: টেবিলটিকে অবশ্যই 1NF হতে হবে এবং কোনো নন-প্রাইম অ্যাট্রিবিউট কম্পোজিট প্রাইমারি কি-এর কোনো আংশিক অংশের ওপর নির্ভরশীল হতে পারবে না (No Partial Dependency)। অর্থাৎ সম্পূর্ণ প্রাইমারি কি-এর ওপর নির্ভরশীল হতে হবে।\n- সমাধান: আংশিক নির্ভরশীল কলামগুলোকে আলাদা টেবিলে নিয়ে প্রাইমারি কি দিয়ে রিলেশন তৈরি করা।\n\n৩. ৩য় স্বাভাবিক রূপ (3NF):\n- শর্ত: টেবিলটিকে অবশ্যই 2NF হতে হবে এবং কোনো ট্রানজিটিভ ডিপেনডেন্সি (Transitive Dependency) থাকতে পারবে না (নন-কি অ্যাট্রিবিউট অন্য কোনো নন-কি অ্যাট্রিবিউটের ওপর নির্ভরশীল হবে না; অর্থাৎ X -> Y এবং Y -> Z হলে X -> Z থাকবে না)।\n- উদাহরণ: Employee টেবিলে Dept_ID এবং Dept_Name থাকলে, Dept_Name আসলে Dept_ID এর ওপর নির্ভরশীল, সরাসরি Emp_ID এর ওপর নয়। সমাধান: Department টেবিল আলাদা করে 3NF নিশ্চিত করা।",
+    "points_to_remember": [
+      "1NF = Atomic Values | 2NF = Remove Partial Dependency | 3NF = Remove Transitive Dependency | BCNF = X must be a Super Key for every X -> Y."
+    ],
+    "tags": [
+      "dbms",
+      "normalization",
+      "core_theory"
+    ],
+    "chapter": "Chapter 04 - Database Management Systems & Storage Architecture"
+  },
+  {
+    "id": 1007,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems",
+    "question": "নিচের দুটি টেবিল বিবেচনা করে SQL কোয়েরি লিখুন:\nটেবিল: Employees (EmpID, Name, DeptID, Salary)\nটেবিল: Departments (DeptID, DeptName)\n(ক) যে সকল কর্মচারীর বেতন ৫০,০০০ টাকার বেশি তাদের নাম ও ডিপার্টমেন্ট নাম প্রদর্শন করুন।\n(খ) প্রতিটি ডিপার্টমেন্টের নাম এবং তাদের গড় বেতন (Average Salary) প্রদর্শন করুন।\n(গ) দ্বিতীয় সর্বোচ্চ বেতনধারী (2nd Highest Salary) কর্মচারীর তথ্য বের করার কুয়েরি লিখুন।",
+    "marks": 6,
+    "answer": "এসকিউএল (SQL) সমাধান:\n\n(ক) ৫০,০০০ টাকার বেশি বেতনধারী কর্মচারীদের নাম ও ডিপার্টমেন্ট নাম:\nSELECT e.Name, d.DeptName \nFROM Employees e\nINNER JOIN Departments d ON e.DeptID = d.DeptID\nWHERE e.Salary > 50000;\n\n(খ) ডিপার্টমেন্টভিত্তিক গড় বেতন:\nSELECT d.DeptName, AVG(e.Salary) AS AverageSalary\nFROM Departments d\nINNER JOIN Employees e ON d.DeptID = e.DeptID\nGROUP BY d.DeptName;\n\n(গ) ২য় সর্বোচ্চ বেতন (2nd Highest Salary) বের করার কোয়েরি:\nপদ্ধতি ১ (Subquery ব্যবহার করে):\nSELECT MAX(Salary) AS SecondHighestSalary \nFROM Employees \nWHERE Salary < (SELECT MAX(Salary) FROM Employees);\n\nপদ্ধতি ২ (LIMIT / OFFSET ব্যবহার করে):\nSELECT * FROM Employees \nORDER BY Salary DESC \nLIMIT 1 OFFSET 1;",
+    "points_to_remember": [
+      "JOIN এর শর্তে সঠিক ফরেন কি ও প্রাইমারি কি লিংক করতে হবে।",
+      "GROUP BY করলে SELECT লিস্টে নন-অ্যাগ্রিগেটেড ফিল্ড রাখা যায়।"
+    ],
+    "tags": [
+      "dbms",
+      "sql",
+      "practical"
+    ],
+    "chapter": "Chapter 04 - Database Management Systems & Storage Architecture"
+  },
+  {
+    "id": 1013,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems",
+    "question": "ডাটাবেজে ACID বৈশিষ্ট্যের গুরুত্ব ব্যাখ্যা করুন। ব্যাংক একাউন্ট ফান্ড ট্রান্সফারের বাস্তব উদাহরণের সাহায্যে Atomicity এবং Consistency কীভাবে কাজ করে তা বুঝিয়ে লিখুন।",
+    "marks": 6,
+    "answer": "• ACID প্রোপার্টি ডাটাবেজের যেকোনো ট্রানজেকশনের অখণ্ডতা ও নিরাপত্তা নিশ্চিত করে:\n১. Atomicity (অল অর নাথিং নীতি)\n২. Consistency (শর্ত ও স্থিতিশীলতা রক্ষা)\n৩. Isolation (অন্যান্য ট্রানজেকশনের প্রভাবমুক্ত রাখা)\n৪. Durability (সিস্টেম ক্র্যাশের পরও স্থায়ী ডেটা সংরক্ষণ)\n\n• ব্যাংক ফান্ড ট্রান্সফার উদাহরণ (Account A থেকে Account B-তে ৫,০০০ টাকা ট্রান্সফার):\n১. ট্রানজেকশনের ধাপসমূহ:\n   ধাপ ১: Read(A)\n   ধাপ ২: A = A - 5000\n   ধাপ ৩: Write(A)\n   ধাপ ৪: Read(B)\n   ধাপ ৫: B = B + 5000\n   ধাপ ৬: Write(B)\n\n• Atomicity-র প্রয়োগ:\nধাপ ৩ সম্পন্ন হওয়ার পর যদি বিদ্যুৎ চলে যায় বা ডাটাবেজ ক্র্যাশ করে, তবে Atomicity নিশ্চিত করে যে পুরো লেনদেনটি পূর্বের অবস্থায় রোলব্যাক (Rollback) হবে। এমন হবে না যে A থেকে ৫,০০০ টাকা কেটে নেওয়া হয়েছে কিন্তু B একাউন্টে যোগ হয়নি।\n\n• Consistency-র প্রয়োগ:\nট্রানজেকশন শুরু হওয়ার আগে A ও B-এর মোট ব্যালেন্স যা ছিল (ধরি, ৫০,০০০ + ২০,০০০ = ৭০,০০০ টাকা), ট্রানজেকশন সফলভাবে শেষ হওয়ার পরও মোট ব্যালেন্স ঠিক ৭০,০০০ টাকাই থাকবে (৪৫,০০০ + ২৫,০০০ = ৭০,০০০)। কোনো প্রকার ডাটা নষ্ট বা নিয়মের লঙ্ঘন হবে না।",
+    "points_to_remember": [
+      "Atomicity = 'All or Nothing' (সম্পূর্ণ হবে নয়তো কিছুই হবে না)।",
+      "Consistency = ডাটাবেজের সকল রুল ও মোট ব্যালেন্সের সামঞ্জস্য বজায় রাখা।"
+    ],
+    "tags": [
+      "dbms",
+      "acid",
+      "transactions"
+    ],
+    "chapter": "Chapter 04 - Database Management Systems & Storage Architecture"
+  },
+  {
+    "id": 1018,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems",
+    "question": "একটি পাসপোর্ট ডাটাবেজ টেবিল: PassportApplication(AppID, NID, ApplicantName, District, PoliceStation, Status, FeeAmount)\n(ক) উপরের টেবিলটির জন্য SQL কোড লিখুন যাতে AppID প্রাইমারি কি এবং NID ইউনিক হয়।\n(খ) 'Dhaka' জেলার অন্তর্গত আবেদনকারীদের মধ্যে যাদের স্ট্যাটাস 'Approved' কিন্তু ফি দেওয়া সম্পন্ন হয়েছে তাদের তালিকা দেখানোর কুয়েরি লিখুন।\n(গ) জেলাভিত্তিক মোট কতজন আবেদনকারী আছেন এবং সংগৃহীত মোট ফির পরিমাণ নির্ণয়ের SQL কুয়েরি লিখুন।",
+    "marks": 7,
+    "answer": "এসকিউএল (SQL) সমাধান:\n\n(ক) টেবিল তৈরির SQL কোড (Constraints সহ):\nCREATE TABLE PassportApplication (\n    AppID INT PRIMARY KEY,\n    NID VARCHAR(17) UNIQUE NOT NULL,\n    ApplicantName VARCHAR(100) NOT NULL,\n    District VARCHAR(50) NOT NULL,\n    PoliceStation VARCHAR(50),\n    Status VARCHAR(20) DEFAULT 'Pending',\n    FeeAmount DECIMAL(10,2) NOT NULL CHECK (FeeAmount >= 0)\n);\n\n(খ) ঢাকা জেলার অনুমোদিত আবেদনকারীদের কুয়েরি:\nSELECT AppID, NID, ApplicantName, Status, FeeAmount\nFROM PassportApplication\nWHERE District = 'Dhaka' \n  AND Status = 'Approved' \n  AND FeeAmount > 0;\n\n(গ) জেলাভিত্তিক মোট আবেদনকারী ও মোট ফি সংগ্রহের কুয়েরি:\nSELECT District, \n       COUNT(AppID) AS TotalApplicants,\n       SUM(FeeAmount) AS TotalFeeCollected\nFROM PassportApplication\nGROUP BY District\nORDER BY TotalFeeCollected DESC;",
+    "points_to_remember": [
+      "PRIMARY KEY ইউনিক ও নট-নাল উভয় শর্ত নিশ্চিত করে।",
+      "GROUP BY করলে SELECT-এ নন-অ্যাগ্রিগেটেড ফিল্ড হিসেবে কেবল District রাখা যাবে।"
+    ],
+    "tags": [
+      "dbms",
+      "sql",
+      "passport_database",
+      "practical"
+    ],
+    "chapter": "Chapter 04 - Database Management Systems & Storage Architecture"
+  },
+  {
+    "id": 1024,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems",
+    "question": "রিলেশনাল ডাটাবেজের কনকারেন্সি কন্ট্রোলে 'Dirty Read', 'Lost Update' এবং 'Non-repeatable Read' কী? ডাটাবেজে লক ব্যবহারের মাধ্যমে কীভাবে এগুলো প্রতিরোধ করা যায়?",
+    "marks": 7,
+    "answer": "কনকারেন্সি কন্ট্রোল সমস্যা ও সমাধান:\nযখন একাধিক ট্রানজেকশন একই ডেটা আইটেমে একসাথে কাজ করে, তখন এই ত্রুটিগুলো দেখা দেয়:\n\n১. Lost Update (হারিয়ে যাওয়া আপডেট):\nদুটি ট্রানজেকশন একই সময়ে একটি ডেটা পড়ে এবং পৃথক মান দিয়ে আপডেট করে। ফলে পরবর্তী আপডেটের কারণে পূর্ববর্তী ট্রানজেকশনের ফলাফল সম্পূর্ণ মুছে যায়।\n\n২. Dirty Read (অবিশ্বস্ত রিড):\nট্রানজেকশন ১ একটি ডেটা আপডেট করল কিন্তু এখনো COMMIT করেনি। এই অবস্থায় ট্রানজেকশন ২ সেই পরিবর্তিত ডেটাটি পড়ে ফেলল। এরপর ট্রানজেকশন ১ কোনো কারণে ROLLBACK করল। ফলে ট্রানজেকশন ২ যে ডেটা পড়েছিল তা অবৈধ হয়ে যায়—এটিকে ডার্টি রিড বলে।\n\n৩. Non-repeatable Read (অসঙ্গতিপূর্ণ পুনরাবৃত্তি):\nট্রানজেকশন ১ একটি রেকর্ড পড়ার পর, ট্রানজেকশন ২ সেই রেকর্ডটি আপডেট বা ডিলিট করে COMMIT করল। এরপর ট্রানজেকশন ১ পুনরায় সেই রেকর্ড পড়তে গিয়ে ভিন্ন মান পেল।\n\n• লকিং (Locking) মেকানিজম দ্বারা সমাধান:\n- Shared Lock (S-Lock / Read Lock): একাধিক ট্রানজেকশন একই সাথে পড়তে পারে, কিন্তু কেউ রাইট বা মডিফাই করতে পারে না।\n- Exclusive Lock (X-Lock / Write Lock): একটি ডেটা আইটেমে কেবল একটি ট্রানজেকশন রাইট লক নিতে পারে; লক মুক্ত না হওয়া পর্যন্ত অন্য কেউ পড়তে বা লিখতে পারবে না।\n- Strict 2-Phase Locking (Strict 2PL) প্রোটোকল ব্যবহার করে ট্রানজেকশন শেষ (Commit/Rollback) না হওয়া পর্যন্ত সকল Exclusive Lock ধরে রেখে ডার্টি রিড ও লস্ট আপডেট শতভাগ প্রতিরোধ করা হয়।",
+    "points_to_remember": [
+      "Dirty Read = আনকমিটেড ডেটা পড়া।",
+      "Strict 2PL ট্রানজেকশন কমিট না হওয়া পর্যন্ত এক্সক্লুসিভ লক রিলিজ করে না।"
+    ],
+    "tags": [
+      "dbms",
+      "transactions",
+      "concurrency",
+      "written"
+    ],
+    "chapter": "Chapter 04 - Database Management Systems & Storage Architecture"
+  },
+  {
+    "id": 1029,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "System Maintenance & Storage Architecture",
+    "question": "RAID (Redundant Array of Independent Disks) কী?\nপাসপোর্ট ডাটা সেন্টার ও সার্ভার স্টোরেজে বহুল ব্যবহৃত RAID 0, RAID 1, RAID 5, RAID 6 এবং RAID 10-এর মধ্যে তুলনামূলক পার্থক্য লিখুন।\nপ্রতিটি 2 TB ধারণক্ষমতার ৪টি হার্ডডিস্ক দিয়ে RAID 5 এবং RAID 10 অ্যারে তৈরি করলে কার্যকর স্টোরেজ ক্ষমতা কত হবে?",
+    "marks": 8,
+    "answer": "RAID আর্কিটেকচার ও স্টোরেজ হিসাব:\n\n১. RAID কী:\nএকাধিক ফিজিক্যাল হার্ডড্রাইভকে একত্রিত করে একটি সিঙ্গেল লজিক্যাল স্টোরেজ ড্রাইভ হিসেবে পরিচালনা করার প্রযুক্তি হলো RAID। এটি ডাটা রিডানড্যান্সি (Fault Tolerance) এবং রিড/রাইট পারফরম্যান্স বাড়ায়।\n\n২. তুলনামূলক বিশ্লেষণ ছক:\n| RAID লেভেল | মেকানিজম | ন্যূনতম ড্রাইভ | ফল্ট টলারেন্স | পারফরম্যান্স | ব্যবহারের ক্ষেত্র |\n| :--- | :--- | :---: | :---: | :---: | :--- |\n| **RAID 0** | Striping | ২টি | নেই (১টি নষ্ট হলে ডাটা নষ্ট) | অত্যন্ত দ্রুত | অস্থায়ী ক্যাশ, ভিডিও এডিটিং |\n| **RAID 1** | Mirroring | ২টি | ১টি ড্রাইভ ফেইল নিরাপদ | রিড ভালো, রাইট সাধারণ | ওএস ড্রাইভ, অ্যাকাউন্টিং |\n| **RAID 5** | Distributed Parity | ৩টি | ১টি ড্রাইভ নষ্ট হলে নিরাপদ | ভালো রিড, মাঝারি রাইট | ফাইল সার্ভার, সাধারণ ডাটাবেজ |\n| **RAID 6** | Dual Parity | ৪টি | একসাথে ২টি ড্রাইভ নষ্ট নিরাপদ | অত্যন্ত নিরাপদ | এন্টারপ্রাইজ ব্যাকআপ, আর্কাইভ |\n| **RAID 10** | Striping + Mirroring | ৪টি | প্রতি মিররে ১টি (সর্বোচ্চ ২টি) | সর্বোচ্চ রিড/রাইট | মিশন-ক্রিটিক্যাল ডাটাবেজ ও ই-পাসপোর্ট |\n\n৩. কার্যকর স্টোরেজ ক্ষমতা হিসাব ($N = 4$ টি ডিস্ক, প্রতিটির ক্যাপাসিটি $C = 2\\text{ TB}$):\n• RAID 5 এর জন্য সূত্র: $(N - 1) \\times C$\n  কার্যকর ক্ষমতা = $(4 - 1) \\times 2\\text{ TB} = 3 \\times 2 = 6\\text{ TB}$ (১টি ডিস্ক বা 2 TB প্যারিটি হিসেবে ব্যবহৃত হয়)।\n• RAID 10 এর জন্য সূত্র: $(N / 2) \\times C$\n  কার্যকর ক্ষমতা = $(4 / 2) \\times 2\\text{ TB} = 2 \\times 2 = 4\\text{ TB}$ (৫০% স্টোরেজ মিররিংয়ে খরচ হয়)।",
+    "points_to_remember": [
+      "RAID 5-এ ১টি ডিস্কের সমপরিমাণ স্টোরেজ প্যারিটি হিসেবে ব্যবহৃত হয়।",
+      "ই-পাসপোর্ট কেন্দ্রীয় ডাটাবেজের জন্য উচ্চ নির্ভরযোগ্যতা ও গতির কারণে RAID 10 আদর্শ।"
+    ],
+    "tags": [
+      "raid",
+      "storage",
+      "server_maintenance"
+    ],
+    "chapter": "Chapter 04 - Database Management Systems & Storage Architecture"
+  },
+  {
+    "id": 1036,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems",
+    "question": "ডাটাবেজ ইনডেক্সিংয়ে B-Tree এবং B+ Tree-এর মধ্যে মৌলিক পার্থক্যগুলো কী?\nরিলেশনাল ডাটাবেজ ম্যানেজমেন্ট সিস্টেমে (RDBMS) সাধারণ B-Tree এর তুলনায় B+ Tree ইনডেক্স কেন ব্যাপকভাবে ব্যবহৃত হয়? ক্লাস্টারড (Clustered) বনাম নন-ক্লাস্টারড (Non-clustered) ইনডেক্সের মধ্যে কার্যপদ্ধতিগত পার্থক্য লিখুন।",
+    "marks": 8,
+    "answer": "B-Tree বনাম B+ Tree এবং ইনডেক্স আর্কিটেকচার:\n\n১. B-Tree বনাম B+ Tree তুলনামূলক পার্থক্য:\n| বৈশিষ্ট্য | B-Tree | B+ Tree |\n| :--- | :--- | :--- |\n| **ডাটা পয়েন্টার অবস্থান** | অভ্যন্তরীণ নোড এবং লিফ নোড উভয়েই কি (Key) ও ডাটা রেকর্ড পয়েন্টার থাকে। | অভ্যন্তরীণ নোডে শুধুমাত্র কি ও চাইল্ড পয়েন্টার থাকে; সকল আসল ডাটা রেকর্ড পয়েন্টার কেবল লিফ নোডে থাকে। |\n| **লিফ নোড লিঙ্কিং** | লিফ নোডগুলো পরস্পরের সাথে লিংকড থাকে না। | সকল লিফ নোড পরস্পরের সাথে Singly/Doubly Linked List দিয়ে সরাসরি সংযুক্ত থাকে। |\n| **রেঞ্জ কুয়েরি (Range Query)** | ইন-অর্ডার ট্রাভার্সাল করতে হয়, যা ধীরগতির। | লিফ নোডের লিংকড লিস্ট ধরে অনুভূমিকভাবে অত্যন্ত দ্রুত স্ক্যান করা যায়। |\n| **গাছের উচ্চতা (Tree Height)** | অভ্যন্তরীণ নোডে ডাটা থাকায় ব্রাঞ্চিং ফ্যাক্টর কম, উচ্চতা বেশি। | অভ্যন্তরীণ নোডে ডাটা না থাকায় অনেক বেশি কি রাখা যায়, উচ্চতা কম (Less I/O)। |\n\n২. RDBMS-এ B+ Tree ব্যবহারের যৌক্তিকতা:\n১. দ্রুত রেঞ্জ সার্চ (Range Queries): ডাটাবেজে `BETWEEN`, `>`, `<` কুয়েরির সময় B+ Tree-এর লিংকড লিফ লেভেল ধরে দ্রুত স্ক্যান করা সম্ভব।\n২. কম ডিস্ক I/O: অভ্যন্তরীণ নোডগুলো হালকা হওয়ায় মেমোরি পেজে বেশি কি ধরে, ফলে রুট থেকে লিফ পর্যন্ত ডিস্ক রিড সংখ্যা উল্লেখযোগ্যভাবে কমে যায়।\n৩. নির্ভরযোগ্য সার্চ পারফরম্যান্স: সকল রেকর্ড সর্বদা একই গভীরতায় (লিফ লেভেলে) থাকায় সার্চ টাইম $O(\\log n)$ কনসিস্টেন্ট থাকে।\n\n৩. ক্লাস্টারড বনাম নন-ক্লাস্টারড ইনডেক্স:\n• Clustered Index: টেবিলের ফিজিক্যাল ডাটা রোগুলো সরাসরি ইনডেক্স কি-এর ক্রমানুসারে ডিস্কে সাজানো থাকে। একটি টেবিলে কেবল ১টি মাত্র ক্লাস্টারড ইনডেক্স থাকতে পারে (সাধারণত Primary Key)।\n• Non-Clustered Index: ফিজিক্যাল ডাটার ক্রম পরিবর্তন না করে আলাদা একটি ইনডেক্স টেবিল তৈরি হয়, যার লিফ নোডে আসল ডাটা রো-এর পয়েন্টার (RowID বা Clustered Key) থাকে। একটি টেবিলে একাধিক নন-ক্লাস্টারড ইনডেক্স তৈরি করা যায়।",
+    "points_to_remember": [
+      "MySQL (InnoDB), Oracle এবং SQL Server ডিফল্ট ইনডেক্স স্ট্রাকচার হিসেবে B+ Tree ব্যবহার করে।",
+      "Clustered Index টেবিলের ফিজিক্যাল বিন্যাস নিয়ন্ত্রণ করে।"
+    ],
+    "tags": [
+      "b_plus_tree",
+      "dbms_indexing",
+      "database"
+    ],
+    "chapter": "Chapter 04 - Database Management Systems & Storage Architecture"
+  },
+  {
+    "id": 1037,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems",
+    "question": "ডাটাবেজ ট্রানজ্যাকশন কন্ট্রোলে Two-Phase Locking (2PL) প্রোটোকল কী?\n(ক) Growing Phase এবং Shrinking Phase-এর কার্যপদ্ধতি ব্যাখ্যা করুন।\n(খ) Strict 2PL এবং Rigorous 2PL কী এবং এগুলো কেন ক্যাসকেডিং রোলব্যাক (Cascading Rollback) প্রতিরোধ করে?\n(গ) ডেডলক হ্যান্ডলিংয়ে 'Wait-Die' এবং 'Wound-Wait' স্কিমের পার্থক্য লিখুন।",
+    "marks": 10,
+    "answer": "2PL প্রোটোকল ও ডেডলক প্রতিরোধ সমাধান:\n\n১. Two-Phase Locking (2PL) কী:\nকনকারেন্ট ট্রানজ্যাকশন এক্সিকিউশনের সময় সিরিয়ালাইজেবিলিটি (Conflict Serializability) নিশ্চিত করার সবচেয়ে নির্ভরযোগ্য লক-ভিত্তিক প্রোটোকল হলো 2PL।\n\n(ক) দুটি পর্যায় (Phases):\n১. Growing Phase: ট্রানজ্যাকশন নতুন নতুন লক (Shared বা Exclusive) অর্জন করতে পারে, কিন্তু কোনো লক রিলিজ বা আনলক করতে পারে না।\n২. Shrinking Phase: ট্রানজ্যাকশন পূর্বের অর্জিত লক রিলিজ করতে পারে, কিন্তু আর কোনো নতুন লক অর্জন করতে পারে না।\nলক পয়েন্ট (Lock Point): গ্রোয়িং ফেজের শেষে যখন ট্রানজ্যাকশনের সর্বশেষ লক অর্জিত হয়, তাকে লক পয়েন্ট বলে।\n\n(খ) Strict 2PL ও Rigorous 2PL:\n• Strict 2PL: ট্রানজ্যাকশন তার সমস্ত এক্সক্লুসিভ লক (X-Lock / Write Lock) ট্রানজ্যাকশন শেষ হওয়া (Commit বা Abort) পর্যন্ত ধরে রাখে। এর ফলে আনকমিটেড ডাটা অন্য কোনো ট্রানজ্যাকশন পড়তে পারে না, যা 'Dirty Read' ও 'Cascading Rollback' সম্পূর্ণরূপে নির্মূল করে।\n• Rigorous 2PL: এটি আরও কঠোর; এতে ট্রানজ্যাকশন তার সমস্ত এক্সক্লুসিভ লক এবং শেয়ার্ড লক উভয়ই কমিট/অ্যাবোর্ট হওয়া পর্যন্ত ধরে রাখে।\n\n(গ) ডেডলক প্রতিরোধে টাইমস্ট্যাম্প স্কিম:\nধরা যাক ট্রানজ্যাকশন $T_i$ এমন ডাটা আইটেম লক করতে চাইল যা $T_j$ কর্তৃক লক করা আছে। $T_i$ এর বয়স $TS(T_i)$:\n• Wait-Die (নন-প্রিএম্পটিভ):\n  - যদি $T_i$ প্রবীণ হয় ($TS(T_i) < TS(T_j)$), তবে $T_i$ অপেক্ষা করার অনুমতি পাবে (Wait)।\n  - যদি $T_i$ নবীন হয় ($TS(T_i) > TS(T_j)$), তবে $T_i$ মারা যাবে/রোলব্যাক হবে (Die)।\n• Wound-Wait (প্রিএম্পটিভ):\n  - যদি $T_i$ প্রবীণ হয় ($TS(T_i) < TS(T_j)$), তবে $T_i$ নবীন ট্রানজ্যাকশনকে আঘাত করে রোলব্যাক করে লক দখল করবে (Wound)।\n  - যদি $T_i$ নবীন হয় ($TS(T_i) > TS(T_j)$), তবে $T_i$ অপেক্ষা করবে (Wait)।",
+    "points_to_remember": [
+      "সাধারণ 2PL সিরিয়ালাইজেবিলিটি নিশ্চিত করলেও ডেডলক মুক্ত নয়।",
+      "Strict 2PL আধুনিক কমার্শিয়াল RDBMS এ সর্বাধিক ব্যবহৃত লক প্রোটোকল।"
+    ],
+    "tags": [
+      "2pl",
+      "dbms_concurrency",
+      "deadlock_prevention"
+    ],
+    "chapter": "Chapter 04 - Database Management Systems & Storage Architecture"
+  },
+  {
+    "id": 1038,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems",
+    "question": "নিচের তিনটি রিলেশনাল টেবিল বিবেচনা করুন:\n১. `Citizen` (NID_No [PK], FullName, District, DateOfBirth)\n২. `PassportApplication` (AppID [PK], NID_No [FK], ApplicationDate, DeliveryType, Status)\n৩. `BiometricStatus` (BioID [PK], AppID [FK], FingerprintMatch [BOOLEAN], IrisMatch [BOOLEAN], VerifiedDate)\n\nনিচের প্রশ্নগুলোর জন্য স্ট্যান্ডার্ড SQL কোড লিখুন:\n(ক) ঢাকা ('Dhaka') জেলার যেসব নাগরিকের পাসপোর্ট আবেদনের স্ট্যাটাস 'Under Verification' এবং যাদের ফিঙ্গারপ্রিন্ট ও আইরিস উভয় ভেরিফিকেশন সফল (TRUE), তাদের NID_No, FullName ও ApplicationDate প্রদর্শন করুন।\n(খ) ২০২৬ সালের জানুয়ারি মাসের পর থেকে প্রতিটি জেলায় মোট কতটি পাসপোর্ট আবেদন জমা পড়েছে এবং তাদের মধ্যে কতটি 'Delivered' হয়েছে তার জেলাভিত্তিক পরিসংখ্যান (District, TotalApplications, DeliveredCount) বের করুন।",
+    "marks": 10,
+    "answer": "অ্যাডভান্সড SQL সমাধান:\n\n(ক) জয়েন ও মাল্টি-কন্ডিশন কুয়েরি:\n```sql\nSELECT \n    c.NID_No,\n    c.FullName,\n    p.ApplicationDate\nFROM \n    Citizen c\nINNER JOIN \n    PassportApplication p ON c.NID_No = p.NID_No\nINNER JOIN \n    BiometricStatus b ON p.AppID = b.AppID\nWHERE \n    c.District = 'Dhaka'\n    AND p.Status = 'Under Verification'\n    AND b.FingerprintMatch = TRUE\n    AND b.IrisMatch = TRUE;\n```\n\n(খ) এগ্রিগেশন ও কন্ডিশনাল কাউন্টিং কুয়েরি:\n```sql\nSELECT \n    c.District,\n    COUNT(p.AppID) AS TotalApplications,\n    COUNT(CASE WHEN p.Status = 'Delivered' THEN 1 END) AS DeliveredCount\nFROM \n    Citizen c\nINNER JOIN \n    PassportApplication p ON c.NID_No = p.NID_No\nWHERE \n    p.ApplicationDate >= '2026-02-01'\nGROUP BY \n    c.District\nORDER BY \n    TotalApplications DESC;\n```\n\nব্যাখ্যা:\n১. প্রথম কুয়েরিতে ৩টি টেবিলের মধ্যে প্রাইমারি কী ও ফরেন কী সম্পর্কের ভিত্তিতে `INNER JOIN` করা হয়েছে এবং `WHERE` ক্লজে জেলা, অ্যাপ্লিকেশন স্ট্যাটাস ও উভয় বায়োমেট্রিক ট্রু নিশ্চিত করা হয়েছে।\n২. দ্বিতীয় কুয়েরিতে `GROUP BY c.District` ব্যবহার করে জেলাভিত্তিক গ্রুপ করা হয়েছে এবং `COUNT(CASE WHEN ...)` দিয়ে কোনো সাবকুয়েরি ছাড়াই দ্রুত ডেলিভার্ড আবেদনের সংখ্যা গণনা করা হয়েছে।",
+    "points_to_remember": [
+      "কন্ডিশনাল অ্যাগ্রিগেশনের জন্য `COUNT(CASE WHEN ... THEN 1 END)` স্ট্যান্ডার্ড এসকিউএল অপ্টিমাইজেশন পদ্ধতি।",
+      "৩টি টেবিল যুক্ত করতে ন্যূনতম ২টি JOIN ক্লজ প্রয়োজন।"
+    ],
+    "tags": [
+      "sql_written",
+      "joins",
+      "group_by",
+      "dbms"
+    ],
+    "chapter": "Chapter 04 - Database Management Systems & Storage Architecture"
+  },
+  {
+    "id": 1047,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems",
+    "question": "ডাটাবেজ ব্যাকআপ ও ডিজাস্টার রিকভারি (Disaster Recovery - DR) স্ট্র্যাটেজি:\n(ক) Full Backup, Differential Backup এবং Transaction Log Backup-এর মধ্যে পার্থক্য লিখুন।\n(খ) Recovery Point Objective (RPO) এবং Recovery Time Objective (RTO) বলতে কী বোঝায়?\n(গ) পাসপোর্ট কেন্দ্রীয় ডাটাবেজের জন্য একটি আদর্শ সাপ্তাহিক ব্যাকআপ প্ল্যান তৈরি করুন যা সিস্টেম ডাউনটাইম ও ডাটা লস সর্বনিম্ন রাখবে।",
+    "marks": 8,
+    "answer": "ডাটাবেজ ব্যাকআপ ও ডিজাস্টার রিকভারি প্ল্যান:\n\n১. ব্যাকআপের তিন প্রকারভেদের পার্থক্য:\n• Full Backup: ডাটাবেজের সমস্ত ফাইল, টেবিল, ইনডেক্স ও অবজেক্টের সম্পূর্ণ অনুলিপি তৈরি করে। রিকভারি দ্রুত কিন্তু ব্যাকআপ নিতে সময় ও স্টোরেজ সবচেয়ে বেশি লাগে।\n• Differential Backup: সর্বশেষ ফুল ব্যাকআপের পর থেকে যে সমস্ত ডাটা পরিবর্তিত (Changed/Modified) হয়েছে, শুধুমাত্র সেগুলোর ব্যাকআপ নেয়।\n• Transaction Log Backup: সর্বশেষ লগ ব্যাকআপের পর থেকে ডাটাবেজে এক্সিকিউট হওয়া সমস্ত ট্রানজ্যাকশন ও স্টেটমেন্টের লগ সংরক্ষণ করে। পয়েন্ট-ইন-টাইম রিকভারির (Point-in-time recovery) জন্য অপরিহার্য।\n\n২. RPO এবং RTO ধারণা:\n• RPO (Recovery Point Objective):\n  কোনো দুর্যোগে ডাটাবেজ ক্র্যাশ করলে সর্বোচ্চ কত সময়ের ডাটা লস প্রতিষ্ঠান মেনে নিতে পারে। উদাহরণ: RPO যদি ১৫ মিনিট হয়, তবে ১৫ মিনিটের বেশি ডাটা কোনোভাবেই নষ্ট হওয়া চলবে না।\n• RTO (Recovery Time Objective):\n  সিস্টেম ডাউন হওয়ার পর কত দ্রুততম সময়ের মধ্যে ব্যাকআপ বা DR সাইট সচল করে ইউজারদের জন্য সার্ভিস পুনরায় চালু করতে হবে।\n\n৩. পাসপোর্ট ডাটাবেজের আদর্শ সাপ্তাহিক ব্যাকআপ শিডিউল:\n১. প্রতি শুক্রবার রাত ১২:০০ টায়: সম্পূর্ণ ডাটাবেজের **Full Backup** (অফ-পিক আওয়ার)।\n২. শনিবার থেকে বৃহস্পতিবার প্রতি রাত ১১:০০ টায়: **Differential Backup**।\n৩. প্রতিদিন কার্যকালীন সকাল ৯:০০ টা থেকে রাত ৮:০০ টা পর্যন্ত প্রতি **১৫ মিনিট পর পর Transaction Log Backup**।\n\nরিকভারি সিনারিও:\nধরা যাক বুধবার দুপুর ২:১০ এ ডাটাবেজ ফেইল করল:\n১. শুক্রবারের ফুল ব্যাকআপ রিস্টোর হবে।\n২. মঙ্গলবারের ডিফারেনশিয়াল ব্যাকআপ রিস্টোর হবে।\n৩. বুধবার সকাল ৯:০০ টা থেকে দুপুর ২:০০ টা পর্যন্ত প্রতি ১৫ মিনিটের ট্রানজ্যাকশন লগ পরপর রিস্টোর করা হবে।\nফলাফল: ডাটা লস হবে সর্বোচ্চ ১০ মিনিটের এবং সম্পূর্ণ ডাটাবেজ পয়েন্ট-ইন-টাইমে নিখুঁতভাবে রিকভার হবে।",
+    "points_to_remember": [
+      "Differential backup রিস্টোরে কেবল ১টি ফুল এবং ১টি সর্বশেষ ডিফারেনশিয়াল ব্যাকআপ লাগে।",
+      "রিমোট ডাটা সেন্টার বা ক্লাউড DR সাইটে অফ-সাইট রেপ্লিকেশন রাখা জরুরি।"
+    ],
+    "tags": [
+      "dbms_backup",
+      "disaster_recovery",
+      "rpo_rto"
+    ],
+    "chapter": "Chapter 04 - Database Management Systems & Storage Architecture"
+  },
+  {
+    "id": 1055,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems",
+    "question": "রিলেশনাল অ্যালজেবরা (Relational Algebra) কী?\nনিচের রিলেশনাল স্কিমা বিবেচনা করুন:\n• `Employee` (EmpID, EmpName, Salary, DeptID)\n• `Department` (DeptID, DeptName, Location)\n\nনিচের কুয়েরিগুলোর জন্য সঠিক রিলেশনাল অ্যালজেব্রা এক্সপ্রেশন লিখুন:\n(ক) যেসব কর্মকর্তা 'Dhaka' লোকেশনের ডিপার্টমেন্টে কাজ করেন এবং যাদের বেতন ৫০,০০০ টাকার বেশি, তাদের EmpName ও Salary প্রদর্শন করুন।\n(খ) 'ICT' ডিপার্টমেন্টের সকল কর্মচারীর নাম এবং ডিপার্টমেন্টের নাম প্রদর্শন করুন।\n(গ) যেসকল ডিপার্টমেন্টে কোনো কর্মচারী নেই, তাদের DeptName বের করুন।",
+    "marks": 8,
+    "answer": "রিলেশনাল অ্যালজেবরা সমাধান:\n\n১. রিলেশনাল অ্যালজেবরা কী:\nরিলেশনাল অ্যালজেবরা হলো রিলেশনাল ডাটাবেজের একটি তাত্ত্বিক প্রসিডিউরাল কুয়েরি ল্যাঙ্গুয়েজ (Procedural Query Language), যা এক বা একাধিক রিলেশনকে ইনপুট হিসেবে গ্রহণ করে আউটপুট হিসেবে একটি নতুন রিলেশন তৈরি করে।\n\n২. রিলেশনাল অ্যালজেব্রা এক্সপ্রেশনসমূহ:\n\n(ক) ঢাকা লোকেশনের ডিপার্টমেন্টে ৫০,০০০-এর বেশি বেতনের কর্মীদের নাম ও বেতন:\n$$\\pi_{\\text{EmpName, Salary}} \\left( \\sigma_{\\text{Location} = \\text{'Dhaka'} \\land \\text{Salary} > 50000} (\\text{Employee} \\bowtie_{\\text{Employee.DeptID} = \\text{Department.DeptID}} \\text{Department}) \\right)$$\n\n(খ) 'ICT' ডিপার্টমেন্টের কর্মচারীদের নাম ও ডিপার্টমেন্ট নাম:\n$$\\pi_{\\text{EmpName, DeptName}} \\left( \\sigma_{\\text{DeptName} = \\text{'ICT'}} (\\text{Employee} \\bowtie \\text{Department}) \\right)$$\n\n(গ) যেসব ডিপার্টমেন্টে কোনো কর্মচারী নেই তাদের DeptName (Set Difference ব্যবহার করে):\n$$\\pi_{\\text{DeptName}} \\left( \\text{Department} \\right) - \\pi_{\\text{DeptName}} \\left( \\text{Department} \\bowtie_{\\text{Department.DeptID} = \\text{Employee.DeptID}} \\text{Employee} \\right)$$",
+    "points_to_remember": [
+      "$\\sigma$ (Sigma) হলো Selection (রো ফিল্টার)।",
+      "$\\pi$ (Pi) হলো Projection (কলাম ফিল্টার)।",
+      "$\\bowtie$ হলো Natural / Theta Join।"
+    ],
+    "tags": [
+      "relational_algebra",
+      "dbms",
+      "database_theory"
+    ],
+    "chapter": "Chapter 04 - Database Management Systems & Storage Architecture"
+  },
+  {
+    "id": 1056,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems",
+    "question": "ডাটাবেজ ট্রিগার (Trigger) এবং স্টোরড প্রসিডিউর (Stored Procedure)-এর মধ্যে পার্থক্য কী?\n(ক) পাসপোর্ট এনরোলমেন্ট ডাটাবেজে অডিট ট্রেল (Audit Trail) সংরক্ষণের গুরুত্ব কী?\n(খ) `PassportApplication` টেবিলে যখনই কোনো পাসপোর্ট আবেদনের `Status` পরিবর্তন হবে, তখন স্বয়ংক্রিয়ভাবে পুরাতন স্ট্যাটাস, নতুন স্ট্যাটাস, পরিবর্তনকারীর ইউজারআইডি এবং টাইমস্ট্যাম্প `ApplicationAuditLog` টেবিলে ইনসার্ট করার একটি স্ট্যান্ডার্ড SQL ট্রিগার কোড লিখুন।",
+    "marks": 10,
+    "answer": "ডাটাবেজ ট্রিগার ও অডিট ট্রেল সমাধান:\n\n১. ট্রিগার বনাম স্টোরড প্রসিডিউর:\n• Trigger: ডাটাবেজে কোনো নির্দিষ্ট ঘটনা বা ইভেন্ট (INSERT, UPDATE, DELETE) ঘটলে স্বয়ংক্রিয়ভাবে ব্যাকগ্রাউন্ডে ফায়ার বা নির্বাহ হয়। একে সরাসরি ম্যানুয়ালি কল করা যায় না।\n• Stored Procedure: একগুচ্ছ প্রি-কম্পাইল্ড এসকিউএল স্টেটমেন্ট যা কোনো অ্যাপ্লিকেশন বা ব্যবহারকারী প্যারামিটার পাস করে স্পষ্টভাবে (`CALL` বা `EXEC`) আহ্বান করে।\n\n(ক) অডিট ট্রেলের গুরুত্ব:\nপাসপোর্ট এবং এনআইডি অত্যন্ত স্পর্শকাতর জাতীয় ডাটাবেজ। কে কোন সময়ে কোনো আবেদন অনুমোদন করল, রিজেক্ট করল বা কোনো তথ্য সংশোধন করল তা অপরিবর্তনীয়ভাবে রেকর্ড না রাখলে অভ্যন্তরীণ জালিয়াতি ও দুর্নীতি শনাক্ত করা অসম্ভব।\n\n(খ) অডিট লগ ট্রিগার SQL কোড (PostgreSQL / MySQL 8.0 স্ট্যান্ডার্ড):\n```sql\n-- অডিট টেবিল স্ট্রাকচার\nCREATE TABLE ApplicationAuditLog (\n    LogID INT AUTO_INCREMENT PRIMARY KEY,\n    AppID INT,\n    OldStatus VARCHAR(50),\n    NewStatus VARCHAR(50),\n    ChangedBy VARCHAR(100),\n    ChangedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);\n\n-- ট্রিগার ডেফিনিশন\nDELIMITER //\nCREATE TRIGGER trg_PassportStatusAudit\nAFTER UPDATE ON PassportApplication\nFOR EACH ROW\nBEGIN\n    -- শুধুমাত্র যদি Status ফিল্ড পরিবর্তিত হয়\n    IF OLD.Status <> NEW.Status THEN\n        INSERT INTO ApplicationAuditLog (\n            AppID,\n            OldStatus,\n            NewStatus,\n            ChangedBy,\n            ChangedAt\n        )\n        VALUES (\n            OLD.AppID,\n            OLD.Status,\n            NEW.Status,\n            CURRENT_USER(),\n            NOW()\n        );\n    END IF;\nEND //\nDELIMITER ;\n```\nব্যাখ্যা: `AFTER UPDATE` ট্রিগার ব্যবহার করা হয়েছে যাতে মূল টেবিলে আপডেট সফল হওয়ার পরেই অডিট টেবিল `ApplicationAuditLog`-এ `OLD.Status` এবং `NEW.Status` স্বয়ংক্রিয়ভাবে রেকর্ড হয়ে যায়।",
+    "points_to_remember": [
+      "ট্রিগারে কোনো ভ্যালু রিটার্ন করা যায় না।",
+      "`OLD` পয়েন্টার আপডেটের পূর্বের মান এবং `NEW` পয়েন্টার আপডেটের পরের মান ধারণ করে।"
+    ],
+    "tags": [
+      "triggers",
+      "stored_procedure",
+      "dbms",
+      "sql_code"
+    ],
+    "chapter": "Chapter 04 - Database Management Systems & Storage Architecture"
+  },
+  {
+    "id": 1066,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems",
+    "question": "ডাটাবেজ নরমালাইজেশনে 3NF বনাম BCNF (Boyce-Codd Normal Form):\n(ক) একটি রিলেশন BCNF-এ উন্নীত হওয়ার জন্য কী কী শর্ত পূরণ করতে হয়? কেন BCNF-কে 3NF-এর চেয়ে অধিক শক্তিশালী বলা হয়?\n(খ) একটি রিলেশনাল স্কিমা $R(A, B, C, D)$ এবং ফাংশনাল ডিপেন্ডেন্সি সেট $FD = \\{ AB \\rightarrow C, C \\rightarrow D, D \\rightarrow A \\}$ বিবেচনা করুন:\n  ১. স্কিমাটির ক্যান্ডিডেট কি (Candidate Keys) নির্ণয় করুন।\n  ২. স্কিমাটি কি 3NF-এ আছে? এটি কি BCNF-এ আছে? গাণিতিক যুক্তি ব্যাখ্যা করুন।\n  ৩. স্কিমাটি BCNF-এ না থাকলে একে লসলেস BCNF ডিকম্পোজিশন করুন।",
+    "marks": 10,
+    "answer": "3NF বনাম BCNF গাণিতিক সমাধান:\n\n১. BCNF-এর শর্তাবলী:\nএকটি রিলেশন $R$ বয়েস-কড নরমাল ফর্মে (BCNF) থাকবে যদি এবং কেবল যদি:\n১. রিলেশনটি ইতোমধ্যে ৩য় নরমাল ফর্মে (3NF) থাকে, এবং\n২. প্রতিটি নন-ট্রিভিয়াল ফাংশনাল ডিপেন্ডেন্সি $X \\rightarrow Y$-এর ক্ষেত্রে বাম পাশের ডিটারমিন্যান্ট $X$ অবশ্যই একটি **সুপার কি (Super Key)** হতে হবে।\n\n৩NF-এ শর্ত ছিল: $X$ সুপার কি হবে অথবা $Y$ প্রাইম অ্যাট্রিবিউট হবে। কিন্তু BCNF-এ 'অথবা' অংশটি বাদ দিয়ে কঠোরভাবে $X$-কে সুপার কি হওয়া বাধ্যতামূলক করা হয়েছে।\n\n২. গাণিতিক বিশ্লেষণ:\nপ্রদত্ত স্কিমা: $R(A, B, C, D)$\n$FD: \\{ AB \\rightarrow C, \\quad C \\rightarrow D, \\quad D \\rightarrow A \\}$\n\n(১) ক্যান্ডিডেট কি নির্ণয়:\n• $(AB)^+ = \\{A, B, C, D\\} \\rightarrow AB$ একটি ক্যান্ডিডেট কি।\n• $D \\rightarrow A$, সুতরাং $(BD)^+ = \\{B, D, A, C\\} \\rightarrow BD$ একটি ক্যান্ডিডেট কি।\n• $C \\rightarrow D$, সুতরাং $(BC)^+ = \\{B, C, D, A\\} \\rightarrow BC$ একটি ক্যান্ডিডেট কি।\nক্যান্ডিডেট কি সমূহ: **$AB, BC, BD$**\nপ্রাইম অ্যাট্রিবিউট (যা কোনো না কোনো ক্যান্ডিডেট কি-এর অংশ): $\\{A, B, C, D\\}$ (এখানে সকল অ্যাট্রিবিউটই প্রাইম!)।\nনন-প্রাইম অ্যাট্রিবিউট: নেই (Empty set)।\n\n(২) ৩NF ও BCNF যাচাই:\n• $AB \\rightarrow C$: $AB$ সুপার কি $\\rightarrow$ 3NF ও BCNF উভয় শর্ত পূরণ।\n• $C \\rightarrow D$: $C$ সুপার কি নয়, কিন্তু $D$ একটি প্রাইম অ্যাট্রিবিউট $\\rightarrow$ 3NF পূরণ, **কিন্তু BCNF লঙ্ঘন!**\n• $D \\rightarrow A$: $D$ সুপার কি নয়, কিন্তু $A$ একটি প্রাইম অ্যাট্রিবিউট $\\rightarrow$ 3NF পূরণ, **কিন্তু BCNF লঙ্ঘন!**\n\nসিদ্ধান্ত: যেহেতু সকল ডিপেন্ডেন্সির ডানপাশ প্রাইম অ্যাট্রিবিউট, তাই স্কিমাটি **3NF-এ রয়েছে**; কিন্তু $C$ এবং $D$ সুপার কি না হওয়ায় স্কিমাটি **BCNF-এ নেই**।\n\n(৩) BCNF ডিকম্পোজিশন:\nলঙ্ঘনকারী ডিপেন্ডেন্সি $C \\rightarrow D$ ধরে $R$ কে দুটি স্কিমায় ভাগ করি:\n• $R_1(C, D)$: যেখানে ক্যান্ডিডেট কি $C$, ডিপেন্ডেন্সি $C \\rightarrow D$ (BCNF-এ আছে)।\n• $R_2(A, B, C)$: ক্যান্ডিডেট কি $AB$ বা $BC$, ডিপেন্ডেন্সি $AB \\rightarrow C$ (BCNF-এ আছে)।\n\nযাচাই: $R_1 \\cap R_2 = \\{C\\}$, যা $R_1$-এর প্রাইমারি কি। সুতরাং ডিকম্পোজিশনটি লসলেস (Lossless Join) BCNF সম্পন্ন হয়েছে।",
+    "points_to_remember": [
+      "যদি কোনো স্কিমার সমস্ত অ্যাট্রিবিউটই প্রাইম হয়, তবে স্কিমাটি নিশ্চিতভাবেই 3NF-এ থাকবে।",
+      "BCNF ডিপেন্ডেন্সি প্রিজার্ভিং নাও হতে পারে, তবে লসলেস জয়েন সর্বদা নিশ্চিত করা যায়।"
+    ],
+    "tags": [
+      "bcnf",
+      "normalization",
+      "candidate_keys",
+      "dbms_math"
+    ],
+    "chapter": "Chapter 04 - Database Management Systems & Storage Architecture"
+  },
+  {
+    "id": 1072,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems",
+    "question": "ডাটাবেজ ফাইল অর্গানাইজেশনে হ্যাশিং (Hashing Technique):\n(ক) স্ট্যাটিক হ্যাশিং এবং এক্সটেন্ডিবল হ্যাশিং (Extendible Dynamic Hashing)-এর মধ্যে পার্থক্য কী?\n(খ) হ্যাশ কোলিশন (Hash Collision) কী? কোলিশন রেজোলিউশনের দুটি প্রধান পদ্ধতি: লিনিয়ার প্রোবিং (Open Addressing / Linear Probing) এবং সেপারেট চেইনিং (Separate Chaining)-এর মেকানিজম উদাহরণসহ ব্যাখ্যা করুন।",
+    "marks": 8,
+    "answer": "ডাটাবেজ হ্যাশিং ও কোলিশন সমাধান:\n\n১. স্ট্যাটিক বনাম এক্সটেন্ডিবল হ্যাশিং:\n• Static Hashing: বাকেটের (Buckets) সংখ্যা ফিক্সড থাকে। ডাটাবেজ বড় হতে থাকলে বাকেট পূর্ণ হয়ে যায় এবং প্রচুর ওভারফ্লো বাকেট যুক্ত করতে হয়, ফলে সার্চিং দক্ষতা $O(1)$ থেকে কমে $O(n)$-এ নেমে যায়।\n• Extendible Hashing (Dynamic Hashing): ডিরেক্টরি পয়েন্টার ও গ্লোবাল/লোকাল ডেপথ (Global and Local Depth) ব্যবহার করে ডাটা বাড়ার সাথে সাথে বাকেটগুলো ডায়নামিকভাবে বিভক্ত (Split) হয়। ফলে কোনো ওভারফ্লো চেইন ছাড়াই ডাটা সার্চ সর্বদা ১ থেকে ২টি ডিস্ক এক্সেসেই ($O(1)$) সম্পন্ন হয়।\n\n২. হ্যাশ কোলিশন (Collision):\nযখন দুটি ভিন্ন কি (Keys, $K_1 \\neq K_2$) এর ওপর হ্যাশ ফাংশন প্রয়োগ করলে একই হ্যাশ অ্যাড্রেস বা বাকেট লোকেশন তৈরি হয় ($h(K_1) = h(K_2)$), তখন তাকে হ্যাশ কোলিশন বলে।\n\n৩. কোলিশন রেজোলিউশন পদ্ধতি:\n(ক) Linear Probing (Open Addressing):\nযদি হ্যাশকৃত স্লটটি ইতোমধ্যে দখল করা থাকে, তবে ক্রমানুসারে পরবর্তী খালি স্লটটি (Next available slot) খুঁজে বের করে সেখানে ডাটা রাখা হয় ($h(k, i) = (h(k) + i) \\pmod{m}$)।\n- উদাহরণ: স্লট ৪ পূর্ণ থাকলে ডাটাটি স্লট ৫-এ বসবে।\n- সীমাবদ্ধতা: ক্লাস্টারিং (Primary Clustering) তৈরি হয়, অর্থাৎ পরপর স্লটগুলো ব্লক হয়ে যায়।\n\n(খ) Separate Chaining (Closed Addressing):\nপ্রতিটি হ্যাশ স্লটে সরাসরি ডাটা না রেখে একটি লিংকড লিস্টের হেড পয়েন্টার রাখা হয়। কোলিশন ঘটলে একই স্লটের লিংকড লিস্টের শেষে নতুন নোড হিসেবে ডাটা যুক্ত করে দেওয়া হয়।\n- সুবিধা: মেমোরির সর্বোচ্চ ব্যবহার হয় এবং টেবিল সাইজ নিয়ে কোনো সীমাবদ্ধতা থাকে না।\n- আধুনিক RDBMS এবং জাভা/পাইথন ডিকশনারি ইন্টারনালি সেপারেট চেইনিং হ্যাশিং ব্যবহার করে।",
+    "points_to_remember": [
+      "আইডিয়াল হ্যাশ ফাংশন সর্বদা ইউনিফর্ম ডিস্ট্রিবিউশন নিশ্চিত করে।",
+      "এক্সটেন্ডিবল হ্যাশিং ডাটাবেজ ডিরেক্টরি সাইজ ডাবলিংয়ের মাধ্যমে গ্রো করে।"
+    ],
+    "tags": [
+      "hashing",
+      "extendible_hashing",
+      "dbms_structures"
+    ],
+    "chapter": "Chapter 04 - Database Management Systems & Storage Architecture"
+  },
+  {
+    "id": 1086,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems",
+    "question": "ডাটাবেজ ইনডেক্স টিউনিং ও কুয়েরি অপটিমাইজেশন (Query Optimization):\n(ক) ক্লাস্টার্ড ইনডেক্স (Clustered Index) এবং নন-ক্লাস্টার্ড ইনডেক্স (Non-Clustered Index)-এর মধ্যে ৩টি মৌলিক পার্থক্য লিখুন। একটি টেবিলে কেন একের অধিক ক্লাস্টার্ড ইনডেক্স থাকতে পারে না?\n(খ) Index Seek এবং Index Scan এর মধ্যে পার্থক্য কী? কোনটি দ্রুতগতির এবং কেন?\n(গ) কম্পোজিট ইনডেক্স (Composite Index) তৈরিতে 'Leftmost Prefix Rule' বলতে কী বোঝায়? একটি ৩-কলাম বিশিষ্ট ইনডেক্স `(A, B, C)` থাকলে কোন কোন কুয়েরি ফিল্টারে এটি কাজ করবে?",
+    "marks": 8,
+    "answer": "ডাটাবেজ ইনডেক্সিং ও অপটিমাইজেশন সমাধান:\n\n১. ক্লাস্টার্ড বনাম নন-ক্লাস্টার্ড ইনডেক্স:\n| বৈশিষ্ট্য | ক্লাস্টার্ড ইনডেক্স | নন-ক্লাস্টার্ড ইনডেক্স |\n| :--- | :--- | :--- |\n| ডাটা স্টোরেজ বিন্যাস | টেবিলের ফিজিক্যাল ডাটা সারিগুলো ইনডেক্স কি-এর ক্রমানুসারে সাজানো থাকে। | ডাটা আলাদা জায়গায় থাকে, ইনডেক্স শুধু ডাটা পয়েন্টার সংরক্ষণ করে। |\n| সংখ্যা | প্রতি টেবিলে মাত্র ১টি থাকতে পারে। | প্রতি টেবিলে একাধিক (সাধারণত ৯৯৯টি পর্যন্ত) থাকতে পারে। |\n| পাতার নোড (Leaf Node) | লিফ নোডে স্বয়ং সম্পূর্ণ আসল ডাটা রো (Data Row) অবস্থান করে। | লিফ নোডে আসল ডাটার দিকে রো-লোকেটর বা পয়েন্টার থাকে। |\n\n• কেন একটির বেশি হতে পারে না:\nএকটি বই যেমন পৃষ্ঠার নম্বরের ক্রমানুসারে শুধুমাত্র একটি ফিজিক্যাল ক্রমেই বাইন্ডিং করা সম্ভব, ঠিক তেমনি হার্ডডিস্কে টেবিলের মূল ডাটা সারিগুলো ফিজিক্যালি শুধুমাত্র একটি অর্ডারে সাজানো যায়। তাই ক্লাস্টার্ড ইনডেক্স সর্বদা একটিই হয় (যা সাধারণত Primary Key)।\n\n২. Index Seek বনাম Index Scan:\n• Index Seek: সার্চ কি-এর সুনির্দিষ্ট মান দিয়ে B-Tree ইনডেক্সের রুট থেকে সরাসরি নির্দিষ্ট লিফ নোডে চলে যায় ($O(\\log N)$)। এতে অল্প কয়েকটি পেজ রিড করতে হয়।\n• Index Scan: ইনডেক্সের প্রতিটি পাতা উপর থেকে নিচ পর্যন্ত স্ক্যান করে পুরো টেবিল চেক করে ($O(N)$)।\n- গতি: **Index Seek বহুগুণ দ্রুতগতির**, কারণ এটি অপ্রয়োজনীয় ৯৯% ডাটা বাইপাস করে সরাসরি নির্দিষ্ট ডাটা পয়েন্টে পৌঁছায়।\n\n৩. Leftmost Prefix Rule (কম্পোজিট ইনডেক্স):\nযখন একাধিক কলাম দিয়ে কম্পোজিট ইনডেক্স `(A, B, C)` তৈরি করা হয়, তখন ডাটাবেজ ইঞ্জিন ডাটা সর্ট করে প্রথমে A এর ওপর, সমমান হলে B এর ওপর, এবং তারপর C এর ওপর।\n\nLeftmost Prefix Rule অনুযায়ী, কুয়েরির `WHERE` ক্লজে যদি ইনডেক্সের সর্ববামের কলামটি থাকে, তবেই কেবল ইনডেক্স ব্যবহার হবে।\n• যেসব কুয়েরিতে ইনডেক্স কাজ করবে:\n১. `WHERE A = 5` (কলাম A আছে - কাজ করবে)\n২. `WHERE A = 5 AND B = 10` (কলাম A ও B আছে - কাজ করবে)\n৩. `WHERE A = 5 AND B = 10 AND C = 20` (A, B, C সবগুলো আছে - সর্বোচ্চ পারফর্ম করবে)\n৪. `WHERE A = 5 AND C = 20` (A-এর অংশটুকু ইনডেক্স সিক করবে)\n\n• যেসব কুয়েরিতে ইনডেক্স কাজ করবে না (Full Table Scan হবে):\n১. `WHERE B = 10` (সর্ববামের কলাম A নেই)\n২. `WHERE C = 20` (সর্ববামের কলাম A নেই)\n৩. `WHERE B = 10 AND C = 20` (সর্ববামের কলাম A নেই)",
+    "points_to_remember": [
+      "কম্পোজিট ইনডেক্সে সবচেয়ে বেশি ফিল্টার হওয়া কলামকে সবার প্রথমে (লেফটমোস্ট) রাখা উচিত।",
+      "Index Seek হলো সেরা ডাটাবেজ পারফরম্যান্সের লক্ষণ।"
+    ],
+    "tags": [
+      "dbms",
+      "indexing",
+      "clustered_index",
+      "leftmost_prefix",
+      "query_tuning"
+    ],
+    "chapter": "Chapter 04 - Database Management Systems & Storage Architecture"
+  },
+  {
+    "id": 1087,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Management Systems",
+    "question": "এমভিসিসি (Multi-Version Concurrency Control - MVCC) ও আইসোলেশন লেভেল:\n(ক) ট্র্যাডিশনাল লক-বেসড কনকারেন্সির তুলনায় MVCC কীভাবে ডাটাবেজে রিডার (Readers) এবং রাইটারদের (Writers) মধ্যে ব্লকিং বা লক কনটেনশন দূর করে?\n(খ) SQL-92 স্ট্যান্ডার্ডের ৪টি ট্রানজ্যাকশন আইসোলেশন লেভেলের নাম ক্রমানুসারে লিখুন।\n(গ) Dirty Read, Non-Repeatable Read, এবং Phantom Read বলতে কী বোঝায় উদাহরণসহ ব্যাখ্যা করুন।",
+    "marks": 9,
+    "answer": "MVCC ও ডাটাবেজ আইসোলেশন লেভেল সমাধান:\n\n১. MVCC এর মেকানিজম:\nপ্রচলিত লক-বেসড সিস্টেমে কোনো সারি আপডেট (Write) করার সময় এক্সক্লুসিভ লক নিতে হয়, ফলে অন্যান্য ব্যবহারকারীরা সেই ডাটা পড়া (Read) থেকে ব্লক হয়ে অপেক্ষা করে।\nMVCC (যা PostgreSQL, Oracle, MySQL InnoDB ব্যবহার করে) এই নীতিতে চলে: **\"Readers never block Writers, and Writers never block Readers\"**।\n• কীভাবে কাজ করে: কোনো ট্রানজ্যাকশন যখন ডাটা পরিবর্তন করে, তখন সে মূল ডাটা ওভাররাইট করে না। বরং সেই রো-এর একটি নতুন ভার্সন (Snapshot) তৈরি করে এবং তাতে সিস্টেম ট্রানজ্যাকশন আইডি (`xmin`, `xmax`) যুক্ত করে। রিডাররা তাদের ট্রানজ্যাকশন শুরু হওয়ার মুহূর্তের পুরনো স্ন্যাপশটটি দেখতে থাকে। ফলে একই টেবিলে কোটি কোটি রিড ও রাইট রিকোয়েস্ট কোনো লকিং বাধা ছাড়াই প্যারালালে চলতে পারে।\n\n২. ৪টি ট্রানজ্যাকশন আইসোলেশন লেভেল (দুর্বল থেকে শক্তিশালী):\n১. Read Uncommitted (লঘু/সর্বনিম্ন)\n২. Read Committed (অধিকাংশ আধুনিক RDBMS-এর ডিফল্ট)\n৩. Repeatable Read\n৪. Serializable (সর্বোচ্চ কঠোর আইসোলেশন)\n\n৩. কনকারেন্সি অ্যানোমালি ত্রয়ী:\n• Dirty Read:\nট্রানজ্যাকশন $T_1$ একটি ডাটা আপডেট করল কিন্তু এখনো `COMMIT` করেনি। এর মাঝেই ট্রানজ্যাকশন $T_2$ সেই আন-কমিটেড মান পড়ে ফেলল। পরবর্তীতে $T_1$ যদি কোনো কারণে `ROLLBACK` করে, তবে $T_2$-এর পড়া মানটি সম্পূর্ণ মিথ্যা বা ডার্টি হয়ে যায়।\n\n• Non-Repeatable Read (Fuzzy Read):\nট্রানজ্যাকশন $T_1$ একটি নির্দিষ্ট সারি পড়ল (যেমন বেতন = ৫০,০০০)। এর মাঝেই ট্রানজ্যাকশন $T_2$ সেই বেতন পরিবর্তন করে ৬০,০০০ করে `COMMIT` দিল। এখন $T_1$ একই কুয়েরি পুনরায় চালালে দেখতে পায় মান বদলে গেছে। অর্থাৎ একই ট্রানজ্যাকশনে দুইবার পড়ে দুই রকম মান পাওয়া যায়।\n\n• Phantom Read:\nট্রানজ্যাকশন $T_1$ একটি নির্দিষ্ট শর্তে একাধিক সারি কুয়েরি করল (যেমন: `WHERE Age > 30`, পেল ১০ জন)। এরপর ট্রানজ্যাকশন $T_2$ নতুন একজন ৩২ বছর বয়সী নাগরিক ইনসার্ট করে `COMMIT` করল। এবার $T_1$ পুনরায় একই রেঞ্জ কুয়েরি করলে ১১ জন পায়। এই হঠাৎ নতুন আবির্ভূত সারিকে 'ফ্যান্টম রো' বা ফ্যান্টম রিড বলে।",
+    "points_to_remember": [
+      "Serializable আইসোলেশন ফ্যান্টম রিড সম্পূর্ণরূপে প্রতিহত করে।",
+      "PostgreSQL-এ ভ্যাকুয়ামিং (VACUUM) প্রসেস MVCC-এর ডেড টাপল মুছে ডিস্ক স্পেস খালি করে।"
+    ],
+    "tags": [
+      "dbms",
+      "mvcc",
+      "acid",
+      "isolation_levels",
+      "phantom_read"
+    ],
+    "chapter": "Chapter 04 - Database Management Systems & Storage Architecture"
+  },
+  {
+    "id": 1090,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Storage Architecture & RAID Calculations",
+    "question": "রেইড স্টোরেজ গাণিতিক বিশ্লেষণ (RAID Storage Calculations):\nএকটি ডেটাসেন্টার স্টোরেজ পুলে প্রতিটি ২ TB ক্ষমতাসম্পন্ন মোট ৬টি আইডেন্টিক্যাল এন্টারপ্রাইজ হার্ডডিস্ক ($N = 6, C = 2\\text{ TB}$) সংযুক্ত আছে।\n(ক) নিচের প্রতিটি কনফিগারেশনের জন্য ব্যবহারযোগ্য মোট স্টোরেজ ক্ষমতা (Usable Storage Capacity) গাণিতিকভাবে নির্ণয় করুন:\n১. RAID 0\n২. RAID 1 (Mirrored)\n৩. RAID 5 (Distributed Parity)\n৪. RAID 6 (Dual Distributed Parity)\n৫. RAID 10 (1+0 Striped Mirrors)\n(খ) প্রতিটি রেইড লেভেলের ফল্ট টলারেন্স (Fault Tolerance - সর্বোচ্চ কতটি ডিস্ক ফেইল করলে ডাটা হারাবে না) লিখুন।\n(গ) RAID 5 এবং RAID 6-এর রাইট পেনাল্টি (Write Penalty / IOPS Penalty) কত এবং কেন?",
+    "marks": 9,
+    "answer": "রেইড (RAID) স্টোরেজ গাণিতিক বিশ্লেষণ:\nমোট ডিস্ক সংখ্যা $N = 6$, প্রতি ডিস্কের ক্ষমতা $C = 2\\text{ TB}$। মোট ফিজিক্যাল ক্ষমতা = $6 \\times 2 = 12\\text{ TB}$।\n\n১. বিভিন্ন রেইড লেভেলের ব্যবহারযোগ্য ক্ষমতা ও ফল্ট টলারেন্স:\n\n• ১. RAID 0 (Striping):\n- সূত্র: $\\text{Capacity} = N \\times C = 6 \\times 2 = 12\\text{ TB}$ (১০০% ক্ষমতা)\n- ফল্ট টলারেন্স: **০টি ডিস্ক**। যেকোনো ১টি ডিস্ক নষ্ট হলেই সম্পূর্ণ ডাটা ধ্বংস হয়ে যাবে।\n\n• ২. RAID 1 (Full 6-way Mirroring):\n- সূত্র: $\\text{Capacity} = 1 \\times C = 2\\text{ TB}$\n- ফল্ট টলারেন্স: **৫টি ডিস্ক** ফেইল করলেও ১টি ডিস্ক থেকে ডাটা উদ্ধার সম্ভব।\n\n• ৩. RAID 5 (Distributed Parity):\n- সূত্র: $\\text{Capacity} = (N - 1) \\times C = (6 - 1) \\times 2 = 5 \\times 2 = 10\\text{ TB}$ (৮৩.৩% দক্ষতা)\n- ফল্ট টলারেন্স: **যেকোনো ১টি ডিস্ক** ফেইল করলে ডাটা নিরাপদে থাকবে (প্যারিটি দিয়ে রিবিল্ড হবে)।\n\n• ৪. RAID 6 (Dual Distributed Parity):\n- সূত্র: $\\text{Capacity} = (N - 2) \\times C = (6 - 2) \\times 2 = 4 \\times 2 = 8\\text{ TB}$ (৬৬.৬% দক্ষতা)\n- ফল্ট টলারেন্স: **যেকোনো ২টি ডিস্ক** একসাথে নষ্ট হলেও ডাটা অক্ষত থাকবে।\n\n• ৫. RAID 10 (Striping of Mirrors - RAID 1+0):\n- সূত্র: $\\text{Capacity} = (N / 2) \\times C = (6 / 2) \\times 2 = 3 \\times 2 = 6\\text{ TB}$ (৫০% দক্ষতা)\n- ফল্ট টলারেন্স: প্রতি মিরর পেয়ার থেকে ১টি করে **সর্বোচ্চ ৩টি ডিস্ক** নষ্ট হলেও ডাটা টিকে থাকবে (তবে একই পেয়ারের দুটি নষ্ট হওয়া যাবে না)।\n\n২. সামারি ছক:\n| RAID Level | Usable Capacity | Storage Efficiency | Fault Tolerance |\n| :---: | :---: | :---: | :---: |\n| RAID 0 | 12 TB | 100% | 0 Disks |\n| RAID 1 | 2 TB | 16.6% | 5 Disks |\n| RAID 5 | 10 TB | 83.3% | 1 Disk |\n| RAID 6 | 8 TB | 66.6% | 2 Disks |\n| RAID 10 | 6 TB | 50% | 1 to 3 Disks |\n\n৩. Write Penalty / IOPS Penalty বিশ্লেষণ:\n• RAID 5 Write Penalty = **4 IOPS**:\nRAID 5-এ প্রতি ১টি সিঙ্গেল রাইট রিকোয়েস্ট সম্পাদন করতে ডিস্কে মোট ৪টি I/O অপারেশন করতে হয়:\n১. Read Old Data\n২. Read Old Parity\n৩. Write New Data\n৪. Write New Parity\nসূত্র: $\\text{New Parity} = (\\text{Old Data} \\oplus \\text{New Data}) \\oplus \\text{Old Parity}$\n\n• RAID 6 Write Penalty = **6 IOPS**:\nযেহেতু এতে দুটি ভিন্ন প্যারিটি ($P$ এবং $Q$) ক্যালকুলেট ও সংরক্ষণ করতে হয়, তাই মোট ৩টি রিড ও ৩টি রাইটসহ মোট ৬টি I/O অপারেশন করতে হয়। ফলে হাই-রাইট ইনটেনসিভ ডাটাবেজে RAID 10 অগ্রাধিকার পায়।",
+    "points_to_remember": [
+      "RAID 5-এ ১ ডিস্ক সমতুল্য ক্ষমতা প্যারিটিতে যায়; RAID 6-এ ২ ডিস্ক সমতুল্য ক্ষমতা প্যারিটিতে যায়।",
+      "মিশন ক্রিটিক্যাল ডাটাবেজের জন্য RAID 10 সেরা কারণ এর রাইট পেনাল্টি মাত্র ২।"
+    ],
+    "tags": [
+      "storage",
+      "raid",
+      "iops",
+      "raid_math",
+      "hardware"
+    ],
+    "chapter": "Chapter 04 - Database Management Systems & Storage Architecture"
+  },
+  {
+    "id": 1091,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Storage Architecture & SAN/NAS",
+    "question": "এন্টারপ্রাইজ স্টোরেজ আর্কিটেকচার (SAN vs NAS):\n(ক) স্টোরেজ এরিয়া নেটওয়ার্ক (SAN) এবং নেটওয়ার্ক অ্যাটাচড স্টোরেজ (NAS)-এর মধ্যে ৩টি মৌলিক পার্থক্য লিখুন।\n(খ) ব্লক-লেভেল স্টোরেজ (Block-level Storage) এবং ফাইল-লেভেল স্টোরেজ (File-level Storage)-এর মেকানিজম ব্যাখ্যা করুন।\n(গ) আইএসসিএসআই (iSCSI), ফাইবার চ্যানেল (Fibre Channel - FC), এবং লুন (LUN - Logical Unit Number) বলতে কী বোঝায়?",
+    "marks": 8,
+    "answer": "SAN বনাম NAS স্টোরেজ আর্কিটেকচার সমাধান:\n\n১. SAN বনাম NAS পার্থক্য:\n| বৈশিষ্ট্য | SAN (Storage Area Network) | NAS (Network Attached Storage) |\n| :--- | :--- | :--- |\n| স্টোরেজ টাইপ | Block-level Storage (রিমোট ডিস্ক লোকাল ড্রাইভের মতো দেখায়)। | File-level Storage (শেয়ার্ড ফোল্ডার বা ফাইল সিস্টেম হিসেবে মাউন্ট হয়)। |\n| ব্যবহৃত নেটওয়ার্ক | ডেডিকেটেড উচ্চগতির হাই-পারফরম্যান্স নেটওয়ার্ক (Fibre Channel বা 10G iSCSI)। | বিদ্যমান লোকাল এরিয়া নেটওয়ার্ক (LAN - Standard Ethernet)। |\n| ব্যবহৃত প্রোটোকল | FCP (Fibre Channel Protocol), iSCSI, FCoE। | NFS (Linux), CIFS/SMB (Windows)। |\n| সেরা ব্যবহার | হাই-লোড ডাটাবেজ (Oracle/SQL Server), ভার্চুয়ালাইজেশন ক্লাস্টার (ESXi)। | অফিস ফাইল শেয়ারিং, ডকুমেন্ট আর্কাইভ, সাধারণ সেন্ট্রালাইজড ব্যাকআপ। |\n\n২. ব্লক-লেভেল বনাম ফাইল-লেভেল স্টোরেজ:\n• Block-level Storage:\nস্টোরেজ ডিভাইস কাঁচা (Raw) স্টোরেজ ব্লক প্রদান করে। সার্ভার ওএস নিজে এই ব্লকের ওপর ফাইল সিস্টেম (যেমন NTFS, ext4) তৈরি করে ফরম্যাট দেয়। সার্ভারের কাছে মনে হয় এটি সরাসরি মাদারবোর্ডে লাগানো ফিজিক্যাল হার্ডডিস্ক। ফলে ডাটাবেজ অত্যন্ত দ্রুত সরাসরি ব্লকে রিড/রাইট করতে পারে।\n• File-level Storage:\nস্টোরেজ ডিভাইস নিজেই ফাইল সিস্টেম হ্যান্ডেল করে। ক্লায়েন্ট কম্পিউটার নেটওয়ার্ক ড্রাইভ হিসেবে যুক্ত হয়ে শুধুমাত্র ফাইল ক্রিয়েট, রিড, ডিলিট কমান্ড পাঠায়। ওএস সরাসরি কোনো ডিস্ক ব্লক নিয়ন্ত্রণ করতে পারে না।\n\n৩. মূল টার্মিনোলজি:\n• LUN (Logical Unit Number):\nএকটি বৃহৎ SAN স্টোরেজ পুল বা রেইড অ্যারেকে লজিক্যালভাবে ছোট ছোট খণ্ডে বিভক্ত করে প্রতিটি খণ্ডকে একটি ইউনিক নম্বর বরাদ্দ করা হয়, একে LUN বলে। সার্ভারের কাছে প্রতিটি LUN একটি স্বতন্ত্র হার্ডডিস্ক ড্রাইভ হিসেবে প্রদর্শিত হয়।\n• Fibre Channel (FC):\nঅত্যন্ত উচ্চগতির (১৬/৩২/৬৪ Gbps) ডেডিকেটেড অপটিক্যাল ফাইবার নেটওয়ার্ক যা স্পেশাল FC সুইচ এবং হোস্ট বাস অ্যাডাপ্টার (HBA) কার্ড ব্যবহার করে জিরো প্যাকেট লস ও আল্ট্রা-লো লেটেন্সিতে স্টোরেজ কানেক্টিভিটি দেয়।\n• iSCSI (Internet Small Computer System Interface):\nদামী ফাইবার চ্যানেলের বদলে সাধারণ সস্তা ইথারনেট আইপি নেটওয়ার্কের ওপর SCSI কমান্ড এনক্যাপসুলেট করে ব্লক স্টোরেজ ট্রান্সপোর্ট করার আইপি-বেসড প্রোটোকল (TCP পোর্ট 3260)।",
+    "points_to_remember": [
+      "পাসপোর্ট ডাটাবেজ সার্ভার SAN স্টোরেজের LUN ব্যবহার করে।",
+      "NAS ফাইল শেয়ারিংয়ের জন্য সুবিধাজনক হলেও ডাটাবেজের জন্য SAN অপরিহার্য।"
+    ],
+    "tags": [
+      "storage",
+      "san",
+      "nas",
+      "iscsi",
+      "lun",
+      "fibre_channel"
+    ],
+    "chapter": "Chapter 04 - Database Management Systems & Storage Architecture"
+  },
+  {
+    "id": 1111,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Systems & B+ Tree Architecture",
+    "question": "ডাটাবেজ বি+ ট্রি ইনডেক্স আর্কিটেকচার ও সার্চিং গণিত (B+ Tree Math):\n(ক) ডাটাবেজ ইনডেক্সিংয়ে বি-ট্রি (B-Tree)-এর তুলনায় বি+ ট্রি (B+ Tree) কেন সর্বাধিক জনপ্রিয়? ৩টি প্রযুক্তিগত সুবিধা লিখুন।\n(খ) অর্ডার $M = 4$ বিশিষ্ট একটি B+ Tree তে প্রতিটি ইন্টারনাল নোডে সর্বোচ্চ ও সর্বনিম্ন কয়টি কি (Key) এবং কয়টি পয়েন্টার (Pointer) থাকতে পারে?\n(গ) B+ Tree এর লিফ নোডগুলোর পরস্পরের সাথে 'ডাবলি লিংকড লিস্ট (Doubly Linked List)' দ্বারা সংযুক্ত থাকার সুবিধা কী?",
+    "marks": 8,
+    "answer": "B+ Tree আর্কিটেকচার ও গণিত সমাধান:\n\n১. B-Tree এর তুলনায় B+ Tree এর ৩টি শ্রেষ্ঠ সুবিধা:\n১. উচ্চ ফ্যান-আউট (Higher Fan-out) ও অগভীর উচ্চতা: সাধারণ B-Tree তে প্রতিটি ইন্টারনাল নোডেই ডাটা রেকর্ড পয়েন্টার রাখা হতো, ফলে একটি ডিস্ক ব্লকে খুব কম সংখ্যক কি (Keys) ধরত। B+ Tree তে ইন্টারনাল নোডে কোনো ডাটা রেকর্ড থাকে না, কেবল রাউটিং কি থাকে; ফলে একটি নোডে বিপুল পয়েন্টার ধরে এবং ট্রির উচ্চতা অত্যন্ত কম হয় (কম ডিস্ক I/O লাগে)।\n২. আল্ট্রা-ফাস্ট রেঞ্জ কুয়েরি (Range Queries): B+ Tree এর সকল আসল ডাটা পয়েন্টার শুধু মাত্র সর্বনিম্ন স্তরের লিফ নোডেই (Leaf Nodes) থাকে এবং লিফ নোডগুলো পরস্পরের সাথে লিংকড লিস্ট দিয়ে যুক্ত। ফলে `WHERE Salary BETWEEN 30000 AND 50000` কুয়েরি চালানোর সময় ট্রির রুট থেকে বারবার নামতে হয় না; ১ম নোডটি খুঁজে লিংক ধরে সোজা সামনে গেলেই সকল ডাটা পাওয়া যায়।\n৩. ধারাবাহিক প্রেডিক্টেবল সার্চ টাইম: যেকোনো সার্চ সর্বদা রুট থেকে একদম লিফ নোড পর্যন্ত একই দূরত্বের লেভেল অতিক্রম করে, ফলে সার্চ টাইম সর্বদা সুনির্দিষ্ট $O(\\log N)$।\n\n২. অর্ডার $M = 4$ বিশিষ্ট B+ Tree এর ধারণক্ষমতা গণিত:\nঅর্ডার $M = 4$ মানে প্রতিটি নোডে সর্বোচ্চ ৪টি চাইল্ড পয়েন্টার থাকতে পারে।\n\n• ইন্টারনাল নোড (Internal Nodes):\n- সর্বোচ্চ পয়েন্টার সংখ্যা = $M = 4$\n- সর্বোচ্চ কি (Keys) সংখ্যা = $M - 1 = 4 - 1 = 3$\n- সর্বনিম্ন পয়েন্টার সংখ্যা (রুট ছাড়া) = $\\lceil M / 2 \\rceil = \\lceil 4 / 2 \\rceil = 2$\n- সর্বনিম্ন কি (Keys) সংখ্যা = $\\lceil M / 2 \\rceil - 1 = 2 - 1 = 1$\n\n• লিফ নোড (Leaf Nodes):\n- সর্বোচ্চ ডাটা কি সংখ্যা = $M - 1 = 3$\n- সর্বনিম্ন ডাটা কি সংখ্যা = $\\lfloor M / 2 \\rfloor = 4 / 2 = 2$\n\n৩. লিফ নোডে ডাবলি লিংকড লিস্ট থাকার সুবিধা:\nB+ Tree এর সকল লিফ নোড অনুভূমিকভাবে বাম থেকে ডানে (Ascending) এবং ডান থেকে বামে (Descending) লিংকড লিস্ট দিয়ে জোড়া লাগানো থাকে।\n- এর ফলে এসকিউএল-এর `ORDER BY col ASC` অথবা `ORDER BY col DESC` কোনো অতিরিক্ত ইন-মেমোরি সর্টিং ওভারহেড ছাড়াই সরাসরি ডিস্ক থেকে ক্রমানুসারে ডাটা স্ট্রিম করতে পারে।",
+    "points_to_remember": [
+      "B+ Tree এর ইন্টারনাল নোডে কোনো আসল ডাটা রো থাকে না, কেবল লিফ নোডে থাকে।",
+      "আধুনিক RDBMS (MySQL InnoDB, Oracle, Postgres) বি+ ট্রি ইনডেক্স ব্যবহার করে।"
+    ],
+    "tags": [
+      "dbms",
+      "b_plus_tree",
+      "indexing",
+      "data_structures",
+      "math"
+    ],
+    "chapter": "Chapter 04 - Database Management Systems & Storage Architecture"
+  },
+  {
+    "id": 1112,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Systems & Transaction Recovery",
+    "question": "ডাটাবেজ ক্র্যাশ রিকভারি ও এরাইজ অ্যালগরিদম (ARIES Algorithm):\n(ক) ডাটাবেজে ক্র্যাশ রিকভারির মূলনীতি Write-Ahead Logging (WAL) কী এবং কেন ডিস্কে মূল ডাটা লেখার পূর্বে লগ ফাইলে কমিট রেকর্ড লেখা আবশ্যক?\n(খ) চেকপয়েন্টিং (Checkpoints) কীভাবে ডাটাবেজ রিস্টোরেশনের সময় লগ স্ক্যানিংয়ের সময় বাঁচায়?\n(গ) ARIES অ্যালগরিদমের ৩টি পর্যায়: Analysis Phase, Redo Phase, এবং Undo Phase এর মেকানিজম সংক্ষেপে ব্যাখ্যা করুন।",
+    "marks": 8,
+    "answer": "ডাটাবেজ ক্র্যাশ রিকভারি ও ARIES সমাধান:\n\n১. Write-Ahead Logging (WAL) প্রোটোকল:\nWAL হলো ডাটাবেজ সিস্টেমের একটি সোনালী নিয়ম যার নীতি হলো:\n\"কোনো ডাটা পেজের পরিবর্তন ডিস্কের মূল ডাটাবেজ ফাইলে লেখার পূর্বে, অবশ্যই সেই পরিবর্তনের বিবরণ সংবলিত লগ রেকর্ড (Log Record) স্থায়ী নন-ভোলাটাইল ডিস্ক স্টোরেজে ফ্ল্যাশ করতে হবে।\"\n• কারণ: ট্রানজ্যাকশন চলাকালীন হঠাৎ বিদ্যুৎ চলে গেলে বা সিস্টেম ক্র্যাশ করলে র‍্যামের আন-কমিটেড ডাটা মুছে যায়। কিন্তু ডিস্ক লগে ট্রানজ্যাকশন আইডি, পুরনো মান (Old value) ও নতুন মান (New value) আগে থেকেই লেখা থাকায় ডাটাবেজ রিবুট হওয়ার সময় ক্র্যাশ মুহূর্তের পূর্বের সঠিক অবস্থায় ফিরে যেতে পারে।\n\n২. চেকপয়েন্টিং (Checkpoints) এর ভূমিকা:\nযদি কোনো ডাটাবেজ এক বছর ধরে চলে, তবে তার ট্রানজ্যাকশন লগ ফাইলটি কয়েকশ গিগাবাইট হয়ে যাবে। ক্র্যাশ হলে শুরুর দিন থেকে লগ রিড করা অসম্ভব।\n• মেকানিজম: ডাটাবেজ ইঞ্জিন নির্দিষ্ট সময় পর পর (যেমন প্রতি ৫ মিনিটে) মেমোরির সমস্ত ডার্টি পেজকে ডিস্ক ডাটাবেজে জোরপূর্বক সিঙ্ক করে লগে একটি `CHECKPOINT` ট্যাগ এঁকে দেয়। ক্র্যাশ হলে সিস্টেমকে কেবল সর্বশেষ চেকপয়েন্ট থেকে রিকভারি শুরু করতে হয়, পেছনের লক্ষ লক্ষ পুরনো লগ পড়ার কোনো প্রয়োজন পড়ে না।\n\n৩. ARIES (Algorithms for Recovery and Isolation Exploiting Semantics):\nআধুনিক RDBMS-এ ব্যবহৃত ৩-ফেজ ক্র্যাশ রিকভারি অ্যালগরিদম:\n১. Analysis Phase:\n   সর্বশেষ চেকপয়েন্ট থেকে ক্র্যাশ মুহূর্ত পর্যন্ত ফরোয়ার্ড স্ক্যান করে। ক্র্যাশের সময় কোন কোন ট্রানজ্যাকশন সক্রিয় ছিল (Active Transactions) এবং কোন কোন পেজ ডার্টি ছিল তার একটি তালিকা প্রস্তুত করে।\n২. Redo Phase (\"Repeating History\"):\n   ইতিহাসের পুনরাবৃত্তি ঘটায়। ক্র্যাশের পূর্বে যেসব পরিবর্তন সফল হয়েছিল, সিস্টেম লগ দেখে ঠিক সেই পরিবর্তনগুলো পুনরায় এক্সিকিউট করে যাতে কোনো বৈধ কমিটেড ডাটা হারিয়ে না যায়।\n৩. Undo Phase:\n   লগ ফাইলকে পিছন দিকে রিভার্স স্ক্যান করে। ক্র্যাশ মুহূর্ত পর্যন্ত যেসব ট্রানজ্যাকশন আন-কমিটেড (Uncommitted / Loser Transactions) ছিল, তাদের করা সকল পরিবর্তন রোলব্যাক (Undo) করে পূর্বাবস্থায় ফিরিয়ে এনে ডাটাবেজের সম্পূর্ণ অখণ্ডতা পুনরুদ্ধার করে।",
+    "points_to_remember": [
+      "WAL确保 Atomicity and Durability (ACID)।",
+      "ARIES ৩টি ফেজ: Analysis -> Redo -> Undo।"
+    ],
+    "tags": [
+      "dbms",
+      "aries_algorithm",
+      "wal",
+      "crash_recovery",
+      "checkpoints"
+    ],
+    "chapter": "Chapter 04 - Database Management Systems & Storage Architecture"
+  },
+  {
+    "id": 1113,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Storage & Database Scalability",
+    "question": "ডাটাবেজ শার্ডিং ও কনসিস্টেন্ট হ্যাশিং (Database Sharding & Consistent Hashing):\n(ক) ভার্টিক্যাল স্কেলিং (Vertical Scaling) এবং হরিজন্টাল শার্ডিং (Horizontal Sharding)-এর মধ্যে পার্থক্য কী?\n(খ) রেঞ্জ-বেসড শার্ডিং (Range Sharding) এবং হ্যাশ-বেসড শার্ডিং (Hash Sharding)-এর সুবিধা ও অসুবিধা লিখুন। ডাটা হটস্পট (Hotspot Problem) কী?\n(গ) ডিস্ট্রিবিউটেড ডাটাবেজ ক্লাস্টারে নোড যোগ বা বাদ দেওয়ার সময় কনসিস্টেন্ট হ্যাশিং রিং (Consistent Hashing Ring) কীভাবে ৯৯% ডাটা রিলোকেশন পরিহার করে ব্যাখ্যা করুন।",
+    "marks": 8,
+    "answer": "ডাটাবেজ শার্ডিং ও কনসিস্টেন্ট হ্যাশিং সমাধান:\n\n১. ভার্টিক্যাল স্কেলিং বনাম হরিজন্টাল শার্ডিং:\n• Vertical Scaling (Scale-Up): একটি একক সার্ভারে আরও বেশি শক্তিশালী সিপিইউ, বেশি র‍্যাম এবং দ্রুতগতির এসএসডি যুক্ত করা। তবে এর ফিজিক্যাল হার্ডওয়্যার ও খরচের একটি চরম সীমা রয়েছে।\n• Horizontal Sharding (Scale-Out): একটি বিশাল ডাটাবেজ টেবিলকে আনুভূমিকভাবে ভেঙে একাধিক স্বাধীন সার্ভার নোডে (Shards) বণ্টন করে দেওয়া। এতে কম দামি সাধারণ সার্ভার যুক্ত করে প্রায় অসীম স্কেলেবিলিটি অর্জন করা সম্ভব।\n\n২. Range বনাম Hash শার্ডিং:\n• Range-based Sharding: শার্ডিং কি-এর রেঞ্জের ওপর ভিত্তি করে ডাটা রাখা হয় (যেমন: A-H নোড ১ এ, I-P নোড ২ এ, Q-Z নোড ৩ এ)।\n  - সুবিধা: রেঞ্জ কুয়েরি খুব সহজ।\n  - অসুবিধা: **Hotspot Problem** তৈরি হয়। যদি কোনো কারণে 'M' বা 'S' আদ্যক্ষরের পাসপোর্ট আবেদনকারীর সংখ্যা অস্বাভাবিক বেশি হয়, তবে নির্দিষ্ট নোড ২ বা ৩-এ ১০০% লোড পড়ে ক্র্যাশ করবে, অন্য নোডগুলো অলস বসে থাকবে।\n• Hash-based Sharding: শার্ডিং কি-কে হ্যাশ ফাংশন দিয়ে সমানভাবে সকল নোডে ছড়িয়ে দেওয়া হয় ($Hash(Key) \\pmod N$)। এতে কোনো হটস্পট থাকে না, তবে রেঞ্জ কুয়েরি চালানো অত্যন্ত কঠিন।\n\n৩. Consistent Hashing Ring মেকানিজম:\nপ্রচলিত মড্যুলো হ্যাশিংয়ে ($Key \\pmod N$) যদি একটি নতুন ৩য় সার্ভার যোগ করা হয় ($N$变为 $N+1$), তবে প্রায় সকল কি-এর হ্যাশ লোকেশন বদলে যায় এবং পুরো ক্লাস্টারের ৯০% ডাটা রি-লোকেশন করতে হয়।\n• Consistent Hashing:\n  একটি কাল্পনিক বৃত্তাকার রিং কল্পনা করা হয় যার রেঞ্জ $0$ হতে $2^{32} - 1$। ডাটা সার্ভার এবং ডাটার কি উভয়কেই একই রিং-এ হ্যাশ করে বসানো হয়।\n  - কোনো ডাটা কি যে বিন্দুতে পড়ে, সেখান থেকে ঘড়ির কাঁটার দিকে (Clockwise) ঘুরে প্রথম যে সার্ভার নোডটি পাওয়া যায়, ডাটাটি কেবল সেই সার্ভারে রাখা হয়।\n  - যদি ক্লাস্টারে নতুন একটি সার্ভার যোগ হয় বা কোনো সার্ভার নষ্ট হয়ে যায়, তবে গড়ে মাত্র $K/N$ সংখ্যক কি স্থানান্তরিত হয় (যেখানে $K$ মোট কি এবং $N$ নোড সংখ্যা)। অর্থাৎ ৯৯% ডাটা তার নিজস্ব জায়গায় সম্পূর্ণ অক্ষত থাকে।",
+    "points_to_remember": [
+      "কনসিস্টেন্ট হ্যাশিং ডিস্ট্রিবিউটেড ক্যাশ (Redis/Memcached) এবং NoSQL এ ব্যবহৃত হয়।",
+      "ভার্চুয়াল নোডস (Virtual Nodes) ব্যবহার করে রিং-এ ডাটার সুষম ভারসাম্য আনা হয়।"
+    ],
+    "tags": [
+      "sharding",
+      "consistent_hashing",
+      "distributed_databases",
+      "scalability"
+    ],
+    "chapter": "Chapter 04 - Database Management Systems & Storage Architecture"
+  },
+  {
+    "id": 1128,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Clustering & High Availability",
+    "question": "ডাটাবেজ ক্লাস্টারিং ও হাই অ্যাভেইলেবিলিটি (Master-Slave বনাম Multi-Master):\n(ক) রিলেশনাল ডাটাবেজে Asynchronous, Synchronous এবং Semi-synchronous রেপ্লিকেশনের মধ্যে লেটেন্সি ও ডেটা লস সংক্রান্ত পার্থক্য লিখুন।\n(খ) ডাটাবেজ ক্লাস্টারে 'Split-Brain' সিন্ড্রোম কী? Quorum ভোটিং মেকানিজম ($Q > N/2$) কীভাবে স্প্লিট-ব্রেইন প্রতিরোধ করে?\n(গ) মিশন-ক্রিটিক্যাল ইমিগ্রেশন সেন্ট্রাল ডাটাবেজে Patroni (PostgreSQL) অথবা MySQL Galera ক্লাস্টারের অটোমেটিক ফেইলওভার (Automatic Failover) প্রক্রিয়া চিত্র বা ধাপসহ ব্যাখ্যা করুন।",
+    "marks": 9,
+    "answer": "ডাটাবেজ ক্লাস্টারিং ও হাই অ্যাভেইলেবিলিটি সমাধান:\n\n১. রেপ্লিকেশন মেকানিজমের তুলনামূলক বিবরণ:\n• Asynchronous Replication: মাস্টার নোডে লেনদেন কমিট হওয়ার সাথে সাথে ক্লায়েন্টকে সাফল্য জানায়। পরে ব্যাকগ্রাউন্ডে রেপ্লিকাতে ডেটা পাঠায়। লেটেন্সি সর্বনিম্ন, কিন্তু মাস্টার ক্র্যাশ করলে আন-রেপ্লিকেটেড ডেটা পুরোপুরি নষ্ট হতে পারে (Data Loss ঝুঁকি বিদ্যমান)।\n• Synchronous Replication: মাস্টার নোড সমস্ত স্লেভ নোডে ডেটা লিখে তাদের ইতিবাচক একনলেজমেন্ট পাওয়া পর্যন্ত ক্লায়েন্ট কমিটকে ব্লক করে রাখে। ডেটা লস শূন্য ($RPO = 0$), কিন্তু নেটওয়ার্ক লেটেন্সির কারণে রাইট পারফরম্যান্স মারাত্মক ধীর হয়।\n• Semi-Synchronous Replication: মাস্টার নোড অন্তত একটি স্লেভ নোডের রিলে-লগে ডেটা রাইট হওয়ার নিশ্চয়তা পাওয়ার পর কমিট সম্পন্ন করে। এটি পারফরম্যান্স ও ডেটা সুরক্ষার চমৎকার ভারসাম্য প্রদান করে।\n\n২. Split-Brain সিন্ড্রোম ও কোরাম সমাধান:\n• Split-Brain সিন্ড্রোম: ক্লাস্টার নোডগুলোর মধ্যে নেটওয়ার্ক সংযোগ বিচ্ছিন্ন (Network Partition) হলে যদি উভয় অংশের নোডগুলো নিজেদের স্বাধীন মনে করে একযোগে মাস্টার হিসেবে রাইট অপারেশন গ্রহণ করতে শুরু করে, তাকে স্প্লিট-ব্রেইন বলে। এর ফলে ডেটাবেজে অপূরণীয় ডেটা অসঙ্গতি (Data Inconsistency) ঘটে।\n• Quorum মেকানিজম:\n  ক্লাস্টারে মোট $N$ সংখ্যক নোড থাকলে একটি পার্টিশন তখনই নিজেকে বৈধ মাস্টার বা একটিভ ক্লাস্টার ঘোষণা করতে পারবে যদি তার পক্ষে সংখ্যাগরিষ্ঠ সদস্য থাকে:\n  $$\\text{Quorum Threshold} = \\left\\lfloor \\frac{N}{2} \\right\\rfloor + 1$$\n  যেমন ৩-নোডের ক্লাস্টারে কোরাম হলো $\\lfloor 3/2 \\rfloor + 1 = 2$। কোনো পার্টিশনে মাত্র ১টি নোড থাকলে সে কোরাম পাবে না এবং নিজেকে স্বয়ংক্রিয়ভাবে Read-Only করে ফেলবে। ফলে স্প্লিট-ব্রেইন কখনোই ঘটতে পারে না। সর্বদা বিজোড় সংখ্যক নোড (৩ বা ৫) ক্লাস্টারে রাখা হয়।\n\n৩. Patroni / Galera স্বয়ংক্রিয় ফেইলওভার ধাপসমূহ:\n১. হার্টবিট মনিটরিং: একটি ডিস্ট্রিবিউটেড কনসেনসাস স্টোর (যেমন `etcd` বা `Consul`) নিয়মিত মাস্টার নোডের সাথে হার্টবিট আদান-প্রদান করে লিডার লক নবায়ন করে।\n২. নোড ফেইলিউর ডিটেকশন: মাস্টার সার্ভার ফিজিক্যালি ক্র্যাশ করলে নির্ধারিত টাইমআউটের (যেমন ১০ সেকেন্ড) মধ্যে etcd-তে লিডার কি রিনিউ করতে ব্যর্থ হয়।\n৩. নতুন লিডার নির্বাচন: স্লেভ নোডগুলোর মধ্যে যে নোডটি মাস্টারের সবচেয়ে নিকটবর্তী ট্রানজ্যাকশন লগ (সর্বোচ্চ LSN - Log Sequence Number) পর্যন্ত সিঙ্ক ছিল, সে নতুন মাস্টার হওয়ার দাবি পেশ করে এবং সংখ্যাগরিষ্ঠ কোরামের ভোটে লিডার নির্বাচিত হয়।\n৪. ক্লায়েন্ট ট্রাফিক রিডাইরেকশন: ভার্চুয়াল আইপি (Keepalived/HAProxy) বা পিজিবাউন্সার স্বয়ংক্রিয়ভাবে রাইট ট্রাফিক নতুন মাস্টারের দিকে ঘুরিয়ে দেয়।",
+    "points_to_remember": [
+      "ক্লাস্টারে স্প্লিট-ব্রেইন রোধ করতে সর্বদা বিজোড় সংখ্যক (Odd number) ভোটিং নোড রাখতে হয়।",
+      "RPO = 0 অর্জনের জন্য সিঙ্ক্রোনাস রেপ্লিকেশন ও স্বয়ংক্রিয় কোরাম অপরিহার্য।"
+    ],
+    "tags": [
+      "database_clustering",
+      "high_availability",
+      "split_brain",
+      "quorum",
+      "patroni_galera"
+    ],
+    "chapter": "Chapter 04 - Database Management Systems & Storage Architecture"
+  },
+  {
+    "id": 1142,
+    "subject": "টেকনিক্যাল (কম্পিউটার)",
+    "topic": "Database Query Optimization & Indexing",
+    "question": "ডাটাবেজ কুয়েরি অপটিমাইজেশন ও ইনডেক্সিং কৌশল:\n(ক) বি-ট্রি ইনডেক্স (B-Tree Index), বিটম্যাপ ইনডেক্স (Bitmap Index) এবং হ্যাশ ইনডেক্স (Hash Index)-এর মধ্যে মেমোরি সাইজ ও উপযুক্ত কুয়েরির ক্ষেত্রে পার্থক্য লিখুন।\n(খ) পোস্টগ্রিসকিউএল বা ওরাকল ডাটাবেজে `EXPLAIN ANALYZE` এর মাধ্যমে Sequential Scan, Index Scan, এবং Index Only Scan এর কার্যপদ্ধতি ও কস্ট ক্যালকুলেশন ব্যাখ্যা করুন।\n(গ) কম্পোজিট ইনডেক্স (Composite Index)-এ 'Leftmost Prefix' নিয়ম কী? নিচের ইনডেক্সটির ক্ষেত্রে কোন কোন কুয়েরি ইনডেক্স ব্যবহার করতে পারবে এবং কোনটি পারবে না তা ব্যাখ্যা করুন:\n  `CREATE INDEX idx_emp ON employee(division_id, department_id, join_date);`",
+    "marks": 9,
+    "answer": "ডাটাবেজ কুয়েরি অপটিমাইজেশন ও ইনডেক্সিং সমাধান:\n\n১. ইনডেক্স প্রকারভেদের তুলনামূলক ছক:\n| বৈশিষ্ট্য | B-Tree Index | Bitmap Index | Hash Index |\n| :--- | :--- | :--- | :--- |\n| উপযুক্ত ডেটা ধরন | হাই কার্ডিনালিটি (High Cardinality) ডেটা; যেমন জাতীয় পরিচয়পত্র, মোবাইল নম্বর, ইমেইল। | লো কার্ডিনালিটি (Low Cardinality) ডেটা; যেমন জেন্ডার (M/F), রক্তের গ্রুপ, বৈবাহিক অবস্থা। | ইউনিক আইটেমের হুবহু সমান মান খোঁজার জন্য ($=$)। |\n| সমর্থনযোগ্য কুয়েরি | রেঞ্জ কুয়েরি ($<, >, \\le, \\ge$), সর্টিং (`ORDER BY`), এবং পয়েন্ট কুয়েরি ($=$)। | বুলিয়ান অপারেশন (`AND`, `OR`, `NOT`) সমৃদ্ধ জটিল অ্যানালিটিক্যাল ও ডেটা ওয়্যারহাউস কুয়েরি। | শুধুমাত্র নিখুঁত সমতা ($=$) কুয়েরি; কোনো রেঞ্জ বা সর্টিং সাপোর্ট করে না। |\n| মেমোরি ও লক ওভারহেড | মাঝারি মেমোরি; ঘন ঘন ইনসার্ট/আপডেটে রো-লেভেল লকিং চমৎকার সমর্থন করে। | মেমোরি সাইজ অত্যন্ত ক্ষুদ্র; কিন্তু একটি বিট পরিবর্তনে পুরো ব্লক লক হয় (OLTP-র জন্য অনুপযুক্ত)। | মেমোরিতে হ্যাশ টেবিল সাইজ বড়; ডাইনামিক গ্রোথে হ্যাশ কলিশন ঘটতে পারে। |\n\n২. `EXPLAIN ANALYZE` এর স্ক্যান মেকানিজম:\n• Sequential Scan (Seq Scan):\n  ডাটাবেজ কোনো ইনডেক্স ব্যবহার না করে টেবিলের প্রথম পেজ থেকে শেষ পেজ পর্যন্ত প্রতিটি রো সিকোয়েন্সিয়ালি পড়ে। টেবিল ছোট হলে বা কুয়েরি শর্ত টেবিলের ৮০%+ রো সিলেক্ট করলে অপটিমাইজার সেক-স্ক্যান বেছে নেয়। বড় টেবিলে এটি পারফরম্যান্স কিলার।\n• Index Scan:\n  ডাটাবেজ প্রথমে B-Tree ইনডেক্স সার্চ করে কাঙ্ক্ষিত কী-এর পয়েন্টার বা Tuple ID (TID) সংগ্রহ করে। এরপর সেই পয়েন্টার ধরে মূল টেবিলের ডেটা ব্লক (Heap) থেকে বাকি কলামের ডেটা রিড করে। ইনডেক্স ও ডেটা উভয় পেজ পড়তে হয় বলে দুটি ডিস্ক আই/ও ঘটে।\n• Index Only Scan (Covering Index):\n  যদি কুয়েরির `SELECT` এবং `WHERE` ক্লজের প্রয়োজনীয় সমস্ত কলাম একক ইনডেক্সের ভেতরেই উপস্থিত থাকে, তবে ডাটাবেজকে মূল টেবিল পেজ (Heap) রিড করতেই হয় না। এটি ইনডেক্স পেজ থেকেই শতভাগ ফলাফল রিটার্ন করে। এটি সবচেয়ে দ্রুতগতির স্ক্যান।\n\n৩. Leftmost Prefix নিয়ম ও উদাহরণ বিশ্লেষণ:\n• Leftmost Prefix নিয়ম: একটি মাল্টি-কলাম কম্পোজিট ইনডেক্স তৈরি হলে ডাটাবেজ ইনডেক্সটি সাজায় বাম দিক থেকে ক্রমানুসারে। কুয়েরির `WHERE` শর্তে অবশ্যই ইনডেক্সের সবচেয়ে বামের প্রথম কলামটি (Prefix) উপস্থিত থাকতে হবে; অন্যথায় অপটিমাইজার পুরো ইনডেক্সটি ব্যবহার করতে পারে না।\n• ইনডেক্স: `idx_emp(division_id, department_id, join_date)`\n  - কুয়েরি ১: `WHERE division_id = 5`\n    => **ইনডেক্স ব্যবহার করবে** (লেফটমোস্ট কলাম `division_id` উপস্থিত)।\n  - কুয়েরি ২: `WHERE division_id = 5 AND department_id = 12`\n    => **ইনডেক্স ব্যবহার করবে** (প্রথম দুটি প্রিফিক্স কলাম উপস্থিত)।\n  - কুয়েরি ৩: `WHERE division_id = 5 AND join_date > '2024-01-01'`\n    => **আংশিক ইনডেক্স ব্যবহার করবে** (`division_id`-র জন্য ইনডেক্স লুকআপ করবে, তবে মাঝের কলাম মিসিং থাকায় `join_date` ফিল্টার হিসেবে পরে যাচাই হবে)।\n  - কুয়েরি ৪: `WHERE department_id = 12 AND join_date > '2024-01-01'`\n    => **ইনডেক্স ব্যবহার করতে পারবে না!** কারণ ইনডেক্সের লিডিং বা সবচেয়ে বামের কলাম `division_id` অনুপস্থিত। ডাটাবেজ ফুল টেবিল স্ক্যানে চলে যাবে।",
+    "points_to_remember": [
+      "কম্পোজিট ইনডেক্স তৈরিতে সর্বাধিক ফিল্টারিং হওয়া কলামটিকে সর্বদা সর্ববামে (১ম কলাম) রাখতে হয়।",
+      "Index Only Scan অর্জনের জন্য প্রয়োজনীয় কলামগুলোকে ইনডেক্সের অন্তর্ভুক্ত (INCLUDE) করা হয়।"
+    ],
+    "tags": [
+      "query_optimization",
+      "indexing",
+      "b_tree_index",
+      "explain_analyze",
+      "composite_index"
+    ],
+    "chapter": "Chapter 04 - Database Management Systems & Storage Architecture"
+  }
+]

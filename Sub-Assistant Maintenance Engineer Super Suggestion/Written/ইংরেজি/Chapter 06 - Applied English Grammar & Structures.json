@@ -1,0 +1,192 @@
+[
+  {
+    "id": 3011,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 06 - Applied English Grammar & Structures",
+    "topic": "Appropriate Prepositions",
+    "question": "Fill in the blanks with appropriate prepositions:\n(a) He is thoroughly absorbed _______ his technical research.\n(b) The government agency must strictly adhere _______ the security protocol.\n(c) A civil servant should abstain _______ any conflict of interest.\n(d) The administrator is blind _______ the flaws of his subordinates.\n(e) The rural passport workstation is deficient _______ high-speed internet bandwidth.\n(f) He was accused of conniving _______ the illegal entry of travelers.",
+    "options": [],
+    "answer": "Answers with grammatical explanation:\n\n(a) absorbed **in** (নিবিষ্ট বা মগ্ন থাকা; 'absorbed in thought/work')\n(b) adhere **to** (দৃঢ়ভাবে লেগে থাকা বা নিয়ম মেনে চলা; 'adhere to rules/standards')\n(c) abstain **from** (বিরত থাকা; 'abstain from evil/malpractice')\n(d) blind **to** (দোষ দেখেও না দেখার ভান করা বা অন্ধ থাকা; 'blind to faults')\n(e) deficient **in** (কোনো কিছুর ঘাটতি থাকা; 'deficient in nutrients/bandwidth')\n(f) conniving **at** (দোষ দেখেও গোপন প্রশ্রয় দেওয়া; 'connive at a crime').",
+    "explanation": ""
+  },
+  {
+    "id": 3016,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 06 - Applied English Grammar & Structures",
+    "topic": "Clause Analysis & Synthesis",
+    "question": "(a) Identify the underlined clauses and name their types:\n  (i) We know *that the encrypted biometric chip cannot be cloned*.\n  (ii) The engineer *who configured the core firewall* received an award.\n  (iii) *When the power failed*, the online UPS took over seamlessly.\n\n(b) Join the pairs of sentences into a single Complex sentence:\n  (i) The biometric enrollment device was malfunctioning. We immediately swapped it with a standby unit.\n  (ii) He is a certified network specialist. Everyone knows this fact.",
+    "options": [],
+    "answer": "Clause Analysis & Synthesis:\n\n(a) Clause Identification:\n(i) *that the encrypted biometric chip cannot be cloned* $\\rightarrow$ **Noun Clause** (Functions as the direct object of the transitive verb 'know').\n(ii) *who configured the core firewall* $\\rightarrow$ **Adjective / Relative Clause** (Modifies the noun antecedent 'The engineer').\n(iii) *When the power failed* $\\rightarrow$ **Adverbial Clause of Time** (Modifies the verb 'took over').\n\n(b) Sentence Joining (Synthesis into Complex Sentences):\n(i) **Complex:** As (or Since) the biometric enrollment device was malfunctioning, we immediately swapped it with a standby unit.\n(ii) **Complex:** Everyone knows that he is a certified network specialist.",
+    "explanation": ""
+  },
+  {
+    "id": 3014,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 06 - Applied English Grammar & Structures",
+    "topic": "Correction of Grammatical Errors",
+    "question": "Correct the following sentences by rectifying the grammatical errors:\n(a) One of the server administrator have resigned yesterday.\n(b) The sceneries of the hilly district charmed the tourists.\n(c) This optical scanner is superior than that older model.\n(d) Neither the software developer nor the database engineers was present at the incident review meeting.\n(e) He gave me many valuable advices regarding network security.",
+    "options": [],
+    "answer": "Corrected Sentences:\n\n(a) **Incorrect:** One of the server administrator have resigned yesterday.\n    **Correct:** One of the server **administrators resigned** yesterday.\n    *(Rule: 'One of the' takes a plural noun 'administrators', and the past time marker 'yesterday' requires past indefinite 'resigned').*\n\n(b) **Incorrect:** The sceneries of the hilly district charmed the tourists.\n    **Correct:** The **scenery** of the hilly district charmed the tourists.\n    *(Rule: 'Scenery' is an uncountable noun with no plural form).*\n\n(c) **Incorrect:** This optical scanner is superior than that older model.\n    **Correct:** This optical scanner is **superior to** that older model.\n    *(Rule: Latin comparatives—superior, inferior, senior, junior, prior—take 'to', never 'than').*\n\n(d) **Incorrect:** Neither the software developer nor the database engineers was present at the incident review meeting.\n    **Correct:** Neither the software developer nor the database engineers **were** present at the incident review meeting.\n    *(Rule: In 'neither...nor', the verb agrees with the closer subject; here 'engineers' is plural).*\n\n(e) **Incorrect:** He gave me many valuable advices regarding network security.\n    **Correct:** He gave me **much valuable advice** (or: **many pieces of valuable advice**) regarding network security.\n    *(Rule: 'Advice' is uncountable; it cannot take 'many' or plural 'advices').*",
+    "explanation": ""
+  },
+  {
+    "id": 3031,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 06 - Applied English Grammar & Structures",
+    "topic": "Clause Analysis & Synthesis",
+    "question": "Identify the dependent clauses in the following sentences and state whether they are Noun Clauses, Adjective (Relative) Clauses, or Adverbial Clauses, with grammatical justification:\n(a) What the maintenance engineer reported was completely accurate.\n(b) The server which was installed in 2020 has reached its end-of-life.\n(c) The network will remain vulnerable unless you enable dynamic ARP inspection.\n(d) He asked whether the database backup had finished.\n(e) This is the data center where biometric records are safely encrypted.",
+    "options": [],
+    "answer": "Clause Analysis Solution:\n\n(a) \"**What the maintenance engineer reported** was completely accurate.\"\n$\\rightarrow$ **Noun Clause.**\n*Justification:* It functions as the grammatical Subject of the main verb 'was'.\n\n(b) \"The server **which was installed in 2020** has reached its end-of-life.\"\n$\\rightarrow$ **Adjective (Relative) Clause.**\n*Justification:* It modifies and qualifies the antecedent noun 'server'.\n\n(c) \"The network will remain vulnerable **unless you enable dynamic ARP inspection**.\"\n$\\rightarrow$ **Adverbial Clause of Condition.**\n*Justification:* It modifies the main verb phrase 'will remain' by establishing the condition.\n\n(d) \"He asked **whether the database backup had finished**.\"\n$\\rightarrow$ **Noun Clause.**\n*Justification:* It acts as the Direct Object of the transitive verb 'asked'.\n\n(e) \"This is the data center **where biometric records are safely encrypted**.\"\n$\\rightarrow$ **Adjective (Relative) Clause.**\n*Justification:* Introduced by the relative adverb 'where', it modifies the noun 'data center'.",
+    "explanation": ""
+  },
+  {
+    "id": 3028,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 06 - Applied English Grammar & Structures",
+    "topic": "Correction of Grammatical Errors",
+    "question": "Identify the grammatical errors in each of the following sentences and rewrite them correctly:\n(a) The server cannot cope up with the excessive user traffic.\n(b) One of the computer in the enrollment booth are damaged.\n(c) The technician returned back the faulty RAM to the vendor.\n(d) Neither of the two backup plans were successful.\n(e) He is senior than me in service seniority.\n(f) Although he worked hard, but he failed to configure the VLAN.",
+    "options": [],
+    "answer": "Sentence Error Correction Solution:\n\n(a) Incorrect: The server cannot cope up with the excessive user traffic.\n**Correct:** The server cannot **cope with** the excessive user traffic.\n*Reason:* 'Cope with' is the standard idiom; adding 'up' is an erroneous colloquialism.\n\n(b) Incorrect: One of the computer in the enrollment booth are damaged.\n**Correct:** One of the **computers** in the enrollment booth **is** damaged.\n*Reason:* 'One of the' must be followed by a plural noun ('computers') and a singular verb ('is').\n\n(c) Incorrect: The technician returned back the faulty RAM to the vendor.\n**Correct:** The technician **returned** the faulty RAM to the vendor.\n*Reason:* 'Return' inherently means to give or send back; 'returned back' is a redundancy.\n\n(d) Incorrect: Neither of the two backup plans were successful.\n**Correct:** Neither of the two backup plans **was** successful.\n*Reason:* 'Neither of' refers to one at a time and takes a singular verb ('was').\n\n(e) Incorrect: He is senior than me in service seniority.\n**Correct:** He is **senior to me** in service seniority.\n*Reason:* Latin comparatives ending in -ior (senior, junior, superior, inferior, prior) take the preposition 'to', never 'than'.\n\n(f) Incorrect: Although he worked hard, but he failed to configure the VLAN.\n**Correct:** **Although he worked hard, he failed** to configure the VLAN. (or: He worked hard, but he failed...)\n*Reason:* 'Although/Though' and 'but' cannot be used concurrently in the same sentence.",
+    "explanation": ""
+  },
+  {
+    "id": 3053,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 06 - Applied English Grammar & Structures",
+    "topic": "Correction of Grammatical Errors",
+    "question": "Correct the structural and grammatical errors in each of the following sentences:\n(a) Having analyzed the log files, the hardware error was resolved by the technician.\n(b) The database administrator is responsible for monitoring traffic, patching vulnerabilities, and to maintain backups.\n(c) Every applicant must submit their biometric records at counter four.\n(d) The system crashed because the power failed, however the UPS failed to switch over.\n(e) More faster processors are required to handle millions of daily e-Passport queries.\n(f) He insisted on me attending the emergency network briefing.",
+    "options": [],
+    "answer": "Error Correction Solution:\n\n(a) Incorrect (Dangling Modifier): Having analyzed the log files, the hardware error was resolved by the technician.\n**Correct:** **Having analyzed the log files, the technician resolved** the hardware error.\n*Reason:* The participial phrase must modify the actual subject performing the action ('the technician', not 'the hardware error').\n\n(b) Incorrect (Faulty Parallelism): ...monitoring traffic, patching vulnerabilities, and to maintain backups.\n**Correct:** The database administrator is responsible for monitoring traffic, patching vulnerabilities, and **maintaining** backups.\n*Reason:* Parallel grammatical structures require consistent gerund forms (-ing).\n\n(c) Incorrect (Pronoun Agreement): Every applicant must submit their biometric records...\n**Correct:** Every applicant must submit **his or her** biometric records at counter four. (or: **All applicants must submit their** biometric records...)\n*Reason:* 'Every applicant' is a singular distributive subject.\n\n(d) Incorrect (Run-on / Comma Splice): ...because the power failed, however the UPS...\n**Correct:** The system crashed because the power failed; **however, the UPS** failed to switch over. (or: ...failed. However, the UPS...)\n*Reason:* Conjunctive adverbs ('however') must be preceded by a semicolon or period.\n\n(e) Incorrect (Double Comparative): More faster processors...\n**Correct:** **Faster processors** (or: Significantly faster processors) are required...\n*Reason:* 'Faster' is already comparative; using 'more' is a double comparative error.\n\n(f) Incorrect (Gerund Object): He insisted on me attending...\n**Correct:** He insisted on **my attending** the emergency network briefing.\n*Reason:* A gerund ('attending') requires a possessive adjective ('my') before it.",
+    "explanation": ""
+  },
+  {
+    "id": 3052,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 06 - Applied English Grammar & Structures",
+    "topic": "Inversion & Structural Emphasis",
+    "question": "Rewrite the following sentences by using Negative Inversion for stylistic emphasis:\n(a) The maintenance team has rarely seen such an intricate network loop.\n(b) The server crashed no sooner than the automated backup initiated.\n(c) The administrator seldom logged into the database without multi-factor authentication.\n(d) We realized that the optical cable was severed only then.\n(e) He not only configured the primary firewall, but he also fortified the DMZ subnets.\n(f) The system will never accept fraudulent biometric submissions under any circumstance.",
+    "options": [],
+    "answer": "Negative Inversion Solution:\n\n(a) The maintenance team has rarely seen such an intricate network loop.\n$\\rightarrow$ **Inversion:** **Rarely has the maintenance team seen** such an intricate network loop.\n\n(b) The server crashed no sooner than the automated backup initiated.\n$\\rightarrow$ **Inversion:** **No sooner had the automated backup initiated than** the server crashed.\n\n(c) The administrator seldom logged into the database without multi-factor authentication.\n$\\rightarrow$ **Inversion:** **Seldom did the administrator log** into the database without multi-factor authentication.\n\n(d) We realized that the optical cable was severed only then.\n$\\rightarrow$ **Inversion:** **Only then did we realize** that the optical cable was severed.\n\n(e) He not only configured the primary firewall, but he also fortified the DMZ subnets.\n$\\rightarrow$ **Inversion:** **Not only did he configure** the primary firewall, but he also fortified the DMZ subnets.\n\n(f) The system will never accept fraudulent biometric submissions under any circumstance.\n$\\rightarrow$ **Inversion:** **Under no circumstance will the system accept** fraudulent biometric submissions.",
+    "explanation": ""
+  },
+  {
+    "id": 3032,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 06 - Applied English Grammar & Structures",
+    "topic": "Narration & Speech",
+    "question": "Change the following sentences from Direct to Indirect Speech:\n(a) The System Analyst said to the engineer, \"Have you patched the kernel vulnerability today?\"\n(b) The Director said, \"Do not tamper with the biometric scanner seals under any circumstance.\"\n(c) The user said, \"Alas! All my unsaved passport application data is lost!\"\n(d) The technician said, \"Let us replace the malfunctioning SMPS before testing the display.\"\n(e) The instructor said, \"Light travels faster than sound in a vacuum.\"",
+    "options": [],
+    "answer": "Direct to Indirect Speech Solution:\n\n(a) Direct: The System Analyst said to the engineer, \"Have you patched the kernel vulnerability today?\"\n$\\rightarrow$ **Indirect:** The System Analyst asked the engineer if (or whether) he had patched the kernel vulnerability that day.\n\n(b) Direct: The Director said, \"Do not tamper with the biometric scanner seals under any circumstance.\"\n$\\rightarrow$ **Indirect:** The Director forbade them to tamper with the biometric scanner seals under any circumstance. (or: The Director ordered not to tamper with...)\n\n(c) Direct: The user said, \"Alas! All my unsaved passport application data is lost!\"\n$\\rightarrow$ **Indirect:** The user exclaimed with sorrow that all his unsaved passport application data was lost.\n\n(d) Direct: The technician said, \"Let us replace the malfunctioning SMPS before testing the display.\"\n$\\rightarrow$ **Indirect:** The technician proposed (or suggested) that they should replace the malfunctioning SMPS before testing the display.\n\n(e) Direct: The instructor said, \"Light travels faster than sound in a vacuum.\"\n$\\rightarrow$ **Indirect:** The instructor said that light travels faster than sound in a vacuum. *(Universal truth tense remains unchanged)*.",
+    "explanation": ""
+  },
+  {
+    "id": 3051,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 06 - Applied English Grammar & Structures",
+    "topic": "Phrasal Verbs & Applied Grammar",
+    "question": "Construct professional sentences using the following phrasal verbs, illustrating their precise contextual meaning:\n(a) Call for\n(b) Call off\n(c) Look into\n(d) Put up with\n(e) Bring about\n(f) Carry out\n(g) Turn down\n(h) Set up",
+    "options": [],
+    "answer": "Phrasal Verbs Solution:\n\n(a) **Call for** (To demand, require, or necessitate):\n*Sentence:* The sudden server breach calls for an immediate forensic audit of all firewall access logs.\n\n(b) **Call off** (To cancel an event or operation):\n*Sentence:* Due to severe power grid instability, the director decided to call off the scheduled weekend database migration.\n\n(c) **Look into** (To investigate or examine facts):\n*Sentence:* A three-member technical committee was formed to look into the recurring hardware failure of the biometric enrollment scanners.\n\n(d) **Put up with** (To tolerate or endure an unpleasant situation):\n*Sentence:* The passport delivery department can no longer put up with frequent software crashes during peak service hours.\n\n(e) **Bring about** (To cause something to happen):\n*Sentence:* The introduction of automated e-Gates brought about a monumental reduction in airport immigration processing times.\n\n(f) **Carry out** (To execute or perform a task or order):\n*Sentence:* The maintenance engineer must carry out routine diagnostic inspections on all online UPS battery banks.\n\n(g) **Turn down** (To reject or refuse an offer, request, or application):\n*Sentence:* The procurement committee had to turn down the vendor's bid because it failed to comply with the mandatory ICAO Doc 9303 specifications.\n\n(h) **Set up** (To establish, configure, or assemble):\n*Sentence:* The ICT team worked overnight to set up an interim disaster recovery data repository in Kaliakair.",
+    "explanation": ""
+  },
+  {
+    "id": 3026,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 06 - Applied English Grammar & Structures",
+    "topic": "Appropriate Prepositions",
+    "question": "Fill in the blanks with appropriate prepositions:\n(a) We must abide _____ the official rules of the department.\n(b) The government adheres _____ the international ICAO 9303 standards.\n(c) The officer abstained _____ taking any hasty decision.\n(d) He connived _____ his subordinate's illegal activities.\n(e) The biometric system is deficient _____ adequate memory storage.\n(f) Candidates must be eligible _____ the 10th grade technical post.\n(g) Cyber attacks are hostile _____ national sovereignty.\n(h) Disobeying security protocols is tantamount _____ negligence of duty.",
+    "options": [],
+    "answer": "Appropriate Prepositions Solution:\n\n(a) We must abide **by** the official rules of the department. (abide by = মেনে চলা)\n(b) The government adheres **to** the international ICAO 9303 standards. (adhere to = দৃঢ়ভাবে লেগে থাকা/মান্য করা)\n(c) The officer abstained **from** taking any hasty decision. (abstain from = বিরত থাকা)\n(d) He connived **at** his subordinate's illegal activities. (connive at = জেনেও উপেক্ষা করা/মৌন সম্মতি দেওয়া)\n(e) The biometric system is deficient **in** adequate memory storage. (deficient in = ঘাটতি থাকা/অপূর্ণ)\n(f) Candidates must be eligible **for** the 10th grade technical post. (eligible for = উপযুক্ত/যোগ্য)\n(g) Cyber attacks are hostile **to** national sovereignty. (hostile to = প্রতিকূল/শত্রুভাবাপন্ন)\n(h) Disobeying security protocols is tantamount **to** negligence of duty. (tantamount to = সমতুল্য/একই সমার্থক)।",
+    "explanation": ""
+  },
+  {
+    "id": 3027,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 06 - Applied English Grammar & Structures",
+    "topic": "Right Form of Verbs",
+    "question": "Complete the sentences using the correct form of verbs given in parentheses:\n(a) If the maintenance engineer (arrive) on time, the server could have been restored earlier.\n(b) It is high time we (upgrade) the firmware of the core routers.\n(c) He talks as if he (know) everything about database architecture.\n(d) Run the automated backup script carefully lest the transaction logs (be) corrupted.\n(e) Had I known the IP conflict, I (prevent) the network outage.\n(f) The Director General insisted that the security audit (conduct) immediately.\n(g) I wish I (be) a certified ethical hacker.\n(h) Neither the system analyst nor the network engineers (be) present at the incident briefing.",
+    "options": [],
+    "answer": "Right Form of Verbs Solution:\n\n(a) If the maintenance engineer **had arrived** on time, the server could have been restored earlier.\n*Rule:* Third Conditional: If + Past Perfect, Subject + could/would/might + have + V3.\n\n(b) It is high time we **upgraded** the firmware of the core routers.\n*Rule:* 'It is high time / It is time' followed by a subject requires a Past Indefinite verb.\n\n(c) He talks as if he **knew** (or **were**) everything about database architecture.\n*Rule:* Present Tense + 'as if / as though' + Past Subjunctive (V2 or were).\n\n(d) Run the automated backup script carefully lest the transaction logs **should be** (or **might be**) corrupted.\n*Rule:* 'Lest' is followed by Subject + should/might + base form of verb.\n\n(e) Had I known the IP conflict, I **would have prevented** the network outage.\n*Rule:* Inverted Third Conditional: Had + Subject + V3 ..., Subject + would have + V3.\n\n(f) The Director General insisted that the security audit **be conducted** immediately.\n*Rule:* Mandative Subjunctive (insist that + Subject + base verb 'be' + V3 in passive).\n\n(g) I wish I **were** a certified ethical hacker.\n*Rule:* Unreal wish takes the subjunctive 'were'.\n\n(h) Neither the system analyst nor the network engineers **were** present at the incident briefing.\n*Rule:* In 'Neither...nor', the verb agrees with the closer subject ('engineers' is plural).",
+    "explanation": ""
+  },
+  {
+    "id": 3054,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 06 - Applied English Grammar & Structures",
+    "topic": "Transformation of Sentences",
+    "question": "Transform the following sentences as directed:\n(a) Only the authorized system administrator can reset the root password. (Make it Negative)\n(b) As soon as the lightning struck the transformer, the core switch shut down. (Make it Negative using 'Hardly had...when')\n(c) May you succeed in the BPSC Non-Cadre examination. (Identify the Sentence Type)\n(d) How beautiful the national data center looks at night! (Make it Assertive)\n(e) We know that the Department of Immigration and Passports provides smart services. (Change the Voice into Passive)\n(f) He worked hard so that he could configure the server correctly. (Make it Simple)",
+    "options": [],
+    "answer": "Sentence Transformation Solution:\n\n(a) Only the authorized system administrator can reset the root password.\n$\\rightarrow$ **Negative:** **None but** the authorized system administrator can reset the root password.\n\n(b) As soon as the lightning struck the transformer, the core switch shut down.\n$\\rightarrow$ **Negative:** **Hardly had the lightning struck the transformer when** the core switch shut down.\n\n(c) \"May you succeed in the BPSC Non-Cadre examination.\"\n$\\rightarrow$ **Sentence Type:** **Optative Sentence** (expresses a prayer, wish, or benediction).\n\n(d) How beautiful the national data center looks at night!\n$\\rightarrow$ **Assertive:** **The national data center looks very beautiful at night.**\n\n(e) We know that the Department of Immigration and Passports provides smart services.\n$\\rightarrow$ **Passive:** **It is known to us that smart services are provided by the Department of Immigration and Passports.**\n\n(f) He worked hard so that he could configure the server correctly.\n$\\rightarrow$ **Simple:** **He worked hard to configure the server correctly.** (or: ...in order to configure the server correctly).",
+    "explanation": ""
+  },
+  {
+    "id": 3029,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 06 - Applied English Grammar & Structures",
+    "topic": "Transformation of Sentences",
+    "question": "Transform the following sentences as directed:\n(a) Dhaka is more crowded than any other city in Bangladesh. (Make it Superlative)\n(b) No other protocol in the suite is as reliable as TCP. (Make it Comparative)\n(c) Who does not want high-speed internet connectivity? (Make it Assertive)\n(d) Shut down the rogue server immediately. (Change the Voice into Passive)\n(e) Honey tastes sweet. (Change the Voice into Passive)\n(f) He admitted his fault. (Make it Complex)",
+    "options": [],
+    "answer": "Transformation of Sentences Solution:\n\n(a) Dhaka is more crowded than any other city in Bangladesh.\n$\\rightarrow$ **Superlative:** Dhaka is the most crowded city in Bangladesh.\n\n(b) No other protocol in the suite is as reliable as TCP.\n$\\rightarrow$ **Comparative:** TCP is more reliable than any other protocol in the suite.\n\n(c) Who does not want high-speed internet connectivity?\n$\\rightarrow$ **Assertive:** Everyone / Everybody wants high-speed internet connectivity.\n\n(d) Shut down the rogue server immediately.\n$\\rightarrow$ **Passive:** Let the rogue server be shut down immediately.\n\n(e) Honey tastes sweet. (Quasi-passive)\n$\\rightarrow$ **Passive:** Honey is sweet when it is tasted.\n\n(f) He admitted his fault.\n$\\rightarrow$ **Complex:** He admitted that he was at fault. (or: He admitted that he had made a fault).",
+    "explanation": ""
+  },
+  {
+    "id": 3001,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 06 - Applied English Grammar & Structures",
+    "topic": "Applied English Grammar",
+    "question": "(A) Fill in the blanks with appropriate prepositions:\n  i. He is absorbed _____ his studies.\n  ii. The committee consists _____ five members.\n  iii. Do not boast _____ your wealth.\n(B) Translate the following into English:\n  ১. সততা সর্বোৎকৃষ্ট পন্থা।\n  ২. তিনি গতকাল এখানে এসেছেন।\n  ৩. বাংলাদেশ দিন দিন তথ্যপ্রযুক্তিতে এগিয়ে যাচ্ছে।",
+    "options": [],
+    "answer": "(A) Appropriate Prepositions:\n  i. He is absorbed in his studies. (absorbed in = গভীরভাবে নিমগ্ন)\n  ii. The committee consists of five members. (consist of = গঠিত হওয়া)\n  iii. Do not boast of / about your wealth. (boast of = অহংকার করা)\n\n(B) English Translation:\n  ১. Honesty is the best policy.\n  ২. He came here yesterday. (Past Indefinite Tense)\n  ৩. Bangladesh is progressing in information technology day by day.",
+    "explanation": ""
+  },
+  {
+    "id": 3004,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 06 - Applied English Grammar & Structures",
+    "topic": "Applied English Grammar",
+    "question": "(A) Transform the sentences as directed:\n  i. Though he is poor, he is honest. (Make it Compound)\n  ii. As soon as the bell rang, the students entered the classroom. (Make it Negative using 'No sooner had')\n(B) Translate into English:\n  ১. জ্ঞানই শক্তি।\n  ২. বহিরাগমন ও পাসপোর্ট অধিদপ্তর জনগণের সেবায় নিয়োজিত।\n  ৩. প্রযুক্তির অপব্যবহার রোধে আমাদের সচেতন হতে হবে।",
+    "options": [],
+    "answer": "(A) Transformation of Sentences:\n  i. Compound: He is poor, but he is honest.\n  ii. Negative: No sooner had the bell rung than the students entered the classroom.\n\n(B) English Translation:\n  ১. Knowledge is power.\n  ২. The Department of Immigration and Passports is dedicated to the service of the citizens.\n  ৩. We must be conscious/vigilant to prevent the misuse of technology.",
+    "explanation": ""
+  },
+  {
+    "id": 3006,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 06 - Applied English Grammar & Structures",
+    "topic": "Applied English Grammar",
+    "question": "(A) Fill in the blanks with the correct form of verbs:\n  i. Neither of the two network routers _____ (work) properly right now.\n  ii. The Sub-Assistant Engineer along with his team members _____ (inspect) the main server room at this moment.\n  iii. It is high time the department _____ (upgrade) the legacy core firewalls.\n  iv. Had the technician alerted us earlier, we _____ (resolve) the database deadlock sooner.\n\n(B) Correct the grammatical errors in the following sentences:\n  i. He gave me many valuable advices regarding the interview.\n  ii. One of my colleague have completed the Linux server certification.\n  iii. Senior engineers prefer on-premise solutions than cloud storage.",
+    "options": [],
+    "answer": "(A) Right Form of Verbs:\n  i. Neither of the two network routers is working / works properly right now. ('Neither of' takes a singular verb).\n  ii. The Sub-Assistant Engineer along with his team members is inspecting the main server room at this moment. ('Along with', 'as well as', 'together with' connect subjects where the verb strictly agrees with the first subject: 'The Sub-Assistant Engineer' - singular).\n  iii. It is high time the department upgraded the legacy core firewalls. ('It is high time' followed by a subject requires Past Indefinite verb form V2: upgraded).\n  iv. Had the technician alerted us earlier, we would have resolved the database deadlock sooner. (Third conditional inversion: Had + Subject + V3 ... Subject + would have + V3).\n\n(B) Error Correction:\n  i. Incorrect: He gave me many valuable advices regarding the interview.\n     Correct: He gave me much valuable advice regarding the interview. (Or: 'many pieces of valuable advice' — 'Advice' is an uncountable noun).\n  ii. Incorrect: One of my colleague have completed the Linux server certification.\n     Correct: One of my colleagues has completed the Linux server certification. ('One of' is followed by a plural noun 'colleagues' and a singular verb 'has').\n  iii. Incorrect: Senior engineers prefer on-premise solutions than cloud storage.\n     Correct: Senior engineers prefer on-premise solutions to cloud storage. ('Prefer ... to' is the correct prepositional combination, not 'than').",
+    "explanation": ""
+  },
+  {
+    "id": 3012,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 06 - Applied English Grammar & Structures",
+    "topic": "Right Form of Verbs",
+    "question": "Complete the following sentences with the right form of verbs given in brackets:\n(a) You had better (consult) the network engineer before resetting the core router.\n(b) Walk fast lest you (miss) the government biometric training session.\n(c) No sooner had the technician (replace) the faulty SMPS than the server started functioning.\n(d) It is high time we (upgrade) the legacy firewall systems.\n(e) He talks as if he (know) all the root passwords of the data center.",
+    "options": [],
+    "answer": "Corrected Sentences:\n\n(a) You had better **consult** the network engineer before resetting the core router.\n*(Rule: 'Had better', 'would rather' are modal idioms followed by base form of verb V1 without 'to').*\n\n(b) Walk fast lest you **should miss** (or **might miss**) the government biometric training session.\n*(Rule: 'Lest' is followed by Subject + should/might + base form of verb).* \n\n(c) No sooner had the technician **replaced** the faulty SMPS than the server started functioning.\n*(Rule: 'No sooner had' takes Past Participle V3, and the clause after 'than' takes Past Indefinite V2).*\n\n(d) It is high time we **upgraded** the legacy firewall systems.\n*(Rule: 'It is time' / 'It is high time' followed by a subject requires Past Indefinite V2).*\n\n(e) He talks as if he **knew** all the root passwords of the data center.\n*(Rule: Present Indefinite + 'as if' / 'as though' takes Past Indefinite; for 'be' verb it takes 'were').*",
+    "explanation": ""
+  },
+  {
+    "id": 3049,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 06 - Applied English Grammar & Structures",
+    "topic": "Clause Analysis & Synthesis",
+    "question": "Combine each set of simple sentences into a single well-structured sentence as directed:\n(a) The server had overheated. It triggered an automated shutdown alarm. (Combine using a Participial Phrase)\n(b) The engineer configured the firewall rules. He then verified the port status on the core switch. (Combine into a Simple Sentence using 'Having + V3')\n(c) The e-Passport chip contains encrypted biometric data. It is validated via Public Key Directory (PKD). (Combine into a Complex Sentence with a Relative Clause)\n(d) The power went off. The backup diesel generator started automatically. (Combine using 'As soon as' or 'No sooner had')",
+    "options": [],
+    "answer": "Sentence Synthesis Solution:\n\n(a) Combine using a Participial Phrase:\n$\\rightarrow$ **Having overheated, the server triggered an automated shutdown alarm.** (or: Overheating rapidly, the server triggered...)\n\n(b) Combine into a Simple Sentence using 'Having + V3':\n$\\rightarrow$ **Having configured the firewall rules, the engineer verified the port status on the core switch.**\n\n(c) Combine into a Complex Sentence with a Relative Clause:\n$\\rightarrow$ **The e-Passport chip contains encrypted biometric data which is validated via Public Key Directory (PKD).**\n\n(d) Combine using 'No sooner had':\n$\\rightarrow$ **No sooner had the power gone off than the backup diesel generator started automatically.**",
+    "explanation": ""
+  },
+  {
+    "id": 3013,
+    "subject": "ইংরেজি",
+    "chapter": "Chapter 06 - Applied English Grammar & Structures",
+    "topic": "Transformation of Sentences",
+    "question": "Transform the following sentences as directed without changing their original meaning:\n(a) As soon as the biometric scanner read the fingerprint, the e-gate opened. (Make it Negative using 'No sooner had')\n(b) In spite of working day and night, the technician could not restore the corrupted database. (Make it Compound)\n(c) The server is so overloaded that it cannot handle additional concurrent requests. (Make it Simple using 'too...to')\n(d) No other security protocol in our department is as robust as PKI. (Make it Superlative)\n(e) Who does not wish to serve the motherland? (Make it Assertive)",
+    "options": [],
+    "answer": "Transformation Solutions:\n\n(a) **Negative:** No sooner had the biometric scanner read the fingerprint than the e-gate opened.\n\n(b) **Compound:** The technician worked day and night, but he could not restore the corrupted database.\n\n(c) **Simple:** The server is too overloaded to handle additional concurrent requests.\n\n(d) **Superlative:** PKI is the most robust security protocol in our department.\n\n(e) **Assertive:** Everyone wishes to serve the motherland.",
+    "explanation": ""
+  }
+]

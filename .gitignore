@@ -35,3 +35,7 @@ $RECYCLE.BIN/
 *.bak
 *.swp
 *~
+
+# Agent Scratch directory
+scratch/
+

@@ -6,7 +6,7 @@
   <title>সমাজসেবা অধিদপ্তর (DSS) কারিগরি প্রশিক্ষক (কম্পিউটার) — সুপার সাজেশন ও মডেল টেস্ট পোর্টাল</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
 
   <!-- KaTeX for Math & Technical Equations (Local offline with CDN fallback) -->
   <link rel="stylesheet" href="drivers/katex.min.css">
@@ -15,6 +15,7 @@
 
   <!-- Master Site Navigation & Data Bundle -->
   <link rel="stylesheet" href="drivers/site-header.css">
+  <link rel="stylesheet" href="drivers/smart-layout.css">
   <script defer src="DSS Karigori Proshikhok Computer Super Suggestion/data_bundle.js"></script>
   <script defer src="drivers/site-catalog.js"></script>
   <script defer src="drivers/site-header.js"></script>
@@ -58,7 +59,7 @@
     }
 
     body {
-      font-family: 'Hind Siliguri', 'Inter', sans-serif;
+      font-family: 'Noto Sans Bengali', 'Inter', sans-serif;
       background-color: var(--bg-main);
       color: var(--text-main);
       line-height: 1.6;
@@ -214,7 +215,7 @@
     }
 
     h1 {
-      font-family: 'Outfit', 'Hind Siliguri', sans-serif;
+      font-family: 'Noto Sans Bengali', 'Inter', sans-serif;
       font-size: 28px;
       font-weight: 800;
       color: #0f172a;
@@ -280,7 +281,7 @@
     .stat-icon.rose { background: #fff1f2; color: #e11d48; }
 
     .stat-number {
-      font-family: 'Outfit', sans-serif;
+      font-family: 'Noto Sans Bengali', 'Inter', sans-serif;
       font-size: 22px;
       font-weight: 800;
       color: #0f172a;
@@ -640,7 +641,7 @@
     }
 
     .mock-title {
-      font-family: 'Outfit', 'Hind Siliguri', sans-serif;
+      font-family: 'Noto Sans Bengali', 'Inter', sans-serif;
       font-size: 24px;
       font-weight: 800;
       color: #0f172a;
@@ -731,7 +732,7 @@
     }
 
     .timer-display {
-      font-family: 'Outfit', monospace;
+      font-family: 'Noto Sans Bengali', 'Inter', sans-serif;
       font-size: 22px;
       font-weight: 800;
       color: #d97706;
@@ -806,7 +807,7 @@
     }
 
     .score-circle .score-val {
-      font-family: 'Outfit', sans-serif;
+      font-family: 'Noto Sans Bengali', 'Inter', sans-serif;
       font-size: 32px;
       font-weight: 800;
       color: #0284c7;
@@ -833,7 +834,7 @@
     }
 
     .result-stat-box .num {
-      font-family: 'Outfit', sans-serif;
+      font-family: 'Noto Sans Bengali', 'Inter', sans-serif;
       font-size: 20px;
       font-weight: 800;
     }
@@ -1211,9 +1212,78 @@
         </li>
 
         <li class="site-nav-item">
-          <a href="PROGRESS.md" target="_blank" class="site-nav-link">
-            📈 প্রগ্রেস ট্র্যাকার
-          </a>
+          <button class="site-nav-link" type="button">
+            🎯 মাস্টার প্ল্যান
+            <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="site-dropdown right-align">
+            <div class="site-dropdown-inner">
+              <div class="site-dropdown-header">
+                <span>সকল নিয়োগ পরীক্ষার মাস্টার প্ল্যান PDF</span>
+                <span class="site-dd-status-badge">সরাসরি ডাউনলোড</span>
+              </div>
+              <a href="exam%20master%20plan/0_ALL_EXAMS_MASTER_PLAN_OVERVIEW.pdf" target="_blank" class="site-dropdown-item">
+                <div class="site-dd-left">
+                  <div class="site-dd-icon-box" style="background: #eff6ff; border-color: #bfdbfe; color: #2563eb;">🌐</div>
+                  <div class="site-dd-info">
+                    <div class="site-dd-title">সকল পরীক্ষার সমন্বিত মাস্টার প্ল্যান</div>
+                    <div class="site-dd-meta">৫টি পদের সার্বিক রোডম্যাপ ও গাইডলাইন</div>
+                  </div>
+                </div>
+                <span class="site-dd-badge" style="background: #eff6ff; color: #1d4ed8; border-color: #bfdbfe;">Overview PDF ↗</span>
+              </a>
+              <a href="exam%20master%20plan/Master_Plan_Sub_Assistant_Maintenance_Engineer.pdf" target="_blank" class="site-dropdown-item">
+                <div class="site-dd-left">
+                  <div class="site-dd-icon-box" style="background: #eff6ff; border-color: #bfdbfe; color: #2563eb;">🏢</div>
+                  <div class="site-dd-info">
+                    <div class="site-dd-title">সাব-অ্যাসিস্ট্যান্ট মেইনটেন্যান্স ইঞ্জিনিয়ার</div>
+                    <div class="site-dd-meta">পাসপোর্ট অধিদপ্তর • ৬,৯৬৫ প্রশ্ন প্ল্যান (১৭ পৃষ্ঠা)</div>
+                  </div>
+                </div>
+                <span class="site-dd-badge">মাস্টার প্ল্যান ↗</span>
+              </a>
+              <a href="exam%20master%20plan/Master_Plan_Junior_Instructor_Computer.pdf" target="_blank" class="site-dropdown-item">
+                <div class="site-dd-left">
+                  <div class="site-dd-icon-box" style="background: #f5f3ff; border-color: #ddd6fe; color: #7c3aed;">🏫</div>
+                  <div class="site-dd-info">
+                    <div class="site-dd-title">জুনিয়র ইন্সট্রাক্টর [টেক/কম্পিউটার]</div>
+                    <div class="site-dd-meta">কারিগরি শিক্ষা (DTE) • ১২,৯৭২ প্রশ্ন (২৫ পৃষ্ঠা)</div>
+                  </div>
+                </div>
+                <span class="site-dd-badge">মাস্টার প্ল্যান ↗</span>
+              </a>
+              <a href="exam%20master%20plan/Master_Plan_Petrobangla_Sub_Assistant_Engineer.pdf" target="_blank" class="site-dropdown-item">
+                <div class="site-dd-left">
+                  <div class="site-dd-icon-box" style="background: #ecfdf5; border-color: #a7f3d0; color: #059669;">🔥</div>
+                  <div class="site-dd-info">
+                    <div class="site-dd-title">উপ-সহকারী প্রকৌশলী [কম্পিউটার/আইটি]</div>
+                    <div class="site-dd-meta">পেট্রোবাংলা (বুয়েট প্যাটার্ন) • ৭,৬৫০ প্রশ্ন (১০ পৃষ্ঠা)</div>
+                  </div>
+                </div>
+                <span class="site-dd-badge">মাস্টার প্ল্যান ↗</span>
+              </a>
+              <a href="exam%20master%20plan/Master_Plan_DSS_Karigori_Proshikhok_Computer.pdf" target="_blank" class="site-dropdown-item">
+                <div class="site-dd-left">
+                  <div class="site-dd-icon-box" style="background: #f0f9ff; border-color: #bae6fd; color: #0284c7;">🛠️</div>
+                  <div class="site-dd-info">
+                    <div class="site-dd-title">কারিগরি প্রশিক্ষক (উপজেলা) [কম্পিউটার]</div>
+                    <div class="site-dd-meta">সমাজসেবা অধিদপ্তর (DSS) • ১৬৫ প্রশ্ন (৬ পৃষ্ঠা)</div>
+                  </div>
+                </div>
+                <span class="site-dd-badge">মাস্টার প্ল্যান ↗</span>
+              </a>
+              <a href="exam%20master%20plan/Master_Plan_DSS_Data_Entry_Operator.pdf" target="_blank" class="site-dropdown-item">
+                <div class="site-dd-left">
+                  <div class="site-dd-icon-box" style="background: #eef2ff; border-color: #c7d2fe; color: #4f46e5;">⌨️</div>
+                  <div class="site-dd-info">
+                    <div class="site-dd-title">ডাটা এন্ট্রি অপারেটর (Data Entry Operator)</div>
+                    <div class="site-dd-meta">সমাজসেবা অধিদপ্তর • ৮১ প্রশ্ন ও টাইপিং (৩ পৃষ্ঠা)</div>
+                  </div>
+                </div>
+                <span class="site-dd-badge">মাস্টার প্ল্যান ↗</span>
+              </a>
+            </div>
+          </div>
         </li>
       </ul>
 
@@ -1228,336 +1298,862 @@
     </div>
   </header>
 
-  <div class="container">
-    
-    <!-- Top Nav Quick Actions -->
-    <nav class="top-nav">
-      <div class="nav-links-left">
-        <a href="index.html" class="nav-btn">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-          মাস্টার হাব (Master Hub)
-        </a>
-        <a href="DSS Karigori Proshikhok Computer Super Suggestion/DSS_Karigori_Proshikhok_Computer_Exam_Guide.pdf" target="_blank" class="nav-btn" style="border-color: #38bdf8; color: #38bdf8;">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-          সিলেবাস PDF গাইড (Download)
-        </a>
-        <a href="advertisement-1780374169755.pdf" target="_blank" class="nav-btn">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-          মূল সার্কুলার PDF
-        </a>
-      </div>
-
-      <div class="nav-links-right">
-        <a href="PROGRESS.md" target="_blank" class="nav-btn">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-          প্রগ্রেস ট্র্যাকার (MD)
-        </a>
-        <button class="nav-btn primary" onclick="startMockExamDirect()">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          লাইভ মডেল টেস্ট শুরু করুন
-        </button>
-      </div>
-    </nav>
-
-    <!-- Hero Card -->
-    <header class="hero">
-      <div class="hero-badge-wrap">
-        <span class="badge badge-dss">সমাজকল্যাণ মন্ত্রণালয় • সমাজসেবা অধিদপ্তর (DSS)</span>
-        <span class="badge badge-grade">১৮তম গ্রেড (৮,৮০০ - ২১,৩১০/-)</span>
-        <span class="badge badge-status" style="background: rgba(16, 185, 129, 0.2); border-color: rgba(16, 185, 129, 0.5); color: #34d399;">পরীক্ষা পদ্ধতি: ৭০ নম্বরের লিখিত পরীক্ষা (Short Written)</span>
-        <span class="badge badge-status" style="background: rgba(245, 158, 11, 0.2); border-color: rgba(245, 158, 11, 0.5); color: #fbbf24;">বিজ্ঞপ্তি ক্রমিক: ৪০ (ক) • শূন্যপদ: ৩১টি</span>
-      </div>
-      <h1>কারিগরি প্রশিক্ষক (উপজেলা) <span>[ট্রেড: কম্পিউটার — লিখিত সুপার সাজেশন]</span></h1>
-      <p class="hero-meta">
-        সংশোধিত নিয়োগ বিজ্ঞপ্তি স্মারক: <strong>৪১.০১.০০০০.০০৯.১১.০০৩.২০২৪-৪৬৫</strong> | 
-        শতভাগ কমন নিশ্চয়তায় খাতা-কলমে লিখিত পরীক্ষা (Short Written), প্রিলিমিনারি OMR ও ব্যবহারিক ট্রেড পরীক্ষার পূর্ণাঙ্গ ডিজিটাল সুপার সাজেশন পোর্টাল।
-      </p>
-
-      <!-- Key Stats Counters -->
-      <div class="stats-grid">
-        <div class="stat-card" style="border-color: #34d399;">
-          <div class="stat-icon green">✍️</div>
-          <div>
-            <div class="stat-number" id="stat-written" style="color: #34d399;">১৩২০+</div>
-            <div class="stat-label">লিখিত প্রশ্ন ও মেগা সমাধান</div>
-          </div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-icon blue">📁</div>
-          <div>
-            <div class="stat-number" id="stat-total">১৩৩</div>
-            <div class="stat-label">MCQ প্র্যাকটিস প্রশ্ন</div>
-          </div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-icon purple">💻</div>
-          <div>
-            <div class="stat-number">১০০+</div>
-            <div class="stat-label">ট্রেড শর্টকাট, ফুলফর্ম ও ট্রাবলশুটিং</div>
-          </div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-icon green">📚</div>
-          <div>
-            <div class="stat-number">৭৫০+</div>
-            <div class="stat-label">বাংলা (২০০ সন্ধি, ২০০ বাগধারা, ২০০ এককথায়)</div>
-          </div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-icon amber">📖</div>
-          <div>
-            <div class="stat-number">৩০০+</div>
-            <div class="stat-label">ইংরেজি (২০০ Translation, ১০০ Preposition)</div>
-          </div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-icon rose">📐</div>
-          <div>
-            <div class="stat-number">২০+</div>
-            <div class="stat-label">সাধারণ গণিত (কষে সমাধান)</div>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <!-- Main Tabs Bar -->
-    <div class="tabs-bar">
-      <button class="tab-btn active" onclick="switchTab('writtenTab')">
-        <span>✍️</span> পূর্ণাঙ্গ লিখিত প্রস্তুতি ও সমাধান (Written Master)
-      </button>
-      <button class="tab-btn" onclick="switchTab('mcqTab')">
-        <span>🎯</span> প্রিলিমিনারি প্রশ্নব্যাংক (MCQ)
-      </button>
-      <button class="tab-btn" onclick="switchTab('mockTab')">
-        <span>⏱️</span> লাইভ ওএমআর মডেল টেস্ট (OMR)
-      </button>
-      <button class="tab-btn" onclick="switchTab('syllabusTab')">
-        <span>📋</span> অফিশিয়াল লিখিত সিলেবাস ও গাইড
-      </button>
-    </div>
-
-    <!-- TAB 1: Written Master Prep (Primary Focus) -->
-    <div id="writtenTab" class="tab-pane active">
-      <div class="controls-card">
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; flex-wrap: wrap; gap: 10px;">
-          <div>
-            <h3 style="color: #0284c7; font-size: 19px; font-weight: 800; margin-bottom: 4px;">✍️ পূর্ণাঙ্গ লিখিত প্রশ্নব্যাংক ও মেগা সমাধান (Written Master)</h3>
-            <p style="color: var(--text-muted); font-size: 13.5px;">
-              ২০০টি সন্ধি, ২০০টি বাগধারা ও বাক্য, ২০০টি এককথায় প্রকাশ, ২০০টি ইংরেজি অনুবাদ, ১০০টি Preposition, গণিত কষে সমাধান, কম্পিউটার ট্রেড শর্টকাট ও ট্রাবলশুটিং (মোট ৩২টি মেগা মডিউল ও ১,৩২০+ আইটেম)।
-            </p>
-          </div>
-          <div style="display: flex; gap: 8px; flex-wrap: wrap;">
-            <button class="nav-btn" onclick="toggleAllWrittenAnswers()" id="btnToggleAllWritten">
-              👁️ সব উত্তর লুকান / দেখুন
-            </button>
-            <button class="nav-btn" onclick="window.print()">
-              🖨️ প্রিন্ট করুন (Save as PDF)
-            </button>
-            <a href="DSS_Karigori_Proshikhok_Computer_Exam_Guide.pdf" target="_blank" class="nav-btn primary">
-              📥 অফিশিয়াল লিখিত PDF
-            </a>
-          </div>
-        </div>
-
-        <div class="search-row">
-          <div class="search-box">
-            <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-            <input type="text" id="writtenSearchInput" class="search-input" placeholder="লিখিত প্রশ্নের মধ্যে বিষয়, টপিক বা কিওয়ার্ড খুঁজুন..." oninput="filterWrittenQuestions()">
-          </div>
-        </div>
-
-        <div class="filter-pills" id="writtenFilterPills">
-          <button class="pill-btn active" onclick="setWrittenSubjectFilter('all', this)">সকল মেগা সেট (৩২টি সেট • ১৩২০+ প্রশ্ন)</button>
-          <button class="pill-btn" onclick="setWrittenSubjectFilter('কম্পিউটার ট্রেড', this)">💻 কম্পিউটার ট্রেড (১০০+ আইটেম)</button>
-          <button class="pill-btn" onclick="setWrittenSubjectFilter('বাংলা লিখিত', this)">📚 বাংলা ব্যাকরণ (৭৫০+ আইটেম)</button>
-          <button class="pill-btn" onclick="setWrittenSubjectFilter('ইংরেজি লিখিত', this)">📖 ইংরেজি অনুবাদ ও গ্রামার (৩০০+ আইটেম)</button>
-          <button class="pill-btn" onclick="setWrittenSubjectFilter('গণিত লিখিত', this)">📐 সাধারণ গণিত সমাধানসহ (২০টি)</button>
-          <button class="pill-btn" onclick="setWrittenSubjectFilter('সমাজসেবা', this)">🏛️ সমাজসেবা ও জিকে</button>
-        </div>
-      </div>
-
-      <div class="written-grid" id="writtenContainer">
-        <!-- Rendered dynamically -->
-      </div>
-    </div>
-
-    <!-- TAB 2: MCQ Question Bank (Backup Practice) -->
-    <div id="mcqTab" class="tab-pane">
-      <div class="controls-card">
-        <div class="search-row">
-          <div class="search-box">
-            <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-            <input type="text" id="searchInput" class="search-input" placeholder="যেকোনো বিষয়, টপিক বা প্রশ্ন লিখে সরাসরি সার্চ করুন..." oninput="filterQuestions()">
-          </div>
-          <button class="nav-btn" onclick="toggleOnlyBookmarks()" id="btnBookmarkFilter">
-            ⭐ শুধু বুকমার্ক (<span id="bookmarkCount">0</span>)
-          </button>
-        </div>
-
-        <div class="filter-pills" id="filterPills">
-          <button class="pill-btn active" onclick="setSubjectFilter('all', this)">সকল বিষয় (All)</button>
-          <button class="pill-btn" onclick="setSubjectFilter('কম্পিউটার ট্রেড (Trade ICT)', this)">💻 কম্পিউটার ট্রেড</button>
-          <button class="pill-btn" onclick="setSubjectFilter('বাংলা ভাষা ও সাহিত্য', this)">📚 বাংলা</button>
-          <button class="pill-btn" onclick="setSubjectFilter('ইংরেজি ভাষা ও গ্রামার', this)">📖 ইংরেজি</button>
-          <button class="pill-btn" onclick="setSubjectFilter('সাধারণ গণিত', this)">📐 সাধারণ গণিত</button>
-          <button class="pill-btn" onclick="setSubjectFilter('সাধারণ জ্ঞান ও সমাজসেবা', this)">🏛️ জিকে ও সমাজসেবা</button>
-        </div>
-      </div>
-
-      <div class="question-list" id="questionContainer">
-        <!-- Rendered dynamically -->
-      </div>
-    </div>
-
-    <!-- TAB 3: Model Test Engine (OMR Practice) -->
-    <div id="mockTab" class="tab-pane">
-      <!-- Start Screen -->
-      <div class="mock-start-card" id="mockStartScreen">
-        <div class="mock-start-icon">⏱️</div>
-        <h2 class="mock-title">সমাজসেবা অধিদপ্তর কারিগরি প্রশিক্ষক লাইভ মডেল টেস্ট</h2>
-        <p class="mock-desc">
-          অফিশিয়াল নিয়োগ পরীক্ষার আদলে ৭০টি প্রশ্ন সমন্বিত পূর্ণাঙ্গ রিয়েল-টাইম মডেল টেস্ট। সঠিক উত্তরে +১ নম্বর এবং ভুল উত্তরের জন্য -০.২৫ নম্বর কর্তন সহ স্বয়ংক্রিয় রেজাল্ট শিট।
+  <!-- Top Header Section (Exact 5266-BP-APP Layout) -->
+  <div class="qb-demo-wrapper">
+    <div class="qb-container">
+      
+      <!-- Top Title & Badge Section -->
+      <div class="header-section">
+        <span class="badge-archive">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          <span>সুপার সাজেশন আর্কাইভ</span>
+        </span>
+        <h1 class="title-main">
+          সমাজসেবা কারিগরি প্রশিক্ষক (কম্পিউটার) <span class="gradient-text">(৩১টি শূন্যপদ)</span>
+        </h1>
+        <p class="desc-sub">
+          সমাজসেবা অধিদপ্তর (সমাজকল্যাণ মন্ত্রণালয়) — অধ্যায়ভিত্তিক প্রস্তুতি রোডম্যাপ, লিখিত ও প্রিলিমিনারি প্রশ্নব্যাংক সমাধান
         </p>
 
-        <div class="mock-specs-grid">
-          <div class="mock-spec-box">
-            <div class="label">মোট প্রশ্ন</div>
-            <div class="val">৭০ টি</div>
-          </div>
-          <div class="mock-spec-box">
-            <div class="label">মোট সময়</div>
-            <div class="val">৬০ মিনিট</div>
-          </div>
-          <div class="mock-spec-box">
-            <div class="label">পূর্ণমান</div>
-            <div class="val">৭০ নম্বর</div>
-          </div>
-          <div class="mock-spec-box">
-            <div class="label">নেগেটিভ মার্কিং</div>
-            <div class="val">-০.২৫ নম্বর</div>
-          </div>
-        </div>
-
-        <button class="btn-start-exam" onclick="initiateLiveMockExam()">
-          🚀 এখনই মডেল টেস্ট শুরু করুন (Start Exam)
-        </button>
-      </div>
-
-      <!-- Live Running Screen -->
-      <div class="exam-live-wrapper" id="examLiveWrapper">
-        <div class="exam-top-sticky">
-          <div class="timer-display" id="examTimer">
-            ⏱️ 60:00
-          </div>
-          <div class="exam-progress-info" id="examProgress">
-            উত্তর দেওয়া হয়েছে: 0 / 70
-          </div>
-          <button class="btn-submit-exam" onclick="confirmSubmitExam()">
-            পরীক্ষা সমাপ্ত করুন (Submit)
+        <!-- View Switcher (Prelim, Written & Mock) -->
+        <div class="smart-view-switcher">
+          <button type="button" id="viewBtnPrelim" class="smart-view-btn active" onclick="switchExamMode('prelim')">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+            <span>🎯 প্রিলিমিনারি প্রশ্ন (MCQ)</span>
           </button>
-        </div>
-
-        <div class="question-list" id="examQuestionsContainer">
-          <!-- Dynamically populated mock questions -->
-        </div>
-      </div>
-
-      <!-- Result Card -->
-      <div class="result-card" id="mockResultCard">
-        <h2 style="font-size: 22px; color: #0f172a; margin-bottom: 14px;">🏆 মডেল টেস্ট রেজাল্ট ও পারফরম্যান্স রিপোর্ট</h2>
-        
-        <div class="score-circle">
-          <div class="score-val" id="finalScoreVal">0.0</div>
-          <div class="score-max">/ ৭০.০</div>
-        </div>
-
-        <div class="result-stats-row">
-          <div class="result-stat-box">
-            <div class="num" style="color: #34d399;" id="resCorrect">0</div>
-            <div class="txt">সঠিক উত্তর</div>
-          </div>
-          <div class="result-stat-box">
-            <div class="num" style="color: #f87171;" id="resIncorrect">0</div>
-            <div class="txt">ভুল উত্তর</div>
-          </div>
-          <div class="result-stat-box">
-            <div class="num" style="color: #94a3b8;" id="resUnattempted">0</div>
-            <div class="txt">অনুত্তরিত</div>
-          </div>
-          <div class="result-stat-box">
-            <div class="num" style="color: #fbbf24;" id="resPenalty">0.0</div>
-            <div class="txt">নেগেটিভ মার্কস</div>
-          </div>
-        </div>
-
-        <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
-          <button class="nav-btn primary" onclick="retakeExam()">
-            🔄 পুনরায় পরীক্ষা দিন (Retake)
+          <button type="button" id="viewBtnWritten" class="smart-view-btn" onclick="switchExamMode('written')">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            <span>📝 লিখিত প্রশ্ন ও সমাধান (Written)</span>
           </button>
-          <button class="nav-btn" onclick="reviewExamAnswers()">
-            📝 উত্তরপত্র রিভিউ করুন (Review Sheet)
+          <button type="button" id="viewBtnMock" class="smart-view-btn" onclick="switchExamMode('mock')">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>⏱️ লাইভ মডেল টেস্ট</span>
           </button>
         </div>
       </div>
+
+      <!-- Filter & Search Control Card -->
+      <div class="filter-control-card">
+        <!-- Category Filter Pills -->
+        <div class="pills-group" id="subjectPillsGroup">
+          <button type="button" class="filter-btn active" data-subject="all" onclick="handleSubjectPillClick('all', this)">
+            <span>সকল বিষয়</span>
+            <span class="count-badge" id="countAllPill">০</span>
+          </button>
+          <button type="button" class="filter-btn inactive" data-subject="কম্পিউটার" onclick="handleSubjectPillClick('কম্পিউটার', this)">
+            <span>টেকনিক্যাল ও কম্পিউটার</span>
+            <span class="count-badge" id="countTechPill">০</span>
+          </button>
+          <button type="button" class="filter-btn inactive" data-subject="বাংলা" onclick="handleSubjectPillClick('বাংলা', this)">
+            <span>বাংলা</span>
+            <span class="count-badge" id="countBanglaPill">০</span>
+          </button>
+          <button type="button" class="filter-btn inactive" data-subject="ইংরেজি" onclick="handleSubjectPillClick('ইংরেজি', this)">
+            <span>ইংরেজি</span>
+            <span class="count-badge" id="countEnglishPill">০</span>
+          </button>
+          <button type="button" class="filter-btn inactive" data-subject="সাধারণ জ্ঞান" onclick="handleSubjectPillClick('সাধারণ জ্ঞান', this)">
+            <span>সাধারণ জ্ঞান ও গণিত</span>
+            <span class="count-badge" id="countGkPill">০</span>
+          </button>
+          <button type="button" class="filter-btn inactive" id="pill-bookmark" onclick="toggleBookmarkFilter()" style="border-color:#f59e0b;color:#d97706;">
+            <span>⭐ বুকমার্ক</span>
+            <span class="count-badge" id="bookmark-count">0</span>
+          </button>
+        </div>
+
+        <!-- Search & Filter Row -->
+        <div class="qb-search-filter-row">
+          <div class="qb-search-box-wrap">
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input 
+              type="text" 
+              id="search-input" 
+              class="input-glass" 
+              placeholder="অধ্যায় বা প্রশ্ন সার্চ করুন (যেমন: হার্ডওয়্যার, নেটওয়ার্ক, এমএস অফিস, বাংলা)..." 
+              oninput="handleSmartSearch()"
+              style="padding-left: 42px; padding-right: 36px;"
+              autocomplete="off"
+            >
+            <button type="button" id="clearSearchBtn" class="btn-clear-search" onclick="clearSmartSearch()" style="display:none;" title="ক্লিয়ার করুন">✕</button>
+          </div>
+
+          <div>
+            <select id="topic-select" class="input-glass" onchange="handleSmartTopicSelect()">
+              <option value="all">সকল অধ্যায় ও টপিক (All Topics)</option>
+            </select>
+          </div>
+
+
+        </div>
+      </div>
+
+      <!-- Dedicated Questions View Container (Always Chapter-Wise) -->
+      <!-- VIEW 1: Main Chapter Cards Grid View (Oddhay Cards - 5266-BP-APP Layout) -->
+      <div id="smartChapterCardsView" style="display: block;">
+        <div id="chapterCardsGrid" class="cards-grid-layout">
+          <!-- Injected dynamically via renderChapterCards() -->
+        </div>
+      </div>
+
+      <!-- VIEW 2: Dedicated Questions View Container (Opens upon clicking a chapter) -->
+      <div id="smartQuestionsView" style="display: none;" class="smart-questions-wrapper">
+        <div class="smart-topic-top-bar">
+          <div class="smart-topic-indicator">
+            <span style="font-size: 1.15rem;">📖</span>
+            <span id="activeTopicBadgeName">সকল অধ্যায় ও টপিক</span>
+            <span class="smart-mode-badge" id="activeModeBadge">প্রিলিমিনারি (MCQ)</span>
+          </div>
+          <div style="display: flex; gap: 8px;">
+            <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+              <div class="practice-mode-segmented">
+                <button type="button" id="subModePracticeBtn" class="practice-mode-btn active" onclick="setPracticeSubMode('practice')">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                  <span>প্র্যাকটিস মোড</span>
+                </button>
+                <button type="button" id="subModeReadBtn" class="practice-mode-btn" onclick="setPracticeSubMode('read')">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                  <span>পড়ুন মোড (উত্তরসহ)</span>
+                </button>
+              </div>
+              <button type="button" class="smart-back-btn" onclick="showChapterCardsView()" title="সকল অধ্যায়ে ফিরে যান">
+                <span>সকল অধ্যায় কার্ডে ফিরুন →</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Placeholder to prevent content jump when stats-bar becomes sticky -->
+        <div id="statsBarPlaceholder" style="display: block; height: 0; margin: 0; padding: 0;"></div>
+
+        <!-- Live Statistics Bar (Sticky Score Bar replacing Header in Exam Section) -->
+        <div class="stats-bar" id="liveStatsBar">
+          <div class="stats-bar-inner">
+            <div class="stats-count">
+              প্রদর্শিত প্রশ্ন: <strong id="visible-count">0</strong> টি (সর্বমোট: <span id="total-count">0</span> টি)
+            </div>
+            
+            <!-- MCQ Score details (Quiz & Reset buttons removed per instruction) -->
+            <div id="mcq-stats" class="score-badge">
+              <span class="score-pill correct">সঠিক: <span id="correct-count">0</span></span>
+              <span class="score-pill wrong">ভুল (-০.৫০): <span id="wrong-count">0</span></span>
+              <span class="score-pill score">স্কোর: <span id="net-score">0.00</span></span>
+            </div>
+
+            <div id="written-stats" class="score-badge" style="display: none;">
+              <button class="btn-reset" onclick="toggleAllWrittenAnswers(true)">সকল উত্তর উন্মুক্ত করুন</button>
+              <button class="btn-reset" onclick="toggleAllWrittenAnswers(false)">সকল উত্তর লুকান</button>
+              <button class="btn-reset" onclick="window.print()">🖨️ লিখিত শিট প্রিন্ট করুন</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dynamic Questions List Container -->
+        <div id="questions-list" class="questions-container">
+          <!-- Injected via JavaScript -->
+        </div>
+
+        <div class="pagination-wrapper" id="paginationWrap" style="text-align: center; margin: 30px 0;">
+          <button type="button" id="btnLoadMore" class="btn-load-more" onclick="loadMoreQuestions()">আরও প্রশ্ন দেখুন ▾</button>
+          <button type="button" id="btnLoadAll" class="btn-load-all" onclick="loadAllQuestions()" style="margin-left: 10px;">সকল প্রশ্ন এক সাথে দেখুন ⚡</button>
+        </div>
+      </div>
+
+      <!-- VIEW 3: Dedicated Mock Exam Container -->
+      <div id="mock-exam-container" class="mock-container" style="display: none;">
+        <!-- Dynamically generated via JavaScript -->
+      </div>
+
     </div>
+  </div>
 
-    <!-- TAB 4: Syllabus & Guidelines Embed -->
-    <div id="syllabusTab" class="tab-pane">
-      <div style="background:var(--bg-card);border:1px solid var(--border-color);border-radius:12px;padding:32px;text-align:center;max-width:800px;margin:20px auto;box-shadow:var(--shadow-sm);">
-        <div style="font-size:48px;margin-bottom:12px;">📑</div>
-        <h3 style="font-size:20px;color:var(--text-main);margin-bottom:8px;">অফিসিয়াল পরীক্ষা সিলেবাস ও গাইড PDF</h3>
-        <p style="color:var(--text-muted);font-size:14px;margin-bottom:20px;line-height:1.6;">
-          সমাজসেবা অধিদপ্তর কারিগরি প্রশিক্ষক (কম্পিউটার) পদের পূর্ণাঙ্গ পরীক্ষার মানবণ্টন ও সিলেবাস গাইড PDF আকারে সংরক্ষিত রয়েছে। নিচের বাটনে ক্লিক করে অফিশিয়াল PDF ফাইলটি ভিউ বা ডাউনলোড করুন।
-        </p>
-        <a href="DSS Karigori Proshikhok Computer Super Suggestion/DSS_Karigori_Proshikhok_Computer_Exam_Guide.pdf" target="_blank" class="nav-btn primary" style="padding:12px 24px;font-size:15px;display:inline-flex;align-items:center;gap:8px;">
-          📥 অফিশিয়াল সিলেবাস PDF ওপেন করুন (Open PDF)
-        </a>
-      </div>
-    </div>
 
-    <!-- Footer -->
-    <footer>
+  <footer>
       <p>🇧🇩 সমাজসেবা অধিদপ্তর (DSS) কারিগরি প্রশিক্ষক (উপজেলা - ট্রেড: কম্পিউটার) সুপার সাজেশন প্ল্যাটফর্ম</p>
       <p style="margin-top: 4px; color: #475569;">সকল অধিকার সংরক্ষিত • স্বয়ংক্রিয় জিরো-সিওআরএস অফলাইন আর্কিটেকচার</p>
     </footer>
 
-  </div>
-
   <script>
-    // App State
-    let prelimQuestions = window.PRELIM_QUESTIONS || [];
-    let writtenQuestions = window.WRITTEN_QUESTIONS || [];
-    let currentFilter = 'all';
-    let currentWrittenFilter = 'all';
-    let allAnswersVisible = true;
-    let onlyBookmarks = false;
-    let bookmarks = JSON.parse(localStorage.getItem('dss_computer_bookmarks') || '[]');
 
-    // Mock Exam State
-    let mockExamQuestions = [];
-    let userAnswers = {};
-    let timerInterval = null;
-    let timeRemaining = 60 * 60; // 60 minutes in seconds
+    // Sticky Score Bar & Header Scroll Controller
+    function handleExamStickyScroll() {
+      const qView = document.getElementById('smartQuestionsView');
+      const statsBar = document.getElementById('liveStatsBar');
+      const placeholder = document.getElementById('statsBarPlaceholder');
+      const header = document.querySelector('.site-master-header');
+      const footer = document.querySelector('footer');
 
-    // Initialize on load with Dual-Mode Data Connection
-    document.addEventListener('DOMContentLoaded', async () => {
-      // Check preloaded data bundle
+      if (!qView || qView.style.display === 'none' || !statsBar || !placeholder || !header) {
+        if (header) header.classList.remove('header-hidden-for-exam');
+        if (statsBar) statsBar.classList.remove('sticky-score-bar');
+        if (placeholder) placeholder.style.height = '0px';
+        return;
+      }
+
+      const pRect = placeholder.getBoundingClientRect();
+      const footerRect = footer ? footer.getBoundingClientRect() : null;
+
+      // When the stats bar reaches the header (65px from top)
+      const pastTop = pRect.top <= 65;
+      // When footer enters the viewport (bottom reached)
+      const atFooter = footerRect ? (footerRect.top <= window.innerHeight) : false;
+
+      const shouldStick = pastTop && !atFooter;
+
+      if (shouldStick) {
+        if (!statsBar.classList.contains('sticky-score-bar')) {
+          placeholder.style.height = statsBar.offsetHeight + 'px';
+          header.classList.add('header-hidden-for-exam');
+          statsBar.classList.add('sticky-score-bar');
+        }
+      } else {
+        if (statsBar.classList.contains('sticky-score-bar')) {
+          statsBar.classList.remove('sticky-score-bar');
+          placeholder.style.height = '0px';
+          header.classList.remove('header-hidden-for-exam');
+        } else {
+          header.classList.remove('header-hidden-for-exam');
+        }
+      }
+    }
+
+    window.addEventListener('scroll', handleExamStickyScroll, { passive: true });
+    window.addEventListener('resize', handleExamStickyScroll, { passive: true });
+
+
+
+    function isSubjectMatch(qSubject, filterSubject) {
+      if (!filterSubject || filterSubject === 'all') return true;
+      if (!qSubject) return false;
+      if (qSubject === filterSubject) return true;
+      if (qSubject.includes(filterSubject) || filterSubject.includes(qSubject)) return true;
+      if (filterSubject === 'কম্পিউটার' && (qSubject.includes('কম্পিউটার') || qSubject.includes('Trade ICT') || qSubject.includes('ডাটা এন্ট্রি') || qSubject.includes('আইটি'))) return true;
+      if (filterSubject === 'কম্পিউটার টেকনোলজি কোর' && (qSubject.includes('কম্পিউটার') || qSubject.includes('টেকনোলজি') || qSubject.includes('কোর'))) return true;
+      if (filterSubject === 'টেকনিক্যাল (কম্পিউটার)' && (qSubject.includes('কম্পিউটার') || qSubject.includes('টেকনিক্যাল'))) return true;
+      if (filterSubject === 'বেসিক ইঞ্জিনিয়ারিং' && (qSubject.includes('ইঞ্জিনিয়ারিং') || qSubject.includes('গণিত') || qSubject.includes('মানসিক'))) return true;
+      if (filterSubject === 'গণিত' && (qSubject.includes('গণিত') || qSubject.includes('মানসিক'))) return true;
+      if (filterSubject === 'সাধারণ জ্ঞান' && (qSubject.includes('সাধারণ জ্ঞান') || qSubject.includes('জ্বালানি') || qSubject.includes('সমাজসেবা'))) return true;
+      return false;
+    }
+
+
+
+    // Filter Persistence in localStorage (local drive)
+    const STORAGE_KEY_SUBJECT = 'bpsc_subj_filter_' + (window.location.pathname.split('/').pop().replace('.html', '') || 'same');
+
+    function saveSelectedSubject(subj) {
+      try {
+        localStorage.setItem(STORAGE_KEY_SUBJECT, subj);
+      } catch (e) {
+        console.warn('Could not save subject filter to localStorage:', e);
+      }
+    }
+
+    function getSavedSelectedSubject() {
+      try {
+        return localStorage.getItem(STORAGE_KEY_SUBJECT);
+      } catch (e) {
+        return null;
+      }
+    }
+
+
+
+    // 5266-BP-APP Practice & Read Modes State
+    let practiceSubMode = 'practice'; // 'practice' | 'read'
+    let expandedExplanations = {}; // { [qId]: boolean }
+
+    function setPracticeSubMode(newSubMode) {
+      practiceSubMode = newSubMode;
+      const btnPractice = document.getElementById('subModePracticeBtn');
+      const btnRead = document.getElementById('subModeReadBtn');
+      if (btnPractice) btnPractice.classList.toggle('active', newSubMode === 'practice');
+      if (btnRead) btnRead.classList.toggle('active', newSubMode === 'read');
+      renderQuestions();
+    }
+
+    function toggleExplanationBox(qId) {
+      expandedExplanations[qId] = !expandedExplanations[qId];
+      const box = document.getElementById('expl-box-' + qId);
+      const toggleText = document.getElementById('explToggleText-' + qId);
+      if (box) {
+        box.classList.toggle('show', expandedExplanations[qId]);
+      }
+      if (toggleText) {
+        toggleText.textContent = expandedExplanations[qId] ? 'ব্যাখ্যা লুকান ▴' : 'বিস্তারিত ব্যাখ্যা ও নোট দেখুন ▾';
+      }
+    }
+
+    function cleanOptionText(opt) {
+      if (!opt) return '';
+      return String(opt).replace(/^[(\[]?\s*([কখগঘঙA-Za-z0-9১২৩৪৫]+)[)\]\.:\-]\s*/, '').trim();
+    }
+
+    function updateFloatingProgress() {
+      const pill = document.getElementById('floatingProgressLeft');
+      const qView = document.getElementById('smartQuestionsView');
+      if (!pill || !qView || qView.style.display === 'none' || currentMode !== 'prelim') {
+        if (pill) pill.style.display = 'none';
+        return;
+      }
+      pill.style.display = 'flex';
+
+      const activeData = (window.PRELIM_QUESTIONS || PRELIM_QUESTIONS || []);
+      let pool = activeData;
+      if (currentSubject !== 'all') {
+        if (currentSubject === 'কম্পিউটার' || currentSubject === 'টেকনিক্যাল (কম্পিউটার)') {
+          pool = pool.filter(q => q.subject && (q.subject.includes('কম্পিউটার') || q.subject.includes('টেকনিক্যাল')));
+        } else {
+          pool = pool.filter(q => q.subject === currentSubject || (q.subject && q.subject.includes(currentSubject)));
+        }
+      }
+      if (currentTopic !== 'all') {
+        pool = pool.filter(q => {
+          const ch = (q.chapter || q.subtopic || '').trim();
+          const top = (q.topic || '').trim();
+          return ch === currentTopic || top === currentTopic;
+        });
+      }
+
+      const totalCount = pool.length;
+      let answeredCount = 0;
+      pool.forEach(q => {
+        if (userAnswers && userAnswers[q.id] !== undefined) answeredCount++;
+      });
+      const leftCount = Math.max(0, totalCount - answeredCount);
+
+      const elTotal = document.getElementById('progressTotalQ');
+      const elDone = document.getElementById('progressDoneQ');
+      const elLeft = document.getElementById('progressLeftQ');
+
+      if (elTotal) elTotal.textContent = toBengaliNum(totalCount);
+      if (elDone) elDone.textContent = toBengaliNum(answeredCount);
+      if (elLeft) elLeft.textContent = toBengaliNum(leftCount);
+    }
+
+    // Handle Option Click in 5266 Practice Mode
+    function handle5266OptionSelect(qId, selectedOptIdx, correctOptIdx) {
+      if (userAnswers[qId] !== undefined) return; // Answer locked
+
+      const isCorrect = (selectedOptIdx === correctOptIdx);
+      userAnswers[qId] = { selectedOptionIndex: selectedOptIdx, isCorrect };
+
+      const card = document.getElementById('q-card-' + qId);
+      if (card) {
+        card.querySelectorAll('.option-item-5266').forEach(optEl => {
+          optEl.classList.add('locked');
+          optEl.removeAttribute('onclick');
+        });
+
+        const selectedEl = document.getElementById('opt-' + qId + '-' + selectedOptIdx);
+        if (selectedEl) {
+          if (isCorrect) {
+            selectedEl.classList.add('correct');
+            selectedEl.innerHTML += '<span class="opt-status-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></span>';
+          } else {
+            selectedEl.classList.add('wrong');
+            selectedEl.innerHTML += '<span class="opt-status-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#e11d48" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></span>';
+          }
+        }
+
+        if (!isCorrect) {
+          const correctEl = document.getElementById('opt-' + qId + '-' + correctOptIdx);
+          if (correctEl) {
+            correctEl.classList.add('correct');
+            correctEl.innerHTML += '<span class="opt-status-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></span>';
+          }
+        }
+
+        const explBox = document.getElementById('expl-box-' + qId);
+        if (explBox) explBox.classList.add('show');
+        const toggleText = document.getElementById('explToggleText-' + qId);
+        if (toggleText) toggleText.textContent = 'ব্যাখ্যা লুকান ▴';
+      }
+
+      if (window.updateScoreStats) updateScoreStats();
+      updateFloatingProgress();
+    }
+
+
+
+    // Toast Notification
+    function showCopyToast(msg) {
+      let toast = document.getElementById('copyToastNotification');
+      if (!toast) {
+        toast = document.createElement('div');
+        toast.id = 'copyToastNotification';
+        toast.style.cssText = 'position:fixed;bottom:24px;right:24px;background:#0f172a;color:#ffffff;padding:12px 20px;border-radius:10px;font-size:0.9rem;font-weight:700;box-shadow:0 10px 25px rgba(0,0,0,0.25);z-index:9999;transition:opacity 0.25s ease;display:flex;align-items:center;gap:8px;border:1px solid #334155;';
+        document.body.appendChild(toast);
+      }
+      toast.innerHTML = '📋 ' + msg;
+      toast.style.opacity = '1';
+      toast.style.display = 'flex';
+      clearTimeout(window._copyToastTimer);
+      window._copyToastTimer = setTimeout(() => {
+        toast.style.opacity = '0';
+        setTimeout(() => { toast.style.display = 'none'; }, 260);
+      }, 2500);
+    }
+
+    // Copy Question Functionality (MCQ: Question + 4 Options + Answer + Explanation)
+    function copyQuestion(qId, event) {
+      if (event) event.stopPropagation();
+      const activeData = currentMode === 'prelim' ? (window.PRELIM_QUESTIONS || PRELIM_QUESTIONS) : (window.WRITTEN_QUESTIONS || WRITTEN_QUESTIONS);
+      const q = activeData.find(item => item.id === qId);
+      if (!q) return;
+
+      let text = '';
+      if (currentMode === 'prelim') {
+        text += 'প্রশ্ন: ' + q.question + '\n';
+        if (q.options && q.options.length) {
+          q.options.forEach((opt, idx) => {
+            text += opt + '\n';
+          });
+        }
+        if (q.answer !== undefined && q.options && q.options[q.answer]) {
+          text += 'সঠিক উত্তর: ' + q.options[q.answer] + '\n';
+        }
+        if (q.explanation) {
+          text += 'ব্যাখ্যা: ' + q.explanation.replace(/<[^>]+>/g, '') + '\n';
+        }
+      } else {
+        text += 'লিখিত প্রশ্ন: ' + q.question + (q.marks ? ' [মান: ' + q.marks + ']' : '') + '\n\n';
+        text += 'সমাধান:\n' + (q.answer || '') + '\n';
+      }
+
+      navigator.clipboard.writeText(text.trim()).then(() => {
+        showCopyToast('প্রশ্ন ও অপশন সফলভাবে কপি হয়েছে!');
+      }).catch(err => {
+        const textarea = document.createElement('textarea');
+        textarea.value = text.trim();
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
+        showCopyToast('প্রশ্ন ও অপশন সফলভাবে কপি হয়েছে!');
+      });
+    }
+
+    function copyQuestionCard(qId, event) {
+      copyQuestion(qId, event);
+    }
+
+    const bnToEnMap = {'০':'0','১':'1','২':'2','৩':'3','৪':'4','৫':'5','৬':'6','৭':'7','৮':'8','৯':'9'};
+    function parseBnNum(s) {
+      return parseInt(String(s).split('').map(c => bnToEnMap[c] || c).join(''), 10);
+    }
+
+    function extractChapterSortKey(chapterTitle) {
+      const m = String(chapterTitle).match(/(?:অধ্যায়|বিষয়|পাঠ)?\s*([০-৯]+|[0-9]+)/);
+      if (m) {
+        return parseBnNum(m[1]) || 999;
+      }
+      return 999;
+    }
+
+    function getQuestionChapter(q) {
+      if (q.chapter) return q.chapter.trim();
+      if (q.subtopic) return q.subtopic.trim();
+      if (q.topic) return q.topic.trim();
+      return 'সাধারণ অধ্যায়';
+    }
+
+    function getChapterList(questions, subjectFilter = 'all') {
+      let pool = questions;
+      if (subjectFilter !== 'all') {
+        pool = pool.filter(q => isSubjectMatch(q.subject, subjectFilter));
+      }
+
+      const map = new Map();
+      pool.forEach(q => {
+        const ch = getQuestionChapter(q);
+        if (!map.has(ch)) {
+          map.set(ch, {
+            chapter: ch,
+            subject: q.subject || 'সাধারণ বিষয়',
+            questions: [],
+            topics: new Set()
+          });
+        }
+        const item = map.get(ch);
+        item.questions.push(q);
+        if (q.topic) item.topics.add(q.topic);
+      });
+
+      const list = Array.from(map.values());
+      list.sort((a, b) => extractChapterSortKey(a.chapter) - extractChapterSortKey(b.chapter));
+      return list;
+    }
+
+    // Render Chapter Cards (Main Portal View - Exact 5266-BP-APP Layout)
+    function renderChapterCards() {
+      const grid = document.getElementById('chapterCardsGrid');
+      if (!grid) return;
+
+      const activeData = currentMode === 'prelim' ? (window.PRELIM_QUESTIONS || PRELIM_QUESTIONS) : (window.WRITTEN_QUESTIONS || WRITTEN_QUESTIONS);
+      let chapters = getChapterList(activeData, currentSubject);
+
+      // Search filter for chapters
+      if (searchQuery) {
+        chapters = chapters.filter(c => {
+          const chMatch = c.chapter.toLowerCase().includes(searchQuery);
+          const topMatch = Array.from(c.topics).some(t => String(t).toLowerCase().includes(searchQuery));
+          return chMatch || topMatch;
+        });
+      }
+
+      if (chapters.length === 0) {
+        grid.innerHTML = `
+          <div class="smart-empty-box" style="grid-column: 1 / -1;">
+            <div style="font-size: 42px; margin-bottom: 12px;">🔍</div>
+            <h3>কোনো অধ্যায় খুঁজে পাওয়া যায়নি</h3>
+            <p>আপনার অনুসন্ধানের সাথে মিলে এমন কোনো অধ্যায় বা বিষয় পাওয়া যায়নি। ফিল্টার পরিবর্তন করুন অথবা 'ক্লিয়ার' চাপুন।</p>
+            <button type="button" class="btn-read-solution" onclick="clearSmartSearch()" style="margin: 16px auto; max-width: 180px;">ফিল্টার রিসেট করুন</button>
+          </div>
+        `;
+        return;
+      }
+
+      let html = '';
+      chapters.forEach(c => {
+        let subjBadgeText = '💻 টেকনিক্যাল বিষয়';
+        if ((c.subject || '').includes('বাংলা')) subjBadgeText = '📖 বাংলা';
+        else if ((c.subject || '').includes('ইংরেজি')) subjBadgeText = '🔤 ইংরেজি';
+        else if ((c.subject || '').includes('সাধারণ জ্ঞান')) subjBadgeText = '🌍 সাধারণ জ্ঞান';
+        else if ((c.subject || '').includes('গণিত')) subjBadgeText = '🔢 গণিত';
+        else if (c.subject) subjBadgeText = c.subject;
+
+        const qCount = c.questions.length;
+        const topicCount = c.topics.size;
+
+        const breakdownText = currentMode === 'prelim'
+          ? `অধ্যায়ভিত্তিক পূর্ণাঙ্গ প্রস্তুতি • ${toBengaliNum(topicCount || 1)}টি উপ-টপিক ও ${toBengaliNum(qCount)}টি প্রশ্ন`
+          : `লিখিত মডেল সলিউশন ও বিশ্লেষণ • ${toBengaliNum(qCount)}টি লিখিত প্রশ্ন`;
+
+        const timeText = qCount > 100 ? '২ ঘণ্টা' : (qCount > 40 ? '১ ঘণ্টা' : '৩০ মিনিট');
+
+        const btnExamText = currentMode === 'prelim' ? 'পরীক্ষা দিন →' : 'পূর্ণ সমাধান →';
+        const examAction = currentMode === 'prelim' 
+          ? `startChapterPractice('${escapeHtml(c.chapter)}')`
+          : `openChapterQuestions('${escapeHtml(c.chapter)}')`;
+
+        html += `
+          <div class="hub-card-item">
+            <div>
+              <div class="card-header-badges">
+                <span class="category-chip">${escapeHtml(subjBadgeText)}</span>
+                <span class="tag-chip ready-chip">২০২৪-২৫</span>
+              </div>
+              <h3 class="card-exam-title">${escapeHtml(c.chapter)}</h3>
+              <div class="subject-breakdown-box">
+                ${breakdownText}
+              </div>
+            </div>
+            <div>
+              <div class="meta-stats-row">
+                <span>প্রশ্ন: <strong>${toBengaliNum(qCount)} টি</strong></span>
+                <span>সময়: <strong>${timeText}</strong></span>
+                <span>সিলেবাস: <strong>BPSC ২০২৪</strong></span>
+              </div>
+              <div class="card-buttons-flex">
+                <button type="button" class="btn-read-solution" onclick="openChapterQuestions('${escapeHtml(c.chapter)}', 'read')">
+                  📖 ব্যাখ্যা পড়ুন
+                </button>
+                <button type="button" class="btn-start-exam" onclick="${examAction}">
+                  ${btnExamText}
+                </button>
+              </div>
+            </div>
+          </div>
+        `;
+      });
+
+      grid.innerHTML = html;
+    }
+
+    // Open a specific chapter in the Questions View
+    function openChapterQuestions(chapterName, mode = 'read') {
+      customQuestionList = null;
+      currentTopic = chapterName;
+      if (typeof setPracticeSubMode === 'function') {
+        setPracticeSubMode(mode);
+      }
+      
+      const select = document.getElementById('topic-select');
+      if (select) select.value = chapterName;
+
+      const activeBadge = document.getElementById('activeTopicBadgeName');
+      if (activeBadge) activeBadge.textContent = chapterName;
+
+      const cardsView = document.getElementById('smartChapterCardsView');
+      const qView = document.getElementById('smartQuestionsView');
+      const mockView = document.getElementById('mock-exam-container');
+
+      if (cardsView) cardsView.style.display = 'none';
+      if (mockView) mockView.style.display = 'none';
+      if (qView) qView.style.display = 'block';
+
+      resetPagination();
+      renderQuestions();
+
+      const target = document.querySelector('.filter-control-card') || qView;
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    // Return to the Chapter Cards Grid View
+    function showChapterCardsView() {
+      currentTopic = 'all';
+
+      const select = document.getElementById('topic-select');
+      if (select) select.value = 'all';
+
+      const cardsView = document.getElementById('smartChapterCardsView');
+      const qView = document.getElementById('smartQuestionsView');
+      const mockView = document.getElementById('mock-exam-container');
+
+      if (qView) qView.style.display = 'none';
+      if (mockView) mockView.style.display = 'none';
+      if (cardsView) cardsView.style.display = 'block';
+
+      handleExamStickyScroll();
+
+      renderChapterCards();
+
+      const target = document.querySelector('.filter-control-card') || cardsView;
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    // Start practice exam for a chapter
+    function startChapterPractice(chapterName) {
+      openChapterQuestions(chapterName, 'practice');
+      startQuickQuiz(20);
+    }
+  
+
+    let PRELIM_QUESTIONS = window.PRELIM_QUESTIONS || [];
+    let WRITTEN_QUESTIONS = window.WRITTEN_QUESTIONS || [];
+
+    // Current State
+    let currentMode = 'prelim'; // 'prelim' | 'written' | 'mock'
+    let currentSubject = 'all';
+    let currentTopic = 'all';
+    let searchQuery = '';
+    let filterOnlyBookmarks = false;
+    let customQuestionList = null; // For Quick Quiz
+
+    // Bookmarks tracking with localStorage
+    let bookmarks = new Set(JSON.parse(localStorage.getItem('bpsc_bookmarks') || '[]'));
+
+    function isBookmarked(qId) {
+      return bookmarks.has(qId);
+    }
+
+    function toggleBookmark(qId, event) {
+      if (event) event.stopPropagation();
+      if (bookmarks.has(qId)) {
+        bookmarks.delete(qId);
+      } else {
+        bookmarks.add(qId);
+      }
+      localStorage.setItem('bpsc_bookmarks', JSON.stringify([...bookmarks]));
+      updateBookmarkCount();
+
+      if (filterOnlyBookmarks) {
+        renderQuestions();
+      } else {
+        const btn = event ? event.currentTarget : null;
+        if (btn) {
+          const active = bookmarks.has(qId);
+          btn.classList.toggle('active', active);
+          btn.textContent = active ? '★' : '☆';
+        }
+      }
+    }
+
+    function updateBookmarkCount() {
+      const el = document.getElementById('bookmark-count');
+      if (el) el.textContent = bookmarks.size;
+    }
+
+    function toggleBookmarkFilter() {
+      filterOnlyBookmarks = !filterOnlyBookmarks;
+      customQuestionList = null;
+      const pill = document.getElementById('pill-bookmark');
+      if (pill) pill.classList.toggle('active', filterOnlyBookmarks);
+      resetPagination();
+      renderQuestions();
+    }
+
+    // Theme Toggle (Dark / Light Mode)
+    // Permanent Light Theme
+    function initTheme() {
+      document.body.classList.remove('dark-mode');
+      localStorage.setItem('bpsc_theme', 'light');
+    }
+    function toggleTheme() {}
+    function updateThemeButton() {}
+
+    // Quick Practice Quiz
+    function startQuickQuiz(count = 20) {
+      const activeData = currentMode === 'prelim' ? PRELIM_QUESTIONS : WRITTEN_QUESTIONS;
+      let pool = activeData;
+      if (currentSubject !== 'all') {
+        pool = pool.filter(q => isSubjectMatch(q.subject, currentSubject));
+      }
+      if (currentTopic !== 'all') {
+        pool = pool.filter(q => {
+          const ch = (q.chapter || q.subtopic || '').trim();
+          const top = (q.topic || '').trim();
+          return ch === currentTopic || top === currentTopic;
+        });
+      }
+
+      customQuestionList = [...pool].sort(() => 0.5 - Math.random()).slice(0, count);
+      displayLimit = count;
+      renderQuestions();
+      
+      const listEl = document.getElementById('questions-list');
+      if (listEl) listEl.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function resetCustomQuiz() {
+      customQuestionList = null;
+      resetPagination();
+      renderQuestions();
+    }
+
+    // Score Tracking for Prelim Practice
+    let userAnswers = {}; // { questionId: { selectedOptionIndex, isCorrect } }
+
+    // 200 Questions Chunk Pagination
+    const PAGE_SIZE = 200;
+    let currentPage = 1;
+
+    function resetPagination() {
+      currentPage = 1;
+    }
+
+    function goToPage(page) {
+      currentPage = page;
+      renderQuestions();
+      const target = document.getElementById('liveStatsBar') || document.getElementById('smartQuestionsView');
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+
+    function renderChunkPaginationHtml(totalPages, currentPage, totalQuestions, pageSize = 200) {
+      let pillsHtml = '';
+
+      if (totalPages <= 12) {
+        for (let p = 1; p <= totalPages; p++) {
+          const start = (p - 1) * pageSize + 1;
+          const end = Math.min(p * pageSize, totalQuestions);
+          const isActive = (p === currentPage);
+          const label = `${toBengaliNum(start)} - ${toBengaliNum(end)}`;
+
+          pillsHtml += `
+            <button type="button" 
+                    class="chunk-page-btn ${isActive ? 'active' : ''}" 
+                    onclick="goToPage(${p})" 
+                    title="প্রশ্ন ${label} দেখুন">
+              <span>প্রশ্ন ${label}</span>
+            </button>
+          `;
+        }
+      } else {
+        const pagesToShow = new Set();
+        pagesToShow.add(1);
+        pagesToShow.add(totalPages);
+        for (let d = -2; d <= 2; d++) {
+          const p = currentPage + d;
+          if (p >= 1 && p <= totalPages) pagesToShow.add(p);
+        }
+
+        const sortedPages = Array.from(pagesToShow).sort((a, b) => a - b);
+        let lastP = 0;
+
+        sortedPages.forEach(p => {
+          if (lastP && p - lastP > 1) {
+            pillsHtml += `<span class="chunk-ellipsis">...</span>`;
+          }
+          lastP = p;
+
+          const start = (p - 1) * pageSize + 1;
+          const end = Math.min(p * pageSize, totalQuestions);
+          const isActive = (p === currentPage);
+          const label = `${toBengaliNum(start)} - ${toBengaliNum(end)}`;
+
+          pillsHtml += `
+            <button type="button" 
+                    class="chunk-page-btn ${isActive ? 'active' : ''}" 
+                    onclick="goToPage(${p})" 
+                    title="প্রশ্ন ${label} দেখুন">
+              <span>প্রশ্ন ${label}</span>
+            </button>
+          `;
+        });
+      }
+
+      let dropdownOptions = '';
+      for (let p = 1; p <= totalPages; p++) {
+        const start = (p - 1) * pageSize + 1;
+        const end = Math.min(p * pageSize, totalQuestions);
+        const label = `${toBengaliNum(start)} - ${toBengaliNum(end)}`;
+        dropdownOptions += `<option value="${p}" ${p === currentPage ? 'selected' : ''}>পৃষ্ঠা ${toBengaliNum(p)}: প্রশ্ন ${label}</option>`;
+      }
+
+      const prevDisabled = (currentPage === 1) ? 'disabled style="opacity:0.4;cursor:not-allowed;"' : '';
+      const nextDisabled = (currentPage === totalPages) ? 'disabled style="opacity:0.4;cursor:not-allowed;"' : '';
+
+      return `
+        <div class="chunk-pagination-container">
+          <div class="chunk-pagination-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            <span>পৃষ্ঠা নির্বাচন (সর্বোচ্চ ২০০টি প্রশ্ন প্রতি পৃষ্ঠায়): </span>
+            <select class="chunk-dropdown-jump" onchange="goToPage(parseInt(this.value))" title="সরাসরি পৃষ্ঠায় যান">
+              ${dropdownOptions}
+            </select>
+          </div>
+
+          <div class="chunk-pills-row">
+            <button type="button" class="chunk-nav-btn" ${prevDisabled} onclick="goToPage(${currentPage - 1})">
+              ← পূর্ববর্তী
+            </button>
+
+            ${pillsHtml}
+
+            <button type="button" class="chunk-nav-btn" ${nextDisabled} onclick="goToPage(${currentPage + 1})">
+              পরবর্তী →
+            </button>
+          </div>
+        </div>
+      `;
+    }
+
+    // Initialize Application with Dual-Mode Data Connection
+    async function initApp() {
+      initTheme();
+      updateBookmarkCount();
+
+      // Check if data bundle script pre-populated questions
       if (window.PRELIM_QUESTIONS && Array.isArray(window.PRELIM_QUESTIONS) && window.PRELIM_QUESTIONS.length > 0) {
-        prelimQuestions = window.PRELIM_QUESTIONS;
+        PRELIM_QUESTIONS = window.PRELIM_QUESTIONS;
       }
       if (window.WRITTEN_QUESTIONS && Array.isArray(window.WRITTEN_QUESTIONS) && window.WRITTEN_QUESTIONS.length > 0) {
-        writtenQuestions = window.WRITTEN_QUESTIONS;
+        WRITTEN_QUESTIONS = window.WRITTEN_QUESTIONS;
       }
 
       // If running over server or if questions need fetching
-      if (!prelimQuestions || prelimQuestions.length === 0 || !writtenQuestions || writtenQuestions.length === 0) {
+      if (!PRELIM_QUESTIONS || PRELIM_QUESTIONS.length === 0 || !WRITTEN_QUESTIONS || WRITTEN_QUESTIONS.length === 0) {
         try {
           const [prelimRes, writtenRes] = await Promise.all([
             fetch(encodeURI('DSS Karigori Proshikhok Computer Super Suggestion/preliminary_mcq.json')).then(r => r.json()).catch(() => null),
             fetch(encodeURI('DSS Karigori Proshikhok Computer Super Suggestion/written_questions.json')).then(r => r.json()).catch(() => null)
           ]);
-          if (prelimRes) prelimQuestions = prelimRes;
-          if (writtenRes) writtenQuestions = writtenRes;
+
+          if (prelimRes) PRELIM_QUESTIONS = prelimRes;
+          if (writtenRes) WRITTEN_QUESTIONS = writtenRes;
         } catch (e) {
           console.warn('External JSON fetch fallback active', e);
         }
@@ -1567,27 +2163,42 @@
         window.updateSiteHeaderStatus();
       }
 
-      if ((!prelimQuestions || prelimQuestions.length === 0) && (!writtenQuestions || writtenQuestions.length === 0)) {
+      if ((!PRELIM_QUESTIONS || PRELIM_QUESTIONS.length === 0) && (!WRITTEN_QUESTIONS || WRITTEN_QUESTIONS.length === 0)) {
         renderCorsNotice('DSS Karigori Proshikhok Computer Super Suggestion');
       } else {
-        updateStats();
-        renderWrittenQuestions();
-        renderQuestions();
-        updateBookmarkCount();
+        
+      // Restore saved subject filter from localStorage (local drive)
+      const savedSubj = getSavedSelectedSubject();
+      if (savedSubj) {
+        const targetPill = document.querySelector(`#subjectPillsGroup [data-subject="${savedSubj}"]`);
+        if (targetPill) {
+          document.querySelectorAll('#subjectPillsGroup .filter-btn').forEach(b => {
+            b.classList.remove('active');
+            b.classList.add('inactive');
+          });
+          targetPill.classList.remove('inactive');
+          targetPill.classList.add('active');
+          currentSubject = savedSubj;
+        }
       }
-    });
+
+        updateTopicsDropdown();
+        renderChapterCards();
+        updateSubjectPillCounts();
+      }
+    }
 
     function renderCorsNotice(folderName) {
-      const container = document.getElementById('questionContainer') || document.getElementById('questionsContainer') || document.getElementById('mcqList');
+      const container = document.getElementById('questions-list') || document.getElementById('questions-container') || document.getElementById('questionsList');
       if (!container) return;
       container.innerHTML = `
-        <div style="background:var(--bg-card);border:2px dashed var(--primary);border-radius:14px;padding:36px 24px;text-align:center;max-width:720px;margin:30px auto;box-shadow:var(--shadow-sm);">
+        <div style="background:var(--card-bg);border:2px dashed var(--primary);border-radius:14px;padding:36px 24px;text-align:center;max-width:720px;margin:30px auto;box-shadow:var(--shadow-sm);">
           <div style="font-size:46px;margin-bottom:12px;">📁</div>
           <h3 style="font-size:20px;color:var(--text-main);margin-bottom:8px;">প্রশ্নব্যাংক ডেটাসেট নির্বাচন করুন</h3>
           <p style="color:var(--text-muted);font-size:14px;margin-bottom:20px;line-height:1.6;">
             ব্রাউজারের লোকাল ফাইল সিকিউরিটি (CORS) এর কারণে <code>file://</code> মোডে সরাসরি JSON ফেচ না হলে নিচের বাটনে ক্লিক করে <strong>${folderName}</strong> ফোল্ডার থেকে <strong>preliminary_mcq.json</strong> ফাইলটি একবার সিলেক্ট করুন। সাথে সাথে সম্পূর্ণ প্রশ্নব্যাংক ও মক টেস্ট চালু হয়ে যাবে!
           </p>
-          <label style="background:var(--primary);color:#fff;padding:12px 24px;border-radius:8px;font-size:14.5px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:var(--transition);box-shadow:0 4px 12px rgba(2,132,199,0.25);">
+          <label style="background:var(--primary);color:#fff;padding:12px 24px;border-radius:8px;font-size:14.5px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:var(--transition);box-shadow:0 4px 12px rgba(37,99,235,0.25);">
             📂 ফোল্ডার থেকে preliminary_mcq.json সিলেক্ট করুন
             <input type="file" accept=".json" style="display:none;" onchange="handleManualJsonUpload(event)">
           </label>
@@ -1604,11 +2215,9 @@
         try {
           const data = JSON.parse(evt.target.result);
           if (Array.isArray(data)) {
-            prelimQuestions = data;
-            updateStats();
-            renderWrittenQuestions();
+            PRELIM_QUESTIONS = data;
+            updateTopicsDropdown();
             renderQuestions();
-            updateBookmarkCount();
           } else {
             alert('ভুল ফরম্যাট! অনুগ্রহ করে সঠিক preliminary_mcq.json ফাইল সিলেক্ট করুন।');
           }
@@ -1619,201 +2228,530 @@
       reader.readAsText(file);
     }
 
-    function updateStats() {
-      if (document.getElementById('stat-written')) {
-        document.getElementById('stat-written').innerText = '১৩২০+';
-      }
-      if (document.getElementById('stat-total')) {
-        document.getElementById('stat-total').innerText = prelimQuestions.length;
-      }
-    }
+    // Switch between Prelim, Written & Mock Exam
+    function switchMasterMode(mode) {
+      currentMode = mode;
+      resetPagination();
+      customQuestionList = null;
+      
+      document.getElementById('tab-prelim').classList.toggle('active', mode === 'prelim');
+      document.getElementById('tab-written').classList.toggle('active', mode === 'written');
+      const tabMock = document.getElementById('tab-mock');
+      if (tabMock) tabMock.classList.toggle('active', mode === 'mock');
 
-    function switchTab(tabId) {
-      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
-      document.querySelectorAll('.tab-pane').forEach(pane => pane.classList.remove('active'));
+      const isMock = mode === 'mock';
+      document.querySelector('.controls-wrapper').style.display = isMock ? 'none' : 'block';
+      document.querySelector('.stats-bar').style.display = isMock ? 'none' : 'flex';
+      document.getElementById('questions-list').style.display = isMock ? 'none' : 'block';
+      const mockContainer = document.getElementById('mock-exam-container');
+      if (mockContainer) mockContainer.style.display = isMock ? 'block' : 'none';
 
-      event.currentTarget.classList.add('active');
-      document.getElementById(tabId).classList.add('active');
-    }
-
-    function setSubjectFilter(subj, elem) {
-      currentFilter = subj;
-      document.querySelectorAll('.pill-btn').forEach(btn => btn.classList.remove('active'));
-      elem.classList.add('active');
-      renderQuestions();
-    }
-
-    function toggleOnlyBookmarks() {
-      onlyBookmarks = !onlyBookmarks;
-      const btn = document.getElementById('btnBookmarkFilter');
-      if (onlyBookmarks) {
-        btn.classList.add('primary');
+      if (isMock) {
+        renderMockView();
       } else {
-        btn.classList.remove('primary');
+        document.getElementById('mcq-stats').style.display = mode === 'prelim' ? 'flex' : 'none';
+        document.getElementById('written-stats').style.display = mode === 'written' ? 'flex' : 'none';
+        currentTopic = 'all';
+        updateTopicsDropdown();
+        renderQuestions();
       }
-      renderQuestions();
     }
 
-    function filterQuestions() {
-      renderQuestions();
-    }
-
-    function toggleBookmark(id) {
-      const idx = bookmarks.indexOf(id);
-      if (idx > -1) {
-        bookmarks.splice(idx, 1);
-      } else {
-        bookmarks.push(id);
-      }
-      localStorage.setItem('dss_computer_bookmarks', JSON.stringify(bookmarks));
-      updateBookmarkCount();
-      renderQuestions();
-    }
-
-    function updateBookmarkCount() {
-      document.getElementById('bookmarkCount').innerText = bookmarks.length;
-    }
-
-    function renderQuestions() {
-      const container = document.getElementById('questionContainer');
-      const search = (document.getElementById('searchInput').value || '').trim().toLowerCase();
-
-      let filtered = prelimQuestions.filter(q => {
-        // Subject filter
-        if (currentFilter !== 'all' && q.subject !== currentFilter) return false;
-        // Bookmark filter
-        if (onlyBookmarks && !bookmarks.includes(q.id)) return false;
-        // Search filter
-        if (search) {
-          const matchQ = q.question.toLowerCase().includes(search);
-          const matchTopic = (q.topic || '').toLowerCase().includes(search);
-          const matchSubj = (q.subject || '').toLowerCase().includes(search);
-          const matchOpts = (q.options || []).some(opt => opt.toLowerCase().includes(search));
-          return matchQ || matchTopic || matchSubj || matchOpts;
-        }
-        return true;
+    // Subject Pill Selector
+    function selectSubject(sub) {
+      currentSubject = sub;
+      customQuestionList = null;
+      resetPagination();
+      const pills = document.querySelectorAll('.subject-pill');
+      pills.forEach(pill => {
+        if (pill.id === 'pill-bookmark') return;
+        if (sub === 'all' && pill.textContent.includes('সকল বিষয়')) pill.classList.add('active');
+        else if (pill.textContent.includes(sub) && sub !== 'all') pill.classList.add('active');
+        else pill.classList.remove('active');
       });
+
+      currentTopic = 'all';
+      updateTopicsDropdown();
+      renderQuestions();
+    }
+
+    // Populate Dynamic Topics Dropdown
+    function updateTopicsDropdown() {
+      const activeData = currentMode === 'prelim' ? (window.PRELIM_QUESTIONS || PRELIM_QUESTIONS) : (window.WRITTEN_QUESTIONS || WRITTEN_QUESTIONS);
+      const select = document.getElementById('topic-select');
+      if (!select) return;
+
+      const chapters = getChapterList(activeData, currentSubject);
+
+      select.innerHTML = '<option value="all">সকল অধ্যায় ও টপিক (All Chapters)</option>';
+      chapters.forEach(c => {
+        const opt = document.createElement('option');
+        opt.value = c.chapter;
+        opt.textContent = c.chapter + ' (' + toBengaliNum(c.questions.length) + 'টি প্রশ্ন)';
+        select.appendChild(opt);
+      });
+
+      select.value = currentTopic;
+    }
+
+    // Search and Topic Change Handler
+    function handleFilterChange() {
+      resetPagination();
+      customQuestionList = null;
+      currentTopic = document.getElementById('topic-select').value;
+      searchQuery = document.getElementById('search-input').value.trim().toLowerCase();
+      renderQuestions();
+    }
+
+    // Render Question Cards
+    function renderQuestions() {
+      const activeData = currentMode === 'prelim' ? PRELIM_QUESTIONS : WRITTEN_QUESTIONS;
+      const container = document.getElementById('questions-list');
+      if (!container) return;
+
+      let filtered = customQuestionList || activeData;
+
+      if (!customQuestionList) {
+        if (currentSubject !== 'all') {
+          filtered = filtered.filter(q => isSubjectMatch(q.subject, currentSubject));
+        }
+
+        if (currentTopic !== 'all') {
+          filtered = filtered.filter(q => {
+            const ch = (q.chapter || q.subtopic || '').trim();
+            const top = (q.topic || '').trim();
+            return ch === currentTopic || top === currentTopic;
+          });
+        }
+
+        if (filterOnlyBookmarks) {
+          filtered = filtered.filter(q => bookmarks.has(q.id));
+        }
+
+        if (searchQuery) {
+          filtered = filtered.filter(q => {
+            const inQuestion = (q.question || '').toLowerCase().includes(searchQuery);
+            const inTopic = (q.topic || '').toLowerCase().includes(searchQuery);
+            const inAnswer = (q.explanation || q.answer || '').toLowerCase().includes(searchQuery);
+            return inQuestion || inTopic || inAnswer;
+          });
+        }
+      }
+
+      const totalQuestions = filtered.length;
+      const totalPages = Math.ceil(totalQuestions / PAGE_SIZE) || 1;
+
+      if (currentPage > totalPages) {
+        currentPage = 1;
+      }
+
+      let visibleQuestions = [];
+      let startIndex = 0;
+      let endIndex = 0;
+
+      if (customQuestionList) {
+        visibleQuestions = customQuestionList;
+        startIndex = 0;
+        endIndex = visibleQuestions.length;
+      } else {
+        startIndex = (currentPage - 1) * PAGE_SIZE;
+        endIndex = Math.min(startIndex + PAGE_SIZE, totalQuestions);
+        visibleQuestions = filtered.slice(startIndex, endIndex);
+      }
+
+      const visibleEl = document.getElementById('visible-count');
+      const totalEl = document.getElementById('total-count');
+      if (visibleEl) {
+        if (!customQuestionList && totalQuestions > PAGE_SIZE) {
+          visibleEl.innerHTML = `<strong>${toBengaliNum(startIndex + 1)} - ${toBengaliNum(endIndex)}</strong>`;
+        } else {
+          visibleEl.textContent = toBengaliNum(visibleQuestions.length);
+        }
+      }
+      if (totalEl) totalEl.textContent = toBengaliNum(customQuestionList ? customQuestionList.length : totalQuestions);
 
       if (filtered.length === 0) {
         container.innerHTML = `
-          <div style="text-align: center; padding: 40px; color: var(--text-muted); background: var(--bg-card); border-radius: var(--radius-md); border: 1px solid var(--border-color);">
-            <div style="font-size: 32px; margin-bottom: 8px;">🔍</div>
-            <p>কোনো প্রশ্ন খুঁজে পাওয়া যায়নি। অনুসন্ধান পরিবর্তন করুন।</p>
+          <div class="empty-state">
+            <h3>কোনো প্রশ্ন পাওয়া যায়নি</h3>
+            <p>${filterOnlyBookmarks ? 'আপনার কোনো প্রশ্ন বুকমার্ক বা স্টার করা নেই। প্রশ্নের ডানদিকের তারকা (☆) আইকনে ক্লিক করে বুকমার্ক করুন।' : 'আপনার অনুসন্ধান শর্ত বা ফিল্টার পরিবর্তন করে পুনরায় চেষ্টা করুন।'}</p>
           </div>
         `;
+        const paginationWrap = document.getElementById('paginationWrap');
+        if (paginationWrap) {
+          paginationWrap.innerHTML = '';
+          paginationWrap.style.display = 'none';
+        }
         return;
       }
 
-      container.innerHTML = filtered.map((q, idx) => {
-        const isBookmarked = bookmarks.includes(q.id);
-        return `
-          <div class="q-card" id="q_${q.id}">
-            <div class="q-header">
-              <div class="q-meta">
-                <span class="q-subject-badge">${q.subject}</span>
-                <span class="q-topic-badge">${q.topic || 'সাধারণ'}</span>
-                <span style="font-size: 11.5px; color: var(--text-dim);">#${q.id}</span>
-              </div>
-              <button class="btn-bookmark ${isBookmarked ? 'bookmarked' : ''}" onclick="toggleBookmark(${q.id})" title="বুকমার্ক করুন">
-                ${isBookmarked ? '⭐' : '☆'}
+      if (currentMode === 'prelim') {
+        renderPrelimCards(visibleQuestions, container, startIndex);
+      } else {
+        renderWrittenCards(visibleQuestions, container, startIndex);
+      }
+
+      const paginationWrap = document.getElementById('paginationWrap');
+      if (paginationWrap) {
+        if (customQuestionList) {
+          paginationWrap.innerHTML = `
+            <div class="load-more-container" style="text-align: center; margin: 30px 0;">
+              <button class="btn-load-all" onclick="resetCustomQuiz()" style="padding: 10px 24px; border-radius: 10px; background: #0284c7; color: #fff; font-weight: 700; cursor: pointer; border: none; font-family: inherit;">
+                ← সাধারণ প্রশ্নাবলীতে ফিরে যান (Exit Quick Quiz)
               </button>
             </div>
-
-            <div class="q-title">${idx + 1}. ${q.question}</div>
-
-            <div class="options-grid">
-              ${q.options.map((opt, optIdx) => `
-                <div class="option-item" onclick="selectPracticeOption(${q.id}, ${optIdx}, ${q.answer}, this)">
-                  <span style="font-weight: 700; color: #38bdf8;">${String.fromCharCode(65 + optIdx)}</span>
-                  <span>${opt.replace(/^[A-D]\)\s*/, '')}</span>
-                </div>
-              `).join('')}
-            </div>
-
-            <div class="q-footer">
-              <button class="btn-explain" onclick="toggleExplanation(${q.id})">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
-                ব্যাখ্যা দেখুন (Explanation)
-              </button>
-            </div>
-
-            <div class="explanation-box" id="exp_${q.id}">
-              <strong>সঠিক উত্তর: ${String.fromCharCode(65 + q.answer)}</strong><br>
-              ${q.explanation || 'এই প্রশ্নের জন্য কোনো অতিরিক্ত ব্যাখ্যা সংযুক্ত নেই।'}
-            </div>
-          </div>
-        `;
-      }).join('');
+          `;
+          paginationWrap.style.display = 'block';
+        } else if (totalPages > 1) {
+          paginationWrap.innerHTML = renderChunkPaginationHtml(totalPages, currentPage, totalQuestions, PAGE_SIZE);
+          paginationWrap.style.display = 'block';
+        } else {
+          paginationWrap.innerHTML = '';
+          paginationWrap.style.display = 'none';
+        }
+      }
 
       renderKaTeX(container);
     }
 
     // Universal KaTeX Math Renderer
     function renderKaTeX(target) {
+      if (typeof renderMathInElement !== 'function') return;
       const el = target || document.body;
-      if (typeof renderMathInElement === 'function') {
-        try {
-          renderMathInElement(el, {
-            delimiters: [
-              { left: '$$', right: '$$', display: true },
-              { left: '$', right: '$', display: false },
-              { left: '\\(', right: '\\)', display: false },
-              { left: '\\[', right: '\\]', display: true }
-            ],
-            throwOnError: false,
-            ignoredTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-          });
-        } catch (err) {
-          console.warn('KaTeX render warning:', err);
-        }
+      try {
+        renderMathInElement(el, {
+          delimiters: [
+            { left: '$$', right: '$$', display: true },
+            { left: '$', right: '$', display: false },
+            { left: '\\(', right: '\\)', display: false },
+            { left: '\\[', right: '\\]', display: true }
+          ],
+          throwOnError: false,
+          ignoredTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        });
+      } catch (err) {
+        console.warn('KaTeX render warning:', err);
       }
     }
     window.renderKaTeX = renderKaTeX;
 
-    function selectPracticeOption(qId, selectedIdx, correctIdx, elem) {
-      const card = document.getElementById(`q_${qId}`);
-      const options = card.querySelectorAll('.option-item');
-      
-      options.forEach(opt => {
-        opt.classList.remove('correct', 'incorrect');
-      });
-
-      if (selectedIdx === correctIdx) {
-        elem.classList.add('correct');
-      } else {
-        elem.classList.add('incorrect');
-        options[correctIdx].classList.add('correct');
-      }
-
-      // Auto show explanation
-      const expBox = document.getElementById(`exp_${qId}`);
-      if (expBox) {
-        expBox.classList.add('show');
-        renderKaTeX(expBox);
-      }
+    // Render Preliminary (MCQ) Cards
+    function toBengaliNum(num) {
+      const bnDigits = ['০','১','২','৩','৪','৫','৬','৭','৮','৯'];
+      return String(num).replace(/[0-9]/g, d => bnDigits[d]);
     }
 
-    function toggleExplanation(qId) {
-      const exp = document.getElementById(`exp_${qId}`);
-      if (exp) {
-        exp.classList.toggle('show');
-        if (exp.classList.contains('show')) {
-          renderKaTeX(exp);
+    // Render Preliminary (MCQ) Cards with Chapter Grouping Headers
+    function renderPrelimCards(questions, container, startIndex = 0) {
+      let lastTopic = null;
+      let html = '';
+
+      questions.forEach((q, idx) => {
+        const qKey = q.id;
+        const userAnswer = (userAnswers && userAnswers[qKey]);
+        const isAnswered = userAnswer !== undefined;
+        const isReadMode = (practiceSubMode === 'read');
+        const bookmarked = typeof isBookmarked === 'function' ? isBookmarked(qKey) : false;
+
+        const isEnglish = (q.subject && (q.subject.includes('English') || q.subject.includes('ইংরেজি'))) ||
+                          (q.options && q.options.every(o => typeof o === 'string' && /^[\w\s\.,\-\?'"\(\)\/:]+$/.test(o.trim())));
+        const optionLabels = isEnglish ? ['A', 'B', 'C', 'D', 'E'] : ['ক', 'খ', 'গ', 'ঘ', 'ঙ'];
+
+        // Determine correct index
+        let correctIdx = q.answer;
+        if (typeof correctIdx !== 'number' && Array.isArray(q.options)) {
+          correctIdx = q.options.findIndex(o => o === q.answer || cleanOptionText(o) === cleanOptionText(q.answer));
+          if (correctIdx === -1) correctIdx = 0;
+        }
+
+        const correctLabel = optionLabels[correctIdx] || (correctIdx + 1);
+        const correctCleanText = q.options && q.options[correctIdx] ? cleanOptionText(q.options[correctIdx]) : (q.answer || '');
+
+        // Subtopic group header
+        const curTopic = (q.topic || q.chapter || 'সাধারণ অধ্যায়').trim();
+        if (curTopic !== lastTopic) {
+          lastTopic = curTopic;
+          const countInTopic = questions.filter(item => (item.topic || item.chapter || 'সাধারণ অধ্যায়').trim() === curTopic).length;
+          html += `
+            <div class="chapter-group-header">
+              <div class="chapter-group-left">
+                <span class="chapter-group-icon">📂</span>
+                <div>
+                  <h3 class="chapter-group-title">${escapeHtml(curTopic)}</h3>
+                  <span class="chapter-group-subject">${escapeHtml(q.subject || 'সাধারণ বিষয়')}</span>
+                </div>
+              </div>
+              <span class="chapter-group-badge">${toBengaliNum(countInTopic)}টি প্রশ্ন</span>
+            </div>
+          `;
+        }
+
+        // 4 Options Grid (Exact 5266-BP-APP Layout)
+        const optionsHtml = (q.options || []).map((opt, optIdx) => {
+          const cleanOpt = cleanOptionText(opt);
+          const isCorrect = (optIdx === correctIdx);
+          const isSelected = (isAnswered && userAnswer.selectedOptionIndex === optIdx);
+
+          let itemClass = 'option-item-5266';
+          let statusIcon = '';
+
+          if (isReadMode) {
+            if (isCorrect) {
+              itemClass += ' correct';
+              statusIcon = '<span class="opt-status-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></span>';
+            }
+          } else if (isAnswered) {
+            itemClass += ' locked';
+            if (isCorrect) {
+              itemClass += ' correct';
+              statusIcon = '<span class="opt-status-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></span>';
+            } else if (isSelected) {
+              itemClass += ' wrong';
+              statusIcon = '<span class="opt-status-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#e11d48" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></span>';
+            }
+          }
+
+          const clickHandler = (!isAnswered && !isReadMode) 
+            ? `onclick="handle5266OptionSelect(${q.id}, ${optIdx}, ${correctIdx})"` 
+            : '';
+
+          return `
+            <div class="${itemClass}" ${clickHandler} id="opt-${q.id}-${optIdx}">
+              <div class="opt-indicator">${optionLabels[optIdx] || optIdx + 1}</div>
+              <span class="opt-label">${escapeHtml(cleanOpt)}</span>
+              ${statusIcon}
+            </div>
+          `;
+        }).join('');
+
+        const showExpl = isReadMode || isAnswered || Boolean(expandedExplanations[q.id]);
+
+        html += `
+          <div class="question-card-5266" id="q-card-${q.id}">
+            <!-- Header Tags & Tools -->
+            <div class="q-card-header-5266">
+              <div class="q-header-left-badges">
+                <span class="q-badge-num">#${toBengaliNum(startIndex + idx + 1)}</span>
+                ${q.subject ? `<span class="q-badge-subject">${escapeHtml(q.subject)}</span>` : ''}
+                ${q.topic ? `<span class="q-badge-topic"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>${escapeHtml(q.topic)}</span>` : ''}
+              </div>
+
+              <div class="q-header-right-tools">
+                <button type="button" class="btn-tool-bookmark ${bookmarked ? 'active' : ''}" onclick="toggleBookmark(${q.id}, event)" title="${bookmarked ? 'বুকমার্ক সরানো' : 'বুকমার্কে সংরক্ষণ'}">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="${bookmarked ? '#fbbf24' : 'none'}" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+                </button>
+                <button type="button" class="btn-tool-copy" onclick="copyQuestionCard(${q.id}, event)" title="প্রশ্ন ও অপশন কপি করুন">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                  <span>কপি</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Question Text -->
+            <h3 class="q-text-5266">
+              ${escapeHtml(q.question)}
+            </h3>
+
+            <!-- Options Grid: 4 in 1 line on desktop -->
+            <div class="question-options-grid">
+              ${optionsHtml}
+            </div>
+
+            <!-- Explanation Action Bar -->
+            <div class="q-action-bar-5266">
+              <button type="button" class="btn-toggle-expl-5266" onclick="toggleExplanationBox(${q.id})">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                <span id="explToggleText-${q.id}">${showExpl ? 'ব্যাখ্যা লুকান ▴' : 'বিস্তারিত ব্যাখ্যা ও নোট দেখুন ▾'}</span>
+              </button>
+            </div>
+
+            <!-- Expanded Explanation Box -->
+            <div class="explanation-box-5266 ${showExpl ? 'show' : ''}" id="expl-box-${q.id}">
+              <div class="expl-correct-row">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span>সঠিক উত্তর: </span>
+                <strong style="color: #047857;">(${correctLabel}) ${escapeHtml(correctCleanText)}</strong>
+              </div>
+
+              ${q.explanation ? `
+                <div class="expl-content-wrapper">
+                  <div class="expl-title-row">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    <span>সাধারণ ব্যাখ্যা:</span>
+                  </div>
+                  <div class="expl-text-body">
+                    ${escapeHtml(q.explanation)}
+                  </div>
+                </div>
+              ` : ''}
+            </div>
+          </div>
+        `;
+      });
+
+      container.innerHTML = html;
+      updateFloatingProgress();
+    }
+
+    // Handle MCQ Option Click (Targeted DOM update for instant <1ms response)
+    function handleOptionSelect(qId, selectedIdx, correctIdx) {
+      if (userAnswers[qId] !== undefined) return;
+
+      const isCorrect = selectedIdx === correctIdx;
+      userAnswers[qId] = { selectedOptionIndex: selectedIdx, isCorrect };
+
+      updateScoreStats();
+
+      const card = document.getElementById(`q-card-${qId}`);
+      if (card) {
+        const btns = card.querySelectorAll('.option-btn');
+        btns.forEach((btn, idx) => {
+          btn.classList.add('disabled');
+          btn.setAttribute('disabled', 'true');
+          const spanText = btn.firstElementChild ? btn.firstElementChild.outerHTML : `<span>${btn.textContent}</span>`;
+          if (idx === correctIdx) {
+            btn.classList.add('correct');
+            btn.innerHTML = `${spanText}<span style="color:#059669;font-weight:700;">✓</span>`;
+          } else if (idx === selectedIdx && !isCorrect) {
+            btn.classList.add('wrong');
+            btn.innerHTML = `${spanText}<span style="color:#dc2626;font-weight:700;">✗</span>`;
+          }
+        });
+
+        const expl = document.getElementById(`expl-${qId}`);
+        if (expl) {
+          expl.classList.add('show');
+          renderKaTeX(expl);
         }
       }
     }
 
-    // Written Tab Controllers & Renderer
-    function setWrittenSubjectFilter(subj, elem) {
-      currentWrittenFilter = subj;
-      document.querySelectorAll('#writtenFilterPills .pill-btn').forEach(btn => btn.classList.remove('active'));
-      elem.classList.add('active');
-      renderWrittenQuestions();
+    // Score Calculations (-0.50 negative marking)
+    function updateScoreStats() {
+      let correct = 0;
+      let wrong = 0;
+
+      Object.values(userAnswers).forEach(ans => {
+        if (ans.isCorrect) correct++;
+        else wrong++;
+      });
+
+      const netScore = (correct * 1.0) - (wrong * 0.50);
+
+      const corEl = document.getElementById('correct-count');
+      const wrgEl = document.getElementById('wrong-count');
+      const netEl = document.getElementById('net-score');
+      if (corEl) corEl.textContent = correct;
+      if (wrgEl) wrgEl.textContent = wrong;
+      if (netEl) netEl.textContent = netScore.toFixed(2);
     }
 
+    function resetMcqScore() {
+      userAnswers = {};
+      updateScoreStats();
+      renderQuestions();
+    }
+
+    // Render Written Cards
+    function renderWrittenCards(questions, container, startIndex = 0) {
+      container.innerHTML = questions.map((q, idx) => {
+        const bookmarked = isBookmarked(q.id);
+        const explanationItems = [];
+        if (Array.isArray(q.points_to_remember) && q.points_to_remember.length > 0) {
+          explanationItems.push(...q.points_to_remember);
+        }
+        if (q.explanation && typeof q.explanation === 'string' && q.explanation.trim()) {
+          explanationItems.push(q.explanation.trim());
+        }
+        if (q.tips && typeof q.tips === 'string' && q.tips.trim()) {
+          explanationItems.push(q.tips.trim());
+        }
+        if (explanationItems.length === 0) {
+          explanationItems.push('উক্ত প্রশ্নের প্রতিটি টেকনিক্যাল ধাপ, সূত্র এবং পরিভাষা লিখিত পরীক্ষার খাতায় নির্ভুলভাবে উপস্থাপন করা আবশ্যক।');
+        }
+
+        const explanationHtml = `
+          <div class="written-explanation-box">
+            <div class="written-explanation-title">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+              <span>বিস্তারিত ব্যাখ্যা ও পরীক্ষকের গুরুত্বপূর্ণ নোট (Detailed Explanation):</span>
+            </div>
+            <ul class="written-explanation-list">
+              ${explanationItems.map(pt => `<li>${escapeHtml(pt.trim())}</li>`).join('')}
+            </ul>
+          </div>
+        `;
+
+        return `
+          <div class="question-card written-card" id="written-q-${q.id}">
+            <div class="card-meta">
+              <span class="topic-tag">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+                ${q.topic}
+              </span>
+              <div style="display:flex; gap:8px; align-items:center;">
+                <span class="subject-tag">${q.subject}</span>
+                <span class="marks-badge">${q.marks} নম্বর</span>
+                <button class="btn-copy-question" onclick="copyQuestionCard(${q.id}, event)" title="লিখিত প্রশ্ন ও সমাধান কপি করুন" type="button">
+                  <svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                  <span class="copy-label">কপি</span>
+                </button>
+                <button class="btn-bookmark ${bookmarked ? 'active' : ''}" onclick="toggleBookmark(${q.id}, event)" title="বুকমার্ক / স্টার করুন">
+                  ${bookmarked ? '★' : '☆'}
+                </button>
+              </div>
+            </div>
+
+            <div class="q-title">
+              <span class="q-number">প্রশ্ন ${toBengaliNum(startIndex + idx + 1)}.</span> ${escapeHtml(q.question)}
+            </div>
+
+            <button class="btn-toggle-answer" onclick="toggleWrittenAnswer(${q.id})">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              <span>উত্তর দেখুন / লুকান</span>
+            </button>
+
+            <div class="written-answer-box" id="answer-box-${q.id}">
+              <div class="written-answer-header">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                <span>মডেল লিখিত উত্তর (Model Written Answer):</span>
+              </div>
+              <div class="written-answer-text">${escapeHtml(q.answer)}</div>
+              ${explanationHtml}
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // Toggle Single Written Answer
+    function toggleWrittenAnswer(qId) {
+      const box = document.getElementById(`answer-box-${qId}`);
+      if (box) {
+        box.classList.toggle('show');
+        if (box.classList.contains('show')) {
+          renderKaTeX(box);
+        }
+      }
+    }
+
+    // Toggle All Written Answers
+    function toggleAllWrittenAnswers(show) {
+      const boxes = document.querySelectorAll('.written-answer-box');
+      boxes.forEach(box => {
+        if (show) box.classList.add('show');
+        else box.classList.remove('show');
+      });
+      if (show) {
+        const container = document.getElementById('questions-list');
+        renderKaTeX(container);
+      }
+    }
+
+    // Utility: HTML Escaping
     function escapeHtml(text) {
       if (!text) return '';
-      return String(text)
+      return text
         .replace(/&/g, "&amp;")
         .replace(/</g, "&lt;")
         .replace(/>/g, "&gt;")
@@ -1821,314 +2759,584 @@
         .replace(/'/g, "&#039;");
     }
 
-    function filterWrittenQuestions() {
-      renderWrittenQuestions();
-    }
+    /* ==========================================================
+       MOCK EXAM ENGINE (100-Mark Full BPSC Standard Model Test)
+       ========================================================== */
+    let mockExamActive = false;
+    let mockExamSubmitted = false;
+    let mockQuestions = [];
+    let mockUserAnswers = {}; // { qId: selectedOptionIndex }
+    let mockTimerInterval = null;
+    let mockTimeRemaining = 3600; // 60 minutes in seconds
 
-    function toggleWrittenAnswer(qId) {
-      const ansElem = document.getElementById(`w_ans_${qId}`);
-      const btnElem = document.getElementById(`w_btn_${qId}`);
-      if (!ansElem) return;
+    function renderMockView() {
+      const container = document.getElementById('mock-exam-container');
+      if (!container) return;
 
-      ansElem.classList.toggle('collapsed');
-      if (ansElem.classList.contains('collapsed')) {
-        btnElem.innerHTML = '👁️ উত্তর দেখুন';
-      } else {
-        btnElem.innerHTML = '🙈 উত্তর লুকান';
-        renderKaTeX(ansElem);
-      }
-    }
-
-    function toggleAllWrittenAnswers() {
-      allAnswersVisible = !allAnswersVisible;
-      const allAns = document.querySelectorAll('.written-ans');
-      const allBtns = document.querySelectorAll('.btn-toggle-ans');
-      const masterBtn = document.getElementById('btnToggleAllWritten');
-
-      allAns.forEach(ans => {
-        if (allAnswersVisible) {
-          ans.classList.remove('collapsed');
-        } else {
-          ans.classList.add('collapsed');
-        }
-      });
-
-      allBtns.forEach(btn => {
-        btn.innerHTML = allAnswersVisible ? '🙈 উত্তর লুকান' : '👁️ উত্তর দেখুন';
-      });
-
-      if (masterBtn) {
-        masterBtn.innerHTML = allAnswersVisible ? '🙈 সব উত্তর লুকান' : '👁️ সব উত্তর দেখুন';
-      }
-
-      if (allAnswersVisible) {
-        const container = document.getElementById('writtenContainer');
-        renderKaTeX(container);
-      }
-    }
-
-    function renderWrittenQuestions() {
-      const container = document.getElementById('writtenContainer');
-      if (!writtenQuestions || writtenQuestions.length === 0) {
-        container.innerHTML = '<p style="color: var(--text-muted); text-align: center; padding: 20px;">লিখিত প্রশ্ন লোড হচ্ছে...</p>';
-        return;
-      }
-
-      const searchInput = document.getElementById('writtenSearchInput');
-      const search = (searchInput ? searchInput.value : '').trim().toLowerCase();
-
-      let filtered = writtenQuestions.filter(wq => {
-        if (currentWrittenFilter !== 'all' && !wq.subject.includes(currentWrittenFilter)) {
-          return false;
-        }
-        if (search) {
-          const matchQ = (wq.question || '').toLowerCase().includes(search);
-          const matchA = (wq.answer || '').toLowerCase().includes(search);
-          const matchTopic = (wq.topic || '').toLowerCase().includes(search);
-          const matchSubj = (wq.subject || '').toLowerCase().includes(search);
-          return matchQ || matchA || matchTopic || matchSubj;
-        }
-        return true;
-      });
-
-      if (filtered.length === 0) {
+      if (!mockExamActive && !mockExamSubmitted) {
         container.innerHTML = `
-          <div style="text-align: center; padding: 40px 20px; background: var(--bg-card); border-radius: var(--radius-md); border: 1px dashed var(--border-color);">
-            <p style="color: var(--text-muted); font-size: 15px;">🔍 আপনার অনুসন্ধানের সাথে মিলে এমন কোনো লিখিত প্রশ্ন পাওয়া যায়নি।</p>
-            <button class="nav-btn" style="margin-top: 10px;" onclick="resetWrittenFilters()">সকল প্রশ্ন প্রদর্শন করুন</button>
+          <div class="mock-welcome-card">
+            <h2>🇧🇩 বিপিএসসি ১০০ নম্বরের পূর্ণাঙ্গ মডেল টেস্ট</h2>
+            <p>সাব-অ্যাসিস্ট্যান্ট মেইনটেন্যান্স ইঞ্জিনিয়ার (১০ম গ্রেড) নিয়োগ পরীক্ষার অফিসিয়াল সিলেবাস ও মানবন্টন অনুযায়ী ১০০টি প্রশ্নের পূর্ণাঙ্গ টেস্ট:</p>
+            
+            <div class="mock-stats-grid">
+              <div class="mock-stat-box">
+                <strong>৪০ টি</strong>
+                <span>টেকনিক্যাল (কম্পিউটার)</span>
+              </div>
+              <div class="mock-stat-box">
+                <strong>২০ টি</strong>
+                <span>বাংলা</span>
+              </div>
+              <div class="mock-stat-box">
+                <strong>২০ টি</strong>
+                <span>ইংরেজি</span>
+              </div>
+              <div class="mock-stat-box">
+                <strong>২০ টি</strong>
+                <span>সাধারণ জ্ঞান</span>
+              </div>
+            </div>
+
+            <ul class="mock-rules-list">
+              <li>⏱️ <strong>সময়সীমা:</strong> ৬০ মিনিট (১ ঘণ্টা কাউন্টডাউন টাইমার)।</li>
+              <li>🎯 <strong>মানবন্টন:</strong> সর্বমোট ১০০ নম্বর (প্রতিটি সঠিক উত্তরে ১.০০ নম্বর)।</li>
+              <li>⚠️ <strong>নেগেটিভ মার্কিং:</strong> প্রতিটি ভুল উত্তরের জন্য -০.৫০ নম্বর কাটা যাবে।</li>
+              <li>🔍 <strong>ফলাফল ও বিশ্লেষণ:</strong> পরীক্ষা শেষে মোট নম্বর, বিষয়ভিত্তিক স্কোর এবং ১০০টি প্রশ্নের সঠিক উত্তর ও ব্যাখ্যা দেখতে পাবেন।</li>
+            </ul>
+
+            <button class="btn-start-mock" onclick="startMockExam()">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+              মডেল টেস্ট শুরু করুন (Start 100-Mark Exam)
+            </button>
           </div>
         `;
         return;
       }
 
-      container.innerHTML = filtered.map((wq, idx) => `
-        <div class="written-card" id="w_card_${wq.id}">
-          <div class="written-card-header">
-            <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
-              <span class="q-subject-badge" style="background: rgba(16, 185, 129, 0.15); border-color: rgba(16, 185, 129, 0.4); color: #34d399; font-weight: 700;">${wq.subject}</span>
-              <span class="q-topic-badge">${wq.topic}</span>
-              <span style="font-size: 11.5px; color: var(--text-dim);">#${wq.id}</span>
-            </div>
-            <button class="btn-toggle-ans" id="w_btn_${wq.id}" onclick="toggleWrittenAnswer(${wq.id})">
-              ${allAnswersVisible ? '🙈 উত্তর লুকান' : '👁️ উত্তর দেখুন'}
-            </button>
-          </div>
-          <div class="written-q">${idx + 1}. ${wq.question.replace(/\n/g, '<br>')}</div>
-          <div class="written-ans ${allAnswersVisible ? '' : 'collapsed'}" id="w_ans_${wq.id}">
-            <div class="written-answer-header">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
-              <span>মডেল লিখিত উত্তর (Model Written Answer):</span>
-            </div>
-            <div class="written-ans-content">${wq.answer}</div>
-            <div class="written-explanation-box">
-              <div class="written-explanation-title">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
-                <span>বিস্তারিত ব্যাখ্যা ও পরীক্ষকের গুরুত্বপূর্ণ নোট (Detailed Explanation):</span>
-              </div>
-              <div class="written-explanation-text">${wq.tips ? escapeHtml(wq.tips) : 'উক্ত প্রশ্নের প্রতিটি টেকনিক্যাল ধাপ, সূত্র এবং পরিভাষা লিখিত পরীক্ষার খাতায় নির্ভুলভাবে উপস্থাপন করা আবশ্যক।'}</div>
-            </div>
-          </div>
-        </div>
-      `).join('');
-
-      renderKaTeX(container);
-    }
-
-    function resetWrittenFilters() {
-      currentWrittenFilter = 'all';
-      if (document.getElementById('writtenSearchInput')) {
-        document.getElementById('writtenSearchInput').value = '';
+      if (mockExamActive) {
+        renderMockExamActive(container);
+      } else if (mockExamSubmitted) {
+        renderMockExamResults(container);
       }
-      document.querySelectorAll('#writtenFilterPills .pill-btn').forEach(btn => btn.classList.remove('active'));
-      const firstPill = document.querySelector('#writtenFilterPills .pill-btn');
-      if (firstPill) firstPill.classList.add('active');
-      renderWrittenQuestions();
     }
 
-    // Model Test Functions
-    function startMockExamDirect() {
-      // Switch to mock tab and start
-      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
-      document.querySelectorAll('.tab-pane').forEach(pane => pane.classList.remove('active'));
-
-      const mockTabBtn = document.querySelectorAll('.tab-btn')[2];
-      if (mockTabBtn) mockTabBtn.classList.add('active');
-      document.getElementById('mockTab').classList.add('active');
-
-      initiateLiveMockExam();
+    function sampleRandom(arr, n) {
+      const shuffled = [...arr].sort(() => 0.5 - Math.random());
+      return shuffled.slice(0, n);
     }
 
-    function initiateLiveMockExam() {
-      document.getElementById('mockStartScreen').style.display = 'none';
-      document.getElementById('mockResultCard').classList.remove('active');
-      document.getElementById('examLiveWrapper').classList.add('active');
+    function startMockExam() {
+      const techPool = PRELIM_QUESTIONS.filter(q => q.subject.includes('টেকনিক্যাল'));
+      const banglaPool = PRELIM_QUESTIONS.filter(q => q.subject.includes('বাংলা'));
+      const englishPool = PRELIM_QUESTIONS.filter(q => q.subject.includes('ইংরেজি'));
+      const gkPool = PRELIM_QUESTIONS.filter(q => q.subject.includes('সাধারণ জ্ঞান'));
 
-      // Randomly pick up to 70 questions (or all if < 70)
-      const shuffled = [...prelimQuestions].sort(() => 0.5 - Math.random());
-      mockExamQuestions = shuffled.slice(0, Math.min(70, shuffled.length));
-      userAnswers = {};
+      mockQuestions = [
+        ...sampleRandom(techPool, 40),
+        ...sampleRandom(banglaPool, 20),
+        ...sampleRandom(englishPool, 20),
+        ...sampleRandom(gkPool, 20)
+      ];
 
-      renderMockQuestions();
+      mockExamActive = true;
+      mockExamSubmitted = false;
+      mockUserAnswers = {};
+      mockTimeRemaining = 60 * 60; // 60 minutes
 
-      // Start Timer (60 mins)
-      timeRemaining = 60 * 60;
-      updateTimerDisplay();
-      clearInterval(timerInterval);
-      timerInterval = setInterval(() => {
-        timeRemaining--;
-        updateTimerDisplay();
-        if (timeRemaining <= 0) {
-          clearInterval(timerInterval);
-          alert('পরীক্ষার সময় সমাপ্ত হয়েছে!');
-          submitMockExam();
+      if (mockTimerInterval) clearInterval(mockTimerInterval);
+      mockTimerInterval = setInterval(() => {
+        mockTimeRemaining--;
+        updateMockTimerDisplay();
+        if (mockTimeRemaining <= 0) {
+          clearInterval(mockTimerInterval);
+          alert('সময় শেষ! আপনার পরীক্ষা স্বয়ংক্রিয়ভাবে জমা দেওয়া হলো।');
+          submitMockExam(true);
         }
       }, 1000);
+
+      renderMockView();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    function updateTimerDisplay() {
-      const mins = Math.floor(timeRemaining / 60);
-      const secs = timeRemaining % 60;
-      const formatted = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
-      const elem = document.getElementById('examTimer');
-      elem.innerText = `⏱️ ${formatted}`;
-      if (timeRemaining <= 300) {
-        elem.classList.add('danger');
-      } else {
-        elem.classList.remove('danger');
-      }
-    }
-
-    function renderMockQuestions() {
-      const container = document.getElementById('examQuestionsContainer');
-      container.innerHTML = mockExamQuestions.map((q, idx) => `
-        <div class="q-card" id="mock_q_${q.id}">
-          <div class="q-header">
-            <span class="q-subject-badge">${q.subject}</span>
-            <span style="font-size: 13px; color: var(--text-dim);">প্রশ্ন নং: ${idx + 1} / ${mockExamQuestions.length}</span>
-          </div>
-          <div class="q-title">${idx + 1}. ${q.question}</div>
-          <div class="options-grid">
-            ${q.options.map((opt, optIdx) => `
-              <div class="option-item ${userAnswers[q.id] === optIdx ? 'correct' : ''}" 
-                   onclick="selectMockAnswer(${q.id}, ${optIdx}, this)">
-                <span style="font-weight: 700; color: #38bdf8;">${String.fromCharCode(65 + optIdx)}</span>
-                <span>${opt.replace(/^[A-D]\)\s*/, '')}</span>
-              </div>
-            `).join('')}
-          </div>
-        </div>
-      `).join('');
-      renderKaTeX(container);
-      updateExamProgress();
-    }
-
-    function selectMockAnswer(qId, optIdx, elem) {
-      userAnswers[qId] = optIdx;
-      const card = document.getElementById(`mock_q_${qId}`);
-      card.querySelectorAll('.option-item').forEach((item, i) => {
-        if (i === optIdx) {
-          item.style.borderColor = '#38bdf8';
-          item.style.background = 'rgba(56, 189, 248, 0.2)';
-        } else {
-          item.style.borderColor = '';
-          item.style.background = '';
-        }
-      });
-      updateExamProgress();
-    }
-
-    function updateExamProgress() {
-      const answeredCount = Object.keys(userAnswers).length;
-      document.getElementById('examProgress').innerText = `উত্তর দেওয়া হয়েছে: ${answeredCount} / ${mockExamQuestions.length}`;
-    }
-
-    function confirmSubmitExam() {
-      const answered = Object.keys(userAnswers).length;
-      const unanswered = mockExamQuestions.length - answered;
-      if (confirm(`আপনি কি পরীক্ষা সমাপ্ত করতে চান?\nউত্তর দিয়েছেন: ${answered} টি\nঅনুত্তরিত: ${unanswered} টি`)) {
-        clearInterval(timerInterval);
-        submitMockExam();
-      }
-    }
-
-    function submitMockExam() {
-      let correct = 0;
-      let incorrect = 0;
-      let unattempted = 0;
-
-      mockExamQuestions.forEach(q => {
-        const ans = userAnswers[q.id];
-        if (ans === undefined) {
-          unattempted++;
-        } else if (ans === q.answer) {
-          correct++;
-        } else {
-          incorrect++;
-        }
-      });
-
-      const penalty = incorrect * 0.25;
-      const finalScore = Math.max(0, correct - penalty);
-
-      document.getElementById('examLiveWrapper').classList.remove('active');
-      document.getElementById('mockResultCard').classList.add('active');
-
-      document.getElementById('finalScoreVal').innerText = finalScore.toFixed(2);
-      document.getElementById('resCorrect').innerText = correct;
-      document.getElementById('resIncorrect').innerText = incorrect;
-      document.getElementById('resUnattempted').innerText = unattempted;
-      document.getElementById('resPenalty').innerText = `-${penalty.toFixed(2)}`;
-    }
-
-    function retakeExam() {
-      initiateLiveMockExam();
-    }
-
-    function reviewExamAnswers() {
-      document.getElementById('mockResultCard').classList.remove('active');
-      document.getElementById('examLiveWrapper').classList.add('active');
+    function updateMockTimerDisplay() {
+      const timerEl = document.getElementById('mock-timer-display');
+      if (!timerEl) return;
+      const mins = Math.floor(mockTimeRemaining / 60);
+      const secs = mockTimeRemaining % 60;
+      timerEl.textContent = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
       
-      // Hide submit and timer, show review explanation
-      document.getElementById('examTimer').innerText = '📝 উত্তরপত্র রিভিউ মোড';
-      document.querySelector('.btn-submit-exam').style.display = 'none';
+      const answeredCount = Object.keys(mockUserAnswers).length;
+      const progressEl = document.getElementById('mock-progress-display');
+      if (progressEl) progressEl.textContent = `উত্তর দেওয়া হয়েছে: ${answeredCount} / 100`;
+    }
 
-      const container = document.getElementById('examQuestionsContainer');
-      container.innerHTML = mockExamQuestions.map((q, idx) => {
-        const uAns = userAnswers[q.id];
-        const isCorrect = uAns === q.answer;
-        const isUnanswered = uAns === undefined;
+    function renderMockExamActive(container) {
+      const mins = Math.floor(mockTimeRemaining / 60);
+      const secs = mockTimeRemaining % 60;
+      const timerText = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+      const answeredCount = Object.keys(mockUserAnswers).length;
+
+      const questionsHtml = mockQuestions.map((q, idx) => {
+        const selected = mockUserAnswers[q.id];
+
+        const optionsHtml = q.options.map((opt, optIdx) => {
+          const isSelected = selected === optIdx;
+          const btnClass = 'option-btn' + (isSelected ? ' active-selected' : '');
+          return `
+            <button class="${btnClass}" style="${isSelected ? 'background:#e0f2fe;border-color:#0284c7;font-weight:600;' : ''}" onclick="selectMockOption(${q.id}, ${optIdx})">
+              <span>${opt}</span>
+              ${isSelected ? '<span style="color:#0284c7;font-weight:700;">●</span>' : ''}
+            </button>
+          `;
+        }).join('');
 
         return `
-          <div class="q-card" style="border-left: 4px solid ${isCorrect ? '#10b981' : isUnanswered ? '#94a3b8' : '#ef4444'};">
-            <div class="q-header">
-              <span class="q-subject-badge">${q.subject}</span>
-              <span style="font-weight: 700; color: ${isCorrect ? '#34d399' : isUnanswered ? '#94a3b8' : '#f87171'};">
-                ${isCorrect ? '✔ সঠিক (+১)' : isUnanswered ? '⚪ অনুত্তরিত (০)' : '✖ ভুল উত্তর (-০.২৫)'}
-              </span>
+          <div class="question-card" id="mock-q-${q.id}">
+            <div class="card-meta">
+              <span class="topic-tag">${q.topic}</span>
+              <span class="subject-tag">${q.subject}</span>
             </div>
-            <div class="q-title">${idx + 1}. ${q.question}</div>
+            <div class="q-title">
+              <span class="q-number">প্রশ্ন ${toBengaliNum(startIndex + idx + 1)}.</span> ${escapeHtml(q.question)}
+            </div>
             <div class="options-grid">
-              ${q.options.map((opt, optIdx) => {
-                let cls = '';
-                if (optIdx === q.answer) cls = 'correct';
-                else if (optIdx === uAns) cls = 'incorrect';
-                return `
-                  <div class="option-item ${cls}">
-                    <span style="font-weight: 700;">${String.fromCharCode(65 + optIdx)}</span>
-                    <span>${opt.replace(/^[A-D]\)\s*/, '')}</span>
-                  </div>
-                `;
-              }).join('')}
-            </div>
-            <div class="explanation-box show" style="display: block;">
-              <strong>সঠিক উত্তর: ${String.fromCharCode(65 + q.answer)}</strong><br>
-              ${q.explanation || 'সঠিক উত্তর যাচাই করুন।'}
+              ${optionsHtml}
             </div>
           </div>
         `;
       }).join('');
+
+      container.innerHTML = `
+        <div class="mock-sticky-bar">
+          <div class="mock-timer">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span id="mock-timer-display">${timerText}</span>
+          </div>
+          <div class="mock-progress" id="mock-progress-display">
+            উত্তর দেওয়া হয়েছে: ${answeredCount} / 100
+          </div>
+          <button class="btn-submit-mock" onclick="submitMockExam(false)">
+            পরীক্ষা সাবমিট করুন (Submit Exam)
+          </button>
+        </div>
+
+        <div class="mock-questions-list">
+          ${questionsHtml}
+        </div>
+      `;
+
       renderKaTeX(container);
     }
+
+    function selectMockOption(qId, optIdx) {
+      if (mockExamSubmitted) return;
+      mockUserAnswers[qId] = optIdx;
+
+      // Targeted card update
+      const card = document.getElementById(`mock-q-${qId}`);
+      if (card) {
+        const btns = card.querySelectorAll('.option-btn');
+        btns.forEach((btn, idx) => {
+          if (idx === optIdx) {
+            btn.style.background = '#e0f2fe';
+            btn.style.borderColor = '#0284c7';
+            btn.style.fontWeight = '600';
+            btn.innerHTML = `<span>${btn.firstElementChild.textContent}</span><span style="color:#0284c7;font-weight:700;">●</span>`;
+          } else {
+            btn.style.background = '';
+            btn.style.borderColor = '';
+            btn.style.fontWeight = 'normal';
+            btn.innerHTML = `<span>${btn.firstElementChild.textContent}</span>`;
+          }
+        });
+      }
+
+      updateMockTimerDisplay();
+    }
+
+    function submitMockExam(autoSubmit) {
+      if (!autoSubmit) {
+        const answered = Object.keys(mockUserAnswers).length;
+        const conf = confirm(`আপনি মোট ১০০টির মধ্যে ${answered}টি প্রশ্নের উত্তর দিয়েছেন।\nআপনি কি নিশ্চিত যে পরীক্ষা জমা দিতে চান?`);
+        if (!conf) return;
+      }
+
+      if (mockTimerInterval) clearInterval(mockTimerInterval);
+      mockExamActive = false;
+      mockExamSubmitted = true;
+
+      renderMockView();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function renderMockExamResults(container) {
+      let correct = 0;
+      let wrong = 0;
+      let skipped = 0;
+
+      const subBreakdown = {
+        'টেকনিক্যাল (কম্পিউটার)': { total: 0, correct: 0, wrong: 0 },
+        'বাংলা': { total: 0, correct: 0, wrong: 0 },
+        'ইংরেজি': { total: 0, correct: 0, wrong: 0 },
+        'সাধারণ জ্ঞান': { total: 0, correct: 0, wrong: 0 }
+      };
+
+      mockQuestions.forEach(q => {
+        const sub = q.subject;
+        if (!subBreakdown[sub]) subBreakdown[sub] = { total: 0, correct: 0, wrong: 0 };
+        subBreakdown[sub].total++;
+
+        const userSel = mockUserAnswers[q.id];
+        if (userSel === undefined) {
+          skipped++;
+        } else if (userSel === q.answer) {
+          correct++;
+          subBreakdown[sub].correct++;
+        } else {
+          wrong++;
+          subBreakdown[sub].wrong++;
+        }
+      });
+
+      const netScore = (correct * 1.0) - (wrong * 0.50);
+      const isPassed = netScore >= 45.0; // Standard BPSC qualifying threshold
+
+      const resultCardsHtml = mockQuestions.map((q, idx) => {
+        const userSel = mockUserAnswers[q.id];
+        const isAnswered = userSel !== undefined;
+        const isCorrect = userSel === q.answer;
+
+        const optionsHtml = q.options.map((opt, optIdx) => {
+          let btnStyle = 'background:var(--bg-main);border:1.5px solid var(--border-color);';
+          let statusBadge = '';
+
+          if (optIdx === q.answer) {
+            btnStyle = 'background:#ecfdf5;border-color:#10b981;color:#065f46;font-weight:600;';
+            statusBadge = '<span style="color:#059669;font-weight:700;">✓ সঠিক উত্তর</span>';
+          } else if (userSel === optIdx && !isCorrect) {
+            btnStyle = 'background:#fef2f2;border-color:#ef4444;color:#991b1b;';
+            statusBadge = '<span style="color:#dc2626;font-weight:700;">✗ আপনার উত্তর (ভুল)</span>';
+          }
+
+          return `
+            <div class="option-btn disabled" style="${btnStyle}">
+              <span>${opt}</span>
+              ${statusBadge}
+            </div>
+          `;
+        }).join('');
+
+        return `
+          <div class="question-card" id="review-q-${q.id}">
+            <div class="card-meta">
+              <span class="topic-tag">${q.topic}</span>
+              <span class="subject-tag">${q.subject}</span>
+              ${!isAnswered ? '<span style="background:#f1f5f9;color:#64748b;font-size:11px;padding:3px 8px;border-radius:6px;">উত্তর দেননি (Skipped)</span>' : ''}
+              ${isAnswered && isCorrect ? '<span style="background:#ecfdf5;color:#059669;font-size:11px;padding:3px 8px;border-radius:6px;font-weight:600;">+১.০০ প্রাপ্ত</span>' : ''}
+              ${isAnswered && !isCorrect ? '<span style="background:#fef2f2;color:#dc2626;font-size:11px;padding:3px 8px;border-radius:6px;font-weight:600;">-০.৫০ কর্তন</span>' : ''}
+            </div>
+            <div class="q-title">
+              <span class="q-number">প্রশ্ন ${toBengaliNum(startIndex + idx + 1)}.</span> ${escapeHtml(q.question)}
+            </div>
+            <div class="options-grid">
+              ${optionsHtml}
+            </div>
+            <div class="explanation-box show">
+              <div class="explanation-title">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+                সঠিক উত্তর ও বিস্তারিত ব্যাখ্যা:
+              </div>
+              <p><strong>উত্তর:</strong> ${q.options[q.answer]}</p>
+              <p style="margin-top: 4px;">${escapeHtml(q.explanation)}</p>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      container.innerHTML = `
+        <div class="mock-result-card">
+          <h2 style="font-size: 24px; color: var(--text-main);">📋 মডেল টেস্ট রেজাল্ট শিট</h2>
+          <div class="result-score-highlight ${isPassed ? 'text-success' : ''}">
+            ${netScore.toFixed(2)} <span style="font-size: 20px; color: var(--text-muted); font-weight: 500;">/ ১০০</span>
+          </div>
+          
+          <div style="font-size: 16px; font-weight: 700; margin-bottom: 20px;">
+            ${isPassed 
+              ? '<span style="color:#059669;background:#ecfdf5;padding:6px 16px;border-radius:999px;">🏆 অভিনন্দন! আপনি পাস করেছেন (লিখিত পরীক্ষার যোগ্য)</span>' 
+              : '<span style="color:#dc2626;background:#fef2f2;padding:6px 16px;border-radius:999px;">⚠️ অনুত্তীর্ণ (পাস মার্ক ৪৫.০০) — নেগেটিভ মার্কিং কমিয়ে পুনর্বার অনুশীলন করুন</span>'}
+          </div>
+
+          <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 24px;">
+            <div class="mock-stat-box" style="min-width: 140px;">
+              <strong style="color:#059669;">${correct}</strong>
+              <span>সঠিক উত্তর (+১.০০)</span>
+            </div>
+            <div class="mock-stat-box" style="min-width: 140px;">
+              <strong style="color:#dc2626;">${wrong}</strong>
+              <span>ভুল উত্তর (-০.৫০)</span>
+            </div>
+            <div class="mock-stat-box" style="min-width: 140px;">
+              <strong style="color:#64748b;">${skipped}</strong>
+              <span>অনুত্তর (০.০০)</span>
+            </div>
+          </div>
+
+          <!-- Subject Breakdown Table -->
+          <h3 style="font-size: 16px; text-align: left; margin-bottom: 8px;">📊 বিষয়ভিত্তিক মূল্যায়ন বিবরণী:</h3>
+          <table class="result-table">
+            <thead>
+              <tr>
+                <th>বিষয়</th>
+                <th>মোট প্রশ্ন</th>
+                <th>সঠিক</th>
+                <th>ভুল</th>
+                <th>অর্জিত নেট নম্বর</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${Object.entries(subBreakdown).map(([sub, data]) => {
+                const subNet = (data.correct * 1.0) - (data.wrong * 0.50);
+                return `
+                  <tr>
+                    <td><strong>${sub}</strong></td>
+                    <td>${data.total}</td>
+                    <td style="color:#059669;font-weight:600;">${data.correct}</td>
+                    <td style="color:#dc2626;font-weight:600;">${data.wrong}</td>
+                    <td><strong>${subNet.toFixed(2)}</strong></td>
+                  </tr>
+                `;
+              }).join('')}
+            </tbody>
+          </table>
+
+          <div style="margin-top: 24px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+            <button class="btn-start-mock" onclick="startMockExam()">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 4v6h6M23 20v-6h-6"/><path d="M20.49 9A9 9 0 005.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 013.51 15"/></svg>
+              আরেকটি নতুন মডেল টেস্ট দিন (Take Another Mock Test)
+            </button>
+            <button class="btn-print-action" onclick="window.print()">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+              রেজাল্ট ও সমাধান প্রিন্ট / PDF সংরক্ষণ
+            </button>
+          </div>
+        </div>
+
+        <h3 style="margin: 30px 0 16px 0; font-size: 18px; color: var(--text-main);">
+          🔍 ১০০টি প্রশ্নের পূর্ণাঙ্গ রিভিউ ও বিস্তারিত সমাধান:
+        </h3>
+        
+        <div class="mock-review-list">
+          ${resultCardsHtml}
+        </div>
+      `;
+
+      renderKaTeX(container);
+    }
+
+    // Start App on Load
+    window.addEventListener('DOMContentLoaded', initApp);
+
+  
+    // ==========================================================================
+    // EXAM MODE CONTROLLER (Prelim MCQ, Written & Mock Exam)
+    // ==========================================================================
+    function switchExamMode(mode) {
+      currentMode = mode;
+      resetPagination();
+      customQuestionList = null;
+
+      const btnPrelim = document.getElementById('viewBtnPrelim');
+      const btnWritten = document.getElementById('viewBtnWritten');
+      const btnMock = document.getElementById('viewBtnMock');
+
+      [btnPrelim, btnWritten, btnMock].forEach(b => { if (b) b.classList.remove('active'); });
+
+      const qView = document.getElementById('smartQuestionsView');
+      const mockView = document.getElementById('mock-exam-container');
+      const filterCard = document.querySelector('.filter-control-card');
+
+      if (mode === 'mock') {
+        if (btnMock) btnMock.classList.add('active');
+        if (qView) qView.style.display = 'none';
+        if (filterCard) filterCard.style.display = 'none';
+        if (mockView) mockView.style.display = 'block';
+        renderMockView();
+        window.scrollTo({ top: 180, behavior: 'smooth' });
+        return;
+      }
+
+      if (mode === 'prelim') {
+        if (btnPrelim) btnPrelim.classList.add('active');
+      } else {
+        if (btnWritten) btnWritten.classList.add('active');
+      }
+
+      const cardsView = document.getElementById('smartChapterCardsView');
+      if (cardsView) cardsView.style.display = 'block';
+      if (qView) qView.style.display = 'none';
+      if (mockView) mockView.style.display = 'none';
+      if (filterCard) filterCard.style.display = 'block';
+
+      const modeBadge = document.getElementById('activeModeBadge');
+      if (modeBadge) modeBadge.textContent = mode === 'prelim' ? 'প্রিলিমিনারি (MCQ)' : 'লিখিত (Written)';
+
+      const mcqStats = document.getElementById('mcq-stats');
+      const writtenStats = document.getElementById('written-stats');
+      if (mcqStats) mcqStats.style.display = mode === 'prelim' ? 'flex' : 'none';
+      if (writtenStats) writtenStats.style.display = mode === 'written' ? 'flex' : 'none';
+
+      updateTopicsDropdown();
+      renderChapterCards();
+      updateSubjectPillCounts();
+      window.scrollTo({ top: 180, behavior: 'smooth' });
+    }
+
+    function resetTopicFilter() {
+      currentTopic = 'all';
+      const select = document.getElementById('topic-select');
+      if (select) select.value = 'all';
+      const activeBadge = document.getElementById('activeTopicBadgeName');
+      if (activeBadge) activeBadge.textContent = 'সকল অধ্যায় ও টপিক';
+      resetPagination();
+      renderQuestions();
+    }
+
+    function handleSubjectPillClick(subj, btn) {
+      document.querySelectorAll('#subjectPillsGroup .filter-btn').forEach(b => {
+        b.classList.remove('active');
+        b.classList.add('inactive');
+      });
+      if (btn) {
+        btn.classList.remove('inactive');
+        btn.classList.add('active');
+      } else {
+        const found = document.querySelector(`#subjectPillsGroup [data-subject="${subj}"]`);
+        if (found) {
+          found.classList.remove('inactive');
+          found.classList.add('active');
+        }
+      }
+      currentSubject = subj;
+      currentTopic = 'all';
+      saveSelectedSubject(subj);
+      updateTopicsDropdown();
+
+      const cardsView = document.getElementById('smartChapterCardsView');
+      const qView = document.getElementById('smartQuestionsView');
+      if (cardsView && cardsView.style.display !== 'none') {
+        renderChapterCards();
+      } else if (qView && qView.style.display !== 'none') {
+        renderQuestions();
+      } else {
+        showChapterCardsView();
+      }
+      updateSubjectPillCounts();
+    }
+
+    function handleSmartSearch() {
+      const input = document.getElementById('search-input');
+      const clearBtn = document.getElementById('clearSearchBtn');
+      searchQuery = (input ? input.value : '').toLowerCase().trim();
+      if (clearBtn) clearBtn.style.display = searchQuery ? 'block' : 'none';
+
+      const cardsView = document.getElementById('smartChapterCardsView');
+      if (cardsView && cardsView.style.display !== 'none') {
+        renderChapterCards();
+      } else {
+        resetPagination();
+        renderQuestions();
+      }
+    }
+
+    function clearSmartSearch() {
+      const input = document.getElementById('search-input');
+      if (input) input.value = '';
+      const clearBtn = document.getElementById('clearSearchBtn');
+      if (clearBtn) clearBtn.style.display = 'none';
+      searchQuery = '';
+
+      const cardsView = document.getElementById('smartChapterCardsView');
+      if (cardsView && cardsView.style.display !== 'none') {
+        renderChapterCards();
+      } else {
+        resetPagination();
+        renderQuestions();
+      }
+    }
+
+    function handleSmartTopicSelect() {
+      const select = document.getElementById('topic-select');
+      const val = select ? select.value : 'all';
+      if (val === 'all') {
+        showChapterCardsView();
+      } else {
+        openChapterQuestions(val);
+      }
+    }
+
+    function clearSmartSearch() {
+      const input = document.getElementById('search-input');
+      if (input) input.value = '';
+      const clearBtn = document.getElementById('clearSearchBtn');
+      if (clearBtn) clearBtn.style.display = 'none';
+      searchQuery = '';
+      resetPagination();
+      renderQuestions();
+    }
+
+    function handleSmartTopicSelect() {
+      const select = document.getElementById('topic-select');
+      currentTopic = select ? select.value : 'all';
+      const activeBadge = document.getElementById('activeTopicBadgeName');
+      if (activeBadge) activeBadge.textContent = currentTopic === 'all' ? 'সকল অধ্যায় ও টপিক' : currentTopic;
+      resetPagination();
+      renderQuestions();
+    }
+
+    function updateSubjectPillCounts() {
+      const activeData = currentMode === 'prelim' ? (window.PRELIM_QUESTIONS || PRELIM_QUESTIONS) : (window.WRITTEN_QUESTIONS || WRITTEN_QUESTIONS);
+      
+      const allChapters = getChapterList(activeData, 'all');
+      const techChapters = getChapterList(activeData, 'কম্পিউটার');
+      const banglaChapters = getChapterList(activeData, 'বাংলা');
+      const englishChapters = getChapterList(activeData, 'ইংরেজি');
+      const gkChapters = getChapterList(activeData, 'সাধারণ জ্ঞান');
+      const mathChapters = getChapterList(activeData, 'গণিত');
+
+      const allEl = document.getElementById('countAllPill');
+      if (allEl) allEl.textContent = toBengaliNum(allChapters.length);
+
+      const techEl = document.getElementById('countTechPill');
+      if (techEl) techEl.textContent = toBengaliNum(techChapters.length);
+
+      const banglaEl = document.getElementById('countBanglaPill');
+      if (banglaEl) banglaEl.textContent = toBengaliNum(banglaChapters.length);
+
+      const englishEl = document.getElementById('countEnglishPill');
+      if (englishEl) englishEl.textContent = toBengaliNum(englishChapters.length);
+
+      const gkEl = document.getElementById('countGkPill');
+      if (gkEl) gkEl.textContent = toBengaliNum(gkChapters.length);
+
+      const mathEl = document.getElementById('countMathPill');
+      if (mathEl) mathEl.textContent = toBengaliNum(mathChapters.length);
+    }
+  
+  
+  
   </script>
+
+  <!-- Floating Bottom-Left Progress Pill (Exact 5266-BP-APP Layout) -->
+  <div class="quiz-floating-progress-left" id="floatingProgressLeft" style="display: none;">
+    <div class="quiz-progress-pill-badge" title="মোট প্রশ্ন, সম্পন্ন ও বাকি প্রশ্নের লাইভ হিসাব">
+      <span>মোট প্রশ্ন: <strong id="progressTotalQ">০</strong></span>
+      <span class="quiz-pill-divider">|</span>
+      <span>সম্পন্ন: <strong id="progressDoneQ">০</strong></span>
+      <span class="quiz-pill-divider">|</span>
+      <span>বাকি: <strong id="progressLeftQ">০</strong></span>
+    </div>
+  </div>
+
 </body>
 </html>
